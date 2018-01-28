@@ -1,0 +1,51 @@
+# Site settings
+title: Teaching Tech Together
+email: gvwilson@third-bit.com
+url: http://teachtogether.tech
+description: "Teaching people in tech how to teach and how to build teaching communities."
+keywords: "teaching, learning, education, technology"
+skills: "Teaching - Learning - Technology"
+meta_author: Wilson Greg
+future: true
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+# disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Greg Wilson
+  location: Toronto, Canada
+  social: "@gvwilson"
+  credits: Jerome Lachaud (theme)
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/gvwilson
+  - title: github
+    url: http://github.com/gvwilson
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Toronto, Ontario, Canada
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
