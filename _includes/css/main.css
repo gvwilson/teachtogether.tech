@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 h1,
@@ -328,6 +328,10 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+}
+
+footer a, a:hover {
+    color: #{{ site.color.primary }};
 }
 
 footer h3 {
