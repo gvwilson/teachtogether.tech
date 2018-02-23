@@ -5,14 +5,8 @@ url: http://teachtogether.tech
 description: "Teaching people in tech how to teach and how to build teaching communities."
 keywords: "teaching, learning, education, technology"
 skills: "Teaching - Learning - Technology"
-meta_author: Wilson Greg
+meta_author: Greg Wilson
 future: true
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
