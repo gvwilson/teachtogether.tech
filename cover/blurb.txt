@@ -1,0 +1,84 @@
+Hundreds of grassroots groups have sprung up around the world to teach programming, web design, robotics,
+and other skills outside traditional classrooms.  These groups exist so that people don't have to learn these
+things on their own, but ironically, their founders and instructors are often teaching themselves how to teach.
+
+There's a better way. Just as knowing a few basic facts about germs and nutrition can help you stay healthy,
+knowing a few things about psychology, lesson design, inclusivity, and community organization can help you
+be a more effective teacher. This book presents evidence-based practices you can use right now, explains why
+we believe they are true, and points you at other resources that will help you go further.
+
+Parts of this book were originally created for Software Carpentry's instructor training program, which has been
+run over a hundred times during the past six years. You can share and remix this material under the Creative
+Commons - Attribution 4.0 (CC-BY) license. Please see:
+
+               http://teachtogether.tech
+
+to download a digital version, purchase a printed copy, or suggest a correction or addition.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.  Be kind: all else is details.
+2.  Remember that you are not your learners..
+3.  ...that most people would rather fail than change...
+4.  ...and that ninety percent of magic consists of knowing one extra thing.
+5.  Never teach alone.
+6.  Never hesitate to sacrifice truth for clarity.
+7.  Make every mistake a lesson.
+8.  Remember that no lesson survives first contact with learners...
+9.  ...that every lesson is too short from the teacher's point of view and too long from the learner's...
+10. and that nobody will be more excited about the lesson than you are.
+
+
+
+
+
+
+
+
+
+Greg Wilson has worked as a programmer and teacher in industry, academia, and the non-profit sector
+for 35 years. He is the author or editor of several books on programming and two for children. To learn
+more about him, please see http://third-bit.com.

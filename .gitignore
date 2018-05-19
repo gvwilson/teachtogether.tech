@@ -1,0 +1,13 @@
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*~
+.DS_Store
+.jekyll-metadata
+_site
+issues.html
+years.png
+tex/t3.pdf

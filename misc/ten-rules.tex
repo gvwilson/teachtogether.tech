@@ -1,0 +1,434 @@
+\chapter{Ten Quick Tips for Teaching Programming}\label{s:ten}
+
+\emph{
+  This material was originally co-written with Dr.\ Neil Brown of
+  King's College London, and appeared in \cite{Brow2018}.  We are
+  grateful to Barbara Ericson and Leo Porter for their comments on a
+  draft of this article, and to Lauren Margulieux for providing the
+  subgoal example.
+}
+
+Research from educational psychology suggests that teaching and
+learning are subject-specific activities \cite{Maye2004}: learning
+programming has a different set of challenges and techniques than
+learning physics or learning to read and write.  Computing is a
+younger discipline than mathematics, physics, or biology, and while
+there have been correspondingly fewer studies of how best to teach it,
+there is a growing body of evidence about what works and what doesn't.
+This paper presents ten quick tips that should be the foundation of
+any teaching of programming, whether formal or informal.
+
+These tips will be useful to anyone teaching programming at any level
+and to any audience. A larger list aimed primarily at K-12 audiences
+can be found at the \href{http://csteachingtips.org/}{CS Teaching Tips
+  site}.
+
+\section*{Remember That There is No Geek Gene}
+
+Guzdial \cite{Guzd2015b} refers to the belief that some people are
+born programmers and others aren't as ``computing's most enduring and
+damaging myth.''  This is often ``confirmed'' by looking at university
+grade distributions, which are commonly held to be bimodal: a
+low-scoring hump of those that will never get it and a high-scoring
+hump of those that have the right stuff.  Our first and most important
+tip is that this is wrong: competence at programming is not innate,
+but is rather a learned skill that can be acquired and improved with
+practice.
+
+The most powerful evidence for this comes from Patitsas et
+al. \cite{Pati2016}.  They examined grade distributions in
+introductory computing courses at a large university, and found that
+only 5.8\% were actually multi-modal.  More damningly, they found that
+computer science faculty were more likely to see distributions as
+bimodal if they thought those grades came from a programming class
+than if they believed the grades came from some other kind of class,
+and that those faculty were even more likely to see the distributions
+as bimodal if they believed that some students are innately
+predisposed to do well in computer science.
+
+Beliefs such as this are known to have powerful effects on education
+outcomes \cite{Alvi1999,Brop1983,Juss2005}.  If instructors
+believe that ``some kids get it and some kids don't'', they will
+(consciously or unconsciously) invest less in those whom they put in
+the second category.  When combined with cultural stereotypes about
+who is and isn't a ``natural programmer'', the downward spiral of
+under-achievement that results from differential attention may be
+partly responsible for the gender imbalance in computing.
+
+\section*{Use Peer Instruction}
+
+One-on-one tutoring is perhaps the ideal form of teaching: all of a
+teacher's attention can be focused on one student, and they can
+completely customize their teaching for that person and tailor
+individual feedback and corrections based on two-way dialogue with
+them.  In realistic settings, however, one teacher must usually teach
+several, tens, or even hundreds of students at once.  How can teachers
+possibly hope to clear up many learners' different misconceptions in
+these larger settings in a reasonable time?
+
+The best method developed so far for larger-scale classrooms is called
+Peer Instruction.  Originally created by Eric Mazur at Harvard
+\cite{Mazu1996}, it has been studied extensively in a wide variety of
+contexts, including programming \cite{Port2011,Port2013}.  In
+simplified form, peer instruction proceeds in several phases:
+
+\begin{enumerate}
+
+\item
+  The instructor gives learners a brief introduction to the topic.
+
+\item
+  The instructor then gives learners a multiple choice question that
+  probes for misconceptions rather than simple factual recall.  A
+  programming example is given below which relates to integer
+  comparison and loops.  The multiple choice question must be well
+  designed.  There is no point asking a trivial question that all
+  students will get right or one with meaningless wrong answers which
+  no student will pick.  The ideal questions are those where 40--60\%
+  of students are likely to get the right answer first time
+  \cite[p23]{NRC2015}, and where every wrong answer corresponds to a
+  misconception that will cause it to be picked by at least some
+  students.
+
+\item
+  Learners then vote on the answer to the question individually, thus
+  formalizing their initial prediction.
+
+\item
+  Learners are then given several minutes to discuss those answers
+  with one another in small groups (typically 2--4 students) and then
+  reconvene and vote again.
+
+\item
+  Then the instructor can act on the latest answers:
+
+  \begin{itemize}
+  \item
+    If all the learners have the right answer, the instructor can move on.
+  \item
+    If some of the wrong answers remain popular after group
+    discussion, the instructor can addresses those specific
+    misconceptions directly or engage in class-wide discussion.
+  \end{itemize}
+
+\end{enumerate}
+
+Peer instruction is essentially a way to provide one-to-one mentorship
+in a scalable way.  Group discussion significantly improves learners'
+understanding because it forces them to clarify their thinking, which
+can be enough to call out gaps in reasoning.  Re-polling the class
+then lets the instructor know if they can move on, or if further
+explanation is necessary.  While it significantly outperforms
+lecture-based instruction in most situations, it can be problematic if
+ability levels differ widely (as they often do in introductory
+programming classes because of varied prior experience).  Pair
+programming can be used to mitigate this.
+
+\begin{quote}
+\begin{verbatim}
+for (int i = 1; i < 10; i++) {
+  if (i < 3 || i >= 8) {
+    System.out.println("Yes");
+  }
+}
+\end{verbatim}
+
+How many times will the above code print out the word Yes?
+
+\begin{enumerate}
+\item 10
+\item 5
+\item 4
+\item 3
+\end{enumerate}
+\end{quote}
+
+\section*{Use Live Coding}
+
+Rather than using slides, instructors should create programs in front
+of their learners \cite{Rubi2013}.  This is more effective for
+multiple reasons:
+
+\begin{enumerate}
+
+\item
+  It enables instructors to be more responsive to ``what if?''
+  questions. Where a slide deck is like a highway, live coding allows
+  instructors to go off road and follow their learners' interests or
+  answer unanticipated questions.
+
+\item
+  It facilitates unintended knowledge transfer: students learn more
+  than the instructor consciously intends to teach by watching
+  \emph{how} instructors do things.  The extra knowledge may be
+  high-level (e.g., whether a program is written top-down or
+  bottom-up) or fairly low-level (e.g., learning useful editor
+  shortcuts).
+
+\item
+  It slows the instructor down: if the instructor has to type in the
+  program as they go along, they can only go twice as fast as their
+  learners, rather than ten-fold faster as they could with slides --
+  which risks leaving everyone behind.
+
+\item
+  Learners get to see how instructors diagnose and correct
+  mistakes. Novices are going to spend most of their time doing this,
+  but it's left out of most textbooks.
+
+\item
+  Watching instructors make mistakes shows learners that it's all
+  right to make mistakes of their own \cite{Bark2005}.  Most people
+  model the behavior of their teachers: if the instructor isn't
+  embarrassed about making and talking about mistakes, learners will
+  be more comfortable doing so too.
+
+\end{enumerate}
+
+Live coding does have some drawbacks, but with practice, these can be
+avoided or worked around:
+
+\begin{enumerate}
+
+\item
+  Instructors can go too slowly, either because they are not good
+  typists or by spending too much time looking at notes to try to
+  remember what they meant to type.
+
+\item
+  Instructors can spend too much time typing in boilerplate code that
+  is needed by the lesson, but not directly relevant to it (such as
+  library import statements). Not only does this slow things down, it
+  can distract learners from the intended thrust of a lesson.  As
+  Willingham \cite{Will2010} says, ``Memory is the residue of
+  thought''; if the instructor spends their time typing boilerplate,
+  that may be all that learners take away.  This can be avoided by
+  starting with a partial skeleton that includes the boilerplate, or
+  having it on hand to copy and paste when needed.  (Of the two, we
+  prefer the former, since learners may not be able to keep up with
+  copying and pasting.)
+
+\end{enumerate}
+
+Note that live coding does not always have to start with a blank
+screen: instructors may give students some starter code that relies
+solely on concepts they have already mastered, and then extend it or
+modify it with live coding.  Instructors who use live coding should
+ensure that learners have reference material available after lectures,
+such as a textbook, but should also recognize that students of all
+ages increasingly turn to Q\&A sites such as Stack Overflow for
+information.
+
+\section*{Have Students Make Predictions}
+
+When instructors are using live coding, they usually run the program
+several times during its development to show what it does.  Surprising
+research from peer instruction in physics education shows that
+learners who observe a demonstration \emph{do not learn better} than
+those who did not see the demonstration \cite{Crou2004}, and in fact
+many learners misremember the outcome of demonstrations afterwards
+\cite{Mill2013}.  In other words, demonstrations can actually be
+useless or actively harmful.
+
+The key to making demonstrations more effective is to make learners
+predict the outcome of the demonstration before performing it.
+Crucially, their prediction should be in some way recorded or public,
+e.g. by a show of hands, by holding up a cue card (A/B/C/D), or by
+talking to their neighbor.  We speculate that the sting of being
+publicly wrong leads learners to pay more attention and to reflect on
+what they are learning; regardless of whether this hypothesis is true,
+instructors should be careful not to punish or criticize students who
+predicted wrongly, but rather to use those incorrect predictions as a
+spur to further exploration and explanation.
+
+\section*{Use Pair Programming}
+
+Pair programming is a software development practice in which two
+programmers share one computer.  One person (called the driver) does
+the typing, while the other (called the navigator) offers comments and
+suggestions.  The two switch roles several times per hour.  Pair
+programming is a good practice in real-life programming
+\cite{Hann2009}, and also a good way to teach \cite{McDo2006}.
+Partners can not only help each other out during practical exercises,
+but can also clarify each other's misconceptions when the solution is
+presented.
+
+Both parties involved in pair programming learn while doing it.  The
+weaker gets individual instruction from the stronger, while the
+stronger learns by explaining, and by being forced to reconsider
+things which they may not have thought about in a while.  When pair
+programming is used it is important to put everyone in pairs, not just
+the learners who may be struggling, so that no one feels singled out.
+It's also important to have people switch roles within each pair three
+or four times per hour, so that the stronger personality in each pair
+does not dominate the session.
+
+\section*{Use Worked Examples With Labelled Subgoals}
+
+Learning to program involves learning the syntax and semantics of a
+programming language, but also involves learning how to construct
+programs.  A good way to guide students through constructing programs
+is the use of worked examples: step-by-step guides showing how to
+solve an existing problem.
+
+Instructors usually provide many similar programming examples for
+learners to practice on.  But since learners are novices, they may not
+see the similarity between examples: finding the highest rainfall from
+a list of numbers and finding the first surname alphabetically from a
+list of names may seem like quite different problems to learners, even
+though more advanced programmers would recognize them as isomorphic.
+
+Margulieux and Morrison et al. \cite{Morr2015,Morr2016,Marg2012} have
+shown that students perform better when worked examples are broken
+down into steps (or subgoals) which are given names (or labels) -- an
+example is given below.  Subgoal labels provide a structure which
+allow learners to see the similarities between coding problems and to
+communicate with their peers and instructors more efficiently.
+Learners can then apply the labels to future tasks that they attempt
+themselves.
+
+\begin{quote}
+\noindent
+\textbf{Conventional Materials}
+\begin{verbatim}
+1. Click on "AccelerometerSensor1"
+2. Drag out a when AccelerometerSensor1.AccelerationChanged block
+3. Click on "cowbellSound"
+4. Drag out call cowbellSound.Play and connect it after
+   when AccelerometerSensor1.AccelerationChanged
+\end{verbatim}
+
+\noindent
+\textbf{Subgoal Labelled Materials}
+\begin{verbatim}
+Handle Events from My Blocks
+1. Click on "AccelerometerSensor1"
+2. Drag out a when AccelerometerSensor1.AccelerationChanged block
+
+Set Output from My Blocks
+3. Click on "cowbellSound"
+4. Drag out call cowbellSound.Play and connect it after
+   when AccelerometerSensor1.AccelerationChanged
+\end{verbatim}
+\end{quote}
+
+\section*{Stick to One Language}
+
+A principle that applies across all areas of education is that
+transference only comes with mastery \cite{Gick1987}.  Courses should
+therefore stick to one language until learners have progressed far
+enough with it to be able to distinguish the forest from the trees.
+While an experienced programmer can, for example, take what they know
+about loops and function calls in one language and re-use that
+understanding in a language with a different syntax or semantics, a
+newcomer does not yet know which elements of their knowledge are
+central and which are accidental.  Attempting to force transference
+too early---e.g., requiring them to switch from Python to JavaScript
+in order to do a web programming course early in their
+education---will confuse learners and erode their confidence.
+
+\section*{Use Authentic Tasks}
+
+Guzdial et al.\ found that having learners manipulate images, audio,
+and video in their early programming assignments increased retention
+in two senses: learners remembered more of the material when re-tested
+after a delay, and were more likely to stay in computing programs
+\cite{Guzd2013}.  This is a particular instance of a larger
+observation: learners find authentic tasks more engaging than
+abstracted examples.
+
+A classic question in computing (and mathematics) education is whether
+problems are better with context (e.g., find the highest student
+grade) or without (e.g. find the maximum of the list of numbers).
+Bouvier et al. \cite{Bouv2016} examined this with a
+multi-university study and found no difference between the two.  They
+suggest that since it makes no difference, other considerations (such
+as motivation) should be given priority.
+
+One caution about choosing context is that context can inadvertently
+exclude some people while drawing others in.  For example, many
+educators use computer games as a motivating example for programming
+classes, but some learners may associate them with violence and racial
+or gender stereotypes, or simply find them unenjoyable.  Whatever
+examples are chosen, the goal must be to move learners as quickly as
+possible from ``hard and boring'' to ``easy and exciting''
+\cite{Repe2017}.
+
+To help students accomplish a visible and satisfying result quickly,
+instructors can provide some pre-written software libraries or source
+code that start students closer to the end goal.  The idea that
+students must start from scratch and write all the code they need
+themselves is the relic of a bygone era of home microcomputers (and it
+was not true even then).  Pick the task that you actually want to the
+students to engage in, and provide everything else pre-made.
+
+\section*{Remember That Novices Are Not Experts}
+
+This principle is tautological, but it is easily forgotten.  Novices
+program differently than experts \cite{Parn2017}, and need different
+approaches or tools.  If you ask a professional programmer to iterate
+over a list of integers and produce the average, they can write the
+code within seconds, using stored knowledge of the exact pattern
+required.  A novice will approach this problem totally differently:
+they need to remember the syntax for the different parts, they need to
+know how to iterate over a list, how to use an accumulator variable,
+and so on.
+
+Novices may need to spend time thinking about an algorithm on paper
+(something expert programmers rarely need, as they have usually
+memorized most common algorithmic patterns).  They may need to
+construct examples in guided steps.  They may struggle to debug.
+Debugging usually involves contrasting what is happening to what
+should be happening, but a novice's grasp on what should be happening
+is usually fragile.
+
+Novices do not become professionals simply by doing what professionals
+do at a slower pace.  We do not teach reading by taking a classic
+novel and simply proceeding more slowly.  We teach by using shorter
+books with simpler words and larger print.  So in programming, we must
+take care to use small, self-contained tasks at a level suitable for
+novices, with tools that suit their needs, and without scoffing.
+
+\section*{Don't Just Code}
+
+Our final tip for teaching programming is that you don't have to
+program to do it.  Faced with the challenges of learning syntax,
+semantics, algorithms, and design, examples that seem small to
+instructors can still easily overwhelm novices.  Breaking the problem
+down into smaller single-concept pieces can reduce the cognitive load
+to something manageable.
+
+For example, a growing number of educators are including Parsons
+Problems in their pedagogic repertoire
+\cite{Pars2006,Morr2016}.  Rather than writing programs from
+scratch, learners are given the lines of code they need to solve a
+problem, but in jumbled order.  Re-ordering them to solve the problem
+correctly allows them to concentrate on mastering control flow without
+having to devote mental energy to recalling syntax or the specifics of
+library functions.  They are also liked by learners; Ericson et
+al. \cite{Eric2015} found that learners were more likely to attempt
+Parsons Problems than nearby multiple choice questions in an ebook.
+
+\section*{Conclusion}
+
+The ten tips presented here are backed up by scientific research.
+Like any research involving human subjects, studies of computing
+education must necessarily be hedged with qualifiers.  However, we do
+know a great deal, and are learning more each year.  Conferences like
+\href{http://sigcse.org/}{SIGCSE}),
+\href{http://iticse.acm.org/}{ITiCSE} and
+\href{https://icer.hosting.acm.org}{ICER} present a growing number of
+rigorous, insightful studies with immediate practical application.
+Future work may overturn or qualify some of our ten tips, but they
+form a solid basis for any educational effort to the best of our
+current knowledge.
+
+We offer one final observation: do not forget the human element.
+Programmers have a reputation for pouring scorn on certain programming
+tools (e.g., pouring scorn on spreadsheets), or for gatekeeping (e.g.,
+stating that you cannot learn programming if you did not start young).
+If you are teaching someone to program, the last thing you want to do
+is make them feel like they can't succeed or that any existing skill
+they have (no matter when or how acquired) is worthless.  Make your
+learners feel that they can be a programmer, and they just might
+become one.
