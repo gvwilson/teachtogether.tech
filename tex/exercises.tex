@@ -91,7 +91,7 @@ output, but that doesn't give them feedback on how they are
 programming.  Another is to give them a small test suite they can run
 their code against before they submit it (at which point it is run
 against a more comprehensive set of tests). Doing this helps them
-figure out if they're completely misunderstood the intent of the
+figure out if they have completely misunderstood the intent of the
 exercise before they do anything that they think might cost them
 grades.
 
@@ -169,7 +169,6 @@ lines of code in an editor.
 
 \begin{verbatim}
 total = 0
-return total
 if v > 0
 total += v
 for v in values
@@ -232,9 +231,9 @@ while right:
 You can also require learners to trace code backwards, e.g., to figure
 out what the input must have been if the code produced a particular
 result \cite{Armo2008}.  These \emph{reverse execution} problems
-require search and deductive reasoning, but are particularly useful
-when the ``output'' is an error message, and help learners develop
-valuable debugging skills.
+require search and deductive reasoning, but they are particularly
+useful when the ``output'' is an error message, and help learners
+develop valuable debugging skills.
 
 \begin{callout}{Reverse Execution}
 
@@ -259,7 +258,7 @@ identifying it can be done as a multiple choice question.
 \begin{callout}{Minimal Fix}
 
   This function is supposed to test whether a number lies within a
-  range.
+  range.  Make one small change so that it actually does so.
 
 \begin{verbatim}
 def inside(point, lower, higher):
@@ -287,8 +286,8 @@ useful.
 
 \begin{callout}{Theme and Variations}
 
-  Change the inner loop in the function below so that it sets the
-  upper left triangle of the image to the color provided.
+  Change the inner loop in the function below so that it fill the
+  upper left triangle of an image with a specified color.
 
 \begin{verbatim}
 function fillTriangle(picture, color) is
@@ -396,7 +395,7 @@ of matching pairs as text (such as ``A3, B1, C2''), but that's clumsy
 and error-prone.  Having them recognize a set of correct pairs in an
 MCQ is even worse, as it's painfully easy to misread.
 
-\emph{Ranking} are a special case of matching that is (slightly) more
+\emph{Ranking} is a special case of matching that is (slightly) more
 amenable to answering via lists, since our minds are pretty good at
 detecting errors or anomalies in sequences.  Give the learner several
 items and ask them to order them from fastest to slowest, most robust

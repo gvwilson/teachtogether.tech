@@ -139,27 +139,15 @@ problems. This is consistent with the work on cognitive load theory
 presented in \chapref{s:load}, and \cite{Mull2007b} is just one of
 many studies proving its benefits.
 
-When teaching solution patterns, emphasize the use of small steps with
-frequent feedback. \cite{Blik2014} found that, ``more experienced
-students were more likely to adopt an incremental coding strategy
-(trying to debug and advance their code without external help through
-myriad trial-and-error attempts), whereas novices would update their
-code in larger batches, copying and adapting code from sample programs
-and other external sources.''  Similarly, \cite{Cart2017} found that
-high-performing novices spent a lot of time testing, while low
-performers spent much more time working on code with errors.
-
-On the other hand, \cite{Kaze2017} analyzed character-level edit and
-execution data to see if incremental development and procrastination
-correlate with solution correctness, completion time, or total work
-time.  Projects where the author started editing earlier were more
-likely to submit their projects earlier and to earn higher scores for
-correctness, and starting to write tests earlier was also associated
-with higher correctness scores.  However, the authors found no
-significant relationship between incremental test writing or
-incremental checking of work and higher scores; demonstrating those
-to learners probably won't do any harm, but it seems unlikely on
-balance that it will do much good, either.
+When teaching solution patterns, emphasize the importance of small
+steps with frequent feedback. \cite{Blik2014} found that, ``more
+experienced students were more likely to adopt an incremental coding
+strategy (trying to debug and advance their code without external help
+through myriad trial-and-error attempts), whereas novices would update
+their code in larger batches, copying and adapting code from sample
+programs and other external sources.''  Similarly, \cite{Cart2017}
+found that high-performing novices spent a lot of time testing, while
+low performers spent much more time working on code with errors.
 
 Another aspect of ``how'' that teachers should present and discuss is
 the order in which code is written.  \cite{Ihan2011} describes a tool
@@ -183,8 +171,8 @@ know about worked examples and subgoals (\chapref{s:load}), their
 creators found that labelling the parts of novices' programs gave them
 a vocabulary to think with, and implicitly a set of programming plans
 for constructing code of their own.  The patterns are listed on the
-\href{http://www.cs.joensuu.fi/~saja/var\_roles/}{Roles of Variables
-  website}:
+\href{http://saja.kapsi.fi/var\_roles/}{Roles of Variables website},
+which also includes examples of each:
 
 \begin{description}
 
@@ -269,8 +257,8 @@ is used (\secref{s:classroom-practices}).  The most useful resource I
 have found for this is the code quality rubric developed in
 \cite{Steg2014,Steg2016a}, which is online at \cite{Steg2016b}.
 
-Debugging also depends on being able trace a program's execution step
-by step.  \cite{List2004} tested novices' ability to predict the
+Debugging also depends on being able to trace a program's execution
+step by step.  \cite{List2004} tested novices' ability to predict the
 output of short pieces of code and to select the correct completion of
 the code from a set of possibilities when told what it was supposed to
 do.  Many novices struggled, which suggests that not being able to
@@ -290,12 +278,10 @@ which \cite{Cunn2017} found was effective.
 
 \cite{Chi1989} found that some learners simply halt when they hit an
 unexplained step (or a step whose explanation they don't understand)
-when doing mechanics problems in a physics class.  Others pause their
-``execution'' of the example to generate an explanation of what's
-going on; crucially, these people learn faster.  Instructors should
-therefore demonstrate to learners that they can skip over parts of a
-program whose execution they don't understand and return to them
-later.
+when doing mechanics problems in a physics class.  Others who pause
+their ``execution'' of the example to generate an explanation of
+what's going on learn faster.  Instructors should therefore
+demonstrate the latter strategy to learners.
 
 When it comes to testing, novices seem just as reluctant to do it as
 professional programmers (many of whom would rather spend a week
@@ -304,7 +290,7 @@ to write tests for assignments; the question is, how well do they do
 this?
 
 One answer comes from \cite{Bria2015}, which scored learners' programs
-by how many teacher-provided tests cases those programs passed, and
+by how many teacher-provided test cases those programs passed, and
 conversely scores test cases written by learners according to how many
 bugs they caught in model solutions deliberately seeded with errors.
 They found that novices' tests often have low coverage (i.e., they
@@ -404,7 +390,7 @@ including:
 
 \item
   Variable assignment looking like an algebraic expression (although
-  \cite{Alta2015} found this to be less important than many
+  \cite{Brow2018} found this to be less important than many
   educators think).
 
 \item
@@ -443,7 +429,7 @@ without, they were ``processor'' and ``data''.
 Novices demonstrate their misconceptions by making mistakes; the kinds
 of mistakes they make can tell us what to prioritize in our teaching,
 but research has found that most teachers don't know how common
-different kinds of mistakes actually are.  \cite{Brow2014} looked at
+different kinds of mistakes actually are.  \cite{Brow2018} looked at
 eighteen types of errors, from mismatched parentheses to discarding
 the result of a method that returned a value and found that,
 ``{\ldots}educators formed only a weak consensus about which mistakes
@@ -453,7 +439,7 @@ experience had no effect on this level of agreement.''  For example,
 mistaking \texttt{=} (assignment) and \texttt{==} (equality) in loop
 condition tests wasn't nearly as common as most teachers believed.
 
-\cite{Alta2015} then looked at what errors novices actually make in
+\cite{Brow2018} then looked at what errors novices actually make in
 Java.  Unsurprisingly, mistakes that produce compiler errors are fixed
 much faster than ones that don't.  Mismatched quotes and parentheses
 are the most common type of error, but also the easiest to fix, while
@@ -596,7 +582,7 @@ never called or triggered.  The authors hypothesize that users may be
 using them as a scratchpad to keep bits of code they don't (yet) want
 to throw away.
 
-\cite{Wein2017a} went studied people using a tool that allowed them to
+\cite{Wein2017a} studied people using a tool that allowed them to
 switch between blocks and text for programming.  They found that
 learners tend to migrate from blocks to text over time, but there are
 interesting exceptions.  In two thirds of the cases where learners
@@ -665,7 +651,7 @@ and results from the former don't necessarily apply to the latter.
 \cite{Endr2014} found that requiring novices to declare variable types
 does add some complexity to programs, but it pays off fairly quickly
 by acting as documentation for a method's use---in particular, by
-forestalling questions about what's available how to use it.
+forestalling questions about what's available and how to use it.
 
 \subsection*{Will Things Get Better?}
 
@@ -743,7 +729,7 @@ conclusion is that it really is important to get this right, and that
 error messages should be usability tested the same way as any other
 interface.
 
-Since interpreting and responding to error message is important,
+Since interpreting and responding to error messages is important,
 instructors should give learners exercises that do just that.
 \cite{Marc2011} has a rubric for responses to error messages that can
 be useful in grading such exercises.
@@ -753,7 +739,7 @@ be useful in grading such exercises.
 \cite{Kern1999} says, ``Programmers are often encouraged to use long
 variable names regardless of context. This is a mistake: clarity is
 often achieved through brevity.''  Lots of programmers believe this,
-and \cite{Hofm2017} found that using full words in variable names led
+but \cite{Hofm2017} found that using full words in variable names led
 to an average of 19\% faster comprehension compared to letters and
 abbreviations, with no significant difference in speed between single
 letters and abbreviations, but didn't look at \emph{which} names were
@@ -831,7 +817,7 @@ various kinds of intervention in programming classes.  As they
 themselves point out, there are many reasons to take their findings
 with a grain of salt: the pre-change teaching practices are rarely
 stated clearly, the quality of change is not judged, and only 8.3\% of
-studies reported negative findings, so either here is positive
+studies reported negative findings, so either there is positive
 reporting bias or the way we're teaching right now is almost the worst
 way possible and anything would be an improvement.  It's also worth
 remembering that like almost all of the studies discussed in this
@@ -849,11 +835,11 @@ average improvement reported for each type:
   or labs.
 
 \item[Content Change:] % (36/34\%)
-  At least parts of the teaching material was changed or updated.
+  Parts of the teaching material were changed or updated.
 
 \item[Contextualization:] % (17/40\%)
-  Activities where course content and activities were aligned towards
-  a specific context such as games or media.
+  Course content and activities were aligned towards a specific
+  context such as games or media.
 
 \item[CS0:] % (7/43\%)
   Creation of a preliminary course to be taken before the introductory

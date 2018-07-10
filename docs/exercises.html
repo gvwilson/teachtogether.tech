@@ -35,7 +35,7 @@ b) <code>fall.csv</code><br />
 c) <code>spring.csv</code><br />
 d) <code>winter.csv</code></p>
 </blockquote>
-<p>C&amp;Rs help learners practice the skills they most want to learn, but they can be hard to assess: learners can find lots of unexpected ways to get the right answer, and are demoralized if an automatic grading system rejects their code because it doesn’t match the instructor’s. One way to reduce how often this occurs is to assess only their output, but that doesn’t give them feedback on how they are programming. Another is to give them a small test suite they can run their code against before they submit it (at which point it is run against a more comprehensive set of tests). Doing this helps them figure out if they’re completely misunderstood the intent of the exercise before they do anything that they think might cost them grades.</p>
+<p>C&amp;Rs help learners practice the skills they most want to learn, but they can be hard to assess: learners can find lots of unexpected ways to get the right answer, and are demoralized if an automatic grading system rejects their code because it doesn’t match the instructor’s. One way to reduce how often this occurs is to assess only their output, but that doesn’t give them feedback on how they are programming. Another is to give them a small test suite they can run their code against before they submit it (at which point it is run against a more comprehensive set of tests). Doing this helps them figure out if they have completely misunderstood the intent of the exercise before they do anything that they think might cost them grades.</p>
 <p>Instead of writing code that satisfies some specification, learners can be asked to write tests to determine whether a piece of code conforms to a spec. This is a useful skill in its own right, and doing it may give students a bit more sympathy for how hard their teachers work.</p>
 <blockquote>
 <p><strong>Inverting Code &amp; Run</strong></p>
@@ -60,7 +60,6 @@ print(slice)</code></pre>
 <p><strong>Parsons Problem</strong></p>
 <p>Rearrange and indent these lines to sum the positive values in a list. (You will need to add colons in appropriate places as well.)</p>
 <pre><code>total = 0
-return total
 if v &gt; 0
 total += v
 for v in values</code></pre>
@@ -87,7 +86,7 @@ right = 6
 while right:
     left, right = right, left % right</code></pre>
 </blockquote>
-<p>You can also require learners to trace code backwards, e.g., to figure out what the input must have been if the code produced a particular result [<a href="./bib.html#Armo2008">Armo2008</a>]. These <em>reverse execution</em> problems require search and deductive reasoning, but are particularly useful when the “output” is an error message, and help learners develop valuable debugging skills.</p>
+<p>You can also require learners to trace code backwards, e.g., to figure out what the input must have been if the code produced a particular result [<a href="./bib.html#Armo2008">Armo2008</a>]. These <em>reverse execution</em> problems require search and deductive reasoning, but they are particularly useful when the “output” is an error message, and help learners develop valuable debugging skills.</p>
 <blockquote>
 <p><strong>Reverse Execution</strong></p>
 <p>Fill in the missing number in <code>values</code> that caused this function to crash.</p>
@@ -99,7 +98,7 @@ for (reading, scaling) in values:
 <p><em>Minimal fix</em> exercises also help learners develop debugging skills. Given a few lines of code that contain a bug, the learner must either make or identify the smallest change that will produce the correct output. Making the change can be done using C&amp;R, while identifying it can be done as a multiple choice question.</p>
 <blockquote>
 <p><strong>Minimal Fix</strong></p>
-<p>This function is supposed to test whether a number lies within a range.</p>
+<p>This function is supposed to test whether a number lies within a range. Make one small change so that it actually does so.</p>
 <pre><code>def inside(point, lower, higher):
     if (point &lt;= lower):
         return false
@@ -111,7 +110,7 @@ for (reading, scaling) in values:
 <p><em>Theme and variation</em> exercises are similar, but instead of making a change to fix a bug, the learner is asked to make a small alteration that changes the output in some specific way. Allowed changes can include replacing one function call with another, changing one variable’s initial value, swapping an inner and outer loop, changing the order of tests in a chain of conditionals, or changing the nesting of function calls or the order in which methods are chained. Again, this kind of exercise gives learners a chance to practice a useful real-world skill: the fastest way to produce a working program is often to tweak one that already does something useful.</p>
 <blockquote>
 <p><strong>Theme and Variations</strong></p>
-<p>Change the inner loop in the function below so that it sets the upper left triangle of the image to the color provided.</p>
+<p>Change the inner loop in the function below so that it fill the upper left triangle of an image with a specified color.</p>
 <pre><code>function fillTriangle(picture, color) is
     for x := 1 to picture.width do
         for y := 1 to picture.height do
@@ -169,7 +168,7 @@ for v in values:
 </blockquote>
 <p><em>Many-to-many matching</em> is similar, but the lists aren’t the same length, so some items may be matched to several others, while others may not be matched at all. Both kinds require learners to use higher-order thinking skills, but many-to-many are more difficult because learners can’t do easy matches first to reduce their search space (i.e., there is a higher cognitive load.)</p>
 <p>Matching problems can be implemented by having learners submit lists of matching pairs as text (such as “A3, B1, C2”), but that’s clumsy and error-prone. Having them recognize a set of correct pairs in an MCQ is even worse, as it’s painfully easy to misread.</p>
-<p><em>Ranking</em> are a special case of matching that is (slightly) more amenable to answering via lists, since our minds are pretty good at detecting errors or anomalies in sequences. Give the learner several items and ask them to order them from fastest to slowest, most robust to most brittle, and so on. The former tends toward recall (e.g., recognizing the names of various sorting algorithms and knowing their properties), while the latter tends more toward reasoning and judgment.</p>
+<p><em>Ranking</em> is a special case of matching that is (slightly) more amenable to answering via lists, since our minds are pretty good at detecting errors or anomalies in sequences. Give the learner several items and ask them to order them from fastest to slowest, most robust to most brittle, and so on. The former tends toward recall (e.g., recognizing the names of various sorting algorithms and knowing their properties), while the latter tends more toward reasoning and judgment.</p>
 <p><em>Summarization</em> also requires learners to use higher-order thinking, and gives them a chance to practice a skill that is very useful when reporting bugs rather than fixing them. For example, learners can be asked, “Which sentence best describes how the output of f changes as x varies from 0 to 10?” and then given several options as a multiple choice question.</p>
 <p>You can also ask for very short free-form answers to questions in constrained domains, e.g., “What is the key feature of a stable sorting algorithm?” We still can’t fully automate checks for these without a frustrating number of false positives (accepting wrong answers) and false negatives (rejecting correct ones), but they lend themselves well to peer grading (<a href="./individual.html#s:individual-peer">Section 5.3</a>).</p>
 <h2 id="s:exercises-grading">12.4) Automatic Grading</h2>
