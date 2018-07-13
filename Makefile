@@ -156,7 +156,6 @@ undone :
 ## unused     : list all unused bibliography entries.
 unused :
 	@${BIN_D}/checkcites.py --unused ${BIB_SRC} ${TEX_SRC}
-	@${BIN_D}/checkcites.py --unused ${BIB_SRC} ${TEX_SRC} | wc -l
 
 ## venues     : list all publication venues.
 venues :
