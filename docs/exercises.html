@@ -13,6 +13,7 @@ title: "Exercise Types"
 <p>Every good carpenter has a set of screwdrivers, and every good teacher has different kinds of formative assessment exercises to check what learners are actually learning, help them practice their new skills, and keep them engaged. This chapter starts by describing several kinds of exercises you can use to check if your teaching has been effective. It then looks at the state of the art in automated grading, and closes by exploring discussion, projects, and other important kinds of work that require more human attention to assess. Our discussion draws in part on the <a href="http://web-cat.org/questionbank/">Canterbury Question Bank</a> [<a href="./bib.html#Sand2013">Sand2013</a>], which has entries for various languages and topics in introductory computing.</p>
 <h2 id="s:exercises-classics">12.1) The Classics</h2>
 <p>As <a href="./models.html#s:models-formative-assessment">Section 2.1</a> discussed, <em>multiple choice questions</em> (MCQs) are most effective when the wrong answers probe for specific misconceptions. In terms of Bloom’s Taxonomy (<a href="./process.html#s:process-objectives">Section 6.2</a>), MCQs are usually designed to test recall and understanding (“What is the capital of Saskatchewan?”), but they can also require learners to exercise judgment.</p>
+
 <blockquote>
 <p><strong>A Multiple Choice Question</strong></p>
 <p>In what order do operations occur when the computer evaluates the expression <code>price = addTaxes(cost - discount)</code>?</p>
@@ -176,7 +177,7 @@ for v in values:
 <p>As elsewhere, it’s important to distinguish learner satisfaction from learning outcomes. [<a href="./bib.html#Magu2018">Magu2018</a>] switched informal programming labs to a weekly machine-evaluated test for a second-year CS course using an auto-grading tool originally developed for programming competitions. Learners didn’t like the automated system, but the overall failure rate for the course was halved, and the number of learners gaining first class honors tripled. In contrast, [<a href="./bib.html#Rubi2014">Rubi2014</a>] also began to use an auto-grader designed for competitions, but saw no significant decrease in their learners’ dropout rates; once again, learners made some negative comments about the tool, which the authors attribute to its feedback messages rather than to dislike of auto-grading.</p>
 <p>[<a href="./bib.html#Srid2016">Srid2016</a>] took a different approach. They used <a class="glossref" href="./gloss.html#g:fuzz-testing"><strong>fuzz testing</strong></a> (i.e., randomly-generated test cases) to check whether learner code does the same thing as a reference implementation supplied by the teacher. In the first project of a 1400-learner introductory course, fuzz testing caught errors that were missed by a suite of hand-written test cases for more than 48% of learners, which clearly demonstrates its value.</p>
 <p>[<a href="./bib.html#Basu2015">Basu2015</a>] gave learners a suite of solution test cases, but learners had to unlock each one by answering questions about its expected behavior before they were allowed to apply it to their proposed solution. For example, suppose learners are writing a function to find the largest adjacent pair of numbers in a list; before being allowed to use the tests associated with this question, they have to choose the right answer to, “What does <code>largestPair(4, 3, -1, 5, 3, 3)</code> produce?” (The correct answer is <code>(5, 3)</code>.) In a 1300-person university course, the vast majority of learners chose to validate their understanding of test cases this way before attempting to solve problems, and then asked fewer questions and expressed less confusion about assignments.</p>
-<p>It’s common and tempting to use off-the-shelf style checking tools to grade learners’ code. However, [<a href="./bib.html#Nutb2016">Nutb2016</a>] initially found no correlation between human-provided marks and style-checker rule violations. Sometimes this was because learners violated one rule many times (thereby losing more points than they should have), and other times it was because they submitted the assignment starter code with few alterations and got more points than they should have. The authors modified the auto-grader’s rules to reflect this, and then weighted infrequent and overly-frequent violations of a particular feature. Unsurprisingly, after all these tweaks there was a stronger positive correlation with manual assessment.</p>
+<p>It’s tempting to use off-the-shelf style checking tools to grade learners’ code. However, [<a href="./bib.html#Nutb2016">Nutb2016</a>] initially found no correlation between human-provided marks and style-checker rule violations. Sometimes this was because learners violated one rule many times (thereby losing more points than they should have), and other times it was because they submitted the assignment starter code with few alterations and got more points than they should have.</p>
 <p>[<a href="./bib.html#Buff2015">Buff2015</a>] presents a well-informed reflection on the whole idea of providing automated feedback. Their starting point is that, “Automated grading systems help learners identify bugs in their code, <span>[</span>but<span>]</span> may inadvertently discourage learners from thinking critically and testing thoroughly and instead encourage dependence on the teacher’s tests.” One of the key issues they identified is that a learner may thoroughly test their code, but the feature may still not be implemented according to the teacher’s specifications. In this case, the “failure” is not caused by a lack of testing, but by a misunderstanding of the requirements, and it is unlikely that more testing will expose the problem. If the auto-grading system doesn’t provide insightful, actionable feedback, this experience will only frustrate the learner.</p>
 <p>In order to provide that feedback, [<a href="./bib.html#Buff2015">Buff2015</a>]’s system identifies which method or methods of the learner’s code are executed by failing tests, so that the system can associate failed tests with particular features within the learner’s submission. The system decides whether specific hints have been “earned” by seeing whether the learner has tested the associated feature enough, so learners cannot rely on hints instead of doing tests.</p>
 <p>[<a href="./bib.html#Keun2016a">Keun2016a</a>,<a href="./bib.html#Keun2016b">Keun2016b</a>] classified the messages produced by 69 auto-grading tools. They found that these often do not give feedback on how to fix problems and take the next step. They also found that most teachers cannot easily adapt most of the tools to their needs; like many workflow tools, they tend to enforce their creators’ unrecognized assumptions about how institutions work. Their work is ongoing, and their detailed classification scheme is a useful shopping list when looking at tools of this kind.</p>
@@ -220,47 +221,3 @@ for v in values:
 <h3 id="counting-failures-pairs15-minutes" class="unnumbered">Counting Failures (<span>pairs</span>/<span>15</span> minutes)</h3>
 <p>Any useful estimate of how much time an exercise needs must take into account how frequent failures are and how much time is lost to them. For example, editing text files seems like a simple task, but what about finding those files? Most GUI editors save things to the user’s desktop or home directory; if the files used in a course are stored somewhere else, a substantial fraction won’t be able to navigate to the right directory without help. (If this seems like a small problem to you, please revisit the discussion of expert blind spot in <a href="./memory.html">Chapter 3</a>.)</p>
 <p>Working with a partner, make a list of “simple” things you have seen go wrong in exercises you have used or taken. How often do they come up? How long do they take learners to fix on their own, or with help? How much time do you currently budget in class to deal with them?</p>
-<h3 id="rate-your-tools-small-groups15-minutes" class="unnumbered">Rate Your Tools (<span>small groups</span>/<span>15</span> minutes)</h3>
-<p>[<a href="./bib.html#Koll2016">Koll2016</a>] proposes a set of heuristics for evaluating programming systems for novices, based in large part on the authors’ work developing several such systems [<a href="./bib.html#Koll2015">Koll2015</a>]. The heuristics are listed below; working in groups of 3–4 people, rate the tools your learners use to do programming exercises as “low”, “medium”, “high”, or “not applicable” for each.</p>
-
-<dl>
-<dt>Engagement:</dt>
-<dd><p>The system should engage and motivate the intended audience of learners. It should stimulate learners’ interest or sense of fun.</p>
-</dd>
-<dt>Non-threatening:</dt>
-<dd><p>The system should not appear threatening in its appearance or behaviour. Users should feel safe in the knowledge that they can experiment without breaking the system, or losing data.</p>
-</dd>
-<dt>Minimal language redundancy:</dt>
-<dd><p>The programming language should minimize redundancy in its language constructs and libraries.</p>
-</dd>
-<dt>Learner-appropriate abstractions:</dt>
-<dd><p>The system should use abstractions that are at the appropriate level for the learner and task. Abstractions should be driven by pedagogy, not by the underlying machine.</p>
-</dd>
-<dt>Consistency:</dt>
-<dd><p>The model, language and interface presentation should be consistent—internally, and with each other. Concepts used in the programming model should be represented in the system interface consistently.</p>
-</dd>
-<dt>Visibility:</dt>
-<dd><p>The user should always be aware of system status and progress. It should be simple to navigate to parts of the system displaying other relevant data, such as other parts of a program under development.</p>
-</dd>
-<dt>Secondary notations:</dt>
-<dd><p>The system should automatically provide secondary notations where this is helpful, and users should be allowed to add their own secondary notations where practical.</p>
-</dd>
-<dt>Clarity:</dt>
-<dd><p>The presentation should maintain simplicity and clarity, avoiding visual distractions. This applies to the programming language and to other interface elements of the environment.</p>
-</dd>
-<dt>Human-centric syntax:</dt>
-<dd><p>The program notation should use human-centric syntax. Syntactic elements should be easily readable, avoiding terminology obscure to the target audience.</p>
-</dd>
-<dt>Edit-order freedom:</dt>
-<dd><p>The interface should allow the user freedom in the order they choose to work. Users should be able to leave tasks partially finished, and come back to them later.</p>
-</dd>
-<dt>Minimal viscosity:</dt>
-<dd><p>The system should minimize viscosity in program entry and manipulation. Making common changes to program text should be as easy as possible.</p>
-</dd>
-<dt>Error-avoidance:</dt>
-<dd><p>Preference should be given to preventing errors over reporting them. If the system can prevent, or work around an error, it should.</p>
-</dd>
-<dt>Feedback:</dt>
-<dd><p>The system should provide timely and constructive feedback. The feedback should indicate the source of a problem and offer solutions.</p>
-</dd>
-</dl>

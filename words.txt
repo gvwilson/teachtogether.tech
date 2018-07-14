@@ -18,6 +18,8 @@ Behaviorism
 Behaviors
 Benner
 Benner's
+Blakk
+Blockly
 Booleans
 Bootcamp
 Borrego
@@ -61,6 +63,7 @@ DrProject
 Dropbox
 Dweck
 Dynarski
+Dynarski's
 ECS
 Educationalization
 Eno
@@ -113,6 +116,7 @@ Latinx
 Leondar
 Lex
 Loupe
+Lukas
 MATLAB
 MCQ
 MCQs
@@ -120,6 +124,7 @@ MOOC
 MOOCs
 Malvika
 Margulieux
+Markus
 Mazur
 McClatchy
 McTavish
@@ -466,6 +471,7 @@ unmute
 unobservables
 unstack
 unsupportive
+untyped
 vals
 ve
 vectorized

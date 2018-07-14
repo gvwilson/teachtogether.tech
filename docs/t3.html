@@ -88,7 +88,7 @@ title: "Teaching Tech Together"
 <p>A Code of Conduct can’t stop people from being offensive, any more than laws against theft stop people from stealing. What it <em>can</em> do is make expectations and consequences clear. More importantly, having one tells people that there are rules, and that they can expect a friendly learning experience.</p>
 <p>If someone challenges you about having a Code of Conduct, remind them that it <em>isn’t</em> an infringement of free speech. People have a right to say what they think, but that doesn’t mean they have a right to say it wherever and whenever they want. If they want to make someone feel unwelcome, they can go and find their own space in which to do it.</p>
 <h3 id="s:intro-acknowledgments">1.6) Acknowledgments</h3>
-<p>This book would not exist without the hard work and feedback of Erin Becker, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard Capes, Francis Castro, Warren Code, Ben Cotton, Richie Cotton, Karen Cranston, Katie Cunningham, Natasha Danas, Matt Davis, Neal Davis, Mark Degani, Michael Deutsch, Brian Dillingham, Kathi Fisler, Auriel Fournier, Bob Freeman, Nathan Garrett, Mark Guzdial, Rayna Harris, Ahmed Hasan, Ian Hawke, Felienne Hermans, Kate Hertweck, Toby Hodges, Dan Katz, Christina Koch, Shriram Krishnamurthi, Colleen Lewis, Lenny Markus, Sue McClatchy, Ian Milligan, Lex Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel Ostblom, Elizabeth Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase, Emily Porta, Alex Pounds, Thomas Price, Danielle Quinn, Ian Ragsdale, Erin Robinson, Rosario Robinson, Ariel Rokem, Pat Schloss, Malvika Sharan, Florian Shkurti, Juha Sorva, Tracy Teal, Tiffany Timbers, Richard Tomsett, Preston Tunnell Wilson, Matt Turk, Fiona Tweedie, Allegra Via, Anelda van der Walt, Stéfan van der Walt, Belinda Weaver, Hadley Wickham, Jason Williams, John Wrenn, and Andromeda Yelton. I am grateful to them, and to everyone who has used this material over the years; any mistakes that remain are mine.</p>
+<p>This book would not exist without the hard work and feedback of Erin Becker, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard Capes, Francis Castro, Warren Code, Ben Cotton, Richie Cotton, Karen Cranston, Katie Cunningham, Natasha Danas, Matt Davis, Neal Davis, Mark Degani, Michael Deutsch, Brian Dillingham, Kathi Fisler, Auriel Fournier, Bob Freeman, Nathan Garrett, Mark Guzdial, Rayna Harris, Ahmed Hasan, Ian Hawke, Felienne Hermans, Kate Hertweck, Toby Hodges, Dan Katz, Christina Koch, Shriram Krishnamurthi, Colleen Lewis, Lenny Markus, Sue McClatchy, Ian Milligan, Lex Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel Ostblom, Elizabeth Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase, Emily Porta, Alex Pounds, Thomas Price, Danielle Quinn, Ian Ragsdale, Erin Robinson, Rosario Robinson, Ariel Rokem, Pat Schloss, Malvika Sharan, Florian Shkurti, Juha Sorva, Tracy Teal, Tiffany Timbers, Richard Tomsett, Preston Tunnell Wilson, Matt Turk, Fiona Tweedie, Allegra Via, Anelda van der Walt, Stéfan van der Walt, Belinda Weaver, Hadley Wickham, Jason Williams, John Wrenn, and Andromeda Yelton. I am grateful to them, to Lukas Blakk for the cover image, and to everyone who has used this material over the years; any mistakes that remain are mine.</p>
 <blockquote>
 <p><strong>Breaking the Law</strong></p>
 <p>Much of the research reported in this book was publicly funded, but despite that, a lot of it is locked away behind paywalls. At a guess, I broke the law roughly 250 times to download papers from sites like Sci-Hub. I hope the day is coming when no one will need to do that; if you are a researcher, please hasten that day by publishing your research in open access venues, or by posting copies on open preprint servers.</p>
@@ -217,7 +217,7 @@ d) 43</p>
 <p>A good formative assessment requires people to think through a problem. For example, imagine that you have placed a block of ice in a bathtub and then filled the tub to the rim with water. When the ice melts, does the water level go up (so that the tub overflows), go down, or stay the same (<a href="#f:models-bathtub">Figure 2.1</a>)?</p>
 
 <figure>
-<img src="./fig/bathtub.png" alt="Figure 2.1: Ice in a Bathtub" /><figcaption id="f:models-bathtub">Figure 2.1: Ice in a Bathtub</figcaption>
+<img src="./fig/bathtub.svg" /><figcaption id="f:models-bathtub">Figure 2.1: Ice in a Bathtub</figcaption>
 </figure>
 <p>The correct answer is that the level stays the same: the ice displaces its own weight in water, so it exactly fills the “hole” it has made when it melts. Figuring out why helps people build a model of the relationship between weight, volume, and density [<a href="#Epst2002">Epst2002</a>].</p>
 <p>Describe another kind of formative assessment you have seen or used and explain how it helps both the instructor and the learner figure out where they are and what they need to do next.</p>
@@ -272,6 +272,7 @@ d) 43</p>
 <p>The previous chapter explained what distinguishes novices from competent practitioners. This one looks at expertise: what it is, how people acquire it, and how it can be harmful as well as helpful. It then shows how concept maps can be used to figure out how to turn knowledge into lessons.</p>
 <p>To start, what do we mean when we say someone is an expert? The usual answer is that they can solve problems much faster than people who are “merely competent”, or that they can recognize and deal with cases where the normal rules don’t apply. They also somehow make this look effortless: in many cases, they instantly know what the right answer is [<a href="#Parn2017">Parn2017</a>].</p>
 <p>Expertise is more than just knowing more facts: competent practitioners can memorize a lot of trivia without any noticeable improvement in their performance. Instead, imagine for a moment that we store knowledge as a network or graph in which facts are nodes and relationships are arcs. (This is definitely <em>not</em> how our brains work, but it’s a useful metaphor.) The key difference between experts and competent practitioners is that experts’ mental models are much more densely connected, i.e., they are much more likely to know of a connection between any two randomly-selected pieces of information.</p>
+
 <p>This metaphor helps explain many observed aspects of expert behavior:</p>
 <ul>
 <li>Experts can jump directly from a problem to its solution because there actually is a direct link between the two in their mind. Where a competent practitioner would have to reason “A, B, C, D, E”, the expert can go from A to E in a single step. We call this <em>intuition</em>, and it isn’t always a good thing: when asked to explain their reasoning, experts often can’t, because they didn’t actually reason their way to the solution—they just recognized it.</li>
@@ -606,10 +607,6 @@ define make_acronym(list_of_words):
 <p>The most important part of this is switching off interruptions. Despite what many people want to believe, people are not good at multi-tasking. What we can become good at is <a class="glossref" href="#g:automaticity"><strong>automaticity</strong></a>, which is the ability to do something routine in the background while doing something else [<a href="#Mill2016a">Mill2016a</a>]. Most of us can talk while chopping onions, or drink coffee while reading; with practice, we can also take notes while listening, but we can’t study effectively, program, or do other mentally challenging tasks while paying attention to something else.</p>
 <p>The point of all this organization and preparation is to get into the most productive mental state possible. Psychologists call it <a class="glossref" href="#g:flow"><strong>flow</strong></a> [<a href="#Csik2008">Csik2008</a>]; athletes call it “being in the zone”, while musicians talk about losing themselves in what they’re playing. Whatever name you use, people produce much more per unit of time in this state than normal.</p>
 <p>That’s the good news. The bad news is that it takes roughly ten minutes to get back into a state of flow after an interruption, no matter how short the interruption was. This means that if you are interrupted half a dozen times per hour, you are <em>never</em> at your productive peak.</p>
-<blockquote>
-<p><strong>Task List Management</strong></p>
-<p>Keep in mind that the future is approaching at a fixed rate of one day every 24 hours: if something’s going to take sixty hours to do, you’d better allow at least ten working days for it (assuming you’re only interrupted 25% of the time), which means you’d better tackle the first piece two working weeks before the deadline. And since breaking large tasks down into small ones takes time, don’t be embarrassed about making “plan XYZ” a task in its own right.</p>
-</blockquote>
 <h3 id="s:individual-peer">5.3) Peer Assessment</h3>
 <p>Asking people on a team to rate their peers is a common practice in industry. [<a href="#Sond2012">Sond2012</a>] surveyed the literature on student peer assessment, distinguishing between grading and reviewing. The benefits they found included increasing the amount, diversity, and timeliness of feedback, helping students exercise higher-level thinking, encouraging reflective practice, and supporting development of social skills. The concerns were predictable: validity and reliability, motivation and procrastination, trolls, collusion, and plagiarism. However, while these concerns are legitimate, the evidence shows that they aren’t significant in class. For example, [<a href="#Kauf2000">Kauf2000</a>] compared confidential peer ratings and grades on several axes for two undergraduate engineering courses and found that self-rating and peer ratings statistically agreed, that collusion (i.e., everyone giving their peers the same grades) wasn’t significant, that students didn’t inflate their self-ratings, and crucially, that ratings were not biased by gender or race.</p>
 <p>One important variation on peer assessment and review is <a class="glossref" href="#g:contributing-student"><strong>contributing student pedagogy</strong></a>, in which students produce artifacts to contribute to other students’ learning. This can be developing a short lesson and sharing it with the class, adding to a question bank, or writing up notes from a particular lecture for in-class publication. For example, [<a href="#Fran2018">Fran2018</a>] found that students who made short videos to teach concepts to their peers had a significant increase in their own learning compared to those who only studied the material or viewed the videos.</p>
@@ -623,7 +620,7 @@ define make_acronym(list_of_words):
 <li>For each of those concepts, work backward from one of your examples to explain how the concept explains it. (This uses the “elaboration” practice).</li>
 </ol>
 <h4 id="connecting-ideas-pairs5-minutes" class="unnumbered">Connecting Ideas (<span>pairs</span>/<span>5</span> minutes)</h4>
-<p>Pick a partner, and have each person independently choose an idea, then announce your ideas and try to find a four-link chain that leads from one to the other. For example, if the two ideas are “Saskatchewan” and “statistics”, the links might be:</p>
+<p>This is an exercise is an example of using elaboration to improve retention. Pick a partner, and have each person independently choose an idea, then announce your ideas and try to find a four-link chain that leads from one to the other. For example, if the two ideas are “Saskatchewan” and “statistics”, the links might be:</p>
 <ul>
 <li>Saskatchewan is a province of Canada;</li>
 <li>Canada is a country;</li>
@@ -631,7 +628,6 @@ define make_acronym(list_of_words):
 <li>governments are elected; and</li>
 <li>people try to predict election results using statistics</li>
 </ul>
-<p>(This is an exercise is an example of using elaboration to improve retention.)</p>
 <h4 id="convergent-evolution-pairs15-minutes" class="unnumbered">Convergent Evolution (<span>pairs</span>/<span>15</span> minutes)</h4>
 <p>One practice that wasn’t covered above is <a class="glossref" href="#g:guided-notes"><strong>guided notes</strong></a>, which are instructor-prepared notes that cue students to respond to key information in a lecture or discussion. The cues can be blank spaces where students add information, asterisks next to terms students should define, etc.</p>
 <p>Create 2–4 guided note cards for a lesson you have recently taught or are going to teach. Swap cards with your partner: how easy is it to understand what is being asked for? How long would it take to fill in the prompts?</p>
@@ -804,6 +800,7 @@ define make_acronym(list_of_words):
 </dd>
 </dl>
 <p>A set of learning objectives based on this taxonomy for an introductory course on HTML and CSS might be:</p>
+
 <blockquote>
 <p>By the end of this course, learners will be able to:</p>
 <ul>
@@ -835,6 +832,8 @@ define make_acronym(list_of_words):
 <p>Take a program or web page that you want your learners to be able to create on their own at the end of a lesson and work backward to break it into digestible parts. How many are there? What key idea is introduced by each one?</p>
 <h4 id="inessential-weirdness-individual15-minutes" class="unnumbered">Inessential Weirdness (<span>individual</span>/<span>15</span> minutes)</h4>
 <p>Betsy Leondar-Wright coined the phrase “<a href="http://www.classmatters.org/2006_07/its-not-them.php">inessential weirdness</a>” to describe things groups do that aren’t really necessary, but which alienate people who aren’t members of that group. Sumana Harihareswara later used this notion as the basis for a talk on <a href="https://www.harihareswara.net/sumana/2016/05/21/0">inessential weirdnesses in open source software</a>, which includes things like making disparaging comments about Microsoft Windows, command-line tools with cryptic names, and the command line itself. Take a few minutes to read these articles, then make a list of inessential weirdnesses you think your learners might encounter when you first teach them. How many of these can you avoid with a little effort?</p>
+<h4 id="primm-individual15-minutes" class="unnumbered">PRIMM (<span>individual</span>/<span>15</span> minutes)</h4>
+<p>One approach to introducing new ideas in computing is <a href="http://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/">PRIMM</a>: <strong>P</strong>redict a program’s behavior or output, <strong>R</strong>un it to see what it actually does, <strong>I</strong>nvestigate why it does that (e.g., by stepping through it in a debugger or drawing the flow of control), <strong>M</strong>odify it (or its inputs), and then <strong>M</strong>ake something similar from scratch. Pick something you have recently taught or been taught and outline a short lesson that follows these five steps.</p>
 <h4 id="evaluating-lessons-pairs20-minutes" class="unnumbered">Evaluating Lessons (<span>pairs</span>/<span>20</span> minutes)</h4>
 <p>[<a href="#Mart2017">Mart2017</a>] specifies eight dimensions along which lessons can be evaluated:</p>
 <dl>
@@ -864,8 +863,6 @@ define make_acronym(list_of_words):
 </dd>
 </dl>
 <p>Working with a partner, go through a set of lessons you have recently taught, or have recently been taught, and rate them as “low”, “medium”, “high”, or “not applicable” on each of these criteria. Which two criteria are most important to you personally as a teacher? As a learner?</p>
-<h4 id="primm-individual15-minutes" class="unnumbered">PRIMM (<span>individual</span>/<span>15</span> minutes)</h4>
-<p>One approach to introducing new ideas in computing is <a href="http://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/">PRIMM</a>: <strong>P</strong>redict a program’s behavior or output, <strong>R</strong>un it to see what it actually does, <strong>I</strong>nvestigate why it does that (e.g., by stepping through it in a debugger or drawing the flow of control), <strong>M</strong>odify it (or its inputs), and then <strong>M</strong>ake something similar from scratch. Pick something you have recently taught or been taught and outline a short lesson that follows these five steps.</p>
 <h4 id="concrete-representational-abstract-pairs15-minutes" class="unnumbered">Concrete-Representational-Abstract (<span>pairs</span>/<span>15</span> minutes)</h4>
 <p><a href="https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/">Concrete-Representational-Abstract</a> (CRA) is another approach to introducing new ideas that is used primarily with younger learners. The first step is the concrete stage, and involves physically manipulating objects to solve a problem (e.g., piling blocks to do addition). In the the representational stage, images are used to represent those objects, and in the final abstract stage, the learner uses numbers or symbols.</p>
 <ol>
@@ -875,24 +872,6 @@ define make_acronym(list_of_words):
 <li>Write instructions that someone else could follow to go through the same steps you used (abstract).</li>
 <li>Compare your representational and abstract materials with those of your partner.</li>
 </ol>
-<h4 id="the-big-picture-individual10-minutes" class="unnumbered">The Big Picture (<span>individual</span>/<span>10</span> minutes)</h4>
-<p>[<a href="#Sorv2014">Sorv2014</a>] lays out three frameworks for the design of a first programming course. The first is Motivate-Isolate-Practice-Integrate:</p>
-<dl>
-<dt>Motivate:</dt>
-<dd><p>start with a large project (by the learner’s standards).</p>
-</dd>
-<dt>Isolate:</dt>
-<dd><p>highlight necessary skills.</p>
-</dd>
-<dt>Practice:</dt>
-<dd><p>work on individual skills.</p>
-</dd>
-<dt>Integrate:</dt>
-<dd><p>bring skills to bear on the project.</p>
-</dd>
-</dl>
-<p>The second, Head Straight for Objects, emphasizes object-oriented programming early: the teacher introduces ideas that objects can easily represent, like shapes or people’s roles, then shows how code can capture these ideas. The third approach, Explicit Program Dynamics, teaches programming by explaining how programs run: copying values vs. copying references, stack frames, and other parts of the program’s state are first-class concepts.</p>
-<p>Which of these strategies do your lessons use? Why?</p>
 
 <h2 id="s:pck">7) Actionable Approximations of the Truth</h2>
 <blockquote>
@@ -997,6 +976,7 @@ print(total)</code></pre>
 <p>The mistakes novices make can tell us what to prioritize in our teaching, but it turns out that most teachers don’t know how common different kinds of mistakes actually are. The largest study of this is [<a href="#Brow2017">Brow2017</a>]’s study of novice Java programs, which found that Mismatched quotes and parentheses are the most common type of error, but also the easiest to fix, while some mistakes (like putting the condition of an <code>if</code> in <code>{}</code> instead of <code>()</code>) are most often made only once. Unsurprisingly, mistakes that produce compiler errors are fixed much faster than ones that don’t.</p>
 <p>Some mistakes, however, are made many times, like invoking methods with the wrong arguments (e.g., passing a string instead of an integer). One caution when reading this research is how important it is to distinguish mistakes from work in progress: for example, an empty <code>if</code> statement or a method that’s defined but not yet used may be a sign of incomplete code rather than an error.</p>
 <p>[<a href="#Brow2017">Brow2017</a>] also compared the mistakes novices actually make with what their teachers thought they made. They found that, “<span>…</span>educators formed only a weak consensus about which mistakes are most frequent, that their rankings bore only a moderate correspondence to the students in the<span>…</span>data, and that educators’ experience had no effect on this level of agreement.” For example, mistaking <code>=</code> (assignment) and <code>==</code> (equality) in loop condition tests wasn’t nearly as common as most teachers believed.</p>
+
 <blockquote>
 <p><strong>Not Just for Code</strong></p>
 <p>[<a href="#Park2015">Park2015</a>] collected data from an online HTML editor during an introductory web development course. Nearly all learners made syntax errors that remained unresolved weeks into the course. 20% of these errors related to the relatively complex rules that dictate <em>when</em> it is valid for HTML elements to be nested in one another, but 35% related to the simpler tag syntax determining <em>how</em> HTML elements are nested. (The tendency of many instructors to say, “But the rules are simple,” is a good example of expert blind spot discussed in <a href="s:memory">Chapter 3</a><span>…</span>)</p>
@@ -1106,8 +1086,8 @@ print(total)</code></pre>
 <p>However, programming and learning to program are different activities, and results from the former don’t necessarily apply to the latter. [<a href="#Endr2014">Endr2014</a>] found that requiring novices to declare variable types does add some complexity to programs, but it pays off fairly quickly by acting as documentation for a method’s use—in particular, by forestalling questions about what’s available and how to use it.</p>
 <p>We don’t know enough yet to recommend typed or untyped languages for novices. Now that Python allows optional typing, though, it may be feasible for researchers to explore whether it can or should be introduced gradually.</p>
 <h4 id="does-variable-naming-style-matter" class="unnumbered">Does Variable Naming Style Matter?</h4>
-<p>Programmers also argue (endlessly) about variable naming. [<a href="#Kern1999">Kern1999</a>] says, “Programmers are often encouraged to use long variable names regardless of context. This is a mistake: clarity is often achieved through brevity.” Lots of programmers believe this, but [<a href="#Hofm2017">Hofm2017</a>] found that using full words in variable names led to an average of 19% faster comprehension compared to letters and abbreviations, with no significant difference in speed between single letters and abbreviations.</p>
-<p>In contrast, [<a href="#Beni2017">Beni2017</a>] found that using single-letter variable names didn’t affect novice programmers’ ability to modify code. This may be because novices’ programs are shorter than professionals’, but it may also be because some single-letter variable names have implicit types and meanings: most programmers assume <code>i</code>, <code>j</code>, and <code>n</code> are integers, and <code>s</code> is a string, while <code>x</code>, <code>y</code>, and <code>z</code> are either floating-point numbers or integers more or less equally.</p>
+<p>[<a href="#Kern1999">Kern1999</a>] says, “Programmers are often encouraged to use long variable names regardless of context. This is a mistake: clarity is often achieved through brevity.” Lots of programmers believe this, but [<a href="#Hofm2017">Hofm2017</a>] found that using full words in variable names led to an average of 19% faster comprehension compared to letters and abbreviations.</p>
+<p>In contrast, [<a href="#Beni2017">Beni2017</a>] found that using single-letter variable names didn’t affect novices’ ability to modify code. This may be because their programs are shorter than professionals’, or because some single-letter variable names have implicit types and meanings: most programmers assume <code>i</code>, <code>j</code>, and <code>n</code> are integers, and <code>s</code> is a string, while <code>x</code>, <code>y</code>, and <code>z</code> are either floating-point numbers or integers more or less equally.</p>
 <p>How important is this? [<a href="#Bink2012">Bink2012</a>] reported a series of studies that found that reading and understanding code is fundamentally different from reading prose: “<span>…</span>the more formal structure and syntax of source code allows programmers to assimilate and comprehend parts of the code quite rapidly independent of style. In particular<span>…</span>beacons and program plans play a large role in comprehension.” It also found that experienced developers are relatively unaffected by identifier style, so our recommendation is just to use consistent style in all examples.</p>
 <p>Since most languages have style guides (e.g., <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> for Python) and tools to check that code follows these guidelines, our full recommendation is is to <em>use tools to ensure that all code examples adhere to a consistent style</em>.</p>
 <h3 id="s:pck-error">7.7) Does Better Feedback Help?</h3>
@@ -1298,11 +1278,6 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p><strong>Studio Classes</strong></p>
 <p>Architecture schools often include studio classes, in which students solve small design problems and get feedback from their peers right then and there. These classes are most effective when the teacher critiques both the designs and the peer critiques, so that participants learn not only how to make buildings, but how to give and get feedback [<a href="#Scho1984">Scho1984</a>]. Master classes in music serve a similar purpose.</p>
 </blockquote>
-<blockquote>
-<p><strong>Tells</strong></p>
-<p>Everyone has nervous habits. For example, many of us talk more rapidly and in a higher-pitched voice than usual, while others play with their hair or crack their knuckles. Gamblers call nervous habits like this “tells”. While these are often not as noticeable as you would think, it’s good to know whether you pace, fiddle with your hair, look at your shoes, or rattle the change in your pocket when you don’t know the answer to a question.</p>
-<p>You can’t get rid of tells completely, and trying to do so can make you obsess about them. A better strategy is to try to displace them, e.g., to train yourself to scrunch your toes inside your shoes instead of cracking your knuckles.</p>
-</blockquote>
 <h3 id="s:performance-practice">8.3) How to Practice Performance</h3>
 <p>The best way to improve your in-person lesson delivery is to watch yourself do it. This method is borrowed from Warren Code at the University of British Columbia.</p>
 <ol>
@@ -1320,6 +1295,11 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <li>People must give feedback on themselves, as well as giving feedback on each other, so that they can calibrate their impressions of their own teaching according to the impressions of other people. (Most people are harder on themselves than others are, and it’s important for them to realize this.)</li>
 </ul>
 <p>The announcement of this exercise is often greeted with groans and apprehension, since few people enjoy seeing or hearing themselves. However, those same people consistently rate it as one of the most valuable parts of workshops based on these notes. It’s also good preparation for co-teaching (<a href="#s:classroom-together">Section 9.3</a>): teachers find it a lot easier to give each other informal feedback if they have had some practice doing so and have a shared rubric to set expectations.</p>
+<blockquote>
+<p><strong>Tells</strong></p>
+<p>Everyone has nervous habits. For example, many of us talk more rapidly and in a higher-pitched voice than usual, while others play with their hair or crack their knuckles. Gamblers call nervous habits like this “tells”. While these are often not as noticeable as you would think, it’s good to know whether you pace, fiddle with your hair, look at your shoes, or rattle the change in your pocket when you don’t know the answer to a question.</p>
+<p>You can’t get rid of tells completely, and trying to do so can make you obsess about them. A better strategy is to try to displace them, e.g., to train yourself to scrunch your toes inside your shoes instead of cracking your knuckles.</p>
+</blockquote>
 <h3 id="s:performance-live">8.4) Live Coding</h3>
 <blockquote>
 <p>Teaching is theater, not cinema.<br />
@@ -1362,15 +1342,12 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p>You will need to enlarge your font considerably in order for people to read it from the back of the room, which means you can put much less on the screen than you’re used to. You will often be reduced to 60–70 columns and 20–30 rows, which basically means that you’re using a 21st Century supercomputer to emulate an early-1980s VT100 terminal.</p>
 <p>To cope with this, maximize your window, and then ask everyone to give you a thumbs-up or thumbs-down on its readability. Use a black font on a lightly-tinted background rather than a light font on a dark background—the light tint will glare less than a pure white background.</p>
 <p>Pay attention to the room lighting as well: it should not be fully dark, and there should be no lights directly on or above the presenter’s screen. If needed, reposition the tables so all learners can see the screen.</p>
+<p>When the bottom of the projector screen is at the same height, or below, the heads of the learners, people in the back won’t be able to see the lower parts. Raise the bottom of your window(s) to compensate, but be aware that this gives you even less space for your typing.</p>
+<p>If you can get a second projector and screen, use it: the extra real estate will allow you to display your code on one side and its output or behavior on the other. The second screen may require its own PC or laptop, so you may need to ask a helper to control it.</p>
+<p>If you teach using a console window, such as a Unix shell, it’s important to tell people when you run an in-console text editor and when you return to the console prompt. Most novices have never seen a window take on multiple personalities in this way, and can quickly become confused (particularly if the window is hosting an interactive interpreter prompt for Python or some other language as well as running shell commands and hosting an editor).</p>
 <blockquote>
 <p><strong>Accessibility Aids Help Everyone</strong></p>
 <p>Tools like <a href="https://boinx.com/mousepose/overview/">Mouseposé</a> (for Mac) and <a href="http://www.pointerfocus.com/">PointerFocus</a> (for Windows) will highlight the position of your mouse cursor on the screen, and screen recording software tools like <a href="https://www.techsmith.com/video-editor.html">Camtasia</a> will echo invisible keys like tab and Control-J as you type them. These take a bit of practice to get used to, but are extremely helpful as you start teaching more advanced tools.</p>
-</blockquote>
-<p>When the bottom of the projector screen is at the same height, or below, the heads of the learners, people in the back won’t be able to see the lower parts. Raise the bottom of your window(s) to compensate, but be aware that this gives you even less space for your typing.</p>
-<p>If you can get a second projector and screen, use it: the extra real estate will allow you to display your code on one side and its output or behavior on the other. The second screen may require its own PC or laptop, so you may need to ask a helper to control it.</p>
-<blockquote>
-<p><strong>Multiple Personalities</strong></p>
-<p>If you teach using a console window, such as a Unix shell, it’s important to tell people when you run an in-console text editor and when you return to the console prompt. Most novices have never seen a window take on multiple personalities in this way, and can quickly become confused (particularly if the window is hosting an interactive interpreter prompt for Python or some other language as well as running shell commands and hosting an editor).</p>
 </blockquote>
 <h4 id="double-devices" class="unnumbered">Double Devices</h4>
 <p>Some people now use two devices when teaching: a laptop plugged into the projector for learners to see, and a tablet beside it so that they can view their own notes and the shared notes that the learners are taking together (<a href="#s:classroom-notetaking">Section 9.7</a>). This is more reliable than displaying one virtual desktop while flipping back and forth to another. Of course, printouts of the lesson material are still the most reliable backup technology<span>…</span></p>
@@ -1572,10 +1549,10 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <h4 id="start-with-introductions" class="unnumbered">Start With Introductions</h4>
 <p>To begin your class, the teachers should give a brief introduction that will convey their capacity to teach the material, accessibility and approachability, desire for student success, and enthusiasm. Tailor your introduction to the students’ skill level so that you convey competence (without seeming too advanced) and demonstrate that you can relate to the students. Throughout the workshop, continually demonstrate that you are interested in student progress and that you are enthusiastic about the topics.</p>
 <p>Students should also introduce themselves (preferably verbally). At the very least, everyone should add their name to the shared notes, but it’s also good for everyone at a given site to know who all is in the group. (This can be done while setting up before the start of the class.)</p>
-<h4 id="avoid-homework-in-all-day-formats" class="unnumbered">Avoid Homework in All-Day Formats</h4>
-<p>Learners who have spent an entire day programming will be tired. If you give them homework to do after hours, they’ll start the next day tired as well, so don’t do this.</p>
 <h4 id="set-up-your-own-environment" class="unnumbered">Set Up Your Own Environment</h4>
 <p>Setting up your environment is just as important as setting up your learners’, but more involved. As well as having all the software that they need, and network access to the tool they’re using to take notes, you should also have a glass of water, or a cup of tea or coffee. This helps keep your throat lubricated, but its real purpose is to give you an excuse to pause for a couple of seconds and think when someone asks a hard question or you lose track of what you were going to say next. You will probably also want some whiteboard pens and a few of the other things described in the travel kit checklist in <a href="s:events">Appendix I</a>.</p>
+<h4 id="avoid-homework-in-all-day-formats" class="unnumbered">Avoid Homework in All-Day Formats</h4>
+<p>Learners who have spent an entire day programming will be tired. If you give them homework to do after hours, they’ll start the next day tired as well, so don’t do this.</p>
 <h4 id="dont-touch-the-learners-keyboard" class="unnumbered">Don’t Touch the Learner’s Keyboard</h4>
 <p>It’s often tempting to fix things for learners, but when you do, it can easily seem like magic (even if you narrate every step). Instead, talk your learners through whatever they need to do. It will take longer, but it’s more likely to stick.</p>
 <h4 id="repeat-the-question" class="unnumbered">Repeat the Question</h4>
@@ -1594,10 +1571,10 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <h4 id="think-pair-share" class="unnumbered">Think-Pair-Share</h4>
 <p>Think-pair-share is a lightweight technique that helps people refine their ideas and compare them with others’. Each person starts by thinking individually about a question or problem and jotting down a few notes. Participants are then paired to explain their ideas to each another, and possibly to merge them or select the more interesting ones. Finally, a few pairs present their ideas to the whole group.</p>
 <p>Think-pair-share works because, to paraphrase Oscar Wilde’s Lady Windermere, people often can’t know what they’re thinking until they’ve heard themselves say it. Pairing gives people new insight into their own thinking, and forces them to think through and resolve any gaps or contradictions <em>before</em> exposing their ideas to a larger group.</p>
-<h4 id="humor" class="unnumbered">Humor</h4>
-<p>Humor should be used sparingly when teaching: most jokes are less funny when written down, and become even less funny with each re-reading. Being spontaneously funny while teaching usually works better, but can easily go wrong: what’s a joke to your circle of friends may turn out to be a serious political issue to your audience. If you do make jokes when teaching, don’t make them at the expense of any group, or of anyone except possibly yourself.</p>
 <h4 id="morning-noon-and-night" class="unnumbered">Morning, Noon, and Night</h4>
 <p>[<a href="#Smar2018">Smar2018</a>] found that if students’ classes and other work is scheduled at times that don’t line up with their natural body clocks, they do less well—i.e., that if a morning person takes night classes or vice versa, their grades suffer. It’s usually not possible to accommodate this in small groups, but larger ones should try to stagger start times. This can also help people with childcare responsibilities and other constraints on their time.</p>
+<h4 id="humor" class="unnumbered">Humor</h4>
+<p>Humor should be used sparingly when teaching: most jokes are less funny when written down, and become even less funny with each re-reading. Being spontaneously funny while teaching usually works better, but can easily go wrong: what’s a joke to your circle of friends may turn out to be a serious political issue to your audience. If you do make jokes when teaching, don’t make them at the expense of any group, or of anyone except possibly yourself.</p>
 <h3 id="s:classroom-innovate">9.12) Limit Innovation</h3>
 <p>Each of the techniques presented in this chapter will make your classes better, but you shouldn’t try to adopt them all at once. In fact, it may be best for your students if you don’t use <em>any</em> of them, particularly in situations where you and the students are only together for brief periods. The reason is that every new practice increases the student’s cognitive load: as well as absorbing what you’re trying to teach them about programming, they’re also having to learn a new way to learn. If you are working with them repeatedly, you can introduce one new technique every few lessons; if you only have them for a one-day workshop, it’s probably best to be conservative in your approach.</p>
 <h3 id="s:classroom-exercises">9.13) Exercises</h3>
@@ -2059,6 +2036,7 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 </dl>
 <p>They found that constructive and logistical questions dominated, and that constructive questions correlated with grades. They also found that students rarely ask more than one active question in a course, and that these <em>don’t</em> correlate with grades. While this is disappointing, knowing it helps set instructors’ expectations: while we might all want our courses to have lively online communities, most won’t.</p>
 <p>Learners use forums in very different ways, and with very different results. [<a href="#Mill2016a">Mill2016a</a>] observed that, “<span>…</span>procrastinators are particularly unlikely to participate in online discussion forums, and this reduced participation, in turn, is correlated with worse grades. A possible explanation for this correlation is that procrastinators are especially hesitant to join in once the discussion is under way, perhaps because they worry about being perceived as newcomers in an established conversation. This aversion to jump in late causes them to miss out on the important learning and motivation benefits of peer-to-peer interaction.”</p>
+
 <blockquote>
 <p><strong>Co-opetition</strong></p>
 <p>[<a href="#Gull2004">Gull2004</a>] describes an innovative online coding contest that combines collaboration and competition. The contest starts when a problem description is posted along with a correct, but inefficient, solution. When it ends, the winner is the person who has made the greatest overall contribution to improving the performance of the overall solution. All submissions are in the open, so that participants can see one another’s work and borrow ideas from each other; as the paper shows, the final solution is almost always a hybrid borrowing ideas from many people.</p>
@@ -2084,37 +2062,6 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <h3 id="s:online-exercises">11.5) Exercises</h3>
 <h4 id="give-feedback-on-a-bad-screencast-whole-class20-minutes" class="unnumbered">Give Feedback on a Bad Screencast (<span>whole class</span>/<span>20</span> minutes)</h4>
 <p>Watch <a href="https://youtu.be/xcnoHaxXvdQ">this screencast</a> as a group and give feedback on it. Organize feedback along two axes: positive vs. negative and content vs. presentation. When you are done, have each person in the class add one point to a <span class="math inline">2 × 2</span> grid on a whiteboard (or in the shared notes) without duplicating any points that are already up there. What did other people see that you missed? What did they think that you strongly agree or disagree with? (You can compare your answers with the checklist in <a href="s:teacheval">Appendix J</a>.)</p>
-<h4 id="classifying-online-coding-lessons-individual15-minutes" class="unnumbered">Classifying Online Coding Lessons (<span>individual</span>/<span>15</span> minutes)</h4>
-<p>Use this derivative of [<a href="#Kim2017">Kim2017</a>]’s rubric for evaluating online coding tutorials to classify your favorite online coding tutorial:</p>
-<dl>
-<dt>Personalization:</dt>
-<dd><p>age, educational status, coding experience.</p>
-</dd>
-<dt>Utilization:</dt>
-<dd><p>application to authentic tasks, pointers to subsequent knowledge.</p>
-</dd>
-<dt>Content:</dt>
-<dd><p>variables, arithmetic, logical, conditionals, loops, arrays, functions, objects.</p>
-</dd>
-<dt>Organization:</dt>
-<dd><p>bottom-up, need-driven.</p>
-</dd>
-<dt>Context:</dt>
-<dd><p>lecture-based, project-based, storyline.</p>
-</dd>
-<dt>Actionability:</dt>
-<dd><p>learners write code.</p>
-</dd>
-<dt>Feedback:</dt>
-<dd><p>output correctness, code structure, code style.</p>
-</dd>
-<dt>Transfer:</dt>
-<dd><p>how to use, when to use, why to use.</p>
-</dd>
-<dt>Support:</dt>
-<dd><p>additional materials for self-monitoring.</p>
-</dd>
-</dl>
 <h4 id="two-way-video-pairs10-minutes" class="unnumbered">Two-Way Video (<span>pairs</span>/<span>10</span> minutes)</h4>
 <p>Record a 2–3 minute video of yourself doing something, then swap machines with a partner so that each of you can watch the other’s video at 4X speed. How easy is it to follow what’s going on? What if anything did you miss?</p>
 <h4 id="viewpoints-individual10-minutes" class="unnumbered">Viewpoints (<span>individual</span>/<span>10</span> minutes)</h4>
@@ -2135,8 +2082,13 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 </dl>
 <p>Which of these perspectives most closely corresponds to your own? Which are you least aligned with?</p>
 <h4 id="helping-or-harming-small-groups30-minutes" class="unnumbered">Helping or Harming (<span>small groups</span>/<span>30</span> minutes)</h4>
-<p><a href="https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html">This article</a> by Susan Dynarski explains how and why schools are putting students who fail in-person courses into online courses, and how this sets them up for even further failure. Working in small groups, read the article, come up with 2–3 things that schools could do to compensate for these negative effects, and create rough estimates of their per-student costs. Compare your suggestions and costs with those of other groups. How many full-time teaching positions do you think would have to be cut in order to free up resources to implement the most popular ideas for 100 students? As a class, do you think that would be a net benefit for the students or not?</p>
-<p>(Budgeting exercises like this are a good way to tell who’s serious about educational change. Everyone can think of things they’d like to do; far fewer are willing to talk about the tradeoffs needed to make change happen.)</p>
+<p><a href="https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html">Susan Dynarski’s article in the <em>New York Times</em></a> explains how and why schools are putting students who fail in-person courses into online courses, and how this sets them up for even further failure.</p>
+<ol>
+<li>Working in small groups, read the article, come up with 2–3 things that schools could do to compensate for these negative effects, and create rough estimates of their per-student costs.</li>
+<li>Compare your suggestions and costs with those of other groups. How many full-time teaching positions do you think would have to be cut in order to free up resources to implement the most popular ideas for 100 students?</li>
+<li>As a class, do you think that would be a net benefit for the students or not?</li>
+</ol>
+<p>Budgeting exercises like this are a good way to tell who’s serious about educational change. Everyone can think of things they’d like to do; far fewer are willing to talk about the tradeoffs needed to make change happen.</p>
 
 <h2 id="s:exercises">12) Exercise Types</h2>
 <blockquote>
@@ -2149,6 +2101,7 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p>Every good carpenter has a set of screwdrivers, and every good teacher has different kinds of formative assessment exercises to check what learners are actually learning, help them practice their new skills, and keep them engaged. This chapter starts by describing several kinds of exercises you can use to check if your teaching has been effective. It then looks at the state of the art in automated grading, and closes by exploring discussion, projects, and other important kinds of work that require more human attention to assess. Our discussion draws in part on the <a href="http://web-cat.org/questionbank/">Canterbury Question Bank</a> [<a href="#Sand2013">Sand2013</a>], which has entries for various languages and topics in introductory computing.</p>
 <h3 id="s:exercises-classics">12.1) The Classics</h3>
 <p>As <a href="#s:models-formative-assessment">Section 2.1</a> discussed, <em>multiple choice questions</em> (MCQs) are most effective when the wrong answers probe for specific misconceptions. In terms of Bloom’s Taxonomy (<a href="#s:process-objectives">Section 6.2</a>), MCQs are usually designed to test recall and understanding (“What is the capital of Saskatchewan?”), but they can also require learners to exercise judgment.</p>
+
 <blockquote>
 <p><strong>A Multiple Choice Question</strong></p>
 <p>In what order do operations occur when the computer evaluates the expression <code>price = addTaxes(cost - discount)</code>?</p>
@@ -2312,7 +2265,7 @@ for v in values:
 <p>As elsewhere, it’s important to distinguish learner satisfaction from learning outcomes. [<a href="#Magu2018">Magu2018</a>] switched informal programming labs to a weekly machine-evaluated test for a second-year CS course using an auto-grading tool originally developed for programming competitions. Learners didn’t like the automated system, but the overall failure rate for the course was halved, and the number of learners gaining first class honors tripled. In contrast, [<a href="#Rubi2014">Rubi2014</a>] also began to use an auto-grader designed for competitions, but saw no significant decrease in their learners’ dropout rates; once again, learners made some negative comments about the tool, which the authors attribute to its feedback messages rather than to dislike of auto-grading.</p>
 <p>[<a href="#Srid2016">Srid2016</a>] took a different approach. They used <a class="glossref" href="#g:fuzz-testing"><strong>fuzz testing</strong></a> (i.e., randomly-generated test cases) to check whether learner code does the same thing as a reference implementation supplied by the teacher. In the first project of a 1400-learner introductory course, fuzz testing caught errors that were missed by a suite of hand-written test cases for more than 48% of learners, which clearly demonstrates its value.</p>
 <p>[<a href="#Basu2015">Basu2015</a>] gave learners a suite of solution test cases, but learners had to unlock each one by answering questions about its expected behavior before they were allowed to apply it to their proposed solution. For example, suppose learners are writing a function to find the largest adjacent pair of numbers in a list; before being allowed to use the tests associated with this question, they have to choose the right answer to, “What does <code>largestPair(4, 3, -1, 5, 3, 3)</code> produce?” (The correct answer is <code>(5, 3)</code>.) In a 1300-person university course, the vast majority of learners chose to validate their understanding of test cases this way before attempting to solve problems, and then asked fewer questions and expressed less confusion about assignments.</p>
-<p>It’s common and tempting to use off-the-shelf style checking tools to grade learners’ code. However, [<a href="#Nutb2016">Nutb2016</a>] initially found no correlation between human-provided marks and style-checker rule violations. Sometimes this was because learners violated one rule many times (thereby losing more points than they should have), and other times it was because they submitted the assignment starter code with few alterations and got more points than they should have. The authors modified the auto-grader’s rules to reflect this, and then weighted infrequent and overly-frequent violations of a particular feature. Unsurprisingly, after all these tweaks there was a stronger positive correlation with manual assessment.</p>
+<p>It’s tempting to use off-the-shelf style checking tools to grade learners’ code. However, [<a href="#Nutb2016">Nutb2016</a>] initially found no correlation between human-provided marks and style-checker rule violations. Sometimes this was because learners violated one rule many times (thereby losing more points than they should have), and other times it was because they submitted the assignment starter code with few alterations and got more points than they should have.</p>
 <p>[<a href="#Buff2015">Buff2015</a>] presents a well-informed reflection on the whole idea of providing automated feedback. Their starting point is that, “Automated grading systems help learners identify bugs in their code, <span>[</span>but<span>]</span> may inadvertently discourage learners from thinking critically and testing thoroughly and instead encourage dependence on the teacher’s tests.” One of the key issues they identified is that a learner may thoroughly test their code, but the feature may still not be implemented according to the teacher’s specifications. In this case, the “failure” is not caused by a lack of testing, but by a misunderstanding of the requirements, and it is unlikely that more testing will expose the problem. If the auto-grading system doesn’t provide insightful, actionable feedback, this experience will only frustrate the learner.</p>
 <p>In order to provide that feedback, [<a href="#Buff2015">Buff2015</a>]’s system identifies which method or methods of the learner’s code are executed by failing tests, so that the system can associate failed tests with particular features within the learner’s submission. The system decides whether specific hints have been “earned” by seeing whether the learner has tested the associated feature enough, so learners cannot rely on hints instead of doing tests.</p>
 <p>[<a href="#Keun2016a">Keun2016a</a>,<a href="#Keun2016b">Keun2016b</a>] classified the messages produced by 69 auto-grading tools. They found that these often do not give feedback on how to fix problems and take the next step. They also found that most teachers cannot easily adapt most of the tools to their needs; like many workflow tools, they tend to enforce their creators’ unrecognized assumptions about how institutions work. Their work is ongoing, and their detailed classification scheme is a useful shopping list when looking at tools of this kind.</p>
@@ -2356,50 +2309,6 @@ for v in values:
 <h4 id="counting-failures-pairs15-minutes" class="unnumbered">Counting Failures (<span>pairs</span>/<span>15</span> minutes)</h4>
 <p>Any useful estimate of how much time an exercise needs must take into account how frequent failures are and how much time is lost to them. For example, editing text files seems like a simple task, but what about finding those files? Most GUI editors save things to the user’s desktop or home directory; if the files used in a course are stored somewhere else, a substantial fraction won’t be able to navigate to the right directory without help. (If this seems like a small problem to you, please revisit the discussion of expert blind spot in <a href="s:memory">Chapter 3</a>.)</p>
 <p>Working with a partner, make a list of “simple” things you have seen go wrong in exercises you have used or taken. How often do they come up? How long do they take learners to fix on their own, or with help? How much time do you currently budget in class to deal with them?</p>
-<h4 id="rate-your-tools-small-groups15-minutes" class="unnumbered">Rate Your Tools (<span>small groups</span>/<span>15</span> minutes)</h4>
-<p>[<a href="#Koll2016">Koll2016</a>] proposes a set of heuristics for evaluating programming systems for novices, based in large part on the authors’ work developing several such systems [<a href="#Koll2015">Koll2015</a>]. The heuristics are listed below; working in groups of 3–4 people, rate the tools your learners use to do programming exercises as “low”, “medium”, “high”, or “not applicable” for each.</p>
-
-<dl>
-<dt>Engagement:</dt>
-<dd><p>The system should engage and motivate the intended audience of learners. It should stimulate learners’ interest or sense of fun.</p>
-</dd>
-<dt>Non-threatening:</dt>
-<dd><p>The system should not appear threatening in its appearance or behaviour. Users should feel safe in the knowledge that they can experiment without breaking the system, or losing data.</p>
-</dd>
-<dt>Minimal language redundancy:</dt>
-<dd><p>The programming language should minimize redundancy in its language constructs and libraries.</p>
-</dd>
-<dt>Learner-appropriate abstractions:</dt>
-<dd><p>The system should use abstractions that are at the appropriate level for the learner and task. Abstractions should be driven by pedagogy, not by the underlying machine.</p>
-</dd>
-<dt>Consistency:</dt>
-<dd><p>The model, language and interface presentation should be consistent—internally, and with each other. Concepts used in the programming model should be represented in the system interface consistently.</p>
-</dd>
-<dt>Visibility:</dt>
-<dd><p>The user should always be aware of system status and progress. It should be simple to navigate to parts of the system displaying other relevant data, such as other parts of a program under development.</p>
-</dd>
-<dt>Secondary notations:</dt>
-<dd><p>The system should automatically provide secondary notations where this is helpful, and users should be allowed to add their own secondary notations where practical.</p>
-</dd>
-<dt>Clarity:</dt>
-<dd><p>The presentation should maintain simplicity and clarity, avoiding visual distractions. This applies to the programming language and to other interface elements of the environment.</p>
-</dd>
-<dt>Human-centric syntax:</dt>
-<dd><p>The program notation should use human-centric syntax. Syntactic elements should be easily readable, avoiding terminology obscure to the target audience.</p>
-</dd>
-<dt>Edit-order freedom:</dt>
-<dd><p>The interface should allow the user freedom in the order they choose to work. Users should be able to leave tasks partially finished, and come back to them later.</p>
-</dd>
-<dt>Minimal viscosity:</dt>
-<dd><p>The system should minimize viscosity in program entry and manipulation. Making common changes to program text should be as easy as possible.</p>
-</dd>
-<dt>Error-avoidance:</dt>
-<dd><p>Preference should be given to preventing errors over reporting them. If the system can prevent, or work around an error, it should.</p>
-</dd>
-<dt>Feedback:</dt>
-<dd><p>The system should provide timely and constructive feedback. The feedback should indicate the source of a problem and offer solutions.</p>
-</dd>
-</dl>
 
 <h2 id="s:community">13) Building Community</h2>
 <blockquote>
@@ -2520,6 +2429,7 @@ for v in values:
 </dl>
 <p>Another way to make participation rewarding is to provide training. Organizations require committees, meetings, budgets, grant proposals, and dispute resolution; most people are never taught how to do any of this, any more than they are taught how to teach, but training people to do these things helps your organization run more smoothly, and the opportunity to gain transferable skills is a powerful reason for people to get and stay involved. If you are going to do this, don’t try to provide the training yourself (unless it’s what you specialize in). Many civic and community groups have programs of this kind, and you can probably make a deal with one of them.</p>
 <p>Other groups may be useful in other ways as well, and you may be useful to them—if not immediately, then tomorrow or next year. You should therefore set aside an hour or two every month to find allies and maintain your relationships with them. One way to do this is to ask them for advice: how do they think you ought to raise awareness of what you’re doing? Where have they found space to run classes? What needs do they think aren’t being met, and would you be able to meet them (either on your own, or in partnership with them)? Any group that has been around for a few years will have useful advice; they will also be flattered to be asked, and will know who you are the next time you call.</p>
+
 <blockquote>
 <p><strong>Government Matters</strong></p>
 <p>It’s fashionable in tech circles to disparage government institutions as slow-moving dinosaurs, but in my experience they are no worse than companies of similar size. Your local school board, library, and your city councillor’s office may be able to offer space, funding, publicity, connections with other groups that you may not have met yet, help with red tape, and a host of other useful things.</p>
@@ -2532,8 +2442,8 @@ for v in values:
 <h4 id="impostor-syndrome" class="unnumbered">Impostor Syndrome</h4>
 <p>Impostor syndrome thrives in communities with arbitrary, unnecessary standards, where harsh criticism is the norm, and where secrecy surrounds the actual process of getting work done, so the Ada Initiative has <a href="https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community">guidelines</a> for communities to go with those given in <a href="#s:motivation-demotivation">Section 10.2</a>for individuals:</p>
 <dl>
-<dt>Simply encourage people.</dt>
-<dd>
+<dt>Encourage people.</dt>
+<dd><p>This is as simple as it is effective.</p>
 </dd>
 <dt>Discourage hostility and bickering.</dt>
 <dd><p>Public, hostile, personal arguments are a natural breeding ground for impostor syndrome.</p>
@@ -2541,10 +2451,10 @@ for v in values:
 <dt>Eliminate hidden barriers to participation.</dt>
 <dd><p>Be explicit about welcoming new students and colleagues, and thoroughly document how someone can participate in projects and events in your research group and at your institution.</p>
 </dd>
-<dt>As a leader, show your own uncertainties and demonstrate your own learning process.</dt>
-<dd><p>When people see leaders whom they respect struggling or admitting they didn’t already know everything when they started, having realistic opinions of their own work becomes easier.</p>
+<dt>As a leader, show your own uncertainties</dt>
+<dd><p>and demonstrate your own learning process. When people see leaders whom they respect struggling or admitting they didn’t already know everything when they started, having realistic opinions of their own work becomes easier.</p>
 </dd>
-<dt>Reward and encourage people in your team and department for mentoring newcomers.</dt>
+<dt>Reward and encourage people for mentoring newcomers.</dt>
 <dd><p>Officially enshrine mentoring as an important criterion in your career advancement process.</p>
 </dd>
 <dt>Don’t make it personal when someone’s work isn’t up to snuff.</dt>
@@ -2728,6 +2638,7 @@ for v in values:
 <p><strong>Build Alliances</strong></p>
 <p>As discussed in <a href="s:community">Chapter 13</a>, building alliances with other groups that are doing things related to what you’re doing pays off in many ways. One of those is referrals: if someone approaches you for help, but would be better served by some other organization, take a moment to make an introduction. If you’ve done this several times, add something to your website to help the next person find what they need. The organizations you are helping will soon start to help you in return.</p>
 </blockquote>
+
 <h3 id="s:marketing-cold-call">14.3) The Art of the Cold Call</h3>
 <p>Building a web site and hoping that people find it is one thing; calling people up or knocking on their door without any sort of prior introduction is another. As with standing up and teaching, though, it’s a craft that can be learned like any other, and there are a few simple rules you can follow:</p>
 <dl>
@@ -2756,7 +2667,7 @@ for v in values:
 <dd><p>since the purest form of respect is to treat other people as if their time was as valuable as your own.</p>
 </dd>
 </dl>
-<p>The email template below puts all of these points in action. It has worked pretty well, but “pretty well” is relative: we found that about half of emails were answered, about half of those answers were, “Sure, let’s talk more,” and about half of those led to workshops, which means that 10–15% of targeted emails to people we had some sort of connection with turned into workshops. That’s much better than the 2–3% response rate most organizations expect with cold calls, but can still be pretty demoralizing if you’re not used to it.</p>
+<p>The email template below puts all of these points in action. It has worked pretty well: we found that about half of emails were answered, about half of those wanted to talk more, and about half of those led to workshops, which means that 10–15% of targeted emails turned into workshops. That’s much better than the 2–3% response rate most organizations expect with cold calls, but can still be pretty demoralizing if you’re not used to it.</p>
 <blockquote>
 <p><strong>Mail Out of the Blue</strong></p>
 <p>Hi NAME,</p>
@@ -2773,6 +2684,8 @@ NAME</p>
 <p>This chapter described an organization that offers weekend programming workshops for people re-entering the workforce after taking a break to raise children. Write an elevator pitch for that organization aimed at a city councillor whose support the organization needs.</p>
 <h4 id="write-elevator-pitches-for-your-organization-individual30-minutes" class="unnumbered">Write Elevator Pitches for Your Organization (<span>individual</span>/<span>30</span> minutes)</h4>
 <p>Identify two groups of people your organization needs support from, and write an elevator pitch aimed at each one.</p>
+<h4 id="email-subjects-pairs10-minutes" class="unnumbered">Email Subjects (<span>pairs</span>/<span>10</span> minutes)</h4>
+<p>Write the subject lines (and only the subject lines) for three email messages: one announcing a new course, one announcing a new sponsor, and one announcing a change in project leadership. Compare your subject lines to a partner’s and see if you can merge the best features of each while also shortening them.</p>
 <h4 id="identify-causes-of-passive-resistance-small-groups30-minutes" class="unnumbered">Identify Causes of Passive Resistance (<span>small groups</span>/<span>30</span> minutes)</h4>
 <p>People who don’t want change will sometimes say so out loud, but will also often use various forms of passive resistance, such as just not getting around to it over and over again, or raising one possible problem after another to make the change seem riskier and more expensive than it’s actually likely to be. Working in small groups, list three or four reasons why people might not want your teaching initiative to go ahead, and explain what you can do with the time and resources you have to counteract each.</p>
 <h4 id="why-learn-to-program-individual15-minutes" class="unnumbered">Why Learn to Program? (<span>individual</span>/<span>15</span> minutes)</h4>
@@ -2780,8 +2693,6 @@ NAME</p>
 <h4 id="appealing-to-your-learners-think-pair-share15-minutes" class="unnumbered">Appealing to Your Learners (<span>think-pair-share</span>/<span>15</span> minutes)</h4>
 <p>Adult learners are different from children and teens: in general, they are better at managing their time, they’re learning because they want to or need to, and they bring a lot of previous experience of learning into the room, so they tend to be better at knowing when they’re struggling productively and when they’re just struggling.</p>
 <p>Working in pairs, write a one-paragraph pitch for a class on web design that touches on these points, and then compare your pair’s pitch with those of other pairs.</p>
-<h4 id="email-subjects-pairs10-minutes" class="unnumbered">Email Subjects (<span>pairs</span>/<span>10</span> minutes)</h4>
-<p>Write the subject lines (and only the subject lines) for three email messages: one announcing a new course, one announcing a new sponsor, and one announcing a change in project leadership. Compare your subject lines to a partner’s and see if you can merge the best features of each while also shortening them.</p>
 <h4 id="conversational-programmers-think-pair-share15-minutes" class="unnumbered">Conversational Programmers (<span>think-pair-share</span>/<span>15</span> minutes)</h4>
 <p>A <a class="glossref" href="#g:conversational-programmer"><strong>conversational programmer</strong></a> is someone who needs to know enough about computing to have a meaningful conversation with a programmer, but isn’t going to program themselves. [<a href="#Wang2018">Wang2018</a>] found that most learning resources don’t address this group’s needs. Working in pairs, write a pitch for a half-day workshop intended to help people that fit this description, and then share your pair’s pitch with the rest of the class.</p>
 
@@ -3069,7 +2980,6 @@ Help who you can.<br />
 <p id="Koeh3013">[<strong><a href="uttps://doi.org/10.1177/002205741319300303">Koeh3013</a></strong>] Matthew J. Koehler, Punya Mishra, and William Cain. What is technological pedagogical content knowledge (<span>TPACK</span>)? <span><em>Journal of Education</em></span>, 193(3):13–19, 2013. <em>Refines the discussion of PCK by adding technology, and sketches strategies for building understanding of how to use it.</em></p>
 <p id="Kohn2017">[<strong><a href="https://doi.org/10.1145/3017680.3017724">Kohn2017</a></strong>] Tobias Kohn. Variable evaluation: An exploration of novice programmers’ understanding and common misconceptions. In <span><em>Proc. 2017 Technical Symposium on Computer Science Education (<span>SIGCSE’17</span>)</em></span>. Association for Computing Machinery (<span>ACM</span>), 2017. <em>Reports that students often believe in delayed evaluation or that entire equations are stored in variables.</em></p>
 <p id="Koll2015">[<strong><a href="https://doi.org/10.4018/ijpop.2015010102">Koll2015</a></strong>] Michael Kölling. Lessons from the design of three educational programming environments. <span><em>International Journal of People-Oriented Programming</em></span>, 4(1):5–32, Jan 2015. <em>Compares three generations of programming environments intended for novice use.</em></p>
-<p id="Koll2016">[<strong><a href="https://doi.org/10.1145/2872521">Koll2016</a></strong>] Michael Kölling and Fraser McKay. Heuristic evaluation for novice programming systems. <span><em><span>ACM</span> Transactions on Computing Education</em></span>, 16(3):1–30, Jun 2016. <em>Proposes heuristics to use to evaluate programming systems for novices and evaluates them using inter-expert comparison of three systems.</em></p>
 <p id="Kran2015">[<strong><a href="https://isbndb.com/search/books/1470425521">Kran2015</a></strong>] Steven G. Krantz. <span><em>How to Teach Mathematics</em></span>. American Mathematical Society (<span>AMS</span>), third edition, 2015. <em>Advice and opinions drawn from the author’s personal experience of teaching mathematics.</em></p>
 <p id="Krau2016">[<strong><a href="https://isbndb.com/book/0262528916">Krau2016</a></strong>] Robert E. Kraut and Paul Resnick. <span><em>Building Successful Online Communities: Evidence-Based Social Design</em></span>. <span>MIT</span> Press, 2016. <em>Sums up what we actually know about making thriving online communities and why we believe it’s true.</em></p>
 <p id="Krug1999">[<strong><a href="https://doi.org/10.1037/0022-3514.77.6.1121">Krug1999</a></strong>] Justin Kruger and David Dunning. Unskilled and unaware of it: How difficulties in recognizing one’s own incompetence lead to inflated self-assessments. <span><em>Journal of Personality and Social Psychology</em></span>, 77(6):1121–1134, 1999. <em>The original report on the Dunning-Kruger effect: the less people know, the less accurate their estimate of their knowledge.</em></p>
@@ -3232,7 +3142,7 @@ Help who you can.<br />
 <p id="Wilk2011">[<strong><a href="https://isbndb.com/book/1608193411">Wilk2011</a></strong>] Richard Wilkinson and Kate Pickett. <span><em>The Spirit Level: Why Greater Equality Makes Societies Stronger</em></span>. Bloomsbury Press, 2011. <em>Presents evidence that inequality harms everyone, both economically and otherwise.</em></p>
 <p id="Will2010">[<strong><a href="https://isbndb.com/book/047059196X">Will2010</a></strong>] Daniel T. Willingham. <span><em>Why Don’t Students Like School?: A Cognitive Scientist Answers Questions about How the Mind Works and What It Means for the Classroom</em></span>. Jossey-Bass, 2010. <em>A cognitive scientist looks at how the mind works in the classroom.</em></p>
 <p id="Wils2007">[<strong><a href="https://doi.org/10.1080/00986280701291291">Wils2007</a></strong>] Karen Wilson and James H. Korn. Attention during lectures: Beyond ten minutes. <span><em>Teaching of Psychology</em></span>, 34(2):85–89, Jun 2007. <em>Reports little support for the claim that students only have a 10–15 minute attention span (though there is lots of individual variation).</em></p>
-<p id="Wils2016">[<strong><a href="https://doi.org/10.12688/f1000research.3-62.v2">Wils2016</a></strong>] Greg Wilson. Software carpentry: Lessons learned. <span><em>F1000Research</em></span>, Jan 2016. <em>A history and analysis of Software Carpentry.</em></p>
+<p id="Wils2016">[<strong><a href="https://doi.org/10.12688/f1000research.3-62.v2">Wils2016</a></strong>] Greg Wilson. <span>Software Carpentry</span>: Lessons learned. <span><em>F1000Research</em></span>, Jan 2016. <em>A history and analysis of Software Carpentry.</em></p>
 <p id="Wlod2017">[<strong><a href="https://isbndb.com/book/1119077990">Wlod2017</a></strong>] Raymond J. Wlodkowski and Margery B. Ginsberg. <span><em>Enhancing Adult Motivation to Learn: A Comprehensive Guide for Teaching All Adults</em></span>. Jossey-Bass, 2017. <em>The standard reference for understanding adult motivation.</em></p>
 <p id="Yada2016">[<strong><a href="https://doi.org/10.1080/08993408.2016.1257418">Yada2016</a></strong>] Aman Yadav, Sarah Gretter, Susanne Hambrusch, and Phil Sands. Expanding computer science education in schools: Understanding teacher experiences and challenges. <span><em>Computer Science Education</em></span>, 26(4):235–254, Dec 2016. <em>Summarizes feedback from K-12 teachers on what they need by way of preparation and support.</em></p>
 <p id="Yang2015">[<strong><a href="https://doi.org/10.1016/j.system.2015.05.006">Yang2015</a></strong>] Yu-Fen Yang and Yuan-Yu Lin. Online collaborative note-taking strategies to foster <span>EFL</span> beginners’ literacy development. <span><em>System</em></span>, 52:127–138, Aug 2015. <em>Reports that students using collaborative note taking when learning English as a foreign language do better than those who don’t.</em></p>
@@ -3307,47 +3217,15 @@ Help who you can.<br />
 <p>This was the first format used, and I no longer recommend it: while spreading the class out gives people time to reflect and tackle larger exercises, it also greatly increases the odds that they’ll have to drop out because of other demands on their time.</p>
 <p>The class meets every week for an hour via video conferencing. Each meeting may be held twice to accommodate learners’ time zones and schedules. Participants use shared note-taking as described above for online group classes, post homework online between classes, and comment on each other’s work. (In practice, comments are relatively rare: people strongly prefer to discuss material in the weekly meetings.)</p>
 <h3 id="s:joining-contributing">C.3) Contributing and Maintaining</h3>
-<p>This book is a community resource: contributions of all kinds are welcome, from suggestions for improvements to errata and new material. All contributors must abide by the contributor covenant presented above; by submitting your work, you are agreeing that it may incorporated in either original or edited form and release it under the same license as the rest of this material (<a href="s:license">Appendix A</a>). If your material is incorporated, You will add you to the acknowledgments (<a href="#s:intro-acknowledgments">Section 1.6</a>) unless you request otherwise.</p>
+<p>This book is a community resource: contributions of all kinds are welcome, from suggestions for improvements to errata and new material. All contributors must abide by the contributor covenant presented above; by submitting your work, you are agreeing that it may incorporated in either original or edited form and release it under the same license as the rest of this material (<a href="s:license">Appendix A</a>). If your material is incorporated, we will add you to the acknowledgments (<a href="#s:intro-acknowledgments">Section 1.6</a>) unless you request otherwise.</p>
 <ul>
-<li>The source for this book is stored on GitHub at <span><a href="https://github.com/gvwilson/teachtogether.tech" class="uri">https://github.com/gvwilson/teachtogether.tech</a></span>. If you know how to use Git and GitHub and would like to change fix, or add something, please submit a <a class="glossref" href="#g:pull-request"><strong>pull request</strong></a> that modifies the LaTeX source in the <code>tex</code> directory. If you would like to preview your changes, please read the instructions in the <code>BUILD.md</code> file in the root directory of the project.</li>
+<li>The source for this book is stored on GitHub at <span><a href="https://github.com/gvwilson/teachtogether.tech" class="uri">https://github.com/gvwilson/teachtogether.tech</a></span>. If you know how to use Git and GitHub and would like to change, fix, or add something, please submit a <a class="glossref" href="#g:pull-request"><strong>pull request</strong></a> that modifies the LaTeX source in the <code>tex</code> directory. If you would like to preview your changes, please read the instructions in the <code>BUILD.md</code> file in the root directory of the project.</li>
 <li>If you simply want to report an error, ask a question, or make a suggestion, please file an issue at <span><a href="https://github.com/gvwilson/teachtogether.tech" class="uri">https://github.com/gvwilson/teachtogether.tech</a></span>. You need to have a GitHub account in order to do this, but do not need to know how to use Git.</li>
 <li>If you do not wish to create a GitHub account, please email your contribution to <span><a href="mailto:gvwilson@third-bit.com">mailto:gvwilson@third-bit.com</a></span> with either “T3” or “Teaching Tech Together” somewhere in the subject line.. We will try to respond within a week.</li>
 </ul>
 <p>Please note that we also welcome improvements to our build process, tooling, and typography, and are always grateful for more diagrams; please see the file <code>BUILD.md</code> in the root directory of the book’s GitHub repository at <span><a href="https://github.com/gvwilson/teachtogether.tech" class="uri">https://github.com/gvwilson/teachtogether.tech</a></span> for more information. Finally, we always enjoy hearing how people have used this material: please let us know if you have a story you would like to share.</p>
 <h4 id="a-teaching-commons" class="unnumbered">A Teaching Commons</h4>
-<p><a href="#s:community-governance">Section 13.4</a> defined a commons as something managed jointly by a community according to rules they themselves have evolved and adopted. Open source software and Wikipedia are both successful examples; the question is, why don’t teachers build lessons collaboratively in the same way? People have proposed <a href="http://blog.mrmeyer.com/2016/why-secondary-teachers-dont-want-a-github-for-lesson-plans/">a variety of reasons</a>, but I don’t think any of them hold up to close scrutiny:</p>
-<dl>
-<dt>The most important thing about a lesson isn’t having it, but writing it, because that gives you a chance to figure out what you think about the topic.</dt>
-<dd><p>The same is true of software, and yet most programmers use and improve libraries rather than building everything from scratch.</p>
-</dd>
-<dt>It’s always easier in the short term to write something from scratch than to learn your way around someone else’s material.</dt>
-<dd><p>And yet most teachers use textbooks.</p>
-</dd>
-<dt>It doesn’t pay off for most teachers because they only teach any particular lesson once a year (or once a quarter).</dt>
-<dd><p>Infrequent teaching ought to push people <em>toward</em> re-use, not away from it.</p>
-</dd>
-<dt>Working at scale results in a more neutral point of view, but in many fields, lessons are valuable precisely because they’re one person’s opinion.</dt>
-<dd><p>There is no reason why there couldn’t be half a dozen different shared lessons on a topic, each approaching the subject from a particular viewpoint, just as there are often several software libraries that fill the same basic need in different ways.</p>
-</dd>
-<dt>There’s no onboarding process to teach people the mechanics.</dt>
-<dd><p>This is undoubtedly a factor, but hasn’t stopped Wikipedia.</p>
-</dd>
-<dt>Collaboration on lesson development gets squeezed out by more important things.</dt>
-<dd><p>In other words, we’re too busy to save time?</p>
-</dd>
-<dt>Schools’ firewalls prevents people from working on shared materials.</dt>
-<dd><p>This is true for some teachers, but not for all, and most teachers in industrialized countries have access to a computer at home these days.</p>
-</dd>
-<dt>Schools’ policies prevents people from using or contributing to shared materials.</dt>
-<dd><p>Again, this is true for some teachers, but not for all.</p>
-</dd>
-<dt>There’s no way to measure the benefit, so there’s no incentive to do it.</dt>
-<dd><p>It’s hard to measure the benefits of open source software and Wikipedia contributions as well, and yet they have done well.</p>
-</dd>
-<dt>It’s a generational thing: as digital natives, tomorrow’s teachers will just naturally do it.</dt>
-<dd><p>Possibly, but advocates of revolutionary socialism and the Dvorak keyboard have been making similar claims about “eventually” for years.</p>
-</dd>
-</dl>
+<p><a href="#s:community-governance">Section 13.4</a> defined a commons as something managed jointly by a community according to rules they themselves have evolved and adopted. Open source software and Wikipedia are both successful examples; the question is, why don’t teachers build lessons collaboratively in the same way? People have proposed <a href="http://blog.mrmeyer.com/2016/why-secondary-teachers-dont-want-a-github-for-lesson-plans/">a variety of reasons</a>, but I don’t think any of them <a href="http://third-bit.com/2016/04/29/why-teachers-dont-collaborate.html">hold up to close scrutiny</a>.</p>
 <p><a href="http://software-carpentry.org">Software Carpentry</a> is proof by implementation that a teaching commons can produce and maintain high-quality lessons that hundreds of people can use [<a href="#Wils2016">Wils2016</a>]. I hope you will choose to help us do the same for this book. If you are new to working this way:</p>
 <dl>
 <dt>Start small.</dt>
@@ -3608,7 +3486,7 @@ Help who you can.<br />
 <dt>Mental model:</dt>
 <dd id="g:mental-model"><p>A simplified representation of the key elements and relationships of some problem domain that is good enough to support problem solving.</p>
 </dd>
-<dt>metacognition:</dt>
+<dt>Metacognition:</dt>
 <dd id="g:metacognition"><p>Thinking about thinking.</p>
 </dd>
 <dt>Minute cards:</dt>
@@ -3765,7 +3643,7 @@ Help who you can.<br />
 <p>Chelsea Troy’s discussion of <a href="https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/">why online meetings are often frustrating and unproductive</a> makes an important point: in most online meetings, the first person to speak during a pause gets the floor. The result? “If you have something you want to say, you have to stop listening to the person currently speaking and instead focus on when they’re gonna pause or finish so you can leap into that nanosecond of silence and be the first to utter something. The format<span>…</span>encourages participants who want to contribute to say more and listen less.”</p>
 <p>The solution is to run a text chat beside the video conference where people can signal that they want to speak, and have the moderator select people from the waiting list. If the meeting is large or argumentative, this can be reinforced by having everyone mute themselves, and only allowing the moderator to unmute people.</p>
 <h3 id="the-post-mortem" class="unnumbered">The Post Mortem</h3>
-<p>The most valuable part of a project isn’t the software you write or the grade you’re given: it’s the post mortem in which you reflect on what you just accomplished and what you could o better next time. The aim of a post mortem is <em>not</em> to point the finger of shame at individuals, although if that has to happen, the post mortem is the best place for it.</p>
+<p>Every project should end with a post mortem in which you reflect on what you just accomplished and what you could o better next time. Its aim is <em>not</em> to point the finger of shame at individuals, although if that has to happen, the post mortem is the best place for it.</p>
 <p>A post mortem is run like any other meeting, but with a few additional guidelines [<a href="#Derb2006">Derb2006</a>]:</p>
 <dl>
 <dt>Get a moderator who wasn’t part of the project</dt>

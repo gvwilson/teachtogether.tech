@@ -13,7 +13,7 @@ TEX_SRC=$(wildcard ${TEX_D}/*.tex) ${BIB_SRC}
 TEX_DST=$(patsubst %,${TEX_D}/${STEM}.%,aux bbl pdf toc)
 DOCS_IGNORES=$(patsubst %,${TEX_D}/%,${STEM}.tex frontmatter.tex macros.tex settings.tex) ${BIB_SRC}
 DOCS_SRC=$(filter-out ${DOCS_IGNORES},${TEX_SRC})
-DOCS_DST=$(patsubst ${TEX_D}/%.tex,${DOCS_D}/%.html,${DOCS_SRC}) ${DOCS_D}/bib.html
+DOCS_DST=$(patsubst ${TEX_D}/%.tex,${DOCS_D}/%.html,${DOCS_SRC}) ${DOCS_D}/bib.html ${DOCS_D}/${STEM}.bib
 DOCS_ALL=${DOCS_D}/${STEM}.html ${DOCS_D}/${STEM}.epub ${DOCS_D}/${STEM}.mobi ${DOCS_D}/${STEM}.pdf
 
 # Tools.
@@ -63,6 +63,9 @@ ${DOCS_D}/bib.html : ${TEX_D}/${STEM}.bbl ${BIN_D}/bbl2html-pre.py ${BIN_D}/bbl2
 	| ${PANDOC} ${PANDOC_FLAGS} -o - --metadata title="Bibliography" \
 	| ${BIN_D}/bbl2html-post.py ${BIB_SRC} \
 	> $@
+
+${DOCS_D}/${STEM}.bib : ${BIB_SRC}
+	@cp $< $@
 
 ${DOCS_D}/${STEM}.html : ${DOCS_DST} ${BIN_D}/mergebook.py
 	${BIN_D}/mergebook.py ${TITLE} ${TEX_D}/${STEM}.tex ${DOCS_D} \
@@ -174,7 +177,7 @@ years :
 
 ## mismatch   : identify leftover HTML files.
 mismatch :
-	@${BIN_D}/mismatch.py ${DOCS_D} ${DOCS_DST}
+	@${BIN_D}/mismatch.py ${STEM} ${DOCS_D} ${DOCS_DST}
 
 ## clean      : clean up junk files.
 clean :

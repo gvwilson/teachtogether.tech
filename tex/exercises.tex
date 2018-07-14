@@ -32,6 +32,8 @@ probe for specific misconceptions.  In terms of Bloom's Taxonomy
 recall and understanding (``What is the capital of Saskatchewan?''),
 but they can also require learners to exercise judgment.
 
+\newpage % PDF
+
 \begin{callout}{A Multiple Choice Question}
 
   In what order do operations occur when the computer evaluates the
@@ -463,17 +465,13 @@ vast majority of learners chose to validate their understanding of
 test cases this way before attempting to solve problems, and then
 asked fewer questions and expressed less confusion about assignments.
 
-It's common and tempting to use off-the-shelf style checking tools to
-grade learners' code.  However, \cite{Nutb2016} initially found no
+It's tempting to use off-the-shelf style checking tools to grade
+learners' code.  However, \cite{Nutb2016} initially found no
 correlation between human-provided marks and style-checker rule
 violations.  Sometimes this was because learners violated one rule
 many times (thereby losing more points than they should have), and
 other times it was because they submitted the assignment starter code
-with few alterations and got more points than they should have.  The
-authors modified the auto-grader's rules to reflect this, and then
-weighted infrequent and overly-frequent violations of a particular
-feature.  Unsurprisingly, after all these tweaks there was a stronger
-positive correlation with manual assessment.
+with few alterations and got more points than they should have.
 
 \cite{Buff2015} presents a well-informed reflection on the whole idea
 of providing automated feedback.  Their starting point is that,
@@ -643,74 +641,3 @@ Working with a partner, make a list of ``simple'' things you have seen
 go wrong in exercises you have used or taken.  How often do they come
 up?  How long do they take learners to fix on their own, or with help?
 How much time do you currently budget in class to deal with them?
-
-\exercise{Rate Your Tools}{small groups}{15}
-
-\cite{Koll2016} proposes a set of heuristics for evaluating
-programming systems for novices, based in large part on the authors'
-work developing several such systems \cite{Koll2015}.  The heuristics
-are listed below; working in groups of 3--4 people, rate the tools
-your learners use to do programming exercises as ``low'', ``medium'',
-``high'', or ``not applicable'' for each.
-
-{\small
-\begin{description}
-
-\item[Engagement:] The system should engage and motivate the
-  intended audience of learners. It should stimulate learners'
-  interest or sense of fun.
-
-\item[Non-threatening:] The system should not appear threatening in
-  its appearance or behaviour. Users should feel safe in the
-  knowledge that they can experiment without breaking the system, or
-  losing data.
-
-\item[Minimal language redundancy:] The programming language should
-  minimize redundancy in its language constructs and libraries.
-
-\item[Learner-appropriate abstractions:] The system should use
-  abstractions that are at the appropriate level for the learner and
-  task. Abstractions should be driven by pedagogy, not by the
-  underlying machine.
-
-\item[Consistency:] The model, language and interface presentation
-  should be consistent---internally, and with each other. Concepts
-  used in the programming model should be represented in the system
-  interface consistently.
-
-\item[Visibility:] The user should always be aware of system status
-  and progress. It should be simple to navigate to parts of the
-  system displaying other relevant data, such as other parts of a
-  program under development.
-
-\item[Secondary notations:] The system should automatically provide
-  secondary notations where this is helpful, and users should be
-  allowed to add their own secondary notations where practical.
-
-\item[Clarity:] The presentation should maintain simplicity and
-  clarity, avoiding visual distractions. This applies to the
-  programming language and to other interface elements of the
-  environment.
-
-\item[Human-centric syntax:] The program notation should use
-  human-centric syntax. Syntactic elements should be easily
-  readable, avoiding terminology obscure to the target audience.
-
-\item[Edit-order freedom:] The interface should allow the user
-  freedom in the order they choose to work. Users should be able to
-  leave tasks partially finished, and come back to them later.
-
-\item[Minimal viscosity:] The system should minimize viscosity in
-  program entry and manipulation. Making common changes to program
-  text should be as easy as possible.
-
-\item[Error-avoidance:] Preference should be given to preventing
-  errors over reporting them. If the system can prevent, or work
-  around an error, it should.
-
-\item[Feedback:] The system should provide timely and constructive
-  feedback. The feedback should indicate the source of a problem and
-  offer solutions.
-
-\end{description}
-}
