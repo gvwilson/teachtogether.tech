@@ -1,13 +1,24 @@
 # Display.
-title: "FIXME"
+title: "Teaching Tech Together"
 subtitle: "FIXME"
-author: "FIXME"
+author: "Greg Wilson"
 copyrightyear: "2018"
-repo: https://github.com/gvwilson/FIXME/
-email: FIXME@fixme.com
+repo: https://github.com/gvwilson/t3/
+email: gvwilson@third-bit.com
+isbn: "978-0-9881137-0-1"
+website: http://teachtogether.tech/
+
+# Theme color.
+background: "#f0f0f0"
 
 # Code highlighting.
 highlighter: rouge
+
+# Things to ignore
+exclude:
+- Makefile
+- bin
+- BUILD.md
 
 # Pages that are stored in the root directory by convention.
 # Since they aren't part of a collection, their titles have
@@ -15,8 +26,13 @@ highlighter: rouge
 toplevel:
 - permalink: /license/
   title: "License"
+  filename: "LICENSE.md"
 - permalink: /conduct/
   title: "Code of Conduct"
+  filename: "CONDUCT.md"
+- permalink: /citation/
+  title: "Citation"
+  filename: "CITATION.md"
 
 # Collections: one for lessons, one for extras.
 collections:
@@ -30,9 +46,33 @@ toc:
   toplevel:
   - /license/
   - /conduct/
+  - /citation/
   lessons:
   - /intro/
+  - /models/
+  - /memory/
+  - /load/
+  - /individual/
+  - /process/
+  - /pck/
+  - /performance/
+  - /classroom/
+  - /motivation/
+  - /online/
+  - /exercises/
+  - /community/
+  - /marketing/
+  - /partner/
+  - /final/
   extras:
   - /bib/
+  - /joining/
   - /gloss/
-  - /reference/
+  - /meetings/
+  - /theory/
+  - /template/
+  - /events/
+  - /teacheval/
+  - /peereval/
+  - /preassess/
+  - /v3/

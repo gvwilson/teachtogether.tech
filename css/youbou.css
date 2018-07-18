@@ -1,3 +1,5 @@
+---
+---
 /* Remove Table of Contents sidebar when printing. */
 @media print {
     .main {
@@ -8,10 +10,10 @@
 
 /* Table of Contents sidebar. */
 div.toc {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 0.5em;
     font-size: 80%;
-    background-color: #f0f0f0;
+    background-color: {{site.background}};
 }
 
 /* Less space between titles and bullet lists in ToC and objectives/keypoints boxes. */
@@ -34,6 +36,14 @@ div.listblock {
     margin-bottom: 1em;
 }
 
+/* Outlines for code samples. */
+pre.highlight {
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5em;
+    border-color: {{site.background}};
+}
+
 /* Make links darker than Bootstrap default. */
 a {
   color: #6060C0;
@@ -49,7 +59,7 @@ figure {
     border-style: solid;
     border-width: 1px;
     border-color: #000000;
-    background-color: #f0f0f0;
+    background-color: {{site.background}};
     padding: 2px;
     text-align: center;
 }
@@ -59,27 +69,13 @@ figcaption {
     font-weight: bold;
 }
 
-/* Put definition terms and definitions on the same line. */
-dl {
-    padding-left: 1em;
+/* Mark quotations. */
+blockquote {
+    border-left: solid 2px {{site.background}};
+    padding-left: 0.5em;
 }
-dt {
-    clear: left;
-    float: left;
-    margin: 0 0.5em 0 -1.0em;
-}
-dt::before {
-    content: "";
-    display: block;
-    height: 0.25em;
-}
-dd::before {
-    content: "";
-    display: block;
-    height: 0.25em;
-}
-dd p {
-    display: inline;
-    margin: 0;
-    padding: 0;
+
+/* Glossary references are in bold. */
+.glossref {
+    font-weight: bold;
 }
