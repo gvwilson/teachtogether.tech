@@ -71,10 +71,47 @@ FUNCS = [
 ]
 
 
+startCalloutPat = re.compile(r'\\begin{callout}{(.+?)}')
+def startCallout(line):
+    m = startCalloutPat.search(line)
+    if m:
+        line = '\\begin{quote}\n\\textbf{' + m.group(1) + '}\n'
+    return line
+
+
+def endCallout(line):
+    if r'\end{callout}' in line:
+        line = '\\end{quote}\n'
+    return line
+
+
+startObjectivesPat = re.compile(r'\\begin{objectives}')
+def startObjectives(line):
+    m = startObjectivesPat.search(line)
+    if m:
+        line = '\\begin{quote}\n\\textbf{After reading this chapter, you will be able to{\\ldots}}\n\\begin{itemize}\n'
+    return line
+
+
+def endObjectives(line):
+    if r'\end{objectives}' in line:
+        line = '\\end{itemize}\n\\end{quote}\n'
+    return line
+
+
+ENVIRONMENTS = [
+    startCallout, endCallout,
+    startObjectives, endObjectives
+]
+
+
 def main():
+    prefix = ''
     for line in sys.stdin:
         for func in FUNCS:
             line = func.pattern.sub(func, line)
+        for env in ENVIRONMENTS:
+            line = env(line)
         sys.stdout.write(line)
 
 

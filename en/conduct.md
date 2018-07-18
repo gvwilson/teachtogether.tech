@@ -1,6 +1,7 @@
 \chapter{Code of Conduct}\label{s:conduct}
 
-\begin{callout}{Context}
+\begin{quote}
+\textbf{Context}
 
   This code of conduct is based on the template written by the Ada
   Initiative and hosted on the
@@ -10,7 +11,7 @@
   appropriately.  Please see ==section==s:joining-covenant== for the
   covenant governing contributions to this material.
 
-\end{callout}
+\end{quote}
 
 We are dedicated to providing a harassment-free learning experience
 for everyone, regardless of gender, sexual orientation, disability,

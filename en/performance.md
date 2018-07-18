@@ -1,6 +1,8 @@
 \chapter{Teaching as a Performance Art}\label{s:performance}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Define \emph{jugyokenkyu} and lateral knowledge transfer and
   explain their relationship to each other.
@@ -16,7 +18,8 @@
 
 \item Do and critique live coding.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 As ==chapter==s:pck== explained, every teacher needs content knowledge,
 general pedagogical knowledge, and pedagogical content knowledge in
@@ -31,7 +34,8 @@ only way to teach, but it is probably the most common, and the
 techniques that will make you better at doing it can be applied
 elsewhere as well.
 
-\begin{callout}{Teaching Tips}
+\begin{quote}
+\textbf{Teaching Tips}
 
   The \href{http://csteachingtips.org/}{CS Teaching Tips} site is
   collecting PCK for teaching programming, and I hope that one day we
@@ -39,7 +43,7 @@ elsewhere as well.
   like ==cite==Hazz2014,Guzd2015a,Sent2018==, or more personal
   collections like ==cite==Gelm2002== to help us all do it better.
 
-\end{callout}
+\end{quote}
 
 \section{Lesson Study}\label{s:performance-jugyokenkyu}
 
@@ -228,7 +232,8 @@ rubric this detailed is best presented as a checklist with items more
 or less in the order that they'll be used (e.g., questions about the
 introduction come before questions about the conclusion).
 
-\begin{callout}{Question Budgets}
+\begin{quote}
+\textbf{Question Budgets}
 
   Rubrics like the one in ==appendix==s:teacheval== have a tendency to grow
   over time as people think of things they'd like to add.  A good way
@@ -236,7 +241,7 @@ introduction come before questions about the conclusion).
   constant, i.e., that if someone wants to add a question, they have
   to identify one that's less important and can be removed.
   
-\end{callout}
+\end{quote}
 
 If you are interested in giving and getting feedback, ==cite==Gorm2014==
 has good advice that you can use to make peer-to-peer feedback a
@@ -249,7 +254,8 @@ your lesson delivery; gathering feedback from your learners should be
 as close to continuous as you can make it, and you should prompt for
 questions and reflections as well as positives and negatives.
 
-\begin{callout}{Studio Classes}
+\begin{quote}
+\textbf{Studio Classes}
 
   Architecture schools often include studio classes, in which students
   solve small design problems and get feedback from their peers right
@@ -259,7 +265,7 @@ questions and reflections as well as positives and negatives.
   and get feedback ==cite==Scho1984==. Master classes in music serve a
   similar purpose.
 
-\end{callout}
+\end{quote}
   
 \section{How to Practice Performance}\label{s:performance-practice}
 
@@ -339,7 +345,8 @@ find it a lot easier to give each other informal feedback if they have
 had some practice doing so and have a shared rubric to set
 expectations.
 
-\begin{callout}{Tells}
+\begin{quote}
+\textbf{Tells}
 
   Everyone has nervous habits. For example, many of us talk more
   rapidly and in a higher-pitched voice than usual, while others play
@@ -354,7 +361,7 @@ expectations.
   e.g., to train yourself to scrunch your toes inside your shoes
   instead of cracking your knuckles.
 
-\end{callout}
+\end{quote}
 
 \section{Live Coding}\label{s:performance-live}
 
@@ -449,7 +456,8 @@ other settings is that watching the teacher make mistakes actually
 motivates most students, since it gives them permission to be less
 than perfect as well.
 
-\begin{callout}{Deliberate Fumbles}
+\begin{quote}
+\textbf{Deliberate Fumbles}
 
   If you've given a lesson several times, you're unlikely to make
   anything other than basic typing mistakes (which can still be
@@ -460,7 +468,7 @@ than perfect as well.
     coding}: ask learners one by one to tell you what to type next.
   This is pretty much guaranteed to get you into the weeds.
 
-\end{callout}
+\end{quote}
 
 \subsection*{Ask For Predictions}
 
@@ -560,7 +568,8 @@ become confused (particularly if the window is hosting an interactive
 interpreter prompt for Python or some other language as well as
 running shell commands and hosting an editor).
 
-\begin{callout}{Accessibility Aids Help Everyone}
+\begin{quote}
+\textbf{Accessibility Aids Help Everyone}
 
   Tools like
   \href{https://boinx.com/mousepose/overview/}{Mousepos\'{e}} (for
@@ -572,7 +581,7 @@ running shell commands and hosting an editor).
   take a bit of practice to get used to, but are extremely helpful as
   you start teaching more advanced tools.
 
-\end{callout}
+\end{quote}
 
 \subsection*{Double Devices}
 
@@ -625,7 +634,8 @@ through it beforehand as you plan to in class \emph{using the same
 megabytes of software updates over high school WiFi in front of
 increasingly bored 16-year-olds isn't something you want to do twice.
 
-\begin{callout}{Direct Instruction}
+\begin{quote}
+\textbf{Direct Instruction}
 
   ==glossref==g:direct-instruction==Direct Instruction== is a teaching
   method centered around meticulous curriculum design delivered
@@ -637,7 +647,7 @@ increasingly bored 16-year-olds isn't something you want to do twice.
   greater up-front investment than most free-range learning groups can
   afford.
   
-\end{callout}
+\end{quote}
 
 \subsection*{Face the Screen---Occasionally}
 

@@ -1,6 +1,8 @@
 \chapter{Motivation and Demotivation}\label{s:motivation}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain the difference between intrinsic and extrinsic
   motivation.
@@ -19,7 +21,8 @@
 \item Describe and enact three things teacher can do to make their
   classes more inclusive.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 Learners need encouragement to step out into unfamiliar terrain, so
 this chapter discusses ways teachers can motivate them.  More
@@ -57,7 +60,8 @@ they need to use to solve a larger problem (competence), let them
 tackle the parts of that problem in whatever order they want
 (autonomy), and allow them to talk to their peers (relatedness).
 
-\begin{callout}{The Problem of Grades}
+\begin{quote}
+\textbf{The Problem of Grades}
 
   \begin{quote}
     I've never had an audience in my life. My audience is a rubric. \\
@@ -77,7 +81,7 @@ tackle the parts of that problem in whatever order they want
     alignment} approach advocated in ==cite==Bigg2011== seeks to bring
   learning activities and learning outcomes into line with each other.
 
-\end{callout}
+\end{quote}
 
 ==cite==Ambr2010== contains a list of evidence-based methods to motivate
 learners. None of them are surprising---it's hard to imagine someone
@@ -90,7 +94,8 @@ more likely to believe stories from people like themselves
 ==cite==Mill2016a==, and people who have been through your course will
 always have advice that you would never have thought of.
 
-\begin{callout}{Not Just for Students}
+\begin{quote}
+\textbf{Not Just for Students}
 
   Discussions of motivation in education often overlook the need to
   motivate the \emph{teacher}. Learners respond to a teacher's
@@ -103,7 +108,7 @@ always have advice that you would never have thought of.
   out and nobody knows where to find a replacement and why are they
   doing construction work today of all days{\ldots}
 
-\end{callout}
+\end{quote}
 
 Teachers can do other positive things as well.  ==cite==Bark2014== found
 three things that drove retention for all students: meaningful
@@ -279,7 +284,8 @@ in both in-person and online settings using methods like those in
 ==section==s:motivation-inclusivity==, and doing so improves outcomes for
 everyone ==cite==Sved2016==.
 
-\begin{callout}{Productive Failure and Privilege}
+\begin{quote}
+\textbf{Productive Failure and Privilege}
 
   Some recent work has explored the notion of productive failure,
   where learners are deliberately given problems that can't be solved
@@ -297,7 +303,7 @@ everyone ==cite==Sved2016==.
   underprivileged groups, can't be sure of that, and talking otherwise
   is a great way to turn them off.
 
-\end{callout}
+\end{quote}
 
 \subsection*{Impostor Syndrome}
 
@@ -463,7 +469,8 @@ makes it clear that hosts and instructors care enough to have thought
 about problems in advance, and that any additional concerns are likely
 to be addressed.
 
-\begin{callout}{It Helps Everyone}
+\begin{quote}
+\textbf{It Helps Everyone}
 
   \href{https://en.wikipedia.org/wiki/Curb_cut}{Curb cuts} (the small
   sloped ramps joining a sidewalk to the street) were originally
@@ -475,7 +482,7 @@ to be addressed.
   screen readers something to say: it also makes the images more
   findable by exposing their content to search engines.
 
-\end{callout}
+\end{quote}
 
 The first and most important step in making lessons accessible is to
 \emph{involve people with disabilities in decision-making}: the slogan
@@ -547,7 +554,8 @@ that it exists and is enforced.  Knowing that there are rules tells
 people a great deal about your values and about what kind of learning
 experience they can expect.
 
-\begin{callout}{Group Signup}
+\begin{quote}
+\textbf{Group Signup}
 
   One way to support learners from marginalized groups is to have
   people sign up for workshops in groups rather than individually.
@@ -557,7 +565,7 @@ experience they can expect.
   if people come with their friends or colleagues, they can work
   together to use what they've learned.
 
-\end{callout}
+\end{quote}
   
 \section{Inclusivity}\label{s:motivation-inclusivity}
 
@@ -700,7 +708,8 @@ harder because of the inequities they face, and (not coincidentally)
 gives those who benefit from the current arrangements an excuse not to
 look at themselves too closely.
 
-\begin{callout}{Rewriting History}
+\begin{quote}
+\textbf{Rewriting History}
 
   ==cite==Abba2012== describes the careers and accomplishments of the
   women who shaped the early history of computing, but have all too
@@ -713,7 +722,7 @@ look at themselves too closely.
   this can make some men in computing very uncomfortable; in my
   opinion, that's a good reason to do it more often.
 
-\end{callout}
+\end{quote}
 
 Misogyny in video games, the use of ``cultural fit'' in hiring to
 excuse conscious or unconscious bias, a culture of silence around

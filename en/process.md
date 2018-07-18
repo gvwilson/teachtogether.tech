@@ -1,6 +1,8 @@
 \chapter{A Lesson Design Process}\label{s:process}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Describe the steps in backward lesson design and explain why it
   generally produces better lessons than the more common forward
@@ -15,7 +17,8 @@
   objectives with reference to Bloom's Taxonomy and/or Fink's
   Taxonomy.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 Most people design lessons like this:
 
@@ -108,7 +111,8 @@ summative assessments directly affect the teachers' pay and promotion,
 which means teachers have an incentive to focus on having learners
 pass test rather than on helping them learn.
 
-\begin{callout}{Measure{\ldots}And Then?}
+\begin{quote}
+\textbf{Measure{\ldots}
 
   ==cite==Gree2014== argues that this focus on measurement is appealing
   to those with the power to set the tests, but unlikely to improve
@@ -118,7 +122,7 @@ pass test rather than on helping them learn.
   productivity ==cite==Scot1998==; we will return to this topic in
   ==chapter==s:performance==.
 
-\end{callout}
+\end{quote}
 
 It's important to note that while lesson design is \emph{described} as
 a sequence, it's almost never \emph{done} that way: we may, for
@@ -182,7 +186,8 @@ a weekend workshop aimed at college students might be:
 
 \end{enumerate}
 
-\begin{callout}{A Gentle Reminder}
+\begin{quote}
+\textbf{A Gentle Reminder}
 
   When designing lessons, you must always remember that \emph{you are
     not your learners}. You may be younger (if you're teaching
@@ -193,7 +198,7 @@ a weekend workshop aimed at college students might be:
   and pay attention to their answer. After all, it's only fair that
   learning should go both ways.
 
-\end{callout}
+\end{quote}
 
 Rather than writing new personas for every lesson or course, it's
 common for teachers to create and share a handful that cover everyone
@@ -268,7 +273,8 @@ by a very different lesson:
 
 \end{itemize}
 
-\begin{callout}{Objectives vs.\ Outcomes}
+\begin{quote}
+\textbf{Objectives vs.\ Outcomes}
 
   A learning objective is what a lesson strives to achieve. A
   ==glossref==g:learning-outcome==learning outcome== is what it actually
@@ -276,7 +282,7 @@ by a very different lesson:
   summative assessment is therefore to compare learning outcomes with
   learning objectives.
 
-\end{callout}
+\end{quote}
 
 A learning objective is a single sentence describing how a learner
 will demonstrate what they have learned once they have successfully

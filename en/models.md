@@ -1,6 +1,8 @@
 \chapter{Building Mental Models}\label{s:models}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain the cognitive differences between novices and competent
   practitioners in terms of mental models, and the implications of
@@ -11,7 +13,8 @@
 \item Construct multiple-choice questions with plausible distractors
   that have diagnostic power.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 The first task in teaching is to figure out who your learners are and
 what they already know.  Our approach is based on the work of
@@ -115,7 +118,8 @@ jargon and \emph{don't} explain things.  This phenomenon is called the
 ==cite==Kaly2003==, and is another reason you have to decide early on who
 your lessons are meant for.
 
-\begin{callout}{A Handful of Exceptions}
+\begin{quote}
+\textbf{A Handful of Exceptions}
 
   One of the reasons Unix and C became popular is that Kernighan et
   al's trilogy ==cite==Kern1978,Kern1983,Kern1988== somehow managed to be
@@ -125,7 +129,7 @@ your lessons are meant for.
   have accomplished this; even after re-reading them several times, I
   don't know how they manage to do it.
 
-\end{callout}
+\end{quote}
 
 \section{Are People Learning?}\label{s:models-formative-assessment}
 
@@ -277,7 +281,8 @@ or what teaching practices you use, you won't always be able to give
 everyone what they need; it's your responsibility as a teacher to make
 the call.
 
-\begin{callout}{Concept Inventories}
+\begin{quote}
+\textbf{Concept Inventories}
 
   Given enough data, MCQs can be made surprisingly precise. The
   best-known example is the Force Concept Inventory ==cite==Hest1992==,
@@ -296,7 +301,7 @@ the call.
   build tools like this, and students' ability to search for answers
   online is an ever-increasing threat to their validity.
 
-\end{callout}
+\end{quote}
 
 Working formative assessments into class requires only a little bit of
 preparation and practice.  Giving students colored or numbered cards
@@ -307,7 +312,8 @@ seconds before answering will all help ensure that your teaching flow
 isn't disrupted.  ==section==s:classroom-peer== describes a powerful,
 evidence-based teaching method that builds on these simple ideas.
 
-\begin{callout}{Humor}
+\begin{quote}
+\textbf{Humor}
 
   Teachers sometimes put supposedly-silly answers like ``my nose!''
   on MCQs, particularly ones intended for younger students. However,
@@ -315,7 +321,7 @@ evidence-based teaching method that builds on these simple ideas.
   most people don't actually find them funny (especially on
   re-reading).
 
-\end{callout}
+\end{quote}
 
 A lesson's formative assessments should prepare learners for its
 summative assessment: no one should ever encounter a question on an

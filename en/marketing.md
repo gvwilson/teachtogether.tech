@@ -1,6 +1,8 @@
 \chapter{Marketing}\label{s:marketing}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain what marketing actually is.
 
@@ -9,7 +11,8 @@
 
 \item State what a brand is and what their organization's is.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 It's hard to get people with academic or technical backgrounds to take
 ==glossref==g:marketing==marketing== seriously, not least because it's
@@ -173,7 +176,8 @@ those that can afford free.''  In those situations, stories become
 even more important, because they can be shared and re-shared without
 limit.
 
-\begin{callout}{Foundational Myths}
+\begin{quote}
+\textbf{Foundational Myths}
 
   One of the most compelling stories a person or organization can tell
   is why and how they got started. Are you teaching what you wish
@@ -182,7 +186,7 @@ limit.
   a section on your website starting, ``Once upon a time,'' think
   about adding one.
 
-\end{callout}
+\end{quote}
 
 Whatever else you do, make your organization findable in online
 searches: ==cite==DiSa2014b== discovered that the search terms parents
@@ -209,7 +213,8 @@ and some won't be online at all.  Notice boards in schools, local
 libraries, drop-in centers, and grocery stores are still an effective
 way to reach them.
 
-\begin{callout}{Build Alliances}
+\begin{quote}
+\textbf{Build Alliances}
 
   As discussed in ==chapter==s:community==, building alliances with other
   groups that are doing things related to what you're doing pays off
@@ -220,7 +225,7 @@ way to reach them.
   what they need. The organizations you are helping will soon start to
   help you in return.
 
-\end{callout}
+\end{quote}
 
 \newpage % PDF
 
@@ -278,7 +283,8 @@ workshops.  That's much better than the 2--3\% response rate most
 organizations expect with cold calls, but can still be pretty
 demoralizing if you're not used to it.
 
-\begin{callout}{Mail Out of the Blue}
+\begin{quote}
+\textbf{Mail Out of the Blue}
 
   \noindent
   Hi NAME,
@@ -304,7 +310,7 @@ demoralizing if you're not used to it.
   Thanks,\\
   NAME
 
-\end{callout}
+\end{quote}
 
 \section{A Final Thought}\label{s:marketing-final}
 

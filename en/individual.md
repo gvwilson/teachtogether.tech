@@ -1,6 +1,8 @@
 \chapter{Individual Learning}\label{s:individual}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain what metacognition is and why it is important to
   learning.
@@ -18,7 +20,8 @@
 
 \item List common myths about computing education.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 The previous three chapters have looked at what instructors can do to
 help their learners.  This chapter looks at what learners can do for
@@ -101,7 +104,8 @@ example, make a flash card for each fact that you couldn't remember,
 or that you remembered incorrectly.  This will help you focus the next
 round of study on things that most need attention.
 
-\begin{callout}{The Value of Lectures}
+\begin{quote}
+\textbf{The Value of Lectures}
 
   According to ==cite==Mill2016a==, ``The lectures that predominate in
   face-to-face courses are relatively ineffective ways to teach, but
@@ -110,7 +114,7 @@ round of study on things that most need attention.
   the courses are set up, online students can sometimes avoid exposure
   to material altogether until an assignment is nigh.''
 
-\end{callout}
+\end{quote}
 
 \subsection*{Retrieval Practice}
 
@@ -156,7 +160,8 @@ and the connections between them.  Sketching a concept map and then
 comparing it to your notes or to a previously-drawn concept map is a
 quick way to do this.
 
-\begin{callout}{Hypercorrection}
+\begin{quote}
+\textbf{Hypercorrection}
 
   One powerful finding in learning research is the
   ==glossref==g:hypercorrection==hypercorrection effect==
@@ -168,7 +173,7 @@ quick way to do this.
   they were right, the more likely they are not to repeat the error if
   they are corrected.
 
-\end{callout}
+\end{quote}
 
 \subsection*{Interleaving}
 
@@ -328,7 +333,8 @@ population.  Two all nighters in a row, and their effective IQ is 50,
 which is the level at which people are usually judged incapable of
 independent living.
 
-\begin{callout}{When You Just Can't Say No}
+\begin{quote}
+\textbf{When You Just Can't Say No}
 
   Research has shown that our ability to exert willpower runs out,
   just like our ability to use muscles: if we have to resist eating
@@ -338,7 +344,7 @@ independent living.
   effective counter is to build up habits so that doing the right
   thing is automatic.
 
-\end{callout}
+\end{quote}
 
 ``But---but---we have so many assignments to do!'', your learners say.
 ``And they're all due at once!  We \emph{have} to work extra hours to

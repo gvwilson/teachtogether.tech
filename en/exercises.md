@@ -1,6 +1,8 @@
 \chapter{Exercise Types}\label{s:exercises}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Describe four types of formative assessment exercises for
   programming classes.
@@ -8,7 +10,8 @@
 \item Describe two kinds of feedback on programming exercises that can
   be given by automated tools.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 Every good carpenter has a set of screwdrivers, and every good teacher
 has different kinds of formative assessment exercises to check what
@@ -34,7 +37,8 @@ but they can also require learners to exercise judgment.
 
 \newpage % PDF
 
-\begin{callout}{A Multiple Choice Question}
+\begin{quote}
+\textbf{A Multiple Choice Question}
 
   In what order do operations occur when the computer evaluates the
   expression \texttt{price~=~addTaxes(cost~-~discount)}?
@@ -45,7 +49,7 @@ but they can also require learners to exercise judgment.
   c) function call, then assignment and subtraction simultaneously \\
   d) none of the above
 
-\end{callout}
+\end{quote}
 
 The second classic type of programming exercise is \emph{code and run}
 (C\&R), in which the learner writes code that produces a specified
@@ -57,19 +61,21 @@ how hard it can be to figure out which parameters go where.  For more
 advanced learners, figuring out which function to call is more
 engaging and a better gauge of their understanding.
 
-\begin{callout}{Code \& Run}
+\begin{quote}
+\textbf{Code \& Run}
 
   The variable \texttt{picture} contains a full-color image read from
   a file.  Using one function, create a black and white version of the
   image and assign it to a new variable called \texttt{monochrome}.
 
-\end{callout}
+\end{quote}
 
 \noindent
 Write and run exercises can be combined with MCQs.  For example, this
 MCQ can only be answered by running the Unix \texttt{ls} command:
 
-\begin{callout}{Combining MCQ with Code \& Run}
+\begin{quote}
+\textbf{Combining MCQ with Code \& Run}
 
   You are in the directory \texttt{/home/greg}. Which of the following
   files is \emph{not} in that directory?
@@ -80,7 +86,7 @@ MCQ can only be answered by running the Unix \texttt{ls} command:
   c) \texttt{spring.csv} \\
   d) \texttt{winter.csv}
 
-\end{callout}
+\end{quote}
 
 C\&Rs help learners practice the skills they most want to learn, but
 they can be hard to assess: learners can find lots of unexpected ways
@@ -101,7 +107,8 @@ conforms to a spec.  This is a useful skill in its own right, and
 doing it may give students a bit more sympathy for how hard their
 teachers work.
 
-\begin{callout}{Inverting Code \& Run}
+\begin{quote}
+\textbf{Inverting Code \& Run}
 
   The function \texttt{monotonic\_sum} calculates the sum of each
   section of a list of numbers in which the values are strictly
@@ -124,7 +131,7 @@ teachers work.
     increase.
 \end{itemize}
 
-\end{callout}
+\end{quote}
 
 \emph{Fill in the blanks} is a refinement of C\&R in which the learner
 is given some starter code and has to complete it. (In practice, most
@@ -135,7 +142,8 @@ the blanks less intimidating than writing all the code from scratch,
 and since the teacher has provided most of the answer's structure,
 submissions are much more predictable and therefore easier to check.
 
-\begin{callout}{Fill in the Blanks}
+\begin{quote}
+\textbf{Fill in the Blanks}
 
   Fill in the blanks so that the code below prints the string
   \texttt{'hat'}.
@@ -146,7 +154,7 @@ slice = text[____:____]
 print(slice)
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 As described in ==chapter==s:load==, \glossref{g:parsons-problem}{Parsons
   Problems} also avoid the ``blank screen of terror'' problem.  The
@@ -162,7 +170,8 @@ Parsons Problems online exist ==cite==Ihan2011==, but they can be
 emulated (albeit somewhat clumsily) by asking learners to rearrange
 lines of code in an editor.
 
-\begin{callout}{Parsons Problem}
+\begin{quote}
+\textbf{Parsons Problem}
 
   Rearrange and indent these lines to sum the positive values in a
   list.  (You will need to add colons in appropriate places as well.)
@@ -174,7 +183,7 @@ total += v
 for v in values
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 \section{Tracing}\label{s:exercises-tracing}
 
@@ -189,7 +198,8 @@ presenting this as an MCQ) adds cognitive load without adding value,
 since they have to do all the work of figuring out the correct
 sequence, then search for it in the list of options.
 
-\begin{callout}{Tracing Execution Order}
+\begin{quote}
+\textbf{Tracing Execution Order}
 
   In what order are the labelled lines in this block of code executed?
 
@@ -203,7 +213,7 @@ C)             inverse_sum += 1/v
 D)         pass
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 \emph{Tracing values} is similar to tracing execution, but instead of
 spelling out the order in which code is executed, the learner has to
@@ -214,7 +224,8 @@ columns are labelled with variable names and whose rows are labelled
 with line numbers, and asking them to fill in all of the values taken
 on by all of the variables.
 
-\begin{callout}{Tracing Values}
+\begin{quote}
+\textbf{Tracing Values}
 
   What values do \texttt{left} and \texttt{right} take on as this
   program executes?
@@ -226,7 +237,7 @@ while right:
     left, right = right, left % right
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 You can also require learners to trace code backwards, e.g., to figure
 out what the input must have been if the code produced a particular
@@ -235,7 +246,8 @@ require search and deductive reasoning, but they are particularly
 useful when the ``output'' is an error message, and help learners
 develop valuable debugging skills.
 
-\begin{callout}{Reverse Execution}
+\begin{quote}
+\textbf{Reverse Execution}
 
   Fill in the missing number in \texttt{values} that caused this
   function to crash.
@@ -247,7 +259,7 @@ for (reading, scaling) in values:
     runningTotal += reading / scaling
 \end{verbatim}
   
-\end{callout}
+\end{quote}
 
 \emph{Minimal fix} exercises also help learners develop debugging
 skills.  Given a few lines of code that contain a bug, the learner
@@ -255,7 +267,8 @@ must either make or identify the smallest change that will produce the
 correct output. Making the change can be done using C\&R, while
 identifying it can be done as a multiple choice question.
 
-\begin{callout}{Minimal Fix}
+\begin{quote}
+\textbf{Minimal Fix}
 
   This function is supposed to test whether a number lies within a
   range.  Make one small change so that it actually does so.
@@ -270,7 +283,7 @@ def inside(point, lower, higher):
         return true
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 \emph{Theme and variation} exercises are similar, but instead of
 making a change to fix a bug, the learner is asked to make a small
@@ -284,7 +297,8 @@ practice a useful real-world skill: the fastest way to produce a
 working program is often to tweak one that already does something
 useful.
 
-\begin{callout}{Theme and Variations}
+\begin{quote}
+\textbf{Theme and Variations}
 
   Change the inner loop in the function below so that it fill the
   upper left triangle of an image with a specified color.
@@ -299,7 +313,7 @@ function fillTriangle(picture, color) is
 end
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 \emph{Refactoring exercises} are the complement of theme and variation
 exercises: given a working piece of code, the learner has to modify it
@@ -309,7 +323,8 @@ to simplify the condition in a while loop, etc. The exercise here is
 that there are often so many ways to refactor a piece of code that
 grading requires human intervention.
 
-\begin{callout}{Refactoring}
+\begin{quote}
+\textbf{Refactoring}
 
   Write a single list comprehension that has the same effect as this
   loop.
@@ -321,7 +336,7 @@ for v in values:
         result.append(v)
 \end{verbatim}
 
-\end{callout}
+\end{quote}
 
 \section{Diagrams}\label{s:exercises-diagrams}
 
@@ -341,7 +356,8 @@ generated''), the code itself (``match each term to an example of that
 program element''), or many other things; the key is that constraining
 the set of solutions makes this usable in class and at scale.
 
-\begin{callout}{Labelling a Diagram}
+\begin{quote}
+\textbf{Labelling a Diagram}
 
   The tree below shows how a small fragment of HTML is represented in
   memory.  Put the labels 1--10 on the elements of the tree to show
@@ -351,7 +367,7 @@ the set of solutions makes this usable in class and at scale.
     \includegraphics{../docs/fig/labelling.pdf}
   }
 
-\end{callout}
+\end{quote}
 
 Another way to use diagrams for formative assessment is to give
 learners the pieces of the diagram and ask them to arrange them
@@ -369,7 +385,8 @@ are taken from the other column.  \emph{One-to-one matching} gives the
 learner two lists of equal length and asks her to pair corresponding
 items, e.g., ``match each piece of code with the output it produces''.
 
-\begin{callout}{Matching}
+\begin{quote}
+\textbf{Matching}
 
   Match each regular expression operator with what it does.
 
@@ -381,7 +398,7 @@ items, e.g., ``match each piece of code with the output it produces''.
     \texttt{\textasciicircum} & zero or more occurrences \\
   \end{tabular}
 
-\end{callout}
+\end{quote}
 
 \emph{Many-to-many matching} is similar, but the lists aren't the same
 length, so some items may be matched to several others, while others
@@ -549,7 +566,8 @@ generally.  If you are going to have students do reviews, use
 calibrated peer review (==section==s:individual-peer==) so that they have
 models of what good feedback should look like.
 
-\begin{callout}{Code Review}
+\begin{quote}
+\textbf{Code Review}
 
   Using the rubric provided, mark each line of the code below.
 
@@ -575,7 +593,7 @@ models of what good feedback should look like.
   missing return value
 \end{enumerate}
 
-\end{callout}
+\end{quote}
 
 \section{Exercises}\label{s:exercises-exercises}
 

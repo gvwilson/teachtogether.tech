@@ -114,7 +114,8 @@ As soon as the meeting is over, the minutes should be circulated
 running meetings, and if you want to ``learn, then do'', an hour of
 training on chairing meetings is the most effective place to start.
 
-\begin{callout}{Sticky Notes and Interruption Bingo}
+\begin{quote}
+\textbf{Sticky Notes and Interruption Bingo}
 
   Some people are so used to the sound of their own voice that they
   will insist on talking half the time no matter how many other people
@@ -144,7 +145,7 @@ training on chairing meetings is the most effective place to start.
   meeting, but it is almost never appropriate to repeatedly cut people
   off.)
 
-\end{callout}
+\end{quote}
 
 \section*{Online Meetings}
 

@@ -1,6 +1,8 @@
 \chapter{Partnerships}\label{s:partner}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain why teachers in schools and universities do and don't
   adopt better teaching practices.
@@ -8,7 +10,8 @@
 \item Summarize methods that can be used to effect changes in
   educational institutions.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 ==section==s:community-learn-then-do== said that the first step in
 building a community is to decide if you really need to, or whether

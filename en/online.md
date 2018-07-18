@@ -1,6 +1,8 @@
 \chapter{Teaching Online}\label{s:online}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain why expectations for massive online courses were
   unrealistic.
@@ -13,7 +15,8 @@
 \item Summarize at least four features that make instructional videos
   engaging.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 \begin{quote}
 
@@ -110,7 +113,8 @@ transfer knowledge) or provide guidance for common errors, and other
 than rudimentary age-based differentiation, none personalize lessons
 based on prior coding experience or learner goals.
 
-\begin{callout}{Personalized Learning}
+\begin{quote}
+\textbf{Personalized Learning}
 
   Few terms have been used and abused in as many ways as
   ==glossref==g:personalized-learning==personalized learning==.  To most
@@ -138,7 +142,7 @@ based on prior coding experience or learner goals.
     article} for a brief summary).  It's simply unrealistic to believe
   that any kind of automation can outdo this any time soon.
 
-\end{callout}
+\end{quote}
 
 So how should the web be used in teaching and learning tech skills?
 From an educational point of view, its pros and cons are:
@@ -249,7 +253,8 @@ disaster, even with GitHub's online editing tools. As a teacher,
 you're asking people to learn a lot; the least you can do in return is
 learn how to use the tools they prefer.
 
-\begin{callout}{Points for Improvement}
+\begin{quote}
+\textbf{Points for Improvement}
 
   One way to demonstrate to learners that they are learning
   \emph{with} you, not just \emph{from} you, is to allow them to edit
@@ -262,7 +267,7 @@ learn how to use the tools they prefer.
   workload, but increases engagement and the lesson's lifetime
   (==section==s:process-maintainability==).
 
-\end{callout}
+\end{quote}
 
 A major concern with any online community, learning or otherwise, is
 how to actually make it a community. Hundreds of books and
@@ -273,7 +278,8 @@ weaponized abuse and misinformation, most of what was true then is
 true now.  ==cite==Foge2005== is also full of useful tips for the
 community of practice that learners may hope to join.
 
-\begin{callout}{Freedom To and Freedom From}
+\begin{quote}
+\textbf{Freedom To and Freedom From}
 
   Isaiah Berlin's 1958 essay
   ``\href{https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty}{Two
@@ -288,7 +294,7 @@ community of practice that learners may hope to join.
   day. Doing this gives those with something to say a chance to say
   it, while clearing space for others to say things as well.
 
-\end{callout}
+\end{quote}
 
 One other concern people have about teaching online is cheating.
 Day-to-day dishonesty is no more common in online classes than in
@@ -375,7 +381,8 @@ evaluations of courses don't correlate with learning
 learn from things they don't watch, it remains to be proven that they
 \emph{do} learn from things they \emph{do} watch.
 
-\begin{callout}{I'm a Little Uncomfortable}
+\begin{quote}
+\textbf{I'm a Little Uncomfortable}
 
   ==cite==Guo2014=='s research was approved by a university research
   ethics board, the learners whose viewing habits were monitored
@@ -387,7 +394,7 @@ learn from things they don't watch, it remains to be proven that they
   choice, I'd rather not know how engaged learners are than see
   privacy become obsolete.
 
-\end{callout}
+\end{quote}
 
 There are many different ways to record video lessons; to find out
 which are most effective, ==cite==Mull2007a== assigned 364 first-year
@@ -513,7 +520,8 @@ benefits of peer-to-peer interaction.''
 
 \newpage % PDF
 
-\begin{callout}{Co-opetition}
+\begin{quote}
+\textbf{Co-opetition}
 
   ==cite==Gull2004== describes an innovative online coding contest that
   combines collaboration and competition.  The contest starts when a
@@ -532,7 +540,7 @@ benefits of peer-to-peer interaction.''
   assessment indicates that two-stage projects tend to improve
   students' understanding, and that they enjoyed the process.
 
-\end{callout}
+\end{quote}
 
 Discussion isn't the only way to get students to work together online.
 ==cite==Pare2008== and ==cite==Kulk2013== report experiments in which
@@ -557,7 +565,8 @@ action and feedback, the greater the cognitive load.  What wasn't
 expected was that the best and worst students were more likely to
 share than middling students.
 
-\begin{callout}{Trust, but Educate}
+\begin{quote}
+\textbf{Trust, but Educate}
 
   The most common way to measure the validity of feedback is to
   compare students' grades to experts' grades, but calibrated peer
@@ -570,7 +579,7 @@ share than middling students.
   use technology to make judgments, rather than being judged by
   technology.
 
-\end{callout}
+\end{quote}
 
 One technique we will definitely see more of in coming years is online
 streaming of live coding sessions ==cite==Haar2017==. This has most of
@@ -592,7 +601,8 @@ technology learners use every day into the classroom.  For example,
 feedback using mobile devices improved concept retention and student
 engagement while reducing failure rates.
 
-\begin{callout}{Hybrid Presence}
+\begin{quote}
+\textbf{Hybrid Presence}
 
   Combining online and in-person instruction can be more effective
   than either on its own.  I have delivered very successful classes
@@ -605,7 +615,7 @@ engagement while reducing failure rates.
   best will in the world, the local participants get far more
   attention.
 
-\end{callout}
+\end{quote}
 
 Online teaching is still in its infancy: ==cite==Luxt2009== surveyed peer
 assessment tools that could be useful in computing education, and

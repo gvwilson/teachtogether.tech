@@ -1,6 +1,8 @@
 \chapter{In the Classroom}\label{s:classroom}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Describe how to handle a Code of Conduct violation.
 
@@ -13,7 +15,8 @@
   appropriate to use in programming workshops for adults, and give a
   pedagogical justification for each.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 The previous chapter described how to practice in-class teaching and
 described one method---live coding---that allows teachers to adapt to
@@ -123,7 +126,8 @@ second one that students answer individually.  Sure enough, peer
 discussion actually does enhance understanding, even when none of the
 students in a discussion group originally knew the correct answer.
 
-\begin{callout}{Taking a Stand}
+\begin{quote}
+\textbf{Taking a Stand}
 
   It is important to have learners vote publicly so that they can't
   change their minds afterward and rationalize it by making excuses to
@@ -132,7 +136,7 @@ students in a discussion group originally knew the correct answer.
   answer be wrong and having to think through the reasons why
   (==section==s:individual-strategies==).
 
-\end{callout}
+\end{quote}
 
 \section{Teach Together}\label{s:classroom-together}
 
@@ -173,7 +177,8 @@ voice a chance to rest, it reduces the risk that they will be so tired
 by the end of the day that they will start snapping at their students
 or fumbling at their keyboard.
 
-\begin{callout}{Helping}
+\begin{quote}
+\textbf{Helping}
 
   Many people who aren't comfortable teaching are still willing and
   able to provide in-class technical support.  They can help learners
@@ -191,7 +196,7 @@ or fumbling at their keyboard.
   more likely to understand the problems their peers are having, it
   also stops them from getting bored.
 
-\end{callout}
+\end{quote}
 
 If you and a partner are co-teaching, try to follow these rules:
 
@@ -311,7 +316,8 @@ well served.  Equally, if you spend a few minutes talking about an
 advanced topic to a learner who is bored, the rest of the class will
 feel left out.
 
-\begin{callout}{False Beginners}
+\begin{quote}
+\textbf{False Beginners}
 
   A ==glossref==g:false-beginner==false beginner== is someone who has
   studied a language before but is learning it again.  False beginners
@@ -334,7 +340,7 @@ feel left out.
   this is fair depends on what you choose to include in your
   assessment.
   
-\end{callout}
+\end{quote}
 
 \section{Pair Programming}\label{s:classroom-pair}
 
@@ -374,7 +380,8 @@ studied pair programming in a Grade 6 classroom, and found that pairs
 that focused on trying to complete the task as quickly as possible
 were less fair in their sharing.
 
-\begin{callout}{Switching Partners}
+\begin{quote}
+\textbf{Switching Partners}
 
   Teachers have mixed opinions on whether people should be required to
   change partners at regular intervals. On the one hand, it gives
@@ -387,7 +394,7 @@ were less fair in their sharing.
   pairs whose members had differing levels of personality traits
   communicated more often.
 
-\end{callout}
+\end{quote}
 
 \section{Take Notes{\ldots}Together?}\label{s:classroom-notetaking}
 
@@ -552,7 +559,8 @@ simple command as soon as they arrive and show the teachers the
 result, and then have helpers and other learners assist people who
 have run into trouble.
 
-\begin{callout}{Common Denominators}
+\begin{quote}
+\textbf{Common Denominators}
 
   If you have participants using several different operating systems,
   avoid using features which are OS-specific, and point out any that
@@ -561,7 +569,7 @@ have run into trouble.
   controls and behavior on Windows are different from those on other
   platforms.
 
-\end{callout}
+\end{quote}
 
 You can try using tools like \href{http://docker.com}{Docker} to put
 virtual machines on learners' computers to reduce installation

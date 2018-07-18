@@ -1,6 +1,8 @@
 \chapter{Cognitive Load}\label{s:load}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Define cognitive load and explain how consideration of it can be
   used to shape instruction.
@@ -17,7 +19,8 @@
 \item Describe ways instructors differ from students and what effect
   those differences have on instruction.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 In ==cite==Kirs2006==, Kirschner, Sweller and Clark wrote:
 
@@ -153,7 +156,8 @@ learners to think about the similarities and differences between
 various approaches, which helps create the linkages in their mental
 models that help retrieval.
 
-\begin{callout}{Efficiency vs.\ Extent}
+\begin{quote}
+\textbf{Efficiency vs.\ Extent}
 
   Seeing worked examples accelerates learning more than having
   students write lots of code themselves ==cite==Skud2014==.  As we will
@@ -162,7 +166,7 @@ models that help retrieval.
   ==cite==Grif2016==.  However, this isn't the same as saying that people
   learn more unless they see additional problems.
 
-\end{callout}
+\end{quote}
 
 The key to constructing a good faded example is to think about the
 problem-solving strategy it is meant to teach.  For example, the
@@ -191,7 +195,8 @@ aspects of learning.  As with ==cite==Mark2018== (discussed in
 differ, but the practical implementation of their theories often wind
 up being the same.
 
-\begin{callout}{Cognitive Apprenticeship}
+\begin{quote}
+\textbf{Cognitive Apprenticeship}
 
   An alternative model of learning and instruction that also uses
   scaffolding and fading is
@@ -216,7 +221,7 @@ up being the same.
   what they have just been taught.  This is discussed in more detail
   in ==section==s:individual-strategies==.
 
-\end{callout}
+\end{quote}
 
 \subsection*{Parsons Problems}
 
@@ -308,7 +313,8 @@ require it while people are mastering unit skills; instead, using
 multiple sources of information simultaneously should be treated as a
 separate learning task.
 
-\begin{callout}{Not All Graphics Are Created Equal}
+\begin{quote}
+\textbf{Not All Graphics Are Created Equal}
 
   ==cite==Sung2012== presents an elegant study that distinguishes
   \emph{seductive} graphics (which are highly interesting but not
@@ -328,7 +334,7 @@ separate learning task.
   For addition, however, having pictures outperformed pictures and
   numbers, which outperformed just having numbers.
 
-\end{callout}
+\end{quote}
 
 \section{Minimal Manuals}\label{s:load-minimal}
 

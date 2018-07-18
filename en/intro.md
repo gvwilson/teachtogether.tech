@@ -39,7 +39,8 @@ exercises that can be used to reinforce learning (==chapter==s:models==),
 and include the original design for this book in ==appendix==s:v3== so that
 you can see what a lesson design looks like.
 
-\begin{callout}{This Book Belongs to Everyone}
+\begin{quote}
+\textbf{This Book Belongs to Everyone}
 
   This book is a community resource.  Parts of it were originally
   created for
@@ -59,7 +60,7 @@ you can see what a lesson design looks like.
   see ==appendix==s:joining== for details and ==section==s:joining-covenant==
   for our code of conduct.
 
-\end{callout}
+\end{quote}
 
 \section{Who You Are}\label{s:intro-audience}
 
@@ -326,7 +327,8 @@ Wrenn, and Andromeda Yelton.  I am grateful to them, to Lukas Blakk
 for the cover image, and to everyone who has used this material over
 the years; any mistakes that remain are mine.
 
-\begin{callout}{Breaking the Law}
+\begin{quote}
+\textbf{Breaking the Law}
 
   Much of the research reported in this book was publicly funded, but
   despite that, a lot of it is locked away behind paywalls.  At a
@@ -336,7 +338,7 @@ the years; any mistakes that remain are mine.
   publishing your research in open access venues, or by posting copies
   on open preprint servers.
 
-\end{callout}
+\end{quote}
 
 \section{Exercises}\label{s:intro-exercises}
 

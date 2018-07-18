@@ -1,6 +1,8 @@
 \chapter{Expertise and Memory}\label{s:memory}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Define expertise and explain how it works using a graph metaphor
   for cognition.
@@ -15,7 +17,8 @@
   capacity limits of the latter, and explain the impact of these
   limits on teaching.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 \begin{quote}
 
@@ -96,7 +99,8 @@ overcome with training, it's part of why there is no correlation
 between how good someone is at doing research in an area and how good
 they are at teaching it ==cite==Mars2002==.
 
-\begin{callout}{The J Word}
+\begin{quote}
+\textbf{The J Word}
 
   Experts often betray their blind spot by using the word ``just'' in
   explanations, as in, ``Oh, it's easy, you just fire up a new virtual
@@ -108,7 +112,7 @@ they are at teaching it ==cite==Mars2002==.
 
   Don't do this.
 
-\end{callout}
+\end{quote}
 
 \section{Concept Maps}\label{s:memory-concept-maps}
 
@@ -217,7 +221,8 @@ understanding are generally more advanced skills than understanding
 itself.  Like any other new tool or technique, concept maps have to be
 taught and practiced if they are to be effective.
 
-\begin{callout}{Start Anywhere}
+\begin{quote}
+\textbf{Start Anywhere}
 
   When asked to draw their first concept map, many people will stare
   at the blank page in front of them, not knowing where to start.
@@ -229,7 +234,7 @@ taught and practiced if they are to be effective.
   page in order to discover more nodes and arcs.  After that, the hard
   part is often stopping.
 
-\end{callout}
+\end{quote}
 
 Concept maps are just one way to represent our understanding of a
 subject; others include mind maps (which are usually radial and
@@ -252,7 +257,8 @@ short-term memory that lets a participant in the discussion point at a
 wiggly bubble and say ``that'' to trigger recall of several minutes of
 debate.
 
-\begin{callout}{Rough Work and Honesty}
+\begin{quote}
+\textbf{Rough Work and Honesty}
 
   Many user interface designers believe that it's better to show
   people rough sketches of their ideas rather than polished mock-ups
@@ -263,7 +269,7 @@ debate.
   you should therefore use pencils and scrap paper (or pens and a
   whiteboard) rather than fancy computer drawing tools.
 
-\end{callout}
+\end{quote}
 
 \section{Seven Plus or Minus Two}\label{s:memory-seven-plus-or-minus}
 
@@ -292,7 +298,8 @@ short-term memory may actually be as small as $4{\pm}1$ items; our
 innate tendency to remember things together gives the illusion of it
 being larger.
 
-\begin{callout}{Participation}
+\begin{quote}
+\textbf{Participation}
 
   The size of working memory is sometimes used to explain why sports
   teams tend to have about half a dozen members or be broken down into
@@ -305,7 +312,7 @@ being larger.
   working memory, but so far as I know, the link has never been
   proven.
 
-\end{callout}
+\end{quote}
 
 $7{\pm}2$ is probably the most important number in programming. When
 someone is trying to write the next line of a program, or understand
@@ -332,7 +339,8 @@ there's far too much in it to teach in a single pass, and then carve
 out tightly-connected subsections to break the lesson into digestible
 pieces, each of which leads to a formative assessment.
 
-\begin{callout}{Building Concept Maps Together}
+\begin{quote}
+\textbf{Building Concept Maps Together}
 
   Concept maps can be used as a classroom discussion exercise. Put
   learners in small groups (2--4 people each), give each group some
@@ -348,7 +356,7 @@ pieces, each of which leads to a formative assessment.
   everyone realizes how different their mental models of the project
   are, a lot of interesting discussion will ensure{\ldots}.
 
-\end{callout}
+\end{quote}
 
 The simple model of memory presented here has largely been replaced by
 a more sophisticated one in which short-term memory is broken down
@@ -430,7 +438,8 @@ A common progression is for people to go through three stages:
 
 \end{description}
 
-\begin{callout}{What Counts as Deliberate Practice?}
+\begin{quote}
+\textbf{What Counts as Deliberate Practice?}
 
   ==cite==Macn2014== found that ``{\ldots}deliberate practice explained
   26\% of the variance in performance for games, 21\% for music, 18\%
@@ -442,7 +451,7 @@ A common progression is for people to go through three stages:
   the evidence.''  To be effective, deliberate practice requires both
   a clear performance goal and immediate informative feedback.
 
-\end{callout}
+\end{quote}
 
 \section{Exercises}\label{s:memory-exercises}
 

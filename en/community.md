@@ -1,6 +1,8 @@
 \chapter{Building Community}\label{s:community}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain what situated learning is and identify its key elements.
 
@@ -13,7 +15,8 @@
 \item Explain the difference between a service board and a governance
   board, and judge which kind an organization has.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 Many well-intentioned people want the world to be a better place, but
 don't actually want anything important to change. A lot of grassroots
@@ -188,7 +191,8 @@ receiving end of what you offer that they can draw on, which helps your
 organization avoid collective
 ==glossref==g:expert-blind-spot==expert blind spot==.
 
-\begin{callout}{Start Small}
+\begin{quote}
+\textbf{Start Small}
 
   As \href{https://en.wikipedia.org/wiki/Ben\_Franklin\_effect}{Ben
     Franklin} observed, a person who has performed a favor for someone
@@ -203,7 +207,7 @@ organization avoid collective
   practice some useful skills, and gives you an opportunity to start a
   conversation that might lead to a new recruit.
 
-\end{callout}
+\end{quote}
 
 Recruiting doesn't end when someone first shows up: if you don't
 follow through, people will come out once or twice, then decide that
@@ -326,7 +330,8 @@ flattered to be asked, and will know who you are the next time you call.
 
 \newpage % PDF
 
-\begin{callout}{Government Matters}
+\begin{quote}
+\textbf{Government Matters}
 
   It's fashionable in tech circles to disparage government
   institutions as slow-moving dinosaurs, but in my experience they are
@@ -336,9 +341,10 @@ flattered to be asked, and will know who you are the next time you call.
   may not have met yet, help with red tape, and a host of other useful
   things.
 
-\end{callout}
+\end{quote}
 
-\begin{callout}{Soup, Then Hymns}
+\begin{quote}
+\textbf{Soup, Then Hymns}
 
   Manifestos are fun to write, but most people join a volunteer
   community to help and be helped rather than to argue over the
@@ -352,7 +358,7 @@ flattered to be asked, and will know who you are the next time you call.
   about manifestos, since that's the point at which it's important to
   define values that will guide your growth and operations.
 
-\end{callout}
+\end{quote}
 
 One important special case of making things rewarding is to pay
 people.  Volunteers can do a lot, but eventually tasks like system

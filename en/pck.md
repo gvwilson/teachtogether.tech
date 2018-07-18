@@ -1,6 +1,8 @@
 \chapter{Actionable Approximations of the Truth}\label{s:pck}
 
-\begin{objectives}
+\begin{quote}
+\textbf{After reading this chapter, you will be able to{\ldots}}
+\begin{itemize}
 
 \item Explain what pedagogical content knowledge (PCK) is and why it's
   important.
@@ -17,7 +19,8 @@
 \item Summarize the effectiveness of various intervention strategies
   on novice learning.
 
-\end{objectives}
+\end{itemize}
+\end{quote}
 
 Every instructor needs three things:
 
@@ -71,7 +74,8 @@ decisions regardless of whether research has clear answers yet or not,
 this chapter presents actionable approximations of the truth rather
 than nuanced perhapses.
 
-\begin{callout}{Jargon}
+\begin{quote}
+\textbf{Jargon}
 
   Like any specialty, computing education research has its jargon.
   The term ==glossref==g:cs1==CS1== refers to an introductory
@@ -92,7 +96,7 @@ than nuanced perhapses.
   \href{https://www.acm.org/education/curricula-recommendations}{ACM
     Curriculum Guidelines}.
 
-\end{callout}
+\end{quote}
 
 \section{How Do Novices Program?}\label{s:pck-programming}
 
@@ -376,7 +380,8 @@ condition tests wasn't nearly as common as most teachers believed.
 
 \newpage % PDF
 
-\begin{callout}{Not Just for Code}
+\begin{quote}
+\textbf{Not Just for Code}
 
   ==cite==Park2015== collected data from an online HTML editor during an
   introductory web development course.  Nearly all learners made
@@ -388,7 +393,7 @@ condition tests wasn't nearly as common as most teachers believed.
   instructors to say, ``But the rules are simple,'' is a good example
   of expert blind spot discussed in ==chapter==s:memory=={\ldots})
 
-\end{callout}
+\end{quote}
 
 \section{What Are We Teaching Them Now?}\label{s:pck-now}
 
@@ -527,7 +532,8 @@ with programming notebooks like \href{http://jupyter.org/}{Jupyter}
 and \href{http://stenci.la/}{Stencila}, they may eventually eliminate
 the distinction altogether.
 
-\begin{callout}{Harder Than Necessary}
+\begin{quote}
+\textbf{Harder Than Necessary}
 
   ==cite==Stef2013== has shown that the creators of programming language
   make those languages harder to learn by not doing basic usability
@@ -544,7 +550,7 @@ the distinction altogether.
   actually know about designing programming languages and why we
   believe it's true.)
 
-\end{callout}
+\end{quote}
   
 \subsection*{Object-Oriented and Functional Programming}
 
@@ -703,7 +709,8 @@ correlation between the time taken and the score achieved.  Our
 recommendation is therefore to \emph{teach students to trace
   variables' values when debugging}.
 
-\begin{callout}{Flowcharts}
+\begin{quote}
+\textbf{Flowcharts}
 
   One often-overlooked finding about visualization is that students
   understand flowcharts better than pseudocode \emph{if both are
@@ -712,7 +719,7 @@ recommendation is therefore to \emph{teach students to trace
   and tangled flowcharts; when the playing field was levelled, novices
   did better with the graphical representation.
 
-\end{callout}
+\end{quote}
 
 \section{What Else Can We Do to Help?}\label{s:pck-help}
 
