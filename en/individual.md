@@ -28,7 +28,7 @@ help their learners. This chapter looks at what learners can do for
 themselves by changing their study strategies and getting enough rest.
 
 The key to getting more out of learning is
-@@glossref@@g:metacognition@@metacognition@@, or thinking about one’s
+**[metacognition](../gloss/#g:metacognition)**, or thinking about one’s
 own thinking processes. Just as good musicians listen to their own
 playing, and good teachers reflect on their teaching
 ([CHAPTER][s:performance]), learners will learn better and faster if
@@ -41,10 +41,10 @@ that can be improved like any other [[McGu2015](../bib/#McGu2015),[Miya2018](../
 
 The big prize is transfer of learning, which occurs when one thing we
 have learned helps us learn something else more quickly. Researchers
-distinguish between @@glossref@@g:near-transfer@@near transfer@@, which
+distinguish between **[near transfer](../gloss/#g:near-transfer)**, which
 occurs between similar or related areas like fractions and decimals, or
 loops in different programming languages, and
-@@glossref@@g:far-transfer@@far transfer@@, which occurs between
+**[far transfer](../gloss/#g:far-transfer)**, which occurs between
 dissimilar domains—the idea that learning to play chess will help
 mathematical reasoning or vice versa.
 
@@ -141,7 +141,7 @@ you can exchange flash cards with a partner; this also helps you
 discover important ideas that you may have missed or misunderstood.
 
 A quicker version of this is
-@@glossref@@g:read-cover-retrieve@@read-cover-retrieve@@: as you read
+**[read-cover-retrieve](../gloss/#g:read-cover-retrieve)**: as you read
 something, cover up key terms or sections with small sticky notes. When
 you are done, go through it a second time and see how well you can guess
 what’s under each of those stickies.
@@ -155,7 +155,7 @@ quick way to do this.
 > **Hypercorrection**
 > 
 > One powerful finding in learning research is the
-> @@glossref@@g:hypercorrection@@hypercorrection effect@@
+> **[hypercorrection effect](../gloss/#g:hypercorrection)**
 > [[Metc2016](../bib/#Metc2016)]. Most people don’t like to be told they’re wrong,
 > so it’s reasonable to assume that the more confident someone is that
 > the answer they’ve given in a test is correct, the harder it is to
@@ -320,7 +320,7 @@ which people are usually judged incapable of independent living.
 > like our ability to use muscles: if we have to resist eating the last
 > donut on the tray when we’re hungry, we are less likely to fold
 > laundry and vice versa. This is called
-> @@glossref@@g:ego-depletion@@ego depletion@@ [[Mill2016a](../bib/#Mill2016a)], and
+> **[ego depletion](../gloss/#g:ego-depletion)** [[Mill2016a](../bib/#Mill2016a)], and
 > an effective counter is to build up habits so that doing the right
 > thing is automatic.
 
@@ -337,7 +337,7 @@ and prioritize those separately.
 The most important part of this is switching off interruptions. Despite
 what many people want to believe, people are not good at multi-tasking.
 What we can become good at is
-@@glossref@@g:automaticity@@automaticity@@, which is the ability to do
+**[automaticity](../gloss/#g:automaticity)**, which is the ability to do
 something routine in the background while doing something else
 [[Mill2016a](../bib/#Mill2016a)]. Most of us can talk while chopping onions, or drink
 coffee while reading; with practice, we can also take notes while
@@ -346,7 +346,7 @@ challenging tasks while paying attention to something else.
 
 The point of all this organization and preparation is to get into the
 most productive mental state possible. Psychologists call it
-@@glossref@@g:flow@@flow@@ [[Csik2008](../bib/#Csik2008)]; athletes call it “being
+**[flow](../gloss/#g:flow)** [[Csik2008](../bib/#Csik2008)]; athletes call it “being
 in the zone”, while musicians talk about losing themselves in what
 they’re playing. Whatever name you use, people produce much more per
 unit of time in this state than normal.
@@ -378,7 +378,7 @@ self-ratings, and crucially, that ratings were not biased by gender or
 race.
 
 One important variation on peer assessment and review is
-@@glossref@@g:contributing-student@@contributing student pedagogy@@, in
+**[contributing student pedagogy](../gloss/#g:contributing-student)**, in
 which students produce artifacts to contribute to other students’
 learning. This can be developing a short lesson and sharing it with the
 class, adding to a question bank, or writing up notes from a particular
@@ -441,7 +441,7 @@ leads from one to the other. For example, if the two ideas are
 @@exercise@@Convergent Evolution@@pairs@@15@@
 
 One practice that wasn’t covered above is
-@@glossref@@g:guided-notes@@guided notes@@, which are
+**[guided notes](../gloss/#g:guided-notes)**, which are
 instructor-prepared notes that cue students to respond to key
 information in a lecture or discussion. The cues can be blank spaces
 where students add information, asterisks next to terms students should

@@ -30,9 +30,9 @@ talks about ways teachers can accidentally *demotivate* them, and how to
 avoid doing that.
 
 Our starting point is the difference between
-@@glossref@@g:extrinsic-motivation@@extrinsic motivation@@, which we
+**[extrinsic motivation](../gloss/#g:extrinsic-motivation)**, which we
 feel when we do something to avoid punishment or earn a reward, and
-@@glossref@@g:intrinsic-motivation@@intrinsic motivation@@, which is
+**[intrinsic motivation](../gloss/#g:intrinsic-motivation)**, which is
 what we feel when we find something personally rewarding. Both affect
 most situations—for example, people teach because they enjoy it and
 because they get paid—but we learn best when we are intrinsically
@@ -151,9 +151,9 @@ sacrificing what’s fundamental is the media computation approach
 developed at Georgia Tech [[Guzd2013](../bib/#Guzd2013)]. Instead of printing “hello
 world” or summing the first ten integers, a student’s first program
 might open an image, resize it to create a thumbnail, and save the
-result. This is an @@glossref@@g:authentic-task@@authentic task@@, i.e.,
+result. This is an **[authentic task](../gloss/#g:authentic-task)**, i.e.,
 something that learners believe they would actually do in real life. It
-also has a @@glossref@@g:tangible-artifact@@tangible artifact@@: if the
+also has a **[tangible artifact](../gloss/#g:tangible-artifact)**: if the
 image comes out the wrong size, learners have a concrete starting point
 for debugging. [[Lee2013](../bib/#Lee2013)] describes an adaption of this approach
 from Python to MATLAB, while others are building similar courses around
@@ -205,7 +205,7 @@ demotivated if they believe something is unfair, even if it is unfair in
 their favor, because they will worry (consciously or unconsciously) that
 they will some day find themselves in the group on the losing end
 [[Wilk2011](../bib/#Wilk2011)]. In extreme situations, learners may develop
-@@glossref@@g:learned-helplessness@@learned helplessness@@: when
+**[learned helplessness](../gloss/#g:learned-helplessness)**: when
 repeatedly subjected to negative feedback in a situation that they can’t
 change, they may learn not to even try to change the things they could.
 
@@ -282,7 +282,7 @@ for everyone [[Sved2016](../bib/#Sved2016)].
 
 ### Impostor Syndrome
 
-@@glossref@@g:impostor-syndrome@@Impostor syndrome@@ is the belief that
+**[Impostor syndrome](../gloss/#g:impostor-syndrome)** is the belief that
 you aren’t really good enough for a job or position—that your
 achievements are lucky flukes—and an accompanying fear of someone
 finding out. Impostor syndrome is common among high achievers who
@@ -352,7 +352,7 @@ you’re asking students for their help to help you learn and improve.
 Reminding people of negative stereotypes, even in subtle ways, can make
 them anxious about the risk of confirming those stereotypes, which in
 turn reduces their performance. This is called
-@@glossref@@g:stereotype-threat@@stereotype threat@@; [[Stee2011](../bib/#Stee2011)]
+**[stereotype threat](../gloss/#g:stereotype-threat)**; [[Stee2011](../bib/#Stee2011)]
 summarizes what we know about stereotype threat in general and presents
 some strategies for mitigating it in the classroom.
 
@@ -396,8 +396,8 @@ behind [[Alvi1999](../bib/#Alvi1999),[Brop1983](../bib/#Brop1983),[Juss2005](../
 ### Mindset
 
 Carol Dweck and others have studied the differences of
-@@glossref@@g:fixed-mindset@@fixed mindset@@ and
-@@glossref@@g:growth-mindset@@growth mindset@@. If people believe that
+**[fixed mindset](../gloss/#g:fixed-mindset)** and
+**[growth mindset](../gloss/#g:growth-mindset)**. If people believe that
 competence in some area is intrinsic (i.e., that you either “have the
 gene” for it or you don’t), *everyone* does worse, including the
 supposedly advantaged. The reason is that if they don’t get it at first,
@@ -529,7 +529,7 @@ experience they can expect.
 
 @@label@@s:motivation-inclusivity@@
 
-@@glossref@@g:inclusivity@@Inclusivity@@ is a policy of including people
+**[Inclusivity](../gloss/#g:inclusivity)** is a policy of including people
 who might otherwise be excluded or marginalized. In computing, it means
 making a positive effort to be more welcoming to women,
 under-represented racial or ethnic groups, people with various sexual
@@ -571,7 +571,7 @@ something their peers respected.
 Work like this has to be done carefully. [[Lach2018](../bib/#Lach2018)] explored two
 strategies:
 
-  - @@glossref@@g:community-representation@@Community representation@@  
+  - **[Community representation](../gloss/#g:community-representation)**  
     highlights students’ social identities, histories, and community
     networks using after-school mentors or role models from students’
     neighborhoods, or activities that use community narratives and
@@ -649,7 +649,7 @@ over time, they erode motivation, and with it, participation.
 
 The first and most important step toward fixing this is to stop thinking
 in terms of a “leaky pipeline” [[Mill2015](../bib/#Mill2015)]. More generally, we to
-move past a @@glossref@@g:deficit-model@@deficit model@@ i.e., to stop
+move past a **[deficit model](../gloss/#g:deficit-model)** i.e., to stop
 thinking that the members of under-represented groups lack something and
 are therefore responsible for not getting ahead. Believing that puts the
 burden on people who already have to work harder because of the

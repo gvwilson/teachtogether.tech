@@ -8,7 +8,7 @@ title: "Introduction"
 
 Hundreds of grassroots groups have sprung up around the world to teach
 programming, web design, robotics, and other skills to
-@@glossref@@g:free-range-learner@@free-range learners@@ outside
+**[free-range learners](../gloss/#g:free-range-learner)** outside
 traditional classrooms. These groups exist so that people don’t have to
 learn these things on their own, but ironically, their founders and
 instructors are often teaching themselves how to teach.
@@ -62,7 +62,7 @@ you can see what a lesson design looks like.
 
 [SECTION][s:process-personas] explains how to figure out who your
 learners are. The four I had in mind when writing this book are all
-@@glossref@@g:end-user-teacher@@end-user teachers@@: teaching isn’t
+**[end-user teachers](../gloss/#g:end-user-teacher)**: teaching isn’t
 their primary occupation, they have little or no background in pedagogy,
 and they may work outside institutional classrooms.
 

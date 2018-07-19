@@ -74,7 +74,7 @@ people who have been targets.
 No matter how good a teacher is, she can only say one thing at a time.
 How then can she clear up many different misconceptions in a reasonable
 time? The best solution developed so far is a technique called
-@@glossref@@g:peer-instruction@@peer instruction@@. Originally created
+**[peer instruction](../gloss/#g:peer-instruction)**. Originally created
 by Eric Mazur at Harvard [[Mazu1996](../bib/#Mazu1996)], it has been studied
 extensively in a wide variety of contexts, including programming
 [[Crou2001](../bib/#Crou2001),[Port2013](../bib/#Port2013)], and [[Port2016](../bib/#Port2016)] found that students
@@ -132,7 +132,7 @@ students in a discussion group originally knew the correct answer.
 
 @@label@@s:classroom-together@@
 
-@@glossref@@g:co-teaching@@Co-teaching@@ describes any situation in
+**[Co-teaching](../gloss/#g:co-teaching)** describes any situation in
 which two teachers work together in the same classroom.
 [[Frie2016](../bib/#Frie2016)] describes several ways to do this:
 
@@ -292,10 +292,10 @@ learner who is bored, the rest of the class will feel left out.
 
 > **False Beginners**
 > 
-> A @@glossref@@g:false-beginner@@false beginner@@ is someone who has
+> A **[false beginner](../gloss/#g:false-beginner)** is someone who has
 > studied a language before but is learning it again. False beginners
 > may be indistinguishable from
-> @@glossref@@g:absolute-beginner@@absolute beginners@@ on preassessment
+> **[absolute beginners](../gloss/#g:absolute-beginner)** on preassessment
 > tests, but are able to move much more quickly through the material
 > once they start—in mathematical terms, their intercept is the same,
 > but their slope is very different. False beginners are common in
@@ -306,7 +306,7 @@ learner who is bored, the rest of the class will feel left out.
 > be used in classes with false beginners.
 > 
 > Being a false beginner is an example of
-> @@glossref@@g:preparatory-privilege@@preparatory privilege@@
+> **[preparatory privilege](../gloss/#g:preparatory-privilege)**
 > [[Marg2010](../bib/#Marg2010)]. In many cases, it’s a result of coming from a home
 > that’s secure enough and affluent enough to have several computers and
 > parents who are familiar with how to use them. Whether or not this is
@@ -316,7 +316,7 @@ learner who is bored, the rest of the class will feel left out.
 
 @@label@@s:classroom-pair@@
 
-@@glossref@@g:pair-programming@@Pair programming@@ is a software
+**[Pair programming](../gloss/#g:pair-programming)** is a software
 development practice in which two programmers share one computer. One
 person (the driver) does the typing, while the other (the navigator)
 offers comments and suggestions. The two switch roles several times per
@@ -467,7 +467,7 @@ when they *are* called on, they won’t feel like they’re being picked on.
 
 @@label@@s:classroom-minute-cards@@
 
-You can use sticky notes as @@glossref@@g:minute-cards@@minute cards@@.
+You can use sticky notes as **[minute cards](../gloss/#g:minute-cards)**.
 Before each break, learners take a minute to write one positive thing on
 the green sticky note (e.g., one thing they’ve learned that they think
 will be useful), and one thing they found too fast, too slow, confusing,

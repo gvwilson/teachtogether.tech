@@ -25,7 +25,7 @@ title: "Actionable Approximations of the Truth"
 
 Every instructor needs three things:
 
-  - @@glossref@@g:content-knowledge@@content knowledge@@, such as how to
+  - **[content knowledge](../gloss/#g:content-knowledge)**, such as how to
     program;
 
   - , such as an understanding of the psychology of learning; and
@@ -70,11 +70,11 @@ nuanced perhapses.
 > **Jargon**
 > 
 > Like any specialty, computing education research has its jargon. The
-> term @@glossref@@g:cs1@@CS1@@ refers to an introductory semester-long
+> term **[CS1](../gloss/#g:cs1)** refers to an introductory semester-long
 > programming course in which learners meet variables, loops, and
-> functions for the first time, while @@glossref@@g:cs2@@CS2@@ refers to
+> functions for the first time, while **[CS2](../gloss/#g:cs2)** refers to
 > a second course that covers basic data structures like stacks and
-> queues. The term @@glossref@@g:cs0@@CS0@@ is also now being used to
+> queues. The term **[CS0](../gloss/#g:cs0)** is also now being used to
 > refer to an introductory course for people without any prior
 > experience who aren’t intending to continue with computing (at least
 > not right away).
@@ -82,7 +82,7 @@ nuanced perhapses.
 > A CS1 course is often useful for undergraduates in other disciplines;
 > a CS2 course designed for computer science learners is usually less
 > relevant for artists, ecologists, and other
-> @@glossref@@g:end-user-programmer@@end-user programmers@@, but is
+> **[end-user programmers](../gloss/#g:end-user-programmer)**, but is
 > sometimes the only next step available at their institution. Full
 > definitions for these terms and others can be found in the [ACM
 > Curriculum

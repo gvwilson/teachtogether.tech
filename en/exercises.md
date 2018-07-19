@@ -396,7 +396,7 @@ some negative comments about the tool, which the authors attribute to
 its feedback messages rather than to dislike of auto-grading.
 
 [[Srid2016](../bib/#Srid2016)] took a different approach. They used
-@@glossref@@g:fuzz-testing@@fuzz testing@@ (i.e., randomly-generated
+**[fuzz testing](../gloss/#g:fuzz-testing)** (i.e., randomly-generated
 test cases) to check whether learner code does the same thing as a
 reference implementation supplied by the teacher. In the first project
 of a 1400-learner introductory course, fuzz testing caught errors that
@@ -464,7 +464,7 @@ submission date. This can be frustrating, because it tells learners they
 are wrong, but not why.
 
 A third option is to use a technique called
-@@glossref@@g:hashing@@hashing@@ to generate a value that depends on the
+**[hashing](../gloss/#g:hashing)** to generate a value that depends on the
 output, but doesn’t reveal it. If the user produces exactly the same
 output, its hash will be the same as the hash of the correct output,
 which will unlock the solution, but it is impossible to work backward

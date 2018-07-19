@@ -16,7 +16,7 @@ title: "Marketing"
 >   - State what a brand is and what their organization’s is.
 
 It’s hard to get people with academic or technical backgrounds to take
-@@glossref@@g:marketing@@marketing@@ seriously, not least because it’s
+**[marketing](../gloss/#g:marketing)** seriously, not least because it’s
 perceived as being about spin and misdirection. In reality, it is the
 craft of seeing things from other people’s perspective, understanding
 their wants and needs, and finding ways to meet them. This should sound
@@ -63,7 +63,7 @@ As with the lesson design process in [CHAPTER][s:process], you should
 try to create personas to describe people who might be interested in
 what you’re doing and figure out which of their needs your program will
 meet. You should also write a set of
-@@glossref@@g:elevator-pitch@@elevator pitches@@, each aimed at a
+**[elevator pitches](../gloss/#g:elevator-pitch)**, each aimed at a
 different potential stakeholder. A widely-used template for these
 pitches looks like this:
 
@@ -124,7 +124,7 @@ might actually be doing it simply because it’s the right thing to do.
 
 @@label@@s:marketing-branding@@
 
-A @@glossref@@g:brand@@brand@@ is someone’s first reaction to a mention
+A **[brand](../gloss/#g:brand)** is someone’s first reaction to a mention
 of a product; if the reaction is “what’s that?”, you don’t have a brand
 yet. Branding is important because people aren’t going to help with
 something they don’t know about or don’t care about.
@@ -133,7 +133,7 @@ Most discussion of branding today focuses on ways to build awareness
 online. Mailing lists, blogs, and Twitter all give you ways to reach
 people, but as the volume of (mis)information steadily increases, the
 attention people pay to each interruption decreases. As this happens,
-@@glossref@@g:positioning@@positioning@@ becomes more important.
+**[positioning](../gloss/#g:positioning)** becomes more important.
 Sometimes called “differentiation”, it is what sets your offering apart
 from others, i.e., it’s the “unlike” section of your elevator pitches.
 When you reach out to people who are already familiar with your field,
@@ -352,7 +352,7 @@ those of other pairs.
 
 @@exercise@@Conversational Programmers@@think-pair-share@@15@@
 
-A @@glossref@@g:conversational-programmer@@conversational programmer@@
+A **[conversational programmer](../gloss/#g:conversational-programmer)**
 is someone who needs to know enough about computing to have a meaningful
 conversation with a programmer, but isn’t going to program themselves.
 [[Wang2018](../bib/#Wang2018)] found that most learning resources don’t address this

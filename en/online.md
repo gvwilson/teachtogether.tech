@@ -65,7 +65,7 @@ The highest-profile effort to reinvent education using the Internet is
 the Massive Open Online Course, or MOOC. The term was invented by David
 Cormier in 2008 to describe a course organized by George Siemens and
 Stephen Downes. That course was based on a
-@@glossref@@g:connectivism@@connectivist@@ view of learning, which holds
+**[connectivist](../gloss/#g:connectivism)** view of learning, which holds
 that knowledge is distributed and learning is the process of finding,
 creating, and pruning connections.
 
@@ -114,7 +114,7 @@ experience or learner goals.
 > **Personalized Learning**
 > 
 > Few terms have been used and abused in as many ways as
-> @@glossref@@g:personalized-learning@@personalized learning@@. To most
+> **[personalized learning](../gloss/#g:personalized-learning)**. To most
 > ed tech proponents, it means dynamically adjusting the pace or focus
 > of lessons based on learner performance, which in practice means that
 > if someone answers several questions in a row correctly, the computer
@@ -408,7 +408,7 @@ online lessons have to include the union of what everyone needs to know
 because you aren’t there to do the expanding.
 
 The most popular hybrid teaching strategy today is the
-@@glossref@@g:flipped-classroom@@flipped classroom@@, in which learners
+**[flipped classroom](../gloss/#g:flipped-classroom)**, in which learners
 watch recorded lessons on their own, and class time is used for
 discussion and to work through problem sets. Originally proposed in
 [[King1993](../bib/#King1993)], the idea was popularized as part of peer instruction

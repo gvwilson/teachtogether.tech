@@ -47,9 +47,9 @@ understand and be involved in what happens to your learners outside of
 your class if you want that class to work.
 
 A framework in which to think about educational communities is
-@@glossref@@g:situated-learning@@situated learning@@, which focuses on
+**[situated learning](../gloss/#g:situated-learning)**, which focuses on
 how leads to people becoming members of a
-@@glossref@@g:community-of-practice@@community of practice@@
+**[community of practice](../gloss/#g:community-of-practice)**
 [[Weng2015](../bib/#Weng2015)]. Unpacking those terms, a community of practice is a
 group of people bound together by interest in some activity, such as
 knitting or particle physics. Legitimate peripheral participation means
@@ -188,7 +188,7 @@ other encounter ends with two sentences explaining how people can help,
 and that help is welcome. People who come to you this way will know what
 you do, and will have recent experience of being on the receiving end of
 what you offer that they can draw on, which helps your organization
-avoid collective @@glossref@@g:expert-blind-spot@@expert blind spot@@.
+avoid collective **[expert blind spot](../gloss/#g:expert-blind-spot)**.
 
 > **Start Small**
 > 

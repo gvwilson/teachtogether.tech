@@ -59,7 +59,7 @@ This metaphor helps explain many observed aspects of expert behavior:
     reason their way to the solution—they just recognized it.
 
   - Densely-connected graphs are also the basis for experts’
-    @@glossref@@g:fluid-representation@@fluid representations@@, i.e.,
+    **[fluid representations](../gloss/#g:fluid-representation)**, i.e.,
     their ability to switch back and forth between different views of a
     problem [[Petr2016](../bib/#Petr2016)]. For example, when trying to solve a
     problem in mathematics, an expert might switch between tackling it
@@ -79,7 +79,7 @@ This metaphor helps explain many observed aspects of expert behavior:
     themselves.
 
 The last of these points is important enough to have a name of its own:
-@@glossref@@g:expert-blind-spot@@expert blind spot@@. As originally
+**[expert blind spot](../gloss/#g:expert-blind-spot)**. As originally
 defined in [[Nath2003](../bib/#Nath2003)], it is the tendency of experts to organize
 explanation according to the subject’s deep principles, rather than
 being guided by what their learners already know. While it can be
@@ -110,7 +110,7 @@ the more people you know at a party, the less likely you are to leave
 early.
 
 Our tool of choice for representing someone’s mental model as a graph is
-a @@glossref@@g:concept-map@@concept map@@, in which facts are bubbles
+a **[concept map](../gloss/#g:concept-map)**, in which facts are bubbles
 and connections are labelled arcs. It is important that they are
 labelled: saying “X and Y are related” is only helpful if we explain
 what the relationship *is*. And yes, different people can have different
@@ -247,8 +247,8 @@ bubble and say “that” to trigger recall of several minutes of debate.
 While the graph model of knowledge is wrong but useful, another simple
 model has a sounder physiological basis. As a rough approximation, human
 memory can be divided into two distinct layers. The first, called
-@@glossref@@g:long-term-memory@@long-term@@ or
-@@glossref@@g:persistent-memory@@persistent memory@@, is where we store
+**[long-term](../gloss/#g:long-term-memory)** or
+**[persistent memory](../gloss/#g:persistent-memory)**, is where we store
 things like our friends’ names, our home address, and what the clown did
 at our eighth birthday party that scared us so much. It is essentially
 unbounded: barring injury or disease, we will die before it fills up.
@@ -256,8 +256,8 @@ However, it is also slow to access—too slow to help us handle hungry
 lions and disgruntled family members.
 
 Evolution has therefore given us a second system called
-@@glossref@@g:short-term-memory@@short-term@@ or
-@@glossref@@g:working-memory@@working memory@@. It is much faster, but
+**[short-term](../gloss/#g:short-term-memory)** or
+**[working memory](../gloss/#g:working-memory)**. It is much faster, but
 also much smaller: [[Mill1956](../bib/#Mill1956)] estimated that the average adult’s
 working memory could only hold \(7{\pm}2\) items at a time. This is why
 [phone
@@ -344,7 +344,7 @@ The preceding section said that short-term memory can only store
 \(7{\pm}2\) items at a time, and recent research have suggested that its
 actual size might be as low as \(4{\pm}1\) items [[Dida2016](../bib/#Dida2016)]. In
 order to handle larger information sets, our minds create
-@@glossref@@g:chunking@@chunks@@. For example, most of us remember words
+**[chunks](../gloss/#g:chunking)**. For example, most of us remember words
 as single items, rather than as sequences of letters. Similarly, the
 pattern made by five spots on cards or dice is remembered as a whole
 rather than as five separate pieces of information.
@@ -378,7 +378,7 @@ of practice will do it is widely quoted but [probably not
 true](http://www.goodlifeproject.com/podcast/anders-ericsson/): doing
 the same thing over and over again is much more likely to solidify bad
 habits than improve performance. What actually works is
-@@glossref@@g:deliberate-practice@@deliberate practice@@ (also sometimes
+**[deliberate practice](../gloss/#g:deliberate-practice)** (also sometimes
 called ), which is doing similar but subtly different things, paying
 attention to what works and what doesn’t, and then changing behavior in
 response to that feedback to get cumulatively better.

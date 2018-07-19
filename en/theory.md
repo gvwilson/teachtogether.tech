@@ -11,11 +11,11 @@ One of the exercises in educational research is deciding what we mean by
 looking beyond the standardized Western classroom. Within the broad
 scope of educational psychology, two specific perspectives have
 primarily influenced my teaching. The first is
-@@glossref@@g:cognitivism@@cognitivism@@, which focuses on things like
+**[cognitivism](../gloss/#g:cognitivism)**, which focuses on things like
 pattern recognition, memory formation, and recall. It is good at
 answering low-level questions, but generally ignores larger issues like,
 “What do we mean by ‘learning’?” and, “Who gets to decide?” The second
-is @@glossref@@g:situated-learning@@situated learning@@, which focuses
+is **[situated learning](../gloss/#g:situated-learning)**, which focuses
 on bringing people into a community, and recognizes that teaching and
 learning are always rooted in who we are and who we aspire to be. We
 will discuss it in more detail in [CHAPTER][s:community].
@@ -23,11 +23,11 @@ will discuss it in more detail in [CHAPTER][s:community].
 The [Learning Theories website](http://www.learning-theories.com/) and
 [[Wibu2016](../bib/#Wibu2016)] have good summaries of these and other perspectives.
 Besides cognitivism, those encountered most frequently include
-@@glossref@@g:behaviorism@@behaviorism@@ (which treats education as
+**[behaviorism](../gloss/#g:behaviorism)** (which treats education as
 stimulus/response conditioning),
-@@glossref@@g:constructivism@@constructivism@@ (which considers learning
+**[constructivism](../gloss/#g:constructivism)** (which considers learning
 an active process during which learners construct knowledge for
-themselves), and @@glossref@@g:connectivism@@connectivism@@ (which holds
+themselves), and **[connectivism](../gloss/#g:connectivism)** (which holds
 that knowledge is distributed, that learning is the process of
 navigating, growing, and pruning connections, and which emphasizes the
 social aspects of learning made possible by the Internet). It would help
@@ -82,11 +82,11 @@ if we are to teach more effectively.
 
 ## Notional Machines
 
-The term @@glossref@@g:computational-thinking@@computational thinking@@
+The term **[computational thinking](../gloss/#g:computational-thinking)**
 is bandied about a lot, in part because people can agree it’s important
 while meaning very different things by it. I find it more useful to
 think in terms of getting learners to understand a
-@@glossref@@g:notional-machine@@notional machine@@. The term was
+**[notional machine](../gloss/#g:notional-machine)**. The term was
 introduced in [[DuBo1986](../bib/#DuBo1986)], and means abstraction of the structure
 and behavior of a computational device. According to [[Sorv2013](../bib/#Sorv2013)],
 a notional machine:

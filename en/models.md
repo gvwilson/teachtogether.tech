@@ -28,19 +28,19 @@ generally useful.)
 
 For our purposes, we can simplify Benner’s progression to three stages:
 
-  - @@glossref@@g:novice@@Novices@@  
+  - **[Novices](../gloss/#g:novice)**  
     don’t know what they don’t know, i.e., they don’t yet have a usable
     mental model of the problem domain. As a result, they reason by
     analogy and guesswork, borrowing bits and pieces of mental models
     from other domains that seem superficially similar.
 
-  - @@glossref@@g:competent-practitioner@@Competent practitioners@@  
+  - **[Competent practitioners](../gloss/#g:competent-practitioner)**  
     can do normal tasks with normal effort under normal circumstances
     because they have a mental model that’s good enough for everyday
     purposes. That model doesn’t have to be complete or accurate, just
     useful.
 
-  - @@glossref@@g:expert@@Experts@@  
+  - **[Experts](../gloss/#g:expert)**  
     have mental models that include the complexities and special cases
     that competent practitioners’ do not. This allows experts to handle
     situations that are out of the ordinary, diagnose the causes of
@@ -48,7 +48,7 @@ For our purposes, we can simplify Benner’s progression to three stages:
     they don’t know and how to learn it; we will discuss expertise in
     more detail in [CHAPTER][s:memory].
 
-So what *is* a @@glossref@@g:mental-model@@mental model@@? As you may
+So what *is* a **[mental model](../gloss/#g:mental-model)**? As you may
 have gathered from the way we used the term above, it is a simplified
 representation of the most important parts of some problem domain that
 is good enough to enable problem solving. One example is the
@@ -105,7 +105,7 @@ practitioners because they move too slowly and say things that are
 obvious (though they are anything *but* obvious to novices). Equally,
 manuals frustrate novices because they use jargon and *don’t* explain
 things. This phenomenon is called the
-@@glossref@@g:expertise-reversal@@expertise reversal effect@@
+**[expertise reversal effect](../gloss/#g:expertise-reversal)**
 [[Kaly2003](../bib/#Kaly2003)], and is another reason you have to decide early on
 who your lessons are meant for.
 
@@ -148,7 +148,7 @@ categories:
 
 Teaching is most effective when teachers identify and clear up learners’
 misconceptions *during the lesson*. This is called
-@@glossref@@g:formative-assessment@@formative assessment@@; the word
+**[formative assessment](../gloss/#g:formative-assessment)**; the word
 “formative” means it is used to form or shape the teaching. Learners
 don’t pass or fail formative assessment; instead, it tells the teacher
 and the learner how they are both doing and what they should focus on
@@ -158,7 +158,7 @@ teaching web design could ask a learner to resize the images in a page
 to check if his explanation of CSS made sense.
 
 The counterpoint to formative assessment is
-@@glossref@@g:summative-assessment@@summative assessment@@, which you do
+**[summative assessment](../gloss/#g:summative-assessment)**, which you do
 at the end of the lesson to determine if your teaching was successful,
 i.e., whether the learner has understood what you have taught and is
 ready to move on. One way of thinking about the difference is that a
@@ -193,8 +193,8 @@ insights:
     carrying it back into the column it came from.
 
 Each of these incorrect answers is a
-@@glossref@@g:plausible-distractor@@plausible distractor@@ with
-@@glossref@@g:diagnostic-power@@diagnostic power@@. A distractor is a
+**[plausible distractor](../gloss/#g:plausible-distractor)** with
+**[diagnostic power](../gloss/#g:diagnostic-power)**. A distractor is a
 wrong or less-than-best answer; “plausible” means that it looks like it
 could be right, while “diagnostic power” means that each of the
 distractors helps us figure out what to explain next to that particular

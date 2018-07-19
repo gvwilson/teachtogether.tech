@@ -37,7 +37,7 @@ Most people design lessons like this:
     exam and promise yourself that you’ll be more organized next time.
 
 There’s a better way, but to explain it, we first need to explain how
-@@glossref@@g:test-driven-development@@test-driven development@@ (TDD)
+**[test-driven development](../gloss/#g:test-driven-development)** (TDD)
 is used in software development. Programmers who are using TDD don’t
 write software and then write tests to check that the software is doing
 the write thing. Instead, they write the tests first, then write just
@@ -122,7 +122,7 @@ are reading now matches the plan pretty closely.
 
 A key step in the lesson design process described above is figuring out
 who your audience is. One way to do this is to write two or three
-@@glossref@@g:learner-persona@@learner personas@@. This technique is
+**[learner personas](../gloss/#g:learner-persona)**. This technique is
 borrowed from user interface designers, who create short profiles of
 typical users to help them think about their audience.
 
@@ -208,7 +208,7 @@ improve outcomes [[Pete2017](../bib/#Pete2017),[Dahl2018](../bib/#Dahl2018),[Rit
 Formative and summative assessments help teachers figure out what
 they’re going to teach, but in order to communicate that to learners
 and other teachers, a course description should also have
-@@glossref@@g:learning-objective@@learning objectives@@. These help
+**[learning objectives](../gloss/#g:learning-objective)**. These help
 ensure that everyone has the same understanding of what a lesson is
 supposed to accomplish. For example, a statement like “understand Git”
 could mean any of the following, each of which would be backed by a very
@@ -227,7 +227,7 @@ different lesson:
 > **Objectives vs. Outcomes**
 > 
 > A learning objective is what a lesson strives to achieve. A
-> @@glossref@@g:learning-outcome@@learning outcome@@ is what it actually
+> **[learning outcome](../gloss/#g:learning-outcome)** is what it actually
 > achieves, i.e., what learners actually take away. The role of
 > summative assessment is therefore to compare learning outcomes with
 > learning objectives.
@@ -265,7 +265,7 @@ how a poor one can be improved:
     assessed.
 
 When it comes to choosing verbs, many teachers use
-@@glossref@@g:blooms-taxonomy@@Bloom’s taxonomy@@. First published in
+**[Bloom’s taxonomy](../gloss/#g:blooms-taxonomy)**. First published in
 1956, it was updated at the turn of the century [[Ande2001](../bib/#Ande2001)], and
 is the most widely used framework for discussing levels of
 understanding. Its most recent form has six categories; the list below

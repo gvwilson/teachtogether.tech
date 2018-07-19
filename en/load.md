@@ -41,7 +41,7 @@ the authors were claiming that allowing learners to ask their own
 questions, set their own goals, and find their own path through a
 subject, as they would when solving problems in real life, isn’t
 effective. This approach—called
-@@glossref@@g:inquiry-based-learning@@inquiry-based learning@@—is
+**[inquiry-based learning](../gloss/#g:inquiry-based-learning)**—is
 intuitively appealing, but the authors argued that it overloads learners
 by requiring them to master a domain’s factual content and its
 problem-solving strategies at the same time.
@@ -82,13 +82,13 @@ into steps, each of which can be mastered on its own before being
 combined with other steps (which is a step in its own right).
 
 One way to do this is to give learners a series of
-@@glossref@@g:faded-example@@faded examples@@. The first example
+**[faded examples](../gloss/#g:faded-example)**. The first example
 presents a nearly-complete use of the same problem-solving strategy just
 demonstrated, but with a small number of blanks for the learner to fill
 in. The next problem is of the same type, but has more blanks, and so on
 until the learner is asked to solve the entire problem. The material
 that *isn’t* blank is often referred to as
-@@glossref@@g:scaffolding@@scaffolding@@, since it serves the same
+**[scaffolding](../gloss/#g:scaffolding)**, since it serves the same
 purpose as the scaffolding set up temporarily at a building site.
 
 Faded examples can be used in almost every kind of teaching, from sport
@@ -177,7 +177,7 @@ being the same.
 > 
 > An alternative model of learning and instruction that also uses
 > scaffolding and fading is
-> @@glossref@@g:cognitive-apprenticeship@@cognitive apprenticeship@@,
+> **[cognitive apprenticeship](../gloss/#g:cognitive-apprenticeship)**,
 > which emphasizes the way in which a master passes on skills and
 > insights to an apprentice. The master provides models of performance
 > and outcomes, then coaches novices as they take their first steps by
@@ -201,7 +201,7 @@ being the same.
 ### Parsons Problems
 
 Another kind of exercise that can be explained in terms of cognitive
-load theory is called a @@glossref@@g:parsons-problem@@Parsons Problem@@
+load theory is called a **[Parsons Problem](../gloss/#g:parsons-problem)**
 (named after one of their creators [[Pars2006](../bib/#Pars2006)]). If you are
 teaching someone to speak a new language, you could ask them a question,
 and then give them the words they need to answer the question, but in
@@ -220,7 +220,7 @@ for learners to do, but produce equivalent educational outcomes
 
 ### Labelled Subgoals
 
-@@glossref@@g:subgoal-labelling@@Subgoal labelling@@ means giving names
+**[Subgoal labelling](../gloss/#g:subgoal-labelling)** means giving names
 to the steps in a step-by-step description of a problem-solving process.
 [[Marg2016](../bib/#Marg2016),[Morr2016](../bib/#Morr2016)] all found that students with labelled
 subgoals solved Parsons Problems better than students without, and the
@@ -247,7 +247,7 @@ opportunity for self-explanation ([SECTION][s:individual-strategies]).
 @@label@@s:load-split-attention@@
 
 Research by Mayer and colleagues on the
-@@glossref@@g:split-attention-effect@@split-attention effect@@ is
+**[split-attention effect](../gloss/#g:split-attention-effect)** is
 closely related to cognitive load theory [[Maye2003](../bib/#Maye2003)]. Linguistic
 and visual input are processed by different parts of the human brain,
 and linguistic and visual memories are stored separately as well. This

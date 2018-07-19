@@ -52,7 +52,7 @@ well and eliminate those who cannot. But the assumption that some people
 are born teachers is wrong; instead, like any other performance art, the
 keys to better teaching are practice and collaboration. As
 [[Gree2014](../bib/#Gree2014)] explains, the Japanese approach to this is called
-@@glossref@@g:jugyokenkyu@@jugyokenkyu@@, which means “lesson study”:
+**[jugyokenkyu](../gloss/#g:jugyokenkyu)**, which means “lesson study”:
 
 > *Jugyokenkyu* is a bucket of practices that Japanese teachers use to
 > hone their craft, from observing each other at work to discussing the
@@ -95,7 +95,7 @@ theory she learned in education school to deliver an actual lesson in an
 actual classroom for actual students.
 
 Writing up new techniques and giving
-@@glossref@@g:demonstration-lesson@@demonstration lessons@@, in which
+**[demonstration lessons](../gloss/#g:demonstration-lesson)**, in which
 one person teaches actual students while other teachers observe, seem
 like a way to solve this. However, [[Finc2007](../bib/#Finc2007),[Finc2012](../bib/#Finc2012)] found
 that they are usually ineffective: of the 99 change stories analyzed,
@@ -115,7 +115,7 @@ involved only personal interaction with other educators.
 > they should continue a practice.
 
 This phenomenon is sometimes called
-@@glossref@@g:lateral-knowledge-transfer@@lateral knowledge transfer@@:
+**[lateral knowledge transfer](../gloss/#g:lateral-knowledge-transfer)**:
 someone sets out to teach X, but while watching them, their audience
 actually learns Y as well (or instead). For example, a teacher might
 intend to show learners how to search for email addresses in a text
@@ -326,7 +326,7 @@ expectations.
 > — Neal Davis
 
 One technique that completely changed the way I teach programming is
-@@glossref@@g:live-coding@@live coding@@. Instead of using slides,
+**[live coding](../gloss/#g:live-coding)**. Instead of using slides,
 teachers actually write code in front of their class as their learners
 follow along. It’s more effective than slides for many reasons:
 
@@ -562,7 +562,7 @@ software updates over high school WiFi in front of increasingly bored
 
 > **Direct Instruction**
 > 
-> @@glossref@@g:direct-instruction@@Direct Instruction@@ is a teaching
+> **[Direct Instruction](../gloss/#g:direct-instruction)** is a teaching
 > method centered around meticulous curriculum design delivered through
 > a prescribed script—i.e., it’s more like an actor reciting lines than
 > it is like the improvisatory approach we recommend. [[Stoc2018](../bib/#Stoc2018)]
