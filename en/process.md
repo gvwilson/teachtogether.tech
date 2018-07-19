@@ -35,7 +35,7 @@ Most people design lessons like this:
     exam and promise yourself that you’ll be more organized next time.
 
 There’s a better way, but to explain it, we first need to explain how
-==glossref==g:test-driven-development==test-driven development== (TDD)
+@@glossref@@g:test-driven-development@@test-driven development@@ (TDD)
 is used in software development. Programmers who are using TDD don’t
 write software and then write tests to check that the software is doing
 the write thing. Instead, they write the tests first, then write just
@@ -53,8 +53,8 @@ several hours of hard work and really, really wants to be done.
 
 A similar backward method works very well for lesson design. This method
 is something called ; developed independently in
-==cite==Wigg2005,Bigg2011,Fink2013==, it is summarized in
-==cite==McTi2013==, and in simplified form, its steps are:
+@@cite@@Wigg2005,Bigg2011,Fink2013@@, it is summarized in
+@@cite@@McTi2013@@, and in simplified form, its steps are:
 
 1.  Brainstorm to get a rough idea of what you want to cover, how you’re
     going to do it, what problems or misconceptions you expect to
@@ -91,13 +91,13 @@ helping them learn.
 
 > **Measure<span>…</span>And Then?**
 > 
-> \==cite==Gree2014== argues that this focus on measurement is appealing
+> @@cite@@Gree2014@@ argues that this focus on measurement is appealing
 > to those with the power to set the tests, but unlikely to improve
 > outcomes unless it is coupled with support for teachers to make
 > improvements based on test outcomes. The latter is often missing
 > because large organizations usually value uniformity over productivity
-> ==cite==Scot1998==; we will return to this topic in
-> ==chapter==s:performance==.
+> @@cite@@Scot1998@@; we will return to this topic in
+> @@chapter@@s:performance@@.
 
 It’s important to note that while lesson design is *described* as a
 sequence, it’s almost never *done* that way: we may, for example, change
@@ -108,9 +108,9 @@ leave behind to present things in the order described above, because
 that’s the easier way for whoever has to use or maintain the lesson to
 retrace our thinking. The same rewriting of history is useful for the
 same reasons in software design and many other fields
-==cite==Parn1986==.
+@@cite@@Parn1986@@.
 
-\==appendix==s:v3== presents the design notes for this version of this
+@@appendix@@s:v3@@ presents the design notes for this version of this
 book. A few things have been added, dropped, or rearranged, but what you
 are reading now matches the plan pretty closely.
 
@@ -118,7 +118,7 @@ are reading now matches the plan pretty closely.
 
 A key step in the lesson design process described above is figuring out
 who your audience is. One way to do this is to write two or three
-==glossref==g:learner-persona==learner personas==. This technique is
+@@glossref@@g:learner-persona@@learner personas@@. This technique is
 borrowed from user interface designers, who create short profiles of
 typical users to help them think about their audience.
 
@@ -126,7 +126,7 @@ Learner personas have five parts: the person’s general background, what
 they already know, what *they* think they want to do (as opposed to what
 someone who already understands the subject thinks), how the course will
 help them, and any special needs they might have. The personas in
-==section==s:intro-audience== have the five points listed above,
+@@section@@s:intro-audience@@ have the five points listed above,
 rearranged to flow more readably; a learner persona for a weekend
 workshop aimed at college students might be:
 
@@ -174,35 +174,35 @@ this?” or, “What installation problems would Jorge face?”
 Brainstorming the broad outlines of what you’re going to teach and then
 deciding who you’re trying to help is one approach; it’s equally valid
 to pick an audience and then brainstorm their needs. Either way,
-==cite==Guzd2016== offers the following guidance:
+@@cite@@Guzd2016@@ offers the following guidance:
 
 1.  Connect to what learners know.
 
 2.  Keep cognitive load low.
 
-3.  Use authentic tasks (see ==section==s:motivation-authentic==).
+3.  Use authentic tasks (see @@section@@s:motivation-authentic@@).
 
 4.  Be generative and productive.
 
 5.  Test your ideas rather than trusting your instincts.
 
-Of course, one size won’t fit all. ==cite==Alha2018== reported
+Of course, one size won’t fit all. @@cite@@Alha2018@@ reported
 improvement in learning outcomes and student satisfaction in a course
 for students from a variety of academic backgrounds which allowed them
 to choose between different domain-related assignments. It’s extra work
 to set up and grade, but that’s manageable if the projects are
 open-ended (so that they can be used repeatedly) and if the load is
-shared with other teachers (==section==s:process-maintainability==).
+shared with other teachers (@@section@@s:process-maintainability@@).
 Other work has shown that building courses for science students around
 topics as diverse as music, data science, and cell biology will also
-improve outcomes ==cite==Pete2017,Dahl2018,Ritz2018==.
+improve outcomes @@cite@@Pete2017,Dahl2018,Ritz2018@@.
 
 ## Learning Objectives
 
 Formative and summative assessments help teachers figure out what
 they’re going to teach, but in order to communicate that to learners
 and other teachers, a course description should also have
-==glossref==g:learning-objective==learning objectives==. These help
+@@glossref@@g:learning-objective@@learning objectives@@. These help
 ensure that everyone has the same understanding of what a lesson is
 supposed to accomplish. For example, a statement like “understand Git”
 could mean any of the following, each of which would be backed by a very
@@ -221,7 +221,7 @@ different lesson:
 > **Objectives vs. Outcomes**
 > 
 > A learning objective is what a lesson strives to achieve. A
-> ==glossref==g:learning-outcome==learning outcome== is what it actually
+> @@glossref@@g:learning-outcome@@learning outcome@@ is what it actually
 > achieves, i.e., what learners actually take away. The role of
 > summative assessment is therefore to compare learning outcomes with
 > learning objectives.
@@ -259,8 +259,8 @@ how a poor one can be improved:
     assessed.
 
 When it comes to choosing verbs, many teachers use
-==glossref==g:blooms-taxonomy==Bloom’s taxonomy==. First published in
-1956, it was updated at the turn of the century ==cite==Ande2001==, and
+@@glossref@@g:blooms-taxonomy@@Bloom’s taxonomy@@. First published in
+1956, it was updated at the turn of the century @@cite@@Ande2001@@, and
 is the most widely used framework for discussing levels of
 understanding. Its most recent form has six categories; the list below
 defines each, and gives a few of the verbs typically used in learning
@@ -296,16 +296,16 @@ objectives written for each:
     elements in a new pattern or proposing alternative solutions.
     *(design, construct, improve, adapt, maximize, solve)*
 
-\==cite==Masa2018== found that even experienced educators have trouble
+@@cite@@Masa2018@@ found that even experienced educators have trouble
 agreeing on how to classify a question or idea according to Bloom’s
 Taxonomy, but the material in most introductory programming courses fits
 into the first four of these levels; only once that material has been
 mastered can learners start to think about evaluating and creating. (As
 Daniel Willingham has said, people can’t think without something to
-think about ==cite==Will2010==.)
+think about @@cite@@Will2010@@.)
 
 Another way to think about learning objectives comes from
-==cite==Fink2013==, which defines learning in terms of the change it is
+@@cite@@Fink2013@@, which defines learning in terms of the change it is
 meant to produce in the learner. also has six categories, but unlike
 Bloom’s, they are complementary rather than hierarchical:
 
@@ -387,10 +387,10 @@ willing people are to collaborate.* The tools needed to build a
 teachers still don’t write and share lessons the way that they write and
 share encyclopedia entries, even though commons-based lesson development
 and maintenance actually works very well
-(==section==s:community-governance== and
-==section==s:joining-contributing==).
+(@@section@@s:community-governance@@ and
+@@section@@s:joining-contributing@@).
 
-\==cite==Leak2017== interviewed 17 computer science teachers to find out
+@@cite@@Leak2017@@ interviewed 17 computer science teachers to find out
 why they don’t use resource sharing sites. They found that most of the
 reasons were operational. For example, respondents said that sites need
 good landing pages that ask “what is your current role?” and “what
@@ -421,32 +421,31 @@ widely different levels.
 
 ## Exercises
 
-\==exercise==Create Learner Personas==small groups==30==
+@@exercise@@Create Learner Personas@@small groups@@30@@
 
 Working in small groups, create a five-point persona that describes one
 of your typical learners.
 
-\==exercise==Classify Learning Objectives==pairs==10==
+@@exercise@@Classify Learning Objectives@@pairs@@10@@
 
 Look at the example learning objectives given for an introductory course
-on HTML and CSS in ==section==s:process-objectives== and classify each
+on HTML and CSS in @@section@@s:process-objectives@@ and classify each
 according to Bloom’s Taxonomy. Compare your answers with those of your
 partner: where did you agree and disagree, and why?
 
-\==exercise==Write Learning Objectives==pairs==20==
+@@exercise@@Write Learning Objectives@@pairs@@20@@
 
 Write one or more learning objectives for something you currently teach
 or plan to teach using Bloom’s Taxonomy. Working with a partner,
 critique and improve the objectives.
 
-\==exercise==Write More Learning Objectives==pairs==20==
+@@exercise@@Write More Learning Objectives@@pairs@@20@@
 
 Write one or more learning objectives for something you currently teach
 or plan to teach using Fink’s Taxonomy. Working with a partner, critique
 and improve the objectives.
 
-\==exercise==Building Lessons by Subtracting
-Complexity==individual==20==
+@@exercise@@Building Lessons by Subtracting Complexity@@individual@@20@@
 
 One way to build a programming lesson is to write the program you want
 learners to finish with, then remove the most complex part that you want
@@ -462,7 +461,7 @@ create on their own at the end of a lesson and work backward to break it
 into digestible parts. How many are there? What key idea is introduced
 by each one?
 
-\==exercise==Inessential Weirdness==individual==15==
+@@exercise@@Inessential Weirdness@@individual@@15@@
 
 Betsy Leondar-Wright coined the phrase “[inessential
 weirdness](http://www.classmatters.org/2006_07/its-not-them.php)” to
@@ -477,7 +476,7 @@ itself. Take a few minutes to read these articles, then make a list of
 inessential weirdnesses you think your learners might encounter when you
 first teach them. How many of these can you avoid with a little effort?
 
-\==exercise==PRIMM==individual==15==
+@@exercise@@PRIMM@@individual@@15@@
 
 One approach to introducing new ideas in computing is
 [PRIMM](http://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/):
@@ -488,10 +487,10 @@ through it in a debugger or drawing the flow of control), **M**odify it
 something you have recently taught or been taught and outline a short
 lesson that follows these five steps.
 
-\==exercise==Evaluating Lessons==pairs==20==
+@@exercise@@Evaluating Lessons@@pairs@@20@@
 
-\==cite==Mart2017== specifies eight dimensions along which lessons can
-be evaluated:
+@@cite@@Mart2017@@ specifies eight dimensions along which lessons can be
+evaluated:
 
   - Closed vs. open:  
     is there a well-defined path and endpoint, or are learners
@@ -526,7 +525,7 @@ taught, or have recently been taught, and rate them as “low”, “medium”,
 criteria are most important to you personally as a teacher? As a
 learner?
 
-\==exercise==Concrete-Representational-Abstract==pairs==15==
+@@exercise@@Concrete-Representational-Abstract@@pairs@@15@@
 
 [Concrete-Representational-Abstract](https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/)
 (CRA) is another approach to introducing new ideas that is used

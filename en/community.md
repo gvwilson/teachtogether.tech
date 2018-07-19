@@ -45,10 +45,10 @@ understand and be involved in what happens to your learners outside of
 your class if you want that class to work.
 
 A framework in which to think about educational communities is
-==glossref==g:situated-learning==situated learning==, which focuses on
+@@glossref@@g:situated-learning@@situated learning@@, which focuses on
 how leads to people becoming members of a
-==glossref==g:community-of-practice==community of practice==
-==cite==Weng2015==. Unpacking those terms, a community of practice is a
+@@glossref@@g:community-of-practice@@community of practice@@
+@@cite@@Weng2015@@. Unpacking those terms, a community of practice is a
 group of people bound together by interest in some activity, such as
 knitting or particle physics. Legitimate peripheral participation means
 doing simple, low-risk tasks that community nevertheless recognizes as
@@ -149,12 +149,12 @@ founder or leader of something new.
 Whether you join an existing group or set up one of your own, you owe it
 to yourself and everyone who’s going to work with you to find out what’s
 been done before. People have been writing about grassroots organizing
-for decades; ==cite==Alin1989== is probably the best-known work on the
-subject, while ==cite==Brow2007,Midw2010== are practical manuals rooted
+for decades; @@cite@@Alin1989@@ is probably the best-known work on the
+subject, while @@cite@@Brow2007,Midw2010@@ are practical manuals rooted
 in decades of practice. If you want to read more deeply,
-==cite==Adam1975== is a history of the Highlander Folk School, whose
+@@cite@@Adam1975@@ is a history of the Highlander Folk School, whose
 approach has been emulated by many successful groups, while
-==cite==Spal2014== is a guide to teaching adults written by someone with
+@@cite@@Spal2014@@ is a guide to teaching adults written by someone with
 deep personal roots in organizing, and
 [NonprofitReady.org](https://www.nonprofitready.org/) offers free
 professional development training.
@@ -182,7 +182,7 @@ other encounter ends with two sentences explaining how people can help,
 and that help is welcome. People who come to you this way will know what
 you do, and will have recent experience of being on the receiving end of
 what you offer that they can draw on, which helps your organization
-avoid collective ==glossref==g:expert-blind-spot==expert blind spot==.
+avoid collective @@glossref@@g:expert-blind-spot@@expert blind spot@@.
 
 > **Start Small**
 > 
@@ -195,7 +195,7 @@ avoid collective ==glossref==g:expert-blind-spot==expert blind spot==.
 > people to submit fixes for your lesson materials for typos or unclear
 > wording, or to suggest new exercises or examples. If your materials
 > are written in a maintainable way
-> (==section==s:process-maintainability==), this gives them a chance to
+> (@@section@@s:process-maintainability@@), this gives them a chance to
 > practice some useful skills, and gives you an opportunity to start a
 > conversation that might lead to a new recruit.
 
@@ -216,7 +216,7 @@ tell you what they’ve done.
 
 The second part of the volunteer lifecycle is retention, which is a
 large enough topic to deserve a long discussion in
-==section==s:community-retention==. The third and final part is
+@@section@@s:community-retention@@. The third and final part is
 retirement. Sooner or later, everyone moves on (including you). When
 this happens:
 
@@ -248,7 +248,7 @@ this happens:
 ## Retention
 
 Saul Alinsky once said, “If your people aren’t having a ball doing it,
-there is something very wrong.” ==cite==Alin1989== Community members
+there is something very wrong.” @@cite@@Alin1989@@ Community members
 shouldn’t expect to enjoy every moment of their work with your
 organization, but if they don’t enjoy any of it, they won’t stay.
 
@@ -258,7 +258,7 @@ are several things every organization should do to ensure that people
 are getting something they value out of their work:
 
   - Ask people what they want rather than guessing.  
-    Just as you are not your learners (==section==s:process-personas==),
+    Just as you are not your learners (@@section@@s:process-personas@@),
     you are probably different from other members of your organization.
     Ask people what they want to do, what they’re comfortable doing
     (which may not be the same thing), what constraints there are on
@@ -356,7 +356,7 @@ surrounds the actual process of getting work done, so the Ada Initiative
 has
 [guidelines](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 for communities to go with those given in
-==section==s:motivation-demotivation==for individuals:
+@@section@@s:motivation-demotivation@@for individuals:
 
   - Encourage people.  
     This is as simple as it is effective.
@@ -388,7 +388,7 @@ for communities to go with those given in
 
 ## Governance
 
-As ==cite==Free1972== pointed out, every organization has a power
+As @@cite@@Free1972@@ pointed out, every organization has a power
 structure: the only question is whether it’s formal and accountable, or
 informal and unaccountable. Make yours one of the first kind: write and
 publish the rules governing everything from who’s allowed to use the
@@ -405,7 +405,7 @@ pays off.)
 
 The model I prefer is that of a commons, which is “something managed
 jointly by a community according to rules they themselves have evolved
-and adopted”. As ==cite==Boll2014== emphasizes, all three parts of that
+and adopted”. As @@cite@@Boll2014@@ emphasizes, all three parts of that
 definition are essential: a commons isn’t just a shared pasture, but
 also includes the community that shares it and the rules they use to do
 so.
@@ -442,7 +442,7 @@ organization continues to meet people’s actual needs.
 
 ## Final Thoughts
 
-As ==cite==Pign2016== discusses, burnout is a chronic risk in any
+As @@cite@@Pign2016@@ discusses, burnout is a chronic risk in any
 community activity. If you don’t take care of yourself, you won’t be
 able to take care of your community.
 
@@ -455,15 +455,15 @@ have any trouble finding something else to keep you busy.
 
 ## Exercises
 
-Several of these exercises are taken from ==cite==Brow2007==, which is
+Several of these exercises are taken from @@cite@@Brow2007@@, which is
 an exceptionally useful book on building community organizations.
 
-\==exercise==What Kind of Community?==individual==15==
+@@exercise@@What Kind of Community?@@individual@@15@@
 
 Re-read the discussion in the introduction of types of communities and
 decide which type or types your group is, or aspires to be.
 
-\==exercise==People You May Meet==small groups==30==
+@@exercise@@People You May Meet@@small groups@@30@@
 
 As an organizer, part of your job is sometimes to help people find a way
 to contribute despite themselves. In small groups, pick three of the
@@ -509,7 +509,7 @@ contributor to your organization.
     maybe you should find another team.” His favorite phrase is, “That’s
     stupid,” and he uses obscenity in every second sentence.
 
-\==exercise==Values==small groups==45==
+@@exercise@@Values@@small groups@@45@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -531,7 +531,7 @@ answers to those given by other members of your group.
 7.  What are some key behaviors that would demonstrate the opposite of
     the values you want to have?
 
-\==exercise==Meeting Procedures==small groups==30==
+@@exercise@@Meeting Procedures@@small groups@@30@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -560,7 +560,7 @@ answers to those given by other members of your group.
 
 11. Is this working for your group?
 
-\==exercise==Size==small groups==20==
+@@exercise@@Size@@small groups@@20@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -575,7 +575,7 @@ answers to those given by other members of your group.
 
 5.  Would you benefit from setting such a limit?
 
-\==exercise==Staffing==small groups==30==
+@@exercise@@Staffing@@small groups@@30@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -611,7 +611,7 @@ answers to those given by other members of your group.
 
 13. Are these the benefits that you want to give?
 
-\==exercise==Money==small groups==30==
+@@exercise@@Money@@small groups@@30@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -638,7 +638,7 @@ answers to those given by other members of your group.
 
 11. Is this how you want to spend your money?
 
-\==exercise==Becoming a Member==small groups==45==
+@@exercise@@Becoming a Member@@small groups@@45@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -657,11 +657,11 @@ answers to those given by other members of your group.
 
 7.  Are there membership dues?
 
-\==exercise==Borrowing Ideas==whole class==15==
+@@exercise@@Borrowing Ideas@@whole class@@15@@
 
 Many of our ideas about how to build a community have been shaped by our
 experience of working in open source software development.
-==cite==Foge2005== (which is [available
+@@cite@@Foge2005@@ (which is [available
 online](http://producingoss.com/)) is a good guide to what has and
 hasn’t worked for those communities, and the [Open Source Guides
 site](https://opensource.guide/) has a wealth of useful information as
@@ -670,7 +670,7 @@ Project” or “Leadership and Governance”, read it through, and give a
 two-minute presentation to the group of one idea from it that you found
 useful or that you strongly disagreed with.
 
-\==exercise==Who Are You?==small groups==20==
+@@exercise@@Who Are You?@@small groups@@20@@
 
 The National Oceanic and Atmospheric Administration (NOAA) has published
 a short, amusing, and above all useful guide to [dealing with disruptive

@@ -6,7 +6,7 @@ title: "Introduction"
 
 Hundreds of grassroots groups have sprung up around the world to teach
 programming, web design, robotics, and other skills to
-==glossref==g:free-range-learner==free-range learners== outside
+@@glossref@@g:free-range-learner@@free-range learners@@ outside
 traditional classrooms. These groups exist so that people don’t have to
 learn these things on their own, but ironically, their founders and
 instructors are often teaching themselves how to teach.
@@ -29,9 +29,9 @@ you go further. Its four sections cover:
 
 Throughout, we try to follow our own advice: for example, we start with
 ideas that are short, engaging, and actionable in order to motivate you
-to read further (==chapter==s:motivation==), include lots of exercises
-that can be used to reinforce learning (==chapter==s:models==), and
-include the original design for this book in ==appendix==s:v3== so that
+to read further (@@chapter@@s:motivation@@), include lots of exercises
+that can be used to reinforce learning (@@chapter@@s:models@@), and
+include the original design for this book in @@appendix@@s:v3@@ so that
 you can see what a lesson design looks like.
 
 > **This Book Belongs to Everyone**
@@ -43,7 +43,7 @@ you can see what a lesson design looks like.
 > of it can be freely distributed and re-used under the [Creative
 > Commons - Attribution 4.0
 > license](https://creativecommons.org/licenses/by/4.0/). Please see
-> ==website== to download a digital version or to purchase a printed
+> @@website@@ to download a digital version or to purchase a printed
 > copy at cost.
 > 
 > Contributions of all kinds are welcome, from errata and minor
@@ -51,14 +51,14 @@ you can see what a lesson design looks like.
 > contributions will be managed in the same way as edits to Wikipedia or
 > patches to open source software, and all contributors will be credited
 > for their work each time a new version is released. Please see
-> ==appendix==s:joining== for details and
-> ==section==s:joining-covenant== for our code of conduct.
+> @@appendix@@s:joining@@ for details and
+> @@section@@s:joining-covenant@@ for our code of conduct.
 
 ## Who You Are
 
-\==section==s:process-personas== explains how to figure out who your
+@@section@@s:process-personas@@ explains how to figure out who your
 learners are. The four I had in mind when writing this book are all
-==glossref==g:end-user-teacher==end-user teachers==: teaching isn’t
+@@glossref@@g:end-user-teacher@@end-user teachers@@: teaching isn’t
 their primary occupation, they have little or no background in pedagogy,
 and they may work outside institutional classrooms.
 
@@ -102,7 +102,7 @@ lesson design, or community organization*. Most work with *free-range
 learners* and are *focused on teenagers and adults* rather than
 children; all *have limited time and resources*.
 
-\==section==s:joining-using== describes different ways people have used
+@@section@@s:joining-using@@ describes different ways people have used
 this material. (That discussion is delayed to an appendix because it
 refers to some of the ideas introduced later in this book.) We expect
 our made-up learners to use this material as follows:
@@ -126,7 +126,7 @@ our made-up learners to use this material as follows:
 ## What to Read Instead
 
 If you are in a hurry, or want a taste of what this book will cover,
-==cite==Brow2018== presents ten evidence-based tips for teaching
+@@cite@@Brow2018@@ presents ten evidence-based tips for teaching
 computing. You can download the paper, or read it online, on [the PLoS
 website](https://doi.org/10.1371/journal.pcbi.1006023).
 
@@ -136,12 +136,12 @@ I also recommend:
     training](http://carpentries.github.io/instructor-training/), for
     which most of the first half of this book was originally developed.
 
-  - \==cite==Lang2016== and ==cite==Hust2012==, which are short,
+  - @@cite@@Lang2016@@ and @@cite@@Hust2012@@, which are short,
     approachable, and connect things you can do right now to the
     research that backs them.
 
-  - \==cite==Majo2015==, ==cite==Broo2016== ==cite==Berg2012==, and
-    ==cite==Rice2018==. The first catalogs a hundred different kinds of
+  - @@cite@@Majo2015@@, @@cite@@Broo2016@@ @@cite@@Berg2012@@, and
+    @@cite@@Rice2018@@. The first catalogs a hundred different kinds of
     exercises you can do with students; the second describes fifty
     different ways that groups can discuss things productively, while
     the third is a collection of patterns for teaching, and the fourth
@@ -150,36 +150,35 @@ I also recommend:
     make more sense once Huston or Lang have given you a framework for
     understanding them.
 
-  - \==cite==DeBr2015==, which conveys a lot of what *is* true about
-    educational by explaining what *isn’t*, and ==cite==Dida2016==,
+  - @@cite@@DeBr2015@@, which conveys a lot of what *is* true about
+    educational by explaining what *isn’t*, and @@cite@@Dida2016@@,
     which grounds learning theory in cognitive psychology.
 
-  - \==cite==Pape1993==, which remains an inspiring vision of how
+  - @@cite@@Pape1993@@, which remains an inspiring vision of how
     computers could change education.
 
-  - \==cite==Gree2014==, ==cite==McMi2017== and ==cite==Watt2014==.
-    These three short books explain why so many attempts at educational
-    reform have failed over the past forty years, how for-profit
-    colleges are exploiting and exacerbating the growing inequality in
-    our society, and how technology has repeatedly failed to
-    revolutionize education.
+  - @@cite@@Gree2014@@, @@cite@@McMi2017@@ and @@cite@@Watt2014@@. These
+    three short books explain why so many attempts at educational reform
+    have failed over the past forty years, how for-profit colleges are
+    exploiting and exacerbating the growing inequality in our society,
+    and how technology has repeatedly failed to revolutionize education.
 
-  - \==cite==Guzd2015a==, ==cite==Hazz2014==, and ==cite==Sent2018==,
+  - @@cite@@Guzd2015a@@, @@cite@@Hazz2014@@, and @@cite@@Sent2018@@,
     which are academically-oriented books I’ve found about teaching
     computing.
 
-  - \==cite==Brow2007== and ==cite==Mann2015==, because you can’t teach
+  - @@cite@@Brow2007@@ and @@cite@@Mann2015@@, because you can’t teach
     computing well without changing the system in which we teach, and
     you can’t do that on your own.
 
-Of these, ==cite==Pape1993== is the one that shaped my ideas about
+Of these, @@cite@@Pape1993@@ is the one that shaped my ideas about
 teaching the most. Papert’s central argument is that people don’t absorb
 knowledge; instead, they (re-)construct it for themselves, and computers
 are a new and powerful tool for helping them do that. [Andy Ko’s
 excellent
 description](https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4)
 does a better job of summarizing Papert’s ideas than I possibly could,
-and ==cite==Craw2010== is a thought-provoking companion to both.
+and @@cite@@Craw2010@@ is a thought-provoking companion to both.
 
 ## History
 
@@ -198,8 +197,8 @@ taught from software engineering: we were trying to show people the
 digital equivalent of painting a bathroom, not building the Channel
 Tunnel.) In the years that followed, I discovered resources like [Mark
 Guzdial’s blog](http://computinged.wordpress.com) and the book *How
-Learning Works* ==cite==Ambr2010==. These in turn led me to books like
-==cite==Hust2012,Lemo2014,Lang2016== that showed me how to build and
+Learning Works* @@cite@@Ambr2010@@. These in turn led me to books like
+@@cite@@Hust2012,Lemo2014,Lang2016@@ that showed me how to build and
 deliver better lessons in less time and with less effort.
 
 I started using these ideas in [Software
@@ -216,7 +215,7 @@ careers, and all of those experiences have gone into this book.
 
 Politicians, business leaders, and educators often say that people
 should learn to program because the jobs of the future will require it;
-for example, ==cite==Scaf2017== found that people who aren’t software
+for example, @@cite@@Scaf2017@@ found that people who aren’t software
 developers but who still program make higher wages than comparable
 workers who do not.
 
@@ -248,14 +247,14 @@ there are actually many reasons to learn how to program:
 Part of what motivates me to teach is the hope that if enough people
 understand how to make technology work for them, we will be able to
 build a society in which *all* of the reasons above are valued and
-rewarded (==chapter==s:final==).
+rewarded (@@chapter@@s:final@@).
 
 ## Have a Code of Conduct
 
 The most important thing I’ve learned about teaching in the last thirty
 years is how important it is for everyone to treat everyone else with
 respect, both in and out of class. If you use this material in any way,
-please adopt a Code of Conduct like the one in ==appendix==s:conduct==
+please adopt a Code of Conduct like the one in @@appendix@@s:conduct@@
 and require everyone who takes part in your classes to abide by it.
 
 A Code of Conduct can’t stop people from being offensive, any more than
@@ -312,23 +311,23 @@ exercises that are described as being for groups—and you can always
 spend more time on them than what’s suggested.
 
 The exercises in this chapter can be used as preassessment questions
-(==section==s:classroom-prior==) rather than as in-class exercises. if
+(@@section@@s:classroom-prior@@) rather than as in-class exercises. if
 you have learners answer them a few days before a class or workshop
 starts, they will give you a much clearer idea of who they are and how
 best you can help them.
 
-\==exercise==Highs and Lows==whole class==5==
+@@exercise@@Highs and Lows@@whole class@@5@@
 
 Write brief answers to the following questions and share with your
 peers. (If you are taking notes together online as described in
-==section==s:classroom-notetaking==, put your answers there.)
+@@section@@s:classroom-notetaking@@, put your answers there.)
 
 1.  What is the best class or workshop you ever took? What made it so
     good?
 
 2.  What was the worst one? What made it so bad?
 
-\==exercise==Know Thyself==whole class==5==
+@@exercise@@Know Thyself@@whole class@@5@@
 
 Write brief answers to the following questions and share them as
 described above. Keep your answers somewhere so that you can refer to
@@ -342,7 +341,7 @@ them as you go through the rest of this book.
 
 4.  How will you know if you’re teaching well?
 
-\==exercise==Starting Points==individual==5==
+@@exercise@@Starting Points@@individual@@5@@
 
 Write brief answers to the following questions and share them as
 described above. Keep your answers somewhere so that you can refer to
@@ -353,10 +352,10 @@ them as you go through the rest of this book.
 2.  What is one specific thing you believe is true about teaching and
     learning?
 
-\==exercise==Why Learn to Program?==individual==20==
+@@exercise@@Why Learn to Program?@@individual@@20@@
 
 Re-read Guzdial’s list of reasons to learn to program in
-==section==s:intro-why==, then draw a \(3{\times}3\) grid whose axes are
+@@section@@s:intro-why@@, then draw a \(3{\times}3\) grid whose axes are
 labelled “low”, “medium”, and “high” and place each point in one sector
 according to how important it is to you (the X axis) and to the people
 you plan to teach (the Y axis).

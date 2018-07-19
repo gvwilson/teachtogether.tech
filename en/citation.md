@@ -6,5 +6,5 @@ title: "Citation"
 
 Please cite this work as:
 
-> Greg Wilson (ed.): *Teaching Tech Together*. Lulu.com, 2018, ==isbn==,
-> ==website==.
+> Greg Wilson (ed.): *Teaching Tech Together*. Lulu.com, 2018, @@isbn@@,
+> @@website@@.

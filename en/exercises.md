@@ -21,15 +21,15 @@ then looks at the state of the art in automated grading, and closes by
 exploring discussion, projects, and other important kinds of work that
 require more human attention to assess. Our discussion draws in part on
 the [Canterbury Question Bank](http://web-cat.org/questionbank/)
-==cite==Sand2013==, which has entries for various languages and topics
+@@cite@@Sand2013@@, which has entries for various languages and topics
 in introductory computing.
 
 ## The Classics
 
-As ==section==s:models-formative-assessment== discussed, *multiple
+As @@section@@s:models-formative-assessment@@ discussed, *multiple
 choice questions* (MCQs) are most effective when the wrong answers probe
 for specific misconceptions. In terms of Bloom’s Taxonomy
-(==section==s:process-objectives==), MCQs are usually designed to test
+(@@section@@s:process-objectives@@), MCQs are usually designed to test
 recall and understanding (“What is the capital of Saskatchewan?”), but
 they can also require learners to exercise judgment.
 
@@ -114,7 +114,7 @@ students a bit more sympathy for how hard their teachers work.
 given some starter code and has to complete it. (In practice, most C\&R
 exercises are actually fill in the blanks because the teacher will
 provide comments to remind the learners of the steps they should take.)
-As discussed in ==chapter==s:load==, novices often find filling in the
+As discussed in @@chapter@@s:load@@, novices often find filling in the
 blanks less intimidating than writing all the code from scratch, and
 since the teacher has provided most of the answer’s structure,
 submissions are much more predictable and therefore easier to check.
@@ -127,16 +127,16 @@ submissions are much more predictable and therefore easier to check.
 >     slice = text[____:____]
 >     print(slice)
 
-As described in ==chapter==s:load==, also avoid the “blank screen of
+As described in @@chapter@@s:load@@, also avoid the “blank screen of
 terror” problem. The learner is given the lines of code needed to solve
 a problem, but has to put them in the right order. Research over the
 past few years has shown that Parsons Problems are effective because
 they allow learners to concentrate on control flow separately from
-vocabulary ==cite==Pars2006,Eric2015,Morr2016,Eric2017==. The same
+vocabulary @@cite@@Pars2006,Eric2015,Morr2016,Eric2017@@. The same
 research shows that giving the learner more lines than she needs, or
 asking her to rearrange some lines and add a few more, makes this kind
-of problem significantly harder ==cite==Harm2016==. Tools for building
-and doing Parsons Problems online exist ==cite==Ihan2011==, but they can
+of problem significantly harder @@cite@@Harm2016@@. Tools for building
+and doing Parsons Problems online exist @@cite@@Ihan2011@@, but they can
 be emulated (albeit somewhat clumsily) by asking learners to rearrange
 lines of code in an editor.
 
@@ -195,7 +195,7 @@ the variables.
 
 You can also require learners to trace code backwards, e.g., to figure
 out what the input must have been if the code produced a particular
-result ==cite==Armo2008==. These *reverse execution* problems require
+result @@cite@@Armo2008@@. These *reverse execution* problems require
 search and deductive reasoning, but they are particularly useful when
 the “output” is an error message, and help learners develop valuable
 debugging skills.
@@ -274,7 +274,7 @@ human intervention.
 ## Diagrams
 
 Having students draw concept maps and other diagrams gives insight into
-how they’re thinking (==section==s:memory-concept-maps==), but free-form
+how they’re thinking (@@section@@s:memory-concept-maps@@), but free-form
 diagrams take human time and judgment to assess. *Labelling diagrams*,
 on the other hand, is almost as useful from a pedagogical point of view
 but much easier to scale.
@@ -358,42 +358,42 @@ constrained domains, e.g., “What is the key feature of a stable sorting
 algorithm?” We still can’t fully automate checks for these without a
 frustrating number of false positives (accepting wrong answers) and
 false negatives (rejecting correct ones), but they lend themselves well
-to peer grading (==section==s:individual-peer==).
+to peer grading (@@section@@s:individual-peer@@).
 
 ## Automatic Grading
 
 Automatic program grading tools have been around longer than I’ve been
 alive: the earliest published mention dates from 1960
-==cite==Holl1960==, and the surveys published in
-==cite==Douc2005,Ihan2010== mention many specific tools by name.
+@@cite@@Holl1960@@, and the surveys published in
+@@cite@@Douc2005,Ihan2010@@ mention many specific tools by name.
 Building such tools is a lot more complex than it might first seem. How
 are assignments represented? How are submissions tracked and reported?
 Can learners co-operate? How can submissions be executed safely?
-==cite==Edwa2014a== is an entire paper devoted to an adaptive scheme for
+@@cite@@Edwa2014a@@ is an entire paper devoted to an adaptive scheme for
 detecting and managing infinite loops and other non-terminating code
 submissions, and that’s just one of the many issues that comes up.
 
 As elsewhere, it’s important to distinguish learner satisfaction from
-learning outcomes. ==cite==Magu2018== switched informal programming labs
+learning outcomes. @@cite@@Magu2018@@ switched informal programming labs
 to a weekly machine-evaluated test for a second-year CS course using an
 auto-grading tool originally developed for programming competitions.
 Learners didn’t like the automated system, but the overall failure rate
 for the course was halved, and the number of learners gaining first
-class honors tripled. In contrast, ==cite==Rubi2014== also began to use
+class honors tripled. In contrast, @@cite@@Rubi2014@@ also began to use
 an auto-grader designed for competitions, but saw no significant
 decrease in their learners’ dropout rates; once again, learners made
 some negative comments about the tool, which the authors attribute to
 its feedback messages rather than to dislike of auto-grading.
 
-\==cite==Srid2016== took a different approach. They used
-==glossref==g:fuzz-testing==fuzz testing== (i.e., randomly-generated
+@@cite@@Srid2016@@ took a different approach. They used
+@@glossref@@g:fuzz-testing@@fuzz testing@@ (i.e., randomly-generated
 test cases) to check whether learner code does the same thing as a
 reference implementation supplied by the teacher. In the first project
 of a 1400-learner introductory course, fuzz testing caught errors that
 were missed by a suite of hand-written test cases for more than 48% of
 learners, which clearly demonstrates its value.
 
-\==cite==Basu2015== gave learners a suite of solution test cases, but
+@@cite@@Basu2015@@ gave learners a suite of solution test cases, but
 learners had to unlock each one by answering questions about its
 expected behavior before they were allowed to apply it to their proposed
 solution. For example, suppose learners are writing a function to find
@@ -406,15 +406,15 @@ test cases this way before attempting to solve problems, and then asked
 fewer questions and expressed less confusion about assignments.
 
 It’s tempting to use off-the-shelf style checking tools to grade
-learners’ code. However, ==cite==Nutb2016== initially found no
+learners’ code. However, @@cite@@Nutb2016@@ initially found no
 correlation between human-provided marks and style-checker rule
 violations. Sometimes this was because learners violated one rule many
 times (thereby losing more points than they should have), and other
 times it was because they submitted the assignment starter code with few
 alterations and got more points than they should have.
 
-\==cite==Buff2015== presents a well-informed reflection on the whole
-idea of providing automated feedback. Their starting point is that,
+@@cite@@Buff2015@@ presents a well-informed reflection on the whole idea
+of providing automated feedback. Their starting point is that,
 “Automated grading systems help learners identify bugs in their code,
 <span>\[</span>but<span>\]</span> may inadvertently discourage learners
 from thinking critically and testing thoroughly and instead encourage
@@ -427,7 +427,7 @@ unlikely that more testing will expose the problem. If the auto-grading
 system doesn’t provide insightful, actionable feedback, this experience
 will only frustrate the learner.
 
-In order to provide that feedback, ==cite==Buff2015==’s system
+In order to provide that feedback, @@cite@@Buff2015@@’s system
 identifies which method or methods of the learner’s code are executed by
 failing tests, so that the system can associate failed tests with
 particular features within the learner’s submission. The system decides
@@ -435,7 +435,7 @@ whether specific hints have been “earned” by seeing whether the learner
 has tested the associated feature enough, so learners cannot rely on
 hints instead of doing tests.
 
-\==cite==Keun2016a,Keun2016b== classified the messages produced by 69
+@@cite@@Keun2016a,Keun2016b@@ classified the messages produced by 69
 auto-grading tools. They found that these often do not give feedback on
 how to fix problems and take the next step. They also found that most
 teachers cannot easily adapt most of the tools to their needs; like many
@@ -444,7 +444,7 @@ assumptions about how institutions work. Their work is ongoing, and
 their detailed classification scheme is a useful shopping list when
 looking at tools of this kind.
 
-\==cite==Srid2016== discussed strategies for sharing feedback with
+@@cite@@Srid2016@@ discussed strategies for sharing feedback with
 learners when automatically testing their code. The first is to provide
 the expected output for the tests—but then learners hard-code output for
 those inputs (because anything that can be gamed, will be). An
@@ -454,7 +454,7 @@ submission date. This can be frustrating, because it tells learners they
 are wrong, but not why.
 
 A third option is to use a technique called
-==glossref==g:hashing==hashing== to generate a value that depends on the
+@@glossref@@g:hashing@@hashing@@ to generate a value that depends on the
 output, but doesn’t reveal it. If the user produces exactly the same
 output, its hash will be the same as the hash of the correct output,
 which will unlock the solution, but it is impossible to work backward
@@ -470,7 +470,7 @@ assess in a class with more than few dozen learners, and equally hard
 for automated platforms to assess at all. Larger programming projects,
 or projects in which learners set their own goals, are (hopefully) what
 classes are building toward. Free-form discussion or twitch coding
-(==section==s:performance-live==) is also valuable, but also doesn’t
+(@@section@@s:performance-live@@) is also valuable, but also doesn’t
 scale.
 
 *Code review*, on the other hand, is hard to grade automatically in the
@@ -482,10 +482,10 @@ asked to point them out; if she is more advanced, she could be given
 half a dozen kinds of remarks she could make about the code without
 guidance as to how many of each she should find.
 
-\==cite==Steg2016b== is a good starting point for a code style rubric,
-while ==cite==Luxt2009== looks at peer review in programming classes
+@@cite@@Steg2016b@@ is a good starting point for a code style rubric,
+while @@cite@@Luxt2009@@ looks at peer review in programming classes
 more generally. If you are going to have students do reviews, use
-calibrated peer review (==section==s:individual-peer==) so that they
+calibrated peer review (@@section@@s:individual-peer@@) so that they
 have models of what good feedback should look like.
 
 > **Code Review**
@@ -511,26 +511,26 @@ have models of what good feedback should look like.
 
 ## Exercises
 
-\==exercise==Code and Run==pairs==10==
+@@exercise@@Code and Run@@pairs@@10@@
 
 Create a short C\&R exercise; trade with a partner, and see how long it
 takes each of you to understand and do the other’s exercise. Were there
 any ambiguities or misunderstandings in the exercise description?
 
-\==exercise==Inverting Code and Run==small groups==15==
+@@exercise@@Inverting Code and Run@@small groups@@15@@
 
 Form groups of 4–6 people. Have each member of the group create an
 inverted C\&R exercise that requires people to figure out what input
 produces a particular output. Pick two at random, and see how many
 different inputs the group can find that satisfy the requirements.
 
-\==exercise==Tracing Values==pairs==10==
+@@exercise@@Tracing Values@@pairs@@10@@
 
 Write a short program (10–15 lines); trade with a partner, and trace how
 the variables in the program change value over time. What differences
 are there in how you and your partner wrote down your traces?
 
-\==exercise==Refactoring==small groups==15==
+@@exercise@@Refactoring@@small groups@@15@@
 
 Form groups of 3–4 people. Have each person select a short piece of code
 (10–30 lines long) that they have written that isn’t as tidy as it could
@@ -539,22 +539,22 @@ independently. How do your cleaned-up versions differ? How well or how
 poorly would you be able to accommodate all of these variations if
 marking automatically or in a large class?
 
-\==exercise==Labelling a Diagram==pairs==10==
+@@exercise@@Labelling a Diagram@@pairs@@10@@
 
 Draw a diagram showing something that you have explained recently: how
 browsers fetch data from servers, the relationship between objects and
 classes, or how data frames are indexed in R. Put the labels on the
 side, and ask your partner to place them.
 
-\==exercise==Pencil-and-Paper Puzzles==whole class==15==
+@@exercise@@Pencil-and-Paper Puzzles@@whole class@@15@@
 
-\==cite==Butl2017== describes a set of pencil-and-paper puzzles that can
+@@cite@@Butl2017@@ describes a set of pencil-and-paper puzzles that can
 be turned into introductory programming assignments, and found that
 these assignments are enjoyed by students and encourage meta-cognition.
 Think of a simple pencil-and-paper puzzle or game you played as a child,
 and describe how you would turn it into a programming exercise.
 
-\==exercise==Counting Failures==pairs==15==
+@@exercise@@Counting Failures@@pairs@@15@@
 
 Any useful estimate of how much time an exercise needs must take into
 account how frequent failures are and how much time is lost to them. For
@@ -564,7 +564,7 @@ or home directory; if the files used in a course are stored somewhere
 else, a substantial fraction won’t be able to navigate to the right
 directory without help. (If this seems like a small problem to you,
 please revisit the discussion of expert blind spot in
-==chapter==s:memory==.)
+@@chapter@@s:memory@@.)
 
 Working with a partner, make a list of “simple” things you have seen go
 wrong in exercises you have used or taken. How often do they come up?

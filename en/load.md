@@ -21,7 +21,7 @@ title: "Cognitive Load"
 >   - Describe ways instructors differ from students and what effect
 >     those differences have on instruction.
 
-In ==cite==Kirs2006==, Kirschner, Sweller and Clark wrote:
+In @@cite@@Kirs2006@@, Kirschner, Sweller and Clark wrote:
 
 > Although unguided or minimally guided instructional approaches are
 > very popular and intuitively appealing<span>…</span>these approaches
@@ -39,7 +39,7 @@ the authors were claiming that allowing learners to ask their own
 questions, set their own goals, and find their own path through a
 subject, as they would when solving problems in real life, isn’t
 effective. This approach—called
-==glossref==g:inquiry-based-learning==inquiry-based learning==—is
+@@glossref@@g:inquiry-based-learning@@inquiry-based learning@@—is
 intuitively appealing, but the authors argued that it overloads learners
 by requiring them to master a domain’s factual content and its
 problem-solving strategies at the same time.
@@ -80,13 +80,13 @@ into steps, each of which can be mastered on its own before being
 combined with other steps (which is a step in its own right).
 
 One way to do this is to give learners a series of
-==glossref==g:faded-example==faded examples==. The first example
+@@glossref@@g:faded-example@@faded examples@@. The first example
 presents a nearly-complete use of the same problem-solving strategy just
 demonstrated, but with a small number of blanks for the learner to fill
 in. The next problem is of the same type, but has more blanks, and so on
 until the learner is asked to solve the entire problem. The material
 that *isn’t* blank is often referred to as
-==glossref==g:scaffolding==scaffolding==, since it serves the same
+@@glossref@@g:scaffolding@@scaffolding@@, since it serves the same
 purpose as the scaffolding set up temporarily at a building site.
 
 Faded examples can be used in almost every kind of teaching, from sport
@@ -131,7 +131,7 @@ own:
 Faded examples work because they introduce the problem-solving strategy
 piece by piece: at each step, learners have one new problem to tackle,
 which is less intimidating than a blank screen or a blank sheet of paper
-(==section==s:classroom-practices==). It also encourages learners to
+(@@section@@s:classroom-practices@@). It also encourages learners to
 think about the similarities and differences between various approaches,
 which helps create the linkages in their mental models that help
 retrieval.
@@ -139,9 +139,9 @@ retrieval.
 > **Efficiency vs. Extent**
 > 
 > Seeing worked examples accelerates learning more than having students
-> write lots of code themselves ==cite==Skud2014==. As we will see in
-> ==chapter==s:pck==, deconstructing code by tracing it or debugging it
-> also increases the efficiency of learning ==cite==Grif2016==. However,
+> write lots of code themselves @@cite@@Skud2014@@. As we will see in
+> @@chapter@@s:pck@@, deconstructing code by tracing it or debugging it
+> also increases the efficiency of learning @@cite@@Grif2016@@. However,
 > this isn’t the same as saying that people learn more unless they see
 > additional problems.
 
@@ -155,19 +155,19 @@ Critics have sometimes argued that any result can be justified after the
 fact by labelling things that hurt performance as extraneous load and
 things that don’t as intrinsic or germane. However, instruction based on
 cognitive load theory is undeniably effective. For example,
-==cite==Maso2016== redesigned a database course to remove split
+@@cite@@Maso2016@@ redesigned a database course to remove split
 attention and redundancy effects, and provide worked examples and
 sub-goals. The new course reduced exam failure rate by 34% on an
 identical final exam and increased student satisfaction.
 
-A decade after the publication of ==cite==Kirs2006==, a growing number
+A decade after the publication of @@cite@@Kirs2006@@, a growing number
 of people believe that cognitive load theory and inquiry-based
-approaches are compatible if viewed in the right way. ==cite==Kaly2015==
+approaches are compatible if viewed in the right way. @@cite@@Kaly2015@@
 argues that cognitive load theory is basically micro-management of
 learning within a broader context that considers things like motivation,
-while ==cite==Kirs2018== extends cognitive load theory to include
-collaborative aspects of learning. As with ==cite==Mark2018== (discussed
-in ==section==s:individual-strategies==), researchers’ perspectives may
+while @@cite@@Kirs2018@@ extends cognitive load theory to include
+collaborative aspects of learning. As with @@cite@@Mark2018@@ (discussed
+in @@section@@s:individual-strategies@@), researchers’ perspectives may
 differ, but the practical implementation of their theories often wind up
 being the same.
 
@@ -175,11 +175,11 @@ being the same.
 > 
 > An alternative model of learning and instruction that also uses
 > scaffolding and fading is
-> ==glossref==g:cognitive-apprenticeship==cognitive apprenticeship==,
+> @@glossref@@g:cognitive-apprenticeship@@cognitive apprenticeship@@,
 > which emphasizes the way in which a master passes on skills and
 > insights to an apprentice. The master provides models of performance
 > and outcomes, then coaches novices as they take their first steps by
-> explaining what they’re doing and why ==cite==Coll1991,Casp2007==. The
+> explaining what they’re doing and why @@cite@@Coll1991,Casp2007@@. The
 > apprentice reflects on their own problem solving, e.g., by thinking
 > aloud or critiquing their own work, and eventually explores problems
 > of their own choosing.
@@ -194,13 +194,13 @@ being the same.
 > contexts, and we should encourage self-explanation, since it helps
 > learners organize and make sense of what they have just been taught.
 > This is discussed in more detail in
-> ==section==s:individual-strategies==.
+> @@section@@s:individual-strategies@@.
 
 ### Parsons Problems
 
 Another kind of exercise that can be explained in terms of cognitive
-load theory is called a ==glossref==g:parsons-problem==Parsons Problem==
-(named after one of their creators ==cite==Pars2006==). If you are
+load theory is called a @@glossref@@g:parsons-problem@@Parsons Problem@@
+(named after one of their creators @@cite@@Pars2006@@). If you are
 teaching someone to speak a new language, you could ask them a question,
 and then give them the words they need to answer the question, but in
 jumbled order. Their task is to put the words in the right order to
@@ -214,15 +214,15 @@ dependencies, i.e., on what has to happen before what, without being
 distracted by variable naming or trying to remember what functions to
 call. Multiple studies have shown that Parsons Problems take less time
 for learners to do, but produce equivalent educational outcomes
-==cite==Eric2017==.
+@@cite@@Eric2017@@.
 
 ### Labelled Subgoals
 
-\==glossref==g:subgoal-labelling==Subgoal labelling== means giving names
+@@glossref@@g:subgoal-labelling@@Subgoal labelling@@ means giving names
 to the steps in a step-by-step description of a problem-solving process.
-==cite==Marg2016,Morr2016== all found that students with labelled
+@@cite@@Marg2016,Morr2016@@ all found that students with labelled
 subgoals solved Parsons Problems better than students without, and the
-same benefit is seen in other problem domains ==cite==Marg2012==.
+same benefit is seen in other problem domains @@cite@@Marg2012@@.
 Returning to the Python example used earlier, the subgoals in finding
 the total length of a list of words or constructing an acronym are:
 
@@ -233,25 +233,25 @@ the total length of a list of words or constructing an acronym are:
 3.  Update the result with that value.
 
 Labelling subgoals works because grouping related steps in a chunk
-(==section==s:memory-pattern==) and giving each chunk a name helps
+(@@section@@s:memory-pattern@@) and giving each chunk a name helps
 learners distinguish between generic information and information that is
 specific to the problem at hand, which reduces cognitive load. It also
 helps them build a mental model of that kind of problem, so that they
 can solve other problems of that kind, and gives them a natural
-opportunity for self-explanation (==section==s:individual-strategies==).
+opportunity for self-explanation (@@section@@s:individual-strategies@@).
 
 ## Split Attention
 
 Research by Mayer and colleagues on the
-==glossref==g:split-attention-effect==split-attention effect== is
-closely related to cognitive load theory ==cite==Maye2003==. Linguistic
+@@glossref@@g:split-attention-effect@@split-attention effect@@ is
+closely related to cognitive load theory @@cite@@Maye2003@@. Linguistic
 and visual input are processed by different parts of the human brain,
 and linguistic and visual memories are stored separately as well. This
 means that correlating linguistic and visual streams of information
 takes cognitive effort: when someone reads something while hearing it
 spoken aloud, their brain can’t help but check that it’s getting the
 same information on both channels (a topic we’ll return to when
-discussing dual coding in ==section==s:individual-strategies==).
+discussing dual coding in @@section@@s:individual-strategies@@).
 
 Learning is therefore more effective when information is presented
 simultaneously in two different channels, but when that information is
@@ -273,14 +273,14 @@ said when that part was being drawn.
 
 The split-attention effect does *not* mean that learners shouldn’t try
 to reconcile multiple incoming streams of information—after all, this is
-something they have to do in the real world ==cite==Atki2000==. Instead,
+something they have to do in the real world @@cite@@Atki2000@@. Instead,
 it means that instruction shouldn’t require it while people are
 mastering unit skills; instead, using multiple sources of information
 simultaneously should be treated as a separate learning task.
 
 > **Not All Graphics Are Created Equal**
 > 
-> \==cite==Sung2012== presents an elegant study that distinguishes
+> @@cite@@Sung2012@@ presents an elegant study that distinguishes
 > *seductive* graphics (which are highly interesting but not directly
 > relevant to the instructional goal), *decorative* graphics (which are
 > neutral but not directly relevant to the instructional goal), and
@@ -290,7 +290,7 @@ simultaneously should be treated as a separate learning task.
 > but only students who got instructive graphics actually performed
 > better.
 > 
-> Similarly, ==cite==Stam2013,Stam2014== found that having more
+> Similarly, @@cite@@Stam2013,Stam2014@@ found that having more
 > information can actually lower performance. They showed children
 > pictures, pictures and numbers, or just numbers for two tasks:
 > fraction equivalence and fraction addition. For equivalence, having
@@ -301,7 +301,7 @@ simultaneously should be treated as a separate learning task.
 ## Minimal Manuals
 
 The most extreme use of cognitive load theory may be the “minimal
-manual” method introduced in ==cite==Carr1987==. Its starting point is
+manual” method introduced in @@cite@@Carr1987@@. Its starting point is
 a quote from a user: “I want to do something, not learn how to do
 everything.” Carroll and colleagues therefore redesigned training to
 present every idea as a single-page self-contained task: a title
@@ -312,11 +312,11 @@ problems.
 
 Carroll and colleagues found that rewriting training materials this way
 made them shorter overall, and that people using them learned faster.
-Later studies like ==cite==Lazo1993== confirmed that this approach
+Later studies like @@cite@@Lazo1993@@ confirmed that this approach
 outperformed the traditional approach regardless of prior experience
 with computers.
 
-Looking back, ==cite==Carr2014== summarized this work by saying:
+Looking back, @@cite@@Carr2014@@ summarized this work by saying:
 
 > Our “minimalist” designs sought to leverage user initiative and prior
 > knowledge, instead of controlling it through warnings and ordered
@@ -336,7 +336,7 @@ tasks, well-designed instruction should help them do that.
 
 ## Exercises
 
-\==exercise==Create a Faded Example==pairs==30==
+@@exercise@@Create a Faded Example@@pairs@@30@@
 
 It’s very common for programs to count how many things fall into
 different categories: for example, how many times different colors
@@ -363,16 +363,16 @@ place them in different groups, and have them play the part of learners
 for those groups. Alternatively, choose a different problem domain and
 develop a faded example for it.
 
-\==exercise==Classifying Load==small groups==15==
+@@exercise@@Classifying Load@@small groups@@15@@
 
 Working in groups of 3–4, choose a short lesson that one of you has
 taught or taken recently, make a point-form list of the ideas,
 instructions, and explanations it contains, and then classify each as
 intrinsic, germane, or extraneous. (The exercise “Noticing Your Blind
-Spot” in ==section==s:memory-exercises== will give you an idea of how
+Spot” in @@section@@s:memory-exercises@@ will give you an idea of how
 detailed your point-form list should be.)
 
-\==exercise==Create a Parsons Problem==pairs==20==
+@@exercise@@Create a Parsons Problem@@pairs@@20@@
 
 Write five or six lines of code that does something useful, jumble them,
 and ask your partner to put them in order. If you are using an
@@ -382,7 +382,7 @@ the curly braces. Again, if your group includes people who aren’t
 programmers, try using a different problem domain, such as making
 guacamole.
 
-\==exercise==Minimal Manuals==individual==20==
+@@exercise@@Minimal Manuals@@individual@@20@@
 
 Write a one-page guide to doing something simple that your learners
 might encounter in one of your classes, such as centering text
@@ -392,7 +392,7 @@ behaviors or outcomes the learner might see, and include a one- or
 two-line explanation of why each happens and how to correct it (i.e., go
 from symptoms to cause to fix).
 
-\==exercise==Cognitive Apprenticeship==pairs==15==
+@@exercise@@Cognitive Apprenticeship@@pairs@@15@@
 
 Pick a small coding problem (something you can do in two or three
 minutes) and think aloud as you work through it while your partner asks
@@ -402,10 +402,10 @@ know it’s the right thing to do, and what alternatives you’ve considered
 but discarded. When you are done, swap roles with your partner and
 repeat the exercise.
 
-\==exercise==Critiquing Graphics==individual==30==
+@@exercise@@Critiquing Graphics@@individual@@30@@
 
-\==cite==Maye2009== presents six principles for designing good diagrams
-for teaching. As summarized in ==cite==Mill2016a==, they are:
+@@cite@@Maye2009@@ presents six principles for designing good diagrams
+for teaching. As summarized in @@cite@@Mill2016a@@, they are:
 
   - Signalling:  
     visually highlight the most important points that you want students

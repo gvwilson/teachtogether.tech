@@ -12,7 +12,7 @@ title: "Partnerships"
 >   - Summarize methods that can be used to effect changes in
 >     educational institutions.
 
-\==section==s:community-learn-then-do== said that the first step in
+@@section@@s:community-learn-then-do@@ said that the first step in
 building a community is to decide if you really need to, or whether you
 would be more effective joining an existing organization. Either way,
 the organization you’re part of will eventually need to work with other,
@@ -42,7 +42,7 @@ pointless to argue about whether these issues are “real” or not: faculty
 believe they are, so any plan to work with faculty needs to address
 them.
 
-\==cite==Bark2015== did a two-part study of how computer science
+@@cite@@Bark2015@@ did a two-part study of how computer science
 educators adopt new teaching practices as individuals, organizationally,
 and in society as a whole. They asked and answered three key questions:
 
@@ -78,7 +78,7 @@ and in society as a whole. They asked and answered three key questions:
     findings: even people whose entire careers are devoted to research
     will disregard education research.
 
-3.  *Why do they keep using them?* As ==cite==Bark2015== says, “Student
+3.  *Why do they keep using them?* As @@cite@@Bark2015@@ says, “Student
     feedback is critical,” and is often the strongest reason to continue
     using a practice, even though we know that students’ self-reports
     don’t correlate strongly with learning outcomes. (Note that student
@@ -89,27 +89,27 @@ and in society as a whole. They asked and answered three key questions:
     when the explicit incentive or monitoring is removed.
 
 The good news is, you can tackle these problems systematically.
-==cite==Baue2015== looked at adoption of new medical techniques within
+@@cite@@Baue2015@@ looked at adoption of new medical techniques within
 the US Veterans Administration. They found that evidence-based practices
 in medicine take an average of 17 years to be incorporated into routine
 general practice, and that only about half of such practices are ever
 widely adopted. This depressing finding and others like it spurred the
-growth of ==glossref==g:implementation-science==implementation
-science==, which is the scientific study of ways to get people to
+growth of @@glossref@@g:implementation-science@@implementation
+science@@, which is the scientific study of ways to get people to
 actually adopt better evidence-based practices.
 
-As ==chapter==s:community== said, the starting point is to find out what
+As @@chapter@@s:community@@ said, the starting point is to find out what
 the people you’re trying to help believe they need. For example,
-==cite==Yada2016== summarizes feedback from K-12 teachers on the
+@@cite@@Yada2016@@ summarizes feedback from K-12 teachers on the
 preparation and support they want; while it may not all be applicable to
 your setting, having a cup of tea with a few people and listening before
 you speak can make a world of difference.
 
 Once you know what people need, the next step is to make changes
-incrementally, within institutions’ own frameworks. ==cite==Nara2018==
+incrementally, within institutions’ own frameworks. @@cite@@Nara2018@@
 describes an intensive three-year bachelor’s program based on tight-knit
 cohorts and administrative support that tripled graduation rates.
-Elsewhere, ==cite==Hu2017== describes impact of introducing a six-month
+Elsewhere, @@cite@@Hu2017@@ describes impact of introducing a six-month
 certification program for existing high school teachers who want to
 teach computing (as opposed to the older two-year/five-course program).
 The number of computing teachers had been stable from 2007 to 2013, but
@@ -121,7 +121,7 @@ content students self-reported learning in ECS appears to be based on
 how much they believed they knew before taking ECS, and appears to have
 no correlation to their teacher’s CS background.”
 
-More broadly, ==cite==Borr2014== categorizes ways to make change happen
+More broadly, @@cite@@Borr2014@@ categorizes ways to make change happen
 in higher education. The categories are defined by whether the change is
 individual or to the system as a whole, and whether it is prescribed
 (top-down) or emergent (bottom-up). The person trying to make the
@@ -129,7 +129,7 @@ changes—and make them stick—has a different role in each situation, and
 should pursue different strategies accordingly.
 
 The paper goes on to explain each of the methods in detail, while
-==cite==Hend2015a,Hend2015b== present the same ideas in more actionable
+@@cite@@Hend2015a,Hend2015b@@ present the same ideas in more actionable
 form. Coming in from outside, you will probably fall into the
 Individual/Emergent category to start with, since you will be
 approaching teachers one by one and trying to make change happen
@@ -148,9 +148,9 @@ intensive bootcamp programs. These are typically one to six months long,
 run by private firms for profit, and target people who are retraining to
 get into tech. Some are very high quality, but others exist primarily to
 separate people (often from low-income backgrounds) from their money
-==cite==McMi2017==.
+@@cite@@McMi2017@@.
 
-\==cite==Thay2017== interviewed 26 alumni of such bootcamps that provide
+@@cite@@Thay2017@@ interviewed 26 alumni of such bootcamps that provide
 a second chance for those who missed computing education opportunities
 earlier (though the authors phrasing this as “missed earlier
 opportunities” makes some pretty big assumptions when it comes to people
@@ -166,7 +166,7 @@ building their portfolios and networking. The three informal barriers
 they most clearly identified were knowledge (or rather, jargon),
 impostor syndrome, and a sense of not fitting in.
 
-\==cite==Burk2018== dug into this a bit deeper by comparing the skills
+@@cite@@Burk2018@@ dug into this a bit deeper by comparing the skills
 and credentials that tech industry recruiters are looking for to those
 provided by 4-year degrees and bootcamps. They interviewed 15 hiring
 managers from firms of various sizes and ran some focus groups, and
@@ -181,7 +181,7 @@ well be to emphasize what you know about teaching rather than what you
 know about tech, since many of their founders and staff have programming
 backgrounds but little or no training in education. The first few
 chapters of this book have played well with this audience in the past,
-and ==cite==Lang2016== describes evidence-based teaching practices that
+and @@cite@@Lang2016@@ describes evidence-based teaching practices that
 can be put in place with minimal effort and at low cost. These may not
 have the most impact, but scoring a few early wins helps build support
 for larger and riskier efforts.
@@ -190,7 +190,7 @@ for larger and riskier efforts.
 
 It is impossible to change large institutions on your own: you need
 allies, and to get allies, you need tactics. The most useful guide I
-have found is ==cite==Mann2015==, which catalogs more than four dozen
+have found is @@cite@@Mann2015@@, which catalogs more than four dozen
 methods you can use, and organizes them according to whether they’re
 best deployed early on, later, throughout the change cycle, or when you
 encounter resistance. A handful of their patterns include:
@@ -213,7 +213,7 @@ encounter resistance. A handful of their patterns include:
     play the role of “official skeptic”. Use their comments to improve
     your effort, even if you don’t change their minds.
 
-Conversely, ==cite==Farm2006== has ten tongue-in-cheek rules for
+Conversely, @@cite@@Farm2006@@ has ten tongue-in-cheek rules for
 ensuring that a new tool isn’t adopted, all of which apply to new
 teaching practices as well:
 
@@ -247,7 +247,7 @@ partner, always remember that learning and change have to go both ways.
 
 ## Exercises
 
-\==exercise==Collaborations==small groups==30==
+@@exercise@@Collaborations@@small groups@@30@@
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -266,9 +266,9 @@ answers to those given by other members of your group.
 6.  With what groups or entities would you like your organization to
     have agreements or relationships?
 
-\==exercise==Educationalization==whole class==10==
+@@exercise@@Educationalization@@whole class@@10@@
 
-\==cite==Laba2008== explores why the United States and other countries
+@@cite@@Laba2008@@ explores why the United States and other countries
 keep pushing the solution of social problems onto educational
 institutions, and why that continues not to work. As he points out,
 “\[Education\] has done very little to promote equality of race,
@@ -300,22 +300,22 @@ write:
 How do efforts to teach computational thinking and digital citizenship
 in schools fit into this framework?
 
-\==exercise==Institutional Adoption==whole class==15==
+@@exercise@@Institutional Adoption@@whole class@@15@@
 
 Re-read the list of motivations to adopt new practices given in
-==section==s:partner-schools==. Which of these apply to you and your
+@@section@@s:partner-schools@@. Which of these apply to you and your
 colleagues? Which are irrelevant to your context? Which do you emphasize
 if and when you interact with people working in formal educational
 institutions?
 
-\==exercise==Making It Fail==small groups==15==
+@@exercise@@Making It Fail@@small groups@@15@@
 
 Working in small groups, re-read the list of ways to ensure new tools
-aren’t adopted given in ==section==s:partner-final==. Which of these
+aren’t adopted given in @@section@@s:partner-final@@. Which of these
 have you seen done recently? Which have you done yourself? What form did
 they take?
 
-\==exercise==Mentoring==whole class==15==
+@@exercise@@Mentoring@@whole class@@15@@
 
 The Institute for African-American Mentoring in Computer Science has
 published a brief set of guidelines for mentoring doctoral students,

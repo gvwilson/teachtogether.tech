@@ -112,7 +112,7 @@ emailed to everyone or posted to a wiki):
     carried forward. That way, your agenda for the next meeting can
     start by rattling through a list of tickets.
 
-\==cite==Brow2007== and ==cite==Broo2016== have lots of good advice on
+@@cite@@Brow2007@@ and @@cite@@Broo2016@@ have lots of good advice on
 running meetings, and if you want to “learn, then do”, an hour of
 training on chairing meetings is the most effective place to start.
 
@@ -171,7 +171,7 @@ you just accomplished and what you could o better next time. Its aim is
 to happen, the post mortem is the best place for it.
 
 A post mortem is run like any other meeting, but with a few additional
-guidelines ==cite==Derb2006==:
+guidelines @@cite@@Derb2006@@:
 
   - Get a moderator who wasn’t part of the project  
     and doesn’t have a stake in it. Otherwise, the meeting will either

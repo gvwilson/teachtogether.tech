@@ -18,7 +18,7 @@ title: "Building Mental Models"
 The first task in teaching is to figure out who your learners are and
 what they already know. Our approach is based on the work of researchers
 like Patricia Benner, who studied how nurses progress from being novices
-to being experts ==cite==Benn2000==. Benner identified five stages of
+to being experts @@cite@@Benn2000@@. Benner identified five stages of
 cognitive development that most people go through in a fairly consistent
 way. (We say “most” and “fairly” because human beings are highly
 variable; obsessing over how a few geniuses taught or learned isn’t
@@ -26,27 +26,27 @@ generally useful.)
 
 For our purposes, we can simplify Benner’s progression to three stages:
 
-  - \==glossref==g:novice==Novices==  
+  - @@glossref@@g:novice@@Novices@@  
     don’t know what they don’t know, i.e., they don’t yet have a usable
     mental model of the problem domain. As a result, they reason by
     analogy and guesswork, borrowing bits and pieces of mental models
     from other domains that seem superficially similar.
 
-  - \==glossref==g:competent-practitioner==Competent practitioners==  
+  - @@glossref@@g:competent-practitioner@@Competent practitioners@@  
     can do normal tasks with normal effort under normal circumstances
     because they have a mental model that’s good enough for everyday
     purposes. That model doesn’t have to be complete or accurate, just
     useful.
 
-  - \==glossref==g:expert==Experts==  
+  - @@glossref@@g:expert@@Experts@@  
     have mental models that include the complexities and special cases
     that competent practitioners’ do not. This allows experts to handle
     situations that are out of the ordinary, diagnose the causes of
     problems, and so on. Like competent practitioners, experts know what
     they don’t know and how to learn it; we will discuss expertise in
-    more detail in ==chapter==s:memory==.
+    more detail in @@chapter@@s:memory@@.
 
-So what *is* a ==glossref==g:mental-model==mental model==? As you may
+So what *is* a @@glossref@@g:mental-model@@mental model@@? As you may
 have gathered from the way we used the term above, it is a simplified
 representation of the most important parts of some problem domain that
 is good enough to enable problem solving. One example is the
@@ -61,7 +61,7 @@ One sign that someone is a novice is that the things they say are [not
 even wrong](https://en.wikipedia.org/wiki/Not_even_wrong), e.g., they
 think there’s a difference between programs they type in character by
 character and identical ones that they have copied and pasted. As
-==chapter==s:motivation== explains, it is very important not to make
+@@chapter@@s:motivation@@ explains, it is very important not to make
 novices uncomfortable for doing this: until they have a better mental
 model, reasoning by (inappropriate) borrowing from their knowledge of
 other subjects is the best they can do.
@@ -69,7 +69,7 @@ other subjects is the best they can do.
 Presenting novices with a pile of facts is counter-productive, because
 they don’t yet have a model to fit those facts into. In fact, presenting
 too many facts too soon can actually reinforce the incorrect mental
-model they’ve cobbled together—as ==cite==Mull2007a== observed in a
+model they’ve cobbled together—as @@cite@@Mull2007a@@ observed in a
 study of video instruction for science students:
 
 > Students have existing ideas about<span>…</span>phenomena before
@@ -103,17 +103,17 @@ practitioners because they move too slowly and say things that are
 obvious (though they are anything *but* obvious to novices). Equally,
 manuals frustrate novices because they use jargon and *don’t* explain
 things. This phenomenon is called the
-==glossref==g:expertise-reversal==expertise reversal effect==
-==cite==Kaly2003==, and is another reason you have to decide early on
+@@glossref@@g:expertise-reversal@@expertise reversal effect@@
+@@cite@@Kaly2003@@, and is another reason you have to decide early on
 who your lessons are meant for.
 
 > **A Handful of Exceptions**
 > 
 > One of the reasons Unix and C became popular is that Kernighan et al’s
-> trilogy ==cite==Kern1978,Kern1983,Kern1988== somehow managed to be
+> trilogy @@cite@@Kern1978,Kern1983,Kern1988@@ somehow managed to be
 > good tutorials *and* good manuals at the same time. Ray and Ray’s book
-> on Unix ==cite==Ray2014== and Fehily’s introduction to SQL
-> ==cite==Fehi2008== are among the very few other books in computing
+> on Unix @@cite@@Ray2014@@ and Fehily’s introduction to SQL
+> @@cite@@Fehi2008@@ are among the very few other books in computing
 > that have accomplished this; even after re-reading them several times,
 > I don’t know how they manage to do it.
 
@@ -138,13 +138,13 @@ categories:
   - Fundamental beliefs  
     such as “the world is only a few thousand years old” or “some kinds
     of people are just naturally better at programming than others”
-    ==cite==Guzd2015b,Pati2016==. These are also broken models, but
+    @@cite@@Guzd2015b,Pati2016@@. These are also broken models, but
     often deeply connected to the learner’s social identity, so they
     resist evidence and reason.
 
 Teaching is most effective when teachers identify and clear up learners’
 misconceptions *during the lesson*. This is called
-==glossref==g:formative-assessment==formative assessment==; the word
+@@glossref@@g:formative-assessment@@formative assessment@@; the word
 “formative” means it is used to form or shape the teaching. Learners
 don’t pass or fail formative assessment; instead, it tells the teacher
 and the learner how they are both doing and what they should focus on
@@ -154,7 +154,7 @@ teaching web design could ask a learner to resize the images in a page
 to check if his explanation of CSS made sense.
 
 The counterpoint to formative assessment is
-==glossref==g:summative-assessment==summative assessment==, which you do
+@@glossref@@g:summative-assessment@@summative assessment@@, which you do
 at the end of the lesson to determine if your teaching was successful,
 i.e., whether the learner has understood what you have taught and is
 ready to move on. One way of thinking about the difference is that a
@@ -169,7 +169,7 @@ probably the multiple choice question (MCQ). A lot of teachers have a
 low opinion of them, but when they are designed well, they can reveal
 much more than just whether someone knows specific facts. For example,
 suppose you are teaching children how to do multi-digit addition
-==cite==Ojos2015==, and you give them this MCQ:
+@@cite@@Ojos2015@@, and you give them this MCQ:
 
 > What is 37 + 15?  
 > a) 52  
@@ -189,8 +189,8 @@ insights:
     carrying it back into the column it came from.
 
 Each of these incorrect answers is a
-==glossref==g:plausible-distractor==plausible distractor== with
-==glossref==g:diagnostic-power==diagnostic power==. A distractor is a
+@@glossref@@g:plausible-distractor@@plausible distractor@@ with
+@@glossref@@g:diagnostic-power@@diagnostic power@@. A distractor is a
 wrong or less-than-best answer; “plausible” means that it looks like it
 could be right, while “diagnostic power” means that each of the
 distractors helps us figure out what to explain next to that particular
@@ -210,11 +210,11 @@ Overflow](http://stackoverflow.com) to see what people learning the
 subject elsewhere are confused by.
 
 MCQs aren’t the only kind of formative assessment you can use: Parsons
-Problems (==chapter==s:load==) and matching problems
-(==section==s:exercises-diagrams==) are also quick and unambiguous.
+Problems (@@chapter@@s:load@@) and matching problems
+(@@section@@s:exercises-diagrams@@) are also quick and unambiguous.
 Short-answer questions are another option: if answers are 2–5 words
 long, there are few enough plausible answers to make scalable assessment
-possible ==cite==Mill2016a==.
+possible @@cite@@Mill2016a@@.
 
 Developing formative assessment is useful even if you don’t use them in
 class because it forces you to think about your learners’ mental models
@@ -224,10 +224,10 @@ pick, you should use something that takes a minute or two every 10–15
 minutes to make sure that your learners are actually learning. That way,
 if a significant number of people have fallen behind, only a short
 portion of the lesson will have to be repeated. This rhythm isn’t based
-on an intrinsic attentional limit: ==cite==Wils2007== found little
+on an intrinsic attentional limit: @@cite@@Wils2007@@ found little
 support for the often-repeated claim that students can only pay
 attention for 10–15 minutes. If you are teaching online
-(==chapter==s:online==), you should check in much more often to keep
+(@@chapter@@s:online@@), you should check in much more often to keep
 learners engaged.
 
 Formative assessments can also be used preemptively: if you start a
@@ -235,7 +235,7 @@ class with an MCQ and everyone answers it correctly, you can skip the
 part of the lecture that was going to explain something your learners
 already know. Doing this also shows learners that you respect your
 learners’ time enough not to waste it, which helps with motivation
-(==chapter==s:motivation==).
+(@@chapter@@s:motivation@@).
 
 If the majority of the class chooses the same wrong answer, you should
 go back and work on correcting the misconception that distractor points
@@ -253,18 +253,18 @@ need; it’s your responsibility as a teacher to make the call.
 > **Concept Inventories**
 > 
 > Given enough data, MCQs can be made surprisingly precise. The
-> best-known example is the Force Concept Inventory ==cite==Hest1992==,
+> best-known example is the Force Concept Inventory @@cite@@Hest1992@@,
 > which assesses understanding of basic Newtonian mechanics. By
 > interviewing a large number of respondents, correlating their
 > misconceptions with patterns of right and wrong answers, and then
 > improving the questions, its creators constructed a diagnostic tool
 > that can pinpoint specific misconceptions. Researchers can then use
 > that tool to measure how effective changes in teaching methods are
-> ==cite==Hake1998==.
+> @@cite@@Hake1998@@.
 > 
 > Tew and others developed and validated a language-independent
-> assessment for introductory programming ==cite==Tew2011==;
-> ==cite==Park2016== has replicated it, and ==cite==Hamo2017== is
+> assessment for introductory programming @@cite@@Tew2011@@;
+> @@cite@@Park2016@@ has replicated it, and @@cite@@Hamo2017@@ is
 > developing a concept inventory for recursion. However, it’s very
 > costly to build tools like this, and students’ ability to search for
 > answers online is an ever-increasing threat to their validity.
@@ -275,7 +275,7 @@ that they can all answer an MCQ at once (rather than holding up their
 hands in turn), having one of the options be, “I have no idea”, and
 encouraging them to talk to their neighbors for a few seconds before
 answering will all help ensure that your teaching flow isn’t disrupted.
-==section==s:classroom-peer== describes a powerful, evidence-based
+@@section@@s:classroom-peer@@ describes a powerful, evidence-based
 teaching method that builds on these simple ideas.
 
 > **Humor**
@@ -294,7 +294,7 @@ problems beforehand.
 
 ## Exercises
 
-\==exercise==Your Mental Models==think-pair-share==15==
+@@exercise@@Your Mental Models@@think-pair-share@@15@@
 
 What is one mental model you use to understand your work? Write a few
 sentences describing it, and give feedback on a partner’s. Once you have
@@ -303,12 +303,12 @@ Does everyone agree on what a mental model is? Is it possible to give a
 precise definition, or is the concept useful precisely because it is a
 bit fuzzy?
 
-\==exercise==Symptoms of Being a Novice==whole class==5==
+@@exercise@@Symptoms of Being a Novice@@whole class@@5@@
 
 What are the symptoms of being a novice? I.e., what does someone do or
 say that leads you to classify them as a novice in some domain?
 
-\==exercise==Modelling Novice Mental Models==pairs==20==
+@@exercise@@Modelling Novice Mental Models@@pairs@@20@@
 
 Create a multiple choice question related to a topic you have taught or
 intend to teach and explain the diagnostic power of each its distractors
@@ -318,13 +318,13 @@ When you are done, trade MCQs with a partner. Is their question
 ambiguous? Are the misconceptions plausible? Do the distractors actually
 test for them? Are any likely misconceptions *not* tested for?
 
-\==exercise==Other Kinds of Formative Assessment==whole class==20==
+@@exercise@@Other Kinds of Formative Assessment@@whole class@@20@@
 
 A good formative assessment requires people to think through a problem.
 For example, imagine that you have placed a block of ice in a bathtub
 and then filled the tub to the rim with water. When the ice melts, does
 the water level go up (so that the tub overflows), go down, or stay the
-same (==figure==f:models-bathtub==)?
+same (@@figure@@f:models-bathtub@@)?
 
 \centering
 
@@ -334,13 +334,13 @@ Bathtub<span label="f:models-bathtub"></span>](../docs/fig/bathtub.pdf)
 The correct answer is that the level stays the same: the ice displaces
 its own weight in water, so it exactly fills the “hole” it has made when
 it melts. Figuring out why helps people build a model of the
-relationship between weight, volume, and density ==cite==Epst2002==.
+relationship between weight, volume, and density @@cite@@Epst2002@@.
 
 Describe another kind of formative assessment you have seen or used and
 explain how it helps both the instructor and the learner figure out
 where they are and what they need to do next.
 
-\==exercise==A Different Progression==individual==15==
+@@exercise@@A Different Progression@@individual@@15@@
 
 The model of skill development described at the start of this chapter is
 sometimes called the [Dreyfus
@@ -365,14 +365,14 @@ competence](https://en.wikipedia.org/wiki/Four_stages_of_competence):
 Identify one subject where you are at each level. What level are most of
 your learners at? What level are you trying to get them to?
 
-\==exercise==What Kind of Book Is This?==small groups==5==
+@@exercise@@What Kind of Book Is This?@@small groups@@5@@
 
 What are the chapters in the main body of this book: a tutorial or a
 manual? What about the appendices? Why?
 
-\==exercise==What Kind of Computing?==individual==10==
+@@exercise@@What Kind of Computing?@@individual@@10@@
 
-\==cite==Tedr2008== summarizes three traditions in computing:
+@@cite@@Tedr2008@@ summarizes three traditions in computing:
 
   - Mathematical:  
     Programs are the embodiment of algorithms; they are either correct

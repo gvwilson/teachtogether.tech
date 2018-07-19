@@ -12,7 +12,7 @@ using, sharing, and improving this material.
 The contributor covenant laid out below governs contributions to this
 book. It is adapted from the [Contributor
 Covenant](https://www.contributor-covenant.org) version 1.4; please see
-==appendix==s:conduct== for a sample code of conduct for use in classes
+@@appendix@@s:conduct@@ for a sample code of conduct for use in classes
 and other learning situations.
 
 ### Our Pledge
@@ -98,7 +98,7 @@ other members of the project’s leadership.
 This material has been used in many ways, from a multi-week online class
 to an intensive in-person workshop. It’s usually possible to cover large
 parts of Chapters [\[s:models\]](#s:models)–[\[s:process\]](#s:process),
-==chapter==s:performance==, and ==chapter==s:motivation== in two long
+@@chapter@@s:performance@@, and @@chapter@@s:motivation@@ in two long
 days.
 
 ### In Person
@@ -108,19 +108,19 @@ most demanding. Participants are physically together. When they need to
 practice teaching in small groups, some or all of them go to nearby
 breakout spaces. Participants use their own tablets or laptops to view
 online material during the class and for shared note-taking
-(==section==s:classroom-notetaking==), and use pen and paper or
+(@@section@@s:classroom-notetaking@@), and use pen and paper or
 whiteboards for other exercises. Questions and discussion are done
 aloud.
 
 If you are teaching in this format, you should use sticky notes as
 status flags so that you can see who needs help, who has questions, and
-who’s ready to move on (==section==s:classroom-status-flags==). You
+who’s ready to move on (@@section@@s:classroom-status-flags@@). You
 should also use them to distribute attention so that everyone gets a
 fair share of the instructor’s time
-(==section==s:classroom-attention==), and as minute cards to encourage
+(@@section@@s:classroom-attention@@), and as minute cards to encourage
 learners to reflect on what they’ve just learned and to give you
 actionable feedback while you still have time to act on it
-(==section==s:classroom-minute-cards==).
+(@@section@@s:classroom-minute-cards@@).
 
 ### Online in Groups
 
@@ -145,11 +145,11 @@ individuals. As with online groups, the instructor will do most of the
 talking and learners will mostly participate via text chat. Good audio
 is once again more important than good video, and participants should
 use text chat to signal that they want to speak next
-(==appendix==s:meetings==).
+(@@appendix@@s:meetings@@).
 
 Having participants online individually makes it more difficult to draw
-and share concept maps (==section==s:memory-exercises==) or give
-feedback on teaching (==section==s:performance-exercises==). Instructors
+and share concept maps (@@section@@s:memory-exercises@@) or give
+feedback on teaching (@@section@@s:performance-exercises@@). Instructors
 should therefore rely more on exercises with written results that can be
 put in the shared notes, such as giving feedback on stock videos of
 people teaching.
@@ -175,11 +175,11 @@ welcome, from suggestions for improvements to errata and new material.
 All contributors must abide by the contributor covenant presented above;
 by submitting your work, you are agreeing that it may incorporated in
 either original or edited form and release it under the same license as
-the rest of this material (==appendix==s:license==). If your material is
+the rest of this material (@@appendix@@s:license@@). If your material is
 incorporated, we will add you to the acknowledgments
-(==section==s:intro-acknowledgments==) unless you request otherwise.
+(@@section@@s:intro-acknowledgments@@) unless you request otherwise.
 
-  - The source for this book is stored on GitHub at ==repository==. If
+  - The source for this book is stored on GitHub at @@repository@@. If
     you know how to use Git and GitHub and would like to change, fix, or
     add something, please submit a that modifies the LaTeX source in the
     `tex` directory. If you would like to preview your changes, please
@@ -187,25 +187,25 @@ incorporated, we will add you to the acknowledgments
     of the project.
 
   - If you simply want to report an error, ask a question, or make a
-    suggestion, please file an issue at ==repository==. You need to have
+    suggestion, please file an issue at @@repository@@. You need to have
     a GitHub account in order to do this, but do not need to know how to
     use Git.
 
   - If you do not wish to create a GitHub account, please email your
-    contribution to ==email== with either “T3” or “Teaching Tech
+    contribution to @@email@@ with either “T3” or “Teaching Tech
     Together” somewhere in the subject line.. We will try to respond
     within a week.
 
 Please note that we also welcome improvements to our build process,
 tooling, and typography, and are always grateful for more diagrams;
 please see the file `BUILD.md` in the root directory of the book’s
-GitHub repository at ==repository== for more information. Finally, we
+GitHub repository at @@repository@@ for more information. Finally, we
 always enjoy hearing how people have used this material: please let us
 know if you have a story you would like to share.
 
 ### A Teaching Commons
 
-\==section==s:community-governance== defined a commons as something
+@@section@@s:community-governance@@ defined a commons as something
 managed jointly by a community according to rules they themselves have
 evolved and adopted. Open source software and Wikipedia are both
 successful examples; the question is, why don’t teachers build lessons
@@ -216,7 +216,7 @@ scrutiny](http://third-bit.com/2016/04/29/why-teachers-dont-collaborate.html).
 
 [Software Carpentry](http://software-carpentry.org) is proof by
 implementation that a teaching commons can produce and maintain
-high-quality lessons that hundreds of people can use ==cite==Wils2016==.
+high-quality lessons that hundreds of people can use @@cite@@Wils2016@@.
 I hope you will choose to help us do the same for this book. If you are
 new to working this way:
 

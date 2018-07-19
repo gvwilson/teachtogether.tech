@@ -14,11 +14,11 @@ title: "Marketing"
 >   - State what a brand is and what their organization’s is.
 
 It’s hard to get people with academic or technical backgrounds to take
-==glossref==g:marketing==marketing== seriously, not least because it’s
+@@glossref@@g:marketing@@marketing@@ seriously, not least because it’s
 perceived as being about spin and misdirection. In reality, it is the
 craft of seeing things from other people’s perspective, understanding
 their wants and needs, and finding ways to meet them. This should sound
-familiar: many of the techniques introduced in ==chapter==s:process== do
+familiar: many of the techniques introduced in @@chapter@@s:process@@ do
 exactly this for lessons. This chapter will look at how to apply similar
 ideas to the larger problem of getting people to understand and support
 what you’re doing.
@@ -27,7 +27,7 @@ what you’re doing.
 
 The first step is to figure out what you are offering to whom, i.e.,
 what actually brings in the volunteers, funding, and other support you
-need to keep going. As ==cite==Kuch2011== points out, the answer is
+need to keep going. As @@cite@@Kuch2011@@ points out, the answer is
 often counter-intuitive. For example, most scientists think their papers
 are their product, but it’s actually their grant proposals, because
 those are what brings in money. Their papers are the advertising that
@@ -55,11 +55,11 @@ actual product may be some mix of:
   - the personal satisfaction that your volunteer instructors get from
     teaching.
 
-As with the lesson design process in ==chapter==s:process==, you should
+As with the lesson design process in @@chapter@@s:process@@, you should
 try to create personas to describe people who might be interested in
 what you’re doing and figure out which of their needs your program will
 meet. You should also write a set of
-==glossref==g:elevator-pitch==elevator pitches==, each aimed at a
+@@glossref@@g:elevator-pitch@@elevator pitches@@, each aimed at a
 different potential stakeholder. A widely-used template for these
 pitches looks like this:
 
@@ -118,7 +118,7 @@ might actually be doing it simply because it’s the right thing to do.
 
 ## Branding and Positioning
 
-A ==glossref==g:brand==brand== is someone’s first reaction to a mention
+A @@glossref@@g:brand@@brand@@ is someone’s first reaction to a mention
 of a product; if the reaction is “what’s that?”, you don’t have a brand
 yet. Branding is important because people aren’t going to help with
 something they don’t know about or don’t care about.
@@ -127,7 +127,7 @@ Most discussion of branding today focuses on ways to build awareness
 online. Mailing lists, blogs, and Twitter all give you ways to reach
 people, but as the volume of (mis)information steadily increases, the
 attention people pay to each interruption decreases. As this happens,
-==glossref==g:positioning==positioning== becomes more important.
+@@glossref@@g:positioning@@positioning@@ becomes more important.
 Sometimes called “differentiation”, it is what sets your offering apart
 from others, i.e., it’s the “unlike” section of your elevator pitches.
 When you reach out to people who are already familiar with your field,
@@ -160,7 +160,7 @@ important, because they can be shared and re-shared without limit.
 > adding one.
 
 Whatever else you do, make your organization findable in online
-searches: ==cite==DiSa2014b== discovered that the search terms parents
+searches: @@cite@@DiSa2014b@@ discovered that the search terms parents
 were likely to use for out-of-school computing classes didn’t actually
 find those classes. There’s a lot of folklore about how to make things
 findable under the label “SEO” (for “search engine optimization”); given
@@ -186,7 +186,7 @@ them.
 
 > **Build Alliances**
 > 
-> As discussed in ==chapter==s:community==, building alliances with
+> As discussed in @@chapter@@s:community@@, building alliances with
 > other groups that are doing things related to what you’re doing pays
 > off in many ways. One of those is referrals: if someone approaches you
 > for help, but would be better served by some other organization, take
@@ -277,7 +277,7 @@ demoralizing if you’re not used to it.
 
 ## A Final Thought
 
-As ==cite==Kuch2011== says, if you can’t be first in a category, create
+As @@cite@@Kuch2011@@ says, if you can’t be first in a category, create
 a new category that you can be first in; if you can’t do that, join an
 existing group or think about doing something else entirely. This isn’t
 defeatist: if someone else is already doing what you’re doing better
@@ -286,21 +286,21 @@ could be doing instead.
 
 ## Exercises
 
-\==exercise==Write an Elevator Pitch for a City
-Councillor==individual==10==
+@@exercise@@Write an Elevator Pitch for a City
+Councillor@@individual@@10@@
 
 This chapter described an organization that offers weekend programming
 workshops for people re-entering the workforce after taking a break to
 raise children. Write an elevator pitch for that organization aimed at a
 city councillor whose support the organization needs.
 
-\==exercise==Write Elevator Pitches for Your
-Organization==individual==30==
+@@exercise@@Write Elevator Pitches for Your
+Organization@@individual@@30@@
 
 Identify two groups of people your organization needs support from, and
 write an elevator pitch aimed at each one.
 
-\==exercise==Email Subjects==pairs==10==
+@@exercise@@Email Subjects@@pairs@@10@@
 
 Write the subject lines (and only the subject lines) for three email
 messages: one announcing a new course, one announcing a new sponsor, and
@@ -308,7 +308,7 @@ one announcing a change in project leadership. Compare your subject
 lines to a partner’s and see if you can merge the best features of each
 while also shortening them.
 
-\==exercise==Identify Causes of Passive Resistance==small groups==30==
+@@exercise@@Identify Causes of Passive Resistance@@small groups@@30@@
 
 People who don’t want change will sometimes say so out loud, but will
 also often use various forms of passive resistance, such as just not
@@ -319,14 +319,14 @@ four reasons why people might not want your teaching initiative to go
 ahead, and explain what you can do with the time and resources you have
 to counteract each.
 
-\==exercise==Why Learn to Program?==individual==15==
+@@exercise@@Why Learn to Program?@@individual@@15@@
 
 Revisit the “Why Learn to Program?” exercise in
-==section==s:intro-exercises==. Where do your reasons for teaching and
+@@section@@s:intro-exercises@@. Where do your reasons for teaching and
 your learners’ reasons for learning align? Where are they not aligned?
 How does that affect your marketing?
 
-\==exercise==Appealing to Your Learners==think-pair-share==15==
+@@exercise@@Appealing to Your Learners@@think-pair-share@@15@@
 
 Adult learners are different from children and teens: in general, they
 are better at managing their time, they’re learning because they want to
@@ -338,12 +338,12 @@ Working in pairs, write a one-paragraph pitch for a class on web design
 that touches on these points, and then compare your pair’s pitch with
 those of other pairs.
 
-\==exercise==Conversational Programmers==think-pair-share==15==
+@@exercise@@Conversational Programmers@@think-pair-share@@15@@
 
-A ==glossref==g:conversational-programmer==conversational programmer==
+A @@glossref@@g:conversational-programmer@@conversational programmer@@
 is someone who needs to know enough about computing to have a meaningful
 conversation with a programmer, but isn’t going to program themselves.
-==cite==Wang2018== found that most learning resources don’t address this
+@@cite@@Wang2018@@ found that most learning resources don’t address this
 group’s needs. Working in pairs, write a pitch for a half-day workshop
 intended to help people that fit this description, and then share your
 pair’s pitch with the rest of the class.

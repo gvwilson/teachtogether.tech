@@ -20,12 +20,12 @@ title: "Teaching as a Performance Art"
 > 
 >   - Do and critique live coding.
 
-As ==chapter==s:pck== explained, every teacher needs content knowledge,
+As @@chapter@@s:pck@@ explained, every teacher needs content knowledge,
 general pedagogical knowledge, and pedagogical content knowledge in
 order to be effective. We can elaborate this framework by adding
-technology to the mix ==cite==Koeh2013==, but that doesn’t change the
+technology to the mix @@cite@@Koeh2013@@, but that doesn’t change the
 key point: it isn’t enough to know the subject, or how to teach—you have
-to know how to teach that particular subject ==cite==Maye2004==.
+to know how to teach that particular subject @@cite@@Maye2004@@.
 
 This chapter therefore focuses on one key aspect of teaching: giving a
 lecture or a live demonstration in front of a class. It isn’t the only
@@ -36,9 +36,9 @@ that will make you better at doing it can be applied elsewhere as well.
 > 
 > The [CS Teaching Tips](http://csteachingtips.org/) site is collecting
 > PCK for teaching programming, and I hope that one day we will have
-> catalogs like ==cite==Ojos2015==, teacher training materials like
-> ==cite==Hazz2014,Guzd2015a,Sent2018==, or more personal collections
-> like ==cite==Gelm2002== to help us all do it better.
+> catalogs like @@cite@@Ojos2015@@, teacher training materials like
+> @@cite@@Hazz2014,Guzd2015a,Sent2018@@, or more personal collections
+> like @@cite@@Gelm2002@@ to help us all do it better.
 
 ## Lesson Study
 
@@ -47,8 +47,8 @@ reformers have designed systems to find and promote people who can teach
 well and eliminate those who cannot. But the assumption that some people
 are born teachers is wrong; instead, like any other performance art, the
 keys to better teaching are practice and collaboration. As
-==cite==Gree2014== explains, the Japanese approach to this is called
-==glossref==g:jugyokenkyu==jugyokenkyu==, which means “lesson study”:
+@@cite@@Gree2014@@ explains, the Japanese approach to this is called
+@@glossref@@g:jugyokenkyu@@jugyokenkyu@@, which means “lesson study”:
 
 > *Jugyokenkyu* is a bucket of practices that Japanese teachers use to
 > hone their craft, from observing each other at work to discussing the
@@ -91,16 +91,16 @@ theory she learned in education school to deliver an actual lesson in an
 actual classroom for actual students.
 
 Writing up new techniques and giving
-==glossref==g:demonstration-lesson==demonstration lessons==, in which
+@@glossref@@g:demonstration-lesson@@demonstration lessons@@, in which
 one person teaches actual students while other teachers observe, seem
-like a way to solve this. However, ==cite==Finc2007,Finc2012== found
+like a way to solve this. However, @@cite@@Finc2007,Finc2012@@ found
 that they are usually ineffective: of the 99 change stories analyzed,
 teachers only searched actively for new practices or materials in three
 cases, and only consulted published material in eight cases. Most
 changes occurred locally, without input from outside sources, or
 involved only personal interaction with other educators.
 
-\==cite==Bark2015== found something similar:
+@@cite@@Bark2015@@ found something similar:
 
 > Adoption is not a “rational action,” however, but an iterative series
 > of decisions made in a social context, relying on normative
@@ -111,7 +111,7 @@ involved only personal interaction with other educators.
 > they should continue a practice.
 
 This phenomenon is sometimes called
-==glossref==g:lateral-knowledge-transfer==lateral knowledge transfer==:
+@@glossref@@g:lateral-knowledge-transfer@@lateral knowledge transfer@@:
 someone sets out to teach X, but while watching them, their audience
 actually learns Y as well (or instead). For example, a teacher might
 intend to show learners how to search for email addresses in a text
@@ -122,7 +122,7 @@ opportunity for this to happen between teachers.
 ## Giving and Getting Feedback on Teaching
 
 Observing someone helps you; giving them feedback helps them. But as the
-cartoon in ==figure==f:performance-feedback-feelings== suggests, it can
+cartoon in @@figure@@f:performance-feedback-feelings@@ suggests, it can
 be hard to receive feedback, especially when it’s negative.
 
 \centering
@@ -189,7 +189,7 @@ improved”, and whose horizontal axis is labelled “content” (what was
 said) and “presentation” (how it was said). Observers write their
 comments on sticky notes as they watch the demonstration, then post
 those in the quadrants of a grid drawn on a whiteboard
-(==figure==f:performance-rubric==)
+(@@figure@@f:performance-rubric@@)
 
 \centering
 
@@ -197,22 +197,22 @@ those in the quadrants of a grid drawn on a whiteboard
 Rubric<span label="f:performance-rubric"></span>](../docs/fig/2x2-rubric.pdf)
 
 A more sophisticated rubric developed for assessing 5–10 minute videos
-of programming instruction is given in ==appendix==s:teacheval==. A
+of programming instruction is given in @@appendix@@s:teacheval@@. A
 rubric this detailed is best presented as a checklist with items more or
 less in the order that they’ll be used (e.g., questions about the
 introduction come before questions about the conclusion).
 
 > **Question Budgets**
 > 
-> Rubrics like the one in ==appendix==s:teacheval== have a tendency to
+> Rubrics like the one in @@appendix@@s:teacheval@@ have a tendency to
 > grow over time as people think of things they’d like to add. A good
 > way to keep them manageable is to insist that the total length stay
 > constant, i.e., that if someone wants to add a question, they have to
 > identify one that’s less important and can be removed.
 
-If you are interested in giving and getting feedback, ==cite==Gorm2014==
+If you are interested in giving and getting feedback, @@cite@@Gorm2014@@
 has good advice that you can use to make peer-to-peer feedback a routine
-part of your teaching, while ==cite==Gawa2011== looks at the value of
+part of your teaching, while @@cite@@Gawa2011@@ looks at the value of
 having a coach. However feedback is collected, remember that it is meant
 to be formative: its goal is to help people figure out what they are
 doing well and what they still need to work on. Please also remember
@@ -228,7 +228,7 @@ reflections as well as positives and negatives.
 > then and there. These classes are most effective when the teacher
 > critiques both the designs and the peer critiques, so that
 > participants learn not only how to make buildings, but how to give and
-> get feedback ==cite==Scho1984==. Master classes in music serve a
+> get feedback @@cite@@Scho1984@@. Master classes in music serve a
 > similar purpose.
 
 ## How to Practice Performance
@@ -287,7 +287,7 @@ The announcement of this exercise is often greeted with groans and
 apprehension, since few people enjoy seeing or hearing themselves.
 However, those same people consistently rate it as one of the most
 valuable parts of workshops based on these notes. It’s also good
-preparation for co-teaching (==section==s:classroom-together==):
+preparation for co-teaching (@@section@@s:classroom-together@@):
 teachers find it a lot easier to give each other informal feedback if
 they have had some practice doing so and have a shared rubric to set
 expectations.
@@ -313,7 +313,7 @@ expectations.
 > — Neal Davis
 
 One technique that completely changed the way I teach programming is
-==glossref==g:live-coding==live coding==. Instead of using slides,
+@@glossref@@g:live-coding@@live coding@@. Instead of using slides,
 teachers actually write code in front of their class as their learners
 follow along. It’s more effective than slides for many reasons:
 
@@ -349,7 +349,7 @@ follow along. It’s more effective than slides for many reasons:
 Teachers need a bit of practice to get comfortable with thinking aloud
 as they code in front of an audience, but most report that it is then no
 more difficult than talking around a deck of slides, and research seems
-to back up its effectiveness ==cite==Rubi2013,Haar2017==. The sections
+to back up its effectiveness @@cite@@Rubi2013,Haar2017@@. The sections
 below offer tips on how to make your live coding better.
 
 ### Embrace Your Mistakes
@@ -361,14 +361,14 @@ The most important rule of live coding is to embrace your mistakes. No
 matter how well you prepare, you will make some; when you do, think
 through them with your audience. While data is hard to come by,
 professional programmers spend anywhere from 25% to 60% of their time
-debugging; novices spend much more (==section==s:pck-debug==), but most
+debugging; novices spend much more (@@section@@s:pck-debug@@), but most
 textbooks and tutorials spend little time diagnosing and correct
 problems. If you talk aloud while you figure out what you mistyped or
 where you took the wrong path, and explain how you’ve corrected
 yourself, you will give your learners a toolbox they can use when they
 make their own mistakes.
 
-This is at odds with advice like that in ==cite==Kran2015==, which says,
+This is at odds with advice like that in @@cite@@Kran2015@@, which says,
 “<span>…</span>you should have your material *absolutely mastered*
 before you enter the classroom. If<span>…</span>you have a proof or
 example that is not quite right<span>…</span>and stand in front of the
@@ -501,7 +501,7 @@ shell commands and hosting an editor).
 Some people now use two devices when teaching: a laptop plugged into the
 projector for learners to see, and a tablet beside it so that they can
 view their own notes and the shared notes that the learners are taking
-together (==section==s:classroom-notetaking==). This is more reliable
+together (@@section@@s:classroom-notetaking@@). This is more reliable
 than displaying one virtual desktop while flipping back and forth to
 another. Of course, printouts of the lesson material are still the most
 reliable backup technology<span>…</span>
@@ -513,7 +513,7 @@ bring up on screen is a common practice—I often have a slide deck full
 of diagrams in the background when I’m doing live coding—but don’t
 underestimate the value of sketching on the whiteboard as you go through
 your lesson. This allows you to build diagrams step by step, which helps
-with retention (==section==s:load-split-attention==) and allows you to
+with retention (@@section@@s:load-split-attention@@) and allows you to
 improvise.
 
 ### Avoid Distractions
@@ -549,10 +549,10 @@ software updates over high school WiFi in front of increasingly bored
 
 > **Direct Instruction**
 > 
-> \==glossref==g:direct-instruction==Direct Instruction== is a teaching
+> @@glossref@@g:direct-instruction@@Direct Instruction@@ is a teaching
 > method centered around meticulous curriculum design delivered through
 > a prescribed script—i.e., it’s more like an actor reciting lines than
-> it is like the improvisatory approach we recommend. ==cite==Stoc2018==
+> it is like the improvisatory approach we recommend. @@cite@@Stoc2018@@
 > surveys studies and finds statistically significant positive effect,
 > even though DI sometimes gets knocked for being mechanical. We still
 > prefer improvisation because DI requires a far greater up-front
@@ -583,14 +583,14 @@ remember one small step to take next.
 
 A deeper exercise is that typing in library import statements, class
 headers, and other boilerplate code increases the extraneous cognitive
-load on your learners (==chapter==s:load==). If you spend a lot of time
+load on your learners (@@chapter@@s:load@@). If you spend a lot of time
 doing this, it may be all that learners take away, so give yourself and
 your learners skeleton code to start with
-(==section==s:classroom-blank==).
+(@@section@@s:classroom-blank@@).
 
 ## Exercises
 
-\==exercise==Give Feedback on Bad Teaching==whole class==20==
+@@exercise@@Give Feedback on Bad Teaching@@whole class@@20@@
 
 1.  Watch [this video of bad
     teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) as a group
@@ -604,7 +604,7 @@ your learners skeleton code to start with
 What did other people see that you missed? What did they think that you
 strongly agree or disagree with?
 
-\==exercise==Practice Giving Feedback==small groups==45==
+@@exercise@@Practice Giving Feedback@@small groups@@45@@
 
 Use the process described above to practice teaching in groups of three.
 When your group is done, the teacher will add one point of feedback from
@@ -615,7 +615,7 @@ the goal at this stage is primarily for people to become comfortable
 with giving and receiving feedback, and to establish a consensus about
 what sorts of things to look for.
 
-\==exercise==The Bad and the Good==whole class==20==
+@@exercise@@The Bad and the Good@@whole class@@20@@
 
 Watch the videos of [live coding done
 poorly](https://youtu.be/bXxBeNkKmJE) and [live coding done
@@ -624,7 +624,7 @@ using the usual \(2{\times}2\) grid. These videos assume learners know
 what a shell variable is, know how to use the `head` command, and are
 familiar with the contents of the data files being filtered.
 
-\==exercise==See Then Do==pairs==30==
+@@exercise@@See Then Do@@pairs@@30@@
 
 Teach 3–4 minutes of a lesson using live coding to a fellow trainee,
 then swap and watch while that person live codes for you. Don’t bother
@@ -647,10 +647,10 @@ are expected to be familiar with.
 
   - What will you try to do differently next time?
 
-\==exercise==Tells==small groups==15==
+@@exercise@@Tells@@small groups@@15@@
 
 1.  Read the description of tells at the end of
-    ==section==s:performance-feedback==, then make a note of what you
+    @@section@@s:performance-feedback@@, then make a note of what you
     think your tells are, but do not share them with other people.
 
 2.  Teach a short (3–5 minute) lesson.
@@ -658,7 +658,7 @@ are expected to be familiar with.
 3.  Ask your audience how they think you betray nervousness. Is their
     list the same as yours?
 
-\==exercise==Teaching Tips==small groups==15==
+@@exercise@@Teaching Tips@@small groups@@15@@
 
 The [CS Teaching Tips](http://csteachingtips.org/) site has a large
 number of practical tips on teaching computing, as well as a collection
