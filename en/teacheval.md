@@ -4,6 +4,8 @@ title: "Presentation Rubric"
 ---
 # Presentation Rubric
 
+@@label@@s:teacheval@@
+
 This rubric is designed to assess 5–10 minute recordings of people
 teaching with slides, live coding, or a mix of both. You can use it as a
 starting point for creating a rubric of your

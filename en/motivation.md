@@ -4,6 +4,8 @@ title: "Motivation and Demotivation"
 ---
 # Motivation and Demotivation
 
+@@label@@s:motivation@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain the difference between intrinsic and extrinsic motivation.
@@ -89,7 +91,7 @@ never have thought of.
 > motivate the *teacher*. Learners respond to a teacher’s enthusiasm,
 > and teachers need to care about a topic in order to keep teaching it,
 > particularly when they are volunteers. This is another powerful reason
-> to co-teach (@@section@@s:classroom-together@@): just as having a
+> to co-teach ([SECTION][s:classroom-together]): just as having a
 > running partner makes it more likely that you’ll keep running, having
 > a teaching partner helps get you up and going on those days when you
 > have a cold and the projector bulb has burned out and nobody knows
@@ -107,21 +109,24 @@ activities. These results may seem obvious, but the reverse would seem
 obvious too: if the study had found that extracurricular activities
 drove retention, we would also say “of course”. Noticeably, two of the
 four retention drivers (faculty interaction and student collaboration)
-take extra effort to replicate online (@@chapter@@s:online@@).
+take extra effort to replicate online ([CHAPTER][s:online]).
 
 ## Authentic Tasks
+
+@@label@@s:motivation-authentic@@
 
 As Dylan Wiliam points out in @@cite@@Hend2017@@, motivation doesn’t
 always lead to achievement, but achievement almost always leads to
 motivation: helping students succeed motivates them far more than
 telling them how wonderful they are. We can use this idea in teaching by
 creating a grid whose axes are “mean time to master” and “usefulness
-once mastered” (@@figure@@f:motivation-what@@).
+once mastered” ([FIGURE][f:motivation-what]).
 
 \centering
 
-![What to
-Teach<span label="f:motivation-what"></span>](../docs/fig/what-to-teach.pdf)
+![What to Teach](../docs/fig/what-to-teach.pdf)
+
+@@label@@f:motivation-what@@
 
 Things that are quick to master and immediately useful should be taught
 first, even if they aren’t considered fundamental by people who are
@@ -167,6 +172,8 @@ going to have learners sort lines of text, give them album titles or
 people’s names or something relatable.
 
 ## Demotivation
+
+@@label@@s:motivation-demotivation@@
 
 > Women aren’t leaving computing because they don’t know what it’s like;
 > they’re leaving because they *do* know.  
@@ -226,7 +233,7 @@ Here are a few specific things that will demotivate your learners:
   - Using the J word (“just”) or feigning surprise  
     (i.e., saying things like “I can’t believe you don’t know X” or
     “you’ve never heard of Y?”). As discussed in
-    @@chapter@@s:memory@@, this signals to the learner that the teacher
+    [CHAPTER][s:memory], this signals to the learner that the teacher
     thinks their problem is trivial and by extension that they must be
     stupid for not being able to figure it out.
 
@@ -254,7 +261,7 @@ quite make this list, but would have been the next one added if the
 authors weren’t quite so strict about their statistical cutoffs. All of
 these factors can and should be addressed in both in-person and online
 settings using methods like those in
-@@section@@s:motivation-inclusivity@@, and doing so improves outcomes
+[SECTION][s:motivation-inclusivity], and doing so improves outcomes
 for everyone @@cite@@Sved2016@@.
 
 > **Productive Failure and Privilege**
@@ -281,7 +288,7 @@ achievements are lucky flukes—and an accompanying fear of someone
 finding out. Impostor syndrome is common among high achievers who
 undertake publicly visible work, but most people suffer from it
 occasionally to some extent. It disproportionately affects members of
-under-represented groups: as discussed in @@section@@s:pck-now@@,
+under-represented groups: as discussed in [SECTION][s:pck-now],
 @@cite@@Wilc2018@@ found that female students with prior exposure to
 computing outperformed their male peers in all areas in introductory
 programming courses, but were consistently less confident in their
@@ -335,7 +342,7 @@ sharing stories of mistakes that you have made or things you struggled
 to learn. This reassures the class that it’s OK to find topics hard.
 Being open with the group makes it easier to build trust and make
 students confident to ask questions. (Live coding is great for this: as
-noted in @@section@@s:performance-live@@, your typos show your class
+noted in [SECTION][s:performance-live], your typos show your class
 that you’re human.) You can also emphasize that you want questions: you
 are not succeeding as a teacher if no one can follow your class, so
 you’re asking students for their help to help you learn and improve.
@@ -411,6 +418,8 @@ with low socioeconomic status or who are academically at risk might
 benefit from mindset interventions.
 
 ## Accessibility
+
+@@label@@s:motivation-accessibility@@
 
 Not providing equal access to lessons and exercises is about as
 demotivating as it gets. This is often inadvertent: for example, my old
@@ -494,13 +503,13 @@ accessibility. Their recommendations include:
 
 ### Conduct Revisited
 
-We said in @@section@@s:intro-code-of-conduct@@ that classes should
-enforce a Code of Conduct like the one in @@appendix@@s:conduct@@. This
+We said in [SECTION][s:intro-code-of-conduct] that classes should
+enforce a Code of Conduct like the one in [APPENDIX][s:conduct]. This
 is a form of accessibility: while closed captions make video accessible
 to people with hearing disabilities, a Code of Conduct makes lessons
 accessible to people who would otherwise be marginalized.
 
-As discussed in @@section@@s:classroom-enforce@@, the details of the
+As discussed in [SECTION][s:classroom-enforce], the details of the
 Code of Conduct are important, but the most important thing about it is
 that it exists and is enforced. Knowing that there are rules tells
 people a great deal about your values and about what kind of learning
@@ -517,6 +526,8 @@ experience they can expect.
 > they’ve learned.
 
 ## Inclusivity
+
+@@label@@s:motivation-inclusivity@@
 
 @@glossref@@g:inclusivity@@Inclusivity@@ is a policy of including people
 who might otherwise be excluded or marginalized. In computing, it means
@@ -577,7 +588,7 @@ do any real computing, and cultural appropriation (for computational
 integration), e.g., using practices without acknowledging origins. When
 in doubt, ask your learners and members of their community what they
 think you ought to do and give them control over content and direction.
-We return to this in @@chapter@@s:community@@.
+We return to this in [CHAPTER][s:community].
 
 ### Spoons
 
@@ -608,9 +619,11 @@ have more experience with what works and what doesn’t than anyone else.
 
 ### Moving Past the Deficit Model
 
+@@label@@s:motivation-deficit@@
+
 Depending on whose numbers you trust, only 12–18% of people getting
 computer science degrees are women, which is less than half the
-percentage seen in the mid-1980s (@@figure@@f:motivation-gender@@). And
+percentage seen in the mid-1980s ([FIGURE][f:motivation-gender]). And
 western countries are the odd ones for having such low percentage of
 women in computing: women are still often 30–40% of computer science
 students elsewhere @@cite@@Galp2002,Varm2015@@.
@@ -618,7 +631,9 @@ students elsewhere @@cite@@Galp2002,Varm2015@@.
 \centering
 
 ![Degrees Awarded and Female Enrollment (from
-@@cite@@Robe2017@@)<span label="f:motivation-gender"></span>](../docs/fig/enrollment.png)
+@@cite@@Robe2017@@)](../docs/fig/enrollment.png)
+
+@@label@@f:motivation-gender@@
 
 Since it’s unlikely that women have changed drastically in the last
 thirty years, we have to look for structural causes to understand what’s
@@ -658,13 +673,15 @@ closely.
 Misogyny in video games, the use of “cultural fit” in hiring to excuse
 conscious or unconscious bias, a culture of silence around harassment,
 and the growing inequality in society that produces preparatory
-privilege (@@section@@s:classroom-mixed@@) may not be any one person’s
+privilege ([SECTION][s:classroom-mixed]) may not be any one person’s
 fault, but they are everyone’s responsibility. [This
 workshop](https://frameshiftconsulting.com/ally-skills-workshop/) has
 excellent practical advice on how to be a good ally in tech; we will
-return to this topic in @@chapter@@s:community@@.
+return to this topic in [CHAPTER][s:community].
 
 ## Exercises
+
+@@label@@s:motivation-exercises@@
 
 @@exercise@@Authentic Tasks@@pairs@@15@@
 

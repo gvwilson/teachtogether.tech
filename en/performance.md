@@ -4,6 +4,8 @@ title: "Teaching as a Performance Art"
 ---
 # Teaching as a Performance Art
 
+@@label@@s:performance@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Define *jugyokenkyu* and lateral knowledge transfer and explain
@@ -20,7 +22,7 @@ title: "Teaching as a Performance Art"
 > 
 >   - Do and critique live coding.
 
-As @@chapter@@s:pck@@ explained, every teacher needs content knowledge,
+As [CHAPTER][s:pck] explained, every teacher needs content knowledge,
 general pedagogical knowledge, and pedagogical content knowledge in
 order to be effective. We can elaborate this framework by adding
 technology to the mix @@cite@@Koeh2013@@, but that doesn’t change the
@@ -41,6 +43,8 @@ that will make you better at doing it can be applied elsewhere as well.
 > like @@cite@@Gelm2002@@ to help us all do it better.
 
 ## Lesson Study
+
+@@label@@s:performance-jugyokenkyu@@
 
 From politicians to researchers and teachers themselves, educational
 reformers have designed systems to find and promote people who can teach
@@ -121,14 +125,18 @@ opportunity for this to happen between teachers.
 
 ## Giving and Getting Feedback on Teaching
 
+@@label@@s:performance-feedback@@
+
 Observing someone helps you; giving them feedback helps them. But as the
-cartoon in @@figure@@f:performance-feedback-feelings@@ suggests, it can
+cartoon in [FIGURE][f:performance-feedback-feelings] suggests, it can
 be hard to receive feedback, especially when it’s negative.
 
 \centering
 
 ![Feedback Feelings (copyright <span>©</span> Deathbulge
-2013)<span label="f:performance-feedback-feelings"></span>](../docs/fig/deathbulge-jerk.jpg)
+2013)](../docs/fig/deathbulge-jerk.jpg)
+
+@@label@@f:performance-feedback-feelings@@
 
 Feedback is easier to give and receive when both parties share ground
 rules and expectations. This is especially important when they have
@@ -189,22 +197,23 @@ improved”, and whose horizontal axis is labelled “content” (what was
 said) and “presentation” (how it was said). Observers write their
 comments on sticky notes as they watch the demonstration, then post
 those in the quadrants of a grid drawn on a whiteboard
-(@@figure@@f:performance-rubric@@)
+([FIGURE][f:performance-rubric])
 
 \centering
 
-![Teaching
-Rubric<span label="f:performance-rubric"></span>](../docs/fig/2x2-rubric.pdf)
+![Teaching Rubric](../docs/fig/2x2-rubric.pdf)
+
+@@label@@f:performance-rubric@@
 
 A more sophisticated rubric developed for assessing 5–10 minute videos
-of programming instruction is given in @@appendix@@s:teacheval@@. A
+of programming instruction is given in [APPENDIX][s:teacheval]. A
 rubric this detailed is best presented as a checklist with items more or
 less in the order that they’ll be used (e.g., questions about the
 introduction come before questions about the conclusion).
 
 > **Question Budgets**
 > 
-> Rubrics like the one in @@appendix@@s:teacheval@@ have a tendency to
+> Rubrics like the one in [APPENDIX][s:teacheval] have a tendency to
 > grow over time as people think of things they’d like to add. A good
 > way to keep them manageable is to insist that the total length stay
 > constant, i.e., that if someone wants to add a question, they have to
@@ -232,6 +241,8 @@ reflections as well as positives and negatives.
 > similar purpose.
 
 ## How to Practice Performance
+
+@@label@@s:performance-practice@@
 
 The best way to improve your in-person lesson delivery is to watch
 yourself do it. This method is borrowed from Warren Code at the
@@ -287,7 +298,7 @@ The announcement of this exercise is often greeted with groans and
 apprehension, since few people enjoy seeing or hearing themselves.
 However, those same people consistently rate it as one of the most
 valuable parts of workshops based on these notes. It’s also good
-preparation for co-teaching (@@section@@s:classroom-together@@):
+preparation for co-teaching ([SECTION][s:classroom-together]):
 teachers find it a lot easier to give each other informal feedback if
 they have had some practice doing so and have a shared rubric to set
 expectations.
@@ -308,6 +319,8 @@ expectations.
 > of cracking your knuckles.
 
 ## Live Coding
+
+@@label@@s:performance-live@@
 
 > Teaching is theater, not cinema.  
 > — Neal Davis
@@ -361,7 +374,7 @@ The most important rule of live coding is to embrace your mistakes. No
 matter how well you prepare, you will make some; when you do, think
 through them with your audience. While data is hard to come by,
 professional programmers spend anywhere from 25% to 60% of their time
-debugging; novices spend much more (@@section@@s:pck-debug@@), but most
+debugging; novices spend much more ([SECTION][s:pck-debug]), but most
 textbooks and tutorials spend little time diagnosing and correct
 problems. If you talk aloud while you figure out what you mistyped or
 where you took the wrong path, and explain how you’ve corrected
@@ -501,7 +514,7 @@ shell commands and hosting an editor).
 Some people now use two devices when teaching: a laptop plugged into the
 projector for learners to see, and a tablet beside it so that they can
 view their own notes and the shared notes that the learners are taking
-together (@@section@@s:classroom-notetaking@@). This is more reliable
+together ([SECTION][s:classroom-notetaking]). This is more reliable
 than displaying one virtual desktop while flipping back and forth to
 another. Of course, printouts of the lesson material are still the most
 reliable backup technology<span>…</span>
@@ -513,7 +526,7 @@ bring up on screen is a common practice—I often have a slide deck full
 of diagrams in the background when I’m doing live coding—but don’t
 underestimate the value of sketching on the whiteboard as you go through
 your lesson. This allows you to build diagrams step by step, which helps
-with retention (@@section@@s:load-split-attention@@) and allows you to
+with retention ([SECTION][s:load-split-attention]) and allows you to
 improvise.
 
 ### Avoid Distractions
@@ -583,12 +596,14 @@ remember one small step to take next.
 
 A deeper exercise is that typing in library import statements, class
 headers, and other boilerplate code increases the extraneous cognitive
-load on your learners (@@chapter@@s:load@@). If you spend a lot of time
+load on your learners ([CHAPTER][s:load]). If you spend a lot of time
 doing this, it may be all that learners take away, so give yourself and
 your learners skeleton code to start with
-(@@section@@s:classroom-blank@@).
+([SECTION][s:classroom-blank]).
 
 ## Exercises
+
+@@label@@s:performance-exercises@@
 
 @@exercise@@Give Feedback on Bad Teaching@@whole class@@20@@
 
@@ -650,7 +665,7 @@ are expected to be familiar with.
 @@exercise@@Tells@@small groups@@15@@
 
 1.  Read the description of tells at the end of
-    @@section@@s:performance-feedback@@, then make a note of what you
+    [SECTION][s:performance-feedback], then make a note of what you
     think your tells are, but do not share them with other people.
 
 2.  Teach a short (3–5 minute) lesson.

@@ -4,6 +4,8 @@ title: "Expertise and Memory"
 ---
 # Expertise and Memory
 
+@@label@@s:memory@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Define expertise and explain how it works using a graph metaphor
@@ -91,13 +93,15 @@ at teaching it @@cite@@Mars2002@@.
 > explanations, as in, “Oh, it’s easy, you just fire up a new virtual
 > machine and then you just install these four patches to Ubuntu and
 > then you just re-write your entire program in a pure functional
-> language.” As we discuss in @@chapter@@s:motivation@@, doing this
+> language.” As we discuss in [CHAPTER][s:motivation], doing this
 > signals that the speaker thinks the problem is trivial and that the
 > person struggling with it must therefore be stupid.
 > 
 > Don’t do this.
 
 ## Concept Maps
+
+@@label@@s:memory-concept-maps@@
 
 The graph metaphor explains why helping learners make connections is as
 important as introducing them to facts: without those connections, it’s
@@ -113,15 +117,17 @@ what the relationship *is*. And yes, different people can have different
 concept maps for the same topic, but one of the benefits of concept
 mapping is that it makes those differences explicit.
 
-As an example, @@figure@@f:memory-seasons@@ reproduces a concept map
+As an example, [FIGURE][f:memory-seasons] reproduces a concept map
 taken from the [IHMC CMap site](https://cmap.ihmc.us/) showing why the
-Earth has seasons, and @@figure@@f:online-screencasting@@ uses a concept
+Earth has seasons, and [FIGURE][f:online-screencasting] uses a concept
 map to explain how to create a good screencast.
 
 \centering
 
 ![Concept Map for Seasons (from
-<https://cmap.ihmc.us/>)<span label="f:memory-seasons"></span>](../docs/fig/seasons.pdf)
+<https://cmap.ihmc.us/>)](../docs/fig/seasons.pdf)
+
+@@label@@f:memory-seasons@@
 
 To show how concept maps can be using in teaching programming, consider
 this `for` loop in Python:
@@ -136,15 +142,16 @@ whose output is:
     c
 
 The three key “things” in this loop are shown in the top of
-@@figure@@f:memory-loop@@, but they are only half the story. The
+[FIGURE][f:memory-loop], but they are only half the story. The
 expanded version in the bottom shows the *relationships* between those
 things, which are as important for understanding as the concepts
 themselves.
 
 \centering
 
-![Concept Map for a For
-Loop<span label="f:memory-loop"></span>](../docs/fig/for-loop.pdf)
+![Concept Map for a For Loop](../docs/fig/for-loop.pdf)
+
+@@label@@f:memory-loop@@
 
 Concept maps can be used in many ways:
 
@@ -153,7 +160,7 @@ Concept maps can be used in many ways:
     experience, people rarely wind up teaching things in the order in
     which they first drew them. (In technical terms, they reduce the
     teacher’s cognitive load—we will discuss this again in
-    @@chapter@@s:load@@.)
+    [CHAPTER][s:load].)
 
   - Aiding communication between lesson designers.  
     Teachers with very different ideas of what they’re trying to teach
@@ -166,7 +173,7 @@ Concept maps can be used in many ways:
     a lesson for them to annotate, it’s better to draw it piece by piece
     while teaching to reinforce the ties between what’s in the map and
     what the teacher said. (We will return to this idea in
-    @@section@@s:load-split-attention@@.)
+    [SECTION][s:load-split-attention].)
 
   - For assessment.  
     Having learners draw pictures of what they think they just heard
@@ -235,6 +242,8 @@ bubble and say “that” to trigger recall of several minutes of debate.
 
 ## Seven Plus or Minus Two
 
+@@label@@s:memory-seven-plus-or-minus@@
+
 While the graph model of knowledge is wrong but useful, another simple
 model has a sounder physiological basis. As a rough approximation, human
 memory can be divided into two distinct layers. The first, called
@@ -256,7 +265,7 @@ numbers](https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digit
 are typically 7 or 8 digits long: back when phones had dials instead of
 keypads, that was the longest string of numbers most adults could
 remember accurately for as long as it took the dial to go around several
-times. As @@section@@s:memory-pattern@@ discusses, short-term memory may
+times. As [SECTION][s:memory-pattern] discusses, short-term memory may
 actually be as small as \(4{\pm}1\) items; our innate tendency to
 remember things together gives the illusion of it being larger.
 
@@ -285,7 +294,7 @@ cannot push information directly into a learner’s long-term memory.
 Instead, whatever they present is first stored in the learner’s
 short-term memory, and is only transferred to long-term memory after it
 has been held there and rehearsed
-(@@section@@s:individual-strategies@@). If the teacher presents too much
+([SECTION][s:individual-strategies]). If the teacher presents too much
 information too quickly, the new will displace the old before it has a
 chance to consolidate in long-term memory.
 
@@ -325,9 +334,11 @@ Research also now indicates that the limiting factor for long-term
 memory is not retention, but rather the ability to recall memories that
 are present. Studying in short, spaced periods in a variety of contexts
 improves recall; the reason may be that doing so creates more cues than
-cramming (@@section@@s:individual-strategies@@).
+cramming ([SECTION][s:individual-strategies]).
 
 ## Pattern Recognition
+
+@@label@@s:memory-pattern@@
 
 The preceding section said that short-term memory can only store
 \(7{\pm}2\) items at a time, and recent research have suggested that its
@@ -356,9 +367,11 @@ abstract for novices to make sense of on their own. That said, giving
 names to a small number of patterns does seem to help with teaching,
 primarily by giving the learners a richer vocabulary to think and
 communicate with @@cite@@Kuit2004,Byck2005,Saja2006@@. We will return to
-this in @@section@@s:pck-programming@@.
+this in [SECTION][s:pck-programming].
 
 ## Becoming an Expert
+
+@@label@@s:memory-becoming-expert@@
 
 So how does someone become an expert? The idea that ten thousand hours
 of practice will do it is widely quoted but [probably not
@@ -403,6 +416,8 @@ A common progression is for people to go through three stages:
 
 ## Exercises
 
+@@label@@s:memory-exercises@@
+
 @@exercise@@Concept Mapping@@pairs@@30@@
 
 Draw a concept map for something you would teach in five minutes. Trade
@@ -422,7 +437,7 @@ models agree and disagree?
 
 After you have finished going through this material (not just this
 chapter), pick one small topic, draw a concept map for it, and send it
-to us (@@appendix@@s:joining@@). If we decide to add it to this book, we
+to us ([APPENDIX][s:joining]). If we decide to add it to this book, we
 will add you to the credits in the introduction.
 
 @@exercise@@Noticing Your Blind Spot@@small groups@@10@@

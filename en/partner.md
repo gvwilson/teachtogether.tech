@@ -4,6 +4,8 @@ title: "Partnerships"
 ---
 # Partnerships
 
+@@label@@s:partner@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain why teachers in schools and universities do and don’t
@@ -12,7 +14,7 @@ title: "Partnerships"
 >   - Summarize methods that can be used to effect changes in
 >     educational institutions.
 
-@@section@@s:community-learn-then-do@@ said that the first step in
+[SECTION][s:community-learn-then-do] said that the first step in
 building a community is to decide if you really need to, or whether you
 would be more effective joining an existing organization. Either way,
 the organization you’re part of will eventually need to work with other,
@@ -29,6 +31,8 @@ part of this book are welcome, I would be particularly grateful to hear
 what you have to say about the issues discussed below.
 
 ## Working With Schools
+
+@@label@@s:partner-schools@@
 
 Everyone is afraid of the unknown and of embarrassing themselves. As a
 result, most people would rather fail than change. For example, Lauren
@@ -98,7 +102,7 @@ growth of @@glossref@@g:implementation-science@@implementation
 science@@, which is the scientific study of ways to get people to
 actually adopt better evidence-based practices.
 
-As @@chapter@@s:community@@ said, the starting point is to find out what
+As [CHAPTER][s:community] said, the starting point is to find out what
 the people you’re trying to help believe they need. For example,
 @@cite@@Yada2016@@ summarizes feedback from K-12 teachers on the
 preparation and support they want; while it may not all be applicable to
@@ -141,6 +145,8 @@ that they know how to program themselves, and to demonstrate whatever
 curriculum you may already have.
 
 ## Working Outside Schools
+
+@@label@@s:partner-outside@@
 
 Schools and universities aren’t the only places people go to learn
 programming; over the past few years, a growing number have turned to
@@ -187,6 +193,8 @@ have the most impact, but scoring a few early wins helps build support
 for larger and riskier efforts.
 
 ## Final Thoughts
+
+@@label@@s:partner-final@@
 
 It is impossible to change large institutions on your own: you need
 allies, and to get allies, you need tactics. The most useful guide I
@@ -247,6 +255,8 @@ partner, always remember that learning and change have to go both ways.
 
 ## Exercises
 
+@@label@@s:partner-exercises@@
+
 @@exercise@@Collaborations@@small groups@@30@@
 
 Answer the following questions on your own, and then compare your
@@ -303,7 +313,7 @@ in schools fit into this framework?
 @@exercise@@Institutional Adoption@@whole class@@15@@
 
 Re-read the list of motivations to adopt new practices given in
-@@section@@s:partner-schools@@. Which of these apply to you and your
+[SECTION][s:partner-schools]. Which of these apply to you and your
 colleagues? Which are irrelevant to your context? Which do you emphasize
 if and when you interact with people working in formal educational
 institutions?
@@ -311,7 +321,7 @@ institutions?
 @@exercise@@Making It Fail@@small groups@@15@@
 
 Working in small groups, re-read the list of ways to ensure new tools
-aren’t adopted given in @@section@@s:partner-final@@. Which of these
+aren’t adopted given in [SECTION][s:partner-final]. Which of these
 have you seen done recently? Which have you done yourself? What form did
 they take?
 

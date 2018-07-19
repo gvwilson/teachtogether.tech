@@ -4,6 +4,8 @@ title: "Teamwork Rubric"
 ---
 # Teamwork Rubric
 
+@@label@@s:peereval@@
+
 This rubric is designed to assess individual performance within a
 team.
 

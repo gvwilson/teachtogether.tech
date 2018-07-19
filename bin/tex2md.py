@@ -24,6 +24,11 @@ def figref(m):
 figref.pattern = re.compile(r'\\figref{(.+?)}')
 
 
+def label(m):
+    return '@@label@@{}@@'.format(m.group(1))
+label.pattern = re.compile(r'\\label{(.+?)}')
+
+
 def glossdef(m):
     return '@@glossdef@@{}@@{}@@'.format(m.group(1), m.group(2))
 glossdef.pattern = re.compile(r'\\glossdef{(.+?)}{(.+?)}')
@@ -65,7 +70,7 @@ exercise.pattern = re.compile(r'\\exercise{(.+?)}{(.+?)}{(.+?)}')
 
 
 FUNCS = [
-    appref, chapref, cite, figref, glossdef, glossref, secref,
+    appref, chapref, cite, figref, glossdef, glossref, label, secref,
     email, isbn, repository, website,
     exercise
 ]
@@ -107,12 +112,13 @@ ENVIRONMENTS = [
 
 def main():
     prefix = ''
-    for line in sys.stdin:
-        for func in FUNCS:
-            line = func.pattern.sub(func, line)
+    data = sys.stdin.read()
+    for func in FUNCS:
+        data = func.pattern.sub(func, data)
+    for line in data.split('\n'):
         for env in ENVIRONMENTS:
             line = env(line)
-        sys.stdout.write(line)
+        print(line)
 
 
 if __name__ == '__main__':

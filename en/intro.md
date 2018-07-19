@@ -4,6 +4,8 @@ title: "Introduction"
 ---
 # Introduction
 
+@@label@@s:intro@@
+
 Hundreds of grassroots groups have sprung up around the world to teach
 programming, web design, robotics, and other skills to
 @@glossref@@g:free-range-learner@@free-range learners@@ outside
@@ -29,9 +31,9 @@ you go further. Its four sections cover:
 
 Throughout, we try to follow our own advice: for example, we start with
 ideas that are short, engaging, and actionable in order to motivate you
-to read further (@@chapter@@s:motivation@@), include lots of exercises
-that can be used to reinforce learning (@@chapter@@s:models@@), and
-include the original design for this book in @@appendix@@s:v3@@ so that
+to read further ([CHAPTER][s:motivation]), include lots of exercises
+that can be used to reinforce learning ([CHAPTER][s:models]), and
+include the original design for this book in [APPENDIX][s:v3] so that
 you can see what a lesson design looks like.
 
 > **This Book Belongs to Everyone**
@@ -51,12 +53,14 @@ you can see what a lesson design looks like.
 > contributions will be managed in the same way as edits to Wikipedia or
 > patches to open source software, and all contributors will be credited
 > for their work each time a new version is released. Please see
-> @@appendix@@s:joining@@ for details and
-> @@section@@s:joining-covenant@@ for our code of conduct.
+> [APPENDIX][s:joining] for details and
+> [SECTION][s:joining-covenant] for our code of conduct.
 
 ## Who You Are
 
-@@section@@s:process-personas@@ explains how to figure out who your
+@@label@@s:intro-audience@@
+
+[SECTION][s:process-personas] explains how to figure out who your
 learners are. The four I had in mind when writing this book are all
 @@glossref@@g:end-user-teacher@@end-user teachers@@: teaching isn’t
 their primary occupation, they have little or no background in pedagogy,
@@ -102,7 +106,7 @@ lesson design, or community organization*. Most work with *free-range
 learners* and are *focused on teenagers and adults* rather than
 children; all *have limited time and resources*.
 
-@@section@@s:joining-using@@ describes different ways people have used
+[SECTION][s:joining-using] describes different ways people have used
 this material. (That discussion is delayed to an appendix because it
 refers to some of the ideas introduced later in this book.) We expect
 our made-up learners to use this material as follows:
@@ -124,6 +128,8 @@ our made-up learners to use this material as follows:
     high-quality teaching.
 
 ## What to Read Instead
+
+@@label@@s:intro-instead@@
 
 If you are in a hurry, or want a taste of what this book will cover,
 @@cite@@Brow2018@@ presents ten evidence-based tips for teaching
@@ -182,6 +188,8 @@ and @@cite@@Craw2010@@ is a thought-provoking companion to both.
 
 ## History
 
+@@label@@s:intro-history@@
+
 *A lot of my stories aren’t true, but this is a true
 story<span>…</span>*
 
@@ -212,6 +220,8 @@ children, librarians, and women re-entering the workforce or changing
 careers, and all of those experiences have gone into this book.
 
 ## Why Learn to Program?
+
+@@label@@s:intro-why@@
 
 Politicians, business leaders, and educators often say that people
 should learn to program because the jobs of the future will require it;
@@ -247,14 +257,16 @@ there are actually many reasons to learn how to program:
 Part of what motivates me to teach is the hope that if enough people
 understand how to make technology work for them, we will be able to
 build a society in which *all* of the reasons above are valued and
-rewarded (@@chapter@@s:final@@).
+rewarded ([CHAPTER][s:final]).
 
 ## Have a Code of Conduct
+
+@@label@@s:intro-code-of-conduct@@
 
 The most important thing I’ve learned about teaching in the last thirty
 years is how important it is for everyone to treat everyone else with
 respect, both in and out of class. If you use this material in any way,
-please adopt a Code of Conduct like the one in @@appendix@@s:conduct@@
+please adopt a Code of Conduct like the one in [APPENDIX][s:conduct]
 and require everyone who takes part in your classes to abide by it.
 
 A Code of Conduct can’t stop people from being offensive, any more than
@@ -270,6 +282,8 @@ wherever and whenever they want. If they want to make someone feel
 unwelcome, they can go and find their own space in which to do it.
 
 ## Acknowledgments
+
+@@label@@s:intro-acknowledgments@@
 
 This book would not exist without the hard work and feedback of Erin
 Becker, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard Capes,
@@ -303,6 +317,8 @@ mine.
 
 ## Exercises
 
+@@label@@s:intro-exercises@@
+
 Each chapter ends with a variety of exercises that include a suggested
 format and an indication of how long they usually take in an in-person
 setting. Most can be used in other formats—in particular, if you are
@@ -311,7 +327,7 @@ exercises that are described as being for groups—and you can always
 spend more time on them than what’s suggested.
 
 The exercises in this chapter can be used as preassessment questions
-(@@section@@s:classroom-prior@@) rather than as in-class exercises. if
+([SECTION][s:classroom-prior]) rather than as in-class exercises. if
 you have learners answer them a few days before a class or workshop
 starts, they will give you a much clearer idea of who they are and how
 best you can help them.
@@ -320,7 +336,7 @@ best you can help them.
 
 Write brief answers to the following questions and share with your
 peers. (If you are taking notes together online as described in
-@@section@@s:classroom-notetaking@@, put your answers there.)
+[SECTION][s:classroom-notetaking], put your answers there.)
 
 1.  What is the best class or workshop you ever took? What made it so
     good?
@@ -355,7 +371,7 @@ them as you go through the rest of this book.
 @@exercise@@Why Learn to Program?@@individual@@20@@
 
 Re-read Guzdial’s list of reasons to learn to program in
-@@section@@s:intro-why@@, then draw a \(3{\times}3\) grid whose axes are
+[SECTION][s:intro-why], then draw a \(3{\times}3\) grid whose axes are
 labelled “low”, “medium”, and “high” and place each point in one sector
 according to how important it is to you (the X axis) and to the people
 you plan to teach (the Y axis).

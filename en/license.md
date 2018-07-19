@@ -4,6 +4,8 @@ title: "License"
 ---
 # License
 
+@@label@@s:license@@
+
 *This is a human-readable summary of (and not a substitute for) the
 license. Please see
 <https://creativecommons.org/licenses/by/4.0/legalcode> for the full

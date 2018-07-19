@@ -4,6 +4,8 @@ title: "Building Community"
 ---
 # Building Community
 
+@@label@@s:community@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain what situated learning is and identify its key elements.
@@ -134,6 +136,8 @@ with it.
 
 ## Learn, Then Do
 
+@@label@@s:community-learn-then-do@@
+
 The first step in building a community is to decide if you really need
 to, or whether you would be more effective joining an existing
 organization. Thousands of groups are already teaching people tech
@@ -160,6 +164,8 @@ deep personal roots in organizing, and
 professional development training.
 
 ## Three Steps
+
+@@label@@s:community-three-steps@@
 
 Everyone who gets involved with your organization, including you, goes
 through three phases: recruitment, retention, and retirement (from the
@@ -195,7 +201,7 @@ avoid collective @@glossref@@g:expert-blind-spot@@expert blind spot@@.
 > people to submit fixes for your lesson materials for typos or unclear
 > wording, or to suggest new exercises or examples. If your materials
 > are written in a maintainable way
-> (@@section@@s:process-maintainability@@), this gives them a chance to
+> ([SECTION][s:process-maintainability]), this gives them a chance to
 > practice some useful skills, and gives you an opportunity to start a
 > conversation that might lead to a new recruit.
 
@@ -216,7 +222,7 @@ tell you what they’ve done.
 
 The second part of the volunteer lifecycle is retention, which is a
 large enough topic to deserve a long discussion in
-@@section@@s:community-retention@@. The third and final part is
+[SECTION][s:community-retention]. The third and final part is
 retirement. Sooner or later, everyone moves on (including you). When
 this happens:
 
@@ -247,6 +253,8 @@ this happens:
 
 ## Retention
 
+@@label@@s:community-retention@@
+
 Saul Alinsky once said, “If your people aren’t having a ball doing it,
 there is something very wrong.” @@cite@@Alin1989@@ Community members
 shouldn’t expect to enjoy every moment of their work with your
@@ -258,7 +266,7 @@ are several things every organization should do to ensure that people
 are getting something they value out of their work:
 
   - Ask people what they want rather than guessing.  
-    Just as you are not your learners (@@section@@s:process-personas@@),
+    Just as you are not your learners ([SECTION][s:process-personas]),
     you are probably different from other members of your organization.
     Ask people what they want to do, what they’re comfortable doing
     (which may not be the same thing), what constraints there are on
@@ -356,7 +364,7 @@ surrounds the actual process of getting work done, so the Ada Initiative
 has
 [guidelines](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
 for communities to go with those given in
-@@section@@s:motivation-demotivation@@for individuals:
+[SECTION][s:motivation-demotivation]for individuals:
 
   - Encourage people.  
     This is as simple as it is effective.
@@ -387,6 +395,8 @@ for communities to go with those given in
     expectations.
 
 ## Governance
+
+@@label@@s:community-governance@@
 
 As @@cite@@Free1972@@ pointed out, every organization has a power
 structure: the only question is whether it’s formal and accountable, or
@@ -442,6 +452,8 @@ organization continues to meet people’s actual needs.
 
 ## Final Thoughts
 
+@@label@@s:community-final@@
+
 As @@cite@@Pign2016@@ discusses, burnout is a chronic risk in any
 community activity. If you don’t take care of yourself, you won’t be
 able to take care of your community.
@@ -454,6 +466,8 @@ you helped build take on a life of its own. Celebrate that—you won’t
 have any trouble finding something else to keep you busy.
 
 ## Exercises
+
+@@label@@s:community-exercises@@
 
 Several of these exercises are taken from @@cite@@Brow2007@@, which is
 an exceptionally useful book on building community organizations.

@@ -4,6 +4,8 @@ title: "Building Mental Models"
 ---
 # Building Mental Models
 
+@@label@@s:models@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain the cognitive differences between novices and competent
@@ -44,7 +46,7 @@ For our purposes, we can simplify Benner’s progression to three stages:
     situations that are out of the ordinary, diagnose the causes of
     problems, and so on. Like competent practitioners, experts know what
     they don’t know and how to learn it; we will discuss expertise in
-    more detail in @@chapter@@s:memory@@.
+    more detail in [CHAPTER][s:memory].
 
 So what *is* a @@glossref@@g:mental-model@@mental model@@? As you may
 have gathered from the way we used the term above, it is a simplified
@@ -61,7 +63,7 @@ One sign that someone is a novice is that the things they say are [not
 even wrong](https://en.wikipedia.org/wiki/Not_even_wrong), e.g., they
 think there’s a difference between programs they type in character by
 character and identical ones that they have copied and pasted. As
-@@chapter@@s:motivation@@ explains, it is very important not to make
+[CHAPTER][s:motivation] explains, it is very important not to make
 novices uncomfortable for doing this: until they have a better mental
 model, reasoning by (inappropriate) borrowing from their knowledge of
 other subjects is the best they can do.
@@ -118,6 +120,8 @@ who your lessons are meant for.
 > I don’t know how they manage to do it.
 
 ## Are People Learning?
+
+@@label@@s:models-formative-assessment@@
 
 One of the exercises in building a mental model is to clear away things
 that *don’t* belong. As Mark Twain said, “It ain’t what you don’t know
@@ -210,8 +214,8 @@ Overflow](http://stackoverflow.com) to see what people learning the
 subject elsewhere are confused by.
 
 MCQs aren’t the only kind of formative assessment you can use: Parsons
-Problems (@@chapter@@s:load@@) and matching problems
-(@@section@@s:exercises-diagrams@@) are also quick and unambiguous.
+Problems ([CHAPTER][s:load]) and matching problems
+([SECTION][s:exercises-diagrams]) are also quick and unambiguous.
 Short-answer questions are another option: if answers are 2–5 words
 long, there are few enough plausible answers to make scalable assessment
 possible @@cite@@Mill2016a@@.
@@ -227,7 +231,7 @@ portion of the lesson will have to be repeated. This rhythm isn’t based
 on an intrinsic attentional limit: @@cite@@Wils2007@@ found little
 support for the often-repeated claim that students can only pay
 attention for 10–15 minutes. If you are teaching online
-(@@chapter@@s:online@@), you should check in much more often to keep
+([CHAPTER][s:online]), you should check in much more often to keep
 learners engaged.
 
 Formative assessments can also be used preemptively: if you start a
@@ -235,7 +239,7 @@ class with an MCQ and everyone answers it correctly, you can skip the
 part of the lecture that was going to explain something your learners
 already know. Doing this also shows learners that you respect your
 learners’ time enough not to waste it, which helps with motivation
-(@@chapter@@s:motivation@@).
+([CHAPTER][s:motivation]).
 
 If the majority of the class chooses the same wrong answer, you should
 go back and work on correcting the misconception that distractor points
@@ -275,7 +279,7 @@ that they can all answer an MCQ at once (rather than holding up their
 hands in turn), having one of the options be, “I have no idea”, and
 encouraging them to talk to their neighbors for a few seconds before
 answering will all help ensure that your teaching flow isn’t disrupted.
-@@section@@s:classroom-peer@@ describes a powerful, evidence-based
+[SECTION][s:classroom-peer] describes a powerful, evidence-based
 teaching method that builds on these simple ideas.
 
 > **Humor**
@@ -293,6 +297,8 @@ have given learners practice with (and feedback on) tackling novel
 problems beforehand.
 
 ## Exercises
+
+@@label@@s:models-exercises@@
 
 @@exercise@@Your Mental Models@@think-pair-share@@15@@
 
@@ -324,12 +330,13 @@ A good formative assessment requires people to think through a problem.
 For example, imagine that you have placed a block of ice in a bathtub
 and then filled the tub to the rim with water. When the ice melts, does
 the water level go up (so that the tub overflows), go down, or stay the
-same (@@figure@@f:models-bathtub@@)?
+same ([FIGURE][f:models-bathtub])?
 
 \centering
 
-![Ice in a
-Bathtub<span label="f:models-bathtub"></span>](../docs/fig/bathtub.pdf)
+![Ice in a Bathtub](../docs/fig/bathtub.pdf)
+
+@@label@@f:models-bathtub@@
 
 The correct answer is that the level stays the same: the ice displaces
 its own weight in water, so it exactly fills the “hole” it has made when

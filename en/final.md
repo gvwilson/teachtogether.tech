@@ -4,6 +4,8 @@ title: "Why I Teach"
 ---
 # Why I Teach
 
+@@label@@s:final@@
+
 When I first started teaching at the University of Toronto, some of my
 students asked me why I was doing it. This was my answer:
 

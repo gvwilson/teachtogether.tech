@@ -4,15 +4,19 @@ title: "Joining Our Community"
 ---
 # Joining Our Community
 
+@@label@@s:joining@@
+
 This appendix describes how you can become part of our community by
 using, sharing, and improving this material.
 
 ## Contributor Covenant
 
+@@label@@s:joining-covenant@@
+
 The contributor covenant laid out below governs contributions to this
 book. It is adapted from the [Contributor
 Covenant](https://www.contributor-covenant.org) version 1.4; please see
-@@appendix@@s:conduct@@ for a sample code of conduct for use in classes
+[APPENDIX][s:conduct] for a sample code of conduct for use in classes
 and other learning situations.
 
 ### Our Pledge
@@ -95,10 +99,12 @@ other members of the project’s leadership.
 
 ## Using This Material
 
+@@label@@s:joining-using@@
+
 This material has been used in many ways, from a multi-week online class
 to an intensive in-person workshop. It’s usually possible to cover large
 parts of Chapters [\[s:models\]](#s:models)–[\[s:process\]](#s:process),
-@@chapter@@s:performance@@, and @@chapter@@s:motivation@@ in two long
+[CHAPTER][s:performance], and [CHAPTER][s:motivation] in two long
 days.
 
 ### In Person
@@ -108,19 +114,19 @@ most demanding. Participants are physically together. When they need to
 practice teaching in small groups, some or all of them go to nearby
 breakout spaces. Participants use their own tablets or laptops to view
 online material during the class and for shared note-taking
-(@@section@@s:classroom-notetaking@@), and use pen and paper or
+([SECTION][s:classroom-notetaking]), and use pen and paper or
 whiteboards for other exercises. Questions and discussion are done
 aloud.
 
 If you are teaching in this format, you should use sticky notes as
 status flags so that you can see who needs help, who has questions, and
-who’s ready to move on (@@section@@s:classroom-status-flags@@). You
+who’s ready to move on ([SECTION][s:classroom-status-flags]). You
 should also use them to distribute attention so that everyone gets a
 fair share of the instructor’s time
-(@@section@@s:classroom-attention@@), and as minute cards to encourage
+([SECTION][s:classroom-attention]), and as minute cards to encourage
 learners to reflect on what they’ve just learned and to give you
 actionable feedback while you still have time to act on it
-(@@section@@s:classroom-minute-cards@@).
+([SECTION][s:classroom-minute-cards]).
 
 ### Online in Groups
 
@@ -145,11 +151,11 @@ individuals. As with online groups, the instructor will do most of the
 talking and learners will mostly participate via text chat. Good audio
 is once again more important than good video, and participants should
 use text chat to signal that they want to speak next
-(@@appendix@@s:meetings@@).
+([APPENDIX][s:meetings]).
 
 Having participants online individually makes it more difficult to draw
-and share concept maps (@@section@@s:memory-exercises@@) or give
-feedback on teaching (@@section@@s:performance-exercises@@). Instructors
+and share concept maps ([SECTION][s:memory-exercises]) or give
+feedback on teaching ([SECTION][s:performance-exercises]). Instructors
 should therefore rely more on exercises with written results that can be
 put in the shared notes, such as giving feedback on stock videos of
 people teaching.
@@ -170,14 +176,16 @@ strongly prefer to discuss material in the weekly meetings.)
 
 ## Contributing and Maintaining
 
+@@label@@s:joining-contributing@@
+
 This book is a community resource: contributions of all kinds are
 welcome, from suggestions for improvements to errata and new material.
 All contributors must abide by the contributor covenant presented above;
 by submitting your work, you are agreeing that it may incorporated in
 either original or edited form and release it under the same license as
-the rest of this material (@@appendix@@s:license@@). If your material is
+the rest of this material ([APPENDIX][s:license]). If your material is
 incorporated, we will add you to the acknowledgments
-(@@section@@s:intro-acknowledgments@@) unless you request otherwise.
+([SECTION][s:intro-acknowledgments]) unless you request otherwise.
 
   - The source for this book is stored on GitHub at @@repository@@. If
     you know how to use Git and GitHub and would like to change, fix, or
@@ -205,7 +213,7 @@ know if you have a story you would like to share.
 
 ### A Teaching Commons
 
-@@section@@s:community-governance@@ defined a commons as something
+[SECTION][s:community-governance] defined a commons as something
 managed jointly by a community according to rules they themselves have
 evolved and adopted. Open source software and Wikipedia are both
 successful examples; the question is, why don’t teachers build lessons

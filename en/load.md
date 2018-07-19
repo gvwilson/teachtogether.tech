@@ -4,6 +4,8 @@ title: "Cognitive Load"
 ---
 # Cognitive Load
 
+@@label@@s:load@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Define cognitive load and explain how consideration of it can be
@@ -131,7 +133,7 @@ own:
 Faded examples work because they introduce the problem-solving strategy
 piece by piece: at each step, learners have one new problem to tackle,
 which is less intimidating than a blank screen or a blank sheet of paper
-(@@section@@s:classroom-practices@@). It also encourages learners to
+([SECTION][s:classroom-practices]). It also encourages learners to
 think about the similarities and differences between various approaches,
 which helps create the linkages in their mental models that help
 retrieval.
@@ -140,7 +142,7 @@ retrieval.
 > 
 > Seeing worked examples accelerates learning more than having students
 > write lots of code themselves @@cite@@Skud2014@@. As we will see in
-> @@chapter@@s:pck@@, deconstructing code by tracing it or debugging it
+> [CHAPTER][s:pck], deconstructing code by tracing it or debugging it
 > also increases the efficiency of learning @@cite@@Grif2016@@. However,
 > this isn’t the same as saying that people learn more unless they see
 > additional problems.
@@ -167,7 +169,7 @@ argues that cognitive load theory is basically micro-management of
 learning within a broader context that considers things like motivation,
 while @@cite@@Kirs2018@@ extends cognitive load theory to include
 collaborative aspects of learning. As with @@cite@@Mark2018@@ (discussed
-in @@section@@s:individual-strategies@@), researchers’ perspectives may
+in [SECTION][s:individual-strategies]), researchers’ perspectives may
 differ, but the practical implementation of their theories often wind up
 being the same.
 
@@ -194,7 +196,7 @@ being the same.
 > contexts, and we should encourage self-explanation, since it helps
 > learners organize and make sense of what they have just been taught.
 > This is discussed in more detail in
-> @@section@@s:individual-strategies@@.
+> [SECTION][s:individual-strategies].
 
 ### Parsons Problems
 
@@ -233,14 +235,16 @@ the total length of a list of words or constructing an acronym are:
 3.  Update the result with that value.
 
 Labelling subgoals works because grouping related steps in a chunk
-(@@section@@s:memory-pattern@@) and giving each chunk a name helps
+([SECTION][s:memory-pattern]) and giving each chunk a name helps
 learners distinguish between generic information and information that is
 specific to the problem at hand, which reduces cognitive load. It also
 helps them build a mental model of that kind of problem, so that they
 can solve other problems of that kind, and gives them a natural
-opportunity for self-explanation (@@section@@s:individual-strategies@@).
+opportunity for self-explanation ([SECTION][s:individual-strategies]).
 
 ## Split Attention
+
+@@label@@s:load-split-attention@@
 
 Research by Mayer and colleagues on the
 @@glossref@@g:split-attention-effect@@split-attention effect@@ is
@@ -251,7 +255,7 @@ means that correlating linguistic and visual streams of information
 takes cognitive effort: when someone reads something while hearing it
 spoken aloud, their brain can’t help but check that it’s getting the
 same information on both channels (a topic we’ll return to when
-discussing dual coding in @@section@@s:individual-strategies@@).
+discussing dual coding in [SECTION][s:individual-strategies]).
 
 Learning is therefore more effective when information is presented
 simultaneously in two different channels, but when that information is
@@ -300,6 +304,8 @@ simultaneously should be treated as a separate learning task.
 
 ## Minimal Manuals
 
+@@label@@s:load-minimal@@
+
 The most extreme use of cognitive load theory may be the “minimal
 manual” method introduced in @@cite@@Carr1987@@. Its starting point is
 a quote from a user: “I want to do something, not learn how to do
@@ -336,6 +342,8 @@ tasks, well-designed instruction should help them do that.
 
 ## Exercises
 
+@@label@@s:load-exercises@@
+
 @@exercise@@Create a Faded Example@@pairs@@30@@
 
 It’s very common for programs to count how many things fall into
@@ -369,7 +377,7 @@ Working in groups of 3–4, choose a short lesson that one of you has
 taught or taken recently, make a point-form list of the ideas,
 instructions, and explanations it contains, and then classify each as
 intrinsic, germane, or extraneous. (The exercise “Noticing Your Blind
-Spot” in @@section@@s:memory-exercises@@ will give you an idea of how
+Spot” in [SECTION][s:memory-exercises] will give you an idea of how
 detailed your point-form list should be.)
 
 @@exercise@@Create a Parsons Problem@@pairs@@20@@

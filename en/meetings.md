@@ -4,6 +4,8 @@ title: "Meetings, Meetings, Meetings"
 ---
 # Meetings, Meetings, Meetings
 
+@@label@@s:meetings@@
+
 Most people are really bad at meetings: they don’t have an agenda going
 in, they don’t take minutes, they waffle on or wander off into
 irrelevancies, they repeat what others have said or recite banalities

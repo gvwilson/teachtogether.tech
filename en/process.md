@@ -4,6 +4,8 @@ title: "A Lesson Design Process"
 ---
 # A Lesson Design Process
 
+@@label@@s:process@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Describe the steps in backward lesson design and explain why it
@@ -97,7 +99,7 @@ helping them learn.
 > improvements based on test outcomes. The latter is often missing
 > because large organizations usually value uniformity over productivity
 > @@cite@@Scot1998@@; we will return to this topic in
-> @@chapter@@s:performance@@.
+> [CHAPTER][s:performance].
 
 It’s important to note that while lesson design is *described* as a
 sequence, it’s almost never *done* that way: we may, for example, change
@@ -110,11 +112,13 @@ retrace our thinking. The same rewriting of history is useful for the
 same reasons in software design and many other fields
 @@cite@@Parn1986@@.
 
-@@appendix@@s:v3@@ presents the design notes for this version of this
+[APPENDIX][s:v3] presents the design notes for this version of this
 book. A few things have been added, dropped, or rearranged, but what you
 are reading now matches the plan pretty closely.
 
 ## Learner Personas
+
+@@label@@s:process-personas@@
 
 A key step in the lesson design process described above is figuring out
 who your audience is. One way to do this is to write two or three
@@ -126,7 +130,7 @@ Learner personas have five parts: the person’s general background, what
 they already know, what *they* think they want to do (as opposed to what
 someone who already understands the subject thinks), how the course will
 help them, and any special needs they might have. The personas in
-@@section@@s:intro-audience@@ have the five points listed above,
+[SECTION][s:intro-audience] have the five points listed above,
 rearranged to flow more readably; a learner persona for a weekend
 workshop aimed at college students might be:
 
@@ -180,7 +184,7 @@ to pick an audience and then brainstorm their needs. Either way,
 
 2.  Keep cognitive load low.
 
-3.  Use authentic tasks (see @@section@@s:motivation-authentic@@).
+3.  Use authentic tasks (see [SECTION][s:motivation-authentic]).
 
 4.  Be generative and productive.
 
@@ -192,12 +196,14 @@ for students from a variety of academic backgrounds which allowed them
 to choose between different domain-related assignments. It’s extra work
 to set up and grade, but that’s manageable if the projects are
 open-ended (so that they can be used repeatedly) and if the load is
-shared with other teachers (@@section@@s:process-maintainability@@).
+shared with other teachers ([SECTION][s:process-maintainability]).
 Other work has shown that building courses for science students around
 topics as diverse as music, data science, and cell biology will also
 improve outcomes @@cite@@Pete2017,Dahl2018,Ritz2018@@.
 
 ## Learning Objectives
+
+@@label@@s:process-objectives@@
 
 Formative and summative assessments help teachers figure out what
 they’re going to teach, but in order to communicate that to learners
@@ -357,6 +363,8 @@ course on HTML and CSS might be:
 
 ## Maintainability
 
+@@label@@s:process-maintainability@@
+
 It takes a lot of effort to create a good lesson, but once it has been
 built, someone needs to maintain it, and doing that is a lot easier if
 it has been built in a maintainable way. But what exactly does
@@ -387,8 +395,8 @@ willing people are to collaborate.* The tools needed to build a
 teachers still don’t write and share lessons the way that they write and
 share encyclopedia entries, even though commons-based lesson development
 and maintenance actually works very well
-(@@section@@s:community-governance@@ and
-@@section@@s:joining-contributing@@).
+([SECTION][s:community-governance] and
+[SECTION][s:joining-contributing]).
 
 @@cite@@Leak2017@@ interviewed 17 computer science teachers to find out
 why they don’t use resource sharing sites. They found that most of the
@@ -421,6 +429,8 @@ widely different levels.
 
 ## Exercises
 
+@@label@@s:process-exercises@@
+
 @@exercise@@Create Learner Personas@@small groups@@30@@
 
 Working in small groups, create a five-point persona that describes one
@@ -429,7 +439,7 @@ of your typical learners.
 @@exercise@@Classify Learning Objectives@@pairs@@10@@
 
 Look at the example learning objectives given for an introductory course
-on HTML and CSS in @@section@@s:process-objectives@@ and classify each
+on HTML and CSS in [SECTION][s:process-objectives] and classify each
 according to Bloom’s Taxonomy. Compare your answers with those of your
 partner: where did you agree and disagree, and why?
 

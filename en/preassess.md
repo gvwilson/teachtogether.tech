@@ -4,6 +4,8 @@ title: "Pre-Assessment Questionnaire"
 ---
 # Pre-Assessment Questionnaire
 
+@@label@@s:preassess@@
+
 This questionnaire is designed to help teachers gauge the prior
 knowledge of learners in an introductory JavaScript programming
 workshop. You can use it as a starting point for creating a rubric of

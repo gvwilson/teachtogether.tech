@@ -4,6 +4,8 @@ title: "Lesson Design Template"
 ---
 # Lesson Design Template
 
+@@label@@s:template@@
+
 Designing a good course is as hard as designing good software. To help
 you, this appendix summarizes a process based on evidence-based teaching
 practices:
@@ -69,7 +71,7 @@ your colleagues.
 many factors besides pre-existing knowledge influence who a course is
 suitable for. The second step in designing a course is therefore to
 figure out who your audience is. To do this, you should either create
-some learner personas (@@section@@s:process-personas@@), or (preferably)
+some learner personas ([SECTION][s:process-personas]), or (preferably)
 reference ones that you and your colleagues have drawn up together.
 
 After you are done brainstorming, you should go through these personas

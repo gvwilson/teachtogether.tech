@@ -4,6 +4,8 @@ title: "Actionable Approximations of the Truth"
 ---
 # Actionable Approximations of the Truth
 
+@@label@@s:pck@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain what pedagogical content knowledge (PCK) is and why it’s
@@ -88,6 +90,8 @@ nuanced perhapses.
 
 ## How Do Novices Program?
 
+@@label@@s:pck-programming@@
+
 @@cite@@Solo1984,Solo1986@@ pioneered the exploration of novice and
 expert programming strategies. The key finding is that experts know both
 “what” and “how”, i.e., they understand what to put into programs *and*
@@ -98,9 +102,9 @@ problem rather than to lack of knowledge about the language.
 
 The most important recommendation in this chapter is therefore to *show
 learners how to program*. This is consistent with the work on cognitive
-load theory presented in @@chapter@@s:load@@, and @@cite@@Mull2007b@@ is
+load theory presented in [CHAPTER][s:load], and @@cite@@Mull2007b@@ is
 just one of many studies proving its benefits; live coding
-(@@section@@s:performance-live@@) is effective in part because it puts
+([SECTION][s:performance-live]) is effective in part because it puts
 “how” front and center.
 
 When demonstrating the act of programming, teachers should emphasize the
@@ -119,7 +123,7 @@ control flow (i.e., loops and conditionals), and only then add details
 like variable initialization and handling of corner cases. This
 out-of-order authoring is foreign to novices, who read and write code in
 the order it’s presented on the page; again, one of the benefits of live
-coding (@@section@@s:performance-live@@) is that it gives them a chance
+coding ([SECTION][s:performance-live]) is that it gives them a chance
 to see the sequence that more advanced programmers actually use.
 
 ### Roles of Variables
@@ -174,6 +178,8 @@ also includes examples of each:
 
 ## How Do Novices Debug and Test?
 
+@@label@@s:pck-debug@@
+
 A decade ago, @@cite@@McCa2008@@ wrote, “It is surprising how little
 page space is devoted to bugs and debugging in most introductory
 programming textbooks.” Little has changed since: there are hundreds of
@@ -182,7 +188,7 @@ debugging, and I have never seen an undergraduate course on the subject.
 One reason is that debugging is a “how” rather than a “what”; again, one
 of the benefits of live coding is that it gives teachers a chance to
 demonstrate the process in a way that textbooks cannot
-(@@section@@s:performance-live@@).
+([SECTION][s:performance-live]).
 
 @@cite@@List2004,List2009@@ found that many novices struggled to predict
 the output of short pieces of code and to select the correct completion
@@ -220,18 +226,19 @@ is a good checklist of things to look for, though it is best presented
 in chunks rather than all at once.
 
 Having learners read code and summarize its behavior is a good exercise
-(@@section@@s:individual-strategies@@), but often takes too long to be
+([SECTION][s:individual-strategies]), but often takes too long to be
 practical in class. Having them predict a program’s output just before
 it is run, on the other hand, helps reinforce learning
-(@@section@@s:classroom-practices@@) and also gives them a natural
+([SECTION][s:classroom-practices]) and also gives them a natural
 moment to ask “what if” questions. Instructors or learners can also
-trace changes to variables as they go along (@@figure@@f:pck-sketch@@),
+trace changes to variables as they go along ([FIGURE][f:pck-sketch]),
 which @@cite@@Cunn2017@@ found was effective.
 
 \centering
 
-![Tracing the Values of
-Variables)<span label="f:pck-sketch"></span>](../docs/fig/sketching-variables.pdf)
+![Tracing the Values of Variables)](../docs/fig/sketching-variables.pdf)
+
+@@label@@f:pck-sketch@@
 
 When it comes to testing, novices seem just as reluctant to do it as
 professional programmers. There’s no doubt it’s
@@ -258,7 +265,7 @@ doing what it’s supposed to rather than to find cases where it isn’t.
 
 One approach to teaching better testing practices is to define a
 programming problem by providing a set of tests to be passed rather than
-through a written description (@@section@@s:exercises-classics@@).
+through a written description ([SECTION][s:exercises-classics]).
 Before doing this, though, take a moment to look at how many tests
 you’ve written for your own code recently, and then decide whether
 you’re teaching what you believe people should do, or what they (and
@@ -266,7 +273,9 @@ you) actually do.
 
 ## What Misconceptions Do Novices Have?
 
-@@chapter@@s:models@@ explained why clearing up novices misconceptions
+@@label@@s:pck-misunderstand@@
+
+[CHAPTER][s:models] explained why clearing up novices misconceptions
 is just as important as teaching them strategies for solving problems.
 The biggest misconception novices have—sometimes called the “superbug”
 in coding—is the belief that they can communicate with a computer in the
@@ -322,6 +331,8 @@ for those without, they were “processor” and “data”.
 
 ## What Mistakes Do Novices Make?
 
+@@label@@s:pck-mistakes@@
+
 The mistakes novices make can tell us what to prioritize in our
 teaching, but it turns out that most teachers don’t know how common
 different kinds of mistakes actually are. The largest study of this is
@@ -360,9 +371,11 @@ condition tests wasn’t nearly as common as most teachers believed.
 > related to the simpler tag syntax determining *how* HTML elements are
 > nested. (The tendency of many instructors to say, “But the rules are
 > simple,” is a good example of expert blind spot discussed in
-> @@chapter@@s:memory@@<span>…</span>)
+> [CHAPTER][s:memory]<span>…</span>)
 
 ## What Are We Teaching Them Now?
+
+@@label@@s:pck-now@@
 
 Very little is known about what coding bootcamps and other free-range
 initiatives teach, in part because many are reluctant to share their
@@ -401,13 +414,15 @@ learning trajectories for computing classes in elementary and middle
 schools, and presented results for sequencing, repetition, and
 conditionals. These are essentially collective concept maps, as they
 combine and rationalize the implicit and explicit thinking of many
-different educators. @@figure@@f:pck-trajectory@@ shows the learning
+different educators. [FIGURE][f:pck-trajectory] shows the learning
 trajectories for conditionals.
 
 \centering
 
 ![Learning Trajectory for Conditions (from
-@@cite@@Rich2017@@)<span label="f:pck-trajectory"></span>](../docs/fig/conditionals.pdf)
+@@cite@@Rich2017@@)](../docs/fig/conditionals.pdf)
+
+@@label@@f:pck-trajectory@@
 
 But there can be a world of difference between what instructors teach
 and what learners learn, and study after study has shown that teaching
@@ -426,7 +441,7 @@ that novices with prior experience outscored novices without by 10% in
 CS1, but those differences disappeared by the end of CS2. They also
 found that women with prior exposure outperformed their male peers in
 all areas, but were consistently less confident in their abilities; we
-will return to this issue in @@section@@s:motivation-inclusivity@@.
+will return to this issue in [SECTION][s:motivation-inclusivity].
 
 As for direct studies of how much novices learn, @@cite@@McCr2001@@
 presented a multi-site international study, which was later replicated
@@ -443,9 +458,11 @@ tell if your lessons are becoming more or less effective.
 
 ## Do Languages Matter?
 
+@@label@@s:pck-language@@
+
 The short answer is “yes”: novices learn to program faster and also
 learn more using blocks-based tools like Scratch
-(@@figure@@f:pck-scratch@@) that make syntax errors impossible
+([FIGURE][f:pck-scratch]) that make syntax errors impossible
 @@cite@@Wein2017b@@. And block interfaces encourage exploration in a way
 that text does not; like all good tools, Scratch can be learned
 accidentally @@cite@@Malo2010@@.
@@ -460,7 +477,9 @@ can still be hard to convince adults to take them seriously.
 \centering
 
 ![Scratch (from
-<https://opensource.com/article/18/4/designing-game-scratch-open-jam>)<span label="f:pck-scratch"></span>](../docs/fig/scratch.jpg)
+<https://opensource.com/article/18/4/designing-game-scratch-open-jam>)](../docs/fig/scratch.jpg)
+
+@@label@@f:pck-scratch@@
 
 Scratch has probably been studied more than any other programming tool,
 and we know a great deal about how it is used. As just one example,
@@ -599,6 +618,8 @@ style*.
 
 ## Does Better Feedback Help?
 
+@@label@@s:pck-error@@
+
 Incomprehensible error messages are a major source of frustration for
 novices (and sometimes for experienced programmers as well). Several
 researchers have therefore explored whether better error messages would
@@ -644,7 +665,7 @@ To answer this, @@cite@@Cunn2017@@ replicated an earlier study of the
 kinds of sketching students do when tracing code execution. They found
 that not sketching at all correlates with lower success, while tracing
 changes to variables’ values by writing new values near their names as
-they change was the most effective strategy (@@figure@@f:pck-sketch@@).
+they change was the most effective strategy ([FIGURE][f:pck-sketch]).
 
 One possible confounding effect they checked was time: since sketchers
 take significantly more time to solve problems, do they do better just
@@ -664,6 +685,8 @@ values when debugging*.
 
 ## What Else Can We Do to Help?
 
+@@label@@s:pck-help@@
+
 @@cite@@Viha2014@@ examined the average improvement in pass rates of
 various kinds of intervention in programming classes. As they themselves
 point out, there are many reasons to take their findings with a grain of
@@ -676,7 +699,7 @@ chapter, they were only looking at university classes, so their findings
 may not generalize to other groups.
 
 With all those caveats in mind, they found ten things instructors can do
-to improve outcomes (@@figure@@f:pck-interventions@@):
+to improve outcomes ([FIGURE][f:pck-interventions]):
 
   - Collaboration:  
     Activities that encourage student collaboration either in classrooms
@@ -708,7 +731,7 @@ to improve outcomes (@@figure@@f:pck-interventions@@):
 
   - Media Computation:  
     Activities explicitly declaring the use of media computation
-    (@@chapter@@s:motivation@@).
+    ([CHAPTER][s:motivation]).
 
   - Peer Support:  
     Support by peers in form of pairs, groups, hired peer mentors or
@@ -720,8 +743,9 @@ to improve outcomes (@@figure@@f:pck-interventions@@):
 
 \centering
 
-![Effectiveness of
-Interventions<span label="f:pck-interventions"></span>](../docs/fig/interventions.png)
+![Effectiveness of Interventions](../docs/fig/interventions.png)
+
+@@label@@f:pck-interventions@@
 
 This list highlights the importance of cooperative learning.
 @@cite@@Beck2013@@ looked at this specifically over three academic years
@@ -740,6 +764,8 @@ called “unplugged”; the [CS Unplugged](https://csunplugged.org/en/) site
 has a collection of lessons and exercises for doing this.
 
 ## Exercises
+
+@@label@@s:pck-exercises@@
 
 @@exercise@@Checking for Common Errors@@individual@@20@@
 
@@ -807,26 +833,26 @@ Compare your solutions with those of your partner.
 
 Take a short program you have written (5–15 lines) and classify each of
 its variables using the categories defined in
-@@section@@s:pck-programming@@. Compare your classifications with those
+[SECTION][s:pck-programming]. Compare your classifications with those
 of a partner: where did you agree? When you disagreed, did you
 understand each other’s view?
 
 @@exercise@@Choose Your Own Adventures@@individual@@10@@
 
 Which of the three approaches described in @@cite@@Sorv2014@@
-(@@section@@s:pck-now@@) do you use when teaching? Or is your approach
+([SECTION][s:pck-now]) do you use when teaching? Or is your approach
 best described in some other way?
 
 @@exercise@@What Are You Teaching?@@individual@@10@@
 
 Compare the topics you teach to the list developed in @@cite@@Luxt2017@@
-(@@section@@s:pck-now@@). Which topics do you cover? What extra topics
+([SECTION][s:pck-now]). Which topics do you cover? What extra topics
 do you cover that aren’t in their list?
 
 @@exercise@@Beneficial Activities@@individual@@10@@
 
 Look at the list of interventions developed by @@cite@@Viha2014@@
-(@@section@@s:pck-help@@). Which of these things do you already do in
+([SECTION][s:pck-help]). Which of these things do you already do in
 your classes? Which ones could you easily add? Which ones are
 irrelevant?
 

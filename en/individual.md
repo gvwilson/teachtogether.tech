@@ -4,6 +4,8 @@ title: "Individual Learning"
 ---
 # Individual Learning
 
+@@label@@s:individual@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain what metacognition is and why it is important to learning.
@@ -29,7 +31,7 @@ The key to getting more out of learning is
 @@glossref@@g:metacognition@@metacognition@@, or thinking about one’s
 own thinking processes. Just as good musicians listen to their own
 playing, and good teachers reflect on their teaching
-(@@chapter@@s:performance@@), learners will learn better and faster if
+([CHAPTER][s:performance]), learners will learn better and faster if
 they make plans, set goals, and monitor their progress. It’s difficult
 for learners to master these skills in the abstract—for example, just
 telling them to make plans doesn’t have any effect—but lessons can be
@@ -63,6 +65,8 @@ has been mastered @@cite@@Gick1987@@. In practice, this means that
 learning to program won’t help you play chess and vice versa.
 
 ## Six Strategies
+
+@@label@@s:individual-strategies@@
 
 Psychologists study learning in a wide variety of ways, but have reached
 similar conclusions about what actually works @@cite@@Mark2018@@. The
@@ -172,7 +176,7 @@ retention and recall.
 
 How long you should spend on each item depends on the subject and how
 well you know it, but somewhere between 10 and 30 minutes is long enough
-for you to get into a state of flow (@@section@@s:individual-time@@) but
+for you to get into a state of flow ([SECTION][s:individual-time]) but
 not for your mind to wander. Interleaving study will initially feel
 harder than focusing on one topic at a time, but that’s a sign that it’s
 working. If you are making flash cards for yourself, or doing practice
@@ -242,7 +246,7 @@ that they don’t become frustrated looking for answers that don’t exist.
 The last of the six core strategies that the [Learning
 Scientists](http://www.learningscientists.org/) describe is to present
 words and images together. As discussed in
-@@section@@s:load-split-attention@@, different subsystems in our brains
+[SECTION][s:load-split-attention], different subsystems in our brains
 handle and store linguistic and visual information, and if complementary
 information is presented through both channels, then they can reinforce
 one another. However, learning is more effective when the same
@@ -257,6 +261,8 @@ other functions in a program.) Drawing a diagram *without* labels, then
 coming back later to label it, is excellent retrieval practice.
 
 ## Time Management
+
+@@label@@s:individual-time@@
 
 I used to brag about the hours I was working. Not in so many words, of
 course—I had *some* social skills—but I would show up for class around
@@ -352,6 +358,8 @@ a dozen times per hour, you are *never* at your productive peak.
 
 ## Peer Assessment
 
+@@label@@s:individual-peer@@
+
 Asking people on a team to rate their peers is a common practice in
 industry. @@cite@@Sond2012@@ surveyed the literature on student peer
 assessment, distinguishing between grading and reviewing. The benefits
@@ -391,11 +399,13 @@ and other outsiders. “Observables” means that instead of asking, “Is the
 person outgoing,” or “Does the person have a positive attitude,”
 assessments should ask, “Does the person listen attentively during
 meetings,” or, “Does the person attempt to solve problems before asking
-for help.” The evaluation form in @@appendix@@s:peereval@@ shows a
+for help.” The evaluation form in [APPENDIX][s:peereval] shows a
 sample to get you started. To use it, rank yourself and each of your
 teammates, then calculate and compare scores.
 
 ## Exercises
+
+@@label@@s:individual-exercises@@
 
 @@exercise@@Learning Strategies@@individual@@20@@
 

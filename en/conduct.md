@@ -4,6 +4,8 @@ title: "Code of Conduct"
 ---
 # Code of Conduct
 
+@@label@@s:conduct@@
+
 > **Context**
 > 
 > This code of conduct is based on the template written by the Ada
@@ -11,7 +13,7 @@ title: "Code of Conduct"
 > Wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 > We recommend that every online or in-person event adopt something like
 > it, with the contact information filled in appropriately. Please see
-> @@section@@s:joining-covenant@@ for the covenant governing
+> [SECTION][s:joining-covenant] for the covenant governing
 > contributions to this material.
 
 We are dedicated to providing a harassment-free learning experience for

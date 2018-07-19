@@ -4,6 +4,8 @@ title: "Glossary"
 ---
 # Glossary
 
+@@label@@s:gloss@@
+
 @@glossdef@@g:absolute-beginner@@Absolute beginner@@ Someone who has
 never encountered concepts or material before. The term is used in
 distinction to *false beginner*.

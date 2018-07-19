@@ -4,6 +4,8 @@ title: "Teaching Online"
 ---
 # Teaching Online
 
+@@label@@s:online@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain why expectations for massive online courses were
@@ -57,6 +59,8 @@ delivered either online or in person.
 
 ## MOOCs
 
+@@label@@s:online-moocs@@
+
 The highest-profile effort to reinvent education using the Internet is
 the Massive Open Online Course, or MOOC. The term was invented by David
 Cormier in 2008 to describe a course organized by George Siemens and
@@ -85,7 +89,7 @@ would revolutionize education, destroy it, or possibly both.
 But MOOCs haven’t been nearly as effective as their more enthusiastic
 proponents claimed they would be @@cite@@Ubel2017@@. One reason is that
 recorded content is ineffective for many novices because it cannot clear
-up their individual misconceptions (@@chapter@@s:models@@): if they
+up their individual misconceptions ([CHAPTER][s:models]): if they
 don’t understand an explanation the first time around, there usually
 isn’t a different one on offer. Another is that the automated assessment
 necessary in order to put the “massive” in MOOC only works well at the
@@ -174,21 +178,21 @@ positives in the list above while avoiding the negatives:
     so that people don’t miss things because of scheduling conflicts.
 
   - Have learners contribute to collective knowledge,  
-    e.g., take notes together (@@section@@s:classroom-notetaking@@),
+    e.g., take notes together ([SECTION][s:classroom-notetaking]),
     serve as classroom scribes, or contribute problems to shared problem
-    sets (@@section@@s:individual-peer@@).
+    sets ([SECTION][s:individual-peer]).
 
   - Encourage or require learners to do some of their work in small
     groups  
     that *do* have synchronous online activities such as a weekly online
     discussion to help learners stay engaged and motivated without
     creating too many scheduling headaches. (See
-    @@appendix@@s:meetings@@ for some tips on how to make these
+    [APPENDIX][s:meetings] for some tips on how to make these
     discussions fair and productive.)
 
   - Create, publicize, and enforce a code of conduct  
     so that everyone can actually (as opposed to theoretically) take
-    part in online discussions (@@section@@s:intro-code-of-conduct@@).
+    part in online discussions ([SECTION][s:intro-code-of-conduct]).
 
   - Use lots of short lesson episodes rather than a handful of
     lecture-length chunks  
@@ -206,7 +210,7 @@ positives in the list above while avoiding the negatives:
     on are more effective than screenshots with text.
 
   - Identify and clear up misconceptions early  
-    (@@chapter@@s:models@@). If data shows that learners are struggling
+    ([CHAPTER][s:models]). If data shows that learners are struggling
     with some parts of a lesson, create alternative explanations of
     those points and extra exercises for them to practice on.
 
@@ -240,13 +244,13 @@ tools they prefer.
 > One way to demonstrate to learners that they are learning *with* you,
 > not just *from* you, is to allow them to edit your course notes. In
 > live courses, we recommend that you enable them to do this as you
-> lecture (@@section@@s:classroom-notetaking@@); in online courses, you
+> lecture ([SECTION][s:classroom-notetaking]); in online courses, you
 > can put your notes into a wiki, a Google Doc, or anything else that
 > allows you to review and comment on changes. Giving people credit for
 > fixing mistakes, clarifying explanations, adding new examples, and
 > writing new exercises doesn’t reduce your workload, but increases
 > engagement and the lesson’s lifetime
-> (@@section@@s:process-maintainability@@).
+> ([SECTION][s:process-maintainability]).
 
 A major concern with any online community, learning or otherwise, is how
 to actually make it a community. Hundreds of books and presentations
@@ -285,8 +289,10 @@ to avoid giving them a reason to do so.
 
 ## Video
 
+@@label@@s:online-video@@
+
 A core element of cMOOCs is their reliance on recorded video lectures.
-As mentioned in @@chapter@@s:performance@@, a teaching technique called
+As mentioned in [CHAPTER][s:performance], a teaching technique called
 Direct Instruction that is based on precise delivery of a well-designed
 script has repeatedly been shown to be effective @@cite@@Stoc2018@@, so
 recorded videos can in principle be effective. However, scripts for
@@ -303,16 +309,18 @@ watching or reading.”
 
 If you are teaching programming, you may use screencasts instead of
 slides, since they offer some of the same advantages as live coding
-(@@section@@s:performance-live@@). @@cite@@Chen2009@@ offers useful tips
+([SECTION][s:performance-live]). @@cite@@Chen2009@@ offers useful tips
 for creating and critiquing screencasts and other videos;
-@@figure@@f:online-screencasting@@ reproduces the patterns that paper
+[FIGURE][f:online-screencasting] reproduces the patterns that paper
 presents and the relationships between them, and is also a good example
-of a concept map (@@section@@s:memory-concept-maps@@).
+of a concept map ([SECTION][s:memory-concept-maps]).
 
 \centering
 
 ![Patterns for Screencasting (from
-@@cite@@Chen2009@@)<span label="f:online-screencasting"></span>](../docs/fig/screencast.pdf)
+@@cite@@Chen2009@@)](../docs/fig/screencast.pdf)
+
+@@label@@f:online-screencasting@@
 
 @@cite@@Guo2014@@ measured engagement by looking at how long learners
 watched MOOC videos. Some of its key findings were:
@@ -380,6 +388,8 @@ with high prior knowledge were not disadvantaged.
 
 ## Flipped Classrooms
 
+@@label@@s:online-flipped@@
+
 Fully automated teaching is one way to use the web in teaching; in
 practice, almost all learning in affluent societies has an online
 component: sometimes officially, and if not, through peer-to-peer back
@@ -402,7 +412,7 @@ The most popular hybrid teaching strategy today is the
 watch recorded lessons on their own, and class time is used for
 discussion and to work through problem sets. Originally proposed in
 @@cite@@King1993@@, the idea was popularized as part of peer instruction
-(@@section@@s:classroom-peer@@), and has been studied intensively over
+([SECTION][s:classroom-peer]), and has been studied intensively over
 the past decade. For example, @@cite@@Camp2016@@ compared students who
 chose to take a CS1 class online with those who took it in person in a
 flipped classroom. Completion of (unmarked) practice exercises
@@ -426,6 +436,8 @@ benefits of providing recordings are greatest for students early in
 their careers, but diminish as students become more mature.
 
 ## Life Online
+
+@@label@@s:online-engagement@@
 
 @@cite@@Nuth2007@@ found that there are three overlapping worlds in
 every classroom: the public (what the teacher is saying and doing), the
@@ -502,7 +514,7 @@ other experts. Both found that student-assigned grades agreed with
 expert-assigned grades as often as the experts’ grades agreed with each
 other, and that a few simple steps (such as filtering out obviously
 unconsidered responses or structuring rubrics) decreased disagreement
-even further. And as discussed in @@section@@s:individual-peer@@,
+even further. And as discussed in [SECTION][s:individual-peer],
 collusion and bias are *not* significant factors in peer grading.
 
 @@cite@@Cumm2011@@ looked at the use of shareable feedback tags on
@@ -519,7 +531,7 @@ and worst students were more likely to share than middling students.
 > 
 > The most common way to measure the validity of feedback is to compare
 > students’ grades to experts’ grades, but calibrated peer review
-> (@@section@@s:individual-peer@@) can be equally effective. Before
+> ([SECTION][s:individual-peer]) can be equally effective. Before
 > asking learners to grade each others’ work, they are asked to grade
 > samples and compare their results with the grades assigned by the
 > teacher. Once the two align, the learner is allowed to start giving
@@ -529,9 +541,9 @@ and worst students were more likely to share than middling students.
 
 One technique we will definitely see more of in coming years is online
 streaming of live coding sessions @@cite@@Haar2017@@. This has most of
-the benefits discussed in @@section@@s:performance-live@@, and when
+the benefits discussed in [SECTION][s:performance-live], and when
 combined with collaborative note-taking
-(@@section@@s:classroom-notetaking@@) it can come pretty close to
+([SECTION][s:classroom-notetaking]) it can come pretty close to
 approximating an in-class experience.
 
 Looking even further ahead, @@cite@@Ijss2000@@ identified four levels of
@@ -553,7 +565,7 @@ engagement while reducing failure rates.
 > either on its own. I have delivered very successful classes using
 > real-time remote instruction, in which the learners are co-located at
 > 2–6 sites, with helpers present, while I taught via streaming video
-> (@@section@@s:joining-using@@). This scales well, saves on travel
+> ([SECTION][s:joining-using]). This scales well, saves on travel
 > costs, and is less disruptive for learners (particularly those with
 > family responsibilities). What *doesn’t* work is having one group in
 > person and one or more groups remotely: with the best will in the
@@ -572,6 +584,8 @@ but only a handful of these ideas are widely known or used.
 
 ## Exercises
 
+@@label@@s:online-exercises@@
+
 @@exercise@@Give Feedback on a Bad Screencast@@whole class@@20@@
 
 Watch [this screencast](https://youtu.be/xcnoHaxXvdQ) as a group and
@@ -581,7 +595,7 @@ person in the class add one point to a \(2{\times}2\) grid on a
 whiteboard (or in the shared notes) without duplicating any points that
 are already up there. What did other people see that you missed? What
 did they think that you strongly agree or disagree with? (You can
-compare your answers with the checklist in @@appendix@@s:teacheval@@.)
+compare your answers with the checklist in [APPENDIX][s:teacheval].)
 
 @@exercise@@Two-Way Video@@pairs@@10@@
 

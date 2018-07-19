@@ -4,6 +4,8 @@ title: "Marketing"
 ---
 # Marketing
 
+@@label@@s:marketing@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Explain what marketing actually is.
@@ -18,12 +20,14 @@ It’s hard to get people with academic or technical backgrounds to take
 perceived as being about spin and misdirection. In reality, it is the
 craft of seeing things from other people’s perspective, understanding
 their wants and needs, and finding ways to meet them. This should sound
-familiar: many of the techniques introduced in @@chapter@@s:process@@ do
+familiar: many of the techniques introduced in [CHAPTER][s:process] do
 exactly this for lessons. This chapter will look at how to apply similar
 ideas to the larger problem of getting people to understand and support
 what you’re doing.
 
 ## What Are You Offering to Whom?
+
+@@label@@s:marketing-what-whom@@
 
 The first step is to figure out what you are offering to whom, i.e.,
 what actually brings in the volunteers, funding, and other support you
@@ -55,7 +59,7 @@ actual product may be some mix of:
   - the personal satisfaction that your volunteer instructors get from
     teaching.
 
-As with the lesson design process in @@chapter@@s:process@@, you should
+As with the lesson design process in [CHAPTER][s:process], you should
 try to create personas to describe people who might be interested in
 what you’re doing and figure out which of their needs your program will
 meet. You should also write a set of
@@ -117,6 +121,8 @@ larger pool of potential employees further down the road, but the CEO
 might actually be doing it simply because it’s the right thing to do.
 
 ## Branding and Positioning
+
+@@label@@s:marketing-branding@@
 
 A @@glossref@@g:brand@@brand@@ is someone’s first reaction to a mention
 of a product; if the reaction is “what’s that?”, you don’t have a brand
@@ -186,7 +192,7 @@ them.
 
 > **Build Alliances**
 > 
-> As discussed in @@chapter@@s:community@@, building alliances with
+> As discussed in [CHAPTER][s:community], building alliances with
 > other groups that are doing things related to what you’re doing pays
 > off in many ways. One of those is referrals: if someone approaches you
 > for help, but would be better served by some other organization, take
@@ -198,6 +204,8 @@ them.
 \newpage 
 
 ## The Art of the Cold Call
+
+@@label@@s:marketing-cold-call@@
 
 Building a web site and hoping that people find it is one thing; calling
 people up or knocking on their door without any sort of prior
@@ -277,6 +285,8 @@ demoralizing if you’re not used to it.
 
 ## A Final Thought
 
+@@label@@s:marketing-final@@
+
 As @@cite@@Kuch2011@@ says, if you can’t be first in a category, create
 a new category that you can be first in; if you can’t do that, join an
 existing group or think about doing something else entirely. This isn’t
@@ -285,6 +295,8 @@ than you, there are probably lots of other equally useful things you
 could be doing instead.
 
 ## Exercises
+
+@@label@@s:marketing-exercises@@
 
 @@exercise@@Write an Elevator Pitch for a City
 Councillor@@individual@@10@@
@@ -322,7 +334,7 @@ to counteract each.
 @@exercise@@Why Learn to Program?@@individual@@15@@
 
 Revisit the “Why Learn to Program?” exercise in
-@@section@@s:intro-exercises@@. Where do your reasons for teaching and
+[SECTION][s:intro-exercises]. Where do your reasons for teaching and
 your learners’ reasons for learning align? Where are they not aligned?
 How does that affect your marketing?
 

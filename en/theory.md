@@ -4,6 +4,8 @@ title: "A Little Bit of Theory"
 ---
 # A Little Bit of Theory
 
+@@label@@s:theory@@
+
 One of the exercises in educational research is deciding what we mean by
 “learning”, which turns out to be pretty complicated once you start
 looking beyond the standardized Western classroom. Within the broad
@@ -16,7 +18,7 @@ answering low-level questions, but generally ignores larger issues like,
 is @@glossref@@g:situated-learning@@situated learning@@, which focuses
 on bringing people into a community, and recognizes that teaching and
 learning are always rooted in who we are and who we aspire to be. We
-will discuss it in more detail in @@chapter@@s:community@@.
+will discuss it in more detail in [CHAPTER][s:community].
 
 The [Learning Theories website](http://www.learning-theories.com/) and
 @@cite@@Wibu2016@@ have good summaries of these and other perspectives.

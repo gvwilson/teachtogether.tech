@@ -4,6 +4,8 @@ title: "Exercise Types"
 ---
 # Exercise Types
 
+@@label@@s:exercises@@
+
 > **After reading this chapter, you will be able to<span>…</span>**
 > 
 >   - Describe four types of formative assessment exercises for
@@ -26,10 +28,12 @@ in introductory computing.
 
 ## The Classics
 
-As @@section@@s:models-formative-assessment@@ discussed, *multiple
+@@label@@s:exercises-classics@@
+
+As [SECTION][s:models-formative-assessment] discussed, *multiple
 choice questions* (MCQs) are most effective when the wrong answers probe
 for specific misconceptions. In terms of Bloom’s Taxonomy
-(@@section@@s:process-objectives@@), MCQs are usually designed to test
+([SECTION][s:process-objectives]), MCQs are usually designed to test
 recall and understanding (“What is the capital of Saskatchewan?”), but
 they can also require learners to exercise judgment.
 
@@ -114,7 +118,7 @@ students a bit more sympathy for how hard their teachers work.
 given some starter code and has to complete it. (In practice, most C\&R
 exercises are actually fill in the blanks because the teacher will
 provide comments to remind the learners of the steps they should take.)
-As discussed in @@chapter@@s:load@@, novices often find filling in the
+As discussed in [CHAPTER][s:load], novices often find filling in the
 blanks less intimidating than writing all the code from scratch, and
 since the teacher has provided most of the answer’s structure,
 submissions are much more predictable and therefore easier to check.
@@ -127,7 +131,7 @@ submissions are much more predictable and therefore easier to check.
 >     slice = text[____:____]
 >     print(slice)
 
-As described in @@chapter@@s:load@@, also avoid the “blank screen of
+As described in [CHAPTER][s:load], also avoid the “blank screen of
 terror” problem. The learner is given the lines of code needed to solve
 a problem, but has to put them in the right order. Research over the
 past few years has shown that Parsons Problems are effective because
@@ -151,6 +155,8 @@ lines of code in an editor.
 >     for v in values
 
 ## Tracing
+
+@@label@@s:exercises-tracing@@
 
 *Tracing execution* is the inverse of a Parsons Problem: given a few
 lines of code, the learner has to trace the order in which those lines
@@ -273,8 +279,10 @@ human intervention.
 
 ## Diagrams
 
+@@label@@s:exercises-diagrams@@
+
 Having students draw concept maps and other diagrams gives insight into
-how they’re thinking (@@section@@s:memory-concept-maps@@), but free-form
+how they’re thinking ([SECTION][s:memory-concept-maps]), but free-form
 diagrams take human time and judgment to assess. *Labelling diagrams*,
 on the other hand, is almost as useful from a pedagogical point of view
 but much easier to scale.
@@ -358,9 +366,11 @@ constrained domains, e.g., “What is the key feature of a stable sorting
 algorithm?” We still can’t fully automate checks for these without a
 frustrating number of false positives (accepting wrong answers) and
 false negatives (rejecting correct ones), but they lend themselves well
-to peer grading (@@section@@s:individual-peer@@).
+to peer grading ([SECTION][s:individual-peer]).
 
 ## Automatic Grading
+
+@@label@@s:exercises-grading@@
 
 Automatic program grading tools have been around longer than I’ve been
 alive: the earliest published mention dates from 1960
@@ -465,12 +475,14 @@ revealing answers prematurely and not revealing them when it would help.
 
 ## Higher-Level Thinking
 
+@@label@@s:exercises-higher@@
+
 Many other kinds of programming exercises are hard for teachers to
 assess in a class with more than few dozen learners, and equally hard
 for automated platforms to assess at all. Larger programming projects,
 or projects in which learners set their own goals, are (hopefully) what
 classes are building toward. Free-form discussion or twitch coding
-(@@section@@s:performance-live@@) is also valuable, but also doesn’t
+([SECTION][s:performance-live]) is also valuable, but also doesn’t
 scale.
 
 *Code review*, on the other hand, is hard to grade automatically in the
@@ -485,7 +497,7 @@ guidance as to how many of each she should find.
 @@cite@@Steg2016b@@ is a good starting point for a code style rubric,
 while @@cite@@Luxt2009@@ looks at peer review in programming classes
 more generally. If you are going to have students do reviews, use
-calibrated peer review (@@section@@s:individual-peer@@) so that they
+calibrated peer review ([SECTION][s:individual-peer]) so that they
 have models of what good feedback should look like.
 
 > **Code Review**
@@ -510,6 +522,8 @@ have models of what good feedback should look like.
 > 4.  missing return value
 
 ## Exercises
+
+@@label@@s:exercises-exercises@@
 
 @@exercise@@Code and Run@@pairs@@10@@
 
@@ -564,7 +578,7 @@ or home directory; if the files used in a course are stored somewhere
 else, a substantial fraction won’t be able to navigate to the right
 directory without help. (If this seems like a small problem to you,
 please revisit the discussion of expert blind spot in
-@@chapter@@s:memory@@.)
+[CHAPTER][s:memory].)
 
 Working with a partner, make a list of “simple” things you have seen go
 wrong in exercises you have used or taken. How often do they come up?
