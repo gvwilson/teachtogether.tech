@@ -24,6 +24,11 @@ def figref(m):
 figref.pattern = re.compile(r'@@figure@@(.+?)@@')
 
 
+def glossdef(m):
+    return '**' + m.group(2) + '**{:#' + m.group(1) + '}:'
+glossdef.pattern = re.compile(r'@@glossdef@@(.+?)@@(.+?)@@')
+
+
 def glossref(m):
     return '**[{}](../gloss/#{})**'.format(m.group(2), m.group(1))
 glossref.pattern = re.compile(r'@@glossref@@(.+?)@@(.+?)@@')
@@ -34,7 +39,7 @@ def secref(m):
 secref.pattern = re.compile(r'@@section@@(.+?)@@')
 
 
-FUNCS = [appref, chapref, cite, figref, glossref, secref]
+FUNCS = [appref, chapref, cite, figref, glossdef, glossref, secref]
 
 
 def main():
