@@ -71,7 +71,7 @@ FUNCS = [
 ]
 
 
-startCalloutPat = re.compile(r'\\begin{callout}{(.+?)}')
+startCalloutPat = re.compile(r'\\begin{callout}{(.+)}')
 def startCallout(line):
     m = startCalloutPat.search(line)
     if m:

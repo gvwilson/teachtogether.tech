@@ -1,137 +1,126 @@
-\chapter{Checklists for Events}\label{s:events}
+---
+layout: chapter
+title: "Checklists for Events"
+---
+# Checklists for Events
 
-==cite==Gawa2007== popularized the idea that using checklists can save
+\==cite==Gawa2007== popularized the idea that using checklists can save
 lives (and make many other things better too). The results of recent
-studies have been more nuanced ==cite==Avel2013,Urba2014==, but we
-still find them useful, particularly when bringing new instructors
-onto a team.
+studies have been more nuanced ==cite==Avel2013,Urba2014==, but we still
+find them useful, particularly when bringing new instructors onto a
+team.
 
 The checklists below are used before, during, and after instructor
 training events, and can easily be adapted for end-learner workshops as
 well. We recommend that every group build and maintain its own
-checklists customized for its instructors' and learners' needs.
+checklists customized for its instructors’ and learners’ needs.
 
-\section*{Scheduling the Event}
+## Scheduling the Event
 
-\begin{enumerate}
-\item
-  Decide if it will be in person, online for one site, or online for
-  several sites.
-\item
-  Talk through expectations with the host(s) and make sure that everyone
-  agrees on who is covering travel costs.
-\item
-  Determine who is allowed to take part: is the event open to all
-  comers, restricted to members of one organization, or something in
-  between?
-\item
-  Arrange instructors.
-\item
-  Arrange space, including breakout rooms if needed.
-\item
-  Choose dates. If it is in person, book travel.
-\item
-  Get names and email addresses of attendees from host(s).
-\item
-  Make sure they are added to the registration system.
-\end{enumerate}
+1.  Decide if it will be in person, online for one site, or online for
+    several sites.
 
-\section*{Setting Up}
+2.  Talk through expectations with the host(s) and make sure that
+    everyone agrees on who is covering travel costs.
 
-\begin{enumerate}
-\item
-  Set up a web page with details on the workshop, including date,
-  location, and a list of what participants need to bring.
-\item
-  Check whether any attendees have special needs.
-\item
-  If the workshop is online, test the video conferencing link.
-\item
-  Make sure attendees will all have network access.
-\item
-  Create an Etherpad or Google Doc for shared notes.
-\item
-  Email attendees a welcome message that includes a link to the workshop
-  home page, background readings, and a description of any prerequisite
-  tasks.
-\end{enumerate}
+3.  Determine who is allowed to take part: is the event open to all
+    comers, restricted to members of one organization, or something in
+    between?
 
-\section*{At the Start of the Event}
+4.  Arrange instructors.
 
-\begin{enumerate}
-\item
-  Remind everyone of the code of conduct.
-\item
-  Collect attendance.
-\item
-  Distribute sticky notes.
-\item
-  Collect any relevant online account IDs.
-\end{enumerate}
+5.  Arrange space, including breakout rooms if needed.
 
-\section*{At the End of the Event}
+6.  Choose dates. If it is in person, book travel.
 
-\begin{enumerate}
-\item
-  Update attendance records. Be sure to also record who participated as
-  an instructor or helper.
-\item
-  Administer a post-workshop survey.
-\item
-  Update the course notes and/or checklists.
-\end{enumerate}
+7.  Get names and email addresses of attendees from host(s).
 
-\section*{Travel Kit}
+8.  Make sure they are added to the registration system.
+
+## Setting Up
+
+1.  Set up a web page with details on the workshop, including date,
+    location, and a list of what participants need to bring.
+
+2.  Check whether any attendees have special needs.
+
+3.  If the workshop is online, test the video conferencing link.
+
+4.  Make sure attendees will all have network access.
+
+5.  Create an Etherpad or Google Doc for shared notes.
+
+6.  Email attendees a welcome message that includes a link to the
+    workshop home page, background readings, and a description of any
+    prerequisite tasks.
+
+## At the Start of the Event
+
+1.  Remind everyone of the code of conduct.
+
+2.  Collect attendance.
+
+3.  Distribute sticky notes.
+
+4.  Collect any relevant online account IDs.
+
+## At the End of the Event
+
+1.  Update attendance records. Be sure to also record who participated
+    as an instructor or helper.
+
+2.  Administer a post-workshop survey.
+
+3.  Update the course notes and/or checklists.
+
+## Travel Kit
 
 Here are a few things instructors take with them when they travel to
 teach:
 
-\begin{itemize}
-\item
-  sticky notes
-\item
-  cough drops
-\item
-  comfortable shoes
-\item
-  a small notepad
-\item
-  a spare power adapter
-\item
-  a spare shirt
-\item
-  deodorant
-\item
-  a variety of video adapters
-\item
-  laptop stickers
-\item
-  a toothbrush or some mouthwash
-\item
-  a granola bar or some other emergency snack
-\item
-  Eno or some other antacid (because road food)
-\item
-  business cards
-\item
-  a printed copy of the notes, or a tablet or other device
-\item
-  an insulated cup for tea/coffee
-\item
-  spare glasses/contacts
-\item
-  a notebook and pen
-\item
-  a portable WiFi hub (in case the room's network isn't working)
-\item
-  extra whiteboard markers
-\item
-  a laser pointer
-\item
-  a packet of wet wipes (because spills happen)
-\item
-  USB drives with installers for various operating systems
-\item
-  running shoes, a bathing suit, a yoga mat, or whatever else you
-  exercise in or with
-\end{itemize}
+  - sticky notes
+
+  - cough drops
+
+  - comfortable shoes
+
+  - a small notepad
+
+  - a spare power adapter
+
+  - a spare shirt
+
+  - deodorant
+
+  - a variety of video adapters
+
+  - laptop stickers
+
+  - a toothbrush or some mouthwash
+
+  - a granola bar or some other emergency snack
+
+  - Eno or some other antacid (because road food)
+
+  - business cards
+
+  - a printed copy of the notes, or a tablet or other device
+
+  - an insulated cup for tea/coffee
+
+  - spare glasses/contacts
+
+  - a notebook and pen
+
+  - a portable WiFi hub (in case the room’s network isn’t working)
+
+  - extra whiteboard markers
+
+  - a laser pointer
+
+  - a packet of wet wipes (because spills happen)
+
+  - USB drives with installers for various operating systems
+
+  - running shoes, a bathing suit, a yoga mat, or whatever else you
+    exercise in or with

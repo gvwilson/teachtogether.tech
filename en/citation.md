@@ -1,8 +1,10 @@
-\chapter{Citation}\label{s:citation}
+---
+layout: chapter
+title: "Citation"
+---
+# Citation
 
 Please cite this work as:
 
-\begin{quote}
-Greg Wilson (ed.): \emph{Teaching Tech Together}.  Lulu.com, 2018,
-==isbn==, ==website==.
-\end{quote}
+> Greg Wilson (ed.): *Teaching Tech Together*. Lulu.com, 2018, ==isbn==,
+> ==website==.
