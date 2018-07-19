@@ -19,6 +19,11 @@ def cite(m):
 cite.pattern = re.compile(r'@@cite@@(.+?)@@')
 
 
+def exercise(m):
+    return '### {}\n**({}/{})**'.format(m.group(1), m.group(2), m.group(3))
+exercise.pattern = re.compile(r'@@exercise@@(.+?)@@(.+?)@@(.+?)@@')
+
+
 def figref(m):
     return '[FIGURE][{}]'.format(m.group(1))
 figref.pattern = re.compile(r'@@figure@@(.+?)@@')
@@ -39,7 +44,7 @@ def secref(m):
 secref.pattern = re.compile(r'@@section@@(.+?)@@')
 
 
-FUNCS = [appref, chapref, cite, figref, glossdef, glossref, secref]
+FUNCS = [appref, chapref, cite, exercise, figref, glossdef, glossref, secref]
 
 
 def main():

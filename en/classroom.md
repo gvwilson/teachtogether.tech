@@ -715,41 +715,47 @@ workshop, it’s probably best to be conservative in your approach.
 
 @@label@@s:classroom-exercises@@
 
-@@exercise@@Create a Questionnaire@@individual@@20@@
+### Create a Questionnaire
+**(individual/20)**
 
 Using the questionnaire in [APPENDIX][s:preassess] as a template,
 create a short questionnaire you could give learners before teaching a
 class of your own. What do you most want to know about their background?
 
-@@exercise@@One of Your Own@@whole class@@15@@
+### One of Your Own
+**(whole class/15)**
 
 Think of one teaching practice that hasn’t been described so far.
 Present your idea to a partner, listen to theirs, and select one to
 present to the group as a whole. (This exercise is an example of
 think-pair-share.)
 
-@@exercise@@May I Drive?@@pairs@@10@@
+### May I Drive?
+**(pairs/10)**
 
 Swap computers with a partner (preferably one who uses a different
 operating system than you) and work through a simple programming
 exercise. How frustrating is it? How much insight does it give you into
 what novices have to go through all the time?
 
-@@exercise@@Pairing@@pairs@@15@@
+### Pairing
+**(pairs/15)**
 
 Watch [this video](https://www.youtube.com/watch?v=vgkahOzFH2Q) of pair
 programming, then practice doing it with a partner. Remember to switch
 roles between driver and navigator every few minutes. How long does it
 take you to fall into a working rhythm?
 
-@@exercise@@Compare Notes@@small groups@@15@@
+### Compare Notes
+**(small groups/15)**
 
 From groups of 3–4 people and compare the notes that each person has
 taken while reading this material or following along with it in class.
 What did you think was noteworthy that your peers missed and vice versa?
 What did you understand differently?
 
-@@exercise@@Credibility@@individual@@15@@
+### Credibility
+**(individual/15)**
 
 [[Fink2013](../bib/#Fink2013)] describes three things that make teachers credible in
 their learners’ eyes:
@@ -770,7 +776,8 @@ Describe one thing you do when teaching that fits into each category,
 and then describe one thing you *don’t* do but should for each category
 as well.
 
-@@exercise@@Measuring Effectiveness@@individual@@15@@
+### Measuring Effectiveness
+**(individual/15)**
 
 [[Kirk1994](../bib/#Kirk1994)] defines four levels at which to evaluate training:
 
@@ -790,7 +797,8 @@ as well.
 What are you doing at each level to evaluate what and how you teach?
 What could you do that you’re not doing?
 
-@@exercise@@Objections and Counter-Objections@@think-pair-share@@15@@
+### Objections and Counter-Objections
+**(think-pair-share/15)**
 
 You have decided not to ask your learners if your class was useful,
 because you know that there is no correlation between their answers and

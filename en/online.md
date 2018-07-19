@@ -586,7 +586,8 @@ but only a handful of these ideas are widely known or used.
 
 @@label@@s:online-exercises@@
 
-@@exercise@@Give Feedback on a Bad Screencast@@whole class@@20@@
+### Give Feedback on a Bad Screencast
+**(whole class/20)**
 
 Watch [this screencast](https://youtu.be/xcnoHaxXvdQ) as a group and
 give feedback on it. Organize feedback along two axes: positive
@@ -597,14 +598,16 @@ are already up there. What did other people see that you missed? What
 did they think that you strongly agree or disagree with? (You can
 compare your answers with the checklist in [APPENDIX][s:teacheval].)
 
-@@exercise@@Two-Way Video@@pairs@@10@@
+### Two-Way Video
+**(pairs/10)**
 
 Record a 2–3 minute video of yourself doing something, then swap
 machines with a partner so that each of you can watch the other’s video
 at 4X speed. How easy is it to follow what’s going on? What if anything
 did you miss?
 
-@@exercise@@Viewpoints@@individual@@10@@
+### Viewpoints
+**(individual/10)**
 
 According to [[Irib2009](../bib/#Irib2009)], different disciplines focus on
 different factors affecting the success or otherwise of online
@@ -626,7 +629,8 @@ communities:
 Which of these perspectives most closely corresponds to your own? Which
 are you least aligned with?
 
-@@exercise@@Helping or Harming@@small groups@@30@@
+### Helping or Harming
+**(small groups/30)**
 
 [Susan Dynarski’s article in the *New York
 Times*](https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html)

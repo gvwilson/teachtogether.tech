@@ -683,7 +683,8 @@ return to this topic in [CHAPTER][s:community].
 
 @@label@@s:motivation-exercises@@
 
-@@exercise@@Authentic Tasks@@pairs@@15@@
+### Authentic Tasks
+**(pairs/15)**
 
 Think about something you did this week that uses one or more of the
 skills you teach, (e.g., wrote a function, bulk downloaded data, did
@@ -699,7 +700,8 @@ simplified version of it) as an exercise or example in class.
 3.  Discuss how these relate back to the “teach most immediately useful
     first” approach.
 
-@@exercise@@Core Needs@@whole class@@10@@
+### Core Needs
+**(whole class/10)**
 
 Paloma Medina identifies [six core
 needs](https://www.palomamedina.com/biceps) for people at work:
@@ -710,7 +712,8 @@ then compare rankings with your class using 6 points for most important,
 5 for next, and so on down to 1 for least important. How do you think
 your rankings compare with those of your learners?
 
-@@exercise@@Implement One Strategy for Inclusivity@@individual@@5@@
+### Implement One Strategy for Inclusivity
+**(individual/5)**
 
 Pick one activity or change in practice from [[Lee2017](../bib/#Lee2017)] that you
 would like to work on. Put a reminder in your calendar three months in
@@ -732,14 +735,16 @@ Strategies@@think-pair-share@@20@@
     could have been done differently. This will give everyone some
     confidence in how to handle these situations in the future.
 
-@@exercise@@Demotivational Experiences@@think-pair-share@@15@@
+### Demotivational Experiences
+**(think-pair-share/15)**
 
 Think back to a time when you demotivated a student (or when you were
 demotivated as a student). Pair up with your neighbor and discuss what
 you could have done differently in the situation, and then share the
 story and what could have been done in the group notes.
 
-@@exercise@@Walk the Route@@whole class@@15@@
+### Walk the Route
+**(whole class/15)**
 
 Find the nearest public transportation drop-off point to your building
 and walk from there to your office and then to the nearest washroom,
@@ -748,7 +753,8 @@ mobility issues. Now borrow a wheelchair and repeat the journey. How
 complete was your list of exercises? And did you notice that the first
 sentence in this exercise assumed you could actually walk?
 
-@@exercise@@Who Decides?@@whole class@@15@@
+### Who Decides?
+**(whole class/15)**
 
 In [[Litt2004](../bib/#Litt2004)], Kenneth Wesson wrote, “If poor inner-city
 children consistently outscored children from wealthy suburban homes on
@@ -758,13 +764,15 @@ article](https://mobile.nytimes.com/2016/04/10/upshot/why-talented-black-and-his
 by Cameron Cottrill, and then describe an example from your own
 experience of “objective” assessments that reinforced the status quo.
 
-@@exercise@@Common Stereotypes@@pairs@@10@@
+### Common Stereotypes
+**(pairs/10)**
 
 You will (still) sometimes hear people say, “It’s so simple that even
 your grandmother could use it.” In pairs, list two or three other
 phrases that reinforce stereotypes about computing.
 
-@@exercise@@Not Being a Jerk@@individual@@15@@
+### Not Being a Jerk
+**(individual/15)**
 
 [This short
 article](https://www.destroyallsoftware.com/blog/2018/a-case-study-in-not-being-a-jerk-in-open-source)
@@ -773,14 +781,16 @@ rude. Using it as a model, find something unpleasant on [Stack
 Overflow](http://stackoverflow.com) or some other public discussion
 forum and rewrite it to be less repellant.
 
-@@exercise@@Saving Face@@individual@@10@@
+### Saving Face
+**(individual/10)**
 
 Are there any aspects of what you want to teach that members of your
 hoped-for audience might be embarrassed to admit to not knowing already?
 Are there any that they would rather their peers didn’t know they were
 learning? If so, what can you do to help them save face?
 
-@@exercise@@After the Fact@@whole class@@15@@
+### After the Fact
+**(whole class/15)**
 
 [[Cutt2017](../bib/#Cutt2017)] surveyed adult computer users about their childhood
 activities and found that the strongest correlation between confidence
@@ -790,7 +800,8 @@ searching online for ideas programmers have about how to tell if someone
 is going to be a good coder, or what non-coding activities correlate
 with programming ability, and see if these two ever come up.
 
-@@exercise@@How Accessible Are Your Lessons?@@pairs@@30@@
+### How Accessible Are Your Lessons?
+**(pairs/30)**
 
 In pairs, choose a lesson whose materials are online and independently
 rank it according to the do’s and don’ts in [these
@@ -798,7 +809,8 @@ posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing
 Where did you and your partner agree? Where did you disagree? How well
 did the lesson do for each of the six categories of user?
 
-@@exercise@@Tracing the Cycle@@small groups@@15@@
+### Tracing the Cycle
+**(small groups/15)**
 
 [[Coco2018](../bib/#Coco2018)] traces a depressingly common pattern in which good
 intentions are undermined by an organization’s leadership being

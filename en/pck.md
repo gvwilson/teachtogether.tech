@@ -767,7 +767,8 @@ has a collection of lessons and exercises for doing this.
 
 @@label@@s:pck-exercises@@
 
-@@exercise@@Checking for Common Errors@@individual@@20@@
+### Checking for Common Errors
+**(individual/20)**
 
 This list of common errors is taken from [[Sirk2012](../bib/#Sirk2012)]. Pick three,
 and write an exercise for each to check that learners *aren’t* making
@@ -806,7 +807,8 @@ that mistake.
     The student tries to call a method from a class without first
     creating an instance of the class.
 
-@@exercise@@Mangled Code@@pairs@@15@@
+### Mangled Code
+**(pairs/15)**
 
 [[Chen2017](../bib/#Chen2017)] describes exercises in which students reconstruct
 code that has been mangled by removing comments, deleting or replacing
@@ -818,7 +820,8 @@ questions require less (in-person) work to mark. Take the solution to a
 programming exercise you’ve created in the past, mangle it in two
 different ways, and swap with a partner.
 
-@@exercise@@The Rainfall Problem@@pairs@@10@@
+### The Rainfall Problem
+**(pairs/10)**
 
 [[Solo1986](../bib/#Solo1986)] introduced the Rainfall Problem: write a program that
 repeatedly reads in positive integers until it reads the integer 99999.
@@ -829,7 +832,8 @@ programming [[Fisl2014](../bib/#Fisl2014),[Simo2013](../bib/#Simo2013),[Sepp2015
 Solve the Rainfall Problem in the programming language of your choice.
 Compare your solutions with those of your partner.
 
-@@exercise@@Roles of Variables@@pairs@@15@@
+### Roles of Variables
+**(pairs/15)**
 
 Take a short program you have written (5–15 lines) and classify each of
 its variables using the categories defined in
@@ -837,32 +841,37 @@ its variables using the categories defined in
 of a partner: where did you agree? When you disagreed, did you
 understand each other’s view?
 
-@@exercise@@Choose Your Own Adventures@@individual@@10@@
+### Choose Your Own Adventures
+**(individual/10)**
 
 Which of the three approaches described in [[Sorv2014](../bib/#Sorv2014)]
 ([SECTION][s:pck-now]) do you use when teaching? Or is your approach
 best described in some other way?
 
-@@exercise@@What Are You Teaching?@@individual@@10@@
+### What Are You Teaching?
+**(individual/10)**
 
 Compare the topics you teach to the list developed in [[Luxt2017](../bib/#Luxt2017)]
 ([SECTION][s:pck-now]). Which topics do you cover? What extra topics
 do you cover that aren’t in their list?
 
-@@exercise@@Beneficial Activities@@individual@@10@@
+### Beneficial Activities
+**(individual/10)**
 
 Look at the list of interventions developed by [[Viha2014](../bib/#Viha2014)]
 ([SECTION][s:pck-help]). Which of these things do you already do in
 your classes? Which ones could you easily add? Which ones are
 irrelevant?
 
-@@exercise@@Visualizations@@individual@@10@@
+### Visualizations
+**(individual/10)**
 
 What visualization do you most like to use when teaching? Is it a static
 image or an animation? Do you show it to your learners, do they discover
 it on their own, or something in between?
 
-@@exercise@@Misconceptions and Challenges@@small groups@@15@@
+### Misconceptions and Challenges
+**(small groups/15)**
 
 The [Professional Development for CS Principles
 Teaching](http://www.pd4cs.org/) site includes [a detailed list of

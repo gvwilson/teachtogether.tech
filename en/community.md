@@ -472,12 +472,14 @@ have any trouble finding something else to keep you busy.
 Several of these exercises are taken from [[Brow2007](../bib/#Brow2007)], which is
 an exceptionally useful book on building community organizations.
 
-@@exercise@@What Kind of Community?@@individual@@15@@
+### What Kind of Community?
+**(individual/15)**
 
 Re-read the discussion in the introduction of types of communities and
 decide which type or types your group is, or aspires to be.
 
-@@exercise@@People You May Meet@@small groups@@30@@
+### People You May Meet
+**(small groups/30)**
 
 As an organizer, part of your job is sometimes to help people find a way
 to contribute despite themselves. In small groups, pick three of the
@@ -523,7 +525,8 @@ contributor to your organization.
     maybe you should find another team.” His favorite phrase is, “That’s
     stupid,” and he uses obscenity in every second sentence.
 
-@@exercise@@Values@@small groups@@45@@
+### Values
+**(small groups/45)**
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -545,7 +548,8 @@ answers to those given by other members of your group.
 7.  What are some key behaviors that would demonstrate the opposite of
     the values you want to have?
 
-@@exercise@@Meeting Procedures@@small groups@@30@@
+### Meeting Procedures
+**(small groups/30)**
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -574,7 +578,8 @@ answers to those given by other members of your group.
 
 11. Is this working for your group?
 
-@@exercise@@Size@@small groups@@20@@
+### Size
+**(small groups/20)**
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -589,7 +594,8 @@ answers to those given by other members of your group.
 
 5.  Would you benefit from setting such a limit?
 
-@@exercise@@Staffing@@small groups@@30@@
+### Staffing
+**(small groups/30)**
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -625,7 +631,8 @@ answers to those given by other members of your group.
 
 13. Are these the benefits that you want to give?
 
-@@exercise@@Money@@small groups@@30@@
+### Money
+**(small groups/30)**
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -652,7 +659,8 @@ answers to those given by other members of your group.
 
 11. Is this how you want to spend your money?
 
-@@exercise@@Becoming a Member@@small groups@@45@@
+### Becoming a Member
+**(small groups/45)**
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -671,7 +679,8 @@ answers to those given by other members of your group.
 
 7.  Are there membership dues?
 
-@@exercise@@Borrowing Ideas@@whole class@@15@@
+### Borrowing Ideas
+**(whole class/15)**
 
 Many of our ideas about how to build a community have been shaped by our
 experience of working in open source software development.
@@ -684,7 +693,8 @@ Project” or “Leadership and Governance”, read it through, and give a
 two-minute presentation to the group of one idea from it that you found
 useful or that you strongly disagreed with.
 
-@@exercise@@Who Are You?@@small groups@@20@@
+### Who Are You?
+**(small groups/20)**
 
 The National Oceanic and Atmospheric Administration (NOAA) has published
 a short, amusing, and above all useful guide to [dealing with disruptive

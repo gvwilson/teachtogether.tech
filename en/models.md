@@ -300,7 +300,8 @@ problems beforehand.
 
 @@label@@s:models-exercises@@
 
-@@exercise@@Your Mental Models@@think-pair-share@@15@@
+### Your Mental Models
+**(think-pair-share/15)**
 
 What is one mental model you use to understand your work? Write a few
 sentences describing it, and give feedback on a partner’s. Once you have
@@ -309,12 +310,14 @@ Does everyone agree on what a mental model is? Is it possible to give a
 precise definition, or is the concept useful precisely because it is a
 bit fuzzy?
 
-@@exercise@@Symptoms of Being a Novice@@whole class@@5@@
+### Symptoms of Being a Novice
+**(whole class/5)**
 
 What are the symptoms of being a novice? I.e., what does someone do or
 say that leads you to classify them as a novice in some domain?
 
-@@exercise@@Modelling Novice Mental Models@@pairs@@20@@
+### Modelling Novice Mental Models
+**(pairs/20)**
 
 Create a multiple choice question related to a topic you have taught or
 intend to teach and explain the diagnostic power of each its distractors
@@ -324,7 +327,8 @@ When you are done, trade MCQs with a partner. Is their question
 ambiguous? Are the misconceptions plausible? Do the distractors actually
 test for them? Are any likely misconceptions *not* tested for?
 
-@@exercise@@Other Kinds of Formative Assessment@@whole class@@20@@
+### Other Kinds of Formative Assessment
+**(whole class/20)**
 
 A good formative assessment requires people to think through a problem.
 For example, imagine that you have placed a block of ice in a bathtub
@@ -347,7 +351,8 @@ Describe another kind of formative assessment you have seen or used and
 explain how it helps both the instructor and the learner figure out
 where they are and what they need to do next.
 
-@@exercise@@A Different Progression@@individual@@15@@
+### A Different Progression
+**(individual/15)**
 
 The model of skill development described at the start of this chapter is
 sometimes called the [Dreyfus
@@ -372,12 +377,14 @@ competence](https://en.wikipedia.org/wiki/Four_stages_of_competence):
 Identify one subject where you are at each level. What level are most of
 your learners at? What level are you trying to get them to?
 
-@@exercise@@What Kind of Book Is This?@@small groups@@5@@
+### What Kind of Book Is This?
+**(small groups/5)**
 
 What are the chapters in the main body of this book: a tutorial or a
 manual? What about the appendices? Why?
 
-@@exercise@@What Kind of Computing?@@individual@@10@@
+### What Kind of Computing?
+**(individual/10)**
 
 [[Tedr2008](../bib/#Tedr2008)] summarizes three traditions in computing:
 

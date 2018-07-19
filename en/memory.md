@@ -418,14 +418,16 @@ A common progression is for people to go through three stages:
 
 @@label@@s:memory-exercises@@
 
-@@exercise@@Concept Mapping@@pairs@@30@@
+### Concept Mapping
+**(pairs/30)**
 
 Draw a concept map for something you would teach in five minutes. Trade
 with a partner, and critique each other’s maps. Do they present concepts
 or surface detail? Which of the relationships in your partner’s map do
 you consider concepts and vice versa?
 
-@@exercise@@Concept Mapping (Again)@@small groups@@20@@
+### Concept Mapping (Again)
+**(small groups/20)**
 
 Working in groups of 3–4, have each person independently draw a concept
 map showing their mental model of what goes on in a classroom. When
@@ -433,14 +435,16 @@ everyone is done, compare the concept maps. Which concepts and
 relationships are common? Which are different? Where do your mental
 models agree and disagree?
 
-@@exercise@@A Concept Map for This Material@@individual@@30@@
+### A Concept Map for This Material
+**(individual/30)**
 
 After you have finished going through this material (not just this
 chapter), pick one small topic, draw a concept map for it, and send it
 to us ([APPENDIX][s:joining]). If we decide to add it to this book, we
 will add you to the credits in the introduction.
 
-@@exercise@@Noticing Your Blind Spot@@small groups@@10@@
+### Noticing Your Blind Spot
+**(small groups/10)**
 
 Consider all the things you have to know to understand this one line of
 Python source code:

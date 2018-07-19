@@ -332,7 +332,8 @@ you have learners answer them a few days before a class or workshop
 starts, they will give you a much clearer idea of who they are and how
 best you can help them.
 
-@@exercise@@Highs and Lows@@whole class@@5@@
+### Highs and Lows
+**(whole class/5)**
 
 Write brief answers to the following questions and share with your
 peers. (If you are taking notes together online as described in
@@ -343,7 +344,8 @@ peers. (If you are taking notes together online as described in
 
 2.  What was the worst one? What made it so bad?
 
-@@exercise@@Know Thyself@@whole class@@5@@
+### Know Thyself
+**(whole class/5)**
 
 Write brief answers to the following questions and share them as
 described above. Keep your answers somewhere so that you can refer to
@@ -357,7 +359,8 @@ them as you go through the rest of this book.
 
 4.  How will you know if you’re teaching well?
 
-@@exercise@@Starting Points@@individual@@5@@
+### Starting Points
+**(individual/5)**
 
 Write brief answers to the following questions and share them as
 described above. Keep your answers somewhere so that you can refer to
@@ -368,7 +371,8 @@ them as you go through the rest of this book.
 2.  What is one specific thing you believe is true about teaching and
     learning?
 
-@@exercise@@Why Learn to Program?@@individual@@20@@
+### Why Learn to Program?
+**(individual/20)**
 
 Re-read Guzdial’s list of reasons to learn to program in
 [SECTION][s:intro-why], then draw a \(3{\times}3\) grid whose axes are
