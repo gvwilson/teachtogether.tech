@@ -224,7 +224,7 @@ scrutiny](http://third-bit.com/2016/04/29/why-teachers-dont-collaborate.html).
 
 [Software Carpentry](http://software-carpentry.org) is proof by
 implementation that a teaching commons can produce and maintain
-high-quality lessons that hundreds of people can use @@cite@@Wils2016@@.
+high-quality lessons that hundreds of people can use [[Wils2016](../bib/#Wils2016)].
 I hope you will choose to help us do the same for this book. If you are
 new to working this way:
 

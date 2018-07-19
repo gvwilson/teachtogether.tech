@@ -20,7 +20,7 @@ title: "Building Mental Models"
 The first task in teaching is to figure out who your learners are and
 what they already know. Our approach is based on the work of researchers
 like Patricia Benner, who studied how nurses progress from being novices
-to being experts @@cite@@Benn2000@@. Benner identified five stages of
+to being experts [[Benn2000](../bib/#Benn2000)]. Benner identified five stages of
 cognitive development that most people go through in a fairly consistent
 way. (We say “most” and “fairly” because human beings are highly
 variable; obsessing over how a few geniuses taught or learned isn’t
@@ -71,7 +71,7 @@ other subjects is the best they can do.
 Presenting novices with a pile of facts is counter-productive, because
 they don’t yet have a model to fit those facts into. In fact, presenting
 too many facts too soon can actually reinforce the incorrect mental
-model they’ve cobbled together—as @@cite@@Mull2007a@@ observed in a
+model they’ve cobbled together—as [[Mull2007a](../bib/#Mull2007a)] observed in a
 study of video instruction for science students:
 
 > Students have existing ideas about<span>…</span>phenomena before
@@ -106,16 +106,16 @@ obvious (though they are anything *but* obvious to novices). Equally,
 manuals frustrate novices because they use jargon and *don’t* explain
 things. This phenomenon is called the
 @@glossref@@g:expertise-reversal@@expertise reversal effect@@
-@@cite@@Kaly2003@@, and is another reason you have to decide early on
+[[Kaly2003](../bib/#Kaly2003)], and is another reason you have to decide early on
 who your lessons are meant for.
 
 > **A Handful of Exceptions**
 > 
 > One of the reasons Unix and C became popular is that Kernighan et al’s
-> trilogy @@cite@@Kern1978,Kern1983,Kern1988@@ somehow managed to be
+> trilogy [[Kern1978](../bib/#Kern1978),[Kern1983](../bib/#Kern1983),[Kern1988](../bib/#Kern1988)] somehow managed to be
 > good tutorials *and* good manuals at the same time. Ray and Ray’s book
-> on Unix @@cite@@Ray2014@@ and Fehily’s introduction to SQL
-> @@cite@@Fehi2008@@ are among the very few other books in computing
+> on Unix [[Ray2014](../bib/#Ray2014)] and Fehily’s introduction to SQL
+> [[Fehi2008](../bib/#Fehi2008)] are among the very few other books in computing
 > that have accomplished this; even after re-reading them several times,
 > I don’t know how they manage to do it.
 
@@ -142,7 +142,7 @@ categories:
   - Fundamental beliefs  
     such as “the world is only a few thousand years old” or “some kinds
     of people are just naturally better at programming than others”
-    @@cite@@Guzd2015b,Pati2016@@. These are also broken models, but
+    [[Guzd2015b](../bib/#Guzd2015b),[Pati2016](../bib/#Pati2016)]. These are also broken models, but
     often deeply connected to the learner’s social identity, so they
     resist evidence and reason.
 
@@ -173,7 +173,7 @@ probably the multiple choice question (MCQ). A lot of teachers have a
 low opinion of them, but when they are designed well, they can reveal
 much more than just whether someone knows specific facts. For example,
 suppose you are teaching children how to do multi-digit addition
-@@cite@@Ojos2015@@, and you give them this MCQ:
+[[Ojos2015](../bib/#Ojos2015)], and you give them this MCQ:
 
 > What is 37 + 15?  
 > a) 52  
@@ -218,7 +218,7 @@ Problems ([CHAPTER][s:load]) and matching problems
 ([SECTION][s:exercises-diagrams]) are also quick and unambiguous.
 Short-answer questions are another option: if answers are 2–5 words
 long, there are few enough plausible answers to make scalable assessment
-possible @@cite@@Mill2016a@@.
+possible [[Mill2016a](../bib/#Mill2016a)].
 
 Developing formative assessment is useful even if you don’t use them in
 class because it forces you to think about your learners’ mental models
@@ -228,7 +228,7 @@ pick, you should use something that takes a minute or two every 10–15
 minutes to make sure that your learners are actually learning. That way,
 if a significant number of people have fallen behind, only a short
 portion of the lesson will have to be repeated. This rhythm isn’t based
-on an intrinsic attentional limit: @@cite@@Wils2007@@ found little
+on an intrinsic attentional limit: [[Wils2007](../bib/#Wils2007)] found little
 support for the often-repeated claim that students can only pay
 attention for 10–15 minutes. If you are teaching online
 ([CHAPTER][s:online]), you should check in much more often to keep
@@ -257,18 +257,18 @@ need; it’s your responsibility as a teacher to make the call.
 > **Concept Inventories**
 > 
 > Given enough data, MCQs can be made surprisingly precise. The
-> best-known example is the Force Concept Inventory @@cite@@Hest1992@@,
+> best-known example is the Force Concept Inventory [[Hest1992](../bib/#Hest1992)],
 > which assesses understanding of basic Newtonian mechanics. By
 > interviewing a large number of respondents, correlating their
 > misconceptions with patterns of right and wrong answers, and then
 > improving the questions, its creators constructed a diagnostic tool
 > that can pinpoint specific misconceptions. Researchers can then use
 > that tool to measure how effective changes in teaching methods are
-> @@cite@@Hake1998@@.
+> [[Hake1998](../bib/#Hake1998)].
 > 
 > Tew and others developed and validated a language-independent
-> assessment for introductory programming @@cite@@Tew2011@@;
-> @@cite@@Park2016@@ has replicated it, and @@cite@@Hamo2017@@ is
+> assessment for introductory programming [[Tew2011](../bib/#Tew2011)];
+> [[Park2016](../bib/#Park2016)] has replicated it, and [[Hamo2017](../bib/#Hamo2017)] is
 > developing a concept inventory for recursion. However, it’s very
 > costly to build tools like this, and students’ ability to search for
 > answers online is an ever-increasing threat to their validity.
@@ -341,7 +341,7 @@ same ([FIGURE][f:models-bathtub])?
 The correct answer is that the level stays the same: the ice displaces
 its own weight in water, so it exactly fills the “hole” it has made when
 it melts. Figuring out why helps people build a model of the
-relationship between weight, volume, and density @@cite@@Epst2002@@.
+relationship between weight, volume, and density [[Epst2002](../bib/#Epst2002)].
 
 Describe another kind of formative assessment you have seen or used and
 explain how it helps both the instructor and the learner figure out
@@ -379,7 +379,7 @@ manual? What about the appendices? Why?
 
 @@exercise@@What Kind of Computing?@@individual@@10@@
 
-@@cite@@Tedr2008@@ summarizes three traditions in computing:
+[[Tedr2008](../bib/#Tedr2008)] summarizes three traditions in computing:
 
   - Mathematical:  
     Programs are the embodiment of algorithms; they are either correct

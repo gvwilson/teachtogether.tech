@@ -25,9 +25,9 @@ title: "Teaching as a Performance Art"
 As [CHAPTER][s:pck] explained, every teacher needs content knowledge,
 general pedagogical knowledge, and pedagogical content knowledge in
 order to be effective. We can elaborate this framework by adding
-technology to the mix @@cite@@Koeh2013@@, but that doesn’t change the
+technology to the mix [[Koeh2013](../bib/#Koeh2013)], but that doesn’t change the
 key point: it isn’t enough to know the subject, or how to teach—you have
-to know how to teach that particular subject @@cite@@Maye2004@@.
+to know how to teach that particular subject [[Maye2004](../bib/#Maye2004)].
 
 This chapter therefore focuses on one key aspect of teaching: giving a
 lecture or a live demonstration in front of a class. It isn’t the only
@@ -38,9 +38,9 @@ that will make you better at doing it can be applied elsewhere as well.
 > 
 > The [CS Teaching Tips](http://csteachingtips.org/) site is collecting
 > PCK for teaching programming, and I hope that one day we will have
-> catalogs like @@cite@@Ojos2015@@, teacher training materials like
-> @@cite@@Hazz2014,Guzd2015a,Sent2018@@, or more personal collections
-> like @@cite@@Gelm2002@@ to help us all do it better.
+> catalogs like [[Ojos2015](../bib/#Ojos2015)], teacher training materials like
+> [[Hazz2014](../bib/#Hazz2014),[Guzd2015a](../bib/#Guzd2015a),[Sent2018](../bib/#Sent2018)], or more personal collections
+> like [[Gelm2002](../bib/#Gelm2002)] to help us all do it better.
 
 ## Lesson Study
 
@@ -51,7 +51,7 @@ reformers have designed systems to find and promote people who can teach
 well and eliminate those who cannot. But the assumption that some people
 are born teachers is wrong; instead, like any other performance art, the
 keys to better teaching are practice and collaboration. As
-@@cite@@Gree2014@@ explains, the Japanese approach to this is called
+[[Gree2014](../bib/#Gree2014)] explains, the Japanese approach to this is called
 @@glossref@@g:jugyokenkyu@@jugyokenkyu@@, which means “lesson study”:
 
 > *Jugyokenkyu* is a bucket of practices that Japanese teachers use to
@@ -97,14 +97,14 @@ actual classroom for actual students.
 Writing up new techniques and giving
 @@glossref@@g:demonstration-lesson@@demonstration lessons@@, in which
 one person teaches actual students while other teachers observe, seem
-like a way to solve this. However, @@cite@@Finc2007,Finc2012@@ found
+like a way to solve this. However, [[Finc2007](../bib/#Finc2007),[Finc2012](../bib/#Finc2012)] found
 that they are usually ineffective: of the 99 change stories analyzed,
 teachers only searched actively for new practices or materials in three
 cases, and only consulted published material in eight cases. Most
 changes occurred locally, without input from outside sources, or
 involved only personal interaction with other educators.
 
-@@cite@@Bark2015@@ found something similar:
+[[Bark2015](../bib/#Bark2015)] found something similar:
 
 > Adoption is not a “rational action,” however, but an iterative series
 > of decisions made in a social context, relying on normative
@@ -219,9 +219,9 @@ introduction come before questions about the conclusion).
 > constant, i.e., that if someone wants to add a question, they have to
 > identify one that’s less important and can be removed.
 
-If you are interested in giving and getting feedback, @@cite@@Gorm2014@@
+If you are interested in giving and getting feedback, [[Gorm2014](../bib/#Gorm2014)]
 has good advice that you can use to make peer-to-peer feedback a routine
-part of your teaching, while @@cite@@Gawa2011@@ looks at the value of
+part of your teaching, while [[Gawa2011](../bib/#Gawa2011)] looks at the value of
 having a coach. However feedback is collected, remember that it is meant
 to be formative: its goal is to help people figure out what they are
 doing well and what they still need to work on. Please also remember
@@ -237,7 +237,7 @@ reflections as well as positives and negatives.
 > then and there. These classes are most effective when the teacher
 > critiques both the designs and the peer critiques, so that
 > participants learn not only how to make buildings, but how to give and
-> get feedback @@cite@@Scho1984@@. Master classes in music serve a
+> get feedback [[Scho1984](../bib/#Scho1984)]. Master classes in music serve a
 > similar purpose.
 
 ## How to Practice Performance
@@ -362,7 +362,7 @@ follow along. It’s more effective than slides for many reasons:
 Teachers need a bit of practice to get comfortable with thinking aloud
 as they code in front of an audience, but most report that it is then no
 more difficult than talking around a deck of slides, and research seems
-to back up its effectiveness @@cite@@Rubi2013,Haar2017@@. The sections
+to back up its effectiveness [[Rubi2013](../bib/#Rubi2013),[Haar2017](../bib/#Haar2017)]. The sections
 below offer tips on how to make your live coding better.
 
 ### Embrace Your Mistakes
@@ -381,7 +381,7 @@ where you took the wrong path, and explain how you’ve corrected
 yourself, you will give your learners a toolbox they can use when they
 make their own mistakes.
 
-This is at odds with advice like that in @@cite@@Kran2015@@, which says,
+This is at odds with advice like that in [[Kran2015](../bib/#Kran2015)], which says,
 “<span>…</span>you should have your material *absolutely mastered*
 before you enter the classroom. If<span>…</span>you have a proof or
 example that is not quite right<span>…</span>and stand in front of the
@@ -565,7 +565,7 @@ software updates over high school WiFi in front of increasingly bored
 > @@glossref@@g:direct-instruction@@Direct Instruction@@ is a teaching
 > method centered around meticulous curriculum design delivered through
 > a prescribed script—i.e., it’s more like an actor reciting lines than
-> it is like the improvisatory approach we recommend. @@cite@@Stoc2018@@
+> it is like the improvisatory approach we recommend. [[Stoc2018](../bib/#Stoc2018)]
 > surveys studies and finds statistically significant positive effect,
 > even though DI sometimes gets knocked for being mechanical. We still
 > prefer improvisation because DI requires a far greater up-front

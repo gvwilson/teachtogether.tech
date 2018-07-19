@@ -23,7 +23,7 @@ then looks at the state of the art in automated grading, and closes by
 exploring discussion, projects, and other important kinds of work that
 require more human attention to assess. Our discussion draws in part on
 the [Canterbury Question Bank](http://web-cat.org/questionbank/)
-@@cite@@Sand2013@@, which has entries for various languages and topics
+[[Sand2013](../bib/#Sand2013)], which has entries for various languages and topics
 in introductory computing.
 
 ## The Classics
@@ -136,11 +136,11 @@ terror” problem. The learner is given the lines of code needed to solve
 a problem, but has to put them in the right order. Research over the
 past few years has shown that Parsons Problems are effective because
 they allow learners to concentrate on control flow separately from
-vocabulary @@cite@@Pars2006,Eric2015,Morr2016,Eric2017@@. The same
+vocabulary [[Pars2006](../bib/#Pars2006),[Eric2015](../bib/#Eric2015),[Morr2016](../bib/#Morr2016),[Eric2017](../bib/#Eric2017)]. The same
 research shows that giving the learner more lines than she needs, or
 asking her to rearrange some lines and add a few more, makes this kind
-of problem significantly harder @@cite@@Harm2016@@. Tools for building
-and doing Parsons Problems online exist @@cite@@Ihan2011@@, but they can
+of problem significantly harder [[Harm2016](../bib/#Harm2016)]. Tools for building
+and doing Parsons Problems online exist [[Ihan2011](../bib/#Ihan2011)], but they can
 be emulated (albeit somewhat clumsily) by asking learners to rearrange
 lines of code in an editor.
 
@@ -201,7 +201,7 @@ the variables.
 
 You can also require learners to trace code backwards, e.g., to figure
 out what the input must have been if the code produced a particular
-result @@cite@@Armo2008@@. These *reverse execution* problems require
+result [[Armo2008](../bib/#Armo2008)]. These *reverse execution* problems require
 search and deductive reasoning, but they are particularly useful when
 the “output” is an error message, and help learners develop valuable
 debugging skills.
@@ -374,28 +374,28 @@ to peer grading ([SECTION][s:individual-peer]).
 
 Automatic program grading tools have been around longer than I’ve been
 alive: the earliest published mention dates from 1960
-@@cite@@Holl1960@@, and the surveys published in
-@@cite@@Douc2005,Ihan2010@@ mention many specific tools by name.
+[[Holl1960](../bib/#Holl1960)], and the surveys published in
+[[Douc2005](../bib/#Douc2005),[Ihan2010](../bib/#Ihan2010)] mention many specific tools by name.
 Building such tools is a lot more complex than it might first seem. How
 are assignments represented? How are submissions tracked and reported?
 Can learners co-operate? How can submissions be executed safely?
-@@cite@@Edwa2014a@@ is an entire paper devoted to an adaptive scheme for
+[[Edwa2014a](../bib/#Edwa2014a)] is an entire paper devoted to an adaptive scheme for
 detecting and managing infinite loops and other non-terminating code
 submissions, and that’s just one of the many issues that comes up.
 
 As elsewhere, it’s important to distinguish learner satisfaction from
-learning outcomes. @@cite@@Magu2018@@ switched informal programming labs
+learning outcomes. [[Magu2018](../bib/#Magu2018)] switched informal programming labs
 to a weekly machine-evaluated test for a second-year CS course using an
 auto-grading tool originally developed for programming competitions.
 Learners didn’t like the automated system, but the overall failure rate
 for the course was halved, and the number of learners gaining first
-class honors tripled. In contrast, @@cite@@Rubi2014@@ also began to use
+class honors tripled. In contrast, [[Rubi2014](../bib/#Rubi2014)] also began to use
 an auto-grader designed for competitions, but saw no significant
 decrease in their learners’ dropout rates; once again, learners made
 some negative comments about the tool, which the authors attribute to
 its feedback messages rather than to dislike of auto-grading.
 
-@@cite@@Srid2016@@ took a different approach. They used
+[[Srid2016](../bib/#Srid2016)] took a different approach. They used
 @@glossref@@g:fuzz-testing@@fuzz testing@@ (i.e., randomly-generated
 test cases) to check whether learner code does the same thing as a
 reference implementation supplied by the teacher. In the first project
@@ -403,7 +403,7 @@ of a 1400-learner introductory course, fuzz testing caught errors that
 were missed by a suite of hand-written test cases for more than 48% of
 learners, which clearly demonstrates its value.
 
-@@cite@@Basu2015@@ gave learners a suite of solution test cases, but
+[[Basu2015](../bib/#Basu2015)] gave learners a suite of solution test cases, but
 learners had to unlock each one by answering questions about its
 expected behavior before they were allowed to apply it to their proposed
 solution. For example, suppose learners are writing a function to find
@@ -416,14 +416,14 @@ test cases this way before attempting to solve problems, and then asked
 fewer questions and expressed less confusion about assignments.
 
 It’s tempting to use off-the-shelf style checking tools to grade
-learners’ code. However, @@cite@@Nutb2016@@ initially found no
+learners’ code. However, [[Nutb2016](../bib/#Nutb2016)] initially found no
 correlation between human-provided marks and style-checker rule
 violations. Sometimes this was because learners violated one rule many
 times (thereby losing more points than they should have), and other
 times it was because they submitted the assignment starter code with few
 alterations and got more points than they should have.
 
-@@cite@@Buff2015@@ presents a well-informed reflection on the whole idea
+[[Buff2015](../bib/#Buff2015)] presents a well-informed reflection on the whole idea
 of providing automated feedback. Their starting point is that,
 “Automated grading systems help learners identify bugs in their code,
 <span>\[</span>but<span>\]</span> may inadvertently discourage learners
@@ -437,7 +437,7 @@ unlikely that more testing will expose the problem. If the auto-grading
 system doesn’t provide insightful, actionable feedback, this experience
 will only frustrate the learner.
 
-In order to provide that feedback, @@cite@@Buff2015@@’s system
+In order to provide that feedback, [[Buff2015](../bib/#Buff2015)]’s system
 identifies which method or methods of the learner’s code are executed by
 failing tests, so that the system can associate failed tests with
 particular features within the learner’s submission. The system decides
@@ -445,7 +445,7 @@ whether specific hints have been “earned” by seeing whether the learner
 has tested the associated feature enough, so learners cannot rely on
 hints instead of doing tests.
 
-@@cite@@Keun2016a,Keun2016b@@ classified the messages produced by 69
+[[Keun2016a](../bib/#Keun2016a),[Keun2016b](../bib/#Keun2016b)] classified the messages produced by 69
 auto-grading tools. They found that these often do not give feedback on
 how to fix problems and take the next step. They also found that most
 teachers cannot easily adapt most of the tools to their needs; like many
@@ -454,7 +454,7 @@ assumptions about how institutions work. Their work is ongoing, and
 their detailed classification scheme is a useful shopping list when
 looking at tools of this kind.
 
-@@cite@@Srid2016@@ discussed strategies for sharing feedback with
+[[Srid2016](../bib/#Srid2016)] discussed strategies for sharing feedback with
 learners when automatically testing their code. The first is to provide
 the expected output for the tests—but then learners hard-code output for
 those inputs (because anything that can be gamed, will be). An
@@ -494,8 +494,8 @@ asked to point them out; if she is more advanced, she could be given
 half a dozen kinds of remarks she could make about the code without
 guidance as to how many of each she should find.
 
-@@cite@@Steg2016b@@ is a good starting point for a code style rubric,
-while @@cite@@Luxt2009@@ looks at peer review in programming classes
+[[Steg2016b](../bib/#Steg2016b)] is a good starting point for a code style rubric,
+while [[Luxt2009](../bib/#Luxt2009)] looks at peer review in programming classes
 more generally. If you are going to have students do reviews, use
 calibrated peer review ([SECTION][s:individual-peer]) so that they
 have models of what good feedback should look like.
@@ -562,7 +562,7 @@ side, and ask your partner to place them.
 
 @@exercise@@Pencil-and-Paper Puzzles@@whole class@@15@@
 
-@@cite@@Butl2017@@ describes a set of pencil-and-paper puzzles that can
+[[Butl2017](../bib/#Butl2017)] describes a set of pencil-and-paper puzzles that can
 be turned into introductory programming assignments, and found that
 these assignments are enjoyed by students and encourage meta-cognition.
 Think of a simple pencil-and-paper puzzle or game you played as a child,

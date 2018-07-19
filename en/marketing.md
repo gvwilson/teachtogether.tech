@@ -31,7 +31,7 @@ what you’re doing.
 
 The first step is to figure out what you are offering to whom, i.e.,
 what actually brings in the volunteers, funding, and other support you
-need to keep going. As @@cite@@Kuch2011@@ points out, the answer is
+need to keep going. As [[Kuch2011](../bib/#Kuch2011)] points out, the answer is
 often counter-intuitive. For example, most scientists think their papers
 are their product, but it’s actually their grant proposals, because
 those are what brings in money. Their papers are the advertising that
@@ -166,7 +166,7 @@ important, because they can be shared and re-shared without limit.
 > adding one.
 
 Whatever else you do, make your organization findable in online
-searches: @@cite@@DiSa2014b@@ discovered that the search terms parents
+searches: [[DiSa2014b](../bib/#DiSa2014b)] discovered that the search terms parents
 were likely to use for out-of-school computing classes didn’t actually
 find those classes. There’s a lot of folklore about how to make things
 findable under the label “SEO” (for “search engine optimization”); given
@@ -287,7 +287,7 @@ demoralizing if you’re not used to it.
 
 @@label@@s:marketing-final@@
 
-As @@cite@@Kuch2011@@ says, if you can’t be first in a category, create
+As [[Kuch2011](../bib/#Kuch2011)] says, if you can’t be first in a category, create
 a new category that you can be first in; if you can’t do that, join an
 existing group or think about doing something else entirely. This isn’t
 defeatist: if someone else is already doing what you’re doing better
@@ -355,7 +355,7 @@ those of other pairs.
 A @@glossref@@g:conversational-programmer@@conversational programmer@@
 is someone who needs to know enough about computing to have a meaningful
 conversation with a programmer, but isn’t going to program themselves.
-@@cite@@Wang2018@@ found that most learning resources don’t address this
+[[Wang2018](../bib/#Wang2018)] found that most learning resources don’t address this
 group’s needs. Working in pairs, write a pitch for a half-day workshop
 intended to help people that fit this description, and then share your
 pair’s pitch with the rest of the class.

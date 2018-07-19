@@ -23,7 +23,7 @@ practices:
     want your students to do actually works.
 
 This backward design process was developed independently by
-@@cite@@Wigg2005,Bigg2011,Fink2013@@. We have slimmed it down by
+[[Wigg2005](../bib/#Wigg2005),[Bigg2011](../bib/#Bigg2011),[Fink2013](../bib/#Fink2013)]. We have slimmed it down by
 removing steps related to meeting curriculum guidelines and other
 institutional requirements.
 

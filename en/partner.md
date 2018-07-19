@@ -46,7 +46,7 @@ pointless to argue about whether these issues are “real” or not: faculty
 believe they are, so any plan to work with faculty needs to address
 them.
 
-@@cite@@Bark2015@@ did a two-part study of how computer science
+[[Bark2015](../bib/#Bark2015)] did a two-part study of how computer science
 educators adopt new teaching practices as individuals, organizationally,
 and in society as a whole. They asked and answered three key questions:
 
@@ -82,7 +82,7 @@ and in society as a whole. They asked and answered three key questions:
     findings: even people whose entire careers are devoted to research
     will disregard education research.
 
-3.  *Why do they keep using them?* As @@cite@@Bark2015@@ says, “Student
+3.  *Why do they keep using them?* As [[Bark2015](../bib/#Bark2015)] says, “Student
     feedback is critical,” and is often the strongest reason to continue
     using a practice, even though we know that students’ self-reports
     don’t correlate strongly with learning outcomes. (Note that student
@@ -93,7 +93,7 @@ and in society as a whole. They asked and answered three key questions:
     when the explicit incentive or monitoring is removed.
 
 The good news is, you can tackle these problems systematically.
-@@cite@@Baue2015@@ looked at adoption of new medical techniques within
+[[Baue2015](../bib/#Baue2015)] looked at adoption of new medical techniques within
 the US Veterans Administration. They found that evidence-based practices
 in medicine take an average of 17 years to be incorporated into routine
 general practice, and that only about half of such practices are ever
@@ -104,16 +104,16 @@ actually adopt better evidence-based practices.
 
 As [CHAPTER][s:community] said, the starting point is to find out what
 the people you’re trying to help believe they need. For example,
-@@cite@@Yada2016@@ summarizes feedback from K-12 teachers on the
+[[Yada2016](../bib/#Yada2016)] summarizes feedback from K-12 teachers on the
 preparation and support they want; while it may not all be applicable to
 your setting, having a cup of tea with a few people and listening before
 you speak can make a world of difference.
 
 Once you know what people need, the next step is to make changes
-incrementally, within institutions’ own frameworks. @@cite@@Nara2018@@
+incrementally, within institutions’ own frameworks. [[Nara2018](../bib/#Nara2018)]
 describes an intensive three-year bachelor’s program based on tight-knit
 cohorts and administrative support that tripled graduation rates.
-Elsewhere, @@cite@@Hu2017@@ describes impact of introducing a six-month
+Elsewhere, [[Hu2017](../bib/#Hu2017)] describes impact of introducing a six-month
 certification program for existing high school teachers who want to
 teach computing (as opposed to the older two-year/five-course program).
 The number of computing teachers had been stable from 2007 to 2013, but
@@ -125,7 +125,7 @@ content students self-reported learning in ECS appears to be based on
 how much they believed they knew before taking ECS, and appears to have
 no correlation to their teacher’s CS background.”
 
-More broadly, @@cite@@Borr2014@@ categorizes ways to make change happen
+More broadly, [[Borr2014](../bib/#Borr2014)] categorizes ways to make change happen
 in higher education. The categories are defined by whether the change is
 individual or to the system as a whole, and whether it is prescribed
 (top-down) or emergent (bottom-up). The person trying to make the
@@ -133,7 +133,7 @@ changes—and make them stick—has a different role in each situation, and
 should pursue different strategies accordingly.
 
 The paper goes on to explain each of the methods in detail, while
-@@cite@@Hend2015a,Hend2015b@@ present the same ideas in more actionable
+[[Hend2015a](../bib/#Hend2015a),[Hend2015b](../bib/#Hend2015b)] present the same ideas in more actionable
 form. Coming in from outside, you will probably fall into the
 Individual/Emergent category to start with, since you will be
 approaching teachers one by one and trying to make change happen
@@ -154,9 +154,9 @@ intensive bootcamp programs. These are typically one to six months long,
 run by private firms for profit, and target people who are retraining to
 get into tech. Some are very high quality, but others exist primarily to
 separate people (often from low-income backgrounds) from their money
-@@cite@@McMi2017@@.
+[[McMi2017](../bib/#McMi2017)].
 
-@@cite@@Thay2017@@ interviewed 26 alumni of such bootcamps that provide
+[[Thay2017](../bib/#Thay2017)] interviewed 26 alumni of such bootcamps that provide
 a second chance for those who missed computing education opportunities
 earlier (though the authors phrasing this as “missed earlier
 opportunities” makes some pretty big assumptions when it comes to people
@@ -172,7 +172,7 @@ building their portfolios and networking. The three informal barriers
 they most clearly identified were knowledge (or rather, jargon),
 impostor syndrome, and a sense of not fitting in.
 
-@@cite@@Burk2018@@ dug into this a bit deeper by comparing the skills
+[[Burk2018](../bib/#Burk2018)] dug into this a bit deeper by comparing the skills
 and credentials that tech industry recruiters are looking for to those
 provided by 4-year degrees and bootcamps. They interviewed 15 hiring
 managers from firms of various sizes and ran some focus groups, and
@@ -187,7 +187,7 @@ well be to emphasize what you know about teaching rather than what you
 know about tech, since many of their founders and staff have programming
 backgrounds but little or no training in education. The first few
 chapters of this book have played well with this audience in the past,
-and @@cite@@Lang2016@@ describes evidence-based teaching practices that
+and [[Lang2016](../bib/#Lang2016)] describes evidence-based teaching practices that
 can be put in place with minimal effort and at low cost. These may not
 have the most impact, but scoring a few early wins helps build support
 for larger and riskier efforts.
@@ -198,7 +198,7 @@ for larger and riskier efforts.
 
 It is impossible to change large institutions on your own: you need
 allies, and to get allies, you need tactics. The most useful guide I
-have found is @@cite@@Mann2015@@, which catalogs more than four dozen
+have found is [[Mann2015](../bib/#Mann2015)], which catalogs more than four dozen
 methods you can use, and organizes them according to whether they’re
 best deployed early on, later, throughout the change cycle, or when you
 encounter resistance. A handful of their patterns include:
@@ -221,7 +221,7 @@ encounter resistance. A handful of their patterns include:
     play the role of “official skeptic”. Use their comments to improve
     your effort, even if you don’t change their minds.
 
-Conversely, @@cite@@Farm2006@@ has ten tongue-in-cheek rules for
+Conversely, [[Farm2006](../bib/#Farm2006)] has ten tongue-in-cheek rules for
 ensuring that a new tool isn’t adopted, all of which apply to new
 teaching practices as well:
 
@@ -278,7 +278,7 @@ answers to those given by other members of your group.
 
 @@exercise@@Educationalization@@whole class@@10@@
 
-@@cite@@Laba2008@@ explores why the United States and other countries
+[[Laba2008](../bib/#Laba2008)] explores why the United States and other countries
 keep pushing the solution of social problems onto educational
 institutions, and why that continues not to work. As he points out,
 “\[Education\] has done very little to promote equality of race,

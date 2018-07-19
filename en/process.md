@@ -55,8 +55,8 @@ several hours of hard work and really, really wants to be done.
 
 A similar backward method works very well for lesson design. This method
 is something called ; developed independently in
-@@cite@@Wigg2005,Bigg2011,Fink2013@@, it is summarized in
-@@cite@@McTi2013@@, and in simplified form, its steps are:
+[[Wigg2005](../bib/#Wigg2005),[Bigg2011](../bib/#Bigg2011),[Fink2013](../bib/#Fink2013)], it is summarized in
+[[McTi2013](../bib/#McTi2013)], and in simplified form, its steps are:
 
 1.  Brainstorm to get a rough idea of what you want to cover, how you’re
     going to do it, what problems or misconceptions you expect to
@@ -93,12 +93,12 @@ helping them learn.
 
 > **Measure<span>…</span>And Then?**
 > 
-> @@cite@@Gree2014@@ argues that this focus on measurement is appealing
+> [[Gree2014](../bib/#Gree2014)] argues that this focus on measurement is appealing
 > to those with the power to set the tests, but unlikely to improve
 > outcomes unless it is coupled with support for teachers to make
 > improvements based on test outcomes. The latter is often missing
 > because large organizations usually value uniformity over productivity
-> @@cite@@Scot1998@@; we will return to this topic in
+> [[Scot1998](../bib/#Scot1998)]; we will return to this topic in
 > [CHAPTER][s:performance].
 
 It’s important to note that while lesson design is *described* as a
@@ -110,7 +110,7 @@ leave behind to present things in the order described above, because
 that’s the easier way for whoever has to use or maintain the lesson to
 retrace our thinking. The same rewriting of history is useful for the
 same reasons in software design and many other fields
-@@cite@@Parn1986@@.
+[[Parn1986](../bib/#Parn1986)].
 
 [APPENDIX][s:v3] presents the design notes for this version of this
 book. A few things have been added, dropped, or rearranged, but what you
@@ -178,7 +178,7 @@ this?” or, “What installation problems would Jorge face?”
 Brainstorming the broad outlines of what you’re going to teach and then
 deciding who you’re trying to help is one approach; it’s equally valid
 to pick an audience and then brainstorm their needs. Either way,
-@@cite@@Guzd2016@@ offers the following guidance:
+[[Guzd2016](../bib/#Guzd2016)] offers the following guidance:
 
 1.  Connect to what learners know.
 
@@ -190,7 +190,7 @@ to pick an audience and then brainstorm their needs. Either way,
 
 5.  Test your ideas rather than trusting your instincts.
 
-Of course, one size won’t fit all. @@cite@@Alha2018@@ reported
+Of course, one size won’t fit all. [[Alha2018](../bib/#Alha2018)] reported
 improvement in learning outcomes and student satisfaction in a course
 for students from a variety of academic backgrounds which allowed them
 to choose between different domain-related assignments. It’s extra work
@@ -199,7 +199,7 @@ open-ended (so that they can be used repeatedly) and if the load is
 shared with other teachers ([SECTION][s:process-maintainability]).
 Other work has shown that building courses for science students around
 topics as diverse as music, data science, and cell biology will also
-improve outcomes @@cite@@Pete2017,Dahl2018,Ritz2018@@.
+improve outcomes [[Pete2017](../bib/#Pete2017),[Dahl2018](../bib/#Dahl2018),[Ritz2018](../bib/#Ritz2018)].
 
 ## Learning Objectives
 
@@ -266,7 +266,7 @@ how a poor one can be improved:
 
 When it comes to choosing verbs, many teachers use
 @@glossref@@g:blooms-taxonomy@@Bloom’s taxonomy@@. First published in
-1956, it was updated at the turn of the century @@cite@@Ande2001@@, and
+1956, it was updated at the turn of the century [[Ande2001](../bib/#Ande2001)], and
 is the most widely used framework for discussing levels of
 understanding. Its most recent form has six categories; the list below
 defines each, and gives a few of the verbs typically used in learning
@@ -302,16 +302,16 @@ objectives written for each:
     elements in a new pattern or proposing alternative solutions.
     *(design, construct, improve, adapt, maximize, solve)*
 
-@@cite@@Masa2018@@ found that even experienced educators have trouble
+[[Masa2018](../bib/#Masa2018)] found that even experienced educators have trouble
 agreeing on how to classify a question or idea according to Bloom’s
 Taxonomy, but the material in most introductory programming courses fits
 into the first four of these levels; only once that material has been
 mastered can learners start to think about evaluating and creating. (As
 Daniel Willingham has said, people can’t think without something to
-think about @@cite@@Will2010@@.)
+think about [[Will2010](../bib/#Will2010)].)
 
 Another way to think about learning objectives comes from
-@@cite@@Fink2013@@, which defines learning in terms of the change it is
+[[Fink2013](../bib/#Fink2013)], which defines learning in terms of the change it is
 meant to produce in the learner. also has six categories, but unlike
 Bloom’s, they are complementary rather than hierarchical:
 
@@ -398,7 +398,7 @@ and maintenance actually works very well
 ([SECTION][s:community-governance] and
 [SECTION][s:joining-contributing]).
 
-@@cite@@Leak2017@@ interviewed 17 computer science teachers to find out
+[[Leak2017](../bib/#Leak2017)] interviewed 17 computer science teachers to find out
 why they don’t use resource sharing sites. They found that most of the
 reasons were operational. For example, respondents said that sites need
 good landing pages that ask “what is your current role?” and “what
@@ -499,7 +499,7 @@ lesson that follows these five steps.
 
 @@exercise@@Evaluating Lessons@@pairs@@20@@
 
-@@cite@@Mart2017@@ specifies eight dimensions along which lessons can be
+[[Mart2017](../bib/#Mart2017)] specifies eight dimensions along which lessons can be
 evaluated:
 
   - Closed vs. open:  

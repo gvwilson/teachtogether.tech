@@ -14,6 +14,11 @@ def chapref(m):
 chapref.pattern = re.compile(r'@@chapter@@(.+?)@@')
 
 
+def cite(m):
+    return '[{}]'.format(','.join(['[{}](../bib/#{})'.format(c, c) for c in m.group(1).split(',')]))
+cite.pattern = re.compile(r'@@cite@@(.+?)@@')
+
+
 def figref(m):
     return '[FIGURE][{}]'.format(m.group(1))
 figref.pattern = re.compile(r'@@figure@@(.+?)@@')
@@ -24,7 +29,7 @@ def secref(m):
 secref.pattern = re.compile(r'@@section@@(.+?)@@')
 
 
-FUNCS = [appref, chapref, figref, secref]
+FUNCS = [appref, chapref, cite, figref, secref]
 
 
 def main():

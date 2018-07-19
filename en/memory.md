@@ -34,7 +34,7 @@ answer is that they can solve problems much faster than people who are
 “merely competent”, or that they can recognize and deal with cases
 where the normal rules don’t apply. They also somehow make this look
 effortless: in many cases, they instantly know what the right answer is
-@@cite@@Parn2017@@.
+[[Parn2017](../bib/#Parn2017)].
 
 Expertise is more than just knowing more facts: competent practitioners
 can memorize a lot of trivia without any noticeable improvement in their
@@ -61,7 +61,7 @@ This metaphor helps explain many observed aspects of expert behavior:
   - Densely-connected graphs are also the basis for experts’
     @@glossref@@g:fluid-representation@@fluid representations@@, i.e.,
     their ability to switch back and forth between different views of a
-    problem @@cite@@Petr2016@@. For example, when trying to solve a
+    problem [[Petr2016](../bib/#Petr2016)]. For example, when trying to solve a
     problem in mathematics, an expert might switch between tackling it
     geometrically and representing it as a set of equations to be
     solved.
@@ -80,12 +80,12 @@ This metaphor helps explain many observed aspects of expert behavior:
 
 The last of these points is important enough to have a name of its own:
 @@glossref@@g:expert-blind-spot@@expert blind spot@@. As originally
-defined in @@cite@@Nath2003@@, it is the tendency of experts to organize
+defined in [[Nath2003](../bib/#Nath2003)], it is the tendency of experts to organize
 explanation according to the subject’s deep principles, rather than
 being guided by what their learners already know. While it can be
 overcome with training, it’s part of why there is no correlation between
 how good someone is at doing research in an area and how good they are
-at teaching it @@cite@@Mars2002@@.
+at teaching it [[Mars2002](../bib/#Mars2002)].
 
 > **The J Word**
 > 
@@ -186,7 +186,7 @@ Concept maps can be used in many ways:
     programming, asking them to figure out how to draw their thoughts at
     the same time is an unfair load.
 
-@@cite@@Kepp2008@@ looked at the use of concept mapping in computing
+[[Kepp2008](../bib/#Kepp2008)] looked at the use of concept mapping in computing
 education. One of their findings was that, “<span>…</span>concept
 mapping is troublesome for many students because it tests personal
 understanding rather than knowledge that was merely learned by rote.” As
@@ -214,14 +214,14 @@ Concept maps are just one way to represent our understanding of a
 subject; others include mind maps (which are usually radial and
 hierarchical), conceptual diagrams (which use predefined categories and
 relationships), and visual metaphors (which are striking images overlaid
-with text) @@cite@@Eppl2006@@. Maps, flowcharts, and blueprints can also
+with text) [[Eppl2006](../bib/#Eppl2006)]. Maps, flowcharts, and blueprints can also
 be useful in some contexts, as can decision trees like
-@@cite@@Abel2009@@ that shows how to choose the right kind of chart for
+[[Abel2009](../bib/#Abel2009)] that shows how to choose the right kind of chart for
 different kinds of questions and data.
 
 What each does is , i.e., make thought processes and mental models
 visible so that they can be compared, contrasted, and combined.
-@@cite@@Cher2007@@ suggests that externalizing cognition may be the main
+[[Cher2007](../bib/#Cher2007)] suggests that externalizing cognition may be the main
 reason developers draw diagrams when they are discussing things. They
 found that most developers can’t identify the parts of their own
 diagrams shortly after having created them—instead of archiving
@@ -258,7 +258,7 @@ lions and disgruntled family members.
 Evolution has therefore given us a second system called
 @@glossref@@g:short-term-memory@@short-term@@ or
 @@glossref@@g:working-memory@@working memory@@. It is much faster, but
-also much smaller: @@cite@@Mill1956@@ estimated that the average adult’s
+also much smaller: [[Mill1956](../bib/#Mill1956)] estimated that the average adult’s
 working memory could only hold \(7{\pm}2\) items at a time. This is why
 [phone
 numbers](https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used)
@@ -325,7 +325,7 @@ pieces, each of which leads to a formative assessment.
 The simple model of memory presented here has largely been replaced by a
 more sophisticated one in which short-term memory is broken down into
 several modal stores (e.g., for visual vs. linguistic memory), each of
-which does some involuntary preprocessing @@cite@@Mill2016a@@. Our
+which does some involuntary preprocessing [[Mill2016a](../bib/#Mill2016a)]. Our
 presentation is therefore an example of a mental model that aids
 learning and everyday work, but is eventually superseded by something
 more complicated.
@@ -342,7 +342,7 @@ cramming ([SECTION][s:individual-strategies]).
 
 The preceding section said that short-term memory can only store
 \(7{\pm}2\) items at a time, and recent research have suggested that its
-actual size might be as low as \(4{\pm}1\) items @@cite@@Dida2016@@. In
+actual size might be as low as \(4{\pm}1\) items [[Dida2016](../bib/#Dida2016)]. In
 order to handle larger information sets, our minds create
 @@glossref@@g:chunking@@chunks@@. For example, most of us remember words
 as single items, rather than as sequences of letters. Similarly, the
@@ -362,11 +362,11 @@ teach patterns directly. One way to do this is to identify [design
 patterns](https://en.wikipedia.org/wiki/Software_design_pattern), which
 are reusable solutions to common problems. Patterns help competent
 practitioners think and talk to each other in many domains (including
-teaching @@cite@@Berg2012@@), but pattern catalogs are too dry and too
+teaching [[Berg2012](../bib/#Berg2012)]), but pattern catalogs are too dry and too
 abstract for novices to make sense of on their own. That said, giving
 names to a small number of patterns does seem to help with teaching,
 primarily by giving the learners a richer vocabulary to think and
-communicate with @@cite@@Kuit2004,Byck2005,Saja2006@@. We will return to
+communicate with [[Kuit2004](../bib/#Kuit2004),[Byck2005](../bib/#Byck2005),[Saja2006](../bib/#Saja2006)]. We will return to
 this in [SECTION][s:pck-programming].
 
 ## Becoming an Expert
@@ -404,10 +404,10 @@ A common progression is for people to go through three stages:
 
 > **What Counts as Deliberate Practice?**
 > 
-> @@cite@@Macn2014@@ found that “<span>…</span>deliberate practice
+> [[Macn2014](../bib/#Macn2014)] found that “<span>…</span>deliberate practice
 > explained 26% of the variance in performance for games, 21% for music,
 > 18% for sports, 4% for education, and less than 1% for professions.”
-> However, @@cite@@Eric2016@@ critiqued this finding by saying, “Summing
+> However, [[Eric2016](../bib/#Eric2016)] critiqued this finding by saying, “Summing
 > up every hour of any type of practice during an individual’s career
 > implies that the impact of all types of practice activity on
 > performance is equal—an assumption that<span>…</span>is inconsistent

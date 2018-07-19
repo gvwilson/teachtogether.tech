@@ -8,7 +8,7 @@ PANDOC_FLAGS=--template=html.pandoc --from=latex --to=gfm
 
 all : ${DST}
 
-./en/%.md : ./tex/%.tex ${PRE} convert.mk
+./en/%.md : ./tex/%.tex ${PRE} ${POST} convert.mk
 	cat $< \
 	| ${PRE} \
 	| ${PANDOC} ${PANDOC_FLAGS} -o - --metadata title="$$(fgrep -e '\chapter' $< | head -n 1 | sed -e 's/\\chapter{//g' -e 's/}\\label.*//g')" \

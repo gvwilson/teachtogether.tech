@@ -21,7 +21,7 @@ learning are always rooted in who we are and who we aspire to be. We
 will discuss it in more detail in [CHAPTER][s:community].
 
 The [Learning Theories website](http://www.learning-theories.com/) and
-@@cite@@Wibu2016@@ have good summaries of these and other perspectives.
+[[Wibu2016](../bib/#Wibu2016)] have good summaries of these and other perspectives.
 Besides cognitivism, those encountered most frequently include
 @@glossref@@g:behaviorism@@behaviorism@@ (which treats education as
 stimulus/response conditioning),
@@ -56,7 +56,7 @@ variables can have an impact on rules. For example, the teacher’s
 enthusiasm for the teaching method may matter more than the method
 itself, since children will model their teacher’s excitement for a
 subject. (With all of that taken into account, phonics does seem to be
-better than other approaches @@cite@@Foor1998@@.)
+better than other approaches [[Foor1998](../bib/#Foor1998)].)
 
 As frustrating as the maybes and howevers in education research are,
 this kind of painstaking work is essential to dispel myths that can get
@@ -65,7 +65,7 @@ myth](https://en.wikipedia.org/wiki/Learning_styles#Learning_modalities)
 is that people are visual, auditory, or kinesthetic learners, and that
 teaching is more effective when lessons are designed according to
 whether they like to see things, hear things, or do things. This idea is
-easy to understand, but as @@cite@@DeBr2015@@ explains, it is almost
+easy to understand, but as [[DeBr2015](../bib/#DeBr2015)] explains, it is almost
 certainly false. Unfortunately, that hasn’t stopped companies from
 marketing products based on it to parents, school boards, and the
 general public.
@@ -87,8 +87,8 @@ is bandied about a lot, in part because people can agree it’s important
 while meaning very different things by it. I find it more useful to
 think in terms of getting learners to understand a
 @@glossref@@g:notional-machine@@notional machine@@. The term was
-introduced in @@cite@@DuBo1986@@, and means abstraction of the structure
-and behavior of a computational device. According to @@cite@@Sorv2013@@,
+introduced in [[DuBo1986](../bib/#DuBo1986)], and means abstraction of the structure
+and behavior of a computational device. According to [[Sorv2013](../bib/#Sorv2013)],
 a notional machine:
 
   - is an idealized abstraction of computer hardware and other aspects

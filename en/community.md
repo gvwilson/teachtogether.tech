@@ -50,7 +50,7 @@ A framework in which to think about educational communities is
 @@glossref@@g:situated-learning@@situated learning@@, which focuses on
 how leads to people becoming members of a
 @@glossref@@g:community-of-practice@@community of practice@@
-@@cite@@Weng2015@@. Unpacking those terms, a community of practice is a
+[[Weng2015](../bib/#Weng2015)]. Unpacking those terms, a community of practice is a
 group of people bound together by interest in some activity, such as
 knitting or particle physics. Legitimate peripheral participation means
 doing simple, low-risk tasks that community nevertheless recognizes as
@@ -153,12 +153,12 @@ founder or leader of something new.
 Whether you join an existing group or set up one of your own, you owe it
 to yourself and everyone who’s going to work with you to find out what’s
 been done before. People have been writing about grassroots organizing
-for decades; @@cite@@Alin1989@@ is probably the best-known work on the
-subject, while @@cite@@Brow2007,Midw2010@@ are practical manuals rooted
+for decades; [[Alin1989](../bib/#Alin1989)] is probably the best-known work on the
+subject, while [[Brow2007](../bib/#Brow2007),[Midw2010](../bib/#Midw2010)] are practical manuals rooted
 in decades of practice. If you want to read more deeply,
-@@cite@@Adam1975@@ is a history of the Highlander Folk School, whose
+[[Adam1975](../bib/#Adam1975)] is a history of the Highlander Folk School, whose
 approach has been emulated by many successful groups, while
-@@cite@@Spal2014@@ is a guide to teaching adults written by someone with
+[[Spal2014](../bib/#Spal2014)] is a guide to teaching adults written by someone with
 deep personal roots in organizing, and
 [NonprofitReady.org](https://www.nonprofitready.org/) offers free
 professional development training.
@@ -256,7 +256,7 @@ this happens:
 @@label@@s:community-retention@@
 
 Saul Alinsky once said, “If your people aren’t having a ball doing it,
-there is something very wrong.” @@cite@@Alin1989@@ Community members
+there is something very wrong.” [[Alin1989](../bib/#Alin1989)] Community members
 shouldn’t expect to enjoy every moment of their work with your
 organization, but if they don’t enjoy any of it, they won’t stay.
 
@@ -398,7 +398,7 @@ for communities to go with those given in
 
 @@label@@s:community-governance@@
 
-As @@cite@@Free1972@@ pointed out, every organization has a power
+As [[Free1972](../bib/#Free1972)] pointed out, every organization has a power
 structure: the only question is whether it’s formal and accountable, or
 informal and unaccountable. Make yours one of the first kind: write and
 publish the rules governing everything from who’s allowed to use the
@@ -415,7 +415,7 @@ pays off.)
 
 The model I prefer is that of a commons, which is “something managed
 jointly by a community according to rules they themselves have evolved
-and adopted”. As @@cite@@Boll2014@@ emphasizes, all three parts of that
+and adopted”. As [[Boll2014](../bib/#Boll2014)] emphasizes, all three parts of that
 definition are essential: a commons isn’t just a shared pasture, but
 also includes the community that shares it and the rules they use to do
 so.
@@ -454,7 +454,7 @@ organization continues to meet people’s actual needs.
 
 @@label@@s:community-final@@
 
-As @@cite@@Pign2016@@ discusses, burnout is a chronic risk in any
+As [[Pign2016](../bib/#Pign2016)] discusses, burnout is a chronic risk in any
 community activity. If you don’t take care of yourself, you won’t be
 able to take care of your community.
 
@@ -469,7 +469,7 @@ have any trouble finding something else to keep you busy.
 
 @@label@@s:community-exercises@@
 
-Several of these exercises are taken from @@cite@@Brow2007@@, which is
+Several of these exercises are taken from [[Brow2007](../bib/#Brow2007)], which is
 an exceptionally useful book on building community organizations.
 
 @@exercise@@What Kind of Community?@@individual@@15@@
@@ -675,7 +675,7 @@ answers to those given by other members of your group.
 
 Many of our ideas about how to build a community have been shaped by our
 experience of working in open source software development.
-@@cite@@Foge2005@@ (which is [available
+[[Foge2005](../bib/#Foge2005)] (which is [available
 online](http://producingoss.com/)) is a good guide to what has and
 hasn’t worked for those communities, and the [Open Source Guides
 site](https://opensource.guide/) has a wealth of useful information as

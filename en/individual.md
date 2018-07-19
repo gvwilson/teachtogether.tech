@@ -37,7 +37,7 @@ for learners to master these skills in the abstract—for example, just
 telling them to make plans doesn’t have any effect—but lessons can be
 designed to encourage certain study practices, and drawing attention to
 these practices in class helps them realize that learning is a skill
-that can be improved like any other @@cite@@McGu2015,Miya2018@@.
+that can be improved like any other [[McGu2015](../bib/#McGu2015),[Miya2018](../bib/#Miya2018)].
 
 The big prize is transfer of learning, which occurs when one thing we
 have learned helps us learn something else more quickly. Researchers
@@ -51,7 +51,7 @@ mathematical reasoning or vice versa.
 Near transfer undoubtedly occurs—no kind of learning beyond simple
 memorization could occur if it didn’t—and instructors leverage it all
 the time by giving learners exercises that are close in form or content
-to what has just been presented in a lesson. However, @@cite@@Sala2017@@
+to what has just been presented in a lesson. However, [[Sala2017](../bib/#Sala2017)]
 recently analyzed many studies of far transfer and concluded that while
 we might *want* to believe in it:
 
@@ -61,7 +61,7 @@ we might *want* to believe in it:
 > occurs.
 
 When far transfer *does* occur, it seems to happen only once a subject
-has been mastered @@cite@@Gick1987@@. In practice, this means that
+has been mastered [[Gick1987](../bib/#Gick1987)]. In practice, this means that
 learning to program won’t help you play chess and vice versa.
 
 ## Six Strategies
@@ -69,14 +69,14 @@ learning to program won’t help you play chess and vice versa.
 @@label@@s:individual-strategies@@
 
 Psychologists study learning in a wide variety of ways, but have reached
-similar conclusions about what actually works @@cite@@Mark2018@@. The
+similar conclusions about what actually works [[Mark2018](../bib/#Mark2018)]. The
 [Learning Scientists](http://www.learningscientists.org/) have
 catalogued six of these strategies and summarized them in [a set of
 downloadable
 posters](http://www.learningscientists.org/downloadable-materials).
 Teaching these strategies to students, and mentioning them by name when
 you use them in class, can help them learn how to learn faster and
-better @@cite@@Wein2018@@.
+better [[Wein2018](../bib/#Wein2018)].
 
 ### Spaced Practice
 
@@ -85,7 +85,7 @@ five-hour days, and far better than one ten-hour day. You should
 therefore create a study schedule that spreads study activities over
 time: block off at least half an hour to study each topic each day
 rather than trying to cram everything in the night before an exam
-@@cite@@Kang2016@@.
+[[Kang2016](../bib/#Kang2016)].
 
 You should also review material after each class (but not immediately
 after—take at least a half-hour break). When reviewing, be sure to
@@ -104,7 +104,7 @@ of study on things that most need attention.
 
 > **The Value of Lectures**
 > 
-> According to @@cite@@Mill2016a@@, “The lectures that predominate in
+> According to [[Mill2016a](../bib/#Mill2016a)], “The lectures that predominate in
 > face-to-face courses are relatively ineffective ways to teach, but
 > they probably contribute to spacing material over time, because they
 > unfold in a set schedule over time. In contrast, depending on how the
@@ -118,13 +118,13 @@ not retention (what is stored), but recall (what can be accessed).
 Recall of specific information improves with practice, so outcomes in
 real situations can be improved by taking practice tests or summarizing
 the details of a topic from memory and then checking what was and wasn’t
-remembered. For example, @@cite@@Karp2008@@ found that repeated testing
+remembered. For example, [[Karp2008](../bib/#Karp2008)] found that repeated testing
 improved recall of word lists from 35% to 80%.
 
 Research also shows that recall is better when practice uses activities
 similar to those used in testing; for example, writing personal journal
 entries helps with multiple-choice quizzes, but less than doing
-multiple-choice quizzes @@cite@@Mill2016a@@. This is called .
+multiple-choice quizzes [[Mill2016a](../bib/#Mill2016a)]. This is called .
 
 One way to exercise retrieval skills is to solve problems twice. The
 first time, do it entirely from memory without notes or discussion with
@@ -156,7 +156,7 @@ quick way to do this.
 > 
 > One powerful finding in learning research is the
 > @@glossref@@g:hypercorrection@@hypercorrection effect@@
-> @@cite@@Metc2016@@. Most people don’t like to be told they’re wrong,
+> [[Metc2016](../bib/#Metc2016)]. Most people don’t like to be told they’re wrong,
 > so it’s reasonable to assume that the more confident someone is that
 > the answer they’ve given in a test is correct, the harder it is to
 > change their mind if they were actually wrong. However, it turns out
@@ -170,7 +170,7 @@ One way you can space your practice is to interleave study of different
 topics: instead of mastering one subject, then the next, then a third,
 shuffle study sessions. Even better, switch up the order: A-B-C-B-A-C is
 better than A-B-C-A-B-C, which in turn is better than A-A-B-B-C-C
-@@cite@@Rohrer2015@@. This is effective because interleaving fosters
+[[Rohrer2015](../bib/#Rohrer2015)]. This is effective because interleaving fosters
 creation of more links between different topics, which in turn increases
 retention and recall.
 
@@ -192,13 +192,13 @@ answer isn’t. Another is to tell yourself how a new idea is similar to
 or different from one that you have seen previously.
 
 Talking to yourself may seem like an odd way to study, but
-@@cite@@Biel1995@@ explicitly trained people in self-explanation, and
+[[Biel1995](../bib/#Biel1995)] explicitly trained people in self-explanation, and
 yes, they outperformed those who hadn’t been trained. An exercise that
 builds on this is to go through code line by line with a group, having a
 different person to explain each line in turn and say why it is there
 and what it accomplishes.
 
-@@cite@@Chi1989@@ found that some learners simply halt when they hit an
+[[Chi1989](../bib/#Chi1989)] found that some learners simply halt when they hit an
 unexplained step (or a step whose explanation they don’t understand)
 when doing mechanics problems in a physics class. Others who pause their
 “execution” of the example to generate an explanation of what’s going on
@@ -206,7 +206,7 @@ learn faster. Instructors should therefore demonstrate the latter
 strategy to learners.
 
 Explaining things to others even works on exams, though the extent of
-the benefits are still being studied. @@cite@@Cao2017a,Cao2017b@@ looked
+the benefits are still being studied. [[Cao2017a](../bib/#Cao2017a),[Cao2017b](../bib/#Cao2017b)] looked
 at two-stage exams, i.e., a normal (individual) exam which is then
 immediately followed by a second exam in which students work in small
 groups to solve a set of problems. They found significant short-term
@@ -222,7 +222,7 @@ One specific form of elaboration is so useful that it deserves its own
 heading, and that is the use of concrete examples. Whenever you have a
 statement of a general principle, try to provide one or more examples of
 its use, or conversely take each particular problem and list the general
-principles it embodies. @@cite@@Raws2014@@ found that interleaving
+principles it embodies. [[Raws2014](../bib/#Raws2014)] found that interleaving
 examples and definitions made it more likely that learners would
 remember the latter correctly.
 
@@ -251,7 +251,7 @@ handle and store linguistic and visual information, and if complementary
 information is presented through both channels, then they can reinforce
 one another. However, learning is more effective when the same
 information is *not* presented simultaneously in two different channels
-@@cite@@Maye2003@@, because then the brain has to expend effort to check
+[[Maye2003](../bib/#Maye2003)], because then the brain has to expend effort to check
 the channels against each other.
 
 One way to take advantage of dual coding is to draw or label timelines,
@@ -281,7 +281,7 @@ people of this can be hard, especially when they’re in their teens or
 twenties, but pays tremendous dividends.
 
 Scientific study of overwork and sleep deprivation goes back to at least
-the 1890s (see @@cite@@Robi2005@@ for a short, readable summary). The
+the 1890s (see [[Robi2005](../bib/#Robi2005)] for a short, readable summary). The
 most important results for learners are:
 
 1.  Working more than eight hours a day for an extended period of time
@@ -320,7 +320,7 @@ which people are usually judged incapable of independent living.
 > like our ability to use muscles: if we have to resist eating the last
 > donut on the tray when we’re hungry, we are less likely to fold
 > laundry and vice versa. This is called
-> @@glossref@@g:ego-depletion@@ego depletion@@ @@cite@@Mill2016a@@, and
+> @@glossref@@g:ego-depletion@@ego depletion@@ [[Mill2016a](../bib/#Mill2016a)], and
 > an effective counter is to build up habits so that doing the right
 > thing is automatic.
 
@@ -339,14 +339,14 @@ what many people want to believe, people are not good at multi-tasking.
 What we can become good at is
 @@glossref@@g:automaticity@@automaticity@@, which is the ability to do
 something routine in the background while doing something else
-@@cite@@Mill2016a@@. Most of us can talk while chopping onions, or drink
+[[Mill2016a](../bib/#Mill2016a)]. Most of us can talk while chopping onions, or drink
 coffee while reading; with practice, we can also take notes while
 listening, but we can’t study effectively, program, or do other mentally
 challenging tasks while paying attention to something else.
 
 The point of all this organization and preparation is to get into the
 most productive mental state possible. Psychologists call it
-@@glossref@@g:flow@@flow@@ @@cite@@Csik2008@@; athletes call it “being
+@@glossref@@g:flow@@flow@@ [[Csik2008](../bib/#Csik2008)]; athletes call it “being
 in the zone”, while musicians talk about losing themselves in what
 they’re playing. Whatever name you use, people produce much more per
 unit of time in this state than normal.
@@ -361,7 +361,7 @@ a dozen times per hour, you are *never* at your productive peak.
 @@label@@s:individual-peer@@
 
 Asking people on a team to rate their peers is a common practice in
-industry. @@cite@@Sond2012@@ surveyed the literature on student peer
+industry. [[Sond2012](../bib/#Sond2012)] surveyed the literature on student peer
 assessment, distinguishing between grading and reviewing. The benefits
 they found included increasing the amount, diversity, and timeliness of
 feedback, helping students exercise higher-level thinking, encouraging
@@ -369,7 +369,7 @@ reflective practice, and supporting development of social skills. The
 concerns were predictable: validity and reliability, motivation and
 procrastination, trolls, collusion, and plagiarism. However, while these
 concerns are legitimate, the evidence shows that they aren’t significant
-in class. For example, @@cite@@Kauf2000@@ compared confidential peer
+in class. For example, [[Kauf2000](../bib/#Kauf2000)] compared confidential peer
 ratings and grades on several axes for two undergraduate engineering
 courses and found that self-rating and peer ratings statistically
 agreed, that collusion (i.e., everyone giving their peers the same
@@ -382,14 +382,14 @@ One important variation on peer assessment and review is
 which students produce artifacts to contribute to other students’
 learning. This can be developing a short lesson and sharing it with the
 class, adding to a question bank, or writing up notes from a particular
-lecture for in-class publication. For example, @@cite@@Fran2018@@ found
+lecture for in-class publication. For example, [[Fran2018](../bib/#Fran2018)] found
 that students who made short videos to teach concepts to their peers had
 a significant increase in their own learning compared to those who only
 studied the material or viewed the videos.
 
 Another is , in which a student reviews one or more examples using a
 rubric and compares their evaluation against the instructor’s review of
-the same work @@cite@@Kulk2013@@. Only once student’s evaluations are
+the same work [[Kulk2013](../bib/#Kulk2013)]. Only once student’s evaluations are
 close enough to the instructor’s are they allowed to start evaluating
 peers’ actual work.
 
@@ -454,7 +454,7 @@ the prompts?
 
 @@exercise@@Changing Minds@@pairs@@10@@
 
-@@cite@@Kirs2013@@ argues that myths about digital natives, learning
+[[Kirs2013](../bib/#Kirs2013)] argues that myths about digital natives, learning
 styles, and self-educators are all reflections of the mistaken belief
 that learners know what is best for them, and cautions that we may be in
 a downward spiral in which every attempt by education researchers to
@@ -501,7 +501,7 @@ either of the component tasks.
 
 Working in groups of 3–4, vote on which of the following statements are
 true or false. When you are done, check your answers against
-@@cite@@Guzd2015b@@ (which you can [read
+[[Guzd2015b](../bib/#Guzd2015b)] (which you can [read
 online](https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext)).
 
 1.  The lack of women in Computer Science is just like all the other
@@ -536,7 +536,7 @@ online](https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-
 
 @@exercise@@Top Ten Myths@@whole class@@15@@
 
-@@cite@@Guzd2015b@@ presents a list of the top 10 mistaken beliefs about
+[[Guzd2015b](../bib/#Guzd2015b)] presents a list of the top 10 mistaken beliefs about
 computing education. His list of things that many people believe, but
 which aren’t true, is:
 

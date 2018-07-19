@@ -23,7 +23,7 @@ title: "Cognitive Load"
 >   - Describe ways instructors differ from students and what effect
 >     those differences have on instruction.
 
-In @@cite@@Kirs2006@@, Kirschner, Sweller and Clark wrote:
+In [[Kirs2006](../bib/#Kirs2006)], Kirschner, Sweller and Clark wrote:
 
 > Although unguided or minimally guided instructional approaches are
 > very popular and intuitively appealing<span>…</span>these approaches
@@ -141,9 +141,9 @@ retrieval.
 > **Efficiency vs. Extent**
 > 
 > Seeing worked examples accelerates learning more than having students
-> write lots of code themselves @@cite@@Skud2014@@. As we will see in
+> write lots of code themselves [[Skud2014](../bib/#Skud2014)]. As we will see in
 > [CHAPTER][s:pck], deconstructing code by tracing it or debugging it
-> also increases the efficiency of learning @@cite@@Grif2016@@. However,
+> also increases the efficiency of learning [[Grif2016](../bib/#Grif2016)]. However,
 > this isn’t the same as saying that people learn more unless they see
 > additional problems.
 
@@ -157,18 +157,18 @@ Critics have sometimes argued that any result can be justified after the
 fact by labelling things that hurt performance as extraneous load and
 things that don’t as intrinsic or germane. However, instruction based on
 cognitive load theory is undeniably effective. For example,
-@@cite@@Maso2016@@ redesigned a database course to remove split
+[[Maso2016](../bib/#Maso2016)] redesigned a database course to remove split
 attention and redundancy effects, and provide worked examples and
 sub-goals. The new course reduced exam failure rate by 34% on an
 identical final exam and increased student satisfaction.
 
-A decade after the publication of @@cite@@Kirs2006@@, a growing number
+A decade after the publication of [[Kirs2006](../bib/#Kirs2006)], a growing number
 of people believe that cognitive load theory and inquiry-based
-approaches are compatible if viewed in the right way. @@cite@@Kaly2015@@
+approaches are compatible if viewed in the right way. [[Kaly2015](../bib/#Kaly2015)]
 argues that cognitive load theory is basically micro-management of
 learning within a broader context that considers things like motivation,
-while @@cite@@Kirs2018@@ extends cognitive load theory to include
-collaborative aspects of learning. As with @@cite@@Mark2018@@ (discussed
+while [[Kirs2018](../bib/#Kirs2018)] extends cognitive load theory to include
+collaborative aspects of learning. As with [[Mark2018](../bib/#Mark2018)] (discussed
 in [SECTION][s:individual-strategies]), researchers’ perspectives may
 differ, but the practical implementation of their theories often wind up
 being the same.
@@ -181,7 +181,7 @@ being the same.
 > which emphasizes the way in which a master passes on skills and
 > insights to an apprentice. The master provides models of performance
 > and outcomes, then coaches novices as they take their first steps by
-> explaining what they’re doing and why @@cite@@Coll1991,Casp2007@@. The
+> explaining what they’re doing and why [[Coll1991](../bib/#Coll1991),[Casp2007](../bib/#Casp2007)]. The
 > apprentice reflects on their own problem solving, e.g., by thinking
 > aloud or critiquing their own work, and eventually explores problems
 > of their own choosing.
@@ -202,7 +202,7 @@ being the same.
 
 Another kind of exercise that can be explained in terms of cognitive
 load theory is called a @@glossref@@g:parsons-problem@@Parsons Problem@@
-(named after one of their creators @@cite@@Pars2006@@). If you are
+(named after one of their creators [[Pars2006](../bib/#Pars2006)]). If you are
 teaching someone to speak a new language, you could ask them a question,
 and then give them the words they need to answer the question, but in
 jumbled order. Their task is to put the words in the right order to
@@ -216,15 +216,15 @@ dependencies, i.e., on what has to happen before what, without being
 distracted by variable naming or trying to remember what functions to
 call. Multiple studies have shown that Parsons Problems take less time
 for learners to do, but produce equivalent educational outcomes
-@@cite@@Eric2017@@.
+[[Eric2017](../bib/#Eric2017)].
 
 ### Labelled Subgoals
 
 @@glossref@@g:subgoal-labelling@@Subgoal labelling@@ means giving names
 to the steps in a step-by-step description of a problem-solving process.
-@@cite@@Marg2016,Morr2016@@ all found that students with labelled
+[[Marg2016](../bib/#Marg2016),[Morr2016](../bib/#Morr2016)] all found that students with labelled
 subgoals solved Parsons Problems better than students without, and the
-same benefit is seen in other problem domains @@cite@@Marg2012@@.
+same benefit is seen in other problem domains [[Marg2012](../bib/#Marg2012)].
 Returning to the Python example used earlier, the subgoals in finding
 the total length of a list of words or constructing an acronym are:
 
@@ -248,7 +248,7 @@ opportunity for self-explanation ([SECTION][s:individual-strategies]).
 
 Research by Mayer and colleagues on the
 @@glossref@@g:split-attention-effect@@split-attention effect@@ is
-closely related to cognitive load theory @@cite@@Maye2003@@. Linguistic
+closely related to cognitive load theory [[Maye2003](../bib/#Maye2003)]. Linguistic
 and visual input are processed by different parts of the human brain,
 and linguistic and visual memories are stored separately as well. This
 means that correlating linguistic and visual streams of information
@@ -277,14 +277,14 @@ said when that part was being drawn.
 
 The split-attention effect does *not* mean that learners shouldn’t try
 to reconcile multiple incoming streams of information—after all, this is
-something they have to do in the real world @@cite@@Atki2000@@. Instead,
+something they have to do in the real world [[Atki2000](../bib/#Atki2000)]. Instead,
 it means that instruction shouldn’t require it while people are
 mastering unit skills; instead, using multiple sources of information
 simultaneously should be treated as a separate learning task.
 
 > **Not All Graphics Are Created Equal**
 > 
-> @@cite@@Sung2012@@ presents an elegant study that distinguishes
+> [[Sung2012](../bib/#Sung2012)] presents an elegant study that distinguishes
 > *seductive* graphics (which are highly interesting but not directly
 > relevant to the instructional goal), *decorative* graphics (which are
 > neutral but not directly relevant to the instructional goal), and
@@ -294,7 +294,7 @@ simultaneously should be treated as a separate learning task.
 > but only students who got instructive graphics actually performed
 > better.
 > 
-> Similarly, @@cite@@Stam2013,Stam2014@@ found that having more
+> Similarly, [[Stam2013](../bib/#Stam2013),[Stam2014](../bib/#Stam2014)] found that having more
 > information can actually lower performance. They showed children
 > pictures, pictures and numbers, or just numbers for two tasks:
 > fraction equivalence and fraction addition. For equivalence, having
@@ -307,7 +307,7 @@ simultaneously should be treated as a separate learning task.
 @@label@@s:load-minimal@@
 
 The most extreme use of cognitive load theory may be the “minimal
-manual” method introduced in @@cite@@Carr1987@@. Its starting point is
+manual” method introduced in [[Carr1987](../bib/#Carr1987)]. Its starting point is
 a quote from a user: “I want to do something, not learn how to do
 everything.” Carroll and colleagues therefore redesigned training to
 present every idea as a single-page self-contained task: a title
@@ -318,11 +318,11 @@ problems.
 
 Carroll and colleagues found that rewriting training materials this way
 made them shorter overall, and that people using them learned faster.
-Later studies like @@cite@@Lazo1993@@ confirmed that this approach
+Later studies like [[Lazo1993](../bib/#Lazo1993)] confirmed that this approach
 outperformed the traditional approach regardless of prior experience
 with computers.
 
-Looking back, @@cite@@Carr2014@@ summarized this work by saying:
+Looking back, [[Carr2014](../bib/#Carr2014)] summarized this work by saying:
 
 > Our “minimalist” designs sought to leverage user initiative and prior
 > knowledge, instead of controlling it through warnings and ordered
@@ -412,8 +412,8 @@ repeat the exercise.
 
 @@exercise@@Critiquing Graphics@@individual@@30@@
 
-@@cite@@Maye2009@@ presents six principles for designing good diagrams
-for teaching. As summarized in @@cite@@Mill2016a@@, they are:
+[[Maye2009](../bib/#Maye2009)] presents six principles for designing good diagrams
+for teaching. As summarized in [[Mill2016a](../bib/#Mill2016a)], they are:
 
   - Signalling:  
     visually highlight the most important points that you want students

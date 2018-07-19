@@ -132,7 +132,7 @@ our made-up learners to use this material as follows:
 @@label@@s:intro-instead@@
 
 If you are in a hurry, or want a taste of what this book will cover,
-@@cite@@Brow2018@@ presents ten evidence-based tips for teaching
+[[Brow2018](../bib/#Brow2018)] presents ten evidence-based tips for teaching
 computing. You can download the paper, or read it online, on [the PLoS
 website](https://doi.org/10.1371/journal.pcbi.1006023).
 
@@ -142,12 +142,12 @@ I also recommend:
     training](http://carpentries.github.io/instructor-training/), for
     which most of the first half of this book was originally developed.
 
-  - @@cite@@Lang2016@@ and @@cite@@Hust2012@@, which are short,
+  - [[Lang2016](../bib/#Lang2016)] and [[Hust2012](../bib/#Hust2012)], which are short,
     approachable, and connect things you can do right now to the
     research that backs them.
 
-  - @@cite@@Majo2015@@, @@cite@@Broo2016@@ @@cite@@Berg2012@@, and
-    @@cite@@Rice2018@@. The first catalogs a hundred different kinds of
+  - [[Majo2015](../bib/#Majo2015)], [[Broo2016](../bib/#Broo2016)] [[Berg2012](../bib/#Berg2012)], and
+    [[Rice2018](../bib/#Rice2018)]. The first catalogs a hundred different kinds of
     exercises you can do with students; the second describes fifty
     different ways that groups can discuss things productively, while
     the third is a collection of patterns for teaching, and the fourth
@@ -156,35 +156,35 @@ I also recommend:
     make more sense once Huston or Lang have given you a framework for
     understanding them.
 
-  - @@cite@@DeBr2015@@, which conveys a lot of what *is* true about
-    educational by explaining what *isn’t*, and @@cite@@Dida2016@@,
+  - [[DeBr2015](../bib/#DeBr2015)], which conveys a lot of what *is* true about
+    educational by explaining what *isn’t*, and [[Dida2016](../bib/#Dida2016)],
     which grounds learning theory in cognitive psychology.
 
-  - @@cite@@Pape1993@@, which remains an inspiring vision of how
+  - [[Pape1993](../bib/#Pape1993)], which remains an inspiring vision of how
     computers could change education.
 
-  - @@cite@@Gree2014@@, @@cite@@McMi2017@@ and @@cite@@Watt2014@@. These
+  - [[Gree2014](../bib/#Gree2014)], [[McMi2017](../bib/#McMi2017)] and [[Watt2014](../bib/#Watt2014)]. These
     three short books explain why so many attempts at educational reform
     have failed over the past forty years, how for-profit colleges are
     exploiting and exacerbating the growing inequality in our society,
     and how technology has repeatedly failed to revolutionize education.
 
-  - @@cite@@Guzd2015a@@, @@cite@@Hazz2014@@, and @@cite@@Sent2018@@,
+  - [[Guzd2015a](../bib/#Guzd2015a)], [[Hazz2014](../bib/#Hazz2014)], and [[Sent2018](../bib/#Sent2018)],
     which are academically-oriented books I’ve found about teaching
     computing.
 
-  - @@cite@@Brow2007@@ and @@cite@@Mann2015@@, because you can’t teach
+  - [[Brow2007](../bib/#Brow2007)] and [[Mann2015](../bib/#Mann2015)], because you can’t teach
     computing well without changing the system in which we teach, and
     you can’t do that on your own.
 
-Of these, @@cite@@Pape1993@@ is the one that shaped my ideas about
+Of these, [[Pape1993](../bib/#Pape1993)] is the one that shaped my ideas about
 teaching the most. Papert’s central argument is that people don’t absorb
 knowledge; instead, they (re-)construct it for themselves, and computers
 are a new and powerful tool for helping them do that. [Andy Ko’s
 excellent
 description](https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4)
 does a better job of summarizing Papert’s ideas than I possibly could,
-and @@cite@@Craw2010@@ is a thought-provoking companion to both.
+and [[Craw2010](../bib/#Craw2010)] is a thought-provoking companion to both.
 
 ## History
 
@@ -205,8 +205,8 @@ taught from software engineering: we were trying to show people the
 digital equivalent of painting a bathroom, not building the Channel
 Tunnel.) In the years that followed, I discovered resources like [Mark
 Guzdial’s blog](http://computinged.wordpress.com) and the book *How
-Learning Works* @@cite@@Ambr2010@@. These in turn led me to books like
-@@cite@@Hust2012,Lemo2014,Lang2016@@ that showed me how to build and
+Learning Works* [[Ambr2010](../bib/#Ambr2010)]. These in turn led me to books like
+[[Hust2012](../bib/#Hust2012),[Lemo2014](../bib/#Lemo2014),[Lang2016](../bib/#Lang2016)] that showed me how to build and
 deliver better lessons in less time and with less effort.
 
 I started using these ideas in [Software
@@ -225,7 +225,7 @@ careers, and all of those experiences have gone into this book.
 
 Politicians, business leaders, and educators often say that people
 should learn to program because the jobs of the future will require it;
-for example, @@cite@@Scaf2017@@ found that people who aren’t software
+for example, [[Scaf2017](../bib/#Scaf2017)] found that people who aren’t software
 developers but who still program make higher wages than comparable
 workers who do not.
 
