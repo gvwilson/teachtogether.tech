@@ -306,7 +306,7 @@ pieces, each of which leads to a formative assessment.
 > you're all working on---separately. On the count of three, have everyone
 > reveal their concept maps simultaneously. Once everyone realizes how
 > different their mental models of the project are, a lot of interesting
-> discussion will ensure....
+> discussion will ensue....
 
 The simple model of memory presented here has largely been replaced by a
 more sophisticated one in which short-term memory is broken down into
