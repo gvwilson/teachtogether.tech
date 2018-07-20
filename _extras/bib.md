@@ -130,7 +130,7 @@ title: "Bibliography"
 
 **Cher2009**{:#Cher2009}: Sapna Cheryan, Victoria C. Plaut, Paul G. Davies, and Claude M. Steele: "Ambient Belonging: How Stereotypical Cues Impact Gender Participation in Computer Science". *Journal of Personality and Social Psychology*, 97(6), 2009, <https://doi.org/10.1037/a0016239>. *Reports that subtle environmental clues have a measurable impact on the interest that people of different genders have in computing.*
 
-**Chet2014**{:#Chet2014}: Raj Chetty, John N. Friedman, and Jonah E. Rockoff: "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood". *American Economic Review*, 104(9), Sep 2014, <https://doi.org/10.1257/aer.104.9.2633>. *Reports that that good teachers have a small but measurable impact on student outcomes.*
+**Chet2014**{:#Chet2014}: Raj Chetty, John N. Friedman, and Jonah E. Rockoff: "Measuring the Impacts of Teachers II: Teacher Value-Added and Student Outcomes in Adulthood". *American Economic Review*, 104(9), Sep 2014, <https://doi.org/10.1257/aer.104.9.2633>. *Reports that good teachers have a small but measurable impact on student outcomes.*
 
 **Chi1989**{:#Chi1989}: Michelene T. H. Chi, Miriam Bassok, Matthew W. Lewis, Peter Reimann, and Robert Glaser: "Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems". *Cognitive Science*, 13(2), Apr 1989, <https://doi.org/10.1207/s15516709cog1302_1>. *A seminal paper on the power of self-explanation.*
 
@@ -266,7 +266,7 @@ title: "Bibliography"
 
 **Hank2011**{:#Hank2011}: Brian Hanks, Sue Fitzgerald, Ren\'ee McCauley, Laurie Murphy, and Carol Zander: "Pair Programming in Education: a Literature Review". *Computer Science Education*, 21(2), Jun 2011, <https://doi.org/10.1080/08993408.2011.579808>. *Reports increased success rates and retention with pair programming, with some evidence that it is particularly beneficial for women, but finds that scheduling and partner compatibility can be problematic.*
 
-**Hann2009**{:#Hann2009}: Jo Erskine Hannay, Tore Dyb\aa, Erik Arisholm, and and Dag I. K. Sj\oberg: "The Effectiveness of Pair Programming: A Meta-analysis". *Information and Software Technology*, 51(7), Jul 2009, <https://doi.org/10.1016/j.infsof.2009.02.001>. *A comprehensive meta-analysis of research on pair programming.*
+**Hann2009**{:#Hann2009}: Jo Erskine Hannay, Tore Dyb\aa, Erik Arisholm, and Dag I. K. Sj\oberg: "The Effectiveness of Pair Programming: A Meta-analysis". *Information and Software Technology*, 51(7), Jul 2009, <https://doi.org/10.1016/j.infsof.2009.02.001>. *A comprehensive meta-analysis of research on pair programming.*
 
 **Hann2010**{:#Hann2010}: Jo Erskine Hannay, Erik Arisholm, Harald Engvik, and Dag I. K. Sj\oberg: "Effects of Personality on Pair Programming". *IEEE Transactions on Software Engineering*, 36(1), Jan 2010, <https://doi.org/10.1109/tse.2009.41>. *Reports weak correlation between the ``Big Five'' personality traits and performance in pair programming.*
 

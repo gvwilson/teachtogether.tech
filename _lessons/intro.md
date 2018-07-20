@@ -269,24 +269,25 @@ unwelcome, they can go and find their own space in which to do it.
 ## Acknowledgments {#s:intro-acknowledgments}
 
 This book would not exist without the hard work and feedback of Erin
-Becker, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard Capes,
-Francis Castro, Warren Code, Ben Cotton, Richie Cotton, Karen Cranston,
-Katie Cunningham, Natasha Danas, Matt Davis, Neal Davis, Mark Degani,
-Michael Deutsch, Brian Dillingham, Kathi Fisler, Auriel Fournier, Bob
-Freeman, Nathan Garrett, Mark Guzdial, Rayna Harris, Ahmed Hasan, Ian
-Hawke, Felienne Hermans, Kate Hertweck, Toby Hodges, Dan Katz, Christina
-Koch, Shriram Krishnamurthi, Colleen Lewis, Lenny Markus, Sue McClatchy,
-Ian Milligan, Lex Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel
-Ostblom, Elizabeth Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase,
-Emily Porta, Alex Pounds, Thomas Price, Danielle Quinn, Ian Ragsdale,
-Erin Robinson, Rosario Robinson, Ariel Rokem, Pat Schloss, Malvika
-Sharan, Florian Shkurti, Juha Sorva, Tracy Teal, Tiffany Timbers,
-Richard Tomsett, Preston Tunnell Wilson, Matt Turk, Fiona Tweedie,
-Allegra Via, Anelda van der Walt, Stéfan van der Walt, Belinda Weaver,
-Hadley Wickham, Jason Williams, John Wrenn, and Andromeda Yelton. I am
+Becker, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard
+Capes, Francis Castro, Warren Code, Ben Cotton, Richie Cotton, Karen
+Cranston, Katie Cunningham, Natasha Danas, Matt Davis, Neal Davis,
+Mark Degani, Michael Deutsch, Brian Dillingham, Kathi Fisler, Auriel
+Fournier, Bob Freeman, Nathan Garrett, Mark Guzdial, Rayna Harris,
+Ahmed Hasan, Ian Hawke, Felienne Hermans, Kate Hertweck, Toby Hodges,
+Dan Katz, Christina Koch, Shriram Krishnamurthi, Katrin Leinweber,
+Colleen Lewis, Lenny Markus, Sue McClatchy, Ian Milligan, Lex
+Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel Ostblom, Elizabeth
+Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase, Emily Porta,
+Alex Pounds, Thomas Price, Danielle Quinn, Ian Ragsdale, Erin
+Robinson, Rosario Robinson, Ariel Rokem, Pat Schloss, Malvika Sharan,
+Florian Shkurti, Juha Sorva, Tracy Teal, Tiffany Timbers, Richard
+Tomsett, Preston Tunnell Wilson, Matt Turk, Fiona Tweedie, Allegra
+Via, Anelda van der Walt, Stéfan van der Walt, Belinda Weaver, Hadley
+Wickham, Jason Williams, John Wrenn, and Andromeda Yelton. I am
 grateful to them, to Lukas Blakk for the cover image, and to everyone
-who has used this material over the years; any mistakes that remain are
-mine.
+who has used this material over the years; any mistakes that remain
+are mine.
 
 > **Breaking the Law**
 > 
@@ -308,7 +309,7 @@ exercises that are described as being for groups---and you can always
 spend more time on them than what's suggested.
 
 The exercises in this chapter can be used as preassessment questions
-([s:classroom-prior](#SECTION)) rather than as in-class exercises. if
+([s:classroom-prior](#SECTION)) rather than as in-class exercises. If
 you have learners answer them a few days before a class or workshop
 starts, they will give you a much clearer idea of who they are and how
 best you can help them.

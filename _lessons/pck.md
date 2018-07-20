@@ -121,12 +121,13 @@ to see the sequence that more advanced programmers actually use.
 ### Roles of Variables
 
 One body of work that I have found very useful in teaching programming
-plans to novices is the collection of single-variable design patterns in
-[[Kuit2004](#CITE),[Byck2005](#CITE),[Saja2006](#CITE)]. labelling the parts of novices'
-programs gives them a vocabulary to think with and a set of programming
-plans for constructing code of their own. The patterns are listed on the
-[Roles of Variables website](http://saja.kapsi.fi/var_roles/), which
-also includes examples of each:
+plans to novices is the collection of single-variable design patterns
+in [[Kuit2004](#CITE),[Byck2005](#CITE),[Saja2006](#CITE)]. Labelling
+the parts of novices' programs gives them a vocabulary to think with
+and a set of programming plans for constructing code of their own. The
+patterns are listed on the [Roles of Variables
+website](http://saja.kapsi.fi/var_roles/), which also includes
+examples of each:
 
 - **Fixed value:**
   A data item that does not get a new proper value after its
@@ -190,7 +191,7 @@ likely to do poorly in the course.
 
 Our second recommendation is therefore to *teach novices how to debug*.
 [[Fitz2008](#CITE),[Murp2008](#CITE)] found that good debuggers were good
-programmers, but not all good programmers were good at debugging. those
+programmers, but not all good programmers were good at debugging. Those
 who were used a symbolic debugger to step through their programs, traced
 execution by hand, wrote tests, and re-read the spec frequently, which
 are all teachable habits. However, tracing execution step by step was
@@ -636,10 +637,10 @@ comprehension." It also found that experienced developers are relatively
 unaffected by identifier style, so our recommendation is just to use
 consistent style in all examples.
 
-Since most languages have style guides (e.g.,
-[PEP 8](https://www.python.org/dev/peps/pep-0008/) for Python) and tools
-to check that code follows these guidelines, our full recommendation is
-is to *use tools to ensure that all code examples adhere to a consistent
+Since most languages have style guides (e.g., [PEP
+8](https://www.python.org/dev/peps/pep-0008/) for Python) and tools to
+check that code follows these guidelines, our full recommendation is
+to *use tools to ensure that all code examples adhere to a consistent
 style*.
 
 ## Does Better Feedback Help? {#s:pck-error}
