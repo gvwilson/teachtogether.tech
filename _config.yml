@@ -25,12 +25,39 @@ exclude:
 - bin
 - requirements.txt
 
-# Collections: one for lessons, one for extras.
+# Collections: one for lessons and one for extras for each language suffix.
 collections:
-  lessons:
+  lessons_en:
     output: true
-  extras:
+  extras_en:
     output: true
+  lessons_um:
+    output: true
+  extras_um:
+    output: true
+
+# Set the language for various collections.
+defaults:
+  - scope:
+      path: ""
+      type: lessons_en
+    values:
+      language: "en"
+  - scope:
+      path: ""
+      type: extras_en
+    values:
+      language: "en"
+  - scope:
+      path: ""
+      type: lessons_um
+    values:
+      language: "um"
+  - scope:
+      path: ""
+      type: extras_um
+    values:
+      language: "um"
 
 # Order for Table of Contents.
 toc:
@@ -66,3 +93,12 @@ toc:
   - /peereval/
   - /preassess/
   - /v3/
+
+# Translations by language.
+translations:
+  en:
+    generated: "Last generated"
+    objectives: "After reading this chapter, you will be able to..."
+  um:
+    generated: "Lastum generatum"
+    objectives: "Sodales ut etiam sit amet nisl purus in..."

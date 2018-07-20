@@ -1,15 +1,18 @@
+{% if include.language == 'en' %}
+  {% assign these_lessons = site.lessons_en %}
+  {% assign these_extras = site.extras_en %}
+{% elsif include.language == 'um' %}
+  {% assign these_lessons = site.lessons_um %}
+  {% assign these_extras = site.extras_um %}
+{% endif %}
 <nav>
-  <p>
-    <img src="{{'/files/cover.png'|relative_url}}" alt="Teaching Tech Together logo" width="100%" />
-  </p>
-  <p>
-    {% if page.permalink == '/' %}<strong>{% endif %}
-    <a href="{{'/'|relative_url}}">{{site.title}}</a>
-    {% if page.permalink == '/' %}</strong>{% endif %}
-  </p>
-  {% include toc-section.html title="Lessons" toc=site.toc.lessons coll=site.lessons %}
+  {% if page.root %}<strong><a href="./">{% else %}<a href="../">{% endif %}
+    <img src="{{'/files/t3logo.svg'|relative_url}}" alt="{{site.title}} logo" width="100%" />
+    <p><em>{{site.title}}</em></p>
+  {% if page.root %}</a></strong>{% else %}</a>{% endif %}
+  {% include toc-section.html title="Lessons" toc=site.toc.lessons coll=these_lessons language=include.language %}
   <hr/>
-  {% include toc-section.html title="Extras" toc=site.toc.extras coll=site.extras %}
+  {% include toc-section.html title="Extras" toc=site.toc.extras coll=these_extras language=include.language %}
   <hr/>
   <p>
     <a href="{{'/license/'|relative_url}}"><img src="{{'/files/cc-by.svg'|relative_url}}" alt="CC-BY License" width="80%" /></a>
@@ -20,7 +23,7 @@
   </p>
   {% unless page.title %}
   <p>
-    <em>Generated {{site.time|date: '%Y-%m-%d'}}.</em>
+    <em>{{site.translations[page.language].generated}} {{site.time|date: '%Y-%m-%d'}}.</em>
   </p>
   {% endunless %}
 </nav>

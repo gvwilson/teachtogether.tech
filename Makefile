@@ -1,7 +1,7 @@
 # Settings
 JEKYLL=jekyll
 D_DST=_site
-MD_SRC=$(wildcard _lessons/*.md) $(wildcard _extras/*.md)
+MD_SRC=$(wildcard _lessons_en/*.md) $(wildcard _extras_en/*.md)
 
 # Controls
 .PHONY : commands serve site bib crossref clean
@@ -20,9 +20,9 @@ site :
 	${JEKYLL} build
 
 ## bib      : rebuild Markdown bibliography from BibTeX source.
-bib : ./_extras/bib.md
-./_extras/bib.md : ./bin/bib2md.py ./files/t3.bib
-	./bin/bib2md.py < ./files/t3.bib > ./_extras/bib.md
+bib : ./_extras_en/bib.md
+./_extras_en/bib.md : ./bin/bib2md.py ./files/t3.bib
+	./bin/bib2md.py < ./files/t3.bib > ./_extras_en/bib.md
 
 ## crossref : rebuild cross-reference file.
 crossref : ./files/crossref.js

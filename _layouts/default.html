@@ -1,40 +1,23 @@
+{% assign translations=site.translations[page.language] %}
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{page.language}}n">
   <head>
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <meta name="author" content="{{site.author}}" />
     <title>{{site.title}}: {% if page.title %}{{page.title}}{% else %}{{site.subtitle}}{% endif %}</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-          crossorigin="anonymous">
-    <link rel="stylesheet" href="{{'/css/youbou.css'|relative_url}}" />
-    <link rel="stylesheet" href="{{'/css/murphy.css'|relative_url}}" />
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-    <script src="{{'/files/crossref.js'|relative_url}}"></script>
-    <script src="{{'/js/youbou.js'|relative_url}}" ROOT={{page.root}}></script>
-
+    {% include css.html %}
+    {% include js.html %}
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-2 d-print-none toc">
-          {% include toc.html %}
+          {% include toc.html language=page.language translations=translations %}
         </div>
         <div class="col-md-10 main">
           <h1>{% if page.root %}{{site.title}}{% else %}{{page.title}}{% endif %}</h1>
-          {% include listblock.html title="After reading this chapter, you will be able to..." items=page.objectives %}
+          {% include listblock.html title=translations.objectives items=page.objectives %}
           {{content}}
         </div>
       </div>

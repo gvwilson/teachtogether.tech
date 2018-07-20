@@ -28,13 +28,13 @@ def main():
 
     config = yaml.load(sys.stdin)
 
-    paths = makePaths('./_lessons', config['toc']['lessons'])
+    paths = makePaths('./_lessons_en', config['toc']['lessons'])
     chapters = []
     for (slug, filename) in paths:
         chapters = findAndAdd(filename, slug, chapters)
     chapters = fixNumbers(chapters)
 
-    paths = makePaths('./_extras', config['toc']['extras'])
+    paths = makePaths('./_extras_en', config['toc']['extras'])
     appendices = []
     for (slug, filename) in paths:
         appendices = findAndAdd(filename, slug, appendices)
