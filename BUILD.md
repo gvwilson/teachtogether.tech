@@ -2,6 +2,9 @@
 
 To rebuild this book:
 
+- `pip install -r requirements.txt` to install required Python packages.
+  - You only need to do this if you are rebuilding the bibliography and/or cross-reference database.
+
 - `make bib` to regenerate the Markdown version of the bibliography (`_extras/bib.md`) from the BibTeX version (`files/t3.bib`).
   - You only need to do this if the bibliography has changed.
 
