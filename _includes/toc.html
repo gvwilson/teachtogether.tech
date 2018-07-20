@@ -1,11 +1,12 @@
 <nav>
   <p>
+    <img src="{{'/files/cover.png'|relative_url}}" alt="Teaching Tech Together logo" width="100%" />
+  </p>
+  <p>
     {% if page.permalink == '/' %}<strong>{% endif %}
     <a href="{{'/'|relative_url}}">{{site.title}}</a>
     {% if page.permalink == '/' %}</strong>{% endif %}
   </p>
-  {% include toc-section.html title="" toc=site.toc.toplevel coll=site.toplevel %}
-  <hr/>
   {% include toc-section.html title="Lessons" toc=site.toc.lessons coll=site.lessons %}
   <hr/>
   {% include toc-section.html title="Extras" toc=site.toc.extras coll=site.extras %}

@@ -16,23 +16,14 @@ highlighter: rouge
 
 # Things to ignore
 exclude:
-- Makefile
-- bin
 - BUILD.md
-
-# Pages that are stored in the root directory by convention.
-# Since they aren't part of a collection, their titles have
-# to be stored here explicitly.
-toplevel:
-- permalink: /license/
-  title: "License"
-  filename: "LICENSE.md"
-- permalink: /conduct/
-  title: "Code of Conduct"
-  filename: "CONDUCT.md"
-- permalink: /citation/
-  title: "Citation"
-  filename: "CITATION.md"
+- CITATION.md
+- CONDUCT.md
+- LICENSE.md
+- Makefile
+- README.md
+- bin
+- requirements.txt
 
 # Collections: one for lessons, one for extras.
 collections:
@@ -43,10 +34,6 @@ collections:
 
 # Order for Table of Contents.
 toc:
-  toplevel:
-  - /license/
-  - /conduct/
-  - /citation/
   lessons:
   - /intro/
   - /models/
@@ -65,6 +52,9 @@ toc:
   - /partner/
   - /final/
   extras:
+  - /license/
+  - /conduct/
+  - /citation/
   - /bib/
   - /joining/
   - /gloss/

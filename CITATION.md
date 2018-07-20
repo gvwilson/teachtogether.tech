@@ -1,12 +1,6 @@
----
-layout: default
-permalink: "/citation/"
-title: "Citation"
----
+# Citation
 
 Please cite this work as:
 
 > Greg Wilson (ed.): *Teaching Tech Together*. Lulu.com, 2018,
-> {{site.isbn}}, {{site.website}}.
-
-{% include links.md %}
+> 978-0-9881137-0-1, <http://teachtogether.tech>.

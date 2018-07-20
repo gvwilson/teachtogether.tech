@@ -34,8 +34,7 @@ def main():
         chapters = findAndAdd(filename, slug, chapters)
     chapters = fixNumbers(chapters)
 
-    paths = makePaths('.', [t['permalink'].upper() for t in config['toplevel']]) + \
-            makePaths('./_extras', config['toc']['extras'])
+    paths = makePaths('./_extras', config['toc']['extras'])
     appendices = []
     for (slug, filename) in paths:
         appendices = findAndAdd(filename, slug, appendices)

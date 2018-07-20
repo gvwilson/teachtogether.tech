@@ -29,7 +29,7 @@ The result is:
 
 - Chapters are stored in `_lessons` and appendices in `_extras`.  The prefixes in front of these names, and the corresponding entries in the `_config.yml` configuration file, tell Jekyll to treat each set of files as a collection so that the template can iterate over them.
 
-- Four files are stored in the root directory in accordance with widely-used open source conventions: `README.md` (which becomes the overall index page for the site), `CONDUCT.md` (the code of conduct), `LICENSE.md` (the license), and `CITATION.md` (how to cite this work).  The latter three are included in a special `toplevel` section of `_config.yml`, and are counted as appendices for rendering purposes.
+- The root directory contains `index.md` (the home page, which is Jekylled) and un-Jekylled versions of the license, the code of conduct, and the citation guide.  `_extras` contains Jekylled versions of these latter three files as well; they are duplicated because many open source projects expect these files in the root directory with these names, but managing them separately proved annoying.
 
 - Sections are given IDs using the syntax `## Section Title {#s:slug-something}`, which translates into an h-heading with an `id` attribute.
 
@@ -47,4 +47,4 @@ The result is:
 
 - Diagrams are drawn using [draw.io](http://draw.io) (which can be downloaded and installed for offline use).  Save the `.xml` file in `files`, and then export SVG and PDF into the same directory for use in the online and print versions of the book respectively.
 
-- `_inclues/toc-section.html` uses a double loop to match collection items to the ordered list in the configuration table of contents.  Since this is run once for each file, the process is actually N^3, which is nuts, but Jekyll doesn't have a way to force ordering of a collection or to turn a collection into a lookup table with a user-defined key.  <https://github.com/jekyll/jekyll/pull/5904> was supposed to fix this, but...
+- `_includes/toc-section.html` uses a double loop to match collection items to the ordered list in the configuration table of contents.  Since this is run once for each file, the process is actually N^3, which is nuts, but Jekyll doesn't have a way to force ordering of a collection or to turn a collection into a lookup table with a user-defined key.  <https://github.com/jekyll/jekyll/pull/5904> was supposed to fix this, but...
