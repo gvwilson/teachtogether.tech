@@ -238,6 +238,7 @@ functions are widely used for abstraction.
 **Fuzz testing**{:#g:fuzz-testing}: A software testing technique
 based on generating and submitting random data.
 
+**General pedagogical knowledge**{:#g:general-pedagogical-knowledge}:
 A person's understanding of the general principles of teaching. See also
 *content knowledge* and *pedagogical content knowledge*.
 
@@ -303,8 +304,9 @@ trying to achieve.
 **Learning outcome**{:#g:learning-outcome}: What a lesson
 actually achieves.
 
-Newcomers' participation in simple, low-risk tasks that a *community of
-practice* recognizes as valid contributions.
+**Legitimate peripheral participation**{:#g:legitimate-peripheral-participation}:
+Newcomers' participation in simple, low-risk tasks that a *community
+of practice* recognizes as valid contributions.
 
 **Live coding**{:#g:live-coding}: The act of teaching programming
 by writing software in front of learners as the lesson progresses.
@@ -349,6 +351,7 @@ used as a teaching practice in programming classes.
 developed by Dale Parsons and others in which learners rearrange given
 material to construct a correct answer to a question.
 
+**Pedagogical content knowledge**{:#g:pedagogical-content-knowledge}:
 (PCK) The understanding of how to teach a particular subject, i.e., the
 best order in which to introduce topics and what examples to use. See
 also *content knowledge* and *general pedagogical knowledge*.

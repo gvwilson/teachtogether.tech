@@ -123,7 +123,7 @@ submissions are much more predictable and therefore easier to check.
 >     print(slice)
 
 As described in [s:load](#CHAPTER), [Parsons
-Problems](#g:parsons-problems) also avoid the "blank screen of terror"
+Problems](#g:parsons-problem) also avoid the "blank screen of terror"
 problem. The learner is given the lines of code needed to solve a
 problem, but has to put them in the right order. Research over the
 past few years has shown that Parsons Problems are effective because

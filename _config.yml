@@ -24,6 +24,7 @@ exclude:
 - README.md
 - bin
 - requirements.txt
+- tex
 
 # Collections: one for lessons and one for extras for each language suffix.
 collections:

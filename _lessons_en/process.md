@@ -309,7 +309,7 @@ something to think about [[Will2010](#CITE)].)
 Another way to think about learning objectives comes from
 [[Fink2013](#CITE)], which defines learning in terms of the change it
 is meant to produce in the learner. [Fink's
-Taxonomy](#g:tinks-taxonomy)also has six categories, but unlike
+Taxonomy](#g:finks-taxonomy)also has six categories, but unlike
 Bloom's, they are complementary rather than hierarchical:
 
 - **Foundational Knowledge:**
