@@ -17,7 +17,7 @@ exercises you can use to check if your teaching has been effective. It
 then looks at the state of the art in automated grading, and closes by
 exploring discussion, projects, and other important kinds of work that
 require more human attention to assess. Our discussion draws in part on
-the [Canterbury Question Bank](http://web-cat.org/questionbank/)
+the [Canterbury Question Bank][canterbury-question-bank]
 [[Sand2013](#CITE)], which has entries for various languages and topics
 in introductory computing.
 
@@ -464,15 +464,15 @@ but only supply the actual inputs and outputs of the tests after the
 submission date. This can be frustrating, because it tells learners they
 are wrong, but not why.
 
-A third option is to use a technique called
-[hashing](#g:hashing) to generate a value that depends on the
-output, but doesn't reveal it. If the user produces exactly the same
-output, its hash will be the same as the hash of the correct output,
-which will unlock the solution, but it is impossible to work backward
-from the hash to figure out what the output is supposed to be. Hashing
-is used to create digital signatures for documents, and requires a bit
-more work and explanation to set up, but strikes a good balance between
-revealing answers prematurely and not revealing them when it would help.
+A third option is to use a technique called [hashing](#g:hashing) to
+generate a value that depends on the output, but doesn't reveal it. If
+the user produces exactly the same output, its hash will be the same
+as the hash of the correct output, which will unlock the solution, but
+it is impossible to work backward from the hash to figure out what the
+output is supposed to be. Hashing is used to create digital signatures
+for documents, and requires a bit more work and explanation to set up,
+but strikes a good balance between revealing answers prematurely and
+not revealing them when it would help.
 
 ## Higher-Level Thinking {#s:exercises-higher}
 

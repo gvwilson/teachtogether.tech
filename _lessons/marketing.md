@@ -10,14 +10,14 @@ objectives:
 ---
 
 It's hard to get people with academic or technical backgrounds to take
-[marketing](#g:marketing) seriously, not least because it's
-perceived as being about spin and misdirection. In reality, it is the
-craft of seeing things from other people's perspective, understanding
-their wants and needs, and finding ways to meet them. This should sound
-familiar: many of the techniques introduced in [s:process](#CHAPTER) do
-exactly this for lessons. This chapter will look at how to apply similar
-ideas to the larger problem of getting people to understand and support
-what you're doing.
+[marketing](#g:marketing) seriously, not least because it's perceived
+as being about spin and misdirection. In reality, it is the craft of
+seeing things from other people's perspective, understanding their
+wants and needs, and finding ways to meet them. This should sound
+familiar: many of the techniques introduced in [s:process](#CHAPTER)
+do exactly this for lessons. This chapter will look at how to apply
+similar ideas to the larger problem of getting people to understand
+and support what you're doing.
 
 ## What Are You Offering to Whom? {#s:marketing-what-whom}
 
@@ -53,11 +53,10 @@ actual product may be some mix of:
 
 As with the lesson design process in [s:process](#CHAPTER), you should
 try to create personas to describe people who might be interested in
-what you're doing and figure out which of their needs your program will
-meet. You should also write a set of
-[elevator pitches](#g:elevator-pitch), each aimed at a
-different potential stakeholder. A widely-used template for these
-pitches looks like this:
+what you're doing and figure out which of their needs your program
+will meet. You should also write a set of [elevator
+pitches](#g:elevator-pitch), each aimed at a different potential
+stakeholder. A widely-used template for these pitches looks like this:
 
 1. For *target audience*
 
@@ -165,14 +164,14 @@ down to trying to stay one step ahead of algorithms designed to prevent
 people from gaming rankings.
 
 Unless you're very well funded, the best you can do is to search for
-yourself and your organization on a regular basis and see what comes up,
-then read [these guidelines from
-Moz](https://moz.com/learn/seo/on-page-factors) and do what you can to
-improve your site. Keep [this cartoon](https://xkcd.com/773/) in mind:
-people don't (initially) want to know about your org chart or get a
-virtual tour of your site; they want your address, parking information,
-and above all, some idea of what you teach, when you teach it, how to
-get in touch, and how it's going to change their life.
+yourself and your organization on a regular basis and see what comes
+up, then read [these guidelines from Moz][moz-guidelines] and do what
+you can to improve your site. Keep [this cartoon][xkcd-org-chart] in
+mind: people don't (initially) want to know about your org chart or
+get a virtual tour of your site; they want your address, parking
+information, and above all, some idea of what you teach, when you
+teach it, how to get in touch, and how it's going to change their
+life.
 
 Offline findability is equally important for new organizations. Many of
 the people you hope to reach might not be online as often as you, and

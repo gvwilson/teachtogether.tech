@@ -20,7 +20,7 @@ Every instructor needs three things:
 - [content knowledge](#g:content-knowledge), such as how to
   program;
 
-- [general pedagogical knowledge(#g:general-pedagogical-knowledge),
+- [general pedagogical knowledge](#g:general-pedagogical-knowledge),
   such as an understanding of the psychology of learning; and
 
 - [pedagogical content knowledge](#g:pedagogical-content-knowledge)
@@ -34,17 +34,16 @@ results from research into teaching and learning programming that will
 add to your store of PCK.
 
 Computing education research is still a young discipline: while the
-American Society for Engineering Education was founded in 1893, and the
-National Council of Teachers of Mathematics in 1920, the Computer
+American Society for Engineering Education was founded in 1893, and
+the National Council of Teachers of Mathematics in 1920, the Computer
 Science Teachers Association didn't exist until 2005. The simple truth
-is that we don't know as much about how people learn to program as we do
-about how they learn to read, play a sport, or do basic arithmetic.
-However, conferences like [SIGCSE](http://sigcse.org/),
-[ITiCSE](http://iticse.acm.org/) and
-[ICER](https://icer.hosting.acm.org) are delivering an ever-increasing
-stream of rigorous, insightful studies with practical application. (For
-those interested in methods these studies rely on, [[Ihan2016](#CITE)]
-summarizes the ones used most often.)
+is that we don't know as much about how people learn to program as we
+do about how they learn to read, play a sport, or do basic arithmetic.
+However, conferences like [SIGCSE][sigcse], [ITiCSE][iticse] and
+[ICER][icer] are delivering an ever-increasing stream of rigorous,
+insightful studies with practical application. (For those interested
+in methods these studies rely on, [[Ihan2016](#CITE)] summarizes the
+ones used most often.)
 
 As with all research, though, some caution is required to interpret
 these results. Most studies look at school children and university
@@ -73,14 +72,13 @@ nuanced perhapses.
 > experience who aren't intending to continue with computing (at least
 > not right away).
 > 
-> A CS1 course is often useful for undergraduates in other disciplines;
-> a CS2 course designed for computer science learners is usually less
-> relevant for artists, ecologists, and other
-> [end-user programmers](#g:end-user-programmer), but is
-> sometimes the only next step available at their institution. Full
-> definitions for these terms and others can be found in the [ACM
-> Curriculum
-> Guidelines](https://www.acm.org/education/curricula-recommendations).
+> A CS1 course is often useful for undergraduates in other
+> disciplines; a CS2 course designed for computer science learners is
+> usually less relevant for artists, ecologists, and other [end-user
+> programmers](#g:end-user-programmer), but is sometimes the only next
+> step available at their institution. Full definitions for these
+> terms and others can be found in the [ACM Curriculum
+> Guidelines][acm-guidelines].
 
 ## How Do Novices Program? {#s:pck-programming}
 
@@ -126,8 +124,7 @@ in [[Kuit2004](#CITE),[Byck2005](#CITE),[Saja2006](#CITE)]. Labelling
 the parts of novices' programs gives them a vocabulary to think with
 and a set of programming plans for constructing code of their own. The
 patterns are listed on the [Roles of Variables
-website](http://saja.kapsi.fi/var_roles/), which also includes
-examples of each:
+website][variable-roles], which also includes examples of each:
 
 - **Fixed value:**
   A data item that does not get a new proper value after its
@@ -211,10 +208,11 @@ doing will help make the group's overall progress more uniform.
 
 Debugging depends on being able to read code, which multiple studies
 have shown is the single most effective way to find bugs
-[[Basi1987](#CITE),[Keme2009](#CITE),[Bacc2013](#CITE)]. The code quality rubric developed
-in [[Steg2014](#CITE),[Steg2016a](#CITE)], which is online at [[Steg2016b](#CITE)],
-is a good checklist of things to look for, though it is best presented
-in chunks rather than all at once.
+[[Basi1987](#CITE),[Keme2009](#CITE),[Bacc2013](#CITE)]. The code
+quality rubric developed in [[Steg2014](#CITE),[Steg2016a](#CITE)],
+which is online at [[Steg2016b](#CITE)], is a good checklist of things
+to look for, though it is best presented in chunks rather than all at
+once.
 
 Having learners read code and summarize its behavior is a good exercise
 ([s:individual-strategies](#SECTION)), but often takes too long to be
@@ -284,9 +282,9 @@ executing:
     grade = 80
     print(total)
 
-the value of `total` will be 90 rather than 75 [[Kohn2017](#CITE)]. (This
-is an example of the way in which novices construct a
-plausible-but-wrong mental model by making analogies.) Other
+the value of `total` will be 90 rather than 75 [[Kohn2017](#CITE)].
+(This is an example of the way in which novices construct a
+plausible-but-wrong mental model by making analogies.)  Other
 misconceptions include:
 
 - A variable holds the history of the values it has been assigned,
@@ -451,7 +449,7 @@ trajectories for conditionals.
 
 <figure>
   <img src="../files/conditionals.svg" alt="Learning Trajectory for Conditions" />
-  <figcaption id="f:pck-trajectory">Learning Trajectory for Conditions ([<a href="#Rich2017">Rich2017</a>])</figcaption>
+  <figcaption id="f:pck-trajectory">Learning Trajectory for Conditions</figcaption>
 </figure>
 
 But there can be a world of difference between what instructors teach
@@ -495,16 +493,16 @@ learn more using blocks-based tools like Scratch
 that text does not; like all good tools, Scratch can be learned
 accidentally [[Malo2010](#CITE)].
 
-Our fifth recommendation is therefore to *start children and teens with
-blocks-based interfaces* before moving to text-based systems. The age
-qualification is there because Scratch (deliberately) looks like it's
-meant for younger users; while imitators like
-[Blockly](https://developers.google.com/blockly/) look more grown-up, it
-can still be hard to convince adults to take them seriously.
+Our fifth recommendation is therefore to *start children and teens
+with blocks-based interfaces* before moving to text-based systems. The
+age qualification is there because Scratch (deliberately) looks like
+it's meant for younger users; while imitators like [Blockly][blockly]
+look more grown-up, it can still be hard to convince adults to take
+them seriously.
 
 <figure>
   <img src="../files/scratch.jpg" alt="Scratch (from <https://opensource.com/article/18/4/designing-game-scratch-open-jam>)" />
-  <figcaption id="f:pck-scratch">Scratch (<https://opensource.com/article/18/4/designing-game-scratch-open-jam>)</figcaption>
+  <figcaption id="f:pck-scratch">Scratch (from https://opensource.com/article/18/4/designing-game-scratch-open-jam)</figcaption>
 </figure>
 
 Scratch has probably been studied more than any other programming tool,
@@ -522,21 +520,20 @@ language. What's more, as tasks become more complex (such as using
 nested loops) the differences become larger.
 
 [[Wein2017a](#CITE)] studied people using a tool that allowed them to
-switch between blocks and text for programming. They found that learners
-tend to migrate from blocks to text over time, but when learners shifted
-from text to blocks, their next action was to add a new type of command.
-This may be because browsing available commands is easier with blocks,
-or because blocks make syntax errors with unfamiliar new commands
-impossible. The authors say, "While it is often claimed that
-blocks-based programming environments offer the advantage of reducing
-syntax errors, our findings suggest that blocks also offer information
-about what is possible in the space and provide a low-stakes means of
-exploring unfamiliar code." New tools like
-[Stride](https://www.greenfoot.org/frames/) are trying to smooth the
-transition between blocks and text even further; when combined with
-programming notebooks like [Jupyter](http://jupyter.org/) and
-[Stencila](http://stenci.la/), they may eventually eliminate the
-distinction altogether.
+switch between blocks and text for programming. They found that
+learners tend to migrate from blocks to text over time, but when
+learners shifted from text to blocks, their next action was to add a
+new type of command.  This may be because browsing available commands
+is easier with blocks, or because blocks make syntax errors with
+unfamiliar new commands impossible. The authors say, "While it is
+often claimed that blocks-based programming environments offer the
+advantage of reducing syntax errors, our findings suggest that blocks
+also offer information about what is possible in the space and provide
+a low-stakes means of exploring unfamiliar code." New tools like
+[Stride][stride] are trying to smooth the transition between blocks
+and text even further; when combined with programming notebooks like
+[Jupyter][jupyter] and [Stencila][stencila], they may eventually
+eliminate the distinction altogether.
 
 > **Harder Than Necessary**
 > 
@@ -573,14 +570,14 @@ in syntax between `obj.method(param)` and `def method(self, param)`.
 [[Rago2017](#CITE)] found something similar in high school students, and
 that high school teachers often weren't clear on the concept either.
 
-Another approach is exemplified by the [Bootstrap
-project](http://www.bootstrapworld.org/), which is based on the
-[functional programming](#g:functional-programming)
-paradigm. This work draws on a rich tradition going back to languages
-like Scheme and Lisp, and to classic textbooks like
-[[Fell2001](#CITE),[Frie1995](#CITE),[Abel1996](#CITE)]. If functional programming
-continues to gain ground among professional programmers, this approach
-may grow more popular for teaching.
+Another approach is exemplified by the [Bootstrap project][bootstrap],
+which is based on the [functional
+programming](#g:functional-programming) paradigm. This work draws on a
+rich tradition going back to languages like Scheme and Lisp, and to
+classic textbooks like
+[[Fell2001](#CITE),[Frie1995](#CITE),[Abel1996](#CITE)]. If functional
+programming continues to gain ground among professional programmers,
+this approach may grow more popular for teaching.
 
 On balance, we recommend that instructors *use procedural languages* to
 start with, i.e., that defining classes and using higher-order functions
@@ -637,11 +634,10 @@ comprehension." It also found that experienced developers are relatively
 unaffected by identifier style, so our recommendation is just to use
 consistent style in all examples.
 
-Since most languages have style guides (e.g., [PEP
-8](https://www.python.org/dev/peps/pep-0008/) for Python) and tools to
-check that code follows these guidelines, our full recommendation is
-to *use tools to ensure that all code examples adhere to a consistent
-style*.
+Since most languages have style guides (e.g., [PEP 8][pep-8] for
+Python) and tools to check that code follows these guidelines, our
+full recommendation is to *use tools to ensure that all code examples
+adhere to a consistent style*.
 
 ## Does Better Feedback Help? {#s:pck-error}
 
@@ -677,14 +673,14 @@ grading such exercises.
 
 ### Does Visualization Help?
 
-The idea of visualizing programs is perennially popular, and tools like
-[[Guo2013](#CITE)] (a web-based tool for visualizing the execution of
-Python programs) and [Loupe](http://latentflip.com/loupe/) (which shows
-how JavaScript's event loop works) are both useful teaching aids.
-However, people learn more from constructing visualizations than they do
-from viewing visualizations constructed by others
-[[Stas1998](#CITE),[Ceti2016](#CITE)], so does visualization actually help
-learning?
+The idea of visualizing programs is perennially popular, and tools
+like [[Guo2013](#CITE)] (a web-based tool for visualizing the
+execution of Python programs) and [Loupe][loupe] (which shows how
+JavaScript's event loop works) are both useful teaching aids.
+However, people learn more from constructing visualizations than they
+do from viewing visualizations constructed by others
+[[Stas1998](#CITE),[Ceti2016](#CITE)], so does visualization actually
+help learning?
 
 To answer this, [[Cunn2017](#CITE)] replicated an earlier study of the
 kinds of sketching students do when tracing code execution. They found
@@ -776,13 +772,13 @@ benefits overall and for many subgroups: they not only had higher
 grades, they left fewer questions blank on the final exam, which
 indicates greater self-efficacy and willingness to try to debug things.
 
-As noted earlier, writing code isn't the only way to teach people how to
-program. [[Shel2017](#CITE)] reports that having novices work on
-computational creativity exercises improves grades at several levels. A
-typical exercise is to identify an everyday object (such as nail
-clipper, a paper clip, Scotch tape) and describe the object in terms of
-its inputs, outputs and functions. This kind of teaching is sometimes
-called "unplugged"; the [CS Unplugged](https://csunplugged.org/en/) site
+As noted earlier, writing code isn't the only way to teach people how
+to program. [[Shel2017](#CITE)] reports that having novices work on
+computational creativity exercises improves grades at several
+levels. A typical exercise is to identify an everyday object (such as
+nail clipper, a paper clip, Scotch tape) and describe the object in
+terms of its inputs, outputs and functions. This kind of teaching is
+sometimes called "unplugged"; the [CS Unplugged][cs-unplugged] site
 has a collection of lessons and exercises for doing this.
 
 ## Exercises {#s:pck-exercises}
@@ -894,11 +890,11 @@ it on their own, or something in between?
 **(small groups/15)**
 
 The [Professional Development for CS Principles
-Teaching](http://www.pd4cs.org/) site includes [a detailed list of
-student misconceptions and exercises](http://www.pd4cs.org/mc-index/).
-Working in small groups, choose one section (such as data structures or
-functions) and go through their list. Which of these misconceptions do
-you remember having when you were a learner? Which do you still have?
-Which have you seen in your learners?
+Teaching][cs-principles-pd] site includes [a detailed list of student
+misconceptions and exercises](http://www.pd4cs.org/mc-index/).
+Working in small groups, choose one section (such as data structures
+or functions) and go through their list. Which of these misconceptions
+do you remember having when you were a learner? Which do you still
+have?  Which have you seen in your learners?
 
 {% include links.md %}

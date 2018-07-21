@@ -5,11 +5,11 @@ title: "Introduction"
 ---
 
 Hundreds of grassroots groups have sprung up around the world to teach
-programming, web design, robotics, and other skills to
-[free-range learners](#g:free-range-learner) outside
-traditional classrooms. These groups exist so that people don't have to
-learn these things on their own, but ironically, their founders and
-instructors are often teaching themselves how to teach.
+programming, web design, robotics, and other skills to [free-range
+learners](#g:free-range-learner) outside traditional classrooms. These
+groups exist so that people don't have to learn these things on their
+own, but ironically, their founders and instructors are often teaching
+themselves how to teach.
 
 There's a better way. Just as knowing a few basic facts about germs and
 nutrition can help you stay healthy, knowing a few things about
@@ -33,15 +33,14 @@ you can see what a lesson design looks like.
 
 > **This Book Belongs to Everyone**
 > 
+
 > This book is a community resource. Parts of it were originally
 > created for [the Software Carpentry instructor training
-> program](http://carpentries.github.io/instructor-training/), which
-> has been run over several hundred times over the past six years, and
-> all of it can be freely distributed and re-used under the [Creative
-> Commons - Attribution 4.0
-> license](https://creativecommons.org/licenses/by/4.0/). Please see
-> <{{site.website}}> to download a digital version or to purchase a
-> printed copy at cost.
+> program][carpentries-training], which has been run over several
+> hundred times over the past six years, and all of it can be freely
+> distributed and re-used under the [Creative Commons - Attribution
+> 4.0 license][cc-by-license]. Please see <{{site.website}}> to
+> download a digital version or to purchase a printed copy at cost.
 >
 > Contributions of all kinds are welcome, from errata and minor
 > improvements to entirely new sections and chapters. All proposed
@@ -125,12 +124,11 @@ our made-up learners to use this material as follows:
 If you are in a hurry, or want a taste of what this book will cover,
 [[Brow2018](#CITE)] presents ten evidence-based tips for teaching
 computing. You can download the paper, or read it online, on [the PLoS
-website](https://doi.org/10.1371/journal.pcbi.1006023).
+website][brown-wilson-rules].
 
 I also recommend:
 
-- [The Carpentries instructor
-  training](http://carpentries.github.io/instructor-training/), for
+- [The Carpentries instructor training][carpentries-training], for
   which most of the first half of this book was originally developed.
 
 - [[Lang2016](#CITE)] and [[Hust2012](#CITE)], which are short,
@@ -169,13 +167,12 @@ I also recommend:
   you can't do that on your own.
 
 Of these, [[Pape1993](#CITE)] is the one that shaped my ideas about
-teaching the most. Papert's central argument is that people don't absorb
-knowledge; instead, they (re-)construct it for themselves, and computers
-are a new and powerful tool for helping them do that. [Andy Ko's
-excellent
-description](https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4)
-does a better job of summarizing Papert's ideas than I possibly could,
-and [[Craw2010](#CITE)] is a thought-provoking companion to both.
+teaching the most. Papert's central argument is that people don't
+absorb knowledge; instead, they (re-)construct it for themselves, and
+computers are a new and powerful tool for helping them do that. [Andy
+Ko's excellent description][ko-papert] does a better job of
+summarizing Papert's ideas than I possibly could, and
+[[Craw2010](#CITE)] is a thought-provoking companion to both.
 
 ## History {#s:intro-history}
 
@@ -187,26 +184,26 @@ too fast, used too much jargon, and had no idea how much my learners
 actually understood. I got better over time, but still felt like I was
 stumbling around in a darkened room.
 
-In 2010, I rebooted a project called [Software
-Carpentry](http://carpentries.org) that teaches basic computing skills
-to researchers. (The name "carpentry" was chosen to distinguish what we
-taught from software engineering: we were trying to show people the
-digital equivalent of painting a bathroom, not building the Channel
-Tunnel.) In the years that followed, I discovered resources like [Mark
-Guzdial's blog](http://computinged.wordpress.com) and the book *How
-Learning Works* [[Ambr2010](#CITE)]. These in turn led me to books like
-[[Hust2012](#CITE),[Lemo2014](#CITE),[Lang2016](#CITE)] that showed me how to build and
-deliver better lessons in less time and with less effort.
+In 2010, I rebooted a project called [Software Carpentry][swc] that
+teaches basic computing skills to researchers. (The name "carpentry"
+was chosen to distinguish what we taught from software engineering: we
+were trying to show people the digital equivalent of painting a
+bathroom, not building the Channel Tunnel.) In the years that
+followed, I discovered resources like [Mark Guzdial's
+blog][guzdial-blog] and the book *How Learning Works*
+[[Ambr2010](#CITE)]. These in turn led me to books like
+[[Hust2012](#CITE),[Lemo2014](#CITE),[Lang2016](#CITE)] that showed me
+how to build and deliver better lessons in less time and with less
+effort.
 
-I started using these ideas in [Software
-Carpentry](http://carpentries.org) in 2012. The results were everything
-I'd hoped for, so I began running training sessions to pass on what I'd
-learned. Those sessions became a [training
-program](https://carpentries.github.io/instructor-training/) that dozens
-of trainers have now taught to over a thousand people on six continents.
-Since then, I have run the course for people who teach programming to
-children, librarians, and women re-entering the workforce or changing
-careers, and all of those experiences have gone into this book.
+I started using these ideas in [Software Carpentry][swc] in 2012. The
+results were everything I'd hoped for, so I began running training
+sessions to pass on what I'd learned. Those sessions became a
+[training program][carpentries-training] that dozens of trainers have
+now taught to over a thousand people on six continents.  Since then, I
+have run the course for people who teach programming to children,
+librarians, and women re-entering the workforce or changing careers,
+and all of those experiences have gone into this book.
 
 ## Why Learn to Program? {#s:intro-why}
 
@@ -216,14 +213,13 @@ for example, [[Scaf2017](#CITE)] found that people who aren't software
 developers but who still program make higher wages than comparable
 workers who do not.
 
-However, as Benjamin Doxtdator has [pointed
-out](http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/),
-many of those claims are built on shaky ground. Even if they were true,
-education shouldn't prepare people for the jobs of the future: it should
-give them the power to decide what kinds of jobs there are, and to
-ensure that those jobs are worth doing. And as [Mark Guzdial points
-out](https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/),
-there are actually many reasons to learn how to program:
+However, as Benjamin Doxtdator has [pointed out][doxtdator-jobs], many
+of those claims are built on shaky ground. Even if they were true,
+education shouldn't prepare people for the jobs of the future: it
+should give them the power to decide what kinds of jobs there are, and
+to ensure that those jobs are worth doing. And as [Mark Guzdial points
+out][guzdial-reasons-to-learn], there are actually many reasons to
+learn how to program:
 
 1. To understand our world.
 

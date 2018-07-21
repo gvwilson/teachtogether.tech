@@ -18,26 +18,25 @@ courts, and companies. This chapter presents a handful of strategies for
 figuring out how to do that, and when it's worthwhile.
 
 Unlike most of the rest of this book, this chapter is drawn more from
-things I have seen than from things I have done. Most of my attempts to
-get large institutions to change have been unproductive (which is part
-of why I left a university position to re-start [Software
-Carpentry](http://carpentries.org) in 2010). While contributions to any
-part of this book are welcome, I would be particularly grateful to hear
-what you have to say about the issues discussed below.
+things I have seen than from things I have done. Most of my attempts
+to get large institutions to change have been unproductive (which is
+part of why I left a university position to re-start [Software
+Carpentry][swc] in 2010). While contributions to any part of this book
+are welcome, I would be particularly grateful to hear what you have to
+say about the issues discussed below.
 
 ## Working With Schools {#s:partner-schools}
 
 Everyone is afraid of the unknown and of embarrassing themselves. As a
 result, most people would rather fail than change. For example, Lauren
 Herckis looked at [why university faculty don't adopt better teaching
-methods](https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods).
-She found that the main reason is a fear of looking stupid in front of
-their students; secondary reasons were concern that the inevitable bumps
-in changing teaching methods would affect course evaluations, and a
-desire to continue emulating the lecturers who had inspired them. It's
-pointless to argue about whether these issues are "real" or not: faculty
-believe they are, so any plan to work with faculty needs to address
-them.
+methods][faculty-adopt-teaching-methods].  She found that the main
+reason is a fear of looking stupid in front of their students;
+secondary reasons were concern that the inevitable bumps in changing
+teaching methods would affect course evaluations, and a desire to
+continue emulating the lecturers who had inspired them. It's pointless
+to argue about whether these issues are "real" or not: faculty believe
+they are, so any plan to work with faculty needs to address them.
 
 [[Bark2015](#CITE)] did a two-part study of how computer science
 educators adopt new teaching practices as individuals, organizationally,

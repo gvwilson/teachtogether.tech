@@ -90,12 +90,12 @@ discussion as follows:
      again.
 
 As [this video from Avanti's learning center in
-Kanpur](https://www.youtube.com/watch?v=2LbuoxAy56o) shows, group
-discussion significantly improves students' understanding because it
-forces them to clarify their thinking, which can be enough to call out
-gaps in reasoning. Re-polling the class then lets the teacher know if
-they can move on, or if further explanation is necessary. A final round
-of additional explanation and discussion after the correct answer is
+Kanpur][video-peer-instruction] shows, group discussion significantly
+improves students' understanding because it forces them to clarify
+their thinking, which can be enough to call out gaps in
+reasoning. Re-polling the class then lets the teacher know if they can
+move on, or if further explanation is necessary. A final round of
+additional explanation and discussion after the correct answer is
 presented gives students one more chance to solidify their
 understanding.
 
@@ -230,11 +230,10 @@ them. In short, you might scare off many of the people you most want to
 help.
 
 And self-assessment is unreliable because of the [Dunning-Kruger
-effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
-[[Krug1999](#CITE)]: the less people know about a subject, the less
-accurate their estimate of their knowledge is. Conversely, people who
-are competent may underrate their skills because they regard their level
-of competence as normal.
+effect][dunning-kruger] [[Krug1999](#CITE)]: the less people know
+about a subject, the less accurate their estimate of their knowledge
+is. Conversely, people who are competent may underrate their skills
+because they regard their level of competence as normal.
 
 Rather than asking people to rate their knowledge from 1 to 5, you
 should therefore try to ask them how easily they could complete some
@@ -296,24 +295,25 @@ learner who is bored, the rest of the class will feel left out.
 
 ## Pair Programming {#s:classroom-pair}
 
-[Pair programming](#g:pair-programming) is a software
-development practice in which two programmers share one computer. One
-person (the driver) does the typing, while the other (the navigator)
-offers comments and suggestions. The two switch roles several times per
-hour; [this video](https://www.youtube.com/watch?v=vgkahOzFH2Q) is a
-quick explanation and demonstration.
+[Pair programming](#g:pair-programming) is a software development
+practice in which two programmers share one computer. One person (the
+driver) does the typing, while the other (the navigator) offers
+comments and suggestions. The two switch roles several times per hour;
+[this video][video-pair-programming] is a quick explanation and
+demonstration.
 
 Pair programming is an effective practice in professional work
 [[Hann2009](#CITE)], and is also a good way to teach: benefits include
 increased success rate in introductory courses, better software, and
 higher student confidence in their solutions; there is also evidence
-that students from underrepresented groups benefit even more than others
-[[McDo2006](#CITE),[Hank2011](#CITE),[Port2013](#CITE),[Cele2018](#CITE)]. Partners can not only
-help each other out during the practical, but can also clarify each
-other's misconceptions when the solution is presented, and discuss
-common research interests during breaks. I have found it particularly
-helpful with mixed-ability classes, since pairs are likely to be more
-homogeneous than individuals.
+that students from underrepresented groups benefit even more than
+others
+[[McDo2006](#CITE),[Hank2011](#CITE),[Port2013](#CITE),[Cele2018](#CITE)].
+Partners can not only help each other out during the practical, but
+can also clarify each other's misconceptions when the solution is
+presented, and discuss common research interests during breaks. I have
+found it particularly helpful with mixed-ability classes, since pairs
+are likely to be more homogeneous than individuals.
 
 When you use pairing, put *everyone* in pairs, not just learners who are
 struggling, so that no one feels singled out. It's also useful to have
@@ -355,9 +355,9 @@ memory in a usable way.
 
 Our experience, and some recent research findings, lead us to believe
 that taking notes *collaboratively* can is also effective,
-[[Ornd2015](#CITE),[Yang2015](#CITE)], even though taking notes on a computer is
-generally less effective than taking notes using pen and paper
-[[Muel2014](#CITE)].
+[[Ornd2015](#CITE),[Yang2015](#CITE)], even though taking notes on a
+computer is generally less effective than taking notes using pen and
+paper [[Muel2014](#CITE)].
 
 The first time students encounter the practice, they sometimes report
 that they find it distracting, as it's one more thing they have to keep
@@ -385,12 +385,12 @@ an eye on. Some of the arguments in favor of doing it are:
   discover that the class didn't hear something important, or
   misunderstood it.
 
-We usually use [Etherpad](http://etherpad.org) or [Google
-Docs](https://docs.google.com) for taking shared notes. The former makes
-it easy to see who's written what, while the latter scales better and
-allows people to add images to the notes. Whichever is chosen, classes
-also use it to share snippets of code and small datasets, and as a way
-for learners to show teachers their work (by copying and pasting it in).
+We usually use [Etherpad][etherpad] or [Google Docs][google-docs] for
+taking shared notes. The former makes it easy to see who's written
+what, while the latter scales better and allows people to add images
+to the notes. Whichever is chosen, classes also use it to share
+snippets of code and small datasets, and as a way for learners to show
+teachers their work (by copying and pasting it in).
 
 If you are going to have a group take notes together, make a list of
 everyone's name and paste it into the document each time you want every

@@ -26,16 +26,16 @@ been able to do slowly and piecemeal before. Similarly, the hand-held
 video camera revolutionized athletics training, just as the tape
 recorder revolutionized music instruction a decade earlier.
 
-Many of the people pushing the Internet into classrooms don't know this
-history, and don't realize that it is just the latest in [a long series
-of attempts](http://teachingmachin.es/timeline.html) to use machines to
-teach [[Watt2014](#CITE)]. From the printing press through radio and
+Many of the people pushing the Internet into classrooms don't know
+this history, and don't realize that it is just the latest in [a long
+series of attempts][watters-timeline] to use machines to teach
+[[Watt2014](#CITE)]. From the printing press through radio and
 television to desktop computers and mobile devices, every new way to
-share knowledge has produced a wave of aggressive optimists who believe
-that education is broken and that technology can fix it. However, ed
-tech's strongest advocates have often known less about "ed" than they do
-about "tech", and have often been driven more by the prospect of profit
-than by the desire to improve learning.
+share knowledge has produced a wave of aggressive optimists who
+believe that education is broken and that technology can fix
+it. However, ed tech's strongest advocates have often known less about
+"ed" than they do about "tech", and have often been driven more by the
+prospect of profit than by the desire to improve learning.
 
 Today's debate is often muddied by the fact that "online" and
 "automated" don't have to be the same thing. Live online teaching
@@ -54,11 +54,11 @@ delivered either online or in person.
 ## MOOCs {#s:online-moocs}
 
 The highest-profile effort to reinvent education using the Internet is
-the Massive Open Online Course, or MOOC. The term was invented by David
-Cormier in 2008 to describe a course organized by George Siemens and
-Stephen Downes. That course was based on a
-[connectivist](#g:connectivism) view of learning, which holds
-that knowledge is distributed and learning is the process of finding,
+the Massive Open Online Course, or MOOC. The term was invented by
+David Cormier in 2008 to describe a course organized by George Siemens
+and Stephen Downes. That course was based on a
+[connectivist](#g:connectivism) view of learning, which holds that
+knowledge is distributed and learning is the process of finding,
 creating, and pruning connections.
 
 The term "MOOC" was quickly co-opted by creators of courses that kept
@@ -113,22 +113,22 @@ experience or learner goals.
 > will skip some of the subsequent questions.
 > 
 > Doing this can produce [modest
-> improvements](https://www.rand.org/pubs/research_briefs/RB9994.html)
-> in outcomes, but better is possible. For example, if many learners
-> find a particular topic difficult, the teacher can prepare multiple
-> alternative explanations of that point---essentially, multiple paths
-> forward through the lesson rather than accelerating a single path---so
-> that if one explanation doesn't resonate, others are available.
-> However, this requires a lot more design work on the teacher's part,
-> which may be why it's a less popular approach with the tech crowd.
+> improvements][personalized-learning-improvements] in outcomes, but
+> better is possible. For example, if many learners find a particular
+> topic difficult, the teacher can prepare multiple alternative
+> explanations of that point---essentially, multiple paths forward
+> through the lesson rather than accelerating a single path---so that
+> if one explanation doesn't resonate, others are available.  However,
+> this requires a lot more design work on the teacher's part, which
+> may be why it's a less popular approach with the tech crowd.
 > 
-> And even if it does work, the effects are likely to be much less than
-> some of its advocates believe. A good teacher makes a difference of
-> 0.1--0.15 standard deviations in end-of-year performance in grade
-> school [[Chet2014](#CITE)] (see [this
-> article](http://educationnext.org/in-schools-teacher-quality-matters-most-coleman/)
-> for a brief summary). It's simply unrealistic to believe that any kind
-> of automation can outdo this any time soon.
+> And even if it does work, the effects are likely to be much less
+> than some of its advocates believe. A good teacher makes a
+> difference of 0.1--0.15 standard deviations in end-of-year
+> performance in grade school [[Chet2014](#CITE)] (see [this
+> article][good-teacher-effects] for a brief summary). It's simply
+> unrealistic to believe that any kind of automation can outdo this
+> any time soon.
 
 So how should the web be used in teaching and learning tech skills? From
 an educational point of view, its pros and cons are:
@@ -205,28 +205,25 @@ positives in the list above while avoiding the negatives:
 
 All of this has to be implemented somehow, which means that you need
 some kind of teaching platform. You can either use an all-in-one
-learning management system like [Moodle](http://moodle.org) or
-[Sakai](https://www.sakaiproject.org/), or assemble something yourself
-using [Slack](http://slack.com) or [Zulip](https://zulipchat.com/) for
-chat, [Google Hangouts](http://hangouts.google.com) or
-[appear.in](https://appear.in/) for video conversations, and
-[WordPress](https://wordpress.org/), [Google
-Docs](http://docs.google.com), or any number of wiki systems for
-collaborative authoring. If you are just starting out, then use whatever
-requires the least installation and administration on your side, and the
-least extra learning effort on your learners' side. (I once ran a
-half-day class using group text messages because that was the only tool
+learning management system like [Moodle][moodle] or [Sakai][sakai], or
+assemble something yourself using [Slack][slack] or [Zulip][zulip] for
+chat, [Google Hangouts][google-hangouts] or [appear.in][appear-in] for
+video conversations, and [WordPress][wordpress], [Google
+Docs][google-docs], or any number of wiki systems for collaborative
+authoring. If you are just starting out, then use whatever requires
+the least installation and administration on your side, and the least
+extra learning effort on your learners' side. (I once ran a half-day
+class using group text messages because that was the only tool
 everyone was already familiar with.)
 
 The most important thing when choosing technology is to *ask your
 learners what they are already using*. Normal people don't use
-[IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat), and find its
-arcane conventions and interface offputting. Similarly, while this book
-lives in a [GitHub](http://github.com) repository, requiring non-experts
-to submit pull requests has been an unmitigated disaster, even with
-GitHub's online editing tools. As a teacher, you're asking people to
-learn a lot; the least you can do in return is learn how to use the
-tools they prefer.
+[IRC][irc], and find its arcane conventions and interface
+offputting. Similarly, while this book lives in a [GitHub][github]
+repository, requiring non-experts to submit pull requests has been an
+unmitigated disaster, even with GitHub's online editing tools. As a
+teacher, you're asking people to learn a lot; the least you can do in
+return is learn how to use the tools they prefer.
 
 > **Points for Improvement**
 > 
@@ -253,17 +250,16 @@ practice that learners may hope to join.
 > **Freedom To and Freedom From**
 > 
 > Isaiah Berlin's 1958 essay "[Two Concepts of
-> Liberty](https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty)" made
-> a distinction between positive liberty, which is the ability to
-> actually do something, and negative liberty, which is the absence of
-> rules saying that you can't do it. Unchecked, online discussions
-> usually offer negative liberty (nobody's stopping you from saying what
-> you think) but not positive liberty (many people can't actually be
-> heard). One way to address this is to introduce some kind of
-> throttling, such as only allowing each learner to contribute one
-> message per discussion thread per day. Doing this gives those with
-> something to say a chance to say it, while clearing space for others
-> to say things as well.
+> Liberty][berlin-liberty]" made a distinction between positive
+> liberty, which is the ability to actually do something, and negative
+> liberty, which is the absence of rules saying that you can't do
+> it. Unchecked, online discussions usually offer negative liberty
+> (nobody's stopping you from saying what you think) but not positive
+> liberty (many people can't actually be heard). One way to address
+> this is to introduce some kind of throttling, such as only allowing
+> each learner to contribute one message per discussion thread per
+> day. Doing this gives those with something to say a chance to say
+> it, while clearing space for others to say things as well.
 
 One other concern people have about teaching online is cheating.
 Day-to-day dishonesty is no more common in online classes than in
@@ -335,9 +331,9 @@ increase engagement simply because of a feedback loop? Or do these
 recommendations reflect some deeper cognitive processes? Another thing
 this paper didn't look at is learning outcomes: we know that learner
 evaluations of courses don't correlate with learning
-[[Star2014](#CITE),[Uttl2017](#CITE)], and while it's plausible that learners
-won't learn from things they don't watch, it remains to be proven that
-they *do* learn from things they *do* watch.
+[[Star2014](#CITE),[Uttl2017](#CITE)], and while it's plausible that
+learners won't learn from things they don't watch, it remains to be
+proven that they *do* learn from things they *do* watch.
 
 > **I'm a Little Uncomfortable**
 > 
@@ -456,15 +452,15 @@ knowing it helps set instructors' expectations: while we might all want
 our courses to have lively online communities, most won't.
 
 Learners use forums in very different ways, and with very different
-results. [[Mill2016a](#CITE)] observed that,
-"...procrastinators are particularly unlikely to
-participate in online discussion forums, and this reduced participation,
-in turn, is correlated with worse grades. A possible explanation for
-this correlation is that procrastinators are especially hesitant to join
-in once the discussion is under way, perhaps because they worry about
-being perceived as newcomers in an established conversation. This
-aversion to jump in late causes them to miss out on the important
-learning and motivation benefits of peer-to-peer interaction."
+results. [[Mill2016a](#CITE)] observed that, "...procrastinators are
+particularly unlikely to participate in online discussion forums, and
+this reduced participation, in turn, is correlated with worse
+grades. A possible explanation for this correlation is that
+procrastinators are especially hesitant to join in once the discussion
+is under way, perhaps because they worry about being perceived as
+newcomers in an established conversation. This aversion to jump in
+late causes them to miss out on the important learning and motivation
+benefits of peer-to-peer interaction."
 
 > **Co-opetition**
 > 
@@ -567,14 +563,14 @@ but only a handful of these ideas are widely known or used.
 ### Give Feedback on a Bad Screencast
 **(whole class/20)**
 
-Watch [this screencast](https://youtu.be/xcnoHaxXvdQ) as a group and
-give feedback on it. Organize feedback along two axes: positive
-vs. negative and content vs. presentation. When you are done, have each
-person in the class add one point to a 2x2 grid on a
-whiteboard (or in the shared notes) without duplicating any points that
-are already up there. What did other people see that you missed? What
-did they think that you strongly agree or disagree with? (You can
-compare your answers with the checklist in [s:teacheval](#APPENDIX).)
+Watch [this screencast][video-screencast-bad] as a group and give
+feedback on it. Organize feedback along two axes: positive
+vs. negative and content vs. presentation. When you are done, have
+each person in the class add one point to a 2x2 grid on a whiteboard
+(or in the shared notes) without duplicating any points that are
+already up there. What did other people see that you missed? What did
+they think that you strongly agree or disagree with? (You can compare
+your answers with the checklist in [s:teacheval](#APPENDIX).)
 
 ### Two-Way Video
 **(pairs/10)**
@@ -611,10 +607,9 @@ are you least aligned with?
 **(small groups/30)**
 
 [Susan Dynarski's article in the *New York
-Times*](https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html)
-explains how and why schools are putting students who fail in-person
-courses into online courses, and how this sets them up for even further
-failure.
+Times*][dynarski-who-needs-help] explains how and why schools are
+putting students who fail in-person courses into online courses, and
+how this sets them up for even further failure.
 
 1. Working in small groups, read the article, come up with 2--3 things
    that schools could do to compensate for these negative effects, and

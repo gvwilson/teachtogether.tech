@@ -108,13 +108,13 @@ concept maps for the same topic, but one of the benefits of concept
 mapping is that it makes those differences explicit.
 
 As an example, [f:memory-seasons](#FIGURE) reproduces a concept map
-taken from the [IHMC CMap site](https://cmap.ihmc.us/) showing why the
+taken from the [IHMC CMap site][cmap-seasons] showing why the
 Earth has seasons, and [f:online-screencasting](#FIGURE) uses a concept
 map to explain how to create a good screencast.
 
 <figure>
-  <img src="../files/seasons.svg" alt="Concept Map for Seasons (from <https://cmap.ihmc.us/>)" />
-  <figcaption id="f:memory-seasons">Concept Map for Seasons (<https://cmap.ihmc.us/>)</figcaption>
+  <img src="../files/seasons.svg" alt="Concept Map for Seasons" />
+  <figcaption id="f:memory-seasons">Concept Map for Seasons (from https://cmap.ihmc.us/)</figcaption>
 </figure>
 
 To show how concept maps can be using in teaching programming, consider
@@ -231,29 +231,28 @@ say "that" to trigger recall of several minutes of debate.
 ## Seven Plus or Minus Two {#s:memory-seven-plus-or-minus}
 
 While the graph model of knowledge is wrong but useful, another simple
-model has a sounder physiological basis. As a rough approximation, human
-memory can be divided into two distinct layers. The first, called
-[long-term](#g:long-term-memory) or
-[persistent memory](#g:persistent-memory), is where we store
-things like our friends' names, our home address, and what the clown did
-at our eighth birthday party that scared us so much. It is essentially
-unbounded: barring injury or disease, we will die before it fills up.
-However, it is also slow to access---too slow to help us handle hungry
-lions and disgruntled family members.
+model has a sounder physiological basis. As a rough approximation,
+human memory can be divided into two distinct layers. The first,
+called [long-term](#g:long-term-memory) or [persistent
+memory](#g:persistent-memory), is where we store things like our
+friends' names, our home address, and what the clown did at our eighth
+birthday party that scared us so much. It is essentially unbounded:
+barring injury or disease, we will die before it fills up.  However,
+it is also slow to access---too slow to help us handle hungry lions
+and disgruntled family members.
 
 Evolution has therefore given us a second system called
-[short-term](#g:short-term-memory) or
-[working memory](#g:working-memory). It is much faster, but
-also much smaller: [[Mill1956](#CITE)] estimated that the average adult's
-working memory could only hold 7±2 items at a time. This is why
-[phone
-numbers](https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used)
-are typically 7 or 8 digits long: back when phones had dials instead of
-keypads, that was the longest string of numbers most adults could
-remember accurately for as long as it took the dial to go around several
-times. As [s:memory-pattern](#SECTION) discusses, short-term memory may
-actually be as small as 4±1 items; our innate tendency to
-remember things together gives the illusion of it being larger.
+[short-term](#g:short-term-memory) or [working
+memory](#g:working-memory). It is much faster, but also much smaller:
+[[Mill1956](#CITE)] estimated that the average adult's working memory
+could only hold 7±2 items at a time. This is why [phone
+numbers][phone-numbers] are typically 7 or 8 digits long: back when
+phones had dials instead of keypads, that was the longest string of
+numbers most adults could remember accurately for as long as it took
+the dial to go around several times. As [s:memory-pattern](#SECTION)
+discusses, short-term memory may actually be as small as 4±1 items;
+our innate tendency to remember things together gives the illusion of
+it being larger.
 
 > **Participation**
 > 
@@ -275,14 +274,14 @@ does it currently hold, etc. If the number of facts grows too large,
 their mental model of the program comes crashing down (something we have
 all experienced).
 
-7±2 is also the most important number in teaching. A teacher
-cannot push information directly into a learner's long-term memory.
-Instead, whatever they present is first stored in the learner's
-short-term memory, and is only transferred to long-term memory after it
-has been held there and rehearsed
-([s:individual-strategies](#SECTION)). If the teacher presents too much
-information too quickly, the new will displace the old before it has a
-chance to consolidate in long-term memory.
+7±2 is also the most important number in teaching. A teacher cannot
+push information directly into a learner's long-term memory.  Instead,
+whatever they present is first stored in the learner's short-term
+memory, and is only transferred to long-term memory after it has been
+held there and rehearsed ([s:individual-strategies](#SECTION)). If the
+teacher presents too much information too quickly, the new will
+displace the old before it has a chance to consolidate in long-term
+memory.
 
 This is one of the reasons to create a concept map for a lesson when
 designing it: doing so helps the teacher identify how many pieces of
@@ -343,28 +342,27 @@ looked at and missed.
 
 Given how important chunking is to thinking, it is tempting to try to
 teach patterns directly. One way to do this is to identify [design
-patterns](https://en.wikipedia.org/wiki/Software_design_pattern), which
-are reusable solutions to common problems. Patterns help competent
-practitioners think and talk to each other in many domains (including
-teaching [[Berg2012](#CITE)]), but pattern catalogs are too dry and too
-abstract for novices to make sense of on their own. That said, giving
-names to a small number of patterns does seem to help with teaching,
-primarily by giving the learners a richer vocabulary to think and
-communicate with [[Kuit2004](#CITE),[Byck2005](#CITE),[Saja2006](#CITE)]. We will return to
-this in [s:pck-programming](#SECTION).
+patterns][design-patterns], which are reusable solutions to common
+problems. Patterns help competent practitioners think and talk to each
+other in many domains (including teaching [[Berg2012](#CITE)]), but
+pattern catalogs are too dry and too abstract for novices to make
+sense of on their own. That said, giving names to a small number of
+patterns does seem to help with teaching, primarily by giving the
+learners a richer vocabulary to think and communicate with
+[[Kuit2004](#CITE),[Byck2005](#CITE),[Saja2006](#CITE)]. We will
+return to this in [s:pck-programming](#SECTION).
 
 ## Becoming an Expert {#s:memory-becoming-expert}
 
 So how does someone become an expert? The idea that ten thousand hours
 of practice will do it is widely quoted but [probably not
-true](http://www.goodlifeproject.com/podcast/anders-ericsson/): doing
-the same thing over and over again is much more likely to solidify bad
-habits than improve performance. What actually works is [deliberate
-practice](#g:deliberate-practice) (also sometimes called [reflective
-practice](#g:reflective-practice)), which is doing similar but subtly
-different things, paying attention to what works and what doesn't, and
-then changing behavior in response to that feedback to get
-cumulatively better.
+true][ten-thousand-hours]: doing the same thing over and over again is
+much more likely to solidify bad habits than improve performance. What
+actually works is [deliberate practice](#g:deliberate-practice) (also
+sometimes called [reflective practice](#g:reflective-practice)), which
+is doing similar but subtly different things, paying attention to what
+works and what doesn't, and then changing behavior in response to that
+feedback to get cumulatively better.
 
 A common progression is for people to go through three stages:
 
@@ -432,8 +430,7 @@ Python source code:
 
     answers = ['tuatara', 'tuataras', 'bus', "lick"]
 
-As [Elizabeth Wickes points
-out](https://twitter.com/elliewix/status/981285432922202113):
+As [Elizabeth Wickes points out][wickes-analysis]:
 
 - The square brackets surrounding the content mean we're working with
   a list (as opposed to square brackets immediately to the right of

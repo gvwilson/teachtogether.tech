@@ -28,11 +28,12 @@ that will make you better at doing it can be applied elsewhere as well.
 
 > **Teaching Tips**
 > 
-> The [CS Teaching Tips](http://csteachingtips.org/) site is collecting
-> PCK for teaching programming, and I hope that one day we will have
-> catalogs like [[Ojos2015](#CITE)], teacher training materials like
-> [[Hazz2014](#CITE),[Guzd2015a](#CITE),[Sent2018](#CITE)], or more personal collections
-> like [[Gelm2002](#CITE)] to help us all do it better.
+> The [CS Teaching Tips][cs-teaching-tips] site is collecting PCK for
+> teaching programming, and I hope that one day we will have catalogs
+> like [[Ojos2015](#CITE)], teacher training materials like
+> [[Hazz2014](#CITE),[Guzd2015a](#CITE),[Sent2018](#CITE)], or more
+> personal collections like [[Gelm2002](#CITE)] to help us all do it
+> better.
 
 ## Lesson Study {#s:performance-jugyokenkyu}
 
@@ -64,35 +65,36 @@ keys to better teaching are practice and collaboration. As
 > observer---would sit around a formal table to talk about what they
 > saw.
 
-Putting work under a microscope in order to improve it is commonplace in
-sports and music. A professional musician, for example, will dissect
-half a dozen different recordings of "Body and Soul" or "Smells Like
-Teen Spirit" before performing it. She would also expect to get feedback
-from fellow musicians during practice and after performances. Many other
-professions work this way as well: for example, the Japanese drew
-inspiration from [Deming's ideas on continuous improvement in
-manufacturing](https://en.wikipedia.org/wiki/W._Edwards_Deming).
+Putting work under a microscope in order to improve it is commonplace
+in sports and music. A professional musician, for example, will
+dissect half a dozen different recordings of "Body and Soul" or
+"Smells Like Teen Spirit" before performing it. She would also expect
+to get feedback from fellow musicians during practice and after
+performances. Many other professions work this way as well: for
+example, the Japanese drew inspiration from [Deming's ideas on
+continuous improvement in manufacturing][deming-manufacturing].
 
 But continuous feedback isn't part of teaching culture in most
 English-speaking countries. There, what happens in the classroom stays
-in the classroom: teachers don't watch each other's lessons on a regular
-basis, so they can't borrow each other's good ideas. The result is that
-*every teacher has to invent teaching on their own*. They may get lesson
-plans and assignments from colleagues, the school board or a textbook
-publisher, or go through a few MOOCs on the Internet, but each teacher
-has to figure out for herself how to combine that content with the
-theory she learned in education school to deliver an actual lesson in an
-actual classroom for actual students.
+in the classroom: teachers don't watch each other's lessons on a
+regular basis, so they can't borrow each other's good ideas. The
+result is that *every teacher has to invent teaching on their
+own*. They may get lesson plans and assignments from colleagues, the
+school board or a textbook publisher, or go through a few MOOCs on the
+Internet, but each teacher has to figure out for herself how to
+combine that content with the theory she learned in education school
+to deliver an actual lesson in an actual classroom for actual
+students.
 
-Writing up new techniques and giving
-[demonstration lessons](#g:demonstration-lesson), in which
-one person teaches actual students while other teachers observe, seem
-like a way to solve this. However, [[Finc2007](#CITE),[Finc2012](#CITE)] found
-that they are usually ineffective: of the 99 change stories analyzed,
-teachers only searched actively for new practices or materials in three
-cases, and only consulted published material in eight cases. Most
-changes occurred locally, without input from outside sources, or
-involved only personal interaction with other educators.
+Writing up new techniques and giving [demonstration
+lessons](#g:demonstration-lesson), in which one person teaches actual
+students while other teachers observe, seem like a way to solve
+this. However, [[Finc2007](#CITE),[Finc2012](#CITE)] found that they
+are usually ineffective: of the 99 change stories analyzed, teachers
+only searched actively for new practices or materials in three cases,
+and only consulted published material in eight cases. Most changes
+occurred locally, without input from outside sources, or involved only
+personal interaction with other educators.
 
 [[Bark2015](#CITE)] found something similar:
 
@@ -104,14 +106,14 @@ involved only personal interaction with other educators.
 > Positive student feedback is taken as strong evidence by faculty that
 > they should continue a practice.
 
-This phenomenon is sometimes called
-[lateral knowledge transfer](#g:lateral-knowledge-transfer):
-someone sets out to teach X, but while watching them, their audience
-actually learns Y as well (or instead). For example, a teacher might
-intend to show learners how to search for email addresses in a text
-file, but what her audience might take away is some new keyboard
-shortcuts in the editor. What *jugyokenkyu* does is maximize the
-opportunity for this to happen between teachers.
+This phenomenon is sometimes called [lateral knowledge
+transfer](#g:lateral-knowledge-transfer): someone sets out to teach X,
+but while watching them, their audience actually learns Y as well (or
+instead). For example, a teacher might intend to show learners how to
+search for email addresses in a text file, but what her audience might
+take away is some new keyboard shortcuts in the editor. What
+*jugyokenkyu* does is maximize the opportunity for this to happen
+between teachers.
 
 ## Giving and Getting Feedback on Teaching {#s:performance-feedback}
 
@@ -364,14 +366,13 @@ where you took the wrong path, and explain how you've corrected
 yourself, you will give your learners a toolbox they can use when they
 make their own mistakes.
 
-This is at odds with advice like that in [[Kran2015](#CITE)], which says,
-"...you should have your material *absolutely mastered*
-before you enter the classroom. If...you have a proof or
-example that is not quite right...and stand in front of the
-group trying to fix it, then you will lose all but the diehards
-quickly." In contrast, the feedback we've had in [Software
-Carpentry](http://software-carpentry.org) workshops and other settings
-is that watching the teacher make mistakes actually motivates most
+This is at odds with advice like that in [[Kran2015](#CITE)], which
+says, "...you should have your material *absolutely mastered* before
+you enter the classroom. If...you have a proof or example that is not
+quite right...and stand in front of the group trying to fix it, then
+you will lose all but the diehards quickly." In contrast, the feedback
+we've had in [Software Carpentry][swc] workshops and other settings is
+that watching the teacher make mistakes actually motivates most
 students, since it gives them permission to be less than perfect as
 well.
 
@@ -484,14 +485,13 @@ shell commands and hosting an editor).
 
 > **Accessibility Aids Help Everyone**
 > 
-> Tools like [Mouseposé](https://boinx.com/mousepose/overview/) (for
-> Mac) and [PointerFocus](http://www.pointerfocus.com/) (for Windows)
-> will highlight the position of your mouse cursor on the screen, and
-> screen recording software tools like
-> [Camtasia](https://www.techsmith.com/video-editor.html) will echo
+> Tools like [Mouseposé][mousepose] (for Mac) and
+> [PointerFocus](http://www.pointerfocus.com/) (for Windows) will
+> highlight the position of your mouse cursor on the screen, and
+> screen recording software tools like [Camtasia][camtasia] will echo
 > invisible keys like tab and Control-J as you type them. These take a
-> bit of practice to get used to, but are extremely helpful as you start
-> teaching more advanced tools.
+> bit of practice to get used to, but are extremely helpful as you
+> start teaching more advanced tools.
 
 ### Double Devices
 
@@ -590,8 +590,7 @@ your learners skeleton code to start with
 ### Give Feedback on Bad Teaching
 **(whole class/20)**
 
-1. Watch [this video of bad
-   teaching](https://www.youtube.com/watch?v=-ApVt04rB4U) as a group
+1. Watch [this video of bad teaching][video-bad-teaching] as a group
    and give feedback on it. Organize feedback along two axes: positive
    vs. negative and content vs. presentation.
 
@@ -617,12 +616,12 @@ consensus about what sorts of things to look for.
 ### The Bad and the Good
 **(whole class/20)**
 
-Watch the videos of [live coding done
-poorly](https://youtu.be/bXxBeNkKmJE) and [live coding done
-well](https://youtu.be/SkPmwe_WjeY) and summarize your feedback on
-both using the usual 2x2 grid. These videos assume learners know what
-a shell variable is, know how to use the `head` command, and are
-familiar with the contents of the data files being filtered.
+Watch the videos of [live coding done poorly][video-live-coding-bad]
+and [live coding done well][video-live-coding-good] and summarize your
+feedback on both using the usual 2x2 grid. These videos assume
+learners know what a shell variable is, know how to use the `head`
+command, and are familiar with the contents of the data files being
+filtered.
 
 ### See Then Do
 **(pairs/30)**
@@ -663,12 +662,12 @@ are expected to be familiar with.
 ### Teaching Tips
 **(small groups/15)**
 
-The [CS Teaching Tips](http://csteachingtips.org/) site has a large
-number of practical tips on teaching computing, as well as a collection
-of downloadable tip sheets. In small groups, go through the tip sheets
-on their home page and classify each tip as "use all the time", "use
+The [CS Teaching Tips][cs-teaching-tips] site has a large number of
+practical tips on teaching computing, as well as a collection of
+downloadable tip sheets. In small groups, go through the tip sheets on
+their home page and classify each tip as "use all the time", "use
 occasionally", "never use". Where do your practice and your peers'
-practice differ? Are there any tips you strongly disagree with, or think
-would be ineffective?
+practice differ? Are there any tips you strongly disagree with, or
+think would be ineffective?
 
 {% include links.md %}

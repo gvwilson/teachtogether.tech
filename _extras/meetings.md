@@ -145,16 +145,15 @@ training on chairing meetings is the most effective place to start.
 
 ## Online Meetings
 
-Chelsea Troy's discussion of [why online meetings are often frustrating
-and
-unproductive](https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/)
-makes an important point: in most online meetings, the first person to
-speak during a pause gets the floor. The result? "If you have something
-you want to say, you have to stop listening to the person currently
-speaking and instead focus on when they're gonna pause or finish so you
-can leap into that nanosecond of silence and be the first to utter
-something. The format...encourages participants who want to
-contribute to say more and listen less."
+Chelsea Troy's discussion of [why online meetings are often
+frustrating and unproductive][troy-meetings] makes an important point:
+in most online meetings, the first person to speak during a pause gets
+the floor. The result? "If you have something you want to say, you
+have to stop listening to the person currently speaking and instead
+focus on when they're gonna pause or finish so you can leap into that
+nanosecond of silence and be the first to utter something. The
+format...encourages participants who want to contribute to say more
+and listen less."
 
 The solution is to run a text chat beside the video conference where
 people can signal that they want to speak, and have the moderator select

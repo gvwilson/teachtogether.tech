@@ -26,25 +26,24 @@ way, you have to accept that one person can only do so much. Just as we
 learn best together, we teach best when we are teaching with other
 people, and the best way to achieve that is to build a community.
 
-And as Anu Partanen [pointed
-out](https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/),
-sometimes you need to fix several things in order to fix one. Finland's
-teachers aren't successful in isolation: they are able to achieve
-outstanding results because their country's citizens truly value
-equality of opportunity. People (and countries) that try to adopt their
-teaching methods without ensuring that children (and parents) are well
+And as Anu Partanen [pointed out][partanen-finland-schools], sometimes
+you need to fix several things in order to fix one. Finland's teachers
+aren't successful in isolation: they are able to achieve outstanding
+results because their country's citizens truly value equality of
+opportunity. People (and countries) that try to adopt their teaching
+methods without ensuring that children (and parents) are well
 nourished, safe, and treated fairly by the courts will have a more
-difficult time. This doesn't mean you have to fix all of society's ills
-in order to teach programming, but it *does* mean that you have to
-understand and be involved in what happens to your learners outside of
-your class if you want that class to work.
+difficult time. This doesn't mean you have to fix all of society's
+ills in order to teach programming, but it *does* mean that you have
+to understand and be involved in what happens to your learners outside
+of your class if you want that class to work.
 
 A framework in which to think about educational communities is
 [situated learning](#g:situated-learning), which focuses on how
 [legitimate peripheral
 participation](#g:legitimate-peripheral-participation) leads to people
-becoming members of a [community of practice](#g:community-of-practice)
-[[Weng2015](#CITE)]. Unpacking
+becoming members of a [community of
+practice](#g:community-of-practice) [[Weng2015](#CITE)]. Unpacking
 those terms, a community of practice is a group of people bound
 together by interest in some activity, such as knitting or particle
 physics. Legitimate peripheral participation means doing simple,
@@ -109,8 +108,7 @@ the ways they do this include:
 Whatever the domain, situated learning emphasizes that learning is a
 social activity. In order to be effective and sustainable, teaching
 therefore needs to be rooted in a community; if one doesn't exist, you
-need to build one. There are at least [four
-types](https://www.feverbee.com/types-of-community-and-activity-within-the-community/):
+need to build one. There are at least [four types][community-types]:
 
 - **Community of action:**
   people focused on a shared goal, such as getting someone elected.
@@ -134,27 +132,26 @@ with it.
 The first step in building a community is to decide if you really need
 to, or whether you would be more effective joining an existing
 organization. Thousands of groups are already teaching people tech
-skills, from the [4-H Club](http://www.4-h-canada.ca/) and [literacy
-programs](https://www.frontiercollege.ca/) to get-into-coding
-non-profits like [Black Girls Code](http://www.blackgirlscode.com/) and
-[Bridge](http://bridgeschool.io/). Joining an existing group will give
-you a head start on teaching, an immediate set of colleagues, and a
-chance to learn more about how to run things; hopefully, learning those
-skills will be more important than being able to say that you're the
-founder or leader of something new.
+skills, from the [4-H Club][4h-club] and [literacy
+programs][frontier-college] to get-into-coding non-profits like [Black
+Girls Code][black-girls-code] and [Bridge][bridge]. Joining an
+existing group will give you a head start on teaching, an immediate
+set of colleagues, and a chance to learn more about how to run things;
+hopefully, learning those skills will be more important than being
+able to say that you're the founder or leader of something new.
 
-Whether you join an existing group or set up one of your own, you owe it
-to yourself and everyone who's going to work with you to find out what's
-been done before. People have been writing about grassroots organizing
-for decades; [[Alin1989](#CITE)] is probably the best-known work on the
-subject, while [[Brow2007](#CITE),[Midw2010](#CITE)] are practical manuals rooted
-in decades of practice. If you want to read more deeply,
-[[Adam1975](#CITE)] is a history of the Highlander Folk School, whose
-approach has been emulated by many successful groups, while
-[[Spal2014](#CITE)] is a guide to teaching adults written by someone with
-deep personal roots in organizing, and
-[NonprofitReady.org](https://www.nonprofitready.org/) offers free
-professional development training.
+Whether you join an existing group or set up one of your own, you owe
+it to yourself and everyone who's going to work with you to find out
+what's been done before. People have been writing about grassroots
+organizing for decades; [[Alin1989](#CITE)] is probably the best-known
+work on the subject, while [[Brow2007](#CITE),[Midw2010](#CITE)] are
+practical manuals rooted in decades of practice. If you want to read
+more deeply, [[Adam1975](#CITE)] is a history of the Highlander Folk
+School, whose approach has been emulated by many successful groups,
+while [[Spal2014](#CITE)] is a guide to teaching adults written by
+someone with deep personal roots in organizing, and
+[NonprofitReady.org][nonprofit-ready] offers free professional
+development training.
 
 ## Three Steps {#s:community-three-steps}
 
@@ -183,15 +180,15 @@ avoid collective [expert blind spot](#g:expert-blind-spot).
 
 > **Start Small**
 > 
-> As [Ben Franklin](https://en.wikipedia.org/wiki/Ben_Franklin_effect)
-> observed, a person who has performed a favor for someone is more
-> likely to do another favor for that person than they would be if they
-> had received a favor from that person. Asking people to do something
-> small for you is therefore a good step toward getting them to do
-> something larger. One natural way to do this when teaching is to ask
-> people to submit fixes for your lesson materials for typos or unclear
-> wording, or to suggest new exercises or examples. If your materials
-> are written in a maintainable way
+> As [Ben Franklin][franklin-effect] observed, a person who has
+> performed a favor for someone is more likely to do another favor for
+> that person than they would be if they had received a favor from
+> that person. Asking people to do something small for you is
+> therefore a good step toward getting them to do something
+> larger. One natural way to do this when teaching is to ask people to
+> submit fixes for your lesson materials for typos or unclear wording,
+> or to suggest new exercises or examples. If your materials are
+> written in a maintainable way
 > ([s:process-maintainability](#SECTION)), this gives them a chance to
 > practice some useful skills, and gives you an opportunity to start a
 > conversation that might lead to a new recruit.
@@ -347,11 +344,9 @@ earning a living.
 
 Impostor syndrome thrives in communities with arbitrary, unnecessary
 standards, where harsh criticism is the norm, and where secrecy
-surrounds the actual process of getting work done, so the Ada Initiative
-has
-[guidelines](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
-for communities to go with those given in
-[s:motivation-demotivation](#SECTION)for individuals:
+surrounds the actual process of getting work done, so the Ada
+Initiative has [guidelines][ada-guidelines] for communities to go with
+those given in [s:motivation-demotivation](#SECTION)for individuals:
 
 - **Encourage people.**
   This is as simple as it is effective.
@@ -665,26 +660,25 @@ answers to those given by other members of your group.
 
 Many of our ideas about how to build a community have been shaped by
 our experience of working in open source software development.
-[[Foge2005](#CITE)] (which is [available
-online](http://producingoss.com/)) is a good guide to what has and
-hasn't worked for those communities, and the [Open Source Guides
-site](https://opensource.guide/) has a wealth of useful information as
-well. Choose one section of the latter, such as "Finding Users for
-Your Project" or "Leadership and Governance", read it through, and
-give a two-minute presentation to the group of one idea from it that
-you found useful or that you strongly disagreed with.
+[[Foge2005](#CITE)] (which is [available online][producing-oss]) is a
+good guide to what has and hasn't worked for those communities, and
+the [Open Source Guides site][open-source-guides] has a wealth of
+useful information as well. Choose one section of the latter, such as
+"Finding Users for Your Project" or "Leadership and Governance", read
+it through, and give a two-minute presentation to the group of one
+idea from it that you found useful or that you strongly disagreed
+with.
 
 ### Who Are You?
 **(small groups/20)**
 
 The National Oceanic and Atmospheric Administration (NOAA) has
 published a short, amusing, and above all useful guide to [dealing
-with disruptive behaviors](https://coast.noaa.gov/ddb/story_html5.html). It
-categorizes those behaviors under labels like "talkative",
-"indecisive", and "shy", and outlines strategies for handling each. In
-groups of 3--6, read the guide and decide which of these descriptions
-best fits you. Do you think the strategies described for handling
-people like you are effective? Are other strategies equally or more
-effective?
+with disruptive behaviors][noaa-disruptive]. It categorizes those
+behaviors under labels like "talkative", "indecisive", and "shy", and
+outlines strategies for handling each. In groups of 3--6, read the
+guide and decide which of these descriptions best fits you. Do you
+think the strategies described for handling people like you are
+effective? Are other strategies equally or more effective?
 
 {% include links.md %}

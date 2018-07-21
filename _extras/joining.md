@@ -10,10 +10,9 @@ using, sharing, and improving this material.
 ## Contributor Covenant {#s:joining-covenant}
 
 The contributor covenant laid out below governs contributions to this
-book. It is adapted from the [Contributor
-Covenant](https://www.contributor-covenant.org) version 1.4; please see
-[s:conduct](#APPENDIX) for a sample code of conduct for use in classes
-and other learning situations.
+book. It is adapted from the [Contributor Covenant][covenant] version
+1.4; please see [s:conduct](#APPENDIX) for a sample code of conduct
+for use in classes and other learning situations.
 
 ### Our Pledge
 
@@ -113,8 +112,8 @@ whiteboards for other exercises. Questions and discussion are done
 aloud.
 
 If you are teaching in this format, you should use sticky notes as
-status flags so that you can see who needs help, who has questions, and
-who's ready to move on ([s:classroom-status-flags](#SECTION)). You
+status flags so that you can see who needs help, who has questions,
+and who's ready to move on ([s:classroom-status-flags](#SECTION)). You
 should also use them to distribute attention so that everyone gets a
 fair share of the instructor's time
 ([s:classroom-attention](#SECTION)), and as minute cards to encourage
@@ -210,15 +209,13 @@ managed jointly by a community according to rules they themselves have
 evolved and adopted. Open source software and Wikipedia are both
 successful examples; the question is, why don't teachers build lessons
 collaboratively in the same way? People have proposed [a variety of
-reasons](http://blog.mrmeyer.com/2016/why-secondary-teachers-dont-want-a-github-for-lesson-plans/),
-but I don't think any of them [hold up to close
-scrutiny](http://third-bit.com/2016/04/29/why-teachers-dont-collaborate.html).
+reasons][mayer-reasons], but I don't think any of them [hold up to
+close scrutiny][wilson-reasons].
 
-[Software Carpentry](http://software-carpentry.org) is proof by
-implementation that a teaching commons can produce and maintain
-high-quality lessons that hundreds of people can use [[Wils2016](#CITE)].
-I hope you will choose to help us do the same for this book. If you are
-new to working this way:
+[Software Carpentry][swc] is proof by implementation that a teaching
+commons can produce and maintain high-quality lessons that hundreds of
+people can use [[Wils2016](#CITE)].  I hope you will choose to help us
+do the same for this book. If you are new to working this way:
 
 - **Start small.**
   Fix a typo, clarify the wording of an exercise, correct or update a

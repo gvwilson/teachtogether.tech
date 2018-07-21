@@ -32,12 +32,12 @@ that can be improved like any other [[McGu2015](#CITE),[Miya2018](#CITE)].
 
 The big prize is transfer of learning, which occurs when one thing we
 have learned helps us learn something else more quickly. Researchers
-distinguish between [near transfer](#g:near-transfer), which
-occurs between similar or related areas like fractions and decimals, or
-loops in different programming languages, and
-[far transfer](#g:far-transfer), which occurs between
-dissimilar domains---the idea that learning to play chess will help
-mathematical reasoning or vice versa.
+distinguish between [near transfer](#g:near-transfer), which occurs
+between similar or related areas like fractions and decimals, or loops
+in different programming languages, and [far
+transfer](#g:far-transfer), which occurs between dissimilar
+domains---the idea that learning to play chess will help mathematical
+reasoning or vice versa.
 
 Near transfer undoubtedly occurs---no kind of learning beyond simple
 memorization could occur if it didn't---and instructors leverage it all
@@ -57,15 +57,14 @@ learning to program won't help you play chess and vice versa.
 
 ## Six Strategies {#s:individual-strategies}
 
-Psychologists study learning in a wide variety of ways, but have reached
-similar conclusions about what actually works [[Mark2018](#CITE)]. The
-[Learning Scientists](http://www.learningscientists.org/) have
-catalogued six of these strategies and summarized them in [a set of
-downloadable
-posters](http://www.learningscientists.org/downloadable-materials).
-Teaching these strategies to students, and mentioning them by name when
-you use them in class, can help them learn how to learn faster and
-better [[Wein2018](#CITE)].
+Psychologists study learning in a wide variety of ways, but have
+reached similar conclusions about what actually works
+[[Mark2018](#CITE)]. The [Learning Scientists][learning-scientists]
+have catalogued six of these strategies and summarized them in [a set
+of downloadable posters][learning-scientists-downloads].  Teaching
+these strategies to students, and mentioning them by name when you use
+them in class, can help them learn how to learn faster and better
+[[Wein2018](#CITE)].
 
 ### Spaced Practice
 
@@ -110,10 +109,12 @@ the details of a topic from memory and then checking what was and wasn't
 remembered. For example, [[Karp2008](#CITE)] found that repeated testing
 improved recall of word lists from 35% to 80%.
 
-Research also shows that recall is better when practice uses activities
-similar to those used in testing; for example, writing personal journal
-entries helps with multiple-choice quizzes, but less than doing
-multiple-choice quizzes [[Mill2016a](#CITE)]. This is called [transfer-appropriate processing](#g:transfer-appropriate-processing).
+Research also shows that recall is better when practice uses
+activities similar to those used in testing; for example, writing
+personal journal entries helps with multiple-choice quizzes, but less
+than doing multiple-choice quizzes [[Mill2016a](#CITE)]. This is
+called [transfer-appropriate
+processing](#g:transfer-appropriate-processing).
 
 One way to exercise retrieval skills is to solve problems twice. The
 first time, do it entirely from memory without notes or discussion with
@@ -130,9 +131,9 @@ you can exchange flash cards with a partner; this also helps you
 discover important ideas that you may have missed or misunderstood.
 
 A quicker version of this is
-[read-cover-retrieve](#g:read-cover-retrieve): as you read
-something, cover up key terms or sections with small sticky notes. When
-you are done, go through it a second time and see how well you can guess
+[read-cover-retrieve](#g:read-cover-retrieve): as you read something,
+cover up key terms or sections with small sticky notes. When you are
+done, go through it a second time and see how well you can guess
 what's under each of those stickies.
 
 Whatever method you use, don't just practice recalling facts and
@@ -143,15 +144,14 @@ quick way to do this.
 
 > **Hypercorrection**
 > 
-> One powerful finding in learning research is the
-> [hypercorrection effect](#g:hypercorrection)
-> [[Metc2016](#CITE)]. Most people don't like to be told they're wrong,
-> so it's reasonable to assume that the more confident someone is that
-> the answer they've given in a test is correct, the harder it is to
-> change their mind if they were actually wrong. However, it turns out
-> that the opposite is true: the more confident someone is that they
-> were right, the more likely they are not to repeat the error if they
-> are corrected.
+> One powerful finding in learning research is the [hypercorrection
+> effect](#g:hypercorrection) [[Metc2016](#CITE)]. Most people don't
+> like to be told they're wrong, so it's reasonable to assume that the
+> more confident someone is that the answer they've given in a test is
+> correct, the harder it is to change their mind if they were actually
+> wrong. However, it turns out that the opposite is true: the more
+> confident someone is that they were right, the more likely they are
+> not to repeat the error if they are corrected.
 
 ### Interleaving
 
@@ -195,14 +195,15 @@ learn faster. Instructors should therefore demonstrate the latter
 strategy to learners.
 
 Explaining things to others even works on exams, though the extent of
-the benefits are still being studied. [[Cao2017a](#CITE),[Cao2017b](#CITE)] looked
-at two-stage exams, i.e., a normal (individual) exam which is then
-immediately followed by a second exam in which students work in small
-groups to solve a set of problems. They found significant short-term
-gains for students doing exams collaboratively, but not long-term gains,
-i.e., the benefits visible a couple of weeks after the mid-term had
-faded by the final. They also found that students in the middle of the
-class benefited strongly, and that homogeneous-ability groups benefited,
+the benefits are still being
+studied. [[Cao2017a](#CITE),[Cao2017b](#CITE)] looked at two-stage
+exams, i.e., a normal (individual) exam which is then immediately
+followed by a second exam in which students work in small groups to
+solve a set of problems. They found significant short-term gains for
+students doing exams collaboratively, but not long-term gains, i.e.,
+the benefits visible a couple of weeks after the mid-term had faded by
+the final. They also found that students in the middle of the class
+benefited strongly, and that homogeneous-ability groups benefited,
 while heterogeneous groups did not.
 
 ### Concrete Examples
@@ -215,14 +216,13 @@ principles it embodies. [[Raws2014](#CITE)] found that interleaving
 examples and definitions made it more likely that learners would
 remember the latter correctly.
 
-One structured way to do this is the [ADEPT
-method](https://betterexplained.com/articles/adept-method/): give an
+One structured way to do this is the [ADEPT method][adept]: give an
 **A**nalogy, draw a **D**iagram, present an **E**xample, describe the
 idea in **P**lain language, and then give the **T**echnical details.
 Again, if you are studying with a partner or in a group, you can swap
 and check work: see if you agree that other people's examples actually
-embody the principle being discussed, or which principles are used in an
-example that they haven't listed.
+embody the principle being discussed, or which principles are used in
+an example that they haven't listed.
 
 Another useful technique is to teach by contrast, i.e., to show learners
 what a solution is *not*, or what kind of problem a technique *won't*
@@ -233,15 +233,15 @@ that they don't become frustrated looking for answers that don't exist.
 ### Dual Coding
 
 The last of the six core strategies that the [Learning
-Scientists](http://www.learningscientists.org/) describe is to present
-words and images together. As discussed in
-[s:load-split-attention](#SECTION), different subsystems in our brains
-handle and store linguistic and visual information, and if complementary
-information is presented through both channels, then they can reinforce
-one another. However, learning is more effective when the same
-information is *not* presented simultaneously in two different channels
-[[Maye2003](#CITE)], because then the brain has to expend effort to check
-the channels against each other.
+Scientists][learning-scientists] describe is to present words and
+images together. As discussed in [s:load-split-attention](#SECTION),
+different subsystems in our brains handle and store linguistic and
+visual information, and if complementary information is presented
+through both channels, then they can reinforce one another. However,
+learning is more effective when the same information is *not*
+presented simultaneously in two different channels
+[[Maye2003](#CITE)], because then the brain has to expend effort to
+check the channels against each other.
 
 One way to take advantage of dual coding is to draw or label timelines,
 maps, family trees, or whatever else seems appropriate to the material.
@@ -303,13 +303,13 @@ which people are usually judged incapable of independent living.
 
 > **When You Just Can't Say No**
 > 
-> Research has shown that our ability to exert willpower runs out, just
-> like our ability to use muscles: if we have to resist eating the last
-> donut on the tray when we're hungry, we are less likely to fold
-> laundry and vice versa. This is called
-> [ego depletion](#g:ego-depletion) [[Mill2016a](#CITE)], and
-> an effective counter is to build up habits so that doing the right
-> thing is automatic.
+> Research has shown that our ability to exert willpower runs out,
+> just like our ability to use muscles: if we have to resist eating
+> the last donut on the tray when we're hungry, we are less likely to
+> fold laundry and vice versa. This is called [ego
+> depletion](#g:ego-depletion) [[Mill2016a](#CITE)], and an effective
+> counter is to build up habits so that doing the right thing is
+> automatic.
 
 "But---but---we have so many assignments to do!", your learners say. "And
 they're all due at once! We *have* to work extra hours to get them all
@@ -321,22 +321,22 @@ for 30-60 minutes and complete one of those tasks. If any task on a
 to-do list is more than an hour long, break it down into smaller pieces
 and prioritize those separately.
 
-The most important part of this is switching off interruptions. Despite
-what many people want to believe, people are not good at multi-tasking.
-What we can become good at is
-[automaticity](#g:automaticity), which is the ability to do
-something routine in the background while doing something else
-[[Mill2016a](#CITE)]. Most of us can talk while chopping onions, or drink
-coffee while reading; with practice, we can also take notes while
-listening, but we can't study effectively, program, or do other mentally
-challenging tasks while paying attention to something else.
+The most important part of this is switching off
+interruptions. Despite what many people want to believe, people are
+not good at multi-tasking.  What we can become good at is
+[automaticity](#g:automaticity), which is the ability to do something
+routine in the background while doing something else
+[[Mill2016a](#CITE)]. Most of us can talk while chopping onions, or
+drink coffee while reading; with practice, we can also take notes
+while listening, but we can't study effectively, program, or do other
+mentally challenging tasks while paying attention to something else.
 
 The point of all this organization and preparation is to get into the
 most productive mental state possible. Psychologists call it
-[flow](#g:flow) [[Csik2008](#CITE)]; athletes call it "being
-in the zone", while musicians talk about losing themselves in what
-they're playing. Whatever name you use, people produce much more per
-unit of time in this state than normal.
+[flow](#g:flow) [[Csik2008](#CITE)]; athletes call it "being in the
+zone", while musicians talk about losing themselves in what they're
+playing. Whatever name you use, people produce much more per unit of
+time in this state than normal.
 
 That's the good news. The bad news is that it takes roughly ten minutes
 to get back into a state of flow after an interruption, no matter how
@@ -362,14 +362,14 @@ grades) wasn't significant, that students didn't inflate their
 self-ratings, and crucially, that ratings were not biased by gender or
 race.
 
-One important variation on peer assessment and review is
-[contributing student pedagogy](#g:contributing-student), in
-which students produce artifacts to contribute to other students'
-learning. This can be developing a short lesson and sharing it with the
-class, adding to a question bank, or writing up notes from a particular
-lecture for in-class publication. For example, [[Fran2018](#CITE)] found
-that students who made short videos to teach concepts to their peers had
-a significant increase in their own learning compared to those who only
+One important variation on peer assessment and review is [contributing
+student pedagogy](#g:contributing-student), in which students produce
+artifacts to contribute to other students' learning. This can be
+developing a short lesson and sharing it with the class, adding to a
+question bank, or writing up notes from a particular lecture for
+in-class publication. For example, [[Fran2018](#CITE)] found that
+students who made short videos to teach concepts to their peers had a
+significant increase in their own learning compared to those who only
 studied the material or viewed the videos.
 
 Another is [calibrated peer review](#g:calibrated-peer-review), in
@@ -427,12 +427,11 @@ leads from one to the other. For example, if the two ideas are
 ### Convergent Evolution
 **(pairs/15)**
 
-One practice that wasn't covered above is
-[guided notes](#g:guided-notes), which are
-instructor-prepared notes that cue students to respond to key
-information in a lecture or discussion. The cues can be blank spaces
-where students add information, asterisks next to terms students should
-define, etc.
+One practice that wasn't covered above is [guided
+notes](#g:guided-notes), which are instructor-prepared notes that cue
+students to respond to key information in a lecture or discussion. The
+cues can be blank spaces where students add information, asterisks
+next to terms students should define, etc.
 
 Create 2--4 guided note cards for a lesson you have recently taught or
 are going to teach. Swap cards with your partner: how easy is it to
@@ -470,8 +469,7 @@ short lesson that uses the five-step ADEPT method to introduce it.
 ### The Cost of Multi-Tasking
 **(pairs/10)**
 
-[The Learning
-Scientists](http://www.learningscientists.org/blog/2017/7/28-1) blog
+[The Learning Scientists blog][learning-scientists-experiment]
 describes a simple experiment you can do without preparation or
 equipment other than a stopwatch to demonstrate the mental cost of
 multi-tasking. Working in pairs, measure how long it takes each person
@@ -489,12 +487,11 @@ third (in which you are multi-tasking) takes significantly longer than
 either of the component tasks.
 
 ### Myths in Computing Education
-**(small groups/20)**
+**(whole class/20)**
 
-Working in groups of 3--4, vote on which of the following statements are
-true or false. When you are done, check your answers against
-[[Guzd2015b](#CITE)] (which you can [read
-online](https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext)).
+[[Guzd2015b](#CITE)] presents a list of the top 10 mistaken beliefs
+about computing education. His list of things that many people
+believe, but which aren't true, includes the following:
 
 1. The lack of women in Computer Science is just like all the other
    STEM fields.
@@ -509,6 +506,11 @@ online](https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-
    because their job is to produce excellent software engineers.
 
 1. Some people are just naturally better programmers than others.
+
+Have everyone vote +1 (agree), -1 (disagree), or 0 (not sure) for each
+point, then [read the full explanations in the original
+article][guzdial-myths]) and vote again. Which ones did people change
+their minds on? Which ones do they still believe are true, and why?
 
 ### Calibrated Peer Review
 **(pairs/20)**
@@ -526,43 +528,5 @@ online](https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-
 1. Have your partner grade the same program with the same rubric. What
    do they accept that you did not? What do they critique that you did
    not?
-
-### Top Ten Myths
-**(whole class/15)**
-
-[[Guzd2015b](#CITE)] presents a list of the top 10 mistaken beliefs about
-computing education. His list of things that many people believe, but
-which aren't true, is:
-
-1. The lack of women in Computer Science is just like all the other
-   fields of science, technology, engineering, and medicine.
-
-1. To get more women in CS, we need more female CS faculty.
-
-1. A good CS teacher is a good lecturer.
-
-1. Clickers and the like are an add-on for a good teacher.
-
-1. Student evaluations are the best way to evaluate teaching.
-
-1. Good teachers personalize education for students' learning styles.
-
-1. High schools just can't teach CS well, so they shouldn't do it at
-   all.
-
-1. The real problem is to get more CS curriculum into the hands of
-   teachers.
-
-1. All I need to do to be a good CS teacher is model good software
-   development practice, because my job is to produce excellent
-   software engineers.
-
-1. Some people are just born to program.
-
-Have everyone vote +1 (agree), -1 (disagree), or 0 (not sure) for each
-point, then [read the full explanations in the original
-article](https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext))
-and vote again. Which ones did people change their minds on? Which ones
-do they still believe are true, and why?
 
 {% include links.md %}

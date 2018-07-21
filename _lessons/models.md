@@ -54,13 +54,13 @@ central ball (the nucleus) surrounded by orbiting electrons. Again, it's
 wrong, but useful.
 
 One sign that someone is a novice is that the things they say are [not
-even wrong](https://en.wikipedia.org/wiki/Not_even_wrong), e.g., they
-think there's a difference between programs they type in character by
-character and identical ones that they have copied and pasted. As
-[s:motivation](#CHAPTER) explains, it is very important not to make
-novices uncomfortable for doing this: until they have a better mental
-model, reasoning by (inappropriate) borrowing from their knowledge of
-other subjects is the best they can do.
+even wrong][not-even-wrong], e.g., they think there's a difference
+between programs they type in character by character and identical
+ones that they have copied and pasted. As [s:motivation](#CHAPTER)
+explains, it is very important not to make novices uncomfortable for
+doing this: until they have a better mental model, reasoning by
+(inappropriate) borrowing from their knowledge of other subjects is
+the best they can do.
 
 Presenting novices with a pile of facts is counter-productive, because
 they don't yet have a model to fit those facts into. In fact, presenting
@@ -79,39 +79,40 @@ study of video instruction for science students:
 > effort students expend while watching it.
 
 Your goal when teaching novices should therefore be *to help them
-construct a mental model* so that they have somewhere to put facts. For
-example, Software Carpentry's [lesson on the Unix
-shell](http://swcarpentry.github.io/shell-novice/) introduces fifteen
-commands in three hours. That's one command every twelve minutes, which
-seems glacially slow until you realize that the lesson's real purpose
-isn't to teach those fifteen commands: it's to teach paths, history, tab
-completion, wildcards, pipes, command-line arguments, and redirection.
-Until novices understand those concepts, the commands don't make sense;
-once they do understand those concepts, they can quickly assemble a
+construct a mental model* so that they have somewhere to put
+facts. For example, Software Carpentry's [lesson on the Unix
+shell][swc-shell-novice] introduces fifteen commands in three
+hours. That's one command every twelve minutes, which seems glacially
+slow until you realize that the lesson's real purpose isn't to teach
+those fifteen commands: it's to teach paths, history, tab completion,
+wildcards, pipes, command-line arguments, and redirection.  Until
+novices understand those concepts, the commands don't make sense; once
+they do understand those concepts, they can quickly assemble a
 repertoire of commands.
 
 The cognitive differences between novices and competent practitioners
 underpin the differences between two kinds of teaching materials. A
-tutorial's purpose is to help newcomers to a field build a mental model;
-a manual's role, on the other hand, is to help competent practitioners
-fill in the gaps in their knowledge. Tutorials frustrate competent
-practitioners because they move too slowly and say things that are
-obvious (though they are anything *but* obvious to novices). Equally,
-manuals frustrate novices because they use jargon and *don't* explain
-things. This phenomenon is called the
-[expertise reversal effect](#g:expertise-reversal)
-[[Kaly2003](#CITE)], and is another reason you have to decide early on
-who your lessons are meant for.
+tutorial's purpose is to help newcomers to a field build a mental
+model; a manual's role, on the other hand, is to help competent
+practitioners fill in the gaps in their knowledge. Tutorials frustrate
+competent practitioners because they move too slowly and say things
+that are obvious (though they are anything *but* obvious to
+novices). Equally, manuals frustrate novices because they use jargon
+and *don't* explain things. This phenomenon is called the [expertise
+reversal effect](#g:expertise-reversal) [[Kaly2003](#CITE)], and is
+another reason you have to decide early on who your lessons are meant
+for.
 
 > **A Handful of Exceptions**
 > 
-> One of the reasons Unix and C became popular is that Kernighan et al's
-> trilogy [[Kern1978](#CITE),[Kern1983](#CITE),[Kern1988](#CITE)] somehow managed to be
-> good tutorials *and* good manuals at the same time. Ray and Ray's book
-> on Unix [[Ray2014](#CITE)] and Fehily's introduction to SQL
-> [[Fehi2008](#CITE)] are among the very few other books in computing
-> that have accomplished this; even after re-reading them several times,
-> I don't know how they manage to do it.
+> One of the reasons Unix and C became popular is that Kernighan et
+> al's trilogy [[Kern1978](#CITE),[Kern1983](#CITE),[Kern1988](#CITE)]
+> somehow managed to be good tutorials *and* good manuals at the same
+> time. Ray and Ray's book on Unix [[Ray2014](#CITE)] and Fehily's
+> introduction to SQL [[Fehi2008](#CITE)] are among the very few other
+> books in computing that have accomplished this; even after
+> re-reading them several times, I don't know how they manage to do
+> it.
 
 ## Are People Learning? {#s:models-formative-assessment}
 
@@ -185,26 +186,24 @@ insights:
 - If she chooses 43 then she knows she has to carry the 1, but is
   carrying it back into the column it came from.
 
-Each of these incorrect answers is a
-[plausible distractor](#g:plausible-distractor) with
-[diagnostic power](#g:diagnostic-power). A distractor is a
-wrong or less-than-best answer; "plausible" means that it looks like it
-could be right, while "diagnostic power" means that each of the
-distractors helps us figure out what to explain next to that particular
-learner.
+Each of these incorrect answers is a [plausible
+distractor](#g:plausible-distractor) with [diagnostic
+power](#g:diagnostic-power). A distractor is a wrong or less-than-best
+answer; "plausible" means that it looks like it could be right, while
+"diagnostic power" means that each of the distractors helps us figure
+out what to explain next to that particular learner.
 
 In order to come up with plausible distractors, think about the
 questions your learners asked or problems they had the last time you
 taught this subject. If you haven't taught it before, think about your
 own misconceptions, ask colleagues about their experiences, or look at
-the history of your field---if everyone misunderstood your subject in some
-way fifty years ago, the odds are that a lot of your learners will still
-misunderstand it that way today. You can also ask open-ended questions
-in class to collect misconceptions about material to be covered in a
-later class, or check question and answer sites like
-[Quora](http://www.quora.com) or [Stack
-Overflow](http://stackoverflow.com) to see what people learning the
-subject elsewhere are confused by.
+the history of your field---if everyone misunderstood your subject in
+some way fifty years ago, the odds are that a lot of your learners
+will still misunderstand it that way today. You can also ask
+open-ended questions in class to collect misconceptions about material
+to be covered in a later class, or check question and answer sites
+like [Quora][quora] or [Stack Overflow][stack-overflow] to see what
+people learning the subject elsewhere are confused by.
 
 MCQs aren't the only kind of formative assessment you can use: Parsons
 Problems ([s:load](#CHAPTER)) and matching problems
@@ -344,11 +343,10 @@ where they are and what they need to do next.
 ### A Different Progression
 **(individual/15)**
 
-The model of skill development described at the start of this chapter is
-sometimes called the [Dreyfus
-model](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition).
-Another commonly-used progression is the [four stages of
-competence](https://en.wikipedia.org/wiki/Four_stages_of_competence):
+The model of skill development described at the start of this chapter
+is sometimes called the [Dreyfus model][dreyfus-model].  Another
+commonly-used progression is the [four stages of
+competence][four-stages]:
 
 - **Unconscious incompetence:**
   the person doesn't know what they don't know.

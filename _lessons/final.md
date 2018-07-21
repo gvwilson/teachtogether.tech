@@ -47,9 +47,7 @@ time we buy one brand of running shoe instead of another or shout an
 anatomical insult instead of a racial one at a cab driver, we're
 choosing one vision of the world instead of another.
 
-In his 1947 essay "[Why I
-Write](http://www.resort.com/~prime8/Orwell/whywrite.html)", George
-Orwell wrote:
+In his 1947 essay "[Why I Write][orwell-why]", George Orwell wrote:
 
 > In a peaceful age I might have written ornate or merely descriptive
 > books, and might have remained almost unaware of my political

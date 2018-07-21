@@ -20,16 +20,16 @@ chapter discusses ways teachers can motivate them. More importantly, it
 talks about ways teachers can accidentally *demotivate* them, and how to
 avoid doing that.
 
-Our starting point is the difference between
-[extrinsic motivation](#g:extrinsic-motivation), which we
-feel when we do something to avoid punishment or earn a reward, and
-[intrinsic motivation](#g:intrinsic-motivation), which is
-what we feel when we find something personally rewarding. Both affect
-most situations---for example, people teach because they enjoy it and
-because they get paid---but we learn best when we are intrinsically
-motivated [[Wlod2017](#CITE)]. According to [self-determination
-theory](https://en.wikipedia.org/wiki/Self-determination_theory), the
-three drivers of intrinsic motivation are:
+Our starting point is the difference between [extrinsic
+motivation](#g:extrinsic-motivation), which we feel when we do
+something to avoid punishment or earn a reward, and [intrinsic
+motivation](#g:intrinsic-motivation), which is what we feel when we
+find something personally rewarding. Both affect most situations---for
+example, people teach because they enjoy it and because they get
+paid---but we learn best when we are intrinsically motivated
+[[Wlod2017](#CITE)]. According to [self-determination
+theory][self-determination-theory], the three drivers of intrinsic
+motivation are:
 
 - **Competence:**
   the feeling that you know what you're doing.
@@ -50,20 +50,20 @@ talk to their peers (relatedness).
 > 
 > I've never had an audience in my life. My audience is a rubric.
 >
-> -- quoted by [Matt Tierney](https://twitter.com/figuralities/status/987330064571387906)
+> -- quoted by [Matt Tierney][tierney-twitter]
 > 
-> Grades and the way they distort learning are often used as an example
-> in discussion of extrinsic motivation, but as [[Mill2016a](#CITE)]
-> observes, they aren't going to go away any time soon, so it's
-> pointless to try to build a system that ignores them. Instead,
-> [[Lang2013](#CITE)] explores how courses that emphasize grades can
-> incentivize students to cheat, and offers some tips on how to diminish
-> this effect, while [[Covi2017](#CITE)] looks at the larger problem of
-> balancing intrinsic and extrinsic motivation in institutional
-> education, and the [constructive
-> alignment](https://en.wikipedia.org/wiki/Constructive_alignment)
-> approach advocated in [[Bigg2011](#CITE)] seeks to bring learning
-> activities and learning outcomes into line with each other.
+> Grades and the way they distort learning are often used as an
+> example in discussion of extrinsic motivation, but as
+> [[Mill2016a](#CITE)] observes, they aren't going to go away any time
+> soon, so it's pointless to try to build a system that ignores
+> them. Instead, [[Lang2013](#CITE)] explores how courses that
+> emphasize grades can incentivize students to cheat, and offers some
+> tips on how to diminish this effect, while [[Covi2017](#CITE)] looks
+> at the larger problem of balancing intrinsic and extrinsic
+> motivation in institutional education, and the [constructive
+> alignment][constructive-alignment] approach advocated in
+> [[Bigg2011](#CITE)] seeks to bring learning activities and learning
+> outcomes into line with each other.
 
 [[Ambr2010](#CITE)] contains a list of evidence-based methods to motivate
 learners. None of them are surprising---it's hard to imagine someone
@@ -235,19 +235,19 @@ Here are a few specific things that will demotivate your learners:
   Thursday's deadline if they kept doing things the way they always
   have.
 
-It is even easier to demotivate people online than in person, but there
-are now evidence-based strategies for dealing with this.
+It is even easier to demotivate people online than in person, but
+there are now evidence-based strategies for dealing with this.
 [[Ford2016](#CITE)] found that five barriers to contribution on [Stack
-Overflow](https://stackoverflow.com/) are seen as significantly more
-problematic by women than men: lack of awareness of site features,
-feeling unqualified to answer questions, intimidating community size,
-discomfort interacting with or relying on strangers, and the perception
-that they shouldn't be slacking (i.e., the feeling that searching for
-things online wasn't "real work"). Fear of negative feedback didn't
-quite make this list, but would have been the next one added if the
-authors weren't quite so strict about their statistical cutoffs. All of
-these factors can and should be addressed in both in-person and online
-settings using methods like those in
+Overflow][stack-overflow] are seen as significantly more problematic
+by women than men: lack of awareness of site features, feeling
+unqualified to answer questions, intimidating community size,
+discomfort interacting with or relying on strangers, and the
+perception that they shouldn't be slacking (i.e., the feeling that
+searching for things online wasn't "real work"). Fear of negative
+feedback didn't quite make this list, but would have been the next one
+added if the authors weren't quite so strict about their statistical
+cutoffs. All of these factors can and should be addressed in both
+in-person and online settings using methods like those in
 [s:motivation-inclusivity](#SECTION), and doing so improves outcomes
 for everyone [[Sved2016](#CITE)].
 
@@ -290,9 +290,8 @@ everyone else finds it easy. Members of underrepresented groups who
 already feel additional pressure to prove themselves may be particularly
 affected.
 
-The Ada Initiative has created some
-[guidelines](https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community)
-for fighting your own impostor syndrome, which include:
+The Ada Initiative has created some [guidelines][ada-guidelines] for
+fighting your own impostor syndrome, which include:
 
 - **Talk about the issue with people you trust.**
   When you hear from others that impostor syndrome is a common

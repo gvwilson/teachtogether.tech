@@ -85,13 +85,12 @@ above and beyond what's in the persona.
 The best way to make the goals in Step 1 firmer is to write full
 descriptions of a couple of exercises that students will be able to do
 toward the end of the course. Writing exercises early is directly
-analogous to [test-driven
-development](https://en.wikipedia.org/wiki/Test-driven_development):
-rather than working forward from a (probably ambiguous) set of learning
-objectives, designers work backward from concrete examples of where
-their students are going. Doing this also helps uncover technical
-requirements that might otherwise not be found until uncomfortably late
-in the lesson development process.
+analogous to [test-driven development][tdd]: rather than working
+forward from a (probably ambiguous) set of learning objectives,
+designers work backward from concrete examples of where their students
+are going. Doing this also helps uncover technical requirements that
+might otherwise not be found until uncomfortably late in the lesson
+development process.
 
 To complement the full exercise descriptions, you should also write
 brief point-form descriptions of one or two exercises per lecture hour

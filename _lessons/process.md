@@ -374,10 +374,10 @@ it is.
 The second factor is *how easy it is for collaborators to collaborate
 technically.* Teachers usually share material by mailing PowerPoint
 files to each other or putting them in a shared drive. Collaborative
-writing tools like [Google Docs](http://docs.google.com) and wikis are
+writing tools like [Google Docs][google-docs] and wikis are
 a big improvement, as they allow many people to update the same
 document and comment on other people's updates. The version control
-systems used by programmers, such as [GitHub](http://github.com), are
+systems used by programmers, such as [GitHub][github], are
 another big advance, since they let any number of people work
 independently and then merge their changes back together in a
 controlled, reviewable way.  Unfortunately, version control systems
@@ -413,11 +413,10 @@ it's more like sampling in music.
 If this is true, then lessons may be the wrong granularity for
 sharing, and collaboration might be more likely to take hold if the
 thing being collaborated on was smaller. This fits well with
-Caulfield's theory of [choral
-explanations](https://hapgood.us/2016/05/13/choral-explanations/). He
-argues that sites like [Stack Overflow](https://stackoverflow.com/)
-succeed because they provide a chorus of answers for every question,
-each of which is most suitable for a slightly different questioner. If
+Caulfield's theory of [choral explanations][choral-explanations]. He
+argues that sites like [Stack Overflow][stack-overflow] succeed
+because they provide a chorus of answers for every question, each of
+which is most suitable for a slightly different questioner. If
 Caulfield is right, the lessons of tomorrow may include guided tours
 of community-curated Q&A repositories designed to accommodate learners
 at widely different levels.
@@ -473,29 +472,27 @@ by each one?
 **(individual/15)**
 
 Betsy Leondar-Wright coined the phrase "[inessential
-weirdness](http://www.classmatters.org/2006_07/its-not-them.php)" to
-describe things groups do that aren't really necessary, but which
-alienate people who aren't members of that group. Sumana Harihareswara
-later used this notion as the basis for a talk on [inessential
-weirdnesses in open source
-software](https://www.harihareswara.net/sumana/2016/05/21/0), which
-includes things like making disparaging comments about Microsoft
-Windows, command-line tools with cryptic names, and the command line
-itself. Take a few minutes to read these articles, then make a list of
-inessential weirdnesses you think your learners might encounter when you
-first teach them. How many of these can you avoid with a little effort?
+weirdness][inessential-weirdness]" to describe things groups do that
+aren't really necessary, but which alienate people who aren't members
+of that group. Sumana Harihareswara later used this notion as the
+basis for a talk on [inessential weirdnesses in open source
+software][inessential-weirdness-open-source], which includes things
+like making disparaging comments about Microsoft Windows, command-line
+tools with cryptic names, and the command line itself. Take a few
+minutes to read these articles, then make a list of inessential
+weirdnesses you think your learners might encounter when you first
+teach them. How many of these can you avoid with a little effort?
 
 ### PRIMM
 **(individual/15)**
 
-One approach to introducing new ideas in computing is
-[PRIMM](http://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/):
+One approach to introducing new ideas in computing is [PRIMM][primm]:
 **P**redict a program's behavior or output, **R**un it to see what it
 actually does, **I**nvestigate why it does that (e.g., by stepping
-through it in a debugger or drawing the flow of control), **M**odify it
-(or its inputs), and then **M**ake something similar from scratch. Pick
-something you have recently taught or been taught and outline a short
-lesson that follows these five steps.
+through it in a debugger or drawing the flow of control), **M**odify
+it (or its inputs), and then **M**ake something similar from scratch.
+Pick something you have recently taught or been taught and outline a
+short lesson that follows these five steps.
 
 ### Evaluating Lessons
 **(pairs/20)**
@@ -539,13 +536,13 @@ learner?
 ### Concrete-Representational-Abstract
 **(pairs/15)**
 
-[Concrete-Representational-Abstract](https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/)
-(CRA) is another approach to introducing new ideas that is used
-primarily with younger learners. The first step is the concrete stage,
-and involves physically manipulating objects to solve a problem (e.g.,
-piling blocks to do addition). In the the representational stage, images
-are used to represent those objects, and in the final abstract stage,
-the learner uses numbers or symbols.
+[Concrete-Representational-Abstract][cra] (CRA) is another approach to
+introducing new ideas that is used primarily with younger
+learners. The first step is the concrete stage, and involves
+physically manipulating objects to solve a problem (e.g., piling
+blocks to do addition). In the the representational stage, images are
+used to represent those objects, and in the final abstract stage, the
+learner uses numbers or symbols.
 
 1. Write each of the numbers 2, 7, 5, 10, 6 on a sticky note.
 
