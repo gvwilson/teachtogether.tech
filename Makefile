@@ -110,7 +110,7 @@ spelling :
 	| aspell --mode=tex list \
 	| sort \
 	| uniq \
-	| comm -2 -3 - words.txt
+	| comm -2 -3 - misc/words.txt
 
 ## words      : count words per chapter.
 words :
