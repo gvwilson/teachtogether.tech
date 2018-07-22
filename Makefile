@@ -1,14 +1,25 @@
+# Check that language is set.
+ifndef lang
+$(error Must set 'lang' with 'lang=en' or similar.)
+endif
+
 # Tools.
 JEKYLL=jekyll
 LATEX=pdflatex
 BIBTEX=bibtex
 PANDOC=pandoc
-PANDOC_FLAGS=--to=latex
+PANDOC_FLAGS=--from=gfm --to=latex
 REPO=http://github.com/gvwilson/teachtogether.tech
 
-# Settings.
-CHAPTERS_MD=$(filter-out _chapters_en/bib.md,$(wildcard _chapters_en/*.md))
-CHAPTERS_TEX=$(patsubst _chapters_en/%.md,tex_en/inc/%.tex,${CHAPTERS_MD})
+# Language-dependent settings.
+DIR_MD=_chapters_${lang}
+DIR_TEX=tex_${lang}
+BIB_SRC=files/${lang}.bib
+WORDS_SRC=misc/${lang}.txt
+
+# Filesets.
+CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md,$(wildcard ${DIR_MD}/*.md))
+CHAPTERS_TEX=$(patsubst ${DIR_MD}/%.md,${DIR_TEX}/inc/%.tex,${CHAPTERS_MD})
 
 # Controls
 .PHONY : commands serve site bib crossref clean
@@ -27,34 +38,34 @@ site :
 	${JEKYLL} build
 
 ## pdf        : build PDF version of book.
-pdf : tex_en/t3.pdf
+pdf : ${DIR_TEX}/book.pdf
 
 ## tex        : generate LaTeX for book, but don't compile to PDF.
 tex : ${CHAPTERS_TEX}
 
-tex_en/t3.pdf : ${CHAPTERS_TEX} tex_en/t3.bib
-	@cd tex_en \
-	&& ${LATEX} t3 \
-	&& ${BIBTEX} t3 \
-	&& ${LATEX} t3 \
-	&& ${LATEX} t3 \
-	&& ${LATEX} t3
+${DIR_TEX}/book.pdf : ${CHAPTERS_TEX} ${DIR_TEX}/book.bib
+	@cd ${DIR_TEX} \
+	&& ${LATEX} book \
+	&& ${BIBTEX} book \
+	&& ${LATEX} book \
+	&& ${LATEX} book \
+	&& ${LATEX} book
 
-tex_en/inc/%.tex : _chapters_en/%.md bin/texpre.py bin/texpost.py _includes/links.md
-	mkdir -p tex_en/inc && \
+${DIR_TEX}/inc/%.tex : ${DIR_MD}/%.md bin/texpre.py bin/texpost.py _includes/links.md
+	mkdir -p ${DIR_TEX}/inc && \
 	cat $< \
 	| bin/texpre.py \
 	| ${PANDOC} ${PANDOC_FLAGS} -o - \
 	| bin/texpost.py _includes/links.md \
 	> $@
 
-tex_en/t3.bib : files/t3.bib
+${DIR_TEX}/book.bib : ${BIB_SRC}
 	cp $< $@
 
 ## bib        : rebuild Markdown bibliography from BibTeX source.
-bib : _chapters_en/bib.md
+bib : ${DIR_MD}/bib.md
 
-_chapters_en/bib.md : files/t3.bib bin/bib2md.py
+${DIR_MD}/bib.md : ${BIB_SRC} bin/bib2md.py
 	bin/bib2md.py < $< > $@
 
 ## crossref   : rebuild cross-reference file.
@@ -67,29 +78,29 @@ files/crossref.js : bin/crossref.py _config.yml ${CHAPTERS_MD}
 
 ## authors    : list all authors.
 authors :
-	@bin/authors.py files/t3.bib
+	@bin/authors.py ${BIB_SRC}
 
 ## missing    : list all missing bibliography entries.
 missing :
-	@bin/checkcites.py --missing files/t3.bib ${CHAPTERS_TEX}
+	@bin/checkcites.py --missing ${BIB_SRC} ${CHAPTERS_TEX}
 
 ## publishers : list all publishers.
 publishers :
-	@bin/fields.py files/t3.bib publisher
+	@bin/fields.py ${BIB_SRC} publisher
 
 ## unused     : list all unused bibliography entries.
 unused :
-	@bin/checkcites.py --unused files/t3.bib ${CHAPTERS_TEX}
+	@bin/checkcites.py --unused ${BIB_SRC} ${CHAPTERS_TEX}
 
 ## years      : CSV histogram of publication years.
 years :
-	@bin/years.py files/t3.bib
+	@bin/years.py ${BIB_SRC}
 
 ## ----------------------------------------
 
 ## exercises  : count exercises per chapter.
-exercises :
-	@bin/exercises.py tex_en/t3.tex
+exercises : ${CHAPTERS_TEX}
+	@bin/exercises.py ${DIR_TEX}/book.tex
 
 ## issues     : create single-page view of all GitHub issues.
 issues :
@@ -100,17 +111,17 @@ labels :
 	@bin/checklabels.py ${CHAPTERS_TEX}
 
 ## pages      : count pages per chapter.
-pages : tex_en/t3.toc
-	@bin/pages.py < tex_en/t3.toc
+pages : ${DIR_TEX}/book.toc
+	@bin/pages.py < ${DIR_TEX}/book.toc
 
 ## spelling   : check spelling.
 spelling :
-	@grep bibnote files/t3.bib \
+	@grep bibnote ${BIB_SRC} \
 	| cat - ${CHAPTERS_MD} \
 	| aspell --mode=tex list \
 	| sort \
 	| uniq \
-	| comm -2 -3 - misc/words.txt
+	| comm -2 -3 - ${WORDS_SRC}
 
 ## words      : count words per chapter.
 words :
@@ -124,17 +135,21 @@ nonascii :
 
 ## clean      : clean up junk files.
 clean :
-	@rm -rf _site tex_en/t3.bib tex_en/inc */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
+	@rm -rf _site ${DIR_TEX}/book.bib ${DIR_TEX}/inc */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
 
 ## settings   : show macro values.
 settings :
-	@echo 'JEKYLL = ' ${JEKYLL}
-	@echo 'LATEX = ' ${LATEX}
-	@echo 'BIBTEX = ' ${BIBTEX}
-	@echo 'PANDOC = ' ${PANDOC}
-	@echo 'PANDOC_FLAGS = ' ${PANDOC_FLAGS}
-	@echo 'REPO = ' ${REPO}
-	@echo 'CHAPTERS_MD = ' ${CHAPTERS_MD}
-	@echo 'CHAPTERS_TEX = ' ${CHAPTERS_TEX}
+	@echo "JEKYLL=${JEKYLL}"
+	@echo "LATEX=${LATEX}"
+	@echo "BIBTEX=${BIBTEX}"
+	@echo "PANDOC=${PANDOC}"
+	@echo "PANDOC_FLAGS=${PANDOC_FLAGS}"
+	@echo "REPO=${REPO}"
+	@echo "DIR_MD=${DIR_MD}"
+	@echo "DIR_TEX=${DIR_TEX}"
+	@echo "BIB_SRC=${BIB_SRC}"
+	@echo "WORDS_SRC=${WORDS_SRC}"
+	@echo "CHAPTERS_MD=${CHAPTERS_MD}"
+	@echo "CHAPTERS_TEX=${CHAPTERS_TEX}"

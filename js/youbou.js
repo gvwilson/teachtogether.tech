@@ -26,7 +26,7 @@ $(document).ready(function() {
     // Appendix references.
     else if (target == '#APPENDIX') {
       $(this).attr('href', prefix + '/' + CROSSREF[text]['slug'] + '/')
-      $(this).text('APPENDIX ' + CROSSREF[text]['number'])
+      $(this).text('Appendix ' + CROSSREF[text]['number'])
     }
 
     // Chapter references.
