@@ -391,8 +391,7 @@ teammates, then calculate and compare scores.
 
 ## Exercises {#s:individual-exercises}
 
-### Learning Strategies
-**(individual/20)**
+### Learning Strategies (individual/20)
 
 1. Which of the six learning strategies do you regularly use? Which
    ones do you not?
@@ -405,8 +404,7 @@ teammates, then calculate and compare scores.
    to explain how the concept explains it. (This uses the "elaboration"
    practice).
 
-### Connecting Ideas
-**(pairs/5)**
+### Connecting Ideas (pairs/5)
 
 This is an exercise is an example of using elaboration to improve
 retention. Pick a partner, and have each person independently choose an
@@ -424,8 +422,7 @@ leads from one to the other. For example, if the two ideas are
 
   - people try to predict election results using statistics
 
-### Convergent Evolution
-**(pairs/15)**
+### Convergent Evolution (pairs/15)
 
 One practice that wasn't covered above is [guided
 notes](#g:guided-notes), which are instructor-prepared notes that cue
@@ -438,8 +435,7 @@ are going to teach. Swap cards with your partner: how easy is it to
 understand what is being asked for? How long would it take to fill in
 the prompts?
 
-### Changing Minds
-**(pairs/10)**
+### Changing Minds (pairs/10)
 
 [[Kirs2013](#CITE)] argues that myths about digital natives, learning
 styles, and self-educators are all reflections of the mistaken belief
@@ -451,8 +447,7 @@ in this book that surprised you or contradicted something you previously
 believed, and practice explaining it to a partner in 1--2 minutes. How
 convincing are you?
 
-### Flash Cards
-**(individual/15)**
+### Flash Cards (individual/15)
 
 Use sticky notes or anything else you have at hand to make up a dozen
 flash cards for a topic you have recently taught or learned, trade with
@@ -460,14 +455,12 @@ a partner, and see how long it takes each of you to achieve 100% perfect
 recall. When you are done, set the cards aside, then come back after an
 hour and see what your recall rate is.
 
-### Using ADEPT
-**(whole class/15)**
+### Using ADEPT (whole class/15)
 
 Pick something you have recently taught or been taught and outline a
 short lesson that uses the five-step ADEPT method to introduce it.
 
-### The Cost of Multi-Tasking
-**(pairs/10)**
+### The Cost of Multi-Tasking (pairs/10)
 
 [The Learning Scientists blog][learning-scientists-experiment]
 describes a simple experiment you can do without preparation or
@@ -486,8 +479,7 @@ Have each pair report their numbers: you will probably find that the
 third (in which you are multi-tasking) takes significantly longer than
 either of the component tasks.
 
-### Myths in Computing Education
-**(whole class/20)**
+### Myths in Computing Education (whole class/20)
 
 [[Guzd2015b](#CITE)] presents a list of the top 10 mistaken beliefs
 about computing education. His list of things that many people
@@ -512,8 +504,7 @@ point, then [read the full explanations in the original
 article][guzdial-myths]) and vote again. Which ones did people change
 their minds on? Which ones do they still believe are true, and why?
 
-### Calibrated Peer Review
-**(pairs/20)**
+### Calibrated Peer Review (pairs/20)
 
 1. Create a 5--10 point rubric for grading programs of the kind you
    would like your learners to write that has entries like "good

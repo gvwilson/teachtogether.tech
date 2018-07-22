@@ -519,30 +519,26 @@ have models of what good feedback should look like.
 
 ## Exercises {#s:exercises-exercises}
 
-### Code and Run
-**(pairs/10)**
+### Code and Run (pairs/10)
 
 Create a short C&R exercise; trade with a partner, and see how long it
 takes each of you to understand and do the other's exercise. Were there
 any ambiguities or misunderstandings in the exercise description?
 
-### Inverting Code and Run
-**(small groups/15)**
+### Inverting Code and Run (small groups/15)
 
 Form groups of 4--6 people. Have each member of the group create an
 inverted C&R exercise that requires people to figure out what input
 produces a particular output. Pick two at random, and see how many
 different inputs the group can find that satisfy the requirements.
 
-### Tracing Values
-**(pairs/10)**
+### Tracing Values (pairs/10)
 
 Write a short program (10--15 lines); trade with a partner, and trace how
 the variables in the program change value over time. What differences
 are there in how you and your partner wrote down your traces?
 
-### Refactoring
-**(small groups/15)**
+### Refactoring (small groups/15)
 
 Form groups of 3--4 people. Have each person select a short piece of code
 (10--30 lines long) that they have written that isn't as tidy as it could
@@ -551,16 +547,14 @@ independently. How do your cleaned-up versions differ? How well or how
 poorly would you be able to accommodate all of these variations if
 marking automatically or in a large class?
 
-### Labelling a Diagram
-**(pairs/10)**
+### Labelling a Diagram (pairs/10)
 
 Draw a diagram showing something that you have explained recently: how
 browsers fetch data from servers, the relationship between objects and
 classes, or how data frames are indexed in R. Put the labels on the
 side, and ask your partner to place them.
 
-### Pencil-and-Paper Puzzles
-**(whole class/15)**
+### Pencil-and-Paper Puzzles (whole class/15)
 
 [[Butl2017](#CITE)] describes a set of pencil-and-paper puzzles that can
 be turned into introductory programming assignments, and found that
@@ -568,8 +562,7 @@ these assignments are enjoyed by students and encourage meta-cognition.
 Think of a simple pencil-and-paper puzzle or game you played as a child,
 and describe how you would turn it into a programming exercise.
 
-### Counting Failures
-**(pairs/15)**
+### Counting Failures (pairs/15)
 
 Any useful estimate of how much time an exercise needs must take into
 account how frequent failures are and how much time is lost to them. For

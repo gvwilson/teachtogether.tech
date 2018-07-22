@@ -310,8 +310,7 @@ you have learners answer them a few days before a class or workshop
 starts, they will give you a much clearer idea of who they are and how
 best you can help them.
 
-### Highs and Lows
-**(whole class/5)**
+### Highs and Lows (whole class/5)
 
 Write brief answers to the following questions and share with your
 peers. (If you are taking notes together online as described in
@@ -322,8 +321,7 @@ peers. (If you are taking notes together online as described in
 
 1. What was the worst one? What made it so bad?
 
-### Know Thyself
-**(whole class/5)**
+### Know Thyself (whole class/5)
 
 Write brief answers to the following questions and share them as
 described above. Keep your answers somewhere so that you can refer to
@@ -337,8 +335,7 @@ them as you go through the rest of this book.
 
 1. How will you know if you're teaching well?
 
-### Starting Points
-**(individual/5)**
+### Starting Points (individual/5)
 
 Write brief answers to the following questions and share them as
 described above. Keep your answers somewhere so that you can refer to
@@ -349,8 +346,7 @@ them as you go through the rest of this book.
 1. What is one specific thing you believe is true about teaching and
    learning?
 
-### Why Learn to Program?
-**(individual/20)**
+### Why Learn to Program? (individual/20)
 
 Re-read Guzdial's list of reasons to learn to program in
 [s:intro-why](#SECTION), then draw a 3x3 grid whose axes are labelled

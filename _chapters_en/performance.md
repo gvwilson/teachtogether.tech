@@ -587,8 +587,7 @@ your learners skeleton code to start with
 
 ## Exercises {#s:performance-exercises}
 
-### Give Feedback on Bad Teaching
-**(whole class/20)**
+### Give Feedback on Bad Teaching (whole class/20)
 
 1. Watch [this video of bad teaching][video-bad-teaching] as a group
    and give feedback on it. Organize feedback along two axes: positive
@@ -601,8 +600,7 @@ your learners skeleton code to start with
 What did other people see that you missed? What did they think that you
 strongly agree or disagree with?
 
-### Practice Giving Feedback
-**(small groups/45)**
+### Practice Giving Feedback (small groups/45)
 
 Use the process described above to practice teaching in groups of
 three.  When your group is done, the teacher will add one point of
@@ -613,8 +611,7 @@ neither: the goal at this stage is primarily for people to become
 comfortable with giving and receiving feedback, and to establish a
 consensus about what sorts of things to look for.
 
-### The Bad and the Good
-**(whole class/20)**
+### The Bad and the Good (whole class/20)
 
 Watch the videos of [live coding done poorly][video-live-coding-bad]
 and [live coding done well][video-live-coding-good] and summarize your
@@ -623,8 +620,7 @@ learners know what a shell variable is, know how to use the `head`
 command, and are familiar with the contents of the data files being
 filtered.
 
-### See Then Do
-**(pairs/30)**
+### See Then Do (pairs/30)
 
 Teach 3--4 minutes of a lesson using live coding to a fellow trainee,
 then swap and watch while that person live codes for you. Don't bother
@@ -647,8 +643,7 @@ are expected to be familiar with.
 
 - What will you try to do differently next time?
 
-### Tells
-**(small groups/15)**
+### Tells (small groups/15)
 
 1. Read the description of tells at the end of
    [s:performance-feedback](#SECTION), then make a note of what you
@@ -659,8 +654,7 @@ are expected to be familiar with.
 1. Ask your audience how they think you betray nervousness. Is their
    list the same as yours?
 
-### Teaching Tips
-**(small groups/15)**
+### Teaching Tips (small groups/15)
 
 The [CS Teaching Tips][cs-teaching-tips] site has a large number of
 practical tips on teaching computing, as well as a collection of

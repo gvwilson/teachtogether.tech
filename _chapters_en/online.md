@@ -560,8 +560,7 @@ but only a handful of these ideas are widely known or used.
 
 ## Exercises {#s:online-exercises}
 
-### Give Feedback on a Bad Screencast
-**(whole class/20)**
+### Give Feedback on a Bad Screencast (whole class/20)
 
 Watch [this screencast][video-screencast-bad] as a group and give
 feedback on it. Organize feedback along two axes: positive
@@ -572,16 +571,14 @@ already up there. What did other people see that you missed? What did
 they think that you strongly agree or disagree with? (You can compare
 your answers with the checklist in [s:teacheval](#APPENDIX).)
 
-### Two-Way Video
-**(pairs/10)**
+### Two-Way Video (pairs/10)
 
 Record a 2--3 minute video of yourself doing something, then swap
 machines with a partner so that each of you can watch the other's video
 at 4X speed. How easy is it to follow what's going on? What if anything
 did you miss?
 
-### Viewpoints
-**(individual/10)**
+### Viewpoints (individual/10)
 
 According to [[Irib2009](#CITE)], different disciplines focus on
 different factors affecting the success or otherwise of online
@@ -603,8 +600,7 @@ communities:
 Which of these perspectives most closely corresponds to your own? Which
 are you least aligned with?
 
-### Helping or Harming
-**(small groups/30)**
+### Helping or Harming (small groups/30)
 
 [Susan Dynarski's article in the *New York
 Times*][dynarski-who-needs-help] explains how and why schools are

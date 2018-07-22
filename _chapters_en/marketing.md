@@ -278,22 +278,19 @@ could be doing instead.
 
 ## Exercises {#s:marketing-exercises}
 
-### Write an Elevator Pitch for a City Councillor
-**(individual/10)**
+### Write an Elevator Pitch for a City Councillor (individual/10)
 
 This chapter described an organization that offers weekend programming
 workshops for people re-entering the workforce after taking a break to
 raise children. Write an elevator pitch for that organization aimed at a
 city councillor whose support the organization needs.
 
-### Write Elevator Pitches for Your Organization
-**(individual/30)**
+### Write Elevator Pitches for Your Organization (individual/30)
 
 Identify two groups of people your organization needs support from, and
 write an elevator pitch aimed at each one.
 
-### Email Subjects
-**(pairs/10)**
+### Email Subjects (pairs/10)
 
 Write the subject lines (and only the subject lines) for three email
 messages: one announcing a new course, one announcing a new sponsor, and
@@ -301,8 +298,7 @@ one announcing a change in project leadership. Compare your subject
 lines to a partner's and see if you can merge the best features of each
 while also shortening them.
 
-### Identify Causes of Passive Resistance
-**(small groups/30)**
+### Identify Causes of Passive Resistance (small groups/30)
 
 People who don't want change will sometimes say so out loud, but will
 also often use various forms of passive resistance, such as just not
@@ -313,16 +309,14 @@ four reasons why people might not want your teaching initiative to go
 ahead, and explain what you can do with the time and resources you have
 to counteract each.
 
-### Why Learn to Program?
-**(individual/15)**
+### Why Learn to Program? (individual/15)
 
 Revisit the "Why Learn to Program?" exercise in
 [s:intro-exercises](#SECTION). Where do your reasons for teaching and
 your learners' reasons for learning align? Where are they not aligned?
 How does that affect your marketing?
 
-### Appealing to Your Learners
-**(think-pair-share/15)**
+### Appealing to Your Learners (think-pair-share/15)
 
 Adult learners are different from children and teens: in general, they
 are better at managing their time, they're learning because they want to
@@ -334,8 +328,7 @@ Working in pairs, write a one-paragraph pitch for a class on web design
 that touches on these points, and then compare your pair's pitch with
 those of other pairs.
 
-### Conversational Programmers
-**(think-pair-share/15)**
+### Conversational Programmers (think-pair-share/15)
 
 A [conversational programmer](#g:conversational-programmer)
 is someone who needs to know enough about computing to have a meaningful

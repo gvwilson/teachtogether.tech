@@ -244,8 +244,7 @@ partner, always remember that learning and change have to go both ways.
 
 ## Exercises {#s:partner-exercises}
 
-### Collaborations
-**(small groups/30)**
+### Collaborations (small groups/30)
 
 Answer the following questions on your own, and then compare your
 answers to those given by other members of your group.
@@ -264,8 +263,7 @@ answers to those given by other members of your group.
 1. With what groups or entities would you like your organization to
    have agreements or relationships?
 
-### Educationalization
-**(whole class/10)**
+### Educationalization (whole class/10)
 
 [[Laba2008](#CITE)] explores why the United States and other countries
 keep pushing the solution of social problems onto educational
@@ -299,8 +297,7 @@ write:
 How do efforts to teach computational thinking and digital citizenship
 in schools fit into this framework?
 
-### Institutional Adoption
-**(whole class/15)**
+### Institutional Adoption (whole class/15)
 
 Re-read the list of motivations to adopt new practices given in
 [s:partner-schools](#SECTION). Which of these apply to you and your
@@ -308,16 +305,14 @@ colleagues? Which are irrelevant to your context? Which do you emphasize
 if and when you interact with people working in formal educational
 institutions?
 
-### Making It Fail
-**(small groups/15)**
+### Making It Fail (small groups/15)
 
 Working in small groups, re-read the list of ways to ensure new tools
 aren't adopted given in [s:partner-final](#SECTION). Which of these
 have you seen done recently? Which have you done yourself? What form did
 they take?
 
-### Mentoring
-**(whole class/15)**
+### Mentoring (whole class/15)
 
 The Institute for African-American Mentoring in Computer Science has
 published a brief set of guidelines for mentoring doctoral students,

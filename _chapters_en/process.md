@@ -423,36 +423,31 @@ at widely different levels.
 
 ## Exercises {#s:process-exercises}
 
-### Create Learner Personas
-**(small groups/30)**
+### Create Learner Personas (small groups/30)
 
 Working in small groups, create a five-point persona that describes one
 of your typical learners.
 
-### Classify Learning Objectives
-**(pairs/10)**
+### Classify Learning Objectives (pairs/10)
 
 Look at the example learning objectives given for an introductory course
 on HTML and CSS in [s:process-objectives](#SECTION) and classify each
 according to Bloom's Taxonomy. Compare your answers with those of your
 partner: where did you agree and disagree, and why?
 
-### Write Learning Objectives
-**(pairs/20)**
+### Write Learning Objectives (pairs/20)
 
 Write one or more learning objectives for something you currently teach
 or plan to teach using Bloom's Taxonomy. Working with a partner,
 critique and improve the objectives.
 
-### Write More Learning Objectives
-**(pairs/20)**
+### Write More Learning Objectives (pairs/20)
 
 Write one or more learning objectives for something you currently teach
 or plan to teach using Fink's Taxonomy. Working with a partner, critique
 and improve the objectives.
 
-### Building Lessons by Subtracting Complexity
-**(individual/20)**
+### Building Lessons by Subtracting Complexity (individual/20)
 
 One way to build a programming lesson is to write the program you want
 learners to finish with, then remove the most complex part that you want
@@ -468,8 +463,7 @@ create on their own at the end of a lesson and work backward to break it
 into digestible parts. How many are there? What key idea is introduced
 by each one?
 
-### Inessential Weirdness
-**(individual/15)**
+### Inessential Weirdness (individual/15)
 
 Betsy Leondar-Wright coined the phrase "[inessential
 weirdness][inessential-weirdness]" to describe things groups do that
@@ -483,8 +477,7 @@ minutes to read these articles, then make a list of inessential
 weirdnesses you think your learners might encounter when you first
 teach them. How many of these can you avoid with a little effort?
 
-### PRIMM
-**(individual/15)**
+### PRIMM (individual/15)
 
 One approach to introducing new ideas in computing is [PRIMM][primm]:
 **P**redict a program's behavior or output, **R**un it to see what it
@@ -494,8 +487,7 @@ it (or its inputs), and then **M**ake something similar from scratch.
 Pick something you have recently taught or been taught and outline a
 short lesson that follows these five steps.
 
-### Evaluating Lessons
-**(pairs/20)**
+### Evaluating Lessons (pairs/20)
 
 [[Mart2017](#CITE)] specifies eight dimensions along which lessons can be
 evaluated:
@@ -533,8 +525,7 @@ taught, or have recently been taught, and rate them as "low", "medium",
 criteria are most important to you personally as a teacher? As a
 learner?
 
-### Concrete-Representational-Abstract
-**(pairs/15)**
+### Concrete-Representational-Abstract (pairs/15)
 
 [Concrete-Representational-Abstract][cra] (CRA) is another approach to
 introducing new ideas that is used primarily with younger

@@ -331,8 +331,7 @@ tasks, well-designed instruction should help them do that.
 
 ## Exercises {#s:load-exercises}
 
-### Create a Faded Example
-**(pairs/30)**
+### Create a Faded Example (pairs/30)
 
 It's very common for programs to count how many things fall into
 different categories: for example, how many times different colors
@@ -359,8 +358,7 @@ place them in different groups, and have them play the part of learners
 for those groups. Alternatively, choose a different problem domain and
 develop a faded example for it.
 
-### Classifying Load
-**(small groups/15)**
+### Classifying Load (small groups/15)
 
 Working in groups of 3--4, choose a short lesson that one of you has
 taught or taken recently, make a point-form list of the ideas,
@@ -369,8 +367,7 @@ intrinsic, germane, or extraneous. (The exercise "Noticing Your Blind
 Spot" in [s:memory-exercises](#SECTION) will give you an idea of how
 detailed your point-form list should be.)
 
-### Create a Parsons Problem
-**(pairs/20)**
+### Create a Parsons Problem (pairs/20)
 
 Write five or six lines of code that does something useful, jumble them,
 and ask your partner to put them in order. If you are using an
@@ -380,8 +377,7 @@ the curly braces. Again, if your group includes people who aren't
 programmers, try using a different problem domain, such as making
 guacamole.
 
-### Minimal Manuals
-**(individual/20)**
+### Minimal Manuals (individual/20)
 
 Write a one-page guide to doing something simple that your learners
 might encounter in one of your classes, such as centering text
@@ -391,8 +387,7 @@ behaviors or outcomes the learner might see, and include a one- or
 two-line explanation of why each happens and how to correct it (i.e., go
 from symptoms to cause to fix).
 
-### Cognitive Apprenticeship
-**(pairs/15)**
+### Cognitive Apprenticeship (pairs/15)
 
 Pick a small coding problem (something you can do in two or three
 minutes) and think aloud as you work through it while your partner asks
@@ -402,8 +397,7 @@ know it's the right thing to do, and what alternatives you've considered
 but discarded. When you are done, swap roles with your partner and
 repeat the exercise.
 
-### Critiquing Graphics
-**(individual/30)**
+### Critiquing Graphics (individual/30)
 
 [[Maye2009](#CITE)] presents six principles for designing good diagrams
 for teaching. As summarized in [[Mill2016a](#CITE)], they are:
