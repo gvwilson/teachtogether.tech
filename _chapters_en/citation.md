@@ -1,12 +1,12 @@
 ---
-layout: chapter
+layout: default
+permalink: "/en/citation/"
 title: "Citation"
 ---
-# Citation
-
-@@label@@s:citation@@
 
 Please cite this work as:
 
-> Greg Wilson (ed.): *Teaching Tech Together*. Lulu.com, 2018, @@isbn@@,
-> @@website@@.
+> Greg Wilson (ed.): *Teaching Tech Together*. Lulu.com, 2018,
+> {{site.isbn}}, {{site.website}}.
+
+{% include links.md %}

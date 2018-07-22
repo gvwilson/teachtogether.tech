@@ -1,58 +1,58 @@
 ---
-layout: chapter
+layout: default
+permalink: "/en/preassess/"
 title: "Pre-Assessment Questionnaire"
 ---
-# Pre-Assessment Questionnaire
-
-@@label@@s:preassess@@
 
 This questionnaire is designed to help teachers gauge the prior
 knowledge of learners in an introductory JavaScript programming
 workshop. You can use it as a starting point for creating a rubric of
 your own.
 
-1.  Which of these best describes your previous experience with
-    programming in general?
-    
-      - I have none.
-    
-      - I have written a few lines now and again.
-    
-      - I have written programs for my own use that are a couple of
-        pages long.
-    
-      - I have written and maintained larger pieces of software.
+1. Which of these best describes your previous experience with
+   programming in general?
 
-2.  Which of these best describes your previous experience with
-    programming in JavaScript?
-    
-      - I have none.
-    
-      - I have written a few lines now and again.
-    
-      - I have written programs for my own use that are a couple of
-        pages long.
-    
-      - I have written and maintained larger pieces of software.
+   - I have none.
 
-3.  Which of these best describes how easily you could write JavaScript
-    to find the largest number in a list?
-    
-      - I wouldn’t know where to start.
-    
-      - I could struggle through by trial and error with a lot of web
-        searches.
-    
-      - I could do it quickly with little or no use of external help.
+   - I have written a few lines now and again.
 
-4.  Which of these best describes how easily you could write JavaScript
-    to capitalize all of the titles in a web page?
-    
-      - I wouldn’t know where to start.
-    
-      - I could struggle through by trial and error with a lot of web
-        searches.
-    
-      - I could do it quickly with little or no use of external help.
+   - I have written programs for my own use that are a couple of
+     pages long.
 
-5.  Why do you want to take this training course?
+   - I have written and maintained larger pieces of software.
+
+1. Which of these best describes your previous experience with
+   programming in JavaScript?
+
+   - I have none.
+
+   - I have written a few lines now and again.
+
+   - I have written programs for my own use that are a couple of
+     pages long.
+
+   - I have written and maintained larger pieces of software.
+
+1. Which of these best describes how easily you could write JavaScript
+   to find the largest number in a list?
+
+   - I wouldn't know where to start.
+
+   - I could struggle through by trial and error with a lot of web
+     searches.
+
+   - I could do it quickly with little or no use of external help.
+
+1. Which of these best describes how easily you could write JavaScript
+   to capitalize all of the titles in a web page?
+
+   - I wouldn't know where to start.
+
+   - I could struggle through by trial and error with a lot of web
+     searches.
+
+   - I could do it quickly with little or no use of external help.
+
+1. Why do you want to take this training course?
+
+{% include links.md %}

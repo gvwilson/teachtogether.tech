@@ -1,10 +1,8 @@
 ---
-layout: chapter
+layout: default
+permalink: "/en/gloss/"
 title: "Glossary"
 ---
-# Glossary
-
-@@label@@s:gloss@@
 
 **Absolute beginner**{:#g:absolute-beginner}: Someone who has
 never encountered concepts or material before. The term is used in
@@ -33,21 +31,21 @@ central principle is stimulus and response, and whose goal is to explain
 behavior without recourse to internal mental states or other
 unobservables. See also *cognitivism*.
 
-**Bloom’s Taxonomy**{:#g:blooms-taxonomy}: A six-part
+**Bloom's Taxonomy**{:#g:blooms-taxonomy}: A six-part
 hierarchical classification of understand whose levels are *knowledge*,
 *comprehension*, *application*, *analysis*, *synthesis*, and
-*evaluation* that has been widely adopted. See also *Fink’s Taxonomy*.
+*evaluation* that has been widely adopted. See also *Fink's Taxonomy*.
 
 **Branch coverage**{:#g:branch-coverage}: The degree to which a
 set of tests exercise all possible branches of control structures like
 `if`/`else` statements.
 
 **Brand**{:#g:brand}: The associations people have with a
-product’s name or identity.
+product's name or identity.
 
 **Calibrated peer review**{:#g:calibrated-peer-review}: Having
-students compare their reviews of sample work with an instructor’s
-reviews before being allowed to review their peers’ work.
+students compare their reviews of sample work with an instructor's
+reviews before being allowed to review their peers' work.
 
 **Chunking**{:#g:chunking}: The act of grouping related concepts
 together so that they can be stored and processed as a single unit.
@@ -75,7 +73,7 @@ knitters, musicians, or programmers. See also *legitimate peripheral
 participation*.
 
 **Community representation**{:#g:community-representation}: Using
-cultural capital to highlight students’ social identities, histories,
+cultural capital to highlight students' social identities, histories,
 and community networks in learning activities.
 
 **Computational integration**{:#g:computational-integration}:
@@ -102,17 +100,17 @@ social aspects of learning made possible by the Internet
 **Constructivism**{:#g:constructivism}: A theory of learning that
 views learners as actively constructing knowledge.
 
-**Content knowledge**{:#g:content-knowledge}: A person’s
+**Content knowledge**{:#g:content-knowledge}: A person's
 understanding of a subject. See also *general pedagogical knowledge* and
 *pedagogical content knowledge*.
 
 **Contributing student pedagogy**{:#g:contributing-student}:
-Having students produce artifacts to contribute to other students’
+Having students produce artifacts to contribute to other students'
 learning.
 
 **Conversational programmer**{:#g:conversational-programmer}:
 Someone who needs to know enough about computing to have a meaningful
-conversation with a programmer, but isn’t going to program themselves.
+conversation with a programmer, but isn't going to program themselves.
 
 **CS0**{:#g:cs0}: An introductory college-level course on
 computing aimed at non-majors with little or no prior experience of
@@ -201,11 +199,11 @@ proficiency) but can move much more quickly.
 proficiency between widely-separated domains, e.g., improvement in math
 skills as a result of playing chess.
 
-**Fink’s Taxonomy**{:#g:finks-taxonomy}: A six-part
+**Fink's Taxonomy**{:#g:finks-taxonomy}: A six-part
 non-hierarchical classification of understanding first proposed in
-[[Fink2013](../bib/#Fink2013)] whose categories are *foundational knowledge*,
+[[Fink2013](#CITE)] whose categories are *foundational knowledge*,
 *application*, *integration*, *human dimension*, *caring*, and *learning
-how to learn*. See also *Bloom’s Taxonomy*.
+how to learn*. See also *Bloom's Taxonomy*.
 
 **Fixed mindset**{:#g:fixed-mindset}: The belief that an ability
 is innate, and that failure is due to a lack of some necessary
@@ -229,7 +227,7 @@ assessment*.
 **Free-range learner**{:#g:free-range-learner}: Someone learning
 outside an institutional classrooms with required homework and mandated
 curriculum. (Those who use the term occasionally refer to students in
-classrooms as “battery-farmed learners”, but we don’t, because that
+classrooms as "battery-farmed learners", but we don't, because that
 would be rude.)
 
 **Functional programming**{:#g:functional-programming}: A style
@@ -240,7 +238,8 @@ functions are widely used for abstraction.
 **Fuzz testing**{:#g:fuzz-testing}: A software testing technique
 based on generating and submitting random data.
 
-A person’s understanding of the general principles of teaching. See also
+**General pedagogical knowledge**{:#g:general-pedagogical-knowledge}:
+A person's understanding of the general principles of teaching. See also
 *content knowledge* and *pedagogical content knowledge*.
 
 **Growth mindset**{:#g:growth-mindset}: The belief that ability
@@ -263,7 +262,7 @@ fact they were wrong.
 of how to translate research findings to everyday clinical practice.
 
 **Impostor syndrome**{:#g:impostor-syndrome}: A feeling of
-insecurity about one’s accomplishments that manifests as a fear of being
+insecurity about one's accomplishments that manifests as a fear of being
 exposed as a fraud.
 
 **Inclusivity**{:#g:inclusivity}: Working actively to include
@@ -281,12 +280,12 @@ also *educational psychology*.
 by enjoyment of a task or the satisfaction of doing it for its own sake.
 See also *extrinsic motivation*.
 
-**Jugyokenkyu**{:#g:jugyokenkyu}: Literally “lesson study”, a set
+**Jugyokenkyu**{:#g:jugyokenkyu}: Literally "lesson study", a set
 of practices that includes having teachers routinely observe one another
 and discuss lessons to share knowledge and improve skills.
 
 **Lateral knowledge transfer**{:#g:lateral-knowledge-transfer}:
-The “accidental” transfer of knowledge that occurs when an instructor is
+The "accidental" transfer of knowledge that occurs when an instructor is
 teaching one thing, and the learner picks up another.
 
 **Learned helplessness**{:#g:learned-helplessness}: A situation
@@ -305,8 +304,9 @@ trying to achieve.
 **Learning outcome**{:#g:learning-outcome}: What a lesson
 actually achieves.
 
-Newcomers’ participation in simple, low-risk tasks that a *community of
-practice* recognizes as valid contributions.
+**Legitimate peripheral participation**{:#g:legitimate-peripheral-participation}:
+Newcomers' participation in simple, low-risk tasks that a *community
+of practice* recognizes as valid contributions.
 
 **Live coding**{:#g:live-coding}: The act of teaching programming
 by writing software in front of learners as the lesson progresses.
@@ -316,7 +316,7 @@ that stores information for long periods of time. Long-term memory is
 very large, but slow. See also *short-term memory*.
 
 **Marketing**{:#g:marketing}: The craft of seeing things from
-other people’s perspective, understanding their wants and needs, and
+other people's perspective, understanding their wants and needs, and
 finding ways to meet them
 
 **Mental model**{:#g:mental-model}: A simplified representation
@@ -327,8 +327,8 @@ good enough to support problem solving.
 
 **Minute cards**{:#g:minute-cards}: A feedback technique in which
 learners spend a minute writing one positive thing about a lesson (e.g.,
-one thing they’ve learned) and one negative thing (e.g., a question that
-still hasn’t been answered).
+one thing they've learned) and one negative thing (e.g., a question that
+still hasn't been answered).
 
 **Near transfer**{:#g:near-transfer}: Transfer of learning or
 proficiency between closely-related domains, e.g., improvement in
@@ -351,6 +351,7 @@ used as a teaching practice in programming classes.
 developed by Dale Parsons and others in which learners rearrange given
 material to construct a correct answer to a question.
 
+**Pedagogical content knowledge**{:#g:pedagogical-content-knowledge}:
 (PCK) The understanding of how to teach a particular subject, i.e., the
 best order in which to introduce topics and what examples to use. See
 also *content knowledge* and *general pedagogical knowledge*.
@@ -387,7 +388,7 @@ practice in which the learner covers up key facts or terms during a
 first pass through material, then checks their recall on a second pass.
 
 **Reflecting listening**{:#g:reflective-listening}: The practice
-of paraphrasing a speaker’s point back to them immediately after hearing
+of paraphrasing a speaker's point back to them immediately after hearing
 it in order to confirm understanding.
 
 **Reflective practice**{:#g:reflective-practice}: see *deliberate
@@ -401,7 +402,7 @@ that briefly stores information that can be directly accessed by
 consciousness.
 
 **Situated learning**{:#g:situated-learning}: A model of learning
-that focuses on people’s transition from being newcomers to be accepted
+that focuses on people's transition from being newcomers to be accepted
 members of a *community of practice*.
 
 **Split-attention effect**{:#g:split-attention-effect}: The
@@ -421,13 +422,13 @@ that takes place at the end of a lesson to tell whether the desired
 learning has taken place.
 
 **Tangible artifact**{:#g:tangible-artifact}: Something a learner
-can work on whose state gives feedback about the learner’s progress and
+can work on whose state gives feedback about the learner's progress and
 helps the learner diagnose mistakes.
 
 **Test-driven development**{:#g:test-driven-development}: A
 software development practice in which programmers write tests first in
 order to give themselves concrete goals and clarify their understanding
-of what “done” looks like.
+of what "done" looks like.
 
 **Think-pair-share**{:#g:think-pair-share}: A collaboration
 method in which each person thinks individually about a question or
@@ -444,3 +445,5 @@ decide moment by moment or line by line what to add to a program next.
 *backward design*.
 
 **Working memory**{:#g:working-memory}: see *short-term memory*.
+
+{% include links.md %}
