@@ -264,7 +264,7 @@ Much of the research reported in this book was publicly funded, but despite that
 Each chapter ends with a variety of exercises that include a suggested format and an indication of how long they usually take in an in-person setting. Most can be used in other formats—in particular, if you are going through this book on your own, you can still do many of the exercises that are described as being for groups—and you can always spend more time on them than what’s suggested.
 </p>
 <p>
-The exercises in this chapter can be used as preassessment questions (<a href="#s:classroom-prior">Section 9.4</a>) rather than as in-class exercises. if you have learners answer them a few days before a class or workshop starts, they will give you a much clearer idea of who they are and how best you can help them.
+The exercises in this chapter can be used as preassessment questions (<a href="#s:classroom-prior">Section 9.4</a>) rather than as in-class exercises. If you have learners answer them a few days before a class or workshop starts, they will give you a much clearer idea of who they are and how best you can help them.
 </p>
 <h4 id="highs-and-lows-whole-class5-minutes" class="unnumbered">
 Highs and Lows (<span>whole class</span>/<span>5</span> minutes)
@@ -857,7 +857,7 @@ This is one of the reasons to create a concept map for a lesson when designing i
 Concept maps can be used as a classroom discussion exercise. Put learners in small groups (2–4 people each), give each group some sticky notes on which a few key concepts are written, and have them build a concept map on a whiteboard by placing those sticky notes, connecting them with labelled arcs, and adding any other concepts they think they need.
 </p>
 <p>
-The next time you have a team meeting, give everyone a sheet of paper and have them spend a few minutes drawing a concept map of the project you’re all working on—separately. On the count of three, have everyone reveal their concept maps simultaneously. Once everyone realizes how different their mental models of the project are, a lot of interesting discussion will ensure<span>…</span>.
+The next time you have a team meeting, give everyone a sheet of paper and have them spend a few minutes drawing a concept map of the project you’re all working on—separately. On the count of three, have everyone reveal their concept maps simultaneously. Once everyone realizes how different their mental models of the project are, a lot of interesting discussion will ensue<span>…</span>.
 </p>
 </blockquote>
 <p>
@@ -2256,7 +2256,7 @@ Another aspect of “how” that teachers should present and discuss is the orde
 Roles of Variables
 </h4>
 <p>
-One body of work that I have found very useful in teaching programming plans to novices is the collection of single-variable design patterns in [<a href="#Kuit2004">Kuit2004</a>,<a href="#Byck2005">Byck2005</a>,<a href="#Saja2006">Saja2006</a>]. labelling the parts of novices’ programs gives them a vocabulary to think with and a set of programming plans for constructing code of their own. The patterns are listed on the <a href="http://saja.kapsi.fi/var_roles/">Roles of Variables website</a>, which also includes examples of each:
+One body of work that I have found very useful in teaching programming plans to novices is the collection of single-variable design patterns in [<a href="#Kuit2004">Kuit2004</a>,<a href="#Byck2005">Byck2005</a>,<a href="#Saja2006">Saja2006</a>]. Labelling the parts of novices’ programs gives them a vocabulary to think with and a set of programming plans for constructing code of their own. The patterns are listed on the <a href="http://saja.kapsi.fi/var_roles/">Roles of Variables website</a>, which also includes examples of each:
 </p>
 <dl>
 <dt>
@@ -2358,7 +2358,7 @@ A decade ago, [<a href="#McCa2008">McCa2008</a>] wrote, “It is surprising how 
 [<a href="#List2004">List2004</a>,<a href="#List2009">List2009</a>] found that many novices struggled to predict the output of short pieces of code and to select the correct completion of the code from a set of possibilities when told what it was supposed to do. More recently, [<a href="#Harr2018">Harr2018</a>] found that the gap between being able to trace code and being able to write it has largely closed by CS2, but that novices who still have a gap (in either direction) are likely to do poorly in the course.
 </p>
 <p>
-Our second recommendation is therefore to <em>teach novices how to debug</em>. [<a href="#Fitz2008">Fitz2008</a>,<a href="#Murp2008">Murp2008</a>] found that good debuggers were good programmers, but not all good programmers were good at debugging. those who were used a symbolic debugger to step through their programs, traced execution by hand, wrote tests, and re-read the spec frequently, which are all teachable habits. However, tracing execution step by step was sometimes used ineffectively: for example, a novice might put the same <code>print</code> statement in both parts of an <code>if</code>-<code>else</code>. Novices would also comment out lines that were actually correct as they tried to isolate a problem; teachers can make both of these mistakes deliberately, point them out, and correct them to help novices get past them.
+Our second recommendation is therefore to <em>teach novices how to debug</em>. [<a href="#Fitz2008">Fitz2008</a>,<a href="#Murp2008">Murp2008</a>] found that good debuggers were good programmers, but not all good programmers were good at debugging. Those who were used a symbolic debugger to step through their programs, traced execution by hand, wrote tests, and re-read the spec frequently, which are all teachable habits. However, tracing execution step by step was sometimes used ineffectively: for example, a novice might put the same <code>print</code> statement in both parts of an <code>if</code>-<code>else</code>. Novices would also comment out lines that were actually correct as they tried to isolate a problem; teachers can make both of these mistakes deliberately, point them out, and correct them to help novices get past them.
 </p>
 <p>
 Teaching novices how to debug can also help make classes easier to manage. [<a href="#Alqa2017">Alqa2017</a>] found that learners with more experience solved debugging problems significantly faster, but times varied widely: 4–10 minutes was a typical range for individual exercises, which means that some learners need 2–3 times longer than others to get through the same exercises. Teaching the slower learners what the faster ones are doing will help make the group’s overall progress more uniform.
@@ -2690,7 +2690,7 @@ In contrast, [<a href="#Beni2017">Beni2017</a>] found that using single-letter v
 How important is this? [<a href="#Bink2012">Bink2012</a>] reported a series of studies that found that reading and understanding code is fundamentally different from reading prose: “<span>…</span>the more formal structure and syntax of source code allows programmers to assimilate and comprehend parts of the code quite rapidly independent of style. In particular<span>…</span>beacons and program plans play a large role in comprehension.” It also found that experienced developers are relatively unaffected by identifier style, so our recommendation is just to use consistent style in all examples.
 </p>
 <p>
-Since most languages have style guides (e.g., <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> for Python) and tools to check that code follows these guidelines, our full recommendation is is to <em>use tools to ensure that all code examples adhere to a consistent style</em>.
+Since most languages have style guides (e.g., <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8</a> for Python) and tools to check that code follows these guidelines, our full recommendation is to <em>use tools to ensure that all code examples adhere to a consistent style</em>.
 </p>
 <h3 id="s:pck-error">
 7.7) Does Better Feedback Help?
@@ -7090,7 +7090,7 @@ Bibliography
 [<strong><a href="https://doi.org/10.1037/a0016239">Cher2009</a></strong>] Sapna Cheryan, Victoria C. Plaut, Paul G. Davies, and Claude M. Steele. Ambient belonging: How stereotypical cues impact gender participation in computer science. <span><em>Journal of Personality and Social Psychology</em></span>, 97(6):1045–1060, 2009. <em>Reports that subtle environmental clues have a measurable impact on the interest that people of different genders have in computing.</em>
 </p>
 <p id="Chet2014">
-[<strong><a href="https://doi.org/10.1257/aer.104.9.2633">Chet2014</a></strong>] Raj Chetty, John N. Friedman, and Jonah E. Rockoff. Measuring the impacts of teachers <span>II</span>: Teacher value-added and student outcomes in adulthood. <span><em>American Economic Review</em></span>, 104(9):2633–2679, Sep 2014. <em>Reports that that good teachers have a small but measurable impact on student outcomes.</em>
+[<strong><a href="https://doi.org/10.1257/aer.104.9.2633">Chet2014</a></strong>] Raj Chetty, John N. Friedman, and Jonah E. Rockoff. Measuring the impacts of teachers <span>II</span>: Teacher value-added and student outcomes in adulthood. <span><em>American Economic Review</em></span>, 104(9):2633–2679, Sep 2014. <em>Reports that good teachers have a small but measurable impact on student outcomes.</em>
 </p>
 <p id="Chi1989">
 [<strong><a href="https://doi.org/10.1207/s15516709cog1302_1">Chi1989</a></strong>] Michelene T. H. Chi, Miriam Bassok, Matthew W. Lewis, Peter Reimann, and Robert Glaser. Self-explanations: How students study and use examples in learning to solve problems. <span><em>Cognitive Science</em></span>, 13(2):145–182, Apr 1989. <em>A seminal paper on the power of self-explanation.</em>
@@ -7294,7 +7294,7 @@ Bibliography
 [<strong><a href="https://doi.org/10.1080/08993408.2011.579808">Hank2011</a></strong>] Brian Hanks, Sue Fitzgerald, Renée McCauley, Laurie Murphy, and Carol Zander. Pair programming in education: a literature review. <span><em>Computer Science Education</em></span>, 21(2):135–173, Jun 2011. <em>Reports increased success rates and retention with pair programming, with some evidence that it is particularly beneficial for women, but finds that scheduling and partner compatibility can be problematic.</em>
 </p>
 <p id="Hann2009">
-[<strong><a href="https://doi.org/10.1016/j.infsof.2009.02.001">Hann2009</a></strong>] Jo Erskine Hannay, Tore Dyb<span>å</span>, Erik Arisholm, , and Dag I. K. Sj<span>ø</span>berg. The effectiveness of pair programming: A meta-analysis. <span><em>Information and Software Technology</em></span>, 51(7):1110–1122, Jul 2009. <em>A comprehensive meta-analysis of research on pair programming.</em>
+[<strong><a href="https://doi.org/10.1016/j.infsof.2009.02.001">Hann2009</a></strong>] Jo Erskine Hannay, Tore Dyb<span>å</span>, Erik Arisholm, and Dag I. K. Sj<span>ø</span>berg. The effectiveness of pair programming: A meta-analysis. <span><em>Information and Software Technology</em></span>, 51(7):1110–1122, Jul 2009. <em>A comprehensive meta-analysis of research on pair programming.</em>
 </p>
 <p id="Hann2010">
 [<strong><a href="https://doi.org/10.1109/tse.2009.41">Hann2010</a></strong>] Jo Erskine Hannay, Erik Arisholm, Harald Engvik, and Dag I. K. Sj<span>ø</span>berg. Effects of personality on pair programming. <span><em><span>IEEE</span> Transactions on Software Engineering</em></span>, 36(1):61–80, Jan 2010. <em>Reports weak correlation between the “Big Five” personality traits and performance in pair programming.</em>
@@ -8129,7 +8129,7 @@ The source for this book is stored on GitHub at <span><a href="https://github.co
 If you simply want to report an error, ask a question, or make a suggestion, please file an issue at <span><a href="https://github.com/gvwilson/teachtogether.tech" class="uri">https://github.com/gvwilson/teachtogether.tech</a></span>. You need to have a GitHub account in order to do this, but do not need to know how to use Git.
 </li>
 <li>
-If you do not wish to create a GitHub account, please email your contribution to <span><a href="mailto:gvwilson@third-bit.com">mailto:gvwilson@third-bit.com</a></span> with either “T3” or “Teaching Tech Together” somewhere in the subject line.. We will try to respond within a week.
+If you do not wish to create a GitHub account, please email your contribution to <span><a href="mailto:gvwilson@third-bit.com">mailto:gvwilson@third-bit.com</a></span> with either “T3” or “Teaching Tech Together” somewhere in the subject line. We will try to respond within a week.
 </li>
 </ul>
 <p>
@@ -9239,7 +9239,7 @@ The solution is to run a text chat beside the video conference where people can 
 The Post Mortem
 </h3>
 <p>
-Every project should end with a post mortem in which you reflect on what you just accomplished and what you could o better next time. Its aim is <em>not</em> to point the finger of shame at individuals, although if that has to happen, the post mortem is the best place for it.
+Every project should end with a post mortem in which you reflect on what you just accomplished and what you could do better next time. Its aim is <em>not</em> to point the finger of shame at individuals, although if that has to happen, the post mortem is the best place for it.
 </p>
 <p>
 A post mortem is run like any other meeting, but with a few additional guidelines [<a href="#Derb2006">Derb2006</a>]:
