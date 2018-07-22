@@ -25,7 +25,7 @@ own.
 <td>o</td>
 </tr>
 <tr>
-<td>Good length (10–30 seconds)</td>
+<td>Good length (10--30 seconds)</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>
@@ -102,7 +102,7 @@ own.
 <td></td>
 </tr>
 <tr>
-<td>Clear, intelligible voice (use “Iffy” or “No” for strong accent)</td>
+<td>Clear, intelligible voice (use "Iffy" or "No" for strong accent)</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>
@@ -179,7 +179,7 @@ own.
 <td>o</td>
 </tr>
 <tr>
-<td>Code and speech complement one another (i.e., instructor doesn’t just read code aloud)</td>
+<td>Code and speech complement one another (i.e., instructor doesn't just read code aloud)</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>
@@ -221,14 +221,14 @@ own.
 <td></td>
 </tr>
 <tr>
-<td>Exists (use N/A for other responses if it doesn’t)</td>
+<td>Exists (use N/A for other responses if it doesn't)</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>
 </tr>
 <tr>
-<td>Good length (10–30 seconds)</td>
+<td>Good length (10--30 seconds)</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>

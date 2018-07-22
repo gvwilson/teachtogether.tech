@@ -72,7 +72,7 @@ team.
 <td>o</td>
 </tr>
 <tr>
-<td>Offers solutions based on facts rather than “gut feel” or intuition.</td>
+<td>Offers solutions based on facts rather than "gut feel" or intuition.</td>
 <td>o</td>
 <td>o</td>
 <td>o</td>
