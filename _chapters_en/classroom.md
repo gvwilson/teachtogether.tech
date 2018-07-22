@@ -38,19 +38,19 @@ ask them to apologize, and/or expel them, depending on the severity of
 the violation and whether or not you believe it was intentional.
 Whatever you do:
 
-Do it in front of witnesses.
-: Most people will tone down their language and hostility in front of
+- **Do it in front of witnesses.**
+  Most people will tone down their language and hostility in front of
   an audience, and having someone else present ensures that later
   discussion doesn't degenerate into conflicting claims about who said
   what.
 
-If you expel someone, say so to the rest of the class and explain why.
-: This helps prevent exaggerated rumors from taking hold, and
+- **If you expel someone, say so to the rest of the class and explain why.**
+  This helps prevent exaggerated rumors from taking hold, and
   also signals very clearly to everyone that you're serious about
   making your class safe and respectful for them.
 
-Contact the host of your class
-: as soon as you can and describe what happened.
+- **Contact the host of your class**
+  as soon as you can and describe what happened.
 
 A Code of Conduct is meaningless without procedures for reporting
 violations and enforcing its rules. However much you don't enjoy doing
@@ -122,29 +122,29 @@ students in a discussion group originally knew the correct answer.
 which two teachers work together in the same classroom.
 [[Frie2016](#CITE)] describes several ways to do this:
 
-Team teaching:
-: Both teachers deliver a single stream of content in tandem, taking
+- **Team teaching:**
+  Both teachers deliver a single stream of content in tandem, taking
   turns the way that musicians taking solos would.
 
-Teach and assist:
-: Teacher A teaches while Teacher B moves around the classroom to help
+- **Teach and assist:**
+  Teacher A teaches while Teacher B moves around the classroom to help
   struggling students.
 
-Alternative teaching:
-: Teacher A provides a small set of students with more intensive or
+- **Alternative teaching:**
+  Teacher A provides a small set of students with more intensive or
   specialized instruction while Teacher B delivers a general lesson to
   the main group.
 
-Teach and observe:
-: Teacher A teaches while Teacher B observes the students, collecting
+- **Teach and observe:**
+  Teacher A teaches while Teacher B observes the students, collecting
   data on their understanding to help plan future lessons.
 
-Parallel teaching:
-: The class is divided into two equal groups and the teachers present
+- **Parallel teaching:**
+  The class is divided into two equal groups and the teachers present
   the same material simultaneously to each.
 
-Station teaching:
-: The students are divided into several small groups that rotate from
+- **Station teaching:**
+  The students are divided into several small groups that rotate from
   one station or activity to the next while both teachers supervise
   where needed.
 
@@ -714,17 +714,17 @@ What did you understand differently?
 [[Fink2013](#CITE)] describes three things that make teachers credible in
 their learners' eyes:
 
-Competence:
-: knowledge of the subject as shown by the ability to explain complex
+- **Competence:**
+  knowledge of the subject as shown by the ability to explain complex
   ideas or reference the work of others.
 
-Trustworthiness:
-: having the student's best interests in mind. This can be shown by
+- **Trustworthiness:**
+  having the student's best interests in mind. This can be shown by
   giving individualized feedback, offering a rational explanation for
   grading decisions, and treating all students the same.
 
-Dynamism:
-: excitement about the subject ([s:performance](#CHAPTER)).
+- **Dynamism:**
+  excitement about the subject ([s:performance](#CHAPTER)).
 
 Describe one thing you do when teaching that fits into each category,
 and then describe one thing you *don't* do but should for each category
@@ -734,17 +734,17 @@ as well.
 
 [[Kirk1994](#CITE)] defines four levels at which to evaluate training:
 
-Reaction:
-: how did the learners feel about the training?
+- **Reaction:**
+  how did the learners feel about the training?
 
-Learning:
-: how much did they actually learn?
+- **Learning:**
+  how much did they actually learn?
 
-Behavior:
-: how much have they changed their behavior as a result?
+- **Behavior:**
+  how much have they changed their behavior as a result?
 
-Results:
-: how have those changes in behavior affected their output or the
+- **Results:**
+  how have those changes in behavior affected their output or the
   output of their group?
 
 What are you doing at each level to evaluate what and how you teach?
@@ -758,25 +758,25 @@ how much they actually learn ([s:pck-now](#SECTION)). Instead, you have
 put forward four proposals, each of which your colleagues have shot
 down:
 
-See if they recommend the class to friends.
-: Why would this be any more meaningful than asking them how they feel
+- **See if they recommend the class to friends.**
+  Why would this be any more meaningful than asking them how they feel
   about the class?
 
-Give them an exam at the end.
-: But how much learners know at the end of the day is a poor predictor
+- **Give them an exam at the end.**
+  But how much learners know at the end of the day is a poor predictor
   of how much they will remember two or three months later, and any
   kind of final exam will change the feel of the class, because school
   has conditioned learners to believe that exams are always
   high-stakes affairs.
 
-Give them an exam two or three months later.
-: But that's practically impossible with free-range learners, and the
+- **Give them an exam two or three months later.**
+  But that's practically impossible with free-range learners, and the
   people who didn't get anything out of the workshop are probably less
   likely to take part in follow-up, so feedback gathered this way will
   be skewed.
 
-See if they keep using what they learned.
-: Again, since installing spyware on learners' computers is frowned
+- **See if they keep using what they learned.**
+  Again, since installing spyware on learners' computers is frowned
   upon, how will this be implemented?
 
 Working on your own, come up with answers to these objections, then swap

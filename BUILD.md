@@ -1,19 +1,21 @@
 # Building This Book
 
+Note: `XX` is used as a stand-in for a two-letter language code, such as `en` for English or `um` for Lorem Ipsum.
+
 To rebuild this book:
 
 - `pip install -r requirements.txt` to install required Python packages.
   - You only need to do this if you are rebuilding the bibliography and/or cross-reference database.
 
-- `make bib` to regenerate the Markdown version of the bibliography (`_chapters_en/bib.md`) from the BibTeX version (`files/t3.bib`).
+- `make lang=XX bib` to regenerate the Markdown version of the bibliography (`_chapters_XX/bib.md`) from the BibTeX version (`files/XX.bib`).
   - You only need to do this if the bibliography has changed.
 
-- `make crossref` to regenerate the JSON cross-reference table (`files/crossref.js`) from the Markdown source files.
+- `make lang=XX crossref` to regenerate the JSON cross-reference table (`files/crossref.js`) from the Markdown source files.
   - You only need to do this if there have been changes to section numbering, figure numbering, etc.
 
-- `make site` to create HTML in `_site`.
+- `make lang=XX site` to create HTML in `_site`.
 
-- `make serve -I` to dynamically regenerate HTML and serve it on `localhost:4000`.
+- `make lang=XX serve -I` to dynamically regenerate HTML and serve it on `localhost:4000`.
 
 ## Design
 

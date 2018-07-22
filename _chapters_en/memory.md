@@ -142,28 +142,28 @@ themselves.
 
 Concept maps can be used in many ways:
 
-Helping teachers figure out what they're trying to teach.
-: Crucially, a concept map separates content from order: in our
+- **Helping teachers figure out what they're trying to teach.**
+  Crucially, a concept map separates content from order: in our
   experience, people rarely wind up teaching things in the order in
   which they first drew them. (In technical terms, they reduce the
   teacher's cognitive load---we will discuss this again in
   [s:load](#CHAPTER).)
 
-Aiding communication between lesson designers.
-: Teachers with very different ideas of what they're trying to teach
+- **Aiding communication between lesson designers.**
+  Teachers with very different ideas of what they're trying to teach
   are likely to pull their learners in different directions; drawing
   and sharing concept maps isn't guaranteed to prevent this, but it
   helps.
 
-Aiding communication with learners.
-: While it's possible to give learners a pre-drawn map at the start of
+- **Aiding communication with learners.**
+  While it's possible to give learners a pre-drawn map at the start of
   a lesson for them to annotate, it's better to draw it piece by piece
   while teaching to reinforce the ties between what's in the map and
   what the teacher said. (We will return to this idea in
   [s:load-split-attention](#SECTION).)
 
-For assessment.
-: Having learners draw pictures of what they think they just heard
+- **For assessment.**
+  Having learners draw pictures of what they think they just heard
   shows the teacher what they missed and what was miscommunicated.
   Reviewing learners' concept maps is too time-consuming to do as
   in-class formative assessment, but very useful in weekly lectures
@@ -366,19 +366,19 @@ feedback to get cumulatively better.
 
 A common progression is for people to go through three stages:
 
-Act on feedback from others.
-: For example, a student might write an essay about what they did on
+- **Act on feedback from others.**
+  For example, a student might write an essay about what they did on
   their summer holiday and get feedback from a teacher telling them
   how to improve it.
 
-Give feedback to others.
-: For example, they might critique character development in *The
+- **Give feedback to others.**
+  For example, they might critique character development in *The
   Catcher in the Rye*. For this to be effective, it's essential that
   they get feedback on their feedback, i.e., that the teacher critique
   their analysis.
 
-Give feedback to themselves.
-: At some point, they start critiquing their own work in real time (or
+- **Give feedback to themselves.**
+  At some point, they start critiquing their own work in real time (or
   nearly so) using the skills they have now built up. Doing this is so
   much faster than waiting for feedback from others that proficiency
   suddenly starts to take off.

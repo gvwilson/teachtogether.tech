@@ -126,45 +126,45 @@ and a set of programming plans for constructing code of their own. The
 patterns are listed on the [Roles of Variables
 website][variable-roles], which also includes examples of each:
 
-Fixed value:
-: A data item that does not get a new proper value after its
+- **Fixed value:**
+  A data item that does not get a new proper value after its
   initialization.
 
-Stepper:
-: A data item stepping through a systematic, predictable succession of
+- **Stepper:**
+  A data item stepping through a systematic, predictable succession of
   values.
 
-Walker:
-: A data item traversing in a data structure.
+- **Walker:**
+  A data item traversing in a data structure.
 
-Most-recent holder:
-: A data item holding the latest value encountered in going through a
+- **Most-recent holder:**
+  A data item holding the latest value encountered in going through a
   succession of unpredictable values, or simply the latest value
   obtained as input.
 
-Most-wanted holder:
-: A data item holding the best or otherwise most appropriate value
+- **Most-wanted holder:**
+  A data item holding the best or otherwise most appropriate value
   encountered so far.
 
-Gatherer:
-: A data item accumulating the effect of individual values.
+- **Gatherer:**
+  A data item accumulating the effect of individual values.
 
-Follower:
-: A data item that gets its new value always from the old value of
+- **Follower:**
+  A data item that gets its new value always from the old value of
   some other data item.
 
-One-way flag:
-: A two-valued data item that cannot get its initial value once the
+- **One-way flag:**
+  A two-valued data item that cannot get its initial value once the
   value has been changed.
 
-Temporary:
-: A data item holding some value for a very short time only.
+- **Temporary:**
+  A data item holding some value for a very short time only.
 
-Organizer:
-: A data structure storing elements that can be rearranged.
+- **Organizer:**
+  A data structure storing elements that can be rearranged.
 
-Container:
-: A data structure storing elements that can be added and removed.
+- **Container:**
+  A data structure storing elements that can be added and removed.
 
 ## How Do Novices Debug and Test? {#s:pck-debug}
 
@@ -720,44 +720,44 @@ may not generalize to other groups.
 With all those caveats in mind, they found ten things instructors can do
 to improve outcomes ([f:pck-interventions](#FIGURE)):
 
-Collaboration:
-: Activities that encourage student collaboration either in classrooms
+- **Collaboration:**
+  Activities that encourage student collaboration either in classrooms
   or labs.
 
-Content Change:
-: Parts of the teaching material were changed or updated.
+- **Content Change:**
+  Parts of the teaching material were changed or updated.
 
-Contextualization:
-: Course content and activities were aligned towards a specific
+- **Contextualization:**
+  Course content and activities were aligned towards a specific
   context such as games or media.
 
-CS0:
-: Creation of a preliminary course to be taken before the introductory
+- **CS0:**
+  Creation of a preliminary course to be taken before the introductory
   programming course; could be organized only for some (e.g., at-risk)
   students.
 
-Game Theme:
-: A game-themed component was introduced to the course.
+- **Game Theme:**
+  A game-themed component was introduced to the course.
 
-Grading Scheme:
-: A change in the grading scheme; the most common change was to
+- **Grading Scheme:**
+  A change in the grading scheme; the most common change was to
   increase the amount of points rewarded from programming activities,
   while reducing the weight of the course exam.
 
-Group Work:
-: Activities with increased group work commitment such as team-based
+- **Group Work:**
+  Activities with increased group work commitment such as team-based
   learning and cooperative learning.
 
-Media Computation:
-: Activities explicitly declaring the use of media computation
+- **Media Computation:**
+  Activities explicitly declaring the use of media computation
   ([s:motivation](#CHAPTER)).
 
-Peer Support:
-: Support by peers in form of pairs, groups, hired peer mentors or
+- **Peer Support:**
+  Support by peers in form of pairs, groups, hired peer mentors or
   tutors.
 
-Other Support:
-: An umbrella term for all support activities, e.g. increased teacher
+- **Other Support:**
+  An umbrella term for all support activities, e.g. increased teacher
   hours, additional support channels, etc.
 
 <figure>
@@ -789,37 +789,37 @@ This list of common errors is taken from [[Sirk2012](#CITE)]. Pick three,
 and write an exercise for each to check that learners *aren't* making
 that mistake.
 
-Inverted assignment:
-: The student assigns the value of the left-hand variable to the
+- **Inverted assignment:**
+  The student assigns the value of the left-hand variable to the
   right-hand side variable, rather than the other way around.
 
-Wrong branch:
-: Even though the conditional evaluates to `False`, the student jumps
+- **Wrong branch:**
+  Even though the conditional evaluates to `False`, the student jumps
   to the `then` clause.
 
-Wrong `False`:
-: As soon as the conditional evaluates to `False` , the student
+- **Wrong `False`:**
+  As soon as the conditional evaluates to `False` , the student
   returns `False` from the function.
 
-Executing function instead of defining it:
-: The student believes that a function is executed as it is defined.
+- **Executing function instead of defining it:**
+  The student believes that a function is executed as it is defined.
 
-Unevaluated parameters:
-: The student believes the function starts running before the
+- **Unevaluated parameters:**
+  The student believes the function starts running before the
   parameters have been evaluated.
 
-Parameter evaluated in the wrong frame:
-: The student creates parameter variables in the caller's frame, not
+- **Parameter evaluated in the wrong frame:**
+  The student creates parameter variables in the caller's frame, not
   in the callee's.
 
-Failing to store return value:
-: The student does not assign the return value in the caller.
+- **Failing to store return value:**
+  The student does not assign the return value in the caller.
 
-Assignment copies object:
-: The student creates a new object rather than copying a reference.
+- **Assignment copies object:**
+  The student creates a new object rather than copying a reference.
 
-Method call without subject:
-: The student tries to call a method from a class without first
+- **Method call without subject:**
+  The student tries to call a method from a class without first
   creating an instance of the class.
 
 ### Mangled Code (pairs/15)

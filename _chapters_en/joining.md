@@ -217,21 +217,21 @@ commons can produce and maintain high-quality lessons that hundreds of
 people can use [[Wils2016](#CITE)].  I hope you will choose to help us
 do the same for this book. If you are new to working this way:
 
-Start small.
-: Fix a typo, clarify the wording of an exercise, correct or update a
+- **Start small.**
+  Fix a typo, clarify the wording of an exercise, correct or update a
   citation, or suggest a better example or analogy to illustrate some
   point.
 
-Join the conversation.
-: Have a look at the issues and proposed changes that other people
+- **Join the conversation.**
+  Have a look at the issues and proposed changes that other people
   have already filed and add your comments to them. It's often
   possible to improve improvements, and it's a good way to introduce
   yourself to the community and make new friends. (To make this as
   easy as possible, we tag some issues and proposed changes as
   "Suitable for Newcomers" or "Help Wanted".)
 
-Discuss, then edit.
-: If you want to propose a large change, such as reorganizing or
+- **Discuss, then edit.**
+  If you want to propose a large change, such as reorganizing or
   splitting an entire chapter, please file an issue that outlines your
   proposal and your reasoning and tag it with "Proposal". We encourage
   everyone to add comments to these issues so that the whole

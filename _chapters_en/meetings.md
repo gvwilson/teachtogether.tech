@@ -16,19 +16,19 @@ attention---as a colleague once said, everyone offers leadership
 training, nobody offers followership training.) The most important rules
 for making meetings efficient are not secret, but are rarely followed:
 
-Decide if there actually needs to be a meeting.
-: If the only purpose is to share information, have everyone send a
+- **Decide if there actually needs to be a meeting.**
+  If the only purpose is to share information, have everyone send a
   brief email instead. Remember, you can read faster than anyone can
   speak: if someone has facts for the rest of the team to absorb, the
   most polite way to communicate them is to type them in.
 
-Write an agenda.
-: If nobody cares enough about the meeting to write a point-form list
+- **Write an agenda.**
+  If nobody cares enough about the meeting to write a point-form list
   of what's supposed to be discussed, the meeting itself probably
   doesn't need to happen.
 
-Include timings in the agenda.
-: Agendas can also help you prevent early items stealing time from
+- **Include timings in the agenda.**
+  Agendas can also help you prevent early items stealing time from
   later ones if you include the time to be spent on each item in the
   agenda. Your first estimates with any new group will be wildly
   optimistic, so revise them upward for subsequent meetings. However,
@@ -36,75 +36,75 @@ Include timings in the agenda.
   ran over-time: instead, try to figure out why you're running over
   and fix the underlying problem.
 
-Prioritize.
-: Every meeting is a micro-project, so work should be prioritized in
+- **Prioritize.**
+  Every meeting is a micro-project, so work should be prioritized in
   the same way that it is for other projects: things that will have
   high impact but take little time should be done first, and things
   that will take lots of time but have little impact should be
   skipped.
 
-Make one person responsible for keeping things moving.
-: One person should be tasked with keeping items to time, chiding
+- **Make one person responsible for keeping things moving.**
+  One person should be tasked with keeping items to time, chiding
   people who are having side conversations or checking email, and
   asking people who are talking too much to get to the point. This
   person should *not* do all the talking; in fact, whoever is in
   charge will talk less in a well-run meeting than most other
   participants.
 
-Require politeness.
-: No one gets to be rude, no one gets to ramble, and if someone goes
+- **Require politeness.**
+  No one gets to be rude, no one gets to ramble, and if someone goes
   off topic, it's the chair's job to say, "Let's discuss that
   elsewhere."
 
-No technology
-: (unless it's required for accessibility reasons). Insist that
+- **No technology**
+  (unless it's required for accessibility reasons). Insist that
   everyone put their phones, tablets, and laptops into politeness mode
   (i.e., closes them). If this is too stressful, let participants hang
   on to their electronic pacifiers but turn off the network so that
   they really *are* using them just to take notes or check the agenda.
 
-No interruptions.
-: Participants should raise a finger, put up a sticky note, or make
+- **No interruptions.**
+  Participants should raise a finger, put up a sticky note, or make
   one of the other gestures people make at high-priced auctions
   instead if they want to speak next. If the speaker doesn't notice
   you, the person in charge ought to.
 
-Record minutes.
-: Someone other than the chair should take point-form notes about the
+- **Record minutes.**
+  Someone other than the chair should take point-form notes about the
   most important pieces of information that were shared, and about
   every decision that was made or every task that was assigned to
   someone.
 
-Take notes.
-: While other people are talking, participants should take notes of
+- **Take notes.**
+  While other people are talking, participants should take notes of
   questions they want to ask or points they want to make. (You'll be
   surprised how smart it makes you look when it's your turn to speak.)
 
-End early.
-: If your meeting is scheduled for 10:00-11:00, you should aim to end
+- **End early.**
+  If your meeting is scheduled for 10:00-11:00, you should aim to end
   at 10:55 to give people time to get where they need to go next.
 
 As soon as the meeting is over, the minutes should be circulated (e.g.,
 emailed to everyone or posted to a wiki):
 
-People who weren't at the meeting can keep track of what's going on.
-: You and your fellow students all have to juggle assignments from
+- **People who weren't at the meeting can keep track of what's going on.**
+  You and your fellow students all have to juggle assignments from
   several other courses while doing this project, which means that
   sometimes you won't be able to make it to team meetings. A wiki
   page, email message, or blog entry is a much more efficient way to
   catch up after a missed meeting or two than asking a team mate,
   "Hey, what did I miss?"
 
-Everyone can check what was actually said or promised.
-: More than once, I've looked over the minutes of a meeting I was in
+- **Everyone can check what was actually said or promised.**
+  More than once, I've looked over the minutes of a meeting I was in
   and thought, "Did I say that?" or, "Wait a minute, I didn't promise
   to have it ready then!" Accidentally or not, people will often
   remember things differently; writing it down gives team members a
   chance to correct mistaken or malicious interpretations, which can
   save a lot of anguish later on.
 
-People can be held accountable at subsequent meetings.
-: There's no point making lists of questions and action items if you
+- **People can be held accountable at subsequent meetings.**
+  There's no point making lists of questions and action items if you
   don't follow up on them later. If you're using a ticketing system,
   the best thing to do is to create a ticket for each new question or
   task right after the meeting, and update those that are being
@@ -171,34 +171,34 @@ to happen, the post mortem is the best place for it.
 A post mortem is run like any other meeting, but with a few additional
 guidelines [[Derb2006](#CITE)]:
 
-Get a moderator who wasn't part of the project
-: and doesn't have a stake in it. Otherwise, the meeting will either
+- **Get a moderator who wasn't part of the project**
+  and doesn't have a stake in it. Otherwise, the meeting will either
   go in circles, or focus on only a subset of important topics. In the
   case of student projects, this moderator might be the course
   instructor, or a TA.
 
-Set aside an hour, and only an hour.
-: In my experience, nothing useful is said in the first ten minutes of
+- **Set aside an hour, and only an hour.**
+  In my experience, nothing useful is said in the first ten minutes of
   anyone's first post mortem, since people are naturally a bit shy
   about praising or damning their own work. Equally, nothing useful is
   said after the first hour: if you're still talking, it's probably
   because one or two people have a *lot* they want to get off their
   chests.
 
-Require attendance.
-: Everyone who was part of the project ought to be in the room for the
+- **Require attendance.**
+  Everyone who was part of the project ought to be in the room for the
   post mortem. This is more important than you might think: the people
   who have the most to learn from the post mortem are often least
   likely to show up if the meeting is optional.
 
-Make two lists.
-: When I'm moderating, I put the headings "Do Again" and "Do
+- **Make two lists.**
+  When I'm moderating, I put the headings "Do Again" and "Do
   Differently" on the board, then do a lap around the room and ask
   every person to give me one item (that hasn't already been
   mentioned) for each list.
 
-Comment on actions, rather than individuals.
-: By the time the project is done, some people simply won't be able to
+- **Comment on actions, rather than individuals.**
+  By the time the project is done, some people simply won't be able to
   stand one another. Don't let this sidetrack the meeting: if someone
   has a specific complaint about another member of the team, require
   him to criticize a particular event or decision. "He had a bad
