@@ -12,7 +12,7 @@ import bibtexparser
 # Constants
 HEADER = '''---
 layout: default
-permalink: "/bib/"
+permalink: "/en/bib/"
 title: "Bibliography"
 ---
 '''

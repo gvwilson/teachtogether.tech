@@ -1,6 +1,6 @@
 # Display.
 title: "Teaching Tech Together"
-subtitle: "FIXME"
+subtitle: "How to create and deliver lessons that work and build a teaching community around them"
 author: "Greg Wilson"
 copyrightyear: "2018"
 repo: https://github.com/gvwilson/t3/
@@ -28,35 +28,21 @@ exclude:
 
 # Collections: one for lessons and one for extras for each language suffix.
 collections:
-  lessons_en:
+  chapters_en:
     output: true
-  extras_en:
-    output: true
-  lessons_um:
-    output: true
-  extras_um:
+  chapters_um:
     output: true
 
 # Set the language for various collections.
 defaults:
   - scope:
       path: ""
-      type: lessons_en
+      type: chapters_en
     values:
       language: "en"
   - scope:
       path: ""
-      type: extras_en
-    values:
-      language: "en"
-  - scope:
-      path: ""
-      type: lessons_um
-    values:
-      language: "um"
-  - scope:
-      path: ""
-      type: extras_um
+      type: chapters_um
     values:
       language: "um"
 

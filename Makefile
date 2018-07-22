@@ -6,11 +6,8 @@ PANDOC=pandoc
 PANDOC_FLAGS=--from=gfm --to=latex
 
 # Settings.
-LESSONS_MD=$(wildcard _lessons_en/*.md)
-EXTRAS_MD=$(filter-out _extras_en/bib.md,$(wildcard _extras_en/*.md))
-ALL_MD=${LESSONS_MD} ${EXTRAS_MD}
-LESSONS_TEX=$(patsubst _lessons_en/%.md,tex_en/lessons/%.tex,${LESSONS_MD})
-EXTRAS_TEX=$(patsubst _extras_en/%.md,tex_en/extras/%.tex,${EXTRAS_MD})
+CHAPTERS_MD=$(filter-out _chapters_en/bib.md,$(wildcard _chapters_en/*.md))
+CHAPTERS_TEX=$(patsubst _chapters_en/%.md,tex_en/inc/%.tex,${CHAPTERS_MD})
 
 # Controls
 .PHONY : commands serve site bib crossref clean
@@ -32,9 +29,9 @@ site :
 pdf : tex_en/t3.pdf
 
 ## tex      : generate LaTeX for book, but don't compile to PDF.
-tex : ${LESSONS_TEX} ${EXTRAS_TEX}
+tex : ${CHAPTERS_TEX}
 
-tex_en/t3.pdf : ${LESSONS_TEX} ${EXTRAS_TEX} tex_en/t3.bib
+tex_en/t3.pdf : ${CHAPTERS_TEX} tex_en/t3.bib
 	@cd tex_en \
 	&& ${LATEX} t3 \
 	&& ${BIBTEX} t3 \
@@ -42,16 +39,8 @@ tex_en/t3.pdf : ${LESSONS_TEX} ${EXTRAS_TEX} tex_en/t3.bib
 	&& ${LATEX} t3 \
 	&& ${LATEX} t3
 
-tex_en/lessons/%.tex : _lessons_en/%.md bin/texpre.py bin/texpost.py _includes/links.md
-	mkdir -p tex_en/lessons && \
-	cat $< \
-	| bin/texpre.py \
-	| ${PANDOC} ${PANDOC_FLAGS} -o - \
-	| bin/texpost.py _includes/links.md \
-	> $@
-
-tex_en/extras/%.tex : _extras_en/%.md bin/texpre.py bin/texpost.py _includes/links.md
-	mkdir -p tex_en/extras && \
+tex_en/inc/%.tex : _chapters_en/%.md bin/texpre.py bin/texpost.py _includes/links.md
+	mkdir -p tex_en/inc && \
 	cat $< \
 	| bin/texpre.py \
 	| ${PANDOC} ${PANDOC_FLAGS} -o - \
@@ -62,23 +51,19 @@ tex_en/t3.bib : files/t3.bib
 	cp $< $@
 
 ## bib      : rebuild Markdown bibliography from BibTeX source.
-bib : _extras_en/bib.md
-_extras_en/bib.md : bin/bib2md.py files/t3.bib
-	bin/bib2md.py < files/t3.bib > _extras_en/bib.md
+bib : _chapters_en/bib.md
+
+_chapters_en/bib.md : files/t3.bib bin/bib2md.py
+	bin/bib2md.py < $< > $@
 
 ## crossref : rebuild cross-reference file.
 crossref : files/crossref.js
-files/crossref.js : bin/crossref.py _config.yml ${ALL_MD}
+
+files/crossref.js : bin/crossref.py _config.yml ${CHAPTERS_MD}
 	bin/crossref.py < _config.yml > files/crossref.js
 
 ## clean    : clean up junk files.
 clean :
-	@rm -rf _site tex_en/lessons/* tex_en/extras/*
+	@rm -rf _site tex_en/t3.bib tex_en/inc */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
-	@find . -name '*.aux' -exec rm {} \;
-	@find . -name '*.bbl' -exec rm {} \;
-	@find . -name '*.blg' -exec rm {} \;
-	@find . -name '*.log' -exec rm {} \;
-	@find . -name '*.out' -exec rm {} \;
-	@find . -name '*.toc' -exec rm {} \;

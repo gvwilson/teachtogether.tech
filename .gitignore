@@ -7,7 +7,6 @@
 *~
 .jekyll-metadata
 _site
-tex_en/extras
-tex_en/lessons
+tex_en/inc
 tex_en/t3.bib
 tex_en/t3.pdf
