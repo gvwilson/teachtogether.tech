@@ -435,6 +435,7 @@ method in which each person thinks individually about a question or
 problem, then pairs with a partner to pool ideas, and then have one
 person from each pair present to the whole group.
 
+**Transfer-appropriate processing**{:#g:transfer-appropriate-processing}:
 The improvement in recall that occurs when practice uses activities
 similar to those used in testing.
 
