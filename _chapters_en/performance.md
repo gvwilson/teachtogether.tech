@@ -132,11 +132,11 @@ different backgrounds or cultural expectations about what's appropriate
 to say and what isn't. You can get better feedback on your work by using
 these techniques:
 
-- **Initiate feedback.**
-  It's better to ask for feedback than to receive it unwillingly.
+Initiate feedback.
+: It's better to ask for feedback than to receive it unwillingly.
 
-- **Choose your own questions,**
-  i.e., ask for specific feedback. It's a lot harder for someone to
+Choose your own questions,
+: i.e., ask for specific feedback. It's a lot harder for someone to
   answer, "What do you think?" than to answer either, "What is one
   thing I could have done as a teacher to make this lesson more
   effective?" or "If you could pick one thing from the lesson to go
@@ -148,14 +148,14 @@ these techniques:
   something you have chosen to work on helps you stay focused, which
   in turn increases the odds that you'll see progress.
 
-- **Use a feedback translator.**
-  Have someone else read over all the feedback and give you a summary.
+Use a feedback translator.
+: Have someone else read over all the feedback and give you a summary.
   It can be easier to hear "It sounds like most people are following,
   so you could speed up" than to read several notes all saying, "this
   is too slow" or "this is boring".
 
-- **Be kind to yourself.**
-  Many of us are very critical of ourselves, so it's always helpful to
+Be kind to yourself.
+: Many of us are very critical of ourselves, so it's always helpful to
   jot down what we thought of ourselves *before* getting feedback from
   others. That allows us to compare what we think of our performance
   with what others think, which in turn allows us to scale the former
@@ -167,13 +167,13 @@ these techniques:
 
 You can give feedback to others more effectively as well:
 
-- **Balance positive and negative feedback.**
-  A common method is a "compliment sandwich" made up of one positive,
+Balance positive and negative feedback.
+: A common method is a "compliment sandwich" made up of one positive,
   one negative, and a second positive observation (though this can get
   tiresome after a while).
 
-- **Organize your feedback using a rubric.**
-  Most people are more comfortable giving and receiving feedback when
+Organize your feedback using a rubric.
+: Most people are more comfortable giving and receiving feedback when
   they feel that they understand the social rules governing what they
   are allowed to say and how they are allowed to say it. A facilitator
   can then transcribe items into a shared document (or onto a

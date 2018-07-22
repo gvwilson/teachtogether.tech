@@ -79,3 +79,31 @@ blockquote {
 .glossref {
     font-weight: bold;
 }
+
+/* Closing up definition lists. */
+dl {
+    padding-left: 1em;
+}
+dt {
+    clear: left;
+    float: left;
+    margin: 0 0.5em 0 0;
+}
+dt::before {
+    content: "";
+    display: block;
+    height: 0.25em;
+}
+dd::before {
+    content: "";
+    display: block;
+    height: 0.25em;
+}
+dd p {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+dt {
+    margin-left: -1em;
+}

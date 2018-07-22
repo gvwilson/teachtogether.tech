@@ -31,14 +31,14 @@ paid---but we learn best when we are intrinsically motivated
 theory][self-determination-theory], the three drivers of intrinsic
 motivation are:
 
-- **Competence:**
-  the feeling that you know what you're doing.
+Competence:
+: the feeling that you know what you're doing.
 
-- **Autonomy:**
-  the feeling of being in control of your own destiny.
+Autonomy:
+: the feeling of being in control of your own destiny.
 
-- **Relatedness:**
-  the feeling of being connected to others.
+Relatedness:
+: the feeling of being connected to others.
 
 A well-designed lesson encourages all three. For example, a programming
 exercise would give students practice with all the tools they need to
@@ -198,34 +198,34 @@ change, they may learn not to even try to change the things they could.
 
 Here are a few specific things that will demotivate your learners:
 
-- **A holier-than-thou or contemptuous attitude**
-  from a teacher or a fellow learner.
+A holier-than-thou or contemptuous attitude
+: from a teacher or a fellow learner.
 
-- **Telling them that their existing skills are rubbish.**
-  Unix users sneer at Windows, programmers of all kinds make jokes
+Telling them that their existing skills are rubbish.
+: Unix users sneer at Windows, programmers of all kinds make jokes
   about Excel, and no matter what web application framework you
   already know, some programmer will tell you that it's out of date.
   Learners have often invested a lot of time and effort into acquiring
   the skills they have; disparaging them is a good way to guarantee
   that they won't listen to anything else you have to say.
 
-- **Diving into complex or detailed technical discussion**
-  with the most advanced learners in the class.
+Diving into complex or detailed technical discussion
+: with the most advanced learners in the class.
 
-- **Pretending that you know more than you do.**
-  Learners will trust you more if you are frank about the limitations
+Pretending that you know more than you do.
+: Learners will trust you more if you are frank about the limitations
   of your knowledge, and will be more likely to ask questions and seek
   help.
 
-- **Using the J word ("just") or feigning surprise**
-  (i.e., saying things like "I can't believe you don't know X" or
+Using the J word ("just") or feigning surprise
+: (i.e., saying things like "I can't believe you don't know X" or
   "you've never heard of Y?"). As discussed in
   [s:memory](#CHAPTER), this signals to the learner that the teacher
   thinks their problem is trivial and by extension that they must be
   stupid for not being able to figure it out.
 
-- **Software installation headaches.**
-  People's first contact with new programming tools, or programming in
+Software installation headaches.
+: People's first contact with new programming tools, or programming in
   general, is often demoralizing, and believing that something is hard
   to learn is a self-fulfilling prophecy. It isn't just the time it
   takes to get set up, or the feeling that it's unfair to have to
@@ -293,34 +293,34 @@ affected.
 The Ada Initiative has created some [guidelines][ada-guidelines] for
 fighting your own impostor syndrome, which include:
 
-- **Talk about the issue with people you trust.**
-  When you hear from others that impostor syndrome is a common
+Talk about the issue with people you trust.
+: When you hear from others that impostor syndrome is a common
   problem, it becomes harder to believe your feelings of being a fraud
   are real.
 
-- **Go to an in-person impostor syndrome session.**
-  There's nothing like being in a room full of people you respect and
+Go to an in-person impostor syndrome session.
+: There's nothing like being in a room full of people you respect and
   discovering that 90% of them have impostor syndrome.
 
-- **Watch your words, because they influence how you think.**
-  Saying things like, "I'm not an expert in this, but..."
+Watch your words, because they influence how you think.
+: Saying things like, "I'm not an expert in this, but..."
   takes away from the knowledge you actually possess.
 
-- **Teach others about your field.**
-  You will gain confidence in your own knowledge and skill, and you
+Teach others about your field.
+: You will gain confidence in your own knowledge and skill, and you
   will help others avoid some impostor syndrome shoals.
 
-- **Ask questions.**
-  Asking questions can be intimidating if you think you should know
+Ask questions.
+: Asking questions can be intimidating if you think you should know
   the answer, but getting answers eliminates the extended agony of
   uncertainty and fear of failure.
 
-- **Build alliances.**
-  Reassure and build up your friends, who will reassure and build you
+Build alliances.
+: Reassure and build up your friends, who will reassure and build you
   up in return. (And if they don't, find new friends.)
 
-- **Own your accomplishments.**
-  Keep actively recording and reviewing what you have done, what you
+Own your accomplishments.
+: Keep actively recording and reviewing what you have done, what you
   have built, and what successes you've had.
 
 As a teacher, you can help people with their impostor syndrome by
@@ -440,27 +440,27 @@ nobis](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us)*
 but is always the right place to start. A few specific recommendations
 are:
 
-- **Find out what you need to do.**
-  Each of [these
+Find out what you need to do.
+: Each of [these
   posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
   offers do's and don'ts for people on the autistic spectrum, users of
   screen readers, and people with low vision, physical or motor
   disabilities, hearing exercises, and dyslexia.
 
-- **Know how well you're doing.**
-  For example, sites like [WebAIM](http://webaim.org/) allow you to
+Know how well you're doing.
+: For example, sites like [WebAIM](http://webaim.org/) allow you to
   check how accessible your online materials are to visually impaired
   users.
 
-- **Don't do everything at once.**
-  We don't ask learners in our workshops to adopt all our best
+Don't do everything at once.
+: We don't ask learners in our workshops to adopt all our best
   practices or tools in one go, but instead to work things in
   gradually at whatever rate they can manage. Similarly, try to build
   in accessibility habits when preparing for workshops by adding
   something new each time.
 
-- **Do the easy things first.**
-  There are plenty of ways to make workshops more accessible that are
+Do the easy things first.
+: There are plenty of ways to make workshops more accessible that are
   both easy and don't create extra cognitive load for anyone: font
   choices, general text size, checking in advance that your room is
   accessible via an elevator or ramp, etc.
@@ -468,22 +468,22 @@ are:
 [[Coom2012](#CITE),[Burg2015](#CITE)] are good guides to visual design for
 accessibility. Their recommendations include:
 
-- **Format documents with actual headings and other landmarks,**
-  rather than just changing font sizes and styles.
+Format documents with actual headings and other landmarks,
+: rather than just changing font sizes and styles.
 
-- **Avoid using color alone to convey meaning in text or graphics:**
-  use color plus cross-hatching or colors that are noticeably
+Avoid using color alone to convey meaning in text or graphics:
+: use color plus cross-hatching or colors that are noticeably
   different in grayscale.
 
-- **Remove all unnecessary elements**
-  rather than just making them invisible, because screen readers will
+Remove all unnecessary elements
+: rather than just making them invisible, because screen readers will
   still often say them aloud.
 
-- **Allow self-pacing and repetition**
-  for people with reading or hearing issues.
+Allow self-pacing and repetition
+: for people with reading or hearing issues.
 
-- **Include narration of on-screen action**
-  in videos.
+Include narration of on-screen action
+: in videos.
 
 ### Conduct Revisited
 
@@ -524,21 +524,23 @@ learners who belong to one or more marginalized or excluded groups, but
 help motivate everyone else as well; while they are phrased in terms of
 term-long courses, many can be applied in our workshops:
 
-- **Ask learners to email you before the workshop**
-  to explain how they believe the training could help them achieve
+Ask learners to email you before the workshop
+: to explain how they believe the training could help them achieve
   their goals.
 
-- **Review your notes**
-  to make sure they are free from gendered pronouns, include
+Review your notes
+: to make sure they are free from gendered pronouns, include
   culturally diverse names, etc.
 
-- **Emphasize that what matters is the rate at which they are learning,**
-  not the advantages or disadvantages they had when they started.
+Emphasize that what matters is the rate at which they are learning,
+: not the advantages or disadvantages they had when they started.
 
-- **Encourage pair programmin**
+Encourage pair programming,
+: but demonstrate it so that learners understand how partners are
+  supposed to interact.
 
-- **Actively mitigate behavior that some learners may find intimidating,**
-  e.g., use of jargon or "questions" that are actually asked to
+Actively mitigate behavior that some learners may find intimidating,
+: e.g., use of jargon or "questions" that are actually asked to
   display knowledge.
 
 At a higher level, committing to inclusive teaching may mean

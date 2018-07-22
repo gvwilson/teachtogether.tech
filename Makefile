@@ -3,7 +3,7 @@ JEKYLL=jekyll
 LATEX=pdflatex
 BIBTEX=bibtex
 PANDOC=pandoc
-PANDOC_FLAGS=--from=gfm --to=latex
+PANDOC_FLAGS=--to=latex
 REPO=http://github.com/gvwilson/teachtogether.tech
 
 # Settings.
