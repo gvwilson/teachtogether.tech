@@ -33,7 +33,7 @@ The result is:
 
 - Chapters are stored in `_chapters_XX`, where `XX` is a two-letter language code.  The underscore in front of this name, and the corresponding entry in the `_config.yml` configuration file, tell Jekyll to treat these files as a collection so that the template can iterate over them.
 
-- The root directory contains `index.md` (the overall index page) and `index_XX.md` (the home page for language `XX`).  These files are Jekylled.
+- The root directory contains an overall index page `index.md` that simply links to language-specific pages stored in `_chapters_XX/index.md`.
 
 - The root directory also contains un-Jekylled versions of the license, the code of conduct, and the citation guide, while `_chapters_XX` contains Jekylled versions of these three files.  They are duplicated because many open source projects expect these files in the root directory with these names, but managing them as special cases was proving annoying.
 
