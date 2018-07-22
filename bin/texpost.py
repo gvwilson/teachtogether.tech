@@ -11,7 +11,8 @@ import yaml
 
 
 STRINGS = [(r'\/-', '-'),
-           (r'\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}', '')]
+           (r'\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}', ''),
+           (r'\def\labelenumi{\arabic{enumi}.}', '')]
 UNTEX = [('_', r'\_'), ('%', r'\%'), ('#', r'\#'), ('\n', ' ')]
 STACK = []
 
