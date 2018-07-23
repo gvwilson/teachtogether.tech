@@ -3,57 +3,41 @@
 import sys
 import os
 import re
+import yaml
 
 
-HEADER = '''---
-layout: chapter
-title: "{title}"
----
-<h1>{title}</h1>'''
-
-IGNORES = {'settings', 'macros', 'frontmatter'}
-
-HEADINGS = (('h3', 'h4'), ('h2', 'h3'), ('h1', 'h2'))
-
-
-def main(title, bookFile, outputDir):
-    order = readOrder(bookFile)
-    print(HEADER.format(title=title))
-    for stem in order:
-        process(os.path.join(outputDir, stem + '.html'))
+def main(configPath, crossrefPath, rootDir):
+    slugs, markerStart, markerEnd = readConfig(configPath)
+    before, body, after = getBody(os.path.join(rootDir, 'index.html'), markerStart, markerEnd)
+    print(before)
+    print(body)
+    slugPaths = [(s, os.path.join(rootDir, s, 'index.html')) for s in slugs]
+    for (slug, path) in slugPaths:
+        _, body, _ = getBody(path, markerStart, markerEnd)
+        body = body.replace('<h1', '<h1 id="s:{}"'.format(slug))
+        print(body)
+    print(after)
 
 
-def readOrder(bookFile):
-    with open(bookFile, 'r') as reader:
-        data = reader.read()
-    pat = re.compile(r'\\(input|bibliography){([^}]+)}')
-    result = [m[1] for m in pat.findall(data) if m[1] not in IGNORES]
-    return result
+def readConfig(configPath):
+    with open(configPath, 'r') as reader:
+        config = yaml.load(reader)
+    slugs = [p.strip('/') for p in config['toc']['lessons'] + config['toc']['extras']]
+    markerStart = config['marker']['start']
+    markerEnd = config['marker']['end']
+    return slugs, markerStart, markerEnd
 
 
-def process(filename):
-    with open(filename, 'r') as reader:
-        data = reader.read()
-    data = data[data.index('<h1'):]
-    data = fixInternal.pattern.sub(fixInternal, data)
-    for (src, dst) in HEADINGS:
-        data = data.replace(src, dst)
-    print(data)
-
-
-def fixInternal(match):
-    stem = match.group(1)
-    anchor = match.group(2)
-    if anchor:
-        target = anchor
-    else:
-        target = 's:{}'.format(stem)
-    return 'href="{}"'.format(target)
-fixInternal.pattern = re.compile(r'href="\./(.+?)\.html((#[^"]+)?)"')
+def getBody(path, markerStart, markerEnd):
+    with open(path, 'r') as reader:
+        text = reader.read()
+        start = text.find(markerStart) + len(markerStart)
+        end = text.find(markerEnd, start)
+        return text[:start], text[start:end], text[end:]
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        sys.stderr.write('Usage: mergebook title /path/to/book.tex /path/to/output_directory')
+        sys.stderr.write('Usage: mergebook /path/to/config /path/to/crossref /path/to/site\n')
         sys.exit(1)
     main(sys.argv[1], sys.argv[2], sys.argv[3])

@@ -28,6 +28,12 @@ exclude:
 - requirements.txt
 - tex_en
 
+# Markers in generated files.
+marker:
+  start: "<!-- main start -->"
+  end: "<!-- main end -->"
+  crossref: "let CROSSREF="
+
 # Collections: one for lessons and one for extras for each language suffix.
 collections:
   chapters_en:

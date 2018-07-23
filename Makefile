@@ -14,6 +14,7 @@ REPO=http://github.com/gvwilson/teachtogether.tech
 # Language-dependent settings.
 DIR_MD=_chapters_${lang}
 DIR_TEX=tex_${lang}
+DIR_WEB=_site/${lang}
 BIB_SRC=files/${lang}.bib
 WORDS_SRC=misc/${lang}.txt
 
@@ -21,6 +22,7 @@ WORDS_SRC=misc/${lang}.txt
 ALL_MD=$(wildcard ${DIR_MD}/*.md)
 CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md ${DIR_MD}/index.md,${ALL_MD})
 CHAPTERS_TEX=$(patsubst ${DIR_MD}/%.md,${DIR_TEX}/inc/%.tex,${CHAPTERS_MD})
+ALL_HTML=t3-${lang}.html
 
 # Controls
 .PHONY : commands serve site bib crossref clean
@@ -37,6 +39,12 @@ serve :
 ## site       : build files but do not run a server.
 site :
 	${JEKYLL} build
+
+## ebook      : regenerate all-in-one versions of book.
+ebook : ${ALL_HTML}
+
+${ALL_HTML} : _config.yml files/crossref.js
+	@bin/mergebook.py _config.yml files/crossref.js ${DIR_WEB} > $@
 
 ## pdf        : build PDF version of book.
 pdf : ${DIR_TEX}/book.pdf
@@ -140,7 +148,7 @@ nonascii :
 
 ## clean      : clean up junk files.
 clean :
-	@rm -rf _site ${DIR_TEX}/book.bib ${DIR_TEX}/inc */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
+	@rm -rf _site ${ALL_HTML} ${DIR_TEX}/book.bib ${DIR_TEX}/inc */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
 
@@ -154,6 +162,7 @@ settings :
 	@echo "REPO=${REPO}"
 	@echo "DIR_MD=${DIR_MD}"
 	@echo "DIR_TEX=${DIR_TEX}"
+	@echo "DIR_WEB=${DIR_WEB}"
 	@echo "BIB_SRC=${BIB_SRC}"
 	@echo "WORDS_SRC=${WORDS_SRC}"
 	@echo "CHAPTERS_MD=${CHAPTERS_MD}"
