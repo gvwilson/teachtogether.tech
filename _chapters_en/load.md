@@ -42,22 +42,22 @@ More specifically, [cognitive load theory](#g:cognitive-load-theory)
 posited that people have to deal with three things when they're
 learning:
 
-- **Intrinsic load**
-  is what people have to keep in mind in order to absorb new material.
+Intrinsic load
+: is what people have to keep in mind in order to absorb new material.
   In a programming class, this might be understanding what a variable
   is, or understanding how assignment in a programming language is
   different from creating a reference to a cell in a spreadsheet.
   Intrinsic load can't be reduced except by reducing the amount of
   content being taught.
 
-- **Germane load**
-  is the (desirable) mental effort required to link new information to
+Germane load
+: is the (desirable) mental effort required to link new information to
   old, which is one of the things that distinguishes learning from
   memorization. An example might be remembering that a loop variable
   is assigned a new value each time the loop executes.
 
-- **Extraneous load**
-  is everything else in the instructional material that distracts from
+Extraneous load
+: is everything else in the instructional material that distracts from
   learning, such as matching the highlight colors in the instructor's
   examples to the different color scheme used by the learner's own
   editor.
@@ -402,35 +402,35 @@ repeat the exercise.
 [[Maye2009](#CITE)] presents six principles for designing good diagrams
 for teaching. As summarized in [[Mill2016a](#CITE)], they are:
 
-- **Signalling:**
-  visually highlight the most important points that you want students
+Signalling:
+: visually highlight the most important points that you want students
   to retain so that they stand out from less-critical material.
 
-- **Spatial contiguity:**
-  if using captions or other text to accompany graphics, place them as
+Spatial contiguity:
+: if using captions or other text to accompany graphics, place them as
   close to the graphics as practical to offset the cost of shifting
   between the two. If using diagrams or animations, place captions
   right next to relative components instead of putting them in one big
   block of text.
 
-- **Temporal contiguity:**
-  present spoken narration and graphics as close in time as
+Temporal contiguity:
+: present spoken narration and graphics as close in time as
   practical---presenting both at once is better than presenting them
   one after another.
 
-- **Segmenting:**
-  when presenting a long sequence of material or when students are
+Segmenting:
+: when presenting a long sequence of material or when students are
   inexperienced with the subject, break up the presentation into
   shorter segments and let students control how quickly they advance
   from one part to the next.
 
-- **Pretraining:**
-  if students don't know the major concepts and terminology used in
+Pretraining:
+: if students don't know the major concepts and terminology used in
   your presentation, set up a module just to teach those concepts and
   terms and make sure they complete that module beforehand.
 
-- **Modality:**
-  students learn better from pictures plus audio narration than from
+Modality:
+: students learn better from pictures plus audio narration than from
   pictures plus text, unless there are technical words or symbols, or
   the students are non-native speakers.
 

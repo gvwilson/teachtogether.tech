@@ -29,12 +29,12 @@ help you go further. Its four sections cover:
 >
 > This book is a community resource. Parts of it were originally
 > created for [the Software Carpentry instructor training
-> program](http://carpentries.github.io/instructor-training/), which
-> has been run over several hundred times over the past six years, and
-> all of it can be freely distributed and re-used under the [Creative
-> Commons - Attribution 4.0 license](./license/). Please see
-> <{{site.website}}> to download a digital version or [purchase a
-> printed copy]({{site.purchase}}) at cost.
+> program][carpentries-training], which has been run over several
+> hundred times over the past six years, and all of it can be freely
+> distributed and re-used under the [Creative Commons - Attribution
+> 4.0 license](./license/). Please see <{{site.website}}> to download
+> a digital version or [purchase a printed copy]({{site.purchase}}) at
+> cost.
 >
 > Contributions of all kinds are welcome, from errata and minor
 > improvements to entirely new sections and chapters. All proposed
@@ -79,11 +79,10 @@ help you go further. Its four sections cover:
 
 ## News
 
-- **2018-07-18:**
-  If your e-reader is having trouble with our EPUB or MOBI files,
-  try downloading
-  [these versions from unglue.it](https://unglue.it/work/313918/).
-  And if you would like to help us fix our publication process,
-  please [find us on GitHub]({{site.repository}}).
+2018-07-18:
+: If your e-reader is having trouble with our EPUB or MOBI files, try
+  downloading [these versions from unglue.it][unglue-versions].  And
+  if you would like to help us fix our publication process, please
+  [find us on GitHub]({{site.repository}}).
 
 {% include links.md %}

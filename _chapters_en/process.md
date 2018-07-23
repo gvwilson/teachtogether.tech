@@ -268,33 +268,33 @@ most recent form has six categories; the list below defines each, and
 gives a few of the verbs typically used in learning objectives written
 for each:
 
-- **Remembering:**
-  Exhibit memory of previously learned material by recalling facts,
+Remembering:
+: Exhibit memory of previously learned material by recalling facts,
   terms, basic concepts, and answers. *(recognize, list, describe,
   name, find)*
 
-- **Understanding:**
-  Demonstrate understanding of facts and ideas by organizing,
+Understanding:
+: Demonstrate understanding of facts and ideas by organizing,
   comparing, translating, interpreting, giving descriptions, and
   stating main ideas. *(interpret, summarize, paraphrase, classify,
   explain)*
 
-- **Applying:**
-  Solve new problems by applying acquired knowledge, facts, techniques
+Applying:
+: Solve new problems by applying acquired knowledge, facts, techniques
   and rules in a different way. *(build, identify, use, plan, select)*
 
-- **Analyzing:**
-  Examine and break information into parts by identifying motives or
+Analyzing:
+: Examine and break information into parts by identifying motives or
   causes. Make inferences and find evidence to support
   generalizations. *(compare, contrast, simplify)*
 
-- **Evaluating:**
-  Present and defend opinions by making judgments about information,
+Evaluating:
+: Present and defend opinions by making judgments about information,
   validity of ideas, or quality of work based on a set of criteria.
   *(check, choose, critique, prove, rate)*
 
-- **Creating:**
-  Compile information together in a different way by combining
+Creating:
+: Compile information together in a different way by combining
   elements in a new pattern or proposing alternative solutions.
   *(design, construct, improve, adapt, maximize, solve)*
 
@@ -312,28 +312,28 @@ is meant to produce in the learner. [Fink's
 Taxonomy](#g:finks-taxonomy)also has six categories, but unlike
 Bloom's, they are complementary rather than hierarchical:
 
-- **Foundational Knowledge:**
-  understanding and remembering information and ideas. *(remember,
+Foundational Knowledge:
+: understanding and remembering information and ideas. *(remember,
   understand, identify)*
 
-- **Application:**
-  skills, critical thinking, managing projects. *(use, solve,
+Application:
+: skills, critical thinking, managing projects. *(use, solve,
   calculate, create)*
 
-- **Integration:**
-  connecting ideas, learning experiences, and real life. *(connect,
+Integration:
+: connecting ideas, learning experiences, and real life. *(connect,
   relate, compare)*
 
-- **Human Dimension:**
-  learning about oneself and others. *(come to see themselves as,
+Human Dimension:
+: learning about oneself and others. *(come to see themselves as,
   understand others in terms of, decide to become)*
 
-- **Caring:**
-  developing new feelings, interests, and values. *(get excited about,
+Caring:
+: developing new feelings, interests, and values. *(get excited about,
   be ready to, value)*
 
-- **Learning How to Learn:**
-  becoming a better student. *(identify source of information for,
+Learning How to Learn:
+: becoming a better student. *(identify source of information for,
   frame useful questions about)*
 
 A set of learning objectives based on this taxonomy for an
@@ -492,31 +492,31 @@ short lesson that follows these five steps.
 [[Mart2017](#CITE)] specifies eight dimensions along which lessons can be
 evaluated:
 
-- **Closed vs. open:**
-  is there a well-defined path and endpoint, or are learners
+Closed vs. open:
+: is there a well-defined path and endpoint, or are learners
   exploring?
 
-- **Cultural relevance:**
-  how well is the task connected to things they do outside class?
+Cultural relevance:
+: how well is the task connected to things they do outside class?
 
-- **Recognition:**
-  how easily can the learner share the product of their work?
+Recognition:
+: how easily can the learner share the product of their work?
 
-- **Space to play:**
-  seems to overlap closed vs. open
+Space to play:
+: seems to overlap closed vs. open
 
-- **Driver shift:**
-  how often are learners in control of the learning experience (tight
+Driver shift:
+: how often are learners in control of the learning experience (tight
   cycles of "see then do" score highly)
 
-- **Risk reward:**
-  to what extent is taking risks rewarded or recognized?
+Risk reward:
+: to what extent is taking risks rewarded or recognized?
 
-- **Grouping:**
-  is learning individual, in pairs, or in larger groups?
+Grouping:
+: is learning individual, in pairs, or in larger groups?
 
-- **Session shape:**
-  theater-style classroom, dinner seating, free space, public space,
+Session shape:
+: theater-style classroom, dinner seating, free space, public space,
   etc.
 
 Working with a partner, go through a set of lessons you have recently

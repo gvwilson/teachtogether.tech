@@ -31,14 +31,14 @@ paid---but we learn best when we are intrinsically motivated
 theory][self-determination-theory], the three drivers of intrinsic
 motivation are:
 
-- **Competence:**
-  the feeling that you know what you're doing.
+Competence:
+: the feeling that you know what you're doing.
 
-- **Autonomy:**
-  the feeling of being in control of your own destiny.
+Autonomy:
+: the feeling of being in control of your own destiny.
 
-- **Relatedness:**
-  the feeling of being connected to others.
+Relatedness:
+: the feeling of being connected to others.
 
 A well-designed lesson encourages all three. For example, a programming
 exercise would give students practice with all the tools they need to
@@ -198,34 +198,34 @@ change, they may learn not to even try to change the things they could.
 
 Here are a few specific things that will demotivate your learners:
 
-- **A holier-than-thou or contemptuous attitude**
-  from a teacher or a fellow learner.
+A holier-than-thou or contemptuous attitude
+: from a teacher or a fellow learner.
 
-- **Telling them that their existing skills are rubbish.**
-  Unix users sneer at Windows, programmers of all kinds make jokes
+Telling them that their existing skills are rubbish.
+: Unix users sneer at Windows, programmers of all kinds make jokes
   about Excel, and no matter what web application framework you
   already know, some programmer will tell you that it's out of date.
   Learners have often invested a lot of time and effort into acquiring
   the skills they have; disparaging them is a good way to guarantee
   that they won't listen to anything else you have to say.
 
-- **Diving into complex or detailed technical discussion**
-  with the most advanced learners in the class.
+Diving into complex or detailed technical discussion
+: with the most advanced learners in the class.
 
-- **Pretending that you know more than you do.**
-  Learners will trust you more if you are frank about the limitations
+Pretending that you know more than you do.
+: Learners will trust you more if you are frank about the limitations
   of your knowledge, and will be more likely to ask questions and seek
   help.
 
-- **Using the J word ("just") or feigning surprise**
-  (i.e., saying things like "I can't believe you don't know X" or
+Using the J word ("just") or feigning surprise
+: (i.e., saying things like "I can't believe you don't know X" or
   "you've never heard of Y?"). As discussed in
   [s:memory](#CHAPTER), this signals to the learner that the teacher
   thinks their problem is trivial and by extension that they must be
   stupid for not being able to figure it out.
 
-- **Software installation headaches.**
-  People's first contact with new programming tools, or programming in
+Software installation headaches.
+: People's first contact with new programming tools, or programming in
   general, is often demoralizing, and believing that something is hard
   to learn is a self-fulfilling prophecy. It isn't just the time it
   takes to get set up, or the feeling that it's unfair to have to
@@ -293,34 +293,34 @@ affected.
 The Ada Initiative has created some [guidelines][ada-guidelines] for
 fighting your own impostor syndrome, which include:
 
-- **Talk about the issue with people you trust.**
-  When you hear from others that impostor syndrome is a common
+Talk about the issue with people you trust.
+: When you hear from others that impostor syndrome is a common
   problem, it becomes harder to believe your feelings of being a fraud
   are real.
 
-- **Go to an in-person impostor syndrome session.**
-  There's nothing like being in a room full of people you respect and
+Go to an in-person impostor syndrome session.
+: There's nothing like being in a room full of people you respect and
   discovering that 90% of them have impostor syndrome.
 
-- **Watch your words, because they influence how you think.**
-  Saying things like, "I'm not an expert in this, but..."
+Watch your words, because they influence how you think.
+: Saying things like, "I'm not an expert in this, but..."
   takes away from the knowledge you actually possess.
 
-- **Teach others about your field.**
-  You will gain confidence in your own knowledge and skill, and you
+Teach others about your field.
+: You will gain confidence in your own knowledge and skill, and you
   will help others avoid some impostor syndrome shoals.
 
-- **Ask questions.**
-  Asking questions can be intimidating if you think you should know
+Ask questions.
+: Asking questions can be intimidating if you think you should know
   the answer, but getting answers eliminates the extended agony of
   uncertainty and fear of failure.
 
-- **Build alliances.**
-  Reassure and build up your friends, who will reassure and build you
+Build alliances.
+: Reassure and build up your friends, who will reassure and build you
   up in return. (And if they don't, find new friends.)
 
-- **Own your accomplishments.**
-  Keep actively recording and reviewing what you have done, what you
+Own your accomplishments.
+: Keep actively recording and reviewing what you have done, what you
   have built, and what successes you've had.
 
 As a teacher, you can help people with their impostor syndrome by
@@ -343,17 +343,16 @@ summarizes what we know about stereotype threat in general and presents
 some strategies for mitigating it in the classroom.
 
 Unwelcoming climates demotivate everyone, particularly members of
-under-represented groups, but it's less clear that stereotype threat is
-the primary cause. Part of the problem is that the term has been used in
-many ways [[Shap2007](#CITE)]; another is
-[questions](https://www.psychologytoday.com/blog/rabble-rouser/201512/is-stereotype-threat-overcooked-overstated-and-oversold)
-about the replicability of key studies. What *is* clear is that both
-instructors and learners must avoid using language that suggests that
-some people are natural programmers and others aren't. Guzdial has
-called this [the biggest myth about teaching computer
-science](http://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext),
-and [[Pati2016](#CITE)] backed this up by showing that people see
-evidence for a "geek gene" where none exists:
+under-represented groups, but it's less clear that stereotype threat
+is the primary cause. Part of the problem is that the term has been
+used in many ways [[Shap2007](#CITE)]; another is
+[questions][stereotype-threat-replication] about the replicability of
+key studies. What *is* clear is that both instructors and learners
+must avoid using language that suggests that some people are natural
+programmers and others aren't. Guzdial has called this [the biggest
+myth about teaching computer science][guzdial-myths], and
+[[Pati2016](#CITE)] backed this up by showing that people see evidence
+for a "geek gene" where none exists:
 
 > Although it has never been rigorously demonstrated, there is a common
 > belief that CS grades are bimodal. We statistically analyzed 778
@@ -391,27 +390,26 @@ they figure they just don't have that aptitude, which biases future
 performance. On the other hand, if people believe that a skill is
 learned and can be improved, they do better on average.
 
-As with stereotype threat, [there are
-concerns](https://educhatter.wordpress.com/2017/03/26/growth-mindset-is-the-theory-flawed-or-has-gm-been-debased-in-the-classroom/)
+As with stereotype threat, [there are concerns][mindset-replication]
 that growth mindset has been oversold, or that research is much more
-difficult to put into practice than its more enthusiastic advocates have
-implied. [[Sisk2018](#CITE)] reported two meta-analyses, one looking at
-the strength of the relationship between mindset and academic
-achievement, the other at the effectiveness of mindset interventions on
-academic achievement. The overall effects for both were weak, but some
-results supported specific tenets of the theory, namely, that students
-with low socioeconomic status or who are academically at risk might
-benefit from mindset interventions.
+difficult to put into practice than its more enthusiastic advocates
+have implied. [[Sisk2018](#CITE)] reported two meta-analyses, one
+looking at the strength of the relationship between mindset and
+academic achievement, the other at the effectiveness of mindset
+interventions on academic achievement. The overall effects for both
+were weak, but some results supported specific tenets of the theory,
+namely, that students with low socioeconomic status or who are
+academically at risk might benefit from mindset interventions.
 
 ## Accessibility {#s:motivation-accessibility}
 
 Not providing equal access to lessons and exercises is about as
-demotivating as it gets. This is often inadvertent: for example, my old
-online programming lessons presented the full script of the narration
-beside the slides---but none of the Python source code. Someone using a
-[screen reader](https://en.wikipedia.org/wiki/Screen_reader) would
-therefore be able to hear what was being said about the program, but
-wouldn't know what the program actually was.
+demotivating as it gets. This is often inadvertent: for example, my
+old online programming lessons presented the full script of the
+narration beside the slides---but none of the Python source
+code. Someone using a [screen reader][screen-reader] would therefore
+be able to hear what was being said about the program, but wouldn't
+know what the program actually was.
 
 It isn't always possible to accommodate everyone's needs, but it *is*
 possible to get a good working structure in place without any specific
@@ -422,45 +420,40 @@ advance, and that any additional concerns are likely to be addressed.
 
 > **It Helps Everyone**
 > 
-> [Curb cuts](https://en.wikipedia.org/wiki/Curb_cut) (the small sloped
-> ramps joining a sidewalk to the street) were originally created to
-> make it easier for the physically disabled to move around, but proved
-> to be equally helpful to people with strollers and grocery carts.
-> Similarly, steps taken to make lessons more accessible to people with
-> various disabilities also help everyone else. Proper captioning of
-> images, for example, doesn't just give screen readers something to
-> say: it also makes the images more findable by exposing their content
-> to search engines.
+> [Curb cuts][curb-cut] (the small sloped ramps joining a sidewalk to
+> the street) were originally created to make it easier for the
+> physically disabled to move around, but proved to be equally helpful
+> to people with strollers and grocery carts.  Similarly, steps taken
+> to make lessons more accessible to people with various disabilities
+> also help everyone else. Proper captioning of images, for example,
+> doesn't just give screen readers something to say: it also makes the
+> images more findable by exposing their content to search engines.
 
 The first and most important step in making lessons accessible is to
 *involve people with disabilities in decision-making*: the slogan
-*[nihil de nobis, sine
-nobis](https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us)*
-(literally, "nothing for us without us") predates accessibility rights,
-but is always the right place to start. A few specific recommendations
-are:
+*[nihil de nobis, sine nobis][nihil-de-nobis]* (literally, "nothing
+for us without us") predates accessibility rights, but is always the
+right place to start. A few specific recommendations are:
 
-- **Find out what you need to do.**
-  Each of [these
-  posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
-  offers do's and don'ts for people on the autistic spectrum, users of
-  screen readers, and people with low vision, physical or motor
-  disabilities, hearing exercises, and dyslexia.
+Find out what you need to do.
+: Each of [these posters][accessibility-posters] offers do's and
+  don'ts for people on the autistic spectrum, users of screen readers,
+  and people with low vision, physical or motor disabilities, hearing
+  exercises, and dyslexia.
 
-- **Know how well you're doing.**
-  For example, sites like [WebAIM](http://webaim.org/) allow you to
-  check how accessible your online materials are to visually impaired
-  users.
+Know how well you're doing.
+: For example, sites like [WebAIM][webaim] allow you to check how
+  accessible your online materials are to visually impaired users.
 
-- **Don't do everything at once.**
-  We don't ask learners in our workshops to adopt all our best
+Don't do everything at once.
+: We don't ask learners in our workshops to adopt all our best
   practices or tools in one go, but instead to work things in
   gradually at whatever rate they can manage. Similarly, try to build
   in accessibility habits when preparing for workshops by adding
   something new each time.
 
-- **Do the easy things first.**
-  There are plenty of ways to make workshops more accessible that are
+Do the easy things first.
+: There are plenty of ways to make workshops more accessible that are
   both easy and don't create extra cognitive load for anyone: font
   choices, general text size, checking in advance that your room is
   accessible via an elevator or ramp, etc.
@@ -468,22 +461,22 @@ are:
 [[Coom2012](#CITE),[Burg2015](#CITE)] are good guides to visual design for
 accessibility. Their recommendations include:
 
-- **Format documents with actual headings and other landmarks,**
-  rather than just changing font sizes and styles.
+Format documents with actual headings and other landmarks,
+: rather than just changing font sizes and styles.
 
-- **Avoid using color alone to convey meaning in text or graphics:**
-  use color plus cross-hatching or colors that are noticeably
+Avoid using color alone to convey meaning in text or graphics:
+: use color plus cross-hatching or colors that are noticeably
   different in grayscale.
 
-- **Remove all unnecessary elements**
-  rather than just making them invisible, because screen readers will
+Remove all unnecessary elements
+: rather than just making them invisible, because screen readers will
   still often say them aloud.
 
-- **Allow self-pacing and repetition**
-  for people with reading or hearing issues.
+Allow self-pacing and repetition
+: for people with reading or hearing issues.
 
-- **Include narration of on-screen action**
-  in videos.
+Include narration of on-screen action
+: in videos.
 
 ### Conduct Revisited
 
@@ -524,20 +517,19 @@ learners who belong to one or more marginalized or excluded groups, but
 help motivate everyone else as well; while they are phrased in terms of
 term-long courses, many can be applied in our workshops:
 
-- **Ask learners to email you before the workshop**
-  to explain how they believe the training could help them achieve
+Ask learners to email you before the workshop
+: to explain how they believe the training could help them achieve
   their goals.
 
-- **Review your notes**
-  to make sure they are free from gendered pronouns, include
+Review your notes
+: to make sure they are free from gendered pronouns, include
   culturally diverse names, etc.
 
-- **Emphasize that what matters is the rate at which they are learning,**
-  not the advantages or disadvantages they had when they started.
+Emphasize that what matters is the rate at which they are learning,
+: not the advantages or disadvantages they had when they started.
 
-- **Encourage pair programmin**
-
-- **Actively mitigate behavior that some learners may find intimidating,**
+Encourage pair programmin
+:- **Actively mitigate behavior that some learners may find intimidating,**
   e.g., use of jargon or "questions" that are actually asked to
   display knowledge.
 
@@ -551,14 +543,14 @@ something their peers respected.
 Work like this has to be done carefully. [[Lach2018](#CITE)] explored two
 strategies:
 
-- [Community representation](#g:community-representation)  
-  highlights students' social identities, histories, and community
+[Community representation](#g:community-representation)  
+: highlights students' social identities, histories, and community
   networks using after-school mentors or role models from students'
   neighborhoods, or activities that use community narratives and
   histories as a foundation for a computing project.
 
-- [Computational integration](#g:computational-integration)
-  incorporates ideas from the learner's community, e.g., reverse
+[Computational integration](#g:computational-integration)
+: incorporates ideas from the learner's community, e.g., reverse
   engineering indigenous graphic designs in a visual programming
   environment.
 
@@ -573,12 +565,12 @@ We return to this in [s:community](#CHAPTER).
 ### Spoons
 
 In 2003, Christine Miserandino started using
-[spoons](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/)
-as a way to explain what it's like to live with chronic illness. Healthy
-people start each day with an unlimited supply of spoons, but people
-with lupus or other debilitating conditions only have a few, and
-everything they do costs them one. Getting out of bed? That's a spoon.
-Making a meal? That's another spoon, and pretty soon, you've run out.
+[spoons][miserandino-spoons] as a way to explain what it's like to
+live with chronic illness. Healthy people start each day with an
+unlimited supply of spoons, but people with lupus or other
+debilitating conditions only have a few, and everything they do costs
+them one. Getting out of bed? That's a spoon.  Making a meal? That's
+another spoon, and pretty soon, you've run out.
 
 > You cannot simply just throw clothes on when you are
 > sick... If my hands hurt that day buttons are out of the
@@ -589,13 +581,13 @@ Making a meal? That's another spoon, and pretty soon, you've run out.
 > you 2 hours to do all this.
 
 Spoons are often invisible, but as [Elizabeth Patitsas has
-argued](https://patitsas.blogspot.com/2018/03/spoons-are-form-of-capital.html),
-people who have a lot can accumulate more, but people whose supply of
-spoons is limited may struggle to get ahead of the game. When you are
-designing classes and exercises, try to take into account the fact that
-some of your learners may have physical or mental obstacles that aren't
-obvious. Again, when in doubt, ask your learners: they almost certainly
-have more experience with what works and what doesn't than anyone else.
+argued][patitsas-capital], people who have a lot can accumulate more,
+but people whose supply of spoons is limited may struggle to get ahead
+of the game. When you are designing classes and exercises, try to take
+into account the fact that some of your learners may have physical or
+mental obstacles that aren't obvious. Again, when in doubt, ask your
+learners: they almost certainly have more experience with what works
+and what doesn't than anyone else.
 
 ### Moving Past the Deficit Model {#s:motivation-deficit}
 
@@ -651,9 +643,9 @@ conscious or unconscious bias, a culture of silence around harassment,
 and the growing inequality in society that produces preparatory
 privilege ([s:classroom-mixed](#SECTION)) may not be any one person's
 fault, but they are everyone's responsibility. [This
-workshop](https://frameshiftconsulting.com/ally-skills-workshop/) has
-excellent practical advice on how to be a good ally in tech; we will
-return to this topic in [s:community](#CHAPTER).
+workshop][frameshift-ally] has excellent practical advice on how to be
+a good ally in tech; we will return to this topic in
+[s:community](#CHAPTER).
 
 ## Exercises {#s:motivation-exercises}
 
@@ -675,14 +667,14 @@ simplified version of it) as an exercise or example in class.
 
 ### Core Needs (whole class/10)
 
-Paloma Medina identifies [six core
-needs](https://www.palomamedina.com/biceps) for people at work:
-belonging, improvement (i.e., making progress), choice, equality,
-predictability, and significance. After reading her description of
-these, order them from most to least significant for you personally,
-then compare rankings with your class using 6 points for most important,
-5 for next, and so on down to 1 for least important. How do you think
-your rankings compare with those of your learners?
+Paloma Medina identifies [six core needs][medina-needs] for people at
+work: belonging, improvement (i.e., making progress), choice,
+equality, predictability, and significance. After reading her
+description of these, order them from most to least significant for
+you personally, then compare rankings with your class using 6 points
+for most important, 5 for next, and so on down to 1 for least
+important. How do you think your rankings compare with those of your
+learners?
 
 ### Implement One Strategy for Inclusivity (individual/5)
 
@@ -724,12 +716,12 @@ sentence in this exercise assumed you could actually walk?
 ### Who Decides? (whole class/15)
 
 In [[Litt2004](#CITE)], Kenneth Wesson wrote, "If poor inner-city
-children consistently outscored children from wealthy suburban homes on
-standardized tests, is anyone naive enough to believe that we would
-still insist on using these tests as indicators of success?" Read [this
-article](https://mobile.nytimes.com/2016/04/10/upshot/why-talented-black-and-hispanic-students-can-go-undiscovered.html)
-by Cameron Cottrill, and then describe an example from your own
-experience of "objective" assessments that reinforced the status quo.
+children consistently outscored children from wealthy suburban homes
+on standardized tests, is anyone naive enough to believe that we would
+still insist on using these tests as indicators of success?" Read
+[this article][cottrill-assessment] by Cameron Cottrill, and then
+describe an example from your own experience of "objective"
+assessments that reinforced the status quo.
 
 ### Common Stereotypes (pairs/10)
 
@@ -739,12 +731,10 @@ phrases that reinforce stereotypes about computing.
 
 ### Not Being a Jerk (individual/15)
 
-[This short
-article](https://www.destroyallsoftware.com/blog/2018/a-case-study-in-not-being-a-jerk-in-open-source)
-by Gary Bernhardt rewrites an unnecessarily hostile message to be less
-rude. Using it as a model, find something unpleasant on [Stack
-Overflow](http://stackoverflow.com) or some other public discussion
-forum and rewrite it to be less repellant.
+[This short article][bernhardt-rewrite] by Gary Bernhardt rewrites an
+unnecessarily hostile message to be less rude. Using it as a model,
+find something unpleasant on [Stack Overflow][stack-overflow] or some
+other public discussion forum and rewrite it to be less repellant.
 
 ### Saving Face (individual/10)
 
@@ -767,9 +757,9 @@ with programming ability, and see if these two ever come up.
 
 In pairs, choose a lesson whose materials are online and independently
 rank it according to the do's and don'ts in [these
-posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/).
-Where did you and your partner agree? Where did you disagree? How well
-did the lesson do for each of the six categories of user?
+posters][accessibility-posters].  Where did you and your partner
+agree? Where did you disagree? How well did the lesson do for each of
+the six categories of user?
 
 ### Tracing the Cycle (small groups/15)
 

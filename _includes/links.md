@@ -9,12 +9,14 @@ definitions if that's done.
 
 [4h-club]: http://www.4-h-canada.ca/
 
+[accessibility-posters]: https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
 [acm-guidelines]: https://www.acm.org/education/curricula-recommendations
 [ada-guidelines]: https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community
 [adept]: https://betterexplained.com/articles/adept-method/
 [appear-in]: https://appear.in/
 
 [berlin-liberty]: https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty
+[bernhardt-rewrite]: https://www.destroyallsoftware.com/blog/2018/a-case-study-in-not-being-a-jerk-in-open-source
 [black-girls-code]: http://www.blackgirlscode.com/
 [blockly]: https://developers.google.com/blockly/
 [bootstrap]: http://www.bootstrapworld.org/
@@ -29,14 +31,16 @@ definitions if that's done.
 [cmap-seasons]: https://cmap.ihmc.us/
 [community-types]: https://www.feverbee.com/types-of-community-and-activity-within-the-community/
 [constructive-alignment]: https://en.wikipedia.org/wiki/Constructive_alignment
+[cottrill-assessment]: https://mobile.nytimes.com/2016/04/10/upshot/why-talented-black-and-hispanic-students-can-go-undiscovered.html
 [covenant]: https://www.contributor-covenant.org
 [cra]: https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/
-[cs-principles-pd]: http://www.pd4cs.org/
 [cs-teaching-tips]: http://csteachingtips.org/
 [cs-unplugged]: https://csunplugged.org/en/
+[curb-cut]: https://en.wikipedia.org/wiki/Curb_cut
 
 [deming-manufacturing]: https://en.wikipedia.org/wiki/W._Edwards_Deming
 [design-patterns]: https://en.wikipedia.org/wiki/Software_design_pattern
+[docker]: http://docker.com
 [doxtdator-jobs]: http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/
 [dreyfus-model]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
 [dunning-kruger]: https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect
@@ -48,9 +52,11 @@ definitions if that's done.
 [famous-five]: https://en.wikipedia.org/wiki/The_Famous_Five_Canada
 [four-stages]: https://en.wikipedia.org/wiki/Four_stages_of_competence
 [franklin-effect]: https://en.wikipedia.org/wiki/Ben_Franklin_effect
+[frameshift-ally]: https://frameshiftconsulting.com/ally-skills-workshop/
 [frontier-college]: https://www.frontiercollege.ca/
 
 [github]: http://github.com
+[glitch]: https://glitch.com/
 [good-teacher-effects]: http://educationnext.org/in-schools-teacher-quality-matters-most-coleman/
 [google-docs]: http://docs.google.com
 [google-hangouts]: http://hangouts.google.com
@@ -77,10 +83,14 @@ definitions if that's done.
 [loupe]: http://latentflip.com/loupe/
 
 [mayer-reasons]: http://blog.mrmeyer.com/2016/why-secondary-teachers-dont-want-a-github-for-lesson-plans/
+[medina-needs]: https://www.palomamedina.com/biceps
+[mindset-replication]: https://educhatter.wordpress.com/2017/03/26/growth-mindset-is-the-theory-flawed-or-has-gm-been-debased-in-the-classroom/
+[miserandino-spoons]: https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/
 [moodle]: http://moodle.org
 [mousepose]: https://boinx.com/mousepose/overview/
 [moz-guidelines]: https://moz.com/learn/seo/on-page-factors
 
+[nihil-de-nobis]: https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us
 [noaa-disruptive]: https://coast.noaa.gov/ddb/story_html5.html
 [nonprofit-ready]: https://www.nonprofitready.org/
 [not-even-wrong]: https://en.wikipedia.org/wiki/Not_even_wrong
@@ -89,20 +99,26 @@ definitions if that's done.
 [orwell-why]: http://www.resort.com/~prime8/Orwell/whywrite.html
 
 [partanen-finland-schools]: https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/
+[patitsas-capital]: https://patitsas.blogspot.com/2018/03/spoons-are-form-of-capital.html
+[pd4cs]: http://www.pd4cs.org/
+[pd4cs-exercises]: http://www.pd4cs.org/mc-index/
 [pep-8]: https://www.python.org/dev/peps/pep-0008/
 [personalized-learning-improvements]: https://www.rand.org/pubs/research_briefs/RB9994.html
 [phone-numbers]: https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used
+[pointer-focus]: http://www.pointerfocus.com/
 [primm]: http://blogs.kcl.ac.uk/cser/2017/09/01/primm-a-structured-approach-to-teaching-programming/
 [producing-oss]: http://producingoss.com/
 
 [quora]: http://www.quora.com
 
 [sakai]: https://www.sakaiproject.org/
+[screen-reader]: https://en.wikipedia.org/wiki/Screen_reader
 [self-determination-theory]: https://en.wikipedia.org/wiki/Self-determination_theory
 [sigcse]: http://sigcse.org/
 [slack]: http://slack.com
 [stack-overflow]: https://stackoverflow.com/
 [stencila]: http://stenci.la/
+[stereotype-threat-replication]: https://www.psychologytoday.com/blog/rabble-rouser/201512/is-stereotype-threat-overcooked-overstated-and-oversold
 [stride]: https://www.greenfoot.org/frames/
 [swc-shell-novice]: http://swcarpentry.github.io/shell-novice/
 [swc]: http://software-carpentry.org
@@ -124,6 +140,7 @@ definitions if that's done.
 [video-screencast-bad]: https://youtu.be/xcnoHaxXvdQ
 
 [watters-timeline]: http://teachingmachin.es/timeline.html
+[webaim]: http://webaim.org/
 [wickes-analysis]: https://twitter.com/elliewix/status/981285432922202113
 [wilson-reasons]: http://third-bit.com/2016/04/29/why-teachers-dont-collaborate.html
 [wordpress]: https://wordpress.org/

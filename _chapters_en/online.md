@@ -133,28 +133,28 @@ experience or learner goals.
 So how should the web be used in teaching and learning tech skills? From
 an educational point of view, its pros and cons are:
 
-- **Learners can access more lessons, more quickly, than ever before.**
-  Provided, of course, that a search engine considers those lessons
+Learners can access more lessons, more quickly, than ever before.
+: Provided, of course, that a search engine considers those lessons
   worth indexing, that their internet service provider and government
   don't block it, that the truth isn't drowned in a sea of
   attention-sapping disinformation.
 
-- **Learners can access *better* lessons than ever before,**
-  unless they are being steered toward second-rate material in order
+Learners can access *better* lessons than ever before,
+: unless they are being steered toward second-rate material in order
   to redistribute wealth from the have-nots to the haves
   [[McMi2017](#CITE)]. (It's worth remembering that scarcity increases
   perceived value, so as online education becomes cheaper, it will be
   seen as being worth less.)
 
-- **Learners can access far more people than ever before as well.**
-  But only if those learners actually have access to the required
+Learners can access far more people than ever before as well.
+: But only if those learners actually have access to the required
   technology, can afford to use it, and aren't driven offline by
   harassment or marginalized because they don't conform to the social
   norms of whichever group is talking loudest. In practice, most MOOC
   users come from secure, affluent backgrounds [[Hansen2015](#CITE)].
 
-- **Teachers can get far more detailed insight into how learners work.**
-  So long as learners are doing things that are amenable to
+Teachers can get far more detailed insight into how learners work.
+: So long as learners are doing things that are amenable to
   large-scale automated analysis and either don't object to the use of
   ubiquitous surveillance in the classroom, or aren't powerful enough
   for their objections to matter.
@@ -162,44 +162,44 @@ an educational point of view, its pros and cons are:
 [[Marg2015](#CITE),[Mill2016a](#CITE),[Nils2017](#CITE)] describe ways to accentuate the
 positives in the list above while avoiding the negatives:
 
-- **Make deadlines frequent and well-publicized,**
-  and enforce them, so that learners will get into a work rhythm.
+Make deadlines frequent and well-publicized,
+: and enforce them, so that learners will get into a work rhythm.
 
-- **Keep synchronous all-class activities like live lectures to a minimum**
-  so that people don't miss things because of scheduling conflicts.
+Keep synchronous all-class activities like live lectures to a minimum
+: so that people don't miss things because of scheduling conflicts.
 
-- **Have learners contribute to collective knowledge,**
-  e.g., take notes together ([s:classroom-notetaking](#SECTION)),
+Have learners contribute to collective knowledge,
+: e.g., take notes together ([s:classroom-notetaking](#SECTION)),
   serve as classroom scribes, or contribute problems to shared problem
   sets ([s:individual-peer](#SECTION)).
 
-- **Encourage or require learners to do some of their work in small groups**
-  that *do* have synchronous online activities such as a weekly online
+Encourage or require learners to do some of their work in small groups
+: that *do* have synchronous online activities such as a weekly online
   discussion to help learners stay engaged and motivated without
   creating too many scheduling headaches. (See
   [s:meetings](#APPENDIX) for some tips on how to make these
   discussions fair and productive.)
 
-- **Create, publicize, and enforce a code of conduct**
-  so that everyone can actually (as opposed to theoretically) take
+Create, publicize, and enforce a code of conduct
+: so that everyone can actually (as opposed to theoretically) take
   part in online discussions ([s:intro-code-of-conduct](#SECTION)).
 
-- **Use lots of short lesson episodes rather than a handful of lecture-length chunks**
-  in order to minimize cognitive load and provide lots of
+Use lots of short lesson episodes rather than a handful of lecture-length chunks
+: in order to minimize cognitive load and provide lots of
   opportunities for formative assessment. This also helps with
   maintenance: if all of your videos are short, you can simply
   re-record any that need maintenance, which is often cheaper than
   trying to patch longer ones.
 
-- **Use video to engage rather than instruct,**
-  since, disabilities aside, learners can read faster than you can
+Use video to engage rather than instruct,
+: since, disabilities aside, learners can read faster than you can
   talk. The exception to this rule is that video is actually the best
   way to teach people verbs (actions): short screencasts that show
   people how to use an editor, step through code in a debugger, and so
   on are more effective than screenshots with text.
 
-- **Identify and clear up misconceptions early**
-  ([s:models](#CHAPTER)). If data shows that learners are struggling
+Identify and clear up misconceptions early
+: ([s:models](#CHAPTER)). If data shows that learners are struggling
   with some parts of a lesson, create alternative explanations of
   those points and extra exercises for them to practice on.
 
@@ -351,17 +351,17 @@ are most effective, [[Mull2007a](#CITE)] assigned 364 first-year physics
 learners to online multimedia treatments of Newton's First and Second
 Laws in one of four styles:
 
-- **Exposition:**
-  concise lecture-style presentation.
+Exposition:
+: concise lecture-style presentation.
 
-- **Extended Exposition:**
-  as above with additional interesting information.
+Extended Exposition:
+: as above with additional interesting information.
 
-- **Refutation:**
-  Exposition with common misconceptions explicitly stated and refuted.
+Refutation:
+: Exposition with common misconceptions explicitly stated and refuted.
 
-- **Dialog:**
-  Learner-tutor discussion of the same material as in the Refutation.
+Dialog:
+: Learner-tutor discussion of the same material as in the Refutation.
 
 Refutation and Dialogue produced the greatest learning gains compared to
 Exposition; learners with low prior knowledge benefited most, and those
@@ -429,19 +429,19 @@ have some kind of discussion forum. [[Vell2017](#CITE)] analyzes
 discussion forum posts from 395 CS2 students at two universities by
 dividing them into four categories:
 
-- **Active:**
-  request for help that does not display reasoning and doesn't display
+Active:
+: request for help that does not display reasoning and doesn't display
   what the student has already tried or already knows.
 
-- **Constructive:**
-  reflect students' reasoning or attempts to construct a solution to
+Constructive:
+: reflect students' reasoning or attempts to construct a solution to
   the problem.
 
-- **Logistical:**
-  course policies, schedules, assignment submission, etc.
+Logistical:
+: course policies, schedules, assignment submission, etc.
 
-- **Content clarification:**
-  request for additional information that doesn't reveal the student's
+Content clarification:
+: request for additional information that doesn't reveal the student's
   own thinking.
 
 They found that constructive and logistical questions dominated, and
@@ -584,18 +584,18 @@ According to [[Irib2009](#CITE)], different disciplines focus on
 different factors affecting the success or otherwise of online
 communities:
 
-- **Business:**
-  customer loyalty, brand management, extrinsic motivation.
+Business:
+: customer loyalty, brand management, extrinsic motivation.
 
-- **Psychology:**
-  sense of community, intrinsic motivation.
+Psychology:
+: sense of community, intrinsic motivation.
 
-- **Sociology:**
-  group identity, physical community, social capital, collective
+Sociology:
+: group identity, physical community, social capital, collective
   action.
 
-- **Computer Science:**
-  technological implementation.
+Computer Science:
+: technological implementation.
 
 Which of these perspectives most closely corresponds to your own? Which
 are you least aligned with?

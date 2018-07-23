@@ -64,45 +64,45 @@ practice understand and support these progressions, and recognize that
 each step is meant to give people a ramp rather than a cliff. Some of
 the ways they do this include:
 
-- **Problem solving:**
-  "I'm stuck---Can we work on this design and brainstorm some ideas?"
+Problem solving:
+: "I'm stuck---Can we work on this design and brainstorm some ideas?"
 
-- **Requests for information:**
-  "Where can I find the code to connect to the server?"
+Requests for information:
+: "Where can I find the code to connect to the server?"
 
-- **Seeking experience:**
-  "Has anyone dealt with a customer in this situation?"
+Seeking experience:
+: "Has anyone dealt with a customer in this situation?"
 
-- **Reusing assets:**
-  "I have a proposal for an event website that I wrote for a client
+Reusing assets:
+: "I have a proposal for an event website that I wrote for a client
   last year you can use as a starting point."
 
-- **Coordination and synergy:**
-  "Can we combine our purchases of web hosting to get a discount?"
+Coordination and synergy:
+: "Can we combine our purchases of web hosting to get a discount?"
 
-- **Building an argument:**
-  "How do people in other companies do this? Armed with this
+Building an argument:
+: "How do people in other companies do this? Armed with this
   information it will be easier to convince my CEO to make some
   changes."
 
-- **Growing confidence:**
-  "Before I do it, I'll run it through my community first to see what
+Growing confidence:
+: "Before I do it, I'll run it through my community first to see what
   they think."
 
-- **Discussing developments:**
-  "What do you think of the new work tracking system? Does it really
+Discussing developments:
+: "What do you think of the new work tracking system? Does it really
   help?"
 
-- **Documenting projects:**
-  "We have faced this problem five times now. Let us write it down
+Documenting projects:
+: "We have faced this problem five times now. Let us write it down
   once and for all."
 
-- **Visits:**
-  "Can we come and see your after-school program? We need to establish
+Visits:
+: "Can we come and see your after-school program? We need to establish
   one in our city."
 
-- **Mapping knowledge and identifying gaps:**
-  "Who knows what, and what are we missing? What other groups should
+Mapping knowledge and identifying gaps:
+: "Who knows what, and what are we missing? What other groups should
   we connect with?"
 
 Whatever the domain, situated learning emphasizes that learning is a
@@ -110,18 +110,18 @@ social activity. In order to be effective and sustainable, teaching
 therefore needs to be rooted in a community; if one doesn't exist, you
 need to build one. There are at least [four types][community-types]:
 
-- **Community of action:**
-  people focused on a shared goal, such as getting someone elected.
+Community of action:
+: people focused on a shared goal, such as getting someone elected.
 
-- **Community of concern:**
-  members are brought together by a shared exercise, such as dealing
+Community of concern:
+: members are brought together by a shared exercise, such as dealing
   with depression.
 
-- **Community of interest:**
-  focused on a shared love of something like backgammon or knitting.
+Community of interest:
+: focused on a shared love of something like backgammon or knitting.
 
-- **Community of place:**
-  of people who happen to live or work side by side.
+Community of place:
+: of people who happen to live or work side by side.
 
 Most real communities are mixes of these, such as people in Toronto who
 like teaching tech; what matters is that you pick something and stick
@@ -214,30 +214,29 @@ large enough topic to deserve a long discussion in
 retirement. Sooner or later, everyone moves on (including you). When
 this happens:
 
-- **Ask people to be explicit about their departure**
-  so that everyone knows they've actually left.
+Ask people to be explicit about their departure
+: so that everyone knows they've actually left.
 
-- **Make sure they don't feel embarrassed or ashamed about leavin**
-
-- **Give them an opportunity to pass on their knowledge.**
+Make sure they don't feel embarrassed or ashamed about leavin
+:- **Give them an opportunity to pass on their knowledge.**
   For example, you can ask them to mentor someone for a few weeks as
   their last contribution, or to be interviewed by someone who's
   staying with the organization to collect any stories that are worth
   re-telling.
 
-- **Make sure they hand over the keys.**
-  It's awkward to discover six months after someone has left that
+Make sure they hand over the keys.
+: It's awkward to discover six months after someone has left that
   they're the only person who knows how to book a playing field for
   the annual softball game.
 
-- **Follow up 2--3 months after they leave**
-  to see if they have any further thoughts about what worked and what
+Follow up 2--3 months after they leave
+: to see if they have any further thoughts about what worked and what
   didn't while they were with you, or any advice to offer that they
   either didn't think to give or were uncomfortable giving on their
   way out the door.
 
-- **Thank them,**
-  both when they leave and the next time your group gets together.
+Thank them,
+: both when they leave and the next time your group gets together.
 
 ## Retention {#s:community-retention}
 
@@ -251,8 +250,8 @@ enjoy cooking, coaching, or just working quietly beside others. There
 are several things every organization should do to ensure that people
 are getting something they value out of their work:
 
-- **Ask people what they want rather than guessing.**
-  Just as you are not your learners ([s:process-personas](#SECTION)),
+Ask people what they want rather than guessing.
+: Just as you are not your learners ([s:process-personas](#SECTION)),
   you are probably different from other members of your organization.
   Ask people what they want to do, what they're comfortable doing
   (which may not be the same thing), what constraints there are on
@@ -261,8 +260,8 @@ are getting something they value out of their work:
   uncover the fact that they like interacting with people but would
   rather not be managing the group's finances, or vice versa.
 
-- **Provide many ways to contribute.**
-  The more ways there are for people to help, the more people will be
+Provide many ways to contribute.
+: The more ways there are for people to help, the more people will be
   able to help. Someone who doesn't like standing in front of an
   audience may be able to maintain your organization's website or
   handle its accounts; someone who doesn't know how to do anything
@@ -270,14 +269,14 @@ are getting something they value out of their work:
   tasks you do yourself, the fewer opportunities there are for others
   to get involved.
 
-- **Recognize contributions.**
-  Everyone likes to be appreciated, so communities should acknowledge
+Recognize contributions.
+: Everyone likes to be appreciated, so communities should acknowledge
   their members' contributions both publicly and privately by
   mentioning them in presentations, putting them on the website, and
   so on.
 
-- **Make space.**
-  Micromanaging or trying to control everything centrally means people
+Make space.
+: Micromanaging or trying to control everything centrally means people
   won't feel they have the autonomy to act, which will probably cause
   them to drift away. In particular, if you're too engaged or too
   quick on the reply button, people have less opportunity to grow as
@@ -348,30 +347,30 @@ surrounds the actual process of getting work done, so the Ada
 Initiative has [guidelines][ada-guidelines] for communities to go with
 those given in [s:motivation-demotivation](#SECTION)for individuals:
 
-- **Encourage people.**
-  This is as simple as it is effective.
+Encourage people.
+: This is as simple as it is effective.
 
-- **Discourage hostility and bickering.**
-  Public, hostile, personal arguments are a natural breeding ground
+Discourage hostility and bickering.
+: Public, hostile, personal arguments are a natural breeding ground
   for impostor syndrome.
 
-- **Eliminate hidden barriers to participation.**
-  Be explicit about welcoming new students and colleagues, and
+Eliminate hidden barriers to participation.
+: Be explicit about welcoming new students and colleagues, and
   thoroughly document how someone can participate in projects and
   events in your research group and at your institution.
 
-- **As a leader, show your own uncertainties**
-  and demonstrate your own learning process. When people see leaders
+As a leader, show your own uncertainties
+: and demonstrate your own learning process. When people see leaders
   whom they respect struggling or admitting they didn't already know
   everything when they started, having realistic opinions of their own
   work becomes easier.
 
-- **Reward and encourage people for mentoring newcomers.**
-  Officially enshrine mentoring as an important criterion in your
+Reward and encourage people for mentoring newcomers.
+: Officially enshrine mentoring as an important criterion in your
   career advancement process.
 
-- **Don't make it personal when someone's work isn't up to snuff.**
-  When enforcing necessary quality standards, don't make the issue
+Don't make it personal when someone's work isn't up to snuff.
+: When enforcing necessary quality standards, don't make the issue
   about the person. They aren't wrong or stupid or a waste of space;
   they've simply done one piece of work that didn't meet your
   expectations.
@@ -460,42 +459,42 @@ to contribute despite themselves. In small groups, pick three of the
 people below and discuss how you would help them become a better
 contributor to your organization.
 
-- **Anna**
-  knows more about every subject than everyone else put together---at
+Anna
+: knows more about every subject than everyone else put together---at
   least, she thinks she does. No matter what you say, she'll correct
   you; no matter what you know, she knows better.
 
-- **Catherine**
-  has so little confidence in her own ability that she won't make any
+Catherine
+: has so little confidence in her own ability that she won't make any
   decision, no matter how small, until she has checked with someone
   else.
 
-- **Frank**
-  believes that knowledge is power, and enjoys knowing things that
+Frank
+: believes that knowledge is power, and enjoys knowing things that
   other people don't. He can make things work, but when asked how he
   did it, he'll grin and say, "Oh, I'm sure you can figure it out."
 
-- **Hediyeh**
-  is quiet. She never speaks up in meetings, even when she knows that
+Hediyeh
+: is quiet. She never speaks up in meetings, even when she knows that
   what other people are saying is wrong. She might contribute to the
   mailing list, but she's very sensitive to criticism, and will always
   back down rather than defending her point of view.
 
-- **Kenny**
-  has discovered that most people would rather shoulder his share of
+Kenny
+: has discovered that most people would rather shoulder his share of
   the work than complain about him, and he takes advantage of it at
   every turn. The frustrating thing is that he's so damn *plausible*
   when someone finally does confront him. "There have been mistakes on
   all sides," he says, or, "Well, I think you're nit-picking."
 
-- **Melissa**
-  means well, but somehow something always comes up, and her tasks are
+Melissa
+: means well, but somehow something always comes up, and her tasks are
   never finished until the last possible moment. Of course, that means
   that everyone who is depending on her can't do their work until
   *after* the last possible moment...
 
-- **Raj**
-  is rude. "It's just the way I talk," he says, "If you can't hack it,
+Raj
+: is rude. "It's just the way I talk," he says, "If you can't hack it,
   maybe you should find another team." His favorite phrase is, "That's
   stupid," and he uses obscenity in every second sentence.
 

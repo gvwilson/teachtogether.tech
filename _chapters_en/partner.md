@@ -192,21 +192,21 @@ methods you can use, and organizes them according to whether they're
 best deployed early on, later, throughout the change cycle, or when you
 encounter resistance. A handful of their patterns include:
 
-- **Small Successes:**
-  To avoid becoming overwhelmed by the exercises and all the things
+Small Successes:
+: To avoid becoming overwhelmed by the exercises and all the things
   you have to do when you're involved in an organizational change
   effort, celebrate even small successes.
 
-- **In Your Space:**
-  Keep the new idea visible by placing reminders throughout the
+In Your Space:
+: Keep the new idea visible by placing reminders throughout the
   organization.
 
-- **Token:**
-  To keep a new idea alive in a person's memory, hand out tokens that
+Token:
+: To keep a new idea alive in a person's memory, hand out tokens that
   can be identified with the topic being introduced.
 
-- **Champion Skeptic:**
-  Ask strong opinion leaders who are skeptical of your new idea to
+Champion Skeptic:
+: Ask strong opinion leaders who are skeptical of your new idea to
   play the role of "official skeptic". Use their comments to improve
   your effort, even if you don't change their minds.
 

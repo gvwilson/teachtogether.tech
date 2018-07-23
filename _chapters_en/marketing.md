@@ -198,41 +198,41 @@ introduction is another. As with standing up and teaching, though, it's
 a craft that can be learned like any other, and there are a few simple
 rules you can follow:
 
-- **Establish a point of connection**
-  such as "I was speaking to X" or "You attended bootcamp Y". This
+Establish a point of connection
+: such as "I was speaking to X" or "You attended bootcamp Y". This
   must be specific: spammers and headhunters have trained us all to
   ignore anything that starts, "I recently read your website".
 
-- **Create a slight sense of urgency**
-  by saying something like, "We're booking workshops right now." Be
+Create a slight sense of urgency
+: by saying something like, "We're booking workshops right now." Be
   cautious with this, though; as with the previous recommendation, the
   web's race to the bottom has conditioned people to discount anything
   that sounds like a hustle.
 
-- **Explain how you are going to help make their lives better.**
-  A pitch like "Your students will be able to do their math homework
+Explain how you are going to help make their lives better.
+: A pitch like "Your students will be able to do their math homework
   much faster if you let us tutor them" is a good attention-getter.
 
-- **Be specific about what you are offering.**
-  "Our usual two-day curriculum includes..." helpers
+Be specific about what you are offering.
+: "Our usual two-day curriculum includes..." helpers
   listeners figure out right away whether a conversation is worth
   pursuing.
 
-- **Make yourself credible**
-  by mentioning your backers, your size, how long you've been around,
+Make yourself credible
+: by mentioning your backers, your size, how long you've been around,
   or your instructors's backgrounds.
 
-- **Tell them what your terms are.**
-  Do you charge money? Do they need to cover instructors' travel
+Tell them what your terms are.
+: Do you charge money? Do they need to cover instructors' travel
   costs? Can they reserve seats for their own staff?
 
-- **Write a good subject line.**
-  Keep it short, avoid ALL CAPS, words like "sale" or "free" (which
+Write a good subject line.
+: Keep it short, avoid ALL CAPS, words like "sale" or "free" (which
   increase the odds that your message will be treated as spam), and
   never! use! exclamation! marks!
 
-- **Keep it short,**
-  since the purest form of respect is to treat other people as if
+Keep it short,
+: since the purest form of respect is to treat other people as if
   their time was as valuable as your own.
 
 The email template below puts all of these points in action. It has

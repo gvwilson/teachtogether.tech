@@ -8,7 +8,7 @@ JEKYLL=jekyll
 LATEX=pdflatex
 BIBTEX=bibtex
 PANDOC=pandoc
-PANDOC_FLAGS=--from=gfm --to=latex
+PANDOC_FLAGS=--from=markdown --to=latex
 REPO=http://github.com/gvwilson/teachtogether.tech
 
 # Language-dependent settings.
@@ -54,7 +54,7 @@ ${DIR_TEX}/book.pdf : ${CHAPTERS_TEX} ${DIR_TEX}/book.bib
 ${DIR_TEX}/inc/%.tex : ${DIR_MD}/%.md bin/texpre.py bin/texpost.py _includes/links.md
 	mkdir -p ${DIR_TEX}/inc && \
 	cat $< \
-	| bin/texpre.py \
+	| bin/texpre.py _config.yml \
 	| ${PANDOC} ${PANDOC_FLAGS} -o - \
 	| bin/texpost.py _includes/links.md \
 	> $@

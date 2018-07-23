@@ -122,18 +122,18 @@ that gets you into trouble. It's what you know for sure that just ain't
 so." Broadly speaking, novices' misconceptions fall into three
 categories:
 
-- **Factual errors**
-  like believing that Vancouver is the capital of British Columbia
+Factual errors
+: like believing that Vancouver is the capital of British Columbia
   (it's Victoria). These are simple to correct, but getting the
   facts right is not enough on its own.
 
-- **Broken models**
-  like believing that motion and acceleration must be in the same
+Broken models
+: like believing that motion and acceleration must be in the same
   direction. We can address these by having novices reason through
   examples that draw attention to contradictions.
 
-- **Fundamental beliefs**
-  such as "the world is only a few thousand years old" or "some kinds
+Fundamental beliefs
+: such as "the world is only a few thousand years old" or "some kinds
   of people are just naturally better at programming than others"
   [[Guzd2015b](#CITE),[Pati2016](#CITE)]. These are also broken models, but
   often deeply connected to the learner's social identity, so they
@@ -343,18 +343,18 @@ is sometimes called the [Dreyfus model][dreyfus-model].  Another
 commonly-used progression is the [four stages of
 competence][four-stages]:
 
-- **Unconscious incompetence:**
-  the person doesn't know what they don't know.
+Unconscious incompetence:
+: the person doesn't know what they don't know.
 
-- **Conscious incompetence:**
-  the person realizes that they don't know something.
+Conscious incompetence:
+: the person realizes that they don't know something.
 
-- **Conscious competence:**
-  the person has learned how to do something, but can only do it while
+Conscious competence:
+: the person has learned how to do something, but can only do it while
   concentrating, and may still need to break things down into steps.
 
-- **Unconscious competence:**
-  the skill has become second nature, and the person can do it
+Unconscious competence:
+: the skill has become second nature, and the person can do it
   reflexively.
 
 Identify one subject where you are at each level. What level are most of
@@ -369,16 +369,16 @@ manual? What about the appendices? Why?
 
 [[Tedr2008](#CITE)] summarizes three traditions in computing:
 
-- **Mathematical:**
-  Programs are the embodiment of algorithms; they are either correct
+Mathematical:
+: Programs are the embodiment of algorithms; they are either correct
   or incorrect, as well as more or less efficient.
 
-- **Scientific:**
-  Programs are more or less accurate models of information processes
+Scientific:
+: Programs are more or less accurate models of information processes
   that can be studied using the scientific method.
 
-- **Engineering:**
-  Programs are built objects like dams and airplanes, and are more or
+Engineering:
+: Programs are built objects like dams and airplanes, and are more or
   less effective and reliable.
 
 Which of these best matches your mental model of computing? If none of
