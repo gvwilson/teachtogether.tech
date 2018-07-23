@@ -5,7 +5,7 @@ import re
 import yaml
 
 
-CONFIG_KEYS = ['email', 'repo', 'website']
+CONFIG_KEYS = ['email', 'isbn', 'purchase', 'repo', 'website']
 SINGLES = [('---', r'```'),
            ('---', r'```'),
            ('{% include links.md %}', '')]
@@ -15,7 +15,7 @@ def main(configPath):
     settings = readConfig(configPath)
     doc = sys.stdin.read()
     for key in settings:
-        doc = doc.replace('{{' + key + '}}', settings[key])
+        doc = doc.replace(key, settings[key])
     for (src, dst) in SINGLES:
         doc = doc.replace(src, dst, 1)
     for func in FUNCS:
@@ -28,7 +28,7 @@ def readConfig(configPath):
         config = yaml.load(reader)
     result = {}
     for key in CONFIG_KEYS:
-        result[key] = config[key]
+        result['{{site.' + key + '}}'] = config[key]
     return result
 
 

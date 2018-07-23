@@ -178,17 +178,18 @@ the rest of this material ([s:license](#APPENDIX)). If your material is
 incorporated, we will add you to the acknowledgments
 ([s:intro-acknowledgments](#SECTION)) unless you request otherwise.
 
-- The source for this book is stored on GitHub at <{{site.repo}}>. If
-  you know how to use Git and GitHub and would like to change, fix, or
-  add something, please submit a [pull request](#g:pull-request) that
-  modifies the LaTeX source in the `tex` directory. If you would like
-  to preview your changes, please read the instructions in the
-  `BUILD.md` file in the root directory of the project.
+- The source for this book is stored on GitHub at
+  [{{site.repo}}]({{site.repo}}). If you know how to use Git and
+  GitHub and would like to change, fix, or add something, please
+  submit a [pull request](#g:pull-request) that modifies the LaTeX
+  source in the `tex` directory. If you would like to preview your
+  changes, please read the instructions in the `BUILD.md` file in the
+  root directory of the project.
 
 - If you simply want to report an error, ask a question, or make a
-  suggestion, please file an issue at <{{site.repo}}>. You need to have
-  a GitHub account in order to do this, but do not need to know how to
-  use Git.
+  suggestion, please file an issue at
+  [{{site.repo}}]({{site.repo}}). You need to have a GitHub account in
+  order to do this, but do not need to know how to use Git.
 
 - If you do not wish to create a GitHub account, please email your
   contribution to [{{site.email}}](mailto:{{site.email}}) with either
@@ -198,9 +199,10 @@ incorporated, we will add you to the acknowledgments
 Please note that we also welcome improvements to our build process,
 tooling, and typography, and are always grateful for more diagrams;
 please see the file `BUILD.md` in the root directory of the book's
-GitHub repository at <{{site.repo}}> for more information. Finally, we
-always enjoy hearing how people have used this material: please let us
-know if you have a story you would like to share.
+GitHub repository at [{{site.repo}}]({{site.repo}}) for more
+information. Finally, we always enjoy hearing how people have used
+this material: please let us know if you have a story you would like
+to share.
 
 ### A Teaching Commons
 

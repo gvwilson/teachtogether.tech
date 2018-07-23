@@ -33,14 +33,14 @@ you can see what a lesson design looks like.
 
 > **This Book Belongs to Everyone**
 > 
-
 > This book is a community resource. Parts of it were originally
 > created for [the Software Carpentry instructor training
 > program][carpentries-training], which has been run over several
 > hundred times over the past six years, and all of it can be freely
 > distributed and re-used under the [Creative Commons - Attribution
-> 4.0 license][cc-by-license]. Please see <{{site.website}}> to
-> download a digital version or to purchase a printed copy at cost.
+> 4.0 license][cc-by-license] ([s:license](#APPENDIX)). Please see
+> [{{site.website}}]({{site.website}}) to download a digital version
+> or [purchase a printed copy]({{site.purchase}}) at cost.
 >
 > Contributions of all kinds are welcome, from errata and minor
 > improvements to entirely new sections and chapters. All proposed

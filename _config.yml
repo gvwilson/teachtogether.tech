@@ -3,10 +3,11 @@ title: "Teaching Tech Together"
 subtitle: "How to create and deliver lessons that work and build a teaching community around them"
 author: "Greg Wilson"
 copyrightyear: "2018"
-repo: https://github.com/gvwilson/t3/
-email: gvwilson@third-bit.com
+repo: "https://github.com/gvwilson/teachtogether.tech/"
+email: "gvwilson@third-bit.com"
 isbn: "978-0-9881137-0-1"
 website: "http://teachtogether.tech/"
+purchase: "http://www.lulu.com/commerce/index.php?fBuyContent=23123539"
 
 # Theme color.
 background: "#f0f0f0"

@@ -154,7 +154,11 @@ def hrefSub(doc, linksPath):
         links = dict([(m.group(1), untex(m.group(2))) for m in links if m])
 
     def replaceUse(m):
-        return r'\href{' + links.get(m.group(1), 'MISSING') + '}{' + m.group(2) + '}'
+        if m.group(1) in links:
+            result = r'\href{' + links[m.group(1)] + '}{' + m.group(2) + '}'
+        else:
+            result = m.group(0)
+        return result
 
     uses = rxc(r'\\href{(.+?)}{(.+?)}')
     doc = uses.sub(replaceUse, doc)
