@@ -148,10 +148,7 @@ FUNCS = [appref, chapref, cite, figref, figure, glossdef, glossref,
 
 
 def hrefSub(doc, linksPath):
-    with open(linksPath, 'r') as reader:
-        defs = re.compile(r'\[(.+?)\]\s*:\s*(.+)')
-        links = [defs.search(line) for line in reader.readlines()]
-        links = dict([(m.group(1), untex(m.group(2))) for m in links if m])
+    links = readLinks(linksPath)
 
     def replaceUse(m):
         if m.group(1) in links:
@@ -163,6 +160,14 @@ def hrefSub(doc, linksPath):
     uses = rxc(r'\\href{(.+?)}{(.+?)}')
     doc = uses.sub(replaceUse, doc)
     return doc
+
+
+def readLinks(linksPath):
+    with open(linksPath, 'r') as reader:
+        defs = re.compile(r'\[(.+?)\]\s*:\s*(.+)')
+        links = [defs.search(line) for line in reader.readlines()]
+        links = dict([(m.group(1), untex(m.group(2))) for m in links if m])
+    return links
 
 
 def untex(x):

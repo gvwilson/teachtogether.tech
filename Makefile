@@ -18,7 +18,8 @@ BIB_SRC=files/${lang}.bib
 WORDS_SRC=misc/${lang}.txt
 
 # Filesets.
-CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md ${DIR_MD}/index.md,$(wildcard ${DIR_MD}/*.md))
+ALL_MD=$(wildcard ${DIR_MD}/*.md)
+CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md ${DIR_MD}/index.md,${ALL_MD})
 CHAPTERS_TEX=$(patsubst ${DIR_MD}/%.md,${DIR_TEX}/inc/%.tex,${CHAPTERS_MD})
 
 # Controls
@@ -97,6 +98,10 @@ years :
 	@bin/years.py ${BIB_SRC}
 
 ## ----------------------------------------
+
+## checklinks : check that all links in source Markdown resolve.
+checklinks :
+	@bin/checklinks.py _includes/links.md ${ALL_MD}
 
 ## exercises  : count exercises per chapter.
 exercises : ${CHAPTERS_TEX}
