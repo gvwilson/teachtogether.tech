@@ -1,4 +1,4 @@
-# Check that language is set.
+# Check that language is set.  Do NOT set 'LANG', as that would override the platform's LANG setting.
 ifndef lang
 $(error Must set 'lang' with 'lang=en' or similar.)
 endif
@@ -22,7 +22,8 @@ WORDS_SRC=misc/${lang}.txt
 ALL_MD=$(wildcard ${DIR_MD}/*.md)
 CHAPTERS_MD=$(filter-out ${DIR_MD}/bib.md ${DIR_MD}/index.md,${ALL_MD})
 CHAPTERS_TEX=$(patsubst ${DIR_MD}/%.md,${DIR_TEX}/inc/%.tex,${CHAPTERS_MD})
-ALL_HTML=t3-${lang}.html
+CHAPTERS_HTML=$(patsubst ${DIR_MD}/%.md,${DIR_WEB}/%.html,${ALL_MD})
+ALL_HTML=all-${lang}.html
 
 # Controls
 .PHONY : commands serve site bib crossref clean
@@ -43,8 +44,8 @@ site :
 ## ebook      : regenerate all-in-one versions of book.
 ebook : ${ALL_HTML}
 
-${ALL_HTML} : _config.yml files/crossref.js
-	@bin/mergebook.py _config.yml files/crossref.js ${DIR_WEB} > $@
+${ALL_HTML} : _config.yml files/crossref.js bin/mergebook.py
+	@bin/mergebook.py ${lang} _config.yml files/crossref.js ${DIR_WEB} > $@
 
 ## pdf        : build PDF version of book.
 pdf : ${DIR_TEX}/book.pdf
@@ -148,7 +149,7 @@ nonascii :
 
 ## clean      : clean up junk files.
 clean :
-	@rm -rf _site ${ALL_HTML} ${DIR_TEX}/book.bib ${DIR_TEX}/inc */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
+	@rm -rf _site ${DIR_TEX}/book.bib ${CHAPTERS_TEX} */*.aux */*.bbl */*.blg */*.log */*.out */*.toc
 	@find . -name .DS_Store -exec rm {} \;
 	@find . -name '*~' -exec rm {} \;
 
@@ -167,3 +168,4 @@ settings :
 	@echo "WORDS_SRC=${WORDS_SRC}"
 	@echo "CHAPTERS_MD=${CHAPTERS_MD}"
 	@echo "CHAPTERS_TEX=${CHAPTERS_TEX}"
+	@echo "CHAPTERS_HTML=${CHAPTERS_HTML}"

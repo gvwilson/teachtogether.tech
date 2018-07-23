@@ -10,6 +10,10 @@
     <img src="{{'/files/t3logo.svg'|relative_url}}" alt="{{site.title}} logo" width="100%" />
     <p><em>{{site.title}}</em></p>
   {% if page.root %}</a></strong>{% else %}</a>{% endif %}
+  <p>
+    ({% if page.root %}<a href="./all.html">{% else %}<a href="../all.html">{% endif %}Single page version</a>)
+  </p>
+  <hr/>
   {% include toc-section.html language=include.language coll=chapters title="Lessons" toc=site.toc.lessons %}
   <hr/>
   {% include toc-section.html language=include.language coll=chapters title="Extras"  toc=site.toc.extras %}
@@ -20,6 +24,7 @@
   <p>
     {{site.translations[page.language].donate | replace: '^1', site.paypal}}
   </p>
+  <hr/>
   <hr/>
   <p>
     <a href="{{licensepath|relative_url}}">

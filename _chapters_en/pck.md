@@ -224,8 +224,8 @@ trace changes to variables as they go along ([f:pck-sketch](#FIGURE)),
 which [[Cunn2017](#CITE)] found was effective.
 
 <figure>
-  <img src="../../files/sketching-variables.svg" alt="Tracing the Values of Variables)" />
-  <figcaption id="f:pck-sketch">Tracing the Values of Variables)</figcaption>
+  <img src="../../files/sketching-variables.svg" alt="Tracing the Values of Variables" />
+  <figcaption id="f:pck-sketch">Tracing the Values of Variables</figcaption>
 </figure>
 
 When it comes to testing, novices seem just as reluctant to do it as
