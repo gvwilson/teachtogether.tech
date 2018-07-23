@@ -1,7 +1,9 @@
 {% if include.language == 'en' %}
   {% assign chapters = site.chapters_en %}
+  {% assign licensepath = '/en/license/' %}
 {% elsif include.language == 'um' %}
   {% assign chapters = site.chapters_um %}
+  {% assign licensepath = '/um/license/' %}
 {% endif %}
 <nav>
   {% if page.root %}<strong><a href="./">{% else %}<a href="../">{% endif %}
@@ -20,7 +22,9 @@
   </p>
   <hr/>
   <p>
-    <a href="{{'/license/'|relative_url}}"><img src="{{'/files/cc-by.svg'|relative_url}}" alt="CC-BY License" width="80%" /></a>
+    <a href="{{licensepath|relative_url}}">
+      <img src="{{'/files/cc-by.svg'|relative_url}}" alt="CC-BY License" width="80%" />
+    </a>
   </p>
   <p>
     <a href="mailto:{{site.email}}"><img src="{{'/files/email.svg'|relative_url}}" alt="Email" width="20%" /></a>
