@@ -8,6 +8,7 @@ email: "gvwilson@third-bit.com"
 isbn: "978-0-9881137-0-1"
 website: "http://teachtogether.tech/"
 purchase: "http://www.lulu.com/commerce/index.php?fBuyContent=23123539"
+paypal: "https://paypal.me/gvwilson/10CAD"
 
 # Theme color.
 background: "#f0f0f0"
@@ -85,8 +86,12 @@ toc:
 # Translations by language.
 translations:
   en:
+    donate: "This book is sold at cost. If you would like to support our work, please send <a href='^1'>$10</a> (or any other amount). All money will be used to pay for third-party editing and graphic design."
     generated: "Last generated"
+    lulu: "Buy this book on Lulu."
     objectives: "After reading this chapter, you will be able to..."
   um:
+    donate: "Cursus risus at ultrices, mi tempus imperdiet nulla malesuada pellentesque <a href='^1'>$10</a> (amet tellus cras). Dis parturient montes nascetur ridiculus mus mauris."
     generated: "Lastum generatum"
+    lulu: "Purchasum ad Lulu."
     objectives: "Sodales ut etiam sit amet nisl purus in..."

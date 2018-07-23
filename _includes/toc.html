@@ -13,6 +13,13 @@
   {% include toc-section.html language=include.language coll=chapters title="Extras"  toc=site.toc.extras %}
   <hr/>
   <p>
+    <a href="{{site.purchase}}"><img src="{{'/files/lulu.gif'|relative_url}}" border="0" alt="{{site.translations[page.language].lulu}}" /></a>
+  </p>
+  <p>
+    {{site.translations[page.language].donate | replace: '^1', site.paypal}}
+  </p>
+  <hr/>
+  <p>
     <a href="{{'/license/'|relative_url}}"><img src="{{'/files/cc-by.svg'|relative_url}}" alt="CC-BY License" width="80%" /></a>
   </p>
   <p>
