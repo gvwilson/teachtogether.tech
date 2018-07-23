@@ -83,7 +83,7 @@ Samira
   she's not an expert in. She wants to learn more about education in
   general in order to decide if it's for her.
 
-Gene**
+Gene
 : is a professor of computer science whose research area is operating
   systems. They have been teaching undergraduate classes for six
   years, and increasingly believe that there has to be a better way.
