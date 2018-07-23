@@ -79,6 +79,13 @@ help you go further. Its four sections cover:
 
 ## News
 
+2018-07-23:
+: Want to help make this book better?  Send us a few key insights from
+  your favorite chapters so that we can compile some "what to take
+  away" summaries based on what *you* found useful.  As always, you
+  can file an issue in [our GitHub repository]({{site.repo}}) or
+  [email us](mailto:{{site.email}}).
+
 2018-07-18:
 : If your e-reader is having trouble with our EPUB or MOBI files, try
   downloading [these versions from unglue.it][unglue-versions].  And
