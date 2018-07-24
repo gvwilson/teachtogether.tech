@@ -217,9 +217,11 @@ this happens:
 Ask people to be explicit about their departure
 : so that everyone knows they've actually left.
 
-Make sure they don't feel embarrassed or ashamed about leavin
-:- **Give them an opportunity to pass on their knowledge.**
-  For example, you can ask them to mentor someone for a few weeks as
+Make sure they don't feel embarrassed or ashamed about leaving
+: or about anything else.
+
+Give them an opportunity to pass on their knowledge.
+: For example, you can ask them to mentor someone for a few weeks as
   their last contribution, or to be interviewed by someone who's
   staying with the organization to collect any stories that are worth
   re-telling.

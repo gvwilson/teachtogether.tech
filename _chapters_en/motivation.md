@@ -528,9 +528,12 @@ Review your notes
 Emphasize that what matters is the rate at which they are learning,
 : not the advantages or disadvantages they had when they started.
 
-Encourage pair programmin
-:- **Actively mitigate behavior that some learners may find intimidating,**
-  e.g., use of jargon or "questions" that are actually asked to
+Encourage pair programming,
+: but demonstrate it first so that learners understand the roles
+  of driver and navigator.
+
+Actively mitigate behavior that some learners may find intimidating,
+: e.g., use of jargon or "questions" that are actually asked to
   display knowledge.
 
 At a higher level, committing to inclusive teaching may mean
