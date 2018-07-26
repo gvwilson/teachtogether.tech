@@ -9,5 +9,5 @@
 __pycache__
 _site
 tex_*/inc
-tex_*/*.bib
-tex_*/*.pdf
+tex_*/book.bib
+tex_*/book.pdf

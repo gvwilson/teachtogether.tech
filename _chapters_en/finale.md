@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/en/final/"
+permalink: "/en/finale/"
 title: "Why I Teach"
 ---
 

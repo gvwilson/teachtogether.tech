@@ -20,7 +20,7 @@ SECTION = re.compile(r'^(##+).+{#(.+)}')
 FIGURE = re.compile(r'figcaption\s+id="(f:.+?)"')
 
 
-def main():
+def main(root):
     '''
     Main driver: get configuration data from stdin, process each, patch
     the results, and write to stdout.
@@ -28,13 +28,13 @@ def main():
 
     config = yaml.load(sys.stdin)
 
-    paths = makePaths('./_chapters_en', config['toc']['lessons'])
+    paths = makePaths(root, config['toc']['lessons'])
     chapters = []
     for (slug, filename) in paths:
         chapters = findAndAdd(filename, slug, chapters)
     chapters = fixNumbers(chapters)
 
-    paths = makePaths('./_chapters_en', config['toc']['extras'])
+    paths = makePaths(root, config['toc']['extras'])
     appendices = []
     for (slug, filename) in paths:
         appendices = findAndAdd(filename, slug, appendices)
@@ -114,4 +114,7 @@ def makeAlpha(sections):
 
 # Command-line launch.
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) != 2:
+        sys.stderr.write('Usage: crossref /path/to/chapters\n')
+        sys.exit(1)
+    main(sys.argv[1])

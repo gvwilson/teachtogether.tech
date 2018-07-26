@@ -240,7 +240,7 @@ learn how to program:
 Part of what motivates me to teach is the hope that if enough people
 understand how to make technology work for them, we will be able to
 build a society in which *all* of the reasons above are valued and
-rewarded ([s:final](#CHAPTER)).
+rewarded ([s:finale](#CHAPTER)).
 
 ## Have a Code of Conduct {#s:intro-code-of-conduct}
 

@@ -12,7 +12,7 @@ import bibtexparser
 # Constants
 HEADER = '''---
 layout: default
-permalink: "/en/bib/"
+permalink: "/{}/bib/"
 title: "Bibliography"
 ---
 '''
@@ -137,12 +137,12 @@ HANDLERS = {
     'misc' : [_key, ': ', _authors, ': ', _papertitle, '. ', _howpublished, _details, (', ', _link), '. ', _note]
 }
 
-def main():
+def main(language):
     '''
     Main driver: read bibliography from stdin, format and print the entries to stdout.
     '''
     source = bibtexparser.loads(sys.stdin.read()).entries
-    print(HEADER)
+    print(HEADER.format(language))
     try:
         for entry in source:
             for h in HANDLERS[entry['ENTRYTYPE']]:
@@ -163,4 +163,7 @@ def main():
 
 # Command-line launch.
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) != 2:
+        sys.stderr.write('Usage: bib2m language\n')
+        sys.exit(1)
+    main(sys.argv[1])
