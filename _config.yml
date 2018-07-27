@@ -74,12 +74,17 @@ toc:
   - /marketing/
   - /partner/
   - /finale/
+  bib:
+  - /bib/
   extras:
   - /license/
   - /conduct/
   - /citation/
+<<<<<<< HEAD
   - /bib/
   - /joining/
+=======
+>>>>>>> ca4cf5374f8424a0dcdb755568dd282151aefb8f
   - /gloss/
   - /meetings/
   - /theory/

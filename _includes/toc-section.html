@@ -1,13 +1,13 @@
 {% comment %}
 Display a section of the table of contents.
 - title: the TOC section title.
-- toc: a section of the table of contents from _config.yml.
-- coll: the corresponding collection.
 - language: the two-letter code for the page language (e.g., 'en' for English).
+- coll: the corresponding collection.
+- toc: a section of the table of contents from _config.yml.
 {% endcomment %}
 
 {% if include.title %}<p><strong>{{include.title}}</strong></p>{% endif %}
-<ul>
+<ol class="{{include.class}}">
   {% assign prefix = '/' | append: include.language | append: '/' %}
   {%- for toc_entry in include.toc -%}
     {%- for item in include.coll -%}
@@ -21,4 +21,4 @@ Display a section of the table of contents.
       {%- endif -%}
     {%- endfor -%}
   {%- endfor -%}
-</ul>
+</ol>
