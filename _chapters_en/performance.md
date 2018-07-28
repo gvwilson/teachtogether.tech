@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/performance/"
 title: "Teaching as a Performance Art"
 objectives:

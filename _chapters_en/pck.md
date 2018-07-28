@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/pck/"
 title: "Actionable Approximations of the Truth"
 objectives:

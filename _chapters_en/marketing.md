@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/marketing/"
 title: "Marketing"
 objectives:

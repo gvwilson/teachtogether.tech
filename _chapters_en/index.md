@@ -1,5 +1,4 @@
 ---
-layout: default
 language: "en"
 permalink: "/en/"
 root: true

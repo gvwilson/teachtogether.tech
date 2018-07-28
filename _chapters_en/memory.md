@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/memory/"
 title: "Expertise and Memory"
 objectives:

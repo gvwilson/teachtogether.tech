@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/preassess/"
 title: "Pre-Assessment Questionnaire"
 ---

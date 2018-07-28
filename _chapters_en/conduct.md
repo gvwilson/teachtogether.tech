@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/conduct/"
 title: "Code of Conduct"
 ---

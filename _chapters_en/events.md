@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/events/"
 title: "Checklists for Events"
 ---

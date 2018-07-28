@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/classroom/"
 title: "In the Classroom"
 objectives:

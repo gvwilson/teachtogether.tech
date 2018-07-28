@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/meetings/"
 title: "Meetings, Meetings, Meetings"
 ---

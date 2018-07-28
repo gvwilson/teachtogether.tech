@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/finale/"
 title: "Why I Teach"
 ---

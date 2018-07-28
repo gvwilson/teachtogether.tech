@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/exercises/"
 title: "Exercise Types"
 objectives:

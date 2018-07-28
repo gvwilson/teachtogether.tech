@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/load/"
 title: "Cognitive Load"
 objectives:

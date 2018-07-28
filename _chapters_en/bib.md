@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/bib/"
 title: "Bibliography"
 ---

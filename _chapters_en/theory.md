@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/theory/"
 title: "A Little Bit of Theory"
 ---

@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/online/"
 title: "Teaching Online"
 objectives:

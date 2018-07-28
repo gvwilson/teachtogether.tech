@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/teacheval/"
 title: "Presentation Rubric"
 ---

@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/joining/"
 title: "Joining Our Community"
 ---

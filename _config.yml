@@ -13,8 +13,10 @@ paypal: "https://paypal.me/gvwilson/10CAD"
 # Theme color.
 background: "#f0f0f0"
 
-# Code highlighting.
+# Jekyll settings.
 highlighter: rouge
+plugins:
+  - "jekyll-redirect-from"
 
 # Things to ignore
 exclude:
@@ -25,6 +27,7 @@ exclude:
 - Makefile
 - README.md
 - bin
+- misc
 - requirements.txt
 - tex_en
 - tex_um
@@ -49,11 +52,13 @@ defaults:
       type: chapters_en
     values:
       language: "en"
+      layout: "default"
   - scope:
       path: ""
       type: chapters_um
     values:
       language: "um"
+      layout: "default"
 
 # Order for Table of Contents.
 toc:
@@ -102,3 +107,4 @@ translations:
     generated: "Lastum generatum"
     lulu: "Purchasum ad Lulu."
     objectives: "Sodales ut etiam sit amet nisl purus in..."
+    singlepage: "Single page version"

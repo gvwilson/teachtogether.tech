@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/community/"
 title: "Building Community"
 objectives:

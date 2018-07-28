@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/individual/"
 title: "Individual Learning"
 objectives:

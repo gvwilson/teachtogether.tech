@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/motivation/"
 title: "Motivation and Demotivation"
 objectives:

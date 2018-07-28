@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/partner/"
 title: "Partnerships"
 objectives:

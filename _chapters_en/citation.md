@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/citation/"
 title: "Citation"
 ---

@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/intro/"
 title: "Introduction"
 ---

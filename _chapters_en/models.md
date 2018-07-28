@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/models/"
 title: "Building Mental Models"
 objectives:

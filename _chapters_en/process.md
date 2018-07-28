@@ -1,5 +1,4 @@
 ---
-layout: default
 permalink: "/en/process/"
 title: "A Lesson Design Process"
 objectives:
