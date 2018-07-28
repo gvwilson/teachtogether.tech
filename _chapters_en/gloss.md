@@ -7,10 +7,6 @@ title: "Glossary"
 never encountered concepts or material before. The term is used in
 distinction to *false beginner*.
 
-**Agile development**{:#g:agile-development}: An approach to
-software development that emphasizes short iterations, incremental
-delivery, and close collaboration between customers and developers.
-
 **Authentic task**{:#g:authentic-task}: A task which contains
 important elements of things that learners would do in real
 (non-classroom situations). To be authentic, a task should require
@@ -34,10 +30,6 @@ unobservables. See also *cognitivism*.
 hierarchical classification of understand whose levels are *knowledge*,
 *comprehension*, *application*, *analysis*, *synthesis*, and
 *evaluation* that has been widely adopted. See also *Fink's Taxonomy*.
-
-**Branch coverage**{:#g:branch-coverage}: The degree to which a
-set of tests exercise all possible branches of control structures like
-`if`/`else` statements.
 
 **Brand**{:#g:brand}: The associations people have with a
 product's name or identity.
@@ -386,10 +378,6 @@ merged.
 practice in which the learner covers up key facts or terms during a
 first pass through material, then checks their recall on a second pass.
 
-**Reflecting listening**{:#g:reflective-listening}: The practice
-of paraphrasing a speaker's point back to them immediately after hearing
-it in order to confirm understanding.
-
 **Reflective practice**{:#g:reflective-practice}: see *deliberate
 practice*.
 
@@ -440,9 +428,6 @@ similar to those used in testing.
 
 **Twitch coding**{:#g:twitch-coding}: Having a group of people
 decide moment by moment or line by line what to add to a program next.
-
-**Understanding by design**{:#g:understanding-by-design}: see
-*backward design*.
 
 **Working memory**{:#g:working-memory}: see *short-term memory*.
 

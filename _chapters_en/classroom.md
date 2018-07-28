@@ -626,12 +626,13 @@ your learners will probably be grateful.
 
 ### Think-Pair-Share
 
-Think-pair-share is a lightweight technique that helps people refine
-their ideas and compare them with others'. Each person starts by
-thinking individually about a question or problem and jotting down a few
-notes. Participants are then paired to explain their ideas to each
-another, and possibly to merge them or select the more interesting ones.
-Finally, a few pairs present their ideas to the whole group.
+[Think-pair-share](#g:think-pair-share) is a lightweight technique
+that helps people refine their ideas and compare them with
+others'. Each person starts by thinking individually about a question
+or problem and jotting down a few notes. Participants are then paired
+to explain their ideas to each another, and possibly to merge them or
+select the more interesting ones.  Finally, a few pairs present their
+ideas to the whole group.
 
 Think-pair-share works because, to paraphrase Oscar Wilde's Lady
 Windermere, people often can't know what they're thinking until they've

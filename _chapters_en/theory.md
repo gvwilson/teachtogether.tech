@@ -6,9 +6,9 @@ title: "A Little Bit of Theory"
 One of the exercises in educational research is deciding what we mean
 by "learning", which turns out to be pretty complicated once you start
 looking beyond the standardized Western classroom. Within the broad
-scope of educational psychology, two specific perspectives have
-primarily influenced my teaching. The first is
-[cognitivism](#g:cognitivism), which focuses on things like pattern
+scope of [educational psychology](#g:educational-psychology), two
+specific perspectives have primarily influenced my teaching. The first
+is [cognitivism](#g:cognitivism), which focuses on things like pattern
 recognition, memory formation, and recall. It is good at answering
 low-level questions, but generally ignores larger issues like, "What
 do we mean by 'learning'?" and, "Who gets to decide?" The second is
@@ -35,13 +35,14 @@ how learning works. We therefore have to try those methods in the
 class, with actual learners, in order to find out how well they
 balance the different forces in play.
 
-Doing this is called . If educational psychology is the science,
-instructional design is the engineering. For example, there are good
-reasons to believe that children will learn how to read best by starting
-with the sounds of letters and working up to words. However, there are
-equally good reasons to believe that children will learn best if they
-are taught to recognize entire simple words like "open" and "stop", so
-that they can start using their knowledge sooner.
+Doing this is called [instructional design](#g:instructional-design).
+If educational psychology is the science, instructional design is the
+engineering. For example, there are good reasons to believe that
+children will learn how to read best by starting with the sounds of
+letters and working up to words. However, there are equally good
+reasons to believe that children will learn best if they are taught to
+recognize entire simple words like "open" and "stop", so that they can
+start using their knowledge sooner.
 
 The first approach is called "phonics", and the second, "whole
 language". The whole language approach may seem upside down, but more
