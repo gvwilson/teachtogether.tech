@@ -1,0 +1,51 @@
+{% if include.language == 'en' %}
+  {% assign chapters = site.chapters_en %}
+{% elsif include.language == 'um' %}
+  {% assign chapters = site.chapters_um %}
+{% endif %}
+{% assign licensepath = '/' | append: include.language | append: '/license/' %}
+{% assign allpath = '/' | append: include.language | append: '/all/' %}
+
+<nav>
+  {% if page.root %}<strong><a href="./">{% else %}<a href="../">{% endif %}
+    <img src="{{'/files/logo.svg'|relative_url}}" alt="{{site.title}} logo" width="50%" />
+    <p><em>{{site.title}}</em></p>
+  {% if page.root %}</a></strong>{% else %}</a>{% endif %}
+
+  <hr/>
+  <p>
+    <a href="https://unglue.it/work/313918/">EPUB and MOBI versions</a>
+    <br/>
+    <a href="{{allpath|relative_url}}">{{site.translations[page.language].singlepage}}</a>
+  </p>
+
+  <hr/>
+  {% include toc-section.html language=include.language coll=chapters class="chapter" title="Lessons" toc=site.toc.lessons %}
+  {% include toc-bib.html language=include.language coll=chapters toc=site.toc.bib %}
+  {% include toc-section.html language=include.language coll=chapters class="appendix" title="Extras" toc=site.toc.extras %}
+
+  {% if site.purchase != "" %}
+  <hr/>
+  <p>
+    <a href="{{site.purchase}}"><img src="{{'/files/lulu.gif'|relative_url}}" border="0" alt="{{site.translations[page.language].lulu}}" /></a>
+  </p>
+  <p>
+    {{site.translations[page.language].donate | replace: '^1', site.paypal}}
+  </p>
+  {% endif %}
+
+  <hr/>
+  <p>
+    <a href="{{licensepath|relative_url}}"><img src="{{'/files/cc-by.svg'|relative_url}}" alt="CC-BY License" width="80%" /></a>
+  </p>
+  <p>
+    <a href="mailto:{{site.email}}"><img src="{{'/files/email.svg'|relative_url}}" alt="Email" width="20%" /></a>
+    <a href="{{site.repo}}"><img src="{{'/files/github.svg'|relative_url}}" alt="GitHub" width="20%" /></a>
+  </p>
+
+  {% if page.root %}
+  <p>
+    <em>{{site.translations[page.language].generated}} {{site.time|date: '%Y-%m-%d'}}.</em>
+  </p>
+  {% endif %}
+</nav>

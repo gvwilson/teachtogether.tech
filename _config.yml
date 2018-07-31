@@ -1,0 +1,112 @@
+# Display.
+title: "Teaching Tech Together"
+subtitle: "How to create and deliver lessons that work and build a teaching community around them"
+author: "Greg Wilson"
+copyrightyear: "2018"
+repo: "https://github.com/gvwilson/teachtogether.tech/"
+email: "gvwilson@third-bit.com"
+isbn: "978-0-9881137-0-1"
+website: "http://teachtogether.tech/"
+purchase: "http://www.lulu.com/commerce/index.php?fBuyContent=23123539"
+paypal: "https://paypal.me/gvwilson/10CAD"
+
+# Theme color.
+background: "#f0f0f0"
+
+# Jekyll settings.
+highlighter: rouge
+plugins:
+  - "jekyll-redirect-from"
+
+# Things to ignore
+exclude:
+- BUILD.md
+- CITATION.md
+- CONDUCT.md
+- LICENSE.md
+- Makefile
+- README.md
+- bin
+- misc
+- requirements.txt
+- tex_en
+- tex_um
+
+# Markers in generated files.
+marker:
+  start: "<!-- main start -->"
+  end: "<!-- main end -->"
+  crossref: "let CROSSREF="
+
+# Collections: one for lessons and one for extras for each language suffix.
+collections:
+  chapters_en:
+    output: true
+  chapters_um:
+    output: true
+
+# Set the language for various collections.
+defaults:
+  - scope:
+      path: ""
+      type: chapters_en
+    values:
+      language: "en"
+      layout: "default"
+  - scope:
+      path: ""
+      type: chapters_um
+    values:
+      language: "um"
+      layout: "default"
+
+# Order for Table of Contents.
+toc:
+  lessons:
+  - /intro/
+  - /models/
+  - /memory/
+  - /load/
+  - /individual/
+  - /process/
+  - /pck/
+  - /performance/
+  - /classroom/
+  - /motivation/
+  - /online/
+  - /exercises/
+  - /community/
+  - /marketing/
+  - /partner/
+  - /finale/
+  bib:
+  - /bib/
+  extras:
+  - /license/
+  - /citation/
+  - /joining/
+  - /conduct/
+  - /gloss/
+  - /meetings/
+  - /theory/
+  - /template/
+  - /events/
+  - /teacheval/
+  - /peereval/
+  - /preassess/
+  - /v3/
+
+# Translations by language.
+translations:
+  en:
+    donate: "This book is sold at cost. If you would like to support our work, please send <a href='^1'>$10</a> (or any other amount). All money will be used to pay for third-party editing and graphic design."
+    generated: "Last generated"
+    lulu: "Buy this book on Lulu."
+    objectives: "After reading this chapter, you will be able to..."
+    singlepage: "Single page version"
+  um:
+    donate: "Cursus risus at ultrices, mi tempus imperdiet nulla malesuada pellentesque <a href='^1'>$10</a> (amet tellus cras). Dis parturient montes nascetur ridiculus mus mauris."
+    generated: "Lastum generatum"
+    lulu: "Purchasum ad Lulu."
+    objectives: "Sodales ut etiam sit amet nisl purus in..."
+    singlepage: "Singlum pagum versione"

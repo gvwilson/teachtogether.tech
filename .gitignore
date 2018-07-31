@@ -5,9 +5,9 @@
 *.out
 *.toc
 *~
-.DS_Store
 .jekyll-metadata
+__pycache__
 _site
-issues.html
-years.png
-tex/t3.pdf
+tex_*/inc
+tex_*/book.bib
+tex_*/book.pdf

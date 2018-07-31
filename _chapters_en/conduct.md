@@ -1,4 +1,7 @@
-# Code of Conduct
+---
+permalink: "/en/conduct/"
+title: "Code of Conduct"
+---
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our
@@ -57,8 +60,8 @@ defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior
-may be reported by [emailing the project team](mailto:gvwilson@third-bit.com).
-All complaints will be reviewed and investigated and will result in a
+may be reported by [emailing the project](mailto:{{site.email}}). All
+complaints will be reviewed and investigated and will result in a
 response that is deemed necessary and appropriate to the
 circumstances. The project team is obligated to maintain
 confidentiality with regard to the reporter of an incident.  Further
@@ -70,5 +73,7 @@ determined by other members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor
-Covenant](https://www.contributor-covenant.org) version 1.4.
+This Code of Conduct is adapted from
+the [Contributor Covenant][covenant] version 1.4.
+
+{% include links.md %}
