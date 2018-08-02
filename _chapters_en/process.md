@@ -32,7 +32,7 @@ There's a better way, but to explain it, we first need to explain how
 [test-driven development](#g:test-driven-development) (TDD)
 is used in software development. Programmers who are using TDD don't
 write software and then write tests to check that the software is
-doing the write thing. Instead, they write the tests first, then write
+doing the right thing. Instead, they write the tests first, then write
 just enough new software to make those tests pass, and then clean up a
 bit.
 
