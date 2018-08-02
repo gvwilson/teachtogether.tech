@@ -3,7 +3,7 @@ permalink: "/en/bib/"
 title: "Bibliography"
 ---
 
-**Abba2012**{:#Abba2012}: Janet Abbate: *Recoding Gender: Women's Changing Participation in Computing*. MIT Press, 2012, <https://isbndb.com/search/books/0262018063>. *Describes the careers and accomplishments of the women who shaped the early history of computing, but have all too often been written out of that history.*
+**Abba2012**{:#Abba2012}: Janet Abbate: *Recoding Gender: Women's Changing Participation in Computing*. MIT Press, 2012, <https://isbndb.com/book/9780262534536>. *Describes the careers and accomplishments of the women who shaped the early history of computing, but have all too often been written out of that history.*
 
 **Abel1996**{:#Abel1996}: Harold Abelson, Gerald Jay Sussman, and Julie Sussman: *Structure and Interpretation of Computer Programs*. MIT Press, 1996, <https://isbndb.com/book/0262510871>. *One of the most widely cited introductions to programming ever written.*
 
@@ -63,7 +63,7 @@ title: "Bibliography"
 
 **Benn2000**{:#Benn2000}: Patricia Benner: *From Novice to Expert: Excellence and Power in Clinical Nursing Practice*. Pearson, 2000, <https://isbndb.com/book/0130325228>. *A classic study of clinical judgment and the development of expertise.*
 
-**Berg2012**{:#Berg2012}: Joseph Bergin, Jane Chandler, Jutta Eckstein, Helen Sharp, Mary Lynn Manns, Klaus Marquardt, Marianna Sipos, Markus V\"olter, and Eugene Wallingford: *Pedagogical Patterns: Advice for Educators*. CreateSpace, 2012, <https://isbndb.com/search/books/1479171824>. *A catalog of design patterns for teaching.*
+**Berg2012**{:#Berg2012}: Joseph Bergin, Jane Chandler, Jutta Eckstein, Helen Sharp, Mary Lynn Manns, Klaus Marquardt, Marianna Sipos, Markus V\"olter, and Eugene Wallingford: *Pedagogical Patterns: Advice for Educators*. CreateSpace, 2012, <https://isbndb.com/book/9781479171828>. *A catalog of design patterns for teaching.*
 
 **Biel1995**{:#Biel1995}: Katerine Bielaczyc, Peter L. Pirolli, and Ann L. Brown: "Training in Self-Explanation and Self-Regulation Strategies: Investigating the Effects of Knowledge Acquisition Activities on Problem Solving". *Cognition and Instruction*, 13(2), Jun 1995, <https://doi.org/10.1207/s1532690xci1302_3>. *Reports that training learners in self-explanation accelerates their learning.*
 
@@ -83,7 +83,7 @@ title: "Bibliography"
 
 **Bria2015**{:#Bria2015}: Samuel A. Brian, Richard N. Thomas, James M. Hogan, and Colin Fidge: "Planting Bugs: A System for Testing Students' Unit Tests". *Planting Bugs: A System for Testing Students' Unit Tests*, 2015, <https://doi.org/10.1145/2729094.2742631>. *Describes a tool for assessing students' programs and unit tests and finds that students often write weak tests and misunderstand the role of unit testing.*
 
-**Broo2016**{:#Broo2016}: Stephen D. Brookfield and Stephen Preskill: *The Discussion Book: 50 Great Ways to Get People Talking*. Jossey-Bass, 2016, <https://isbndb.com/book/1119049717>. *Describes fifty different ways to get groups talking productively.*
+**Broo2016**{:#Broo2016}: Stephen D. Brookfield and Stephen Preskill: *The Discussion Book: 50 Great Ways to Get People Talking*. Jossey-Bass, 2016, <https://isbndb.com/book/9781119049715>. *Describes fifty different ways to get groups talking productively.*
 
 **Brop1983**{:#Brop1983}: Jere E. Brophy: "Research on the Self-Fulfilling Prophecy and Teacher Expectations". *Journal of Educational Psychology*, 75(5), 1983, <https://doi.org/10.1037/0022-0663.75.5.631>. *A early, influential study of the effects of teachers' perceptions on students' achievements.*
 
@@ -95,7 +95,7 @@ title: "Bibliography"
 
 **Buff2015**{:#Buff2015}: Kevin Buffardi and Stephen H. Edwards: "Reconsidering Automated Feedback: A Test-Driven Approach". *Reconsidering Automated Feedback: A Test-Driven Approach*, 2015, <https://doi.org/10.1145/2676723.2677313>. *Describes a system that associates failed tests with particular features in a learner's code so that learners cannot game the system.*
 
-**Burg2015**{:#Burg2015}: Sheryl  E. Burgstahler: *Universal Design in Higher Education: From Principles to Practice*. Harvard Education Press, 2015, <https://isbndb.com/search/books/1612508162>. *Describes how to make online teaching materials accessible to everyone.*
+**Burg2015**{:#Burg2015}: Sheryl  E. Burgstahler: *Universal Design in Higher Education: From Principles to Practice*. Harvard Education Press, 2015, <https://isbndb.com/book/9781612508160>. *Describes how to make online teaching materials accessible to everyone.*
 
 **Burk2018**{:#Burk2018}: Quinn Burke, Cinamon Bailey, Louise Ann Lyon, and Emily Greeen: "Understanding the Software Development Industry's Perspective on Coding Boot Camps Versus Traditional 4-Year Colleges". *Understanding the Software Development Industry's Perspective on Coding Boot Camps Versus Traditional 4-Year Colleges*, 2018, <https://doi.org/10.1145/3159450.3159485>. *Compares the skills and credentials that tech industry recruiters are looking for to those provided by 4-year degrees and bootcamps.*
 
@@ -137,11 +137,11 @@ title: "Bibliography"
 
 **Coll1991**{:#Coll1991}: Allan Collins, John Seely Brown, and Ann Holum: "Cognitive Apprenticeship: Making Thinking Visible". *American Educator*, 6, 1991. *Describes an educational model based on the notion of apprenticeship and master guidance.*
 
-**Coom2012**{:#Coom2012}: Norman Coombs: *Making Online Teaching Accessible*. Jossey-Bass, 2012, <https://isbndb.com/search/books/0470499044>. *An accessible guide to making online lessons accessible.*
+**Coom2012**{:#Coom2012}: Norman Coombs: *Making Online Teaching Accessible*. Jossey-Bass, 2012, <https://isbndb.com/book/9781458725288>. *An accessible guide to making online lessons accessible.*
 
-**Covi2017**{:#Covi2017}: Martin V. Covington, Linda M. von Hoene, and Dominic J. Voge: *Life Beyond Grades: Designing College Courses to Promote Intrinsic Motivation*. Cambridge University Press, 2017, <https://isbndb.com/search/books/0521805236>. *Explores ways of balancing intrinsic and extrinsic motivation in institutional education.*
+**Covi2017**{:#Covi2017}: Martin V. Covington, Linda M. von Hoene, and Dominic J. Voge: *Life Beyond Grades: Designing College Courses to Promote Intrinsic Motivation*. Cambridge University Press, 2017, <https://isbndb.com/book/9780521805230>. *Explores ways of balancing intrinsic and extrinsic motivation in institutional education.*
 
-**Craw2010**{:#Craw2010}: Matthew B. Crawford: *Shop Class as Soulcraft: An Inquiry into the Value of Work*. Penguin, 2010, <https://isbndb.com/search/books/0143117467>. *A deep analysis of what we learn about ourselves by doing certain kinds of work.*
+**Craw2010**{:#Craw2010}: Matthew B. Crawford: *Shop Class as Soulcraft: An Inquiry into the Value of Work*. Penguin, 2010, <https://isbndb.com/book/9780143117469>. *A deep analysis of what we learn about ourselves by doing certain kinds of work.*
 
 **Crou2001**{:#Crou2001}: Catherine H. Crouch and Eric Mazur: "Peer Instruction: Ten Years of Experience and Results". *American Journal of Physics*, 69(9), Sep 2001, <https://doi.org/10.1119/1.1374249>. *Reports results from the first ten years of peer instruction in undergraduate physics classes, and describes ways in which its implementation changed during that time.*
 
@@ -157,7 +157,7 @@ title: "Bibliography"
 
 **Deb2018**{:#Deb2018}: Debzani Deb, Muztaba Fuad, James Etim, and Clay Gloster: "MRS: Automated Assessment of Interactive Classroom Exercises". *MRS: Automated Assessment of Interactive Classroom Exercises*, 2018, <https://doi.org/10.1145/3159450.3159607>. *Reports that doing in-class exercises with realtime feedback using mobile devices improved concept retention and student engagement while reducing failure rates.*
 
-**DeBr2015**{:#DeBr2015}: Pedro De Bruyckere, Paul A. Kirschner, and Casper D. Hulshof: *Urban Myths about Learning and Education*. Academic Press, 2015, <https://isbndb.com/book/0128015373>. *Describes and debunks some widely-held myths about how people learn.*
+**DeBr2015**{:#DeBr2015}: Pedro De Bruyckere, Paul A. Kirschner, and Casper D. Hulshof: *Urban Myths about Learning and Education*. Academic Press, 2015, <https://isbndb.com/book/9780128015377>. *Describes and debunks some widely-held myths about how people learn.*
 
 **Derb2006**{:#Derb2006}: Esther Derby and Diana Larsen: *Agile Retrospectives: Making Good Teams Great*. Pragmatic Bookshelf, 2006, <https://isbndb.com/book/0977616649>. *Describes how to run a good project retrospective.*
 
@@ -179,7 +179,7 @@ title: "Bibliography"
 
 **Ensm2003**{:#Ensm2003}: Nathan L. Ensmenger: "Letting the ``Computer Boys'' Take Over: Technology and the Politics of Organizational Transformation". *International Review of Social History*, 48(S11), Dec 2003, <https://doi.org/10.1017/s0020859003001305>. *Describes how programming was turned from a female into a male profession in the 1960s.*
 
-**Ensm2012**{:#Ensm2012}: Nathan L. Ensmenger: *The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise*. MIT Press, 2012, <https://isbndb.com/search/books/0262517965>. *Traces the emergence and rise of computer experts in the 20th Century, and particularly the way that computing became male-gendered.*
+**Ensm2012**{:#Ensm2012}: Nathan L. Ensmenger: *The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise*. MIT Press, 2012, <https://isbndb.com/book/9780262517966>. *Traces the emergence and rise of computer experts in the 20th Century, and particularly the way that computing became male-gendered.*
 
 **Eppl2006**{:#Eppl2006}: Martin J. Eppler: "A Comparison Between Concept Maps, Mind Maps, Conceptual Diagrams, and Visual Metaphors as Complementary Tools for Knowledge Construction and Sharing". *Information Visualization*, 5(3), Jun 2006, <https://doi.org/10.1057/palgrave.ivs.9500131>. *Compares concept maps, mind maps, conceptual diagrams, and visual metaphors as learning tools.*
 
@@ -251,7 +251,7 @@ title: "Bibliography"
 
 **Guzd2013**{:#Guzd2013}: Mark Guzdial: "Exploring Hypotheses about Media Computation". *Exploring Hypotheses about Media Computation*, 2013, <https://doi.org/10.1145/2493394.2493397>. *A look back on ten years of media computation research.*
 
-**Guzd2015a**{:#Guzd2015a}: Mark Guzdial: *Learner-Centered Design of Computing Education: Research on Computing for Everyone*. Morgan \& Claypool Publishers, 2015, <https://isbndb.com/book/1627053514>. *Argues that we must design computing education for everyone, not just people who think they are going to become professional programmers.*
+**Guzd2015a**{:#Guzd2015a}: Mark Guzdial: *Learner-Centered Design of Computing Education: Research on Computing for Everyone*. Morgan \& Claypool Publishers, 2015, <https://isbndb.com/book/9781627053518>. *Argues that we must design computing education for everyone, not just people who think they are going to become professional programmers.*
 
 **Guzd2015b**{:#Guzd2015b}: Mark Guzdial: "Top 10 Myths About Teaching Computer Science". <https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext>2015. *Ten things many people believe about teaching computing that simply aren't true.*
 
@@ -275,19 +275,19 @@ title: "Bibliography"
 
 **Harr2018**{:#Harr2018}: Brian Harrington and Nick Cheng: "Tracing vs. Writing Code: Beyond the Learning Hierarchy". *Tracing vs. Writing Code: Beyond the Learning Hierarchy*, 2018, <https://doi.org/10.1145/3159450.3159530>. *Finds that the gap between being able to trace code and being able to write it has largely closed by CS2, and that students who still have a gap (in either direction) are likely to do poorly in the course.*
 
-**Hazz2014**{:#Hazz2014}: Orit Hazzan, Tami Lapidot, and Noa Ragonis: *Guide to Teaching Computer Science: An Activity-Based Approach*. Springer, 2014, <https://isbndb.com/search/books/1447166299>. *A textbook for teaching computer science at the K-12 level with dozens of activities.*
+**Hazz2014**{:#Hazz2014}: Orit Hazzan, Tami Lapidot, and Noa Ragonis: *Guide to Teaching Computer Science: An Activity-Based Approach*. Springer, 2014, <https://isbndb.com/book/9781447166290>. *A textbook for teaching computer science at the K-12 level with dozens of activities.*
 
 **Hend2015a**{:#Hend2015a}: Charles Henderson, Ren\'ee Cole, Jeff Froyd, Debra Friedrichsen, Raina Khatri, and Courtney Stanford: *Designing Educational Innovations for Sustained Adoption*. Increase the Impact, 2015, <https://isbndb.com/book/0996835210>. *A detailed analysis of strategies for getting institutions in higher education to make changes.*
 
 **Hend2015b**{:#Hend2015b}: Charles Henderson, Ren\'ee Cole, Jeff Froyd, Debra Friedrichsen, Raina Khatri, and Courtney Stanford: "Designing Educational Innovations for Sustained Adoption (Executive Summary)". <http://www.increasetheimpact.com/resources.html>2015. *A short summary of key points from the authors' work on effecting change in higher education.*
 
-**Hend2017**{:#Hend2017}: Carl Hendrick and Robin Macpherson: *What Does This Look Like In The Classroom?: Bridging The Gap Between Research And Practice*. John Catt Educational, 2017, <https://isbndb.com/search/books/1911382373>. *A collection of responses by educational experts to questions asked by classroom teachers, with prefaces by the authors.*
+**Hend2017**{:#Hend2017}: Carl Hendrick and Robin Macpherson: *What Does This Look Like In The Classroom?: Bridging The Gap Between Research And Practice*. John Catt Educational, 2017, <https://isbndb.com/book/9781911382379>. *A collection of responses by educational experts to questions asked by classroom teachers, with prefaces by the authors.*
 
 **Henr2010**{:#Henr2010}: Joseph Henrich, Steven J. Heine, and Ara Norenzayan: "The Weirdest People in the World?". *Behavioral and Brain Sciences*, 33(2-3), Jun 2010, <https://doi.org/10.1017/s0140525x0999152x>. *Points out that the subjects of most published psychological studies are Western, educated, industrialized, rich, and democratic.*
 
 **Hest1992**{:#Hest1992}: David Hestenes, Malcolm Wells, and Gregg Swackhamer: "Force Concept Inventory". *The Physics Teacher*, 30(3), Mar 1992, <https://doi.org/10.1119/1.2343497>. *Describes the Force Concept Inventory's motivation, design, and impact.*
 
-**Hick2018**{:#Hick2018}: Marie Hicks: *Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing*. MIT Press, 2018, <https://isbndb.com/search/books/0262535181>. *Describes how Britain lost its early dominance in computing by systematically discriminating against its most qualified workers: women.*
+**Hick2018**{:#Hick2018}: Marie Hicks: *Programmed Inequality: How Britain Discarded Women Technologists and Lost Its Edge in Computing*. MIT Press, 2018, <https://isbndb.com/book/9780262535182>. *Describes how Britain lost its early dominance in computing by systematically discriminating against its most qualified workers: women.*
 
 **Hofm2017**{:#Hofm2017}: Johannes Hofmeister, Janet Siegmund, and Daniel V. Holt: "Shorter Identifier Names Take Longer to Comprehend". *Shorter Identifier Names Take Longer to Comprehend*, Feb 2017, <https://doi.org/10.1109/saner.2017.7884623>. *Reports that using words for variable names makes comprehension faster than using abbreviations or single-letter names for variables.*
 
@@ -331,7 +331,7 @@ title: "Bibliography"
 
 **Kern1988**{:#Kern1988}: Brian W. Kernighan and Dennis M. Ritchie: *The C Programming Language*. Prentice-Hall, 1988, <https://isbndb.com/book/0131103628>. *The book that made C a popular programming language.*
 
-**Kern1999**{:#Kern1999}: Brian W. Kernighan and Rob Pike: *The Practice of Programming*. Addison-Wesley, 1999, <https://isbndb.com/search/books/020161586X>. *A programming style manual written by two of the creators of modern computing.*
+**Kern1999**{:#Kern1999}: Brian W. Kernighan and Rob Pike: *The Practice of Programming*. Addison-Wesley, 1999, <https://isbndb.com/book/9788177582482>. *A programming style manual written by two of the creators of modern computing.*
 
 **Keun2016a**{:#Keun2016a}: Hieke Keuning, Johan Jeuring, and Bastiaan Heeren: "Towards a Systematic Review of Automated Feedback Generation for Programming Exercises". *Towards a Systematic Review of Automated Feedback Generation for Programming Exercises*, 2016, <https://doi.org/10.1145/2899415.2899422>. *Reports that auto-grading tools often do not give feedback on what to do next, and that teachers cannot easily adapt most of the tools to their needs.*
 
@@ -359,7 +359,7 @@ title: "Bibliography"
 
 **Krau2016**{:#Krau2016}: Robert E. Kraut and Paul Resnick: *Building Successful Online Communities: Evidence-Based Social Design*. MIT Press, 2016, <https://isbndb.com/book/0262528916>. *Sums up what we actually know about making thriving online communities and why we believe it's true.*
 
-**Kran2015**{:#Kran2015}: Steven G. Krantz: *How to Teach Mathematics*. American Mathematical Society (AMS), 2015, <https://isbndb.com/search/books/1470425521>. *Advice and opinions drawn from the author's personal experience of teaching mathematics.*
+**Kran2015**{:#Kran2015}: Steven G. Krantz: *How to Teach Mathematics*. American Mathematical Society (AMS), 2015, <https://isbndb.com/book/9781470425524>. *Advice and opinions drawn from the author's personal experience of teaching mathematics.*
 
 **Krug1999**{:#Krug1999}: Justin Kruger and David Dunning: "Unskilled and Unaware of it: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments". *Journal of Personality and Social Psychology*, 77(6), 1999, <https://doi.org/10.1037/0022-3514.77.6.1121>. *The original report on the Dunning-Kruger effect: the less people know, the less accurate their estimate of their knowledge.*
 
@@ -375,7 +375,7 @@ title: "Bibliography"
 
 **Lang2013**{:#Lang2013}: James M. Lang: *Cheating Lessons: Learning from Academic Dishonesty*. Harvard University Press, 2013, <https://isbndb.com/book/0674724631>. *Explores why students cheat, and how courses often give them incentives to do so.*
 
-**Lang2016**{:#Lang2016}: James M. Lang: *Small Teaching: Everyday Lessons from the Science of Learning*. Jossey-Bass, 2016, <https://isbndb.com/book/1118944496>. *Presents a selection of accessible evidence-based practices that teachers can adopt when they little time and few resources.*
+**Lang2016**{:#Lang2016}: James M. Lang: *Small Teaching: Everyday Lessons from the Science of Learning*. Jossey-Bass, 2016, <https://isbndb.com/book/9781118944493>. *Presents a selection of accessible evidence-based practices that teachers can adopt when they little time and few resources.*
 
 **Lazo1993**{:#Lazo1993}: Ard W. Lazonder and Hans van der Meij: "The Minimal Manual: Is Less Really More?". *International Journal of Man-Machine Studies*, 39(5), Nov 1993, <https://doi.org/10.1006/imms.1993.1081>. *Reports that the minimal manual approach to instruction outperforms traditional approaches regardless of prior experience with computers.*
 
@@ -407,7 +407,7 @@ title: "Bibliography"
 
 **Majo2015**{:#Majo2015}: Claire Howell Major, Michael S. Harris, and Tod Zakrajsek: *Teaching for Learning: 101 Intentionally Designed Educational Activities to Put Students on the Path to Success*. Routledge, 2015, <https://isbndb.com/book/9780415699365>. *Catalogs a hundred different kinds of exercises to do with students.*
 
-**Mann2015**{:#Mann2015}: Mary Lynn Manns and Linda Rising: *Fearless Change: Patterns for Introducing New Ideas*. Addison-Wesley, 2015, <https://isbndb.com/book/0134395255>. *A catalog of patterns for making change happen in large organizations.*
+**Mann2015**{:#Mann2015}: Mary Lynn Manns and Linda Rising: *Fearless Change: Patterns for Introducing New Ideas*. Addison-Wesley, 2015, <https://isbndb.com/book/9780201741575>. *A catalog of patterns for making change happen in large organizations.*
 
 **Marc2011**{:#Marc2011}: Guillaume Marceau, Kathi Fisler, and Shriram Krishnamurthi: "Measuring the Effectiveness of Error Messages Designed for Novice Programmers". *Measuring the Effectiveness of Error Messages Designed for Novice Programmers*, 2011, <https://doi.org/10.1145/1953163.1953308>. *Looks at edit-level responses to error messages, and introduces a useful rubric for classifying user responses to errors.*
 
@@ -435,7 +435,7 @@ title: "Bibliography"
 
 **Maye2004**{:#Maye2004}: Richard E. Mayer: "Teaching of Subject Matter". *Annual Review of Psychology*, 55(1), Feb 2004, <https://doi.org/10.1146/annurev.psych.55.082602.133124>. *An overview of how and why teaching and learning are subject-specific.*
 
-**Maye2009**{:#Maye2009}: Richard E. Mayer: *Multimedia Learning*. Cambridge University Press, 2009, <https://isbndb.com/search/books/0521735351>. *Presents a cognitive theory of multimedia learning.*
+**Maye2009**{:#Maye2009}: Richard E. Mayer: *Multimedia Learning*. Cambridge University Press, 2009, <https://isbndb.com/book/9780521735353>. *Presents a cognitive theory of multimedia learning.*
 
 **Mazu1996**{:#Mazu1996}: Eric Mazur: *Peer Instruction: A User's Manual*. Prentice-Hall, 1996. *A guide to implementing peer instruction.*
 
@@ -537,7 +537,7 @@ title: "Bibliography"
 
 **Ray2014**{:#Ray2014}: Eric J. Ray and Deborah S. Ray: *Unix and Linux: Visual QuickStart Guide*. Peachpit Press, 2014, <https://isbndb.com/book/0321997549>. *An introduction to Unix that is both a good tutorial and a good reference guide.*
 
-**Rice2018**{:#Rice2018}: Gail Taylor Rice: *Hitting Pause: 65 Lecture Breaks to Refresh and Reinforce Learning*. Stylus Publishing, 2018, <https://isbndb.com/book/1620366533>. *Justifies and catalogs ways to take a pause in class to help learning.*
+**Rice2018**{:#Rice2018}: Gail Taylor Rice: *Hitting Pause: 65 Lecture Breaks to Refresh and Reinforce Learning*. Stylus Publishing, 2018, <https://isbndb.com/book/9781620366530>. *Justifies and catalogs ways to take a pause in class to help learning.*
 
 **Rich2017**{:#Rich2017}: Kathryn M. Rich, Carla Strickland, T. Andrew Binkowski, Cheryl Moran, and Diana Franklin: "K-8 learning Trajectories Derived from Research Literature". *K-8 learning Trajectories Derived from Research Literature*, 2017, <https://doi.org/10.1145/3105726.3106166>. *Presents learning trajectories for K-8 computing classes for Sequence, Repetition, and Conditions gleaned from the literature.*
 

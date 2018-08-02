@@ -134,7 +134,7 @@ I also recommend:
   approachable, and connect things you can do right now to the
   research that backs them.
 
-- [[Majo2015](#CITE)], [[Broo2016](#CITE)] [[Berg2012](#CITE)], and
+- [[Majo2015](#CITE)], [[Broo2016](#CITE)], [[Berg2012](#CITE)], and
   [[Rice2018](#CITE)]. The first catalogs a hundred different kinds of
   exercises you can do with students; the second describes fifty
   different ways that groups can discuss things productively, while
