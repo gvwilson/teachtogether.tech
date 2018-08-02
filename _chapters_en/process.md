@@ -102,11 +102,11 @@ sequence, it's almost never *done* that way: we may, for example,
 change our mind about what we want to teach based on something that
 occurs to us while we're writing an MCQ, or re-assess who we're trying
 to help once we have a lesson outline. However, it's important that
-the notes we leave behind to present things in the order described
-above, because that's the easier way for whoever has to use or
-maintain the lesson to retrace our thinking. The same rewriting of
-history is useful for the same reasons in software design and many
-other fields [[Parn1986](#CITE)].
+the notes we leave behind present things in the order described above,
+because that's the easier way for whoever has to use or maintain the
+lesson to retrace our thinking. The same rewriting of history is
+useful for the same reasons in software design and many other fields
+[[Parn1986](#CITE)].
 
 [s:v3](#APPENDIX) presents the design notes for this version of this
 book. A few things have been added, dropped, or rearranged, but what
