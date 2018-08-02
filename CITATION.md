@@ -22,6 +22,7 @@ Please cite this work as:
 -   Matt Davis
 -   Neal Davis
 -   Mark Degani
+-   Tim Dennis
 -   Michael Deutsch
 -   Brian Dillingham
 -   Kathi Fisler
@@ -42,6 +43,7 @@ Please cite this work as:
 -   Colleen Lewis
 -   Lenny Markus
 -   Sue McClatchy
+-   Jessica McKellar
 -   Ian Milligan
 -   Lex Nederbragt
 -   Aleksandra Nenadic
