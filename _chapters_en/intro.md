@@ -158,8 +158,8 @@ I also recommend:
   and how technology has repeatedly failed to revolutionize education.
 
 - [[Guzd2015a](#CITE)], [[Hazz2014](#CITE)], and [[Sent2018](#CITE)],
-  which are academically-oriented books I've found about teaching
-  computing.
+  which are academically-oriented books I've found useful about
+  teaching computing.
 
 - [[Brow2007](#CITE)] and [[Mann2015](#CITE)], because you can't teach
   computing well without changing the system in which we teach, and
