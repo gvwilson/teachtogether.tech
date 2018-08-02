@@ -267,14 +267,14 @@ This book would not exist without the hard work and feedback of Erin
 Becker, Azalee Bostroem, Hugo Bowne-Anderson, Neil Brown, Gerard
 Capes, Francis Castro, Warren Code, Ben Cotton, Richie Cotton, Karen
 Cranston, Katie Cunningham, Natasha Danas, Matt Davis, Neal Davis,
-Mark Degani, Michael Deutsch, Brian Dillingham, Kathi Fisler, Auriel
-Fournier, Bob Freeman, Nathan Garrett, Mark Guzdial, Rayna Harris,
-Ahmed Hasan, Ian Hawke, Felienne Hermans, Kate Hertweck, Toby Hodges,
-Dan Katz, Christina Koch, Shriram Krishnamurthi, Katrin Leinweber,
-Colleen Lewis, Lenny Markus, Sue McClatchy, Ian Milligan, Lex
-Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel Ostblom, Elizabeth
-Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase, Emily Porta,
-Alex Pounds, Thomas Price, Danielle Quinn, Ian Ragsdale, Erin
+Mark Degani, Tim Dennis, Michael Deutsch, Brian Dillingham, Kathi
+Fisler, Auriel Fournier, Bob Freeman, Nathan Garrett, Mark Guzdial,
+Rayna Harris, Ahmed Hasan, Ian Hawke, Felienne Hermans, Kate Hertweck,
+Toby Hodges, Dan Katz, Christina Koch, Shriram Krishnamurthi, Katrin
+Leinweber, Colleen Lewis, Lenny Markus, Sue McClatchy, Ian Milligan,
+Lex Nederbragt, Aleksandra Nenadic, Jeramia Ory, Joel Ostblom,
+Elizabeth Patitsas, Aleksandra Pawlik, Sorawee Porncharoenwase, Emily
+Porta, Alex Pounds, Thomas Price, Danielle Quinn, Ian Ragsdale, Erin
 Robinson, Rosario Robinson, Ariel Rokem, Pat Schloss, Malvika Sharan,
 Florian Shkurti, Juha Sorva, Tracy Teal, Tiffany Timbers, Richard
 Tomsett, Preston Tunnell Wilson, Matt Turk, Fiona Tweedie, Allegra
