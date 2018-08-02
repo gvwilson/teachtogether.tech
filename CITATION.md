@@ -76,6 +76,7 @@ Please cite this work as:
 -   Belinda Weaver
 -   Hadley Wickham
 -   Jason Williams
+-   Simon Willison
 -   Greg Wilson
 -   John Wrenn
 -   Andromeda Yelton

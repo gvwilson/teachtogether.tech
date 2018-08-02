@@ -333,6 +333,7 @@ Stéfan van der Walt,
 Belinda Weaver,
 Hadley Wickham,
 Jason Williams,
+Simon Willison,
 John Wrenn,
 and Andromeda Yelton.
 I am grateful to them, to Lukas Blakk for the cover image, and to
