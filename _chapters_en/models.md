@@ -71,7 +71,7 @@ study of video instruction for science students:
 > viewing a video. If the video presents...concepts in a
 > clear, well illustrated way, students believe they are learning but
 > they do not engage with the media on a deep enough level to realize
-> that what was is presented differs from their prior
+> that what is presented differs from their prior
 > knowledge... There is hope, however. Presenting students'
 > common misconceptions in a video alongside the...concepts
 > has been shown to increase learning by increasing the amount of mental
