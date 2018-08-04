@@ -373,7 +373,7 @@ Act on feedback from others.
 Give feedback to others.
 : For example, they might critique character development in *The
   Catcher in the Rye*. For this to be effective, it's essential that
-  they get feedback on their feedback, i.e., that the teacher critique
+  they get feedback on their feedback, i.e., that the teacher critiques
   their analysis.
 
 Give feedback to themselves.
