@@ -69,7 +69,7 @@ classes that centralize control are called "xMOOCs". (The latter kind of
 course is also sometimes called a "MESS", for Massively Enhanced Sage on
 the Stage.)
 
-Two strength of the MOOC model are that learners can work when it's
+Two strengths of the MOOC model are that learners can work when it's
 convenient for them, and that they have access to a wider range of
 courses, both because the Internet brings them all next door and because
 online courses typically have lower direct and indirect costs than
