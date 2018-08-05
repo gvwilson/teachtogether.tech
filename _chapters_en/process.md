@@ -530,7 +530,7 @@ learner?
 introducing new ideas that is used primarily with younger
 learners. The first step is the concrete stage, and involves
 physically manipulating objects to solve a problem (e.g., piling
-blocks to do addition). In the the representational stage, images are
+blocks to do addition). In the representational stage, images are
 used to represent those objects, and in the final abstract stage, the
 learner uses numbers or symbols.
 
