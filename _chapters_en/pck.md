@@ -260,7 +260,7 @@ you) actually do.
 
 ## What Misconceptions Do Novices Have? {#s:pck-misunderstand}
 
-[s:models](#CHAPTER) explained why clearing up novices misconceptions
+[s:models](#CHAPTER) explained why clearing up novices' misconceptions
 is just as important as teaching them strategies for solving problems.
 The biggest misconception novices have---sometimes called the "superbug"
 in coding---is the belief that they can communicate with a computer in the
