@@ -320,7 +320,7 @@ The mistakes novices make can tell us what to prioritize in our
 teaching, but it turns out that most teachers don't know how common
 different kinds of mistakes actually are. The largest study of this is
 [[Brow2017](#CITE)]'s study of novice Java programs, which found that
-Mismatched quotes and parentheses are the most common type of error, but
+mismatched quotes and parentheses are the most common type of error, but
 also the easiest to fix, while some mistakes (like putting the condition
 of an `if` in `{}` instead of `()`) are most often made only once.
 Unsurprisingly, mistakes that produce compiler errors are fixed much
