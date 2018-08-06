@@ -405,7 +405,7 @@ teammates, then calculate and compare scores.
 
 ### Connecting Ideas (pairs/5)
 
-This is an exercise is an example of using elaboration to improve
+This exercise is an example of using elaboration to improve
 retention. Pick a partner, and have each person independently choose an
 idea, then announce your ideas and try to find a four-link chain that
 leads from one to the other. For example, if the two ideas are
