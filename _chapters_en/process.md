@@ -254,8 +254,8 @@ see how a poor one can be improved:
   the subject of learning is still too vague for assessment.
 
 - "The learner will write one-page data analysis scripts to read,
-  filter, summarize, and print results for tabular data using R and R
-  Studio." This starts with an active verb, defines the level of
+  filter, summarize, and print results for tabular data using R and
+  RStudio." This starts with an active verb, defines the level of
   learning, and provides context to ensure that outcomes can be
   assessed.
 
@@ -530,7 +530,7 @@ learner?
 introducing new ideas that is used primarily with younger
 learners. The first step is the concrete stage, and involves
 physically manipulating objects to solve a problem (e.g., piling
-blocks to do addition). In the the representational stage, images are
+blocks to do addition). In the representational stage, images are
 used to represent those objects, and in the final abstract stage, the
 learner uses numbers or symbols.
 
