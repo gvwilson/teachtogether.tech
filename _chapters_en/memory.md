@@ -189,7 +189,7 @@ taught and practiced if they are to be effective.
 > 
 > When asked to draw their first concept map, many people will stare at
 > the blank page in front of them, not knowing where to start. When this
-> happens, right down two words associated with the topic you're trying
+> happens, write down two words associated with the topic you're trying
 > to map, then draw a line between them and add a label explaining how
 > those two ideas are related. You can then ask what other things are
 > related in the same way, what parts those things have, or what happens
