@@ -7,7 +7,7 @@ import yaml
 
 
 HEADER = '''---
-permalink: "/{}/all.html"
+permalink: "/{}/all/"
 ---'''
 
 
