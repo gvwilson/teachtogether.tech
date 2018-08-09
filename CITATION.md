@@ -13,6 +13,7 @@ Please cite this work as:
 -   Neil Brown
 -   Gerard Capes
 -   Francis Castro
+-   Dav Clark
 -   Warren Code
 -   Ben Cotton
 -   Richie Cotton

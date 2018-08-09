@@ -49,7 +49,7 @@ definitions if that's done.
 [etherpad]: http://etherpad.org
 
 [faculty-adopt-teaching-methods]: https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods
-[famous-five]: https://en.wikipedia.org/wiki/The_Famous_Five_Canada
+[famous-five]: https://en.wikipedia.org/wiki/The_Famous_Five_(Canada)
 [four-stages]: https://en.wikipedia.org/wiki/Four_stages_of_competence
 [franklin-effect]: https://en.wikipedia.org/wiki/Ben_Franklin_effect
 [frameshift-ally]: https://frameshiftconsulting.com/ally-skills-workshop/
