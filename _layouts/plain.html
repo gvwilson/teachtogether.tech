@@ -1,0 +1,22 @@
+{% assign translations=site.translations[page.language] %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{page.language}}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta name="author" content="{{site.author}}" />
+    <title>{{site.title}}: {% if page.title %}{{page.title}}{% else %}{{site.subtitle}}{% endif %}</title>
+    {% include css.html %}
+    {% include js.html %}
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 offset-md-1 main">
+          <h1>{% if page.root %}{{site.title}}{% else %}{{page.title}}{% endif %}</h1>
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

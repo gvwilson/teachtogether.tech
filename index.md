@@ -1,7 +1,7 @@
 ---
+layout: plain
 permalink: "/"
+title: "Home Page"
 ---
-
-# {{site.title}}
 
 - [Lorem Ipsum](./um/) (for testing and as a demonstration)
