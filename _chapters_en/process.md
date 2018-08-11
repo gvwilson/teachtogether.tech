@@ -120,13 +120,18 @@ out who your audience is. One way to do this is to write two or three
 borrowed from user interface designers, who create short profiles of
 typical users to help them think about their audience.
 
-Learner personas have five parts: the person's general background,
-what they already know, what *they* think they want to do (as opposed
-to what someone who already understands the subject thinks), how the
-course will help them, and any special needs they might have. The
-personas in [s:intro-audience](#SECTION) have the five points listed
-above, rearranged to flow more readably; a learner persona for a
-weekend workshop aimed at college students might be:
+Learner personas have five parts:
+
+1.  the person's general background,
+2.  what they already know,
+3.  what *they* think they want to do (as opposed to what someone who already
+    understands the subject thinks),
+4.  how the course will help them, and
+5.  any special needs they might have.
+
+The personas in [s:intro-audience](#SECTION) have the five points listed above,
+rearranged to flow more readably; a learner persona for a weekend workshop aimed
+at college students might be:
 
 1. Jorge has just moved from Costa Rica to Canada to study
    agricultural engineering. He has joined the college soccer team,
