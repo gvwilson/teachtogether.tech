@@ -618,7 +618,7 @@ affected by them, but they act like the steady drip of water on a stone:
 over time, they erode motivation, and with it, participation.
 
 The first and most important step toward fixing this is to stop thinking
-in terms of a "leaky pipeline" [[Mill2015](#CITE)]. More generally, we to
+in terms of a "leaky pipeline" [[Mill2015](#CITE)]. More generally, we need to
 move past a [deficit model](#g:deficit-model) i.e., to stop
 thinking that the members of under-represented groups lack something and
 are therefore responsible for not getting ahead. Believing that puts the
