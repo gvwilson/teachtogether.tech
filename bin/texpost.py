@@ -37,6 +37,8 @@ def rxc(r):
 
 def headerOnce(m):
     data = yaml.load(m.group(1))
+    if 'title' not in data:
+        return ''
     title = untex(data['title'])
     label = data['permalink'].strip('/').split('/')[1]
     result = r'\chapter{' + title + r'}\label{s:' + label + '}\n'
@@ -72,7 +74,7 @@ figref.pattern = rxc(r'\\protect\\hyperlink{FIGURE}{(f:.+?)}')
 
 def figure(m):
     body = m.group(1)
-    src = figure.src.search(body).group(1).replace('../../', '../').replace('.svg', '.pdf')
+    src = figure.src.search(body).group(1).replace('.svg', '.pdf')
     title = figure.title.search(body).group(1)
     ident = figure.ident.search(body).group(1)
     return figure.template.format(src, title, ident)
@@ -124,7 +126,7 @@ def section(m):
     else:
         result = r'\section*{' + title + r'}'
     return result
-section.pattern = rxc(r'\\hypertarget{.+?}{%\s+\\subsection{(.+?)}\\label{(.+?)}}')
+section.pattern = rxc(r'\\subsection{(.+?)}\\label{(.+?)}')
 
 
 def subsection(m):
@@ -135,12 +137,7 @@ def subsection(m):
     else:
         result = r'\subsection*{' + title + r'}'
     return result
-subsection.pattern = rxc(r'\\hypertarget{.+?}{%\s+\\subsubsection{(.+?)}\\label{(.+?)}}')
-
-
-def subsectionStar(m):
-    return r'\subsection*{' + untex(m.group(1)) + '}'
-subsectionStar.pattern = rxc(r'\\hypertarget{.+?}{%\s+\\subsubsection{(.+?)}\\label{.+?}}')
+subsection.pattern = rxc(r'\\subsubsection{(.+?)}\\label{(.+?)}')
 
 
 FUNCS = [appref, chapref, cite, figref, figure, glossdef, glossref,

@@ -13,53 +13,6 @@ paypal: "https://paypal.me/gvwilson/10CAD"
 # Theme color.
 background: "#f0f0f0"
 
-# Jekyll settings.
-highlighter: rouge
-plugins:
-  - "jekyll-redirect-from"
-
-# Things to ignore
-exclude:
-- BUILD.md
-- CITATION.md
-- CONDUCT.md
-- LICENSE.md
-- Makefile
-- README.md
-- bin
-- misc
-- requirements.txt
-- tex_en
-- tex_um
-
-# Markers in generated files.
-marker:
-  start: "<!-- main start -->"
-  end: "<!-- main end -->"
-  crossref: "let CROSSREF="
-
-# Collections: one for lessons and one for extras for each language suffix.
-collections:
-  chapters_en:
-    output: true
-  chapters_um:
-    output: true
-
-# Set the language for various collections.
-defaults:
-  - scope:
-      path: ""
-      type: chapters_en
-    values:
-      language: "en"
-      layout: "default"
-  - scope:
-      path: ""
-      type: chapters_um
-    values:
-      language: "um"
-      layout: "default"
-
 # Order for Table of Contents.
 toc:
   lessons:
@@ -110,3 +63,50 @@ translations:
     lulu: "Purchasum ad Lulu."
     objectives: "Sodales ut etiam sit amet nisl purus in..."
     singlepage: "Singlum pagum versione"
+
+# Jekyll settings.
+highlighter: rouge
+plugins:
+  - "jekyll-redirect-from"
+
+# Things to ignore
+exclude:
+- BUILD.md
+- CITATION.md
+- CONDUCT.md
+- LICENSE.md
+- Makefile
+- README.md
+- bin
+- cover
+- misc
+- requirements.txt
+- tex
+
+# Markers in generated files.
+marker:
+  start: "<!-- main start -->"
+  end: "<!-- main end -->"
+  crossref: "let CROSSREF="
+
+# Collections: one for lessons and one for extras for each language suffix.
+collections:
+  en:
+    output: true
+  um:
+    output: true
+
+# Set the language for various collections.
+defaults:
+  - scope:
+      path: ""
+      type: en
+    values:
+      language: "en"
+      layout: "default"
+  - scope:
+      path: ""
+      type: um
+    values:
+      language: "um"
+      layout: "default"

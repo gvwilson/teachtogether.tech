@@ -1,8 +1,7 @@
 ---
+layout: plain
 permalink: "/"
+title: "Teaching Tech Together"
 ---
 
-# {{site.title}}
-
 - [English version](./en/)
-- [Lorem Ipsum version](./um/) (for testing)

@@ -1,6 +1,4 @@
 ---
-layout: default
-language: "um"
 permalink: "/um/"
 root: true
 ---

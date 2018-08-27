@@ -18,7 +18,8 @@ def main(filenames):
         with open(fn, 'r') as reader:
             data = reader.read()
 
-        labels = [lbl for lbl in LABEL.findall(data) if not lbl.startswith('#')]
+        labels = [lbl for lbl in LABEL.findall(data)
+                  if (':' in lbl) and (not lbl.startswith('#'))]
         report('Label too short to be valid', fn,
                [lbl for lbl in labels if len(lbl) < 3])
         report('Bad first character', fn,

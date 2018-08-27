@@ -1,7 +1,7 @@
 {% if include.language == 'en' %}
-  {% assign chapters = site.chapters_en %}
+  {% assign chapters = site.en %}
 {% elsif include.language == 'um' %}
-  {% assign chapters = site.chapters_um %}
+  {% assign chapters = site.um %}
 {% endif %}
 {% assign licensepath = '/' | append: include.language | append: '/license/' %}
 {% assign allpath = '/' | append: include.language | append: '/all/' %}
