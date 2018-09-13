@@ -238,7 +238,7 @@ one that already does something useful.
 
 > **Theme and Variations**
 > 
-> Change the inner loop in the function below so that it fill the upper
+> Change the inner loop in the function below so that it fills the upper
 > left triangle of an image with a specified color.
 > 
 >     function fillTriangle(picture, color) is
