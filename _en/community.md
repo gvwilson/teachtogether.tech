@@ -346,7 +346,7 @@ Impostor syndrome thrives in communities with arbitrary, unnecessary
 standards, where harsh criticism is the norm, and where secrecy
 surrounds the actual process of getting work done, so the Ada
 Initiative has [guidelines][ada-guidelines] for communities to go with
-those given in [s:motivation-demotivation](#SECTION)for individuals:
+those given in [s:motivation-demotivation](#SECTION) for individuals:
 
 Encourage people.
 : This is as simple as it is effective.
