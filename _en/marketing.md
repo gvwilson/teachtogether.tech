@@ -213,7 +213,7 @@ Explain how you are going to help make their lives better.
   much faster if you let us tutor them" is a good attention-getter.
 
 Be specific about what you are offering.
-: "Our usual two-day curriculum includes..." helpers
+: "Our usual two-day curriculum includes..." helps
   listeners figure out right away whether a conversation is worth
   pursuing.
 
