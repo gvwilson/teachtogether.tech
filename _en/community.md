@@ -346,7 +346,7 @@ Impostor syndrome thrives in communities with arbitrary, unnecessary
 standards, where harsh criticism is the norm, and where secrecy
 surrounds the actual process of getting work done, so the Ada
 Initiative has [guidelines][ada-guidelines] for communities to go with
-those given in [s:motivation-demotivation](#SECTION)for individuals:
+those given in [s:motivation-demotivation](#SECTION) for individuals:
 
 Encourage people.
 : This is as simple as it is effective.
@@ -387,7 +387,7 @@ money to teach with whatever materials your group has worked up.
 
 Organizations can govern themselves in many different ways, and a full
 discussion of the options is outside the scope of this book. For-profit
-corporations and incorporated non-profits the two most popular models;
+corporations and incorporated non-profits are the two most popular models;
 the mechanics vary from jurisdiction to jurisdiction, so you should seek
 advice locally before doing anything. (This is one of the times when
 having ties with local government or other like-minded organizations
