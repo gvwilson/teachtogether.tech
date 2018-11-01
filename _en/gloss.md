@@ -186,7 +186,7 @@ language before but is learning it again. False beginners start at the
 same point as true beginners (i.e., a pre-test will show the same
 proficiency) but can move much more quickly.
 
-**Far Transfer**{:#g:far-transfer}: Transfer of learning or
+**Far transfer**{:#g:far-transfer}: Transfer of learning or
 proficiency between widely-separated domains, e.g., improvement in math
 skills as a result of playing chess.
 
