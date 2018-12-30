@@ -1,5 +1,5 @@
 ---
-permalink: "/en/all/"
+permalink: "/en/all.html"
 ---
 
 <!DOCTYPE html>
@@ -17,6 +17,9 @@ permalink: "/en/all/"
 <script src="/js/bootstrap.min.js"></script>
 <script src="/files/crossref.js"></script>
 <script src="/js/youbou.js" ROOT="true"></script>
+
+    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101159889);</script>
+<script async src="//static.getclicky.com/js"></script>
 
   </head>
   <body>
@@ -199,7 +202,7 @@ permalink: "/en/all/"
 
   
   <p>
-    <em>Last generated 2018-08-06.</em>
+    <em>Last generated 2018-12-29.</em>
   </p>
   
 </nav>
@@ -620,6 +623,7 @@ Hugo Bowne-Anderson,
 Neil Brown,
 Gerard Capes,
 Francis Castro,
+Dav Clark,
 Warren Code,
 Ben Cotton,
 Richie Cotton,
@@ -1339,18 +1343,16 @@ map to explain how to create a good screencast.</p>
 <p>To show how concept maps can be using in teaching programming, consider
 this <code class="highlighter-rouge">for</code> loop in Python:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>for letter in "abc":
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>for letter in "abc":
     print(letter)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>whose output is:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>a
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a
 b
 c
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The three key “things” in this loop are shown in the top of
 <a href="#f:memory-loop">Figure 3.2</a>, but they are only half the story. The
@@ -1656,9 +1658,8 @@ will add you to the credits in the introduction.</p>
 <p>Consider all the things you have to know to understand this one line of
 Python source code:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>answers = ['tuatara', 'tuataras', 'bus', "lick"]
-</code></pre>
-</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>answers = ['tuatara', 'tuataras', 'bus', "lick"]
+</code></pre></div></div>
 
 <p>As <a href="https://twitter.com/elliewix/status/981285432922202113">Elizabeth Wickes points out</a>:</p>
 
@@ -1785,47 +1786,43 @@ and music to contract law. Someone teaching programming might use them
 by first explaining how to calculate the total length of a list of
 words:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># total_length(["red", "green", "blue"]) =&gt; 12
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># total_length(["red", "green", "blue"]) =&gt; 12
 define total_length(list_of_words):
     total = 0
     for each word in list_of_words:
         total = total + word.length()
     return total
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>and then asking learners to fill in the blanks in this (which focuses
 their attention on control structures):</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># word_lengths(["red", "green", "blue"]) =&gt; [3, 5, 4]
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># word_lengths(["red", "green", "blue"]) =&gt; [3, 5, 4]
 define word_lengths(list_of_words):
     list_of_lengths = []
     for each ____ in ____:
         list_of_lengths.append(____)
     return list_of_lengths
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>The next problem might be this (which focuses their attention on
 updating the final result):</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># join_all(["red", "green", "blue"]) =&gt; "redgreenblue"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># join_all(["red", "green", "blue"]) =&gt; "redgreenblue"
 define join_all(list_of_words):
     joined_words = ____
     for each ____ in ____:
         ____
     return joined_words
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Learners would finally be asked to write an entire function on their
 own:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># make_acronym(["red", "green", "blue"]) =&gt; "RGB"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># make_acronym(["red", "green", "blue"]) =&gt; "RGB"
 define make_acronym(list_of_words):
     ____
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Faded examples work because they introduce the problem-solving strategy
 piece by piece: at each step, learners have one new problem to tackle,
@@ -2876,13 +2873,20 @@ out who your audience is. One way to do this is to write two or three
 borrowed from user interface designers, who create short profiles of
 typical users to help them think about their audience.</p>
 
-<p>Learner personas have five parts: the person’s general background,
-what they already know, what <em>they</em> think they want to do (as opposed
-to what someone who already understands the subject thinks), how the
-course will help them, and any special needs they might have. The
-personas in <a href="#s:intro-audience">Section 1.1</a> have the five points listed
-above, rearranged to flow more readably; a learner persona for a
-weekend workshop aimed at college students might be:</p>
+<p>Learner personas have five parts:</p>
+
+<ol>
+  <li>the person’s general background,</li>
+  <li>what they already know,</li>
+  <li>what <em>they</em> think they want to do (as opposed to what someone who already
+understands the subject thinks),</li>
+  <li>how the course will help them, and</li>
+  <li>any special needs they might have.</li>
+</ol>
+
+<p>The personas in <a href="#s:intro-audience">Section 1.1</a> have the five points listed above,
+rearranged to flow more readably; a learner persona for a weekend workshop aimed
+at college students might be:</p>
 
 <ol>
   <li>
@@ -3094,7 +3098,7 @@ something to think about [<a href="#Will2010">Will2010</a>].)</p>
 <p>Another way to think about learning objectives comes from
 [<a href="#Fink2013">Fink2013</a>], which defines learning in terms of the change it
 is meant to produce in the learner. <a href="#g:finks-taxonomy">Fink’s
-Taxonomy</a>also has six categories, but unlike
+Taxonomy</a> also has six categories, but unlike
 Bloom’s, they are complementary rather than hierarchical:</p>
 
 <dl>
@@ -3608,7 +3612,7 @@ you) actually do.</p>
 
 <h2 id="s:pck-misunderstand">What Misconceptions Do Novices Have?</h2>
 
-<p><a href="#s:models">Chapter 2</a> explained why clearing up novices misconceptions
+<p><a href="#s:models">Chapter 2</a> explained why clearing up novices’ misconceptions
 is just as important as teaching them strategies for solving problems.
 The biggest misconception novices have—sometimes called the “superbug”
 in coding—is the belief that they can communicate with a computer in the
@@ -3624,12 +3628,11 @@ in [<a href="#Qian2017">Qian2017</a>]’s survey. One is the belief that variabl
 programs work the same way they do in spreadsheets, i.e., that after
 executing:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>grade = 65
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grade = 65
 total = grade + 10
 grade = 80
 print(total)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>the value of <code class="highlighter-rouge">total</code> will be 90 rather than 75 [<a href="#Kohn2017">Kohn2017</a>].
 (This is an example of the way in which novices construct a
@@ -3680,7 +3683,7 @@ different kinds of mistakes actually are. The largest study of this is
 [<a href="#Brow2017">Brow2017</a>]’s study of novice Java programs, which found that
 mismatched quotes and parentheses are the most common type of error, but
 also the easiest to fix, while some mistakes (like putting the condition
-of an <code class="highlighter-rouge">if</code> in <code class="highlighter-rouge"><span class="p">{}</span></code> instead of <code class="highlighter-rouge">()</code>) are most often made only once.
+of an <code class="highlighter-rouge">if</code> in <code class="highlighter-rouge">{}</code> instead of <code class="highlighter-rouge">()</code>) are most often made only once.
 Unsurprisingly, mistakes that produce compiler errors are fixed much
 faster than ones that don’t.</p>
 
@@ -4008,20 +4011,18 @@ researchers have therefore explored whether better error messages would
 help alleviate this. For example, [<a href="#Beck2016">Beck2016</a>] rewrote some of the
 Java compiler’s messages so that instead of:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>C:\stj\Hello.java:2: error: cannot find symbol
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:\stj\Hello.java:2: error: cannot find symbol
         public static void main(string[ ] args){
 ^
 1 error
 Process terminated ... there were problems.
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>learners would see:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>Looks like a problem on line number 2.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Looks like a problem on line number 2.
 If "string" refers to a datatype, capitalize the 's'!
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Sure enough, novices given these messages made fewer repeated errors and
 fewer errors overall.</p>
@@ -6435,7 +6436,7 @@ affected by them, but they act like the steady drip of water on a stone:
 over time, they erode motivation, and with it, participation.</p>
 
 <p>The first and most important step toward fixing this is to stop thinking
-in terms of a “leaky pipeline” [<a href="#Mill2015">Mill2015</a>]. More generally, we to
+in terms of a “leaky pipeline” [<a href="#Mill2015">Mill2015</a>]. More generally, we need to
 move past a <a href="#g:deficit-model">deficit model</a> i.e., to stop
 thinking that the members of under-represented groups lack something and
 are therefore responsible for not getting ahead. Believing that puts the
@@ -6679,7 +6680,7 @@ classes that centralize control are called “xMOOCs”. (The latter kind of
 course is also sometimes called a “MESS”, for Massively Enhanced Sage on
 the Stage.)</p>
 
-<p>Two strength of the MOOC model are that learners can work when it’s
+<p>Two strengths of the MOOC model are that learners can work when it’s
 convenient for them, and that they have access to a wider range of
 courses, both because the Internet brings them all next door and because
 online courses typically have lower direct and indirect costs than
@@ -7398,11 +7399,10 @@ submissions are much more predictable and therefore easier to check.</p>
 
   <p>Fill in the blanks so that the code below prints the string <code class="highlighter-rouge">'hat'</code>.</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>text = 'all that it is'
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>text = 'all that it is'
 slice = text[____:____]
 print(slice)
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p>As described in <a href="#s:load">Chapter 4</a>, <a href="#g:parsons-problem">Parsons
@@ -7426,12 +7426,11 @@ to rearrange lines of code in an editor.</p>
   <p>Rearrange and indent these lines to sum the positive values in a list.
 (You will need to add colons in appropriate places as well.)</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>total = 0
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>total = 0
 if v &gt; 0
 total += v
 for v in values
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <h2 id="s:exercises-tracing">Tracing</h2>
@@ -7452,15 +7451,14 @@ search for it in the list of options.</p>
 
   <p>In what order are the labelled lines in this block of code executed?</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>A)     vals = [-1, 0, 1]
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A)     vals = [-1, 0, 1]
 B)     inverse_sum = 0
        try:
            for v in vals:
 C)             inverse_sum += 1/v
        except:
 D)         pass
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p><em>Tracing values</em> is similar to tracing execution, but instead of
@@ -7477,12 +7475,11 @@ the variables.</p>
 
   <p>What values do <code class="highlighter-rouge">left</code> and <code class="highlighter-rouge">right</code> take on as this program executes?</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>left = 24
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>left = 24
 right = 6
 while right:
     left, right = right, left % right
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p>You can also require learners to trace code backwards, e.g., to figure
@@ -7498,12 +7495,11 @@ debugging skills.</p>
   <p>Fill in the missing number in <code class="highlighter-rouge">values</code> that caused this function to
 crash.</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>values = [ [1.0, -0.5], [3.0, 1.5], [2.5, ___] ]
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>values = [ [1.0, -0.5], [3.0, 1.5], [2.5, ___] ]
 runningTotal = 0.0
 for (reading, scaling) in values:
     runningTotal += reading / scaling
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p><em>Minimal fix</em> exercises also help learners develop debugging skills.
@@ -7518,15 +7514,14 @@ can be done as a multiple choice question.</p>
   <p>This function is supposed to test whether a number lies within a
 range. Make one small change so that it actually does so.</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>def inside(point, lower, higher):
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def inside(point, lower, higher):
     if (point &lt;= lower):
         return false
     elif (point &lt;= higher):
         return false
     else:
         return true
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p><em>Theme and variation</em> exercises are similar, but instead of making a
@@ -7543,18 +7538,17 @@ one that already does something useful.</p>
 <blockquote>
   <p><strong>Theme and Variations</strong></p>
 
-  <p>Change the inner loop in the function below so that it fill the upper
+  <p>Change the inner loop in the function below so that it fills the upper
 left triangle of an image with a specified color.</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>function fillTriangle(picture, color) is
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function fillTriangle(picture, color) is
     for x := 1 to picture.width do
         for y := 1 to picture.height do
             picture[x, y] = color
         end
     end
 end
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <p><em>Refactoring exercises</em> are the complement of theme and variation
@@ -7571,12 +7565,11 @@ human intervention.</p>
   <p>Write a single list comprehension that has the same effect as this
 loop.</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>result = []
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>result = []
 for v in values:
     if len(v) &gt; threshold:
         result.append(v)
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 </blockquote>
 
 <h2 id="s:exercises-diagrams">Diagrams</h2>
@@ -7819,7 +7812,7 @@ have models of what good feedback should look like.</p>
 
   <p>Using the rubric provided, mark each line of the code below.</p>
 
-  <div class="highlighter-rouge"><pre class="highlight"><code>01)  def addem(f):
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>01)  def addem(f):
 02)      x1 = open(f).readlines()
 03)      x2 = [x for x in x1 if x.strip()]
 04)      changes = 0
@@ -7827,8 +7820,7 @@ have models of what good feedback should look like.</p>
 06)          print('total', total)
 07)          tot = tot + int(v)
 08)      print('total')
-</code></pre>
-  </div>
+</code></pre></div>  </div>
 
   <ol>
     <li>poor variable name</li>
@@ -8245,7 +8237,7 @@ earning a living.</p>
 standards, where harsh criticism is the norm, and where secrecy
 surrounds the actual process of getting work done, so the Ada
 Initiative has <a href="https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community">guidelines</a> for communities to go with
-those given in <a href="#s:motivation-demotivation">Section 10.2</a>for individuals:</p>
+those given in <a href="#s:motivation-demotivation">Section 10.2</a> for individuals:</p>
 
 <dl>
   <dt>Encourage people.</dt>
@@ -8283,7 +8275,7 @@ money to teach with whatever materials your group has worked up.</p>
 
 <p>Organizations can govern themselves in many different ways, and a full
 discussion of the options is outside the scope of this book. For-profit
-corporations and incorporated non-profits the two most popular models;
+corporations and incorporated non-profits are the two most popular models;
 the mechanics vary from jurisdiction to jurisdiction, so you should seek
 advice locally before doing anything. (This is one of the times when
 having ties with local government or other like-minded organizations
@@ -8878,7 +8870,7 @@ that sounds like a hustle.</dd>
   <dd>A pitch like “Your students will be able to do their math homework
 much faster if you let us tutor them” is a good attention-getter.</dd>
   <dt>Be specific about what you are offering.</dt>
-  <dd>“Our usual two-day curriculum includes…” helpers
+  <dd>“Our usual two-day curriculum includes…” helps
 listeners figure out right away whether a conversation is worth
 pursuing.</dd>
   <dt>Make yourself credible</dt>
@@ -9392,7 +9384,7 @@ now, you won’t be ready to do them when you have to.</p>
 make the world a better place so that I can retire in comfort. I want
 them to do it because it’s the greatest adventure of our time. A
 hundred and fifty years ago, most societies practiced slavery. A
-hundred years ago, my grandmother <a href="https://en.wikipedia.org/wiki/The_Famous_Five_Canada">wasn’t legally a
+hundred years ago, my grandmother <a href="https://en.wikipedia.org/wiki/The_Famous_Five_(Canada)">wasn’t legally a
 person</a> in Canada. Fifty years ago, most of the world’s
 people suffered under totalitarian rule; in the year I was born,
 judges were still ordering electroshock therapy to “cure”
@@ -10042,7 +10034,7 @@ language before but is learning it again. False beginners start at the
 same point as true beginners (i.e., a pre-test will show the same
 proficiency) but can move much more quickly.</p>
 
-<p><strong id="g:far-transfer">Far Transfer</strong>: Transfer of learning or
+<p><strong id="g:far-transfer">Far transfer</strong>: Transfer of learning or
 proficiency between widely-separated domains, e.g., improvement in math
 skills as a result of playing chess.</p>
 
