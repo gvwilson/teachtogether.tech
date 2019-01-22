@@ -77,21 +77,6 @@ help you go further. Its four sections cover:
 >
 > 1. ...and that nobody will be more excited about the lesson than you are.
 
-## News
-
-2018-07-23:
-: Want to help make this book better?  Send us a few key insights from
-  your favorite chapters so that we can compile some "what to take
-  away" summaries based on what *you* found useful.  As always, you
-  can file an issue in [our GitHub repository]({{site.repo}}) or
-  [email us](mailto:{{site.email}}).
-
-2018-07-18:
-: If your e-reader is having trouble with our EPUB or MOBI files, try
-  [these versions from unglue.it][unglue-versions].  And if you would
-  like to help us fix our publication process, please [find us on
-  GitHub]({{site.repo}}).
-
 <div align="center">
   <img src="{{'/files/author-fan-2018-07.jpg'|relative_url}}" alt="The compiler with his biggest fan, July 2018" width="600px" />
   <p>The compiler with his biggest fan, July 2018</p>
