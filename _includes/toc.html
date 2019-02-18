@@ -16,10 +16,13 @@ Display the table of comments.  Parameters are:
   {% comment %} Download PDF and EPUB versions. {% endcomment %}
   <hr/>
   <p>
-    <a href="https://unglue.it/work/313918/">EPUB and MOBI versions</a>
+    <a href="{{site.purchase}}"><img src="{{'/assets/lulu.gif'|relative_url}}" border="0" alt="{{site.translations[page.language].lulu}}" /></a>
   </p>
   <p>
-    <a href="{{site.purchase}}"><img src="{{'/assets/lulu.gif'|relative_url}}" border="0" alt="{{site.translations[page.language].lulu}}" /></a>
+    <a href="https://unglue.it/work/313918/">EPUB and MOBI</a>
+  </p>
+  <p>
+    <a href="https://github.com/gvwilson/teachtogether.tech/raw/master/tex/en/t3.pdf" target="_blank">PDF</a>
   </p>
 
   {% comment %} Show the lessons, bibliography, and extras in that order using a sub-inclusion. {% endcomment %}
