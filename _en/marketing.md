@@ -13,7 +13,7 @@ It's hard to get people with academic or technical backgrounds to take
 as being about spin and misdirection. In reality, it is the craft of
 seeing things from other people's perspective, understanding their
 wants and needs, and finding ways to meet them. This should sound
-familiar: many of the techniques introduced in [s:process](#CHAPTER)
+familiar: many of the techniques introduced in [s:process](#REF)
 do exactly this for lessons. This chapter will look at how to apply
 similar ideas to the larger problem of getting people to understand
 and support what you're doing.
@@ -22,7 +22,7 @@ and support what you're doing.
 
 The first step is to figure out what you are offering to whom, i.e.,
 what actually brings in the volunteers, funding, and other support you
-need to keep going. As [[Kuch2011](#CITE)] points out, the answer is
+need to keep going. As [Kuch2011](#BIB) points out, the answer is
 often counter-intuitive. For example, most scientists think their papers
 are their product, but it's actually their grant proposals, because
 those are what brings in money. Their papers are the advertising that
@@ -50,7 +50,7 @@ actual product may be some mix of:
 - the personal satisfaction that your volunteer instructors get from
   teaching.
 
-As with the lesson design process in [s:process](#CHAPTER), you should
+As with the lesson design process in [s:process](#REF), you should
 try to create personas to describe people who might be interested in
 what you're doing and figure out which of their needs your program
 will meet. You should also write a set of [elevator
@@ -154,7 +154,7 @@ important, because they can be shared and re-shared without limit.
 > adding one.
 
 Whatever else you do, make your organization findable in online
-searches: [[DiSa2014b](#CITE)] discovered that the search terms parents
+searches: [DiSa2014b](#BIB) discovered that the search terms parents
 were likely to use for out-of-school computing classes didn't actually
 find those classes. There's a lot of folklore about how to make things
 findable under the label "SEO" (for "search engine optimization"); given
@@ -180,7 +180,7 @@ them.
 
 > **Build Alliances**
 > 
-> As discussed in [s:community](#CHAPTER), building alliances with
+> As discussed in [s:community](#REF), building alliances with
 > other groups that are doing things related to what you're doing pays
 > off in many ways. One of those is referrals: if someone approaches you
 > for help, but would be better served by some other organization, take
@@ -268,7 +268,7 @@ demoralizing if you're not used to it.
 
 ## A Final Thought {#s:marketing-final}
 
-As [[Kuch2011](#CITE)] says, if you can't be first in a category, create
+As [Kuch2011](#BIB) says, if you can't be first in a category, create
 a new category that you can be first in; if you can't do that, join an
 existing group or think about doing something else entirely. This isn't
 defeatist: if someone else is already doing what you're doing better
@@ -311,7 +311,7 @@ to counteract each.
 ### Why Learn to Program? (individual/15)
 
 Revisit the "Why Learn to Program?" exercise in
-[s:intro-exercises](#SECTION). Where do your reasons for teaching and
+[s:intro-exercises](#REF). Where do your reasons for teaching and
 your learners' reasons for learning align? Where are they not aligned?
 How does that affect your marketing?
 
@@ -332,7 +332,7 @@ those of other pairs.
 A [conversational programmer](#g:conversational-programmer)
 is someone who needs to know enough about computing to have a meaningful
 conversation with a programmer, but isn't going to program themselves.
-[[Wang2018](#CITE)] found that most learning resources don't address this
+[Wang2018](#BIB) found that most learning resources don't address this
 group's needs. Working in pairs, write a pitch for a half-day workshop
 intended to help people that fit this description, and then share your
 pair's pitch with the rest of the class.

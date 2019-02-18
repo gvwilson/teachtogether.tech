@@ -26,7 +26,7 @@ motivation](#g:intrinsic-motivation), which is what we feel when we
 find something personally rewarding. Both affect most situations---for
 example, people teach because they enjoy it and because they get
 paid---but we learn best when we are intrinsically motivated
-[[Wlod2017](#CITE)]. According to [self-determination
+[Wlod2017](#BIB). According to [self-determination
 theory][self-determination-theory], the three drivers of intrinsic
 motivation are:
 
@@ -53,25 +53,25 @@ talk to their peers (relatedness).
 > 
 > Grades and the way they distort learning are often used as an
 > example in discussion of extrinsic motivation, but as
-> [[Mill2016a](#CITE)] observes, they aren't going to go away any time
+> [Mill2016a](#BIB) observes, they aren't going to go away any time
 > soon, so it's pointless to try to build a system that ignores
-> them. Instead, [[Lang2013](#CITE)] explores how courses that
+> them. Instead, [Lang2013](#BIB) explores how courses that
 > emphasize grades can incentivize students to cheat, and offers some
-> tips on how to diminish this effect, while [[Covi2017](#CITE)] looks
+> tips on how to diminish this effect, while [Covi2017](#BIB) looks
 > at the larger problem of balancing intrinsic and extrinsic
 > motivation in institutional education, and the [constructive
 > alignment][constructive-alignment] approach advocated in
-> [[Bigg2011](#CITE)] seeks to bring learning activities and learning
+> [Bigg2011](#BIB) seeks to bring learning activities and learning
 > outcomes into line with each other.
 
-[[Ambr2010](#CITE)] contains a list of evidence-based methods to motivate
+[Ambr2010](#BIB) contains a list of evidence-based methods to motivate
 learners. None of them are surprising---it's hard to imagine someone
 saying that we *shouldn't* identify and reward what we value---but it's
 useful to check lessons against these points to make sure they're doing
 at least a few of these things. One strategy I particularly like is to
 have students who struggled but succeeded come in and tell their stories
 to the rest of the class. Learners are far more likely to believe
-stories from people like themselves [[Mill2016a](#CITE)], and people who
+stories from people like themselves [Mill2016a](#BIB), and people who
 have been through your course will always have advice that you would
 never have thought of.
 
@@ -81,14 +81,14 @@ never have thought of.
 > motivate the *teacher*. Learners respond to a teacher's enthusiasm,
 > and teachers need to care about a topic in order to keep teaching it,
 > particularly when they are volunteers. This is another powerful reason
-> to co-teach ([s:classroom-together](#SECTION)): just as having a
+> to co-teach ([s:classroom-together](#REF)): just as having a
 > running partner makes it more likely that you'll keep running, having
 > a teaching partner helps get you up and going on those days when you
 > have a cold and the projector bulb has burned out and nobody knows
 > where to find a replacement and why are they doing construction work
 > today of all days...
 
-Teachers can do other positive things as well. [[Bark2014](#CITE)] found
+Teachers can do other positive things as well. [Bark2014](#BIB) found
 three things that drove retention for all students: meaningful
 assignments, faculty interaction with students, and student
 collaboration on assignments. Pace and workload (relative to
@@ -99,21 +99,18 @@ activities. These results may seem obvious, but the reverse would seem
 obvious too: if the study had found that extracurricular activities
 drove retention, we would also say "of course". Noticeably, two of the
 four retention drivers (faculty interaction and student collaboration)
-take extra effort to replicate online ([s:online](#CHAPTER)).
+take extra effort to replicate online ([s:online](#REF)).
 
 ## Authentic Tasks {#s:motivation-authentic}
 
-As Dylan Wiliam points out in [[Hend2017](#CITE)], motivation doesn't
+As Dylan Wiliam points out in [Hend2017](#BIB), motivation doesn't
 always lead to achievement, but achievement almost always leads to
 motivation: helping students succeed motivates them far more than
 telling them how wonderful they are. We can use this idea in teaching by
 creating a grid whose axes are "mean time to master" and "usefulness
-once mastered" ([f:motivation-what](#FIGURE)).
+once mastered" ([f:motivation-what](#FIG)).
 
-<figure>
-  <img src="../../files/what-to-teach.svg" alt="What to Teach" />
-  <figcaption id="f:motivation-what">What to Teach</figcaption>
-</figure>
+{% include figure.html id="f:motivation-what" src="../../figures/what-to-teach.svg" caption="What to Teach" %}
 
 Things that are quick to master and immediately useful should be taught
 first, even if they aren't considered fundamental by people who are
@@ -135,17 +132,17 @@ to pay in order to do so.
 
 A well-studied instance of prioritizing what's useful without
 sacrificing what's fundamental is the media computation approach
-developed at Georgia Tech [[Guzd2013](#CITE)]. Instead of printing "hello
+developed at Georgia Tech [Guzd2013](#BIB). Instead of printing "hello
 world" or summing the first ten integers, a student's first program
 might open an image, resize it to create a thumbnail, and save the
 result. This is an [authentic task](#g:authentic-task), i.e.,
 something that learners believe they would actually do in real life. It
 also has a [tangible artifact](#g:tangible-artifact): if the
 image comes out the wrong size, learners have a concrete starting point
-for debugging. [[Lee2013](#CITE)] describes an adaption of this approach
+for debugging. [Lee2013](#BIB) describes an adaption of this approach
 from Python to MATLAB, while others are building similar courses around
 data science, image processing, and biology
-[[Dahl2018](#CITE),[Meys2018](#CITE),[Ritz2018](#CITE)].
+[Dahl2018,Meys2018,Ritz2018](#BIB).
 
 There will always be tension between giving learners authentic problems
 and exercising the individual skills that they will need to solve those
@@ -169,14 +166,14 @@ If you are teaching in a free-range setting, your learners are probably
 volunteers, and probably want to be in your classroom. The exercise
 therefore isn't how to motivate them, but how to not demotivate them.
 Unfortunately, you can do this by accident much more easily than you
-might think. For example, [[Cher2009](#CITE)] reported four studies
+might think. For example, [Cher2009](#BIB) reported four studies
 showing that subtle environmental clues have a measurable difference on
 the interest that people of different genders have in computing:
 changing objects in a CS classroom from those considered stereotypical
 of computer science (e.g., Star Trek posters and video games) to objects
 not considered stereotypical (e.g., nature poster, phone books) boosted
 female undergraduates' interest in CS to the level of their male peers.
-Similarly, [[Gauc2011](#CITE)] reports a trio of studies showing that
+Similarly, [Gauc2011](#BIB) reports a trio of studies showing that
 gendered wording commonly employed in job recruitment materials can
 maintain gender inequality in traditionally male-dominated occupations.
 
@@ -190,7 +187,7 @@ or the material won't care about it either. And people are also
 demotivated if they believe something is unfair, even if it is unfair in
 their favor, because they will worry (consciously or unconsciously) that
 they will some day find themselves in the group on the losing end
-[[Wilk2011](#CITE)]. In extreme situations, learners may develop
+[Wilk2011](#BIB). In extreme situations, learners may develop
 [learned helplessness](#g:learned-helplessness): when
 repeatedly subjected to negative feedback in a situation that they can't
 change, they may learn not to even try to change the things they could.
@@ -219,7 +216,7 @@ Pretending that you know more than you do.
 Using the J word ("just") or feigning surprise
 : (i.e., saying things like "I can't believe you don't know X" or
   "you've never heard of Y?"). As discussed in
-  [s:memory](#CHAPTER), this signals to the learner that the teacher
+  [s:memory](#REF), this signals to the learner that the teacher
   thinks their problem is trivial and by extension that they must be
   stupid for not being able to figure it out.
 
@@ -236,7 +233,7 @@ Software installation headaches.
 
 It is even easier to demotivate people online than in person, but
 there are now evidence-based strategies for dealing with this.
-[[Ford2016](#CITE)] found that five barriers to contribution on [Stack
+[Ford2016](#BIB) found that five barriers to contribution on [Stack
 Overflow][stack-overflow] are seen as significantly more problematic
 by women than men: lack of awareness of site features, feeling
 unqualified to answer questions, intimidating community size,
@@ -247,15 +244,15 @@ feedback didn't quite make this list, but would have been the next one
 added if the authors weren't quite so strict about their statistical
 cutoffs. All of these factors can and should be addressed in both
 in-person and online settings using methods like those in
-[s:motivation-inclusivity](#SECTION), and doing so improves outcomes
-for everyone [[Sved2016](#CITE)].
+[s:motivation-inclusivity](#REF), and doing so improves outcomes
+for everyone [Sved2016](#BIB).
 
 > **Productive Failure and Privilege**
 > 
 > Some recent work has explored the notion of productive failure, where
 > learners are deliberately given problems that can't be solved with the
 > knowledge they have, and have to go out and acquire new information in
-> order to make progress [[Kapu2016](#CITE)]. Ensuring that learners are
+> order to make progress [Kapu2016](#BIB). Ensuring that learners are
 > blocked but not frustrated depends more on classroom culture and
 > expectations than it does on the details of particular exercises.
 > 
@@ -274,8 +271,8 @@ achievements are lucky flukes---and an accompanying fear of someone
 finding out. Impostor syndrome is common among high achievers who
 undertake publicly visible work, but most people suffer from it
 occasionally to some extent. It disproportionately affects members of
-under-represented groups: as discussed in [s:pck-now](#SECTION),
-[[Wilc2018](#CITE)] found that female students with prior exposure to
+under-represented groups: as discussed in [s:pck-now](#REF),
+[Wilc2018](#BIB) found that female students with prior exposure to
 computing outperformed their male peers in all areas in introductory
 programming courses, but were consistently less confident in their
 abilities, in part because society keeps signalling in subtle and
@@ -327,7 +324,7 @@ sharing stories of mistakes that you have made or things you struggled
 to learn. This reassures the class that it's OK to find topics hard.
 Being open with the group makes it easier to build trust and make
 students confident to ask questions. (Live coding is great for this: as
-noted in [s:performance-live](#SECTION), your typos show your class
+noted in [s:performance-live](#REF), your typos show your class
 that you're human.) You can also emphasize that you want questions: you
 are not succeeding as a teacher if no one can follow your class, so
 you're asking students for their help to help you learn and improve.
@@ -337,20 +334,20 @@ you're asking students for their help to help you learn and improve.
 Reminding people of negative stereotypes, even in subtle ways, can make
 them anxious about the risk of confirming those stereotypes, which in
 turn reduces their performance. This is called
-[stereotype threat](#g:stereotype-threat); [[Stee2011](#CITE)]
+[stereotype threat](#g:stereotype-threat); [Stee2011](#BIB)
 summarizes what we know about stereotype threat in general and presents
 some strategies for mitigating it in the classroom.
 
 Unwelcoming climates demotivate everyone, particularly members of
 under-represented groups, but it's less clear that stereotype threat
 is the primary cause. Part of the problem is that the term has been
-used in many ways [[Shap2007](#CITE)]; another is
+used in many ways [Shap2007](#BIB); another is
 [questions][stereotype-threat-replication] about the replicability of
 key studies. What *is* clear is that both instructors and learners
 must avoid using language that suggests that some people are natural
 programmers and others aren't. Guzdial has called this [the biggest
 myth about teaching computer science][guzdial-myths], and
-[[Pati2016](#CITE)] backed this up by showing that people see evidence
+[Pati2016](#BIB) backed this up by showing that people see evidence
 for a "geek gene" where none exists:
 
 > Although it has never been rigorously demonstrated, there is a common
@@ -375,7 +372,7 @@ because of feedback effects. Consciously or unconsciously, teachers tend
 to focus their attention on learners who seem to be doing well. That
 extra attention increases the odds that they will, while the
 corresponding neglect of other learners leaves them further and further
-behind [[Alvi1999](#CITE),[Brop1983](#CITE),[Juss2005](#CITE)].
+behind [Alvi1999,Brop1983,Juss2005](#BIB).
 
 ### Mindset
 
@@ -392,7 +389,7 @@ learned and can be improved, they do better on average.
 As with stereotype threat, [there are concerns][mindset-replication]
 that growth mindset has been oversold, or that research is much more
 difficult to put into practice than its more enthusiastic advocates
-have implied. [[Sisk2018](#CITE)] reported two meta-analyses, one
+have implied. [Sisk2018](#BIB) reported two meta-analyses, one
 looking at the strength of the relationship between mindset and
 academic achievement, the other at the effectiveness of mindset
 interventions on academic achievement. The overall effects for both
@@ -457,7 +454,7 @@ Do the easy things first.
   choices, general text size, checking in advance that your room is
   accessible via an elevator or ramp, etc.
 
-[[Coom2012](#CITE),[Burg2015](#CITE)] are good guides to visual design for
+[Coom2012,Burg2015](#BIB) are good guides to visual design for
 accessibility. Their recommendations include:
 
 Format documents with actual headings and other landmarks,
@@ -479,13 +476,13 @@ Include narration of on-screen action
 
 ### Conduct Revisited
 
-We said in [s:intro-code-of-conduct](#SECTION) that classes should
+We said in [s:intro-code-of-conduct](#REF) that classes should
 enforce a Code of Conduct like the one in [s:conduct](#APPENDIX). This
 is a form of accessibility: while closed captions make video accessible
 to people with hearing disabilities, a Code of Conduct makes lessons
 accessible to people who would otherwise be marginalized.
 
-As discussed in [s:classroom-enforce](#SECTION), the details of the
+As discussed in [s:classroom-enforce](#REF), the details of the
 Code of Conduct are important, but the most important thing about it is
 that it exists and is enforced. Knowing that there are rules tells
 people a great deal about your values and about what kind of learning
@@ -510,7 +507,7 @@ under-represented racial or ethnic groups, people with various sexual
 orientations, the elderly, the physically exercised, the formerly
 incarcerated, the economically disadvantaged, and everyone else who
 doesn't fit Silicon Valley's white/Asian male demographic.
-[[Lee2017](#CITE)] is a brief, practical guide to doing that with
+[Lee2017](#BIB) is a brief, practical guide to doing that with
 references to the research literature. The practices it describes help
 learners who belong to one or more marginalized or excluded groups, but
 help motivate everyone else as well; while they are phrased in terms of
@@ -537,12 +534,12 @@ Actively mitigate behavior that some learners may find intimidating,
 
 At a higher level, committing to inclusive teaching may mean
 fundamentally rethinking content. This is a lot of work, but the rewards
-can be significant. For example, [[DiSa2014a](#CITE)] found that 65% of
+can be significant. For example, [DiSa2014a](#BIB) found that 65% of
 male African-American participants in a game testing program went on to
 study computing, in part because the gaming aspect of the program was
 something their peers respected.
 
-Work like this has to be done carefully. [[Lach2018](#CITE)] explored two
+Work like this has to be done carefully. [Lach2018](#BIB) explored two
 strategies:
 
 [Community representation](#g:community-representation)  
@@ -562,7 +559,7 @@ do any real computing, and cultural appropriation (for computational
 integration), e.g., using practices without acknowledging origins. When
 in doubt, ask your learners and members of their community what they
 think you ought to do and give them control over content and direction.
-We return to this in [s:community](#CHAPTER).
+We return to this in [s:community](#REF).
 
 ### Spoons
 
@@ -591,34 +588,31 @@ mental obstacles that aren't obvious. Again, when in doubt, ask your
 learners: they almost certainly have more experience with what works
 and what doesn't than anyone else.
 
-### Moving Past the Deficit Model {#s:motivation-deficit}
+### Moving Past the Deficit Model
 
 Depending on whose numbers you trust, only 12--18% of people getting
 computer science degrees are women, which is less than half the
-percentage seen in the mid-1980s ([f:motivation-gender](#FIGURE)). And
+percentage seen in the mid-1980s ([f:motivation-gender](#FIG)). And
 western countries are the odd ones for having such low percentage of
 women in computing: women are still often 30--40% of computer science
-students elsewhere [[Galp2002](#CITE),[Varm2015](#CITE)].
+students elsewhere [Galp2002,Varm2015](#BIB).
 
-<figure>
-  <img src="../../files/enrollment.png" alt="Degrees Awarded and Female Enrollment" />
-  <figcaption id="f:motivation-gender">Degrees Awarded and Female Enrollment ([<a href="#Robe2017">Robe2017</a>])</figcaption>
-</figure>
+{% include figure.html id="f:motivation-gender" src="../../figures/enrollment.png" caption="Degrees Awarded and Female Enrollment ([Robe2017](#BIB))" %}
 
 Since it's unlikely that women have changed drastically in the last
 thirty years, we have to look for structural causes to understand what's
 gone wrong and how to fix it. One reason is the way that home computers
-were marketed as "boys' toys" starting in the 1980s [[Marg2003](#CITE)];
+were marketed as "boys' toys" starting in the 1980s [Marg2003](#BIB);
 another is the way that computer science departments responded to
 explosive growth in enrollment in the 1980s and again in the 2000s by
-changing admission requirements [[Robe2017](#CITE)], and as noted at the
+changing admission requirements [Robe2017](#BIB), and as noted at the
 start of this section, these factors have excluded many other people as
 well. None of these factors may seem dramatic to people who aren't
 affected by them, but they act like the steady drip of water on a stone:
 over time, they erode motivation, and with it, participation.
 
 The first and most important step toward fixing this is to stop thinking
-in terms of a "leaky pipeline" [[Mill2015](#CITE)]. More generally, we need to
+in terms of a "leaky pipeline" [Mill2015](#BIB). More generally, we need to
 move past a [deficit model](#g:deficit-model) i.e., to stop
 thinking that the members of under-represented groups lack something and
 are therefore responsible for not getting ahead. Believing that puts the
@@ -629,13 +623,13 @@ closely.
 
 > **Rewriting History**
 > 
-> [[Abba2012](#CITE)] describes the careers and accomplishments of the
+> [Abba2012](#BIB) describes the careers and accomplishments of the
 > women who shaped the early history of computing, but have all too
-> often been written out of that history; [[Ensm2003](#CITE),[Ensm2012](#CITE)]
+> often been written out of that history; [Ensm2003,Ensm2012](#BIB)
 > describes how programming was turned from a female into a male
-> profession in the 1960s, while [[Hick2018](#CITE)] looks at how Britain
+> profession in the 1960s, while [Hick2018](#BIB) looks at how Britain
 > lost its early dominance in computing by systematically discriminating
-> against its most qualified workers: women. [[Milt2018](#CITE)] is a
+> against its most qualified workers: women. [Milt2018](#BIB) is a
 > good review of all three books. Discussing this can make some men in
 > computing very uncomfortable; in my opinion, that's a good reason to
 > do it more often.
@@ -643,11 +637,11 @@ closely.
 Misogyny in video games, the use of "cultural fit" in hiring to excuse
 conscious or unconscious bias, a culture of silence around harassment,
 and the growing inequality in society that produces preparatory
-privilege ([s:classroom-mixed](#SECTION)) may not be any one person's
+privilege ([s:classroom-mixed](#REF)) may not be any one person's
 fault, but they are everyone's responsibility. [This
 workshop][frameshift-ally] has excellent practical advice on how to be
 a good ally in tech; we will return to this topic in
-[s:community](#CHAPTER).
+[s:community](#REF).
 
 ## Exercises {#s:motivation-exercises}
 
@@ -680,7 +674,7 @@ learners?
 
 ### Implement One Strategy for Inclusivity (individual/5)
 
-Pick one activity or change in practice from [[Lee2017](#CITE)] that you
+Pick one activity or change in practice from [Lee2017](#BIB) that you
 would like to work on. Put a reminder in your calendar three months in
 the future to self-check whether you have done something about it.
 
@@ -717,7 +711,7 @@ sentence in this exercise assumed you could actually walk?
 
 ### Who Decides? (whole class/15)
 
-In [[Litt2004](#CITE)], Kenneth Wesson wrote, "If poor inner-city
+In [Litt2004](#BIB), Kenneth Wesson wrote, "If poor inner-city
 children consistently outscored children from wealthy suburban homes
 on standardized tests, is anyone naive enough to believe that we would
 still insist on using these tests as indicators of success?" Read
@@ -747,7 +741,7 @@ learning? If so, what can you do to help them save face?
 
 ### After the Fact (whole class/15)
 
-[[Cutt2017](#CITE)] surveyed adult computer users about their childhood
+[Cutt2017](#BIB) surveyed adult computer users about their childhood
 activities and found that the strongest correlation between confidence
 and computer use were based on reading on one's own and playing with
 construction toys with no moving parts (like Lego). Spend a few minutes
@@ -765,7 +759,7 @@ the six categories of user?
 
 ### Tracing the Cycle (small groups/15)
 
-[[Coco2018](#CITE)] traces a depressingly common pattern in which good
+[Coco2018](#BIB) traces a depressingly common pattern in which good
 intentions are undermined by an organization's leadership being
 unwilling to actually change. Working in groups of 4--6, write brief
 emails that you imagine each of the parties involved would send to the

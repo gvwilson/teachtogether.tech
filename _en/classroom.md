@@ -18,7 +18,7 @@ that have proven helpful in programming classes.
 
 Before describing these practices, it's worth pausing for a moment to
 set expectations. The best teaching method we know is individual
-tutoring: [[Bloo1984](#CITE)] found that students taught one-to-one using
+tutoring: [Bloo1984](#BIB) found that students taught one-to-one using
 mastery learning techniques performed two standard deviations better
 than those who learned through conventional lecture, i.e., that
 individually-tutored students did better than 98% of students who were
@@ -30,7 +30,7 @@ attention as possible, but at scale.
 
 ## Enforce the Code of Conduct {#s:classroom-enforce}
 
-[s:intro](#CHAPTER) said that every workshop should have and enforce a
+[s:intro](#REF) said that every workshop should have and enforce a
 Code of Conduct like the one in [s:conduct](#APPENDIX). If you are a
 teacher, and believe that someone has violated it, you may warn them,
 ask them to apologize, and/or expel them, depending on the severity of
@@ -62,9 +62,9 @@ No matter how good a teacher is, she can only say one thing at a time.
 How then can she clear up many different misconceptions in a reasonable
 time? The best solution developed so far is a technique called
 [peer instruction](#g:peer-instruction). Originally created
-by Eric Mazur at Harvard [[Mazu1996](#CITE)], it has been studied
+by Eric Mazur at Harvard [Mazu1996](#BIB), it has been studied
 extensively in a wide variety of contexts, including programming
-[[Crou2001](#CITE),[Port2013](#CITE)], and [[Port2016](#CITE)] found that students
+[Crou2001,Port2013](#BIB), and [Port2016](#BIB) found that students
 value peer instruction even at first contact.
 
 Peer instruction is essentially a way to provide one-to-one mentorship
@@ -101,7 +101,7 @@ understanding.
 But could this be a false positive? Are results improving because of
 increased understanding during discussion, or simply from a
 follow-the-leader effect ("vote like Jane, she's always right")?
-[[Smit2009](#CITE)] tested this by following the first question with a
+[Smit2009](#BIB) tested this by following the first question with a
 second one that students answer individually. Sure enough, peer
 discussion actually does enhance understanding, even when none of the
 students in a discussion group originally knew the correct answer.
@@ -113,13 +113,13 @@ students in a discussion group originally knew the correct answer.
 > themselves like "I just misread the question". Much of the value of
 > peer instruction comes from the hypercorrection of having their answer
 > be wrong and having to think through the reasons why
-> ([s:individual-strategies](#SECTION)).
+> ([s:individual-strategies](#REF)).
 
 ## Teach Together {#s:classroom-together}
 
 [Co-teaching](#g:co-teaching) describes any situation in
 which two teachers work together in the same classroom.
-[[Frie2016](#CITE)] describes several ways to do this:
+[Frie2016](#BIB) describes several ways to do this:
 
 Team teaching:
 : Both teachers deliver a single stream of content in tandem, taking
@@ -160,7 +160,7 @@ fumbling at their keyboard.
 > to provide in-class technical support. They can help learners with
 > setup and installation, answer technical questions during exercises,
 > monitor the room to spot people who may need help, or keep an eye on
-> the shared notes ([s:classroom-notetaking](#SECTION)) and either
+> the shared notes ([s:classroom-notetaking](#REF)) and either
 > answer questions there or remind the instructor to do so during
 > breaks.
 > 
@@ -198,7 +198,7 @@ If you and a partner are co-teaching, try to follow these rules:
 
 - The person who isn't teaching should stay engaged with the class,
   not catch up on their email. Monitor the shared notes
-  ([s:classroom-notetaking](#SECTION)), keep an eye on the students
+  ([s:classroom-notetaking](#REF)), keep an eye on the students
   to see who's struggling, jot down some feedback to give your
   teaching partner at the next break---anything that contributes to the
   lesson is better than anything that doesn't.
@@ -229,7 +229,7 @@ them. In short, you might scare off many of the people you most want to
 help.
 
 And self-assessment is unreliable because of the [Dunning-Kruger
-effect][dunning-kruger] [[Krug1999](#CITE)]: the less people know
+effect][dunning-kruger] [Krug1999](#BIB): the less people know
 about a subject, the less accurate their estimate of their knowledge
 is. Conversely, people who are competent may underrate their skills
 because they regard their level of competence as normal.
@@ -287,7 +287,7 @@ learner who is bored, the rest of the class will feel left out.
 > 
 > Being a false beginner is an example of
 > [preparatory privilege](#g:preparatory-privilege)
-> [[Marg2010](#CITE)]. In many cases, it's a result of coming from a home
+> [Marg2010](#BIB). In many cases, it's a result of coming from a home
 > that's secure enough and affluent enough to have several computers and
 > parents who are familiar with how to use them. Whether or not this is
 > fair depends on what you choose to include in your assessment.
@@ -302,12 +302,12 @@ comments and suggestions. The two switch roles several times per hour;
 demonstration.
 
 Pair programming is an effective practice in professional work
-[[Hann2009](#CITE)], and is also a good way to teach: benefits include
+[Hann2009](#BIB), and is also a good way to teach: benefits include
 increased success rate in introductory courses, better software, and
 higher student confidence in their solutions; there is also evidence
 that students from underrepresented groups benefit even more than
 others
-[[McDo2006](#CITE),[Hank2011](#CITE),[Port2013](#CITE),[Cele2018](#CITE)].
+[McDo2006,Hank2011,Port2013,Cele2018](#BIB).
 Partners can not only help each other out during the practical, but
 can also clarify each other's misconceptions when the solution is
 presented, and discuss common research interests during breaks. I have
@@ -326,7 +326,7 @@ banked (theater-style) seating; this also makes it easier for helpers to
 reach learners who need assistance. And take a few minutes to
 demonstrate what it actually looks like so that they understand the
 person who doesn't have their hands on the keyboard isn't supposed to
-just sit and watch. Finally, tell them about [[Lewi2015](#CITE)], who
+just sit and watch. Finally, tell them about [Lewi2015](#BIB), who
 studied pair programming in a Grade 6 classroom, and found that pairs
 that focused on trying to complete the task as quickly as possible were
 less fair in their sharing.
@@ -338,25 +338,25 @@ less fair in their sharing.
 > everyone a chance to gain new insights and make new friends. On the
 > other, moving computers and power adapters to new desks several times
 > a day is disruptive, and pairing can be uncomfortable for introverts.
-> That said, [[Hann2010](#CITE)] found weak correlation between the "Big
+> That said, [Hann2010](#BIB) found weak correlation between the "Big
 > Five" personality traits and performance in pair programming, although
-> an earlier study [[Wall2009](#CITE)] found that pairs whose members had
+> an earlier study [Wall2009](#BIB) found that pairs whose members had
 > differing levels of personality traits communicated more often.
 
 ## Take Notes...Together? {#s:classroom-notetaking}
 
 Many studies have shown that taking notes while learning improves
-retention [[Aike1975](#CITE),[Boha2011](#CITE)]. Taking notes is essentially a
-form of real-time elaboration ([s:individual-strategies](#SECTION)): it
+retention [Aike1975,Boha2011](#BIB). Taking notes is essentially a
+form of real-time elaboration ([s:individual-strategies](#REF)): it
 forces you to organize and reflect on material as it's coming in, which
 in turn increases the likelihood that you will transfer it to long-term
 memory in a usable way.
 
 Our experience, and some recent research findings, lead us to believe
 that taking notes *collaboratively* can is also effective,
-[[Ornd2015](#CITE),[Yang2015](#CITE)], even though taking notes on a
+[Ornd2015,Yang2015](#BIB), even though taking notes on a
 computer is generally less effective than taking notes using pen and
-paper [[Muel2014](#CITE)].
+paper [Muel2014](#BIB).
 
 The first time students encounter the practice, they sometimes report
 that they find it distracting, as it's one more thing they have to keep
@@ -399,16 +399,16 @@ couple of lines at the same time.
 
 In my experience, the benefits of shared note-taking outweigh the costs.
 If you are only working with a particular group once, though, please
-heed the advice in [s:classroom-innovate](#SECTION) and stick to
+heed the advice in [s:classroom-innovate](#REF) and stick to
 whatever they are used to.
 
 ## Sticky Notes {#s:classroom-sticky-notes}
 
 Sticky notes are one of my favorite teaching tools, and judging from
-[[Ward2015](#CITE)], I'm not alone in loving their versatility,
+[Ward2015](#BIB), I'm not alone in loving their versatility,
 portability, stickability, foldability, and subtle yet alluring aroma.
 
-### As Status Flags {#s:classroom-status-flags}
+### As Status Flags
 
 Give each learner two sticky notes of different colors, e.g., orange and
 green. These can be held up for voting, but their real use is as status
@@ -420,7 +420,7 @@ more likely to actually do it), they can keep working while their flag
 is raised, and the teacher can quickly see from the front of the room
 what state the class is in.
 
-### To Distribute Attention {#s:classroom-attention}
+### To Distribute Attention
 
 Sticky notes can also be used to ensure the teacher's attention is
 fairly distributed. Have each learner write their name on a sticky note
@@ -434,7 +434,7 @@ trap of only interacting with the most extroverted of their learners. It
 also shows learners that attention is being distributed fairly, so that
 when they *are* called on, they won't feel like they're being picked on.
 
-### As Minute Cards {#s:classroom-minute-cards}
+### As Minute Cards
 
 You can use sticky notes as [minute cards](#g:minute-cards).
 Before each break, learners take a minute to write one positive thing on
@@ -474,7 +474,7 @@ cognitive load, since learners can be distracted by trying to understand
 it all before they start their own work. Java's `public static void
 main()` or a handful of `import` statements at the top of a Python
 program may make sense to you, but is extraneous load to them
-([s:load](#CHAPTER)).
+([s:load](#REF)).
 
 ## Setting Up Your Learners {#s:classroom-setup}
 
@@ -592,7 +592,7 @@ hope to get the best of both worlds.
 ### Have Learners Make Predictions
 
 Research has shown that people learn more from demonstrations if they
-are asked to predict what's going to happen [[Mill2013](#CITE)]. Doing
+are asked to predict what's going to happen [Mill2013](#BIB). Doing
 this fits naturally into live coding: after adding or changing a few
 lines of a program, ask someone what is going to happen when it's run.
 
@@ -603,7 +603,7 @@ the room in which your programming workshop takes place, but if you do,
 we find it's best to have flat (dinner-style) seating rather than banked
 (theater-style) seating, so that you can reach learners who need help
 more easily, and so that learners can pair with one another
-([s:classroom-mixed](#SECTION)). In-floor power outlets so that you
+([s:classroom-mixed](#REF)). In-floor power outlets so that you
 don't have to run power cords across the floor make life easier as
 well as safer, but are still the exception.
 
@@ -642,7 +642,7 @@ contradictions *before* exposing their ideas to a larger group.
 
 ### Morning, Noon, and Night
 
-[[Smar2018](#CITE)] found that if students' classes and other work is
+[Smar2018](#BIB) found that if students' classes and other work is
 scheduled at times that don't line up with their natural body clocks,
 they do less well---i.e., that if a morning person takes night classes or
 vice versa, their grades suffer. It's usually not possible to
@@ -711,7 +711,7 @@ What did you understand differently?
 
 ### Credibility (individual/15)
 
-[[Fink2013](#CITE)] describes three things that make teachers credible in
+[Fink2013](#BIB) describes three things that make teachers credible in
 their learners' eyes:
 
 Competence:
@@ -724,7 +724,7 @@ Trustworthiness:
   grading decisions, and treating all students the same.
 
 Dynamism:
-: excitement about the subject ([s:performance](#CHAPTER)).
+: excitement about the subject ([s:performance](#REF)).
 
 Describe one thing you do when teaching that fits into each category,
 and then describe one thing you *don't* do but should for each category
@@ -732,7 +732,7 @@ as well.
 
 ### Measuring Effectiveness (individual/15)
 
-[[Kirk1994](#CITE)] defines four levels at which to evaluate training:
+[Kirk1994](#BIB) defines four levels at which to evaluate training:
 
 Reaction:
 : how did the learners feel about the training?
@@ -754,7 +754,7 @@ What could you do that you're not doing?
 
 You have decided not to ask your learners if your class was useful,
 because you know that there is no correlation between their answers and
-how much they actually learn ([s:pck-now](#SECTION)). Instead, you have
+how much they actually learn ([s:pck-now](#REF)). Instead, you have
 put forward four proposals, each of which your colleagues have shot
 down:
 

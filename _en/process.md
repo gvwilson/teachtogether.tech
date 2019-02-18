@@ -50,8 +50,8 @@ be done.
 A similar backward method works very well for lesson design. This
 method is something called [backward design](#g:backward-design);
 developed independently in
-[[Wigg2005](#CITE),[Bigg2011](#CITE),[Fink2013](#CITE)], it is
-summarized in [[McTi2013](#CITE)], and in simplified form, its steps
+[Wigg2005,Bigg2011,Fink2013](#BIB), it is
+summarized in [McTi2013](#BIB), and in simplified form, its steps
 are:
 
 1. Brainstorm to get a rough idea of what you want to cover, how
@@ -89,13 +89,13 @@ pass test rather than on helping them learn.
 
 > **Measure...And Then?**
 > 
-> [[Gree2014](#CITE)] argues that this focus on measurement is
+> [Gree2014](#BIB) argues that this focus on measurement is
 > appealing to those with the power to set the tests, but unlikely to
 > improve outcomes unless it is coupled with support for teachers to
 > make improvements based on test outcomes. The latter is often
 > missing because large organizations usually value uniformity over
-> productivity [[Scot1998](#CITE)]; we will return to this topic in
-> [s:performance](#CHAPTER).
+> productivity [Scot1998](#BIB); we will return to this topic in
+> [s:performance](#REF).
 
 It's important to note that while lesson design is *described* as a
 sequence, it's almost never *done* that way: we may, for example,
@@ -106,9 +106,9 @@ the notes we leave behind present things in the order described above,
 because that's the easier way for whoever has to use or maintain the
 lesson to retrace our thinking. The same rewriting of history is
 useful for the same reasons in software design and many other fields
-[[Parn1986](#CITE)].
+[Parn1986](#BIB).
 
-[s:v3](#APPENDIX) presents the design notes for this version of this
+[s:v3](#REF) presents the design notes for this version of this
 book. A few things have been added, dropped, or rearranged, but what
 you are reading now matches the plan pretty closely.
 
@@ -129,7 +129,7 @@ Learner personas have five parts:
 4.  how the course will help them, and
 5.  any special needs they might have.
 
-The personas in [s:intro-audience](#SECTION) have the five points listed above,
+The personas in [s:intro-audience](#REF) have the five points listed above,
 rearranged to flow more readably; a learner persona for a weekend workshop aimed
 at college students might be:
 
@@ -178,29 +178,29 @@ face?"
 Brainstorming the broad outlines of what you're going to teach and
 then deciding who you're trying to help is one approach; it's equally
 valid to pick an audience and then brainstorm their needs. Either way,
-[[Guzd2016](#CITE)] offers the following guidance:
+[Guzd2016](#BIB) offers the following guidance:
 
 1. Connect to what learners know.
 
 1. Keep cognitive load low.
 
-1. Use authentic tasks (see [s:motivation-authentic](#SECTION)).
+1. Use authentic tasks (see [s:motivation-authentic](#REF)).
 
 1. Be generative and productive.
 
 1. Test your ideas rather than trusting your instincts.
 
-Of course, one size won't fit all. [[Alha2018](#CITE)] reported
+Of course, one size won't fit all. [Alha2018](#BIB) reported
 improvement in learning outcomes and student satisfaction in a course
 for students from a variety of academic backgrounds which allowed them
 to choose between different domain-related assignments. It's extra
 work to set up and grade, but that's manageable if the projects are
 open-ended (so that they can be used repeatedly) and if the load is
-shared with other teachers ([s:process-maintainability](#SECTION)).
+shared with other teachers ([s:process-maintainability](#REF)).
 Other work has shown that building courses for science students around
 topics as diverse as music, data science, and cell biology will also
 improve outcomes
-[[Pete2017](#CITE),[Dahl2018](#CITE),[Ritz2018](#CITE)].
+[Pete2017,Dahl2018,Ritz2018](#BIB).
 
 ## Learning Objectives {#s:process-objectives}
 
@@ -266,7 +266,7 @@ see how a poor one can be improved:
 
 When it comes to choosing verbs, many teachers use [Bloom's
 taxonomy](#g:blooms-taxonomy). First published in 1956, it
-was updated at the turn of the century [[Ande2001](#CITE)], and is the
+was updated at the turn of the century [Ande2001](#BIB), and is the
 most widely used framework for discussing levels of understanding. Its
 most recent form has six categories; the list below defines each, and
 gives a few of the verbs typically used in learning objectives written
@@ -302,16 +302,16 @@ Creating:
   elements in a new pattern or proposing alternative solutions.
   *(design, construct, improve, adapt, maximize, solve)*
 
-[[Masa2018](#CITE)] found that even experienced educators have trouble
+[Masa2018](#BIB) found that even experienced educators have trouble
 agreeing on how to classify a question or idea according to Bloom's
 Taxonomy, but the material in most introductory programming courses
 fits into the first four of these levels; only once that material has
 been mastered can learners start to think about evaluating and
 creating. (As Daniel Willingham has said, people can't think without
-something to think about [[Will2010](#CITE)].)
+something to think about [Will2010](#BIB).)
 
 Another way to think about learning objectives comes from
-[[Fink2013](#CITE)], which defines learning in terms of the change it
+[Fink2013](#BIB), which defines learning in terms of the change it
 is meant to produce in the learner. [Fink's
 Taxonomy](#g:finks-taxonomy) also has six categories, but unlike
 Bloom's, they are complementary rather than hierarchical:
@@ -394,10 +394,10 @@ willing people are to collaborate.* The tools needed to build a
 teachers still don't write and share lessons the way that they write
 and share encyclopedia entries, even though commons-based lesson
 development and maintenance actually works very well
-([s:community-governance](#SECTION) and
-[s:joining-contributing](#SECTION)).
+([s:community-governance](#REF) and
+[s:joining-contributing](#REF)).
 
-[[Leak2017](#CITE)] interviewed 17 computer science teachers to find
+[Leak2017](#BIB) interviewed 17 computer science teachers to find
 out why they don't use resource sharing sites. They found that most of
 the reasons were operational. For example, respondents said that sites
 need good landing pages that ask "what is your current role?" and
@@ -435,7 +435,7 @@ of your typical learners.
 ### Classify Learning Objectives (pairs/10)
 
 Look at the example learning objectives given for an introductory course
-on HTML and CSS in [s:process-objectives](#SECTION) and classify each
+on HTML and CSS in [s:process-objectives](#REF) and classify each
 according to Bloom's Taxonomy. Compare your answers with those of your
 partner: where did you agree and disagree, and why?
 
@@ -493,7 +493,7 @@ short lesson that follows these five steps.
 
 ### Evaluating Lessons (pairs/20)
 
-[[Mart2017](#CITE)] specifies eight dimensions along which lessons can be
+[Mart2017](#BIB) specifies eight dimensions along which lessons can be
 evaluated:
 
 Closed vs. open:

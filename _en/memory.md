@@ -27,7 +27,7 @@ answer is that they can solve problems much faster than people who are
 "merely competent", or that they can recognize and deal with cases
 where the normal rules don't apply. They also somehow make this look
 effortless: in many cases, they instantly know what the right answer is
-[[Parn2017](#CITE)].
+[Parn2017](#BIB).
 
 Expertise is more than just knowing more facts: competent practitioners
 can memorize a lot of trivia without any noticeable improvement in their
@@ -52,7 +52,7 @@ This metaphor helps explain many observed aspects of expert behavior:
 - Densely-connected graphs are also the basis for experts'
   [fluid representations](#g:fluid-representation), i.e.,
   their ability to switch back and forth between different views of a
-  problem [[Petr2016](#CITE)]. For example, when trying to solve a
+  problem [Petr2016](#BIB). For example, when trying to solve a
   problem in mathematics, an expert might switch between tackling it
   geometrically and representing it as a set of equations to be
   solved.
@@ -71,12 +71,12 @@ This metaphor helps explain many observed aspects of expert behavior:
 
 The last of these points is important enough to have a name of its own:
 [expert blind spot](#g:expert-blind-spot). As originally
-defined in [[Nath2003](#CITE)], it is the tendency of experts to organize
+defined in [Nath2003](#BIB), it is the tendency of experts to organize
 explanation according to the subject's deep principles, rather than
 being guided by what their learners already know. While it can be
 overcome with training, it's part of why there is no correlation between
 how good someone is at doing research in an area and how good they are
-at teaching it [[Mars2002](#CITE)].
+at teaching it [Mars2002](#BIB).
 
 > **The J Word**
 > 
@@ -84,7 +84,7 @@ at teaching it [[Mars2002](#CITE)].
 > explanations, as in, "Oh, it's easy, you just fire up a new virtual
 > machine and then you just install these four patches to Ubuntu and
 > then you just re-write your entire program in a pure functional
-> language." As we discuss in [s:motivation](#CHAPTER), doing this
+> language." As we discuss in [s:motivation](#REF), doing this
 > signals that the speaker thinks the problem is trivial and that the
 > person struggling with it must therefore be stupid.
 > 
@@ -106,15 +106,12 @@ what the relationship *is*. And yes, different people can have different
 concept maps for the same topic, but one of the benefits of concept
 mapping is that it makes those differences explicit.
 
-As an example, [f:memory-seasons](#FIGURE) reproduces a concept map
+As an example, [f:memory-seasons](#FIG) reproduces a concept map
 taken from the [IHMC CMap site][cmap-seasons] showing why the
-Earth has seasons, and [f:online-screencasting](#FIGURE) uses a concept
+Earth has seasons, and [f:online-screencasting](#FIG) uses a concept
 map to explain how to create a good screencast.
 
-<figure>
-  <img src="../../files/seasons.svg" alt="Concept Map for Seasons (from <https://cmap.ihmc.us/>)" />
-  <figcaption id="f:memory-seasons">Concept Map for Seasons (from https://cmap.ihmc.us/)</figcaption>
-</figure>
+{% include figure.html id="f:memory-seasons" src="../../figures/seasons.svg" caption="Concept Map for Seasons (from <https://cmap.ihmc.us/>)" %}
 
 To show how concept maps can be using in teaching programming, consider
 this `for` loop in Python:
@@ -129,15 +126,12 @@ whose output is:
     c
 
 The three key "things" in this loop are shown in the top of
-[f:memory-loop](#FIGURE), but they are only half the story. The
+[f:memory-loop](#FIG), but they are only half the story. The
 expanded version in the bottom shows the *relationships* between those
 things, which are as important for understanding as the concepts
 themselves.
 
-<figure>
-  <img src="../../files/for-loop.svg" alt="Concept Map for a For Loop" />
-  <figcaption id="f:memory-loop">Concept Map for a For Loop</figcaption>
-</figure>
+{% include figure.html id="f:memory-loop" src="../../figures/for-loop.svg" caption="Concept Map for a For Loop" %}
 
 Concept maps can be used in many ways:
 
@@ -146,7 +140,7 @@ Helping teachers figure out what they're trying to teach.
   experience, people rarely wind up teaching things in the order in
   which they first drew them. (In technical terms, they reduce the
   teacher's cognitive load---we will discuss this again in
-  [s:load](#CHAPTER).)
+  [s:load](#REF).)
 
 Aiding communication between lesson designers.
 : Teachers with very different ideas of what they're trying to teach
@@ -159,7 +153,7 @@ Aiding communication with learners.
   a lesson for them to annotate, it's better to draw it piece by piece
   while teaching to reinforce the ties between what's in the map and
   what the teacher said. (We will return to this idea in
-  [s:load-split-attention](#SECTION).)
+  [s:load-split-attention](#REF).)
 
 For assessment.
 : Having learners draw pictures of what they think they just heard
@@ -172,7 +166,7 @@ For assessment.
   programming, asking them to figure out how to draw their thoughts at
   the same time is an unfair load.
 
-[[Kepp2008](#CITE)] looked at the use of concept mapping in computing
+[Kepp2008](#BIB) looked at the use of concept mapping in computing
 education. One of their findings was that, "...concept
 mapping is troublesome for many students because it tests personal
 understanding rather than knowledge that was merely learned by rote." As
@@ -200,14 +194,14 @@ Concept maps are just one way to represent our understanding of a
 subject; others include mind maps (which are usually radial and
 hierarchical), conceptual diagrams (which use predefined categories and
 relationships), and visual metaphors (which are striking images overlaid
-with text) [[Eppl2006](#CITE)]. Maps, flowcharts, and blueprints can also
+with text) [Eppl2006](#BIB). Maps, flowcharts, and blueprints can also
 be useful in some contexts, as can decision trees like
-[[Abel2009](#CITE)] that shows how to choose the right kind of chart for
+[Abel2009](#BIB) that shows how to choose the right kind of chart for
 different kinds of questions and data.
 
 What each does is [externalize cognition](#g:externalized-cognition),
 i.e., make thought processes and mental models visible so that they
-can be compared, contrasted, and combined.  [[Cher2007](#CITE)]
+can be compared, contrasted, and combined.  [Cher2007](#BIB)
 suggests that externalizing cognition may be the main reason
 developers draw diagrams when they are discussing things. They found
 that most developers can't identify the parts of their own diagrams
@@ -243,12 +237,12 @@ and disgruntled family members.
 Evolution has therefore given us a second system called
 [short-term](#g:short-term-memory) or [working
 memory](#g:working-memory). It is much faster, but also much smaller:
-[[Mill1956](#CITE)] estimated that the average adult's working memory
+[Mill1956](#BIB) estimated that the average adult's working memory
 could only hold 7±2 items at a time. This is why [phone
 numbers][phone-numbers] are typically 7 or 8 digits long: back when
 phones had dials instead of keypads, that was the longest string of
 numbers most adults could remember accurately for as long as it took
-the dial to go around several times. As [s:memory-pattern](#SECTION)
+the dial to go around several times. As [s:memory-pattern](#REF)
 discusses, short-term memory may actually be as small as 4±1 items;
 our innate tendency to remember things together gives the illusion of
 it being larger.
@@ -277,7 +271,7 @@ all experienced).
 push information directly into a learner's long-term memory.  Instead,
 whatever they present is first stored in the learner's short-term
 memory, and is only transferred to long-term memory after it has been
-held there and rehearsed ([s:individual-strategies](#SECTION)). If the
+held there and rehearsed ([s:individual-strategies](#REF)). If the
 teacher presents too much information too quickly, the new will
 displace the old before it has a chance to consolidate in long-term
 memory.
@@ -309,7 +303,7 @@ pieces, each of which leads to a formative assessment.
 The simple model of memory presented here has largely been replaced by a
 more sophisticated one in which short-term memory is broken down into
 several modal stores (e.g., for visual vs. linguistic memory), each of
-which does some involuntary preprocessing [[Mill2016a](#CITE)]. Our
+which does some involuntary preprocessing [Mill2016a](#BIB). Our
 presentation is therefore an example of a mental model that aids
 learning and everyday work, but is eventually superseded by something
 more complicated.
@@ -318,13 +312,13 @@ Research also now indicates that the limiting factor for long-term
 memory is not retention, but rather the ability to recall memories that
 are present. Studying in short, spaced periods in a variety of contexts
 improves recall; the reason may be that doing so creates more cues than
-cramming ([s:individual-strategies](#SECTION)).
+cramming ([s:individual-strategies](#REF)).
 
 ## Pattern Recognition {#s:memory-pattern}
 
 The preceding section said that short-term memory can only store
 7±2 items at a time, and recent research have suggested that its
-actual size might be as low as 4±1 items [[Dida2016](#CITE)]. In
+actual size might be as low as 4±1 items [Dida2016](#BIB). In
 order to handle larger information sets, our minds create
 [chunks](#g:chunking). For example, most of us remember words
 as single items, rather than as sequences of letters. Similarly, the
@@ -343,13 +337,13 @@ Given how important chunking is to thinking, it is tempting to try to
 teach patterns directly. One way to do this is to identify [design
 patterns][design-patterns], which are reusable solutions to common
 problems. Patterns help competent practitioners think and talk to each
-other in many domains (including teaching [[Berg2012](#CITE)]), but
+other in many domains (including teaching [Berg2012](#BIB)), but
 pattern catalogs are too dry and too abstract for novices to make
 sense of on their own. That said, giving names to a small number of
 patterns does seem to help with teaching, primarily by giving the
 learners a richer vocabulary to think and communicate with
-[[Kuit2004](#CITE),[Byck2005](#CITE),[Saja2006](#CITE)]. We will
-return to this in [s:pck-programming](#SECTION).
+[Kuit2004,Byck2005,Saja2006](#BIB). We will
+return to this in [s:pck-programming](#REF).
 
 ## Becoming an Expert {#s:memory-becoming-expert}
 
@@ -384,10 +378,10 @@ Give feedback to themselves.
 
 > **What Counts as Deliberate Practice?**
 > 
-> [[Macn2014](#CITE)] found that "...deliberate practice
+> [Macn2014](#BIB) found that "...deliberate practice
 > explained 26% of the variance in performance for games, 21% for music,
 > 18% for sports, 4% for education, and less than 1% for professions."
-> However, [[Eric2016](#CITE)] critiqued this finding by saying, "Summing
+> However, [Eric2016](#BIB) critiqued this finding by saying, "Summing
 > up every hour of any type of practice during an individual's career
 > implies that the impact of all types of practice activity on
 > performance is equal---an assumption that...is inconsistent

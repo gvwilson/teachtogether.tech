@@ -192,7 +192,7 @@ skills as a result of playing chess.
 
 **Fink's Taxonomy**{:#g:finks-taxonomy}: A six-part
 non-hierarchical classification of understanding first proposed in
-[[Fink2013](#CITE)] whose categories are *foundational knowledge*,
+[Fink2013](#BIB) whose categories are *foundational knowledge*,
 *application*, *integration*, *human dimension*, *caring*, and *learning
 how to learn*. See also *Bloom's Taxonomy*.
 

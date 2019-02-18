@@ -42,7 +42,7 @@ A framework in which to think about educational communities is
 [legitimate peripheral
 participation](#g:legitimate-peripheral-participation) leads to people
 becoming members of a [community of
-practice](#g:community-of-practice) [[Weng2015](#CITE)]. Unpacking
+practice](#g:community-of-practice) [Weng2015](#BIB). Unpacking
 those terms, a community of practice is a group of people bound
 together by interest in some activity, such as knitting or particle
 physics. Legitimate peripheral participation means doing simple,
@@ -142,12 +142,12 @@ able to say that you're the founder or leader of something new.
 Whether you join an existing group or set up one of your own, you owe
 it to yourself and everyone who's going to work with you to find out
 what's been done before. People have been writing about grassroots
-organizing for decades; [[Alin1989](#CITE)] is probably the best-known
-work on the subject, while [[Brow2007](#CITE),[Midw2010](#CITE)] are
+organizing for decades; [Alin1989](#BIB) is probably the best-known
+work on the subject, while [Brow2007,Midw2010](#BIB) are
 practical manuals rooted in decades of practice. If you want to read
-more deeply, [[Adam1975](#CITE)] is a history of the Highlander Folk
+more deeply, [Adam1975](#BIB) is a history of the Highlander Folk
 School, whose approach has been emulated by many successful groups,
-while [[Spal2014](#CITE)] is a guide to teaching adults written by
+while [Spal2014](#BIB) is a guide to teaching adults written by
 someone with deep personal roots in organizing, and
 [NonprofitReady.org][nonprofit-ready] offers free professional
 development training.
@@ -188,7 +188,7 @@ avoid collective [expert blind spot](#g:expert-blind-spot).
 > submit fixes for your lesson materials for typos or unclear wording,
 > or to suggest new exercises or examples. If your materials are
 > written in a maintainable way
-> ([s:process-maintainability](#SECTION)), this gives them a chance to
+> ([s:process-maintainability](#REF)), this gives them a chance to
 > practice some useful skills, and gives you an opportunity to start a
 > conversation that might lead to a new recruit.
 
@@ -209,7 +209,7 @@ tell you what they've done.
 
 The second part of the volunteer lifecycle is retention, which is a
 large enough topic to deserve a long discussion in
-[s:community-retention](#SECTION). The third and final part is
+[s:community-retention](#REF). The third and final part is
 retirement. Sooner or later, everyone moves on (including you). When
 this happens:
 
@@ -242,7 +242,7 @@ Thank them,
 ## Retention {#s:community-retention}
 
 Saul Alinsky once said, "If your people aren't having a ball doing it,
-there is something very wrong." [[Alin1989](#CITE)] Community members
+there is something very wrong." [Alin1989](#BIB) Community members
 shouldn't expect to enjoy every moment of their work with your
 organization, but if they don't enjoy any of it, they won't stay.
 
@@ -252,7 +252,7 @@ are several things every organization should do to ensure that people
 are getting something they value out of their work:
 
 Ask people what they want rather than guessing.
-: Just as you are not your learners ([s:process-personas](#SECTION)),
+: Just as you are not your learners ([s:process-personas](#REF)),
   you are probably different from other members of your organization.
   Ask people what they want to do, what they're comfortable doing
   (which may not be the same thing), what constraints there are on
@@ -346,7 +346,7 @@ Impostor syndrome thrives in communities with arbitrary, unnecessary
 standards, where harsh criticism is the norm, and where secrecy
 surrounds the actual process of getting work done, so the Ada
 Initiative has [guidelines][ada-guidelines] for communities to go with
-those given in [s:motivation-demotivation](#SECTION) for individuals:
+those given in [s:motivation-demotivation](#REF) for individuals:
 
 Encourage people.
 : This is as simple as it is effective.
@@ -378,7 +378,7 @@ Don't make it personal when someone's work isn't up to snuff.
 
 ## Governance {#s:community-governance}
 
-As [[Free1972](#CITE)] pointed out, every organization has a power
+As [Free1972](#BIB) pointed out, every organization has a power
 structure: the only question is whether it's formal and accountable, or
 informal and unaccountable. Make yours one of the first kind: write and
 publish the rules governing everything from who's allowed to use the
@@ -395,7 +395,7 @@ pays off.)
 
 The model I prefer is that of a commons, which is "something managed
 jointly by a community according to rules they themselves have evolved
-and adopted". As [[Boll2014](#CITE)] emphasizes, all three parts of that
+and adopted". As [Boll2014](#BIB) emphasizes, all three parts of that
 definition are essential: a commons isn't just a shared pasture, but
 also includes the community that shares it and the rules they use to do
 so.
@@ -432,7 +432,7 @@ organization continues to meet people's actual needs.
 
 ## Final Thoughts {#s:community-final}
 
-As [[Pign2016](#CITE)] discusses, burnout is a chronic risk in any
+As [Pign2016](#BIB) discusses, burnout is a chronic risk in any
 community activity. If you don't take care of yourself, you won't be
 able to take care of your community.
 
@@ -445,7 +445,7 @@ have any trouble finding something else to keep you busy.
 
 ## Exercises {#s:community-exercises}
 
-Several of these exercises are taken from [[Brow2007](#CITE)], which is
+Several of these exercises are taken from [Brow2007](#BIB), which is
 an exceptionally useful book on building community organizations.
 
 ### What Kind of Community? (individual/15)
@@ -651,7 +651,7 @@ answers to those given by other members of your group.
 
 Many of our ideas about how to build a community have been shaped by
 our experience of working in open source software development.
-[[Foge2005](#CITE)] (which is [available online][producing-oss]) is a
+[Foge2005](#BIB) (which is [available online][producing-oss]) is a
 good guide to what has and hasn't worked for those communities, and
 the [Open Source Guides site][open-source-guides] has a wealth of
 useful information as well. Choose one section of the latter, such as

@@ -28,3 +28,8 @@ hundred times over the past six years, and all of it can be freely
 distributed and re-used under the Creative Commons - Attribution 4.0
 license. Please see <http://teachtogether.tech> to download a digital
 version or purchase a printed copy at cost.
+
+<div align="center">
+  <img src="etc/author-fan-2018-07.jpg" alt="The compiler with his biggest fan, July 2018" width="600px" />
+  <p>The compiler with his biggest fan, July 2018</p>
+</div>

@@ -3,9 +3,9 @@ permalink: "/en/events/"
 title: "Checklists for Events"
 ---
 
-[[Gawa2007](#CITE)] popularized the idea that using checklists can save
+[Gawa2007](#BIB) popularized the idea that using checklists can save
 lives (and make many other things better too). The results of recent
-studies have been more nuanced [[Avel2013](#CITE),[Urba2014](#CITE)], but we still
+studies have been more nuanced [Avel2013,Urba2014](#BIB), but we still
 find them useful, particularly when bringing new instructors onto a
 team.
 

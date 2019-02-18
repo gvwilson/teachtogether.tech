@@ -13,12 +13,12 @@ objectives:
 - Do and critique live coding.
 ---
 
-As [s:pck](#CHAPTER) explained, every teacher needs content knowledge,
+As [s:pck](#REF) explained, every teacher needs content knowledge,
 general pedagogical knowledge, and pedagogical content knowledge in
 order to be effective. We can elaborate this framework by adding
-technology to the mix [[Koeh2013](#CITE)], but that doesn't change the
+technology to the mix [Koeh2013](#BIB), but that doesn't change the
 key point: it isn't enough to know the subject, or how to teach---you have
-to know how to teach that particular subject [[Maye2004](#CITE)].
+to know how to teach that particular subject [Maye2004](#BIB).
 
 This chapter therefore focuses on one key aspect of teaching: giving a
 lecture or a live demonstration in front of a class. It isn't the only
@@ -29,9 +29,9 @@ that will make you better at doing it can be applied elsewhere as well.
 > 
 > The [CS Teaching Tips][cs-teaching-tips] site is collecting PCK for
 > teaching programming, and I hope that one day we will have catalogs
-> like [[Ojos2015](#CITE)], teacher training materials like
-> [[Hazz2014](#CITE),[Guzd2015a](#CITE),[Sent2018](#CITE)], or more
-> personal collections like [[Gelm2002](#CITE)] to help us all do it
+> like [Ojos2015](#BIB), teacher training materials like
+> [Hazz2014,Guzd2015a,Sent2018](#BIB), or more
+> personal collections like [Gelm2002](#BIB) to help us all do it
 > better.
 
 ## Lesson Study {#s:performance-jugyokenkyu}
@@ -41,7 +41,7 @@ reformers have designed systems to find and promote people who can teach
 well and eliminate those who cannot. But the assumption that some people
 are born teachers is wrong; instead, like any other performance art, the
 keys to better teaching are practice and collaboration. As
-[[Gree2014](#CITE)] explains, the Japanese approach to this is called
+[Gree2014](#BIB) explains, the Japanese approach to this is called
 [jugyokenkyu](#g:jugyokenkyu), which means "lesson study":
 
 > *Jugyokenkyu* is a bucket of practices that Japanese teachers use to
@@ -88,14 +88,14 @@ students.
 Writing up new techniques and giving [demonstration
 lessons](#g:demonstration-lesson), in which one person teaches actual
 students while other teachers observe, seem like a way to solve
-this. However, [[Finc2007](#CITE),[Finc2012](#CITE)] found that they
+this. However, [Finc2007,Finc2012](#BIB) found that they
 are usually ineffective: of the 99 change stories analyzed, teachers
 only searched actively for new practices or materials in three cases,
 and only consulted published material in eight cases. Most changes
 occurred locally, without input from outside sources, or involved only
 personal interaction with other educators.
 
-[[Bark2015](#CITE)] found something similar:
+[Bark2015](#BIB) found something similar:
 
 > Adoption is not a "rational action," however, but an iterative series
 > of decisions made in a social context, relying on normative
@@ -117,13 +117,10 @@ between teachers.
 ## Giving and Getting Feedback on Teaching {#s:performance-feedback}
 
 Observing someone helps you; giving them feedback helps them. But as the
-cartoon in [f:performance-feedback-feelings](#FIGURE) suggests, it can
+cartoon in [f:performance-feedback-feelings](#FIG) suggests, it can
 be hard to receive feedback, especially when it's negative.
 
-<figure>
-  <img src="../../files/deathbulge-jerk.jpg" alt="Feedback Feelings" />
-  <figcaption id="f:performance-feedback-feelings">Feedback Feelings (copyright © Deathbulge 2013)</figcaption>
-</figure>
+{% include figure.html id="f:performance-feedback-feelings" src="../../figures/deathbulge-jerk.jpg" caption="Feedback Feelings (copyright © Deathbulge 2013)" %}
 
 Feedback is easier to give and receive when both parties share ground
 rules and expectations. This is especially important when they have
@@ -184,30 +181,27 @@ and whose horizontal axis is labelled "content" (what was said) and
 "presentation" (how it was said). Observers write their comments on
 sticky notes as they watch the demonstration, then post those in the
 quadrants of a grid drawn on a whiteboard
-([f:performance-rubric](#FIGURE)).
+([f:performance-rubric](#FIG)).
 
-<figure>
-  <img src="../../files/2x2-rubric.svg" alt="Teaching Rubric" />
-  <figcaption id="f:performance-rubric">Teaching Rubric</figcaption>
-</figure>
+{% include figure.html id="f:performance-rubric" src="../../figures/2x2-rubric.svg" caption="Teaching Rubric" %}
 
 A more sophisticated rubric developed for assessing 5--10 minute videos
-of programming instruction is given in [s:teacheval](#APPENDIX). A
+of programming instruction is given in [s:teacheval](#REF). A
 rubric this detailed is best presented as a checklist with items more or
 less in the order that they'll be used (e.g., questions about the
 introduction come before questions about the conclusion).
 
 > **Question Budgets**
 > 
-> Rubrics like the one in [s:teacheval](#APPENDIX) have a tendency to
+> Rubrics like the one in [s:teacheval](#REF) have a tendency to
 > grow over time as people think of things they'd like to add. A good
 > way to keep them manageable is to insist that the total length stay
 > constant, i.e., that if someone wants to add a question, they have to
 > identify one that's less important and can be removed.
 
-If you are interested in giving and getting feedback, [[Gorm2014](#CITE)]
+If you are interested in giving and getting feedback, [Gorm2014](#BIB)
 has good advice that you can use to make peer-to-peer feedback a routine
-part of your teaching, while [[Gawa2011](#CITE)] looks at the value of
+part of your teaching, while [Gawa2011](#BIB) looks at the value of
 having a coach. However feedback is collected, remember that it is meant
 to be formative: its goal is to help people figure out what they are
 doing well and what they still need to work on. Please also remember
@@ -223,7 +217,7 @@ reflections as well as positives and negatives.
 > then and there. These classes are most effective when the teacher
 > critiques both the designs and the peer critiques, so that
 > participants learn not only how to make buildings, but how to give and
-> get feedback [[Scho1984](#CITE)]. Master classes in music serve a
+> get feedback [Scho1984](#BIB). Master classes in music serve a
 > similar purpose.
 
 ## How to Practice Performance {#s:performance-practice}
@@ -282,7 +276,7 @@ The announcement of this exercise is often greeted with groans and
 apprehension, since few people enjoy seeing or hearing themselves.
 However, those same people consistently rate it as one of the most
 valuable parts of workshops based on these notes. It's also good
-preparation for co-teaching ([s:classroom-together](#SECTION)):
+preparation for co-teaching ([s:classroom-together](#REF)):
 teachers find it a lot easier to give each other informal feedback if
 they have had some practice doing so and have a shared rubric to set
 expectations.
@@ -345,7 +339,7 @@ follow along. It's more effective than slides for many reasons:
 Teachers need a bit of practice to get comfortable with thinking aloud
 as they code in front of an audience, but most report that it is then no
 more difficult than talking around a deck of slides, and research seems
-to back up its effectiveness [[Rubi2013](#CITE),[Haar2017](#CITE)]. The sections
+to back up its effectiveness [Rubi2013,Haar2017](#BIB). The sections
 below offer tips on how to make your live coding better.
 
 ### Embrace Your Mistakes
@@ -358,14 +352,14 @@ The most important rule of live coding is to embrace your mistakes. No
 matter how well you prepare, you will make some; when you do, think
 through them with your audience. While data is hard to come by,
 professional programmers spend anywhere from 25% to 60% of their time
-debugging; novices spend much more ([s:pck-debug](#SECTION)), but most
+debugging; novices spend much more ([s:pck-debug](#REF)), but most
 textbooks and tutorials spend little time diagnosing and correct
 problems. If you talk aloud while you figure out what you mistyped or
 where you took the wrong path, and explain how you've corrected
 yourself, you will give your learners a toolbox they can use when they
 make their own mistakes.
 
-This is at odds with advice like that in [[Kran2015](#CITE)], which
+This is at odds with advice like that in [Kran2015](#BIB), which
 says, "...you should have your material *absolutely mastered* before
 you enter the classroom. If...you have a proof or example that is not
 quite right...and stand in front of the group trying to fix it, then
@@ -497,7 +491,7 @@ shell commands and hosting an editor).
 Some people now use two devices when teaching: a laptop plugged into the
 projector for learners to see, and a tablet beside it so that they can
 view their own notes and the shared notes that the learners are taking
-together ([s:classroom-notetaking](#SECTION)). This is more reliable
+together ([s:classroom-notetaking](#REF)). This is more reliable
 than displaying one virtual desktop while flipping back and forth to
 another. Of course, printouts of the lesson material are still the most
 reliable backup technology...
@@ -509,7 +503,7 @@ bring up on screen is a common practice---I often have a slide deck full
 of diagrams in the background when I'm doing live coding---but don't
 underestimate the value of sketching on the whiteboard as you go through
 your lesson. This allows you to build diagrams step by step, which helps
-with retention ([s:load-split-attention](#SECTION)) and allows you to
+with retention ([s:load-split-attention](#REF)) and allows you to
 improvise.
 
 ### Avoid Distractions
@@ -548,7 +542,7 @@ software updates over high school WiFi in front of increasingly bored
 > [Direct Instruction](#g:direct-instruction) is a teaching
 > method centered around meticulous curriculum design delivered through
 > a prescribed script---i.e., it's more like an actor reciting lines than
-> it is like the improvisatory approach we recommend. [[Stoc2018](#CITE)]
+> it is like the improvisatory approach we recommend. [Stoc2018](#BIB)
 > surveys studies and finds statistically significant positive effect,
 > even though DI sometimes gets knocked for being mechanical. We still
 > prefer improvisation because DI requires a far greater up-front
@@ -579,10 +573,10 @@ remember one small step to take next.
 
 A deeper exercise is that typing in library import statements, class
 headers, and other boilerplate code increases the extraneous cognitive
-load on your learners ([s:load](#CHAPTER)). If you spend a lot of time
+load on your learners ([s:load](#REF)). If you spend a lot of time
 doing this, it may be all that learners take away, so give yourself and
 your learners skeleton code to start with
-([s:classroom-blank](#SECTION)).
+([s:classroom-blank](#REF)).
 
 ## Exercises {#s:performance-exercises}
 
@@ -645,7 +639,7 @@ are expected to be familiar with.
 ### Tells (small groups/15)
 
 1. Read the description of tells at the end of
-   [s:performance-feedback](#SECTION), then make a note of what you
+   [s:performance-feedback](#REF), then make a note of what you
    think your tells are, but do not share them with other people.
 
 1. Teach a short (3--5 minute) lesson.

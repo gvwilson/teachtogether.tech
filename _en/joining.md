@@ -95,8 +95,8 @@ other members of the project's leadership.
 
 This material has been used in many ways, from a multi-week online
 class to an intensive in-person workshop. It's usually possible to
-cover large parts of [s:models](#CHAPTER) to [s:process](#CHAPTER),
-[s:performance](#CHAPTER), and [s:motivation](#CHAPTER) in two long
+cover large parts of [s:models](#REF) to [s:process](#REF),
+[s:performance](#REF), and [s:motivation](#REF) in two long
 days.
 
 ### In Person
@@ -106,19 +106,17 @@ most demanding. Participants are physically together. When they need to
 practice teaching in small groups, some or all of them go to nearby
 breakout spaces. Participants use their own tablets or laptops to view
 online material during the class and for shared note-taking
-([s:classroom-notetaking](#SECTION)), and use pen and paper or
+([s:classroom-notetaking](#REF)), and use pen and paper or
 whiteboards for other exercises. Questions and discussion are done
 aloud.
 
 If you are teaching in this format, you should use sticky notes as
 status flags so that you can see who needs help, who has questions,
-and who's ready to move on ([s:classroom-status-flags](#SECTION)). You
+and who's ready to move on ([s:classroom-sticky-notes](#REF)). You
 should also use them to distribute attention so that everyone gets a
-fair share of the instructor's time
-([s:classroom-attention](#SECTION)), and as minute cards to encourage
+fair share of the instructor's time, and as minute cards to encourage
 learners to reflect on what they've just learned and to give you
-actionable feedback while you still have time to act on it
-([s:classroom-minute-cards](#SECTION)).
+actionable feedback while you still have time to act on it.
 
 ### Online in Groups
 
@@ -146,8 +144,8 @@ use text chat to signal that they want to speak next
 ([s:meetings](#APPENDIX)).
 
 Having participants online individually makes it more difficult to draw
-and share concept maps ([s:memory-exercises](#SECTION)) or give
-feedback on teaching ([s:performance-exercises](#SECTION)). Instructors
+and share concept maps ([s:memory-exercises](#REF)) or give
+feedback on teaching ([s:performance-exercises](#REF)). Instructors
 should therefore rely more on exercises with written results that can be
 put in the shared notes, such as giving feedback on stock videos of
 people teaching.
@@ -175,7 +173,7 @@ by submitting your work, you are agreeing that it may incorporated in
 either original or edited form and release it under the same license as
 the rest of this material ([s:license](#APPENDIX)). If your material is
 incorporated, we will add you to the acknowledgments
-([s:intro-acknowledgments](#SECTION)) unless you request otherwise.
+([s:intro-acknowledgments](#REF)) unless you request otherwise.
 
 - The source for this book is stored on GitHub at
   [{{site.repo}}]({{site.repo}}). If you know how to use Git and
@@ -205,7 +203,7 @@ to share.
 
 ### A Teaching Commons
 
-[s:community-governance](#SECTION) defined a commons as something
+[s:community-governance](#REF) defined a commons as something
 managed jointly by a community according to rules they themselves have
 evolved and adopted. Open source software and Wikipedia are both
 successful examples; the question is, why don't teachers build lessons
@@ -215,7 +213,7 @@ close scrutiny][wilson-reasons].
 
 [Software Carpentry][swc] is proof by implementation that a teaching
 commons can produce and maintain high-quality lessons that hundreds of
-people can use [[Wils2016](#CITE)].  I hope you will choose to help us
+people can use [Wils2016](#BIB).  I hope you will choose to help us
 do the same for this book. If you are new to working this way:
 
 Start small.

@@ -15,10 +15,10 @@ do we mean by 'learning'?" and, "Who gets to decide?" The second is
 [situated learning](#g:situated-learning), which focuses on bringing
 people into a community, and recognizes that teaching and learning are
 always rooted in who we are and who we aspire to be. We will discuss
-it in more detail in [s:community](#CHAPTER).
+it in more detail in [s:community](#REF).
 
 The [Learning Theories website][learning-theories] and
-[[Wibu2016](#CITE)] have good summaries of these and other
+[Wibu2016](#BIB) have good summaries of these and other
 perspectives.  Besides cognitivism, those encountered most frequently
 include [behaviorism](#g:behaviorism) (which treats education as
 stimulus/response conditioning), [constructivism](#g:constructivism)
@@ -54,7 +54,7 @@ variables can have an impact on rules. For example, the teacher's
 enthusiasm for the teaching method may matter more than the method
 itself, since children will model their teacher's excitement for a
 subject. (With all of that taken into account, phonics does seem to be
-better than other approaches [[Foor1998](#CITE)].)
+better than other approaches [Foor1998](#BIB).)
 
 As frustrating as the maybes and howevers in education research are,
 this kind of painstaking work is essential to dispel myths that can
@@ -63,7 +63,7 @@ myth][learning-modalities] is that people are visual, auditory, or
 kinesthetic learners, and that teaching is more effective when lessons
 are designed according to whether they like to see things, hear
 things, or do things. This idea is easy to understand, but as
-[[DeBr2015](#CITE)] explains, it is almost certainly
+[DeBr2015](#BIB) explains, it is almost certainly
 false. Unfortunately, that hasn't stopped companies from marketing
 products based on it to parents, school boards, and the general
 public.
@@ -84,8 +84,8 @@ bandied about a lot, in part because people can agree it's important
 while meaning very different things by it. I find it more useful to
 think in terms of getting learners to understand a [notional
 machine](#g:notional-machine). The term was introduced in
-[[DuBo1986](#CITE)], and means abstraction of the structure and
-behavior of a computational device. According to [[Sorv2013](#CITE)],
+[DuBo1986](#BIB), and means abstraction of the structure and
+behavior of a computational device. According to [Sorv2013](#BIB),
 a notional machine:
 
 - is an idealized abstraction of computer hardware and other aspects

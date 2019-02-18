@@ -110,7 +110,7 @@ People can be held accountable at subsequent meetings.
   carried forward. That way, your agenda for the next meeting can
   start by rattling through a list of tickets.
 
-[[Brow2007](#CITE)] and [[Broo2016](#CITE)] have lots of good advice on
+[Brow2007](#BIB) and [Broo2016](#BIB) have lots of good advice on
 running meetings, and if you want to "learn, then do", an hour of
 training on chairing meetings is the most effective place to start.
 
@@ -168,7 +168,7 @@ you just accomplished and what you could o better next time. Its aim is
 to happen, the post mortem is the best place for it.
 
 A post mortem is run like any other meeting, but with a few additional
-guidelines [[Derb2006](#CITE)]:
+guidelines [Derb2006](#BIB):
 
 Get a moderator who wasn't part of the project
 : and doesn't have a stake in it. Otherwise, the meeting will either

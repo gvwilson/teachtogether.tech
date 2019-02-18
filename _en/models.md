@@ -13,7 +13,7 @@ objectives:
 The first task in teaching is to figure out who your learners are and
 what they already know. Our approach is based on the work of researchers
 like Patricia Benner, who studied how nurses progress from being novices
-to being experts [[Benn2000](#CITE)]. Benner identified five stages of
+to being experts [Benn2000](#BIB). Benner identified five stages of
 cognitive development that most people go through in a fairly consistent
 way. (We say "most" and "fairly" because human beings are highly
 variable; obsessing over how a few geniuses taught or learned isn't
@@ -39,7 +39,7 @@ For our purposes, we can simplify Benner's progression to three stages:
   situations that are out of the ordinary, diagnose the causes of
   problems, and so on. Like competent practitioners, experts know what
   they don't know and how to learn it; we will discuss expertise in
-  more detail in [s:memory](#CHAPTER).
+  more detail in [s:memory](#REF).
 
 So what *is* a [mental model](#g:mental-model)? As you may
 have gathered from the way we used the term above, it is a simplified
@@ -55,7 +55,7 @@ wrong, but useful.
 One sign that someone is a novice is that the things they say are [not
 even wrong][not-even-wrong], e.g., they think there's a difference
 between programs they type in character by character and identical
-ones that they have copied and pasted. As [s:motivation](#CHAPTER)
+ones that they have copied and pasted. As [s:motivation](#REF)
 explains, it is very important not to make novices uncomfortable for
 doing this: until they have a better mental model, reasoning by
 (inappropriate) borrowing from their knowledge of other subjects is
@@ -64,7 +64,7 @@ the best they can do.
 Presenting novices with a pile of facts is counter-productive, because
 they don't yet have a model to fit those facts into. In fact, presenting
 too many facts too soon can actually reinforce the incorrect mental
-model they've cobbled together---as [[Mull2007a](#CITE)] observed in a
+model they've cobbled together---as [Mull2007a](#BIB) observed in a
 study of video instruction for science students:
 
 > Students have existing ideas about...phenomena before
@@ -98,17 +98,17 @@ competent practitioners because they move too slowly and say things
 that are obvious (though they are anything *but* obvious to
 novices). Equally, manuals frustrate novices because they use jargon
 and *don't* explain things. This phenomenon is called the [expertise
-reversal effect](#g:expertise-reversal) [[Kaly2003](#CITE)], and is
+reversal effect](#g:expertise-reversal) [Kaly2003](#BIB), and is
 another reason you have to decide early on who your lessons are meant
 for.
 
 > **A Handful of Exceptions**
 > 
 > One of the reasons Unix and C became popular is that Kernighan et
-> al's trilogy [[Kern1978](#CITE),[Kern1983](#CITE),[Kern1988](#CITE)]
+> al's trilogy [Kern1978,Kern1983,Kern1988](#BIB)
 > somehow managed to be good tutorials *and* good manuals at the same
-> time. Ray and Ray's book on Unix [[Ray2014](#CITE)] and Fehily's
-> introduction to SQL [[Fehi2008](#CITE)] are among the very few other
+> time. Ray and Ray's book on Unix [Ray2014](#BIB) and Fehily's
+> introduction to SQL [Fehi2008](#BIB) are among the very few other
 > books in computing that have accomplished this; even after
 > re-reading them several times, I don't know how they manage to do
 > it.
@@ -134,7 +134,7 @@ Broken models
 Fundamental beliefs
 : such as "the world is only a few thousand years old" or "some kinds
   of people are just naturally better at programming than others"
-  [[Guzd2015b](#CITE),[Pati2016](#CITE)]. These are also broken models, but
+  [Guzd2015b,Pati2016](#BIB). These are also broken models, but
   often deeply connected to the learner's social identity, so they
   resist evidence and reason.
 
@@ -165,7 +165,7 @@ probably the multiple choice question (MCQ). A lot of teachers have a
 low opinion of them, but when they are designed well, they can reveal
 much more than just whether someone knows specific facts. For example,
 suppose you are teaching children how to do multi-digit addition
-[[Ojos2015](#CITE)], and you give them this MCQ:
+[Ojos2015](#BIB), and you give them this MCQ:
 
 > What is 37 + 15?
 >
@@ -205,11 +205,11 @@ like [Quora][quora] or [Stack Overflow][stack-overflow] to see what
 people learning the subject elsewhere are confused by.
 
 MCQs aren't the only kind of formative assessment you can use: Parsons
-Problems ([s:load](#CHAPTER)) and matching problems
-([s:exercises-diagrams](#SECTION)) are also quick and unambiguous.
+Problems ([s:load](#REF)) and matching problems
+([s:exercises-diagrams](#REF)) are also quick and unambiguous.
 Short-answer questions are another option: if answers are 2--5 words
 long, there are few enough plausible answers to make scalable assessment
-possible [[Mill2016a](#CITE)].
+possible [Mill2016a](#BIB).
 
 Developing formative assessment is useful even if you don't use them in
 class because it forces you to think about your learners' mental models
@@ -219,10 +219,10 @@ pick, you should use something that takes a minute or two every 10--15
 minutes to make sure that your learners are actually learning. That way,
 if a significant number of people have fallen behind, only a short
 portion of the lesson will have to be repeated. This rhythm isn't based
-on an intrinsic attentional limit: [[Wils2007](#CITE)] found little
+on an intrinsic attentional limit: [Wils2007](#BIB) found little
 support for the often-repeated claim that students can only pay
 attention for 10--15 minutes. If you are teaching online
-([s:online](#CHAPTER)), you should check in much more often to keep
+([s:online](#REF)), you should check in much more often to keep
 learners engaged.
 
 Formative assessments can also be used preemptively: if you start a
@@ -230,7 +230,7 @@ class with an MCQ and everyone answers it correctly, you can skip the
 part of the lecture that was going to explain something your learners
 already know. Doing this also shows learners that you respect your
 learners' time enough not to waste it, which helps with motivation
-([s:motivation](#CHAPTER)).
+([s:motivation](#REF)).
 
 If the majority of the class chooses the same wrong answer, you should
 go back and work on correcting the misconception that distractor points
@@ -248,18 +248,18 @@ need; it's your responsibility as a teacher to make the call.
 > **Concept Inventories**
 > 
 > Given enough data, MCQs can be made surprisingly precise. The
-> best-known example is the Force Concept Inventory [[Hest1992](#CITE)],
+> best-known example is the Force Concept Inventory [Hest1992](#BIB),
 > which assesses understanding of basic Newtonian mechanics. By
 > interviewing a large number of respondents, correlating their
 > misconceptions with patterns of right and wrong answers, and then
 > improving the questions, its creators constructed a diagnostic tool
 > that can pinpoint specific misconceptions. Researchers can then use
 > that tool to measure how effective changes in teaching methods are
-> [[Hake1998](#CITE)].
+> [Hake1998](#BIB).
 > 
 > Tew and others developed and validated a language-independent
-> assessment for introductory programming [[Tew2011](#CITE)];
-> [[Park2016](#CITE)] has replicated it, and [[Hamo2017](#CITE)] is
+> assessment for introductory programming [Tew2011](#BIB);
+> [Park2016](#BIB) has replicated it, and [Hamo2017](#BIB) is
 > developing a concept inventory for recursion. However, it's very
 > costly to build tools like this, and students' ability to search for
 > answers online is an ever-increasing threat to their validity.
@@ -270,7 +270,7 @@ that they can all answer an MCQ at once (rather than holding up their
 hands in turn), having one of the options be, "I have no idea", and
 encouraging them to talk to their neighbors for a few seconds before
 answering will all help ensure that your teaching flow isn't disrupted.
-[s:classroom-peer](#SECTION) describes a powerful, evidence-based
+[s:classroom-peer](#REF) describes a powerful, evidence-based
 teaching method that builds on these simple ideas.
 
 > **Humor**
@@ -319,17 +319,14 @@ A good formative assessment requires people to think through a problem.
 For example, imagine that you have placed a block of ice in a bathtub
 and then filled the tub to the rim with water. When the ice melts, does
 the water level go up (so that the tub overflows), go down, or stay the
-same ([f:models-bathtub](#FIGURE))?
+same ([f:models-bathtub](#FIG))?
 
-<figure>
-  <img src="../../files/bathtub.svg" alt="Ice in a Bathtub" />
-  <figcaption id="f:models-bathtub">Ice in a Bathtub</figcaption>
-</figure>
+{% include figure.html id="f:models-bathtub" src="../../figures/bathtub.svg" caption="Ice in a Bathtub" %}
 
 The correct answer is that the level stays the same: the ice displaces
 its own weight in water, so it exactly fills the "hole" it has made when
 it melts. Figuring out why helps people build a model of the
-relationship between weight, volume, and density [[Epst2002](#CITE)].
+relationship between weight, volume, and density [Epst2002](#BIB).
 
 Describe another kind of formative assessment you have seen or used and
 explain how it helps both the instructor and the learner figure out
@@ -366,7 +363,7 @@ manual? What about the appendices? Why?
 
 ### What Kind of Computing? (individual/10)
 
-[[Tedr2008](#CITE)] summarizes three traditions in computing:
+[Tedr2008](#BIB) summarizes three traditions in computing:
 
 Mathematical:
 : Programs are the embodiment of algorithms; they are either correct

@@ -123,13 +123,10 @@ definitions if that's done.
 [swc-shell-novice]: http://swcarpentry.github.io/shell-novice/
 [swc]: http://software-carpentry.org
 
-[t3]: http://teachtogether.tech
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
 [ten-thousand-hours]: http://www.goodlifeproject.com/podcast/anders-ericsson/
 [tierney-twitter]: https://twitter.com/figuralities/status/987330064571387906
 [troy-meetings]: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
-
-[unglue-versions]: https://unglue.it/work/313918/
 
 [variable-roles]: http://saja.kapsi.fi/var_roles/
 [video-bad-teaching]: https://www.youtube.com/watch?v=-ApVt04rB4U

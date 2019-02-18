@@ -1,55 +1,137 @@
 \documentclass[10pt,statementpaper]{memoir}
 \setstocksize{9in}{6in}
-\input{../misc/settings}
-\input{../misc/macros}
+\input{../settings}
 \begin{document}
 
-\input{frontmatter}
+\pagestyle{empty}
 
-\input{inc/intro}
+{\begingroup
+  \raggedleft
+  \vspace*{\baselineskip}
 
-\part{Learning}
-\input{inc/models}
-\input{inc/memory}
-\input{inc/load}
-\input{inc/individual}
+  {\Huge\itshape Teaching Tech Together}\\[\baselineskip]
 
-\part{Lesson Design}
-\input{inc/process}
-\input{inc/pck}
+  {\large\itshape
+    How to create and deliver lessons that work\\
+    nd build a teaching community around them
+  }\\[0.2\textheight]
 
-\part{Teaching}
-\input{inc/performance}
-\input{inc/classroom}
-\input{inc/motivation}
-\input{inc/online}
-\input{inc/exercises}
+  {\large Compiled by Greg Wilson}\par
 
-\part{Organizing}
-\input{inc/community}
-\input{inc/marketing}
-\input{inc/partner}
-\input{inc/finale}
+  \vfill
 
-\bibliographystyle{abstract}
-\bibliography{book}
+  {\large Copyright {\copyright} 2017--2018}
 
-\part{Additional Material}
+  \vspace*{\baselineskip}
 
-\appendix
+  \includegraphics{../../etc/isbn-barcode.pdf}
 
-\input{inc/license}
-\input{inc/citation}
-\input{inc/joining}
-\input{inc/conduct}
-\input{inc/gloss}
-\input{inc/meetings}
-\input{inc/theory}
-\input{inc/template}
-\input{inc/events}
-\input{inc/teacheval}
-\input{inc/peereval}
-\input{inc/preassess}
-\input{inc/v3}
+  \vspace*{\baselineskip}
 
+  {\small
+    Licensed under the Creative Commons - Attribution license (CC-BY-4.0).
+    \\
+    See https://github.com/gvwilson/teachtogether.tech for the source\\
+    and http://teachtogether.tech for the online version.
+  }
+
+\endgroup}
+
+\newpage
+
+\pagestyle{empty}
+
+~
+
+\newpage
+
+\pagestyle{empty}
+
+\vspace*{1.5in}
+
+\begin{center}
+{\em
+For my mother, Doris Wilson,\\
+who taught hundreds of children to read and to believe in themselves.
+}
+\end{center}
+
+\vspace*{3\baselineskip}
+
+\begin{center}
+{\em
+And for my brother Jeff, who did not live to see it finished.\\
+``Remember, you still have a lot of good times in front of you.''
+}
+\end{center}
+
+\newpage
+
+\pagestyle{empty}
+
+~
+
+\newpage
+
+\pagestyle{empty}
+
+\vspace*{6\baselineskip}
+
+\begin{center}{\large \textbf{The Rules}}\end{center}
+
+\begin{enumerate}
+
+\item Be kind: all else is details.
+
+\item Remember that you are not your learners{\ldots}
+
+\item {\ldots}that most people would rather fail than change{\ldots}
+
+\item {\ldots}and that ninety percent of magic consists of knowing one extra thing.
+
+\item Never teach alone.
+
+\item Never hesitate to sacrifice truth for clarity.
+
+\item Make every mistake a lesson.
+
+\item Remember that no lesson survives first contact with learners{\ldots}
+
+\item {\ldots}that every lesson is too short from the teacher's point of view and too long from the learner's{\ldots}
+
+\item {\ldots}and that nobody will be more excited about the lesson than you are.
+
+\end{enumerate}
+
+\newpage
+
+\pagestyle{empty}
+
+~
+
+\newpage
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+
+\newpage
+
+\pagestyle{empty}
+
+~
+
+\newpage
+\listoffigures
+
+\newpage
+\pagestyle{empty}
+
+~
+
+\newpage
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\input{all}
 \end{document}

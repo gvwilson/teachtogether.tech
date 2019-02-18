@@ -28,7 +28,7 @@ recorder revolutionized music instruction a decade earlier.
 Many of the people pushing the Internet into classrooms don't know
 this history, and don't realize that it is just the latest in [a long
 series of attempts][watters-timeline] to use machines to teach
-[[Watt2014](#CITE)]. From the printing press through radio and
+[Watt2014](#BIB). From the printing press through radio and
 television to desktop computers and mobile devices, every new way to
 share knowledge has produced a wave of aggressive optimists who
 believe that education is broken and that technology can fix
@@ -78,9 +78,9 @@ major university campus without hearing some talking about how MOOCs
 would revolutionize education, destroy it, or possibly both.
 
 But MOOCs haven't been nearly as effective as their more enthusiastic
-proponents claimed they would be [[Ubel2017](#CITE)]. One reason is that
+proponents claimed they would be [Ubel2017](#BIB). One reason is that
 recorded content is ineffective for many novices because it cannot clear
-up their individual misconceptions ([s:models](#CHAPTER)): if they
+up their individual misconceptions ([s:models](#REF)): if they
 don't understand an explanation the first time around, there usually
 isn't a different one on offer. Another is that the automated assessment
 necessary in order to put the "massive" in MOOC only works well at the
@@ -89,9 +89,9 @@ to shoulder much more of the burden of staying focused in a MOOC, and
 that the impersonality of working online can demotivate people and
 encourage uncivil behavior.
 
-[[Marg2015](#CITE)] examined 76 MOOCs on various subjects, and found that
+[Marg2015](#BIB) examined 76 MOOCs on various subjects, and found that
 the quality of lesson design was poor, though organization and
-presentation of material was good. Closer to home, [[Kim2017](#CITE)]
+presentation of material was good. Closer to home, [Kim2017](#BIB)
 studied 30 popular online coding tutorials, and found that they largely
 teach the same content the same way: bottom-up, starting with low-level
 programming concepts and building up to high-level goals. Most require
@@ -124,7 +124,7 @@ experience or learner goals.
 > And even if it does work, the effects are likely to be much less
 > than some of its advocates believe. A good teacher makes a
 > difference of 0.1--0.15 standard deviations in end-of-year
-> performance in grade school [[Chet2014](#CITE)] (see [this
+> performance in grade school [Chet2014](#BIB) (see [this
 > article][good-teacher-effects] for a brief summary). It's simply
 > unrealistic to believe that any kind of automation can outdo this
 > any time soon.
@@ -141,7 +141,7 @@ Learners can access more lessons, more quickly, than ever before.
 Learners can access *better* lessons than ever before,
 : unless they are being steered toward second-rate material in order
   to redistribute wealth from the have-nots to the haves
-  [[McMi2017](#CITE)]. (It's worth remembering that scarcity increases
+  [McMi2017](#BIB). (It's worth remembering that scarcity increases
   perceived value, so as online education becomes cheaper, it will be
   seen as being worth less.)
 
@@ -150,7 +150,7 @@ Learners can access far more people than ever before as well.
   technology, can afford to use it, and aren't driven offline by
   harassment or marginalized because they don't conform to the social
   norms of whichever group is talking loudest. In practice, most MOOC
-  users come from secure, affluent backgrounds [[Hansen2015](#CITE)].
+  users come from secure, affluent backgrounds [Hansen2015](#BIB).
 
 Teachers can get far more detailed insight into how learners work.
 : So long as learners are doing things that are amenable to
@@ -158,7 +158,7 @@ Teachers can get far more detailed insight into how learners work.
   ubiquitous surveillance in the classroom, or aren't powerful enough
   for their objections to matter.
 
-[[Marg2015](#CITE),[Mill2016a](#CITE),[Nils2017](#CITE)] describe ways to accentuate the
+[Marg2015,Mill2016a,Nils2017](#BIB) describe ways to accentuate the
 positives in the list above while avoiding the negatives:
 
 Make deadlines frequent and well-publicized,
@@ -168,9 +168,9 @@ Keep synchronous all-class activities like live lectures to a minimum
 : so that people don't miss things because of scheduling conflicts.
 
 Have learners contribute to collective knowledge,
-: e.g., take notes together ([s:classroom-notetaking](#SECTION)),
+: e.g., take notes together ([s:classroom-notetaking](#REF)),
   serve as classroom scribes, or contribute problems to shared problem
-  sets ([s:individual-peer](#SECTION)).
+  sets ([s:individual-peer](#REF)).
 
 Encourage or require learners to do some of their work in small groups
 : that *do* have synchronous online activities such as a weekly online
@@ -181,7 +181,7 @@ Encourage or require learners to do some of their work in small groups
 
 Create, publicize, and enforce a code of conduct
 : so that everyone can actually (as opposed to theoretically) take
-  part in online discussions ([s:intro-code-of-conduct](#SECTION)).
+  part in online discussions ([s:intro-code-of-conduct](#REF)).
 
 Use lots of short lesson episodes rather than a handful of lecture-length chunks
 : in order to minimize cognitive load and provide lots of
@@ -198,7 +198,7 @@ Use video to engage rather than instruct,
   on are more effective than screenshots with text.
 
 Identify and clear up misconceptions early
-: ([s:models](#CHAPTER)). If data shows that learners are struggling
+: ([s:models](#REF)). If data shows that learners are struggling
   with some parts of a lesson, create alternative explanations of
   those points and extra exercises for them to practice on.
 
@@ -229,21 +229,21 @@ return is learn how to use the tools they prefer.
 > One way to demonstrate to learners that they are learning *with* you,
 > not just *from* you, is to allow them to edit your course notes. In
 > live courses, we recommend that you enable them to do this as you
-> lecture ([s:classroom-notetaking](#SECTION)); in online courses, you
+> lecture ([s:classroom-notetaking](#REF)); in online courses, you
 > can put your notes into a wiki, a Google Doc, or anything else that
 > allows you to review and comment on changes. Giving people credit for
 > fixing mistakes, clarifying explanations, adding new examples, and
 > writing new exercises doesn't reduce your workload, but increases
 > engagement and the lesson's lifetime
-> ([s:process-maintainability](#SECTION)).
+> ([s:process-maintainability](#REF)).
 
 A major concern with any online community, learning or otherwise, is how
 to actually make it a community. Hundreds of books and presentations
 discuss this, but most are based on their authors' personal experiences.
-[[Krau2016](#CITE)] is a welcome exception: while it predates the
+[Krau2016](#BIB) is a welcome exception: while it predates the
 accelerating descent of Twitter and Facebook into weaponized abuse and
 misinformation, most of what was true then is true now.
-[[Foge2005](#CITE)] is also full of useful tips for the community of
+[Foge2005](#BIB) is also full of useful tips for the community of
 practice that learners may hope to join.
 
 > **Freedom To and Freedom From**
@@ -262,21 +262,21 @@ practice that learners may hope to join.
 
 One other concern people have about teaching online is cheating.
 Day-to-day dishonesty is no more common in online classes than in
-face-to-face settings [[Beck2014](#CITE)], but the temptation to have
+face-to-face settings [Beck2014](#BIB), but the temptation to have
 someone else write the final exam, and the difficulty of checking
 whether this happened, is one of the reasons educational institutions
 have been reluctant to offer credit for pure online classes. Remote exam
 proctoring is possible, usually by using a webcam to watch the learner
-take the exam. Before investing in this, read [[Lang2013](#CITE)], which
+take the exam. Before investing in this, read [Lang2013](#BIB), which
 explores why and how learners cheat, and how courses can be structured
 to avoid giving them a reason to do so.
 
 ## Video {#s:online-video}
 
 A core element of cMOOCs is their reliance on recorded video lectures.
-As mentioned in [s:performance](#CHAPTER), a teaching technique called
+As mentioned in [s:performance](#REF), a teaching technique called
 Direct Instruction that is based on precise delivery of a well-designed
-script has repeatedly been shown to be effective [[Stoc2018](#CITE)], so
+script has repeatedly been shown to be effective [Stoc2018](#BIB), so
 recorded videos can in principle be effective. However, scripts for
 direct instruction have to be designed, tested, and refined very
 carefully, which is an investment that many MOOC authors have been
@@ -285,24 +285,21 @@ slide deck only takes a few minutes; making even a small change to a
 short video takes an hour or more, so the cost to the teacher of acting
 on feedback can be unsupportable. And even when they're well made,
 videos have to be combined with activities to be beneficial:
-[[Koed2015](#CITE)] estimated, "...the learning benefit from
+[Koed2015](#BIB) estimated, "...the learning benefit from
 extra doing...to be more than six times that of extra
 watching or reading."
 
 If you are teaching programming, you may use screencasts instead of
 slides, since they offer some of the same advantages as live coding
-([s:performance-live](#SECTION)). [[Chen2009](#CITE)] offers useful tips
+([s:performance-live](#REF)). [Chen2009](#BIB) offers useful tips
 for creating and critiquing screencasts and other videos;
-[f:online-screencasting](#FIGURE) reproduces the patterns that paper
+[f:online-screencasting](#FIG) reproduces the patterns that paper
 presents and the relationships between them, and is also a good example
-of a concept map ([s:memory-concept-maps](#SECTION)).
+of a concept map ([s:memory-concept-maps](#REF)).
 
-<figure>
-  <img src="../../files/screencast.svg" alt="Patterns for Screencasting" />
-  <figcaption id="f:online-screencasting">Patterns for Screencasting ([<a href="#Chen2009">Chen2009</a>])</figcaption>
-</figure>
+{% include figure.html id="f:online-screencasting" src="../../figures/screencast.svg" caption="Patterns for Screencasting ([Chen2009](#BIB))" %}
 
-[[Guo2014](#CITE)] measured engagement by looking at how long learners
+[Guo2014](#BIB) measured engagement by looking at how long learners
 watched MOOC videos. Some of its key findings were:
 
 - Shorter videos are much more engaging---videos should be no more than
@@ -323,20 +320,20 @@ watched MOOC videos. Some of its key findings were:
 - It's OK for teachers to speak fairly fast as long as they are
   enthusiastic.
 
-One thing [[Guo2014](#CITE)] didn't address is the chicken-and-egg
+One thing [Guo2014](#BIB) didn't address is the chicken-and-egg
 problem: do learners find a certain kind of video engaging because
 they're used to it, so producing more videos of that kind will
 increase engagement simply because of a feedback loop? Or do these
 recommendations reflect some deeper cognitive processes? Another thing
 this paper didn't look at is learning outcomes: we know that learner
 evaluations of courses don't correlate with learning
-[[Star2014](#CITE),[Uttl2017](#CITE)], and while it's plausible that
+[Star2014,Uttl2017](#BIB), and while it's plausible that
 learners won't learn from things they don't watch, it remains to be
 proven that they *do* learn from things they *do* watch.
 
 > **I'm a Little Uncomfortable**
 > 
-> [[Guo2014](#CITE)]'s research was approved by a university research
+> [Guo2014](#BIB)'s research was approved by a university research
 > ethics board, the learners whose viewing habits were monitored almost
 > certainly clicked "agree" on a terms of service agreement at some
 > point, and I'm glad to have these insights. On the other hand, I
@@ -346,7 +343,7 @@ proven that they *do* learn from things they *do* watch.
 > know how engaged learners are than see privacy become obsolete.
 
 There are many different ways to record video lessons; to find out which
-are most effective, [[Mull2007a](#CITE)] assigned 364 first-year physics
+are most effective, [Mull2007a](#BIB) assigned 364 first-year physics
 learners to online multimedia treatments of Newton's First and Second
 Laws in one of four styles:
 
@@ -389,9 +386,9 @@ The most popular hybrid teaching strategy today is the
 [flipped classroom](#g:flipped-classroom), in which learners
 watch recorded lessons on their own, and class time is used for
 discussion and to work through problem sets. Originally proposed in
-[[King1993](#CITE)], the idea was popularized as part of peer instruction
-([s:classroom-peer](#SECTION)), and has been studied intensively over
-the past decade. For example, [[Camp2016](#CITE)] compared students who
+[King1993](#BIB), the idea was popularized as part of peer instruction
+([s:classroom-peer](#REF)), and has been studied intensively over
+the past decade. For example, [Camp2016](#BIB) compared students who
 chose to take a CS1 class online with those who took it in person in a
 flipped classroom. Completion of (unmarked) practice exercises
 correlated with exam scores for both, but the completion rate of
@@ -405,7 +402,7 @@ only for the online section; the authors recommend trying to improve
 self-efficacy by increasing instructor presence online.
 
 But are lectures worth attending at all? Or should we just provide
-recordings? [[Nord2017](#CITE)] examined the impact of recordings on both
+recordings? [Nord2017](#BIB) examined the impact of recordings on both
 lecture attendance and students' performance at different levels. In
 most cases the study found no negative consequences of making recordings
 available; in particular, students don't skip lectures when recordings
@@ -415,7 +412,7 @@ their careers, but diminish as students become more mature.
 
 ## Life Online {#s:online-engagement}
 
-[[Nuth2007](#CITE)] found that there are three overlapping worlds in
+[Nuth2007](#BIB) found that there are three overlapping worlds in
 every classroom: the public (what the teacher is saying and doing), the
 social (peer-to-peer interactions between learners), and the private
 (inside each learner's head). Of these, the most important is usually
@@ -424,7 +421,7 @@ do from formal instruction.
 
 The key to making any form of online teaching effective is therefore to
 facilitate peer-to-peer interactions. To aid this, courses almost always
-have some kind of discussion forum. [[Vell2017](#CITE)] analyzes
+have some kind of discussion forum. [Vell2017](#BIB) analyzes
 discussion forum posts from 395 CS2 students at two universities by
 dividing them into four categories:
 
@@ -451,7 +448,7 @@ knowing it helps set instructors' expectations: while we might all want
 our courses to have lively online communities, most won't.
 
 Learners use forums in very different ways, and with very different
-results. [[Mill2016a](#CITE)] observed that, "...procrastinators are
+results. [Mill2016a](#BIB) observed that, "...procrastinators are
 particularly unlikely to participate in online discussion forums, and
 this reduced participation, in turn, is correlated with worse
 grades. A possible explanation for this correlation is that
@@ -463,7 +460,7 @@ benefits of peer-to-peer interaction."
 
 > **Co-opetition**
 > 
-> [[Gull2004](#CITE)] describes an innovative online coding contest that
+> [Gull2004](#BIB) describes an innovative online coding contest that
 > combines collaboration and competition. The contest starts when a
 > problem description is posted along with a correct, but inefficient,
 > solution. When it ends, the winner is the person who has made the
@@ -473,7 +470,7 @@ benefits of peer-to-peer interaction."
 > other; as the paper shows, the final solution is almost always a
 > hybrid borrowing ideas from many people.
 > 
-> [[Batt2018](#CITE)] described a small-scale variation of this used in
+> [Batt2018](#BIB) described a small-scale variation of this used in
 > an introductory computing class. In stage one, each student submitted
 > a programming project individually. In stage two, students were paired
 > to create an improved solution to the same problem. The assessment
@@ -481,17 +478,17 @@ benefits of peer-to-peer interaction."
 > understanding, and that they enjoyed the process.
 
 Discussion isn't the only way to get students to work together online.
-[[Pare2008](#CITE)] and [[Kulk2013](#CITE)] report experiments in which
+[Pare2008](#BIB) and [Kulk2013](#BIB) report experiments in which
 learners grade each other's work, and the grades they assign are then
 compared with grades given by graduate-level teaching assistants or
 other experts. Both found that student-assigned grades agreed with
 expert-assigned grades as often as the experts' grades agreed with each
 other, and that a few simple steps (such as filtering out obviously
 unconsidered responses or structuring rubrics) decreased disagreement
-even further. And as discussed in [s:individual-peer](#SECTION),
+even further. And as discussed in [s:individual-peer](#REF),
 collusion and bias are *not* significant factors in peer grading.
 
-[[Cumm2011](#CITE)] looked at the use of shareable feedback tags on
+[Cumm2011](#BIB) looked at the use of shareable feedback tags on
 homework; students could attach tags to specific locations in coding
 assignments (like code review) so that there's no navigational cost for
 the reader, and they controlled whether to share their work and feedback
@@ -505,7 +502,7 @@ and worst students were more likely to share than middling students.
 > 
 > The most common way to measure the validity of feedback is to compare
 > students' grades to experts' grades, but calibrated peer review
-> ([s:individual-peer](#SECTION)) can be equally effective. Before
+> ([s:individual-peer](#REF)) can be equally effective. Before
 > asking learners to grade each others' work, they are asked to grade
 > samples and compare their results with the grades assigned by the
 > teacher. Once the two align, the learner is allowed to start giving
@@ -514,13 +511,13 @@ and worst students were more likely to share than middling students.
 > technology to make judgments, rather than being judged by technology.
 
 One technique we will definitely see more of in coming years is online
-streaming of live coding sessions [[Haar2017](#CITE)]. This has most of
-the benefits discussed in [s:performance-live](#SECTION), and when
+streaming of live coding sessions [Haar2017](#BIB). This has most of
+the benefits discussed in [s:performance-live](#REF), and when
 combined with collaborative note-taking
-([s:classroom-notetaking](#SECTION)) it can come pretty close to
+([s:classroom-notetaking](#REF)) it can come pretty close to
 approximating an in-class experience.
 
-Looking even further ahead, [[Ijss2000](#CITE)] identified four levels of
+Looking even further ahead, [Ijss2000](#BIB) identified four levels of
 online presence, from realism (we can't tell the difference) through
 immersion (we forget the difference) and involvement (we're engaged but
 aware of the difference) to suspension of disbelief (we are doing most
@@ -529,7 +526,7 @@ the sense of actually being somewhere, and social presence, which is the
 sense of being with others. In most learning situations, the latter is
 more important, and one way to foster it is to bring the technology
 learners use every day into the classroom. For example,
-[[Deb2018](#CITE)] found that doing in-class exercises with realtime
+[Deb2018](#BIB) found that doing in-class exercises with realtime
 feedback using mobile devices improved concept retention and student
 engagement while reducing failure rates.
 
@@ -539,15 +536,15 @@ engagement while reducing failure rates.
 > either on its own. I have delivered very successful classes using
 > real-time remote instruction, in which the learners are co-located at
 > 2--6 sites, with helpers present, while I taught via streaming video
-> ([s:joining-using](#SECTION)). This scales well, saves on travel
+> ([s:joining-using](#REF)). This scales well, saves on travel
 > costs, and is less disruptive for learners (particularly those with
 > family responsibilities). What *doesn't* work is having one group in
 > person and one or more groups remotely: with the best will in the
 > world, the local participants get far more attention.
 
-Online teaching is still in its infancy: [[Luxt2009](#CITE)] surveyed
+Online teaching is still in its infancy: [Luxt2009](#BIB) surveyed
 peer assessment tools that could be useful in computing education, and
-[[Broo2016](#CITE)] describes many other ways groups can discuss things,
+[Broo2016](#BIB) describes many other ways groups can discuss things,
 but only a handful of these ideas are widely known or used.
 
 > I think that our grandchildren will probably regard the distinction we
@@ -579,7 +576,7 @@ did you miss?
 
 ### Viewpoints (individual/10)
 
-According to [[Irib2009](#CITE)], different disciplines focus on
+According to [Irib2009](#BIB), different disciplines focus on
 different factors affecting the success or otherwise of online
 communities:
 
@@ -601,10 +598,9 @@ are you least aligned with?
 
 ### Helping or Harming (small groups/30)
 
-[Susan Dynarski's article in the *New York
-Times*][dynarski-who-needs-help] explains how and why schools are
-putting students who fail in-person courses into online courses, and
-how this sets them up for even further failure.
+[Susan Dynarski's article in the *New York Times*][dynarski-who-needs-help]
+explains how and why schools are putting students who fail in-person courses
+into online courses, and how this sets them up for even further failure.
 
 1. Working in small groups, read the article, come up with 2--3 things
    that schools could do to compensate for these negative effects, and

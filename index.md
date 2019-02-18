@@ -1,7 +1,7 @@
 ---
-layout: plain
+layout: default
 permalink: "/"
-title: "Teaching Tech Together"
+title: "Home Page"
 ---
 
-- [English version](./en/)
+- [English](./en/)
