@@ -75,12 +75,12 @@ ${ALL_TEX} : ${PAGES_HTML} bin/get_body.py bin/transform.py ${TOC_JSON}
 # Pre-process (for debugging purposes).
 test-pre:
 	${PYTHON} bin/get_body.py _config.yml ${DIR_HTML} \
-	| ${PYTHON} bin/transform.py --pre ${TOC_JSON} _includes
+	| ${PYTHON} bin/transform.py --pre ${lang} _includes
 
 # Pre-process with Pandoc (for debugging purposes).
 test-pandoc:
 	${PYTHON} bin/get_body.py _config.yml ${DIR_HTML} \
-	| ${PYTHON} bin/transform.py --pre ${TOC_JSON} _includes \
+	| ${PYTHON} bin/transform.py --pre ${lang} _includes \
 	| ${PANDOC} --wrap=preserve -f html -t latex -o -
 
 # Create all the HTML pages once the Markdown files are up to date.
@@ -105,7 +105,7 @@ ${DIR_HTML}/%/index.html : $(wildcard _includes/%/*.*)
 ## ----------------------------------------
 
 ## check          : check everything.
-check : fixme ${CONFIG_YML} ${BIB_MD} ${TOC_JSON}
+check : ${CONFIG_YML} ${BIB_MD} ${TOC_JSON}
 	@bin/check.py ${lang} all
 
 ## check_anchors  : list all incorrectly-formatted H2 anchors.
