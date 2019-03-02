@@ -409,7 +409,7 @@ models agree and disagree?
 
 After you have finished going through this material (not just this
 chapter), pick one small topic, draw a concept map for it, and send it
-to us ([s:joining](#APPENDIX)). If we decide to add it to this book, we
+to us ([s:joining](#REF)). If we decide to add it to this book, we
 will add you to the credits in the introduction.
 
 ### Noticing Your Blind Spot (small groups/10)

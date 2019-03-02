@@ -32,7 +32,7 @@ created for [the Software Carpentry instructor training
 program][carpentries-training], which has been run over several
 hundred times over the past six years, and all of it can be freely
 distributed and re-used under the [Creative Commons - Attribution 4.0
-license][cc-by-license] ([s:license](#APPENDIX)). Please see
+license][cc-by-license] ([s:license](#REF)). Please see
 [{{site.website}}]({{site.website}}) to download a digital version
 or [purchase a printed copy]({{site.purchase}}) at cost.
 
@@ -41,7 +41,7 @@ improvements to entirely new sections and chapters. All proposed
 contributions will be managed in the same way as edits to Wikipedia
 or patches to open source software, and all contributors will be
 credited for their work each time a new version is released. Please
-see [s:joining](#APPENDIX) for details and our code of conduct.
+see [s:joining](#REF) for details and our code of conduct.
 
 <div markdown="1" replacement="index/dedication.tex">
 ## Dedication {#s:index-dedication}

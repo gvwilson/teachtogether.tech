@@ -477,7 +477,7 @@ Include narration of on-screen action
 ### Conduct Revisited
 
 We said in [s:intro-code-of-conduct](#REF) that classes should
-enforce a Code of Conduct like the one in [s:conduct](#APPENDIX). This
+enforce a Code of Conduct like the one in [s:conduct](#REF). This
 is a form of accessibility: while closed captions make video accessible
 to people with hearing disabilities, a Code of Conduct makes lessons
 accessible to people who would otherwise be marginalized.

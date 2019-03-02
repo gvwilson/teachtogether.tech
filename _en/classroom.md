@@ -31,7 +31,7 @@ attention as possible, but at scale.
 ## Enforce the Code of Conduct {#s:classroom-enforce}
 
 [s:intro](#REF) said that every workshop should have and enforce a
-Code of Conduct like the one in [s:conduct](#APPENDIX). If you are a
+Code of Conduct like the one in [s:conduct](#REF). If you are a
 teacher, and believe that someone has violated it, you may warn them,
 ask them to apologize, and/or expel them, depending on the severity of
 the violation and whether or not you believe it was intentional.
@@ -237,7 +237,7 @@ because they regard their level of competence as normal.
 Rather than asking people to rate their knowledge from 1 to 5, you
 should therefore try to ask them how easily they could complete some
 specific tasks, but that still runs the risk of scaring them away.
-[s:preassess](#APPENDIX) presents a short preassessment questionnaire
+[s:preassess](#REF) presents a short preassessment questionnaire
 that most potential learners are unlikely to find intimidating; if you
 use it or anything like it, please be sure to follow up with people who
 *don't* respond to find out why not.
@@ -550,7 +550,7 @@ helps keep your throat lubricated, but its real purpose is to give you
 an excuse to pause for a couple of seconds and think when someone asks a
 hard question or you lose track of what you were going to say next. You
 will probably also want some whiteboard pens and a few of the other
-things described in the travel kit checklist in [s:events](#APPENDIX).
+things described in the travel kit checklist in [s:events](#REF).
 
 ### Avoid Homework in All-Day Formats
 
@@ -677,7 +677,7 @@ workshop, it's probably best to be conservative in your approach.
 
 ### Create a Questionnaire (individual/20)
 
-Using the questionnaire in [s:preassess](#APPENDIX) as a template,
+Using the questionnaire in [s:preassess](#REF) as a template,
 create a short questionnaire you could give learners before teaching a
 class of your own. What do you most want to know about their background?
 

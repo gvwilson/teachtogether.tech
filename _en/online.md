@@ -176,7 +176,7 @@ Encourage or require learners to do some of their work in small groups
 : that *do* have synchronous online activities such as a weekly online
   discussion to help learners stay engaged and motivated without
   creating too many scheduling headaches. (See
-  [s:meetings](#APPENDIX) for some tips on how to make these
+  [s:meetings](#REF) for some tips on how to make these
   discussions fair and productive.)
 
 Create, publicize, and enforce a code of conduct
@@ -565,7 +565,7 @@ each person in the class add one point to a 2x2 grid on a whiteboard
 (or in the shared notes) without duplicating any points that are
 already up there. What did other people see that you missed? What did
 they think that you strongly agree or disagree with? (You can compare
-your answers with the checklist in [s:teacheval](#APPENDIX).)
+your answers with the checklist in [s:teacheval](#REF).)
 
 ### Two-Way Video (pairs/10)
 

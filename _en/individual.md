@@ -384,7 +384,7 @@ and other outsiders. "Observables" means that instead of asking, "Is the
 person outgoing," or "Does the person have a positive attitude,"
 assessments should ask, "Does the person listen attentively during
 meetings," or, "Does the person attempt to solve problems before asking
-for help." The evaluation form in [s:peereval](#APPENDIX) shows a
+for help." The evaluation form in [s:peereval](#REF) shows a
 sample to get you started. To use it, rank yourself and each of your
 teammates, then calculate and compare scores.
 

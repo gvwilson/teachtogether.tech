@@ -10,7 +10,7 @@ using, sharing, and improving this material.
 
 The contributor covenant laid out below governs contributions to this
 book. It is adapted from the [Contributor Covenant][covenant] version
-1.4; please see [s:conduct](#APPENDIX) for a sample code of conduct
+1.4; please see [s:conduct](#REF) for a sample code of conduct
 for use in classes and other learning situations.
 
 ### Our Pledge
@@ -141,7 +141,7 @@ individuals. As with online groups, the instructor will do most of the
 talking and learners will mostly participate via text chat. Good audio
 is once again more important than good video, and participants should
 use text chat to signal that they want to speak next
-([s:meetings](#APPENDIX)).
+([s:meetings](#REF)).
 
 Having participants online individually makes it more difficult to draw
 and share concept maps ([s:memory-exercises](#REF)) or give
@@ -171,7 +171,7 @@ welcome, from suggestions for improvements to errata and new material.
 All contributors must abide by the contributor covenant presented above;
 by submitting your work, you are agreeing that it may incorporated in
 either original or edited form and release it under the same license as
-the rest of this material ([s:license](#APPENDIX)). If your material is
+the rest of this material ([s:license](#REF)). If your material is
 incorporated, we will add you to the acknowledgments
 ([s:intro-acknowledgments](#REF)) unless you request otherwise.
 

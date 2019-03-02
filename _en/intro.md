@@ -27,7 +27,7 @@ Throughout, we try to follow our own advice: for example, we start with
 ideas that are short, engaging, and actionable in order to motivate you
 to read further ([s:motivation](#REF)), include lots of exercises
 that can be used to reinforce learning ([s:models](#REF)), and
-include the original design for this book in [s:v3](#APPENDIX) so that
+include the original design for this book in [s:v3](#REF) so that
 you can see what a lesson design looks like.
 
 > **This Book Belongs to Everyone**
@@ -37,7 +37,7 @@ you can see what a lesson design looks like.
 > program][carpentries-training], which has been run over several
 > hundred times over the past six years, and all of it can be freely
 > distributed and re-used under the [Creative Commons - Attribution
-> 4.0 license][cc-by-license] ([s:license](#APPENDIX)). Please see
+> 4.0 license][cc-by-license] ([s:license](#REF)). Please see
 > [{{site.website}}]({{site.website}}) to download a digital version
 > or [purchase a printed copy]({{site.purchase}}) at cost.
 >
@@ -46,7 +46,7 @@ you can see what a lesson design looks like.
 > contributions will be managed in the same way as edits to Wikipedia
 > or patches to open source software, and all contributors will be
 > credited for their work each time a new version is released. Please
-> see [s:joining](#APPENDIX) for details and
+> see [s:joining](#REF) for details and
 > [s:joining-covenant](#REF) for our code of conduct.
 
 ## Who You Are {#s:intro-audience}
@@ -246,7 +246,7 @@ rewarded ([s:finale](#REF)).
 The most important thing I've learned about teaching in the last thirty
 years is how important it is for everyone to treat everyone else with
 respect, both in and out of class. If you use this material in any way,
-please adopt a Code of Conduct like the one in [s:conduct](#APPENDIX)
+please adopt a Code of Conduct like the one in [s:conduct](#REF)
 and require everyone who takes part in your classes to abide by it.
 
 A Code of Conduct can't stop people from being offensive, any more than
