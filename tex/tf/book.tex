@@ -1,0 +1,82 @@
+\documentclass[nemilov1]{Nemilov}
+\input{settings}
+
+% <GVW>
+% </GVW>
+
+\frenchspacing
+\tolerance=5000
+
+% GVW \makeindex
+
+\begin{document}
+
+\title{Teaching Tech Together}
+
+\author{Greg Wilson}
+
+% GVW \halftitle
+
+\booktitle
+
+% GVW \locpage
+
+\frontmatter
+
+% <GVW>
+\include{dedication}
+% </GVW>
+
+% GVW \tableofcontents
+% GVW \listoffigures
+% GVW \listoftables
+
+% <GVW>
+% GVW \include{foreword}
+% GVW \include{rules}
+% </GVW>
+
+\mainmatter
+\input{intro}
+\input{models}
+\input{memory}
+\input{load}
+\input{individual}
+\input{process}
+\input{pck}
+\input{performance}
+\input{classroom}
+\input{motivation}
+\input{online}
+\input{exercises}
+\input{community}
+\input{marketing}
+\input{partnerships}
+\input{finale}
+
+\cleardoublepage
+
+\chapter*{References}
+\addcontentsline{toc}{chapter}{\bfseries References}
+\markboth{References}{References}
+\bibliographystyle{plain}
+\bibliography{book}
+
+\appendix
+
+\input{license}
+\input{joining}
+\input{conduct}
+\input{glossary}
+\input{meetings}
+\input{theory}
+\input{template}
+\input{events}
+\input{teacheval}
+\input{peereval}
+\input{preassess}
+% \input{v3} FIXME: add later
+
+\include{index}
+
+\end{document}

@@ -2,8 +2,10 @@
 *.bbl
 *.blg
 *.egg-info
+*.idx
 *.lof
 *.log
+*.lot
 *.out
 *.pyg
 *.toc
@@ -15,3 +17,4 @@ __pycache__
 _minted-*
 _site
 tex/*/all.tex
+book.pdf

@@ -1,0 +1,57 @@
+\usepackage{fix-cm}
+\usepackage[english]{babel}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{inputenc}
+\usepackage{epigrafica}
+\usepackage[LGR,OT1]{fontenc}
+\usepackage{mathptmx}
+
+% FIXME: temporary replacement for \hyperlink and \hypertarget
+\newcommand{\hyperlink}[2]{\textbf{#2}}
+\newcommand{\hypertarget}[2]{#2}
+
+% FIXME: temporarily provide \href
+\newcommand{\href}[2]{\textit{#2}}
+
+% FIXME: temporarily provide \url
+\newcommand {\url}[1]{\textit{#1}}
+
+% FIXME: disable \tightlist
+\newcommand{\tightlist}{}
+
+% Use numbers for nested lists all the way down.
+\usepackage{enumitem}
+\setlist[enumerate,1]{label=\arabic*., ref=\arabic*}
+\setlist[enumerate,2]{label=\arabic*., ref=\arabic*}
+\setlist[enumerate,3]{label=\arabic*., ref=\arabic*}
+
+% Allow multi-page tables.
+\usepackage{longtable}
+
+% Make description items cross-referenceable
+\def\namedlabel#1#2{\begingroup
+    #2%
+    \def\@currentlabel{#2}%
+    \phantomsection\label{#1}\endgroup
+}
+\makeatother
+
+% Change hanging indentation for description environment.
+\makeatletter
+\renewenvironment{description}%
+  {\list{}{\leftmargin=1em % <------- Adjust this length
+    \labelwidth\z@ \itemindent-\leftmargin
+    \let\makelabel\descriptionlabel}}%
+  {\endlist}
+\makeatother
+
+% Use smaller font for verbatim environments.
+\usepackage{fancyvrb}
+
+% Syntax highlighting with minted <http://mirror.its.dal.ca/ctan/macros/latex/contrib/minted/minted.pdf>
+\usepackage{minted}
