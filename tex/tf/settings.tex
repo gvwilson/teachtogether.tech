@@ -10,6 +10,7 @@
 \usepackage{epigrafica}
 \usepackage[LGR,OT1]{fontenc}
 \usepackage{mathptmx}
+\usepackage{changepage}
 
 % FIXME: temporary replacement for \hyperlink and \hypertarget
 \newcommand{\hyperlink}[2]{\textbf{#2}}
@@ -58,3 +59,8 @@
 
 \frenchspacing
 \tolerance=5000
+
+% Asides
+\newenvironment{aside}[1]%
+{\begin{adjustwidth}{2em}{2em}\noindent\textbf{#1}}%
+{\end{adjustwidth}}
