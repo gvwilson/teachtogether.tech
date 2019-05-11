@@ -12,19 +12,6 @@
 \usepackage{mathptmx}
 \usepackage{changepage}
 
-% FIXME: temporary replacement for \hyperlink and \hypertarget
-\newcommand{\hyperlink}[2]{\textbf{#2}}
-\newcommand{\hypertarget}[2]{#2}
-
-% FIXME: temporarily provide \href
-\newcommand{\href}[2]{\textit{#2}}
-
-% FIXME: temporarily provide \url
-\newcommand {\url}[1]{\textit{#1}}
-
-% FIXME: disable \tightlist
-\newcommand{\tightlist}{}
-
 % Use numbers for nested lists all the way down.
 \usepackage{enumitem}
 \setlist[enumerate,1]{label=\arabic*., ref=\arabic*}
@@ -60,7 +47,28 @@
 \frenchspacing
 \tolerance=5000
 
+%----------------------------------------
+
+% temporary replacement for \hyperlink and \hypertarget
+\newcommand{\hyperlink}[2]{\textbf{#2}}
+\newcommand{\hypertarget}[2]{#2}
+
+% temporarily provide \href
+\newcommand{\href}[2]{{#2}\footnote{\url{#1}}}
+
+% temporarily provide \url
+\newcommand {\url}[1]{\textit{#1}}
+
+% disable \tightlist
+\newcommand{\tightlist}{}
+
 % Asides
 \newenvironment{aside}[1]%
 {\begin{adjustwidth}{2em}{2em}\noindent\textbf{#1}}%
 {\end{adjustwidth}}
+
+% Glossary references
+\newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}}
+
+% Remove indentation from footnotes
+\usepackage[hang,flushmargin]{footmisc}
