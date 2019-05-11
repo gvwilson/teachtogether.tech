@@ -189,7 +189,6 @@
 \newcommand\PartTitleFont{\fontsize{24}{30}\raggedright\sffamily\itshape\selectfont}
 \newcommand\ChapNumFont{\fontsize{45}{45}\sffamily\selectfont}
 \newcommand\FMCT{\fontsize{24}{28}\sffamily\raggedright\selectfont}
-\newcommand\FMCTsub{\fontsize{18}{20}\sffamily\raggedright\selectfont}
 \newcommand\ChapTitleFont{\fontsize{24}{30}\sffamily\raggedright\rightskip16pt plus1fill\selectfont}
 \newcommand\SubChapTitleFont{\fontsize{24}{28}\raggedright\itshape\rightskip6pt plus1fill\selectfont}
 \newcommand\sbSectionHeadFont{\fontsize{9}{11}\bfseries\selectfont\uppercase}
@@ -948,12 +947,8 @@
         \vspace*{-35pt}
     \noindent\hbox{\vrule height4pt width\textwidth}\vspace*{22pt}
     \interlinepenalty\@M
-    {\FMCT Teaching Tech Together}\par\nobreak
-    \vskip 3\p@
-    {\FMCTsub \emph{How to create and deliver\\ lessons that work\\ and build a teaching community\\ around them\\ }}\par\nobreak
-    \vspace{1in}       
-    {\FMCTsub \emph{Greg Wilson}}\par\nobreak
-    \vskip 24\p@
+    {\FMCT  Title Page}\par\nobreak
+    \vskip 27\p@
   }}              
 
 \def\locpage{\clearpage\thispagestyle{empty}%
