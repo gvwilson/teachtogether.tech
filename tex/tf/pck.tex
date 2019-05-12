@@ -4,13 +4,13 @@ Every instructor needs three things:
 
 \begin{itemize}
 \item
-  \protect\hyperlink{g:content-knowledge}{content knowledge}, such as how to
+  \gref{g:content-knowledge}{content knowledge}, such as how to
   program;
 \item
-  \protect\hyperlink{g:general-pedagogical-knowledge}{general pedagogical knowledge},
+  \gref{g:general-pedagogical-knowledge}{general pedagogical knowledge},
   such as an understanding of the psychology of learning; and
 \item
-  \protect\hyperlink{g:pedagogical-content-knowledge}{pedagogical content knowledge}
+  \gref{g:pedagogical-content-knowledge}{pedagogical content knowledge}
   (PCK), which is the domain-specific knowledge of how to teach a
   particular concept to a particular audience.
 \end{itemize}
@@ -48,27 +48,27 @@ decisions regardless of whether research has clear answers yet or not,
 this chapter presents actionable approximations of the truth rather than
 nuanced perhapses.
 
-\begin{quote}\setlength{\parindent}{0pt}
-\textbf{Jargon}
+\begin{aside}{Jargon}
 
 Like any specialty, computing education research has its jargon. The
-term \protect\hyperlink{g:cs1}{CS1} refers to an introductory semester-long
+term \gref{g:cs1}{CS1} refers to an introductory semester-long
 programming course in which learners meet variables, loops, and
-functions for the first time, while \protect\hyperlink{g:cs2}{CS2} refers to
+functions for the first time, while \gref{g:cs2}{CS2} refers to
 a second course that covers basic data structures like stacks and
-queues. The term \protect\hyperlink{g:cs0}{CS0} is also now being used to
+queues. The term \gref{g:cs0}{CS0} is also now being used to
 refer to an introductory course for people without any prior
 experience who aren't intending to continue with computing (at least
 not right away).
 
 A CS1 course is often useful for undergraduates in other
 disciplines; a CS2 course designed for computer science learners is
-usually less relevant for artists, ecologists, and other \protect\hyperlink{g:end-user-programmer}{end-user
+usually less relevant for artists, ecologists, and other \gref{g:end-user-programmer}{end-user
 programmers}, but is sometimes the only next
 step available at their institution. Full definitions for these
 terms and others can be found in the \href{https://www.acm.org/education/curricula-recommendations}{ACM Curriculum
 Guidelines}.
-\end{quote}
+
+\end{aside}
 
 \section{How Do Novices Program?}\label{s:pck-programming}
 
@@ -106,7 +106,7 @@ the order it's presented on the page; again, one of the benefits of live
 coding (Section~\ref{s:performance-live}) is that it gives them a chance
 to see the sequence that more advanced programmers actually use.
 
-\subsection{Roles of Variables}\label{roles-of-variables}
+\subsection*{Roles of Variables}
 
 One body of work that I have found very useful in teaching programming
 plans to novices is the collection of single-variable design patterns
@@ -117,7 +117,6 @@ patterns are listed on the \href{http://saja.kapsi.fi/var\_roles/}{Roles of Vari
 website}, which also includes examples of each:
 
 \begin{description}
-\tightlist
 \item[Fixed value:]
 A data item that does not get a new proper value after its
 initialization.
@@ -333,8 +332,7 @@ educators' experience had no effect on this level of agreement.'' For
 example, mistaking \texttt{=} (assignment) and \texttt{==} (equality) in loop
 condition tests wasn't nearly as common as most teachers believed.
 
-\begin{quote}\setlength{\parindent}{0pt}
-\textbf{Not Just for Code}
+\begin{aside}{Not Just for Code}
 
 \cite{Park2015} collected data from an online HTML editor during an
 introductory web development course. Nearly all learners made syntax
@@ -345,7 +343,8 @@ related to the simpler tag syntax determining \emph{how} HTML elements are
 nested. (The tendency of many instructors to say, ``But the rules are
 simple,'' is a good example of expert blind spot discussed in
 Chapter~\ref{s:memory}\ldots{})
-\end{quote}
+
+\end{aside}
 
 \section{What Are We Teaching Them Now?}\label{s:pck-now}
 
@@ -479,8 +478,7 @@ and text even further; when combined with programming notebooks like
 \href{http://jupyter.org/}{Jupyter} and \href{http://stenci.la/}{Stencila}, they may eventually
 eliminate the distinction altogether.
 
-\begin{quote}\setlength{\parindent}{0pt}
-\textbf{Harder Than Necessary}
+\begin{aside}{Harder Than Necessary}
 
 \cite{Stef2013} has shown that the creators of programming language
 make those languages harder to learn by not doing basic usability
@@ -495,9 +493,10 @@ Quorum, is easier still, because they are testing each new feature
 before adding it to the language. (\cite{Stef2017} is a useful
 brief summary of what we actually know about designing programming
 languages and why we believe it's true.)
-\end{quote}
 
-\subsection{Object-Oriented and Functional Programming}\label{object-oriented-and-functional-programming}
+\end{aside}
+
+\subsection*{Object-Oriented and Functional Programming}
 
 Objects and classes are power tools for experienced programmers, and
 many educators advocate an ``objects first'' approach to teaching
@@ -517,7 +516,7 @@ in syntax between \texttt{obj.method(param)} and \texttt{def\ method(self,\ para
 that high school teachers often weren't clear on the concept either.
 
 Another approach is exemplified by the \href{http://www.bootstrapworld.org/}{Bootstrap project},
-which is based on the \protect\hyperlink{g:functional-programming}{functional
+which is based on the \gref{g:functional-programming}{functional
 programming} paradigm. This work draws on a
 rich tradition going back to languages like Scheme and Lisp, and to
 classic textbooks like
@@ -533,7 +532,7 @@ audience: if learners want to build web applications in JavaScript, for
 example, they're going to have to master callbacks much earlier than if
 they want to generate reports using C\#.
 
-\subsection{Type Declarations}\label{type-declarations}
+\subsection*{Type Declarations}
 
 Programmers have argued for decades about whether variables' data types
 should have to be declared or not. One recent empirical finding is
@@ -553,7 +552,7 @@ novices. Now that Python allows optional typing, though, it may be
 feasible for researchers to explore whether it can or should be
 introduced gradually.
 
-\subsection{Does Variable Naming Style Matter?}\label{does-variable-naming-style-matter}
+\subsection*{Does Variable Naming Style Matter?}
 
 \cite{Kern1999} says, ``Programmers are often encouraged to use long
 variable names regardless of context. This is a mistake: clarity is
@@ -621,7 +620,7 @@ practice in reading and interpreting error messages}. \cite{Marc2011}
 has a rubric for responses to error messages that can be useful in
 grading such exercises.
 
-\subsection{Does Visualization Help?}\label{does-visualization-help}
+\subsection*{Does Visualization Help?}
 
 The idea of visualizing programs is perennially popular, and tools
 like \cite{Guo2013} (a web-based tool for visualizing the
@@ -645,8 +644,7 @@ correlation between the time taken and the score achieved. Our
 recommendation is therefore to \emph{teach students to trace variables'
 values when debugging}.
 
-\begin{quote}\setlength{\parindent}{0pt}
-\textbf{Flowcharts}
+\begin{aside}{Flowcharts}
 
 One often-overlooked finding about visualization is that students
 understand flowcharts better than pseudocode \emph{if both are equally well
@@ -654,7 +652,8 @@ structured} \cite{Scan1989}. Earlier work showing that pseudocode
 outperformed flowcharts used structured pseudocode and tangled
 flowcharts; when the playing field was levelled, novices did better
 with the graphical representation.
-\end{quote}
+
+\end{aside}
 
 \section{What Else Can We Do to Help?}\label{s:pck-help}
 
@@ -673,7 +672,6 @@ With all those caveats in mind, they found ten things instructors can do
 to improve outcomes (Figure~\ref{f:pck-interventions}):
 
 \begin{description}
-\tightlist
 \item[Collaboration:]
 Activities that encourage student collaboration either in classrooms
 or labs.
@@ -731,14 +729,13 @@ has a collection of lessons and exercises for doing this.
 
 \section{Exercises}\label{s:pck-exercises}
 
-\subsection{Checking for Common Errors (individual/20)}\label{checking-for-common-errors-individual20}
+\subsection*{Checking for Common Errors (individual/20)}
 
 This list of common errors is taken from \cite{Sirk2012}. Pick three,
 and write an exercise for each to check that learners \emph{aren't} making
 that mistake.
 
 \begin{description}
-\tightlist
 \item[Inverted assignment:]
 The student assigns the value of the left-hand variable to the
 right-hand side variable, rather than the other way around.
@@ -765,7 +762,7 @@ The student tries to call a method from a class without first
 creating an instance of the class.
 \end{description}
 
-\subsection{Mangled Code (pairs/15)}\label{mangled-code-pairs15}
+\subsection*{Mangled Code (pairs/15)}
 
 \cite{Chen2017} describes exercises in which students reconstruct
 code that has been mangled by removing comments, deleting or replacing
@@ -777,7 +774,7 @@ questions require less (in-person) work to mark. Take the solution to a
 programming exercise you've created in the past, mangle it in two
 different ways, and swap with a partner.
 
-\subsection{The Rainfall Problem (pairs/10)}\label{the-rainfall-problem-pairs10}
+\subsection*{The Rainfall Problem (pairs/10)}
 
 \cite{Solo1986} introduced the Rainfall Problem: write a program that
 repeatedly reads in positive integers until it reads the integer 99999.
@@ -788,7 +785,7 @@ programming \cite{Fisl2014,Simo2013,Sepp2015}.
 Solve the Rainfall Problem in the programming language of your choice.
 Compare your solutions with those of your partner.
 
-\subsection{Roles of Variables (pairs/15)}\label{roles-of-variables-pairs15}
+\subsection*{Roles of Variables (pairs/15)}
 
 Take a short program you have written (5--15 lines) and classify each of
 its variables using the categories defined in
@@ -796,32 +793,32 @@ Section~\ref{s:pck-programming}. Compare your classifications with those
 of a partner: where did you agree? When you disagreed, did you
 understand each other's view?
 
-\subsection{Choose Your Own Adventures (individual/10)}\label{choose-your-own-adventures-individual10}
+\subsection*{Choose Your Own Adventures (individual/10)}
 
 Which of the three approaches described in \cite{Sorv2014}
 (Section~\ref{s:pck-now}) do you use when teaching? Or is your approach
 best described in some other way?
 
-\subsection{What Are You Teaching? (individual/10)}\label{what-are-you-teaching-individual10}
+\subsection*{What Are You Teaching? (individual/10)}
 
 Compare the topics you teach to the list developed in \cite{Luxt2017}
 (Section~\ref{s:pck-now}). Which topics do you cover? What extra topics
 do you cover that aren't in their list?
 
-\subsection{Beneficial Activities (individual/10)}\label{beneficial-activities-individual10}
+\subsection*{Beneficial Activities (individual/10)}
 
 Look at the list of interventions developed by \cite{Viha2014}
 (Section~\ref{s:pck-help}). Which of these things do you already do in
 your classes? Which ones could you easily add? Which ones are
 irrelevant?
 
-\subsection{Visualizations (individual/10)}\label{visualizations-individual10}
+\subsection*{Visualizations (individual/10)}
 
 What visualization do you most like to use when teaching? Is it a static
 image or an animation? Do you show it to your learners, do they discover
 it on their own, or something in between?
 
-\subsection{Misconceptions and Challenges (small groups/15)}\label{misconceptions-and-challenges-small-groups15}
+\subsection*{Misconceptions and Challenges (small groups/15)}
 
 The \href{http://www.pd4cs.org/}{Professional Development for CS Principles Teaching} site
 includes \href{http://www.pd4cs.org/mc-index/}{a detailed list of student misconceptions and
