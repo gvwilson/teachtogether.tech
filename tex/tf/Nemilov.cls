@@ -1809,7 +1809,7 @@
                         \let\makelabel\descriptionlabel}}
                {\endlist}
 \newcommand*\descriptionlabel[1]{\hspace\labelsep
-                                \normalfont\bfseries #1}
+                                {\normalfont\bfseries#1}\ignorespaces\kern-2pt}
 \newenvironment{verse}
                {\let\\\@centercr
                 \list{}{\itemsep      \z@
