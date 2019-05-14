@@ -49,16 +49,6 @@
 
 %----------------------------------------
 
-% temporary replacement for \hyperlink and \hypertarget
-\newcommand{\hyperlink}[2]{\textbf{#2}}
-\newcommand{\hypertarget}[2]{#2}
-
-% temporarily provide \href
-\newcommand{\href}[2]{{#2}\footnote{\url{#1}}}
-
-% temporarily provide \url
-\newcommand {\url}[1]{\textit{#1}}
-
 % Asides
 \newenvironment{aside}[1]%
 {\begin{adjustwidth}{2em}{2em}\itshape\noindent\textbf{#1}}%
@@ -70,5 +60,13 @@
 % Remove indentation from footnotes
 \usepackage[hang,flushmargin]{footmisc}
 
-\newcommand\FMCTsub{\fontsize{12}{12}\sffamily\raggedright\selectfont}
-\newcommand\FMCTauth{\fontsize{16}{14}\sffamily\raggedright\selectfont}
+%----------------------------------------
+
+% Try using hyperref
+% \usepackage{hyperref}
+
+% Or use temporary replacements for hyperref commands
+\newcommand{\hyperlink}[2]{\textbf{#2}}
+\newcommand{\hypertarget}[2]{#2}
+\newcommand{\href}[2]{{#2}\footnote{\url{#1}}}
+\newcommand{\url}[1]{\textit{#1}}
