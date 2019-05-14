@@ -1,6 +1,13 @@
 \documentclass[nemilov1]{Nemilov}
 \input{settings}
 
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=nyt
+]{biblatex}
+\addbibresource{book.bib}
+
 \makeindex
 
 \begin{document}
@@ -17,7 +24,6 @@
 \include{rules}
 
 \mainmatter
-
 \input{intro}
 \input{models}
 \input{memory}
@@ -39,11 +45,11 @@
 
 \chapter*{References}
 \addcontentsline{toc}{chapter}{\bfseries References}
-\bibliographystyle{abstract}
-\bibliography{book}
+% \bibliographystyle{apacite}
+% \bibliography{book}
+\printbibliography
 
 \appendix
-
 \input{license}
 \input{conduct}
 \input{joining}

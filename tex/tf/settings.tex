@@ -42,7 +42,7 @@
 \usepackage{fancyvrb}
 
 % Syntax highlighting with minted <http://mirror.its.dal.ca/ctan/macros/latex/contrib/minted/minted.pdf>
-\usepackage{minted}
+\usepackage{minted}%
 
 \frenchspacing
 \tolerance=5000
@@ -51,12 +51,12 @@
 
 % Asides
 \newenvironment{aside}[1]%
-{\begin{adjustwidth}{2em}{2em}\begin{center}\itshape\textbf{#1}\end{center}}%
+{\begin{adjustwidth}{2em}{2em}\itshape\noindent\textbf{#1}}%
 {\end{adjustwidth}}
 
 % Glossary references and items
 \newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}}
-\newcommand{\gitem}[2]{\item[\hypertarget{#1}{#2}]}
+\newcommand{\gitem}[2]{\item[\hypertarget{#1}{#2}\kern-2.5pt]}
 
 % Remove indentation from footnotes
 \usepackage[hang,flushmargin]{footmisc}

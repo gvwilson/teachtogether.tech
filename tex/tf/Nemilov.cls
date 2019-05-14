@@ -1082,8 +1082,10 @@
                       \gdef\chapterauthor{\@ca}%
   \gdef\endchapterauthors{\end@cas}%
                     \@afterindentfalse
-                     \@ifstar{\@schapter}{\@trplarg{\@chapter}}}
-\def\@chapter[#1][#2]#3{%
+%                     \@ifstar{\@schapter}{\@trplarg{\@chapter}}
+\secdef\@chapter\@schapter
+                                          }
+\def\@chapter[#1]#2{%
   \ifnum\c@secnumdepth>\m@ne
     \if@mainmatter
       \refstepcounter{chapter}%
@@ -1102,9 +1104,9 @@
   \addtocontents{lof}{\protect\addvspace{10\p@}}%
   \addtocontents{lot}{\protect\addvspace{10\p@}}%
   \if@twocolumn
-    \@topnewpage[\@makechapterhead{#3}]%
+    \@topnewpage[\@makechapterhead{#2}]%
   \else
-    \@makechapterhead{#3}%
+    \@makechapterhead{#2}%
     \@afterheading\fi
   \if@ChapterTOCs\if@filesw\immediate\openout\@chaptoc\thechapter.toc\fi\fi
   \let\@@chapauthor\@empty
@@ -1209,65 +1211,65 @@
 %%%  }}
 
 
-\def\@startsection#1#2#3#4#5#6{%
-  \if@noskipsec \leavevmode \fi
-  \par
-  \@tempskipa #4\relax
-  \@afterindenttrue
-  \ifdim \@tempskipa <\z@
-    \@tempskipa -\@tempskipa \@afterindentfalse
-  \fi
-  \if@nobreak
-    \everypar{}%
-  \else
-    \addpenalty\@secpenalty\addvspace\@tempskipa
-  \fi
-  \@ifstar
-    {\@ssect{#3}{#4}{#5}{#6}}%
-    {\@dblarg{\@sect{#1}{#2}{#3}{#4}{#5}{#6}}}}
-\def\@sect#1#2#3#4#5#6[#7]#8{%
-  \ifnum #2>\c@secnumdepth
-    \let\@svsec\@empty
-  \else
-    \refstepcounter{#1}%
-    \protected@edef\@svsec{\@seccntformat{#1}\relax}%
-  \fi
-  \@tempskipa #5\relax
-  \ifdim \@tempskipa>\z@
-    \begingroup
-      #6{%
-        \@hangfrom{\hskip #3\relax\@svsec}%
-          \interlinepenalty \@M #8\@@par}%
-    \endgroup
-    \csname #1mark\endcsname{#7}%
-    \addcontentsline{toc}{#1}{%
-      \ifnum #2>\c@secnumdepth \else
-        \protect\numberline{\csname the#1\endcsname}%
-      \fi
-      #7}%
-%%%    \vbox{\myaddcontentsline{chtoc}{ch#1}{%
-%%%      \ifnum #2>\c@secnumdepth \else
-%%%        \protect\addnumberline{\csname the#1\endcsname}%
-%%%      \fi
-%%%      #7}      }%
-  \else
-    \def\@svsechd{%
-      #6{\hskip #3\relax
-      \@svsec #8}%
-      \csname #1mark\endcsname{#7}%
-      \addcontentsline{toc}{#1}{%
-        \ifnum #2>\c@secnumdepth \else
-          \protect\numberline{\csname the#1\endcsname}%
-        \fi
-        #7}    
-%%          \myaddcontentsline{chtoc}{ch#1}{%
+%%\def\@startsection#1#2#3#4#5#6{%
+%%  \if@noskipsec \leavevmode \fi
+%%  \par
+%%  \@tempskipa #4\relax
+%%  \@afterindenttrue
+%%  \ifdim \@tempskipa <\z@
+%%    \@tempskipa -\@tempskipa \@afterindentfalse
+%%  \fi
+%%  \if@nobreak
+%%    \everypar{}%
+%%  \else
+%%    \addpenalty\@secpenalty\addvspace\@tempskipa
+%%  \fi
+%%  \@ifstar
+%%    {\@ssect{#3}{#4}{#5}{#6}}%
+%%    {\@dblarg{\@sect{#1}{#2}{#3}{#4}{#5}{#6}}}}
+%%\def\@sect#1#2#3#4#5#6[#7]#8{%
+%%  \ifnum #2>\c@secnumdepth
+%%    \let\@svsec\@empty
+%%  \else
+%%    \refstepcounter{#1}%
+%%    \protected@edef\@svsec{\@seccntformat{#1}\relax}%
+%%  \fi
+%%  \@tempskipa #5\relax
+%%  \ifdim \@tempskipa>\z@
+%%    \begingroup
+%%      #6{%
+%%        \@hangfrom{\hskip #3\relax\@svsec}%
+%%          \interlinepenalty \@M #8\@@par}%
+%%    \endgroup
+%%    \csname #1mark\endcsname{#7}%
+%%    \addcontentsline{toc}{#1}{%
+%%      \ifnum #2>\c@secnumdepth \else
+%%        \protect\numberline{\csname the#1\endcsname}%
+%%      \fi
+%%      #7}%
+%%%%%    \vbox{\myaddcontentsline{chtoc}{ch#1}{%
+%%%%%      \ifnum #2>\c@secnumdepth \else
+%%%%%        \protect\addnumberline{\csname the#1\endcsname}%
+%%%%%      \fi
+%%%%%      #7}      }%
+%%  \else
+%%    \def\@svsechd{%
+%%      #6{\hskip #3\relax
+%%      \@svsec #8}%
+%%      \csname #1mark\endcsname{#7}%
+%%      \addcontentsline{toc}{#1}{%
 %%        \ifnum #2>\c@secnumdepth \else
-%%          \protect\addnumberline{\csname the#1\endcsname}%
+%%          \protect\numberline{\csname the#1\endcsname}%
 %%        \fi
-%%        #7}
-        }%
-  \fi
-  \@xsect{#5}}
+%%        #7}    
+%%%%          \myaddcontentsline{chtoc}{ch#1}{%
+%%%%        \ifnum #2>\c@secnumdepth \else
+%%%%          \protect\addnumberline{\csname the#1\endcsname}%
+%%%%        \fi
+%%%%        #7}
+%%        }%
+%%  \fi
+%%  \@xsect{#5}}
 \def\@xsect#1{%
   \@tempskipa #1\relax
   \ifdim \@tempskipa>\z@
