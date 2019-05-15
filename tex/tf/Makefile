@@ -1,5 +1,5 @@
 LATEX=pdflatex --shell-escape
-BIBTEX=bibtex
+BIBTEX=biber
 
 SRC=$(wildcard *.tex)
 DST=book.pdf
@@ -33,7 +33,7 @@ ${DST} : ${SRC}
 ## clean          : clean up junk files.
 clean :
 	@rm -f book.pdf
-	@rm -r -f *.aux *.bbl *.blg *.idx *.lof *.log *.lot *.out *.toc
+	@rm -r -f *.aux *.bbl *.bcf *.blg *.idx *.lof *.log *.lot *.out *.run.xml *.toc
 	@find . -name '*~' -delete
 	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
 	@find . -name .DS_Store -prune -exec rm -r "{}" \;

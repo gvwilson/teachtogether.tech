@@ -279,7 +279,7 @@
 \newcommand\QParagraphHeadFont{\reset@font\fontsize{9}{11}\selectfont}
 \newcommand\Extfont{\reset@font\fontsize{9}{11}\selectfont}
 \newcommand\notefont{\reset@font\fontsize{9}{11}\selectfont}
-\newcommand\bibfont{\reset@font\fontsize{9}{11}\selectfont}
+%\newcommand\bibfont{\reset@font\fontsize{9}{11}\selectfont}
 \newcommand\QSubParagraphHeadFont{\reset@font\fontsize{9}{11}\selectfont}
 %%%\newcommand\vSectionHeadFont{\fontfamily{Optima}\fontsize{11}{13}\bfseries\selectfont\uppercase}
 %%%\newcommand\vSubsectionHeadFont{\fontfamily{Optima}\fontsize{10}{12}\bfseries\selectfont\uppercase}
@@ -2404,7 +2404,7 @@
     \if@restonecol\twocolumn\fi
     }
 \let\l@table\l@figure
-\def\@biblabel#1{#1.}
+\def\@biblabel#1{\bf#1}
 \newdimen\bibindent
 \setlength\bibindent{1.5em}
 \newenvironment{thebibliography}[1]
