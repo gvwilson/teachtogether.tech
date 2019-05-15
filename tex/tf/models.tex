@@ -345,6 +345,105 @@ but if you do,
 you should have given learners practice tackling novel problems beforehand.
 Chapter~\ref{s:process} explores this in depth.
 
+\section{Notional Machines}\label{s:models-notional}
+
+The term \gref{g:computational-thinking}{computational thinking} is bandied about a lot,
+in part because people can agree it's important while meaning very different things by it.
+Rather than arguing over what it does and doesn't include,
+it's more useful to think about the \gref{g:notional-machine}{notional machine}
+that you want learners to understand \cite{DuBo1986}.
+According to \cite{Sorv2013},
+a notional machine:
+
+\begin{itemize}
+
+\item
+  is an idealized abstraction of computer hardware
+  and other aspects of programs' runtime environments;
+
+\item
+  enables the semantics of programs to be described;
+  and
+
+\item
+  correctly reflects what programs do when executed.
+
+\end{itemize}
+
+\noindent
+For example, my notional machine for Python is:
+
+\begin{enumerate}
+
+\item
+  Running programs live in memory,
+  which is divided between a call stack and a heap.
+
+\item
+  Memory for data is always allocated from the heap.
+
+\item
+  Every piece of data is stored in a two-part structure.
+  The first part says what type the data is,
+  and the second part is the actual value.
+
+\item
+  Booleans, numbers, and character strings are never modified after they are created.
+
+\item
+  Lists, sets, and other collections store references to other data
+  rather than storing those values directly.
+  They can be modified after they are created,
+  i.e.,
+  a list can be extended or new values can be added to a set.
+
+\item
+  When code is loaded into memory,
+  Python converts it to a sequence of instructions
+  that are stored like any other data.
+  This is why it's possible to assign functions to variables
+  and pass them as parameters.
+
+\item
+  When code is executed,
+  Python steps through the instructions,
+  doing what each one tells it to in turn.
+
+\item
+  Some instructions make Python read data,
+  do calculations,
+  and create new data.
+  Other instructions control what instructions Python executes,
+  which is how loops and conditionals work.
+  Yet another instruction tells Python to call a function.
+
+\item
+  When a function is called,
+  Python pushes a new stack frame onto the call stack.
+
+\item
+  Each stack frame stores variables' names and references to data.
+  Function parameters are just another kind of variable.
+
+\item
+  When a variable is used,
+  Python looks for it in the top stack frame.
+  If it isn't there, it looks in the bottom (global) frame.
+
+\item
+  When the function finishes,
+  Python erases its stack frame and jumps backs to
+  the instructions it was executing before the function call.
+  If there isn't a ``before,
+  the program has finished.
+
+\end{enumerate}
+
+I return to this cartoon version of reality repeatedly when I teach Python.
+After about 25 hours of instructions and 100 hours of work on their own time,
+I expect most learners to have a mental model
+that includes most or all of these features.
+
 \section{Exercises}\label{s:models-exercises}
 
 \subsection*{Your Mental Models (think-pair-share/15)}
@@ -482,3 +581,13 @@ Trade roles and try again.
 As a class,
 create a list of the key elements of your mental model of learning.
 What are the half-dozen most important concepts and how do they relate?
+
+\subsection*{Your Notional Machines (small groups/20)}
+
+Working in small groups,
+write up a description of the notional machine you want learners to use
+to understand how their programs run.
+How does a notional machine for a blocks-based language like Scratch
+differ from that for Python?
+What about a notional machine for spreadsheets
+or for a browser that is interpreting HTML and CSS when rendering a web page?

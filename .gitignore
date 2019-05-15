@@ -1,5 +1,6 @@
 *.aux
 *.bbl
+*.bcf
 *.blg
 *.egg-info
 *.idx
@@ -8,6 +9,7 @@
 *.lot
 *.out
 *.pyg
+*.run.xml
 *.toc
 *~
 .coverage

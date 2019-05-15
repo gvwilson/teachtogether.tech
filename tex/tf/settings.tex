@@ -51,7 +51,7 @@
 
 % Asides
 \newenvironment{aside}[1]%
-{\begin{adjustwidth}{2em}{2em}\itshape\noindent\textbf{#1}}%
+{\begin{adjustwidth}{2em}{2em}\begin{center}\itshape\noindent\textbf{#1}\end{center}}%
 {\end{adjustwidth}}
 
 % Glossary references and items
@@ -65,9 +65,3 @@
 
 % Try using hyperref
 \usepackage{hyperref}
-
-% Or use temporary replacements for hyperref commands
-% \newcommand{\hyperlink}[2]{\textbf{#2}}
-% \newcommand{\hypertarget}[2]{#2}
-% \newcommand{\href}[2]{{#2}\footnote{\url{#1}}}
-% \newcommand{\url}[1]{\textit{#1}}

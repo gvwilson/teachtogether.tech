@@ -1,7 +1,7 @@
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
 
-SRC=$(wildcard *.tex)
+SRC=$(wildcard *.tex) $(wildcard *.bib) $(wildcard *.cls)
 DST=book.pdf
 
 # Controls
