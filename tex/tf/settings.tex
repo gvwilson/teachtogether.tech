@@ -11,6 +11,7 @@
 \usepackage[LGR,OT1]{fontenc}
 \usepackage{mathptmx}
 \usepackage{changepage}
+\usepackage{hyperref}
 
 % Use numbers for nested lists all the way down.
 \usepackage{enumitem}
@@ -63,5 +64,5 @@
 
 %----------------------------------------
 
-% Try using hyperref
-\usepackage{hyperref}
+% Render hyperlinks with footnotes as well.
+\newcommand{\hreffoot}[2]{{#2}\footnote{\href{#1}{#1}}}
