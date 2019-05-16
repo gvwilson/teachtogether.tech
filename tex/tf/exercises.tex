@@ -22,21 +22,18 @@ recall and understanding (``What is the capital of Saskatchewan?''), but
 they can also require learners to exercise judgment.
 
 \begin{aside}{A Multiple Choice Question}
-
-In what order do operations occur when the computer evaluates the
-expression \texttt{price\ =\ addTaxes(cost\ -\ discount)}?
-
-\begin{enumerate}
-\item
-  subtraction, function call, assignment
-\item
-  function call, subtraction, assignment
-\item
-  function call, then assignment and subtraction simultaneously
-\item
-  none of the above
-\end{enumerate}
-
+  In what order do operations occur when the computer evaluates the
+  expression \texttt{price\ =\ addTaxes(cost\ -\ discount)}?
+  \begin{enumerate}
+  \item
+    subtraction, function call, assignment
+  \item
+    function call, subtraction, assignment
+  \item
+    function call, then assignment and subtraction simultaneously
+  \item
+    none of the above
+  \end{enumerate}
 \end{aside}
 
 The second classic type of programming exercise is \emph{code and run}
@@ -50,32 +47,28 @@ advanced learners, figuring out which function to call is more engaging
 and a better gauge of their understanding.
 
 \begin{aside}{Code \& Run}
-
-The variable \texttt{picture} contains a full-color image read from a file.
-Using one function, create a black and white version of the image and
-assign it to a new variable called \texttt{monochrome}.
-
+  The variable \texttt{picture} contains a full-color image read from a file.
+  Using one function, create a black and white version of the image and
+  assign it to a new variable called \texttt{monochrome}.
 \end{aside}
 
 Write and run exercises can be combined with MCQs. For example, this MCQ
 can only be answered by running the Unix \texttt{ls} command:
 
 \begin{aside}{Combining MCQ with Code \& Run}
+  You are in the directory \texttt{/home/greg}. Which of the following files is
+  \emph{not} in that directory?
 
-You are in the directory \texttt{/home/greg}. Which of the following files is
-\emph{not} in that directory?
-
-\begin{enumerate}
-\item
-  \texttt{autumn.csv}
-\item
-  \texttt{fall.csv}
-\item
-  \texttt{spring.csv}
-\item
-  \texttt{winter.csv}
-\end{enumerate}
-
+  \begin{enumerate}
+  \item
+    \texttt{autumn.csv}
+  \item
+    \texttt{fall.csv}
+  \item
+    \texttt{spring.csv}
+  \item
+    \texttt{winter.csv}
+  \end{enumerate}
 \end{aside}
 
 C\&Rs help learners practice the skills they most want to learn, but
@@ -96,27 +89,25 @@ a spec. This is a useful skill in its own right, and doing it may give
 students a bit more sympathy for how hard their teachers work.
 
 \begin{aside}{Inverting Code \& Run}
+  The function \texttt{monotonic\_sum} calculates the sum of each section of a
+  list of numbers in which the values are strictly increasing. For
+  example, given the input \texttt{{[}1,\ 3,\ 3,\ 4,\ 5,\ 1{]}}, the output is
+  \texttt{{[}4,\ 12,\ 1{]}}. Write and run unit tests to determine which of the
+  following bugs the function contains:
 
-The function \texttt{monotonic\_sum} calculates the sum of each section of a
-list of numbers in which the values are strictly increasing. For
-example, given the input \texttt{{[}1,\ 3,\ 3,\ 4,\ 5,\ 1{]}}, the output is
-\texttt{{[}4,\ 12,\ 1{]}}. Write and run unit tests to determine which of the
-following bugs the function contains:
-
-\begin{itemize}
-\item
-  Considers every negative number the start of a new sub-sequence.
-\item
-  Does not include the first value of each sub-sequence in the
-  sub-sum.
-\item
-  Does not include the last value of each sub-sequence in the
-  sub-sum.
-\item
-  Only re-starts the sum when values decrease rather than fail to
-  increase.
-\end{itemize}
-
+  \begin{itemize}
+  \item
+    Considers every negative number the start of a new sub-sequence.
+  \item
+    Does not include the first value of each sub-sequence in the
+    sub-sum.
+  \item
+    Does not include the last value of each sub-sequence in the
+    sub-sum.
+  \item
+    Only re-starts the sum when values decrease rather than fail to
+    increase.
+  \end{itemize}
 \end{aside}
 
 \emph{Fill in the blanks} is a refinement of C\&R in which the learner is
@@ -129,15 +120,13 @@ since the teacher has provided most of the answer's structure,
 submissions are much more predictable and therefore easier to check.
 
 \begin{aside}{Fill in the Blanks}
-
-Fill in the blanks so that the code below prints the string \texttt{\textquotesingle{}hat\textquotesingle{}}.
+  Fill in the blanks so that the code below prints the string \texttt{\textquotesingle{}hat\textquotesingle{}}.
 
 \begin{minted}{text}
 text = 'all that it is'
 slice = text[____:____]
 print(slice)
 \end{minted}
-
 \end{aside}
 
 As described in Chapter~\ref{s:load}, \gref{g:parsons-problem}{Parsons
@@ -156,9 +145,8 @@ but they can be emulated (albeit somewhat clumsily) by asking learners
 to rearrange lines of code in an editor.
 
 \begin{aside}{Parsons Problem}
-
-Rearrange and indent these lines to sum the positive values in a list.
-(You will need to add colons in appropriate places as well.)
+  Rearrange and indent these lines to sum the positive values in a list.
+  (You will need to add colons in appropriate places as well.)
 
 \begin{minted}{text}
 total = 0
@@ -166,7 +154,6 @@ if v > 0
 total += v
 for v in values
 \end{minted}
-
 \end{aside}
 
 \section{Tracing}\label{s:exercises-tracing}
@@ -183,8 +170,7 @@ have to do all the work of figuring out the correct sequence, then
 search for it in the list of options.
 
 \begin{aside}{Tracing Execution Order}
-
-In what order are the labelled lines in this block of code executed?
+  In what order are the labelled lines in this block of code executed?
 
 \begin{minted}{text}
 A)     vals = [-1, 0, 1]
@@ -195,7 +181,6 @@ C)             inverse_sum += 1/v
        except:
 D)         pass
 \end{minted}
-
 \end{aside}
 
 \emph{Tracing values} is similar to tracing execution, but instead of
@@ -208,8 +193,7 @@ numbers, and asking them to fill in all of the values taken on by all of
 the variables.
 
 \begin{aside}{Tracing Values}
-
-What values do \texttt{left} and \texttt{right} take on as this program executes?
+  What values do \texttt{left} and \texttt{right} take on as this program executes?
 
 \begin{minted}{text}
 left = 24
@@ -217,7 +201,6 @@ right = 6
 while right:
     left, right = right, left % right
 \end{minted}
-
 \end{aside}
 
 You can also require learners to trace code backwards, e.g., to figure
@@ -228,9 +211,8 @@ the ``output'' is an error message, and help learners develop valuable
 debugging skills.
 
 \begin{aside}{Reverse Execution}
-
-Fill in the missing number in \texttt{values} that caused this function to
-crash.
+  Fill in the missing number in \texttt{values} that caused this function to
+  crash.
 
 \begin{minted}{text}
 values = [ [1.0, -0.5], [3.0, 1.5], [2.5, ___] ]
@@ -238,7 +220,6 @@ runningTotal = 0.0
 for (reading, scaling) in values:
     runningTotal += reading / scaling
 \end{minted}
-
 \end{aside}
 
 \emph{Minimal fix} exercises also help learners develop debugging skills.
@@ -248,9 +229,8 @@ output. Making the change can be done using C\&R, while identifying it
 can be done as a multiple choice question.
 
 \begin{aside}{Minimal Fix}
-
-This function is supposed to test whether a number lies within a
-range. Make one small change so that it actually does so.
+  This function is supposed to test whether a number lies within a
+  range. Make one small change so that it actually does so.
 
 \begin{minted}{text}
 def inside(point, lower, higher):
@@ -261,7 +241,6 @@ def inside(point, lower, higher):
     else:
         return true
 \end{minted}
-
 \end{aside}
 
 \emph{Theme and variation} exercises are similar, but instead of making a
@@ -276,9 +255,8 @@ skill: the fastest way to produce a working program is often to tweak
 one that already does something useful.
 
 \begin{aside}{Theme and Variations}
-
-Change the inner loop in the function below so that it fills the upper
-left triangle of an image with a specified color.
+  Change the inner loop in the function below so that it fills the upper
+  left triangle of an image with a specified color.
 
 \begin{minted}{text}
 function fillTriangle(picture, color) is
@@ -289,7 +267,6 @@ function fillTriangle(picture, color) is
     end
 end
 \end{minted}
-
 \end{aside}
 
 \emph{Refactoring exercises} are the complement of theme and variation
@@ -301,9 +278,8 @@ often so many ways to refactor a piece of code that grading requires
 human intervention.
 
 \begin{aside}{Refactoring}
-
-Write a single list comprehension that has the same effect as this
-loop.
+  Write a single list comprehension that has the same effect as this
+  loop.
 
 \begin{minted}{text}
 result = []
@@ -311,7 +287,6 @@ for v in values:
     if len(v) > threshold:
         result.append(v)
 \end{minted}
-
 \end{aside}
 
 \section{Diagrams}\label{s:exercises-diagrams}
@@ -333,11 +308,9 @@ many other things; the key is that constraining the set of solutions
 makes this usable in class and at scale.
 
 \begin{aside}{Labelling a Diagram}
-
-Figure~\ref{f:exercises-labelling} shows how a small fragment of HTML is represented in
-memory. Put the labels 1--10 on the elements of the tree to show the
-order in which they are reached in a depth-first traversal.
-
+  Figure~\ref{f:exercises-labelling} shows how a small fragment of HTML is represented in
+  memory. Put the labels 1--10 on the elements of the tree to show the
+  order in which they are reached in a depth-first traversal.
 \end{aside}
 
 \begin{figure}
@@ -364,17 +337,15 @@ equal length and asks her to pair corresponding items, e.g., ``match each
 piece of code with the output it produces''.
 
 \begin{aside}{Matching}
+  Match each regular expression operator with what it does.
 
-Match each regular expression operator with what it does.
-
-\begin{longtable}[]{@{}ll@{}}
-\texttt{?} & start of line\tabularnewline
-\texttt{*} & zero or one occurrences\tabularnewline
-\texttt{+} & end of line\tabularnewline
-\texttt{\$} & one or more occurrences\tabularnewline
-\texttt{\^{}} & zero or more occurrences\tabularnewline
-\end{longtable}
-
+  \begin{longtable}[]{@{}ll@{}}
+    \texttt{?} & start of line\tabularnewline
+    \texttt{*} & zero or one occurrences\tabularnewline
+    \texttt{+} & end of line\tabularnewline
+    \texttt{\$} & one or more occurrences\tabularnewline
+    \texttt{\^{}} & zero or more occurrences\tabularnewline
+  \end{longtable}
 \end{aside}
 
 \emph{Many-to-many matching} is similar, but the lists aren't the same
@@ -540,8 +511,7 @@ calibrated peer review (Section~\ref{s:individual-peer}) so that they
 have models of what good feedback should look like.
 
 \begin{aside}{Code Review}
-
-Using the rubric provided, mark each line of the code below.
+  Using the rubric provided, mark each line of the code below.
 
 \begin{minted}{text}
 01)  def addem(f):
@@ -554,17 +524,16 @@ Using the rubric provided, mark each line of the code below.
 08)      print('total')
 \end{minted}
 
-\begin{enumerate}
-\item
-  poor variable name
-\item
-  unused variable
-\item
-  use of undefined variable
-\item
-  missing return value
-\end{enumerate}
-
+  \begin{enumerate}
+  \item
+    poor variable name
+  \item
+    unused variable
+  \item
+    use of undefined variable
+  \item
+    missing return value
+  \end{enumerate}
 \end{aside}
 
 \section{Exercises}\label{s:exercises-exercises}

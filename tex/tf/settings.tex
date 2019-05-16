@@ -53,7 +53,7 @@
 % Asides
 \newenvironment{aside}[1]%
 {\addvspace{6pt}\begin{adjustwidth}{2em}{2em}%
-\begin{center}\itshape\textbf{#1}\end{center}\par\noindent\ignorespaces}%
+\centerline{\itshape\textbf{#1}}\par\itshape\noindent\ignorespaces}%
 {\end{adjustwidth}\addvspace{6pt}}
 
 % Glossary references and items
@@ -79,7 +79,7 @@
 
 \setlength{\biblabelsep}{\labelsep}% <-- adjust this to your liking, the standard is 2\labelsep
 \defbibenvironment{bibliography}
-  {\list
+  {\addcontentsline{toc}{chapter}{\bfseries References}\list
      {\printtext[labelalphawidth]{%
         \printfield{prefixnumber}%
         \printfield{labelalpha}%
