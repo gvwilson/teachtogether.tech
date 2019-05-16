@@ -33,7 +33,7 @@
 % Change hanging indentation for description environment.
 \makeatletter
 \renewenvironment{description}%
-  {\list{}{\leftmargin=1em % <------- Adjust this length
+  {\list{}{\leftmargin=1em\itemsep3pt % <------- Adjust this length
     \labelwidth\z@ \itemindent-\leftmargin
     \let\makelabel\descriptionlabel}}%
   {\endlist}
@@ -52,8 +52,9 @@
 
 % Asides
 \newenvironment{aside}[1]%
-{\begin{adjustwidth}{2em}{2em}\begin{center}\itshape\noindent\textbf{#1}\end{center}}%
-{\end{adjustwidth}}
+{\addvspace{6pt}\begin{adjustwidth}{2em}{2em}%
+\begin{center}\itshape\textbf{#1}\end{center}\par\noindent\ignorespaces}%
+{\end{adjustwidth}\addvspace{6pt}}
 
 % Glossary references and items
 \newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}}
@@ -66,3 +67,30 @@
 
 % Render hyperlinks with footnotes as well.
 \newcommand{\hreffoot}[2]{{#2}\footnote{\href{#1}{#1}}}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[backend=biber,style=alphabetic,sorting=nyt]{biblatex}
+\addbibresource{book.bib}
+
+% https://tex.stackexchange.com/questions/8428/use-bibtex-key-as-the-cite-key
+\DeclareFieldFormat{labelalpha}{\thefield{entrykey}}
+\DeclareFieldFormat{extraalpha}{}
+
+\setlength{\biblabelsep}{\labelsep}% <-- adjust this to your liking, the standard is 2\labelsep
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelalphawidth]{%
+        \printfield{prefixnumber}%
+        \printfield{labelalpha}%
+        \printfield{extraalpha}}}
+     {\setlength{\labelsep}{\biblabelsep}%
+      \setlength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\bf##1\hss}}
+  {\endlist}
+  {\item}
+\bibparsep3pt
+  
+
