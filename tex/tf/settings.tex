@@ -11,7 +11,6 @@
 \usepackage[LGR,OT1]{fontenc}
 \usepackage{mathptmx}
 \usepackage{changepage}
-\usepackage{hyperref}
 
 % Use numbers for nested lists all the way down.
 \usepackage{enumitem}
@@ -93,4 +92,6 @@
   {\item}
 \bibparsep3pt
   
-
+% Always load hyperref last
+% https://tex.stackexchange.com/questions/16268/warning-with-footnotes-namehfootnote-xx-has-been-referenced-but-does-not-exi
+\usepackage{hyperref}
