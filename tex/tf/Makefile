@@ -1,7 +1,8 @@
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
 
-SRC=$(wildcard *.tex) $(wildcard *.bib) $(wildcard *.cls)
+TEX=$(wildcard *.tex)
+SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls)
 DST=book.pdf
 
 # Controls
@@ -29,6 +30,10 @@ ${DST} : ${SRC}
 	&& ${LATEX} book
 
 ## ----------------------------------------
+
+## check          : check internal consistency.
+check :
+	@python ./check.py ${TEX}
 
 ## clean          : clean up junk files.
 clean :
