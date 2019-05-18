@@ -33,7 +33,7 @@ ${DST} : ${SRC}
 
 ## check          : check internal consistency.
 check :
-	@python ./check.py ${TEX}
+	@python bin/check.py ${TEX}
 
 ## clean          : clean up junk files.
 clean :
