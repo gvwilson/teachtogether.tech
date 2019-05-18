@@ -91,7 +91,24 @@
   {\endlist}
   {\item}
 \bibparsep3pt
-  
+
+%----------------------------------------
+
+% Chapters, sections, and appendices with labels.
+\newcommand{\chaplbl}[2]{\chapter{#1}\label{#2}}
+\newcommand{\seclbl}[2]{\section{#1}\label{#2}}
+\newcommand{\applbl}[2]{\appendix{#1}\label{#2}}
+
+% Figures.
+\newcommand{\figlbl}[3]{\begin{figure}%
+\centering%
+\includegraphics{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
+%----------------------------------------
+ 
 % Always load hyperref last
 % https://tex.stackexchange.com/questions/16268/warning-with-footnotes-namehfootnote-xx-has-been-referenced-but-does-not-exi
 \usepackage{hyperref}
