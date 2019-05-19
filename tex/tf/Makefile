@@ -35,6 +35,10 @@ ${DST} : ${SRC}
 check :
 	@python bin/check.py ${TEX}
 
+## remaining      : count work to be done.
+remaining :
+	@wc -w $$(fgrep FIXME book.tex | sed -e 's/\\input{//g' | sed -e 's/} % FIXME/.tex/g') | sort -n -r
+
 ## clean          : clean up junk files.
 clean :
 	@rm -f book.pdf
