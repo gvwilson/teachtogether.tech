@@ -42,7 +42,7 @@ remaining :
 ## clean          : clean up junk files.
 clean :
 	@rm -f book.pdf
-	@rm -r -f *.aux *.bak *.bbl *.bcf *.blg *.idx *.lof *.log *.lot *.out *.run.xml *.toc
+	@rm -f *.4ct *.4tc *.aux *.bak *.bbl *.bcf *.blg *.dvi *.idx *.lof *.log *.lot *.out *.run.xml *.tmp *.toc *.xref
 	@find . -name '*~' -delete
 	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
 	@find . -name .DS_Store -prune -exec rm -r "{}" \;
