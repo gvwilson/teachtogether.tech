@@ -760,7 +760,7 @@
     \let\sectionmark\@gobble
     }
   \if@titlepage
-  \newcommand\maketitle{\begin{titlepage}%
+  \newcommand\maketitle{\hypersetup{pageanchor=false}\begin{titlepage}%to avoid pdfTeX warning (ext4): destination with the same identifier
   \let\footnotesize\small
   \let\footnoterule\relax
   \let \footnote \thanks

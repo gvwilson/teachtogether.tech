@@ -1,7 +1,10 @@
+*.4ct
+*.4tc
 *.aux
 *.bbl
 *.bcf
 *.blg
+*.dvi
 *.egg-info
 *.idx
 *.lof
@@ -10,7 +13,9 @@
 *.out
 *.pyg
 *.run.xml
+*.tmp
 *.toc
+*.xref
 *~
 .coverage
 .jekyll-metadata
@@ -18,5 +23,5 @@
 __pycache__
 _minted-*
 _site
-tex/*/all.tex
 book.pdf
+tex/*/all.tex

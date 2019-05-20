@@ -12,6 +12,10 @@
 \usepackage{mathptmx}
 \usepackage{changepage}
 
+\hfuzz=30pt % Don't bother to report over-full boxes < 10pt
+\vfuzz=30pt % Don't bother to report over-full boxes < 10pt
+
+
 % Use numbers for nested lists all the way down.
 \usepackage{enumitem}
 \setlist[enumerate,1]{label=\arabic*., ref=\arabic*}
@@ -84,7 +88,7 @@
         \printfield{labelalpha}%
         \printfield{extraalpha}}}
      {\setlength{\labelsep}{\biblabelsep}%
-      \setlength{\leftmargin}{\labelsep}%
+      \setlength{\leftmargin}{24pt}%\labelsep
       \setlength{\itemsep}{\bibitemsep}%
       \setlength{\parsep}{\bibparsep}}%
       \renewcommand*{\makelabel}[1]{\bf##1\hss}}
@@ -92,7 +96,10 @@
   {\item}
 \bibparsep3pt
 
+\usepackage{csquotes}
 %----------------------------------------
+
+\def\UrlFont{\rmfamily}
 
 % Chapters, sections, and appendices with labels.
 \newcommand{\chaplbl}[2]{\chapter{#1}\label{#2}}
@@ -109,6 +116,8 @@
 \caption{#2}%
 \label{#3}%
 \end{figure}}
+
+\setlength{\paperheight}{11in}
 
 %----------------------------------------
  
