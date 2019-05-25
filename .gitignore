@@ -1,6 +1,7 @@
 *.4ct
 *.4tc
 *.aux
+*.bak
 *.bbl
 *.bcf
 *.blg
