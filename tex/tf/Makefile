@@ -1,9 +1,13 @@
+# Commands
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
+PANDOC=pandoc -s --css=bootstrap.min.css --css=book.css --toc --toc-depth=2
 
+# File(s)
 TEX=$(wildcard *.tex)
 SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls)
-DST=book.pdf
+HTML=book.html
+PDF=book.pdf
 
 # Controls
 all : commands
@@ -12,8 +16,11 @@ all : commands
 commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g'
 
+## html           : generate HTML from LaTeX source.
+html : ${HTML}
+
 ## pdf            : generate PDF from LaTeX source.
-pdf : ${DST}
+pdf : ${PDF}
 
 ## once           : force a single run of LaTeX.
 once :
@@ -22,12 +29,18 @@ once :
 # ----------------------------------------
 
 # Regenerate PDF once 'all.tex' has been created.
-${DST} : ${SRC}
+${PDF} : ${SRC}
 	${LATEX} book \
 	&& ${BIBTEX} book \
 	&& ${LATEX} book \
 	&& ${LATEX} book \
 	&& ${LATEX} book
+
+# Generate HTML
+${HTML} : ${SRC}
+	sed -e 's/input{settings}/input{html}/g' book.tex > temp.tex
+	${PANDOC} --template=template.html --bibliography=book.bib -o book.html temp.tex
+	rm temp.tex
 
 ## ----------------------------------------
 
