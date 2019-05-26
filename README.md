@@ -30,6 +30,6 @@ license. Please see <http://teachtogether.tech> to download a digital
 version or purchase a printed copy at cost.
 
 <div align="center">
-  <img src="author-fan-2018-07.jpg" alt="The compiler with his biggest fan, July 2018" width="600px" />
+  <img src="assets/author-fan-2018-07.jpg" alt="The compiler with his biggest fan, July 2018" width="600px" />
   <p>The compiler with his biggest fan, July 2018</p>
 </div>
