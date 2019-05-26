@@ -47,29 +47,42 @@ $include-before$
 $endfor$
 $if(title)$
 <header id="title-block-header">
-<h1 class="title">$title$</h1>
-$if(subtitle)$
-<p class="subtitle">$subtitle$</p>
-$endif$
-$for(author)$
-<p class="author">$author$</p>
-$endfor$
-$if(date)$
-<p class="date">$date$</p>
-$endif$
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <a href="#title-block-header"><img src="./logo.svg" alt="Teaching Tech Together" width="100%" /></a>
+      </div>
+      <div class="col-md-8">
+        <h1 class="title">$title$</h1>
+        $if(subtitle)$
+        <p class="subtitle">$subtitle$</p>
+        $endif$
+        $for(author)$
+        <p class="author"><a href="http://third-bit.com">$author$</a></p>
+        $endfor$
+        $if(date)$
+        <p class="date">$date$</p>
+        $endif$
+      </div>
+    </div>
+  </div>
 </header>
 $endif$
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2">
+  <div class="row row-scrollable">
+    <div class="col-md-2 col-toc">
 $if(toc)$
 <nav id="$idprefix$TOC" role="doc-toc">
-  <h3>Contents</h3>
 $table-of-contents$
 </nav>
+      <p>
+        <a href="#s:license"><img src="./cc-by.svg" alt="CC-BY License" width="50%" /></a>
+        <a href="mailto:gvwilson@third-bit.com?subject=Teaching Tech Together"><img src="./email.svg" alt="Email" width="20%" /></a>
+        <a href="https://github.com/gvwilson/teachtogether.tech/"><img src="./github.svg" alt="GitHub" width="20%" /></a>
+      </p>
 $endif$
     </div>
-    <div class="col-md-8">
+    <div class="col-md-8 col-body">
 $body$
     </div>
   </div>
