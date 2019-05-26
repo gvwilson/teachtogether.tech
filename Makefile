@@ -1,31 +1,19 @@
-# Check that language is set.  Do NOT set 'LANG', as that would override the platform's LANG setting.
-ifndef lang
-$(warning Please set 'lang' with 'lang=en' or similar.)
-lang=en
-endif
+.PHONY : all check clean commands html once pdf remaining settings
 
-# Pick up project-specific setting for STEM.
-include site.mk
+# Commands
+LATEX=pdflatex --shell-escape
+BIBTEX=biber
+PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2
 
-# Tools.
-JEKYLL=jekyll
-PANDOC=pandoc
-LATEX=pdflatex
-BIBTEX=bibtex
-PYTHON=python
-
-# Language-dependent settings.
-CONFIG_YML=_config.yml
-DIR_MD=_${lang}
-PAGES_MD=$(wildcard ${DIR_MD}/*.md)
-BIB_MD=${DIR_MD}/bib.md
-TOC_JSON=_data/${lang}_toc.json
-DIR_HTML=_site/${lang}
-PAGES_HTML=${DIR_HTML}/index.html $(patsubst ${DIR_MD}/%.md,${DIR_HTML}/%/index.html,$(filter-out ${DIR_MD}/index.md,${PAGES_MD}))
-DIR_TEX=tex/${lang}
-BIB_TEX=${DIR_TEX}/book.bib
-ALL_TEX=${DIR_TEX}/all.tex
-BOOK_PDF=${DIR_TEX}/${STEM}.pdf
+# File(s)
+TEX=$(wildcard *.tex)
+SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls)
+HTML=docs/index.html
+PDF=book.pdf
+FIGURES_SRC=$(wildcard figures/*)
+FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
+ASSETS_SRC=$(wildcard assets/*)
+ASSETS_DST=$(patsubst %,docs/%,${ASSETS_SRC})
 
 # Controls
 all : commands
@@ -34,164 +22,76 @@ all : commands
 commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g'
 
-## serve          : run a local server.
-serve : ${CONFIG_YML} ${TOC_JSON}
-	${JEKYLL} serve -I
-
-## site           : build files but do not run a server.
-site : ${CONFIG_YML} ${TOC_JSON}
-	${JEKYLL} build
+## html           : generate HTML from LaTeX source.
+html : ${HTML} ${FIGURES_DST} ${ASSETS_DST} docs/CNAME
 
 ## pdf            : generate PDF from LaTeX source.
-pdf : ${BOOK_PDF}
+pdf : ${PDF}
 
-## bib            : regenerate the Markdown bibliography from the BibTeX file.
-bib : ${BIB_MD}
-
-## config         : regenerate Jekyll configuration from .config.yml and site.yml
-config : ${CONFIG_YML}
-
-## toc            : regenerate the table of contents JSON file.
-toc : ${TOC_JSON}
+## once           : force a single run of LaTeX.
+once :
+	${LATEX} book
 
 # ----------------------------------------
 
 # Regenerate PDF once 'all.tex' has been created.
-${BOOK_PDF} : ${ALL_TEX} tex/settings.tex ${DIR_TEX}/book.tex ${BIB_TEX}
-	cd ${DIR_TEX} \
-	&& ${LATEX} --shell-escape -jobname=${STEM} book \
-	&& ${BIBTEX} ${STEM} \
-	&& ${LATEX} --shell-escape -jobname=${STEM} book \
-	&& ${LATEX} --shell-escape -jobname=${STEM} book
+${PDF} : ${SRC}
+	${LATEX} book \
+	&& ${BIBTEX} book \
+	&& ${LATEX} book \
+	&& ${LATEX} book \
+	&& ${LATEX} book
 
-# Create the unified LaTeX file (separate target to simplify testing).
-${ALL_TEX} : ${PAGES_HTML} bin/get_body.py bin/transform.py ${TOC_JSON}
-	${PYTHON} bin/get_body.py _config.yml ${DIR_HTML} \
-	| ${PYTHON} bin/transform.py --pre ${lang} _includes \
-	| ${PANDOC} --wrap=preserve -f html -t latex -o - \
-	| ${PYTHON} bin/transform.py --post ${lang} _includes \
-	> ${ALL_TEX}
+# Generate HTML.
+${HTML} : ${SRC} template.html
+	@mkdir -p docs
+	@sed -e 's/input{pdf-settings}/input{html-settings}/g' -e 's/%%- //g' book.tex > temp.tex
+	@${PANDOC} --template=template.html --bibliography=book.bib -o - temp.tex \
+	| sed -E 's:<embed src="figures/(.+)\.pdf":<img src="figures/\1.svg":g' \
+	> ${HTML}
+	@rm temp.tex
 
-# Pre-process (for debugging purposes).
-test-pre:
-	${PYTHON} bin/get_body.py _config.yml ${DIR_HTML} \
-	| ${PYTHON} bin/transform.py --pre ${lang} _includes
+# Copy figures.
+docs/figures/% : figures/%
+	@mkdir -p docs/figures
+	@cp $< $@
 
-# Pre-process with Pandoc (for debugging purposes).
-test-pandoc:
-	${PYTHON} bin/get_body.py _config.yml ${DIR_HTML} \
-	| ${PYTHON} bin/transform.py --pre ${lang} _includes \
-	| ${PANDOC} --wrap=preserve -f html -t latex -o -
+# Copy assets.
+docs/assets/% : assets/%
+	@mkdir -p docs/assets
+	@cp $< $@
 
-# Create all the HTML pages once the Markdown files are up to date.
-${PAGES_HTML} : ${PAGES_MD} ${BIB_MD} ${CONFIG_YML} ${TOC_JSON}
-	${JEKYLL} build
-
-# Create the Jekyll configuration file.
-${CONFIG_YML}: site.yml .config.yml
-	cat $^ > $@
-
-# Create the bibliography Markdown file from the BibTeX file.
-${BIB_MD} : ${BIB_TEX} bin/bib2md.py
-	bin/bib2md.py ${lang} < ${DIR_TEX}/book.bib > ${DIR_MD}/bib.md
-
-# Create the JSON table of contents.
-${TOC_JSON} : ${PAGES_MD} bin/make_toc.py
-	bin/make_toc.py _config.yml ${DIR_MD} > ${TOC_JSON}
-
-# Dependencies with HTML file inclusions.
-${DIR_HTML}/%/index.html : $(wildcard _includes/%/*.*)
+# Copy CNAME file.
+docs/CNAME : ./CNAME
+	@mkdir -p docs
+	@cp $< $@
 
 ## ----------------------------------------
 
-## check          : check everything.
-check : ${CONFIG_YML} ${BIB_MD} ${TOC_JSON}
-	@bin/check.py ${lang} all
+## check          : check internal consistency.
+check :
+	@python bin/check.py ${TEX}
 
-## check_anchors  : list all incorrectly-formatted H2 anchors.
-check_anchors : ${CONFIG_YML}
-	@bin/check.py ${lang} anchors
-
-## check_chars     : look for non-ASCII characters.
-check_chars :
-	@bin/check.py ${lang} chars
-
-## check_cites    : list all missing or unused bibliography entries.
-check_cites : ${CONFIG_YML} ${BIB_MD}
-	@bin/check.py ${lang} cites
-
-## check_crossref : find all missing cross-references.
-check_crossref : ${CONFIG_YML} ${TOC_JSON}
-	@bin/check.py ${lang} crossref
-
-## check_figref   : check all figure cross-references.
-check_figref : ${CONFIG_YML} ${TOC_JSON}
-	@bin/check.py ${lang} figref
-
-## check_figures  : list all missing or unused figures.
-check_figures : ${CONFIG_YML}
-	@bin/check.py ${lang} figures
-
-## check_gloss    : check that all glossary entries are defined and used.
-check_gloss : ${CONFIG_YML}
-	@bin/check.py ${lang} gloss
-
-## check_langs    : check that all fenced code blocks have language types.
-check_langs : ${CONFIG_YML}
-	@bin/check.py ${lang} langs
-
-## check_links    : check that all external links are defined and used.
-check_links : ${CONFIG_YML}
-	@bin/check.py ${lang} links
-
-## check_src      : check source file inclusion references.
-check_src : ${CONFIG_YML}
-	@bin/check.py ${lang} src
-
-## check_toc      : check consistency of tables of contents.
-check_toc : ${CONFIG_YML}
-	@bin/check.py ${lang} toc
-
-## fixme          : look for FIXME markers in pages.
-#  Output is piped to `cat` to prevent error reports if there are no FIXMEs.
-fixme :
-	@fgrep -C 1 -n FIXME ${PAGES_MD} | cat
-
-## stats          : report summary statistics of completed chapters.
-stats : ${CONFIG_YML}
-	@bin/stats.py ${lang}
-
-## ----------------------------------------
-
-## spelling       : compare words against saved list.
-spelling :
-	@cat ${PAGES_MD} | bin/uncode.py | aspell list | sort | uniq | comm -2 -3 - .words
-
-## undone         : which files have not yet been done?
-undone :
-	@grep -l 'undone: true' _en/*.md
-
-## ----------------------------------------
+## remaining      : count work to be done.
+remaining :
+	@wc -w $$(fgrep chaplbl ${TEX} | fgrep FIXME | cut -d ':' -f 1) | sort -n -r
 
 ## clean          : clean up junk files.
 clean :
-	@rm -r -f _config.yml _site dist
+	@rm -f book.pdf
+	@rm -f *.4ct *.4tc *.aux *.bak *.bbl *.bcf *.blg *.dvi *.idx *.lof *.log *.lot *.out *.run.xml *.tmp *.toc *.xref
 	@find . -name '*~' -delete
-	@find . -name __pycache__ -prune -exec rm -r "{}" \;
 	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
-	@rm -r -f tex/*/all.tex tex/*/*.aux tex/*/*.bbl tex/*/*.blg tex/*/*.log tex/*/*.out tex/*/*.toc
 	@find . -name .DS_Store -prune -exec rm -r "{}" \;
 
-## settings       : show macro values.
+## settings       : show settings.
 settings :
-	@echo "CONFIG_YML=${CONFIG_YML}"
-	@echo "JEKYLL=${JEKYLL}"
-	@echo "DIR_MD=${DIR_MD}"
-	@echo "PAGES_MD=${PAGES_MD}"
-	@echo "BIB_MD=${BIB_MD}"
-	@echo "DIR_HTML=${DIR_HTML}"
-	@echo "PAGES_HTML=${PAGES_HTML}"
-	@echo "DIR_TEX=${DIR_TEX}"
-	@echo "BIB_TEX=${BIB_TEX}"
-	@echo "ALL_TEX=${ALL_TEX}"
-	@echo "BOOK_PDF=${BOOK_PDF}"
+	@echo LATEX ${LATEX}
+	@echo BIBTEX ${BIBTEX}
+	@echo PANDOC ${PANDOC}
+	@echo TEX ${TEX}
+	@echo SRC ${SRC}
+	@echo HTML ${HTML}
+	@echo PDF ${PDF}
+	@echo FIG_SRC ${FIG_SRC}
+	@echo FIG_DST ${FIG_DST}

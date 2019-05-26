@@ -18,6 +18,7 @@
 *.toc
 *.xref
 *~
+.DS_Store
 .coverage
 .jekyll-metadata
 .pytest_cache

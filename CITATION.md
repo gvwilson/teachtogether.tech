@@ -7,6 +7,11 @@ Please cite this work as:
 
 ## Contributors
 
+This book would not exist without the contributions of:
+
+-   Laura Acion
+-   Jorge Aranda
+-   Mara Averick
 -   Erin Becker
 -   Azalee Bostroem
 -   Hugo Bowne-Anderson
@@ -27,6 +32,7 @@ Please cite this work as:
 -   Michael Deutsch
 -   Brian Dillingham
 -   Kathi Fisler
+-   Denae Ford
 -   Auriel Fournier
 -   Bob Freeman
 -   Nathan Garrett
@@ -37,6 +43,7 @@ Please cite this work as:
 -   Felienne Hermans
 -   Kate Hertweck
 -   Toby Hodges
+-   Mike Hoye
 -   Dan Katz
 -   Christina Koch
 -   Shriram Krishnamurthi
@@ -64,20 +71,27 @@ Please cite this work as:
 -   Pat Schloss
 -   Malvika Sharan
 -   Florian Shkurti
+-   Dan Sholler
 -   Juha Sorva
+-   Igor Steinmacher
 -   Tracy Teal
 -   Tiffany Timbers
 -   Richard Tomsett
 -   Preston Tunnell Wilson
 -   Matt Turk
 -   Fiona Tweedie
--   Allegra Via
 -   Anelda van der Walt
 -   Stéfan van der Walt
+-   Allegra Via
+-   Petr Viktorin
 -   Belinda Weaver
 -   Hadley Wickham
 -   Jason Williams
 -   Simon Willison
--   Greg Wilson
 -   John Wrenn
 -   Andromeda Yelton
+
+I am also grateful to Lukas Blakk for the cover image,
+to Shashi Kumar for LaTeX help,
+and to everyone who has used this material over the years.
+Any mistakes that remain are mine.
