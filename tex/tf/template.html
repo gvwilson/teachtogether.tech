@@ -59,13 +59,20 @@ $if(date)$
 $endif$
 </header>
 $endif$
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
 $if(toc)$
 <nav id="$idprefix$TOC" role="doc-toc">
+  <h3>Contents</h3>
 $table-of-contents$
 </nav>
 $endif$
-<div class="content">
+    </div>
+    <div class="col-md-8">
 $body$
+    </div>
+  </div>
 </div>
 $for(include-after)$
 $include-after$

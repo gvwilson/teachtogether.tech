@@ -1,7 +1,7 @@
 # Commands
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
-PANDOC=pandoc -s --css=bootstrap.min.css --css=book.css --toc --toc-depth=2
+PANDOC=pandoc -s --css=bootstrap.min.css --css=book.css --toc --toc-depth=1
 
 # File(s)
 TEX=$(wildcard *.tex)
@@ -37,7 +37,7 @@ ${PDF} : ${SRC}
 	&& ${LATEX} book
 
 # Generate HTML
-${HTML} : ${SRC}
+${HTML} : ${SRC} template.html
 	sed -e 's/input{settings}/input{html}/g' book.tex > temp.tex
 	${PANDOC} --template=template.html --bibliography=book.bib -o book.html temp.tex
 	rm temp.tex

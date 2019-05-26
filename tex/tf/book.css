@@ -1,3 +1,14 @@
+header {
+    text-align: center;
+}
+p.author {
+    font-size: 2rem;
+}
+
+div.scrollable {
+    overflow-y: scroll;
+}
+
 /* Outlines for code samples. */
 pre.highlight {
     border-style: solid;
