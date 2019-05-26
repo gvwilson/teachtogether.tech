@@ -21,6 +21,11 @@ div.col-body {
     overflow-y: scroll;
 }
 
+div.dedication {
+    text-align: center;
+    font-style: italic;
+}
+
 /* Outlines for code samples. */
 pre.highlight {
     border-style: solid;
@@ -47,9 +52,6 @@ ol, ul {
 
 /* Center figures. */
 figure {
-    border-style: solid;
-    border-width: 2px;
-    border-color: #C0C0C0;
     padding: 2px;
     text-align: center;
 }

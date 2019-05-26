@@ -39,7 +39,9 @@ ${PDF} : ${SRC}
 # Generate HTML
 ${HTML} : ${SRC} template.html
 	sed -e 's/input{pdf-settings}/input{html-settings}/g' -e 's/%%- //g' book.tex > temp.tex
-	${PANDOC} --template=template.html --bibliography=book.bib -o book.html temp.tex
+	${PANDOC} --template=template.html --bibliography=book.bib -o - temp.tex \
+	| sed -E 's:<embed src="figures/(.+)\.pdf":<img src="figures/\1.svg":g' \
+	> book.html
 	rm temp.tex
 
 ## ----------------------------------------
