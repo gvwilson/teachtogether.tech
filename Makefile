@@ -45,7 +45,7 @@ ${PDF} : ${SRC}
 	&& ${LATEX} book
 
 # Generate HTML.
-${HTML} : ${SRC} template.html
+${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
 	@mkdir -p docs
 	bin/pre-pandoc.py < book.tex > temp.tex
 	${PANDOC} --template=template.html --bibliography=book.bib -o - temp.tex \
