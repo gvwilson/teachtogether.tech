@@ -72,7 +72,7 @@ docs/CNAME : ./CNAME
 
 ## check          : check internal consistency.
 check :
-	@python bin/check.py ${TEX}
+	@python bin/check.py -b book.bib ${TEX}
 
 ## remaining      : count work to be done.
 remaining :
