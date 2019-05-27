@@ -47,11 +47,11 @@ ${PDF} : ${SRC}
 # Generate HTML.
 ${HTML} : ${SRC} template.html
 	@mkdir -p docs
-	@sed -e 's/input{pdf-settings}/input{html-settings}/g' -e 's/%%- //g' book.tex > temp.tex
-	@${PANDOC} --template=template.html --bibliography=book.bib -o - temp.tex \
-	| sed -E 's:<embed src="figures/(.+)\.pdf":<img src="figures/\1.svg":g' \
+	bin/pre-pandoc.py < book.tex > temp.tex
+	${PANDOC} --template=template.html --bibliography=book.bib -o - temp.tex \
+	| bin/post-pandoc.py \
 	> ${HTML}
-	@rm temp.tex
+	rm temp.tex
 
 # Copy figures.
 docs/figures/% : figures/%
