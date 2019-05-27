@@ -3,7 +3,7 @@
 # Commands
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
-PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2
+PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2 --csl=chicago.csl
 
 # File(s)
 TEX=$(wildcard *.tex)
