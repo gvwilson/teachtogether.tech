@@ -1,4 +1,4 @@
-.PHONY : all check clean commands html once pdf remaining settings
+.PHONY : all check clean commands everything html once pdf remaining settings
 
 # Commands
 LATEX=pdflatex --shell-escape
@@ -22,6 +22,9 @@ all : commands
 commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g'
 
+## everything     : generate HTML and PDF.
+everything : html pdf
+
 ## html           : generate HTML from LaTeX source.
 html : ${HTML} ${FIGURES_DST} ${ASSETS_DST} docs/CNAME
 
@@ -38,7 +41,6 @@ once :
 ${PDF} : ${SRC}
 	${LATEX} book \
 	&& ${BIBTEX} book \
-	&& ${LATEX} book \
 	&& ${LATEX} book \
 	&& ${LATEX} book
 
