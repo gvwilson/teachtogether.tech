@@ -7,7 +7,7 @@ PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=ass
 
 # File(s)
 TEX=$(wildcard *.tex)
-SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls)
+SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls) $(wildcard *.csl)
 HTML=docs/index.html
 PDF=book.pdf
 FIGURES_SRC=$(wildcard figures/*)
