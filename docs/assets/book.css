@@ -6,6 +6,20 @@ p.author,p.subtitle,p.date {
     font-size: 1.5rem;
 }
 
+h1 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #808080;
+}
+
+h1.unnumbered {
+    margin-top: 0rem;
+    padding-top: 0rem;
+    border-top-style: none;
+}
+
 div.row-scrollable {
     height: 100vh;
 }
