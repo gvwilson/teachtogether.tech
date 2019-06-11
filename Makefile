@@ -1,4 +1,4 @@
-.PHONY : all check clean commands everything html once pdf remaining settings
+.PHONY : all check clean commands everything html once pages pdf remaining settings
 
 # Commands
 LATEX=pdflatex --shell-escape
@@ -74,10 +74,6 @@ docs/CNAME : ./CNAME
 check :
 	@python bin/check.py -b book.bib ${TEX}
 
-## remaining      : count work to be done.
-remaining :
-	@wc -w $$(fgrep chaplbl ${TEX} | fgrep FIXME | cut -d ':' -f 1) | sort -n -r
-
 ## clean          : clean up junk files.
 clean :
 	@rm -f book.pdf
@@ -85,6 +81,14 @@ clean :
 	@find . -name '*~' -delete
 	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
 	@find . -name .DS_Store -prune -exec rm -r "{}" \;
+
+## pages          : pages per chapter.
+pages : ${PDF}
+	@python bin/pages.py book.log book.toc
+
+## remaining      : count work to be done.
+remaining :
+	@wc -w $$(fgrep chaplbl ${TEX} | fgrep FIXME | cut -d ':' -f 1) | sort -n -r
 
 ## settings       : show settings.
 settings :
