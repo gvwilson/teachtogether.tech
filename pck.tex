@@ -23,8 +23,8 @@ Every instructor needs three things:
 
 This chapter summarizes some results from computing education research (CER)
 that will add to your store of PCK\footnote{
-    For those who want to do a deeper dive,
-    \cite{Ihan2016} summarizes the methods used most often in these studies.}.
+  For those who want to go deeper,
+  \cite{Ihan2016} summarizes the methods these studies use most often.}.
 As with all research,
 though,
 some caution is required when interpreting the results:
@@ -90,49 +90,130 @@ but most teachers focus solely on the former,
 even though bugs are often caused by not having a strategy for solving the problem
 rather than to lack of knowledge about the language.
 
-The most important recommendation in this chapter is therefore to \emph{show learners how to program}. This is consistent with the work on cognitive load theory presented in \chapref{s:architecture}, and~\cite{Mull2007b} is just one of many studies proving its benefits; live coding (\secref{s:performance-live}) is effective in part because it puts ``how'' front and center.
+Our first recommendation is therefore to \recommendation{show learners how to program}.
+\cite{Mull2007b} is just one of many studies proving its benefits,
+and live coding (\secref{s:performance-live}) is effective in part because it puts ``how'' front and center.
 
-When demonstrating the act of programming, teachers should emphasize the importance of small steps with frequent feedback~\cite{Blik2014}. They should also emphasize the importance of picking a plan and sticking to it rather than making more-or-less random changes to the program and hoping that they'll work---as~\cite{Spoh1985} found, merging plans and/or goals can yield bugs because of goals being dropped or fragmented.
+When demonstrating the act of programming,
+teachers should emphasize the importance of small steps with frequent feedback~\cite{Blik2014}.
+They should also emphasize the importance of picking a plan and sticking to it
+rather than making more-or-less random changes to the program and hoping they'll work:
+as~\cite{Spoh1985} found,
+merging plans and/or goals can yield bugs because of goals being dropped or fragmented.
 
-Another aspect of ``how'' that teachers should present and discuss is the order in which code is written. \cite{Ihan2011} describes a tool for solving Parsons Problems. They found that experienced programmers often drag the method signature to the beginning, then add the majority of the control flow (i.e., loops and conditionals), and only then add details like variable initialization and handling of corner cases. This out-of-order authoring is foreign to novices, who read and write code in the order it's presented on the page; again, one of the benefits of live coding (\secref{s:performance-live}) is that it gives them a chance to see the sequence that more advanced programmers actually use.
-
-\subsection*{Roles of Variables}
-
-FIXME:
-Labelling the parts of novices' programs gives them a vocabulary to think with
-and a set of programming plans for constructing code of their own.
-\cite{Kuit2004,Byck2005,Saja2006} presented a set of single-variable patterns
-that I have found very useful in teaching beginners.
+Another aspect of ``how'' that teachers should present and discuss is the order in which code is written.
+\cite{Ihan2011} describes a tool for solving Parsons Problems.
+They found that experienced programmers often drag the method signature to the beginning,
+then add the majority of the control flow (i.e., loops and conditionals),
+and only then add details like variable initialization and handling of corner cases.
+This out-of-order authoring is foreign to novices,
+who read and write code in the order it's presented on the page.
+Again,
+live coding (\secref{s:performance-live}) lets them see the sequence
+that more advanced programmers actually use.
 
 \seclbl{How Do Novices Debug and Test?}{s:pck-debug}
 
-A decade ago, \cite{McCa2008} wrote, ``It is surprising how little page space is devoted to bugs and debugging in most introductory programming textbooks.'' Little has changed since: there are hundreds of books on compilers and operating systems, but only a handful about debugging, and I have never seen an undergraduate course on the subject. One reason is that debugging is a ``how'' rather than a ``what''; again, one of the benefits of live coding is that it gives teachers a chance to demonstrate the process in a way that textbooks cannot (\secref{s:performance-live}).
+A decade ago,
+\cite{McCa2008} wrote,
+``It is surprising how little page space is devoted to bugs and debugging
+in most introductory programming textbooks.''
+Little has changed since:
+there are hundreds of books on compilers and operating systems,
+but only a handful about debugging,
+and I have never seen an undergraduate course devoted to the subject.
 
-\cite{List2004,List2009} found that many novices struggled to predict the output of short pieces of code and to select the correct completion of the code from a set of possibilities when told what it was supposed to do. More recently, \cite{Harr2018} found that the gap between being able to trace code and being able to write it has largely closed by CS2, but that novices who still have a gap (in either direction) are likely to do poorly in the course.
+\cite{List2004,List2009} found that many novices struggled to predict the output of short pieces of code
+and to select the correct completion of the code from a set of possibilities
+when told what it was supposed to do.
+More recently,
+\cite{Harr2018} found that the gap between being able to trace code and being able to write it has largely closed by CS2,
+but that novices who still have a gap (in either direction) are likely to do poorly.
 
-Our second recommendation is therefore to \emph{teach novices how to debug}. \cite{Fitz2008,Murp2008} found that good debuggers were good programmers, but not all good programmers were good at debugging. Those who were used a symbolic debugger to step through their programs, traced execution by hand, wrote tests, and re-read the spec frequently, which are all teachable habits. However, tracing execution step by step was sometimes used ineffectively: for example, a novice might put the same \texttt{print} statement in both parts of an \texttt{if}-\texttt{else}. Novices would also comment out lines that were actually correct as they tried to isolate a problem; teachers can make both of these mistakes deliberately, point them out, and correct them to help novices get past them.
+Our second recommendation is therefore to \recommendation{teach novices how to debug}.
+\cite{Fitz2008,Murp2008} found that good debuggers were good programmers,
+but not all good programmers were good at debugging.
+Those who were used a symbolic debugger to step through their programs,
+traced execution by hand,
+wrote tests,
+and re-read the spec frequently,
+which are all teachable habits.
+However, tracing execution step by step was sometimes used ineffectively:
+for example,
+a novice might put the same \texttt{print} statement in both parts of an \texttt{if}-\texttt{else}.
+Novices would also comment out lines that were actually correct as they tried to isolate a problem;
+teachers can make both of these mistakes deliberately,
+point them out,
+and correct them to help novices get past them.
 
-Teaching novices how to debug can also help make classes easier to manage. \cite{Alqa2017} found that learners with more experience solved debugging problems significantly faster, but times varied widely: 4--10 minutes was a typical range for individual exercises, which means that some learners need 2--3 times longer than others to get through the same exercises. Teaching the slower learners what the faster ones are doing will help make the group's overall progress more uniform.
+Teaching novices how to debug can also help make classes easier to manage.
+\cite{Alqa2017} found that learners with more experience solved debugging problems significantly faster,
+but times varied widely:
+4--10 minutes was a typical range for individual exercises,
+which means that some learners need 2--3 times longer than others to get through the same exercises.
+Teaching the slower learners what the faster ones are doing
+will help make the group's overall progress more uniform.
 
-Debugging depends on being able to read code, which multiple studies have shown is the single most effective way to find bugs \cite{Basi1987,Keme2009,Bacc2013}. The code quality rubric developed in~\cite{Steg2014,Steg2016a}, which is online at~\cite{Steg2016b}, is a good checklist of things to look for, though it is best presented in chunks rather than all at once.
+Debugging depends on being able to read code,
+which multiple studies have shown is the single most effective way to find bugs \cite{Basi1987,Keme2009,Bacc2013}.
+The code quality rubric developed in~\cite{Steg2014,Steg2016a}
+is a good checklist of things to look for,
+though it is best presented in chunks rather than all at once.
 
-Having learners read code and summarize its behavior is a good exercise (\secref{s:individual-strategies}), but often takes too long to be practical in class. Having them predict a program's output just before it is run, on the other hand, helps reinforce learning (\secref{s:classroom-practices}) and also gives them a natural moment to ask ``what if'' questions. Instructors or learners can also trace changes to variables as they go along (\figref{f:pck-sketch}), which~\cite{Cunn2017} found was effective.
+Having learners read code and summarize its behavior is a good exercise (\secref{s:individual-strategies}),
+but often takes too long to be practical in class.
+Having them predict a program's output just before it is run,
+on the other hand,
+helps reinforce learning (\secref{s:classroom-practices})
+and also gives them a natural moment to ask ``what if'' questions.
+Instructors or learners can also trace changes to variables as they go along,
+which~\cite{Cunn2017} found was effective (\secref{s:exercises-tracing}).
 
-\figlbl{figures/sketching-variables.pdf}{Tracing the Values of Variables}{f:pck-sketch}
+When it comes to testing,
+novices seem just as reluctant to do it as professional programmers.
+There's no doubt it's valuable---\cite{Cart2017} found that high-performing novices spent a lot of time testing,
+while low performers spent much more time working on code with errors---and many instructors
+require learners to write tests for assignments.
+But how well do they do this?
+One answer comes from~\cite{Bria2015},
+which scored learners' programs by how many teacher-provided test cases those programs passed,
+and conversely scores test cases written by learners according to how many deliberately-seeded bugs they caught.
+They found that novices' tests often have low coverage (i.e., they don't test most of the code)
+and that they often test many things at once, which makes it hard to pinpoint the causes of errors.
 
-When it comes to testing, novices seem just as reluctant to do it as professional programmers. There's no doubt it's valuable---\cite{Cart2017} found that high-performing novices spent a lot of time testing, while low performers spent much more time working on code with errors---and many instructors require learners to write tests for assignments. The question is, how well do they do this?
+Another answer comes from~\cite{Edwa2014b},
+which looked at all of the bugs in all novices' code submissions combined
+and identified those detected by the novices' test suite.
+They found that novices' tests only detected an average of 13.6\% of the faults present in the entire program population.
+What's more,
+90\% of the novices' tests were very similar,
+which indicates that novices mostly write tests to confirm that code is doing what it's supposed to
+rather than to find cases where it isn't.
 
-One answer comes from~\cite{Bria2015}, which scored learners' programs by how many teacher-provided test cases those programs passed, and conversely scores test cases written by learners according to how many deliberately-seeded bugs they caught. They found that novices' tests often have low coverage (i.e., they don't test most of the code) and that they often test many things at once, which makes it hard to pinpoint the causes of errors.
-
-Another answer comes from~\cite{Edwa2014b}, which looked at all of the bugs in all novices' code submissions combined and identified those detected by the novices' test suite. They found that novices' tests only detected an average of 13.6\% of the faults present in the entire program population. What's more, 90\% of the novices' tests were very similar, which indicates that novices mostly write tests to confirm that code is doing what it's supposed to rather than to find cases where it isn't.
-
-One approach to teaching better testing practices is to define a programming problem by providing a set of tests to be passed rather than through a written description (\secref{s:exercises-classics}). Before doing this, though, take a moment to look at how many tests you've written for your own code recently, and then decide whether you're teaching what you believe people should do, or what they (and you) actually do.
+One approach to teaching better testing practices is
+to define a programming problem by providing a set of tests to be passed
+rather than through a written description (\secref{s:exercises-classics}).
+Before doing this,
+though,
+take a moment to look at how many tests you've written for your own code recently,
+and then decide whether you're teaching what you believe people should do,
+or what they (and you) actually do.
 
 \seclbl{What Misconceptions Do Novices Have?}{s:pck-misunderstand}
 
-\chapref{s:models} explained why clearing up novices' misconceptions is just as important as teaching them strategies for solving problems. The biggest misconception novices have---sometimes called the ``superbug'' in coding---is the belief that they can communicate with a computer in the same way that they would with a human being, i.e., that the computer understands intention the way that a human being would \cite{Pea1986}. Our third recommendation is therefore to \emph{teach novices that computers don't understand programs}, i.e., that calling a variable ``cost'' doesn't guarantee that its value is actually a cost.
+\chapref{s:models} explained why clearing up novices' misconceptions
+is just as important as teaching them strategies for solving problems.
+The biggest misconception novices have---sometimes called the ``superbug'' in coding---is
+the belief that computers understand what people mean in the way that another human being would~\cite{Pea1986}.
+Our third recommendation is therefore to \recommendation{teach novices that computers don't understand programs},
+i.e.,
+that calling a variable ``cost'' doesn't guarantee that its value is actually a cost.
 
-\cite{Sorv2018} presents over 40 other misconceptions that instructors can also try to clear up, many of which are also discussed in~\cite{Qian2017}'s survey. One is the belief that variables in programs work the same way they do in spreadsheets, i.e., that after executing:
+\cite{Sorv2018} presents over 40 other misconceptions that instructors can also try to clear up,
+many of which are also discussed in~\cite{Qian2017}'s survey.
+One is the belief that variables in programs work the same way they do in spreadsheets,
+i.e.,
+that after executing:
 
 \begin{minted}{text}
 grade = 65
@@ -142,28 +223,38 @@ print(total)
 \end{minted}
 
 \noindent
-the value of \texttt{total} will be 90 rather than 75~\cite{Kohn2017}. (This is an example of the way in which novices construct a plausible-but-wrong mental model by making analogies.) Other misconceptions include:
+the value of \texttt{total} will be 90 rather than 75~\cite{Kohn2017}.
+This is an example of the way in which novices construct a plausible-but-wrong mental model by making analogies;
+other misconceptions include:
 
 \begin{itemize}
 
 \item
-  A variable holds the history of the values it has been assigned, i.e., it remembers what its value used to be.
+  A variable holds the history of the values it has been assigned,
+  i.e., it remembers what its value used to be.
 
 \item
-  Two objects with the same value for a \texttt{name} or \texttt{id} attribute are guaranteed to be the same object.
+  Two objects with the same value for a \texttt{name} or \texttt{id} attribute
+  are guaranteed to be the same object.
 
 \item
-  Functions are executed as they are defined, or are executed in the order in which they are defined.
+  Functions are executed as they are defined,
+  or are executed in the order in which they are defined.
 
 \item
-  A \texttt{while} loop's condition is constantly evaluated, and the loop stops as soon as it becomes false. Conversely, the conditions in \texttt{if} statements are also constantly evaluated, and their statements are executed as soon as the condition becomes true, no matter where the flow of control is at the time.
+  A \texttt{while} loop's condition is constantly evaluated,
+  and the loop stops as soon as it becomes false.
+  Conversely,
+  the conditions in \texttt{if} statements are also constantly evaluated,
+  and their statements are executed as soon as the condition becomes true
+  regardless ofwhere the flow of control is at the time.
 
 \item
-  Assignment moves values, i.e., after \texttt{a\ =\ b}, the variable \texttt{b} is empty.
+  Assignment moves values,
+  i.e.,
+  after \texttt{a\ =\ b}, the variable \texttt{b} is empty.
 
 \end{itemize}
-
-Instead of looking directly at misconceptions, \cite{Muhl2016} analyzed 350 concept maps and compared those who had done a CS course and those who had not. Unsurprisingly, they found that the maps drawn by those with previous experience looked more like the maps experts would draw, but the details highlighted what exactly learners were taking away from their lessons: ``program'' was a central concept in both sets of concept maps, but the next most central for those with prior exposure were ``class'' (in the object-oriented sense) and ``data structure'', while for those without, they were ``processor'' and ``data''.
 
 \seclbl{What Mistakes Do Novices Make?}{s:pck-mistakes}
 
@@ -174,46 +265,70 @@ Some mistakes, however, are made many times, like invoking methods with the wron
 \cite{Brow2017} also compared the mistakes novices actually make with what their teachers thought they made. They found that, ``{\ldots}educators formed only a weak consensus about which mistakes are most frequent, that their rankings bore only a moderate correspondence to the students in the{\ldots}data, and that educators' experience had no effect on this level of agreement.'' For example, mistaking \texttt{=} (assignment) and \texttt{==} (equality) in loop condition tests wasn't nearly as common as most teachers believed.
 
 \begin{aside}{Not Just for Code}
-  \cite{Park2015} collected data from an online HTML editor during an introductory web development course. Nearly all learners made syntax errors that remained unresolved weeks into the course. 20\% of these errors related to the relatively complex rules that dictate \emph{when} it is valid for HTML elements to be nested in one another, but 35\% related to the simpler tag syntax determining \emph{how} HTML elements are nested. (The tendency of many instructors to say, ``But the rules are simple,'' is a good example of expert blind spot discussed in \chapref{s:memory}{\ldots})
+  \cite{Park2015} collected data from an online HTML editor during an introductory web development course
+  and found that nearly all learners made syntax errors that remained unresolved weeks into the course.
+  20\% of these errors related to the relatively complex rules
+  that dictate \emph{when} it is valid for HTML elements to be nested in one another,
+  but 35\% related to the simpler tag syntax determining \emph{how} HTML elements are nested.
+  The tendency of many instructors to say,
+  ``But the rules are simple,''
+  is a good example of expert blind spot discussed in \chapref{s:memory}{\ldots}
 \end{aside}
 
 \seclbl{What Are We Teaching Them Now?}{s:pck-now}
 
-Very little is known about what coding bootcamps and other free-range initiatives teach, in part because many are reluctant to share their curriculum. We do know more about what is taught in schools: \cite{Luxt2017} surveyed the topics included in introductory programming courses, categorized their findings under a dozen headings, and ranked them by frequency:
+Very little is known about what coding bootcamps and other free-range initiatives teach,
+in part because many are reluctant to share their curriculum.
+We know more about what is taught in schools~\cite{Luxt2017}:
 
 \begin{longtable}{lll}
-Topic & Number of Courses & (\%)\\
-Programming Process & 90 & (87\%)\\
-Abstract Programming Thinking & 65 & (63\%)\\
-Data Structures & 41 & (40\%)\\
-Object-Oriented Concepts & 37 & (36\%)\\
-Control Structures & 34 & (33\%)\\
-Operations \& Functions & 27 & (26\%)\\
-Data Types & 24 & (23\%)\\
-Input/Output & 18 & (17\%)\\
-Libraries & 15 & (15\%)\\
-Variables \& Assignment & 14 & (14\%)\\
-Recursion & 10 & (10\%)\\
-Pointers \& Memory Management & 5 & (5\%)\\
+Topic				&   \%\\
+Programming Process     	& 87\%\\
+Abstract Programming Thinking	& 63\%\\
+Data Structures      		& 40\%\\
+Object-Oriented Concepts        & 36\%\\
+Control Structures              & 33\%\\
+Operations \& Functions         & 26\%\\
+Data Types                      & 23\%\\
+Input/Output                    & 17\%\\
+Libraries                       & 15\%\\
+Variables \& Assignment         & 14\%\\
+Recursion                       & 10\%\\
+Pointers \& Memory Management   &  5\%
 \end{longtable}
 
-This paper also showed how concepts are connected. For example, it's impossible to explain how operator precedence works without first explaining a few operators, and difficult to explain those in a meaningful way without first introducing variables (because otherwise you're comparing constants in expressions like \texttt{5\textless{}3}, which is confusing).
+But there can be a world of difference between what instructors teach and what learners learn.
+To answer questions about the latter,
+we therefore have to use other measures or do direct studies.
+Taking the former approach,
+roughly two-thirds of post-secondary students pass their first computing course,
+with some variations depending on class size and so on,
+but with no significant differences over time or based on language~\cite{Benn2007a,Wats2014}.
 
-Similarly, \cite{Rich2017} reviewed a hundred articles to find learning trajectories for computing classes in elementary and middle schools, and presented results for sequencing, repetition, and conditionals. These are essentially collective concept maps, as they combine and rationalize the implicit and explicit thinking of many different educators. \figref{f:pck-trajectory} shows the learning trajectories for conditionals.
+How does prior experience affect these results?
+To find out,
+\cite{Wilc2018} compared the performance and confidence of novices with and without prior programming experience in CS1 and CS2.
+They found that novices with prior experience outscored novices without by 10\% in CS1,
+but those differences disappeared by the end of CS2.
+They also found that women with prior exposure outperformed their male peers in all areas,
+but were consistently less confident in their abilities (\secref{s:motivation-inclusivity}).
+
+As for direct studies of how much novices learn, \cite{McCr2001} presented a multi-site international study, which was later replicated by~\cite{Utti2013}. According to the first study, ``{\ldots}the disappointing results suggest that many students do not know how to program at the conclusion of their introductory courses.'' More specifically, ``For a combined sample of 216 students from four universities, the average score was 22.89 out of 110 points on the general evaluation criteria developed for this study.'' This result may say as much about teachers' expectations as it does about student ability, but either way, our fourth recommendation is to \recommendation{measure and track results} in ways that can be compared over time, so that you can tell if your lessons are becoming more or less effective.
+
+Similarly,
+\cite{Rich2017} reviewed a hundred articles to find learning trajectories for computing classes in elementary and middle schools,
+and presented results for sequencing, repetition, and conditionals.
+These are essentially collective concept maps,
+as they combine and rationalize the implicit and explicit thinking of many different educators.
+\figref{f:pck-trajectory} shows the learning trajectories for conditionals.
 
 \figlbl{figures/conditionals.pdf}{Learning Trajectory for Conditions from~\cite{Rich2017}}{f:pck-trajectory}
-
-But there can be a world of difference between what instructors teach and what learners learn, and study after study has shown that teaching evaluations don't correlate with actual learning outcomes \cite{Star2014,Uttl2017}. To find out how much novices are actually learning, we therefore have to use other measures or do direct studies. Taking the former approach, roughly two-thirds of post-secondary students pass their first computing course, with some variations depending on class size and so on, but with no significant differences over time or based on language~\cite{Benn2007a,Wats2014}.
-
-How does prior experience affect these results? To find out, \cite{Wilc2018} compared the performance and confidence of novices with and without prior programming experience in CS1 and CS2. They found that novices with prior experience outscored novices without by 10\% in CS1, but those differences disappeared by the end of CS2. They also found that women with prior exposure outperformed their male peers in all areas, but were consistently less confident in their abilities; we will return to this issue in \secref{s:motivation-inclusivity}.
-
-As for direct studies of how much novices learn, \cite{McCr2001} presented a multi-site international study, which was later replicated by~\cite{Utti2013}. According to the first study, ``{\ldots}the disappointing results suggest that many students do not know how to program at the conclusion of their introductory courses.'' More specifically, ``For a combined sample of 216 students from four universities, the average score was 22.89 out of 110 points on the general evaluation criteria developed for this study.'' This result may say as much about teachers' expectations as it does about student ability, but either way, our fourth recommendation is to \emph{measure and track results} in ways that can be compared over time, so that you can tell if your lessons are becoming more or less effective.
 
 \seclbl{Do Languages Matter?}{s:pck-language}
 
 The short answer is ``yes'': novices learn to program faster and also learn more using blocks-based tools like Scratch (\figref{f:pck-scratch}) that make syntax errors impossible \cite{Wein2017b}. And block interfaces encourage exploration in a way that text does not; like all good tools, Scratch can be learned accidentally~\cite{Malo2010}.
 
-Our fifth recommendation is therefore to \emph{start children and teens with blocks-based interfaces} before moving to text-based systems. The age qualification is there because Scratch (deliberately) looks like it's meant for younger users; while imitators like \hreffoot{https://developers.google.com/blockly/}{Blockly} look more grown-up, it can still be hard to convince adults to take them seriously.
+Our fifth recommendation is therefore to \recommendation{start children and teens with blocks-based interfaces} before moving to text-based systems. The age qualification is there because Scratch (deliberately) looks like it's meant for younger users; while imitators like \hreffoot{https://developers.google.com/blockly/}{Blockly} look more grown-up, it can still be hard to convince adults to take them seriously.
 
 \figlbl{figures/scratch.jpg}{Scratch (from \url{https://opensource.com/article/18/4/designing-game-scratch-open-jam})}{f:pck-scratch}
 
@@ -225,30 +340,55 @@ nested loops) the differences become larger.
 \cite{Wein2017a} studied people using a tool that allowed them to switch between blocks and text for programming. They found that learners tend to migrate from blocks to text over time, but when learners shifted from text to blocks, their next action was to add a new type of command. This may be because browsing available commands is easier with blocks, or because blocks make syntax errors with unfamiliar new commands impossible. The authors say, ``While it is often claimed that blocks-based programming environments offer the advantage of reducing syntax errors, our findings suggest that blocks also offer information about what is possible in the space and provide a low-stakes means of exploring unfamiliar code.'' New tools like \hreffoot{https://www.greenfoot.org/frames/}{Stride} are trying to smooth the transition between blocks and text even further; when combined with programming notebooks like \hreffoot{http://jupyter.org/}{Jupyter} and \hreffoot{http://stenci.la/}{Stencila}, they may eventually eliminate the distinction altogether.
 
 \begin{aside}{Harder Than Necessary}
-  \cite{Stef2013} has shown that the creators of programming language make those languages harder to learn by not doing basic usability testing. For example, ``{\ldots}the three most common words for looping in computer science, \texttt{for}, \texttt{while}, and \texttt{foreach}, were rated as the three most unintuitive choices by non-programmers.'' More fundamentally, their work shows that C-style syntax (as used in Java and Perl) is just as hard for novices to learn as a randomly-designed syntax, but that the syntax of languages such as Python and Ruby is significantly easier to learn, and the syntax of their own language, Quorum, is easier still, because they are testing each new feature before adding it to the language. (\cite{Stef2017} is a useful brief summary of what we actually know about designing programming languages and why we believe it's true.)
+  The creators of programming language make those languages harder to learn by not doing basic usability testing.
+  For example,
+  \cite{Stef2013} found that,
+  ``{\ldots}the three most common words for looping in computer science,
+  \texttt{for}, \texttt{while}, and \texttt{foreach},
+  were rated as the three most unintuitive choices by non-programmers.''
+  Their work shows that C-style syntax (as used in Java and Perl)
+  is just as hard for novices to learn as a randomly-designed syntax,
+  but that the syntax of languages such as Python and Ruby is significantly easier to learn,
+  and the syntax of a language whose features are tested before being added to the language is easier still.
+  \cite{Stef2017} is a useful brief summary of what we actually know about designing programming languages
+  and why we believe it's true.
 \end{aside}
 
-\subsection*{Object-Oriented and Functional Programming}
+\subsection*{Object-Oriented Programming}
 
-FIXME: cut down
+Objects and classes are power tools for experienced programmers,
+and many educators advocate an ``objects first'' approach to teaching programming
+(though they sometimes disagree on exactly what that means~\cite{Benn2007b}).
+\cite{Sorv2014} describes and motivates this approach,
+and~\cite{Koll2015} describes three generations of tools
+designed to support novice programming in object-oriented environments.
 
-Objects and classes are power tools for experienced programmers, and many educators advocate an ``objects first'' approach to teaching programming (though they sometimes disagree on exactly what that means~\cite{Benn2007b}). \cite{Sorv2014} describes and motivates this approach, and~\cite{Koll2015} describes three generations of tools designed to support novice programming in object-oriented environments.
-
-Introducing objects early has a few special challenges. \cite{Mill2016b} found that most novices using Python struggled to understand \texttt{self} (which refers to ``this object''): they omitted it in method definitions, failed to use it when referencing object attributes, or both. Object reference errors were also more common than other errors; the authors speculate that this is partly due to the difference in syntax between \texttt{obj.method(param)} and \texttt{def\ method(self,\ param)}. \cite{Rago2017} found something similar in high school students, and that high school teachers often weren't clear on the concept either.
-
-Another approach is exemplified by the \hreffoot{http://www.bootstrapworld.org/}{Bootstrap project}, which is based on the \gref{g:functional-programming}{functional programming} paradigm. This work draws on a rich tradition going back to languages like Scheme and Lisp, and to classic textbooks like \cite{Fell2001,Frie1995,Abel1996}. If functional programming continues to gain ground among professional programmers, this approach may grow more popular for teaching.
-
-On balance, we recommend that instructors \emph{use procedural languages} to start with, i.e., that defining classes and using higher-order functions not be taught until learners understand basic control structures and data types. How quickly these topics should be introduced depends on the audience: if learners want to build web applications in JavaScript, for example, they're going to have to master callbacks much earlier than if they want to generate reports using C\#.
+Introducing objects early has a few challenges.
+\cite{Mill2016b} found that most novices using Python struggled to understand \texttt{self}
+(which refers to the current object):
+they omitted it in method definitions,
+failed to use it when referencing object attributes,
+or both.
+Object reference errors were also more common than other errors;
+the authors speculate that this is partly due to the difference in syntax
+between \texttt{obj.method(param)} and \texttt{def\ method(self,\ param)}.
+\cite{Rago2017} found something similar in high school students,
+and that high school teachers often weren't clear on the concept either.
+On balance,
+we recommend that instructors \recommendation{use procedural languages} to start with,
+i.e.,
+that learners not be taught how to define classes until they understand basic control structures and data types.
 
 \subsection*{Type Declarations}
 
-Programmers have argued for decades about whether variables' data types should have to be declared or not. One recent empirical finding is \cite{Gao2017}, which found that about 15\% of bugs in JavaScript programs could be caught by requiring type declarations, which is either high or low depending on what answer you wanted in the first place.
+Programmers have argued for decades about whether variables' data types should have to be declared or not,
+usually based on their personal experience as professionals
+rather than on any kind of data.
+\cite{Endr2014,Fisc2015} found that requiring novices to declare variable types does add some complexity to programs,
+but it pays off fairly quickly by acting as documentation for a method's use---in particular,
+by forestalling questions about what's available and how to use it.
 
-However, programming and learning to program are different activities, and results from the former don't necessarily apply to the latter. \cite{Endr2014} found that requiring novices to declare variable types does add some complexity to programs, but it pays off fairly quickly by acting as documentation for a method's use---in particular, by forestalling questions about what's available and how to use it.
-
-We don't know enough yet to recommend typed or untyped languages for novices. Now that Python allows optional typing, though, it may be feasible for researchers to explore whether it can or should be introduced gradually.
-
-\subsection*{Does Variable Naming Style Matter?}
+\subsection*{Variable Naming Style}
 
 \cite{Kern1999} says, ``Programmers are often encouraged to use long variable names regardless of context. This is a mistake: clarity is often achieved through brevity.'' Lots of programmers believe this, but \cite{Hofm2017} found that using full words in variable names led to an average of 19\% faster comprehension compared to letters and abbreviations.
 
@@ -256,7 +396,7 @@ In contrast, \cite{Beni2017} found that using single-letter variable names didn'
 
 How important is this? \cite{Bink2012} reported a series of studies that found that reading and understanding code is fundamentally different from reading prose: ``{\ldots}the more formal structure and syntax of source code allows programmers to assimilate and comprehend parts of the code quite rapidly independent of style. In particular{\ldots}beacons and program plans play a large role in comprehension.'' It also found that experienced developers are relatively unaffected by identifier style, so our recommendation is just to use consistent style in all examples.
 
-Since most languages have style guides (e.g., \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} for Python) and tools to check that code follows these guidelines, our full recommendation is to \emph{use tools to ensure that all code examples adhere to a consistent style}.
+Since most languages have style guides (e.g., \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} for Python) and tools to check that code follows these guidelines, our full recommendation is to \recommendation{use tools to ensure that all code examples adhere to a consistent style}.
 
 \seclbl{Does Better Feedback Help?}{s:pck-error}
 
@@ -280,7 +420,7 @@ If "string" refers to a datatype, capitalize the 's'!
 
 Sure enough, novices given these messages made fewer repeated errors and fewer errors overall.
 
-\cite{Bari2017} went further and used eye tracking to show that despite the grumblings of compiler writers, people really do read error messages---in fact, they spend 13--25\% of their time doing this. However, reading error messages turns out to be as difficult as reading source code, and how difficult it is to read the error messages strongly predicts task performance. Instructors should therefore \emph{give learners practice in reading and interpreting error messages}. \cite{Marc2011} has a rubric for responses to error messages that can be useful in grading such exercises.
+\cite{Bari2017} went further and used eye tracking to show that despite the grumblings of compiler writers, people really do read error messages---in fact, they spend 13--25\% of their time doing this. However, reading error messages turns out to be as difficult as reading source code, and how difficult it is to read the error messages strongly predicts task performance. Instructors should therefore \recommendation{give learners practice in reading and interpreting error messages}. \cite{Marc2011} has a rubric for responses to error messages that can be useful in grading such exercises.
 
 \subsection*{Does Visualization Help?}
 
@@ -288,7 +428,7 @@ The idea of visualizing programs is perennially popular, and tools like~\cite{Gu
 
 To answer this, \cite{Cunn2017} replicated an earlier study of the kinds of sketching students do when tracing code execution. They found that not sketching at all correlates with lower success, while tracing changes to variables' values by writing new values near their names as they change was the most effective strategy (\figref{f:pck-sketch}).
 
-One possible confounding effect they checked was time: since sketchers take significantly more time to solve problems, do they do better just because they think for longer? The answer is no: there was no correlation between the time taken and the score achieved. Our recommendation is therefore to \emph{teach students to trace variables' values when debugging}.
+One possible confounding effect they checked was time: since sketchers take significantly more time to solve problems, do they do better just because they think for longer? The answer is no: there was no correlation between the time taken and the score achieved. Our recommendation is therefore to \recommendation{teach students to trace variables' values when debugging}.
 
 \begin{aside}{Flowcharts}
   One often-overlooked finding about visualization is that students understand flowcharts better than pseudocode \emph{if both are equally well structured}~\cite{Scan1989}. Earlier work showing that pseudocode outperformed flowcharts used structured pseudocode and tangled flowcharts; when the playing field was levelled, novices did better with the graphical representation.
@@ -362,7 +502,7 @@ How would you check how accurate your list is?
 
 \exercise{Checking for Common Errors}{individual}{20}
 
-These common errors are taken from~\cite{Sirk2012}:
+These common errors are taken from a longer list in~\cite{Sirk2012}:
 
 \begin{description}
 
@@ -418,8 +558,8 @@ the program prints the average of the numbers seen.
 
 \exercise{Roles of Variables}{pairs}{15}
 
-The \hreffoot{http://saja.kapsi.fi/var\_roles/}{Roles of Variables website}
-describes the following single-variable patterns:
+\cite{Kuit2004,Byck2005,Saja2006} presented a set of single-variable patterns
+that I have found very useful in teaching beginners:
 
 \begin{description}
 
