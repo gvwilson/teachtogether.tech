@@ -1,13 +1,14 @@
-.PHONY : all check clean commands everything html once pages pdf remaining settings
+.PHONY : all check clean commands everything html once pages pdf settings words
 
 # Commands
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
 PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2 --csl=chicago.csl
 
-# File(s)
+# Files
 TEX=$(wildcard *.tex)
 SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls) $(wildcard *.csl)
+TEX_CHAPTERS=$(filter-out %-settings.tex,${TEX})
 HTML=docs/index.html
 PDF=book.pdf
 FIGURES_SRC=$(wildcard figures/*)
@@ -86,18 +87,19 @@ clean :
 pages : ${PDF}
 	@python bin/pages.py book.log book.toc
 
-## remaining      : count work to be done.
-remaining :
-	@wc -w $$(fgrep chaplbl ${TEX} | fgrep FIXME | cut -d ':' -f 1) | sort -n -r
-
 ## settings       : show settings.
 settings :
 	@echo LATEX ${LATEX}
 	@echo BIBTEX ${BIBTEX}
 	@echo PANDOC ${PANDOC}
 	@echo TEX ${TEX}
+	@echo TEX_CHAPTERS ${TEX_CHAPTERS}
 	@echo SRC ${SRC}
 	@echo HTML ${HTML}
 	@echo PDF ${PDF}
 	@echo FIG_SRC ${FIG_SRC}
 	@echo FIG_DST ${FIG_DST}
+
+## words          : count words
+words :
+	@texcount -brief ${TEX_CHAPTERS} | sed -e 's/\+.*://g' -e 's/+.* Total//g' | sort -n -r

@@ -62,7 +62,7 @@
 <li><a href="#s:process-maintainability">Maintainability</a></li>
 <li><a href="#s:process-exercises">Exercises</a></li>
 </ul></li>
-<li><a href="#s:pck">Actionable Approximations of the Truth</a><ul>
+<li><a href="#s:pck">Pedagogical Content Knowledge</a><ul>
 <li><a href="#s:pck-programming">How Do Novices Program?</a></li>
 <li><a href="#s:pck-debug">How Do Novices Debug and Test?</a></li>
 <li><a href="#s:pck-misunderstand">What Misconceptions Do Novices Have?</a></li>
@@ -808,6 +808,8 @@ define make_acronym(list_of_words):
 <p>Write a one-page guide to doing something that your learners might encounter in one of your classes, such as centering text horizontally or printing a number with a certain number of digits after the decimal point. Try to list at least three or four incorrect behaviors or outcomes the learner might see and include a one- or two-line explanation of why each happens and how to correct it.</p>
 <h3 id="cognitive-apprenticeship-pairs15" class="unnumbered">Cognitive Apprenticeship (pairs/15)</h3>
 <p>Pick a coding problem that you can do in two or three minutes and think aloud as you work through it while your partner asks questions about what you’re doing and why. Do not just explain what you’re doing, but also why you’re doing it, how you know it’s the right thing to do, and what alternatives you’ve considered but discarded. When you are done, swap roles with your partner and repeat the exercise.</p>
+<h3 id="worked-examples-pairs15" class="unnumbered">Worked Examples (pairs/15)</h3>
+<p>Seeing worked examples helps students learn to program faster than just writing lots of code [<a class="cite" href="#ref-Skud2014">Skud2014</a>], and deconstructing code by tracing it or debugging it also increases learning [<a class="cite" href="#ref-Grif2016">Grif2016</a>]. Working in pairs, go through a 10–15 line piece of code and explain what every statement does and why it is necessary. How long does it take? How many things do you feel you need to explain per line of code?</p>
 <h3 id="critiquing-graphics-individual30" class="unnumbered">Critiquing Graphics (individual/30)</h3>
 <p>[<a class="cite" href="#ref-Maye2009">Maye2009</a>] presents six principles for designing good diagrams for teaching. As summarized in [<a class="cite" href="#ref-Mill2016a">Mill2016a</a>], they are:</p>
 <dl>
@@ -1109,8 +1111,10 @@ This starts with an active verb, defines the level of learning, and provides con
 <p>Take a program or web page that you want your learners to be able to create and work backward to break it into digestible parts. How many are there? What key idea is introduced by each one?</p>
 <h3 id="inessential-weirdness-individual15" class="unnumbered">Inessential Weirdness (individual/15)</h3>
 <p>Betsy Leondar-Wright coined the phrase “<a href="http://www.classmatters.org/2006_07/its-not-them.php">inessential weirdness</a>” to describe things groups do that aren’t really necessary, but which alienate people who aren’t yet members of that group. Sumana Harihareswara later used this notion as the basis for a talk on <a href="https://www.harihareswara.net/sumana/2016/05/21/0">inessential weirdnesses in open source software</a>, which includes things like using command-line tools with cryptic names. Take a few minutes to read these articles, then make a list of inessential weirdnesses you think your learners might encounter when you first teach them. How many of these can you avoid?</p>
+<h3 id="pete-individual15" class="unnumbered">PETE (individual/15)</h3>
+<p>One pattern that works well for programming lessons is PETE: introduce the <strong>P</strong>roblem, work through an <strong>E</strong>xample, explain the <strong>T</strong>heory, and then <strong>E</strong>laborate on a second example so that learners can see what is specific to each case and what applies to all cases. Pick something you have recently taught or been taught and outline a short lesson for it that follows these five steps.</p>
 <h3 id="primm-individual15" class="unnumbered">PRIMM (individual/15)</h3>
-<p>One approach to introducing new ideas in computing is PRIMM [<a class="cite" href="#ref-Sent2019">Sent2019</a>]: <strong>P</strong>redict a program’s behavior or output, <strong>R</strong>un it to see what it actually does, <strong>I</strong>nvestigate why it does that by stepping through it in a debugger or drawing the flow of control, <strong>M</strong>odify it (or its inputs), and then <strong>M</strong>ake something similar from scratch. Pick something you have recently taught or been taught and outline a short lesson for it that follows these five steps.</p>
+<p>Another lesson pattern is PRIMM [<a class="cite" href="#ref-Sent2019">Sent2019</a>]: <strong>P</strong>redict a program’s behavior or output, <strong>R</strong>un it to see what it actually does, <strong>I</strong>nvestigate why it does that by stepping through it in a debugger or drawing the flow of control, <strong>M</strong>odify it (or its inputs), and then <strong>M</strong>ake something similar from scratch. Pick something you have recently taught or been taught and outline a short lesson for it that follows these five steps.</p>
 <h3 id="concrete-representational-abstract-pairs15" class="unnumbered">Concrete-Representational-Abstract (pairs/15)</h3>
 <p><a href="https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/">Concrete-Representational-Abstract</a> (CRA) is an approach to introducing new ideas that is used primarily with younger learners: physically manipulate a <strong>C</strong>oncrete object, <strong>R</strong>epresent the object with an image, then perform the same operations using numbers, symbols, or some other <strong>A</strong>bstraction.</p>
 <ol>
@@ -1120,22 +1124,32 @@ This starts with an active verb, defines the level of learning, and provides con
 <li><p>Write instructions that someone else could follow to go through the same steps (abstract).</p></li>
 </ol>
 <p>Compare your representational and abstract materials with your partner’s.</p>
-<h1 id="s:pck">Actionable Approximations of the Truth</h1>
-<p>Seeing worked examples accelerates learning more than having students write lots of code themselves [<a class="cite" href="#ref-Skud2014">Skud2014</a>]. As we will see in Chapter <a href="#s:pck" data-reference-type="ref" data-reference="s:pck">7</a>, deconstructing code by tracing it or debugging it also increases the efficiency of learning [<a class="cite" href="#ref-Grif2016">Grif2016</a>].</p>
+<h1 id="s:pck">Pedagogical Content Knowledge</h1>
 <p>Every instructor needs three things:</p>
-<ul>
-<li><p><a href="#g:content-knowledge"><strong>content knowledge</strong></a>, such as how to program;</p></li>
-<li><p><a href="#g:general-pedagogical-knowledge"><strong>general pedagogical knowledge</strong></a>, such as an understanding of the psychology of learning; and</p></li>
-<li><p><a href="#g:pedagogical-content-knowledge"><strong>pedagogical content knowledge</strong></a> (PCK), which is the domain-specific knowledge of how to teach a particular concept to a particular audience.</p></li>
-</ul>
-<p>In computing, PCK includes things like what examples to use when teaching how parameters are passed to a function, or what misconceptions about nesting HTML tags are most common. This chapter summarizes some results from research into teaching and learning programming that will add to your store of PCK.</p>
-<p>Computing education research is still a young discipline: while the American Society for Engineering Education was founded in 1893, and the National Council of Teachers of Mathematics in 1920, the Computer Science Teachers Association didn’t exist until 2005. The simple truth is that we don’t know as much about how people learn to program as we do about how they learn to read, play a sport, or do basic arithmetic. However, conferences like <a href="http://sigcse.org/">SIGCSE</a>, <a href="http://iticse.acm.org/">ITiCSE</a> and <a href="https://icer.hosting.acm.org">ICER</a> are delivering an ever-increasing stream of rigorous, insightful studies with practical application. (For those interested in methods these studies rely on,[<a class="cite" href="#ref-Ihan2016">Ihan2016</a>] summarizes the ones used most often.)</p>
-<p>As with all research, though, some caution is required to interpret these results. Most studies look at school children and university undergraduates, both because those are the populations that researchers have easiest access to [<a class="cite" href="#ref-Henr2010">Henr2010</a>] and because those are the ages at which people most often learn to program; less is known about adults learning to program in free-range settings.</p>
-<p>Theories may change as more and better data becomes available, so if this was an academic treatise, it would preface most claims with statements like, “Research may seem to indicate that<span>…</span>” However, since actual teachers in actual classrooms have to make decisions regardless of whether research has clear answers yet or not, this chapter presents actionable approximations of the truth rather than nuanced perhapses.</p>
+<dl>
+<dt><a href="#g:content-knowledge"><strong>content knowledge</strong></a></dt>
+<dd><p>such as how to program;</p>
+</dd>
+<dt><a href="#g:general-pedagogical-knowledge"><strong>general pedagogical knowledge</strong></a></dt>
+<dd><p>such as an understanding of the psychology of learning; and</p>
+</dd>
+<dt><a href="#g:pedagogical-content-knowledge"><strong>pedagogical content knowledge</strong></a></dt>
+<dd><p>(PCK), which is the domain-specific knowledge of how to teach a particular concept to a particular audience. In computing, PCK includes things like what examples to use when teaching how parameters are passed to a function or what misconceptions about nesting HTML tags are most common.</p>
+</dd>
+</dl>
+<p>This chapter summarizes some results from computing education research (CER) that will add to your store of PCK<a href="#fn112" class="footnote-ref" id="fnref112" role="doc-noteref"><sup>112</sup></a>. As with all research, though, some caution is required when interpreting the results:</p>
+<dl>
+<dt>Theories change as more data becomes available.</dt>
+<dd><p>CER is a young discipline: the American Society for Engineering Education was founded in 1893 and the National Council of Teachers of Mathematics in 1920, but the Computer Science Teachers Association didn’t exist until 2005. While a steady stream of new insights are reported at conferences like <a href="http://sigcse.org/">SIGCSE</a>, <a href="http://iticse.acm.org/">ITiCSE</a>, and <a href="https://icer.hosting.acm.org">ICER</a>, we simply don’t know as much about learning to program as we do about learning to read, play a sport, or do basic arithmetic.</p>
+</dd>
+<dt>Most of these studies’ subjects are WEIRD:</dt>
+<dd><p>they are from Western, education, industrialized, rich, and democratic societies [<a class="cite" href="#ref-Henr2010">Henr2010</a>]. What’s more, they are also mostly young and in institutional classrooms, since that’s the population most researchers have easiest access to. We know much less about adults, members of marginalized groups, learners in free-range settings, or <a href="#g:end-user-programmer"><strong>end-user programmers</strong></a>, even though there are far more of them.</p>
+</dd>
+</dl>
+<p>If this was an academic treatise, I would therefore preface most claims with qualifiers like, “Some research may seem to indicate that<span>…</span>” But since actual teachers in actual classrooms have to make decisions regardless of whether research has clear answers yet or not, this chapter presents actionable best guesses rather than nuanced perhapses.</p>
 <blockquote>
 <h4 id="jargon" class="unnumbered">Jargon</h4>
-<p>Like any specialty, computing education research has its jargon. The term <a href="#g:cs1"><strong>CS1</strong></a> refers to an introductory semester-long programming course in which learners meet variables, loops, and functions for the first time, while <a href="#g:cs2"><strong>CS2</strong></a> refers to a second course that covers basic data structures like stacks and queues. The term <a href="#g:cs0"><strong>CS0</strong></a> is also now being used to refer to an introductory course for people without any prior experience who aren’t intending to continue with computing (at least not right away).</p>
-<p>A CS1 course is often useful for undergraduates in other disciplines; a CS2 course designed for computer science learners is usually less relevant for artists, ecologists, and other <a href="#g:end-user-programmer"><strong>end-user programmers</strong></a>, but is sometimes the only next step available at their institution. Full definitions for these terms and others can be found in the <a href="https://www.acm.org/education/curricula-recommendations">ACM Curriculum Guidelines</a>.</p>
+<p>Like any specialty, computing education research has its jargon. The term <a href="#g:cs1"><strong>CS1</strong></a> refers to a typical introductory semester-long programming course in which learners meet variables, loops, and functions for the first time, while <a href="#g:cs2"><strong>CS2</strong></a> refers to a second course that covers basic data structures like stacks and queues. The term <a href="#g:cs0"><strong>CS0</strong></a> is used to refer to an introductory course for people without any prior experience who aren’t intending to continue with computing right away. Full definitions for these terms and others can be found in the <a href="https://www.acm.org/education/curricula-recommendations">ACM Curriculum Guidelines</a>.</p>
 </blockquote>
 <h2 id="s:pck-programming">How Do Novices Program?</h2>
 <p>[<a class="cite" href="#ref-Solo1984">Solo1984</a>,<a class="cite" href="#ref-Solo1986">Solo1986</a>] pioneered the exploration of novice and expert programming strategies. The key finding is that experts know both “what” and “how”, i.e., they understand what to put into programs <em>and</em> they have a set of patterns or plans to guide their construction. Novices lack both, but most teachers focus solely on the former, even though bugs are often caused by not having a strategy for solving the problem rather than to lack of knowledge about the language.</p>
@@ -1143,42 +1157,7 @@ This starts with an active verb, defines the level of learning, and provides con
 <p>When demonstrating the act of programming, teachers should emphasize the importance of small steps with frequent feedback [<a class="cite" href="#ref-Blik2014">Blik2014</a>]. They should also emphasize the importance of picking a plan and sticking to it rather than making more-or-less random changes to the program and hoping that they’ll work—as [<a class="cite" href="#ref-Spoh1985">Spoh1985</a>] found, merging plans and/or goals can yield bugs because of goals being dropped or fragmented.</p>
 <p>Another aspect of “how” that teachers should present and discuss is the order in which code is written.[<a class="cite" href="#ref-Ihan2011">Ihan2011</a>] describes a tool for solving Parsons Problems. They found that experienced programmers often drag the method signature to the beginning, then add the majority of the control flow (i.e., loops and conditionals), and only then add details like variable initialization and handling of corner cases. This out-of-order authoring is foreign to novices, who read and write code in the order it’s presented on the page; again, one of the benefits of live coding (Section <a href="#s:performance-live" data-reference-type="ref" data-reference="s:performance-live">8.4</a>) is that it gives them a chance to see the sequence that more advanced programmers actually use.</p>
 <h3 id="roles-of-variables" class="unnumbered">Roles of Variables</h3>
-<p>One body of work that I have found very useful in teaching programming plans to novices is the collection of single-variable design patterns in [<a class="cite" href="#ref-Kuit2004">Kuit2004</a>,<a class="cite" href="#ref-Byck2005">Byck2005</a>,<a class="cite" href="#ref-Saja2006">Saja2006</a>]. Labelling the parts of novices’ programs gives them a vocabulary to think with and a set of programming plans for constructing code of their own. The patterns are listed on the <a href="http://saja.kapsi.fi/var_roles/">Roles of Variables website</a>, which also includes examples of each:</p>
-<dl>
-<dt>Fixed value:</dt>
-<dd><p>A data item that does not get a new proper value after its initialization.</p>
-</dd>
-<dt>Stepper:</dt>
-<dd><p>A data item stepping through a systematic, predictable succession of values.</p>
-</dd>
-<dt>Walker:</dt>
-<dd><p>A data item traversing in a data structure.</p>
-</dd>
-<dt>Most-recent holder:</dt>
-<dd><p>A data item holding the latest value encountered in going through a succession of unpredictable values, or simply the latest value obtained as input.</p>
-</dd>
-<dt>Most-wanted holder:</dt>
-<dd><p>A data item holding the best or otherwise most appropriate value encountered so far.</p>
-</dd>
-<dt>Gatherer:</dt>
-<dd><p>A data item accumulating the effect of individual values.</p>
-</dd>
-<dt>Follower:</dt>
-<dd><p>A data item that gets its new value always from the old value of some other data item.</p>
-</dd>
-<dt>One-way flag:</dt>
-<dd><p>A two-valued data item that cannot get its initial value once the value has been changed.</p>
-</dd>
-<dt>Temporary:</dt>
-<dd><p>A data item holding some value for a very short time only.</p>
-</dd>
-<dt>Organizer:</dt>
-<dd><p>A data structure storing elements that can be rearranged.</p>
-</dd>
-<dt>Container:</dt>
-<dd><p>A data structure storing elements that can be added and removed.</p>
-</dd>
-</dl>
+<p>FIXME: Labelling the parts of novices’ programs gives them a vocabulary to think with and a set of programming plans for constructing code of their own.[<a class="cite" href="#ref-Kuit2004">Kuit2004</a>,<a class="cite" href="#ref-Byck2005">Byck2005</a>,<a class="cite" href="#ref-Saja2006">Saja2006</a>] presented a set of single-variable patterns that I have found very useful in teaching beginners.</p>
 <h2 id="s:pck-debug">How Do Novices Debug and Test?</h2>
 <p>A decade ago,[<a class="cite" href="#ref-McCa2008">McCa2008</a>] wrote, “It is surprising how little page space is devoted to bugs and debugging in most introductory programming textbooks.” Little has changed since: there are hundreds of books on compilers and operating systems, but only a handful about debugging, and I have never seen an undergraduate course on the subject. One reason is that debugging is a “how” rather than a “what”; again, one of the benefits of live coding is that it gives teachers a chance to demonstrate the process in a way that textbooks cannot (Section <a href="#s:performance-live" data-reference-type="ref" data-reference="s:performance-live">8.4</a>).</p>
 <p>[<a class="cite" href="#ref-List2004">List2004</a>,<a class="cite" href="#ref-List2009">List2009</a>] found that many novices struggled to predict the output of short pieces of code and to select the correct completion of the code from a set of possibilities when told what it was supposed to do. More recently,[<a class="cite" href="#ref-Harr2018">Harr2018</a>] found that the gap between being able to trace code and being able to write it has largely closed by CS2, but that novices who still have a gap (in either direction) are likely to do poorly in the course.</p>
@@ -1310,6 +1289,7 @@ print(total)</code></pre>
 <p>[<a class="cite" href="#ref-Stef2013">Stef2013</a>] has shown that the creators of programming language make those languages harder to learn by not doing basic usability testing. For example, “<span>…</span>the three most common words for looping in computer science, <code>for</code>, <code>while</code>, and <code>foreach</code>, were rated as the three most unintuitive choices by non-programmers.” More fundamentally, their work shows that C-style syntax (as used in Java and Perl) is just as hard for novices to learn as a randomly-designed syntax, but that the syntax of languages such as Python and Ruby is significantly easier to learn, and the syntax of their own language, Quorum, is easier still, because they are testing each new feature before adding it to the language. ([<a class="cite" href="#ref-Stef2017">Stef2017</a>] is a useful brief summary of what we actually know about designing programming languages and why we believe it’s true.)</p>
 </blockquote>
 <h3 id="object-oriented-and-functional-programming" class="unnumbered">Object-Oriented and Functional Programming</h3>
+<p>FIXME: cut down</p>
 <p>Objects and classes are power tools for experienced programmers, and many educators advocate an “objects first” approach to teaching programming (though they sometimes disagree on exactly what that means [<a class="cite" href="#ref-Benn2007b">Benn2007b</a>]).[<a class="cite" href="#ref-Sorv2014">Sorv2014</a>] describes and motivates this approach, and [<a class="cite" href="#ref-Koll2015">Koll2015</a>] describes three generations of tools designed to support novice programming in object-oriented environments.</p>
 <p>Introducing objects early has a few special challenges.[<a class="cite" href="#ref-Mill2016b">Mill2016b</a>] found that most novices using Python struggled to understand <code>self</code> (which refers to “this object”): they omitted it in method definitions, failed to use it when referencing object attributes, or both. Object reference errors were also more common than other errors; the authors speculate that this is partly due to the difference in syntax between <code>obj.method(param)</code> and <code>def method(self, param)</code>.[<a class="cite" href="#ref-Rago2017">Rago2017</a>] found something similar in high school students, and that high school teachers often weren’t clear on the concept either.</p>
 <p>Another approach is exemplified by the <a href="http://www.bootstrapworld.org/">Bootstrap project</a>, which is based on the <a href="#g:functional-programming"><strong>functional programming</strong></a> paradigm. This work draws on a rich tradition going back to languages like Scheme and Lisp, and to classic textbooks like.[<a class="cite" href="#ref-Fell2001">Fell2001</a>,<a class="cite" href="#ref-Frie1995">Frie1995</a>,<a class="cite" href="#ref-Abel1996">Abel1996</a>] If functional programming continues to gain ground among professional programmers, this approach may grow more popular for teaching.</p>
@@ -1326,7 +1306,7 @@ print(total)</code></pre>
 <h2 id="s:pck-error">Does Better Feedback Help?</h2>
 <p>Incomprehensible error messages are a major source of frustration for novices (and sometimes for experienced programmers as well). Several researchers have therefore explored whether better error messages would help alleviate this. For example,[<a class="cite" href="#ref-Beck2016">Beck2016</a>] rewrote some of the Java compiler’s messages so that instead of:</p>
 <pre class="text"><code>C:\stj\Hello.java:2: error: cannot find symbol
-        public static void main(string[ ] args){
+        public static void main(string[ ] args)
 ^
 1 error
 Process terminated ... there were problems.</code></pre>
@@ -1385,57 +1365,100 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p>As noted earlier, writing code isn’t the only way to teach people how to program.[<a class="cite" href="#ref-Shel2017">Shel2017</a>] reports that having novices work on computational creativity exercises improves grades at several levels. A typical exercise is to identify an everyday object (such as nail clipper, a paper clip, Scotch tape) and describe the object in terms of its inputs, outputs and functions. This kind of teaching is sometimes called “unplugged”; the <a href="https://csunplugged.org/en/">CS Unplugged</a> site has a collection of lessons and exercises for doing this.</p>
 <blockquote>
 <h4 id="breaking-the-law" class="unnumbered">Breaking the Law</h4>
-<p>Much of the research reported in this chapter was publicly funded, but is locked away behind paywalls. At a guess, I broke the law roughly 250 times to download papers from sites like Sci-Hub. I hope the day is coming when no one will need to do that; if you are a researcher, please hasten that day by publishing your research in open access venues or by posting copies on open preprint servers.</p>
+<p>Much of the research reported in this chapter was publicly funded but is locked away behind paywalls. At a guess, I broke the law 250 times to download papers from sites like <a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci-Hub</a> while writing this book. I hope the day is coming when no one will need to do that; if you are a researcher, please hasten that day by publishing your research in open access venues.</p>
 </blockquote>
 <h2 id="s:pck-exercises">Exercises</h2>
+<h3 id="your-learners-misunderstandings-small-groups15" class="unnumbered">Your Learners’ Misunderstandings (small groups/15)</h3>
+<p>Working in small groups, re-read Section <a href="#s:pck-misunderstand" data-reference-type="ref" data-reference="s:pck-misunderstand">7.3</a> and make a list of misconceptions you think your learners have. How specific are they? How would you check how accurate your list is?</p>
 <h3 id="checking-for-common-errors-individual20" class="unnumbered">Checking for Common Errors (individual/20)</h3>
-<p>This list of common errors is taken from [<a class="cite" href="#ref-Sirk2012">Sirk2012</a>]. Pick three, and write an exercise for each to check that learners <em>aren’t</em> making that mistake.</p>
+<p>These common errors are taken from [<a class="cite" href="#ref-Sirk2012">Sirk2012</a>]:</p>
 <dl>
 <dt>Inverted assignment:</dt>
-<dd><p>The student assigns the value of the left-hand variable to the right-hand side variable, rather than the other way around.</p>
+<dd><p>The learner assigns the value of the left-hand variable to the right-hand variable rather than the other way around.</p>
 </dd>
 <dt>Wrong branch:</dt>
-<dd><p>Even though the conditional evaluates to <code>False</code>, the student jumps to the <code>then</code> clause.</p>
-</dd>
-<dt>Wrong <code>False</code>:</dt>
-<dd><p>As soon as the conditional evaluates to <code>False</code> , the student returns <code>False</code> from the function.</p>
+<dd><p>The learner thinks the code in the body of an <code>if</code> is run even if the condition is false.</p>
 </dd>
 <dt>Executing function instead of defining it:</dt>
 <dd><p>The student believes that a function is executed as it is defined.</p>
 </dd>
-<dt>Unevaluated parameters:</dt>
-<dd><p>The student believes the function starts running before the parameters have been evaluated.</p>
+</dl>
+<p>Write one exercise for each to check that learners <em>aren’t</em> making that mistake.</p>
+<h3 id="mangled-code-pairs15" class="unnumbered">Mangled Code (pairs/15)</h3>
+<p>[<a class="cite" href="#ref-Chen2017">Chen2017</a>] describes exercises in which students reconstruct code that has been mangled by removing comments, deleting or replacing lines of code, moving lines, and so on. Performance on these correlates strongly with performance on assessments in which students write code, but these questions require less work to mark. Take the solution to a programming exercise you’ve created in the past, mangle it in two different ways, swap with a partner, and see how long it takes each of you to answer the other’s question correctly.</p>
+<h3 id="the-rainfall-problem-pairs10" class="unnumbered">The Rainfall Problem (pairs/10)</h3>
+<p>[<a class="cite" href="#ref-Solo1986">Solo1986</a>] introduced the Rainfall Problem, which has been used in many subsequent studies of programming [<a class="cite" href="#ref-Fisl2014">Fisl2014</a>,<a class="cite" href="#ref-Simo2013">Simo2013</a>,<a class="cite" href="#ref-Sepp2015">Sepp2015</a>]. Write a program that repeatedly reads in positive integers until it reads the integer 99999. After seeing 99999, the program prints the average of the numbers seen.</p>
+<ol>
+<li><p>Solve the Rainfall Problem in the programming language of your choice.</p></li>
+<li><p>Compare your solution with that of your partner. What does yours do that theirs doesn’t and vice versa?</p></li>
+</ol>
+<h3 id="roles-of-variables-pairs15" class="unnumbered">Roles of Variables (pairs/15)</h3>
+<p>The <a href="http://saja.kapsi.fi/var_roles/">Roles of Variables website</a> describes the following single-variable patterns:</p>
+<dl>
+<dt>Fixed value:</dt>
+<dd><p>A data item that does not get a new proper value after its initialization.</p>
 </dd>
-<dt>Parameter evaluated in the wrong frame:</dt>
-<dd><p>The student creates parameter variables in the caller’s frame, not in the callee’s.</p>
+<dt>Stepper:</dt>
+<dd><p>A data item stepping through a systematic, predictable succession of values.</p>
 </dd>
-<dt>Failing to store return value:</dt>
-<dd><p>The student does not assign the return value in the caller.</p>
+<dt>Walker:</dt>
+<dd><p>A data item traversing in a data structure.</p>
 </dd>
-<dt>Assignment copies object:</dt>
-<dd><p>The student creates a new object rather than copying a reference.</p>
+<dt>Most-recent holder:</dt>
+<dd><p>A data item holding the latest value encountered while going through a succession of values.</p>
 </dd>
-<dt>Method call without subject:</dt>
-<dd><p>The student tries to call a method from a class without first creating an instance of the class.</p>
+<dt>Most-wanted holder:</dt>
+<dd><p>A data item holding the best or most appropriate value encountered so far.</p>
+</dd>
+<dt>Gatherer:</dt>
+<dd><p>A data item accumulating the effect of individual values.</p>
+</dd>
+<dt>Follower:</dt>
+<dd><p>A data item that always gets its new value from the old value of some other data item.</p>
+</dd>
+<dt>One-way flag:</dt>
+<dd><p>A two-valued data item that cannot get its initial value once the value has been changed.</p>
+</dd>
+<dt>Temporary:</dt>
+<dd><p>A data item holding some value for a very short time only.</p>
+</dd>
+<dt>Organizer:</dt>
+<dd><p>A data structure storing elements that can be rearranged.</p>
+</dd>
+<dt>Container:</dt>
+<dd><p>A data structure storing elements that can be added and removed.</p>
 </dd>
 </dl>
-<h3 id="mangled-code-pairs15" class="unnumbered">Mangled Code (pairs/15)</h3>
-<p>[<a class="cite" href="#ref-Chen2017">Chen2017</a>] describes exercises in which students reconstruct code that has been mangled by removing comments, deleting or replacing lines of code, moving lines, inserting extra unneeded lines, and so on. Student performance on these correlates strongly with performance on assessments in which students write code (i.e., whatever traditional assignments are measuring, these are measuring as well), but these questions require less (in-person) work to mark. Take the solution to a programming exercise you’ve created in the past, mangle it in two different ways, and swap with a partner.</p>
-<h3 id="the-rainfall-problem-pairs10" class="unnumbered">The Rainfall Problem (pairs/10)</h3>
-<p>[<a class="cite" href="#ref-Solo1986">Solo1986</a>] introduced the Rainfall Problem: write a program that repeatedly reads in positive integers until it reads the integer 99999. After seeing 99999, the program should print out the average of the numbers seen. This problem has been used in many subsequent studies of programming [<a class="cite" href="#ref-Fisl2014">Fisl2014</a>,<a class="cite" href="#ref-Simo2013">Simo2013</a>,<a class="cite" href="#ref-Sepp2015">Sepp2015</a>].</p>
-<p>Solve the Rainfall Problem in the programming language of your choice. Compare your solutions with those of your partner.</p>
-<h3 id="roles-of-variables-pairs15" class="unnumbered">Roles of Variables (pairs/15)</h3>
-<p>Take a short program you have written (5–15 lines) and classify each of its variables using the categories defined in Section <a href="#s:pck-programming" data-reference-type="ref" data-reference="s:pck-programming">7.1</a>. Compare your classifications with those of a partner: where did you agree? When you disagreed, did you understand each other’s view?</p>
-<h3 id="choose-your-own-adventures-individual10" class="unnumbered">Choose Your Own Adventures (individual/10)</h3>
-<p>Which of the three approaches described in [<a class="cite" href="#ref-Sorv2014">Sorv2014</a>] (Section <a href="#s:pck-now" data-reference-type="ref" data-reference="s:pck-now">7.5</a>) do you use when teaching? Or is your approach best described in some other way?</p>
+<p>Choose a 5–15 lines program and classify its variables using these categories. Compare your classifications with those of a partner. Where you disagreed, did you understand each other’s view?</p>
 <h3 id="what-are-you-teaching-individual10" class="unnumbered">What Are You Teaching? (individual/10)</h3>
-<p>Compare the topics you teach to the list developed in [<a class="cite" href="#ref-Luxt2017">Luxt2017</a>] (Section <a href="#s:pck-now" data-reference-type="ref" data-reference="s:pck-now">7.5</a>). Which topics do you cover? What extra topics do you cover that aren’t in their list?</p>
+<p>Compare the topics you teach to the list developed in [<a class="cite" href="#ref-Luxt2017">Luxt2017</a>] (Section <a href="#s:pck-now" data-reference-type="ref" data-reference="s:pck-now">7.5</a>). Which topics do you cover? Which <em>don’t</em> you cover? What extra topics do you cover that aren’t in their list?</p>
 <h3 id="beneficial-activities-individual10" class="unnumbered">Beneficial Activities (individual/10)</h3>
 <p>Look at the list of interventions developed by [<a class="cite" href="#ref-Viha2014">Viha2014</a>] (Section <a href="#s:pck-help" data-reference-type="ref" data-reference="s:pck-help">7.8</a>). Which of these things do you already do in your classes? Which ones could you easily add? Which ones are irrelevant?</p>
-<h3 id="visualizations-individual10" class="unnumbered">Visualizations (individual/10)</h3>
-<p>What visualization do you most like to use when teaching? Is it a static image or an animation? Do you show it to your learners, do they discover it on their own, or something in between?</p>
 <h3 id="misconceptions-and-challenges-small-groups15" class="unnumbered">Misconceptions and Challenges (small groups/15)</h3>
 <p>The <a href="http://www.pd4cs.org/">Professional Development for CS Principles Teaching</a> site includes <a href="http://www.pd4cs.org/mc-index/">a detailed list of student misconceptions and exercises</a>. Working in small groups, choose one section (such as data structures or functions) and go through their list. Which of these misconceptions do you remember having when you were a learner? Which do you still have? Which have you seen in your learners?</p>
+<h3 id="what-do-you-care-most-about-whole-class15" class="unnumbered">What Do You Care Most About? (whole class/15)</h3>
+<p>[<a class="cite" href="#ref-Denn2019">Denn2019</a>] asked people to propose and rate various CER questions, and found that there was no overlap between those that researchers cared most about and those that non-researchers cared most about. The researchers’ favorites were:</p>
+<ol>
+<li><p>What fundamental programming concepts are the most challenging for students?</p></li>
+<li><p>What teaching strategies are most effective when dealing with a wide range of prior experience in introductory programming classes?</p></li>
+<li><p>What affects students’ ability to generalize from simple programming examples?</p></li>
+<li><p>What teaching practices are most effective for teaching computing to children?</p></li>
+<li><p>What kinds of problems do students in programming classes find most engaging?</p></li>
+<li><p>What are the most effective ways to teach programming to various groups?</p></li>
+<li><p>What are the most effective ways to scale computing education to reach the general student population?</p></li>
+</ol>
+<p>while the most important questions for non-researchers were:</p>
+<ol>
+<li><p>How and when is it best to give students feedback on their code to improve learning?</p></li>
+<li><p>What kinds of programming exercises are most effective when teaching students Computer Science?</p></li>
+<li><p>What are the relative merits of project-based learning, lecturing, and active learning for students learning computing?</p></li>
+<li><p>What is the most effective way to provide feedback to students in programming classes?</p></li>
+<li><p>What do people find most difficult when breaking problems down into smaller tasks while programming?</p></li>
+<li><p>What are the key concepts that students need to understand in introductory computing classes?</p></li>
+<li><p>What are the most effective ways to develop computing competency among students in non-computing disciplines?</p></li>
+<li><p>What is the best order in which to teach basic computing concepts and skills?</p></li>
+</ol>
+<p>Have each person in the class independently give one point to each of the eight questions from the combined lists that they care most about, then calculate an average score for each question. Which ones are most popular in your class? Which group are the most popular questions in?</p>
 <h1 id="s:performance">Teaching as a Performance Art</h1>
 <p>As Chapter <a href="#s:pck" data-reference-type="ref" data-reference="s:pck">7</a> explained, every teacher needs content knowledge, general pedagogical knowledge, and pedagogical content knowledge. We can add technology to this mix [<a class="cite" href="#ref-Koeh2013">Koeh2013</a>], but that doesn’t change the key point: it isn’t enough to know the subject and how to teach—you have to know how to teach that particular subject in order to be effective [<a class="cite" href="#ref-Maye2004">Maye2004</a>].</p>
 <p>This chapter therefore focuses on one key aspect of teaching: teaching programming by doing it in front of a class. It isn’t the only way to teach programming, but the techniques that will make you better at doing it can be applied elsewhere as well.</p>
@@ -2268,7 +2291,7 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p>Online and asynchronous teaching are both still in their infancy. Centralized MOOCs may prove to be an evolutionary dead end, but there are still many other promising models to explore. In particular,[<a class="cite" href="#ref-Broo2016">Broo2016</a>] describes fifty ways that groups can discuss things productively, only a handful of which are widely known or implemented online. If we go where our learners are technologically rather than requiring them to come to us, we may wind up learning as much as they do.</p>
 <h2 id="s:online-exercises">Exercises</h2>
 <h3 id="give-feedback-on-a-bad-screencast-whole-class20" class="unnumbered">Give Feedback on a Bad Screencast (whole class/20)</h3>
-<p>Watch <a href="https://youtu.be/xcnoHaxXvdQ">this screencast</a> as a group and give feedback on it. Organize feedback along two axes: positive vs. negative and content vs. presentation. When you are done, have each person in the class add one point to a 2x2 grid on a whiteboard (or in the shared notes) without duplicating any points that are already up there. What did other people see that you missed? What did they think that you strongly agree or disagree with? How do your lists compare with those in Section <a href="#s:checklists-teacheval" data-reference-type="ref" data-reference="s:checklists-teacheval">22.1</a>?</p>
+<p>Watch <a href="FIXME">this screencast</a> as a group and give feedback on it. Organize feedback along two axes: positive vs. negative and content vs. presentation. When you are done, have each person in the class add one point to a 2x2 grid on a whiteboard (or in the shared notes) without duplicating any points that are already up there. What did other people see that you missed? What did they think that you strongly agree or disagree with? How do your lists compare with those in Section <a href="#s:checklists-teacheval" data-reference-type="ref" data-reference="s:checklists-teacheval">22.1</a>?</p>
 <h3 id="two-way-video-pairs10" class="unnumbered">Two-Way Video (pairs/10)</h3>
 <p>Record a 2–3 minute video of yourself doing something, then swap machines with a partner so that each of you can watch the other’s video at 4x speed. How easy is it to follow what’s going on? What if anything did you miss?</p>
 <h3 id="viewpoints-individual10" class="unnumbered">Viewpoints (individual/10)</h3>
@@ -3405,6 +3428,9 @@ No warranties are given. The license may not give you all of the permissions nec
 <dt><span id="g:preparatory-privilege">Preparatory privilege</span></dt>
 <dd><p>The advantage of coming from a background that provides more preparation for a particular learning task than others.</p>
 </dd>
+<dt><span id="g:productive-failure">Productive failure</span></dt>
+<dd><p>FIXME</p>
+</dd>
 <dt><span id="g:pull-request">Pull request</span></dt>
 <dd><p>A set of proposed changes to a GitHub repository that can be reviewed, updated, and eventually merged.</p>
 </dd>
@@ -4231,6 +4257,9 @@ No warranties are given. The license may not give you all of the permissions nec
 </div>
 <div id="ref-Deb2018">
 <p><strong>[Deb2018]</strong> Deb, Debzani, Muztaba Fuad, James Etim, and Clay Gloster. “MRS: Automated Assessment of Interactive Classroom Exercises.” In <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em>. Association for Computing Machinery (ACM), 2018. doi:<a href="https://doi.org/10.1145/3159450.3159607">10.1145/3159450.3159607</a>. Reports that doing in-class exercises with realtime feedback using mobile devices improved concept retention and student engagement while reducing failure rates.</p>
+</div>
+<div id="ref-Denn2019">
+<p><strong>[Denn2019]</strong> Denny, Paul, Brett A. Becker, Michelle Craig, Greg Wilson, and Piotr Banaszkiewicz. “Research This! Questions That Computing Educators Most Want Computing Education Researchers to Answer,” 2019. Found little overlap between the questions that computing education researchers are most interested in and the questions practitioners want answered.</p>
 </div>
 <div id="ref-Derb2006">
 <p><strong>[Derb2006]</strong> Derby, Esther, and Diana Larsen. <em>Agile Retrospectives: Making Good Teams Great</em>. Pragmatic Bookshelf, 2006. Describes how to run a good project retrospective.</p>
@@ -5133,49 +5162,49 @@ No warranties are given. The license may not give you all of the permissions nec
 <li id="fn67" role="doc-endnote"><p>Paul A. Kirschner et al., “From Cognitive Load Theory to Collaborative Cognitive Load Theory,” <em>International Journal of Computer-Supported Collaborative Learning</em>, April 2018, doi:<a href="https://doi.org/10.1007/s11412-018-9277-y" role="doc-biblioref">10.1007/s11412-018-9277-y</a>.<a href="#fnref67" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn68" role="doc-endnote"><p>Rebecca A. Markovits and Yana Weinstein, “Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts?” <em>NPJ Science of Learning</em> 3, no. 1 (January 2018), doi:<a href="https://doi.org/10.1038/s41539-017-0018-1" role="doc-biblioref">10.1038/s41539-017-0018-1</a>.<a href="#fnref68" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn69" role="doc-endnote"><p>Karin Wiburg et al., eds., <em>The Little Book of Learning Theories</em>, Second (CreateSpace, 2016).<a href="#fnref69" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn70" role="doc-endnote"><p>Richard E. Mayer, <em>Multimedia Learning</em>, Second (Cambridge University Press, 2009).<a href="#fnref70" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn71" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref71" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn72" role="doc-endnote"><p>Saundra Yancey McGuire, <em>Teach Students How to Learn: Strategies You Can Incorporate into Any Course to Improve Student Metacognition, Study Skills, and Motivation</em> (Stylus Publishing, 2015); Toshiya Miyatsu, Khuyen Nguyen, and Mark A. McDaniel, “Five Popular Study Strategies: Their Pitfalls and Optimal Implementations,” <em>Perspectives on Psychological Science</em> 13, no. 3 (May 2018): 390–407, doi:<a href="https://doi.org/10.1177/1745691617710510" role="doc-biblioref">10.1177/1745691617710510</a>.<a href="#fnref72" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn73" role="doc-endnote"><p>Giovanni Sala and Fernand Gobet, “Does Far Transfer Exist? Negative Evidence from Chess, Music, and Working Memory Training,” <em>Current Directions in Psychological Science</em> 26, no. 6 (October 2017): 515–20, doi:<a href="https://doi.org/10.1177/0963721417712760" role="doc-biblioref">10.1177/0963721417712760</a>.<a href="#fnref73" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn74" role="doc-endnote"><p>Mary L. Gick and Keith J. Holyoak, “The Cognitive Basis of Knowledge Transfer,” in <em>Transfer of Learning: Contemporary Research and Applications</em>, ed. S. J. Cormier and J. D. Hagman (Elsevier, 1987), 9–46, doi:<a href="https://doi.org/10.1016/b978-0-12-188950-0.50008-4" role="doc-biblioref">10.1016/b978-0-12-188950-0.50008-4</a>.<a href="#fnref74" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn75" role="doc-endnote"><p>Markovits and Weinstein, “Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts?”<a href="#fnref75" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn76" role="doc-endnote"><p>Yana Weinstein, Christopher R. Madan, and Megan A. Sumeracki, “Teaching the Science of Learning,” <em>Cognitive Research: Principles and Implications</em> 3, no. 1 (January 2018), doi:<a href="https://doi.org/10.1186/s41235-017-0087-y" role="doc-biblioref">10.1186/s41235-017-0087-y</a>; Weinstein, Sumeracki, and Caviglioli, <em>Understanding How We Learn</em>.<a href="#fnref76" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn77" role="doc-endnote"><p>Sean H. K. Kang, “Spaced Repetition Promotes Efficient and Effective Learning,” <em>Policy Insights from the Behavioral and Brain Sciences</em> 3, no. 1 (January 2016): 12–19, doi:<a href="https://doi.org/10.1177/2372732215624708" role="doc-biblioref">10.1177/2372732215624708</a>.<a href="#fnref77" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn78" role="doc-endnote"><p>Eric Matthes, “Python Flash Cards: Syntax, Concepts, and Examples” (No Starch Press, 2019).<a href="#fnref78" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn79" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref79" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn80" role="doc-endnote"><p>Jeffrey D. Karpicke and Henry L. Roediger, “The Critical Importance of Retrieval for Learning,” <em>Science</em> 319, no. 5865 (February 2008): 966–68, doi:<a href="https://doi.org/10.1126/science.1152408" role="doc-biblioref">10.1126/science.1152408</a>.<a href="#fnref80" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn70" role="doc-endnote"><p>Ben Skudder and Andrew Luxton-Reilly, “Worked Examples in Computer Science,” in <em>2014 Australasian Computing Education Conference, (ACE’14)</em>, 2014.<a href="#fnref70" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn71" role="doc-endnote"><p>Jean M. Griffin, “Learning by Taking Apart,” in <em>2016 Conference on Information Technology Education (SIGITE’16)</em> (ACM Press, 2016), doi:<a href="https://doi.org/10.1145/2978192.2978231" role="doc-biblioref">10.1145/2978192.2978231</a>.<a href="#fnref71" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn72" role="doc-endnote"><p>Richard E. Mayer, <em>Multimedia Learning</em>, Second (Cambridge University Press, 2009).<a href="#fnref72" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn73" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref73" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn74" role="doc-endnote"><p>Saundra Yancey McGuire, <em>Teach Students How to Learn: Strategies You Can Incorporate into Any Course to Improve Student Metacognition, Study Skills, and Motivation</em> (Stylus Publishing, 2015); Toshiya Miyatsu, Khuyen Nguyen, and Mark A. McDaniel, “Five Popular Study Strategies: Their Pitfalls and Optimal Implementations,” <em>Perspectives on Psychological Science</em> 13, no. 3 (May 2018): 390–407, doi:<a href="https://doi.org/10.1177/1745691617710510" role="doc-biblioref">10.1177/1745691617710510</a>.<a href="#fnref74" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn75" role="doc-endnote"><p>Giovanni Sala and Fernand Gobet, “Does Far Transfer Exist? Negative Evidence from Chess, Music, and Working Memory Training,” <em>Current Directions in Psychological Science</em> 26, no. 6 (October 2017): 515–20, doi:<a href="https://doi.org/10.1177/0963721417712760" role="doc-biblioref">10.1177/0963721417712760</a>.<a href="#fnref75" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn76" role="doc-endnote"><p>Mary L. Gick and Keith J. Holyoak, “The Cognitive Basis of Knowledge Transfer,” in <em>Transfer of Learning: Contemporary Research and Applications</em>, ed. S. J. Cormier and J. D. Hagman (Elsevier, 1987), 9–46, doi:<a href="https://doi.org/10.1016/b978-0-12-188950-0.50008-4" role="doc-biblioref">10.1016/b978-0-12-188950-0.50008-4</a>.<a href="#fnref76" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn77" role="doc-endnote"><p>Markovits and Weinstein, “Can Cognitive Processes Help Explain the Success of Instructional Techniques Recommended by Behavior Analysts?”<a href="#fnref77" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn78" role="doc-endnote"><p>Yana Weinstein, Christopher R. Madan, and Megan A. Sumeracki, “Teaching the Science of Learning,” <em>Cognitive Research: Principles and Implications</em> 3, no. 1 (January 2018), doi:<a href="https://doi.org/10.1186/s41235-017-0087-y" role="doc-biblioref">10.1186/s41235-017-0087-y</a>; Weinstein, Sumeracki, and Caviglioli, <em>Understanding How We Learn</em>.<a href="#fnref78" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn79" role="doc-endnote"><p>Sean H. K. Kang, “Spaced Repetition Promotes Efficient and Effective Learning,” <em>Policy Insights from the Behavioral and Brain Sciences</em> 3, no. 1 (January 2016): 12–19, doi:<a href="https://doi.org/10.1177/2372732215624708" role="doc-biblioref">10.1177/2372732215624708</a>.<a href="#fnref79" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn80" role="doc-endnote"><p>Eric Matthes, “Python Flash Cards: Syntax, Concepts, and Examples” (No Starch Press, 2019).<a href="#fnref80" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn81" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref81" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn82" role="doc-endnote"><p>Janet Metcalfe, “Learning from Errors,” <em>Annual Review of Psychology</em> 68, no. 1 (January 2016): 465–89, doi:<a href="https://doi.org/10.1146/annurev-psych-010416-044022" role="doc-biblioref">10.1146/annurev-psych-010416-044022</a>.<a href="#fnref82" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn83" role="doc-endnote"><p>Doug Rohrer, Robert F. Dedrick, and Sandra Stershic, “Interleaved Practice Improves Mathematics Learning,” <em>Journal of Educational Psychology</em> 107, no. 3 (2015): 900–908, doi:<a href="https://doi.org/10.1037/edu0000001" role="doc-biblioref">10.1037/edu0000001</a>.<a href="#fnref83" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn84" role="doc-endnote"><p>Katerine Bielaczyc, Peter L. Pirolli, and Ann L. Brown, “Training in Self-Explanation and Self-Regulation Strategies: Investigating the Effects of Knowledge Acquisition Activities on Problem Solving,” <em>Cognition and Instruction</em> 13, no. 2 (June 1995): 221–52, doi:<a href="https://doi.org/10.1207/s1532690xci1302_3" role="doc-biblioref">10.1207/s1532690xci1302_3</a>.<a href="#fnref84" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn85" role="doc-endnote"><p>Michelene T. H. Chi et al., “Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems,” <em>Cognitive Science</em> 13, no. 2 (April 1989): 145–82, doi:<a href="https://doi.org/10.1207/s15516709cog1302_1" role="doc-biblioref">10.1207/s15516709cog1302_1</a>.<a href="#fnref85" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn86" role="doc-endnote"><p>Katherine A. Rawson, Ruthann C. Thomas, and Larry L. Jacoby, “The Power of Examples: Illustrative Examples Enhance Conceptual Learning of Declarative Concepts,” <em>Educational Psychology Review</em> 27, no. 3 (June 2014): 483–504, doi:<a href="https://doi.org/10.1007/s10648-014-9273-3" role="doc-biblioref">10.1007/s10648-014-9273-3</a>.<a href="#fnref86" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn87" role="doc-endnote"><p>Mayer and Moreno, “Nine Ways to Reduce Cognitive Load in Multimedia Learning.”<a href="#fnref87" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn88" role="doc-endnote"><p>Evan Robinson, “Why Crunch Mode Doesn’t Work: 6 Lessons” (<a href="http://www.igda.org/articles/erobinson_crunch.php" role="doc-biblioref">http://www.igda.org/articles/erobinson_crunch.php</a>; International Game Developers Association (IGDA), 2005).<a href="#fnref88" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn89" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref89" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn90" role="doc-endnote"><p>Ibid.<a href="#fnref90" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn91" role="doc-endnote"><p>Mihaly Csikszentmihaly, <em>Flow: The Psychology of Optimal Experience</em> (Harper, 2008).<a href="#fnref91" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn92" role="doc-endnote"><p>Harald Søndergaard and Raoul A. Mulder, “Collaborative Learning Through Formative Peer Review: Pedagogy, Programs and Potential,” <em>Computer Science Education</em> 22, no. 4 (December 2012): 343–67, doi:<a href="https://doi.org/10.1080/08993408.2012.728041" role="doc-biblioref">10.1080/08993408.2012.728041</a>.<a href="#fnref92" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn93" role="doc-endnote"><p>Deborah B. Kaufman and Richard M. Felder, “Accounting for Individual Effort in Cooperative Learning Teams,” <em>Journal of Engineering Education</em> 89, no. 2 (2000).<a href="#fnref93" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn94" role="doc-endnote"><p>Pablo Frank-Bolton and Rahul Simha, “Docendo Discimus: Students Learn by Teaching Peers Through Video,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159466" role="doc-biblioref">10.1145/3159450.3159466</a>.<a href="#fnref94" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn95" role="doc-endnote"><p>Chinmay Kulkarni et al., “Peer and Self Assessment in Massive Online Classes,” <em>ACM Transactions on Computer-Human Interaction</em> 20, no. 6 (December 2013): 1–31, doi:<a href="https://doi.org/10.1145/2505057" role="doc-biblioref">10.1145/2505057</a>.<a href="#fnref95" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn96" role="doc-endnote"><p>Dwayne E. Paré and Steve Joordens, “Peering into Large Lectures: Examining Peer and Expert Mark Agreement Using peerScholar, an Online Peer Assessment Tool,” <em>Journal of Computer Assisted Learning</em> 24, no. 6 (October 2008): 526–40, doi:<a href="https://doi.org/10.1111/j.1365-2729.2008.00290.x" role="doc-biblioref">10.1111/j.1365-2729.2008.00290.x</a>.<a href="#fnref96" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn97" role="doc-endnote"><p>Paul A. Kirschner and Jeroen J. G. van Merriënboer, “Do Learners Really Know Best? Urban Legends in Education,” <em>Educational Psychologist</em> 48, no. 3 (July 2013): 169–83, doi:<a href="https://doi.org/10.1080/00461520.2013.804395" role="doc-biblioref">10.1080/00461520.2013.804395</a>.<a href="#fnref97" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn98" role="doc-endnote"><p>Guzdial, “Top 10 Myths About Teaching Computer Science.”<a href="#fnref98" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn99" role="doc-endnote"><p>Grant Wiggins and Jay McTighe, <em>Understanding by Design</em> (Association for Supervision &amp; Curriculum Development (ASCD), 2005); John Biggs and Catherine Tang, <em>Teaching for Quality Learning at University</em> (Open University Press, 2011); L. Dee Fink, <em>Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses</em> (Jossey-Bass, 2013).<a href="#fnref99" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn100" role="doc-endnote"><p>Jay McTighe and Grant Wiggins, “Understanding by Design Framework” (<a href="http://www.ascd.org/ASCD/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf" role="doc-biblioref">http://www.ascd.org/ASCD/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf</a>; Association for Supervision &amp; Curriculum Development (ASCD), 2013).<a href="#fnref100" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn101" role="doc-endnote"><p>Green, <em>Building a Better Teacher</em>.<a href="#fnref101" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn102" role="doc-endnote"><p>James C. Scott, <em>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</em> (Yale University Press, 1998).<a href="#fnref102" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn103" role="doc-endnote"><p>David Lorge Parnas and Paul C. Clements, “A Rational Design Process: How and Why to Fake It,” <em>IEEE Transactions on Software Engineering</em> SE-12, no. 2 (February 1986): 251–57, doi:<a href="https://doi.org/10.1109/tse.1986.6312940" role="doc-biblioref">10.1109/tse.1986.6312940</a>.<a href="#fnref103" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn104" role="doc-endnote"><p>Lorin W. Anderson and David R. Krathwohl, eds., <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives</em> (Longman, 2001).<a href="#fnref104" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn105" role="doc-endnote"><p>Susana Masapanta-Carrión and J. Ángel Velázquez-Iturbide, “A Systematic Review of the Use of Bloom’s Taxonomy in Computer Science Education,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159491" role="doc-biblioref">10.1145/3159450.3159491</a>.<a href="#fnref105" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn106" role="doc-endnote"><p>Daniel T. Willingham, <em>Why Don’t Students Like School?: A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom</em> (Jossey-Bass, 2010).<a href="#fnref106" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn107" role="doc-endnote"><p>Fink, <em>Creating Significant Learning Experiences</em>.<a href="#fnref107" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn108" role="doc-endnote"><p>David Wiley, “The Reusability Paradox” (<a href="http://opencontent.org/docs/paradox.html" role="doc-biblioref">http://opencontent.org/docs/paradox.html</a>, 2002).<a href="#fnref108" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn109" role="doc-endnote"><p>Sue Sentance, Jane Waite, and Maria Kallia, “Teachers’ Experiences of Using PRIMM to Teach Programming in School,” in <em>2019 Technical Symposium on Computer Science Education (SIGCSE’19)</em> (ACM Press, 2019), doi:<a href="https://doi.org/10.1145/3287324.3287477" role="doc-biblioref">10.1145/3287324.3287477</a>.<a href="#fnref109" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn110" role="doc-endnote"><p>Ben Skudder and Andrew Luxton-Reilly, “Worked Examples in Computer Science,” in <em>2014 Australasian Computing Education Conference, (ACE’14)</em>, 2014.<a href="#fnref110" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn111" role="doc-endnote"><p>Jean M. Griffin, “Learning by Taking Apart,” in <em>2016 Conference on Information Technology Education (SIGITE’16)</em> (ACM Press, 2016), doi:<a href="https://doi.org/10.1145/2978192.2978231" role="doc-biblioref">10.1145/2978192.2978231</a>.<a href="#fnref111" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn112" role="doc-endnote"><p>Petri Ihantola et al., “Educational Data Mining and Learning Analytics in Programming: Literature Review and Case Studies,” in <em>2016 Conference on Innovation and Technology in Computer Science Education (ITiCSE’16)</em> (Association for Computing Machinery (ACM), 2016), doi:<a href="https://doi.org/10.1145/2858796.2858798" role="doc-biblioref">10.1145/2858796.2858798</a>.<a href="#fnref112" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn82" role="doc-endnote"><p>Jeffrey D. Karpicke and Henry L. Roediger, “The Critical Importance of Retrieval for Learning,” <em>Science</em> 319, no. 5865 (February 2008): 966–68, doi:<a href="https://doi.org/10.1126/science.1152408" role="doc-biblioref">10.1126/science.1152408</a>.<a href="#fnref82" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn83" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref83" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn84" role="doc-endnote"><p>Janet Metcalfe, “Learning from Errors,” <em>Annual Review of Psychology</em> 68, no. 1 (January 2016): 465–89, doi:<a href="https://doi.org/10.1146/annurev-psych-010416-044022" role="doc-biblioref">10.1146/annurev-psych-010416-044022</a>.<a href="#fnref84" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn85" role="doc-endnote"><p>Doug Rohrer, Robert F. Dedrick, and Sandra Stershic, “Interleaved Practice Improves Mathematics Learning,” <em>Journal of Educational Psychology</em> 107, no. 3 (2015): 900–908, doi:<a href="https://doi.org/10.1037/edu0000001" role="doc-biblioref">10.1037/edu0000001</a>.<a href="#fnref85" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn86" role="doc-endnote"><p>Katerine Bielaczyc, Peter L. Pirolli, and Ann L. Brown, “Training in Self-Explanation and Self-Regulation Strategies: Investigating the Effects of Knowledge Acquisition Activities on Problem Solving,” <em>Cognition and Instruction</em> 13, no. 2 (June 1995): 221–52, doi:<a href="https://doi.org/10.1207/s1532690xci1302_3" role="doc-biblioref">10.1207/s1532690xci1302_3</a>.<a href="#fnref86" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn87" role="doc-endnote"><p>Michelene T. H. Chi et al., “Self-Explanations: How Students Study and Use Examples in Learning to Solve Problems,” <em>Cognitive Science</em> 13, no. 2 (April 1989): 145–82, doi:<a href="https://doi.org/10.1207/s15516709cog1302_1" role="doc-biblioref">10.1207/s15516709cog1302_1</a>.<a href="#fnref87" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn88" role="doc-endnote"><p>Katherine A. Rawson, Ruthann C. Thomas, and Larry L. Jacoby, “The Power of Examples: Illustrative Examples Enhance Conceptual Learning of Declarative Concepts,” <em>Educational Psychology Review</em> 27, no. 3 (June 2014): 483–504, doi:<a href="https://doi.org/10.1007/s10648-014-9273-3" role="doc-biblioref">10.1007/s10648-014-9273-3</a>.<a href="#fnref88" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn89" role="doc-endnote"><p>Mayer and Moreno, “Nine Ways to Reduce Cognitive Load in Multimedia Learning.”<a href="#fnref89" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn90" role="doc-endnote"><p>Evan Robinson, “Why Crunch Mode Doesn’t Work: 6 Lessons” (<a href="http://www.igda.org/articles/erobinson_crunch.php" role="doc-biblioref">http://www.igda.org/articles/erobinson_crunch.php</a>; International Game Developers Association (IGDA), 2005).<a href="#fnref90" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn91" role="doc-endnote"><p>Miller, <em>Minds Online</em>.<a href="#fnref91" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn92" role="doc-endnote"><p>Ibid.<a href="#fnref92" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn93" role="doc-endnote"><p>Mihaly Csikszentmihaly, <em>Flow: The Psychology of Optimal Experience</em> (Harper, 2008).<a href="#fnref93" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn94" role="doc-endnote"><p>Harald Søndergaard and Raoul A. Mulder, “Collaborative Learning Through Formative Peer Review: Pedagogy, Programs and Potential,” <em>Computer Science Education</em> 22, no. 4 (December 2012): 343–67, doi:<a href="https://doi.org/10.1080/08993408.2012.728041" role="doc-biblioref">10.1080/08993408.2012.728041</a>.<a href="#fnref94" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn95" role="doc-endnote"><p>Deborah B. Kaufman and Richard M. Felder, “Accounting for Individual Effort in Cooperative Learning Teams,” <em>Journal of Engineering Education</em> 89, no. 2 (2000).<a href="#fnref95" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn96" role="doc-endnote"><p>Pablo Frank-Bolton and Rahul Simha, “Docendo Discimus: Students Learn by Teaching Peers Through Video,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159466" role="doc-biblioref">10.1145/3159450.3159466</a>.<a href="#fnref96" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn97" role="doc-endnote"><p>Chinmay Kulkarni et al., “Peer and Self Assessment in Massive Online Classes,” <em>ACM Transactions on Computer-Human Interaction</em> 20, no. 6 (December 2013): 1–31, doi:<a href="https://doi.org/10.1145/2505057" role="doc-biblioref">10.1145/2505057</a>.<a href="#fnref97" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn98" role="doc-endnote"><p>Dwayne E. Paré and Steve Joordens, “Peering into Large Lectures: Examining Peer and Expert Mark Agreement Using peerScholar, an Online Peer Assessment Tool,” <em>Journal of Computer Assisted Learning</em> 24, no. 6 (October 2008): 526–40, doi:<a href="https://doi.org/10.1111/j.1365-2729.2008.00290.x" role="doc-biblioref">10.1111/j.1365-2729.2008.00290.x</a>.<a href="#fnref98" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn99" role="doc-endnote"><p>Paul A. Kirschner and Jeroen J. G. van Merriënboer, “Do Learners Really Know Best? Urban Legends in Education,” <em>Educational Psychologist</em> 48, no. 3 (July 2013): 169–83, doi:<a href="https://doi.org/10.1080/00461520.2013.804395" role="doc-biblioref">10.1080/00461520.2013.804395</a>.<a href="#fnref99" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn100" role="doc-endnote"><p>Guzdial, “Top 10 Myths About Teaching Computer Science.”<a href="#fnref100" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn101" role="doc-endnote"><p>Grant Wiggins and Jay McTighe, <em>Understanding by Design</em> (Association for Supervision &amp; Curriculum Development (ASCD), 2005); John Biggs and Catherine Tang, <em>Teaching for Quality Learning at University</em> (Open University Press, 2011); L. Dee Fink, <em>Creating Significant Learning Experiences: An Integrated Approach to Designing College Courses</em> (Jossey-Bass, 2013).<a href="#fnref101" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn102" role="doc-endnote"><p>Jay McTighe and Grant Wiggins, “Understanding by Design Framework” (<a href="http://www.ascd.org/ASCD/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf" role="doc-biblioref">http://www.ascd.org/ASCD/pdf/siteASCD/publications/UbD_WhitePaper0312.pdf</a>; Association for Supervision &amp; Curriculum Development (ASCD), 2013).<a href="#fnref102" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn103" role="doc-endnote"><p>Green, <em>Building a Better Teacher</em>.<a href="#fnref103" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn104" role="doc-endnote"><p>James C. Scott, <em>Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed</em> (Yale University Press, 1998).<a href="#fnref104" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn105" role="doc-endnote"><p>David Lorge Parnas and Paul C. Clements, “A Rational Design Process: How and Why to Fake It,” <em>IEEE Transactions on Software Engineering</em> SE-12, no. 2 (February 1986): 251–57, doi:<a href="https://doi.org/10.1109/tse.1986.6312940" role="doc-biblioref">10.1109/tse.1986.6312940</a>.<a href="#fnref105" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn106" role="doc-endnote"><p>Lorin W. Anderson and David R. Krathwohl, eds., <em>A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives</em> (Longman, 2001).<a href="#fnref106" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn107" role="doc-endnote"><p>Susana Masapanta-Carrión and J. Ángel Velázquez-Iturbide, “A Systematic Review of the Use of Bloom’s Taxonomy in Computer Science Education,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159491" role="doc-biblioref">10.1145/3159450.3159491</a>.<a href="#fnref107" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn108" role="doc-endnote"><p>Daniel T. Willingham, <em>Why Don’t Students Like School?: A Cognitive Scientist Answers Questions About How the Mind Works and What It Means for the Classroom</em> (Jossey-Bass, 2010).<a href="#fnref108" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn109" role="doc-endnote"><p>Fink, <em>Creating Significant Learning Experiences</em>.<a href="#fnref109" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn110" role="doc-endnote"><p>David Wiley, “The Reusability Paradox” (<a href="http://opencontent.org/docs/paradox.html" role="doc-biblioref">http://opencontent.org/docs/paradox.html</a>, 2002).<a href="#fnref110" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn111" role="doc-endnote"><p>Sue Sentance, Jane Waite, and Maria Kallia, “Teachers’ Experiences of Using PRIMM to Teach Programming in School,” in <em>2019 Technical Symposium on Computer Science Education (SIGCSE’19)</em> (ACM Press, 2019), doi:<a href="https://doi.org/10.1145/3287324.3287477" role="doc-biblioref">10.1145/3287324.3287477</a>.<a href="#fnref111" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn112" role="doc-endnote"><p>For those who want to do a deeper dive, [<a class="cite" href="#ref-Ihan2016">Ihan2016</a>] summarizes the methods used most often in these studies.<a href="#fnref112" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn113" role="doc-endnote"><p>Joseph Henrich, Steven J. Heine, and Ara Norenzayan, “The Weirdest People in the World?” <em>Behavioral and Brain Sciences</em> 33, nos. 2-3 (June 2010): 61–83, doi:<a href="https://doi.org/10.1017/s0140525x0999152x" role="doc-biblioref">10.1017/s0140525x0999152x</a>.<a href="#fnref113" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn114" role="doc-endnote"><p>Elliot Soloway and Kate Ehrlich, “Empirical Studies of Programming Knowledge,” <em>IEEE Transactions on Software Engineering</em> SE-10, no. 5 (September 1984): 595–609, doi:<a href="https://doi.org/10.1109/tse.1984.5010283" role="doc-biblioref">10.1109/tse.1984.5010283</a>; Elliot Soloway, “Learning to Program = Learning to Construct Mechanisms and Explanations,” <em>Communications of the ACM</em> 29, no. 9 (September 1986): 850–58, doi:<a href="https://doi.org/10.1145/6592.6594" role="doc-biblioref">10.1145/6592.6594</a>.<a href="#fnref114" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn115" role="doc-endnote"><p>Orna Muller, David Ginat, and Bruria Haberman, “Pattern-Oriented Instruction and Its Influence on Problem Decomposition and Solution Construction,” in <em>2007 Technical Symposium on Computer Science Education (SIGCSE’07)</em> (Association for Computing Machinery (ACM), 2007), doi:<a href="https://doi.org/10.1145/1268784.1268830" role="doc-biblioref">10.1145/1268784.1268830</a>.<a href="#fnref115" class="footnote-back" role="doc-backlink">↩</a></p></li>
@@ -5244,9 +5273,9 @@ No warranties are given. The license may not give you all of the permissions nec
 <li id="fn178" role="doc-endnote"><p>Nick Cheng and Brian Harrington, “The Code Mangler: Evaluating Coding Ability Without Writing Any Code,” in <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3017680.3017704" role="doc-biblioref">10.1145/3017680.3017704</a>.<a href="#fnref178" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn179" role="doc-endnote"><p>Soloway, “Learning to Program = Learning to Construct Mechanisms and Explanations.”<a href="#fnref179" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn180" role="doc-endnote"><p>Kathi Fisler, “The Recurring Rainfall Problem,” in <em>2014 International Computing Education Research Conference (ICER’14)</em> (Association for Computing Machinery (ACM), 2014), doi:<a href="https://doi.org/10.1145/2632320.2632346" role="doc-biblioref">10.1145/2632320.2632346</a>; Simon, “Soloway’s Rainfall Problem Has Become Harder,” in <em>2013 Conference on Learning and Teaching in Computing and Engineering</em> (Institute of Electrical; Electronics Engineers (IEEE), 2013), doi:<a href="https://doi.org/10.1109/latice.2013.44" role="doc-biblioref">10.1109/latice.2013.44</a>; Otto Seppälä et al., “Do We Know How Difficult the Rainfall Problem Is?” in <em>2015 Koli Calling Conference on Computing Education Research (Koli’15)</em> (ACM Press, 2015), doi:<a href="https://doi.org/10.1145/2828959.2828963" role="doc-biblioref">10.1145/2828959.2828963</a>.<a href="#fnref180" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn181" role="doc-endnote"><p>Sorva and Seppälä, “Research-Based Design of the First Weeks of CS1.”<a href="#fnref181" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn182" role="doc-endnote"><p>Luxton-Reilly et al., “Developing Assessments to Determine Mastery of Programming Fundamentals.”<a href="#fnref182" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn183" role="doc-endnote"><p>Vihavainen, Airaksinen, and Watson, “A Systematic Review of Approaches for Teaching Introductory Programming and Their Influence on Success.”<a href="#fnref183" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn181" role="doc-endnote"><p>Luxton-Reilly et al., “Developing Assessments to Determine Mastery of Programming Fundamentals.”<a href="#fnref181" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn182" role="doc-endnote"><p>Vihavainen, Airaksinen, and Watson, “A Systematic Review of Approaches for Teaching Introductory Programming and Their Influence on Success.”<a href="#fnref182" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn183" role="doc-endnote"><p>Paul Denny et al., “Research This! Questions That Computing Educators Most Want Computing Education Researchers to Answer,” 2019.<a href="#fnref183" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn184" role="doc-endnote"><p>Matthew J. Koehler, Punya Mishra, and William Cain, “What Is Technological Pedagogical Content Knowledge (TPACK)?” <em>Journal of Education</em> 193, no. 3 (2013): 13–19, doi:<a href="https://doi.org/10.1177/002205741319300303" role="doc-biblioref">10.1177/002205741319300303</a>.<a href="#fnref184" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn185" role="doc-endnote"><p>Richard E. Mayer, “Teaching of Subject Matter,” <em>Annual Review of Psychology</em> 55, no. 1 (February 2004): 715–44, doi:<a href="https://doi.org/10.1146/annurev.psych.55.082602.133124" role="doc-biblioref">10.1146/annurev.psych.55.082602.133124</a>.<a href="#fnref185" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn186" role="doc-endnote"><p>Ojose, <em>Common Misconceptions in Mathematics</em>.<a href="#fnref186" class="footnote-back" role="doc-backlink">↩</a></p></li>
