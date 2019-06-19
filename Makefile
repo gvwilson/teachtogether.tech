@@ -1,4 +1,4 @@
-.PHONY : all check clean commands everything html once pages pdf settings words
+.PHONY : all check clean commands everything html once pages pdf settings spell words
 
 # Commands
 LATEX=pdflatex --shell-escape
@@ -72,7 +72,7 @@ docs/CNAME : ./CNAME
 ## ----------------------------------------
 
 ## check          : check internal consistency.
-check :
+check : spell
 	@python bin/check.py -b book.bib ${TEX}
 
 ## clean          : clean up junk files.
@@ -100,6 +100,10 @@ settings :
 	@echo FIG_SRC ${FIG_SRC}
 	@echo FIG_DST ${FIG_DST}
 
-## words          : count words
+## spell          : check spelling.
+spell :
+	@-cat ${TEX_CHAPTERS} | aspell -t list | sort | uniq | diff -y --suppress-common-lines - .words
+
+## words          : count words.
 words :
 	@texcount -brief ${TEX_CHAPTERS} | sed -e 's/\+.*://g' -e 's/+.* Total//g' | sort -n -r
