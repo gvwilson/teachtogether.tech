@@ -1,356 +1,23 @@
 \chaplbl{Teaching as a Performance Art}{s:performance}
 
-As \chapref{s:pck} explained,
-every teacher needs content knowledge,
-general pedagogical knowledge,
-and pedagogical content knowledge.
-We can add technology to this mix~\cite{Koeh2013},
-but that doesn't change the key point:
-it isn't enough to know the subject and how to teach---you have to know
-how to teach that particular subject in order to be effective~\cite{Maye2004}.
-
-This chapter therefore focuses on one key aspect of teaching:
-teaching programming by doing it in front of a class.
-It isn't the only way to teach programming,
+In \emph{Darwin Among the Machines},
+George Dyson wrote,
+``In the game of life and evolution there are three players at the table:
+human beings, nature, and machines.
+I am firmly on the side of nature.
+But nature, I suspect, is on the  side of the machines{\ldots}''
+There are similarly now three players in the game of education and learning:
+textbooks and other read-only materials,
+live lectures,
+and automated online lessons.
+You may give your learners both written lessons
+and some combination of recorded video and self-paced exercises,
+but if you are going to teach in person
+you must offer something different from (and hopefully better than) either of them.
+This chapter therefore focuses on how to teach programming by doing it in front of a class.
+It isn't the only approach,
 but the techniques that will make you better at doing it
 can be applied elsewhere as well.
-
-\seclbl{Lesson Study}{s:performance-jugyokenkyu}
-
-From politicians to researchers and teachers themselves,
-educational reformers have designed systems
-to find and promote people who can teach well
-and eliminate those who cannot.
-But the assumption that some people are born teachers is wrong:
-instead,
-like any other performance art,
-the keys to better teaching are practice and collaboration.
-As~\cite{Gree2014} explains,
-the Japanese approach to this is called \gref{g:jugyokenkyu}{jugyokenkyu},
-which means ``lesson study'':
-
-\begin{quote}
-
-  \emph{Jugyokenkyu} is a bucket of practices that Japanese teachers use to hone their craft,
-  from observing each other at work
-  to discussing the lesson afterward to studying curriculum materials with colleagues.
-  The practice is so pervasive in Japanese schools that it is{\ldots}effectively invisible.
-
-  In order to graduate,
-  [Japanese] education majors not only had to watch their assigned master teacher work,
-  they had to effectively replace him,
-  installing themselves in his classroom first as observers and then,
-  by the third week,
-  as a wobbly{\ldots}approximation of the teacher himself.
-  It worked like a kind of teaching relay.
-  Each trainee took a subject,
-  planning five days' worth of lessons{\ldots} [and then] each took a day.
-  To pass the baton,
-  you had to teach a day's lesson in every single subject:
-  the one you planned and the four you did not{\ldots}
-  and you had to do it right under your master teacher's nose.
-  Afterward, everyone---the teacher, the college students,
-  and sometimes even another outside observer---would sit around a formal table
-  to talk about what they saw.
-
-\end{quote}
-
-Putting work under a microscope in order to improve it is commonplace
-in fields as diverse as \hreffoot{https://en.wikipedia.org/wiki/W.\_Edwards\_Deming}{manufacturing} and music.
-A professional musician,
-for example,
-will dissect half a dozen recordings of ``Body and Soul'' or ``Smells Like Teen Spirit'' before performing it.
-They would also expect to get feedback from fellow musicians during practice and after performances.
-Many other professions work this way as well: for
-example, the Japanese drew inspiration from .
-
-But continuous feedback isn't part of teaching culture in most English-speaking countries.
-There,
-what happens in the classroom stays in the classroom:
-teachers don't watch each other's lessons on a regular basis,
-so they can't borrow each other's good ideas.
-Teachers may get lesson plans and assignments from colleagues,
-the school board or a textbook publisher,
-or go through a few MOOCs on the Internet,
-but each one has to figure out
-how to deliver specific lessons in specific classrooms for specific students.
-This is particularly true for volunteers and other free-range teachers
-involved in after-school workshops and bootcamps.
-
-Writing up new techniques
-and giving \gref{g:demonstration-lesson}{demonstration lessons}
-(in which one person teaches actual students while other teachers observe)
-are not solutions.
-For example,
-\cite{Finc2007,Finc2012} found that of the 99 change stories analyzed,
-teachers only searched actively for new practices or materials in three cases,
-and only consulted published material in eight.
-Most changes occurred locally,
-without input from outside sources,
-or involved only personal interaction with other educators.
-\cite{Bark2015} found something similar:
-
-\begin{quote}
-
-  Adoption is not a ``rational action''{\ldots}but
-  an iterative series of decisions made in a social context,
-  relying on normative traditions, social cueing,
-  and emotional or intuitive processes{\ldots}
-  Faculty are not likely to use educational research findings
-  as the basis for adoption decisions{\ldots}
-  Positive student feedback is taken as strong evidence by faculty
-  that they should continue a practice.
-
-\end{quote}
-
-\emph{jugyokenkyu} works because it maximizes the opportunity for
-\gref{g:lateral-knowledge-transfer}{lateral knowledge transfer} between teachers.
-Someone sets out to teach X,
-but while watching them,
-their audience actually learns Y as well (or instead).
-For example,
-a teacher might intend to show learners how to search for email addresses in a text file,
-but what their audience might take away is some new keyboard shortcuts.
-
-\seclbl{Giving and Getting Feedback on Teaching}{s:performance-feedback}
-
-Observing someone helps you,
-and giving them feedback helps them,
-but it can be hard to receive feedback,
-especially when it's negative (\figref{f:performance-feedback-feelings}).
-
-\figlbl{figures/deathbulge-jerk.jpg}{Feedback Feelings (copyright © Deathbulge 2013)}{f:performance-feedback-feelings}
-
-Feedback is easier to give and receive when both parties share expectations
-about what is and isn't in scope
-and about how comments ought to be phrased.
-If you are the person asking for feedback:
-
-\begin{description}
-
-\item[Initiate feedback.]
-  It's better to ask for feedback than to receive it unwillingly.
-
-\item[Choose your own questions,]
-  i.e., ask for specific feedback.
-  It's a lot harder for someone to answer,
-  ``What do you think?''
-  than to answer either,
-  ``Was I speaking too quickly?''
-  or ,
-  ``What is one thing from this lesson I should keep doing?''
-  Directing feedback like this is also more helpful to you.
-  It's always better to try to fix one thing at once
-  than to change everything and hope it's for the better.
-  Directing feedback at something you have chosen to work on helps you stay focused,
-  which in turn increases the odds that you'll see progress.
-
-\item[Use a feedback translator.]
-  Have someone else read over all the feedback and give you a summary.
-  It can be easier to hear,
-  ``Several people think you could speed up a little,''
-  than to read several notes all saying, ``This is too slow''
-  or, ``This is boring''.
-
-\item[Be kind to yourself.]
-  Many of us are very critical of ourselves,
-  so it's always helpful to jot down what we thought of ourselves
-  \emph{before} getting feedback from others.
-  That allows us to compare what we think of our performance
-  with what others think,
-  which in turn allows us to scale the former more accurately.
-  For example,
-  it's very common for people to think that they're saying ``um'' and ``err'' too often
-  when their audience doesn't notice it.
-  Getting that feedback once allows teachers to adjust their assessment of themselves
-  the next time they feel that way.
-
-\end{description}
-
-\noindent
-You can give feedback to others more effectively as well:
-
-\begin{description}
-
-\item[Interact.]
-  Staring at someone is a good way to make them feel uncomfortable,
-  so if you want to give feedback on how someone normally teaches,
-  you need to set them at ease.
-  Interacting with them the way that a real student would is a good way to do this,
-  so ask questions or (pretend to) type along with their example.
-  If you are part of a group,
-  have one or two people play the role of learner
-  while the others take notes.
-
-\item[Balance positive and negative feedback.]
-  The ``compliment sandwich'' made up of one positive comment,
-  one negative,
-  and a second positive
-  becomes tiresome pretty quickly,
-  but it's important to tell people what they should keep doing
-  as well as what they should change.
-
-\item[Take notes.]
-  You won't remember everything you noticed
-  if the presentation lasts longer than a few seconds,
-  and you definitely won't recall how often you noticed them.
-  Make a note the first time something happens
-  and then add a tick mark when it happens again
-  so that you can sort your feedback by frequency.
-
-\end{description}
-
-Taking notes is more efficient when you have some kind of rubric
-so that you're not scrambling to write your observations
-while the person you're observing is still talking.
-\secref{s:checklists-teacheval} contains a sample rubric
-for assessing 5--10 minutes of programming instruction.
-It presents items in more or less the order that they're likely to come up,
-i.e.,
-questions about the introduction come before questions about the conclusion.
-
-\begin{aside}{Question Budgets}
-  Rubrics like the one in \secref{s:checklists-teacheval}
-  have a tendency to grow over time as people think of things they'd like to add.
-  A good way to keep them manageable is to insist that
-  the total length stays constant,
-  i.e.,
-  that if someone wants to add a question,
-  they have to identify one that's less important and can be removed.
-\end{aside}
-
-The simplest rubric for free-form comments from a group
-is a 2x2 grid whose vertical axis is labelled ``what went well'' and ``what can be improved'',
-and whose horizontal axis is labelled ``content'' (what was said)
-and ``presentation'' (how it was said).
-Observers write their comments on sticky notes as they watch the demonstration,
-then post those in the quadrants of a grid drawn on a whiteboard
-(\figref{f:performance-rubric}).
-
-\figlbl{figures/2x2-rubric.pdf}{Teaching Rubric}{f:performance-rubric}
-
-If you are interested in giving and getting feedback,
-\cite{Gorm2014} has good advice
-that you can use to make peer-to-peer feedback a routine part of your teaching,
-while~\cite{Gawa2011} looks at the value of having a coach.
-
-\begin{aside}{Studio Classes}
-  Architecture schools often include studio classes
-  in which students solve small design problems
-  and get feedback from their peers right then and there.
-  These classes are most effective when the teacher critiques the peer critiques
-  so that participants learn not only how to make buildings
-  but how to give and get feedback~\cite{Scho1984}.
-  Master classes in music serve a similar purpose,
-  and I have found that giving feedback on feedback
-  helps people improve their teaching as well.
-\end{aside}
-
-\seclbl{How to Practice Performance}{s:performance-practice}
-
-The best way to improve your in-person lesson delivery
-is to watch yourself do it:
-
-\begin{enumerate}
-
-\item
-  Work in groups of three.
-
-\item
-  Each person rotates through the roles of teacher, audience, and videographer.
-  The teacher has two minutes to explain something.
-  The person pretending to be the audience is there to be attentive,
-  while the videographer records the session using a cellphone or other handheld device.
-
-\item
-  After everyone has finished teaching,
-  the whole group watches the videos together.
-  Everyone gives feedback on all three videos,
-  i.e., people give feedback on themselves as well as on others.
-
-\item
-  After the videos have been discussed,
-  they are deleted.
-  (Many people are justifiably uncomfortable about images of themselves appearing online.)
-
-\item
-  Finally,
-  the whole class reconvenes
-  and adds all the feedback to a shared 2x2 grid of the kind described above
-  \emph{without} saying who each item of feedback is about.
-
-\end{enumerate}
-
-In order for this exercise to work well:
-
-\begin{itemize}
-
-\item
-  Record all three videos and then watch all three.
-  If the cycle is teach-review-teach-review,
-  the last person to teach invariably runs short of time
-  (sometimes on purpose).
-  Doing all the reviewing after all the teaching
-  also helps put a bit of distance between the two,
-  which makes the exercise slightly less excruciating.
-
-\item
-  Let people know at the start of the class that they will be asked to teach something
-  so that they have time to choose a topic.
-  Telling them this too far in advance can be counter-productive,
-  since some people will fret over how much they should prepare.
-
-\item
-  Groups must be physically separated to reduce audio cross-talk between their recordings.
-  In practice,
-  this means 2--3 groups in a normal-sized classroom,
-  with the rest using nearby breakout spaces, coffee lounges, offices,
-  or (on one occasion) a janitor's storage closet.
-
-\item
-  People must give feedback on themselves as well as on each other
-  so that they can calibrate their impressions of their own teaching
-  against those of other people.
-  Most people are harder on themselves than they ought to be,
-  and it's important for them to realize this.
-
-\end{itemize}
-
-The announcement of this exercise is often greeted with groans and apprehension,
-since few people enjoy seeing or hearing themselves.
-However,
-those same people consistently rate it as one of the most valuable parts of teaching workshops.
-It's also good preparation for co-teaching (\secref{s:classroom-together}):
-teachers find it a lot easier to give each other informal feedback
-if they have had some practice doing so
-and have a shared rubric to set expectations.
-
-And speaking of rubrics:
-once the class has put all of their feedback on a shared grid,
-pick handful of positive and negative comments,
-write them up as a checklist,
-and have them do the exercise again.
-Most people are more comfortable the second time around,
-and being assessed on the things that they themselves have decided are important
-increases their sense of self-determination (\chapref{s:motivation}).
-
-\begin{aside}{Tells}
-  We all have nervous habits:
-  we talk more rapidly and in a higher-pitched voice than usual when we're on stage,
-  play with our hair,
-  or crack our knuckles.
-  Gamblers call these ``tells'',
-  and people often don't realize that they pace,
-  look at their shoes,
-  or rattle the change in their pocket
-  when they don't actually know the answer to a question.
-
-  You can't get rid of tells completely,
-  and trying to do so can make you obsess about them.
-  A better strategy is to try to displace them---for example,
-  to train yourself to scrunch your toes inside your shoes when you're nervous
-  instead of cleaning your ear with your pinky finger.
-\end{aside}
 
 \seclbl{Live Coding}{s:performance-live}
 
@@ -383,7 +50,7 @@ Live coding works better than slides for several reasons:
   than watching someone page through slides.
 
 \item
-  It facilitates lateral knowledge transfer:
+  It facilitates unintended knowledge transfer:
   people learn more than we are consciously teaching
   by watching \emph{how} we do things.
 
@@ -690,6 +357,335 @@ and other boilerplate code,
 give yourself and your learners some skeleton code as a starting point (\secref{s:classroom-blank}).
 Doing this will also reduce their cognitive load,
 since it will focus their attention where you want it.
+
+\seclbl{Lesson Study}{s:performance-jugyokenkyu}
+
+From politicians to researchers and teachers themselves,
+educational reformers have designed systems
+to find and promote people who can teach well
+and eliminate those who cannot.
+But the assumption that some people are born teachers is wrong:
+instead,
+like any other performance art,
+the keys to better teaching are practice and collaboration.
+As~\cite{Gree2014} explains,
+the Japanese approach to this is called \gref{g:jugyokenkyu}{jugyokenkyu},
+which means ``lesson study'':
+
+\begin{quote}
+
+  In order to graduate,
+  [Japanese] education majors not only had to watch their assigned master teacher work,
+  they had to effectively replace him,
+  installing themselves in his classroom first as observers and then,
+  by the third week,
+  as a wobbly{\ldots}approximation of the teacher himself.
+  It worked like a kind of teaching relay.
+  Each trainee took a subject,
+  planning five days' worth of lessons{\ldots} [and then] each took a day.
+  To pass the baton,
+  you had to teach a day's lesson in every single subject:
+  the one you planned and the four you did not{\ldots}
+  and you had to do it right under your master teacher's nose.
+  Afterward, everyone---the teacher, the college students,
+  and sometimes even another outside observer---would sit around a formal table
+  to talk about what they saw.
+
+\end{quote}
+
+Putting work under a microscope in order to improve it is commonplace
+in fields as diverse as \hreffoot{https://en.wikipedia.org/wiki/W.\_Edwards\_Deming}{manufacturing} and music.
+A professional musician,
+for example,
+will dissect half a dozen recordings of ``Body and Soul'' or ``Smells Like Teen Spirit'' before performing it.
+They would also expect to get feedback from fellow musicians during practice and after performances.
+
+But continuous feedback isn't part of teaching culture in most English-speaking countries.
+There,
+what happens in the classroom stays in the classroom:
+teachers don't watch each other's lessons on a regular basis,
+so they can't borrow each other's good ideas.
+Teachers may get lesson plans and assignments from colleagues,
+the school board or a textbook publisher,
+or go through a few MOOCs on the Internet,
+but each one has to figure out
+how to deliver specific lessons in specific classrooms for specific students.
+This is particularly true for volunteers and other free-range teachers
+involved in after-school workshops and bootcamps.
+
+Writing up new techniques
+and giving \gref{g:demonstration-lesson}{demonstration lessons}
+(in which one person teaches actual students while other teachers observe)
+are not solutions.
+For example,
+\cite{Finc2007,Finc2012} found that of the 99 change stories analyzed,
+teachers only searched actively for new practices or materials in three cases,
+and only consulted published material in eight.
+Most changes occurred locally,
+without input from outside sources,
+or involved only personal interaction with other educators.
+\cite{Bark2015} found something similar:
+
+\begin{quote}
+
+  Adoption is not a ``rational action''{\ldots}but
+  an iterative series of decisions made in a social context,
+  relying on normative traditions, social cueing,
+  and emotional or intuitive processes{\ldots}
+  Faculty are not likely to use educational research findings
+  as the basis for adoption decisions{\ldots}
+  Positive student feedback is taken as strong evidence by faculty
+  that they should continue a practice.
+
+\end{quote}
+
+\emph{jugyokenkyu} works because it maximizes the opportunity for unplanned knowledge transfer between teachers:
+someone sets out to demonstrate X,
+but while watching them,
+their audience actually learns Y as well (or instead).
+For example,
+a teacher might intend to show learners how to search for email addresses in a text file,
+but what their audience might take away is some new keyboard shortcuts.
+
+\seclbl{Giving and Getting Feedback on Teaching}{s:performance-feedback}
+
+Observing someone helps you,
+and giving them feedback helps them,
+but it can be hard to receive feedback,
+especially when it's negative (\figref{f:performance-feedback-feelings}).
+
+\figlbl{figures/deathbulge-jerk.jpg}{Feedback Feelings (copyright © Deathbulge 2013)}{f:performance-feedback-feelings}
+
+Feedback is easier to give and receive when both parties share expectations
+about what is and isn't in scope
+and about how comments ought to be phrased.
+If you are the person asking for feedback:
+
+\begin{description}
+
+\item[Initiate feedback.]
+  It's better to ask for feedback than to receive it unwillingly.
+
+\item[Choose your own questions,]
+  i.e., ask for specific feedback.
+  It's a lot harder for someone to answer,
+  ``What do you think?''
+  than to answer either,
+  ``Was I speaking too quickly?''
+  or ,
+  ``What is one thing from this lesson I should keep doing?''
+  Directing feedback like this is also more helpful to you.
+  It's always better to try to fix one thing at once
+  than to change everything and hope it's for the better.
+  Directing feedback at something you have chosen to work on helps you stay focused,
+  which in turn increases the odds that you'll see progress.
+
+\item[Use a feedback translator.]
+  Have someone else read over all the feedback and give you a summary.
+  It can be easier to hear,
+  ``Several people think you could speed up a little,''
+  than to read several notes all saying, ``This is too slow''
+  or, ``This is boring''.
+
+\item[Be kind to yourself.]
+  Many of us are very critical of ourselves,
+  so it's always helpful to jot down what we thought of ourselves
+  \emph{before} getting feedback from others.
+  That allows us to compare what we think of our performance
+  with what others think,
+  which in turn allows us to scale the former more accurately.
+  For example,
+  it's very common for people to think that they're saying ``um'' and ``err'' too often
+  when their audience doesn't notice it.
+  Getting that feedback once allows teachers to adjust their assessment of themselves
+  the next time they feel that way.
+
+\end{description}
+
+\noindent
+You can give feedback to others more effectively as well:
+
+\begin{description}
+
+\item[Interact.]
+  Staring at someone is a good way to make them feel uncomfortable,
+  so if you want to give feedback on how someone normally teaches,
+  you need to set them at ease.
+  Interacting with them the way that a real student would is a good way to do this,
+  so ask questions or (pretend to) type along with their example.
+  If you are part of a group,
+  have one or two people play the role of learner
+  while the others take notes.
+
+\item[Balance positive and negative feedback.]
+  The ``compliment sandwich'' made up of one positive comment,
+  one negative,
+  and a second positive
+  becomes tiresome pretty quickly,
+  but it's important to tell people what they should keep doing
+  as well as what they should change.
+
+\item[Take notes.]
+  You won't remember everything you noticed
+  if the presentation lasts longer than a few seconds,
+  and you definitely won't recall how often you noticed them.
+  Make a note the first time something happens
+  and then add a tick mark when it happens again
+  so that you can sort your feedback by frequency.
+
+\end{description}
+
+Taking notes is more efficient when you have some kind of rubric
+so that you're not scrambling to write your observations
+while the person you're observing is still talking.
+\secref{s:checklists-teacheval} contains a sample rubric
+for assessing 5--10 minutes of programming instruction.
+It presents items in more or less the order that they're likely to come up,
+i.e.,
+questions about the introduction come before questions about the conclusion.
+
+\begin{aside}{Question Budgets}
+  Rubrics like the one in \secref{s:checklists-teacheval}
+  have a tendency to grow over time as people think of things they'd like to add.
+  A good way to keep them manageable is to insist that
+  the total length stays constant,
+  i.e.,
+  that if someone wants to add a question,
+  they have to identify one that's less important and can be removed.
+\end{aside}
+
+The simplest rubric for free-form comments from a group
+is a 2x2 grid whose vertical axis is labelled ``what went well'' and ``what can be improved'',
+and whose horizontal axis is labelled ``content'' (what was said)
+and ``presentation'' (how it was said).
+Observers write their comments on sticky notes as they watch the demonstration,
+then post those in the quadrants of a grid drawn on a whiteboard
+(\figref{f:performance-rubric}).
+
+\figlbl{figures/2x2-rubric.pdf}{Teaching Rubric}{f:performance-rubric}
+
+If you are interested in giving and getting feedback,
+\cite{Gorm2014} has good advice
+that you can use to make peer-to-peer feedback a routine part of your teaching,
+while~\cite{Gawa2011} looks at the value of having a coach.
+
+\begin{aside}{Studio Classes}
+  Architecture schools often include studio classes
+  in which students solve small design problems
+  and get feedback from their peers right then and there.
+  These classes are most effective when the teacher critiques the peer critiques
+  so that participants learn not only how to make buildings
+  but how to give and get feedback~\cite{Scho1984}.
+  Master classes in music serve a similar purpose,
+  and I have found that giving feedback on feedback
+  helps people improve their teaching as well.
+\end{aside}
+
+\seclbl{How to Practice Performance}{s:performance-practice}
+
+The best way to improve your in-person lesson delivery
+is to watch yourself do it:
+
+\begin{enumerate}
+
+\item
+  Work in groups of three.
+
+\item
+  Each person rotates through the roles of teacher, audience, and videographer.
+  The teacher has two minutes to explain something.
+  The person pretending to be the audience is there to be attentive,
+  while the videographer records the session using a cellphone or other handheld device.
+
+\item
+  After everyone has finished teaching,
+  the whole group watches the videos together.
+  Everyone gives feedback on all three videos,
+  i.e., people give feedback on themselves as well as on others.
+
+\item
+  After the videos have been discussed,
+  they are deleted.
+  (Many people are justifiably uncomfortable about images of themselves appearing online.)
+
+\item
+  Finally,
+  the whole class reconvenes
+  and adds all the feedback to a shared 2x2 grid of the kind described above
+  \emph{without} saying who each item of feedback is about.
+
+\end{enumerate}
+
+In order for this exercise to work well:
+
+\begin{itemize}
+
+\item
+  Record all three videos and then watch all three.
+  If the cycle is teach-review-teach-review,
+  the last person to teach invariably runs short of time
+  (sometimes on purpose).
+  Doing all the reviewing after all the teaching
+  also helps put a bit of distance between the two,
+  which makes the exercise slightly less excruciating.
+
+\item
+  Let people know at the start of the class that they will be asked to teach something
+  so that they have time to choose a topic.
+  Telling them this too far in advance can be counter-productive,
+  since some people will fret over how much they should prepare.
+
+\item
+  Groups must be physically separated to reduce audio cross-talk between their recordings.
+  In practice,
+  this means 2--3 groups in a normal-sized classroom,
+  with the rest using nearby breakout spaces, coffee lounges, offices,
+  or (on one occasion) a janitor's storage closet.
+
+\item
+  People must give feedback on themselves as well as on each other
+  so that they can calibrate their impressions of their own teaching
+  against those of other people.
+  Most people are harder on themselves than they ought to be,
+  and it's important for them to realize this.
+
+\end{itemize}
+
+The announcement of this exercise is often greeted with groans and apprehension,
+since few people enjoy seeing or hearing themselves.
+However,
+those same people consistently rate it as one of the most valuable parts of teaching workshops.
+It's also good preparation for co-teaching (\secref{s:classroom-together}):
+teachers find it a lot easier to give each other informal feedback
+if they have had some practice doing so
+and have a shared rubric to set expectations.
+
+And speaking of rubrics:
+once the class has put all of their feedback on a shared grid,
+pick handful of positive and negative comments,
+write them up as a checklist,
+and have them do the exercise again.
+Most people are more comfortable the second time around,
+and being assessed on the things that they themselves have decided are important
+increases their sense of self-determination (\chapref{s:motivation}).
+
+\begin{aside}{Tells}
+  We all have nervous habits:
+  we talk more rapidly and in a higher-pitched voice than usual when we're on stage,
+  play with our hair,
+  or crack our knuckles.
+  Gamblers call these ``tells'',
+  and people often don't realize that they pace,
+  look at their shoes,
+  or rattle the change in their pocket
+  when they don't actually know the answer to a question.
+
+  You can't get rid of tells completely,
+  and trying to do so can make you obsess about them.
+  A better strategy is to try to displace them---for example,
+  to train yourself to scrunch your toes inside your shoes when you're nervous
+  instead of cleaning your ear with your pinky finger.
+\end{aside}
 
 \seclbl{Exercises}{s:performance-exercises}
 
