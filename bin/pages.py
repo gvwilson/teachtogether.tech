@@ -4,7 +4,10 @@ import sys
 import re
 
 PAGES_PAT = re.compile(r'^ \[(\d+)', re.MULTILINE)
+
+INTERESTING_PAT = re.compile(r'\{chapter\}|References')
 CHAPTER_PAT = re.compile(r'\{chapter\}\{\\numberline\s*\{\\bfseries\s*(.+?)~(.+?)\}(.+?)\}\{(.+?)\}')
+REFERENCES_PAT = re.compile(r'\{\\bfseries\s+References\}\{(\d+)\}')
 
 def main(log, toc):
     num_pages = read_log(log)
@@ -20,17 +23,23 @@ def read_log(log):
     return int(all_pages[-1])
 
 
+def _extract_chapters(line):
+    match = CHAPTER_PAT.search(line)
+    if match:
+        return [match.group(1), match.group(2), match.group(3), int(match.group(4))]
+    match = REFERENCES_PAT.search(line)
+    return ['Bib', '', 'References', int(match.group(1))]
+
 def read_chapters(toc, num_pages):
     with open(toc, 'r') as reader:
-        matches = [CHAPTER_PAT.search(line) for line in reader]
+        all_lines = [line for line in reader.readlines() if INTERESTING_PAT.search(line)]
+    matched = [_extract_chapters(line) for line in all_lines]
 
-    chapters = [[m.group(1), m.group(2), m.group(3), int(m.group(4))] for m in matches if m]
+    for i in range(1, len(matched)):
+        matched[i-1].append(matched[i][3] - matched[i-1][3])
+    matched[-1].append(num_pages - matched[-1][3])
 
-    for i in range(1, len(chapters)):
-        chapters[i-1].append(chapters[i][3] - chapters[i-1][3])
-    chapters[-1].append(num_pages - chapters[-1][3])
-
-    return chapters
+    return matched
 
 
 if __name__ == '__main__':

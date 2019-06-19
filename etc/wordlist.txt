@@ -41,7 +41,6 @@ SIGCSE
 Screencasting
 Shashi
 Socrative
-Stencila
 Stéfan
 Subgoals
 Sumana
@@ -113,7 +112,6 @@ nvestigate
 odify
 oncrete
 opetition
-param
 pck
 pdf
 perhapses

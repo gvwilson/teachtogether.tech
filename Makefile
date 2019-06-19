@@ -97,12 +97,12 @@ settings :
 	@echo SRC ${SRC}
 	@echo HTML ${HTML}
 	@echo PDF ${PDF}
-	@echo FIG_SRC ${FIG_SRC}
-	@echo FIG_DST ${FIG_DST}
+	@echo FIGURES_SRC ${FIGURES_SRC}
+	@echo FIGURES_DST ${FIGURES_DST}
 
 ## spell          : check spelling.
 spell :
-	@-cat ${TEX_CHAPTERS} | aspell -t list | sort | uniq | diff -y --suppress-common-lines - .words
+	@-cat ${TEX_CHAPTERS} | aspell -t list | sort | uniq | diff -y --suppress-common-lines - etc/wordlist.txt
 
 ## words          : count words.
 words :
