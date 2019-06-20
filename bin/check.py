@@ -1,29 +1,34 @@
 #!/usr/bin/env python
 
 import sys
+import os
 import re
 import getopt
 
 
 def main(args):
-    bib_filename, tex_filenames = parse_args(args)
+    bib_filename, fig_dir, tex_filenames = parse_args(args)
     tex_files = [(f, open(f, 'r').read()) for f in tex_filenames]
     check_gloss(tex_files)
+    check_figs(fig_dir, tex_files)
     bib_keys = check_bib_keys(bib_filename)
     check_bib_cites(bib_keys, tex_files)
 
 
 def parse_args(args):
     bib_filename = None
-    options, tex_filenames = getopt.getopt(args, 'b:')
+    fig_dir = None
+    options, tex_filenames = getopt.getopt(args, 'b:f:')
     for (opt, arg) in options:
         if opt == '-b':
             bib_filename = arg
+        elif opt == '-f':
+            fig_dir = arg
         else:
             fail(f'Unknown option "{opt}"')
-    if not bib_filename:
-        fail('Bibliography filename not given')
-    return bib_filename, tex_filenames
+    fail('Bibliography filename not given (use -b)', not bib_filename)
+    fail('Figure director not given (use -f)', not fig_dir)
+    return bib_filename, fig_dir, tex_filenames
 
 
 def check_gloss(files):
@@ -33,6 +38,16 @@ def check_gloss(files):
     used = find_all(GLOSS_USE, files)
     report('Glossary', 'missing', used - defined)
     report('Glossary', 'unused', defined - used)
+
+
+def check_figs(fig_dir, files):
+    FIG_USE = re.compile(r'\\figlbl\{(.+?)\}\{.+?\}\{.+?\}')
+    used = {os.path.basename(f) for f in find_all(FIG_USE, files)}
+    exists = set(os.listdir(fig_dir))
+    report('Figures', 'missing', used - exists)
+    used_stems = {os.path.splitext(f)[0] for f in used}
+    exists_stems = {os.path.splitext(f)[0] for f in exists}
+    report('Figures', 'unused', exists_stems - used_stems)
 
 
 def check_bib_keys(bib_filename):
@@ -66,9 +81,10 @@ def report(major, minor, values):
             print(f'  {v}')
 
 
-def fail(msg):
-    print(msg, file=sys.stderr)
-    sys.exit(1)
+def fail(msg, failure=True):
+    if failure:
+        print(msg, file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == '__main__':

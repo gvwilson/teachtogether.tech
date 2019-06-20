@@ -73,7 +73,7 @@ docs/CNAME : ./CNAME
 
 ## check          : check internal consistency.
 check : spell
-	@python bin/check.py -b book.bib ${TEX}
+	@python bin/check.py -b book.bib -f figures ${TEX}
 
 ## clean          : clean up junk files.
 clean :
