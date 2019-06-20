@@ -24,6 +24,7 @@ Leondar
 Lev
 Loupe
 MATLAB
+Markku
 Miserandino
 Moodle
 Moronuki
@@ -37,6 +38,7 @@ RGB
 RStudio's
 Raj
 Reusability
+Rontu
 SIGCSE
 Screencasting
 Shashi
