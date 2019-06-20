@@ -12,7 +12,6 @@ Demotivation
 Dweck
 Dynarski's
 Enrollment
-FIXME
 Harihareswara
 Hediyeh
 Herckis
@@ -27,6 +26,7 @@ Loupe
 MATLAB
 Miserandino
 Moodle
+Moronuki
 Mouseposé
 NOAA
 NonprofitReady
