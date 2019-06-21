@@ -94,7 +94,7 @@ Instead of writing code that satisfies some specification,
 learners can be asked to write tests
 to determine whether a piece of code conforms to a spec.
 This is a useful skill in its own right,
-and doing it may give students a bit more sympathy for how hard their teachers work.
+and doing it may give learners a bit more sympathy for how hard their teachers work.
 
 \begin{aside}{Inverting Code \& Run}
   The function \texttt{monotonic\_sum} calculates the sum of each section
@@ -139,9 +139,8 @@ print(slice)
 \end{aside}
 
 \gref{g:parsons-problem}{Parsons Problems} also avoid
-the ``blank screen of terror'' problem (\chapref{s:architecture}).
-Parsons Problems are effective because
-they allow learners to concentrate on control flow separately from vocabulary
+the ``blank screen of terror'' problem (\chapref{s:architecture})
+while allowing learners to concentrate on control flow separately from vocabulary
 \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
 Tools for building and doing Parsons Problems online exist~\cite{Ihan2011},
 but they can be emulated (albeit somewhat clumsily)
@@ -201,6 +200,7 @@ whose columns are labelled with variable names
 and whose rows are labelled with line numbers,
 and ask them to fill in the values taken on by the variables on those lines.
 
+\newpage
 \begin{aside}{Tracing Values}
   What values do \texttt{left} and \texttt{right} take on as this program executes?
 
@@ -324,7 +324,7 @@ for v in values:
 
 \seclbl{Diagrams}{s:exercises-diagrams}
 
-Having students draw concept maps and other diagrams
+Having learners draw concept maps and other diagrams
 gives insight into how they're thinking (\secref{s:memory-concept-maps}),
 but free-form diagrams take human time and judgment to assess.
 \emph{Labelling diagrams},
@@ -367,16 +367,11 @@ and asks them to pair corresponding items,
 e.g., ``match each piece of code with the output it produces''.
 
 \begin{aside}{Matching}
-  Match each regular expression operator with what it does.
-
-  \begin{longtable}{ll}
-    \texttt{?} & start of line\\
-    \texttt{*} & zero or one occurrences\\
-    \texttt{+} & end of line\\
-    \texttt{\$} & one or more occurrences\\
-    \texttt{\^{}} & zero or more occurrences\\
-  \end{longtable}
+  Match each regular expression operator in \figref{f:exercises-matching}
+  with what it does.
 \end{aside}
+
+\figlbl{figures/matching.pdf}{Matching Items}{f:exercises-matching}
 
 With \emph{many-to-many matching} the lists aren't the same length,
 so some items may be matched to several others
@@ -548,12 +543,12 @@ without being told how many of each they should find.
 
 \cite{Steg2016b} is a good starting point for a code style rubric,
 while~\cite{Luxt2009} looks at peer review in programming classes more generally.
-If you are going to have students do reviews,
+If you are going to have learners do reviews,
 use calibrated peer review (\secref{s:individual-peer})
 so that they have models of what good feedback should look like.
 
 \begin{aside}{Code Review}
-  Using the rubric provided, mark each line of the code below.
+  Mark the problems in each line of code using the rubric provided.
 
 \begin{minted}{text}
 01)  def addem(f):
@@ -566,16 +561,10 @@ so that they have models of what good feedback should look like.
 08)      print('total')
 \end{minted}
 
-  \begin{enumerate}
-  \item
-    poor variable name
-  \item
-    unused variable
-  \item
-    use of undefined variable
-  \item
-    missing return value
-  \end{enumerate}
+  \begin{longtable}{ll}
+    1. poor variable name   & 2. use of undefined variable \\
+    3. missing return value & 4. unused variable
+  \end{longtable}
 \end{aside}
 
 \seclbl{Exercises}{s:exercises-exercises}
@@ -624,7 +613,7 @@ Put the labels on the side and ask your partner to place them.
 
 \cite{Butl2017} describes a set of pencil-and-paper puzzles
 that can be turned into introductory programming assignments
-and reports that these assignments are enjoyed by students and encourage meta-cognition.
+and reports that these assignments are enjoyed by learners and encourage meta-cognition.
 Think of a simple pencil-and-paper puzzle or game you played as a child
 and describe how you would turn it into a programming exercise.
 

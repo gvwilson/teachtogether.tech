@@ -66,26 +66,34 @@ But since actual teachers in actual classrooms have to make decisions
 regardless of whether research has clear answers yet or not,
 this chapter presents actionable best guesses rather than nuanced perhapses.
 
+\begin{aside}{Jargon}
+  Like any specialty,
+  computing education research has its jargon.
+  The term \gref{g:cs1}{CS1} refers to a typical introductory semester-long programming course
+  in which learners meet variables, loops, and functions for the first time,
+  while \gref{g:cs2}{CS2} refers to a second course
+  that covers basic data structures like stacks and queues.
+  The term \gref{g:cs0}{CS0} is used to refer to an introductory course
+  for people without any prior experience
+  who aren't intending to continue with computing right away.
+  Full definitions for these terms and others can be found in
+  the \hreffoot{https://www.acm.org/education/curricula-recommendations}{ACM Curriculum Guidelines}.
+\end{aside}
+
 \seclbl{What Are We Teaching Them Now?}{s:pck-now}
 
 Very little is known about what coding bootcamps and other free-range initiatives teach,
 in part because many are reluctant to share their curriculum.
 We know more about what is taught by institutions~\cite{Luxt2017}:
 
-\begin{longtable}{lll}
-\textbf{Topic}			& \textbf{\%} \\
-Programming Process     	& 87\% \\
-Abstract Programming Thinking	& 63\% \\
-Data Structures      		& 40\% \\
-Object-Oriented Concepts        & 36\% \\
-Control Structures              & 33\% \\
-Operations \& Functions         & 26\% \\
-Data Types                      & 23\% \\
-Input/Output                    & 17\% \\
-Libraries                       & 15\% \\
-Variables \& Assignment         & 14\% \\
-Recursion                       & 10\% \\
-Pointers \& Memory Management   &  5\%
+\begin{longtable}{llll}
+\textbf{Topic}			& \textbf{\%}	& \textbf{Topic}		& \textbf{\%} \\
+Programming Process     	& 87\%		& Data Types                    & 23\% \\
+Abstract Programming Thinking	& 63\%		& Input/Output                  & 17\% \\
+Data Structures      		& 40\%		& Libraries                     & 15\% \\
+Object-Oriented Concepts        & 36\%		& Variables \& Assignment       & 14\% \\
+Control Structures              & 33\%		& Recursion 			& 10\% \\
+Operations \& Functions         & 26\%		& Pointers \& Memory Management	&  5\%
 \end{longtable}
 
 High-level topic labels like these can hide a multitude of sins.
@@ -96,7 +104,7 @@ Their results for sequencing, repetition, and conditionals are essentially colle
 that combine and rationalize the implicit and explicit thinking of many different educators
 (\figref{f:pck-trajectory}).
 
-\figlbl{figures/conditionals.pdf}{Learning Trajectory for Conditions from~\cite{Rich2017}}{f:pck-trajectory}
+\figlbl{figures/conditionals.pdf}{Learning Trajectory for Conditions (from~\cite{Rich2017})}{f:pck-trajectory}
 
 \seclbl{How Much Are They Learning?}{s:pck-learning}
 
@@ -118,20 +126,6 @@ They found that novices with prior experience outscored novices without by 10\% 
 but those differences disappeared by the end of CS2.
 They also found that women with prior exposure outperformed their male peers in all areas,
 but were consistently less confident in their abilities (\secref{s:motivation-inclusivity}).
-
-\begin{aside}{Jargon}
-  Like any specialty,
-  computing education research has its jargon.
-  The term \gref{g:cs1}{CS1} refers to a typical introductory semester-long programming course
-  in which learners meet variables, loops, and functions for the first time,
-  while \gref{g:cs2}{CS2} refers to a second course
-  that covers basic data structures like stacks and queues.
-  The term \gref{g:cs0}{CS0} is used to refer to an introductory course
-  for people without any prior experience
-  who aren't intending to continue with computing right away.
-  Full definitions for these terms and others can be found in
-  the \hreffoot{https://www.acm.org/education/curricula-recommendations}{ACM Curriculum Guidelines}.
-\end{aside}
 
 As for direct studies of how much novices learn,
 \cite{McCr2001} presented a multi-site international study
@@ -375,9 +369,9 @@ like all good tools,
 Scratch can be learned accidentally~\cite{Malo2010}.
 
 But what happens \emph{after} blocks?
-\cite{Chen2018} found that students whose first programming language was graphical
+\cite{Chen2018} found that learners whose first programming language was graphical
 had higher grades in introductory programming courses
-than students whose first language was textual
+than learners whose first language was textual
 when the languages were introduced in or before early adolescent years.
 Our sixth recommendation is therefore to
 \recommendation{start children and teens with blocks-based interfaces}
@@ -532,7 +526,7 @@ than they do from viewing visualizations constructed by others \cite{Stas1998,Ce
 so does visualization actually help learning?
 
 To answer this,
-\cite{Cunn2017} replicated an earlier study of the kinds of sketching students do when tracing code execution.
+\cite{Cunn2017} replicated an earlier study of the kinds of sketching learners do when tracing code execution.
 They found that not sketching at all correlates with lower success,
 while tracing changes to variables' values by writing new values near their names as they change was the most effective strategy.
 
@@ -541,11 +535,11 @@ since sketchers take significantly more time to solve problems,
 do they do better just because they think for longer?
 The answer is no:
 there was no correlation between the time taken and the score achieved.
-Our recommendation is therefore to \recommendation{teach students to trace variables' values when debugging}.
+Our recommendation is therefore to \recommendation{teach learners to trace variables' values when debugging}.
 
 \begin{aside}{Flowcharts}
   One often-overlooked finding about visualization is that
-  students understand flowcharts better than pseudocode \emph{if both are equally well structured}~\cite{Scan1989}.
+  people understand flowcharts better than pseudocode \emph{if both are equally well structured}~\cite{Scan1989}.
   Earlier work showing that pseudocode outperformed flowcharts used structured pseudocode and tangled flowcharts;
   when the playing field was levelled,
   novices did better with the graphical representation.
@@ -570,7 +564,7 @@ they found ten things teachers can do to improve outcomes (\figref{f:pck-interve
 \begin{description}
 
 \item[Collaboration:]
-  Activities that encourage student collaboration either in classrooms or labs.
+  Activities that encourage learner collaboration either in classrooms or labs.
 
 \item[Content Change:]
   Parts of the teaching material were changed or updated.
@@ -580,15 +574,14 @@ they found ten things teachers can do to improve outcomes (\figref{f:pck-interve
 
 \item[CS0:]
   Creation of a preliminary course to be taken before the introductory programming course;
-  could be organized only for some (e.g., at-risk) students.
+  could be organized only for some (e.g., at-risk) learners.
 
 \item[Game Theme:]
   A game-themed component was introduced to the course.
 
 \item[Grading Scheme:]
-  A change in the grading scheme;
-  the most common was to increase the amount of points rewarded from programming activities
-  while reducing the weight of the course exam.
+  A change in the grading scheme,
+  such as increasing the weight of programming activities while reducing that of the exam.
 
 \item[Group Work:]
   Activities with increased group work commitment such as team-based learning and cooperative learning.
@@ -667,7 +660,7 @@ These common errors are taken from a longer list in~\cite{Sirk2012}:
   even if the condition is false.
 
 \item[Executing function instead of defining it:]
-  The student believes that a function is executed as it is defined.
+  The learner believes that a function is executed as it is defined.
 
 \end{description}
 
@@ -676,13 +669,13 @@ Write one exercise for each to check that learners \emph{aren't} making that mis
 
 \exercise{Mangled Code}{pairs}{15}
 
-\cite{Chen2017} describes exercises in which students reconstruct code that has been mangled
+\cite{Chen2017} describes exercises in which learners reconstruct code that has been mangled
 by removing comments,
 deleting or replacing lines of code,
 moving lines,
 and so on.
 Performance on these correlates strongly with performance on assessments
-in which students write code,
+in which learners write code,
 but these questions require less work to mark.
 Take the solution to a programming exercise you've created in the past,
 mangle it in two different ways,
@@ -773,7 +766,7 @@ Which ones are irrelevant?
 \exercise{Misconceptions and Challenges}{small groups}{15}
 
 The \hreffoot{http://www.pd4cs.org/}{Professional Development for CS Principles Teaching} site
-includes \hreffoot{http://www.pd4cs.org/mc-index/}{a detailed list of student misconceptions and exercises}.
+includes \hreffoot{http://www.pd4cs.org/mc-index/}{a detailed list of learners' misconceptions and exercises}.
 Working in small groups,
 choose one section (such as data structures or functions) and go through their list.
 Which of these misconceptions do you remember having when you were a learner?
