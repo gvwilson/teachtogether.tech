@@ -2491,7 +2491,7 @@ for v in values:
 <p>Rather than having learners create diagrams from scratch, provide them with a diagram and a set of labels and have them put the latter in the right places on the former. The diagram can be a data structure (“after this code is executed, which variables point to which parts of this structure?”), a chart (“match each of these pieces of code with the part of the chart it generated”), or the code itself (“match each term to an example of that program element”).</p>
 <blockquote>
 <h4 id="labelling-a-diagram" class="unnumbered">Labelling a Diagram</h4>
-<p>Figure <a href="#f:exercises-labelling" data-reference-type="ref" data-reference="f:exercises-labelling">12.1</a> shows how a small fragment of HTML is represented in memory. Put the labels 1–10 on the elements of the tree to show the order in which they are reached in a depth-first traversal.</p>
+<p>Figure <a href="#f:exercises-labelling" data-reference-type="ref" data-reference="f:exercises-labelling">12.1</a> shows how a small fragment of HTML is represented in memory. Put the labels 1–9 on the elements of the tree to show the order in which they are reached in a depth-first traversal.</p>
 </blockquote>
 <figure>
 <img src="figures/labelling.svg" id="f:exercises-labelling" /><figcaption>Labelling a Diagram<span label="f:exercises-labelling"></span></figcaption>
@@ -2503,7 +2503,7 @@ for v in values:
 <p>Match each regular expression operator in Figure <a href="#f:exercises-matching" data-reference-type="ref" data-reference="f:exercises-matching">12.2</a> with what it does.</p>
 </blockquote>
 <figure>
-<img src="figures/matching.svg" id="f:exercises-matching" /><figcaption>Matching Columns<span label="f:exercises-matching"></span></figcaption>
+<img src="figures/matching.svg" id="f:exercises-matching" /><figcaption>Matching Items<span label="f:exercises-matching"></span></figcaption>
 </figure>
 <p>With <em>many-to-many matching</em> the lists aren’t the same length, so some items may be matched to several others and others may not be matched at all. Many-to-many are more difficult because learners can’t do easy matches first to reduce their search space. Matching problems can be implemented by having learners submit lists of matching pairs (such as “A3, B1, C2”), but that’s clumsy and error-prone. Having them recognize a set of correct pairs in an MCQ is even worse, as it’s painfully easy to misread. Drawing or dragging works much better, but may require some work to implement.</p>
 <p><em>Ranking</em> is a special case of matching that is (slightly) more amenable to answering via lists, since our minds are pretty good at detecting errors or anomalies in sequences. The ranking criteria determine the level of reasoning required. If you have learners order sorting algorithms from fastest to slowest you are probably exercising recall (i.e., asking them recognizing the algorithms’ names and know their properties), while asking them to rank solutions from most robust to most brittle exercises reasoning and judgment.</p>
@@ -2528,7 +2528,7 @@ for v in values:
 <p>[<a class="cite" href="#ref-Steg2016b">Steg2016b</a>] is a good starting point for a code style rubric, while [<a class="cite" href="#ref-Luxt2009">Luxt2009</a>] looks at peer review in programming classes more generally. If you are going to have learners do reviews, use calibrated peer review (Section <a href="#s:individual-peer" data-reference-type="ref" data-reference="s:individual-peer">5.3</a>) so that they have models of what good feedback should look like.</p>
 <blockquote>
 <h4 id="code-review" class="unnumbered">Code Review</h4>
-<p>Using the rubric provided, mark each line of the code below.</p>
+<p>Mark the problems in each line of code using the rubric provided.</p>
 <pre class="text"><code>01)  def addem(f):
 02)      x1 = open(f).readlines()
 03)      x2 = [x for x in x1 if x.strip()]
@@ -2537,12 +2537,18 @@ for v in values:
 06)          print(&#39;total&#39;, total)
 07)          tot = tot + int(v)
 08)      print(&#39;total&#39;)</code></pre>
-<ol>
-<li><p>poor variable name</p></li>
-<li><p>unused variable</p></li>
-<li><p>use of undefined variable</p></li>
-<li><p>missing return value</p></li>
-</ol>
+<table class="table table-striped">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1. poor variable name</td>
+<td style="text-align: left;">2. use of undefined variable</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3. missing return value</td>
+<td style="text-align: left;">4. unused variable</td>
+</tr>
+</tbody>
+</table>
 </blockquote>
 <h2 id="s:exercises-exercises">Exercises</h2>
 <h3 id="code-and-run-pairs10" class="unnumbered">Code and Run (pairs/10)</h3>
@@ -2563,7 +2569,7 @@ for v in values:
 <h3 id="speaking-of-timings-individual10" class="unnumbered">Speaking of Timings (individual/10)</h3>
 <p>How accurate have the time estimates on the exercises in this book been so far?</p>
 <h1 id="s:community">Building a Community of Practice</h1>
-<p>You don’t have to fix all of society’s ills in order to teach programming, but you <em>do</em> you have to understand and be involved in what happens outside your class if you want people to learn. This applies to teachers as well as to learners. Many of the people who teach after-school classes or weekend workshops start as volunteers or part-timers and have to juggle many other commitments. What happens outside the classroom is as important to their success as teachers as it is to their learners, and the best way to help them is to foster a teaching community.</p>
+<p>You don’t have to fix all of society’s ills in order to teach programming, but you <em>do</em> you have to be involved in what happens outside your class if you want people to learn. This applies to teachers as well as learners: many free-range teachers start as volunteers or part-timers and have to juggle many other commitments. What happens outside the classroom is as important to their success as it is to their learners’, so the best way to help both is to foster a teaching community.</p>
 <blockquote>
 <h4 id="finland-and-why-not" class="unnumbered">Finland and Why Not</h4>
 <p>Finland’s schools are among the most successful in the world, but as Anu Partanen <a href="https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/">pointed out</a>, they haven’t succeeded in isolation. Other countries’ attempts to adopt Finnish teaching methods are doomed to fail unless those countries also ensure that children (and their parents) are safe, well nourished, and treated fairly by the courts [<a class="cite" href="#ref-Sahl2015">Sahl2015</a>,<a class="cite" href="#ref-Wilk2011">Wilk2011</a>]. This isn’t surprising given what we know about the importance of motivation for learning (Chapter <a href="#s:motivation" data-reference-type="ref" data-reference="s:motivation">10</a>): everyone does worse if they believe the system is unpredictable, unfair, or indifferent.</p>
@@ -2599,7 +2605,7 @@ for v in values:
 <dd><p>“Can we come and see your after-school program? We need to establish one in our city.”</p>
 </dd>
 </dl>
-<p>Broadly speaking, communities of practice fall into <a href="https://www.feverbee.com/types-of-community-and-activity-within-the-community/">four categories</a>:</p>
+<p><a href="https://www.feverbee.com/types-of-community-and-activity-within-the-community/">Broadly speaking</a>, a community of practice can be a:</p>
 <dl>
 <dt>Community of action:</dt>
 <dd><p>people focused on a shared goal, such as getting someone elected.</p>
@@ -2617,7 +2623,7 @@ for v in values:
 <p>Most communities are mixes of these, such as people in Toronto who like teaching tech. A community’s focus can also change over time: for example, a support group for people dealing with depression (community of concern) can decide to raise funds to keep a help line going (community of action). Running the help line can then become the group’s focus (community of interest).</p>
 <blockquote>
 <h4 id="soup-then-hymns" class="unnumbered">Soup, Then Hymns</h4>
-<p>Manifestos are fun to write, but most people join a volunteer community to help and be helped rather than to argue over the wording of a grand vision statement. (Most people who prefer the latter are <em>only</em> interested in arguing<span>…</span>) To be effective you should therefore focus on things that are immediately useful—on what people can create that will be used by other community members right away. Once your organization shows that it can actually achieve small things, people will be more confident that it’s worth investing in bigger ones. That’s the time to worry about manifestos, since that’s the point at which it’s important to define the values that will guide your members.</p>
+<p>Manifestos are fun to write, but most people join a volunteer community to help and be helped rather than to argue over the wording of a vision statement<a href="#fn327" class="footnote-ref" id="fnref327" role="doc-noteref"><sup>327</sup></a>. You should therefore focus on what people can create that will be used by other community members right away. Once your organization shows that it can achieve small things, people will be more confident that it’s worth helping you with bigger projects. That’s the time to worry about defining the values that will guide your members.</p>
 </blockquote>
 <h2 id="s:community-learn-then-do">Learn, Then Do</h2>
 <p>The first step in building a community is to decide if you should, or whether you would be more effective joining an existing organization. Thousands of groups are already teaching people tech skills, from the <a href="http://www.4-h-canada.ca/">4-H Club</a> and <a href="https://www.frontiercollege.ca/">literacy programs</a> to get-into-coding non-profits like <a href="http://www.blackgirlscode.com/">Black Girls Code</a> and <a href="http://bridgeschool.io/">Bridge</a>. Joining an existing group will give you a head start on teaching, an immediate set of colleagues, and a chance to learn more about how to run things; hopefully, learning those skills while making an immediate contribution will be more important than being able to say that you’re the founder or leader of something new.</p>
@@ -2628,7 +2634,7 @@ for v in values:
 <p>Your best source of new recruits is your own classes: “see one, do one, teach one” has worked well for volunteer organizations for as long as there have <em>been</em> volunteer organizations. Make sure that every class or other encounter ends by telling people how they could help and that their help would be welcome. People who come to you this way will know what you do and have recent experience of being on the receiving end of what you offer, which helps your organization avoid collective expert blind spot (Chapter <a href="#s:memory" data-reference-type="ref" data-reference="s:memory">3</a>).</p>
 <blockquote>
 <h4 id="start-small" class="unnumbered">Start Small</h4>
-<p>As <a href="https://en.wikipedia.org/wiki/Ben_Franklin_effect">Ben Franklin</a> observed, a person who has performed a favor for someone is more likely to do them another favor than someone who had received a favor from that person. Asking people to do something small for you is therefore a good step toward getting them to do something larger. One natural way to do this when teaching is to ask people to submit fixes for your lesson materials for typos or unclear wording, or to suggest new exercises or examples. If your materials are written in a maintainable way (Section <a href="#s:process-maintainability" data-reference-type="ref" data-reference="s:process-maintainability">6.3</a>), this gives them a chance to practice some useful skills and gives you an opportunity to start a conversation that might lead to a new recruit.</p>
+<p><a href="https://en.wikipedia.org/wiki/Ben_Franklin_effect">Ben Franklin</a> observed that a person who has performed a favor for someone is more likely to do them another favor than someone who had received a favor from that person. Asking people to do something small for you is therefore a good step toward getting them to do something larger. One natural way to do this when teaching is to ask people to submit fixes for your lesson materials for typos or unclear wording, or to suggest new exercises or examples. If your materials are written in a maintainable way (Section <a href="#s:process-maintainability" data-reference-type="ref" data-reference="s:process-maintainability">6.3</a>), this gives them a chance to practice some useful skills and gives you an opportunity to start a conversation that might lead to a new recruit.</p>
 </blockquote>
 <p>The middle of the volunteer lifecycle is onboarding and retention, which we will cover in Sections <a href="#s:community-onboarding" data-reference-type="ref" data-reference="s:community-onboarding">13.3</a> and <a href="#s:community-retention" data-reference-type="ref" data-reference="s:community-retention">13.4</a>. The final step is retirement: everyone moves on eventually, and healthy organizations plan for this. A few simple things can make both the person leaving and everyone who is staying feel positive about the change:</p>
 <dl>
@@ -2656,8 +2662,7 @@ for v in values:
 <p>Thousands of books have been written on how to start a company. Only a handful describe how to end one or leave one gracefully, even though there is an ending for every beginning. If you ever write one, please let me know.</p>
 </blockquote>
 <h2 id="s:community-onboarding">Onboarding</h2>
-<p>After deciding to become part of a group, people need to get up to speed.[<a class="cite" href="#ref-Shol2019">Shol2019</a>] summarizes some of what we know about helping people do this. As we said in Section <a href="#s:classroom-coc" data-reference-type="ref" data-reference="s:classroom-coc">9.1</a>, the first rule is to have and enforce a Code of Conduct.</p>
-<p>Organizations should find an independent party outside the organization who is willing to receive and review reports of inappropriate behavior. An independent party will have the objectivity that organization members may lack, and can protect reporters who might hesitate to raise issues concerning project leaders out of fear of retribution or damage to their reputation. Project leaders should also publicize the enforcement decisions so that the community recognizes that the code is meaningful.</p>
+<p>After deciding to become part of a group, people need to get up to speed, and[<a class="cite" href="#ref-Shol2019">Shol2019</a>] summarizes what we know about doing this. The first rule is to have and enforce a Code of Conduct (Section <a href="#s:classroom-coc" data-reference-type="ref" data-reference="s:classroom-coc">9.1</a>), and to find an independent party who is willing to receive and review reports of inappropriate behavior. Someone outside the organization will have the objectivity that organization members may lack, and can protect reporters who might hesitate to raise issues concerning project leaders out of fear of retribution or damage to their reputation. Project leaders should also publicize the enforcement decisions so that the community recognizes that the code is meaningful.</p>
 <p>The next most important thing is to be welcoming. As Fogel said [<a class="cite" href="#ref-Foge2005">Foge2005</a>], “If a project doesn’t make a good first impression, newcomers may wait a long time before giving it a second chance.” Other authors have empirically confirmed the importance of kind and polite social environments in open projects [<a class="cite" href="#ref-Sing2012">Sing2012</a>,<a class="cite" href="#ref-Stei2013">Stei2013</a>,<a class="cite" href="#ref-Stei2018">Stei2018</a>]:</p>
 <dl>
 <dt>Post a welcome message</dt>
@@ -2666,8 +2671,8 @@ for v in values:
 <dt>Help people find ways to make an initial contribution,</dt>
 <dd><p>such as labelling particular lessons or workshops that need work as “suitable for newcomers” and asking established members not to fix them in order to ensure there are suitable places for new arrivals to start work.</p>
 </dd>
-<dt>Direct the newcomer to project members who have a similar background or skill set</dt>
-<dd><p>so as to demonstrate fit to the newcomer.</p>
+<dt>Direct the newcomer to project members like them</dt>
+<dd><p>to demonstrate that they belong.</p>
 </dd>
 <dt>Point the newcomer to essential project resources</dt>
 <dd><p>such as the contribution guidelines.</p>
@@ -2703,7 +2708,7 @@ for v in values:
 <h2 id="s:community-governance">Governance</h2>
 <p>Every organization has a power structure: the only question is whether it’s formal and accountable or informal and therefore unaccountable [<a class="cite" href="#ref-Free1972">Free1972</a>]. The latter actually works pretty well for groups of up to half a dozen people in which everyone knows everyone else. Beyond that, you need rules to spell out who has the authority to make which decisions and how to achieve consensus (Section <a href="#s:meetings-marthas-rules" data-reference-type="ref" data-reference="s:meetings-marthas-rules">20.1</a>).</p>
 <p>The governance model I prefer is a <a href="#g:commons"><strong>commons</strong></a>, which is something managed jointly by a community according to rules they themselves have evolved and adopted [<a class="cite" href="#ref-Ostr2015">Ostr2015</a>]. As [<a class="cite" href="#ref-Boll2014">Boll2014</a>] emphasizes, all three parts of that definition are essential: a commons isn’t just a shared pasture or a set of software libraries, but also includes the community that shares it and the rules they use to do so.</p>
-<p>For-profit corporations and incorporated non-profits are more popular models; the mechanics vary from jurisdiction to jurisdiction, so you should seek advice before choosing<a href="#fn339" class="footnote-ref" id="fnref339" role="doc-noteref"><sup>339</sup></a>. Both kinds of organization vest ultimate authority in their board. Broadly speaking, this is either a <em>service board</em> whose members also take on other roles in the organization or a <em>governance board</em> whose primary responsibility is to hire, monitor, and if need be fire the director. Board members can be elected by the community or appointed; in either case, it’s important to prioritize competence over passion (the latter being more important for the rank and file) and to try to recruit for particular skills such as accounting, marketing, and so on.</p>
+<p>For-profit corporations and incorporated non-profits are more popular models; the mechanics vary from jurisdiction to jurisdiction, so you should seek advice before choosing<a href="#fn340" class="footnote-ref" id="fnref340" role="doc-noteref"><sup>340</sup></a>. Both kinds of organization vest ultimate authority in their board. Broadly speaking, this is either a <em>service board</em> whose members also take on other roles in the organization or a <em>governance board</em> whose primary responsibility is to hire, monitor, and if need be fire the director. Board members can be elected by the community or appointed; in either case, it’s important to prioritize competence over passion (the latter being more important for the rank and file) and to try to recruit for particular skills such as accounting, marketing, and so on.</p>
 <blockquote>
 <h4 id="choose-democracy" class="unnumbered">Choose Democracy</h4>
 <p>When the time comes, make your organization a democracy: sooner or later (usually sooner), every appointed board turns into a mutual agreement society. Giving your members power is messy, but is the only way invented so far to ensure that organizations continue to meet people’s actual needs.</p>
@@ -2729,20 +2734,20 @@ for v in values:
 <dd><p>enjoys knowing things that other people don’t. He can work miracles, but when asked how he did it, he’ll grin and say, “Oh, I’m sure you can figure it out.”</p>
 </dd>
 <dt>Hediyeh</dt>
-<dd><p>is quiet. She never speaks up in meetings, even when she knows that what other people are saying is wrong. She might contribute to the mailing list, but she’s very sensitive to criticism and will always back down rather than defending her point of view.</p>
+<dd><p>is quiet. She never speaks up in meetings, even when she knows other people are wrong. She might contribute to the mailing list, but she’s very sensitive to criticism and always backs down instead of defending her point.</p>
 </dd>
-<dt>Kenny</dt>
-<dd><p>has discovered that most people would rather shoulder his share of the work than complain about him, and he takes advantage of it at every turn. The frustrating thing is that he’s so damn <em>plausible</em> when someone finally does confront him. “There have been mistakes on all sides,” he says, or, “Well, I think you’re nit-picking.”</p>
+<dt>Ken</dt>
+<dd><p>takes advantage of the fact that most people would rather shoulder his share of the work than complain about him. The frustrating thing is that he’s so plausible when someone finally does confront him. “There have been mistakes on all sides,” he says, or, “Well, I think you’re nit-picking.”</p>
 </dd>
 <dt>Melissa</dt>
 <dd><p>means well, but somehow something always comes up, and her tasks are never finished until the last possible moment. Of course, that means that everyone who is depending on her can’t do their work until <em>after</em> the last possible moment<span>…</span></p>
 </dd>
 <dt>Raj</dt>
-<dd><p>is rude. “It’s just the way I talk,” he says. “If you can’t hack it, maybe you should find another group to work with.” His favorite phrase is, “That’s stupid,” and he uses obscenity in every second sentence.</p>
+<dd><p>is rude. “It’s just the way I talk,” he says. “If you can’t hack it, go find another team.” His favorite phrase is, “That’s stupid,” and he uses obscenity in every second sentence.</p>
 </dd>
 </dl>
 <h3 id="values-small-groups45" class="unnumbered">Values (small groups/45)</h3>
-<p>Answer the following questions on your own and then compare your answers to those given by other members of your group.</p>
+<p>Answer these questions on your own, then compare your answers with others’.</p>
 <ol>
 <li><p>What are the values your organization expresses?</p></li>
 <li><p>Are these the values you want the organization to express?</p></li>
@@ -2751,7 +2756,7 @@ for v in values:
 <li><p>What behaviors would demonstrate the opposite of those values?</p></li>
 </ol>
 <h3 id="meeting-procedures-small-groups30" class="unnumbered">Meeting Procedures (small groups/30)</h3>
-<p>Answer the following questions on your own and then compare your answers to those given by other members of your group.</p>
+<p>Answer these questions on your own, then compare your answers with others’.</p>
 <ol>
 <li><p>How are your meetings run?</p></li>
 <li><p>Is this how you want your meetings to be run?</p></li>
@@ -2759,14 +2764,14 @@ for v in values:
 <li><p>Are these the rules you want?</p></li>
 <li><p>Who is eligible to vote or make decisions?</p></li>
 <li><p>Is this who you want to be vested with decision-making authority?</p></li>
-<li><p>Do you follow majority rule, make decisions by consensus, or use some other method?</p></li>
+<li><p>Do you use majority rule, make decisions by consensus, or something else?</p></li>
 <li><p>Is this the way you want to make decisions?</p></li>
 <li><p>How do people in a meeting know when a decision has been made?</p></li>
 <li><p>How do people who weren’t at a meeting know what decisions were made?</p></li>
 <li><p>Is this working for your group?</p></li>
 </ol>
 <h3 id="size-small-groups20" class="unnumbered">Size (small groups/20)</h3>
-<p>Answer the following questions on your own and then compare your answers to those given by other members of your group.</p>
+<p>Answer these questions on your own, then compare your answers with others’.</p>
 <ol>
 <li><p>How big is your group?</p></li>
 <li><p>Is this the size you want for your organization?</p></li>
@@ -2774,8 +2779,19 @@ for v in values:
 <li><p>Do you have any limits on the size of membership?</p></li>
 <li><p>Would you benefit from setting such a limit?</p></li>
 </ol>
+<h3 id="becoming-a-member-small-groups45" class="unnumbered">Becoming a Member (small groups/45)</h3>
+<p>Answer these questions on your own, then compare your answers with others’.</p>
+<ol>
+<li><p>How does someone join your group?</p></li>
+<li><p>How well does this process work?</p></li>
+<li><p>Are there membership dues?</p></li>
+<li><p>Are people required to agree to any rules of behavior upon joining?</p></li>
+<li><p>Are these the rules for behavior you want?</p></li>
+<li><p>How does a newcomer find out what needs to be done?</p></li>
+<li><p>How well does this process work?</p></li>
+</ol>
 <h3 id="staffing-small-groups30" class="unnumbered">Staffing (small groups/30)</h3>
-<p>Answer the following questions on your own and then compare your answers to those given by other members of your group.</p>
+<p>Answer these questions on your own, then compare your answers with others’.</p>
 <ol>
 <li><p>Do you have paid staff in your organization or is everyone a volunteer?</p></li>
 <li><p>Should you have paid staff?</p></li>
@@ -2788,7 +2804,7 @@ for v in values:
 <li><p>Is this the right salary to get the needed work done?</p></li>
 </ol>
 <h3 id="money-small-groups30" class="unnumbered">Money (small groups/30)</h3>
-<p>Answer the following questions on your own and then compare your answers to those given by other members of your group.</p>
+<p>Answer these questions on your own, then compare your answers with others’.</p>
 <ol>
 <li><p>Who pays for what?</p></li>
 <li><p>Is this who you want to be paying?</p></li>
@@ -2801,17 +2817,6 @@ for v in values:
 <li><p>How much do you need?</p></li>
 <li><p>What do you spend most of your money on?</p></li>
 <li><p>Is this how you want to spend your money?</p></li>
-</ol>
-<h3 id="becoming-a-member-small-groups45" class="unnumbered">Becoming a Member (small groups/45)</h3>
-<p>Answer the following questions on your own and then compare your answers to those given by other members of your group.</p>
-<ol>
-<li><p>How does someone join your group?</p></li>
-<li><p>How well does this process work?</p></li>
-<li><p>Are there membership dues?</p></li>
-<li><p>Are people required to agree to any rules of behavior upon joining?</p></li>
-<li><p>Are these the rules for behavior you want?</p></li>
-<li><p>How does a newcomer find out what needs to be done?</p></li>
-<li><p>How well does this process work?</p></li>
 </ol>
 <h3 id="borrowing-ideas-whole-class15" class="unnumbered">Borrowing Ideas (whole class/15)</h3>
 <p>Many of my ideas about how to build a community have been shaped by my experience in open source software development.[<a class="cite" href="#ref-Foge2005">Foge2005</a>] (which is <a href="http://producingoss.com/">available online</a>) is a good guide to what has and hasn’t worked for those communities, and the <a href="https://opensource.guide/">Open Source Guides site</a> has a wealth of useful information as well. Choose one section of the latter, such as “Finding Users for Your Project” or “Leadership and Governance”, and give a two-minute presentation to the group of one idea from it that you found useful or that you strongly disagreed with.</p>
@@ -2851,21 +2856,41 @@ for v in values:
 <li><p>the personal satisfaction that volunteers get from teaching.</p></li>
 </ul>
 <p>As with lesson design (Chapter <a href="#s:process" data-reference-type="ref" data-reference="s:process">6</a>), the first steps in marketing are to create personas that describe people who might be interested in what you’re doing and to figure out which of their needs you can meet. One way to summarize the latter is to write a set of <a href="#g:elevator-pitch"><strong>elevator pitches</strong></a> aimed at different personas. A widely-used template for these is:</p>
+<table class="table table-striped">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">For</td>
+<td style="text-align: left;"><em>target audience</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">who</td>
+<td style="text-align: left;"><em>dissatisfaction with what’s currently available</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">our</td>
+<td style="text-align: left;"><em>category</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">provide</td>
+<td style="text-align: left;"><em>key benefit</em>.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Unlike</td>
+<td style="text-align: left;"><em>alternatives</em></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">our program</td>
+<td style="text-align: left;"><em>key distinguishing feature.</em></td>
+</tr>
+</tbody>
+</table>
+<p>Continuing the weekend workshop example, we could use this pitch for participants:</p>
 <blockquote>
-<p>For <em>target audience</em><br />
-who <em>dissatisfaction with what’s currently available</em><br />
-our <em>category</em><br />
-provide <em>key benefit</em>.<br />
-Unlike <em>alternatives</em><br />
-our program <em>key distinguishing feature.</em></p>
+<p>For <em>people re-entering the workforce after being away for several years</em> who <em>still have family responsibilities</em>, our <em>introductory programming workshops</em> provide <em>weekend classes with on-site childcare</em>. Unlike <em>online classes</em>, our program <em>gives people a chance to meet others at the same stage of life</em>.</p>
 </blockquote>
-<p>Continuing with the weekend workshop example, we could use this pitch for participants:</p>
+<p>and this one for decision makers at companies that might sponsor the workshops:</p>
 <blockquote>
-<p>For <em>people re-entering the workforce after being away for several years</em> who <em>still have family responsibilities</em>, our <em>introductory programming workshops</em> provide <em>weekend classes with on-site childcare</em>. Unlike <em>online classes</em>, our program <em>gives participants a chance to meet people who are at the same stage of life</em>.</p>
-</blockquote>
-<p>This one would be more appropriate for decision makers at companies that might sponsor workshops:</p>
-<blockquote>
-<p>For <em>a company that wants to recruit entry-level software developers</em> that <em>is struggling to find mature, diverse candidates</em> our <em>introductory programming workshops</em> provide <em>a diverse pool of potential recruits</em>. Unlike <em>college recruiting fairs</em>, our program <em>connects companies with mature candidates for entry-level positions</em>.</p>
+<p>For <em>companies that want to recruit entry-level software developers</em> that <em>struggle to find mature candidates from diverse backgrounds</em> our <em>introductory programming workshops</em> provide <em>potential recruits</em>. Unlike <em>college recruiting fairs</em>, our program <em>connects companies with a wide variety of candidates</em>.</p>
 </blockquote>
 <p>If you don’t know why different potential stakeholders might be interested in what you’re doing, ask them. If you do know, ask them anyway: answers can change over time, and you may discover things you previously overlooked.</p>
 <p>Once you have these pitches, they should drive what you put on your web site and in publicity material to help people figure out as quickly as possible if you and they have something to talk about. (You probably <em>shouldn’t</em> copy them verbatim, though: many people in tech have seen this template so often that their eyes will glaze over if they encounter it again.)</p>
@@ -2940,7 +2965,7 @@ our program <em>key distinguishing feature.</em></p>
 <p>Building alliances with other groups that are doing things related to your work pays off in many ways. One of those is referrals: if someone who approaches you for help would be better served by some other organization, take a moment to make an introduction. If you’ve done this several times, add something to your website to help the next person find what they need. The organizations you are helping will soon start to help you in return.</p>
 </blockquote>
 <h2 id="s:outreach-schools">Academic Change</h2>
-<p>Everyone is afraid of the unknown and of embarrassing themselves. As a result, most people would rather fail than change. For example, Lauren Herckis looked at <a href="https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods">why university faculty don’t adopt better teaching methods</a>. She found that the main reason is a fear of looking stupid in front of learners; secondary reasons were concern that the inevitable bumps in changing teaching methods would affect course evaluations (which could in turn affect promotion and tenure) and people’s desire to continue emulating the teachers who had inspired them. It’s pointless to argue about whether these issues are “real” or not: faculty believe they are, so any plan to work with faculty needs to address them<a href="#fn347" class="footnote-ref" id="fnref347" role="doc-noteref"><sup>347</sup></a>.</p>
+<p>Everyone is afraid of the unknown and of embarrassing themselves. As a result, most people would rather fail than change. For example, Lauren Herckis looked at <a href="https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods">why university faculty don’t adopt better teaching methods</a>. She found that the main reason is a fear of looking stupid in front of learners; secondary reasons were concern that the inevitable bumps in changing teaching methods would affect course evaluations (which could in turn affect promotion and tenure) and people’s desire to continue emulating the teachers who had inspired them. It’s pointless to argue about whether these issues are “real” or not: faculty believe they are, so any plan to work with faculty needs to address them<a href="#fn348" class="footnote-ref" id="fnref348" role="doc-noteref"><sup>348</sup></a>.</p>
 <p>[<a class="cite" href="#ref-Bark2015">Bark2015</a>] did a two-part study of how computer science educators adopt new teaching practices as individuals, organizationally, and in society as a whole. They asked and answered three key questions:</p>
 <dl>
 <dt>How do faculty hear about new teaching practices?</dt>
@@ -2985,9 +3010,9 @@ our program <em>key distinguishing feature.</em></p>
 <p>The hardest part about building relationships is getting started. Set aside an hour or two every month to find allies and maintain your relationships with them. One way to do this is to ask them for advice: how do they think you ought to raise awareness of what you’re doing? Where have they found space to run classes? What needs do they think aren’t being met and would you be able to meet them? Any group that has been around for a few years will have useful advice; they will also be flattered to be asked, and will know who you are the next time you call.</p>
 <p>And as [<a class="cite" href="#ref-Kuch2011">Kuch2011</a>] says, if you can’t be first in a category, try to create a new category that you can be first in. If you can’t do that, join an existing group or think about doing something else entirely. This isn’t defeatist: if someone else is already doing what you have in mind, you should either chip in or tackle one of the other equally useful things you could be doing instead.</p>
 <h2 id="s:outreach-exercises">Exercises</h2>
-<h3 id="write-an-elevator-pitch-for-a-city-councillor-individual10" class="unnumbered">Write an Elevator Pitch for a City Councillor (individual/10)</h3>
+<h3 id="pitching-a-city-councillor-individual10" class="unnumbered">Pitching a City Councillor (individual/10)</h3>
 <p>This chapter described an organization that offers weekend programming workshops for people re-entering the workforce. Write an elevator pitch for that organization aimed at a city councillor whose support the organization needs.</p>
-<h3 id="write-elevator-pitches-for-your-organization-individual30" class="unnumbered">Write Elevator Pitches for Your Organization (individual/30)</h3>
+<h3 id="pitching-your-organization-individual30" class="unnumbered">Pitching Your Organization (individual/30)</h3>
 <p>Identify two groups of people your organization needs support from and write an elevator pitch aimed at each one.</p>
 <h3 id="email-subjects-pairs10" class="unnumbered">Email Subjects (pairs/10)</h3>
 <p>Write the subject lines (and only the subject lines) for three email messages: one announcing a new course, one announcing a new sponsor, and one announcing a change in project leadership. Compare your subject lines to a partner’s and see if you can merge the best features of each while also shortening them.</p>
@@ -3033,27 +3058,25 @@ our program <em>key distinguishing feature.</em></p>
 </ol>
 <p>Which of these have you seen done recently? Which have you done yourself? What form did they take?</p>
 <h3 id="mentoring-whole-class15" class="unnumbered">Mentoring (whole class/15)</h3>
-<p>The Institute for African-American Mentoring in Computer Science has published <a href="http://iaamcs.org/guidelines">a brief set of guidelines for mentoring doctoral students</a>. Read the guidelines individually, then go through them as a class and rate your efforts for your own group as +1 (definitely doing), 0 (not sure or not applicable), or -1 (definitely not doing).</p>
+<p>The <a href="http://www.iaamcs.org/">Institute for African-American Mentoring in Computer Science</a> has published <a href="http://iaamcs.org/guidelines">guidelines for mentoring doctoral students</a>. Read them individually, then go through them as a class and rate your efforts for your own group as +1 (definitely doing), 0 (not sure or not applicable), or -1 (definitely not doing).</p>
 <h1 id="s:finale">Why I Teach</h1>
-<p>When I first started teaching at the University of Toronto, some of my students asked me why I did it. This was my answer:</p>
+<p>When I started volunteering at the University of Toronto, some of my students asked me why I would teach for free. This was my answer:</p>
 <blockquote>
 <p>When I was your age, I thought universities existed to teach people how to learn. Later, in grad school, I thought universities were about doing research and creating new knowledge. Now that I’m in my forties, though, I’ve realized that what we’re really teaching you is how to take over the world, because you’re going to have to whether you want to or not.</p>
 <p>My parents are in their seventies. They don’t run the world any more; it’s people my age who pass laws and make life-and-death decisions in hospitals. As scary as it is, <em>we</em> are the grownups.</p>
 <p>Twenty years from now, we’ll be heading for retirement and <em>you</em> will be in charge. That may sound like a long time when you’re nineteen, but take three breaths and it’s gone. That’s why we give you problems whose answers can’t be cribbed from last year’s notes. That’s why we put you in situations where you have to figure out what needs to be done right now, what can be left for later, and what you can simply ignore. It’s because if you don’t learn how to do these things now, you won’t be ready to do them when you have to.</p>
 </blockquote>
 <p>It was all true, but it wasn’t the whole story. I don’t want people to make the world a better place so that I can retire in comfort. I want them to do it because it’s the greatest adventure of our time. A hundred and fifty years ago, most societies practiced slavery. A hundred years ago, my grandmother <a href="https://en.wikipedia.org/wiki/The_Famous_Five_(Canada)">wasn’t legally a person</a> in Canada. In the year I was born, most of the world’s people suffered under totalitarian rule, and judges were still ordering electroshock therapy to “cure” homosexuals. There’s still a lot wrong with the world, but look at how many more choices we have than our grandparents did. Look at how many more things we can know, and be, and enjoy because we’re finally taking the Golden Rule seriously.</p>
-<p>But I am less optimistic today than I was then. Climate change, mass extinction, surveillance capitalism, inequality on a scale we haven’t seen in a century, the re-emergence of racist nationalism: my generation has watched it all happen and shrugged. The bill for our cowardice, lethargy, and greed won’t come due until my daughter is grown, but it <em>will</em> come, and by the time it does there will be no easy solutions to these problems (and possibly no solutions at all).</p>
+<p>But I am less optimistic today now I was then. Climate change, mass extinction, surveillance capitalism, inequality on a scale we haven’t seen in a century, the re-emergence of racist nationalism: my generation has watched it all happen and shrugged. The bill for our cowardice, lethargy, and greed won’t come due until my daughter is grown, but it <em>will</em> come, and by the time it does there will be no easy solutions to these problems (and possibly no solutions at all).</p>
 <p>So this is why I teach today: I’m angry. I’m angry because your sex and your color shouldn’t count for more than how smart or honest or hard-working you are. I’m angry because the Internet has become a cesspool. I’m angry because billionaires are playing with rocket ships while the planet is melting and because Nazis are on the march once again. I’m angry, so I teach, because the world only gets better when we teach people how to make it better.</p>
 <p>In his 1947 essay “Why I Write”, <a href="http://www.resort.com/~prime8/Orwell/whywrite.html">George Orwell</a> wrote:</p>
 <blockquote>
 <p>In a peaceful age I might have written ornate or merely descriptive books, and might have remained almost unaware of my political loyalties. As it is I have been forced into becoming a sort of pamphleteer<span>…</span> Every line of serious work that I have written since 1936 has been written, directly or indirectly, against totalitarianism<span>…</span> It seems to me nonsense, in a period like our own, to think that one can avoid writing of such subjects. Everyone writes of them in one guise or another. It is simply a question of which side one takes.</p>
 </blockquote>
 <p>Replace “writing” with “teaching” and you’ll have the reason I do what I do. So:</p>
-<blockquote>
 <p>Start where you are.<br />
 Use what you have.<br />
 Help who you can.</p>
-</blockquote>
 <p>Thank you for reading. I hope we can learn something together some day.</p>
 <h1 id="s:license">License</h1>
 <p><em>This is a human-readable summary of (and not a substitute for) the license. Please see <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">https://creativecommons.org/licenses/by-nc/4.0/legalcode</a> for the full legal text.</em></p>
@@ -3183,7 +3206,7 @@ Help who you can.</p>
 <dd><p>A theory of learning that emphasizes the process of a master passing on skills and insights situationally to an apprentice.</p>
 </dd>
 <dt><span id="g:cognitive-load-theory">Cognitive Load Theory</span></dt>
-<dd><p><em>Cognitive load</em> is the amount of mental effort required to solve a problem. Cognitive load theory divides this effort into <em>intrinsic</em>, <em>extraneous</em>, and <em>germane</em>, and holds that people learn faster and better when extraneous load is reduced.</p>
+<dd><p><em>Cognitive load</em> is the mental effort needed to solve a problem. Cognitive load theory divides this into <em>intrinsic</em>, <em>extraneous</em>, and <em>germane</em>, and holds that people learn faster when extraneous load is reduced.</p>
 </dd>
 <dt><span id="g:cognitivism">Cognitivism</span></dt>
 <dd><p>A theory of learning that holds that mental states and processes can and must be included in models of learning. See also <a href="#g:behaviorism"><strong>behaviorism</strong></a>.</p>
@@ -3243,7 +3266,7 @@ Help who you can.</p>
 <dd><p>The act of observing performance of a task while doing it in order to improve ability.</p>
 </dd>
 <dt><span id="g:demonstration-lesson">Demonstration lesson</span></dt>
-<dd><p>A staged lesson in which one teacher presents material to a class of actual learners while other teachers observe in order to learn new teaching techniques.</p>
+<dd><p>A staged lesson in which one teacher presents to actual learners while other teachers observe in order to learn new teaching techniques.</p>
 </dd>
 <dt><span id="g:diagnostic-power">Diagnostic power</span></dt>
 <dd><p>The degree to which a wrong answer to a question or exercise tells the teacher what misconceptions a particular learner has.</p>
@@ -3453,7 +3476,7 @@ Help who you can.</p>
 <dd><p>Extra material provided to early-stage learners to help them solve problems.</p>
 </dd>
 <dt><span id="g:seo">Search engine optimization</span></dt>
-<dd><p>The process of increasing the quantity and quality of web site traffic.</p>
+<dd><p>Increasing the quantity and quality of web site traffic by making pages more easily found by, or seem more important to, search engines.</p>
 </dd>
 <dt><span id="g:short-term-memory">Short-term memory</span></dt>
 <dd><p>The part of memory that briefly stores information that can be directly accessed by consciousness.</p>
@@ -3536,10 +3559,10 @@ Help who you can.</p>
 <dd><p>If your meeting is scheduled for 10:00-11:00, you should aim to end at 10:50 to give people time to visit the bathroom on their way to where they need to go next.</p>
 </dd>
 </dl>
-<p>As soon as the meeting is over, the minutes should be emailed to everyone or posted on the web:</p>
+<p>As soon as the meeting is over, emailed the minutes to everyone or post them on the web:</p>
 <dl>
 <dt>People who weren’t at the meeting can keep track of what’s going on.</dt>
-<dd><p>You and your colleagues all have to multiple commitments, which means that people won’t always be able to make it to meetings. A web page or email message is a much more efficient way to catch up than asking a team mate what you missed.</p>
+<dd><p>A web page or email message is a much more efficient way to catch up than asking a team mate what you missed.</p>
 </dd>
 <dt>Everyone can check what was actually said or promised.</dt>
 <dd><p>More than once, I have looked over the minutes of a meeting I was in and thought, “Did I say that?” or, “Wait a minute, I didn’t promise to have it ready then!” Accidentally or not, people will often remember things differently; writing it down gives team members a chance to correct mistakes, which can save a lot of anguish later on.</p>
@@ -3551,9 +3574,8 @@ Help who you can.</p>
 <p>[<a class="cite" href="#ref-Brow2007">Brow2007</a>,<a class="cite" href="#ref-Broo2016">Broo2016</a>,<a class="cite" href="#ref-Roge2018">Roge2018</a>] have lots of advice on running meetings. In my experience, an hour of training on hour to be a moderator is one of the best investments you will ever make.</p>
 <blockquote>
 <h4 id="sticky-notes-and-interruption-bingo" class="unnumbered">Sticky Notes and Interruption Bingo</h4>
-<p>Some people are so used to the sound of their own voice that they will insist on talking half the time no matter how many other people are in the room. One way to combat this is to give everyone three sticky notes at the start of the meeting. Every time they speak, they have to take down one sticky note. When they’re out of notes, they aren’t allowed to speak until everyone has used at least one, at which point everyone gets all of their sticky notes back. This ensures that nobody talks more than three times as often as the quietest person in the meeting, and completely changes the dynamics of most groups: people who have given up trying to be heard because they always get trampled suddenly have space to contribute, and the overly-frequent speakers quickly realize just how unfair they have been. (I certainly did when this was done to me<span>…</span>)</p>
-<p>Another useful technique is called interruption bingo. Draw a grid label the rows and columns with the participants’ names. Add a tally mark to the appropriate cell each time someone interrupts someone else, and take a moment to share the results halfway through the meeting. In most cases, you will see that one or two people are doing all of the interrupting, often without being aware of it. That alone is often enough to get them to throttle back.</p>
-<p>Note that this technique is intended to manage interruptions, not speaking time. It may be completely appropriate for people with more knowledge of a subject to speak about it more often in a meeting, but it is almost never appropriate to repeatedly cut people off.</p>
+<p>Some people are so used to the sound of their own voice that they will insist on talking half the time no matter how many other people are in the room. To combat this, give everyone three sticky notes at the start of the meeting. Every time they speak, they have to take down one sticky note. When they’re out of notes, they aren’t allowed to speak until everyone has used at least one, at which point everyone gets all of their sticky notes back. This ensures that nobody talks more than three times as often as the quietest person in the meeting, and completely changes the dynamics of most groups: people who have given up trying to be heard because they always get trampled suddenly have space to contribute, and the overly-frequent speakers quickly realize just how unfair they have been<a href="#fn370" class="footnote-ref" id="fnref370" role="doc-noteref"><sup>370</sup></a>.</p>
+<p>Another technique is interruption bingo. Draw a grid and label the rows and columns with participants’ names. Add a tally mark to the appropriate cell each time someone interrupts someone else, and take a moment to share the results halfway through the meeting. In most cases, you will see that one or two people are doing all of the interrupting, often without being aware of it. That alone is often enough to get them to throttle back. (Note that this technique is intended to manage interruptions, not speaking time: it may be appropriate for people with more knowledge of a subject to speak about it more often in a meeting, but it is never appropriate to repeatedly cut people off.)</p>
 </blockquote>
 <h2 id="s:meetings-marthas-rules">Martha’s Rules</h2>
 <p>Organizations all over the world run their meetings according to <a href="https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order">Robert’s Rules of Order</a>, but they are far more formal than most small projects require. A lightweight alternative known as “Martha’s Rules” may be much better for consensus-based decision making [<a class="cite" href="#ref-Mina1986">Mina1986</a>]:</p>
@@ -3690,7 +3712,7 @@ Help who you can.</p>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
-<td style="text-align: left;">Code and speech complement one another (i.e., teacher doesn’t just read code aloud)</td>
+<td style="text-align: left;">Code and speech complement one another</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"></td>
@@ -4811,7 +4833,7 @@ Help who you can.</p>
 <p><strong>[Qian2017]</strong> Qian, Yizhou, and James Lehman. “Students’ Misconceptions and Other Difficulties in Introductory Programming.” <em>ACM Transactions on Computing Education</em> 18, no. 1 (October 2017): 1–24. doi:<a href="https://doi.org/10.1145/3077618">10.1145/3077618</a>. Summarizes research on student misconceptions about computing.</p>
 </div>
 <div id="ref-Rago2017">
-<p><strong>[Rago2017]</strong> Ragonis, Noa, and Ronit Shmallo. “On the (Mis)understanding of the ‘This’ Reference.” In <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em>. Association for Computing Machinery (ACM), 2017. doi:<a href="https://doi.org/10.1145/3017680.3017715">10.1145/3017680.3017715</a>. Reports that most students do not understood when to use <code>this</code>, and that teachers are also often not clear on the subject.</p>
+<p><strong>[Rago2017]</strong> Ragonis, Noa, and Ronit Shmallo. “On the (Mis)understanding of the <code>this</code> Reference.” In <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em>. Association for Computing Machinery (ACM), 2017. doi:<a href="https://doi.org/10.1145/3017680.3017715">10.1145/3017680.3017715</a>. Reports that most students do not understood when to use <code>this</code>, and that teachers are also often not clear on the subject.</p>
 </div>
 <div id="ref-Rams2019">
 <p><strong>[Rams2019]</strong> Ramsay, G., A. B. Haynes, S. R. Lipsitz, I. Solsky, J. Leitch, A. A. Gawande, and M. Kumar. “Reducing Surgical Mortality in Scotland by Use of the WHO Surgical Safety Checklist.” <em>BJS</em>, April 2019. doi:<a href="https://doi.org/10.1002/bjs.11151">10.1002/bjs.11151</a>. Found that the introduction of surgical checklists in Scottish hospitals significantly reduced mortality rates.</p>
@@ -5242,7 +5264,7 @@ Help who you can.</p>
 <li id="fn156" role="doc-endnote"><p>Juha Sorva and Otto Seppälä, “Research-Based Design of the First Weeks of CS1,” in <em>2014 Koli Calling Conference on Computing Education Research (Koli’14)</em> (Association for Computing Machinery (ACM), 2014), doi:<a href="https://doi.org/10.1145/2674683.2674690" role="doc-biblioref">10.1145/2674683.2674690</a>.<a href="#fnref156" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn157" role="doc-endnote"><p>Michael Kölling, “Lessons from the Design of Three Educational Programming Environments,” <em>International Journal of People-Oriented Programming</em> 4, no. 1 (January 2015): 5–32, doi:<a href="https://doi.org/10.4018/ijpop.2015010102" role="doc-biblioref">10.4018/ijpop.2015010102</a>.<a href="#fnref157" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn158" role="doc-endnote"><p>Craig S. Miller and Amber Settle, “Some Trouble with Transparency: An Analysis of Student Errors with Object-Oriented Python,” in <em>2016 International Computing Education Research Conference (ICER’16)</em> (Association for Computing Machinery (ACM), 2016), doi:<a href="https://doi.org/10.1145/2960310.2960327" role="doc-biblioref">10.1145/2960310.2960327</a>.<a href="#fnref158" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn159" role="doc-endnote"><p>Noa Ragonis and Ronit Shmallo, “On the (Mis)understanding of the ‘This’ Reference,” in <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3017680.3017715" role="doc-biblioref">10.1145/3017680.3017715</a>.<a href="#fnref159" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn159" role="doc-endnote"><p>Noa Ragonis and Ronit Shmallo, “On the (Mis)understanding of the <code>this</code> Reference,” in <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3017680.3017715" role="doc-biblioref">10.1145/3017680.3017715</a>.<a href="#fnref159" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn160" role="doc-endnote"><p>Stefan Endrikat et al., “How Do API Documentation and Static Typing Affect API Usability?” in <em>2014 International Conference on Software Engineering (ICSE’14)</em> (ACM Press, 2014), doi:<a href="https://doi.org/10.1145/2568225.2568299" role="doc-biblioref">10.1145/2568225.2568299</a>; Lars Fischer and Stefan Hanenberg, “An Empirical Investigation of the Effects of Type Systems and Code Completion on API Usability Using TypeScript and JavaScript in MS Visual Studio,” in <em>11th Symposium on Dynamic Languages (DLS’15)</em> (ACM Press, 2015), doi:<a href="https://doi.org/10.1145/2816707.2816720" role="doc-biblioref">10.1145/2816707.2816720</a>.<a href="#fnref160" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn161" role="doc-endnote"><p>Brian W. Kernighan and Rob Pike, <em>The Practice of Programming</em> (Addison-Wesley, 1999).<a href="#fnref161" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn162" role="doc-endnote"><p>Johannes Hofmeister, Janet Siegmund, and Daniel V. Holt, “Shorter Identifier Names Take Longer to Comprehend,” in <em>2017 Conference on Software Analysis, Evolution and Reengineering (SANER’17)</em> (Institute of Electrical; Electronics Engineers (IEEE), 2017), doi:<a href="https://doi.org/10.1109/saner.2017.7884623" role="doc-biblioref">10.1109/saner.2017.7884623</a>.<a href="#fnref162" class="footnote-back" role="doc-backlink">↩</a></p></li>
@@ -5410,53 +5432,55 @@ Help who you can.</p>
 <li id="fn324" role="doc-endnote"><p>Zack Butler, Ivona Bezakova, and Kimberly Fluet, “Pencil Puzzles for Introductory Computer Science,” in <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3017680.3017765" role="doc-biblioref">10.1145/3017680.3017765</a>.<a href="#fnref324" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn325" role="doc-endnote"><p>Pasi Sahlberg, <em>Finnish Lessons 2.0: What Can the World Learn from Educational Change in Finland?</em> (Teachers College Press, 2015); Wilkinson and Pickett, <em>The Spirit Level</em>.<a href="#fnref325" class="footnote-back" role="doc-backlink">↩</a></p></li>
 <li id="fn326" role="doc-endnote"><p>Etienne Wenger-Trayner and Beverly Wenger-Trayner, “Communities of Practice: A Brief Introduction” (<a href="http://wenger-trayner.com/intro-to-cops/" role="doc-biblioref">http://wenger-trayner.com/intro-to-cops/</a>, 2015).<a href="#fnref326" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn327" role="doc-endnote"><p>Saul D. Alinsky, <em>Rules for Radicals: A Practical Primer for Realistic Radicals</em> (Vintage, 1989); George Lakey, <em>How We Win: A Guide to Nonviolent Direct Action Campaigning</em> (Melville House, 2018).<a href="#fnref327" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn328" role="doc-endnote"><p>Brown, <em>Building Powerful Community Organizations</em>; Midwest Academy, <em>Organizing for Social Change: Midwest Academy Manual for Activists</em>, Fourth (The Forum Press, 2010); Lakey, <em>How We Win</em>.<a href="#fnref328" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn329" role="doc-endnote"><p>Frank Adams and Myles Horton, <em>Unearthing Seeds of Fire: The Idea of Highlander</em> (Blair, 1975).<a href="#fnref329" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn330" role="doc-endnote"><p>Dan Spalding, <em>How to Teach Adults: Plan Your Class, Teach Your Students, Change the World</em> (Jossey-Bass, 2014).<a href="#fnref330" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn331" role="doc-endnote"><p>Dan Sholler et al., “Ten Simple Rules for Helping Newcomers Become Contributors to Open Source Projects” (<a href="https://github.com/gvwilson/10-newcomers/" role="doc-biblioref">https://github.com/gvwilson/10-newcomers/</a>, 2019).<a href="#fnref331" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn332" role="doc-endnote"><p>Fogel, <em>Producing Open Source Software</em>.<a href="#fnref332" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn333" role="doc-endnote"><p>Vandana Singh, “Newcomer Integration and Learning in Technical Support Communities for Open Source Software,” in <em>2012 ACM International Conference on Supporting Group Work - GROUP’12</em> (ACM Press, 2012), doi:<a href="https://doi.org/10.1145/2389176.2389186" role="doc-biblioref">10.1145/2389176.2389186</a>; Igor Steinmacher et al., “Why Do Newcomers Abandon Open Source Software Projects?” in <em>2013 International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE’13)</em> (Institute of Electrical; Electronics Engineers (IEEE), 2013), doi:<a href="https://doi.org/10.1109/chase.2013.6614728" role="doc-biblioref">10.1109/chase.2013.6614728</a>; Igor Steinmacher et al., “Almost There: A Study on Quasi-Contributors in Open-Source Software Projects,” in <em>2018 International Conference on Software Engineering (ICSE’18)</em> (ACM Press, 2018), doi:<a href="https://doi.org/10.1145/3180155.3180208" role="doc-biblioref">10.1145/3180155.3180208</a>.<a href="#fnref333" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn334" role="doc-endnote"><p>Barthélémy Dagenais et al., “Moving into a New Software Project Landscape,” in <em>2010 International Conference on Software Engineering (ICSE’10)</em> (ACM Press, 2010), doi:<a href="https://doi.org/10.1145/1806799.1806842" role="doc-biblioref">10.1145/1806799.1806842</a>.<a href="#fnref334" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn335" role="doc-endnote"><p>Igor Steinmacher et al., “Overcoming Open Source Project Entry Barriers with a Portal for Newcomers,” in <em>2016 International Conference on Software Engineering (ICSE’16)</em> (ACM Press, 2016), doi:<a href="https://doi.org/10.1145/2884781.2884806" role="doc-biblioref">10.1145/2884781.2884806</a>.<a href="#fnref335" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn336" role="doc-endnote"><p>Jo Freeman, “The Tyranny of Structurelessness,” <em>The Second Wave</em> 2, no. 1 (1972).<a href="#fnref336" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn337" role="doc-endnote"><p>Elinor Ostrom, <em>Governing the Commons: The Evolution of Institutions for Collective Action</em> (Cambridge University Press, 2015).<a href="#fnref337" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn338" role="doc-endnote"><p>David Bollier, <em>Think Like a Commoner: A Short Introduction to the Life of the Commons</em> (New Society Publishers, 2014).<a href="#fnref338" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn339" role="doc-endnote"><p>This is one of the times when having ties with local government or other like-minded organizations pays off.<a href="#fnref339" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn340" role="doc-endnote"><p>Alessandra Pigni, <em>The Idealist’s Survival Kit: 75 Simple Ways to Prevent Burnout</em> (Parallax Press, 2016).<a href="#fnref340" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn341" role="doc-endnote"><p>Brown, <em>Building Powerful Community Organizations</em>.<a href="#fnref341" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn342" role="doc-endnote"><p>Fogel, <em>Producing Open Source Software</em>.<a href="#fnref342" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn343" role="doc-endnote"><p>Greg Wilson, “Software Carpentry: Lessons Learned,” <em>F1000Research</em>, January 2016, doi:<a href="https://doi.org/10.12688/f1000research.3-62.v2" role="doc-biblioref">10.12688/f1000research.3-62.v2</a>; Gabriel A. Devenyi et al., “Ten Simple Rules for Collaborative Lesson Development,” <em>PLoS Computational Biology</em> 14, no. 3 (March 2018), doi:<a href="https://doi.org/10.1371/journal.pcbi.1005963" role="doc-biblioref">10.1371/journal.pcbi.1005963</a>.<a href="#fnref343" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn344" role="doc-endnote"><p>Marc J. Kuchner, <em>Marketing for Scientists: How to Shine in Tough Times</em> (Island Press, 2011).<a href="#fnref344" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn345" role="doc-endnote"><p>Viviane Schwarz, <em>Welcome to Your Awesome Robot</em> (Flying Eye Books, 2013).<a href="#fnref345" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn346" role="doc-endnote"><p>Betsy DiSalvo, Cecili Reid, and Parisa Khanipour Roshan, “They Can’t Find Us,” in <em>2014 Technical Symposium on Computer Science Education (SIGCSE’14)</em> (Association for Computing Machinery (ACM), 2014), doi:<a href="https://doi.org/10.1145/2538862.2538933" role="doc-biblioref">10.1145/2538862.2538933</a>.<a href="#fnref346" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn347" role="doc-endnote"><p>And the prevalence of fixed mindset among faculty when it comes to teaching, i.e., the belief that some people are “just better teachers”.<a href="#fnref347" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn348" role="doc-endnote"><p>Barker, Hovey, and Gruning, “What Influences CS Faculty to Adopt Teaching Practices?”<a href="#fnref348" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn349" role="doc-endnote"><p>Ibid.<a href="#fnref349" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn350" role="doc-endnote"><p>Stark and Freishtat, “An Evaluation of Course Evaluations”; Uttl, White, and Gonzalez, “Meta-Analysis of Faculty’s Teaching Effectiveness.”<a href="#fnref350" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn351" role="doc-endnote"><p>Mark S. Bauer et al., “An Introduction to Implementation Science for the Non-Specialist,” <em>BMC Psychology</em> 3, no. 1 (September 2015), doi:<a href="https://doi.org/10.1186/s40359-015-0089-9" role="doc-biblioref">10.1186/s40359-015-0089-9</a>.<a href="#fnref351" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn352" role="doc-endnote"><p>Aman Yadav et al., “Expanding Computer Science Education in Schools: Understanding Teacher Experiences and Challenges,” <em>Computer Science Education</em> 26, no. 4 (December 2016): 235–54, doi:<a href="https://doi.org/10.1080/08993408.2016.1257418" role="doc-biblioref">10.1080/08993408.2016.1257418</a>.<a href="#fnref352" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn353" role="doc-endnote"><p>Sathya Narayanan et al., “Upward Mobility for Underrepresented Students,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159551" role="doc-biblioref">10.1145/3159450.3159551</a>.<a href="#fnref353" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn354" role="doc-endnote"><p>Helen H. Hu et al., “Building a Statewide Computer Science Teacher Pipeline,” in <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3017680.3017788" role="doc-biblioref">10.1145/3017680.3017788</a>.<a href="#fnref354" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn355" role="doc-endnote"><p>Maura Borrego and Charles Henderson, “Increasing the Use of Evidence-Based Teaching in STEM Higher Education: A Comparison of Eight Change Strategies,” <em>Journal of Engineering Education</em> 103, no. 2 (April 2014): 220–52, doi:<a href="https://doi.org/10.1002/jee.20040" role="doc-biblioref">10.1002/jee.20040</a>.<a href="#fnref355" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn356" role="doc-endnote"><p>Charles Henderson et al., <em>Designing Educational Innovations for Sustained Adoption</em> (Increase the Impact, 2015); Charles Henderson et al., “Designing Educational Innovations for Sustained Adoption (Executive Summary)” (<a href="http://www.increasetheimpact.com/resources.html" role="doc-biblioref">http://www.increasetheimpact.com/resources.html</a>; Increase the Impact, 2015).<a href="#fnref356" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn357" role="doc-endnote"><p>McMillan Cottom, <em>Lower Ed</em>.<a href="#fnref357" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn358" role="doc-endnote"><p>Kyle Thayer and Andrew J. Ko, “Barriers Faced by Coding Bootcamp Students,” in <em>2017 International Computing Education Research Conference (ICER’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3105726.3106176" role="doc-biblioref">10.1145/3105726.3106176</a>.<a href="#fnref358" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn359" role="doc-endnote"><p>Quinn Burke et al., “Understanding the Software Development Industry’s Perspective on Coding Boot Camps Versus Traditional 4-Year Colleges,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159485" role="doc-biblioref">10.1145/3159450.3159485</a>.<a href="#fnref359" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn360" role="doc-endnote"><p>Lang, <em>Small Teaching</em>.<a href="#fnref360" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn361" role="doc-endnote"><p>Manns and Rising, <em>Fearless Change</em>.<a href="#fnref361" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn362" role="doc-endnote"><p>Kuchner, <em>Marketing for Scientists</em>.<a href="#fnref362" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn363" role="doc-endnote"><p>James C. Scott, <em>Weapons of the Weak: Everyday Forms of Peasant Resistance</em> (Yale University Press, 1987).<a href="#fnref363" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn364" role="doc-endnote"><p>April Y. Wang et al., “Mismatch of Expectations: How Modern Learning Resources Fail Conversational Programmers,” in <em>2018 Conference on Human Factors in Computing Systems (CHI’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3173574.3174085" role="doc-biblioref">10.1145/3173574.3174085</a>.<a href="#fnref364" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn365" role="doc-endnote"><p>David F. Labaree, “The Winning Ways of a Losing Strategy: Educationalizing Social Problems in the United States,” <em>Educational Theory</em> 58, no. 4 (November 2008): 447–60, doi:<a href="https://doi.org/10.1111/j.1741-5446.2008.00299.x" role="doc-biblioref">10.1111/j.1741-5446.2008.00299.x</a>.<a href="#fnref365" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn366" role="doc-endnote"><p>Eugene Farmer, “The Gatekeeper’s Guide, or How to Kill a Tool,” <em>IEEE Software</em> 23, no. 6 (November 2006): 12–13, doi:<a href="https://doi.org/10.1109/ms.2006.174" role="doc-biblioref">10.1109/ms.2006.174</a>.<a href="#fnref366" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn367" role="doc-endnote"><p>Fink, <em>Creating Significant Learning Experiences</em>.<a href="#fnref367" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn368" role="doc-endnote"><p>Brown, <em>Building Powerful Community Organizations</em>; Brookfield and Preskill, <em>The Discussion Book</em>; Steven G. Rogelberg, <em>The Surprising Science of Meetings</em> (Oxford University Press, 2018).<a href="#fnref368" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn369" role="doc-endnote"><p>Anne Minahan, “Martha’s Rules,” <em>Affilia</em> 1, no. 2 (June 1986): 53–56, doi:<a href="https://doi.org/10.1177/088610998600100206" role="doc-biblioref">10.1177/088610998600100206</a>.<a href="#fnref369" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn370" role="doc-endnote"><p>Esther Derby and Diana Larsen, <em>Agile Retrospectives: Making Good Teams Great</em> (Pragmatic Bookshelf, 2006).<a href="#fnref370" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn371" role="doc-endnote"><p>Atul Gawande, “The Checklist,” <em>The New Yorker</em>, December 10, 2007.<a href="#fnref371" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn372" role="doc-endnote"><p>Emma-Louise Aveling, Peter McCulloch, and Mary Dixon-Woods, “A Qualitative Study Comparing Experiences of the Surgical Safety Checklist in Hospitals in High-Income and Low-Income Countries,” <em>BMJ Open</em> 3, no. 8 (August 2013), doi:<a href="https://doi.org/10.1136/bmjopen-2013-003039" role="doc-biblioref">10.1136/bmjopen-2013-003039</a>; David R. Urbach et al., “Introduction of Surgical Safety Checklists in Ontario, Canada,” <em>New England Journal of Medicine</em> 370, no. 11 (March 2014): 1029–38, doi:<a href="https://doi.org/10.1056/nejmsa1308261" role="doc-biblioref">10.1056/nejmsa1308261</a>; G. Ramsay et al., “Reducing Surgical Mortality in Scotland by Use of the WHO Surgical Safety Checklist,” <em>BJS</em>, April 2019, doi:<a href="https://doi.org/10.1002/bjs.11151" role="doc-biblioref">10.1002/bjs.11151</a>.<a href="#fnref372" class="footnote-back" role="doc-backlink">↩</a></p></li>
-<li id="fn373" role="doc-endnote"><p>Wiggins and McTighe, <em>Understanding by Design</em>; Biggs and Tang, <em>Teaching for Quality Learning at University</em>; Fink, <em>Creating Significant Learning Experiences</em>.<a href="#fnref373" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn327" role="doc-endnote"><p>People who prefer the latter are often <em>only</em> interested in arguing<span>…</span><a href="#fnref327" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn328" role="doc-endnote"><p>Saul D. Alinsky, <em>Rules for Radicals: A Practical Primer for Realistic Radicals</em> (Vintage, 1989); George Lakey, <em>How We Win: A Guide to Nonviolent Direct Action Campaigning</em> (Melville House, 2018).<a href="#fnref328" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn329" role="doc-endnote"><p>Brown, <em>Building Powerful Community Organizations</em>; Midwest Academy, <em>Organizing for Social Change: Midwest Academy Manual for Activists</em>, Fourth (The Forum Press, 2010); Lakey, <em>How We Win</em>.<a href="#fnref329" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn330" role="doc-endnote"><p>Frank Adams and Myles Horton, <em>Unearthing Seeds of Fire: The Idea of Highlander</em> (Blair, 1975).<a href="#fnref330" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn331" role="doc-endnote"><p>Dan Spalding, <em>How to Teach Adults: Plan Your Class, Teach Your Students, Change the World</em> (Jossey-Bass, 2014).<a href="#fnref331" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn332" role="doc-endnote"><p>Dan Sholler et al., “Ten Simple Rules for Helping Newcomers Become Contributors to Open Source Projects” (<a href="https://github.com/gvwilson/10-newcomers/" role="doc-biblioref">https://github.com/gvwilson/10-newcomers/</a>, 2019).<a href="#fnref332" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn333" role="doc-endnote"><p>Fogel, <em>Producing Open Source Software</em>.<a href="#fnref333" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn334" role="doc-endnote"><p>Vandana Singh, “Newcomer Integration and Learning in Technical Support Communities for Open Source Software,” in <em>2012 ACM International Conference on Supporting Group Work - GROUP’12</em> (ACM Press, 2012), doi:<a href="https://doi.org/10.1145/2389176.2389186" role="doc-biblioref">10.1145/2389176.2389186</a>; Igor Steinmacher et al., “Why Do Newcomers Abandon Open Source Software Projects?” in <em>2013 International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE’13)</em> (Institute of Electrical; Electronics Engineers (IEEE), 2013), doi:<a href="https://doi.org/10.1109/chase.2013.6614728" role="doc-biblioref">10.1109/chase.2013.6614728</a>; Igor Steinmacher et al., “Almost There: A Study on Quasi-Contributors in Open-Source Software Projects,” in <em>2018 International Conference on Software Engineering (ICSE’18)</em> (ACM Press, 2018), doi:<a href="https://doi.org/10.1145/3180155.3180208" role="doc-biblioref">10.1145/3180155.3180208</a>.<a href="#fnref334" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn335" role="doc-endnote"><p>Barthélémy Dagenais et al., “Moving into a New Software Project Landscape,” in <em>2010 International Conference on Software Engineering (ICSE’10)</em> (ACM Press, 2010), doi:<a href="https://doi.org/10.1145/1806799.1806842" role="doc-biblioref">10.1145/1806799.1806842</a>.<a href="#fnref335" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn336" role="doc-endnote"><p>Igor Steinmacher et al., “Overcoming Open Source Project Entry Barriers with a Portal for Newcomers,” in <em>2016 International Conference on Software Engineering (ICSE’16)</em> (ACM Press, 2016), doi:<a href="https://doi.org/10.1145/2884781.2884806" role="doc-biblioref">10.1145/2884781.2884806</a>.<a href="#fnref336" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn337" role="doc-endnote"><p>Jo Freeman, “The Tyranny of Structurelessness,” <em>The Second Wave</em> 2, no. 1 (1972).<a href="#fnref337" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn338" role="doc-endnote"><p>Elinor Ostrom, <em>Governing the Commons: The Evolution of Institutions for Collective Action</em> (Cambridge University Press, 2015).<a href="#fnref338" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn339" role="doc-endnote"><p>David Bollier, <em>Think Like a Commoner: A Short Introduction to the Life of the Commons</em> (New Society Publishers, 2014).<a href="#fnref339" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn340" role="doc-endnote"><p>This is one of the times when having ties with local government or other like-minded organizations pays off.<a href="#fnref340" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn341" role="doc-endnote"><p>Alessandra Pigni, <em>The Idealist’s Survival Kit: 75 Simple Ways to Prevent Burnout</em> (Parallax Press, 2016).<a href="#fnref341" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn342" role="doc-endnote"><p>Brown, <em>Building Powerful Community Organizations</em>.<a href="#fnref342" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn343" role="doc-endnote"><p>Fogel, <em>Producing Open Source Software</em>.<a href="#fnref343" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn344" role="doc-endnote"><p>Greg Wilson, “Software Carpentry: Lessons Learned,” <em>F1000Research</em>, January 2016, doi:<a href="https://doi.org/10.12688/f1000research.3-62.v2" role="doc-biblioref">10.12688/f1000research.3-62.v2</a>; Gabriel A. Devenyi et al., “Ten Simple Rules for Collaborative Lesson Development,” <em>PLoS Computational Biology</em> 14, no. 3 (March 2018), doi:<a href="https://doi.org/10.1371/journal.pcbi.1005963" role="doc-biblioref">10.1371/journal.pcbi.1005963</a>.<a href="#fnref344" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn345" role="doc-endnote"><p>Marc J. Kuchner, <em>Marketing for Scientists: How to Shine in Tough Times</em> (Island Press, 2011).<a href="#fnref345" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn346" role="doc-endnote"><p>Viviane Schwarz, <em>Welcome to Your Awesome Robot</em> (Flying Eye Books, 2013).<a href="#fnref346" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn347" role="doc-endnote"><p>Betsy DiSalvo, Cecili Reid, and Parisa Khanipour Roshan, “They Can’t Find Us,” in <em>2014 Technical Symposium on Computer Science Education (SIGCSE’14)</em> (Association for Computing Machinery (ACM), 2014), doi:<a href="https://doi.org/10.1145/2538862.2538933" role="doc-biblioref">10.1145/2538862.2538933</a>.<a href="#fnref347" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn348" role="doc-endnote"><p>And the prevalence of fixed mindset among faculty when it comes to teaching, i.e., the belief that some people are “just better teachers”.<a href="#fnref348" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn349" role="doc-endnote"><p>Barker, Hovey, and Gruning, “What Influences CS Faculty to Adopt Teaching Practices?”<a href="#fnref349" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn350" role="doc-endnote"><p>Ibid.<a href="#fnref350" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn351" role="doc-endnote"><p>Stark and Freishtat, “An Evaluation of Course Evaluations”; Uttl, White, and Gonzalez, “Meta-Analysis of Faculty’s Teaching Effectiveness.”<a href="#fnref351" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn352" role="doc-endnote"><p>Mark S. Bauer et al., “An Introduction to Implementation Science for the Non-Specialist,” <em>BMC Psychology</em> 3, no. 1 (September 2015), doi:<a href="https://doi.org/10.1186/s40359-015-0089-9" role="doc-biblioref">10.1186/s40359-015-0089-9</a>.<a href="#fnref352" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn353" role="doc-endnote"><p>Aman Yadav et al., “Expanding Computer Science Education in Schools: Understanding Teacher Experiences and Challenges,” <em>Computer Science Education</em> 26, no. 4 (December 2016): 235–54, doi:<a href="https://doi.org/10.1080/08993408.2016.1257418" role="doc-biblioref">10.1080/08993408.2016.1257418</a>.<a href="#fnref353" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn354" role="doc-endnote"><p>Sathya Narayanan et al., “Upward Mobility for Underrepresented Students,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159551" role="doc-biblioref">10.1145/3159450.3159551</a>.<a href="#fnref354" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn355" role="doc-endnote"><p>Helen H. Hu et al., “Building a Statewide Computer Science Teacher Pipeline,” in <em>2017 Technical Symposium on Computer Science Education (SIGCSE’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3017680.3017788" role="doc-biblioref">10.1145/3017680.3017788</a>.<a href="#fnref355" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn356" role="doc-endnote"><p>Maura Borrego and Charles Henderson, “Increasing the Use of Evidence-Based Teaching in STEM Higher Education: A Comparison of Eight Change Strategies,” <em>Journal of Engineering Education</em> 103, no. 2 (April 2014): 220–52, doi:<a href="https://doi.org/10.1002/jee.20040" role="doc-biblioref">10.1002/jee.20040</a>.<a href="#fnref356" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn357" role="doc-endnote"><p>Charles Henderson et al., <em>Designing Educational Innovations for Sustained Adoption</em> (Increase the Impact, 2015); Charles Henderson et al., “Designing Educational Innovations for Sustained Adoption (Executive Summary)” (<a href="http://www.increasetheimpact.com/resources.html" role="doc-biblioref">http://www.increasetheimpact.com/resources.html</a>; Increase the Impact, 2015).<a href="#fnref357" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn358" role="doc-endnote"><p>McMillan Cottom, <em>Lower Ed</em>.<a href="#fnref358" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn359" role="doc-endnote"><p>Kyle Thayer and Andrew J. Ko, “Barriers Faced by Coding Bootcamp Students,” in <em>2017 International Computing Education Research Conference (ICER’17)</em> (Association for Computing Machinery (ACM), 2017), doi:<a href="https://doi.org/10.1145/3105726.3106176" role="doc-biblioref">10.1145/3105726.3106176</a>.<a href="#fnref359" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn360" role="doc-endnote"><p>Quinn Burke et al., “Understanding the Software Development Industry’s Perspective on Coding Boot Camps Versus Traditional 4-Year Colleges,” in <em>2018 Technical Symposium on Computer Science Education (SIGCSE’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3159450.3159485" role="doc-biblioref">10.1145/3159450.3159485</a>.<a href="#fnref360" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn361" role="doc-endnote"><p>Lang, <em>Small Teaching</em>.<a href="#fnref361" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn362" role="doc-endnote"><p>Manns and Rising, <em>Fearless Change</em>.<a href="#fnref362" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn363" role="doc-endnote"><p>Kuchner, <em>Marketing for Scientists</em>.<a href="#fnref363" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn364" role="doc-endnote"><p>James C. Scott, <em>Weapons of the Weak: Everyday Forms of Peasant Resistance</em> (Yale University Press, 1987).<a href="#fnref364" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn365" role="doc-endnote"><p>April Y. Wang et al., “Mismatch of Expectations: How Modern Learning Resources Fail Conversational Programmers,” in <em>2018 Conference on Human Factors in Computing Systems (CHI’18)</em> (Association for Computing Machinery (ACM), 2018), doi:<a href="https://doi.org/10.1145/3173574.3174085" role="doc-biblioref">10.1145/3173574.3174085</a>.<a href="#fnref365" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn366" role="doc-endnote"><p>David F. Labaree, “The Winning Ways of a Losing Strategy: Educationalizing Social Problems in the United States,” <em>Educational Theory</em> 58, no. 4 (November 2008): 447–60, doi:<a href="https://doi.org/10.1111/j.1741-5446.2008.00299.x" role="doc-biblioref">10.1111/j.1741-5446.2008.00299.x</a>.<a href="#fnref366" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn367" role="doc-endnote"><p>Eugene Farmer, “The Gatekeeper’s Guide, or How to Kill a Tool,” <em>IEEE Software</em> 23, no. 6 (November 2006): 12–13, doi:<a href="https://doi.org/10.1109/ms.2006.174" role="doc-biblioref">10.1109/ms.2006.174</a>.<a href="#fnref367" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn368" role="doc-endnote"><p>Fink, <em>Creating Significant Learning Experiences</em>.<a href="#fnref368" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn369" role="doc-endnote"><p>Brown, <em>Building Powerful Community Organizations</em>; Brookfield and Preskill, <em>The Discussion Book</em>; Steven G. Rogelberg, <em>The Surprising Science of Meetings</em> (Oxford University Press, 2018).<a href="#fnref369" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn370" role="doc-endnote"><p>I certainly did when this was done to me<span>…</span><a href="#fnref370" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn371" role="doc-endnote"><p>Anne Minahan, “Martha’s Rules,” <em>Affilia</em> 1, no. 2 (June 1986): 53–56, doi:<a href="https://doi.org/10.1177/088610998600100206" role="doc-biblioref">10.1177/088610998600100206</a>.<a href="#fnref371" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn372" role="doc-endnote"><p>Esther Derby and Diana Larsen, <em>Agile Retrospectives: Making Good Teams Great</em> (Pragmatic Bookshelf, 2006).<a href="#fnref372" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn373" role="doc-endnote"><p>Atul Gawande, “The Checklist,” <em>The New Yorker</em>, December 10, 2007.<a href="#fnref373" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn374" role="doc-endnote"><p>Emma-Louise Aveling, Peter McCulloch, and Mary Dixon-Woods, “A Qualitative Study Comparing Experiences of the Surgical Safety Checklist in Hospitals in High-Income and Low-Income Countries,” <em>BMJ Open</em> 3, no. 8 (August 2013), doi:<a href="https://doi.org/10.1136/bmjopen-2013-003039" role="doc-biblioref">10.1136/bmjopen-2013-003039</a>; David R. Urbach et al., “Introduction of Surgical Safety Checklists in Ontario, Canada,” <em>New England Journal of Medicine</em> 370, no. 11 (March 2014): 1029–38, doi:<a href="https://doi.org/10.1056/nejmsa1308261" role="doc-biblioref">10.1056/nejmsa1308261</a>; G. Ramsay et al., “Reducing Surgical Mortality in Scotland by Use of the WHO Surgical Safety Checklist,” <em>BJS</em>, April 2019, doi:<a href="https://doi.org/10.1002/bjs.11151" role="doc-biblioref">10.1002/bjs.11151</a>.<a href="#fnref374" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn375" role="doc-endnote"><p>Wiggins and McTighe, <em>Understanding by Design</em>; Biggs and Tang, <em>Teaching for Quality Learning at University</em>; Fink, <em>Creating Significant Learning Experiences</em>.<a href="#fnref375" class="footnote-back" role="doc-backlink">↩</a></p></li>
 </ol>
 </section>
     </div>
