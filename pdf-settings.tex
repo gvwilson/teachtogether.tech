@@ -12,6 +12,7 @@
 \usepackage{mathptmx}
 \usepackage{changepage}
 \usepackage[center]{caption}
+\usepackage{float}
 
 \hfuzz=30pt % Don't bother to report over-full boxes < 10pt
 \vfuzz=30pt % Don't bother to report over-full boxes < 10pt
@@ -117,6 +118,14 @@
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\secref}[1]{Section~\ref{#1}}
 
+% Image figures.
+\newcommand{\figimg}[3]{\begin{figure}%
+\centering%
+\includegraphics[width=\textwidth]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
 % PDF figures.
 \newcommand{\figpdf}[3]{\begin{figure}%
 \centering%
@@ -125,10 +134,10 @@
 \label{#3}%
 \end{figure}}
 
-% Image figures.
-\newcommand{\figimg}[3]{\begin{figure}%
+% PDF figures forcing location.
+\newcommand{\figpdfhere}[3]{\begin{figure}[H]%
 \centering%
-\includegraphics[width=\textwidth]{#1}%
+\includegraphics[scale=0.6]{#1}%
 \caption{#2}%
 \label{#3}%
 \end{figure}}
