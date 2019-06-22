@@ -1,7 +1,7 @@
 \chaplbl{Mental Models and Formative Assessment}{s:models}
 
 The first task in teaching is to figure out who your learners are.
-Our approach is based on the work of researchers like Patricia Benner,
+Our approach is based on the work of researchers like Patricia Benner,\index{Benner, Patricia}
 who studied how nurses progress from novice to expert~\cite{Benn2000}.
 Benner identified five stages of cognitive development that most people go through in a fairly consistent way.
 For our purposes, we will simplify this progression to three stages:
@@ -64,7 +64,7 @@ Your goal when teaching novices should therefore be
 to help them construct a mental model
 so that they have somewhere to put facts.
 For example,
-Software Carpentry's
+Software Carpentry's\index{The Carpentries}
 \hreffoot{http://swcarpentry.github.io/shell-novice/}{lesson on the Unix shell}
 introduces fifteen commands in three hours.
 That's one command every twelve minutes,
@@ -100,7 +100,7 @@ who your lessons are for.
 
 \begin{aside}{A Handful of Exceptions}
   One of the reasons Unix and C became popular is that
-  Kernighan et al's trilogy~\cite{Kern1978,Kern1983,Kern1988}
+  \cite{Kern1978,Kern1983,Kern1988}
   somehow managed to be good tutorials \emph{and} good manuals at the same time.
   \cite{Fehi2008} and~\cite{Ray2014} are among the very few other books in computing that achieve this;
   even after re-reading them several times,
@@ -109,7 +109,7 @@ who your lessons are for.
 
 \seclbl{Are People Learning?}{s:models-formative-assessment}
 
-Mark Twain once wrote,
+Mark Twain once wrote,\index{Twain, Mark}
 ``It ain't what you don't know that gets you into trouble.
 It's what you know for sure that just ain't so.''
 One of the exercises in building a mental model is therefore
@@ -123,17 +123,20 @@ novices' misconceptions fall into three categories:
   like believing that Vancouver is the capital of British Columbia
   (it's Victoria).
   These are usually simple to correct.
+  \index{misconception!factual error}
 
 \item[Broken models]
   like believing that motion and acceleration must be in the same direction.
   We can address these by having novices reason through examples
   where their models give the wrong answer.
+  \index{misconception!broken mental model}
 
 \item[Fundamental beliefs]
   such as ``the world is only a few thousand years old''
   or ``some kinds of people are just naturally better at programming than others''~\cite{Guzd2015b,Pati2016}.
   These error are often deeply connected to the learner's social identity,
   so they resist evidence and rationalize contradictions.
+  \index{misconception!fundamental belief}
 
 \end{description}
 
@@ -151,7 +154,8 @@ The learner finds out if they are breathing correctly,
 while the teacher gets feedback on whether the explanation they just gave made sense.
 
 \begin{aside}{Summing Up}
-  The counterpoint to formative assessment is \gref{g:summative-assessment}{summative assessment},
+  The counterpoint to formative assessment is
+  \gref{g:summative-assessment}{summative assessment},
   which takes place at the end of the lesson.
   Summative assessment is like a driver's test:
   it tells the learner whether they have mastered the topic
@@ -175,8 +179,9 @@ In order to be useful during teaching,
 a formative assessment has to be quick to administer
 (so that it doesn't break the flow of the lesson)
 and have an unambiguous correct answer
-(so that it can be used with groups).
-The most widely used kind of formative assessment is probably the multiple choice question (MCQ).
+(so that it can be used with groups).\index{formative assessment!requirements}
+The most widely used kind of formative assessment is probably
+the multiple choice question (MCQ).\index{multiple choice question}
 A lot of teachers have a low opinion of them,
 but when they are designed well,
 they can reveal much more than just whether someone knows specific facts.
@@ -256,7 +261,8 @@ it's your responsibility as a teacher to make the call.
   the odds are that a lot of your learners will still misunderstand it that way today.
   You can also ask open-ended questions in class
   to collect misconceptions about material to be covered in a later class,
-  or check question and answer sites like \hreffoot{http://www.quora.com}{Quora} or \hreffoot{https://stackoverflow.com/}{Stack Overflow}
+  or check question and answer sites like \hreffoot{http://www.quora.com}{Quora}
+  or \hreffoot{https://stackoverflow.com/}{Stack Overflow}
   to see what people learning the subject elsewhere are confused by.
 \end{aside}
 
@@ -293,7 +299,8 @@ which helps with motivation (\chapref{s:motivation}).
 \begin{aside}{Concept Inventories}
   Given enough data,
   MCQs can be made surprisingly precise.
-  The best-known example is the Force Concept Inventory~\cite{Hest1992},
+  The best-known example is the
+  \grefdex{g:concept-inventory}{Force Concept Inventory}{concept inventory}~\cite{Hest1992},
   which assesses understanding of basic Newtonian mechanics.
   By interviewing a large number of respondents,
   correlating their misconceptions with patterns of right and wrong answers,
@@ -426,12 +433,12 @@ For example, my notional machine for Python is:
   When the function finishes,
   Python erases its stack frame and jumps backs to
   the instructions it was executing before the function call.
-  If there isn't a ``before,
+  If there isn't a ``before'',
   the program has finished.
 
 \end{enumerate}
 
-I return to this cartoon version of reality repeatedly when I teach Python.
+I use this cartoon version of reality whenever I teach Python.
 After about 25 hours of instructions and 100 hours of work on their own time,
 I expect most learners to have a mental model
 that includes most or all of these features.

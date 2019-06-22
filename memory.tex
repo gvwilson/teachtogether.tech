@@ -16,7 +16,7 @@ We then introduce one of the most important limits on learning
 and look at how drawing pictures of mental models can help us turn knowledge into lessons.
 
 To start,
-what do we mean when we say someone is an expert?
+what do we mean when we say someone is an expert?\index{expert}
 The usual answer is that they can solve problems much faster than people who are ``merely competent'',
 or that they can recognize and deal with cases where the normal rules don't apply.
 They also somehow make this look effortless:
@@ -48,7 +48,7 @@ It also explains many observed aspects of expert behavior:
   Where a competent practitioner would have to reason
   $A{\rightarrow}B{\rightarrow}C{\rightarrow}D{\rightarrow}E$,
   an expert can go from $A$ to $E$ in a single step.
-  We call this \emph{intuition}:
+  We call this \gref{g:intuition}{intuition}:
   instead of reasoning their way to a solution,
   the expert recognizes a solution in the same way that they would recognize a familiar face.
 
@@ -104,11 +104,12 @@ Our tool of choice for representing someone's mental model is a \gref{g:concept-
 in which facts are bubbles and connections are labelled connections.
 As examples,
 \figref{f:memory-seasons} shows why the Earth has seasons (from \hreffoot{https://cmap.ihmc.us/}{IHMC}),
-and \appref{s:conceptmaps} presents concept maps for several key ideas in this book.
+and \appref{s:conceptmaps} presents concept maps for libraries from three points of view.
 
 \figpdf{figures/seasons.pdf}{Concept Map for Seasons}{f:memory-seasons}
 
-To show how concept maps can be using in teaching programming, consider this \texttt{for} loop in Python:
+To show how concept maps can be using in teaching programming,
+consider this \texttt{for} loop in Python:
 
 \begin{minted}{text}
 for letter in "abc":
@@ -124,8 +125,9 @@ b
 c
 \end{minted}
 
-The three key ``things'' in this loop are shown in the top of \figref{f:memory-loop}, but they are only half the story.
-The expanded version in the bottom shows the \emph{relationships} between those things,
+The three key ``things'' in this loop are shown in the top of \figref{f:memory-loop},
+but they are only half the story.
+The expanded version in the bottom shows the relationships between those things,
 which are as important for understanding as the concepts themselves.
 
 \figpdf{figures/for-loop.pdf}{Concept Map for a For Loop}{f:memory-loop}
@@ -191,7 +193,8 @@ Concept maps are just one way to represent our understanding of a subject~\cite{
 others include Venn diagrams, flowcharts, and decision trees~\cite{Abel2009}.
 All of these \grefdex{g:externalized-cognition}{externalize cognition}{externalized cognition},
 i.e.,
-make mental models visible so that they can be compared and combined\footnote{To paraphrase Oscar Wilde's Lady Windermere,
+make mental models visible so that they can be compared and combined\footnote{To paraphrase
+Oscar Wilde's Lady Windermere,\index{Wilde, Oscar}
 people often don't know what they're thinking until they've heard themselves say it.}.
 
 \begin{aside}{Rough Work and Honesty}
@@ -257,7 +260,7 @@ This is one of the ways to use a concept map when designing a lesson:
 it helps make sure learners' short-term memories won't be overloaded.
 Once the map is drawn,
 the teacher chooses a subsection that fill fit in short term memory
-and lead to a formative assessment (\figref{f:memory-photosynthesis}),
+and lead to a formative assessment (\figref{f:memory-photosynthesis}),\index{formative assessment}
 then adds another subsection for the next lesson episode and so on.
 
 \figpdf{figures/photosynthesis.pdf}{Using Concept Maps in Lesson Design}{f:memory-photosynthesis}
@@ -272,7 +275,7 @@ then adds another subsection for the next lesson episode and so on.
   why they've been tripping over each other.
 \end{aside}
 
-The simple model of memory presented here has largely been replaced by a more sophisticated one
+Note that the simple model of memory presented here has largely been replaced by a more sophisticated one
 in which short-term memory is broken down into several modal stores
 (e.g., for visual vs. linguistic memory),
 each of which does some involuntary preprocessing~\cite{Mill2016a}.
@@ -299,7 +302,7 @@ chunking can also mislead us if we mis-identify things:
 newcomers really can sometimes see things that experts have looked at and missed.
 
 Given how important chunking is to thinking,
-it is tempting to identify \hreffoot{https://en.wikipedia.org/wiki/Software\_design\_pattern}{design patterns}
+it is tempting to identify \hreffoot{https://en.wikipedia.org/wiki/Software\_design\_pattern}{design patterns}\index{design patterns}
 and teach them directly.
 These patterns help competent practitioners think and talk to each other in many domains (including teaching~\cite{Berg2012}),
 but pattern catalogs are too dry and too abstract for novices to make sense of on their own.
@@ -386,18 +389,11 @@ How easy would it be for you if you set it aside for a day or two and then looke
 
 \exercise{That's a Bit Self-Referential, Isn't It?}{whole class}{30}
 
-\begin{enumerate}
-
-\item
-  Working independently,
-  draw a concept map for concept maps.
-
-\item
-  Compare your concept map with those drawn by other people.
-  What did most people include?
-  What were the significant differences?
-
-\end{enumerate}
+Working independently,
+draw a concept map for concept maps.
+Compare your concept map with those drawn by other people.
+What did most people include?
+What were the significant differences?
 
 \exercise{Noticing Your Blind Spot}{small groups}{10}
 
@@ -410,25 +406,31 @@ answers = ['tuatara', 'tuataras', 'bus', "lick"]
 \end{minted}
 
 \begin{itemize}
+
 \item
   The square brackets surrounding the content mean we're working with a list
   (as opposed to square brackets immediately to the right of something,
   which is a data extraction notation).
+
 \item
   The elements are separated by commas outside and between the quotes
   (rather than inside, as they would be for quoted speech).
+
 \item
   Each element is a character string,
   and we know that because of the quotes.
   We could have number or other data types in here if we wanted;
   we need quotes because we're working with strings.
+
 \item
   We're mixing our use of single and double quotes;
   Python doesn't care so long as they balance around the individual strings.
+
 \item
   Each comma is followed by a space,
   which is not required by Python,
   but which we prefer it for readability.
+
 \end{itemize}
 
 Each of these details might be overlooked by an expert.
@@ -439,14 +441,14 @@ and break it down to this level of detail.
 \exercise{What to Teach Next}{individual}{5}
 
 Refer back to the concept map for photosynthesis in \figref{f:memory-photosynthesis}.
-How many concepts and links are in the selected chunk?
+How many concepts and links are in the selected chunks?
 What would you include in the next chunk of the lesson and why?
 
 \exercise{The Power of Chunking}{individual}{5}
 
 Look at \figref{f:memory-unchunked} for 10 seconds,
 then look away and try to write out your phone number with these symbols\footnote{
-  My thanks to Warren Code for introducing me to this example.
+  My thanks to Warren Code\index{Code, Warren} for introducing me to this example.
 }.
 (Use a space for '0'.)
 When you are finished,
