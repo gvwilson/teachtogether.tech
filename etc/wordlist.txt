@@ -37,7 +37,6 @@ PDFs
 PRIMM
 Paloma
 RGB
-RStudio's
 Raj
 Reusability
 Rontu

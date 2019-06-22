@@ -41,7 +41,7 @@ def check_gloss(files):
 
 
 def check_figs(fig_dir, files):
-    FIG_USE = re.compile(r'\\(figlbl|imglbl)\{(.+?)\}\{.+?\}\{.+?\}')
+    FIG_USE = re.compile(r'\\(figimg|figpdf|figpdfhere)\{(.+?)\}\{.+?\}\{.+?\}')
     used = {os.path.basename(path) for (macro, path) in find_all(FIG_USE, files)}
     exists = set(os.listdir(fig_dir))
     report('Figures', 'missing', used - exists)

@@ -32,6 +32,30 @@
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\secref}[1]{Section~\ref{#1}}
 
+% Image figures.
+\newcommand{\figimg}[3]{\begin{figure}%
+\centering%
+\includegraphics[width=\textwidth]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
+% PDF figures.
+\newcommand{\figpdf}[3]{\begin{figure}%
+\centering%
+\includegraphics[scale=0.6]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
+% PDF figures forcing location.
+\newcommand{\figpdfhere}[3]{\begin{figure}[H]%
+\centering%
+\includegraphics[scale=0.6]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
 % Exercise headings.
 \newcommand{\exercise}[3]{\subsection*{#1 (#2/#3)}}
 
