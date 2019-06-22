@@ -3,6 +3,7 @@
 # Commands
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
+MAKEINDEX=makeindex
 PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2 --csl=chicago.csl
 
 # Files
@@ -43,6 +44,7 @@ ${PDF} : ${SRC}
 	${LATEX} book \
 	&& ${BIBTEX} book \
 	&& ${LATEX} book \
+	&& ${MAKEINDEX} book \
 	&& ${LATEX} book
 
 # Generate HTML.

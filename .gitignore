@@ -8,6 +8,8 @@
 *.dvi
 *.egg-info
 *.idx
+*.ilg
+*.ind
 *.lof
 *.log
 *.lot
