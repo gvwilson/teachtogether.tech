@@ -170,9 +170,8 @@
 <li><a href="#s:checklists-design">Lesson Design</a></li>
 <li><a href="#s:checklists-preassess">Pre-Assessment Questionnaire</a></li>
 </ul></li>
-<li><a href="#s:conceptmaps">Example Concept Maps</a><ul>
-<li><a href="#s:conceptmaps-libraries">Libraries</a></li>
-</ul></li>
+<li><a href="#s:conceptmaps">Example Concept Maps</a></li>
+<li><a href="#s:chunking">Chunking Exercise Solution</a></li>
 <li><a href="#references">References</a></li>
 </ul>
 </nav>
@@ -552,7 +551,6 @@ c</code></pre>
 <p>The simple model of memory presented here has largely been replaced by a more sophisticated one in which short-term memory is broken down into several modal stores (e.g., for visual vs. linguistic memory), each of which does some involuntary preprocessing [<a class="cite" href="#ref-Mill2016a">Mill2016a</a>]. Our presentation is therefore an example of a mental model that aids learning and everyday work.</p>
 <h3 id="pattern-recognition" class="unnumbered">Pattern Recognition</h3>
 <p>Recent research suggests that the actual size of short-term memory might be as low as 4±1 items [<a class="cite" href="#ref-Dida2016">Dida2016</a>]. In order to handle larger sets of information, our minds create <a href="#g:chunking"><strong>chunks</strong></a>. For example, most of us remember words as single items rather than as sequences of letters. Similarly, the pattern made by five spots on cards or dice is remembered as a whole rather than as five separate pieces of information.</p>
-<p>FIXME: chunking example</p>
 <p>Experts have more and larger chunks than non-experts, i.e., experts “see” larger patterns and have more patterns to match things against. This allows them to reason at a higher level and to search for information more quickly and more accurately. However, chunking can also mislead us if we mis-identify things: newcomers really can sometimes see things that experts have looked at and missed.</p>
 <p>Given how important chunking is to thinking, it is tempting to identify <a href="https://en.wikipedia.org/wiki/Software_design_pattern">design patterns</a> and teach them directly. These patterns help competent practitioners think and talk to each other in many domains (including teaching [<a class="cite" href="#ref-Berg2012">Berg2012</a>]), but pattern catalogs are too dry and too abstract for novices to make sense of on their own. That said, giving names to a small number of patterns does seem to help with teaching, primarily by giving the learners a richer vocabulary to think and communicate with.[<a class="cite" href="#ref-Kuit2004">Kuit2004</a>,<a class="cite" href="#ref-Byck2005">Byck2005</a>,<a class="cite" href="#ref-Saja2006">Saja2006</a>] We will return to this in Section <a href="#s:pck-programming" data-reference-type="ref" data-reference="s:pck-programming">7.5</a>.</p>
 <h2 id="s:memory-becoming-expert">Becoming an Expert</h2>
@@ -595,6 +593,11 @@ c</code></pre>
 <li><p>Each comma is followed by a space, which is not required by Python, but which we prefer it for readability.</p></li>
 </ul>
 <p>Each of these details might be overlooked by an expert. Working in groups of 3–4, select something equally short from a lesson you have recently taught or learned and break it down to this level of detail.</p>
+<h3 id="the-power-of-chunking-individual5" class="unnumbered">The Power of Chunking (individual/5)</h3>
+<p>Look at Figure <a href="#f:memory-unchunked" data-reference-type="ref" data-reference="f:memory-unchunked">3.3</a> for 10 seconds, then look away and try to write out your phone number with these symbols<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a>. (Use a space for ’0’.) When you are finished, look at the alternative representation in Appendix <a href="#s:chunking" data-reference-type="ref" data-reference="s:chunking">23</a>. How much easier are the symbols to remember when the pattern is made explicit?</p>
+<figure>
+<img src="figures/chunking-unchunked.svg" id="f:memory-unchunked" /><figcaption>Unchunked Representation<span label="f:memory-unchunked"></span></figcaption>
+</figure>
 <h1 id="s:architecture">Cognitive Architecture</h1>
 <p>We have been talking about mental models as if they were real things, but what actually goes on in a learner’s brain when they’re learning? The short answer is that we don’t know; the longer answer is that we know a lot more than we used to. This chapter will dig a little deeper into what brains do while they’re learning and how we can leverage that to design and deliver lessons more effectively.</p>
 <h2 id="s:architecture-brain">What’s Going On In There?</h2>
@@ -603,7 +606,7 @@ c</code></pre>
 </figure>
 <p>Figure <a href="#f:arch-model" data-reference-type="ref" data-reference="f:arch-model">4.1</a> is a simplified model of human cognitive architecture. The core of this model is the separation between short-term and long-term memory discussed in Section <a href="#s:memory-seven-plus-or-minus" data-reference-type="ref" data-reference="s:memory-seven-plus-or-minus">3.2</a>. Long-term memory is like your basement: it stores things more or less permanently, but you can’t access its contents directly. Instead, you rely on your short-term memory, which is the cluttered kitchen table of your mind.</p>
 <p>When you need something, your brain retrieves it from long-term memory and puts it in short-term memory. Conversely, new information that arrives in short-term memory has to be encoded to be stored in long-term memory. If that information isn’t encoded and stored, it’s not remembered and learning hasn’t taken place.</p>
-<p>Information gets into short-term memory primarily through your verbal channel (for speech) and visual channel (for images)<a href="#fn49" class="footnote-ref" id="fnref49" role="doc-noteref"><sup>49</sup></a>. Most people rely primarily on their visual channel, but when images and words complement each other, the brain does a better job of remembering them both: they are encoded together, so recall of one later on helps trigger recall of the other.</p>
+<p>Information gets into short-term memory primarily through your verbal channel (for speech) and visual channel (for images)<a href="#fn50" class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a>. Most people rely primarily on their visual channel, but when images and words complement each other, the brain does a better job of remembering them both: they are encoded together, so recall of one later on helps trigger recall of the other.</p>
 <p>Linguistic and visual input are processed by different parts of the human brain, and linguistic and visual memories are stored separately as well. This means that correlating linguistic and visual streams of information takes cognitive effort: when someone reads something while hearing it spoken aloud, their brain can’t help but check that it’s getting the same information on both channels.</p>
 <p>Learning is therefore increased when information is presented simultaneously in two different channels, but is reduced when that information is redundant rather than complementary, a phenomenon called the <a href="#g:split-attention-effect"><strong>split-attention effect</strong></a> [<a class="cite" href="#ref-Maye2003">Maye2003</a>]. For example, people generally find it harder to learn from a video that has both narration and on-screen captions than from one that has either the narration or the captions but not both, because some of their attention has to be devoted to checking that the narration and the captions agree with each other. Two notable exceptions to this are people who do not yet speak the language well and people with hearing impairments or other special needs, both of whom may find that the value of the redundant information outweighs the extra processing effort.</p>
 <blockquote>
@@ -640,7 +643,7 @@ c</code></pre>
 <figure>
 <img src="figures/frisian.png" alt="Constructing a Sentence" id="f:architecture-frisian" /><figcaption>Constructing a Sentence<span label="f:architecture-frisian"></span></figcaption>
 </figure>
-<p>The coding equivalent of this is called a <a href="#g:parsons-problem"><strong>Parsons Problem</strong></a><a href="#fn55" class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a> [<a class="cite" href="#ref-Pars2006">Pars2006</a>]. When teaching people to program, you can give them the lines of code they need to solve a problem and ask them to put them in the right order. This allows them to concentrate on control flow and data dependencies without being distracted by variable naming or trying to remember what functions to call. Multiple studies have shown that Parsons Problems take less time for learners to do but produce equivalent educational outcomes [<a class="cite" href="#ref-Eric2017">Eric2017</a>].</p>
+<p>The coding equivalent of this is called a <a href="#g:parsons-problem"><strong>Parsons Problem</strong></a><a href="#fn56" class="footnote-ref" id="fnref56" role="doc-noteref"><sup>56</sup></a> [<a class="cite" href="#ref-Pars2006">Pars2006</a>]. When teaching people to program, you can give them the lines of code they need to solve a problem and ask them to put them in the right order. This allows them to concentrate on control flow and data dependencies without being distracted by variable naming or trying to remember what functions to call. Multiple studies have shown that Parsons Problems take less time for learners to do but produce equivalent educational outcomes [<a class="cite" href="#ref-Eric2017">Eric2017</a>].</p>
 <h3 id="faded-examples" class="unnumbered">Faded Examples</h3>
 <p>Another type of exercise that can be explained in terms of cognitive load is to give learners a series of <a href="#g:faded-example"><strong>faded examples</strong></a>. The first example in a series presents a complete use of a particular problem-solving strategy. The next problem is of the same type, but has some gaps for the learner to fill in. Each successive problem gives the learner less <a href="#g:scaffolding"><strong>scaffolding</strong></a>, until they are asked to solve a complete problem from scratch. When teaching high school algebra, for example, we might start with this:</p>
 <table class="table table-striped">
@@ -787,7 +790,7 @@ define make_acronym(list_of_words):
 <blockquote>
 <h4 id="cognitive-apprenticeship" class="unnumbered">Cognitive Apprenticeship</h4>
 <p>An alternative model of learning and instruction that also uses scaffolding and fading is <a href="#g:cognitive-apprenticeship"><strong>cognitive apprenticeship</strong></a>, which emphasizes the way in which a master passes on skills and insights to an apprentice. The master provides models of performance and outcomes, then coaches novices by explaining what they are doing and why [<a class="cite" href="#ref-Coll1991">Coll1991</a>,<a class="cite" href="#ref-Casp2007">Casp2007</a>]. The apprentice reflects on their own problem solving, e.g., by thinking aloud or critiquing their own work, and eventually explores problems of their own choosing.</p>
-<p>This model tells us that teachers should present several examples when presenting a new idea so that learners can see what to generalize, and that we should vary the form of the problem to make it clear what are and aren’t superficial features<a href="#fn59" class="footnote-ref" id="fnref59" role="doc-noteref"><sup>59</sup></a>. Problems should be presented in real-world contexts, and we should encourage self-explanation to help learners organize and make sense of what they have just been taught (Section <a href="#s:individual-strategies" data-reference-type="ref" data-reference="s:individual-strategies">5.1</a>).</p>
+<p>This model tells us that teachers should present several examples when presenting a new idea so that learners can see what to generalize, and that we should vary the form of the problem to make it clear what are and aren’t superficial features<a href="#fn60" class="footnote-ref" id="fnref60" role="doc-noteref"><sup>60</sup></a>. Problems should be presented in real-world contexts, and we should encourage self-explanation to help learners organize and make sense of what they have just been taught (Section <a href="#s:individual-strategies" data-reference-type="ref" data-reference="s:individual-strategies">5.1</a>).</p>
 </blockquote>
 <h3 id="labelled-subgoals" class="unnumbered">Labelled Subgoals</h3>
 <p><a href="#g:subgoal-labelling"><strong>Labelling subgoals</strong></a> means giving names to the steps in a step-by-step description of a problem-solving process.[<a class="cite" href="#ref-Marg2016">Marg2016</a>,<a class="cite" href="#ref-Morr2016">Morr2016</a>] found that learners with labelled subgoals solved Parsons Problems better than learners without, and the same benefit is seen in other problem domains [<a class="cite" href="#ref-Marg2012">Marg2012</a>]. Returning to the Python example used earlier, the subgoals in finding the total length of a list of words or constructing an acronym are:</p>
@@ -832,25 +835,25 @@ define make_acronym(list_of_words):
 <h3 id="worked-examples-pairs15" class="unnumbered">Worked Examples (pairs/15)</h3>
 <p>Seeing worked examples helps people learn to program faster than just writing lots of code [<a class="cite" href="#ref-Skud2014">Skud2014</a>], and deconstructing code by tracing it or debugging it also increases learning [<a class="cite" href="#ref-Grif2016">Grif2016</a>]. Working in pairs, go through a 10–15 line piece of code and explain what every statement does and why it is necessary. How long does it take? How many things do you feel you need to explain per line of code?</p>
 <h3 id="critiquing-graphics-individual30" class="unnumbered">Critiquing Graphics (individual/30)</h3>
-<p>[<a class="cite" href="#ref-Maye2009">Maye2009</a>] presents six principles for designing good diagrams for teaching. As summarized in [<a class="cite" href="#ref-Mill2016a">Mill2016a</a>], they are:</p>
+<p>[<a class="cite" href="#ref-Maye2009">Maye2009</a>,<a class="cite" href="#ref-Mill2016a">Mill2016a</a>] presents six principles for good teaching graphics:</p>
 <dl>
 <dt>Signalling:</dt>
-<dd><p>visually highlight the most important points that you want learners to retain so that they stand out from less-critical material.</p>
+<dd><p>visually highlight the most important points so that they stand out from less-critical material.</p>
 </dd>
 <dt>Spatial contiguity:</dt>
-<dd><p>if using captions or other text to accompany graphics, place them as close to the graphics as practical to offset the cost of shifting between the two. If using diagrams or animations, place captions right next to relative components instead of putting them in one big block of text.</p>
+<dd><p>place captions as close to the graphics as practical to offset the cost of shifting between the two.</p>
 </dd>
 <dt>Temporal contiguity:</dt>
 <dd><p>present spoken narration and graphics as close in time as practical. (Presenting both at once is better than presenting them one after another.)</p>
 </dd>
 <dt>Segmenting:</dt>
-<dd><p>when presenting a long sequence of material or when learners are inexperienced with the subject, break up the presentation into shorter segments and let learners control how quickly they advance from one part to the next.</p>
+<dd><p>when presenting a long sequence of material or when learners are inexperienced with the subject, break the presentation into short segments and let learners control how quickly they advance from to the next.</p>
 </dd>
 <dt>Pre-training:</dt>
-<dd><p>if learners don’t know the major concepts and terminology used in your presentation, set up a module just to teach those concepts and terms and make sure they complete that module beforehand.</p>
+<dd><p>if learners don’t know the major concepts and terminology used in your presentation, teach just those concepts and terms beforehand.</p>
 </dd>
 <dt>Modality:</dt>
-<dd><p>learners learn better from pictures plus audio narration than from pictures plus text, unless the learners are non-native speakers or there are technical words or symbols.</p>
+<dd><p>people learn better from pictures plus narration than from pictures plus text, unless they are non-native speakers or there are technical words or symbols.</p>
 </dd>
 </dl>
 <p>Choose a video of a lesson or talk online that uses slides or other static presentations and rate its graphics as “poor”, “average”, or “good” according to these six criteria.</p>
@@ -1216,7 +1219,7 @@ This starts with an active verb, defines the level of learning, and provides con
 <p>If this was an academic treatise, I would therefore preface most claims with qualifiers like, “Some research may seem to indicate that<span>…</span>” But since actual teachers in actual classrooms have to make decisions regardless of whether research has clear answers yet or not, this chapter presents actionable best guesses rather than nuanced perhapses.</p>
 <blockquote>
 <h4 id="jargon" class="unnumbered">Jargon</h4>
-<p>Like any specialty, computing education research has its jargon. The term <a href="#g:cs1"><strong>CS1</strong></a> refers to a typical introductory semester-long programming course in which learners meet variables, loops, and functions for the first time, while <a href="#g:cs2"><strong>CS2</strong></a> refers to a second course that covers basic data structures like stacks and queues. The term <a href="#g:cs0"><strong>CS0</strong></a> is used to refer to an introductory course for people without any prior experience who aren’t intending to continue with computing right away. Full definitions for these terms and others can be found in the <a href="https://www.acm.org/education/curricula-recommendations">ACM Curriculum Guidelines</a>.</p>
+<p>Like any specialty, CER has jargon. <a href="#g:cs1"><strong>CS1</strong></a> refers to an introductory semester-long course in which learners meet variables, loops, and functions for the first time, while <a href="#g:cs2"><strong>CS2</strong></a> refers to a second course that covers basic data structures like stacks and queues, and <a href="#g:cs0"><strong>CS0</strong></a> refers to an introductory course for people without any prior experience who aren’t intending to continue with computing right away. Full definitions for these terms can be found in the <a href="https://www.acm.org/education/curricula-recommendations">ACM Curriculum Guidelines</a>.</p>
 </blockquote>
 <h2 id="s:pck-now">What Are We Teaching Them Now?</h2>
 <p>Very little is known about what coding bootcamps and other free-range initiatives teach, in part because many are reluctant to share their curriculum. We know more about what is taught by institutions [<a class="cite" href="#ref-Luxt2017">Luxt2017</a>]:</p>
@@ -1413,11 +1416,11 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p>This list highlights the importance of cooperative learning.[<a class="cite" href="#ref-Beck2013">Beck2013</a>] looked at this specifically over three academic years in courses taught by two different teachers and found significant benefits overall and for many subgroups. The cooperators had higher grades and left fewer questions blank on the final exam, which indicates greater self-efficacy and willingness to try to debug things.</p>
 <blockquote>
 <h4 id="computing-without-coding" class="unnumbered">Computing Without Coding</h4>
-<p>Writing code isn’t the only way to teach people how to program.[<a class="cite" href="#ref-Shel2017">Shel2017</a>] reports that having novices work on computational creativity exercises improves grades at several levels. A typical exercise is to identify an everyday object (such as nail clipper, a paper clip, Scotch tape) and describe the object in terms of its inputs, outputs and functions. This kind of teaching is sometimes called <a href="#g:cs-unplugged"><strong>unplugged</strong></a>; the <a href="https://csunplugged.org/en/">CS Unplugged</a> site has lessons and exercises for doing this.</p>
+<p>Writing code isn’t the only way to teach people how to program: having novices work on computational creativity exercises improves grades at several levels [<a class="cite" href="#ref-Shel2017">Shel2017</a>]. A typical exercise is to describe an everyday object (such as a paper clip or toothbrush) in terms of its inputs, outputs, and functions. This kind of teaching is sometimes called <a href="#g:cs-unplugged"><strong>unplugged</strong></a>; the <a href="https://csunplugged.org/en/">CS Unplugged</a> site has lessons and exercises for doing this.</p>
 </blockquote>
 <h2 id="s:pck-final">Where Next?</h2>
-<p>For those who want to go deeper,[<a class="cite" href="#ref-Finc2019">Finc2019</a>] is a comprehensive summary of CER,[<a class="cite" href="#ref-Ihan2016">Ihan2016</a>] summarizes the methods that studies use most often. The <a href="http://csteachingtips.org/">CS Teaching Tips</a> site is a more accessible summary of PCK for teaching programming, and I hope that we will have catalogs like [<a class="cite" href="#ref-Ojos2015">Ojos2015</a>] and more teacher training materials like [<a class="cite" href="#ref-Hazz2014">Hazz2014</a>,<a class="cite" href="#ref-Guzd2015a">Guzd2015a</a>,<a class="cite" href="#ref-Sent2018">Sent2018</a>] some day to help us all do better.</p>
-<p>If you are a researcher, please hasten that day by publishing your work in open access venues. Most of the research reported in this chapter was publicly funded but is locked away behind paywalls. At a guess, I broke the law 250 times to download papers from sites like <a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci-Hub</a> while writing this book; I hope the day is coming when no one will need to do that.</p>
+<p>For those who want to go deeper,[<a class="cite" href="#ref-Finc2019">Finc2019</a>] is a comprehensive summary of CER,[<a class="cite" href="#ref-Ihan2016">Ihan2016</a>] summarizes the methods that studies use most often. I hope that some day we will have catalogs like [<a class="cite" href="#ref-Ojos2015">Ojos2015</a>] and more teacher training materials like [<a class="cite" href="#ref-Hazz2014">Hazz2014</a>,<a class="cite" href="#ref-Guzd2015a">Guzd2015a</a>,<a class="cite" href="#ref-Sent2018">Sent2018</a>] to help us all do better.</p>
+<p>Most of the research reported in this chapter was publicly funded but is locked away behind paywalls: at a guess, I broke the law 250 times to download papers from sites like <a href="https://en.wikipedia.org/wiki/Sci-Hub">Sci-Hub</a> while writing this book. I hope the day is coming when no one will need to do that; if you are a researcher, please hasten that day by publishing your work in open access venues.</p>
 <h2 id="s:pck-exercises">Exercises</h2>
 <h3 id="your-learners-misunderstandings-small-groups15" class="unnumbered">Your Learners’ Misunderstandings (small groups/15)</h3>
 <p>Working in small groups, re-read Section <a href="#s:pck-misunderstand" data-reference-type="ref" data-reference="s:pck-misunderstand">7.3</a> and make a list of misconceptions you think your learners have. How specific are they? How would you check how accurate your list is?</p>
@@ -2157,11 +2160,9 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <p>Misogyny in video games, the use of “cultural fit” in hiring to excuse conscious or unconscious bias, a culture of silence around harassment, and the growing inequality in society that produces preparatory privilege (Section <a href="#s:classroom-mixed" data-reference-type="ref" data-reference="s:classroom-mixed">9.5</a>) are not any one person’s fault, but fixing them is everyone’s responsibility. As a teacher, you have more power than most; <a href="https://frameshiftconsulting.com/ally-skills-workshop/">this workshop</a> has excellent practical advice on how to be a good ally, and its advice is probably more important than anything this book teaches you about teaching.</p>
 <h2 id="s:motivation-exercises">Exercises</h2>
 <h3 id="authentic-tasks-pairs15" class="unnumbered">Authentic Tasks (pairs/15)</h3>
-<p>Think about something you did this week that uses one of the skills you teach—downloading some data, writing a function, or styling a web page—and explain how you would use it (or a simplified version of it) in class.</p>
 <ol>
-<li><p>Pair up with your neighbor and decide where this exercise fits on a 2x2 grid of “short/long time to master” and “low/high usefulness”.</p></li>
-<li><p>Write the task and where it fits on the grid.</p></li>
-<li><p>Discuss how it relates to the “teach most immediately useful first” approach.</p></li>
+<li><p>In pairs, list half a dozen things you did this week that use the skills you teach.</p></li>
+<li><p>Place your items on a 2x2 grid of “time to master” and “usefulness”. Where do you agree and disagree?</p></li>
 </ol>
 <h3 id="core-needs-whole-class10" class="unnumbered">Core Needs (whole class/10)</h3>
 <p>Paloma Medina identifies <a href="https://www.palomamedina.com/biceps">six core needs</a> for people at work: belonging, improvement (i.e., making progress), choice, equality, predictability, and significance. After reading her description of these, order them from most to least significant for you personally, then compare rankings with your peers. How do you think your rankings compare with those of your learners?</p>
@@ -2172,8 +2173,8 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <li><p>Think back to a course that you took in the past and identify one thing the teacher did that demotivated you. Make notes about what could have been done afterward to correct the situation.</p></li>
 <li><p>Pair up with your neighbor and compare stories, then add your comments to a set of notes shared by the whole class.</p></li>
 <li><p>Review the comments in the shared notes as a group. Highlight and discuss a few of the things that could have been done differently.</p></li>
+<li><p>Do you think that doing this will help you handle situations like these in the future?</p></li>
 </ol>
-<p>This will helps give people confidence to handle situations like these in the future.</p>
 <h3 id="walk-the-route-whole-class15" class="unnumbered">Walk the Route (whole class/15)</h3>
 <p>Find the nearest public transportation drop-off point to your building and walk from there to your office and then to the nearest washroom, making notes about things you think would be difficult for someone with mobility issues. Now borrow a wheelchair and repeat the journey. How complete was your list of exercises? And did you notice that the first sentence in this exercise assumed you could actually walk?</p>
 <h3 id="who-decides-whole-class15" class="unnumbered">Who Decides? (whole class/15)</h3>
@@ -2183,8 +2184,8 @@ If &quot;string&quot; refers to a datatype, capitalize the &#39;s&#39;!</code></
 <h3 id="not-being-a-jerk-individual15" class="unnumbered">Not Being a Jerk (individual/15)</h3>
 <p><a href="https://www.destroyallsoftware.com/blog/2018/a-case-study-in-not-being-a-jerk-in-open-source">This short article</a> by Gary Bernhardt rewrites an unnecessarily hostile message to be less rude. Using it as a model, find something unpleasant on <a href="https://stackoverflow.com/">Stack Overflow</a> or some other public discussion forum and rewrite it to be more inclusive.</p>
 <h3 id="saving-face-individual10" class="unnumbered">Saving Face (individual/10)</h3>
-<p>Would any of your hoped-for learners be embarrassed to admit that they don’t already know some of the things you want to teach? If so, what can you do to help them save face?</p>
-<h3 id="after-the-fact-whole-class15" class="unnumbered">After the Fact (whole class/15)</h3>
+<p>Would any of your hoped-for learners be embarrassed to admit that they don’t already know some of the things you want to teach? If so, how can you help them save face?</p>
+<h3 id="childhood-toys-whole-class15" class="unnumbered">Childhood Toys (whole class/15)</h3>
 <p>[<a class="cite" href="#ref-Cutt2017">Cutt2017</a>] surveyed adult computer users about their childhood activities and found that the strongest correlation between confidence and computer use were based on reading on one’s own and playing with construction toys like Lego that do not having moving parts. Survey the class and see what other activities people engaged in, then search for these activities online. How strongly gendered are descriptions and advertising for them? What effect do you think this has?</p>
 <h3 id="lesson-accessibility-pairs30" class="unnumbered">Lesson Accessibility (pairs/30)</h3>
 <p>In pairs, choose a lesson whose materials are available online and independently rank it according to the do’s and don’ts in <a href="https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/">these posters</a>. Where did you and your partner agree? Where did you disagree? How well did the lesson do for each of the six categories of user?</p>
@@ -2908,7 +2909,7 @@ for v in values:
 <li><p>the half-page summary of your workshops in the mayor’s annual report to city council that shows how she’s supporting the local tech sector; or</p></li>
 <li><p>the personal satisfaction that volunteers get from teaching.</p></li>
 </ul>
-<p>As with lesson design (Chapter <a href="#s:process" data-reference-type="ref" data-reference="s:process">6</a>), the first steps in marketing are to create personas that describe people who might be interested in what you’re doing and to figure out which of their needs you can meet. One way to summarize the latter is to write a set of <a href="#g:elevator-pitch"><strong>elevator pitches</strong></a> aimed at different personas. A widely-used template for these is:</p>
+<p>As with lesson design (Chapter <a href="#s:process" data-reference-type="ref" data-reference="s:process">6</a>), the first steps in marketing are to create personas of people who might be interested in what you’re doing and to figure out which of their needs you can meet. One way to summarize the latter is to write <a href="#g:elevator-pitch"><strong>elevator pitches</strong></a> aimed at different personas. A widely-used template for these is:</p>
 <table class="table table-striped">
 <tbody>
 <tr class="odd">
@@ -4081,8 +4082,7 @@ Help who you can.</p>
 <li><p>What do you want to know or be able to do after this class that you don’t know or can’t do right now?</p></li>
 </ol>
 <h1 id="s:conceptmaps">Example Concept Maps</h1>
-<h2 id="s:conceptmaps-libraries">Libraries</h2>
-<p>These concept maps were created by Amy Hodge, and are re-used with permission.</p>
+<p>These concept maps were created by Amy Hodge of Stanford University, and are re-used with permission.</p>
 <figure>
 <img src="figures/library-patron-concept-map.svg" id="f:conceptmaps-library-patron" /><figcaption>Library Patron Concept Map<span label="f:conceptmaps-library-patron"></span></figcaption>
 </figure>
@@ -4091,6 +4091,11 @@ Help who you can.</p>
 </figure>
 <figure>
 <img src="figures/library-friends-concept-map.svg" id="f:conceptmaps-library-friends" /><figcaption>Library Friends Concept Map<span label="f:conceptmaps-library-friends"></span></figcaption>
+</figure>
+<h1 id="s:chunking">Chunking Exercise Solution</h1>
+<p>See the last exercise in Chapter <a href="#s:memory" data-reference-type="ref" data-reference="s:memory">3</a> for the unchunked representation of these symbols.</p>
+<figure>
+<img src="figures/chunking-chunked.svg" id="f:chunking-chunked" /><figcaption>Chunked Representation<span label="f:chunking-chunked"></span></figcaption>
 </figure>
 <h1 id="references" class="unnumbered">References</h1>
 <div id="refs" class="references" role="doc-bibliography">
@@ -5214,18 +5219,18 @@ Help who you can.</p>
 
 
 
-<li id="fn49" role="doc-endnote"><p>A more complete model would also include your senses of touch, smell, and taste, but we’ll ignore those for now.<a href="#fnref49" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn49" role="doc-endnote"><p>My thanks to Warren Code for introducing me to this example.<a href="#fnref49" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn50" role="doc-endnote"><p>A more complete model would also include your senses of touch, smell, and taste, but we’ll ignore those for now.<a href="#fnref50" class="footnote-back" role="doc-backlink">↩</a></p></li>
 
 
 
 
 
-<li id="fn55" role="doc-endnote"><p>Named after one of its creators.<a href="#fnref55" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn56" role="doc-endnote"><p>Named after one of its creators.<a href="#fnref56" class="footnote-back" role="doc-backlink">↩</a></p></li>
 
 
 
-<li id="fn59" role="doc-endnote"><p>For a long time, I believed that the variable holding the value a function was going to return <em>had</em> to be called <code>result</code> because my teacher always used that name in examples.<a href="#fnref59" class="footnote-back" role="doc-backlink">↩</a></p></li>
-
+<li id="fn60" role="doc-endnote"><p>For a long time, I believed that the variable holding the value a function was going to return <em>had</em> to be called <code>result</code> because my teacher always used that name in examples.<a href="#fnref60" class="footnote-back" role="doc-backlink">↩</a></p></li>
 
 
 
