@@ -28,6 +28,7 @@ def main():
     text = FIGURE_PAT.sub(r'<img src="figures/\1.svg"', text)
     text = BIB_REF_PAT.sub(replace_ref, text)
     text = BIB_ENTRY_PAT.sub(replace_entry, text)
+    text = fix_footnotes(text)
     sys.stdout.write(text)
 
 
@@ -39,6 +40,21 @@ def replace_entry(entry):
     entry = entry.group(1)
     return f'<div id="ref-{entry}">\n<p><strong>[{entry}]</strong> '
 
+
+def fix_footnotes(text):
+    FOOTNOTE_REF = re.compile(r'<a href="#fn(\d+?)"\s+class="footnote-ref"\s+id="fnref\d+?"\s+role="doc-noteref">')
+    actual = set(FOOTNOTE_REF.findall(text))
+
+    def replace_footnote(match):
+        key, body = match.group(1), match.group(2)
+        result = ''
+        if key in actual:
+            result = f'<li id="fn{key}" role="doc-endnote">{body}</li>'
+        return result
+            
+    FOOTNOTE_DEF = re.compile(r'<li\s+id="fn(\d+?)"\s+role="doc-endnote">(.+?)</li>')
+    text = FOOTNOTE_DEF.sub(replace_footnote, text)
+    return text
 
 if __name__ == '__main__':
     main()
