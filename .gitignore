@@ -28,4 +28,5 @@ __pycache__
 _minted-*
 _site
 book.pdf
+summaries.pdf
 tex/*/all.tex

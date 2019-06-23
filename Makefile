@@ -12,6 +12,7 @@ SRC=${TEX} $(wildcard *.bib) $(wildcard *.cls) $(wildcard *.csl)
 TEX_CHAPTERS=$(filter-out %-settings.tex,${TEX})
 HTML=docs/index.html
 PDF=book.pdf
+SUMMARIES=summaries.pdf
 FIGURES_SRC=$(wildcard figures/*)
 FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
 ASSETS_SRC=$(wildcard assets/*)
@@ -31,7 +32,7 @@ everything : html pdf
 html : ${HTML} ${FIGURES_DST} ${ASSETS_DST} docs/CNAME
 
 ## pdf            : generate PDF from LaTeX source.
-pdf : ${PDF}
+pdf : ${PDF} ${SUMMARIES}
 
 ## once           : force a single run of LaTeX.
 once :
@@ -55,6 +56,11 @@ ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
 	| bin/post-pandoc.py \
 	> ${HTML}
 	rm temp.tex
+
+# Generate chapter summaries.
+${SUMMARIES} : summaries.tex pdf-settings.tex
+	${LATEX} summaries \
+	&& ${LATEX} summaries
 
 # Copy figures.
 docs/figures/% : figures/%
