@@ -34,7 +34,7 @@ some caution is required when interpreting results:
 \begin{description}
 
 \item[Theories change as more data becomes available.]
-  Computing education research (CER) is a young discipline:
+  Computing education research (CER) is a young discipline:\index{computing education research}
   the American Society for Engineering Education was founded in 1893
   and the National Council of Teachers of Mathematics in 1920,
   but the Computer Science Teachers Association didn't exist until 2005.
@@ -46,7 +46,7 @@ some caution is required when interpreting results:
   play a sport,
   or do basic arithmetic.
 
-\item[Most of these studies' subjects are WEIRD:]
+\item[Most of these studies' subjects are WEIRD:]\index{WEIRD}
   they are from Western, education, industrialized, rich, and democratic societies~\cite{Henr2010}.
   What's more,
   they are also mostly young and in institutional classrooms,
@@ -118,7 +118,7 @@ roughly two-thirds of post-secondary students pass their first computing course,
 with some variations depending on class size and so on,
 but with no significant differences over time or based on language~\cite{Benn2007a,Wats2014}.
 
-How does prior experience affect these results?
+How does prior experience affect these results?\index{effect of prior experience}
 To find out,
 \cite{Wilc2018} compared the performance and confidence of novices
 with and without prior programming experience
@@ -147,7 +147,7 @@ so that you can tell if your lessons are becoming more or less effective.
 
 \chapref{s:models} explained why clearing up novices' misconceptions
 is just as important as teaching them strategies for solving problems.
-The biggest misconception novices have---sometimes called the ``superbug'' in coding---is
+The biggest misconception novices have---sometimes called the ``superbug'' in coding---is\index{superbug}
 the belief that computers understand what people mean in the way that another human being would~\cite{Pea1986}.
 Our second recommendation is therefore to \recommendation{teach novices that computers don't understand programs},
 i.e.,
@@ -251,12 +251,12 @@ wasn't nearly as common as most teachers believed.
 The key finding is that experts know both ``what'' and ``how'',
 i.e.,
 they understand what to put into programs
-\emph{and} they have a set of patterns or plans to guide their construction.
+\emph{and} they have a set of program patterns or plans to guide their construction.\index{program patterns}
 Novices lack both,
 but most teachers focus solely on the former,
 even though bugs are often caused by not having a strategy for solving the problem
 rather than to lack of knowledge about the language.
-Recent work has shown the effectiveness of teaching four distinct skills in a specific order:
+Recent work has shown the effectiveness of teaching four distinct skills in a specific order~\cite{Xie2019}:
 
 \begin{longtable}{lll}
 		        & \textbf{semantics of code}   		& \textbf{templates related to goals} \\
@@ -269,7 +269,7 @@ to \recommendation{have learners read code, then modify it, then write it},
 and to \recommendation{introduce common patterns explicitly and have learners practice using them}.
 \cite{Mull2007b} is just one of many studies proving the benefits of teaching common patterns explicitly,
 and decomposing problems into patterns creates natural opportunities
-for creating and naming subgoals~\cite{Marg2012,Marg2016}.
+for creating and labelling subgoals~\cite{Marg2012,Marg2016}.\index{labelled subgoals}
 
 \seclbl{How Do Novices Debug?}{s:pck-debug}
 
@@ -279,7 +279,7 @@ A decade ago,
 in most introductory programming textbooks.''
 Little has changed since:
 there are hundreds of books on compilers and operating systems,
-but only a handful about debugging,
+but only a handful about debugging,\index{debugging}
 and I have never seen an undergraduate course devoted to the subject.
 
 \cite{List2004,List2009} found that many novices struggled to predict the output of short pieces of code
@@ -297,7 +297,8 @@ traced execution by hand,
 wrote tests,
 and re-read the spec frequently,
 which are all teachable habits.
-However, tracing execution step by step was sometimes used ineffectively:
+However,
+tracing execution step by step was sometimes used ineffectively:
 for example,
 a novice might put the same \texttt{print} statement in both parts of an \texttt{if}-\texttt{else}.
 Novices would also comment out lines that were actually correct as they tried to isolate a problem;
@@ -329,9 +330,11 @@ Teachers or learners can also trace changes to variables as they go along,
 which \cite{Cunn2017} found was effective (\secref{s:exercises-tracing}).
 
 \seclbl{What About Testing?}{s:pck-testing}
+\index{testing (software)}
 
 Novice programmers seem just as reluctant to test software as professionals.
-There's no doubt that doing it valuable---\cite{Cart2017} found that high-performing novices spent a lot of time testing,
+There's no doubt that doing it valuable---\cite{Cart2017} found that
+high-performing novices spent a lot of time testing,
 while low performers spent much more time working on code with errors---and many teachers
 require learners to write tests for assignments.
 But how well do they do this?
@@ -360,10 +363,11 @@ and then decide whether you're teaching what you believe people should do,
 or what they (and you) actually do.
 
 \seclbl{Do Languages Matter?}{s:pck-language}
+\index{blocks-based programming}
 
 The short answer is ``yes'':
 novices learn to program faster and learn more
-using blocks-based tools like Scratch (\figref{f:pck-scratch})~\cite{Wein2017}.
+using blocks-based tools like Scratch (\figref{f:pck-scratch})~\cite{Wein2017}.\index{Scratch}
 One reason is that blocks-based systems reduce cognitive load by eliminating the possibility of syntax errors.
 Another is that block interfaces encourage exploration in a way that text does not:
 like all good tools,
@@ -414,9 +418,10 @@ the differences become larger.
 \end{aside}
 
 \subsection*{Object-Oriented Programming}
+\index{object-oriented programming}
 
 Objects and classes are power tools for experienced programmers,
-and many educators advocate an ``objects first'' approach to teaching programming
+and many educators advocate an \gref{g:objects-first}{objects first} approach to teaching programming
 (though they sometimes disagree on exactly what that means~\cite{Benn2007b}).
 \cite{Sorv2014} describes and motivates this approach,
 and~\cite{Koll2015} describes three generations of tools
@@ -437,6 +442,7 @@ that learners not be taught how to define classes
 until they understand basic control structures and data types.
 
 \subsection*{Type Declarations}
+\index{type declarations}
 
 Programmers have argued for decades about whether variables' data types should have to be declared or not,
 usually based on their personal experience as professionals
@@ -445,7 +451,8 @@ rather than on any kind of data.
 but it pays off fairly quickly by acting as documentation for a method's use---in particular,
 by forestalling questions about what's available and how to use it.
 
-\subsection*{Variable Naming Style}
+\subsection*{Variable Naming}
+\index{variable naming}
 
 \cite{Kern1999} wrote,
 ``Programmers are often encouraged to use long variable names regardless of context.
@@ -477,6 +484,7 @@ our full recommendation is to
 \recommendation{use tools to ensure that all code examples adhere to a consistent style}.
 
 \seclbl{Do Better Error Messages Help?}{s:pck-error}
+\index{error messages}
 
 Incomprehensible error messages are a major source of frustration for novices
 (and for experienced programmers as well).
@@ -515,6 +523,7 @@ Teachers should therefore
 \cite{Marc2011} has a rubric for responses to error messages that can be useful in grading such exercises.
 
 \subsection*{Does Visualization Help?}
+\index{program visualization}
 
 Visualizing program execution is a perennially popular idea,
 and tools like the Online Python Tutor~\cite{Guo2013}
@@ -538,7 +547,7 @@ The answer is no:
 there was no correlation between the time taken and the score achieved.
 Our recommendation is therefore to \recommendation{teach learners to trace variables' values when debugging}.
 
-\begin{aside}{Flowcharts}
+\begin{aside}{Flowcharts}\index{flowcharts}
   One often-overlooked finding about visualization is that
   people understand flowcharts better than pseudocode \emph{if both are equally well structured}~\cite{Scan1989}.
   Earlier work showing that pseudocode outperformed flowcharts used structured pseudocode and tangled flowcharts;
@@ -630,7 +639,7 @@ Most of the research reported in this chapter was publicly funded
 but is locked away behind paywalls:
 at a guess,
 I broke the law 250 times to download papers from sites like \hreffoot{https://en.wikipedia.org/wiki/Sci-Hub}{Sci-Hub}
-while writing this book.
+while writing this book.\index{illegal downloading (mine)}
 I hope the day is coming when no one will need to do that;
 if you are a researcher,
 please hasten that day by publishing your work in open access venues.
