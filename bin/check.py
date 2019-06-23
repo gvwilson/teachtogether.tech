@@ -32,8 +32,8 @@ def parse_args(args):
 
 
 def check_gloss(files):
-    GLOSS_DEF = re.compile(r'\\gitem{(.+?)}{.+?}', re.DOTALL + re.MULTILINE)
-    GLOSS_USE = re.compile(r'\\gref{(.+?)}{.+?}', re.DOTALL + re.MULTILINE)
+    GLOSS_DEF = re.compile(r'\\gitem{(.+?)}', re.DOTALL + re.MULTILINE)
+    GLOSS_USE = re.compile(r'\\gref[^}]*?{(.+?)}', re.DOTALL + re.MULTILINE)
     defined = find_all(GLOSS_DEF, files)
     used = find_all(GLOSS_USE, files)
     report('Glossary', 'missing', used - defined)

@@ -11,14 +11,14 @@ and how we can leverage that to design and deliver lessons more effectively.
 
 \figpdf{figures/cognitive-architecture.pdf}{Cognitive Architecture}{f:arch-model}
 
-\figref{f:arch-model} is a simplified model of human cognitive architecture.
+\figref{f:arch-model} is a simplified model of human cognitive architecture.\index{cognitive architecture}
 The core of this model is
 the separation between short-term and long-term memory discussed in \secref{s:memory-seven-plus-or-minus}.
-Long-term memory is like your basement:
+Long-term memory is like your basement:\index{long-term memory}
 it stores things more or less permanently,
 but you can't access its contents directly.
 Instead,
-you rely on your short-term memory,
+you rely on your short-term memory,\index{short-term memory}
 which is the cluttered kitchen table of your mind.
 
 When you need something,
@@ -29,10 +29,13 @@ has to be encoded to be stored in long-term memory.
 If that information isn't encoded and stored,
 it's not remembered and learning hasn't taken place.
 
-Information gets into short-term memory primarily through your verbal channel (for speech)
-and visual channel (for images)\footnote{A more complete model
-would also include your senses of touch, smell, and taste,
-but we'll ignore those for now.}.
+Information gets into short-term memory primarily through
+your verbal channel (for speech)\index{channel!verbal}
+and visual channel\index{channel!visual}
+(for images)\footnote{
+  A more complete model
+  would also include your senses of touch, smell, and taste,
+  but we'll ignore those for now.}.
 Most people rely primarily on their visual channel,
 but when images and words complement each other,
 the brain does a better job of remembering them both:
@@ -70,7 +73,7 @@ outweighs the extra processing effort.
 
 The split-attention effect does \emph{not} mean
 that learners shouldn't try to reconcile multiple incoming streams of information---after all,
-this is something they have to do in the real world~\cite{Atki2000}.
+this is what they have to do in the real world~\cite{Atki2000}.
 Instead,
 it means that instruction shouldn't require people to do it
 while they are first mastering unit skills;
@@ -78,11 +81,11 @@ instead,
 using multiple sources of information simultaneously should be treated as a separate learning task.
 
 \begin{aside}{Not All Graphics Are Created Equal}
-  \cite{Sung2012} presents an elegant study that distinguishes \emph{seductive} graphics
+  \cite{Sung2012} presents an elegant study that distinguishes \emph{seductive} graphics\index{graphics!seductive}
   (which are highly interesting but not directly relevant to the instructional goal),
-  \emph{decorative} graphics
+  \emph{decorative} graphics\index{graphics!decorative}
   (which are neutral but not directly relevant to the instructional goal),
-  and \emph{instructive} graphics
+  and \emph{instructive} graphics\index{graphics!instructive}
   (which are directly relevant to the instructional goal).
   Learners who received any kind of graphic gave material higher satisfaction ratings
   than those who didn't get graphics,
@@ -132,26 +135,27 @@ and its problem-solving strategies
 at the same time.
 
 More specifically,
-\gref{g:cognitive-load-theory}{cognitive load theory} proposed that
+\gref{g:cognitive-load}{cognitive load theory} proposed that
 people have to deal with three things when they're learning:
 
 \begin{description}
 
-\item[Intrinsic load]
+\item[\grefdex{g:intrinsic-load}{Intrinsic load}{cognitive load!intrinsic}]
   is what people have to keep in mind in order to absorb new material.
 
-\item[Germane load]
+\item[\grefdex{g:germane-load}{Germane Load}{cognitive load!germane}]
   is the (desirable) mental effort required to link new information to old,
   which is one of the things that distinguishes learning from memorization.
 
-\item[Extraneous load]
+\item[\grefdex{g:extraneous-load}{Extraneous Load}{cognitive load!extraneous}]
   is anything that distracts from learning.
 
 \end{description}
 
-Cognitive load theory holds that people have to split a fixed amount of working memory between these three things.
-Our goal as teachers is to maximize the memory available to handle germane load,
-which means reducing the intrinsic load at each step and eliminating the extraneous load.
+Cognitive load theory holds that
+people have to divide a fixed amount of working memory between these three things.
+Our goal as teachers is to maximize the memory available to handle intrinsic load,
+which means reducing the germane load at each step and eliminating the extraneous load.
 
 \subsection*{Parsons Problems}
 
@@ -257,7 +261,8 @@ define total_length(list_of_words):
 \end{minted}
 
 \noindent
-and then ask them to fill in the blanks in this (which focuses their attention on control structures):
+and then ask them to fill in the blanks in this
+(which focuses their attention on control structures):
 
 \begin{minted}{text}
 # word_lengths(["red", "green", "blue"]) => [3, 5, 4]
@@ -268,7 +273,8 @@ define word_lengths(list_of_words):
     return list_of_lengths
 \end{minted}
 
-The next problem might be this (which focuses their attention on updating the final result):
+The next problem might be this
+(which focuses their attention on updating the final result):
 
 \begin{minted}{text}
 # join_all(["red", "green", "blue"]) => "redgreenblue"
@@ -298,7 +304,7 @@ which helps create the linkages in their mental models that help retrieval.
 The key to constructing a good faded example is
 to think about the problem-solving strategy it is meant to teach.
 For example,
-the series of problems are all examples of the \emph{accumulator pattern},
+the programming problems above all use the accumulator design pattern,
 in which the results of processing items from a collection
 are repeatedly added to a single variable in some way to create the final result.
 
@@ -316,8 +322,10 @@ are repeatedly added to a single variable in some way to create the final result
   This model tells us that
   teachers should present several examples when presenting a new idea
   so that learners can see what to generalize,
-  and that we should vary the form of the problem to make it clear what are and aren't superficial features\footnote{For a long time,
-    I believed that the variable holding the value a function was going to return \emph{had} to be called \texttt{result}
+  and that we should vary the form of the problem to make it clear
+  what are and aren't superficial features\footnote{For a long time,
+    I believed that the variable holding the value a function was going to return
+    \emph{had} to be called \texttt{result}
     because my teacher always used that name in examples.}.
   Problems should be presented in real-world contexts,
   and we should encourage self-explanation to help learners organize and make sense of what they have just been taught
@@ -328,8 +336,9 @@ are repeatedly added to a single variable in some way to create the final result
 
 \grefdex{g:subgoal-labelling}{Labelling subgoals}{labelled subgoals} means
 giving names to the steps in a step-by-step description of a problem-solving process.
-\cite{Marg2016,Morr2016} found that learners with labelled subgoals solved Parsons Problems better than learners without,
-and the same benefit is seen in other problem domains~\cite{Marg2012}.
+\cite{Marg2016,Morr2016} found that learners with labelled subgoals
+solved Parsons Problems better than learners without,
+and the same benefit is seen in other domains~\cite{Marg2012}.
 Returning to the Python example used earlier,
 the subgoals in finding the total length of a list of words or constructing an acronym are:
 
@@ -346,7 +355,7 @@ the subgoals in finding the total length of a list of words or constructing an a
 
 \end{enumerate}
 
-Labelling subgoals works because grouping related steps into named chunks (\secref{s:memory-seven-plus-or-minus})
+Labelling subgoals works because grouping related steps into named chunks (\secref{s:memory-seven-plus-or-minus})\index{chunking}
 helps learners distinguish what's generic from what is specific to the problem at hand.
 It also helps them build a mental model of that kind of problem
 so that they can solve other problems of that kind,
@@ -354,7 +363,8 @@ and gives them a natural opportunity for self-explanation (\secref{s:individual-
 
 \subsection*{Minimal Manuals}
 
-The purest application of cognitive load theory may be John Carroll's ``minimal manual''~\cite{Carr1987,Carr2014}.
+The purest application of cognitive load theory may be John Carroll's\index{Carroll, John}
+\gref{g:minimal-manual}{minimal manual}~\cite{Carr1987,Carr2014}.
 Its starting point is a quote from a user:
 ``I want to do something, not learn how to do everything.''
 Carroll and colleagues redesigned training to present every idea as a single-page self-contained task:
@@ -384,7 +394,7 @@ regardless of prior experience with computers~\cite{Lazo1993}.
 
 \seclbl{Other Models of Learning}{s:architecture-theory}
 
-Critics of cognitive load theory have sometimes argued that
+Critics of cognitive load theory have sometimes argued that\index{cognitive load!criticism of}
 any result can be justified after the fact by labelling things that hurt performance as extraneous load
 and things that don't as intrinsic or germane.
 However,
