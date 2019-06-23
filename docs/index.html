@@ -338,7 +338,7 @@ and build a teaching community around them</p>
 <p>The cognitive differences between novices and competent practitioners underpin the differences between two kinds of teaching materials. A <a href="#g:tutorial"><strong>tutorial</strong></a> helps newcomers to a field build a mental model; a <a href="#g:manual"><strong>manual</strong></a>, on the other hand, helps competent practitioners fill in the gaps in their knowledge. Tutorials frustrate competent practitioners because they move too slowly and say things that are obvious (though they are anything <em>but</em> obvious to novices). Equally, manuals frustrate novices because they use jargon and <em>don’t</em> explain things. This phenomenon is called the <a href="#g:expertise-reversal"><strong>expertise reversal effect</strong></a> [<a class="cite" href="#ref-Kaly2003">Kaly2003</a>], and is one of the reasons you have to decide early on who your lessons are for.</p>
 <blockquote>
 <h4 id="a-handful-of-exceptions" class="unnumbered">A Handful of Exceptions</h4>
-<p>One of the reasons Unix and C became popular is that Kernighan et al’s trilogy [<a class="cite" href="#ref-Kern1978">Kern1978</a>,<a class="cite" href="#ref-Kern1983">Kern1983</a>,<a class="cite" href="#ref-Kern1988">Kern1988</a>] somehow managed to be good tutorials <em>and</em> good manuals at the same time.[<a class="cite" href="#ref-Fehi2008">Fehi2008</a>] and [<a class="cite" href="#ref-Ray2014">Ray2014</a>] are among the very few other books in computing that achieve this; even after re-reading them several times, I don’t know how they pull it off.</p>
+<p>One of the reasons Unix and C became popular is that[<a class="cite" href="#ref-Kern1978">Kern1978</a>,<a class="cite" href="#ref-Kern1983">Kern1983</a>,<a class="cite" href="#ref-Kern1988">Kern1988</a>] somehow managed to be good tutorials <em>and</em> good manuals at the same time.[<a class="cite" href="#ref-Fehi2008">Fehi2008</a>] and [<a class="cite" href="#ref-Ray2014">Ray2014</a>] are among the very few other books in computing that achieve this; even after re-reading them several times, I don’t know how they pull it off.</p>
 </blockquote>
 <h2 id="s:models-formative-assessment">Are People Learning?</h2>
 <p>Mark Twain once wrote, “It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so.” One of the exercises in building a mental model is therefore to clear away things that <em>don’t</em> belong. Broadly speaking, novices’ misconceptions fall into three categories:</p>
@@ -385,7 +385,7 @@ d) 43</p>
 <p>Formative assessments can also be used <em>before</em> lessons. If you start a class with an MCQ and everyone answers it correctly, you can avoid explaining something that your learners already know. This kind of <a href="#g:active-teaching"><strong>active teaching</strong></a> gives you more time to focus on things they don’t know. It also shows learners that you respect their time enough not to waste it, which helps with motivation (Chapter <a href="#s:motivation" data-reference-type="ref" data-reference="s:motivation">10</a>).</p>
 <blockquote>
 <h4 id="concept-inventories" class="unnumbered">Concept Inventories</h4>
-<p>Given enough data, MCQs can be made surprisingly precise. The best-known example is the Force Concept Inventory [<a class="cite" href="#ref-Hest1992">Hest1992</a>], which assesses understanding of basic Newtonian mechanics. By interviewing a large number of respondents, correlating their misconceptions with patterns of right and wrong answers, and then improving the questions, its creators constructed a diagnostic tool that can pinpoint specific misconceptions. Researchers can then use that tool to measure the effect of changes in teaching methods [<a class="cite" href="#ref-Hake1998">Hake1998</a>].</p>
+<p>Given enough data, MCQs can be made surprisingly precise. The best-known example is the  [<a class="cite" href="#ref-Hest1992">Hest1992</a>], which assesses understanding of basic Newtonian mechanics. By interviewing a large number of respondents, correlating their misconceptions with patterns of right and wrong answers, and then improving the questions, its creators constructed a diagnostic tool that can pinpoint specific misconceptions. Researchers can then use that tool to measure the effect of changes in teaching methods [<a class="cite" href="#ref-Hake1998">Hake1998</a>].</p>
 <p>Tew and others developed and validated a language-independent assessment for introductory programming [<a class="cite" href="#ref-Tew2011">Tew2011</a>];[<a class="cite" href="#ref-Park2016">Park2016</a>] replicated it, and [<a class="cite" href="#ref-Hamo2017">Hamo2017</a>] is developing a concept inventory for recursion. However, it’s very costly to build tools like this, and learners’ ability to search for answers online is an ever-increasing threat to their validity.</p>
 </blockquote>
 <p>Working formative assessments into class only requires a little bit of preparation and practice. Giving learners colored or numbered cards so that they can all answer an MCQ at once (rather than holding up their hands in turn), having one of the options be, “I have no idea”, and encouraging them to talk to their neighbors for a few seconds before answering will all help ensure that your teaching flow isn’t disrupted. Section <a href="#s:classroom-peer" data-reference-type="ref" data-reference="s:classroom-peer">9.2</a> describes a powerful, evidence-based teaching method that builds on these simple ideas.</p>
@@ -414,9 +414,9 @@ d) 43</p>
 <li><p>When a function is called, Python pushes a new stack frame onto the call stack.</p></li>
 <li><p>Each stack frame stores variables’ names and references to data. Function parameters are just another kind of variable.</p></li>
 <li><p>When a variable is used, Python looks for it in the top stack frame. If it isn’t there, it looks in the bottom (global) frame.</p></li>
-<li><p>When the function finishes, Python erases its stack frame and jumps backs to the instructions it was executing before the function call. If there isn’t a “before, the program has finished.</p></li>
+<li><p>When the function finishes, Python erases its stack frame and jumps backs to the instructions it was executing before the function call. If there isn’t a “before”, the program has finished.</p></li>
 </ol>
-<p>I return to this cartoon version of reality repeatedly when I teach Python. After about 25 hours of instructions and 100 hours of work on their own time, I expect most learners to have a mental model that includes most or all of these features.</p>
+<p>I use this cartoon version of reality whenever I teach Python. After about 25 hours of instructions and 100 hours of work on their own time, I expect most learners to have a mental model that includes most or all of these features.</p>
 <h2 id="s:models-exercises">Exercises</h2>
 <h3 id="your-mental-models-think-pair-share15" class="unnumbered">Your Mental Models (think-pair-share/15)</h3>
 <p>What is one mental model you use to understand your work? Write a few sentences describing it and give feedback on a partner’s. Once you have done that, have a few people share their models with the whole group. Does everyone agree on what a mental model is? Is it possible to give a precise definition, or is the concept useful precisely because it is fuzzy?</p>
@@ -489,7 +489,7 @@ d) 43</p>
 <p>Expertise is more than just knowing more facts: competent practitioners can memorize a lot of trivia without noticeably improving their performance. Instead, imagine for a moment that we store knowledge as a network or graph in which facts are nodes and relationships are arcs<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. The key difference between experts and competent practitioners is that experts’ mental models are much more densely connected, i.e., they are more likely to know a connection between any two facts.</p>
 <p>The graph metaphor explains why helping learners make connections is as important as introducing them to facts: without those connections, people can’t recall and use what they know. It also explains many observed aspects of expert behavior:</p>
 <ul>
-<li><p>Experts can often jump directly from a problem to a solution because there actually is a direct link between the two in their mind. Where a competent practitioner would have to reason <span class="math inline"><em>A</em> → <em>B</em> → <em>C</em> → <em>D</em> → <em>E</em></span>, an expert can go from <span class="math inline"><em>A</em></span> to <span class="math inline"><em>E</em></span> in a single step. We call this <em>intuition</em>: instead of reasoning their way to a solution, the expert recognizes a solution in the same way that they would recognize a familiar face.</p></li>
+<li><p>Experts can often jump directly from a problem to a solution because there actually is a direct link between the two in their mind. Where a competent practitioner would have to reason <span class="math inline"><em>A</em> → <em>B</em> → <em>C</em> → <em>D</em> → <em>E</em></span>, an expert can go from <span class="math inline"><em>A</em></span> to <span class="math inline"><em>E</em></span> in a single step. We call this <a href="#g:intuition"><strong>intuition</strong></a>: instead of reasoning their way to a solution, the expert recognizes a solution in the same way that they would recognize a familiar face.</p></li>
 <li><p>Densely-connected graphs are also the basis for experts’ , i.e., their ability to switch back and forth between different views of a problem [<a class="cite" href="#ref-Petr2016">Petr2016</a>]. For example, when trying to solve a problem in mathematics, an expert might switch between tackling it geometrically and representing it as a set of equations.</p></li>
 <li><p>This metaphor also explains why experts are better at diagnosis than competent practitioners: more linkages between facts makes it easier to reason backward from symptoms to causes. (This in turn is why asking programmers to debug during job interviews gives a more accurate impression of their ability than asking them to program.)</p></li>
 <li><p>Finally, experts are often so familiar with their subject that they can no longer imagine what it’s like to <em>not</em> see the world that way. This means they are often less good at teaching the subject than people with less expertise who still remember learning it themselves.</p></li>
@@ -500,7 +500,7 @@ d) 43</p>
 <p>Experts often betray their blind spot by using the word “just”, as in, “Oh, it’s easy, you just fire up a new virtual machine and then you just install these four patches to Ubuntu and then you just re-write your entire program in a pure functional language.” As we discuss in Chapter <a href="#s:motivation" data-reference-type="ref" data-reference="s:motivation">10</a>, doing this signals that the speaker thinks the problem is trivial and that the person struggling with it must therefore be stupid, so don’t do this.</p>
 </blockquote>
 <h2 id="s:memory-concept-maps">Concept Maps</h2>
-<p>Our tool of choice for representing someone’s mental model is a <a href="#g:concept-map"><strong>concept map</strong></a> in which facts are bubbles and connections are labelled connections. As examples, Figure <a href="#f:memory-seasons" data-reference-type="ref" data-reference="f:memory-seasons">3.1</a> shows why the Earth has seasons (from <a href="https://cmap.ihmc.us/">IHMC</a>), and Appendix <a href="#s:conceptmaps" data-reference-type="ref" data-reference="s:conceptmaps">22</a> presents concept maps for several key ideas in this book.</p>
+<p>Our tool of choice for representing someone’s mental model is a <a href="#g:concept-map"><strong>concept map</strong></a> in which facts are bubbles and connections are labelled connections. As examples, Figure <a href="#f:memory-seasons" data-reference-type="ref" data-reference="f:memory-seasons">3.1</a> shows why the Earth has seasons (from <a href="https://cmap.ihmc.us/">IHMC</a>), and Appendix <a href="#s:conceptmaps" data-reference-type="ref" data-reference="s:conceptmaps">22</a> presents concept maps for libraries from three points of view.</p>
 <figure>
 <img src="figures/seasons.svg" id="f:memory-seasons" /><figcaption>Concept Map for Seasons<span label="f:memory-seasons"></span></figcaption>
 </figure>
@@ -511,7 +511,7 @@ d) 43</p>
 <pre class="text"><code>a
 b
 c</code></pre>
-<p>The three key “things” in this loop are shown in the top of Figure <a href="#f:memory-loop" data-reference-type="ref" data-reference="f:memory-loop">3.2</a>, but they are only half the story. The expanded version in the bottom shows the <em>relationships</em> between those things, which are as important for understanding as the concepts themselves.</p>
+<p>The three key “things” in this loop are shown in the top of Figure <a href="#f:memory-loop" data-reference-type="ref" data-reference="f:memory-loop">3.2</a>, but they are only half the story. The expanded version in the bottom shows the relationships between those things, which are as important for understanding as the concepts themselves.</p>
 <figure>
 <img src="figures/for-loop.svg" id="f:memory-loop" /><figcaption>Concept Map for a For Loop<span label="f:memory-loop"></span></figcaption>
 </figure>
@@ -556,7 +556,7 @@ c</code></pre>
 <h4 id="building-concept-maps-together" class="unnumbered">Building Concept Maps Together</h4>
 <p>The next time you have a team meeting, give everyone a sheet of paper and have them spend a few minutes drawing their own concept map of the project you’re all working on. On the count of three, have everyone reveal their concept maps to their group. The discussion that follows may help people understand why they’ve been tripping over each other.</p>
 </blockquote>
-<p>The simple model of memory presented here has largely been replaced by a more sophisticated one in which short-term memory is broken down into several modal stores (e.g., for visual vs. linguistic memory), each of which does some involuntary preprocessing [<a class="cite" href="#ref-Mill2016a">Mill2016a</a>]. Our presentation is therefore an example of a mental model that aids learning and everyday work.</p>
+<p>Note that the simple model of memory presented here has largely been replaced by a more sophisticated one in which short-term memory is broken down into several modal stores (e.g., for visual vs. linguistic memory), each of which does some involuntary preprocessing [<a class="cite" href="#ref-Mill2016a">Mill2016a</a>]. Our presentation is therefore an example of a mental model that aids learning and everyday work.</p>
 <h3 id="pattern-recognition" class="unnumbered">Pattern Recognition</h3>
 <p>Recent research suggests that the actual size of short-term memory might be as low as 4±1 items [<a class="cite" href="#ref-Dida2016">Dida2016</a>]. In order to handle larger sets of information, our minds create . For example, most of us remember words as single items rather than as sequences of letters. Similarly, the pattern made by five spots on cards or dice is remembered as a whole rather than as five separate pieces of information.</p>
 <p>Experts have more and larger chunks than non-experts, i.e., experts “see” larger patterns and have more patterns to match things against. This allows them to reason at a higher level and to search for information more quickly and more accurately. However, chunking can also mislead us if we mis-identify things: newcomers really can sometimes see things that experts have looked at and missed.</p>
@@ -586,10 +586,7 @@ c</code></pre>
 <h3 id="enhancing-short-term-memory-individual5-minutes" class="unnumbered">Enhancing Short-Term Memory (individual/5 minutes)</h3>
 <p>[<a class="cite" href="#ref-Cher2007">Cher2007</a>] suggests that the main reason people draw diagrams when they are discussing things is to enlarge their short-term memory: pointing at a wiggly bubble drawn a few minutes ago triggers recall of several minutes of debate. When you exchanged concept maps in the previous exercise, how easy was it for other people to understand what your map meant? How easy would it be for you if you set it aside for a day or two and then looked at it again?</p>
 <h3 id="thats-a-bit-self-referential-isnt-it-whole-class30" class="unnumbered">That’s a Bit Self-Referential, Isn’t It? (whole class/30)</h3>
-<ol>
-<li><p>Working independently, draw a concept map for concept maps.</p></li>
-<li><p>Compare your concept map with those drawn by other people. What did most people include? What were the significant differences?</p></li>
-</ol>
+<p>Working independently, draw a concept map for concept maps. Compare your concept map with those drawn by other people. What did most people include? What were the significant differences?</p>
 <h3 id="noticing-your-blind-spot-small-groups10" class="unnumbered">Noticing Your Blind Spot (small groups/10)</h3>
 <p>Elizabeth Wickes listed <a href="https://twitter.com/elliewix/status/981285432922202113">all the things you need to understand</a> in order to read this one line of Python:</p>
 <pre class="text"><code>answers = [&#39;tuatara&#39;, &#39;tuataras&#39;, &#39;bus&#39;, &quot;lick&quot;]</code></pre>
@@ -602,7 +599,7 @@ c</code></pre>
 </ul>
 <p>Each of these details might be overlooked by an expert. Working in groups of 3–4, select something equally short from a lesson you have recently taught or learned and break it down to this level of detail.</p>
 <h3 id="what-to-teach-next-individual5" class="unnumbered">What to Teach Next (individual/5)</h3>
-<p>Refer back to the concept map for photosynthesis in Figure <a href="#f:memory-photosynthesis" data-reference-type="ref" data-reference="f:memory-photosynthesis">3.3</a>. How many concepts and links are in the selected chunk? What would you include in the next chunk of the lesson and why?</p>
+<p>Refer back to the concept map for photosynthesis in Figure <a href="#f:memory-photosynthesis" data-reference-type="ref" data-reference="f:memory-photosynthesis">3.3</a>. How many concepts and links are in the selected chunks? What would you include in the next chunk of the lesson and why?</p>
 <h3 id="the-power-of-chunking-individual5" class="unnumbered">The Power of Chunking (individual/5)</h3>
 <p>Look at Figure <a href="#f:memory-unchunked" data-reference-type="ref" data-reference="f:memory-unchunked">3.4</a> for 10 seconds, then look away and try to write out your phone number with these symbols<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. (Use a space for ’0’.) When you are finished, look at the alternative representation in Appendix <a href="#s:chunking" data-reference-type="ref" data-reference="s:chunking">23</a>. How much easier are the symbols to remember when the pattern is made explicit?</p>
 <figure>
@@ -623,7 +620,7 @@ c</code></pre>
 <h4 id="piece-by-piece" class="unnumbered">Piece by Piece</h4>
 <p>The split attention effect explains why it’s more effective to draw a diagram piece by piece while teaching than to present the whole thing at once. If parts of the diagram appear at the same time as things are being said, the two will be correlated in the learner’s memory. Pointing at part of the diagram later is then more likely to trigger recall of what was being said when that part was being drawn.</p>
 </blockquote>
-<p>The split-attention effect does <em>not</em> mean that learners shouldn’t try to reconcile multiple incoming streams of information—after all, this is something they have to do in the real world [<a class="cite" href="#ref-Atki2000">Atki2000</a>]. Instead, it means that instruction shouldn’t require people to do it while they are first mastering unit skills; instead, using multiple sources of information simultaneously should be treated as a separate learning task.</p>
+<p>The split-attention effect does <em>not</em> mean that learners shouldn’t try to reconcile multiple incoming streams of information—after all, this is what they have to do in the real world [<a class="cite" href="#ref-Atki2000">Atki2000</a>]. Instead, it means that instruction shouldn’t require people to do it while they are first mastering unit skills; instead, using multiple sources of information simultaneously should be treated as a separate learning task.</p>
 <blockquote>
 <h4 id="not-all-graphics-are-created-equal" class="unnumbered">Not All Graphics Are Created Equal</h4>
 <p>[<a class="cite" href="#ref-Sung2012">Sung2012</a>] presents an elegant study that distinguishes <em>seductive</em> graphics (which are highly interesting but not directly relevant to the instructional goal), <em>decorative</em> graphics (which are neutral but not directly relevant to the instructional goal), and <em>instructive</em> graphics (which are directly relevant to the instructional goal). Learners who received any kind of graphic gave material higher satisfaction ratings than those who didn’t get graphics, but only learners who got instructive graphics actually performed better.</p>
@@ -635,19 +632,19 @@ c</code></pre>
 <p>Although unguided or minimally guided instructional approaches are very popular and intuitively appealing<span>…</span>these approaches ignore both the structures that constitute human cognitive architecture and evidence from empirical studies over the past half-century that consistently indicate that minimally guided instruction is less effective and less efficient than instructional approaches that place a strong emphasis on guidance of the student learning process. The advantage of guidance begins to recede only when learners have sufficiently high prior knowledge to provide “internal” guidance.</p>
 </blockquote>
 <p>Beneath the jargon, the authors were claiming that having learners ask their own questions, set their own goals, and find their own path through a subject is less effective than showing them how to do things step by step. The “choose your own adventure” approach is known as <a href="#g:inquiry-based-learning"><strong>inquiry-based learning</strong></a>, and is intuitively appealing: after all, who would argue <em>against</em> having learners use their own initiative to solve real-world problems in realistic ways? However, asking learners to do this in a new domain overloads them by requiring them to master a domain’s factual content and its problem-solving strategies at the same time.</p>
-<p>More specifically, <a href="#g:cognitive-load-theory"><strong>cognitive load theory</strong></a> proposed that people have to deal with three things when they’re learning:</p>
+<p>More specifically, <a href="#g:cognitive-load"><strong>cognitive load theory</strong></a> proposed that people have to deal with three things when they’re learning:</p>
 <dl>
-<dt>Intrinsic load</dt>
+<dt></dt>
 <dd><p>is what people have to keep in mind in order to absorb new material.</p>
 </dd>
-<dt>Germane load</dt>
+<dt></dt>
 <dd><p>is the (desirable) mental effort required to link new information to old, which is one of the things that distinguishes learning from memorization.</p>
 </dd>
-<dt>Extraneous load</dt>
+<dt></dt>
 <dd><p>is anything that distracts from learning.</p>
 </dd>
 </dl>
-<p>Cognitive load theory holds that people have to split a fixed amount of working memory between these three things. Our goal as teachers is to maximize the memory available to handle germane load, which means reducing the intrinsic load at each step and eliminating the extraneous load.</p>
+<p>Cognitive load theory holds that people have to divide a fixed amount of working memory between these three things. Our goal as teachers is to maximize the memory available to handle intrinsic load, which means reducing the germane load at each step and eliminating the extraneous load.</p>
 <h3 id="parsons-problems" class="unnumbered">Parsons Problems</h3>
 <p>One kind of exercise that can be explained in terms of cognitive load is often used when teaching languages. Suppose you ask someone to translate the sentence, “How is her knee today?” into Frisian. To solve the problem, they need to recall both vocabulary and grammar, which is a double cognitive load. If you ask them to put “hoe”, “har”, “is”, “hjoed”, and “knie” in the right order, on the other hand, you are allowing them to focus solely on learning grammar. If you write these words in five different fonts or colors, though, you have increased the extraneous cognitive load, because they will involuntarily (and possibly unconsciously) expend some effort trying to figure out if the differences are meaningful (Figure <a href="#f:architecture-frisian" data-reference-type="ref" data-reference="f:architecture-frisian">4.2</a>).</p>
 <figure>
@@ -796,14 +793,14 @@ define join_all(list_of_words):
 define make_acronym(list_of_words):
     ____</code></pre>
 <p>Faded examples work because they introduce the problem-solving strategy piece by piece: at each step, learners have one new problem to tackle, which is less intimidating than a blank screen or a blank sheet of paper (Section <a href="#s:classroom-practices" data-reference-type="ref" data-reference="s:classroom-practices">9.11</a>). It also encourages learners to think about the similarities and differences between various approaches, which helps create the linkages in their mental models that help retrieval.</p>
-<p>The key to constructing a good faded example is to think about the problem-solving strategy it is meant to teach. For example, the series of problems are all examples of the <em>accumulator pattern</em>, in which the results of processing items from a collection are repeatedly added to a single variable in some way to create the final result.</p>
+<p>The key to constructing a good faded example is to think about the problem-solving strategy it is meant to teach. For example, the programming problems above all use the accumulator design pattern, in which the results of processing items from a collection are repeatedly added to a single variable in some way to create the final result.</p>
 <blockquote>
 <h4 id="cognitive-apprenticeship" class="unnumbered">Cognitive Apprenticeship</h4>
 <p>An alternative model of learning and instruction that also uses scaffolding and fading is <a href="#g:cognitive-apprenticeship"><strong>cognitive apprenticeship</strong></a>, which emphasizes the way in which a master passes on skills and insights to an apprentice. The master provides models of performance and outcomes, then coaches novices by explaining what they are doing and why [<a class="cite" href="#ref-Coll1991">Coll1991</a>,<a class="cite" href="#ref-Casp2007">Casp2007</a>]. The apprentice reflects on their own problem solving, e.g., by thinking aloud or critiquing their own work, and eventually explores problems of their own choosing.</p>
 <p>This model tells us that teachers should present several examples when presenting a new idea so that learners can see what to generalize, and that we should vary the form of the problem to make it clear what are and aren’t superficial features<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Problems should be presented in real-world contexts, and we should encourage self-explanation to help learners organize and make sense of what they have just been taught (Section <a href="#s:individual-strategies" data-reference-type="ref" data-reference="s:individual-strategies">5.1</a>).</p>
 </blockquote>
 <h3 id="labelled-subgoals" class="unnumbered">Labelled Subgoals</h3>
-<p>means giving names to the steps in a step-by-step description of a problem-solving process.[<a class="cite" href="#ref-Marg2016">Marg2016</a>,<a class="cite" href="#ref-Morr2016">Morr2016</a>] found that learners with labelled subgoals solved Parsons Problems better than learners without, and the same benefit is seen in other problem domains [<a class="cite" href="#ref-Marg2012">Marg2012</a>]. Returning to the Python example used earlier, the subgoals in finding the total length of a list of words or constructing an acronym are:</p>
+<p>means giving names to the steps in a step-by-step description of a problem-solving process.[<a class="cite" href="#ref-Marg2016">Marg2016</a>,<a class="cite" href="#ref-Morr2016">Morr2016</a>] found that learners with labelled subgoals solved Parsons Problems better than learners without, and the same benefit is seen in other domains [<a class="cite" href="#ref-Marg2012">Marg2012</a>]. Returning to the Python example used earlier, the subgoals in finding the total length of a list of words or constructing an acronym are:</p>
 <ol>
 <li><p>Create an empty value of the type to be returned.</p></li>
 <li><p>Get the value to be added to the result from the loop variable.</p></li>
@@ -811,7 +808,7 @@ define make_acronym(list_of_words):
 </ol>
 <p>Labelling subgoals works because grouping related steps into named chunks (Section <a href="#s:memory-seven-plus-or-minus" data-reference-type="ref" data-reference="s:memory-seven-plus-or-minus">3.2</a>) helps learners distinguish what’s generic from what is specific to the problem at hand. It also helps them build a mental model of that kind of problem so that they can solve other problems of that kind, and gives them a natural opportunity for self-explanation (Section <a href="#s:individual-strategies" data-reference-type="ref" data-reference="s:individual-strategies">5.1</a>).</p>
 <h3 id="minimal-manuals" class="unnumbered">Minimal Manuals</h3>
-<p>The purest application of cognitive load theory may be John Carroll’s “minimal manual” [<a class="cite" href="#ref-Carr1987">Carr1987</a>,<a class="cite" href="#ref-Carr2014">Carr2014</a>]. Its starting point is a quote from a user: “I want to do something, not learn how to do everything.” Carroll and colleagues redesigned training to present every idea as a single-page self-contained task: a title describing what the page was about, step-by-step instructions of how to do just one thing (e.g., how to delete a blank line in a text editor), and then several notes how to recognize and debug common problems. They found that rewriting training materials this way made them shorter overall, and that people using them learned faster. Later studies confirmed that this approach outperformed the traditional approach regardless of prior experience with computers [<a class="cite" href="#ref-Lazo1993">Lazo1993</a>].[<a class="cite" href="#ref-Carr2014">Carr2014</a>] summarized this work by saying:</p>
+<p>The purest application of cognitive load theory may be John Carroll’s <a href="#g:minimal-manual"><strong>minimal manual</strong></a> [<a class="cite" href="#ref-Carr1987">Carr1987</a>,<a class="cite" href="#ref-Carr2014">Carr2014</a>]. Its starting point is a quote from a user: “I want to do something, not learn how to do everything.” Carroll and colleagues redesigned training to present every idea as a single-page self-contained task: a title describing what the page was about, step-by-step instructions of how to do just one thing (e.g., how to delete a blank line in a text editor), and then several notes how to recognize and debug common problems. They found that rewriting training materials this way made them shorter overall, and that people using them learned faster. Later studies confirmed that this approach outperformed the traditional approach regardless of prior experience with computers [<a class="cite" href="#ref-Lazo1993">Lazo1993</a>].[<a class="cite" href="#ref-Carr2014">Carr2014</a>] summarized this work by saying:</p>
 <blockquote>
 <p>Our “minimalist” designs sought to leverage user initiative and prior knowledge, instead of controlling it through warnings and ordered steps. It emphasized that users typically bring much expertise and insight to this learning, for example, knowledge about the task domain, and that such knowledge could be a resource to instructional designers. Minimalism leveraged episodes of error recognition, diagnosis, and recovery, instead of attempting to merely forestall error. It framed troubleshooting and recovery as learning opportunities instead of as aberrations.</p>
 </blockquote>
@@ -896,7 +893,7 @@ define make_acronym(list_of_words):
 </table>
 <p>Referring back to our simplified model of cognitive architecture (Figure <a href="#f:arch-model" data-reference-type="ref" data-reference="f:arch-model">4.1</a>), active learning is more effective because it keeps hew information in short-term memory longer, which increases the odds that it will be encoded successfully and stored in long-term memory. And by using new information as it arrives, learners build or strengthen ties between that information and what they already know, which in turn increases the chances that they will be able to retrieve it later.</p>
 <p>The other key to getting more out of learning is <a href="#g:metacognition"><strong>metacognition</strong></a>, or thinking about one’s own thinking. Just as good musicians listen to their own playing and good teachers reflect on their teaching (Chapter <a href="#s:performance" data-reference-type="ref" data-reference="s:performance">8</a>), learners will learn better and faster if they make plans, set goals, and monitor their progress. It’s difficult for learners to master these skills in the abstract—just telling them to make plans doesn’t have any effect—but lessons can be designed to encourage good study practices, and drawing attention to these practices in class helps learners realize that learning is a skill they can improve like any other [<a class="cite" href="#ref-McGu2015">McGu2015</a>,<a class="cite" href="#ref-Miya2018">Miya2018</a>].</p>
-<p>The big prize is transfer of learning, which occurs when one thing we have learned helps us learn other things more quickly. Researchers distinguish between <a href="#g:near-transfer"><strong>near transfer</strong></a>, which occurs between similar or related areas like fractions and decimals in mathematics, and <a href="#g:far-transfer"><strong>far transfer</strong></a>, which occurs between dissimilar domains—for example, the idea that learning to play chess will help mathematical reasoning or vice versa.</p>
+<p>The big prize is <a href="#g:transfer-of-learning"><strong>transfer of learning</strong></a>, which occurs when one thing we have learned helps us learn other things more quickly. Researchers distinguish between , which occurs between similar or related areas like fractions and decimals in mathematics, and , which occurs between dissimilar domains—for example, the idea that learning to play chess will help mathematical reasoning or vice versa.</p>
 <p>Near transfer undoubtedly occurs—no kind of learning beyond simple memorization could occur if it didn’t—and teachers leverage it all the time by giving learners exercises that are similar to material that has just been presented in a lesson. However,[<a class="cite" href="#ref-Sala2017">Sala2017</a>] analyzed many studies of far transfer and concluded that:</p>
 <blockquote>
 <p><span>…</span>the results show small to moderate effects. However, the effect sizes are inversely related to the quality of the experimental design<span>…</span> We conclude that far transfer of learning rarely occurs.</p>
@@ -1041,7 +1038,7 @@ define make_acronym(list_of_words):
 <p>This method helps keep teaching focused on its objectives. It also ensures that learners don’t face anything at the end of the course that they are not prepared for.</p>
 <blockquote>
 <h4 id="perverse-incentives" class="unnumbered">Perverse Incentives</h4>
-<p>Backward design is <em>not</em> the same thing as teaching to the test. When using backward design, teachers set goals to aid in lesson design; they may never actually give the final exam that they wrote. In many school systems, on the other hand, an external authority defines assessment criteria for all learners, regardless of their individual situations. The outcomes of those summative assessments directly affect the teachers’ pay and promotion, which means teachers have an incentive to focus on having learners pass tests rather than on helping them learn.</p>
+<p>Backward design is <em>not</em> the same thing as <a href="#g:teaching-to-the-test"><strong>teaching to the test</strong></a>. When using backward design, teachers set goals to aid in lesson design; they may never actually give the final exam that they wrote. In many school systems, on the other hand, an external authority defines assessment criteria for all learners, regardless of their individual situations. The outcomes of those summative assessments directly affect the teachers’ pay and promotion, which means teachers have an incentive to focus on having learners pass tests rather than on helping them learn.</p>
 <p>[<a class="cite" href="#ref-Gree2014">Gree2014</a>] argues that focusing on testing and measurement appeals to those with the power to set the tests, but is unlikely to improve outcomes unless it is coupled with support for teachers to make improvements based on test outcomes. The latter is often missing because large organizations usually value uniformity over productivity [<a class="cite" href="#ref-Scot1998">Scot1998</a>].</p>
 </blockquote>
 <p>Reverse design is described as a sequence, but it’s almost never done that way. We may, for example, change our mind about what we want to teach based on something that occurs to us while we’re writing an MCQ, or re-assess who we’re trying to help once we have a lesson outline. However, the notes we leave behind should present things in the order described above so that whoever has to use or maintain the lesson after us can retrace our thinking.[<a class="cite" href="#ref-Parn1986">Parn1986</a>]</p>
@@ -1157,10 +1154,10 @@ This starts with an active verb, defines the level of learning, and provides con
 <dd><p>The tools needed to build a Wikipedia for lessons have been around for twenty years, but most teachers still don’t write and share lessons the way that they write and share encyclopedia entries.</p>
 </dd>
 <dt>How useful sharing actually is.</dt>
-<dd><p>The Reusability Paradox states that the more reusable a learning object is, the less pedagogically effective it is [<a class="cite" href="#ref-Wile2002">Wile2002</a>]. The reason is that a good lesson resembles a novel more than it does a program: its parts are tightly coupled rather than independent black boxes. Direct re-use may therefore be the wrong goal for lessons; we might get further by trying to make them easier to remix.</p>
+<dd><p>The <a href="#g:reusability-paradox"><strong>Reusability Paradox</strong></a> states that the more reusable a learning object is, the less pedagogically effective it is [<a class="cite" href="#ref-Wile2002">Wile2002</a>]. The reason is that a good lesson resembles a novel more than it does a program: its parts are tightly coupled rather than independent black boxes. Direct re-use may therefore be the wrong goal for lessons; we might get further by trying to make them easier to remix.</p>
 </dd>
 </dl>
-<p>If the Reusability Paradox is true, collaboration will be more likely if the thing being collaborated on are small. This fits well with Caulfield’s theory of <a href="https://hapgood.us/2016/05/13/choral-explanations/">choral explanations</a>, which argues that sites like <a href="https://stackoverflow.com/">Stack Overflow</a> succeed because they provide a chorus of answers for every question, each of which is most suitable for a slightly different questioner. If this is right, the lessons of tomorrow may be guided tours of community-curated Q&amp;A repositories designed for learners at widely different levels.</p>
+<p>If the Reusability Paradox is true, collaboration will be more likely if the thing being collaborated on are small. This fits well with Mike Caulfield’s theory of <a href="https://hapgood.us/2016/05/13/choral-explanations/">choral explanations</a>, which argues that sites like <a href="https://stackoverflow.com/">Stack Overflow</a> succeed because they provide a chorus of answers for every question, each of which is most suitable for a slightly different questioner. If this is right, the lessons of tomorrow may be guided tours of community-curated Q&amp;A repositories designed for learners at widely different levels.</p>
 <h2 id="s:process-exercises">Exercises</h2>
 <h3 id="create-learner-personas-small-groups30" class="unnumbered">Create Learner Personas (small groups/30)</h3>
 <p>Working in small groups, create a four-point persona that describes one of your typical learners.</p>
@@ -3269,8 +3266,8 @@ Help who you can.</p>
 <dt><span id="g:cognitive-apprenticeship">Cognitive apprenticeship</span></dt>
 <dd><p>A theory of learning that emphasizes the process of a master passing on skills and insights situationally to an apprentice.</p>
 </dd>
-<dt><span id="g:cognitive-load-theory">Cognitive Load Theory</span></dt>
-<dd><p><em>Cognitive load</em> is the mental effort needed to solve a problem. Cognitive load theory divides this into <em>intrinsic</em>, <em>extraneous</em>, and <em>germane</em>, and holds that people learn faster when extraneous load is reduced.</p>
+<dt><span id="g:cognitive-load">Cognitive load</span></dt>
+<dd><p>The mental effort needed to solve a problem. Cognitive load theory divides this into , , and load, and holds that people learn fastest when germane and extraneous load are reduced.</p>
 </dd>
 <dt><span id="g:cognitivism">Cognitivism</span></dt>
 <dd><p>A theory of learning that holds that mental states and processes can and must be included in models of learning. See also .</p>
@@ -3292,6 +3289,9 @@ Help who you can.</p>
 </dd>
 <dt><span id="g:computational-thinking">Computational thinking</span></dt>
 <dd><p>Thinking about problem-solving in ways inspired by programming (though the term is used in many other ways).</p>
+</dd>
+<dt><span id="g:concept-inventory">Concept inventory</span></dt>
+<dd><p>A test designed to determine how well a learner understands a domain. Unlike most instructor-authored tests, concept inventories are based on extensive research and validation.</p>
 </dd>
 <dt><span id="g:concept-map">Concept map</span></dt>
 <dd><p>A picture of a mental model in which concepts are nodes in a graph and relationships are (labelled) arcs.</p>
@@ -3368,6 +3368,9 @@ Help who you can.</p>
 <dt><span id="g:externalized-cognition">Externalized cognition</span></dt>
 <dd><p>The use of graphical, physical, or verbal aids to augment thinking.</p>
 </dd>
+<dt><span id="g:extraneous-load">Extraneous load</span></dt>
+<dd><p>Any that distracts from learning.</p>
+</dd>
 <dt><span id="g:extrinsic-motivation">Extrinsic motivation</span></dt>
 <dd><p>Being driven by external rewards such as payment or fear of punishment. See also .</p>
 </dd>
@@ -3378,7 +3381,7 @@ Help who you can.</p>
 <dd><p>Someone who has studied a language before but is learning it again. False beginners start at the same point as true beginners (i.e., a pre-test will show the same proficiency) but can move much more quickly.</p>
 </dd>
 <dt><span id="g:far-transfer">Far transfer</span></dt>
-<dd><p>Transfer of learning or proficiency between widely-separated domains, e.g., improvement in math skills as a result of playing chess.</p>
+<dd><p>between widely-separated domains, e.g., improvement in math skills as a result of playing chess.</p>
 </dd>
 <dt><span id="g:finks-taxonomy">Fink’s Taxonomy</span></dt>
 <dd><p>A six-part non-hierarchical classification of understanding first proposed in [<a class="cite" href="#ref-Fink2013">Fink2013</a>] whose categories are <em>foundational knowledge</em>, <em>application</em>, <em>integration</em>, <em>human dimension</em>, <em>caring</em>, and <em>learning how to learn</em>. See also .</p>
@@ -3407,6 +3410,9 @@ Help who you can.</p>
 <dt><span id="g:general-pedagogical-knowledge">General pedagogical knowledge</span></dt>
 <dd><p>A person’s understanding of the general principles of teaching. See also and .</p>
 </dd>
+<dt><span id="g:germane-load">Germane load</span></dt>
+<dd><p>The required to link new information to old.</p>
+</dd>
 <dt><span id="g:growth-mindset">Growth mindset</span></dt>
 <dd><p>The belief that ability comes with practice. See also .</p>
 </dd>
@@ -3434,8 +3440,14 @@ Help who you can.</p>
 <dt><span id="g:instructional-design">Instructional design</span></dt>
 <dd><p>The craft of creating and evaluating specific lessons for specific audiences. See also .</p>
 </dd>
+<dt><span id="g:intrinsic-load">Intrinsic load</span></dt>
+<dd><p>The required to absorb new information.</p>
+</dd>
 <dt><span id="g:intrinsic-motivation">Intrinsic motivation</span></dt>
 <dd><p>Being driven by enjoyment of a task or the satisfaction of doing it for its own sake. See also .</p>
+</dd>
+<dt><span id="g:intuition">Intuition</span></dt>
+<dd><p>The ability to understand something immediately, without any apparent need for conscious reasoning.</p>
 </dd>
 <dt><span id="g:jugyokenkyu">Jugyokenkyu</span></dt>
 <dd><p>Literally “lesson study”, a set of practices that includes having teachers routinely observe one another and discuss lessons to share knowledge and improve skills.</p>
@@ -3479,11 +3491,14 @@ Help who you can.</p>
 <dt><span id="g:metacognition">Metacognition</span></dt>
 <dd><p>Thinking about thinking.</p>
 </dd>
+<dt><span id="g:minimal-manual">Minimal manual</span></dt>
+<dd><p>An approach to training that breaks every task into single-page instructions that also explain how to diagnose and correct common errors.</p>
+</dd>
 <dt><span id="g:minute-cards">Minute cards</span></dt>
 <dd><p>A feedback technique in which learners spend a minute writing one positive thing about a lesson (e.g., one thing they’ve learned) and one negative thing (e.g., a question that still hasn’t been answered).</p>
 </dd>
 <dt><span id="g:near-transfer">Near transfer</span></dt>
-<dd><p>Transfer of learning or proficiency between closely-related domains, e.g., improvement in understanding of decimals as a result of doing exercises with fractions.</p>
+<dd><p>between closely-related domains, e.g., improvement in understanding of decimals as a result of doing exercises with fractions.</p>
 </dd>
 <dt><span id="g:notional-machine">Notional machine</span></dt>
 <dd><p>A general, simplified model of how a particular family of programs executes.</p>
@@ -3536,6 +3551,9 @@ Help who you can.</p>
 <dt><span id="g:reflective-practice">Reflective practice</span></dt>
 <dd><p>see .</p>
 </dd>
+<dt><span id="g:reusability-paradox">Reusability Paradox</span></dt>
+<dd><p>Holds that the more reusable part of a lesson is, the less pedagogically effective it is.</p>
+</dd>
 <dt><span id="g:scaffolding">Scaffolding</span></dt>
 <dd><p>Extra material provided to early-stage learners to help them solve problems.</p>
 </dd>
@@ -3563,11 +3581,17 @@ Help who you can.</p>
 <dt><span id="g:tangible-artifact">Tangible artifact</span></dt>
 <dd><p>Something a learner can work on whose state gives feedback about the learner’s progress and helps the learner diagnose mistakes.</p>
 </dd>
+<dt><span id="g:teaching-to-the-test">Teaching to the test</span></dt>
+<dd><p>Any method of “education” that focuses on preparing students to pass standardized tests, rather than on actual learning.</p>
+</dd>
 <dt><span id="g:test-driven-development">Test-driven development</span></dt>
 <dd><p>A software development practice in which programmers write tests first in order to give themselves concrete goals and clarify their understanding of what “done” looks like.</p>
 </dd>
 <dt><span id="g:think-pair-share">Think-pair-share</span></dt>
 <dd><p>A collaboration method in which each person thinks individually about a question or problem, then pairs with a partner to pool ideas, and then have one person from each pair present to the whole group.</p>
+</dd>
+<dt><span id="g:transfer-of-learning">Transfer of learning</span></dt>
+<dd><p>Applying knowledge learned in one context to problems in another context. See also and .</p>
 </dd>
 <dt><span id="g:transfer-appropriate-processing">Transfer-appropriate processing</span></dt>
 <dd><p>The improvement in recall that occurs when practice uses activities similar to those used in testing.</p>

@@ -6,6 +6,7 @@ Bergeron
 Borrego
 CER
 CRA
+Caulfield
 Caulfield's
 Cottrill
 Demotivation
@@ -135,6 +136,7 @@ readlines
 redgreenblue
 redict
 replicability
+reusability
 reviewable
 roblem
 runningTotal
