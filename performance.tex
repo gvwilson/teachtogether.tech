@@ -1,7 +1,7 @@
 \chaplbl{Teaching as a Performance Art}{s:performance}
 
 In \emph{Darwin Among the Machines},
-George Dyson wrote,
+George Dyson\index{Dyson, George} wrote,
 ``In the game of life and evolution there are three players at the table:
 human beings, nature, and machines.
 I am firmly on the side of nature.
@@ -25,8 +25,7 @@ This chapter therefore focuses on how to teach programming by actually doing it.
 
 \end{quote}
 
-The most effective way I know to teach programming is \gref{g:live-coding}{live coding},
-and research backs this up~\cite{Rubi2013,Haar2017}.
+The most effective way to teach programming is \gref{g:live-coding}{live coding}~\cite{Rubi2013,Haar2017}.
 Instead of presenting pre-written material,
 the teacher writes code in front of the class
 while the learners follow along,
@@ -79,7 +78,7 @@ Live coding works better than slides for several reasons:
 \end{itemize}
 
 Another benefit of live coding is that it demonstrates the order in which programs should be written.
-When looking at how people solved Parsons Problems,
+When looking at how people solved Parsons Problems,\index{Parsons Problem}
 \cite{Ihan2011} found that experienced programmers often dragged the method signature to the beginning,
 then added the majority of the control flow (i.e., loops and conditionals),
 and only then added details like variable initialization and handling of corner cases.
@@ -104,7 +103,7 @@ The sections below offer tips on how to make your live coding better.
 
 \end{quote}
 
-The most important rule of live coding is to embrace your mistakes.
+The most important rule of live coding is to embrace your mistakes.\index{mistakes (importance of embracing)}
 No matter how well you prepare,
 you will make some;
 when you do,
@@ -118,21 +117,13 @@ or where you took the wrong path,
 and explain how you've corrected yourself,
 you will give your learners a toolbox they can use when they make their own mistakes.
 
-This is at odds with advice like that in~\cite{Kran2015},
-which says,
-``{\ldots}you should have your material \emph{absolutely mastered} before you enter the classroom.
-If{\ldots}you have a proof or example that is not quite right{\ldots}and stand in front of the group trying to fix it,
-then you will lose all but the diehards quickly.''
-This is unrealistic,
-and watching teachers make mistakes actually motivates most learners.
-
 \begin{aside}{Deliberate Fumbles}
   Once you have given a lesson several times,
   you're unlikely to make anything other than basic typing mistakes
   (which can still be informative).
   You can try to remember past mistakes and make them deliberately,
   but that often feels forced.
-  A better approach is sometimes called \gref{g:twitch-coding}{twitch coding}:
+  An alternative approach is \gref{g:twitch-coding}{twitch coding}:
   ask learners one by one to tell you what to type next.
   This is pretty much guaranteed to get you into some kind of trouble.
 \end{aside}
@@ -144,7 +135,7 @@ is to ask them to make predictions about what the code on the screen is going to
 You can then write down the first few suggestions they make,
 have the whole class vote on which they think is most likely,
 and then run the code.
-This is a lightweight form of peer instruction,
+This is a lightweight form of peer instruction,\index{peer instruction}
 which we will discuss in \secref{s:classroom-peer};
 as well as keeping their attention on task,
 it gives them practice at reasoning about code's behavior.
@@ -264,7 +255,6 @@ You can avoid this problem by using a separate window for editing;
 if you do this,
 always tell learners when you are switching focus from one to the other.
 
-\newpage
 \begin{aside}{Accessibility Aids Help Everyone}
   Tools like \hreffoot{https://boinx.com/mousepose/overview/}{Mouseposé} (for Mac)
   and \hreffoot{http://www.pointerfocus.com/}{PointerFocus} (for Windows)
@@ -470,6 +460,7 @@ Feedback is easier to give and receive when both parties share expectations
 about what is and isn't in scope
 and about how comments ought to be phrased.
 If you are the person asking for feedback:
+\index{feedback!getting}
 
 \begin{description}
 
@@ -514,6 +505,7 @@ If you are the person asking for feedback:
 
 \noindent
 You can give feedback to others more effectively as well:
+\index{feedback!giving}
 
 \begin{description}
 
@@ -582,7 +574,7 @@ that you can use to make peer-to-peer feedback a routine part of your teaching,
 while~\cite{Gawa2011} looks at the value of having a coach.
 
 \begin{aside}{Studio Classes}
-  Architecture schools often include studio classes
+  Architecture schools often include studio classes\index{studio class}
   in which students solve small design problems
   and get feedback from their peers right then and there.
   These classes are most effective when the teacher critiques the peer critiques
@@ -598,7 +590,7 @@ while~\cite{Gawa2011} looks at the value of having a coach.
 The best way to improve your in-person lesson delivery
 is to watch yourself do it:
 
-\begin{enumerate}
+\begin{itemize}
 
 \item
   Work in groups of three.
@@ -626,7 +618,7 @@ is to watch yourself do it:
   and adds all the feedback to a shared 2x2 grid of the kind described above
   \emph{without} saying who each item of feedback is about.
 
-\end{enumerate}
+\end{itemize}
 
 In order for this exercise to work well:
 
@@ -667,7 +659,7 @@ The announcement of this exercise is often greeted with groans and apprehension,
 since few people enjoy seeing or hearing themselves.
 However,
 those same people consistently rate it as one of the most valuable parts of teaching workshops.
-It's also good preparation for co-teaching (\secref{s:classroom-together}):
+It's also good preparation for co-teaching (\secref{s:classroom-together}):\index{co-teaching}
 teachers find it a lot easier to give each other informal feedback
 if they have had some practice doing so
 and have a shared rubric to set expectations.
