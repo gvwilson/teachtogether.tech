@@ -17,9 +17,10 @@ which has entries for various languages and topics in introductory computing.
 \seclbl{The Classics}{s:exercises-classics}
 
 As \secref{s:models-formative-assessment} discussed,
-\emph{multiple choice questions} (MCQs) are most effective
+\emph{multiple choice questions} (MCQs) are most effective\index{multiple choice question}
 when the wrong answers probe for specific misconceptions.
-They are usually designed to test the lower levels of Bloom's Taxonomy (\secref{s:process-objectives}),
+They are usually designed to test the lower levels of Bloom's Taxonomy\index{Bloom's Taxonomy}
+(\secref{s:process-objectives}),
 but can also require learners to exercise judgment.
 
 \begin{aside}{A Multiple Choice Question}
@@ -138,8 +139,7 @@ print(slice)
 \end{minted}
 \end{aside}
 
-\grefdex{g:parsons-problem}{Parsons Problems}{Parsons Problem} also avoid
-the ``blank screen of terror'' problem (\chapref{s:architecture})
+Parsons Problems \index{Parsons Problem} also avoid the ``blank screen of terror'' problem
 while allowing learners to concentrate on control flow separately from vocabulary
 \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
 Tools for building and doing Parsons Problems online exist~\cite{Ihan2011},
@@ -167,7 +167,7 @@ makes Parsons Problems significantly harder~\cite{Harm2016}.
 \emph{Tracing execution} is the inverse of a Parsons Problem:
 given a few lines of code,
 the learner has to trace the order in which those lines are executed.
-This is an essential debugging skill
+This is an essential debugging skill\index{debugging}
 and a good way to solidify learners' understanding of loops, conditionals,
 and the evaluation order of function and method calls.
 The easiest way to implement it is to have learners write out a sequence of labelled steps.
@@ -409,6 +409,7 @@ and false negatives (rejecting correct ones),
 but questions of this kind lend themselves well to peer grading (\secref{s:individual-peer}).
 
 \seclbl{Automatic Grading}{s:exercises-grading}
+\index{automatic grading}
 
 Automatic program grading tools have been around longer than I have been alive:
 the earliest published mention dates from 1960~\cite{Holl1960}
@@ -460,23 +461,23 @@ before attempting to solve problems,
 and then asked fewer questions and expressed less confusion about assignments.
 
 \begin{aside}{Against Off-the-Shelf Tools}
-It's tempting to use off-the-shelf style checking tools to grade learners' code.
-However,
-\cite{Nutb2016} initially found no correlation between human-provided marks
-and style-checker rule violations.
-Sometimes this was because learners violated one rule many times
-(thereby losing more points than they should have),
-but other times it was because they submitted the assignment starter code with few alterations
-and got more points than they should have.
+  It's tempting to use off-the-shelf style checking tools to grade learners' code.
+  However,
+  \cite{Nutb2016} initially found no correlation between human-provided marks
+  and style-checker rule violations.
+  Sometimes this was because learners violated one rule many times
+  (thereby losing more points than they should have),
+  but other times it was because they submitted the assignment starter code with few alterations
+  and got more points than they should have.
 
-Even tools built specifically for teaching can fall short of teachers' needs.
-\cite{Keun2016a,Keun2016b} looked at the messages produced by 69 auto-grading tools.
-They found that the tools often do not give feedback on how to fix problems and take the next step.
-They also found that most teachers cannot easily adapt most of the tools to their needs:
-like many workflow tools,
-they tend to enforce their creators' unrecognized assumptions about how institutions work.
-Their classification scheme is a useful shopping list
-when looking at tools of this kind.
+  Even tools built specifically for teaching can fall short of teachers' needs.
+  \cite{Keun2016a,Keun2016b} looked at the messages produced by 69 auto-grading tools.
+  They found that the tools often do not give feedback on how to fix problems and take the next step.
+  They also found that most teachers cannot easily adapt most of the tools to their needs:
+  like many workflow tools,
+  they tend to enforce their creators' unrecognized assumptions about how institutions work.
+  Their classification scheme is a useful shopping list
+  when looking at tools of this kind.
 \end{aside}
 
 \cite{Buff2015} presents a well-informed reflection on the whole idea of providing automated feedback.
@@ -544,7 +545,7 @@ without being told how many of each they should find.
 \cite{Steg2016b} is a good starting point for a code style rubric,
 while~\cite{Luxt2009} looks at peer review in programming classes more generally.
 If you are going to have learners do reviews,
-use calibrated peer review (\secref{s:individual-peer})
+use calibrated peer review (\secref{s:individual-peer})\index{calibrated peer review}
 so that they have models of what good feedback should look like.
 
 \begin{aside}{Code Review}
