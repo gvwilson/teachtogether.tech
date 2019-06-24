@@ -17,6 +17,8 @@ FIGURES_SRC=$(wildcard figures/*)
 FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
 ASSETS_SRC=$(wildcard assets/*)
 ASSETS_DST=$(patsubst %,docs/%,${ASSETS_SRC})
+CREATE_PDF=CREATE_PDF.sh
+RELEASE=$(HOME)/t3-release.zip
 
 # Controls
 all : commands
@@ -38,15 +40,15 @@ pdf : ${PDF} ${SUMMARIES}
 once :
 	${LATEX} book
 
+## release        : prepare a ZIP file for release.
+release :
+	zip ${RELEASE} ${CREATE_PDF} ${SRC} ${FIGURES_SRC}
+
 # ----------------------------------------
 
 # Regenerate PDF once 'all.tex' has been created.
 ${PDF} : ${SRC}
-	${LATEX} book \
-	&& ${BIBTEX} book \
-	&& ${LATEX} book \
-	&& ${MAKEINDEX} book \
-	&& ${LATEX} book
+	./${CREATE_PDF}
 
 # Generate HTML.
 ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
@@ -107,6 +109,7 @@ settings :
 	@echo PDF ${PDF}
 	@echo FIGURES_SRC ${FIGURES_SRC}
 	@echo FIGURES_DST ${FIGURES_DST}
+	@echo RELEASE ${RELEASE}
 
 ## spell          : check spelling.
 spell :
