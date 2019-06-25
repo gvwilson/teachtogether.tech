@@ -64,11 +64,6 @@
 \centerline{\itshape\textbf{#1}}\par\itshape\noindent\ignorespaces}%
 {\end{adjustwidth}\addvspace{6pt}}
 
-% Glossary references and items
-\newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}\index{#2}}
-\newcommand{\grefdex}[3]{\hyperlink{#1}{\textbf{#2}}\index{#3}}
-\newcommand{\grefcross}[2]{\hyperlink{#1}{\textbf{#2}}}
-\newcommand{\gitem}[2]{\item[\hypertarget{#1}{#2}]}
 
 % Remove indentation from footnotes
 \usepackage[hang,flushmargin]{footmisc}
@@ -153,9 +148,15 @@
 
 % Create an index.
 \makeindex
- 
+
 %----------------------------------------
  
 % Always load hyperref last
 % https://tex.stackexchange.com/questions/16268/warning-with-footnotes-namehfootnote-xx-has-been-referenced-but-does-not-exi
 \usepackage{hyperref}
+
+% Glossary references and items.
+\newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}\index{#2}}
+\newcommand{\grefdex}[3]{\hyperlink{#1}{\textbf{#2}}\index{#3}}
+\newcommand{\grefcross}[2]{\hyperlink{#1}{\textbf{#2}}}
+\newcommand{\gitem}[2]{\item[\hypertarget{#1}{#2}]}
