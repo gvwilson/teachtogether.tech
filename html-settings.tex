@@ -7,7 +7,9 @@
 \newenvironment{aside}[1]{\begin{quote}\subsubsection*{#1}}{\end{quote}}
 
 % Glossary references and items
-\newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}}
+\newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}\index{#2}}
+\newcommand{\grefdex}[3]{\hyperlink{#1}{\textbf{#2}}\index{#3}}
+\newcommand{\grefcross}[2]{\hyperlink{#1}{\textbf{#2}}}
 \newcommand{\gitem}[2]{\item[\hypertarget{#1}{#2}]}
 
 % Render hyperlinks with footnotes as well.
