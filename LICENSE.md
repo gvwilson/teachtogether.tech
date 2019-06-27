@@ -1,18 +1,17 @@
 # License
 
 *This is a human-readable summary of (and not a substitute for) the license.
-Please see <https://creativecommons.org/licenses/by/4.0/legalcode> for the full legal text.*
+Please see <https://creativecommons.org/licenses/by-nc/4.0/legalcode> for the full legal text.*
 
-This work is licensed under the Creative Commons Attribution 4.0
-International license (CC-BY-4.0).
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International license (CC-BY-NC-4.0).
 
 **You are free to:**
 
 - **Share**---copy and redistribute the material in any medium or
   format
 
-- **Remix**---remix, transform, and build upon the material for any
-  purpose, even commercially.
+- **Adapt**---remix, transform, and build upon the material.
 
 The licensor cannot revoke these freedoms as long as you follow the
 license terms.
@@ -24,9 +23,10 @@ license terms.
   any reasonable manner, but not in any way that suggests the licensor
   endorses you or your use.
 
-- **No additional restrictions**---You may not apply legal terms or
-  technological measures that legally restrict others from doing
-  anything the license permits.
+- **NonCommercial**---You may not use the material for commercial purposes.
+
+**No additional restrictions**---You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
 
 **Notices:**
 
