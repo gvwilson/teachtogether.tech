@@ -148,14 +148,15 @@
 
 % Create an index.
 \makeindex
-
+ 
 %----------------------------------------
  
 % Always load hyperref last
 % https://tex.stackexchange.com/questions/16268/warning-with-footnotes-namehfootnote-xx-has-been-referenced-but-does-not-exi
 \usepackage{hyperref}
+%%\usepackage[plainpages=false,pdfpagelabels,pagebackref]{hyperref}
 
-% Glossary references and items.
+% Glossary references and items
 \newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}\index{#2}}
 \newcommand{\grefdex}[3]{\hyperlink{#1}{\textbf{#2}}\index{#3}}
 \newcommand{\grefcross}[2]{\hyperlink{#1}{\textbf{#2}}}
