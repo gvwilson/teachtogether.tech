@@ -5,9 +5,9 @@ import re
 
 PAGES_PAT = re.compile(r'^ \[(\d+)', re.MULTILINE)
 
-INTERESTING_PAT = re.compile(r'\{chapter\}|References')
+INTERESTING_PAT = re.compile(r'\{chapter\}|References|Index')
 CHAPTER_PAT = re.compile(r'\{chapter\}\{\\numberline\s*\{\\bfseries\s*(.+?)~(.+?)\}(.+?)\}\{(.+?)\}')
-REFERENCES_PAT = re.compile(r'\{\\bfseries\s+References\}\{(\d+)\}')
+OTHER_PAT = re.compile(r'\{\\bfseries\s+(References|Index)\}\{(\d+)\}')
 
 def main(log, toc):
     num_pages = read_log(log)
@@ -27,8 +27,8 @@ def _extract_chapters(line):
     match = CHAPTER_PAT.search(line)
     if match:
         return [match.group(1), match.group(2), match.group(3), int(match.group(4))]
-    match = REFERENCES_PAT.search(line)
-    return ['Bib', '', 'References', int(match.group(1))]
+    match = OTHER_PAT.search(line)
+    return ['Other', '', match.group(1), int(match.group(2))]
 
 def read_chapters(toc, num_pages):
     with open(toc, 'r') as reader:
