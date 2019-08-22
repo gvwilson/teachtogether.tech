@@ -170,15 +170,15 @@ the learner has to trace the order in which those lines are executed.
 This is an essential debugging skill\index{debugging}
 and a good way to solidify learners' understanding of loops, conditionals,
 and the evaluation order of function and method calls.
-The easiest way to implement it is to have learners write out a sequence of labelled steps.
+The easiest way to implement it is to have learners write out a sequence of labeled steps.
 Having them choose the correct sequence from a set
-(i.e., presenting this as an MCQ)
+(i.e.\ presenting this as an MCQ)
 adds cognitive load without adding value,
 since they have to do all the work of figuring out the correct sequence,
 then search for it in the list of options.
 
 \begin{aside}{Tracing Execution Order}
-  In what order are the labelled lines in this block of code executed?
+  In what order are the labeled lines in this block of code executed?
 
 \begin{minted}{text}
 A)     vals = [-1, 0, 1]
@@ -196,8 +196,8 @@ but instead of spelling out the order in which code is executed,
 the learner lists the values that one or more variables take on
 as the program runs.
 One way to implement this is to give the learner a table
-whose columns are labelled with variable names
-and whose rows are labelled with line numbers,
+whose columns are labeled with variable names
+and whose rows are labeled with line numbers,
 and ask them to fill in the values taken on by the variables on those lines.
 
 \newpage
@@ -327,7 +327,7 @@ for v in values:
 Having learners draw concept maps and other diagrams
 gives insight into how they're thinking (\secref{s:memory-concept-maps}),
 but free-form diagrams take human time and judgment to assess.
-\emph{Labelling diagrams},
+\emph{Labeling diagrams},
 on the other hand,
 is almost as powerful pedagogically
 but much easier to scale.
@@ -340,14 +340,14 @@ The diagram can be a data structure
 a chart (``match each of these pieces of code with the part of the chart it generated''),
 or the code itself (``match each term to an example of that program element'').
 
-\begin{aside}{Labelling a Diagram}
-  \figref{f:exercises-labelling} shows
+\begin{aside}{Labeling a Diagram}
+  \figref{f:exercises-labeling} shows
   how a small fragment of HTML is represented in memory.
   Put the labels 1--9 on the elements of the tree
   to show the order in which they are reached in a depth-first traversal.
 \end{aside}
 
-\figpdf{figures/labelling.pdf}{Labelling a Diagram}{f:exercises-labelling}
+\figpdf{figures/labeling.pdf}{Labeling a diagram}{f:exercises-labeling}
 
 Another way to use diagrams is
 to give learners the pieces of the diagram and ask them to arrange them correctly.
@@ -359,19 +359,19 @@ in order to get the right voltage at a certain point,
 and have seen teachers give learners a fixed set of Scratch blocks\index{Scratch}
 and ask them to create a particular drawing using only those blocks.
 
-\emph{Matching problems} can be thought of as a special case of labelling
+\emph{Matching problems} can be thought of as a special case of labeling
 in which the ``diagram'' is a column of text
 and the labels are taken from the other column.
 \emph{One-to-one matching} gives the learner two lists of equal length
 and asks them to pair corresponding items,
-e.g., ``match each piece of code with the output it produces''.
+e.g.\ ``match each piece of code with the output it produces.''
 
 \begin{aside}{Matching}
   Match each regular expression operator in \figref{f:exercises-matching}
   with what it does.
 \end{aside}
 
-\figpdfhere{figures/matching.pdf}{Matching Items}{f:exercises-matching}
+\figpdfhere{figures/matching.pdf}{Matching items}{f:exercises-matching}
 
 With \emph{many-to-many matching} the lists aren't the same length,
 so some items may be matched to several others
@@ -392,7 +392,7 @@ since our minds are pretty good at detecting errors or anomalies in sequences.
 The ranking criteria determine the level of reasoning required.
 If you have learners order sorting algorithms from fastest to slowest
 you are probably exercising recall
-(i.e., asking them recognizing the algorithms' names and know their properties),
+(i.e.\ asking them recognizing the algorithms' names and know their properties),
 while asking them to rank solutions from most robust to most brittle
 exercises reasoning and judgment.
 
@@ -412,7 +412,7 @@ but questions of this kind lend themselves well to peer grading (\secref{s:indiv
 \index{automatic grading}
 
 Automatic program grading tools have been around longer than I have been alive:
-the earliest published mention dates from 1960~\cite{Holl1960}
+the earliest published mention dates from 1960~\cite{Holl1960},
 and the surveys published in~\cite{Douc2005,Ihan2010} mention many specific tools by name.
 Building such tools is a lot more complex than it might first seem.
 How are assignments represented?
@@ -441,7 +441,7 @@ rather than to dislike of auto-grading.
 
 \cite{Srid2016} took a different approach.
 They used \gref{g:fuzz-testing}{fuzz testing}
-(i.e., randomly-generated test cases)
+(i.e.\ randomly generated test cases)
 to check whether learner code does the same thing as a reference implementation supplied by the teacher.
 In the first project of a 1400-learner introductory course,
 fuzz testing caught errors that were missed by a suite of hand-written test cases
@@ -602,7 +602,7 @@ How do your cleaned-up versions differ?
 How well or how poorly would you be able to accommodate all of these variations
 if marking automatically or in a large class?
 
-\exercise{Labelling a Diagram}{pairs}{10}
+\exercise{Labeling a Diagram}{pairs}{10}
 
 Draw a diagram showing something that you have explained recently:
 how browsers fetch data from servers,

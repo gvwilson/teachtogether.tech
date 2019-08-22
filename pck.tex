@@ -47,7 +47,7 @@ some caution is required when interpreting results:
   or do basic arithmetic.
 
 \item[Most of these studies' subjects are WEIRD:]\index{WEIRD}
-  they are from Western, education, industrialized, rich, and democratic societies~\cite{Henr2010}.
+  they are from Western, Education, Industrialized, Rich, and Democratic societies~\cite{Henr2010}.
   What's more,
   they are also mostly young and in institutional classrooms,
   since that's the population most researchers have easiest access to.
@@ -105,7 +105,7 @@ that combine and rationalize the implicit and explicit thinking of many differen
 (\figref{f:pck-trajectory}).
 
 \newpage
-\figpdfhere{figures/conditionals.pdf}{Learning Trajectory for Conditions (from~\cite{Rich2017})}{f:pck-trajectory}
+\figpdfhere{figures/conditionals.pdf}{Learning trajectory for conditions (from~\cite{Rich2017})}{f:pck-trajectory}
 
 \seclbl{How Much Are They Learning?}{s:pck-learning}
 
@@ -150,14 +150,12 @@ is just as important as teaching them strategies for solving problems.
 The biggest misconception novices have---sometimes called the ``superbug'' in coding---is\index{superbug}
 the belief that computers understand what people mean in the way that another human being would~\cite{Pea1986}.
 Our second recommendation is therefore to \recommendation{teach novices that computers don't understand programs},
-i.e.,
-that calling a variable ``cost'' doesn't guarantee that its value is actually a cost.
+i.e.\ that calling a variable ``cost'' doesn't guarantee that its value is actually a cost.
 
-\cite{Sorv2018} presents over 40 other misconceptions that teachers can also try to clear up,
+\cite{Sorv2018} presents over forty other misconceptions that teachers can also try to clear up,
 many of which are also discussed in~\cite{Qian2017}'s survey.
 One is the belief that variables in programs work the same way they do in spreadsheets,
-i.e.,
-that after executing:
+i.e.\ that after executing:
 
 \begin{minted}{text}
 grade = 65
@@ -175,7 +173,7 @@ other misconceptions include:
 
 \item
   A variable holds the history of the values it has been assigned,
-  i.e., it remembers what its value used to be.
+  i.e.\ it remembers what its value used to be.
 
 \item
   Two objects with the same value for a \texttt{name} or \texttt{id} attribute
@@ -195,8 +193,7 @@ other misconceptions include:
 
 \item
   Assignment moves values,
-  i.e.,
-  after \texttt{a\ =\ b}, the variable \texttt{b} is empty.
+  i.e.\ after \texttt{a\ =\ b}, the variable \texttt{b} is empty.
 
 \end{itemize}
 
@@ -215,7 +212,7 @@ Some mistakes,
 however,
 are made many times,
 like invoking methods with the wrong arguments
-(e.g., passing a string instead of an integer).
+(e.g.\ passing a string instead of an integer).
 
 \begin{aside}{Not Right vs.\ Not Done}
   One difficulty in research like this is distinguishing mistakes from work in progress.
@@ -248,9 +245,8 @@ wasn't nearly as common as most teachers believed.
 \seclbl{How Do Novices Program?}{s:pck-programming}
 
 \cite{Solo1984,Solo1986} pioneered the exploration of novice and expert programming strategies.
-The key finding is that experts know both ``what'' and ``how'',
-i.e.,
-they understand what to put into programs
+The key finding is that experts know both ``what'' and ``how,''
+i.e.\ they understand what to put into programs
 \emph{and} they have a set of program patterns or plans to guide their construction.\index{program patterns}
 Novices lack both,
 but most teachers focus solely on the former,
@@ -269,7 +265,7 @@ to \recommendation{have learners read code, then modify it, then write it},
 and to \recommendation{introduce common patterns explicitly and have learners practice using them}.
 \cite{Mull2007b} is just one of many studies proving the benefits of teaching common patterns explicitly,
 and decomposing problems into patterns creates natural opportunities
-for creating and labelling subgoals~\cite{Marg2012,Marg2016}.\index{labelled subgoals}
+for creating and labeling subgoals~\cite{Marg2012,Marg2016}.\index{labeled subgoals}
 
 \seclbl{How Do Novices Debug?}{s:pck-debug}
 
@@ -333,7 +329,7 @@ which \cite{Cunn2017} found was effective (\secref{s:exercises-tracing}).
 \index{testing (software)}
 
 Novice programmers seem just as reluctant to test software as professionals.
-There's no doubt that doing it valuable---\cite{Cart2017} found that
+There's no doubt that doing it is valuable---\cite{Cart2017} found that
 high-performing novices spent a lot of time testing,
 while low performers spent much more time working on code with errors---and many teachers
 require learners to write tests for assignments.
@@ -341,7 +337,7 @@ But how well do they do this?
 One answer comes from~\cite{Bria2015},
 which scored learners' programs by how many teacher-provided test cases those programs passed,
 and conversely scores test cases written by learners according to how many deliberately-seeded bugs they caught.
-They found that novices' tests often have low coverage (i.e., they don't test most of the code)
+They found that novices' tests often have low coverage (i.e.\ they don't test most of the code)
 and that they often test many things at once, which makes it hard to pinpoint the causes of errors.
 
 Another answer comes from~\cite{Edwa2014b},
@@ -391,7 +387,7 @@ One example is~\cite{Aiva2016},
 which analyzed over 250,000 Scratch projects
 and found (among other things) that about 28\% of projects have some blocks that are never called or triggered.
 As in the earlier aside about incomplete versus incorrect Java programs,
-The authors hypothesize that users may be using these blocks as a scratchpad
+the authors hypothesize that users may be using these blocks as a scratchpad
 to keep track of bits of code they don't (yet) want to throw away.
 Another example is~\cite{Grov2017,Mlad2017},
 which studied novices learning about loops in Scratch, Logo, and Python.\index{Scratch}\index{Python}
@@ -409,7 +405,7 @@ the differences become larger.
   \texttt{for}, \texttt{while}, and \texttt{foreach},
   were rated as the three most unintuitive choices by non-programmers.''
   Their work shows that C-style syntax (as used in Java and Perl)
-  is just as hard for novices to learn as a randomly-designed syntax,
+  is just as hard for novices to learn as a randomly designed syntax,
   but that the syntax of languages such as Python and Ruby\index{Python}\index{Ruby}
   is significantly easier to learn,
   and the syntax of a language whose features are tested before being added to the language is easier still.
@@ -439,8 +435,7 @@ or both.
 and also found that high school teachers often weren't clear on the concept either.
 On balance,
 we recommend that teachers \recommendation{start with functions rather than objects},
-i.e.,
-that learners not be taught how to define classes
+i.e.\ that learners not be taught how to define classes
 until they understand basic control structures and data types.
 
 \subsection*{Type Declarations}
@@ -480,7 +475,7 @@ In particular{\ldots}beacons and program plans play a large role in comprehensio
 It also found that experienced developers are relatively unaffected by identifier style,
 so our recommendation is just to use consistent style in all examples.
 Since most languages have style guides
-(e.g., \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} for Python)
+(e.g.\ \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} for Python)
 and tools to check that code follows these guidelines,
 our full recommendation is to
 \recommendation{use tools to ensure that all code examples adhere to a consistent style}.
@@ -553,7 +548,7 @@ Our recommendation is therefore to \recommendation{teach learners to trace varia
   One often-overlooked finding about visualization is that
   people understand flowcharts better than pseudocode \emph{if both are equally well structured}~\cite{Scan1989}.
   Earlier work showing that pseudocode outperformed flowcharts used structured pseudocode and tangled flowcharts;
-  when the playing field was levelled,
+  when the playing field was leveled,
   novices did better with the graphical representation.
 \end{aside}
 
@@ -586,7 +581,7 @@ they found ten things teachers can do to improve outcomes (\figref{f:pck-interve
 
 \item[CS0:]
   Creation of a preliminary course to be taken before the introductory programming course;
-  could be organized only for some (e.g., at-risk) learners.
+  could be organized only for some (e.g.\ at-risk) learners.
 
 \item[Game Theme:]
   A game-themed component was introduced to the course.
@@ -606,11 +601,11 @@ they found ten things teachers can do to improve outcomes (\figref{f:pck-interve
 
 \item[Other Support:]
   An umbrella term for all support activities,
-  e.g. increased teacher hours, additional support channels, etc.
+  e.g.\ increased teacher hours, additional support channels, etc.
 
 \end{description}
 
-\figimg{figures/interventions-scaled.png}{Effectiveness of Interventions}{f:pck-interventions}
+\figimg{figures/interventions-scaled.png}{Effectiveness of interventions}{f:pck-interventions}
 
 This list highlights the importance of cooperative learning.
 \cite{Beck2013} looked at this specifically over three academic years in courses taught by two different teachers
@@ -850,4 +845,4 @@ Have each person in the class independently give one point to
 each of the eight questions from the combined lists that they care most about,
 then calculate an average score for each question.
 Which ones are most popular in your class?
-Which group are the most popular questions in?
+In which group are the most popular questions?
