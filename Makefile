@@ -18,7 +18,7 @@ FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
 ASSETS_SRC=$(wildcard assets/*)
 ASSETS_DST=$(patsubst %,docs/%,${ASSETS_SRC})
 CREATE_PDF=CREATE_PDF.sh
-RELEASE=$(HOME)/t3-release.zip
+RELEASE=$(HOME)/t3.zip
 
 # Controls
 all : commands
