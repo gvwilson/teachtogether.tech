@@ -4,7 +4,7 @@
 LATEX=pdflatex --shell-escape
 BIBTEX=biber
 MAKEINDEX=makeindex
-PANDOC=pandoc -s --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2 --csl=chicago.csl
+PANDOC=pandoc --standalone --css=assets/bootstrap.min.css --css=assets/tango.css --css=assets/book.css --toc --toc-depth=2 --csl=chicago.csl
 
 # Files
 TEX=$(wildcard *.tex)
@@ -54,7 +54,7 @@ ${PDF} : ${SRC}
 ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
 	@mkdir -p docs
 	bin/pre-pandoc.py < book.tex > temp.tex
-	${PANDOC} --template=template.html --bibliography=book.bib -o - temp.tex \
+	${PANDOC} --template=template.html --bibliography=book.bib --output=- temp.tex \
 	| bin/post-pandoc.py \
 	> ${HTML}
 	rm temp.tex
