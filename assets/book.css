@@ -20,19 +20,18 @@ h1.unnumbered {
     border-top-style: none;
 }
 
-div.row-scrollable {
-    height: 100vh;
+@media (min-width: 768px) {
+    .col-toc {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: scroll;
+    }
 }
 
-div.col-toc {
-    height: 100%;
-    overflow-y: scroll;
+.col-toc {
     font-size: 90%;
-}
-
-div.col-body {
-    height: 100%;
-    overflow-y: scroll;
 }
 
 div.dedication {
