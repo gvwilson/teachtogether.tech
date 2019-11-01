@@ -1,6 +1,7 @@
 header {
     text-align: center;
 }
+
 p.author,p.subtitle,p.date {
     font-style: italic;
     font-size: 1.5rem;
