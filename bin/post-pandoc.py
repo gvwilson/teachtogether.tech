@@ -28,6 +28,7 @@ def main():
     text = FIGURE_PAT.sub(r'<img src="figures/\1.svg"', text)
     text = BIB_REF_PAT.sub(replace_ref, text)
     text = BIB_ENTRY_PAT.sub(replace_entry, text)
+    text = fix_empty_table_cells(text)
     text = fix_footnotes(text)
     sys.stdout.write(text)
 
@@ -39,6 +40,10 @@ def replace_ref(refs):
 def replace_entry(entry):
     entry = entry.group(1)
     return f'<div id="ref-{entry}">\n<p><strong>[{entry}]</strong> '
+
+
+def fix_empty_table_cells(text):
+    return text.replace('<p>[-1.5ex]</p>', '').replace('[-1.5ex]', '')
 
 
 def fix_footnotes(text):
