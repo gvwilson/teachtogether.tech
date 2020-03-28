@@ -1,0 +1,121 @@
+\usepackage{changepage}
+\usepackage{graphicx}
+\usepackage{makeidx}
+
+%--------------------
+
+% Use numbers for nested lists all the way down.
+\usepackage{enumitem}
+\setlist[enumerate,1]{label=\arabic*., ref=\arabic*}
+\setlist[enumerate,2]{label=\arabic*., ref=\arabic*}
+\setlist[enumerate,3]{label=\arabic*., ref=\arabic*}
+
+% Allow multi-page tables.
+\usepackage{longtable}
+
+% Make description items cross-referenceable
+\def\namedlabel#1#2{\begingroup
+    #2%
+    \def\@currentlabel{#2}%
+    \phantomsection\label{#1}\endgroup
+}
+\makeatother
+
+% Change hanging indentation for description environment.
+\makeatletter
+\renewenvironment{description}%
+  {\list{}{\leftmargin=1em\itemsep3pt % <------- Adjust this length
+    \labelwidth\z@ \itemindent-\leftmargin
+    \let\makelabel\descriptionlabel}}%
+  {\endlist}
+\makeatother
+
+% Use smaller font for verbatim environments.
+\usepackage{fancyvrb}
+
+% Syntax highlighting with minted <http://mirror.its.dal.ca/ctan/macros/latex/contrib/minted/minted.pdf>
+\usepackage{minted}
+
+\frenchspacing
+\tolerance=5000
+
+%----------------------------------------
+
+% Ignore subtitle in PDF version.
+\newcommand{\subtitle}[1]{}
+
+% Asides
+\newenvironment{aside}[1]%
+{\addvspace{6pt}\begin{adjustwidth}{2em}{2em}%
+\centerline{\itshape\textbf{#1}}\par\itshape\noindent\ignorespaces}%
+{\end{adjustwidth}\addvspace{6pt}}
+
+% Remove indentation from footnotes
+\usepackage[hang,flushmargin]{footmisc}
+
+%----------------------------------------
+
+% Render hyperlinks with footnotes as well.
+\newcommand{\hreffoot}[2]{{#2}\footnote{\href{#1}{#1}}}
+
+% Mark recommendations.
+\newcommand{\recommendation}[1]{\emph{#1}}
+
+\usepackage{csquotes}
+
+%----------------------------------------
+
+\def\UrlFont{\rmfamily}
+
+% Chapters, sections, and appendices with labels.
+\newcommand{\chaplbl}[2]{\chapter{#1}\label{#2}}
+\newcommand{\seclbl}[2]{\section{#1}\label{#2}}
+\newcommand{\appref}[1]{Appendix~\ref{#1}}
+\newcommand{\chapref}[1]{Chapter~\ref{#1}}
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+
+% Image figures.
+\newcommand{\figimg}[3]{\begin{figure}%
+\centering%
+\includegraphics[width=\textwidth]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
+% PDF figures.
+\newcommand{\figpdf}[3]{\begin{figure}%
+\centering%
+\includegraphics[scale=0.6]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
+% PDF figures forcing location.
+\newcommand{\figpdfhere}[3]{\begin{figure}[H]%
+\centering%
+\includegraphics[scale=0.6]{#1}%
+\caption{#2}%
+\label{#3}%
+\end{figure}}
+
+% Exercise headings.
+\newcommand{\exercise}[3]{\subsection*{#1 (#2/#3)}}
+
+%----------------------------------------
+
+% Create an index.
+\makeindex
+ 
+%----------------------------------------
+ 
+% Always load hyperref last
+% https://tex.stackexchange.com/questions/16268/warning-with-footnotes-namehfootnote-xx-has-been-referenced-but-does-not-exi
+\usepackage{hyperref}
+%%\usepackage[plainpages=false,pdfpagelabels,pagebackref]{hyperref}
+
+% Glossary references and items
+\newcommand{\gref}[2]{\hyperlink{#1}{\textbf{#2}}\index{#2}}
+\newcommand{\grefdex}[3]{\hyperlink{#1}{\textbf{#2}}\index{#3}}
+\newcommand{\grefcross}[2]{\hyperlink{#1}{\textbf{#2}}}
+\newcommand{\gitem}[2]{\item[\hypertarget{#1}{#2}]}
