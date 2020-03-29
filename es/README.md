@@ -46,6 +46,15 @@ __8. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cue
 Hay términos técnicos que será necesario traducir y otros que no. El criterio suele estar en si existe una versión en español extendida (o entendible), o si se suele utilizar la versión original en inglés. En el caso de los últimos, hay que determinar qué género gramatical asignarle y si ofreceremos una traducción explicativa la primera vez que los utilicemos.
 A medida que avancemos con la traducción, la idea es ir discutiendo este punto. A partir de lo que se acuerde, iremos completando las listas de términos.
 
+#### Términos técnicos que se mantienen
+Estos términos deberían ir en un formato especial (se utiliza cursiva en general). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás.   
+
+| no traducir    |
+| ----------------------------|
+| commits |
+| issues  |
+| ... |
+
 [Las Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
  
