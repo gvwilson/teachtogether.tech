@@ -3,7 +3,7 @@ TEX=$(wildcard *.tex) $(wildcard *.bib)
 ## book.pdf : Re-make PDF.
 book.pdf : ${TEX}
 	pdflatex --shell-escape book
-	bibtex book
+	biber book
 	makeindex book
 	pdflatex --shell-escape book
 	pdflatex --shell-escape book

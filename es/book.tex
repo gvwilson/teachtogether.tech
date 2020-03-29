@@ -1,5 +1,5 @@
-\documentclass{book}
-\input{es-settings}
+\documentclass[nemilov1]{../Nemilov}
+\input{../pdf-settings}
 
 \begin{document}
 
@@ -32,8 +32,7 @@
 
 \cleardoublepage
 
-\bibliographystyle{plain}
-\bibliography{book}
+\printbibliography
 
 \appendix
 \input{license}
@@ -44,6 +43,9 @@
 \input{checklists}
 \input{conceptmaps}
 \input{chunking}
+
+%%- \chapter*{References}
+%%- \addcontentsline{toc}{chapter}{\bfseries References}
 
 \printindex
 
