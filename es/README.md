@@ -1,7 +1,7 @@
 # Orientaciones para la traducción
 
 ## A. Organización del trabajo
-Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. 
+Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto.
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
@@ -49,7 +49,7 @@ A medida que avancemos con la traducción, la idea es ir discutiendo este punto.
 #### Términos técnicos que se mantienen
 Estos términos deberían ir en un formato especial (se utiliza cursiva en general). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás.   
 
-| no traducir    |
+| No traducir    |
 | ----------------------------|
 | commits |
 | issues  |
