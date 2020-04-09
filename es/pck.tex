@@ -1,83 +1,59 @@
-\chapter{Pedagogical Content Knowledge}\label{s:pck}
+\chapter{Conociminto de la pedagoía del contenido}\label{s:pck}
 
-Every teacher needs three things:
+Cada docente necesita tres cosas:
 
 \begin{description}
 
-\item[\gref{g:content-knowledge}{content knowledge}]
-  such as how to program;
+\item[\gref{g:content-knowledge}{conocimiento del contenido}]
+  por ejemplo, como programar;
 
-\item[\gref{g:general-pedagogical-knowledge}{general pedagogical knowledge}]
-  such as an understanding of the psychology of learning;
-  and
+\item[\gref{g:general-pedagogical-knowledge}{conocimiento general de pedagogía}]
+  por ejemplo, comprensión de la psicología del aprendizaje;
+  y
 
-\item[\gref{g:pedagogical-content-knowledge}{pedagogical content knowledge}]
-  (PCK),
-  which is the domain-specific knowledge of
-  how to teach a particular concept to a particular audience.
-  In computing,
-  PCK includes things like what examples to use when teaching how parameters are passed to a function
-  or what misconceptions about nesting HTML tags are most common.
-
+\item[\gref{g:pedagogical-content-knowledge}{conocimiento de la pedagoía del contenido}]
+  (PCK por Pedagogical Content Knowledge en inglés),
+  que es el conocimiento específico de cómo enseñar un concepto particular a una audiencia en particular. 
+  En informática,
+  PCK incluye cosas como qué ejemplos usar cuando se enseña como se incluyen parámentros en una función o que conceptos erroneos sobre etiquetas HTML anidadas son los más comunes.
 \end{description}
 
-We can add technical knowledge to this mix~\cite{Koeh2013},
-but that doesn't change the key point:
-it isn't enough to know the subject and how to teach---you have to know
-how to teach that particular subject~\cite{Maye2004}.
-This chapter therefore summarizes some results from computing education research
-that will add to your store of PCK.
+Podemos agregar conocimiento técnico a este conjunto~\cite{Koeh2013},
+pero eso no cambia en punto clave: no es suficiente saber sobre el tema y como enseñar---tienes que saber cómo enseñar ese tema en particular~\cite{Maye2004}.
+Este capítulo resume algunos resultados de investigación sobre enseñanzan de informática para añadir a tu colección de PCK.
 
-As with all research,
-some caution is required when interpreting results:
+Como con toda investigación,
+se requiere cierta precaución al interpretar los resultados:
 
 \begin{description}
 
-\item[Theories change as more data becomes available.]
-  Computing education research (CER) is a young discipline:\index{computing education research}
-  the American Society for Engineering Education was founded in 1893
-  and the National Council of Teachers of Mathematics in 1920,
-  but the Computer Science Teachers Association didn't exist until 2005.
-  While a steady stream of new insights are reported at conferences like \hreffoot{http://sigcse.org/}{SIGCSE},
+\item[Las teorías cambian a medida que se obtienen más datos.]
+  La investigación en educación en informática (CER, por Computing education research en inglés) es una nueva diciplina:\index{computing education research}
+  la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Concejo Nacional de Profesores de Matemática en 1920, pero la Asociación de Profesores de Informática no existió hasta 2005.
+  Mientras que existe un flujo constante de nuevo conocimiento en conferencias como \hreffoot{http://sigcse.org/}{SIGCSE},
   \hreffoot{http://iticse.acm.org/}{ITiCSE},
-  and \hreffoot{https://icer.hosting.acm.org}{ICER},
-  we simply don't know as much about learning to program
-  as we do about learning to read,
-  play a sport,
-  or do basic arithmetic.
-
-\item[Most of these studies' subjects are WEIRD:]\index{WEIRD}
-  they are from Western, Education, Industrialized, Rich, and Democratic societies~\cite{Henr2010}.
-  What's more,
-  they are also mostly young and in institutional classrooms,
-  since that's the population most researchers have easiest access to.
-  We know much less about adults,
-  members of marginalized groups,
-  learners in free-range settings,
-  or \grefdex{g:end-user-programmer}{end-user programmers}{end-user programmer},
-  even though there are far more of them.
+  y \hreffoot{https://icer.hosting.acm.org}{ICER},
+  simplemente no sabemos tanto sobre como aprender a programar como sabemos sobre aprender a leer, jugar un deporte o resolver cálculos simples.
+  
+\item[La mayoría de las personas en estos estudios son WEIRD:]\index{WEIRD}
+  viven en sociedades occidentales, democráticas, industrializadas y con alto nivel de riqueza y educación (WEIRD por Western, Education, Industrialized, Rich, and Democratic en inglés)~\cite{Henr2010}.
+  Además,
+  son principalmente jóvenes en contextos formales, ya que es la población a la que la mayoría de las personas que investigan tienen fácil acceso. 
+  Sabemos mucho menos sobre adultos, grupos marginados y estudiantes en contextos no formales o \grefdex{g:end-user-programmer}{end-user programmers}{end-user programmer},
+  aún cuando son la mayoría.
 
 \end{description}
 
-If this was an academic treatise,
-I would therefore preface most claims with qualifiers like,
-``Some research may seem to indicate that{\ldots}''
-But since actual teachers in actual classrooms have to make decisions
-regardless of whether research has clear answers yet or not,
-this chapter presents actionable best guesses rather than nuanced perhapses.
+Si esto fuera un ensayo académico, empezaría la mayotía de oraciones con frases como,
+``Algunas investigaciones parece indicar que{\ldots}''
+Pero dado que los y las docentes en las aulas tienen que tomar decisiones independientemente de si las investigaciones tienen respuestas claras o no, este capítulo presenta las mejores conjeturas prácticas en lugar de sutiles posibilidades 
 
-\begin{aside}{Jargon}
-  Like any specialty,
-  CER has jargon.
-  \gref{g:cs1}{CS1} refers to an introductory semester-long course
-  in which learners meet variables, loops, and functions for the first time,
-  while \gref{g:cs2}{CS2} refers to a second course
-  that covers basic data structures like stacks and queues,
-  and \gref{g:cs0}{CS0} refers to an introductory course
-  for people without any prior experience
-  who aren't intending to continue with computing right away.
-  Full definitions for these terms can be found in
-  the \hreffoot{https://www.acm.org/education/curricula-recommendations}{ACM Curriculum Guidelines}.
+\begin{aside}{Jerga}
+  Como cualquier especialidad,
+  CER tiene jerga.
+  \gref{g:cs1}{CS1} refiere a un curso introductorio de un semestre de duración, donde los estudiantes aprenden variables, interaciones y funciones por primera vez, mientras que \gref{g:cs2}{CS2} refiere a un segundo curso que cubre las estructuras de datos básicas como  stacks y queues,
+  y \gref{g:cs0}{CS0} refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con computación de inmediato.
+  Las definiciones completas de estos términos se encuentran en\hreffoot{https://www.acm.org/education/curricula-recommendations}{Lineamientos del programa ACM}.
 \end{aside}
 
 \seclbl{What Are We Teaching Them Now?}{s:pck-now}
