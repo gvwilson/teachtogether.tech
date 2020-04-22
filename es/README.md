@@ -49,10 +49,11 @@ A medida que avancemos con la traducción, la idea es ir discutiendo este punto.
 #### Términos técnicos que se mantienen
 Estos términos deberían ir en un formato especial (se utiliza cursiva en general). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás.   
 
-| No traducir    |
-| ----------------------------|
-| commits |
-| issues  |
+| No traducir    | Observaciones  |
+| ---------------|----------------|
+| commits        | contexto: git  |
+| issues         | contexto: git  |
+| commons        | como en las licencias Creative Commons |
 | ... |
 
 [Las Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
