@@ -56,6 +56,14 @@ Estos términos deberían ir en un formato especial (se utiliza cursiva en gener
 | commons        | contexto: como en las licencias Creative Commons |
 | ... |
 
+#### Términos técnicos que se traducen
+
+| Traducir              | Observaciones                     |
+| ----------------------|-----------------------------------|
+| bournout/bourning out | síndrome de desgaste ocupacional  |
+| ... |
+
+
 [Las Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
  
