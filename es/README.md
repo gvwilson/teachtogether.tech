@@ -57,10 +57,15 @@ Estos términos deberían ir en un formato especial (se utiliza cursiva en gener
 | ... |
 
 #### Términos técnicos que se traducen
+Recordar que la primera aparición puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado:
 
-| Traducir              | Observaciones                     |
+Ejemplo:
+> ... the term "crispy" to refer ... > ...utilizamos el término "crujiente" (_crispy en inglés_)...
+
+| Inglés                | Español                           |
 | ----------------------|-----------------------------------|
 | bournout/bourning out | síndrome de desgaste ocupacional  |
+| crispy                | crujiente                         |
 | ... |
 
 
