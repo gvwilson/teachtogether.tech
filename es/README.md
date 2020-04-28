@@ -105,8 +105,8 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Building a Community of Practice| Yanina | Alejandra | | Lista | ||
 | Outreach| ||||||
 | Why I Teach| Yanina |Alejandra|Yara|Lista|||
-| License| Yanina |Yara||Lista||
-| Code of Conduct| Yanina | Yara ||Lista||
+| License| Yanina |Yara|Mónica|Lista||
+| Code of Conduct| Yanina | Yara |Mónica|Lista||
 | Joining Our Community| ||||||
 | Glossary| Yanina ||||||
 | Meetings, Meetings, Meetings| ||||||
