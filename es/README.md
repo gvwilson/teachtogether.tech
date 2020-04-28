@@ -1,38 +1,7 @@
 # Orientaciones para la traducción
 
 ## A. Organización del trabajo
-Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto.
-
-| Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|
-| ---------------|------------|-----------|-----------|---------------|----------------|----------------|
-| Dedication| Yanina |||Lista||
-| The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|
-| Introduction| Yanina ||||||
-| Mental Models and Formative Assessment| ||||||
-| Expertise and Memory| ||||||
-| Cognitive Architecture| ||||||
-| Individual Learning| Paloma ||||||
-| A Lesson Design Process| Paloma ||||||
-| Pedagogical Content Knowledge| Pao ||||||
-| Teaching as a Performance Art| Pao ||||||
-| In the Classroom| ||||||
-| Motivation and Demotivation| ||||||
-| Teaching Online| ||||||
-| Exercise Types| ||||||
-| Building a Community of Practice| Yanina | Alejandra | | Lista | ||
-| Outreach| ||||||
-| Why I Teach| Yanina |Alejandra|Yara|Lista|||
-| License| Yanina |Yara||Lista||
-| Code of Conduct| Yanina | Yara ||Lista||
-| Joining Our Community| ||||||
-| Glossary| Yanina ||||||
-| Meetings, Meetings, Meetings| ||||||
-| Checklists and Templates| ||||||
-| Example Concept Maps| ||||||
-| Chunking Exercise Solution| ||||||
-| References| ||||||
-| Summaries| ||||||
-| ... | 	||||||
+Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto (ver la tabla al final de estas orientaciones).
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
@@ -113,6 +82,40 @@ Ejemplo:
 ## E. ¿Dudas durante el proceso?
 
 Cualquier duda que surja la resolvemos en el canal del Slack. 
+
+## Progreso de la traducción
+
+
+| Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|
+| ---------------|------------|-----------|-----------|---------------|----------------|----------------|
+| Dedication| Yanina |||Lista||
+| The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|
+| Introduction| Yanina ||||||
+| Mental Models and Formative Assessment| ||||||
+| Expertise and Memory| ||||||
+| Cognitive Architecture| ||||||
+| Individual Learning| Paloma ||||||
+| A Lesson Design Process| Paloma ||||||
+| Pedagogical Content Knowledge| Pao ||||||
+| Teaching as a Performance Art| Pao ||||||
+| In the Classroom| ||||||
+| Motivation and Demotivation| ||||||
+| Teaching Online| ||||||
+| Exercise Types| ||||||
+| Building a Community of Practice| Yanina | Alejandra | | Lista | ||
+| Outreach| ||||||
+| Why I Teach| Yanina |Alejandra|Yara|Lista|||
+| License| Yanina |Yara||Lista||
+| Code of Conduct| Yanina | Yara ||Lista||
+| Joining Our Community| ||||||
+| Glossary| Yanina ||||||
+| Meetings, Meetings, Meetings| ||||||
+| Checklists and Templates| ||||||
+| Example Concept Maps| ||||||
+| Chunking Exercise Solution| ||||||
+| References| ||||||
+| Summaries| ||||||
+| ... | 	||||||
 
 ## Atribución
 
