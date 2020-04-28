@@ -3,6 +3,37 @@
 ## A. Organización del trabajo
 Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto.
 
+| Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|
+| ---------------|------------|-----------|-----------|---------------|----------------|----------------|
+| Dedication| Yanina |||Lista||
+| The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|
+| Introduction| Yanina ||||||
+| Mental Models and Formative Assessment| ||||||
+| Expertise and Memory| ||||||
+| Cognitive Architecture| ||||||
+| Individual Learning| Paloma ||||||
+| A Lesson Design Process| Paloma ||||||
+| Pedagogical Content Knowledge| Pao ||||||
+| Teaching as a Performance Art| Pao ||||||
+| In the Classroom| ||||||
+| Motivation and Demotivation| ||||||
+| Teaching Online| ||||||
+| Exercise Types| ||||||
+| Building a Community of Practice| Yanina | Alejandra | | Lista | ||
+| Outreach| ||||||
+| Why I Teach| Yanina |Alejandra|Yara|Lista|||
+| License| Yanina |Yara||Lista||
+| Code of Conduct| Yanina | Yara ||Lista||
+| Joining Our Community| ||||||
+| Glossary| Yanina ||||||
+| Meetings, Meetings, Meetings| ||||||
+| Checklists and Templates| ||||||
+| Example Concept Maps| ||||||
+| Chunking Exercise Solution| ||||||
+| References| ||||||
+| Summaries| ||||||
+| ... | 	||||||
+
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
 __1. Al traducir buscamos generar una versión de cómo diríamos en español lo que en el capítulo está escrito en inglés.__ En algunos casos eso puede implicar alterar el orden de los elementos de una oración o agregar palabras que no estaban en el original. Lo importante es que la traducción se lea lo más natural posible en español, respetando el contenido que se quiso transmitir en el original.
