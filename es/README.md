@@ -102,12 +102,12 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Motivation and Demotivation| ||||||
 | Teaching Online| ||||||
 | Exercise Types| ||||||
-| Building a Community of Practice| Yanina | ¿Alejandra/Yara? | Natalia | Lista | ||
+| Building a Community of Practice| Yanina | Yara | ¿Alejandra/Natalia? | Lista | ||
 | Outreach| ||||||
-| Why I Teach| Yanina |Yara|Alejandra|Lista|||
+| Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||
 | License| Yanina |Yara|Mónica|Lista|Lista||
 | Code of Conduct| Yanina | Yara |Mónica|Lista||
-| Joining Our Community|Yanina|Natalia|Mónica||||
+| Joining Our Community|Yanina|Natalia|Mónica|Lista|||
 | Glossary| Yanina ||||||
 | Meetings, Meetings, Meetings| ||||||
 | Checklists and Templates| ||||||
