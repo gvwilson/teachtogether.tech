@@ -12,7 +12,8 @@ __2. La variedad dialectal del español que usaremos en la traducción es la de 
 * Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.
 * No utilizaremos el voseo (_vos/vosotros_). T3 está dirigido a una segunda persona, así que para mantener lo mas posible la neutralidad la traduciremos como _tú_ (... _If you are using this material_ > ... _si estás usando este material_; _Who do you most want to teach_ > ... _¿Qué es lo que más quieres enseñar?_).
 
-__3. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy, pero muy pocos neutros, por lo que deberemos tomar deciciones respecto de cómo manejar este tema cuando aparezcan en el texto. Por ejemplo, en esta frase: “... _their founders and teachers”_.  En principio, intentaremos ajustar la redacción para evitar tener que asignar un género, para el ejemplo anterior se podría traducir como: _las personas que lo fundaron y aquellas que enseñan_
+__3. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy, pero muy pocos neutros, por lo que deberemos tomar deciciones respecto de cómo manejar este tema cuando aparezcan en el texto. Por ejemplo, en esta frase: “... _their founders and teachers”_.  En principio, intentaremos ajustar la redacción para evitar tener que asignar un género, para el ejemplo anterior se podría traducir como: _las personas que lo fundaron y aquellas que enseñan_.  Para resolver más dudas utilizaremos [esta guía](https://www4.hcdn.gob.ar/dependencias/dprensa/guia_lenguaje_igualitario.pdf) como fuente. 
+
 
 __4. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
 
