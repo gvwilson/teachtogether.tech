@@ -34,7 +34,7 @@ everything : html pdf
 html : ${HTML} ${FIGURES_DST} ${ASSETS_DST} docs/CNAME
 
 ## pdf            : generate PDF from LaTeX source.
-pdf : ${PDF} ${SUMMARIES}
+pdf : ${PDF}
 
 ## once           : force a single run of LaTeX.
 once :
