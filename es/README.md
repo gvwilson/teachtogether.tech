@@ -89,16 +89,16 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|
-| Dedication| Yanina |||Lista||
+| Dedication| Yanina |Alejandra|Mónica|Lista||
 | The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|
-| Introduction| Yanina ||||||
-| Mental Models and Formative Assessment| ||||||
-| Expertise and Memory| ||||||
+| Introduction| Yanina |Natalia|||||
+| Mental Models and Formative Assessment|Natalia||||||
+| Expertise and Memory|Mónica||||||
 | Cognitive Architecture| ||||||
 | Individual Learning| Paloma ||||||
 | A Lesson Design Process| Paloma ||||||
-| Pedagogical Content Knowledge| Pao ||||||
-| Teaching as a Performance Art| Pao ||||||
+| Pedagogical Content Knowledge| Paola ||||||
+| Teaching as a Performance Art| Paola ||||||
 | In the Classroom| ||||||
 | Motivation and Demotivation| ||||||
 | Teaching Online| ||||||
@@ -108,9 +108,9 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|
 | Code of Conduct| Yanina | Yara |Mónica|Lista||
-| Joining Our Community|Yanina|Natalia|Mónica|Lista|||
+| Joining Our Community|Yanina|Natalia|Mónica|Lista|Lista||
 | Glossary| Yanina ||||||
-| Meetings, Meetings, Meetings| ||||||
+| Meetings, Meetings, Meetings|Mónica||||||
 | Checklists and Templates| ||||||
 | Example Concept Maps| ||||||
 | Chunking Exercise Solution| ||||||
