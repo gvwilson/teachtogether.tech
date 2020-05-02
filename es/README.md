@@ -1,7 +1,7 @@
 # Orientaciones para la traducción
 
 ## A. Organización del trabajo
-Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto (ver la tabla al final de estas orientaciones).
+Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto (ver la tabla al final de estas orientaciones con las personas responsables).
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
@@ -101,14 +101,14 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Teaching as a Performance Art| Paola ||||||
 | In the Classroom| ||||||
 | Motivation and Demotivation| ||||||
-| Teaching Online| ||||||
+| Teaching Online|Yanina||||||
 | Exercise Types| ||||||
 | Building a Community of Practice| Yanina | Yara | ¿Alejandra/Natalia? | Lista | ||
 | Outreach| ||||||
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|
 | Code of Conduct| Yanina | Yara |Mónica|Lista||
-| Joining Our Community|Yanina|Natalia|Mónica|Lista|Lista||
+| Joining Our Community|Yanina|Natalia||Lista|Lista||
 | Glossary| Yanina ||||||
 | Meetings, Meetings, Meetings|Mónica||||||
 | Checklists and Templates| ||||||
