@@ -17,7 +17,9 @@ __3. Género gramatical.__ A diferencia del inglés, el español tiene género g
 * En principio, intentaremos ajustar la redacción para evitar tener que asignar un género: por ejemplo, en esta frase: “... _their founders and teachers”_.  se podría traducir como: _las personas que lo fundaron y aquellas que enseñan_.  
 
 * Si no podemos evitar usar marca de género, lo más aceptado por el momento es el desdoblamiento, femenino-masculino o masculino-femenino, que puede ser de dos maneras, por ejemplo: las/los estudiantes, los/las estudiantes; o bien los y las estudiantes, las y los estudiantes, etc.  En esta traducción, al desdoblar:
+
    a. Vamos a utilizar *los/las* ó *los/las* privilegiando la agilidad y fluidez del texto, que el mismo se entienda y que sea claro el mensaje
+
    b. Para que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, entre capítulos y el uso será consistente durante todo el capítulo.
    
    Para resolver más dudas utilizaremos [esta guía](https://www4.hcdn.gob.ar/dependencias/dprensa/guia_lenguaje_igualitario.pdf) como fuente y agregaremos los ejemplos correspondientes en esta guía. 
