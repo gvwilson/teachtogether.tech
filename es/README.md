@@ -89,7 +89,22 @@ Ejemplo:
 * Los títulos llevan mayúscula solo en la palabra inicial (salvo que incluyan un nombre propio).
 * Para consultar la forma convencional de una abreviatura en español, revisar este [enlace](http://www.rae.es/diccionario-panhispanico-de-dudas/apendices/abreviaturas). Hasta el momento ha aparecido _por ejemplo_ > _p. ej._.
 
-## E. ¿Dudas durante el proceso?
+## E. Aspectos de puntuación del español
+
+* Uso de las comas antes del _y_: no usarla, excepto que: 
+  
+  a) sea necesario para darle claridad al texto;
+  
+  b) sea necesario luego de una enumeración anterior, según este ejemplo: 
+  
+    _- "Preparé el examen y tomé un café":_ va sin coma
+    
+    _- "Preparé el examen y la clase de la semana siguiente, y tomé un café":_ va con coma para distinguir del "y" de la primera parte de la oración.
+
+Fuente: punto 2 de https://www.rae.es/dpd/coma
+ 
+
+## F. ¿Dudas durante el proceso?
 
 Cualquier duda que surja la resolvemos en el canal del Slack. 
 
@@ -98,7 +113,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|
-| Dedication| Yanina |Alejandra|Mónica|Lista||
+| Dedication| Yanina |Alejandra|Mónica|Lista||Lista|
 | The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|
 | Introduction| Yanina |Natalia|||||
 | Mental Models and Formative Assessment|Natalia||||||
