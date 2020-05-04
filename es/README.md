@@ -118,8 +118,8 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Introduction| Yanina |Natalia|||||las/los
 | Mental Models and Formative Assessment|Natalia||||||los/las
 | Expertise and Memory|Mónica||||||las/los
-| Cognitive Architecture| ||||||los/las
-| Individual Learning| Paloma ||||||las/los
+| Cognitive Architecture|Patricia ||||||los/las
+| Individual Learning| Paloma | Patricia |||||las/los
 | A Lesson Design Process| Paloma ||||||los/las
 | Pedagogical Content Knowledge| Paola ||||||las/los
 | Teaching as a Performance Art| Paola ||||||los/las
@@ -127,7 +127,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Motivation and Demotivation| ||||||los/las
 | Teaching Online|Yanina||||||las/los
 | Exercise Types| ||||||los/las
-| Building a Community of Practice| Yanina | Yara | ¿Alejandra/Natalia? | Lista | ||las/los
+| Building a Community of Practice| Yanina | Yara | ¿Alejandra? | Lista | ||las/los
 | Outreach| ||||||los/las
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||las/los
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
