@@ -111,35 +111,35 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 ## Progreso de la traducción
 
 
-| Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|
-| ---------------|------------|-----------|-----------|---------------|----------------|----------------|
-| Dedication| Yanina |Alejandra|Mónica|Lista||Lista|
-| The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|
-| Introduction| Yanina |Natalia|||||
-| Mental Models and Formative Assessment|Natalia||||||
-| Expertise and Memory|Mónica||||||
-| Cognitive Architecture| ||||||
-| Individual Learning| Paloma ||||||
-| A Lesson Design Process| Paloma ||||||
-| Pedagogical Content Knowledge| Paola ||||||
-| Teaching as a Performance Art| Paola ||||||
-| In the Classroom| ||||||
-| Motivation and Demotivation| ||||||
-| Teaching Online|Yanina||||||
-| Exercise Types| ||||||
-| Building a Community of Practice| Yanina | Yara | ¿Alejandra/Natalia? | Lista | ||
-| Outreach| ||||||
-| Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||
-| License| Yanina |Yara|Mónica|Lista|Lista|Lista|
-| Code of Conduct| Yanina | Yara |Mónica|Lista||
-| Joining Our Community|Yanina|Natalia||Lista|Lista||
-| Glossary| Yanina ||||||
-| Meetings, Meetings, Meetings|Mónica||||||
-| Checklists and Templates| ||||||
-| Example Concept Maps| ||||||
-| Chunking Exercise Solution| ||||||
-| References| ||||||
-| Summaries| ||||||
+| Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
+| ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
+| Dedication| Yanina |Alejandra|Mónica|Lista||Lista|las/los
+| The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|los/las
+| Introduction| Yanina |Natalia|||||las/los
+| Mental Models and Formative Assessment|Natalia||||||los/las
+| Expertise and Memory|Mónica||||||las/los
+| Cognitive Architecture| ||||||los/las
+| Individual Learning| Paloma ||||||las/los
+| A Lesson Design Process| Paloma ||||||los/las
+| Pedagogical Content Knowledge| Paola ||||||las/los
+| Teaching as a Performance Art| Paola ||||||los/las
+| In the Classroom| ||||||las/los
+| Motivation and Demotivation| ||||||los/las
+| Teaching Online|Yanina||||||las/los
+| Exercise Types| ||||||los/las
+| Building a Community of Practice| Yanina | Yara | ¿Alejandra/Natalia? | Lista | ||las/los
+| Outreach| ||||||los/las
+| Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||las/los
+| License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
+| Code of Conduct| Yanina | Yara |Mónica|Lista|||las/los
+| Joining Our Community|Yanina|Natalia||Lista|Lista||los/las
+| Glossary| Yanina ||||||las/los
+| Meetings, Meetings, Meetings|Mónica||||||los/las
+| Checklists and Templates| ||||||las/los
+| Example Concept Maps| ||||||los/las
+| Chunking Exercise Solution| ||||||las/los
+| References| ||||||los/las
+| Summaries| ||||||las/los
 | ... | 	||||||
 
 ## Atribuciones
