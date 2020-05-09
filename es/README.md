@@ -113,7 +113,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
-| Dedication| Yanina |Alejandra|Mónica|Lista||Lista|las/los
+| Dedication| Yanina |Alejandra|Mónica|Lista|Lista|Lista|las/los
 | The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|los/las
 | Introduction| Yanina |Natalia|||||las/los
 | Mental Models and Formative Assessment|Natalia||||||los/las
