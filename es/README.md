@@ -115,9 +115,9 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 | Dedication| Yanina |Alejandra|Mónica|Lista|Lista|Lista|las/los
 | The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|los/las
-| Introduction| Yanina |Natalia|||||las/los
+| Introduction| Yanina |Natalia|Yuriko||||las/los
 | Mental Models and Formative Assessment|Natalia||||||los/las
-| Expertise and Memory|Mónica||||||las/los
+| Expertise and Memory|Mónica|Natalia|Gaby||||las/los
 | Cognitive Architecture|Patricia ||||||los/las
 | Individual Learning| Paloma | Patricia |||||las/los
 | A Lesson Design Process| Paloma ||||||los/las
@@ -128,7 +128,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Teaching Online|Yanina||||||las/los
 | Exercise Types| ||||||los/las
 | Building a Community of Practice| Yanina | Yara | ¿Alejandra? | Lista | ||las/los
-| Outreach| ||||||los/las
+| Outreach|Juliana||||||los/las
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||las/los
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina | Yara |Mónica|Lista|||las/los
