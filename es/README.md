@@ -124,15 +124,15 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Pedagogical Content Knowledge| Paola ||||||las/los
 | Teaching as a Performance Art| Paola ||||||los/las
 | In the Classroom|Yuriko||||||las/los
-| Motivation and Demotivation| ||||||los/las
+| Motivation and Demotivation|Gaby||||||los/las
 | Teaching Online|Yanina||||||las/los
 | Exercise Types| ||||||los/las
-| Building a Community of Practice| Yanina | Yara | ¿Alejandra? | Lista | ||las/los
+| Building a Community of Practice| Yanina | Yara | Alejandra | Lista |Lista ||las/los
 | Outreach|Juliana||||||los/las
-| Why I Teach| Yanina |Yara|Alejandra|Lista|Lista||las/los
+| Why I Teach| Yanina |Yara|Alejandra|Lista|Lista|Lista|las/los
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
-| Code of Conduct| Yanina | Yara |Mónica|Lista|||las/los
-| Joining Our Community|Yanina|Natalia||Lista|Lista||los/las
+| Code of Conduct| Yanina | Yara |Mónica|Lista|Lista|Lista|las/los
+| Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista||los/las
 | Glossary| Yanina ||||||las/los
 | Meetings, Meetings, Meetings|Mónica||||||los/las
 | Checklists and Templates|Lucia||||||las/los
