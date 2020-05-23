@@ -123,7 +123,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | A Lesson Design Process| Paloma ||||||los/las
 | Pedagogical Content Knowledge| Paola ||||||las/los
 | Teaching as a Performance Art| Paola ||||||los/las
-| In the Classroom| ||||||las/los
+| In the Classroom|Yuriko||||||las/los
 | Motivation and Demotivation| ||||||los/las
 | Teaching Online|Yanina||||||las/los
 | Exercise Types| ||||||los/las
