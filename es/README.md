@@ -127,7 +127,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Motivation and Demotivation|Gaby||||||los/las
 | Teaching Online|Yanina||||||las/los
 | Exercise Types| ||||||los/las
-| Building a Community of Practice| Yanina | Yara | Alejandra | Lista |Lista ||las/los
+| Building a Community of Practice| Yanina | Yara | Alejandra | Lista | ||las/los
 | Outreach|Juliana||||||los/las
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista|Lista|las/los
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
