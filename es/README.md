@@ -22,6 +22,15 @@ __3. Género gramatical.__ A diferencia del inglés, el español tiene género g
 
    b. Para que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, entre capítulos y el uso será consistente durante todo el capítulo.
    
+   d. Acuerdos: el uso de las barras puede entorpecer la lectura, aquí algunas opciones a tener en cuenta que pueden darle más fluidez al texto y respetar el lenguaje no sexista:
+   
+| Opción         | Alternativa  |
+| ---------------|----------------|
+| del/de la estudiante | de tus estudiantes|
+| del/de la docente |del cuerpo docente|
+| al/a la aprendiz |a tus estudiantes |
+| al/a la docente |al conjunto de docentes |
+   
    Para resolver más dudas utilizaremos [esta guía](https://www4.hcdn.gob.ar/dependencias/dprensa/guia_lenguaje_igualitario.pdf) como fuente y agregaremos los ejemplos correspondientes en estas orientaciones. 
 
 __4. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
@@ -76,8 +85,20 @@ Ejemplo:
 | ----------------------|-----------------------------------|
 | bournout/bourning out | síndrome de desgaste ocupacional  |
 | crispy                | crujiente                         |
+| germane-load          | carga pertinente                  |
+| extraneous-load       | carga extrínseca                  |
+| split-attention effect| efecto de atención dividida       |
+| expert blind spot     |punto ciego de las personas expertas|
+| Summative assessment  |evaluación sumativa |
+| novice                | novatos/as, personas novatas |
+| competent practitioners| practicantes competentes, personas competentes |
+| expert                | expertos/as, personas expertas |
+| novice-competent-expert model of skill development | El modelo de desarrollo de habilidades |
+| novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
+|Expertise reversal effect | efecto inverso de la experiencia * |
+| expertise | dependiendo del contexto y si no es un término pedagógico: habilidad, pericia, conocimiento |
 | ... |
-
+* Se debe rechequear esta traducción
 
 [Las Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
