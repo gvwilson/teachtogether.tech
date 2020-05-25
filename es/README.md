@@ -148,7 +148,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | In the Classroom|Yuriko||||||las/los
 | Motivation and Demotivation|Gaby||||||los/las
 | Teaching Online|Yanina||||||las/los
-| Exercise Types| ||||||los/las
+| Exercise Types|Priscilla ||||||los/las
 | Building a Community of Practice| Yanina | Yara | Alejandra | Lista | ||las/los
 | Outreach|Juliana||||||los/las
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista|Lista|las/los
@@ -159,7 +159,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Meetings, Meetings, Meetings|Mónica|Ruth|||||los/las
 | Checklists and Templates|Lucia||||||las/los
 | Example Concept Maps|Yanina||||||los/las
-| Chunking Exercise Solution| ||||||las/los
+| Chunking Exercise Solution|Priscilla||||||las/los
 | References| ||||||los/las
 | Summaries| ||||||las/los
 | ... | 	||||||
