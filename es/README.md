@@ -84,19 +84,20 @@ Ejemplo:
 | Inglés                | Español                           |
 | ----------------------|-----------------------------------|
 | bournout/bourning out | síndrome de desgaste ocupacional  |
-| crispy                | crujiente                         |
-| germane-load          | carga pertinente                  |
-| extraneous-load       | carga extrínseca                  |
-| split-attention effect| efecto de atención dividida       |
-| expert blind spot     |punto ciego de las personas expertas|
-| Summative assessment  |evaluación sumativa |
-| novice                | novatos/as, personas novatas |
 | competent practitioners| practicantes competentes, personas competentes |
+| crispy                | crujiente                         |
 | expert                | expertos/as, personas expertas |
-| novice-competent-expert model of skill development | El modelo de desarrollo de habilidades |
-| novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
-|Expertise reversal effect | efecto inverso de la experiencia * |
+| expert blind spot     |punto ciego de las personas expertas|
 | expertise | dependiendo del contexto y si no es un término pedagógico: habilidad, pericia, conocimiento |
+| expertise reversal effect | efecto inverso de la experiencia * |
+| extraneous-load       | carga extrínseca                  |
+| germane-load          | carga pertinente                  |
+| novice                | novatos/as, personas novatas |
+| novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
+| novice-competent-expert model of skill development | El modelo de desarrollo de habilidades |
+| situado-learning | aprendizaje situado |
+| split-attention effect| efecto de atención dividida       |
+| summative assessment  |evaluación sumativa |
 | ... |
 * Se debe rechequear esta traducción
 
