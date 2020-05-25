@@ -95,7 +95,7 @@ Ejemplo:
 | novice                | novatos/as, personas novatas |
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
-| situado-learning | aprendizaje situado |
+| situated learning | aprendizaje situado |
 | split-attention effect| efecto de atención dividida       |
 | summative assessment  |evaluación sumativa |
 | ... |
