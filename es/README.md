@@ -106,6 +106,8 @@ Ejemplo:
 
 Cuando se encuentre una referencia al título y/o nombre de material referenciado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar \emph{} para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
 
+#### Material para consultar
+
 [Las Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
  
