@@ -139,7 +139,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Dedication| Yanina |Alejandra|Mónica|Lista|Lista|Lista|las/los
 | The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|los/las
 | Introduction| Yanina |Natalia|Yuriko||||las/los
-| Mental Models and Formative Assessment|Natalia|Ruth|Alejandra||||los/las
+| Mental Models and Formative Assessment|Natalia|Ruth|Alejandra|Lista|Lista||los/las
 | Expertise and Memory|Mónica|Natalia|Gaby||||las/los
 | Cognitive Architecture|Patricia ||||||los/las
 | Individual Learning| Paloma | Patricia |||||las/los
