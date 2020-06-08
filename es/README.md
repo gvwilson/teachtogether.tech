@@ -190,9 +190,9 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |conditionals.xml | ||||||los/las
 |for-loop.xml | ||||||los/las
 |labeling.xml | ||||||los/las
-|library-director-concept-map.xml |Yanina ||||||los/las
-|library-friends-concept-map.xml | Yanina ||||||los/las
-|library-patron-concept-map.xml | Yanina ||||||los/las
+|library-director-concept-map.xml |Yanina |||Lista|||los/las
+|library-friends-concept-map.xml | Yanina |||Lista|||los/las
+|library-patron-concept-map.xml | Yanina ||||Lista||los/las
 |matching.xml | ||||||los/las
 |photosynthesis.xml | ||||||los/las
 |screencast.xml | ||||||los/las
