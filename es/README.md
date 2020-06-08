@@ -175,31 +175,31 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
-|2x2-rubric.xml  | ||||||los/las
-|bathtub.xml | ||||||los/las
-|chunking-chunked.xml | ||||||los/las
-|chunking-unchunked.xml | ||||||los/las
-|cognitive-architecture.xml | ||||||los/las
-|conceptmap-active-learning.xml | ||||||los/las
-|conceptmap-assessment.xml | ||||||los/las
-|conceptmap-cognitive-load.xml | ||||||los/las
-|conceptmap-feedback.xml | ||||||los/las
-|conceptmap-mental-models.xml | ||||||los/las
-|conceptmap-motivation.xml | ||||||los/las
-|conceptmap-personas.xml | ||||||los/las
-|conditionals.xml | ||||||los/las
-|for-loop.xml | ||||||los/las
-|labeling.xml | ||||||los/las
+|2x2-rubric.xml  | ||||||
+|bathtub.xml | ||||||
+|chunking-chunked.xml | ||||||
+|chunking-unchunked.xml | ||||||
+|cognitive-architecture.xml | ||||||
+|conceptmap-active-learning.xml | ||||||
+|conceptmap-assessment.xml | ||||||
+|conceptmap-cognitive-load.xml | ||||||
+|conceptmap-feedback.xml | ||||||
+|conceptmap-mental-models.xml | ||||||
+|conceptmap-motivation.xml | ||||||
+|conceptmap-personas.xml | ||||||
+|conditionals.xml | ||||||
+|for-loop.xml | ||||||
+|labeling.xml | ||||||
 |library-director-concept-map.xml |Yanina |||Lista|||los/las
 |library-friends-concept-map.xml | Yanina |||Lista|||los/las
 |library-patron-concept-map.xml | Yanina ||||Lista||los/las
-|matching.xml | ||||||los/las
-|photosynthesis.xml | ||||||los/las
-|screencast.xml | ||||||los/las
-|seasons.xml | ||||||los/las
-|what-to-teach.xml | ||||||los/las
+|matching.xml | ||||||
+|photosynthesis.xml | ||||||
+|screencast.xml | ||||||
+|seasons.xml | ||||||
+|what-to-teach.xml | ||||||
 
-## Atribuciones
+## Atribuciones y agradecimientos
 
 Estas orientaciones de traducción están basadas en la experiencia y documentos generados durante la traducción de [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds)
 
