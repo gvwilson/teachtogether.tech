@@ -165,7 +165,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Glossary| Yanina ||||||las/los
 | Meetings, Meetings, Meetings|Mónica|Ruth|||||los/las
 | Checklists and Templates|Lucia||||||las/los
-| Example Concept Maps|Yanina||||||los/las
+| Example Concept Maps|Yanina|||Lista|||los/las
 | Chunking Exercise Solution|Priscilla||||||las/los
 | References| ||||||los/las
 | Summaries| ||||||las/los
