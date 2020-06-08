@@ -102,7 +102,7 @@ Ejemplo:
 | ... |
 * Se debe rechequear esta traducción
 
-#### Títulos de material refrenciado en el libro
+#### Títulos de material referenciado en el libro
 
 Cuando se encuentre una referencia al título y/o nombre de material referenciado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar \emph{} para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
 
@@ -137,8 +137,9 @@ Fuente: punto 2 de https://www.rae.es/dpd/coma
 
 Cualquier duda que surja la resolvemos en el canal del Slack. 
 
-## Progreso de la traducción
+## G. Progreso de la traducción
 
+### Secciones
 
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
@@ -168,8 +169,35 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Example Concept Maps|Yanina|||Lista|||los/las
 | Chunking Exercise Solution|Priscilla||||||las/los
 | References| ||||||los/las
-| Summaries| ||||||las/los
-| ... | 	||||||
+| Summaries| Natalia ||||||las/los
+
+### Figuras y diagramas
+
+| Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
+| ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
+|2x2-rubric.xml  | ||||||los/las
+|bathtub.xml | ||||||los/las
+|chunking-chunked.xml | ||||||los/las
+|chunking-unchunked.xml | ||||||los/las
+|cognitive-architecture.xml | ||||||los/las
+|conceptmap-active-learning.xml | ||||||los/las
+|conceptmap-assessment.xml | ||||||los/las
+|conceptmap-cognitive-load.xml | ||||||los/las
+|conceptmap-feedback.xml | ||||||los/las
+|conceptmap-mental-models.xml | ||||||los/las
+|conceptmap-motivation.xml | ||||||los/las
+|conceptmap-personas.xml | ||||||los/las
+|conditionals.xml | ||||||los/las
+|for-loop.xml | ||||||los/las
+|labeling.xml | ||||||los/las
+|library-director-concept-map.xml |Yanina ||||||los/las
+|library-friends-concept-map.xml | Yanina ||||||los/las
+|library-patron-concept-map.xml | Yanina ||||||los/las
+|matching.xml | ||||||los/las
+|photosynthesis.xml | ||||||los/las
+|screencast.xml | ||||||los/las
+|seasons.xml | ||||||los/las
+|what-to-teach.xml | ||||||los/las
 
 ## Atribuciones
 
