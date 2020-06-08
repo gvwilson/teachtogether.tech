@@ -176,26 +176,26 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 |2x2-rubric.xml  | ||||||
-|bathtub.xml | ||||||
-|chunking-chunked.xml | ||||||
-|chunking-unchunked.xml | ||||||
-|cognitive-architecture.xml | ||||||
-|conceptmap-active-learning.xml | ||||||
-|conceptmap-assessment.xml | ||||||
-|conceptmap-cognitive-load.xml | ||||||
-|conceptmap-feedback.xml | ||||||
-|conceptmap-mental-models.xml | ||||||
+|bathtub.xml |Yanina|||Lista|||
+|chunking-chunked.xml |No necesita traducción. Son números|
+|chunking-unchunked.xml | No necesita traducción. Son números|
+|cognitive-architecture.xml |Laura||||||
+|conceptmap-active-learning.xml |Laura||||||
+|conceptmap-assessment.xml |Laura|Yanina|Lista||||
+|conceptmap-cognitive-load.xml |Laura||||||
+|conceptmap-feedback.xml |Laura||||||
+|conceptmap-mental-models.xml |Laura|Yanina|Lista||||
 |conceptmap-motivation.xml | ||||||
-|conceptmap-personas.xml | ||||||
+|conceptmap-personas.xml |Laura||||||
 |conditionals.xml | ||||||
-|for-loop.xml | ||||||
+|for-loop.xml |||||||
 |labeling.xml | ||||||
-|library-director-concept-map.xml |Yanina |||Lista|||los/las
-|library-friends-concept-map.xml | Yanina |||Lista|||los/las
-|library-patron-concept-map.xml | Yanina ||||Lista||los/las
+|library-director-concept-map.xml |Yanina|Laura||Lista|||los/las
+|library-friends-concept-map.xml |Yanina|||Lista|||los/las
+|library-patron-concept-map.xml |Yanina|Laura|||Lista||los/las
 |matching.xml | ||||||
-|photosynthesis.xml | ||||||
-|screencast.xml | ||||||
+|photosynthesis.xml |Laura||||||
+|screencast.xml |Yanina||||||
 |seasons.xml | ||||||
 |what-to-teach.xml | ||||||
 
