@@ -176,7 +176,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 |2x2-rubric.xml  | ||||||
-|bathtub.xml |Yanina|||Lista|||
+|bathtub.xml |Yanina|--|--|Lista|--|--|--|
 |chunking-chunked.xml |No necesita traducción. Son números|
 |chunking-unchunked.xml | No necesita traducción. Son números|
 |cognitive-architecture.xml |Laura||||||
@@ -186,7 +186,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |conceptmap-feedback.xml |Laura||||||
 |conceptmap-mental-models.xml |Laura|Yanina|Lista||||
 |conceptmap-motivation.xml | ||||||
-|conceptmap-personas.xml |Laura||||||
+|conceptmap-personas.xml |Laura|Yanina||Lista|Lista|||
 |conditionals.xml | ||||||
 |for-loop.xml |||||||
 |labeling.xml | ||||||
@@ -194,7 +194,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |library-friends-concept-map.xml |Yanina|||Lista|||los/las
 |library-patron-concept-map.xml |Yanina|Laura|||Lista||los/las
 |matching.xml | ||||||
-|photosynthesis.xml |Laura||||||
+|photosynthesis.xml |Laura|Yanina||Lista|Lista||--
 |screencast.xml |Yanina||||||
 |seasons.xml | ||||||
 |what-to-teach.xml | ||||||
