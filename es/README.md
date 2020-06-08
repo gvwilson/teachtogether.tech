@@ -102,7 +102,7 @@ Ejemplo:
 | ... |
 * Se debe rechequear esta traducción
 
-#### Títulos de material refrenciado en el libro
+#### Títulos de material referenciado en el libro
 
 Cuando se encuentre una referencia al título y/o nombre de material referenciado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar \emph{} para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
 
@@ -137,8 +137,9 @@ Fuente: punto 2 de https://www.rae.es/dpd/coma
 
 Cualquier duda que surja la resolvemos en el canal del Slack. 
 
-## Progreso de la traducción
+## G. Progreso de la traducción
 
+### Secciones
 
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
@@ -165,13 +166,40 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Glossary| Yanina ||||||las/los
 | Meetings, Meetings, Meetings|Mónica|Ruth|||||los/las
 | Checklists and Templates|Lucia||||||las/los
-| Example Concept Maps|Yanina||||||los/las
+| Example Concept Maps|Yanina|||Lista|||los/las
 | Chunking Exercise Solution|Priscilla||||||las/los
 | References| ||||||los/las
-| Summaries| ||||||las/los
-| ... | 	||||||
+| Summaries| Natalia ||||||las/los
 
-## Atribuciones
+### Figuras y diagramas
+
+| Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
+| ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
+|2x2-rubric.xml  | ||||||
+|bathtub.xml |Yanina|||Lista|||
+|chunking-chunked.xml |No necesita traducción. Son números|
+|chunking-unchunked.xml | No necesita traducción. Son números|
+|cognitive-architecture.xml |Laura||||||
+|conceptmap-active-learning.xml |Laura||||||
+|conceptmap-assessment.xml |Laura|Yanina|Lista||||
+|conceptmap-cognitive-load.xml |Laura||||||
+|conceptmap-feedback.xml |Laura||||||
+|conceptmap-mental-models.xml |Laura|Yanina|Lista||||
+|conceptmap-motivation.xml | ||||||
+|conceptmap-personas.xml |Laura||||||
+|conditionals.xml | ||||||
+|for-loop.xml |||||||
+|labeling.xml | ||||||
+|library-director-concept-map.xml |Yanina|Laura||Lista|||los/las
+|library-friends-concept-map.xml |Yanina|||Lista|||los/las
+|library-patron-concept-map.xml |Yanina|Laura|||Lista||los/las
+|matching.xml | ||||||
+|photosynthesis.xml |Laura||||||
+|screencast.xml |Yanina||||||
+|seasons.xml | ||||||
+|what-to-teach.xml | ||||||
+
+## Atribuciones y agradecimientos
 
 Estas orientaciones de traducción están basadas en la experiencia y documentos generados durante la traducción de [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds)
 
