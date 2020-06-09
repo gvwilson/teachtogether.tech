@@ -29,4 +29,5 @@ _minted-*
 _site
 book.pdf
 summaries.pdf
+temp.tex
 tex/*/all.tex

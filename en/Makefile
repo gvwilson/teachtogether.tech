@@ -17,6 +17,10 @@ pdf : ${TEX} ${BIB}
 	pdflatex --shell-escape book
 	pdflatex --shell-escape book
 
+## spell : check spelling.
+spell :
+	@-cat ${TEX} | aspell -t list | sort | uniq | diff -y --suppress-common-lines - wordlist.txt
+
 ## pages : pages per chapter.
 pages : ${PDF}
 	@../bin/pages.py book.log book.toc
