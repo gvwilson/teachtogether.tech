@@ -1,15 +1,5 @@
 .PHONY : all check clean commands everything html once pages pdf settings spell words
 
-# Commands
-PANDOC=pandoc \
-  --standalone \
-  --css=assets/bootstrap.min.css \
-  --css=assets/tango.css \
-  --css=assets/book.css \
-  --toc \
-  --toc-depth=2 \
-  --csl=chicago.csl
-
 # Files
 TEX=$(wildcard en/*.tex)
 SRC=${TEX} $(wildcard en/*.bib) $(wildcard *.cls) $(wildcard *.csl)
@@ -31,12 +21,7 @@ html : ${HTML} ${FIGURES_DST} ${ASSETS_DST} docs/CNAME
 
 # Generate HTML.
 ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
-	@mkdir -p docs
-	bin/pre-pandoc.py < en/book.tex > temp.tex
-	${PANDOC} --template=template.html --bibliography=book.bib --output=- temp.tex \
-	| bin/post-pandoc.py \
-	> ${HTML}
-	rm temp.tex
+	@make -C en html
 
 # Copy figures.
 docs/figures/% : figures/%
@@ -53,15 +38,14 @@ docs/CNAME : ./CNAME
 	@mkdir -p docs
 	@cp $< $@
 
-## check : check internal consistency.
-check : spell
-	@python bin/check.py -b book.bib -f figures ${TEX}
-
 ## clean : clean up junk files.
 clean :
 	@find . -name '*~' -delete
 	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
 	@find . -name .DS_Store -prune -exec rm -r "{}" \;
+	@make -C en clean
+	@make -C es clean
+	@make -C kr clean
 
 ## settings : show settings.
 settings :
