@@ -169,7 +169,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Example Concept Maps|Yanina|||Lista|||los/las
 | Chunking Exercise Solution|Priscilla||||||las/los
 | References| ||||||los/las
-| Summaries| Natalia ||||||las/los
+
 
 ### Figuras y diagramas
 
@@ -181,10 +181,10 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |chunking-unchunked.xml | No necesita traducción. Son números|
 |cognitive-architecture.xml |Laura|Yanina||Lista|||
 |conceptmap-active-learning.xml |Laura|Yanina||Lista|||
-|conceptmap-assessment.xml |Laura|Yanina||Lista|||
+|conceptmap-assessment.xml |Laura|Yanina|Natalia|Lista|Lista||
 |conceptmap-cognitive-load.xml |Laura|Yanina||Lista|||
 |conceptmap-feedback.xml |Laura|Yanina||Lista|||
-|conceptmap-mental-models.xml |Laura|Yanina||Lista|||
+|conceptmap-mental-models.xml |Laura|Yanina|Natalia|Lista|||
 |conceptmap-motivation.xml | ||||||
 |conceptmap-personas.xml |Laura|Yanina||Lista|Lista|||
 |conditionals.xml | ||||||
@@ -194,7 +194,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |library-friends-concept-map.xml |Yanina|||Lista|||los/las
 |library-patron-concept-map.xml |Yanina|Laura|Lista|Lista|||los/las
 |matching.xml | ||||||
-|photosynthesis.xml |Laura|Yanina||Lista|Lista||--
+|photosynthesis.xml |Laura|Yanina|Natalia|Lista|Lista||--
 |screencast.xml |Yanina||||||
 |seasons.xml | ||||||
 |what-to-teach.xml | ||||||
