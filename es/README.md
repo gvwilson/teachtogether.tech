@@ -164,7 +164,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Code of Conduct| Yanina | Yara |Mónica|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista||los/las
 | Glossary| Yanina ||||||las/los
-| Meetings, Meetings, Meetings|Mónica|Ruth|||||los/las
+| Meetings, Meetings, Meetings|Mónica|Ruth|Lista||||los/las
 | Checklists and Templates|Lucia||||||las/los
 | Example Concept Maps|Yanina|||Lista|||los/las
 | Chunking Exercise Solution|Priscilla||||||las/los
@@ -176,9 +176,9 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 |2x2-rubric.xml  | ||||||
-|bathtub.xml |Yanina|--|--|Lista|--|--|--|
-|chunking-chunked.xml |No necesita traducción. Son números|
-|chunking-unchunked.xml | No necesita traducción. Son números|
+|bathtub.xml |Yanina|--|--|Lista|Lista|Lista|--|
+|chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
+|chunking-unchunked.xml | No necesita traducción| Son números|Lista|Lista|Lista|--|
 |cognitive-architecture.xml |Laura|Yanina||Lista|||
 |conceptmap-active-learning.xml |Laura|Yanina||Lista|||
 |conceptmap-assessment.xml |Laura|Yanina|Natalia|Lista|Lista||
