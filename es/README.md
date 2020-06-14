@@ -98,7 +98,7 @@ Ejemplo:
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
 | post-mortem  | autopsia |
-| screecasting | grabación de pantalla |
+| screencasting | grabación de pantalla |
 | situated learning | aprendizaje situado |
 | split-attention effect| efecto de atención dividida       |
 | summative assessment  |evaluación sumativa |
