@@ -145,8 +145,8 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 | Dedication| Yanina |Alejandra|Mónica|Lista|Lista|Lista|las/los
 | The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|los/las
-| Introduction| Natalia |Yanina|Yuriko||||las/los
-| Mental Models and Formative Assessment|Natalia|Ruth|Alejandra|Lista|Lista||los/las
+| Introduction| Natalia |Yanina|Yuriko|Lista|||las/los
+| Mental Models and Formative Assessment|Natalia|Ruth|Alejandra|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica|Natalia|Gaby||||las/los
 | Cognitive Architecture|Patricia ||||||los/las
 | Individual Learning| Paloma | Patricia |||||las/los
@@ -178,19 +178,19 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |2x2-rubric.xml  | ||||||
 |bathtub.xml |Yanina|--|--|Lista|Lista|Lista|--|
 |chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
-|chunking-unchunked.xml | No necesita traducción| Son números|Lista|Lista|Lista|--|
-|cognitive-architecture.xml |Laura|Yanina||Lista|||
+|chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
+|cognitive-architecture.xml |Laura|Yanina||Lista|Lista||
 |conceptmap-active-learning.xml |Laura|Yanina||Lista|||
 |conceptmap-assessment.xml |Laura|Yanina|Natalia|Lista|Lista||
-|conceptmap-cognitive-load.xml |Laura|Yanina||Lista|||
+|conceptmap-cognitive-load.xml |Laura|Yanina||Lista|Lista||
 |conceptmap-feedback.xml |Laura|Yanina||Lista|||
-|conceptmap-mental-models.xml |Laura|Yanina|Natalia|Lista|||
+|conceptmap-mental-models.xml |Laura|Yanina|Natalia|Lista|Lista||
 |conceptmap-motivation.xml | ||||||
 |conceptmap-personas.xml |Laura|Yanina||Lista|Lista|||
 |conditionals.xml | ||||||
 |for-loop.xml |||||||
 |labeling.xml | ||||||
-|library-director-concept-map.xml |Yanina|Laura||Lista|||los/las
+|library-director-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
 |library-friends-concept-map.xml |Yanina|||Lista|||los/las
 |library-patron-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
 |matching.xml | ||||||
