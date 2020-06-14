@@ -73,6 +73,7 @@ Estos términos deberían ir en un formato especial (se utiliza cursiva en gener
 | commits        | contexto: git  |
 | issues         | contexto: git  |
 | commons        | contexto: como en las licencias Creative Commons |
+| feedback       | |
 | ... |
 
 #### Términos técnicos que se traducen
@@ -92,6 +93,7 @@ Ejemplo:
 | expertise reversal effect | efecto inverso de la experiencia * |
 | extraneous-load       | carga extrínseca                  |
 | germane-load          | carga pertinente                  |
+| live coding | programación en vivo |
 | novice                | novatos/as, personas novatas |
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
@@ -175,17 +177,17 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
-|2x2-rubric.xml  | ||||||
+|2x2-rubric.xml  | Yanina |||Lista|||--|
 |bathtub.xml |Yanina|--|--|Lista|Lista|Lista|--|
 |chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |cognitive-architecture.xml |Laura|Yanina||Lista|Lista||
-|conceptmap-active-learning.xml |Laura|Yanina||Lista|||
+|conceptmap-active-learning.xml |Laura|Yanina||Lista|Lista||
 |conceptmap-assessment.xml |Laura|Yanina|Natalia|Lista|Lista||
 |conceptmap-cognitive-load.xml |Laura|Yanina||Lista|Lista||
-|conceptmap-feedback.xml |Laura|Yanina||Lista|||
+|conceptmap-feedback.xml |Laura|Yanina||Lista|Lista||
 |conceptmap-mental-models.xml |Laura|Yanina|Natalia|Lista|Lista||
-|conceptmap-motivation.xml | ||||||
+|conceptmap-motivation.xml |Yanina|||Lista|||
 |conceptmap-personas.xml |Laura|Yanina||Lista|Lista|||
 |conditionals.xml | ||||||
 |for-loop.xml |||||||
