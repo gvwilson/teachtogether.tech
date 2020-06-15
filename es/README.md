@@ -178,29 +178,29 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
-|2x2-rubric.xml  | Yanina |||Lista|||--|
-|bathtub.xml |Yanina|--|--|Lista|Lista|Lista|--|
+|2x2-rubric.xml  | Yanina|Paola||Lista|||--|
+|bathtub.xml |Yanina|Natalia|--|Lista|Lista|Lista|--|
 |chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
-|cognitive-architecture.xml |Laura|Yanina||Lista|Lista||
-|conceptmap-active-learning.xml |Laura|Yanina||Lista|Lista||
+|cognitive-architecture.xml |Laura|Yanina|Patricia|Lista|Lista||
+|conceptmap-active-learning.xml |Laura|Yanina|Paloma|Lista|Lista||
 |conceptmap-assessment.xml |Laura|Yanina|Natalia|Lista|Lista||
-|conceptmap-cognitive-load.xml |Laura|Yanina||Lista|Lista||
-|conceptmap-feedback.xml |Laura|Yanina||Lista|Lista||
+|conceptmap-cognitive-load.xml |Laura|Yanina|Patricia|Lista|Lista||
+|conceptmap-feedback.xml |Laura|Yanina|Paola|Lista|Lista||
 |conceptmap-mental-models.xml |Laura|Yanina|Natalia|Lista|Lista||
-|conceptmap-motivation.xml |Yanina|||Lista|||
-|conceptmap-personas.xml |Laura|Yanina||Lista|Lista|||
-|conditionals.xml | ||||||
-|for-loop.xml |Yanina|||Lista|||
-|labeling.xml |Yanina|||Lista|||
+|conceptmap-motivation.xml |Yanina|Gaby||Lista|||
+|conceptmap-personas.xml |Laura|Yanina|Paloma|Lista|Lista|||
+|conditionals.xml |Yanina|Paola||Lista|||
+|for-loop.xml |Yanina|Mónica||Lista|||
+|labeling.xml |Yanina|Priscilla||Lista|||
 |library-director-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
 |library-friends-concept-map.xml |Yanina|||Lista|||los/las
 |library-patron-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
-|matching.xml | Yanina|||Lista|||
-|photosynthesis.xml |Laura|Yanina|Natalia|Lista|Lista||--
+|matching.xml | Yanina|Priscilla||Lista|||
+|photosynthesis.xml |Laura|Yanina|Mónica|Lista|Lista||--
 |screencast.xml |Yanina|||Lista|||
-|seasons.xml |Yanina|||Lista|||
-|what-to-teach.xml |Yanina|||Lista|||
+|seasons.xml |Yanina|Mónica||Lista|||
+|what-to-teach.xml |Yanina|Gaby||Lista|||
 
 ## Atribuciones y agradecimientos
 
