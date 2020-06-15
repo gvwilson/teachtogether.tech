@@ -71,10 +71,13 @@ Estos términos deberían ir en un formato especial (se utiliza cursiva en gener
 | No traducir    | Observaciones  |
 | ---------------|----------------|
 | commits        | contexto: git  |
-| issues         | contexto: git  |
 | commons        | contexto: como en las licencias Creative Commons |
 | feedback       | |
-| ... |
+| heap | contexto: python |
+| issues         | contexto: git  |
+| pipes | contexto: consola unix, R |
+| stack | contexto: python |
+
 
 #### Términos técnicos que se traducen
 Recordar que la primera aparición puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado:
@@ -86,6 +89,7 @@ Ejemplo:
 | ----------------------|-----------------------------------|
 | bournout/bourning out | síndrome de desgaste ocupacional  |
 | competent practitioners| practicantes competentes, personas competentes |
+| call stack | pila de llamada |
 | crispy                | crujiente                         |
 | expert                | expertos/as, personas expertas |
 | expert blind spot     |punto ciego de las personas expertas|
@@ -94,15 +98,18 @@ Ejemplo:
 | extraneous-load       | carga extrínseca                  |
 | germane-load          | carga pertinente                  |
 | live coding | programación en vivo |
+| loop | bucle |
 | novice                | novatos/as, personas novatas |
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
+| path | ruta de acceso |
 | post-mortem  | autopsia |
 | screencasting | grabación de pantalla |
 | situated learning | aprendizaje situado |
 | split-attention effect| efecto de atención dividida       |
+| stack frame | marco de pila |
 | summative assessment  |evaluación sumativa |
-| ... |
+
 * Se debe rechequear esta traducción
 
 #### Títulos de material referenciado en el libro
