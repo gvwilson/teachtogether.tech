@@ -111,6 +111,8 @@ Cuando se encuentre una referencia al título y/o nombre de material referenciad
 
 #### Material para consultar
 
+El primer lugar de consulta son las [slides del curso de Instructores de RStudio en Español](https://drive.google.com/drive/folders/1qwTEMqoqphF9qu7f0lSCSTmikIf5chBi) para chequear como fueron traducidos los términos en ese material.
+
 [Las Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
  
@@ -167,7 +169,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Code of Conduct| Yanina | Yara |Mónica|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista||los/las
 | Glossary| Yanina ||||||las/los
-| Meetings, Meetings, Meetings|Mónica|Ruth||Lista|||los/las
+| Meetings, Meetings, Meetings |Mónica|Ruth||Lista|||los/las
 | Checklists and Templates|Lucia||||||las/los
 | Example Concept Maps|Yanina|||Lista|||los/las
 | Chunking Exercise Solution|Priscilla||||||las/los
