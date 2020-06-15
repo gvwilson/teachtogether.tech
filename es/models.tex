@@ -1,195 +1,178 @@
-\chapter{Mental Models and Formative Assessment}\label{s:models}
+\chapter{Modelos mentales y evaluación formativa}\label{s:models}
 
-The first task in teaching is to figure out who your learners are.
-Our approach is based on the work of researchers like Patricia Benner,\index{Benner, Patricia}
-who studied how nurses progress from novice to expert~\cite{Benn2000}.
-Benner identified five stages of cognitive development that most people go through in a fairly consistent way.
-For our purposes, we will simplify this progression to three stages:
+La primera tarea en la enseñanza es descifrar quiénes son tus estudiantes.
+Nuestra aproximación está basada en el trabajo de investigadores/as como Patricia Benner,\index{Benner, Patricia}
+quien estudió cómo las personas progresan de novatas a expertas en la carrera de enfermería ~\cite{Benn2000}.
+Benner identificó cinco etapas de desarrollo cognitivo que la mayor parte de la gente atraviesa de forma bastante consistente.
+Para nuestros propósitos, simplificamos esta evolución en tres etapas:
 
 \begin{description}
 
-\item[\grefdex{g:novice}{Novices}{novice}]
-  don't know what they don't know,
-  i.e.\ they don't yet have a usable mental model of the problem domain.
+\item[\grefdex{g:novice}{Personas novatas}{novice}]
+no saben qué es lo que no saben,
+es decir, aún no tienen un modelo mental utilizable del dominio del problema.  
 
-\item[\grefdex{g:competent-practitioner}{Competent practitioners}{competent practitioner}]
-  have a mental model that's adequate for everyday purposes.
-  They can do normal tasks with normal effort under normal circumstances,
-  and have some understanding of the limits to their knowledge
-  (i.e.\ they know what they don't know).
+\item[\grefdex{g:competent-practitioner}{Practicantes competentes}{competent practitioner}]
+tienen un modelo mental que es adecuado para los propósitos diarios.
+Pueden llevar a cabo tareas normales con un esfuerzo normal bajo circunstancias normales
+y tienen algún entendimiento de los límites de su conocimiento
+(es decir, saben lo que no saben).
 
-\item[\grefdex{g:expert}{Experts}{expert}]
-  have mental models that include exceptions and special cases,
-  which allows them to handle situations that are out of the ordinary.
-  We will discuss expertise in more detail in \chapref{s:memory}.
+\item[\grefdex{g:expert}{Personas expertas}{expert}]
+  tienen modelos mentales que incluyen excepciones y casos especiales,
+  los cuales les permiten manejar situaciones que están por fuera de lo ordinario.
+Discutiremos sobre la experiencia o pericia en más detalle en el \chapref{s:memory}.
 
 \end{description}
 
-So what \emph{is} a \gref{g:mental-model}{mental model}?
-As the name suggests,
-it is a simplified representation of the most important parts of some problem domain
-that is good enough to enable problem solving.
-One example is the ball-and-spring models of molecules used in high school chemistry.
-Atoms aren't actually balls,
-and their bonds aren't actually springs,
-but the model enables people to reason about chemical compounds and their reactions.
-A more sophisticated model of an atom has a small central ball (the nucleus) surrounded by orbiting electrons.
-It's also wrong,
-but the extra complexity enables people to explain more and to solve more problems.
-(Like software,
-mental models are never finished:
-they're just used.)
+Entonces, ¿qué \emph{es} un \gref{g:mental-model}{modelo mental}?
+Como el nombre lo sugiere,
+es una representación simplificada de las partes más importantes de algún dominio del problema;
+que a pesar de ser simplificada es suficientemente buena para permitir la resolución del problema.
+Un ejemplo es el modelo molecular de bolas y varillas que se usa en las clases de química de la escuela.
+Los átomos no son en realidad bolas
+y las uniones atómicas no son en realidad varillas,
+pero el modelo permite a la gente razonar sobre los componentes químicos y sus reacciones.
+Un modelo más sofisticado de un átomo es aquel con una bola pequeña en el centro (el núcleo) rodeada de electrones orbitantes. 
+También es incorrecto,
+pero la complejidad extra le permite a la gente explicar más y resolver más problemas.
+(Como con el software, 
+los modelos mentales nunca son finalizados:
+simplemente son utilizados.)
 
-Presenting a novice with a pile of facts is counter-productive
-because they don't yet have a model to fit those facts into.
-In fact,
-presenting too many facts too soon can actually reinforce
-the incorrect mental model they've cobbled together.
-As~\cite{Mull2007a} observed in a study of video instruction for science students:
+Presentar a personas novatas un montón de hechos es contraproducente
+porque aún no tienen un modelo donde ubicarlos.
+Incluso,
+presentar demasiados hechos muy pronto puede reforzar
+el modelo mental incorrecto que han improvisado.
+Como observó ~\cite{Mull2007a} en un estudio sobre video-instrucción para estudiantes de ciencia:
 
 \begin{quote}
-
-  Students have existing ideas about{\ldots}phenomena before viewing a video.
-  If the video presents{\ldots}concepts in a clear, well illustrated way,
-  students believe they are learning but they do not engage with the media on a deep enough level
-  to realize that what is presented differs from their prior knowledge{\ldots}
-  There is hope, however.
-  Presenting students' common misconceptions in a video alongside the{\ldots}concepts
-  has been shown to increase learning
-  by increasing the amount of mental effort students expend while watching it.
-
+Los y las estudiantes tienen ideas existentes acerca de{\ldots} los fenómenos antes de ver un video. Si el video presenta{\ldots} conceptos de una forma clara, bien ilustrada, los y las estudiantes creen que están aprendiendo, pero no se involucran con el video en un nivel suficientemente profundo como para darse cuenta de que lo que se les ha presentado difiere de sus conocimientos previos{\ldots} Sin embargo, hay esperanza. Se ha demostrado que el aprendizaje aumenta al presentar en un video {\ldots} las concepciones erróneas comunes de los y las estudiantes junto con los{\ldots} conceptos a enseñar, ya que aumenta el esfuerzo mental que los/las estudiantes realizan mientras miran el video. 
 \end{quote}
 
-Your goal when teaching novices should therefore be
-to help them construct a mental model
-so that they have somewhere to put facts.
-For example,
-Software Carpentry's\index{The Carpentries}
-\hreffoot{http://swcarpentry.github.io/shell-novice/}{lesson on the Unix shell}
-introduces fifteen commands in three hours.
-That's one command every twelve minutes,
-which seems glacially slow until you realize that
-the lesson's real purpose isn't to teach those fifteen commands:
-it's to teach paths,
-history,
-tab completion,
-wildcards,
-pipes,
-command-line arguments,
-and redirection.
-Specific commands don't make sense until novices understand those concepts;
-once they do,
-they can start to read manual pages,
-search for the right keywords on the web,
-and tell whether the results of their searches are useful or not.
+Tu objetivo cuando enseñes a personas novatas debe por lo tanto ser
+ayudarles a construir un modelo mental
+para que tengan algún lugar en el que ordenar los hechos.
+Por ejemplo,
+\index{The Carpentries}
+\hreffoot{http://swcarpentry.github.io/shell-novice/}{la lección sobre la consola Unix} del software Carpentry
+introduce quince comandos en tres horas.
+Eso sería un comando cada doce minutos,
+lo que parece muy lento hasta que te das cuenta de que
+el propósito real de la lección no es enseñar esos quince comandos:
+es enseñar las rutas de acceso,
+la historia de comandos,
+el autocompletado con el tabulador,
+los comodines,
+los \emph{pipes}
+los argumentos de la línea de comando
+y las redirecciones.
+Los comandos específicos no tienen sentido hasta que las personas novatas entienden estos conceptos;
+una vez que lo hacen,
+pueden empezar a leer manuales,
+pueden buscar las palabras claves correctas en la web,
+y pueden decidir si los resultados de sus búsquedas son útiles o no.
 
-The cognitive differences between novices and competent practitioners
-underpin the differences between two kinds of teaching materials.
-A \gref{g:tutorial}{tutorial} helps newcomers to a field build a mental model;
-a \gref{g:manual}{manual},
-on the other hand,
-helps competent practitioners fill in the gaps in their knowledge.
-Tutorials frustrate competent practitioners because they move too slowly
-and say things that are obvious
-(though they are anything \emph{but} obvious to novices).
-Equally,
-manuals frustrate novices because they use jargon and \emph{don't} explain things.
-This phenomenon is called the \gref{g:expertise-reversal}{expertise reversal effect}~\cite{Kaly2003},
-and is one of the reasons you have to decide early on
-who your lessons are for.
+Las diferencias cognitivas entre personas novatas y practicantes competentes
+apuntalan las diferencias entre dos tipos de materiales educativos.
+Un \gref{g:tutorial}{tutorial} ayuda a construir un modelo mental a quienes recién llegan a un determinado campo;
+un \gref{g:manual}{manual},
+por otro lado,
+ayuda a practicantes competentes a llenar los baches de su conocimiento.
+Los tutoriales frustran a los/las practicantes competentes porque avanzan demasiado lento
+y dicen cosas que son obvias
+(aunque no son \emph{para nada} obvios para personas novatas).
+De la misma manera,
+los manuales frustran a las personas novatas porque usan jergas y \emph{no} explican las cosas.
+Este fenómeno se llama el \gref{g:expertise-reversal}{el efecto inverso de la experiencia} ~\cite{Kaly2003},
+y es una de las razones por las que tienes que decidir tempranamente para quiénes son tus lecciones. 
 
-\begin{aside}{A Handful of Exceptions}
-  One of the reasons Unix and C became popular is that
+\begin{aside}{Un puñado de excepciones}
+  Una de las razones por las que Unix y C se hicieron populares es que 
   \cite{Kern1978,Kern1983,Kern1988}
-  somehow managed to be good tutorials \emph{and} good manuals at the same time.
-  \cite{Fehi2008} and~\cite{Ray2014} are among the very few other books in computing that achieve this;
-  even after re-reading them several times,
-  I don't know how they pull it off.
+  de alguna manera consiguieron tener buenos tutoriales \emph{y} buenos manuales al mismo tiempo.
+  \cite{Fehi2008} y ~\cite{Ray2014} están entre los otros pocos libros de computación que consiguieron esto; incluso luego de re-leerlos varias veces, no sé cómo lo lograron.
 \end{aside}
 
-\seclbl{Are People Learning?}{s:models-formative-assessment}
+\seclbl{¿Están aprendiendo tus estudiantes?}{s:models-formative-assessment}
 
-Mark Twain once wrote,\index{Twain, Mark}
-``It ain't what you don't know that gets you into trouble.
-It's what you know for sure that just ain't so.''
-One of the exercises in building a mental model is therefore
-to clear away things that \emph{don't} belong.
-Broadly speaking,
-novices' misconceptions fall into three categories:
+Mark Twain escribió: \index{Twain, Mark}
+``No es lo que no sabes lo que te mete en problemas.
+Es lo que estás seguro/a de saber y simplemente no es así."
+Uno de los ejercicios al construir un modelo mental es, por lo tanto,
+despejar las cosas que \emph{no} pertenecen al modelo.
+En sentido amplio,
+las concepciones erróneas de las personas novatas caen en tres categorías:
 
 \begin{description}
 
-\item[Factual errors]
-  like believing that Vancouver is the capital of British Columbia
-  (it's Victoria).
-  These are usually simple to correct.
+\item[Errores fácticos]
+  como creer que Río de Janeiro es la capital de Brasil (es Brasilia).
+Estos errores generalmente son fáciles de corregir.
   \index{misconception!factual error}
 
-\item[Broken models]
-  like believing that motion and acceleration must be in the same direction.
-  We can address these by having novices reason through examples
-  where their models give the wrong answer.
+\item[Modelos rotos]
+  como creer que el movimiento y la aceleración deben estar en la misma dirección.
+Podemos lidiar con estos errores haciendo que las personas novatas razonen a través de ejemplos
+en los que sus modelos den una respuesta incorrecta.
   \index{misconception!broken mental model}
 
-\item[Fundamental beliefs]
-  such as ``the world is only a few thousand years old''
-  or ``some kinds of people are just naturally better at programming than others''~\cite{Guzd2015b,Pati2016}.
-  These errors are often deeply connected to the learner's social identity,
-  so they resist evidence and rationalize contradictions.
+\item[Creencias fundamentales]
+  como por ejemplo ``el mundo solo tiene algunos miles de años de antigüedad''
+  o ``algunos tipos de personas son naturalmente mejores en programación que otros''~\cite{Guzd2015b,Pati2016}.
+  Estos errores están generalmente conectados profundamente con la identidad social del/de la estudiante, 
+por lo que resisten a las evidencias y racionalizan las contradicciones.
   \index{misconception!fundamental belief}
 
 \end{description}
 
-People learn fastest when teachers identify and clear up learners' misconceptions
-as the lesson is being delivered.
-This is called \gref{g:formative-assessment}{formative assessment}
-because it forms (or shapes) the teaching while it is taking place.
-Learners don't pass or fail formative assessment;
-instead,
-it gives both the teacher and the learner feedback on how well they are doing
-and what they should focus on next.
-For example,
-a music teacher might ask a learner to play a scale very slowly to check their breathing.
-The learner finds out if they are breathing correctly,
-while the teacher gets feedback on whether the explanation they just gave made sense.
+La gente aprende más rápido cuando los y las docentes identifican y aclaran los conceptos erróneos de los y las estudiantes mientras la lección se está dictando.
+Esto se llama \gref{g:formative-assessment}{evaluación formativa}
+porque forma (o le da forma a) la enseñanza mientras se está llevando a cabo.
+Los y las estudiantes no aprueban o reprueban una evaluación formativa;
+en cambio,
+esta evaluación da, tanto a quien enseña como a quien aprende, una retroalimentación sobre qué tan bien les está yendo y en qué se deberían enfocar en los próximos pasos.
+Por ejemplo,
+un/una docente de música le puede pedir a un/una estudiante que toque una escala muy lentamente para chequear su respiración.
+Entonces, el/la estudiante averigua si la respiración es correcta, mientras que el/la docente recibe retroalimentación sobre si la explicación que acaba de dar fue comprendida.
 
-\begin{aside}{Summing Up}
-  The counterpoint to formative assessment is
-  \gref{g:summative-assessment}{summative assessment},
-  which takes place at the end of the lesson.
-  Summative assessment is like a driver's test:
-  it tells the learner whether they have mastered the topic
-  and the teacher whether their lesson was successful.
-  One way of thinking about the difference is that
-  a chef tasting food as she cooks it is formative assessments,
-  but the guests tasting it once it's served is summative.
-
-  Unfortunately,
-  school has trained most people to believe that all assessment is summative,
-  i.e.\ that if something feels like a test,
-  doing poorly will count against you.
-  Making formative assessments feel informal helps reduce this anxiety;
-  in my experience,
-  using online quizzes, clickers, or anything else seems to increase it,
-  since most people today believe that anything they do on the web is being watched and recorded.
+\begin{aside}{En resumen}
+El contrapunto de la evaluación formativa
+es la \gref{g:summative-assessment}{evaluación sumativa},
+que tiene lugar al final de la lección.
+La evaluación sumativa es como un examen de conducir:
+le dice a quien está aprendiendo a conducir si ha dominado el tópico
+y a quien le está enseñando si su lección ha sido exitosa.
+Una forma de pensar la diferencia entre los dos tipos de evaluaciones es que
+quien prueba la comida mientras cocina está haciendo evaluaciones formativas,
+mientras que quien es comensal y prueba la comida cuando se le sirve está haciendo una evaluación sumativa. 
+Desafortunadamente,
+la escuela ha entrenado a la mayoría de la gente para creer que toda evaluación es sumativa, 
+es decir, que si algo se siente como un examen,
+le va a jugar en contra resolverlo pobremente.
+Hacer que las evaluaciones formativas se sientan informales reduce esta ansiedad;
+en mi experiencia,
+usar cuestionarios en línea, o donde deba hacerse click, o cualquier cosa semejante parece aumentar la ansiedad,
+ya que hoy en día la mayoría de la gente cree que todo lo que hace en internet está siendo mirado y grabado.
 \end{aside}
-  
-In order to be useful during teaching,
-a formative assessment has to be quick to administer
-(so that it doesn't break the flow of the lesson)
-and have an unambiguous correct answer
-(so that it can be used with groups).\index{formative assessment!requirements}
-The most widely used kind of formative assessment is probably
-the multiple choice question (MCQ).\index{multiple choice question}
-A lot of teachers have a low opinion of them,
-but when they are designed well,
-they can reveal much more than just whether someone knows specific facts.
-For example,
-suppose you are teaching children how to do multi-digit addition~\cite{Ojos2015}
-and you give them this MCQ:
+ 
+Para ser útil durante la enseñanza,
+una evaluación formativa debe ser rápida de administrar
+(de manera que no rompa el flujo de la lección)
+y debe tener una respuesta correcta no ambigua
+(de manera que pueda ser usada en grupos).\index{formative assessment!requirements}
+El tipo de evaluación formativa más ampliamente usado es probablemente
+el cuestionario de opciones múltiples (COM).\index{multiple choice question}
+Muchos y muchas docentes tienen una mala opinión de ellos,
+pero cuando están bien diseñados
+pueden revelar mucho más que si alguien sabe o no algunos hechos específicos.
+Por ejemplo,
+supón que estás enseñando a niños y niñas cómo hacer sumas de números con múltiples dígitos~\cite{Ojos2015}
+y les das este COM:
 
 \begin{quote}
-  What is 37 + 15?\\
+  ¿Cuánto es 37 + 15?\\
   a) 52\\
   b) 42\\
   c) 412\\
@@ -197,404 +180,370 @@ and you give them this MCQ:
 \end{quote}
 
 \noindent
-The correct answer is 52,
-but the other answers provide valuable insights:
+La respuesta correcta es 52,
+pero las otras respuestas proporcionan información valiosa:
 
 \begin{itemize}
 
 \item
-  If the child chooses 42,
-  she has no understanding of what ``carrying'' means.
-  (She might well write 12 as the answers to 7+5,
-  then overwrite the 1 with the 4 she gets from 3+1.)
+  Si el/la niño/a elige 42,
+no entiende qué significa ``llevarse" una unidad.
+(Podría escribir 12 como respuesta a 7+5,
+pero luego reemplazaría el 1 con el 4 que obtiene de la suma de 3+1.)
+\item
+ Si elige 412,
+está tratando a cada columna de números como un problema separado.
+Esto sigue siendo incorrecto,
+pero es incorrecto por un motivo distinto.
 
 \item
-  If she chooses 412,
-  she is treating each column of numbers as a separate problem.
-  This is still wrong,
-  but it's wrong for a different reason.
-
-\item
-  If she chooses 43 then she knows she has to carry the 1
-  but is carrying it back into the column it came from.
-  Again,
-  this is a different mistake,
-  and requires a different clarifying explanation from the teacher.
-
+Si elige 43, entonces sabe que tiene que llevarse el 1,
+pero lo lleva de vuelta a la columna de donde viene.
+De nuevo,
+es un error distinto
+que requiere de una explicación clarificadora diferente por parte de quien enseña.  
 \end{itemize}
 
-Each of these incorrect answers is a \gref{g:plausible-distractor}{plausible distractor}
-with \gref{g:diagnostic-power}{diagnostic power}.
-A distractor is a wrong or less-than-best answer;
-``plausible'' means that it looks like it could be right,
-while ``diagnostic power'' means that each of the distractors helps the teacher figure out
-what to explain next to that particular learner.
+Cada una de estas respuestas incorrectas es un \gref{g:plausible-distractor}{distractor plausible}
+con \gref{g:diagnostic-power}{poder diagnóstico}.
+Un distractor es una respuesta incorrecta o peor que la mejor respuesta;
+``plausible" significa que parece que podría ser correcta,
+mientras que ``poder diagnóstico" significa que cada uno de los distractores ayuda al docente a darse cuenta de qué explicar a continuación a ese/a estudiante particular.
 
-The spread of responses to a formative assessment guides what you do next.
-If enough of the class has the right answer, you move on.
-If the majority of the class chooses the same wrong answer,
-you should go back and work on correcting the misconception that distractor points to.
-If their answers are evenly split between several options they are probably just guessing,
-so you should back up and re-explain the idea in a different way.
-(Repeating exactly the same explanation will probably not be useful,
-which is one of things that makes so many video courses pedagogically ineffective.)
+La variedad de respuestas a una evaluación formativa te guía cómo continuar.
+Si una cantidad suficiente de la clase tiene la respuesta correcta, avanzas.
+Si la mayoría de la clase elige la misma respuesta incorrecta,
+deberías retroceder y trabajar en corregir la concepción errónea que ese distractor señala.
+Si las respuestas de la clase se dividen equitativamente entre varias opciones, probablemente están arriesgando, entonces deberías retroceder y re-explicar la idea de una manera distinta.
+(Repetir exactamente la misma explicación probablemente no será útil,
+lo cual es uno de los motivos por los que tantos cursos por video son pedagógicamente ineficientes.)
 
-What if most of the class votes for the right answer
-but a few vote for wrong ones?
-In that case,
-you have to decide whether you should spend time getting the minority caught up
-or whether it's more important to keep the majority engaged.
-No matter how hard you work or what teaching practices you use,
-you won't always be able to give everyone what they need;
-it's your responsibility as a teacher to make the call.
+¿Qué pasa si la mayoría de la clase vota por la respuesta correcta
+pero un grupo pequeño vota por las incorrectas?
+En ese caso, 
+tienes que decidir si deberías destinar tiempo a que la minoría entienda
+o si es más importante mantener a la mayoría cautivada.
+No importa cuán duro trabajes o qué prácticas de enseñanza uses,
+no siempre vas a conseguir darle a todos y todas lo que necesitan;
+es tu responsabilidad como docente tomar la decisión.
 
-\begin{aside}{Where Do Wrong Answers Come From?}
-  In order to come up with plausible distractors,
-  think about the questions your learners asked or problems they had
-  the last time you taught this subject.
-  If you haven't taught it before,
-  think about your own misconceptions,
-  ask colleagues about their experiences,
-  or look at the history of your field:
-  if everyone misunderstood your subject in some way fifty years ago,
-  the odds are that a lot of your learners will still misunderstand it that way today.
-  You can also ask open-ended questions in class
-  to collect misconceptions about material to be covered in a later class,
-  or check question and answer sites like \hreffoot{http://www.quora.com}{Quora}
-  or \hreffoot{https://stackoverflow.com/}{Stack Overflow}
-  to see what people learning the subject elsewhere are confused by.
+\begin{aside}{¿De dónde vienen las respuestas incorrectas?}
+ Para diseñar distractores plausibles,
+piensa en las preguntas que tus estudiantes hicieron o en los problemas que tuvieron la última vez que enseñaste esta temática.
+Si no la has enseñado antes,
+piensa en tus propios conceptos erróneos,
+pregúntale a colegas sobre sus experiencias
+o busca la historia de tu campo temático:
+si las demás personas tuvieron los mismos malentendidos sobre tu temática cincuenta años atrás,
+hay chances de que la mayoría de tus estudiantes aún malentiendan la temática de la misma forma al día de hoy.
+También puedes hacer preguntas abiertas en clase
+para recoger las concepciones erróneas sobre los temas que vas a abarcar en una clase posterior,
+o consultar sitios de preguntas y respuestas como \hreffoot{http://www.quora.com}{Quora}
+  o \hreffoot{https://stackoverflow.com/}{Stack Overflow}
+  para ver con qué se confunden quienes aprenden la temática en cualquier otro lugar.
 \end{aside}
 
-Developing formative assessments makes your lessons better
-because it forces you to think about your learners' mental models.
-In my experience,
-once I do this I automatically write the lesson to cover the most likely gaps and errors.
-Formative assessments therefore pay off even if they aren't used
-(though teaching is more effective if they are).
+Desarrollar evaluaciones formativas hace mejor tus lecciones
+porque te fuerza a pensar en los modelos mentales de tus estudiantes.
+En mi experiencia,
+al pensar evaluaciones formativas automáticamente escribo la lección de forma de abarcar los baches y errores más probables.
+Las evaluaciones formativas, por lo tanto, dan buenos resultados incluso si no son utilizadas
+(aunque la enseñanza es más efectiva cuando sí se utilizan).
 
-MCQs aren't the only kind of formative assessment:
-\chapref{s:exercises} describes other kinds of exercises that are quick and unambiguous.
-Whatever you pick,
-you should do something that takes a minute or two every 10--15 minutes
-to make sure that your learners are actually learning.
-This rhythm isn't based on an intrinsic attentional limit:~\cite{Wils2007}
-found little support for the often-repeated claim that
-learners can only pay attention for 10--15 minutes.
-Instead,
-the guideline ensures that if a significant number of people have fallen behind,
-you only have to repeat a short portion of the lesson.
-Frequent formative assessments also keep learners engaged,
-particularly if they involved small-group discussion
+Los COMs no son el único tipo de evaluación formativa:
+el \chapref{s:exercises} describe otros tipos de ejercicios que son rápidos y no son ambiguos.
+Cualquiera sea la evaluación que escojas,
+deberías hacer algo que tome un minuto o dos cada 10--15 minutos
+de manera de asegurarte que tus estudiantes están realmente aprendiendo.
+Este ritmo no está basado en un límite de atención intrínseco: ~\cite{Wils2007}
+encontró poca evidencia a favor de la afirmación usualmente repetida de que
+los y las estudiantes solo pueden prestar atención durante 10--15 minutos.
+En cambio,
+la guía asegura que, si un número significativo de personas se ha quedado atrás,
+solo tienes que repetir una pequeña porción de la lección.
+Las evaluaciones formativas frecuentes también mantienen el compromiso de tus estudiantes, 
+particularmente si están involucrados/as en una discusión en un grupo pequeño.
 (\secref{s:classroom-peer}).
 
-Formative assessments can also be used \emph{before} lessons.
-If you start a class with an MCQ and everyone answers it correctly,
-you can avoid explaining something that your learners already know.
-This kind of \gref{g:active-teaching}{active teaching}
-gives you more time to focus on things they don't know.
-It also shows learners that you respect their time enough not to waste it,
-which helps with motivation (\chapref{s:motivation}).
+Las evaluaciones formativas también pueden ser usadas \emph{antes} de las lecciones.
+Si comienzas una clase con un COM y toda la clase lo contesta correctamente,
+puedes evitar explicar algo que tus estudiantes ya saben.
+Este tipo de \gref{g:active-teaching}{enseñanza activa}
+te da más tiempo para enfocarte en las cosas que tus estudiantes no saben.
+También le muestra a tus estudiantes que respetas su tiempo lo suficiente como para no desperdiciarlo,
+lo que ayuda a la motivación (\chapref{s:motivation}).
 
-\begin{aside}{Concept Inventories}
-  Given enough data,
-  MCQs can be made surprisingly precise.
-  The best-known example is the
-  \grefdex{g:concept-inventory}{Force Concept Inventory}{concept inventory}~\cite{Hest1992},
-  which assesses understanding of basic Newtonian mechanics.
-  By interviewing a large number of respondents,
-  correlating their misconceptions with patterns of right and wrong answers,
-  and then improving the questions,
-  its creators constructed a diagnostic tool that can pinpoint specific misconceptions.
-  Researchers can then use that tool to measure the effect of changes in teaching methods~\cite{Hake1998}.
-
-  Tew and others developed and validated
-  a language-independent assessment for introductory programming~\cite{Tew2011};
-  \cite{Park2016} replicated it,
-  and~\cite{Hamo2017} is developing a concept inventory for recursion.
-  However,
-  it's very costly to build tools like this,
-  and learners' ability to search for answers online is an ever-increasing threat to their validity.
+\begin{aside}{Inventario de conceptos}
+Con una cantidad de datos suficiente,
+los COMs pueden ser sorprendentemente precisos.
+El ejemplo más conocido es el
+  \grefdex{g:concept-inventory}{inventario del concepto de fuerza}{concept inventory}~\cite{Hest1992},
+que evalúa la comprensión sobre los mecanismos básicos newtonianos.
+Al entrevistar un gran número de participantes,
+correlacionando sus concepciones erróneas con los patrones de respuestas correctas e incorrectas,
+así como mejorando las preguntas,
+los creadores de este inventario construyeron una herramienta de diagnóstico que permite identificar concepciones erróneas específicas.
+Las personas  que investigan pueden utilizar dicha herramienta para medir el efecto de los cambios en los métodos de enseñanza ~\cite{Hake1998}.
+Tew y colaboradores desarrollaron y validaron una evaluación independiente del lenguaje para programación introductoria ~\cite{Tew2011};  \cite{Park2016} la replicaron y ~\cite{Hamo2017} está desarrollando un inventario de conceptos sobre la recursividad.
+Sin embargo,
+es muy costoso construir herramientas de este tipo
+y su validez está cada vez más amenazada por la habilidad de los/las estudiantes para buscar respuestas en línea.
 \end{aside}
 
-Working formative assessments into class only requires a little bit of preparation and practice.
-Giving learners colored or numbered cards so that they can all answer an MCQ at once
-(rather than holding up their hands in turn),
-having one of the options be, ``I have no idea,''
-and encouraging them to talk to their neighbors for a few seconds before answering
-will all help ensure that your teaching flow isn't disrupted.
-\secref{s:classroom-peer} describes a powerful,
-evidence-based teaching method that builds on these simple ideas.
+Desarrollar evaluaciones formativas en una clase solo requiere un poco de preparación y práctica.
+Puedes darles a tus estudiantes tarjetas coloreadas o numeradas para que respondan un COMs todos/as a la vez (en lugar de que tengan que levantar sus manos en turnos), incluyendo como una de las opciones ``No tengo idea''
+y alentándolos/as a hablar con sus vecinos/as por un par de segundos antes de responder. Todas estas prácticas te ayudarán a asegurar que el flujo de enseñanza no sea interrumpido.
+La \secref{s:classroom-peer} describe un método de enseñanza poderoso y basado en evidencias, construido a partir de estas simples ideas. 
 
 \begin{aside}{Humor}
-  Teachers sometimes put supposedly-silly answers like ``my nose!'' on MCQs,
-  particularly ones intended for younger learners.
-  However,
-  these don't provide any insight into learners' misconceptions,
-  and most people don't actually find them funny.
-  As a rule,
-  you should only include a joke in a lesson if you find it funny
-  the third time you re-read it.
+Los y las docentes a veces incluyen respuestas supuestamente tontas en los COMs, como ``¡mi nariz!'', particularmente en los cuestionarios destinados a estudiantes jóvenes.
+Sin embargo,
+estas respuestas no proveen ninguna idea sobre las concepciones erróneas de los y las estudiantes, y la mayoría de la gente no las encuentran graciosas.
+Como regla,
+deberías solo incluir un chiste en una lección si lo encuentras gracioso la tercera vez que lo vuelves a leer.
 \end{aside}
 
-A lesson's formative assessments should prepare learners for its summative assessment:
-no one should ever encounter a question on an exam that the teaching did not prepare them for.
-This doesn't mean you should never put new kinds of problems on an exam,
-but if you do,
-you should have given learners practice tackling novel problems beforehand.
-\chapref{s:process} explores this in depth.
+Las evaluaciones formativas de una lección deberían preparar a los y las estudiantes para su evaluación sumativa:
+nadie debería encontrar nunca una pregunta en un examen para la cual la enseñanza no lo/la ha preparado.
+Esto no significa que nunca debes incluir nuevos tipos de problemas en un examen, pero, si lo haces,
+deberías de antemano haberles dado a tus estudiantes prácticas para abordar problemas nuevos. 
+El \chapref{s:process} explora este punto en profundidad.
 
-\seclbl{Notional Machines}{s:models-notional}
+\seclbl{Máquina nocional}{s:models-notional}
 
-The term \gref{g:computational-thinking}{computational thinking} is bandied about a lot,
-in part because people can agree it's important while meaning very different things by it.
-Rather than arguing over what it does and doesn't include,
-it's more useful to think about the \gref{g:notional-machine}{notional machine}
-that you want learners to understand~\cite{DuBo1986}.
-According to~\cite{Sorv2013},
-a notional machine:
+El término \gref{g:computational-thinking}{pensamiento computacional} está muy extendido,
+en parte porque la gente coincide en que es importante aún cuando con el mismo término se suele referir a cosas muy distintas.
+En vez de discutir qué incluye y qué no incluye el término,
+es más útil pensar en la \gref{g:notional-machine}{máquina nocional}
+que quieres que tus estudiantes entiendan ~\cite{DuBo1986}.
+De acuerdo a ~\cite{Sorv2013},
+una máquina nocional:
 
 \begin{itemize}
 
 \item
-  is an idealized abstraction of computer hardware
-  and other aspects of programs' runtime environments;
+es una abstracción idealizada del \emph{hardware} de computación  
+y de otros aspectos de los entornos del tiempo de ejecución de los programas;
 
 \item
-  enables the semantics of programs to be described;
-  and
+  permite describir la semántica de los programas;
+  y
 
 \item
-  correctly reflects what programs do when executed.
+  refleja correctamente qué hacen los programas cuando son ejecutados.
 
 \end{itemize}
 
 \noindent
-For example, my notional machine for Python is:\index{Python}
+Por ejemplo, mi máquina nocional para Python es:\index{Python}
 
 \begin{enumerate}
 
 \item
-  Running programs live in memory,
-  which is divided between a call stack and a heap.
+Ejecutar programas en el momento en la memoria,
+la cual se divide en la pila de llamadas y el \emph{heap}  .
 
 \item
-  Memory for data is always allocated from the heap.
+  La memoria para los datos siempre es asignada desde el \emph{heap}. 
 
 \item
-  Every piece of data is stored in a two-part structure.
-  The first part says what type the data is,
-  and the second part is the actual value.
+Cada conjunto de datos se almacena en una estructura de dos partes.
+La primera parte dice de qué tipo de datos se trata
+y la segunda parte es el valor real.
+
+  \item
+  Booleanos, números y caracteres de texto nunca son modificados una vez que se crean. 
 
 \item
-  Booleans, numbers, and character strings are never modified after they are created.
+Las listas, conjuntos y otras colecciones almacenan referencias a otros datos
+en lugar de almacenar estos valores directamente.
+Pueden ser modificados una vez que se crean,
+i.e.\ una lista puede ser ampliada o nuevos valores pueden ser agregados a un conjunto.
+  
+\item
+Cuando un código se carga a la memoria,
+Python lo convierte a una secuencia de instrucciones
+que son almacenadas como cualquier otro tipo de dato.
+Este es el motivo por el que es posible asignar funciones a variables
+y luego pasarlas como parámetros.
 
 \item
-  Lists, sets, and other collections store references to other data
-  rather than storing those values directly.
-  They can be modified after they are created,
-  i.e.\ a list can be extended or new values can be added to a set.
+Cuando un código es ejecutado,
+Python sigue las instrucciones paso a paso,
+haciendo lo que cada instrucción le indica de a una por vez.
 
 \item
-  When code is loaded into memory,
-  Python converts it to a sequence of instructions
-  that are stored like any other data.
-  This is why it's possible to assign functions to variables
-  and pass them as parameters.
+  Algunas instrucciones hacen que Python lea datos,
+haga cálculos
+y cree nuevos datos.
+Otras instrucciones controlan qué instrucciones ejecuta Python,
+que es el modo en que los bucles y condicionales trabajan.
+Otra instrucción le indica a Python que llame a una función.
 
 \item
-  When code is executed,
-  Python steps through the instructions,
-  doing what each one tells it to in turn.
+  Cuando se llama a una función,
+Python coloca un nuevo marco de pila en la pila de llamadas.
 
 \item
-  Some instructions make Python read data,
-  do calculations,
-  and create new data.
-  Other instructions control what instructions Python executes,
-  which is how loops and conditionals work.
-  Yet another instruction tells Python to call a function.
+  Cada marco de pila almacena los nombres de las variables y las referencias a los datos.
+Los parámetros de las funciones son simplemente otro tipo de variable.
 
 \item
-  When a function is called,
-  Python pushes a new stack frame onto the call stack.
-
+Cuando una variable es utilizada,
+Python la busca en el marco de la pila superior
+Si no la encuentra allí, busca en el último marco en la memoria global.
+ 
 \item
-  Each stack frame stores variables' names and references to data.
-  Function parameters are just another kind of variable.
-
-\item
-  When a variable is used,
-  Python looks for it in the top stack frame.
-  If it isn't there, it looks in the bottom (global) frame.
-
-\item
-  When the function finishes,
-  Python erases its stack frame and jumps backs to
-  the instructions it was executing before the function call.
-  If there isn't a ``before,''
-  the program has finished.
+Cuando la función finaliza, 
+Python la borra del marco del de pila y vuelve
+a las instrucciones que estaba ejecutando antes de llamar a la función.
+Si no encuentra un ``antes,''
+  el programa ha finalizado.
 
 \end{enumerate}
 
-I use this cartoon version of reality whenever I teach Python.
-After about 25 hours of instruction and 100 hours of work on their own time,
-I expect most learners to have a mental model
-that includes most or all of these features.
+Uso esta versión caricaturizada de la realidad siempre que enseño Python.
+Después de 25 horas de instrucción y 100 horas de trabajar en su propio tiempo,
+espero que la mayor parte de los/las estudiantes tengan un modelo mental
+que incluya todas o la mayoría de estas características.
 
-\seclbl{Exercises}{s:models-exercises}
+\seclbl{Ejercicios}{s:models-exercises}
 
-\exercise{Your Mental Models}{think-pair-share}{15}
+\exercise{Tus modelos mentales}{pensar-parejas-compartir}{15}
 
-What is one mental model you use to understand your work?
-Write a few sentences describing it and give feedback on a partner's.
-Once you have done that,
-have a few people share their models with the whole group.
-Does everyone agree on what a mental model is?
-Is it possible to give a precise definition,
-or is the concept useful precisely because it is fuzzy?
+¿Cuál es el modelo mental que usas para entender tu trabajo?
+Escribe unas pocas oraciones para describirlo y hazle una devolución a tu pareja sobre su modelo mental.
+Una vez que has hecho esto en pareja,
+algunas pocas personas de la clase compartirán sus modelos con el grupo completo.
+¿Está todo el grupo de acuerdo sobre qué es un modelo mental?
+¿Es posible dar una definición precisa?,
+¿o el concepto es útil justamente porque es difuso?
 
-\exercise{Symptoms of Being a Novice}{whole class}{5}
+\exercise{Síntomas de ser una persona novata}{clase completa}{5}
+Decir que las personas novatas no tienen un modelo mental de un dominio particular
+no es equivalente a decir que no tienen ningún modelo mental.
+Las personas novatas tienden a razonar por analogía y arriesgan conjeturas:
+toman prestado fragmentos y partes de modelos mentales de otros dominios que superficialmente parecen similares.
 
-Saying that novices don't have a mental model of a particular domain
-is not the same as saying that they don't have a mental model at all.
-Novices tend to reason by analogy and guesswork,
-borrowing bits and pieces of mental models from other domains that seem superficially similar.
+La gente que hace esto generalmente dice cosas que\hreffoot{https://es.wikipedia.org/wiki/Ni_siquiera_es_falso}{ni siquiera son falsas}.
+Como clase,
+discutir qué otros síntomas hay de ser una persona novata.
+¿Qué dice o hace alguien para llevarte a clasificarlo/la como persona novata en algún dominio?
 
-People who are doing this often say things that are
-\hreffoot{https://en.wikipedia.org/wiki/Not\_even\_wrong}{not even wrong}.
-As a class,
-discuss what some other symptoms of being a novice are.
-What does someone do or say that leads you to classify them as a novice in some domain?
+\exercise{Modelar modelos mentales de las personas novatas}{parejas}{20}
+Crea un cuestionario de múltiples opciones relacionado a un tópico que has enseñado o pretendas enseñar
+y explica el poder diagnóstico de cada uno de sus distractores
+(i.e.\ qué concepción errónea pretende ser identificada con cada distractor).
 
-\exercise{Modelling Novice Mental Models}{pairs}{20}
+Una vez que hayas finalizado, intercambia COMs con tu pareja.
+¿Son sus preguntas ambiguas?
+¿Son las concepciones erróneas plausibles?
+¿Los distractores realmente evalúan esas concepciones erróneas?
+¿Hay otras posibles concepciones erróneas que \emph{no} sean evaluadas?
 
-Create a multiple choice question related to a topic you have taught
-or intend to teach
-and explain the diagnostic power of each its distractors
-(i.e.\ what misconception each distractor is meant to identify).
+\exercise{Pensar en las cosas}{clase completa}{15}
+Una buena evaluación formativa requiere que la gente piense profundamente en un problema.
+Por ejemplo,
+imagina que has colocado un bloque de hielo en un recipiente y luego llenas de agua este recìpiente, hasta el borde.
+Cuando el hielo se derrite, ¿el nivel de agua aumenta (de manera que el recipiente rebasa)?, ¿el nivel de agua baja?, ¿o se mantiene igual(\figref{f:models-bathtub})?
 
-When you are done, trade MCQs with a partner.
-Is their question ambiguous?
-Are the misconceptions plausible?
-Do the distractors actually test for them?
-Are any likely misconceptions \emph{not} tested for?
+\figpdf{../figures/bathtub.pdf}{Hielo en un recipiente}{f:models-bathtub}
 
-\exercise{Thinking Things Through}{whole class}{15}
+La solución correcta es que el nivel de la tina permanece igual:
+el hielo desplaza a su propio peso en el agua,
+por lo que completa exactamente el ``agujero" que ha dejado al derretirse.
+Para darse cuenta del porqué la gente construye un modelo de la relación entre el peso, el volumen y la densidad ~\cite{Epst2002}.
 
-A good formative assessment requires people to think through a problem.
-For example,
-imagine that you have placed a block of ice in a bathtub and then filled the tub to the rim with water.
-When the ice melts,
-does the water level go up (so that the tub overflows),
-go down,
-or stay the same (\figref{f:models-bathtub})?
+Describe otra evaluación formativa que has visto o has utilizado,
+la cual requiere que la gente piense profundamente en algo
+y por lo tanto identifique los defectos en sus razonamientos.
+Cuando estés listo/a,
+explícale tu ejemplo a a otra persona de tu grupo
+y dale retroalimentación sobre su ejemplo.
 
-\figpdf{../figures/bathtub.pdf}{Ice in a bathtub}{f:models-bathtub}
-
-The correct answer is that the level stays the same:
-the ice displaces its own weight in water,
-so it exactly fills the ``hole'' it has made when it melts.
-Figuring out why helps people build a model of the relationship between weight, volume, and density~\cite{Epst2002}.
-
-Describe another formative assessment you have seen or used
-that required people to think something through
-and thereby identify flaws in their reasoning.
-When you are done,
-explain your example to a partner
-and give them feedback on theirs.
-
-\exercise{A Different Progression}{individual}{15}
-
-The novice-competent-expert model of skill development
-is sometimes called the \hreffoot{https://en.wikipedia.org/wiki/Dreyfus\_model\_of\_skill\_acquisition}{Dreyfus model}.
-Another commonly-used progression is
-the \hreffoot{https://en.wikipedia.org/wiki/Four\_stages\_of\_competence}{four stages of competence}:
+\exercise{Una progresión diferente}{individuos}{15}
+El modelo de desarrollo de habilidades de persona novata-competente-experta
+es a veces llamado
+\hreffoot{https://es.qwe.wiki/wiki/Dreyfus_model_of_skill_acquisition}{modelo Dreyfus}.
+Otra progresión comúnmente utilizada es el modelo de las \hreffoot{https://es.wikipedia.org/wiki/Cuatro_etapas_de_competencia}{cuatro etapas de la competencia}:
 
 \begin{description}
 
-\item[Unconscious incompetence:]
-  the person doesn't know what they don't know.
+\item[Incompetencia inconsciente:]
+  la persona no sabe lo que no sabe.
 
-\item[Conscious incompetence:]
-  the person realizes that they don't know something.
+\item[Incompetencia consciente:]
+  la persona se da cuenta de que no sabe algo.
 
-\item[Conscious competence:]
-  the person has learned how to do something,
-  but can only do it while concentrating
-  and may still need to break things down into steps.
+\item[Competencia consciente:]
+la persona ha aprendido cómo hacer algo,
+pero solo lo puede hacer mientras mantiene su concentración
+y quizás aún deba dividir la tarea en varios pasos..
 
-\item[Unconscious competence:]
-  the skill has become second nature
-  and the person can do it reflexively.
+\item[Competencia inconsciente:]
+  la habilidad se ha transformado en una segunda naturaleza
+y la persona puede realizarla reflexivamente.
 
 \end{description}
 
-Identify one subject where you are at each level.
-What level are most of your learners at in the subject you teach most often?
-What level are you trying to get them to?
-How do these four stages relate to the novice-competent-expert classification?
+Identifica una temática en la que te encuentres en cada uno de los niveles de desarrollo de habilidades.
+En la materia que enseñas, ¿en qué nivel están usualmente la mayoría de tus estudiantes?
+¿Qué nivel estás tratando que alcancen?
+¿Cómo se relacionan estas cuatro etapas con la clasificación persona novata-competente-experta?
 
-\exercise{What Kind of Computing?}{individual}{10}
+\exercise{¿Qué tipo de computación?}{individuos}{10}
 
-\cite{Tedr2008} summarizes three traditions in computing:
+\cite{Tedr2008} resume tres tradiciones en computación:
 
 \begin{description}
 
-\item[Mathematical:]
-  Programs are the embodiment of algorithms.
-  They are either correct or incorrect,
-  as well as more or less efficient.
+\item[Matemática:]
+  Los programas son la encarnación de los algoritmos. 
+Son correctos o incorrectos, así como más o menos eficientes. 
 
-\item[Scientific:]
-  Programs are more or less accurate models of information processes
-  that can be studied using the scientific method.
+\item[Científica:]
+Los programas son modelos de procesos de información más o menos adecuados
+que pueden ser estudiados usando el método científico.
 
-\item[Engineering:]
-  Programs are built objects like dams and airplanes,
-  and are more or less effective and reliable.
+\item[Ingenieril:]
+Los programas son objetos que se construyen, tales como los diques y los aviones,
+y son más o menos efectivos y confiables.
 
 \end{description}
+¿Cuál de estas tradiciones coincide mejor con tu modelo mental de la computación?
+Si ninguna de ellas coincide, ¿qué modelo tienes?
 
-Which of these best matches your mental model of computing?
-If none of them do, what model do you have?
+\exercise{Explicar por qué no}{parejas}{5}
+Uno/a de tus estudiantes piensa que hay algún tipo de diferencia entre el texto
+que tipea carácter por carácter y el texto idéntico que copia y pega.
+Piensa en una razón por la que tu estudiante puede creer esto
+o en algo que pueda haber sucedido para darle esa impresión.
+Luego, simula ser esa persona mientras tu pareja te explica por qué no es así.
+Intercambia roles con tu pareja y vuelve a probar.
 
-\exercise{Explaining Why Not}{pairs}{5}
+\exercise{Tu modelo ahora}{clase completa}{5}
 
-One of your learners thinks that there is some kind of difference between
-text that they type in character by character
-and identical text that they copy and paste.
-Think of a reason they might believe this
-or something that might have happened to give them this impression,
-then pretend to be that learner while your partner explains why this isn't the case.
-Trade roles and try again.
+Como clase,
+creen una lista de elementos clave de tu modelo mental de enseñanza.
+¿Cuál es la media docena de conceptos más importantes y cómo se relacionan?
 
-\exercise{Your Model Now}{whole class}{5}
+\exercise{Tus máquinas nocionales}{grupos pequeños}{20}
 
-As a class,
-create a list of the key elements of your mental model of learning.
-What are the half-dozen most important concepts and how do they relate?
+En grupos pequeños,
+escriban una descripción de la máquina nocional que quieren que sus estudiantes usen para entender cómo corren sus programas.
+¿En qué difiere una máquina nocional para un lenguaje basado en bloques como Scratch\index{Scratch} de la máquina nocional para Python?\index{Python}
+¿Y en qué difiere de una máquina nocional para hojas de cálculo o para un buscador que está interpretando HTML y CSS cuando renderiza una página web?
 
-\exercise{Your Notional Machines}{small groups}{20}
-
-Working in small groups,
-write up a description of the notional machine you want learners to use
-to understand how their programs run.
-How does a notional machine for a blocks-based language like Scratch\index{Scratch}
-differ from that for Python?\index{Python}
-What about a notional machine for spreadsheets
-or for a browser that is interpreting HTML and CSS when rendering a web page?
-
-\exercise{Enjoying Without Learning}{individual}{5}
-
-Multiple studies have shown that
-teaching evaluations don't correlate with learning outcomes~\cite{Star2014,Uttl2017},
-i.e.\ that how highly learners rate a course doesn't predict how much they remember.
-Have you ever enjoyed a class that you didn't actually learn anything from?
-If so, what made it enjoyable?
+\exercise{Disfrutar sin aprender}{individuos}{5}
+Muchos estudios han mostrado que
+las evaluaciones de la enseñanza no se correlacionan con los resultados de la enseñanza ~\cite{Star2014,Uttl2017},
+i.e.\ cuán alto sea el puntaje del grupo de estudiantes en un curso no predice cuánto recuerdan.
+¿Alguna vez has disfrutado de una clase en la que en realidad no has aprendido nada?
+Si la respuesta es sí, ¿qué hizo que disfrutes esa clase?
 
 \newpage
-\section*{Review}
+\section*{Revisión}
 
-\figpdfhere{../figures/conceptmap-mental-models.pdf}{Concepts: Mental models}{f:models-concept-map}
+\figpdfhere{../figures/conceptmap-mental-models.pdf}{Conceptos: modelos mentales}{f:models-concept-map}
 
-\figpdfhere{../figures/conceptmap-assessment.pdf}{Concepts: Assessment}{f:models-formative-assessment}
+\figpdfhere{../figures/conceptmap-assessment.pdf}{Conceptos: evaluación}{f:models-formative-assessment}
