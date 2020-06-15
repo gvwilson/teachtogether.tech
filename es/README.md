@@ -192,15 +192,15 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 |conceptmap-personas.xml |Laura|Yanina||Lista|Lista|||
 |conditionals.xml | ||||||
 |for-loop.xml |Yanina|||Lista|||
-|labeling.xml | ||||||
+|labeling.xml |Yanina|||Lista|||
 |library-director-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
 |library-friends-concept-map.xml |Yanina|||Lista|||los/las
 |library-patron-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
 |matching.xml | Yanina|||Lista|||
 |photosynthesis.xml |Laura|Yanina|Natalia|Lista|Lista||--
 |screencast.xml |Yanina|||Lista|||
-|seasons.xml | ||||||
-|what-to-teach.xml | ||||||
+|seasons.xml |Yanina|||Lista|||
+|what-to-teach.xml |Yanina|||Lista|||
 
 ## Atribuciones y agradecimientos
 
