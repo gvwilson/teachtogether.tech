@@ -116,6 +116,8 @@ Ejemplo:
 
 Cuando se encuentre una referencia al título y/o nombre de material referenciado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar \emph{} para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
 
+Cuando se encuentre una referencia a una entrada en Wikipedia se buscará la versión en Español para agregar ese link.  En caso que no exista se dejará la referencia en Inglés.
+
 #### Material para consultar
 
 El primer lugar de consulta son las [slides del curso de Instructores de RStudio en Español](https://drive.google.com/drive/folders/1qwTEMqoqphF9qu7f0lSCSTmikIf5chBi) para chequear como fueron traducidos los términos en ese material.
