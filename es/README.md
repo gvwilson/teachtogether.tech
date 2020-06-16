@@ -58,7 +58,9 @@ Ejemplo:*TODO: buscar un ejemplo en T3*
 __7. Las expresiones idiomáticas no son traducibles de manera literal.__
 En caso de que las hubiere (lo iremos descubriendo en el camino), hay que proponer una traducción que permita entender el sentido de ella.
 
-Ejemplo:*TODO: buscar un ejemplo en T3*  
+Ejemplo: 
+
+> ... but take three breaths and it's gone.  > ... pero se pasa en un suspiro.
 
 
 __8. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la traducción del capítulo deja pasar algunas horas (o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas.
@@ -78,7 +80,7 @@ Estos términos deberían ir en un formato especial (se utiliza cursiva en gener
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
-| stack | contexto: python |
+
 
 
 #### Términos técnicos que se traducen
@@ -110,6 +112,7 @@ Ejemplo:
 | screencasting | grabación de pantalla |
 | situated learning | aprendizaje situado |
 | split-attention effect| efecto de atención dividida       |
+| stack | pila |
 | stack frame | marco de pila |
 | summative assessment  |evaluación sumativa |
 
@@ -183,8 +186,8 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Glossary| Yanina ||||||las/los
 | Meetings, Meetings, Meetings|Mónica|Ruth||Lista|||los/las
 | Checklists and Templates|Lucia||||||las/los
-| Example Concept Maps|Yanina|||Lista|||los/las
-| Chunking Exercise Solution|Priscilla|||Lista|||las/los
+| Example Concept Maps|Yanina|Laura||Lista|Lista||los/las
+| Chunking Exercise Solution|Priscilla|Yanina||Lista|Lista||las/los
 | References| ||||||los/las
 
 
