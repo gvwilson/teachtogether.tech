@@ -1,164 +1,151 @@
 \chapter{Introducción}\label{s:intro}
 
-Grassroots groups have sprung up around the world
-to teach programming, web design, robotics, and other skills
-to \grefdex{g:free-range-learner}{free-range learners}{free-range learner}.
-These groups exist so that people don't have to learn these things on their own,
-but ironically,
-their founders and teachers are often teaching themselves how to teach.
+En todo el mundo han surgido grupos de base
+para enseñar programación, diseño web, robótica y otras habilidades
+a \grefdex{g:free-range-learner}{free-range learners}{free-range learner}.
+Los grupos existen para que la gente no tenga que aprender estas cosas por su cuenta,
+pero, irónicamente,
+sus fundadores/as y docentes están muchas veces enseñándose a sí mismos/as cómo enseñar.
 
-There's a better way.
-Just as knowing a few basic facts about germs and nutrition can help you stay healthy,
-knowing a few things about cognitive psychology,
-instructional design,
-inclusivity,
-and community organization
-can help you be a more effective teacher.
-This book presents key ideas you can use right now,
-explains why we believe they are true,
-and points you at other resources that will help you go further.
+Hay una forma más conveniente.
+Así cómo conocer un par de cuestiones básicas sobre gérmenes y nutrición te puede ayudar a permanecer sano/a,
+conocer un par de cosas sobre psicología cognitiva,
+diseño instruccional,
+inclusividad
+y organización comunitaria
+te puede ayudar a aumentar tu efectividad como docente.
+Este libro presenta ideas clave que puedes usar ahora mismo,
+explica por qué creemos que son ciertas
+y te señala otros recursos que te ayudarán a ir más lejos.
 
-\begin{aside}{Re-Use}
-  Parts of this book were originally created for
-  \hreffoot{http://carpentries.github.io/instructor-training/}{the Software Carpentry instructor training program},
-  and all of it can be freely distributed and re-used
-  under the Creative Commons Attribution-NonCommercial 4.0 license
+\begin{aside}{Re-utilización}
+Partes de este libro fueron originalmente creadas para
+  \hreffoot{http://carpentries.github.io/instructor-training/}{el programa de entrenamiento de instructores/as de Software Carpentry}
+y todas ellas pueden ser libremente distribuidas y re-utilizadas
+bajo la licencia \emph{Creative Commons Attribution-NonCommercial 4.0}
   (\appref{s:license}).
-  You can use the online version at \url{http://teachtogether.tech/} in any class
-  (free or paid),
-  and can quote short excerpts under \hreffoot{https://en.wikipedia.org/wiki/Fair\_use}{fair use} provisions,
-  but cannot republish large parts in commercial works without prior permission.
+Puedes usar la versión online disponible en \url{http://teachtogether.tech/} (versión en inglés) 
+o bien en \url{http://teachtogether.tech/} (versión traducida a castellano) 
+en cualquier clase
+(gratuita o paga),
+y puedes citar pequeños extractos bajo el criterio de \hreffoot{https://es.wikipedia.org/wiki/Uso_justo}{uso justo},
+pero no puedes re-publicar largos fragmentos en trabajos comerciales sin permiso previo.
 
-  Contributions, corrections, and suggestions are all welcome,
-  and all contributors will be acknowledged each time a new version is published.
-  Please see \appref{s:joining} for details
-  and \appref{s:conduct} for our code of conduct.
+Las contribuciones, correcciones y sugerencias son bienvenidas,
+y quienes contribuyan serán agradecidos/as cada vez que una nueva versión sea publicada.
+Por favor consulta \appref{s:joining} para detalles
+y \appref{s:conduct} para nuestro código de conducta. 
 \end{aside}
 
-\seclbl{Who You Are}{s:intro-audience}
+\seclbl{Quién eres}{s:intro-audience}
 
-\secref{s:process-personas} explains how to figure out who your learners are.
-The four that this book is for are all \grefdex{g:end-user-teacher}{end-user teachers}{end-user teacher}:
-teaching isn't their primary occupation,
-they have little or no background in pedagogy,
-and they may work outside institutional classrooms.
+La \secref{s:process-personas} explica cómo averiguar quiénes son tus estudiantes. Los cuatro tipos de destinatario/a de este libro son usuarios/as finales docentes: la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y posiblemente trabajan fuera de clases institucionales.
 
 \begin{description}
 
 \item[Emily]
-  trained as a librarian
-  and now works as a web designer and project manager in a small consulting company.
-  In her spare time she helps run web design classes for women entering tech as a second career.
-  She is now recruiting colleagues to run more classes in her area,
-  and wants to know how to make lessons others can use
-  and grow a volunteer teaching organization.
+está entrenada como bibliotecaria
+y ahora trabaja como diseñadora web y gestora de proyectos en una pequeña empresa consultora.
+En su tiempo libre, ayuda a impartir clases de diseño para mujeres que ingresan a la tecnología como una segunda carrera.
+Ahora está reclutando colegas para dar más clases en su área
+y quiere saber cómo preparar lecciones que otras personas puedan usar,
+así como hacer crecer una organización de enseñanza voluntaria.
 
 \item[Moshe]
-  is a professional programmer with two teenage children
-  whose school doesn't offer programming classes.
-  He has volunteered to run a monthly after-school programming club,
-  and while he frequently gives presentations to colleagues,
-  he has no classroom experience.
-  He wants to learn how to build effective lessons in reasonable time,
-  and would like to know more about the pros and cons of self-paced online classes.
+es un programador profesional, cuyos dos hijos adolescentes
+asisten a una escuela que no ofrece clases de programación.
+Se ha ofrecido como voluntario para dirigir un club de programación mensual después del horario de clases.
+A pesar de que expone presentaciones frecuentemente a sus colegas,
+no tiene experiencia de enseñanza en el aula.
+Quiere aprender a enseñar cómo construir lecciones efectivas en un tiempo razonable,
+y le gustaría aprender más acerca de los pros y contras de las clases en línea al propio ritmo de quien las toma.
 
 \item[Samira]
-  is an undergraduate in robotics who is thinking about becoming a teacher after she graduates.
-  She wants to help at weekend robotics workshops for her peers,
-  but has never taught a class before
-  and feels a lot of \gref{g:impostor-syndrome}{impostor syndrome}.
-  She wants to learn more about education in general in order to decide if it's for her,
-  and is also looking for specific tips to help her deliver lessons more effectively.
+es una estudiante de robótica, que está considerando ser docente luego de graduarse.
+Quiere ayudar a sus pares en los talleres de robótica de fines de semana,
+pero nunca ha enseñado en una clase antes,
+y en gran medida siente el \gref{g:impostor-syndrome}{síndrome de la impostora}.
+Quiere aprender más acerca de educación en general para decidir si la enseñanza es para ella
+y también está buscando sugerencias específicas que la ayuden a dar lecciones más efectivamente. 
 
 \item[Gene]
-  is a professor of computer science.
-  They have been teaching undergraduate courses on operating systems for six years,
-  and increasingly believe that there has to be a better way.
-  The only training available through their university's teaching and learning center
-  is about posting assignments and submitting grades in the online learning management system,
-  so they want to find out what else they should be asking for.
+es docente de ciencias de la computación en una universidad.
+Ha estado enseñando cursos de grado sobre sistemas operativos por seis años
+y cada vez se convence más de que tiene que haber una mejor manera de enseñar.
+El único entrenamiento disponible a través del centro de enseñanza y aprendizaje de su universidad 
+es sobre publicar tareas y enviar evaluaciones en el sistema online de gestión del aprendizaje,
+por lo que quiere descubrir qué otro entrenamiento podría pedir.
 
 \end{description}
-
-These people have \emph{a variety of technical backgrounds}
-and \emph{some previous teaching experience},
-but \emph{no formal training in teaching, lesson design, or community organization}.
-Most work with \emph{free-range learners}
-and are \emph{focused on teenagers and adults}
-rather than children;
-all \emph{have limited time and resources}.
-We expect our quartet to use this material as follows:
+Estas personas tienen \emph{una variedad de conocimientos técnicos previos}
+y \emph{alguna experiencia previa con la enseñanza},
+pero \emph{carecen de entrenamiento formal en enseñanza, diseño de lecciones u organización comunitaria}.
+La mayoría trabajan con \emph{free-range learners}
+y están \emph{enfocadas en adolescentes y personas adultas}
+más que en niños/as;
+todas estas personas \emph{tienen tiempo y recursos limitados}.
+Esperamos que nuestro cuarteto use este material de la siguiente manera:
 
 \begin{description}
 
 \item[Emily]
-  will take part in a weekly online reading group with her volunteers.
+  tomará parte de un grupo de lectura semanal en línea con sus voluntarias.
 
 \item[Moshe]
-  will cover part of this book in a one-day weekend workshop
-  and study the rest on his own.
+  va a cubrir parte de este libro en un taller de fin de semana de un día y estudiará el resto por su cuenta. 
 
 \item[Samira]
-  will use this book in a one-semester undergraduate course with assignments, a project, and a final exam.
+  usará este libro en un curso de grado de un semestre que incluirá tareas, un proyecto y un examen final. 
 
 \item[Gene]
-  will read the book on their own in their office or while commuting,
-  wishing all the while that universities did more to support high-quality teaching.
+  leerá el libro por su cuenta en su oficina o mientras viaja en el transporte público, mientras desea que las universidades hagan más para apoyar la enseñanza de alta calidad. 
 
 \end{description}
 
-\seclbl{What to Read Instead}{s:intro-instead}
-
-If you are in a hurry or want a taste of what this book will cover,
-\cite{Brow2018} presents ten evidence-based tips for teaching computing.
-You may also enjoy:
+\seclbl{Qué otras cosas leer}{s:intro-instead}
+Si estás en apuros o quieres tener un pantallazo de qué cosas cubrirá este libro,
+\cite{Brow2018} presenta diez sugerencias basadas en evidencias para enseñar computación.
+También puedes disfrutar:
 
 \begin{itemize}
 
 \item
-  \hreffoot{http://carpentries.github.io/instructor-training/}{The Carpentries instructor training},
-  from which this book is derived.
-
+  \hreffoot{http://carpentries.github.io/instructor-training/}{El entrenamiento para instructores/as de las Carpentries},
+  en el cual está basado este libro. 
 \item
-  \cite{Lang2016} and~\cite{Hust2012}, which are short and approachable,
-  and which connect things you can do right now to the research that backs them.
+  \cite{Lang2016} y~\cite{Hust2012}, que son textos cortos y accesibles, que conectan las cosas que puedes hacer ahora mismo con la investigación que hay detrás de ellas. 
 
 \item
   \cite{Berg2012,Lemo2014,Majo2015,Broo2016,Rice2018,Wein2018b}
-  are all full of practical suggestions for things you can do in your classroom,
-  but may make more sense once you have a framework for understanding why their ideas work.
+  están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase,
+pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan. 
 
 \item
   \cite{DeBr2015},
-  which explains what's true about education by explaining what isn't,
-  and~\cite{Dida2016},
-  which grounds learning theory in cognitive psychology.
+  el cual explica qué es cierto sobre educación al explicar qué cosas no son ciertas, y~\cite{Dida2016},
+  que fundamenta la teoría del aprendizaje en psicología cognitiva. 
 
 \item
   \cite{Pape1993},
-  which remains an inspiring vision of how computers could change education.
-  \hreffoot{https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4}{Amy Ko's excellent description}
-  does a better job of summarizing Papert's ideas than I possibly could,
-  and~\cite{Craw2010} is a thought-provoking companion to both.
+  que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación.
+\hreffoot{https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4}{La excelente descripción de Amy Ko} es una síntesis de las ideas de Papert, mejor que la que podría hacer yo, y ~\cite{Craw2010} es una compañía provocadora y estimulante a ambos textos.
 
 \item
-  \cite{Gree2014,McMi2017,Watt2014} explain why so many attempts at educational reform have failed over the past forty years,
-  how for-profit colleges are exploiting and exacerbating the growing inequality in our society,
-  and how technology has repeatedly failed to revolutionize education.
+  \cite{Gree2014,McMi2017,Watt2014} explica por qué tantos intentos de reformas educativas han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan por lucro han explotado y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación. 
 
 \item
-  \cite{Brow2007} and~\cite{Mann2015},
-  because you can't teach well without changing the system in which we teach,
-  and you can't do that on your own.
+  \cite{Brow2007} y~\cite{Mann2015},
+  porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos,
+y no puedes hacer esto por tu cuenta.
 
 \end{itemize}
 
-Those who want more academic material may also find~\cite{Guzd2015a,Hazz2014,Sent2018,Finc2019,Hpl2018} rewarding,
-while \hreffoot{http://computinged.wordpress.com}{Mark Guzdial's blog} has consistently been informative and thought-provoking.
+Quienes desean material más académico pueden también encontrar gratificantes a ~\cite{Guzd2015a,Hazz2014,Sent2018,Finc2019,Hpl2018},
+mientras que \hreffoot{http://computinged.wordpress.com}{el blog de Mark Guzdial} ha sido consistentemente informativo, provocativo y motivador.
 
-\seclbl{Acknowledgments}{s:intro-acknowledgments}
+\seclbl{Agradecimientos}{s:intro-acknowledgments}
 
-This book would not exist without the contributions of
+Este libro no existiría sin las contribuciones de
 Laura Acion,
 Jorge Aranda,
 Mara Averick,
@@ -249,130 +236,128 @@ Jason Williams,
 Simon Willison,
 Karen Word,
 John Wrenn,
-and Andromeda Yelton.
-I am also grateful to Lukas Blakk for the logo,
-to Shashi Kumar for LaTeX help,
-to Markku Rontu for making the diagrams look better,
-and to everyone who has used this material over the years.
-Any mistakes that remain are mine.
+y Andromeda Yelton.
+También estoy agradecido a Lukas Blakk por el logotipo,
+a Shashi Kumar por la ayuda con LaTeX,
+a Markku Rontu por hacer que los diagramas se vean mejor,
+y a toda aquella persona que ha usado este material a lo largo de los años.
+Cualquier error que permanezca es mío. 
 
-\seclbl{Exercises}{s:intro-exercises}
+\seclbl{Ejercicios}{s:intro-exercises}
 
-Each chapter ends with a variety of exercises that include a suggested format
-and how long they usually take to do in person.
-Most can be used in other formats---in particular,
-if you are going through this book on your own,
-you can still do many of the exercises that are intended for groups---and
-you can always spend more time on them than what's suggested.
+Cada capítulo finaliza con una variedad de ejercicios que incluyen un formato sugerido y cuánto tiempo toma usualmente hacerlos en persona.
+Muchos pueden ser usados en otros formatos ---en particular,
+si estás avanzando este libro por tu cuenta,
+puedes todavía hacer muchos de los ejercicios que son destinados a grupos--- y siempre
+puedes pasar más tiempo en ellos que el que es sugerido.
 
-If you are using this material in a teacher training workshop,
-you can give the exercises below to participants a day or two in advance
-to get an idea of who they are and how best you can help them.
-Please read the caveats in \secref{s:classroom-prior} before doing this.
+Si estás usando este material en un taller de formación docente,
+puedes darles los ejercicios que siguen a quienes participen, con uno o dos días de anticipación,
+para que tengan una idea de quiénes son y cuál es la mejor manera en que les puedes ayudar. 
+Por favor lee las advertencias en la \secref{s:classroom-prior} antes de hacer estos ejercicios.
 
-\exercise{Highs and Lows}{whole class}{5}
+\exercise{Altos y bajos}{clase completa}{5}
 
-Write brief answers to the following questions and share with your peers.
-(If you are taking notes together online as described in \secref{s:classroom-notetaking},
-put your answers there.)
+Escribe respuestas breves a las siguientes oraciones y compártelas con tus pares.
+(Si estás tomando notas colaborativas en línea como se describe en la \secref{s:classroom-notetaking}, puedes escribir tus respuestas allí.)
 
 \begin{enumerate}
 
 \item
-  What is the best class or workshop you ever took?
-  What made it so good?
+  ¿Cuál es la mejor clase o taller que alguna vez hayas tomado?
+  ¿Qué la hacía tan buena?
 
 \item
-  What was the worst one?
-  What made it so bad?
+  ¿Cuál fue la peor? 
+ ¿Qué la hacía tan mala?
 
 \end{enumerate}
 
-\exercise{Know Thyself}{whole class}{10}
+\exercise{Conócete a tí mismo/a}{clase completa}{5}
 
-Share brief answers to the following questions with your peers.
-Record your answers so that you can refer back to them
-as you go through the rest of this book.
+Comparte respuestas breves a las siguientes preguntas con tus pares.
+Guarda tus respuestas para que puedas regresar a ellas como referencia
+a la par que avanzas en el estudio de este libro. 
 
 \begin{enumerate}
 
 \item
-  What do you most want to teach?
+  ¿Qué es lo que más quieres enseñar?
 
 \item
-  Who do you most want to teach?
+  ¿A quiénes tienes más ganas de enseñarles?
 
 \item
-  Why do you want to teach?
+  ¿Por qué quieres enseñar?
 
 \item
-  How will you know if you're teaching well?
+  ¿Cómo sabrás si estás enseñando bien?
 
 \item
-  What do you most want to learn about teaching and learning?
+  ¿Qué es lo que más quieres aprender acerca de enseñanza y aprendizaje? 
 
 \item
-  What is one specific thing you believe is true about teaching and learning?
+  ¿Qué cosa específica crees que es cierta acerca de enseñanza y aprendizaje?
 
 \end{enumerate}
 
-\exercise{Why Learn to Program?}{individual}{20}
+\exercise{¿Por qué aprender a programar?}{individual}{20}
 
-Politicians, business leaders, and educators often say that
-people should learn to program because the jobs of the future will require it.
-However,
-as Benjamin Doxtdator \hreffoot{http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/}{pointed out},
-many of those claims are built on shaky ground.
-Even if they were true, education shouldn't prepare people for the jobs of the future:
-it should give them the power to decide what kinds of jobs there are
-and to ensure that those jobs are worth doing.
-And as \hreffoot{https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/}{Mark Guzdial points out},
-there are actually many reasons to learn how to program:
+Los/las políticos/as, líderes de negocios y educadores/as usualmente dicen que
+la gente debe aprender a programar porque sus trabajos del futuro lo requerirán.
+Sin embargo,
+como Benjamin Doxtdator
+\hreffoot{http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/}{ha señalado},
+muchas de estas afirmaciones están construidas sobre terrenos resbaladizos.
+Incluso si fueran reales, la educación no debería preparar a la gente para los trabajos del futuro:
+les debería dar el poder de decidir qué tipos de trabajos hay y de asegurarse que vale la pena hacer esos trabajos.
+Además, como \hreffoot{https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/}{señala Mark Guzdial},
+hay realmente muchas razones para aprender cómo programar:
 
 \begin{enumerate}
 
 \item
-  To understand our world.
+  Para entender nuestro mundo.
 
 \item
-  To study and understand processes.
+  Para estudiar y entender procesos.
 
 \item
-  To be able to ask questions about the influences on their lives.
+  Para ser capaz de hacer preguntas sobre las influencias en nuestras vidas.
 
 \item
-  To use an important new form of literacy.
+Para usar una importante nueva forma de alfabetización.
 
 \item
-  To have a new way to learn art, music, science, and mathematics.
+  Para tener una nueva manera de aprender arte, música, ciencia y matemática.
 
 \item
-  As a job skill.
+  Como una habilidad laboral.
 
 \item
-  To use computers better.
+  Para usar mejor las computadoras. 
 
 \item
-  As a medium in which to learn problem-solving.
+  Como un medio en el cual aprender resolución de problemas.
 
 \end{enumerate}
 
-Draw a $3{\times}3$ grid whose axes are labeled ``low,'' ``medium,'' and ``high''
-and place each reason in one sector
-according to how important it is to you (the X axis)
-and to the people you plan to teach (the Y axis).
+Dibuja una grilla de $3{\times}3$ cuyos ejes estén etiquetados: ``baja,'' ``media,'' y ``alta''
+y coloca cada razón en un sector
+de acuerdo a la importancia que tienen para ti (el eje X)
+y para la gente a la que planeas enseñar (el eje Y).
 
 \begin{enumerate}
 
 \item
-  Which points are closely aligned in importance
-  (i.e.\ on the diagonal in your grid)?
+  ¿Qué puntos están estrechamente alineados en su importancia
+  (i.e.\ en la diagonal de tu grilla)?
 
 \item
-  Which points are misaligned
-  (i.e.\ in the off-diagonal corners)?
+¿Qué puntos están desalineados
+  (i.e.\ en las esquinas por fuera de la diagonal)?
 
 \item
-  How should this affect what you teach?
+  ¿Cómo podría afectar esto lo que tú enseñes?
 
 \end{enumerate}
