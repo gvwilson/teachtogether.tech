@@ -32,6 +32,8 @@ __3. Género gramatical.__ A diferencia del inglés, el español tiene género g
 | al/a la docente |al conjunto de docentes |
    
    Para resolver más dudas utilizaremos [esta guía](https://www4.hcdn.gob.ar/dependencias/dprensa/guia_lenguaje_igualitario.pdf) como fuente y agregaremos los ejemplos correspondientes en estas orientaciones. 
+   
+   e. Cuando terminemos de realizar la traducción y las dos revisiones, la traductora volverá a realizar una lectura del capítulo y como práctica final hacer una búsqueda de las barras "/" (Ctrl+F) e intentar cambiar la mayor cantidad a lenguaje neutro.
 
 __4. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
 
@@ -90,6 +92,7 @@ Ejemplo:
 | bournout/bourning out | síndrome de desgaste ocupacional  |
 | competent practitioners| practicantes competentes, personas competentes |
 | call stack | pila de llamada |
+| chunking | particionar, fragmentar |
 | crispy                | crujiente                         |
 | expert                | expertos/as, personas expertas |
 | expert blind spot     |punto ciego de las personas expertas|
@@ -178,10 +181,10 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Code of Conduct| Yanina | Yara |Mónica|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista||los/las
 | Glossary| Yanina ||||||las/los
-| Meetings, Meetings, Meetings |Mónica|Ruth||Lista|||los/las
+| Meetings, Meetings, Meetings|Mónica|Ruth||Lista|||los/las
 | Checklists and Templates|Lucia||||||las/los
 | Example Concept Maps|Yanina|||Lista|||los/las
-| Chunking Exercise Solution|Priscilla||||||las/los
+| Chunking Exercise Solution|Priscilla|||Lista|||las/los
 | References| ||||||los/las
 
 
