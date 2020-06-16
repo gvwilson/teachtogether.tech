@@ -6,9 +6,9 @@ HTML=../docs/index.html
 # Commands.
 PANDOC=pandoc \
   --standalone \
-  --css=../assets/bootstrap.min.css \
-  --css=../assets/tango.css \
-  --css=../assets/book.css \
+  --css=assets/bootstrap.min.css \
+  --css=assets/tango.css \
+  --css=assets/book.css \
   --toc \
   --toc-depth=2 \
   --csl=../chicago.csl
@@ -30,7 +30,7 @@ pdf : ${TEX} ${BIB}
 	pdflatex --shell-escape book
 
 ## html : re-make HTML.
-html :
+html : ../bin/pre-pandoc.py ../bin/post-pandoc.py ../template.html
 	@mkdir -p ../docs
 	../bin/pre-pandoc.py < book.tex > temp.tex
 	${PANDOC} --template=../template.html --bibliography=book.bib --output=- temp.tex \

@@ -4,7 +4,7 @@ import sys
 import re
 
 
-FIGURE_PAT = re.compile(r'<embed src="figures/(.+?)\.pdf"')
+FIGURE_PAT = re.compile(r'<embed src="../figures/(.+?)\.(.+?)"')
 BIB_REF_PAT = re.compile(r'<span\s+class="citation"\s+data-cites="(.+?)">.+?</span>')
 BIB_ENTRY_PAT = re.compile(r'<div\s+id="ref-(.+?)">\n<p>', re.MULTILINE)
 
@@ -25,12 +25,20 @@ def main():
         .replace('<table>', '<table class="table table-striped">')\
         .replace(EMPTY_ROW_EVEN, '')\
         .replace(EMPTY_ROW_ODD, '')
-    text = FIGURE_PAT.sub(r'<img src="figures/\1.svg"', text)
+    text = FIGURE_PAT.sub(replace_fig, text)
     text = BIB_REF_PAT.sub(replace_ref, text)
     text = BIB_ENTRY_PAT.sub(replace_entry, text)
     text = fix_empty_table_cells(text)
     text = fix_footnotes(text)
     sys.stdout.write(text)
+
+
+def replace_fig(fig):
+    stem = fig.group(1)
+    suffix = fig.group(2)
+    if suffix == 'pdf':
+        suffix = 'svg'
+    return f'<img src="figures/{stem}.{suffix}"'
 
 
 def replace_ref(refs):
