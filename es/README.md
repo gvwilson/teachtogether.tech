@@ -70,13 +70,12 @@ Hay términos técnicos que será necesario traducir y otros que no. El criterio
 A medida que avancemos con la traducción, la idea es ir discutiendo este punto. A partir de lo que se acuerde, iremos completando las listas de términos.
 
 #### Términos técnicos que se mantienen
-Estos términos deberían ir en un formato especial (se utiliza cursiva en general). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás.   
+Estos términos deberían ir en un formato especial (se utiliza cursiva en general, para poner cursiva en LaTeX utilizar _\emph{}_). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás.   
 
 | No traducir    | Observaciones  |
 | ---------------|----------------|
 | commits        | contexto: git  |
 | commons        | contexto: como en las licencias Creative Commons |
-| feedback       | |
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
@@ -101,6 +100,7 @@ Ejemplo:
 | expertise | dependiendo del contexto y si no es un término pedagógico: habilidad, pericia, conocimiento |
 | expertise reversal effect | efecto inverso de la experiencia * |
 | extraneous-load       | carga extrínseca                  |
+| feedback       | devolución|
 | germane-load          | carga pertinente                  |
 | live coding | programación en vivo |
 | loop | bucle |
