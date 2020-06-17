@@ -182,7 +182,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Why I Teach| Yanina |Yara|Alejandra|Lista|Lista|Lista|las/los
 | License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina | Yara |Mónica|Lista|Lista|Lista|las/los
-| Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista||los/las
+| Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista|Lista|los/las
 | Glossary| Yanina ||||||las/los
 | Meetings, Meetings, Meetings|Mónica|Ruth||Lista|||los/las
 | Checklists and Templates|Lucia||||||las/los
