@@ -124,6 +124,8 @@ Cuando se encuentre una referencia al título y/o nombre de material referenciad
 
 Cuando se encuentre una referencia a una entrada en Wikipedia se buscará la versión en Español para agregar ese link.  En caso que no exista se dejará la referencia en Inglés.
 
+Cuando se encuentre una referencia a una lección de The Carpetries se buscará la versión en Español para agregar ese link.  En caso que no exista se dejará la referencia en Inglés.
+
 #### Material para consultar
 
 El primer lugar de consulta son las [slides del curso de Instructores de RStudio en Español](https://drive.google.com/drive/folders/1qwTEMqoqphF9qu7f0lSCSTmikIf5chBi) para chequear como fueron traducidos los términos en ese material.
