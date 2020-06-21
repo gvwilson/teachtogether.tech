@@ -9,7 +9,7 @@ PANDOC=pandoc \
   --css=static/book.css \
   --toc \
   --toc-depth=2 \
-  --csl=../chicago.csl
+  --csl=../tex/chicago.csl
 
 ## html : re-make HTML.
 html : ../bin/pre-pandoc.py ../bin/post-pandoc.py ../template.html
