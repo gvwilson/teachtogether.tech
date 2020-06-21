@@ -6,8 +6,8 @@ SRC=${TEX} $(wildcard en/*.bib) $(wildcard *.cls) $(wildcard *.csl)
 HTML=docs/index.html
 FIGURES_SRC=$(wildcard figures/*)
 FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
-ASSETS_SRC=$(wildcard assets/*)
-ASSETS_DST=$(patsubst %,docs/%,${ASSETS_SRC})
+STATIC_SRC=$(wildcard static/*)
+STATIC_DST=$(patsubst %,docs/%,${STATIC_SRC})
 
 # Controls
 all : commands
@@ -17,20 +17,20 @@ commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
 
 ## html : generate HTML from LaTeX source.
-html : ${HTML} ${FIGURES_DST} ${ASSETS_DST} docs/CNAME
+html : ${HTML} ${FIGURES_DST} ${STATIC_DST} docs/CNAME
 
 # Generate HTML.
 ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
-	@make -C en html
+	@make -C en -f html.mk html
 
 # Copy figures.
 docs/figures/% : figures/%
 	@mkdir -p docs/figures
 	@cp $< $@
 
-# Copy assets.
-docs/assets/% : assets/%
-	@mkdir -p docs/assets
+# Copy static.
+docs/static/% : static/%
+	@mkdir -p docs/static
 	@cp $< $@
 
 # Copy CNAME file.

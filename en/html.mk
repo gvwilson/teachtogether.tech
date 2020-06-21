@@ -4,9 +4,9 @@ HTML=../docs/index.html
 # Commands.
 PANDOC=pandoc \
   --standalone \
-  --css=assets/bootstrap.min.css \
-  --css=assets/tango.css \
-  --css=assets/book.css \
+  --css=static/bootstrap.min.css \
+  --css=static/tango.css \
+  --css=static/book.css \
   --toc \
   --toc-depth=2 \
   --csl=../chicago.csl
