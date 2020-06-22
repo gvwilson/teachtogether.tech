@@ -166,30 +166,30 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 | Dedication| Yanina Bellini |Alejandra Bellini |Mónica Alonso|Lista|Lista|Lista|las/los
-| The Rules| Laura Acion | Yanina Bellini | Yara  | Lista | Lista | Lista|los/las
-| Introduction| Natalia |Yanina|Yuriko|Lista|||las/los
-| Mental Models and Formative Assessment|Natalia|Ruth|Alejandra|Lista|Lista|Lista|los/las
-| Expertise and Memory|Mónica|Natalia|Gaby||||las/los
-| Cognitive Architecture|Patricia ||||||los/las
-| Individual Learning| Paloma | Patricia |||||las/los
-| A Lesson Design Process| Paloma ||||||los/las
-| Pedagogical Content Knowledge| Paola ||||||las/los
-| Teaching as a Performance Art| Paola ||||||los/las
-| In the Classroom|Yuriko||||||las/los
-| Motivation and Demotivation|Gaby||||||los/las
-| Teaching Online|Yanina||||||las/los
-| Exercise Types|Priscilla ||||||los/las
-| Building a Community of Practice| Yanina | Yara | Alejandra | Lista | ||las/los
-| Outreach|Juliana||||||los/las
-| Why I Teach| Yanina |Yara|Alejandra|Lista|Lista|Lista|las/los
-| License| Yanina |Yara|Mónica|Lista|Lista|Lista|los/las
-| Code of Conduct| Yanina | Yara |Mónica|Lista|Lista|Lista|las/los
-| Joining Our Community|Yanina|Natalia|Juliana|Lista|Lista|Lista|los/las
-| Glossary| Yanina ||||||las/los
-| Meetings, Meetings, Meetings|Mónica|Ruth||Lista|||los/las
-| Checklists and Templates|Lucia||||||las/los
-| Example Concept Maps|Yanina|Laura||Lista|Lista||los/las
-| Chunking Exercise Solution|Priscilla|Yanina||Lista|Lista||las/los
+| The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
+| Introduction| Natalia Morandeira|Yanina Bellini|Yuriko |Lista|||las/los
+| Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
+| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval||||las/los
+| Cognitive Architecture|Patricia Loto||||||los/las
+| Individual Learning| Paloma Rojas | Patricia Loto |||||las/los
+| A Lesson Design Process| Paloma Rojas ||||||los/las
+| Pedagogical Content Knowledge| Paola Corrales||||||las/los
+| Teaching as a Performance Art| Paola Corrales||||||los/las
+| In the Classroom|Yuriko Sosa||||||las/los
+| Motivation and Demotivation|Gabriela Sandoval||||||los/las
+| Teaching Online|Yanina Bellini||||||las/los
+| Exercise Types|Priscilla Minotti||||||los/las
+| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | ||las/los
+| Outreach|Juliana Benitez||||||los/las
+| Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
+| License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
+| Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
+| Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
+| Glossary| Yanina Bellini||||||las/los
+| Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos||Lista|Lista||los/las
+| Checklists and Templates|Lucia Rodríguez Planes||||||las/los
+| Example Concept Maps|Yanina Bellini|Laura Acion||Lista|Lista||los/las
+| Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini||Lista|Lista||las/los
 | References| ||||||los/las
 
 
@@ -229,9 +229,9 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 
 ## Otras participaciones
 
-**Coordinación general**: Yanina Belini Saibene (@yabellini)
-**Editora de la traducción**: Laura Acion (@_lacion_)
-Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
+* **Coordinación general**: Yanina Belini
+* **Editora de la traducción**: Laura Acion
+* Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 
 ## Atribuciones y agradecimientos
 
