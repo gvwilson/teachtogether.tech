@@ -4,7 +4,7 @@ import sys
 import re
 
 
-FIGURE_PAT = re.compile(r'<embed src="../figures/(.+?)\.(.+?)"')
+FIGURE_PAT = re.compile(r'<embed src="figures/(.+?)\.(.+?)"')
 BIB_REF_PAT = re.compile(r'<span\s+class="citation"\s+data-cites="(.+?)">.+?</span>')
 BIB_ENTRY_PAT = re.compile(r'<div\s+id="ref-(.+?)">\n<p>', re.MULTILINE)
 

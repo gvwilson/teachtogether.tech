@@ -91,3 +91,17 @@ These guidelines are adapted from
     When a reference to a Wikipedia entry, a Carpentries lesson, or other online resource occurs,
     the Spanish version is added to the link if it exists.
     If one cannot be found, the reference is left in English.
+
+### Diagrams
+
+1.  Each language's folder has a sub-folder `figures` that contains
+    all of the figures for that language.
+    Line drawings should be saved both as SVG (for use on the web)
+    and as PDF (for use in print);
+    we prefer these to bit-mapped images (PNG and JPG) because they rescale better.
+
+2.  Each language's folder also has a sub-folder called `drawio`
+    that contains the source for line drawings created with <https://app.diagrams.net/>
+    (formerly known as draw.io).
+    Please edit these and then save as SVG/PDF
+    rather than editing the SVG and PDF in `figures` directly.
