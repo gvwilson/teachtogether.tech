@@ -100,7 +100,7 @@ Ejemplo:
 | expertise | dependiendo del contexto y si no es un término pedagógico: habilidad, pericia, conocimiento |
 | expertise reversal effect | efecto inverso de la experiencia * |
 | extraneous-load       | carga extrínseca                  |
-| feedback       | devolución|
+| feedback       | devolución, retroalimentación|
 | germane-load          | carga pertinente                  |
 | live coding | programación en vivo |
 | loop | bucle |
@@ -118,7 +118,7 @@ Ejemplo:
 
 * Se debe rechequear esta traducción
 
-#### Títulos de material referenciado en el libro
+#### Material referenciado en el libro
 
 Cuando se encuentre una referencia al título y/o nombre de material referenciado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar \emph{} para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
 
@@ -159,14 +159,14 @@ Fuente: punto 2 de https://www.rae.es/dpd/coma
 
 Cualquier duda que surja la resolvemos en el canal del Slack. 
 
-## G. Progreso de la traducción
+## G. Responsables y Progreso de la traducción
 
 ### Secciones
 
 | Secciones      |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
-| Dedication| Yanina |Alejandra|Mónica|Lista|Lista|Lista|las/los
-| The Rules| Laura | Yanina | Yara | Lista | Lista | Lista|los/las
+| Dedication| Yanina Bellini |Alejandra Bellini |Mónica Alonso|Lista|Lista|Lista|las/los
+| The Rules| Laura Acion | Yanina Bellini | Yara  | Lista | Lista | Lista|los/las
 | Introduction| Natalia |Yanina|Yuriko|Lista|||las/los
 | Mental Models and Formative Assessment|Natalia|Ruth|Alejandra|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica|Natalia|Gaby||||las/los
@@ -195,34 +195,46 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 
 ### Figuras y diagramas
 
+La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
+
+* `figures` que contiene todas las figuras traducidas.  Los dibujos de lineas se deben guardar como SVG (para usar en la web) y como PDF (para usar en forma impresa); preferimos estos a imágenes de mapa de bits (PNG y JPG) porque reescalan mejor.
+* `drawio` que contiene el archivo fuente de los dibujos de lineas creados con [draw.io](https://app.diagrams.net/). Se deen editar estos archivos y luego grabarlos como SVG/PDF en vez de editar los SVG o PDF que se encuenrtan en la carpeta 'figures' directamente. 
+
+
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|Primera versión|Primera revisión|Segunda revisión|Uso las/los o los/las|
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
-|2x2-rubric.xml  | Yanina|Paola||Lista|||--|
-|bathtub.xml |Yanina|Natalia|--|Lista|Lista|Lista|--|
+|2x2-rubric.xml  | Yanina Bellini|Paola Corrales||Lista|||--|
+|bathtub.xml |Yanina  Bellini|Natalia Morandeira|--|Lista|Lista|Lista|--|
 |chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
-|cognitive-architecture.xml |Laura|Yanina|Patricia|Lista|Lista||
-|conceptmap-active-learning.xml |Laura|Yanina|Paloma|Lista|Lista||
-|conceptmap-assessment.xml |Laura|Yanina|Natalia|Lista|Lista||
-|conceptmap-cognitive-load.xml |Laura|Yanina|Patricia|Lista|Lista||
-|conceptmap-feedback.xml |Laura|Yanina|Paola|Lista|Lista||
-|conceptmap-mental-models.xml |Laura|Yanina|Natalia|Lista|Lista||
-|conceptmap-motivation.xml |Yanina|Gaby||Lista|||
-|conceptmap-personas.xml |Laura|Yanina|Paloma|Lista|Lista|||
-|conditionals.xml |Yanina|Paola||Lista|||
-|for-loop.xml |Yanina|Mónica||Lista|||
-|labeling.xml |Yanina|Priscilla||Lista|||
-|library-director-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
-|library-friends-concept-map.xml |Yanina|||Lista|||los/las
-|library-patron-concept-map.xml |Yanina|Laura||Lista|Lista||los/las
-|matching.xml | Yanina|Priscilla||Lista|||
-|photosynthesis.xml |Laura|Yanina|Mónica|Lista|Lista||--
-|screencast.xml |Yanina|||Lista|||
-|seasons.xml |Yanina|Mónica||Lista|||
-|what-to-teach.xml |Yanina|Gaby||Lista|||
+|cognitive-architecture.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
+|conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista||
+|conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista||
+|conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
+|conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
+|conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista||
+|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+|conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
+|conditionals.xml |Yanina Bellini|Paola Rojas||Lista|||
+|for-loop.xml |Yanina Bellini|Mónica Alonso||Lista|||
+|labeling.xml |Yanina Bellini|Priscilla Minotti||Lista|||
+|library-director-concept-map.xml |Yanina Bellini|Laura Acion||Lista|Lista||los/las
+|library-friends-concept-map.xml |Yanina Bellini|||Lista|||los/las
+|library-patron-concept-map.xml |Yanina Bellini|Laura Acion||Lista|Lista||los/las
+|matching.xml |Yanina Bellini|Priscilla Minotti||Lista|||
+|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
+|screencast.xml |Yanina Bellini|||Lista|||
+|seasons.xml |Yanina Bellini|Mónica Alonso||Lista|||
+|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+
+## Otras participaciones
+
+**Coordinación general**: Yanina Belini Saibene (@yabellini)
+**Editora de la traducción**: Laura Acion (@_lacion_)
+Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 
 ## Atribuciones y agradecimientos
 
 Estas orientaciones de traducción están basadas en la experiencia y documentos generados durante la traducción de [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds)
 
-Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
+
