@@ -169,7 +169,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
 | Introduction| Natalia Morandeira|Yanina Bellini|Yuriko |Lista|||las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
-| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval||||las/los
+| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval|Lista|||las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
 | Individual Learning| Paloma Rojas | Patricia Loto |||||las/los
 | A Lesson Design Process| Paloma Rojas ||||||los/las
@@ -186,7 +186,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
 | Glossary| Yanina Bellini||||||las/los
-| Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos||Lista|Lista||los/las
+| Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista||los/las
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini||Lista|||las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion||Lista|Lista||los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini||Lista|Lista||las/los
