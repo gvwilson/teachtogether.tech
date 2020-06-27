@@ -187,7 +187,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
 | Glossary| Yanina Bellini||||||las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista||los/las
-| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini||Lista|||las/los
+| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini||Lista|Lista||las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion||Lista|Lista||los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini||Lista|Lista||las/los
 | References| ||||||los/las
