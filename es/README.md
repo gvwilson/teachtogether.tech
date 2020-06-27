@@ -167,7 +167,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | ---------------|------------|-----------|-----------|---------------|----------------|----------------|---------------------|
 | Dedication| Yanina Bellini |Alejandra Bellini |Mónica Alonso|Lista|Lista|Lista|las/los
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
-| Introduction| Natalia Morandeira|Yanina Bellini|Yuriko |Lista|||las/los
+| Introduction| Natalia Morandeira|Yanina Bellini|Yuriko Sosa|Lista|Lista||las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval|Lista|||las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
