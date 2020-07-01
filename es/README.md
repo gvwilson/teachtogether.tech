@@ -90,7 +90,7 @@ Ejemplo:
 
 | Inglés                | Español                           |
 | ----------------------|-----------------------------------|
-| bournout/bourning out | síndrome de desgaste ocupacional  |
+| burnout/burning out | síndrome de desgaste ocupacional  |
 | competent practitioners| practicantes competentes, personas competentes |
 | call stack | pila de llamada |
 | chunking | particionar, fragmentar |
