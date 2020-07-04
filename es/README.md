@@ -118,6 +118,12 @@ Ejemplo:
 
 * Se debe rechequear esta traducción
 
+| Latin | Español |
+|-------|---------|
+|i.e. (id est) | "es decir" |
+|e.g. (exempli gratia) | por ejemplo, abreviatura "p. ej." |
+
+
 #### Material referenciado en el libro
 
 Cuando se encuentre una referencia al título y/o nombre de material referenciado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar \emph{} para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
