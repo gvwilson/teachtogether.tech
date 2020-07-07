@@ -10,12 +10,12 @@ commands :
 
 ## pdf : Re-make PDF.
 pdf : ${TEX} ${BIB}
-	pdflatex --shell-escape book
+	xelatex --shell-escape book
 	biber book
 	makeindex book
-	pdflatex --shell-escape book
-	pdflatex --shell-escape book
-	pdflatex --shell-escape book
+	xelatex --shell-escape book
+	xelatex --shell-escape book
+	xelatex --shell-escape book
 
 ## pages : pages per chapter.
 pages : ${PDF}
