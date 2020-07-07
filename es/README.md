@@ -7,7 +7,7 @@ La fuente del libro está en LaTeX, para dudas sobre la sintaxis podemos consult
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
-__1. Usar una voz conversacional en lugr de una voz formal o académica.
+__1. Usar una voz conversacional en lugar de una voz formal o académica.__
 
 __2. Al traducir buscamos generar una versión de cómo diríamos en español lo que en el capítulo está escrito en inglés.__ En algunos casos eso puede implicar alterar el orden de los elementos de una oración o agregar palabras que no estaban en el original. Lo importante es que la traducción se lea lo más natural posible en español, respetando el contenido que se quiso transmitir en el original.
 
