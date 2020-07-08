@@ -120,6 +120,7 @@ Ejemplo:
 | stack | pila |
 | stack frame | marco de pila |
 | summative assessment  |evaluación sumativa |
+| unchunked representation | representación no fragmentada |
 
 * Se debe rechequear esta traducción
 
