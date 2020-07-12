@@ -56,139 +56,130 @@ Pero dado que los y las docentes en las aulas tienen que tomar decisiones indepe
   Las definiciones completas de estos términos se encuentran en\hreffoot{https://www.acm.org/education/curricula-recommendations}{Lineamientos del programa ACM}.
 \end{aside}
 
-\seclbl{What Are We Teaching Them Now?}{s:pck-now}
+\seclbl{¿Qué les estamos enseñando ahora?}{s:pck-now}
 
-Very little is known about what coding bootcamps and other free-range initiatives teach,
-in part because many are reluctant to share their curriculum.
-We know more about what is taught by institutions~\cite{Luxt2017}:
+Se sabe muy poco sobre que enseñan en coding bootcamps e iniciativas free-range, en parte porque muchas personas son reticentes a compartir los programas.
+Savemos maś sobre que se enseña en instituciones~\cite{Luxt2017}:
 
 \begin{longtable}{llll}
-\textbf{Topic}			& \textbf{\%}	& \textbf{Topic}		& \textbf{\%} \\
-Programming Process     	& 87\%		& Data Types                    & 23\% \\
-Abstract Programming Thinking	& 63\%		& Input/Output                  & 17\% \\
-Data Structures      		& 40\%		& Libraries                     & 15\% \\
-Object-Oriented Concepts        & 36\%		& Variables \& Assignment       & 14\% \\
-Control Structures              & 33\%		& Recursion 			& 10\% \\
-Operations \& Functions         & 26\%		& Pointers \& Memory Management	&  5\%
+\textbf{Temas}			& \textbf{\%}	& \textbf{Temas}		& \textbf{\%} \\
+Proceso de programación     	& 87\%		& Tipos de datos                & 23\% \\
+Pensamiento abstracto para programación	& 63\%		& Input/Output                  & 17\% \\
+Estructura de datos      		& 40\%		& Librerías                     & 15\% \\
+Conceptos orientados a objetos        & 36\%		& Variables y Asignación       & 14\% \\
+Estructuras de control              & 33\%		& Recursion 			& 10\% \\
+Operaciones y Funciones         & 26\%		& Punteros y administración de memoria	&  5\%
 \end{longtable}
 
-High-level topic labels like these can hide a multitude of sins.
-A more tangible result comes from \cite{Rich2017},
-which reviewed a hundred articles
-to find learning trajectories for computing classes in elementary and middle schools.
-Their results for sequencing, repetition, and conditionals are essentially collective concept maps
-that combine and rationalize the implicit and explicit thinking of many different educators
+Títulos de temas de alto nivel como estos pueden esconder una gran cantidad de fallas.
+Un resultado más tangible surge de \cite{Rich2017},
+donde reivsa cien artículos para encontrar trayectorias de aprendizaje para clases de computación en escuelas primarias y secundarias.
+Sus resultados para la secuenciación, la repetición y los condicionales son esencialmente mapas conceptuales colectivos
+que combinan y racionalizan el pensamiento implícito y explícito de gran cantidad de educadoras/es.
 (\figref{f:pck-trajectory}).
 
 \newpage
-\figpdfhere{../figures/conditionals.pdf}{Learning trajectory for conditions (from~\cite{Rich2017})}{f:pck-trajectory}
+\figpdfhere{../figures/conditionals.pdf}{Trayectoria de aprendizaje de condicionales (a partir de~\cite{Rich2017})}{f:pck-trajectory}
 
-\seclbl{How Much Are They Learning?}{s:pck-learning}
+\seclbl{¿Cuán están aprendiendo?}{s:pck-learning}
 
-There can be a world of difference between what teachers teach
-and how much learners learn.
-To explore the latter,
-we must use other measures or do direct studies.
-Taking the former approach,
-roughly two-thirds of post-secondary students pass their first computing course,
-with some variations depending on class size and so on,
-but with no significant differences over time or based on language~\cite{Benn2007a,Wats2014}.
+Puede haber un mundo de distancia entre lo que enseñan las/los docentes y cuanto aprenden las personas.
+Para explorar lo último, debemos usar otras medidas o hacer estudios directos.
+Tomando el primer enfoque, aproximadamente dos tercios de las/los estudiantes de nivel superior aprueban su primer curso de informática,
+con algunas variaciones dependiendo del tamaño de la clase,
+pero sin diferencias significativas a lo largo del tiempo o basadas en el lenguaje~\cite{Benn2007a,Wats2014}.
 
-How does prior experience affect these results?\index{effect of prior experience}
-To find out,
-\cite{Wilc2018} compared the performance and confidence of novices
-with and without prior programming experience
-in CS1 and CS2 (see below).
-They found that novices with prior experience outscored novices without by 10\% in CS1,
-but those differences disappeared by the end of CS2.
-They also found that women with prior exposure outperformed their male peers in all areas,
-but were consistently less confident in their abilities (\secref{s:motivation-inclusivity}).
+¿Cómo afecta la experiencia previa a estos resultados?\index{effect of prior experience}
+Para responder esto, 
+\cite{Wilc2018} compara el desempeño y la confianza de principiantes
+con y sin experiencia previa en programación en CS1 y CS2 (ver más abajo).
+Encontaron que principiantes con experiencia previa superaron a principiantes sin experiencia en un 10\% en CS1,
+pero esas diferencias desarecieron hacía el final de CS2.
+También encontraron que las muejres con experiencia previa superaron a sus pares masculinos en todas las áreas,
+pero siempre tenián menos confianza en sus habilidades. (\secref{s:motivation-inclusivity}).
 
-As for direct studies of how much novices learn,
-\cite{McCr2001} presented a multi-site international study
-that was later replicated by~\cite{Utti2013}.
-According to the first study,
-``{\ldots}the disappointing results suggest that
-many students do not know how to program at the conclusion of their introductory courses.''
-More specifically,
-``For a combined sample of 216 students from four universities,
-the average score was 22.89 out of 110 points on the general evaluation criteria developed for this study.''
-This result may say as much about teachers' expectations as it does about student ability,
-but either way,
-our first recommendation is to \recommendation{measure and track results}
-in ways that can be compared over time
-so that you can tell if your lessons are becoming more or less effective.
+En cuanto a estudios sobre cuanto aprenden las/los principiantes,
+\cite{McCr2001} presenta un estudio internacional en multiples espacios que luego fue replicado por~\cite{Utti2013}.
+De acuerdo al primer estudio,
+``{\ldots}los decepcionantes resultados sugieren que
+muchas estudiantes no saben cómo programar al final de los cursos introductorios".
+Más específicamente,
+``Para una muestra combinada de 216 estudiantes de cuatro universidades,
+la puntuación media fue de 22,89 sobre 110 puntos en los criterios generales de evaluación desarrollados para este estudio''
+Este resultado puede hablar tanto de las expectativas de profesores como de la habilidad de estudiantes,
+pero de cualquier manera,
+nuestra primera recomendación es \recommendation{medir y hacer un seguimiento de los resultados}
+de tal manera que se puedan comparar a través del tiempo para que puedas saber si tus lecciones se están volviendo más o menos efectivas.
 
-\seclbl{What Misconceptions Do Novices Have?}{s:pck-misunderstand}
+\seclbl{¿Qué confusiones tiene las/los principiantes?}{s:pck-misunderstand}
 
-\chapref{s:models} explained why clearing up novices' misconceptions
-is just as important as teaching them strategies for solving problems.
-The biggest misconception novices have---sometimes called the ``superbug'' in coding---is\index{superbug}
-the belief that computers understand what people mean in the way that another human being would~\cite{Pea1986}.
-Our second recommendation is therefore to \recommendation{teach novices that computers don't understand programs},
-i.e.\ that calling a variable ``cost'' doesn't guarantee that its value is actually a cost.
+\chapref{s:models} explicó porqué aclarar las confusiones de las/los principiantes es tan importante como enseñarles
+estrategias para resolver problemas.
+La mayor confusión de principiantes ---a veces llamada el ``superbug'' en programación ---es\index{superbug}
+la creencias de que las computadoras entienden lo que las personas quieren decir de la misma manera que cualquier ser humano lo haría~\cite{Pea1986}.
+Nuestra segunda recomendación es entonces \recommendation{enseñar a principiantes que las computadoras no entienden los programas},
+i.e.\ que llamar a una variable ``precio'' no garantiza que su valor sea realmente un precio.
 
-\cite{Sorv2018} presents over forty other misconceptions that teachers can also try to clear up,
-many of which are also discussed in~\cite{Qian2017}'s survey.
-One is the belief that variables in programs work the same way they do in spreadsheets,
-i.e.\ that after executing:
+\cite{Sorv2018}  muestra más de cuarenta confusiones que docentes también pueden intentan aclarar,
+muchas de las cuales tambié se discuten en la encuesta de~\cite{Qian2017}.
+Una es la creencia de que las variables en los programas funcionan de la misma manera que en planillas de cálculo,
+i.e.\ que luego de ejecutar:
 
 \begin{minted}{text}
-grade = 65
-total = grade + 10
-grade = 80
+nota = 65
+total = nota + 10
+nota = 80
 print(total)
 \end{minted}
 
 \noindent
-the value of \texttt{total} will be 90 rather than 75~\cite{Kohn2017}.
-This is an example of the way in which novices construct a plausible-but-wrong mental model by making analogies;
-other misconceptions include:
+el valor de \texttt{total} será 90 envez de 75~\cite{Kohn2017}.
+Este es un ejemplo de la forma en que las/los principiantes construyen un modelo 
+mental plausible pero erróneo haciendo analogías; otras confusiones incluyen:
+
 
 \begin{itemize}
 
 \item
-  A variable holds the history of the values it has been assigned,
-  i.e.\ it remembers what its value used to be.
+  Una variable guarda la historia de los valores que le fueron asignando,
+  i.e.\ recuerda que valor supo representar.
 
 \item
-  Two objects with the same value for a \texttt{name} or \texttt{id} attribute
-  are guaranteed to be the same object.
+  Está garantizado que dos objetos con el mismo valor el \texttt{nombre} 
+  o atributo de identificación \texttt{id} son el mismo objeto.   
+  
 
 \item
-  Functions are executed as they are defined,
-  or are executed in the order in which they are defined.
+  Las funciones son ejecutada cuando se las define,
+  o son ejecutadas en el orden en que son definidas.
 
 \item
-  A \texttt{while} loop's condition is constantly evaluated,
-  and the loop stops as soon as it becomes false.
-  Conversely,
-  the conditions in \texttt{if} statements are also constantly evaluated,
-  and their statements are executed as soon as the condition becomes true
-  regardless of where the flow of control is at the time.
+  La condición de un bucle \texttt{while} se evalua constantemente,
+  y el bucle se detiene tan pronto como se vuelve falso.
+  Por el contrario,
+  la condición en los \texttt{if} es constantemente evaluada,
+  y sus declaraciones son ejecutadas tan pronto como la condición se vuelve verdadera
+  sin importar el flujo de control en ese momento.
 
 \item
-  Assignment moves values,
-  i.e.\ after \texttt{a\ =\ b}, the variable \texttt{b} is empty.
+  Las asignaciones modifican valores,
+  i.e.\ después de \texttt{a\ =\ b}, la variable \texttt{b} está vacía.
 
 \end{itemize}
 
-\seclbl{What Mistakes Do Novices Make?}{s:pck-mistakes}
+\seclbl{¿Qué errores comenten las/los principiantes?}{s:pck-mistakes}
 
-The mistakes novices make can tell us what to prioritize in our teaching,
-but it turns out that most teachers don't know how common different kinds of mistakes actually are.
-The largest study of this is \cite{Brow2017},
-which found that mismatched quotes and parentheses are the most common type of errors in novice Java programs,
-but also the easiest to fix,
-while some mistakes (like putting the condition of an \texttt{if} in \texttt{\{\}} instead of \texttt{()})
-are most often made only once.
-Unsurprisingly,
-mistakes that produce compiler errors are fixed much faster than ones that don't.
-Some mistakes,
-however,
-are made many times,
-like invoking methods with the wrong arguments
-(e.g.\ passing a string instead of an integer).
+Los errores que comenten las/los principiantes nos indican que priorizar cuando enseñamos,
+pero resulta que la mayoría de las personas que enseñan no saben lo comunes que son los diferentes tipos de errores.
+El más grande de los estudios es \cite{Brow2017},
+que encontró que la falta de paréntesis y comillas son el tipo de error más común en programas en Java de principiantes,
+pero además son los más simples de resolver,
+mientras que algunos errores (como poner la condición de un \texttt{if} en \texttt{\{\}} en vez de \texttt{()})
+se comenten solo una vez.
+No extraña que los errores que producen problemas de compilación son resueltos mucho más rápidamente
+que aquellos que no lo hacen.
+Algunos errores, en cambio, se repiten muchas veces, como llamar metodos con los agumentos incorrectos
+(ej.\ pasar una cadena caracteres en vez de un enero).
 
 \begin{aside}{Not Right vs.\ Not Done}
   One difficulty in research like this is distinguishing mistakes from work in progress.
