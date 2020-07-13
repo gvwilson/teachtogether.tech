@@ -88,6 +88,9 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 
 
 #### 2. Términos técnicos que se traducen
+
+En este sitio se puede acceder a una aplicación web con el glosario completo de T3 en Español e Inglés: https://yabellini.shinyapps.io/T3Glossary/
+
 Recordar que la primera aparición puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado:
 
 Ejemplo:
