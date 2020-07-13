@@ -956,15 +956,6 @@ GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositori
     term: "Memoria de trabajo" 
     def: > 
  Ver memoria de corto plazo.
-- slug: Screencast 
- en:
-    term: "Screencast" 
-    def: > 
- NA 
- es:
-    term: "Grabación de pantalla" 
-    def: > 
- NA
 - slug: Absolute_beginner 
  en:
     term: "Absolute beginner" 
@@ -1812,12 +1803,3 @@ GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositori
     term: "Memoria de trabajo" 
     def: > 
  Ver memoria de corto plazo.
-- slug: Screencast 
- en:
-    term: "Screencast" 
-    def: > 
- NA 
- es:
-    term: "Grabación de pantalla" 
-    def: > 
- NA
