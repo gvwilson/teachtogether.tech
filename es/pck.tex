@@ -79,9 +79,10 @@ que combinan y racionalizan el pensamiento implícito y explícito de gran canti
 (\figref{f:pck-trajectory}).
 
 \newpage
+
 \figpdfhere{../figures/conditionals.pdf}{Trayectoria de aprendizaje de condicionales (a partir de~\cite{Rich2017})}{f:pck-trajectory}
 
-\seclbl{¿Cuán están aprendiendo?}{s:pck-learning}
+\seclbl{¿Cuánto están aprendiendo?}{s:pck-learning}
 
 Puede haber un mundo de distancia entre lo que enseñan las/los docentes y cuanto aprenden las personas.
 Para explorar lo último, debemos usar otras medidas o hacer estudios directos.
@@ -118,12 +119,12 @@ estrategias para resolver problemas.
 La mayor confusión de principiantes ---a veces llamada el ``superbug'' en programación ---es\index{superbug}
 la creencias de que las computadoras entienden lo que las personas quieren decir de la misma manera que cualquier ser humano lo haría~\cite{Pea1986}.
 Nuestra segunda recomendación es entonces \recommendation{enseñar a principiantes que las computadoras no entienden los programas},
-i.e.\ que llamar a una variable ``precio'' no garantiza que su valor sea realmente un precio.
+es decir, que llamar a una variable ``precio'' no garantiza que su valor sea realmente un precio.
 
 \cite{Sorv2018}  muestra más de cuarenta confusiones que docentes también pueden intentan aclarar,
 muchas de las cuales tambié se discuten en la encuesta de~\cite{Qian2017}.
 Una es la creencia de que las variables en los programas funcionan de la misma manera que en planillas de cálculo,
-i.e.\ que luego de ejecutar:
+es decir, que luego de ejecutar:
 
 \begin{minted}{text}
 nota = 65
@@ -142,7 +143,7 @@ mental plausible pero erróneo haciendo analogías; otras confusiones incluyen:
 
 \item
   Una variable guarda la historia de los valores que le fueron asignando,
-  i.e.\ recuerda que valor supo representar.
+  es decir, recuerda que valor supo representar.
 
 \item
   Está garantizado que dos objetos con el mismo valor el \texttt{nombre} 
@@ -163,7 +164,7 @@ mental plausible pero erróneo haciendo analogías; otras confusiones incluyen:
 
 \item
   Las asignaciones modifican valores,
-  i.e.\ después de \texttt{a\ =\ b}, la variable \texttt{b} está vacía.
+  es decir, después de \texttt{a\ =\ b}, la variable \texttt{b} está vacía.
 
 \end{itemize}
 
@@ -178,157 +179,155 @@ mientras que algunos errores (como poner la condición de un \texttt{if} en \tex
 se comenten solo una vez.
 No extraña que los errores que producen problemas de compilación son resueltos mucho más rápidamente
 que aquellos que no lo hacen.
-Algunos errores, en cambio, se repiten muchas veces, como llamar metodos con los agumentos incorrectos
-(ej.\ pasar una cadena caracteres en vez de un enero).
+Algunos errores, en cambio, se repiten muchas veces, como llamar métodos con los agumentos incorrectos
+(ej.\ pasar una cadena caracteres en vez de un entero).
 
-\begin{aside}{Not Right vs.\ Not Done}
-  One difficulty in research like this is distinguishing mistakes from work in progress.
-  For example,
-  an empty \texttt{if} statement or a method that is defined but not yet used
-  may be a sign of incomplete code rather than an error.
+\begin{aside}{No es correcto vs.\ No está resuelto}
+  Una dificultad en una investigación como esta es distinguir los errores del trabajo en proceso.
+  Por ejemplo,
+  una estructura \texttt{if} vacía o un método que se define pero aún no se a usado
+  puede ser señal de que el código está incompleto más que un error.
 \end{aside}
 
-\cite{Brow2017} also compared the mistakes novices actually make
-with what their teachers thought they made.
-They found that,
-``{\ldots}educators formed only a weak consensus about which mistakes are most frequent,
-that their rankings bore only a moderate correspondence to the students in the{\ldots}data,
-and that educators' experience had no effect on this level of agreement.''
-For example,
-mistaking \texttt{=} (assignment) and \texttt{==} (equality)
-wasn't nearly as common as most teachers believed.
+\cite{Brow2017} también compara los errores que las/los principiantes realmente cometen 
+con los que sus docentes pensaron que cometieron.
+Descubrieron que,
+``{\ldots}las/los docentes llegaron a un escaso concenso sobre cuales son los errores más frecuentes,
+que sus clasificaciones tenían solo unaa correspondencia moderada con la de las/los estudiantes en los{\ldots}datos,
+y que la experiencia de las/los docentes no tuvo ningún efecto en este nivel de acuerdo.''
+Por ejemplo,
+confundir \texttt{=} (asignación) y \texttt{==} (igualdad)
+no eran tan común como la mayoría de las/los docentes creían.
 
-\begin{aside}{Not Just for Code}
-  \cite{Park2015} collected data from an online HTML editor during an introductory web development course
-  and found that nearly all learners made syntax errors that remained unresolved weeks into the course.
-  20\% of these errors related to the relatively complex rules
-  that dictate \emph{when} it is valid for HTML elements to be nested in one another,
-  but 35\% related to the simpler tag syntax determining \emph{how} HTML elements are nested.
-  The tendency of many teachers to say,
-  ``But the rules are simple,''
-  is a good example of expert blind spot discussed in \chapref{s:memory}{\ldots}
+\begin{aside}{No solo por el código}
+  \cite{Park2015} recopiló datos de un editor HTML online durante un curso introductorio de desarrollo web
+  y encontró que casi todas/os las estudiantes cometieron errores de sintaxis que permanecesieron sin ser resueltos por semanas durante el curso.
+  El 20\% de esos errores están relacionados con reglas relativamente complejas
+  que indican \emph{cuándo} qie los elementos HTML estén anidados entre si,
+  pero el 35\% está relacionado a sistaxis de etiquetas más simples que determinan \emph{cómo} los elementos HTML están anidados.
+  La tendencia de muchas/os docentes a decir,
+  ``Pero las reglas son simples,''
+  es un buen ejemplo del punto ciego de las personas expertas que se analiza en el \chapref{s:memory}{\ldots}
 \end{aside}
 
-\seclbl{How Do Novices Program?}{s:pck-programming}
+\seclbl{¿Cómo programan las/los principiantes}{s:pck-programming}
 
-\cite{Solo1984,Solo1986} pioneered the exploration of novice and expert programming strategies.
-The key finding is that experts know both ``what'' and ``how,''
-i.e.\ they understand what to put into programs
-\emph{and} they have a set of program patterns or plans to guide their construction.\index{program patterns}
-Novices lack both,
-but most teachers focus solely on the former,
-even though bugs are often caused by not having a strategy for solving the problem
-rather than to lack of knowledge about the language.
-Recent work has shown the effectiveness of teaching four distinct skills in a specific order~\cite{Xie2019}:
+\cite{Solo1984,Solo1986} fue pionero en la exploración de las estrategias de programación de principiantes y gente experta.
+El hallazgo clave es que las personas expertas saben al mismo tiempo el ``que'' y el ``como,''
+es decir, entienden que poner en los programas
+\emph{y} tiene un conjunto de patrones o plan que guía la contrucción de los programas.\index{program patterns}
+Las/los principiantes no tienen ninguna de las dos cosas,
+pero la mayoría de las/los docentes se enfocan unicamente en el primero,
+a pesar de que los errores son usualmente causados por no tener una estrategia para resolver el problema
+en lugar de la falta de conocimiento sobre el lenguaje.
+Un trabajo reciente mostró la efectividad de enseñar cuatro habilidades distintas en un orden específico~\cite{Xie2019}:
 
 \begin{longtable}{lll}
-		        & \textbf{semantics of code}   		& \textbf{templates related to goals} \\
-\textbf{reading}	& 1.\ read code and predict behavior	& 3.\ recognize templates and their uses \\
-\textbf{writing}	& 2.\ write correct syntax		& 4.\ use templates to meet goals
+		        & \textbf{semántic del código}   		& \textbf{plantillas asociadas a obejtivos} \\
+\textbf{leyendo}	& 1.\ Lee el código y predice su comportamiento	& 3.\ reconoce plantillas y sus usos
+\textbf{escribiendo}	& 2.\ Escribe sintaxis correcta		& 4.\ usa plantillas para alcanzar objetivos
 \end{longtable}
 
-Our next recommendations are therefore
-to \recommendation{have learners read code, then modify it, then write it},
-and to \recommendation{introduce common patterns explicitly and have learners practice using them}.
-\cite{Mull2007b} is just one of many studies proving the benefits of teaching common patterns explicitly,
-and decomposing problems into patterns creates natural opportunities
-for creating and labeling subgoals~\cite{Marg2012,Marg2016}.\index{labeled subgoals}
+Por lo tanto, nuestras próximas recomendaciones son
+que \recommendation{estudiantes lean código, luego lo modifiquen, luego lo escriban},
+e \recommendation{intruducir patrones comunes explicitamente y que las/los estudiantes practiquen usándolos}.
+\cite{Mull2007b} es uno de los tantos estudios que muestran los beneficios de enseñar patrones comunes explicitamente y descomponer los problemas
+en patrones comunes crea oportunidades naturalmente para generar y nombrar sub-objetivos~\cite{Marg2012,Marg2016}.\index{labeled subgoals}
 
-\seclbl{How Do Novices Debug?}{s:pck-debug}
+\seclbl{¿Cómo resuelven errores las/los principiantes?}{s:pck-debug}
 
-A decade ago,
-\cite{McCa2008} wrote,
-``It is surprising how little page space is devoted to bugs and debugging
-in most introductory programming textbooks.''
-Little has changed since:
-there are hundreds of books on compilers and operating systems,
-but only a handful about debugging,\index{debugging}
-and I have never seen an undergraduate course devoted to the subject.
+Una década atrás,
+\cite{McCa2008} escribió,
+``Es sorprendente el poco espacio que se dedica a los errores y como resolverlos
+en la mayoría de los libros introductorios de programación.''
+Poco ha cambiado esde entonces:
+hay cientos de libros sobre compiladores y sistemas operativos,
+pero solo unos pocos sobre resolución de errores,\index{debugging}
+y nunca he visto un curso de pregrado dedicado a este tema.
 
-\cite{List2004,List2009} found that many novices struggled to predict the output of short pieces of code
-and to select the correct completion of the code from a set of possibilities
-when told what it was supposed to do.
-More recently,
-\cite{Harr2018} found that the gap between being able to trace code and being able to write it has largely closed by CS2,
-but that novices who still have a gap (in either direction) are likely to do poorly.
+\cite{List2004,List2009} encontró que muchas/os principiantes les cuesta predecir el resultado de cortas líneas de código
+y seleccionar la salida correcta del código a partir de un conjunto de posibilidades
+cuando les decían lo que se suponía que el código debía hacer. Más recientemente,
+\cite{Harr2018} encontró que la brecha entre poder entender el código y poder escribirlo se ha cerrado en gran medida por CS2,
+pero que a las/los principiantes que aún tienen esa brecha es probable que les vaya mal.
 
-Our fifth recommendation is therefore to \recommendation{explicitly teach novices how to debug}.
-\cite{Fitz2008,Murp2008} found that good debuggers were good programmers,
-but not all good programmers were good at debugging.
-Those who were used a symbolic debugger to step through their programs,
-traced execution by hand,
-wrote tests,
-and re-read the spec frequently,
-which are all teachable habits.
-However,
-tracing execution step by step was sometimes used ineffectively:
-for example,
-a novice might put the same \texttt{print} statement in both parts of an \texttt{if}-\texttt{else}.
-Novices would also comment out lines that were actually correct as they tried to isolate a problem;
-teachers can make both of these mistakes deliberately,
-point them out,
-and correct them to help novices get past them.
+Nuestra quinta recomendación es entonces \recommendation{enseñar explicitamente a las/los principiantes como resolver errores}.
+\cite{Fitz2008,Murp2008} encontraron que las personas que pueden resolver errores son buenas programando,
+pero no todas las personas que son buenas programando son buenas resolviendo errores.
+Aquellas personas que usaron un depurador de errores simbólico para recorrer sus programas,
+rastrearon su ejecución manualmente,
+escribieron pruebas,
+y releyeron las especificaciones frecuentemente,
+todos habitos que se pueden enseñar.
+Sin embargo,
+rastrear la ejecución paso a paso a veces se usaba de manera ineficaz:
+por ejemplo,
+una persona novata podría poner la misma declaración \texttt{print} en ambas parte de una estructura \texttt{if}-\texttt{else}.
+Las personas novatas también comentarían líneas de código que en realidad eran correctas al tratar de aislar un problema;
+las/los docentes puede comentern estos dos errores deliberadamente, 
+señalarlos,
+y corregirlos para ayudar a las personas novatas a aprender a resolverlos.
 
-Teaching novices how to debug can also help make classes easier to manage.
-\cite{Alqa2017} found that learners with more experience solved debugging problems significantly faster,
-but times varied widely:
-4--10 minutes was a typical range for individual exercises,
-which means that some learners need 2--3 times longer than others to get through the same exercises.
-Teaching the slower learners what the faster ones are doing
-will help make the group's overall progress more uniform.
+Enseñar a personas novatas como depurar errores también puede ayudar a que las clases sean más simples de manejar.
+\cite{Alqa2017} encontró que estudiantes con mayor experiencia resolvieron problemas de depuración de errores significativamente más rápido,
+pero los tiempos variaron ampliamente:
+4--10 minutos fue el rango típico para ejercicios individuales,
+lo que significa que algunas/os estudiantes necesitan 2--3 más tiempo que otros para resolver el mismo ejercicio.
+Enseñar a estudiantes que hacen las cosas más lentamente lo que las personas más rápidas están haciendo
+va a ayudar a que el progreso de todo el grupo en general sea más unifirme.
 
-Debugging depends on being able to read code,
-which multiple studies have shown is the single most effective way to find bugs~\cite{Basi1987,Keme2009,Bacc2013}.
-The code quality rubric developed in~\cite{Steg2014,Steg2016a}
-is a good checklist of things to look for,
-though it is best presented in chunks rather than all at once.
+La depuración de errores depende de ser capaz de leer el código,
+que múltiples estudios han demostrado que es la forma más efectiva de encontrar errores~\cite{Basi1987,Keme2009,Bacc2013}.
+La rubrica de calidad de código desarrollada por~\cite{Steg2014,Steg2016a}
+es una buena lista de verificación de elementos a revisar,
+aunque se presenta mejor de a partes en vez de toda junta.
 
-Having learners read code and summarize its behavior is a good exercise (\secref{s:individual-strategies}),
-but often takes too long to be practical in class.
-Having them predict a program's output just before it is run,
-on the other hand,
-helps reinforce learning (\secref{s:classroom-practices})
-and also gives them a natural moment to ask ``what if'' questions.
-Teachers or learners can also trace changes to variables as they go along,
-which \cite{Cunn2017} found was effective (\secref{s:exercises-tracing}).
+Hacer que las/los estudiantes lean código y resuman su comportamiento es un buen ejercicio (\secref{s:individual-strategies}),
+pero frecuentemente lleva mucho tiempo para ser practicado en clase.
+Hacer que las/los estudiantes predigan la salida de un programa justo antes de que sea ejecutado,
+por otro lado,
+ayuda a reforzar el aprendizaje (\secref{s:classroom-practices})
+y además les da la oportunidad ideal para hacer el tipo de preguntas ``que pasaría si''.
+Docentes o estudiantes puede además rastrear los cambios en las variables a medida que avanzan,
+algo que \cite{Cunn2017} encontró efectivo (\secref{s:exercises-tracing}).
 
-\seclbl{What About Testing?}{s:pck-testing}
+\seclbl{¿Qué pasa con las pruebas?}{s:pck-testing}
 \index{testing (software)}
 
-Novice programmers seem just as reluctant to test software as professionals.
-There's no doubt that doing it is valuable---\cite{Cart2017} found that
-high-performing novices spent a lot of time testing,
-while low performers spent much more time working on code with errors---and many teachers
-require learners to write tests for assignments.
-But how well do they do this?
-One answer comes from~\cite{Bria2015},
-which scored learners' programs by how many teacher-provided test cases those programs passed,
-and conversely scores test cases written by learners according to how many deliberately-seeded bugs they caught.
-They found that novices' tests often have low coverage (i.e.\ they don't test most of the code)
-and that they often test many things at once, which makes it hard to pinpoint the causes of errors.
+Programadoras/es novatas/os parecen tan reacios a testear software como aquellas personas profesionales.
+No hay duda de que hacerlos es valioso---\cite{Cart2017} encontró que
+persons novatas con un alto rendimiento dedican mucho tiempo a testear el código,
+mientras que las personas novatas con un bajo rendimiento dedican mucho más tiempo a trabajar en el código con errores---y muchas/os docentes
+requieren que las/los estudiantes escriban pruebas en las  actividades.
+Pero que tan bien lo hacen?
+Una respuesta proviene de~\cite{Bria2015},
+que calificó el código de las/los estudiantes según la cantidad de situaciones, definidas por la/el docente, que pasaban correctamente las pruebas de los programas,
+y, a la inversa, calificó los casos de prueba escritos por estudiantes de acuedo con la cantidad de errores, sembrados deliberadamente, detectados.
+Ellos encontraron que las pruebas de novatos usualmente tiene una baja cobertura (es decir, no testean gran parte del código)
+y que usualmente testean muchas cosas al mismo tiempo, lo que dificulta determinar las causas de los errores.
 
-Another answer comes from~\cite{Edwa2014b},
-which looked at all of the bugs in all novices' code submissions combined
-and identified those detected by the novices' test suite.
-They found that novices' tests only detected an average of 13.6\% of the faults present in the entire program population.
-What's more,
-90\% of the novices' tests were very similar,
-which indicates that novices mostly write tests to confirm that code is doing what it's supposed to
-rather than to find cases where it isn't.
-
-One approach to teaching better testing practices is
-to define a programming problem by providing a set of tests to be passed
-rather than through a written description (\secref{s:exercises-classics}).
-Before doing this,
-though,
-take a moment to look at how many tests you've written for your own code recently,
-and then decide whether you're teaching what you believe people should do,
-or what they (and you) actually do.
+Otra respuesta proviene de ~\cite{Edwa2014b},
+que examinó todos los errores en el código presentado por personas novatas combinados
+e identificó aquellos detectados por el conjunto de pruebas de las/los novatos.
+Ellos encontraron que las pruebas de novatos solo detectaban un promedio del 13.6\% de los errores presentes en la totalidad de los programas.
+Además,
+el 90\% de las pruebas de las/los novatos fueron muy parecidas,
+lo que indica que las/los novatos escriben pruebas principalmente para confirmar que el código está haciendo lo que se supone que debe hacer
+en lugar de encontrar situaciones en las que no ocurre.
+esto
+Un enfoque para enseñar mejores prácticas para generar pruebas es 
+definir un problema de programación proporcionando un conjunto de prubas que deben ser pasadas
+en lugar de una descripción (\secref{s:exercises-classics}).
+Sin embargo,
+antes de hacerlo 
+tómate un momento para ver cuántas pruebas has escrito recientemente en tu propio código recientemte,
+y luego decide si estás enseñando lo que crees que las personas deberían hacer,
+ o lo que ellos (y tu) realmente hacen.
 
 \seclbl{Do Languages Matter?}{s:pck-language}
 \index{blocks-based programming}
 
-The short answer is ``yes'':
+T-______he short answer is ``yes'':
 novices learn to program faster and learn more
 using blocks-based tools like Scratch (\figref{f:pck-scratch})~\cite{Wein2017}.\index{Scratch}
 One reason is that blocks-based systems reduce cognitive load by eliminating the possibility of syntax errors.
@@ -347,7 +346,7 @@ before moving to text-based systems.
 The age qualification is there because Scratch deliberately looks like it's meant for younger users,
 and it can still be hard to convince adults to take it seriously.
 
-\figimg{../figures/scratch-program.png}{Scratch}{f:pck-scratch}
+\figimg{figures/scratch-program.png}{Scratch}{f:pck-scratch}
 
 Scratch has probably been studied more than any other programming tool.
 One example is~\cite{Aiva2016},
@@ -390,7 +389,7 @@ and many educators advocate an \gref{g:objects-first}{objects first} approach to
 \cite{Sorv2014} describes and motivates this approach,
 and~\cite{Koll2015} describes three generations of tools
 designed to support novice programming in object-oriented environments.
-
+-
 Introducing objects early has a few challenges.
 \cite{Mill2016b} found that most novices using Python\index{Python}
 struggled to understand \texttt{self}
@@ -572,7 +571,7 @@ they found ten things teachers can do to improve outcomes (\figref{f:pck-interve
 
 \end{description}
 
-\figimg{../figures/interventions-scaled.png}{Effectiveness of interventions}{f:pck-interventions}
+\figimg{figures/interventions-scaled.png}{Effectiveness of interventions}{f:pck-interventions}
 
 This list highlights the importance of cooperative learning.
 \cite{Beck2013} looked at this specifically over three academic years in courses taught by two different teachers

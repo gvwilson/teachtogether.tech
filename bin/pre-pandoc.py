@@ -6,7 +6,7 @@ import sys
 def main():
     for line in sys.stdin:
         line = line\
-            .replace('input{pdf-settings}', 'input{html-settings}')\
+            .replace('input{../tex/pdf-settings}', 'input{../tex/html-settings}')\
             .replace('%%- ', '')
         sys.stdout.write(line)
 
