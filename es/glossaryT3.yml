@@ -863,8 +863,7 @@
   es:
     term: "Pull request"
     def: >
-     Un conjunto de cambios propuestos a un repositorio de 
-GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositorio.
+     Un conjunto de cambios propuestos a un repositorio de GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositorio.
 
 - slug: Read-cover-retrieve
   en:
@@ -1804,8 +1803,7 @@ GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositori
   es:
     term: "Pull request"
     def: >
-     Un conjunto de cambios propuestos a un repositorio de 
-GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositorio.
+     Un conjunto de cambios propuestos a un repositorio de GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositorio.
 
 - slug: Read-cover-retrieve
   en:
