@@ -1,0 +1,390 @@
+- slug: Active_learning 
+ en:
+    term: "Active learning" 
+    def: > 
+ An approach to instruction in which learners engage with material through discussion, problem solving, case studies, and other activities that require them to reflect on and use new information in real time 
+    ref: 
+     - passive learning.
+  es:
+    term: "Aprendizaje activo" 
+        def: > 
+ Un enfoque de la enseñanza en el que los estudiantes se involucran con el material a través de la discusión, resolución de problemas, estudios de casos, y otras actividades que requieren que reflexionen y usen nueva información en tiempo real.
+    ref: 
+     - Aprendizaje pasivo.
+ 
+- slug: Active_teaching 
+ en:
+    term: "Active teaching" 
+    def: > 
+ An approach to instruction in which the teacher acts on new information acquired from learners while teaching (e.g.\ by dynamically changing an example or rearranging the intended order of content) 
+    ref: 
+     - passive teaching.
+  es:
+    term: "Enseñanza activa" 
+        def: > 
+ Un enfoque de la instrucción en el que el maestro actúa sobre la nueva información adquirida de los alumnos mientras enseña (p. ej. cambiando dinámicamente un ejemplo o reorganizando el orden previsto del contenido).
+    ref: 
+     - Enseñanza pasiva.
+ 
+- slug: Behaviorism 
+ en:
+    term: "Behaviorism" 
+    def: > 
+ A theory of learning whose central principle is stimulus and response, and whose goal is to explain behavior without recourse to internal mental states or other unobservables 
+    ref: 
+     - cognitivism.
+  es:
+    term: "Conductismo" 
+        def: > 
+ Una teoría del aprendizaje cuyo principio central es estímulo y respuesta, y cuyo objetivo es explicar el comportamiento sin recurrir a estados mentales internos u otros inobservables.
+    ref: 
+     - NA
+ 
+- slug: Bloom_s_Taxonomy 
+ en:
+    term: "Bloom's Taxonomy" 
+    def: > 
+ A six-part hierarchical classification of understanding whose levels are knowledge, comprehension, application, analysis, synthesis, and evaluation that has been widely adopted 
+    ref: 
+     - Fink's Taxonomy.
+  es:
+    term: "Taxonomía de Bloom" 
+        def: > 
+ Una clasificación jerarquíca, ampliamente adoptada, de seis estapas de comprensión y cuyos niveles son conocimiento, comprensión, aplicación, análisis, síntesis y evaluación.
+    ref: 
+     - Taxonomía de Fink.
+ 
+- slug: Cognitivism 
+ en:
+    term: "Cognitivism" 
+    def: > 
+ A theory of learning that holds that mental states and processes can and must be included in models of learning 
+    ref: 
+     - behaviorism.
+  es:
+    term: "Cognitivismo" 
+        def: > 
+ Una teoría del aprendizaje que sostiene que los estados y procesos mentales pueden y deben incluirse en modelos de aprendizaje.
+    ref: 
+     - NA
+ 
+- slug: Community_of_practice 
+ en:
+    term: "Community of practice" 
+    def: > 
+ A self-perpetuating group of people who share and develop a craft such as knitters, musicians, or programmers 
+    ref: 
+     - legitimate peripheral participation.
+  es:
+    term: "Comunidad de práctica" 
+        def: > 
+ Un grupo de personas que se perpetúan a sí mismas y comparten y desarrollan un oficio como tejedoras/es, músicas/os o programadoras/es.
+    ref: 
+     - Participación inicial legítima.
+ 
+- slug: Competent_practitioner 
+ en:
+    term: "Competent practitioner" 
+    def: > 
+ Someone who can do normal tasks with normal effort under normal circumstances 
+    ref: 
+     - novice.
+     - expert.
+ es:
+    term: "Practicante competente. Personas competentes" 
+        def: > 
+ Alguien que puede realizar tareas normales con un esfuerzo normal en circunstancias normales.
+    ref: 
+     - Principiante.
+     - Expertos/as.
+
+- slug: Content_knowledge 
+ en:
+    term: "Content knowledge" 
+    def: > 
+ A person's understanding of a subject 
+    ref: 
+     - general pedagogical knowledge.
+     - pedagogical content knowledge
+ es:
+    term: "Conocimiento del contenid" 
+        def: > 
+ La comprensión de una persona de un tema.
+    ref: 
+     - Conocimiento pedagógico general.
+     - Conocimiento de contenido pedagógico.
+
+- slug: Educational_psychology 
+ en:
+    term: "Educational psychology" 
+    def: > 
+ The study of how people learn 
+    ref: 
+     - instructional design.
+  es:
+    term: "Psicología Educacional" 
+        def: > 
+ El estudio de cómo la gente aprende
+    ref: 
+     - Diseño instruccional
+ 
+- slug: Expert 
+ en:
+    term: "Expert" 
+    def: > 
+ Someone who can diagnose and handle unusual situations, knows when the usual rules do not apply, and tends to recognize solutions rather than reasoning to them. 
+    ref: 
+     - competent practitioner
+     - novice
+ es:
+    term: "Expertos/as. Personas expertas" 
+        def: > 
+ Alguien que puede diagnosticar y manejar situaciones inusuales, sabe cuándo no se aplican las reglas habituales y tiende a reconocer soluciones en lugar de razonarlas.
+    ref: 
+     - Practicantes competentes.
+     - Principiante.
+
+- slug: Extrinsic_motivation 
+ en:
+    term: "Extrinsic motivation" 
+    def: > 
+ Being driven by external rewards such as payment or fear of punishment 
+    ref: 
+     - intrinsic motivation.
+  es:
+    term: "Motivación extrínseca" 
+        def: > 
+ Ser impulsado por recompensas externas como el pago o el miedo al castigo.
+    ref: 
+     - Motivación intrínseca.
+ 
+- slug: Faded_example 
+ en:
+    term: "Faded example" 
+    def: > 
+ A series of examples in which a steadily increasing number of key steps are blanked out 
+    ref: 
+     - scaffolding.
+  es:
+    term: "Ejemplos desvanecidos" 
+        def: > 
+ Una serie de ejemplos en los que se borra un número cada vez mayor de pasos clave.
+    ref: 
+     - Andamiaje.
+ 
+- slug: Fink_s_Taxonomy 
+ en:
+    term: "Fink's Taxonomy" 
+    def: > 
+ A six-part non-hierarchical classification of understanding first proposed in Fink2013 whose categories are foundational knowledge, application, integration, human dimension, caring, and learning how to learn 
+    ref: 
+     - Bloom's Taxonomy.
+  es:
+    term: "Taxonomía de Fink" 
+        def: > 
+ Una clasificación de comprensión no jerárquica de seis partes, propuesta por primera vez en Fink, 2013, cuyas categorías son conocimiento fundamental, aplicación, integración, dimensión humana, cuidado y aprender a aprender
+    ref: 
+     - Taxonomía de Bloom.
+ 
+- slug: Fixed_mindset 
+ en:
+    term: "Fixed mindset" 
+    def: > 
+ The belief that an ability is innate, and that failure is due to a lack of some necessary attribute 
+    ref: 
+     - growth mindset.
+  es:
+    term: "Mentalidad fija" 
+        def: > 
+ La creencia de que una habilidad es innata y que el fracaso se debe a la falta de algún atributo necesario
+    ref: 
+     - Mentalidad de crecimiento.
+ 
+- slug: Formative_assessment 
+ en:
+    term: "Formative assessment" 
+    def: > 
+ Assessment that takes place during a lesson in order to give both the learner and the teacher feedback on actual understanding 
+    ref: 
+     - summative assessment.
+  es:
+    term: "Evaluación formativa" 
+        def: > 
+ Evaluación que se lleva a cabo durante una clase para dar retroalimentación tanto al alumno como al profesor sobre la comprensión real
+    ref: 
+     - Evaluación sumativa.
+ 
+- slug: General_pedagogical_knowledge 
+ en:
+    term: "General pedagogical knowledge" 
+    def: > 
+ A person's understanding of the general principles of teaching 
+    ref: 
+     - content knowledge
+     - pedagogical content knowledge.
+ es:
+    term: "Conocimiento pedagógico general" 
+        def: > 
+ La comprensión de una persona de los principios generales de la enseñanza.
+    ref: 
+     - Conocimiento del contenido.
+     - Conocimiento de contenido pedagógico
+
+- slug: Growth_mindset 
+ en:
+    term: "Growth mindset" 
+    def: > 
+ The belief that ability comes with practice 
+    ref: 
+     - fixed-mindsetfixed mindset.
+  es:
+    term: "Mentalidad de crecimiento" 
+        def: > 
+ La creencia de que la habilidad viene con la práctica.
+    ref: 
+     - Mentalidad fija.
+ 
+- slug: Instructional_design 
+ en:
+    term: "Instructional design" 
+    def: > 
+ The craft of creating and evaluating specific lessons for specific audiences 
+    ref: 
+     - educational psychology.
+  es:
+    term: "Diseño instrucciona" 
+        def: > 
+ El arte de crear y evaluar lecciones específicas para audiencias específicas.
+    ref: 
+     - Psicología Educacional.
+ 
+- slug: Intrinsic_load 
+ en:
+    term: "Intrinsic load" 
+    def: > 
+ The cognitive load required to absorb new information. 
+    ref: 
+     - cognitive load.
+  es:
+    term: "Carga instrínseca" 
+        def: > 
+ La carga cognitiva requerida para absorber nueva información.
+    ref: 
+     - Carga cognitiva.
+ 
+- slug: Intrinsic_motivation 
+ en:
+    term: "Intrinsic motivation" 
+    def: > 
+ Being driven by enjoyment of a task or the satisfaction of doing it for its own sake 
+    ref: 
+     - extrinsic motivation.
+  es:
+    term: "Motivación intrínseca" 
+        def: > 
+ Ser impulsada/o por el disfrute o la satisfacción de hacer una tarea como fin en si mismo
+    ref: 
+     - Motivación extrínseca
+ 
+- slug: Long-term_memory 
+ en:
+    term: "Long-term memory" 
+    def: > 
+ The part of memory that stores information for long periods of time. Long-term memory is very large, but slow 
+    ref: 
+     - short-term memory.
+  es:
+    term: "Memoria de largo plazo" 
+        def: > 
+ La parte de la memoria que almacena información durante largos períodos de tiempo. La memoria a largo plazo es muy grande, pero lenta.
+    ref: 
+     - Memoria de corto plazo.
+ 
+- slug: Novice 
+ en:
+    term: "Novice" 
+    def: > 
+ Someone who has not yet built a usable mental model of a domain 
+    ref: 
+     - competent practitioner.
+     - expert.
+ es:
+    term: "Novata/o. Persona novata. Principiante" 
+        def: > 
+ Alguien que aún no ha construido un modelo mental utilizable de un dominio.
+    ref: 
+     - Practicantes competentes.
+     - Experta/o.
+
+- slug: Passive_teaching 
+ en:
+    term: "Passive teaching" 
+    def: > 
+ An approach to instruction in which the teacher does not adjust pace or examples, or otherwise act on feedback from learners, during the lesson 
+    ref: 
+     - active teaching.
+  es:
+    term: "Enseñanza pasiva" 
+        def: > 
+ Un enfoque a la enseñanza en el que la/el docente no ajusta el ritmo o los ejemplos, o no actúa de acuerdo con los comentarios de las/os estudiantes, durante la lección
+    ref: 
+     - Enseñanza activa.
+ 
+- slug: Persistent_memory 
+ en:
+    term: "Persistent memory" 
+    def: > 
+ See long-term memory. 
+    ref: 
+     - long-term memory.
+  es:
+    term: "Memoria persistente" 
+        def: > 
+ Ver memoria de largo plazo.
+    ref: 
+     - Memoria de largo plazo.
+ 
+- slug: Plausible_distractor 
+ en:
+    term: "Plausible distractor" 
+    def: > 
+ A wrong or less-than-best answer to a multiple-choice question that looks like it could be right 
+    ref: 
+     - diagnostic power.
+  es:
+    term: "Distractor pausible" 
+        def: > 
+ Una respuesta incorrecta, pero que podría ser correcta, a una pregunta de opción múltiple.
+    ref: 
+     - Poder de diagnóstico.
+ 
+- slug: Productive_failure 
+ en:
+    term: "Productive failure" 
+    def: > 
+ A situation in which learners are deliberately given problems that can't be solved with the knowledge they have and must go out and acquire new information in order to make progress 
+    ref: 
+     - Zone of Proximal Development.
+  es:
+    term: "Falla productiva" 
+        def: > 
+ Una situación en la que a las/os estudiantes se les dan deliberadamente, problemas que no se pueden resolver con el conocimiento que tienen y deben salir y adquirir nueva información para progresar.
+    ref: 
+     - Zona de Desarrollo Proximal.
+ 
+- slug: Transfer_of_learning 
+ en:
+    term: "Transfer of learning" 
+    def: > 
+ Applying knowledge learned in one context to problems in another context 
+    ref: 
+     - near transfer.
+     - far transfer.
+ es:
+    term: "Transferencia de aprendizaje" 
+        def: > 
+ Aplicar el conocimiento aprendido en un contexto a problemas en otro contexto.
+    ref: 
+     - Transferencia cercana.
+     - Transferencia lejana.
+
