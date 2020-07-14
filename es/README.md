@@ -247,6 +247,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 * **Coordinación general**: Yanina Bellini Saibene
 * **Edición de la traducción**: Laura Acion
 * Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
+* **Glosario (Shiny y YAML)**: Yanina Bellini Saibene
 
 ## Atribuciones y agradecimientos
 
