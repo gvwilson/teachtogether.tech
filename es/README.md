@@ -98,6 +98,7 @@ Ejemplo:
 
 | Inglés                | Español                           |
 | ----------------------|-----------------------------------|
+| bootcamp | entrenamiento intensivo |
 | burnout/burning out | síndrome de desgaste ocupacional  |
 | competent practitioners| practicantes competentes, personas competentes |
 | call stack | pila de llamada |
@@ -115,6 +116,7 @@ Ejemplo:
 | novice                | novatos/as, personas novatas |
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
+| outreach | difusión |
 | path | ruta de acceso |
 | post-mortem  | autopsia |
 | screencasting | grabación de pantalla |
