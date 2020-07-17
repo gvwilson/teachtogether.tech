@@ -84,6 +84,7 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
+| marketing ||
 
 
 
@@ -120,6 +121,7 @@ Ejemplo:
 | path | ruta de acceso |
 | post-mortem  | autopsia |
 | screencasting | grabación de pantalla |
+| school board | junta escolar |
 | situated learning | aprendizaje situado |
 | split-attention effect| efecto de atención dividida       |
 | stack | pila |
