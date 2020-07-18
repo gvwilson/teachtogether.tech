@@ -228,10 +228,10 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |cognitive-architecture.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista||
-|conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista||
+|conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
-|conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista||
+|conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
 |conditionals.xml |Yanina Bellini|Paola Rojas||Lista|||
