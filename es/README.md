@@ -207,7 +207,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Glossary| Yanina Bellini|||Lista|||las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista||las/los
-| Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista||los/las
+| Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista||las/los
 | References| ||||||los/las
 
@@ -237,9 +237,9 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conditionals.xml |Yanina Bellini|Paola Rojas||Lista|||
 |for-loop.xml |Yanina Bellini|Mónica Alonso||Lista|||
 |labeling.xml |Yanina Bellini|Priscilla Minotti||Lista|||
-|library-director-concept-map.xml |Yanina Bellini|Laura Acion||Lista|Lista||los/las
-|library-friends-concept-map.xml |Yanina Bellini|||Lista|||los/las
-|library-patron-concept-map.xml |Yanina Bellini|Laura Acion||Lista|Lista||los/las
+|library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
+|library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira||Lista|Lista||los/las
+|library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |matching.xml |Yanina Bellini|Priscilla Minotti||Lista|||
 |photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
 |screencast.xml |Yanina Bellini|||Lista|||
