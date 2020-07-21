@@ -1,0 +1,1447 @@
+- slug: CS_Unplugged
+  en:
+    term: "CS Unplugged"
+    acronym: CS
+    def: > 
+     A style of teaching that introduces computing concepts using non-programming examples and artifacts.
+  es:
+    term: "Ciencias de la computación acústico"
+    acronym: CS
+    def: >
+     Un estilo de enseñanza que introduce conceptos informáticos utilizando ejemplos y artefactos que no son de programación.
+
+- slug: CS0
+  en:
+    term: "CS0"
+    acronym: CS0
+    def: > 
+     An introductory college-level course on computing aimed at non-majors with little or no prior experience of programming.
+  es:
+    term: "CS0. Introducción a las ciencias de la computación"
+    acronym: CS0
+    def: >
+     Un curso introductorio de nivel universitario sobre computación dirigido a estudiantes no avanzados con poca o ninguna experiencia previa en programación.
+
+- slug: CS1
+  en:
+    term: "CS1"
+    acronym: CS1
+    def: > 
+     An introductory college-level computer science course, typically one semester long, that focuses on variables, loops, functions, and other basic mechanics.
+  es:
+    term: "CS1. ciencias de la computación I"
+    acronym: CS1
+    def: >
+     Un curso introductorio de ciencias de la computación a nivel universitario, generalmente de un semestre, que se enfoca en variables, bucles, funciones y otras mecánicas básicas.
+
+- slug: CS2
+  en:
+    term: "CS2"
+    acronym: CS2
+    def: > 
+     A second college-level computer science course that typically introduces basic data structures such as stacks, queues, and dictionaries.
+  es:
+    term: "CS2. ciencias de la computación II"
+    acronym: CS2
+    def: >
+     Un segundo curso de ciencias de la computación de nivel universitario que generalmente presenta estructuras de datos básicas como pilas, colas y diccionarios.
+
+- slug: Learning_Management_System
+  en:
+    term: "Learning Management System"
+    acronym: LMS
+    def: > 
+     An application for tracking course enrollment, exercise submissions, grades, and other bureaucratic aspects of formal classroom learning.
+  es:
+    term: "Sistema de gestión de aprendizaje"
+    acronym: LMS
+    def: >
+     Una aplicación para registrar la inscripción a cursos, presentaciones de ejercicios, calificaciones y otros aspectos burocráticos del aprendizaje formal en el aula.
+
+- slug: Massive_Open_Online_Course
+  en:
+    term: "Massive Open Online Course"
+    acronym: MOOC
+    def: > 
+     An online course designed for massive enrollment and asynchronous study, typically using recorded videos and automated grading.
+  es:
+    term: "Cursos on-line masivos"
+    acronym: MOOC
+    def: >
+     Un curso en línea diseñado para la inscripción masiva y el estudio asincrónico, que generalmente usa videos grabados y calificaciones automáticas.
+
+- slug: Search_engine_optimization
+  en:
+    term: "Search engine optimization"
+    acronym: SEO
+    def: > 
+     Increasing the quantity and quality of web site traffic by making pages more easily found by, or seem more important to, search engines.
+  es:
+    term: "Motor de optimización de posicionamiento en buscadores"
+    acronym: SEO
+    def: >
+     Aumentar la cantidad y la calidad del tráfico del sitio web al hacer que las páginas sean más fáciles de encontrar o parezcan más importantes para los motores de búsqueda.
+
+- slug: Pedagogical_content_knowledge 
+  en:
+    term: "Pedagogical content knowledge" 
+    acronym: PCK    
+    def: > 
+     The understanding of how to teach a particular subject, i.e.\ the best order in which to introduce topics and what examples to use 
+    ref:      
+      - content knowledge
+      - general pedagogical knowledge.
+  es:    
+    term: "Conocimiento de contenido pedagógico" 
+    acronym: PCK    
+    def: > 
+     La comprensión de cómo enseñar un tema en particular, es decir, el mejor orden en el cual introducir temas y qué ejemplos usar
+    ref: 
+      - Conocimiento del contenido
+      
+- slug: Zone_of_Proximal_Development 
+  en:
+    term: "Zone of Proximal Development" 
+    acronym: ZPD    
+    def: > 
+     Includes the set of problems that people cannot yet solve on their own but are able to solve with assistance from a more experienced mentor 
+    ref:      
+      - productive failure.
+  es:    
+    term: "Zona de Desarrollo Proximal" 
+    acronym: ZPD    
+    def: > 
+     Incluye el conjunto de problemas que las personas aún no pueden resolver por sí mismas pero que pueden resolver con la ayuda de un mentor más experimentado.
+    ref: 
+      - Falla productiva.
+      
+- slug: Absolute_beginner
+  en:
+    term: "Absolute beginner"
+    def: >
+     Someone who has never encountered concepts or material before. The term is used in distinction to false beginner.
+  es:
+    term: "Principiante absoluto"
+    def: >
+     Alguien que nunca se ha encontrado con los conceptos o material antes. El término se usa en distinción para falso principiante.
+
+- slug: Authentic_task
+  en:
+    term: "Authentic task"
+    def: >
+     A task which contains important elements of things that learners would do in real (non-classroom situations). To be authentic, a task should require learners to construct their own answers rather than choose between provided answers, and to work with the same tools and data they would use in real life.
+  es:
+    term: "Tarea auténtica"
+    def: >
+     Una tarea que contiene elementos importantes de cosas que los alumnos harían en situaciones reales (fuera del aula). Para ser auténtica, una tarea debe requerir que los alumnos construyan sus propias respuestas en lugar de elegir entre las respuestas proporcionadas, y trabajar con las mismas herramientas y datos que usarían en la vida real.
+
+- slug: Automaticity
+  en:
+    term: "Automaticity"
+    def: >
+     The ability to do a task without concentrating on its low-level details.
+  es:
+    term: "Automaticidad. De forma automática."
+    def: >
+     La capacidad de hacer una tarea sin concentrarse en sus detalles de bajo nivel.
+
+- slug: Backward_design
+  en:
+    term: "Backward design"
+    def: >
+     An instructional design method that works backwards from a summative assessment to formative assessments and thence to lesson content.
+  es:
+    term: "Reingeniería"
+    def: >
+     Un método de diseño instruccional que trabaja hacia atrás desde una evaluación sumativa hasta evaluaciones formativas y desde allí al contenido de la lección.
+
+- slug: Brand
+  en:
+    term: "Brand"
+    def: >
+     The associations people have with a product's name or identity.
+  es:
+    term: "Marca"
+    def: >
+     Las asociaciones que las personas tienen con el nombre de un producto o identidad.
+
+- slug: Calibrated_peer_review
+  en:
+    term: "Calibrated peer review"
+    def: >
+     Having learners compare their reviews of sample work with a teacher's reviews before being allowed to review their peers' work.
+  es:
+    term: "Revisión por pares calibrada"
+    def: >
+     Hacer que los alumnos comparen sus revisiones del trabajo de ejemplo con las de un maestro antes de que se les permita revisar el trabajo de sus pares.
+
+- slug: Chunking
+  en:
+    term: "Chunking"
+    def: >
+     The act of grouping related concepts together so that they can be stored and processed as a single unit.
+  es:
+    term: "Particionar. Fragmentar"
+    def: >
+     El acto de agrupar conceptos relacionados juntos que pueden almacenarse y procesarse como una sola unidad.
+
+- slug: Co_teaching
+  en:
+    term: "Co-teaching"
+    def: >
+     Teaching with another teacher in the classroom.
+  es:
+    term: "Co-enseñanza"
+    def: >
+     Enseñar con otro docente en el salón de clases.
+
+- slug: Cognitive_apprenticeship
+  en:
+    term: "Cognitive apprenticeship"
+    def: >
+     A theory of learning that emphasizes the process of a master passing on skills and insights situationally to an apprentice.
+  es:
+    term: "Aprendizaje cognitivo"
+    def: >
+     Una teoría de aprendizaje que enfatiza el proceso del docente que transmite habilidades e ideas situacionalmente al estudiante.
+
+- slug: Cognitive_load
+  en:
+    term: "Cognitive load"
+    def: >
+     The mental effort needed to solve a problem. Cognitive load theory divides this into intrinsic, germane, and extraneous load, and holds that people learn fastest when germane and extraneous load are reduced.
+  es:
+    term: "Carga cognitiva"
+    def: >
+     El esfuerzo mental necesario para resolver un problema. La teoría de la carga cognitiva lo divide en carga intrínseca, carga pertinente y carga extrínseca. Sostiene que las personas aprenden más rápido cuando se reduce la carga pertinente y extraña.
+
+- slug: Commons
+  en:
+    term: "Commons"
+    def: >
+     something managed jointly by a community according to rules they themselves have evolved and adopted.
+  es:
+    term: "Commons"
+    def: >
+     Algo gestionado conjuntamente por una comunidad de acuerdo con las reglas que la misma comunidad ha desarrollado y adoptado.
+
+- slug: Community_representation
+  en:
+    term: "Community representation"
+    def: >
+     Using cultural capital to highlight learners' social identities, histories, and community networks in learning activities.
+  es:
+    term: "Representación de la comunidad"
+    def: >
+     Usar el capital cultural para resaltar las identidades sociales, las historias y las redes comunitarias de las/os estudiantes en las actividades de aprendizaje.
+
+- slug: Computational_integration
+  en:
+    term: "Computational integration"
+    def: >
+     Using computing to re-implement pre-existing cultural artifacts, e.g.\ creating variants of traditional designs using computer drawing tools.
+  es:
+    term: "Integración computacional"
+    def: >
+     Usar la informática para volver a implementar artefactos culturales preexistentes, por ejemplo, crear variantes de diseños tradicionales usando herramientas de dibujo por computadora.
+
+- slug: Computational_thinking
+  en:
+    term: "Computational thinking"
+    def: >
+     Thinking about problem-solving in ways inspired by programming (though the term is used in many other ways).
+  es:
+    term: "Pensamiento computacional"
+    def: >
+     Pensar la resolución de problemas en formas inspiradas en la programación (aunque el término se usa de muchas otras maneras).
+
+- slug: Concept_inventory
+  en:
+    term: "Concept inventory"
+    def: >
+     A test designed to determine how well a learner understands a domain. Unlike most instructor-authored tests, concept inventories are based on extensive research and validation.
+  es:
+    term: "Inventario de conceptos"
+    def: >
+     Una prueba diseñada para determinar qué tan bien un alumno comprende un dominio. A diferencia de la mayoría de las pruebas realizadas por instructores, los inventarios de conceptos se basan en una extensa investigación y validación.
+
+- slug: Concept_map
+  en:
+    term: "Concept map"
+    def: >
+     A picture of a mental model in which concepts are nodes in a graph and relationships are (labeled) arcs.
+  es:
+    term: "Mapa conceptual"
+    def: >
+     Una imagen de un modelo mental en el que los conceptos son nodos en un gráfico y las relaciones entre esos conceptos son arcos (etiquetados).
+
+- slug: Connectivism
+  en:
+    term: "Connectivism"
+    def: >
+     A theory of learning that holds that knowledge is distributed, that learning is the process of navigating, growing, and pruning connections, and which emphasizes the social aspects of learning made possible by the internet.
+  es:
+    term: "Conectivismo"
+    def: >
+     Una teoría del aprendizaje que sostiene que el conocimiento se distribuye, que el aprendizaje es el proceso de navegación, crecimiento y poda de conexiones, y que enfatiza los aspectos sociales del aprendizaje hechos posibles por Internet.
+
+- slug: Constructivism
+  en:
+    term: "Constructivism"
+    def: >
+     A theory of learning that views learners as actively constructing knowledge.
+  es:
+    term: "Constructivismo"
+    def: >
+     Una teoría del aprendizaje que considera a las/os estudiantes construyendo activamente el conocimiento.
+
+- slug: Contributing_student_pedagogy
+  en:
+    term: "Contributing student pedagogy"
+    def: >
+     Having learners produce artifacts to contribute to others' learning.
+  es:
+    term: "Contribuyendo a la pedagogía estudianti"
+    def: >
+     Tener a las/os estudiantes produciendo artefactos para contribuir al aprendizaje de otros.
+
+- slug: Conversational_programmer
+  en:
+    term: "Conversational programmer"
+    def: >
+     Someone who needs to know enough about computing to have a meaningful conversation with a programmer, but isn't going to program themselves.
+  es:
+    term: "Programadora conversacional"
+    def: >
+     Alguien que necesita saber lo suficiente sobre computación para tener una conversación significativa con un programador, pero no que va a programar por sí mismo.
+
+- slug: Deficit_model
+  en:
+    term: "Deficit model"
+    def: >
+     The idea that some groups are underrepresented in computing (or some other field) because their members lack some attribute or quality.
+  es:
+    term: "Modelo deficitario"
+    def: >
+     La idea de que algunos grupos están subrepresentados en informática (o algún otro campo) porque sus miembros carecen de algún atributo o calidad.
+
+- slug: Deliberate_practice
+  en:
+    term: "Deliberate practice"
+    def: >
+     The act of observing performance of a task while doing it in order to improve ability.
+  es:
+    term: "Practica deliberada"
+    def: >
+     El acto de observar el desempeño de una tarea mientras se realiza para mejorar la capacidad.
+
+- slug: Demonstration_lesson
+  en:
+    term: "Demonstration lesson"
+    def: >
+     A staged lesson in which one teacher presents to actual learners while other teachers observe in order to learn new teaching techniques.
+  es:
+    term: "Leccion de demostracion"
+    def: >
+     Una lección dictada por un/a docente a estudiantes reales mientras otras/os docentes observan para aprender nuevas técnicas de enseñanza.
+
+- slug: Diagnostic_power
+  en:
+    term: "Diagnostic power"
+    def: >
+     The degree to which a wrong answer to a question or exercise tells the teacher what misconceptions a particular learner has.
+  es:
+    term: "Poder de diagnóstico"
+    def: >
+     El grado en que una respuesta incorrecta a una pregunta o ejercicio le dice al docente qué conceptos erróneos tiene un/a estudiante en particular.
+
+- slug: Direct_instruction
+  en:
+    term: "Direct instruction"
+    def: >
+     A teaching method centered around meticulous curriculum design delivered through prescribed script.
+  es:
+    term: "Instrucción directa"
+    def: >
+     Un método de enseñanza centrado en un diseño curricular meticuloso dictado a través de guiones pre-escritos.
+
+- slug: Dunning_Kruger_effect
+  en:
+    term: "Dunning-Kruger effect"
+    def: >
+     The tendency of people who only know a little about a subject to incorrectly estimate their understanding of it.
+  es:
+    term: "Efecto Dunning-Kruger"
+    def: >
+     La tendencia de las personas que solo saben un poco sobre un tema a estimar incorrectamente su comprensión del mismo.
+
+- slug: Ego_depletion
+  en:
+    term: "Ego depletion"
+    def: >
+     The impairment of self control resulting from prolonged or intensive use. Recent work has failed to substantiate its existence.
+  es:
+    term: "Agotamiento del ego"
+    def: >
+     El deterioro del autocontrol debido del uso prolongado o intensivo. Trabajo recientes no han podido corroborar su existencia.
+
+- slug: Elevator_pitch
+  en:
+    term: "Elevator pitch"
+    def: >
+     A short description of an idea, project, product, or person that can be delivered and understood in just a few seconds.
+  es:
+    term: "Discurso de presentación"
+    def: >
+     Una breve descripción de una idea, proyecto, producto o persona que se puede dar y comprender en solo unos segundos.
+
+- slug: End_user_programmer
+  en:
+    term: "End-user programmer"
+    def: >
+     Someone who does not consider themselves a programmer, but who nevertheless writes and debugs software, such as an artist creating complex macros for a drawing tool.
+  es:
+    term: "Usuario final programador"
+    def: >
+     Alguien que no se considera un programador, pero que, sin embargo, escribe y depura software, como por ejemplo, un artista que crea macros complejas para una herramienta de dibujo
+
+- slug: End_user_teacher
+  en:
+    term: "End-user teacher"
+    def: >
+     By analogy with end-user-programmerend-user programmer, someone who is teaching frequently, but whose primary occupation is not teaching, who has little or no background in pedagogy, and who may work outside institutional classrooms.
+  es:
+    term: "Usuario final docente"
+    def: >
+     Por analogía con usuario final programador, alguien que enseña con frecuencia, pero cuya ocupación principal no es la enseñanza, que tiene poca o ninguna experiencia en pedagogía y que puede trabajar fuera de las aulas institucionales.
+
+- slug: Expert_blind_spot
+  en:
+    term: "Expert blind spot"
+    def: >
+     The inability of experts to empathize with novices who are encountering concepts or practices for the first time.
+  es:
+    term: "Punto ciego del experto"
+    def: >
+     La incapacidad de las personas expertas para empatizar con las personas novatas que se encuentran por primera vez con conceptos o prácticas.
+
+- slug: Expertise_reversal_effect
+  en:
+    term: "Expertise reversal effect"
+    def: >
+     The way in which instruction that is effective for novices becomes ineffective for competent practitioners or experts.
+  es:
+    term: "Efecto inverso de la experiencia"
+    def: >
+     La forma en que la instrucción que es efectiva para los novatos se vuelve ineficaz para los profesionales competentes o expertos.
+
+- slug: Externalized_cognition
+  en:
+    term: "Externalized cognition"
+    def: >
+     The use of graphical, physical, or verbal aids to augment thinking.
+  es:
+    term: "Cognición externalizad"
+    def: >
+     El uso de ayuda gráfica, física o verbal para aumentar el pensamiento.
+
+- slug: Extraneous_load
+  en:
+    term: "Extraneous load"
+    def: >
+     Any cognitive load that distracts from learning.
+  es:
+    term: "Carga extrínseca"
+    def: >
+     Cualquier carga cognitiva que distrae del aprendizaje.
+
+- slug: False_beginner
+  en:
+    term: "False beginner"
+    def: >
+     Someone who has studied a language before but is learning it again. False beginners start at the same point as true beginners (i.e.\ a pre-test will show the same proficiency) but can move much more quickly.
+  es:
+    term: "Falso principiante"
+    def: >
+     Alguien que ha estudiado un idioma antes pero lo está aprendiendo nuevamente. Los falsos principiantes comienzan en el mismo punto que los principiantes verdaderos (es decir, en una evaluación inicial mostrarán el mismo nivel de competencia) pero pueden avanzar mucho más rápidamente.
+
+- slug: Far_transfer
+  en:
+    term: "Far transfer"
+    def: >
+     The transfer of learning between widely-separated domains, e.g.\ improvement in math skills as a result of playing chess.
+  es:
+    term: "Transferencia lejana"
+    def: >
+     La transferencia de aprendizaje entre dominios ampliamente separados, por ejemplo, mejora en las habilidades matemáticas como resultado de jugar al ajedrez.
+
+- slug: Flipped_classroom
+  en:
+    term: "Flipped classroom"
+    def: >
+     One in which learners watch recorded lessons on their own time, while class time is used to work through problem sets and answer questions.
+  es:
+    term: "Aula invertida"
+    def: >
+     Una clase en la que los alumnos ven lecciones grabadas en su propio tiempo, mientras que el tiempo de clase se utiliza para resolver conjuntos de problemas y responder preguntas.
+
+- slug: Flow
+  en:
+    term: "Flow"
+    def: >
+     The feeling of being fully immersed in an activity;frequently associated with high productivity.
+  es:
+    term: "Flujo"
+    def: >
+     La sensación de estar completamente inmerso en una actividad,  frecuentemente asociada con una alta productividad.
+
+- slug: Fluid_representation
+  en:
+    term: "Fluid representation"
+    def: >
+     The ability to move quickly between different models of a problem.
+  es:
+    term: "Representación fluida"
+    def: >
+     La capacidad de moverse rápidamente entre diferentes modelos de un problema.
+
+- slug: Free_range_learner
+  en:
+    term: "Free-range learner"
+    def: >
+     Someone learning outside an institutional classroom with required homework and mandated curriculum. (Those who use the term occasionally refer to learners in classrooms as "battery-farmed learners" but we don't because that would be rude.)
+  es:
+    term: "Estudiante free-range. Estudiante de rango libre"
+    def: >
+     Alguien que aprende fuera de un aula institucional con un plan de estudios y tareas obligatorias. (Quienes usan este término, ocasionalmente se refieren a los estudiantes en las aulas como "estudiantes battery-farmed", pero nosotros no lo hacemos porque sería grosero).
+
+- slug: Fuzz_testing
+  en:
+    term: "Fuzz testing"
+    def: >
+     A software testing technique based on generating and submitting random data.
+  es:
+    term: "Fuzz testin"
+    def: >
+     Una técnica de prueba de software basada en generar y enviar datos aleatorios.
+
+- slug: Germane_load
+  en:
+    term: "Germane load"
+    def: >
+     The cognitive-loadcognitive load required to link new information to old.
+  es:
+    term: "Carga pertinente"
+    def: >
+     La carga cognitiva requerida para vincular la nueva información con la antigua.
+
+- slug: Governance_board
+  en:
+    term: "Governance board"
+    def: >
+     A board whose primary responsibility is to hire, monitor, and if need be, fire the director.
+  es:
+    term: "Directorio. Junta"
+    def: >
+     Una junta cuya responsabilidad principal es contratar, supervisar y, si es necesario, despedir al director.
+
+- slug: Guided_notes
+  en:
+    term: "Guided notes"
+    def: >
+     Teacher-prepared notes that cue learners to respond to key information in a lecture or discussion.
+  es:
+    term: "Notas guiada"
+    def: >
+     Notas preparadas por la/el docente que indican a las/os estudiantes que respondan a la información clave en una conferencia o discusión.
+
+- slug: Hashing
+  en:
+    term: "Hashing"
+    def: >
+     Generating a condensed pseudo-random digital key from data; any specific input produces the same output, but different inputs are highly likely to produce different outputs.
+  es:
+    term: "Hashin"
+    def: >
+     Generar una clave digital pseudoaleatoria condensada a partir de datos; cualquier entrada específica produce la misma salida, pero es muy probable que diferentes entradas produzcan diferentes salidas.
+
+- slug: Hypercorrection_effect
+  en:
+    term: "Hypercorrection effect"
+    def: >
+     The more strongly someone believed that their answer on a test was right, the more likely they are not to repeat the error once they discover that in fact they were wrong.
+  es:
+    term: "Efecto de hipercorrecció"
+    def: >
+     Cuanto más creé alguien que su respuesta en un exámen era correcta, más probabilidades hay de que no repitan el error una vez que descubre que, de hecho, estaban equivocados.
+
+- slug: Implementation_science
+  en:
+    term: "Implementation science"
+    def: >
+     The study of how to translate research findings to everyday clinical practice.
+  es:
+    term: "Ciencia de implementació"
+    def: >
+     El estudio de cómo traducir los hallazgos de la investigación a la práctica clínica diaria.
+
+- slug: Impostor_syndrome
+  en:
+    term: "Impostor syndrome"
+    def: >
+     A feeling of insecurity about one's accomplishments that manifests as a fear of being exposed as a fraud.
+  es:
+    term: "Síndrome del impostor"
+    def: >
+     Un sentimiento de inseguridad sobre los logros propios, que se manifiesta como un miedo a ser expuesto como un fraude.
+
+- slug: Inclusivity
+  en:
+    term: "Inclusivity"
+    def: >
+     Working actively to include people with diverse backgrounds and needs.
+  es:
+    term: "Inclusión"
+    def: >
+     Trabajar activamente para incluir personas con diversos antecedentes y necesidades.
+
+- slug: Inquiry_based_learning
+  en:
+    term: "Inquiry-based learning"
+    def: >
+     The practice of allowing learners to ask their own questions, set their own goals, and find their own path through a subject.
+  es:
+    term: "Aprendizaje basado en la indagació"
+    def: >
+     La práctica de permitir que las/os estudiantes hagan sus propias preguntas, establezcan sus propios objetivos y encuentren su propio camino a través de un tema.
+
+- slug: Intuition
+  en:
+    term: "Intuition"
+    def: >
+     The ability to understand something immediately, without any apparent need for conscious reasoning.
+  es:
+    term: "Intuición."
+    def: >
+     La capacidad de comprender algo de inmediato, sin necesidad aparente de razonamiento consciente.
+
+- slug: Jugyokenkyu
+  en:
+    term: "Jugyokenkyu"
+    def: >
+     Literally "lesson study" a set of practices that includes having teachers routinely observe one another and discuss lessons to share knowledge and improve skills.
+  es:
+    term: "Jugyokenkyu"
+    def: >
+     Literalmente "estudio de lección", un conjunto de prácticas que incluye hacer que las/os docentes se observen rutinariamente entre sí y discutan las lecciones que imparten para compartir conocimientos y mejorar habilidades.
+
+- slug: Learned_helplessness
+  en:
+    term: "Learned helplessness"
+    def: >
+     A situation in which people who are repeatedly subjected to negative feedback that they have no way to escape learn not to even try to escape when they could.
+  es:
+    term: "Impotencia aprendida"
+    def: >
+     Una situación en la que las personas que son sometidas repetidamente a comentarios negativos de que no tienen forma de escapar aprenden a ni siquiera intentar escapar cuando pueden.
+
+- slug: Learner_persona
+  en:
+    term: "Learner persona"
+    def: >
+     A brief description of a typical target learner for a lesson that includes their general background, what they already know, what they want to do, how the lesson will help them, and any special needs they might have.
+  es:
+    term: "Estudiante tipo."
+    def: >
+     Una breve descripción de un/a estudiante objetivo tipo para una lección que incluye: sus antecedentes generales, lo que ya sabe, lo que quiere hacer, cómo la lección le ayudará y cualquier necesidad especial que puedan tener.
+
+- slug: Learning_objective
+  en:
+    term: "Learning objective"
+    def: >
+     What a lesson is trying to achieve.
+  es:
+    term: "Objetivo de aprendizaje"
+    def: >
+     Qué está intentando lograr la lección.
+
+- slug: Learning_outcome
+  en:
+    term: "Learning outcome"
+    def: >
+     What a lesson actually achieves.
+  es:
+    term: "Resultado de aprendizaje"
+    def: >
+     Qué es lo que la lección realmente logra.
+
+- slug: Legitimate_peripheral_participation
+  en:
+    term: "Legitimate peripheral participation"
+    def: >
+     Newcomers' participation in simple, low-risk tasks that a community of practice recognizes as valid contributions.
+  es:
+    term: "Participación inicial legítima"
+    def: >
+     La participación de las/os recién llegadas/os en tareas simples y de bajo riesgo que una comunidad de práctica reconoce como contribuciones válidas.
+
+- slug: Live_coding
+  en:
+    term: "Live coding"
+    def: >
+     The act of teaching programming by writing software in front of learners as the lesson progresses.
+  es:
+    term: "Programación en vivo"
+    def: >
+     El acto de enseñar programación escribiendo software frente a los alumnos a medida que avanza la lección.
+
+- slug: Manual
+  en:
+    term: "Manual"
+    def: >
+     Reference material intended to help someone who already understands a subject fill in (or remind themselves of) details.
+  es:
+    term: "Manual."
+    def: >
+     Material de referencia, destinado a ayudar a alguien que ya comprende un tema, a completar (o recordar) detalles.
+
+- slug: Marketing
+  en:
+    term: "Marketing"
+    def: >
+     The craft of seeing things from other people's perspective, understanding their wants and needs, and finding ways to meet them
+  es:
+    term: "Marketing"
+    def: >
+     El arte de ver las cosas desde la perspectiva de otras personas, comprender sus deseos y necesidades y encontrar formas de satisfacerlas.
+
+- slug: Mental_model
+  en:
+    term: "Mental model"
+    def: >
+     A simplified representation of the key elements and relationships of some problem domain that is good enough to support problem solving.
+  es:
+    term: "Modelo mental"
+    def: >
+     Una representación simplificada de los elementos clave y las relaciones de algunos dominios de problemas que es lo suficientemente buena como para apoyar la resolución de problemas.
+
+- slug: Metacognition
+  en:
+    term: "Metacognition"
+    def: >
+     Thinking about thinking.
+  es:
+    term: "Metacognición"
+    def: >
+     Pensar sobre pensar.
+
+- slug: Minimal_manual
+  en:
+    term: "Minimal manual"
+    def: >
+     An approach to training that breaks every task into single-page instructions that also explain how to diagnose and correct common errors.
+  es:
+    term: "Manual mínimo"
+    def: >
+     Un enfoque de capacitación que divide cada tarea en instrucciones de una sola página que también explican cómo diagnosticar y corregir errores comunes.
+
+- slug: Minute_cards
+  en:
+    term: "Minute cards"
+    def: >
+     A feedback technique in which learners spend a minute writing one positive thing about a lesson (e.g.\ one thing they've learned) and one negative thing (e.g.\ a question that still hasn't been answered).
+  es:
+    term: "Tarjetas de minutos"
+    def: >
+     Una técnica de retroalimentación en la que los alumnos pasan un minuto escribiendo una cosa positiva sobre una lección (por ejemplo, una cosa que han aprendido) y una cosa negativa (por ejemplo, una pregunta que aún no ha sido respondida).
+
+- slug: Near_transfer
+  en:
+    term: "Near transfer"
+    def: >
+     Transfer of learning between closely-related domains, e.g.\ improvement in understanding of decimals as a result of doing exercises with fractions.
+  es:
+    term: "Transferencia cercana"
+    def: >
+     Transferencia de aprendizaje entre dominios estrechamente relacionados, por ejemplo, mejora en la comprensión de decimales como resultado de hacer ejercicios con fracciones.
+
+- slug: Notional_machine
+  en:
+    term: "Notional machine"
+    def: >
+     A general, simplified model of how a particular family of programs executes.
+  es:
+    term: "Máquina nocional"
+    def: >
+     Un modelo general simplificado de cómo se ejecuta una familia particular de programas.
+
+- slug: Objects_first
+  en:
+    term: "Objects first"
+    def: >
+     An approach to teaching programming in which objects and classes are introduced early.
+  es:
+    term: "Primero los objetos"
+    def: >
+     Un enfoque para enseñar programación donde objetos y clases se introducen temprano.
+
+- slug: Pair_programming
+  en:
+    term: "Pair programming"
+    def: >
+     A software development practice in which two programmers share one computer. One programmer (the driver) does the typing, while the other (the navigator) offers comments and suggestions in real time. Pair programming is often used as a teaching practice in programming classes.
+  es:
+    term: "Programación en pareja"
+    def: >
+     Una práctica de desarrollo de software en la que dos programadores comparten una computadora. Un programador (el piloto) escribe, mientras que el otro (el navegante) ofrece comentarios y sugerencias en tiempo real. La programación en pareja a menudo se usa como práctica docente en las clases de programación (Pars2006).
+
+- slug: Parsons_Problem
+  en:
+    term: "Parsons Problem"
+    def: >
+     An assessment technique developed by Dale Parsons and others in which learners rearrange given material to construct a correct answer to a question.
+  es:
+    term: "Problemas de Parson"
+    def: >
+     Una técnica de evaluación desarrollada por Dale Parsons y otros en la que los alumnos reorganizan el material dado para construir una respuesta correcta a una pregunta.
+
+- slug: Passive_learning
+  en:
+    term: "Passive learning"
+    def: >
+     An approach to instruction in which learners read, listen, or watch without immediately using new knowledge. Passive learning is less effective than active learning.
+  es:
+    term: "Aprendizaje pasivo"
+    def: >
+     Un enfoque de la enseñanza en el que las/os estudiantes leen, escuchan o miran sin utilizar inmediatamente nuevos conocimientos. El aprendizaje pasivo es menos efectivo que el aprendizaje activo.
+
+- slug: Peer_instruction
+  en:
+    term: "Peer instruction"
+    def: >
+     A teaching method in which an teacher poses a question and then learners commit to a first answer, discuss answers with their peers, and commit to a (revised) answer.
+  es:
+    term: "Instrucción por pares"
+    def: >
+     Un método de enseñanza en el que la/el docente hace una pregunta y luego las/os estudiantes se comprometen con una primera respuesta, discuten las respuestas con sus compañeras/os y se comprometen con una respuesta revisada.
+
+- slug: Personalized_learning
+  en:
+    term: "Personalized learning"
+    def: >
+     Automatically tailoring lessons to meet the needs of individual learners.
+  es:
+    term: "Aprendizaje personalizado"
+    def: >
+     Adaptación automática de lecciones para satisfacer las necesidades de los alumnos individuales.
+
+- slug: Positioning
+  en:
+    term: "Positioning"
+    def: >
+     What sets one brand apart from other, similar brands.
+  es:
+    term: "Posicionamiento"
+    def: >
+     La ventaja de provenir de un entorno que proporciona más preparación para una tarea de aprendizaje en particular que otras.
+
+- slug: Preparatory_privilege
+  en:
+    term: "Preparatory privilege"
+    def: >
+     The advantage of coming from a background that provides more preparation for a particular learning task than others.
+  es:
+    term: "Privilegio preparatorio"
+    def: >
+     Una situación en la que a las/os estudiantes se les dan deliberadamente, problemas que no se pueden resolver con el conocimiento que tienen y deben salir y adquirir nueva información para progresar.
+
+- slug: Pull_request
+  en:
+    term: "Pull request"
+    def: >
+     A set of proposed changes to a GitHub repository that can be reviewed, updated, and eventually merged.
+  es:
+    term: "Pull request"
+    def: >
+     Un conjunto de cambios propuestos a un repositorio de GitHub que pueden revisarse, actualizarse y, finalmente, agregarse al repositorio.
+
+- slug: Read_cover_retrieve
+  en:
+    term: "Read-cover-retrieve"
+    def: >
+     A study practice in which the learner covers up key facts or terms during a first pass through material, then checks their recall on a second pass.
+  es:
+    term: "Leer-cubrir-recupera"
+    def: >
+     Una práctica de estudio en la que la/el estudiante cubre hechos o términos clave durante un primer paso por el material y luego verifica cuanto recuerda en un segundo paso.
+
+- slug: Reflective_practice
+  en:
+    term: "Reflective practice"
+    def: >
+     See deliberate practice.
+  es:
+    term: "Práctica reflexiva"
+    def: >
+     Ver práctica deliberada.
+
+- slug: Reusability_Paradox
+  en:
+    term: "Reusability Paradox"
+    def: >
+     Holds that the more reusable part of a lesson is, the less pedagogically effective it is.
+  es:
+    term: "Paradoja de la reusabilidad"
+    def: >
+     Sostiene que cuanto más reutilizable es una lección, es menos efectiva pedagógicamente.
+
+- slug: Scaffolding
+  en:
+    term: "Scaffolding"
+    def: >
+     Extra material provided to early-stage learners to help them solve problems.
+  es:
+    term: "Andamiaje"
+    def: >
+     Se proporciona material adicional a las/os estudiantes en etapa inicial para ayudarlas/os a resolver problemas.
+
+- slug: Service_board
+  en:
+    term: "Service board"
+    def: >
+     A board whose members take on working roles in the organization.
+  es:
+    term: "Directorio o junta de servicio"
+    def: >
+     Una junta cuyos miembros asumen roles de trabajo en la organización.
+
+- slug: Short_term_memory
+  en:
+    term: "Short-term memory"
+    def: >
+     The part of memory that briefly stores information that can be directly accessed by consciousness.
+  es:
+    term: "Memoria de corto plazo"
+    def: >
+     La parte de la memoria que almacena brevemente información a la que puede acceder directamente la conciencia.
+
+- slug: Situated_learning
+  en:
+    term: "Situated learning"
+    def: >
+     A model of learning that focuses on people's transition from being newcomers to be accepted members of a community of practice.
+  es:
+    term: "Aprendizaje situado"
+    def: >
+     Un modelo de aprendizaje que se centra en la transición de las personas de ser recién llegadas a ser miembros aceptados de una comunidad de práctica.
+
+- slug: Split_attention_effect
+  en:
+    term: "Split-attention effect"
+    def: >
+     The decrease in learning that occurs when learners must divide their attention between multiple concurrent presentations of the same information (e.g.\ captions and a voiceover).
+  es:
+    term: "Efecto de atención dividida"
+    def: >
+     La disminución que ocurre en el aprendizaje cuando las/os estudiantes deben dividir su atención entre múltiples presentaciones concurrentes de la misma información (por ejemplo, subtítulos y una voz en off).
+
+- slug: Stereotype_threat
+  en:
+    term: "Stereotype threat"
+    def: >
+     A situation in which people feel that they are at risk of being held to stereotypes of their social group.
+  es:
+    term: "Amenaza del estereotipo"
+    def: >
+     Una situación en la que las personas sienten que corren el riesgo de ser sometidas a los estereotipos de su grupo social.
+
+- slug: Subgoal_labeling
+  en:
+    term: "Subgoal labeling"
+    def: >
+     Giving names to the steps in a step-by-step description of a problem-solving process.
+  es:
+    term: "Etiquetado de submetas"
+    def: >
+     Dar nombres a cada paso en una descripción paso a paso de un proceso de resolución de problemas.
+
+- slug: Summative_assessment
+  en:
+    term: "Summative assessment"
+    def: >
+     Assessment that takes place at the end of a lesson to tell whether the desired learning has taken place.
+  es:
+    term: "Evaluación sumativa"
+    def: >
+     Evaluación que se realiza al final de una lección para determinar si se ha realizado el aprendizaje deseado.
+
+- slug: Tangible_artifact
+  en:
+    term: "Tangible artifact"
+    def: >
+     Something a learner can work on whose state gives feedback about the learner's progress and helps the learner diagnose mistakes.
+  es:
+    term: "Artefacto tangibl"
+    def: >
+     Algo en lo que una/un estudiante puede trabajar y cuyo estado proporciona retroalimentación sobre el progreso que la/el estudiante realizó y ayuda a diagnosticar errores.
+
+- slug: Teaching_to_the_test
+  en:
+    term: "Teaching to the test"
+    def: >
+     Any method of "education" that focuses on preparing students to pass standardized tests, rather than on actual learning.
+  es:
+    term: "Enseñando para el exámen"
+    def: >
+     Cualquier método de "educación" que se centre en preparar a las/los estudiantes para aprobar los exámenes estandarizados, en lugar de aprender realmente.
+
+- slug: Test_driven_development
+  en:
+    term: "Test-driven development"
+    def: >
+     A software development practice in which programmers write tests first in order to give themselves concrete goals and clarify their understanding of what "done" looks like.
+  es:
+    term: "Desarrollo basado en test"
+    def: >
+     Una práctica de desarrollo de software en la que las/los programadoras/es escriben primero los test para darse objetivos concretos y aclarar su comprensión de cómo se ve "terminado".
+
+- slug: Think_pair_share
+  en:
+    term: "Think-pair-share"
+    def: >
+     A collaboration method in which each person thinks individually about a question or problem, then pairs with a partner to pool ideas, and then have one person from each pair present to the whole group.
+  es:
+    term: "Piensa-trabaja en pareja-comparte"
+    def: >
+     Un método de colaboración en el que cada persona piensa individualmente sobre una pregunta o problema, luego se junta con otra/o compañera/o para compartir ideas, y luego una persona de cada pareja presenta para todo el grupo.
+
+- slug: Transfer_appropriate_processing
+  en:
+    term: "Transfer-appropriate processing"
+    def: >
+     The improvement in recall that occurs when practice uses activities similar to those used in testing.
+  es:
+    term: "Transferencia apropiada de procesamient"
+    def: >
+     La mejora en  recordar que ocurre cuando la práctica utiliza actividades similares a las utilizadas en los test.
+
+- slug: Tutorial
+  en:
+    term: "Tutorial"
+    def: >
+     A lesson intended to help someone improve their general understanding of a subject.
+  es:
+    term: "Tutorial"
+    def: >
+     Una lección destinada a ayudar a alguien a mejorar su comprensión general de un tema.
+
+- slug: Twitch_coding
+  en:
+    term: "Twitch coding"
+    def: >
+     Having a group of people decide moment by moment or line by line what to add to a program next.
+  es:
+    term: "Twitch codin"
+    def: >
+     Hacer que un grupo de personas decida momento a momento o línea por línea qué agregarle a un programa a continuación.
+
+- slug: Working_memory
+  en:
+    term: "Working memory"
+    def: >
+     see short-term memory.
+  es:
+    term: "Memoria de trabajo"
+    def: >
+     Ver memoria de corto plazo.
+
+- slug: Active_learning
+  en:
+    term: "Active learning"
+    def: >
+     An approach to instruction in which learners engage with material through discussion, problem solving, case studies, and other activities that require them to reflect on and use new information in real time
+    ref:
+      - passive learning.  
+  es:
+    term: "Aprendizaje activo"
+    def: >
+     Un enfoque de la enseñanza en el que los estudiantes se involucran con el material a través de la discusión, resolución de problemas, estudios de casos, y otras actividades que requieren que reflexionen y usen nueva información en tiempo real.
+    ref:
+     - Aprendizaje pasivo.
+
+- slug: Active_teaching
+  en:
+    term: "Active teaching"
+    def: >
+     An approach to instruction in which the teacher acts on new information acquired from learners while teaching (e.g.\ by dynamically changing an example or rearranging the intended order of content)
+    ref:
+      - passive teaching.  
+  es:
+    term: "Enseñanza activa"
+    def: >
+     Un enfoque de la instrucción en el que el maestro actúa sobre la nueva información adquirida de los alumnos mientras enseña (p. ej. cambiando dinámicamente un ejemplo o reorganizando el orden previsto del contenido).
+    ref:
+     - Enseñanza pasiva.
+
+- slug: Behaviorism
+  en:
+    term: "Behaviorism"
+    def: >
+     A theory of learning whose central principle is stimulus and response, and whose goal is to explain behavior without recourse to internal mental states or other unobservables
+    ref:
+      - cognitivism.  
+  es:
+    term: "Conductismo"
+    def: >
+     Una teoría del aprendizaje cuyo principio central es estímulo y respuesta, y cuyo objetivo es explicar el comportamiento sin recurrir a estados mentales internos u otros inobservables.
+    ref:
+     - NA
+
+- slug: Bloom_s_Taxonomy
+  en:
+    term: "Bloom's Taxonomy"
+    def: >
+     A six-part hierarchical classification of understanding whose levels are knowledge, comprehension, application, analysis, synthesis, and evaluation that has been widely adopted
+    ref:
+      - Fink's Taxonomy.  
+  es:
+    term: "Taxonomía de Bloom"
+    def: >
+     Una clasificación jerarquíca, ampliamente adoptada, de seis estapas de comprensión y cuyos niveles son conocimiento, comprensión, aplicación, análisis, síntesis y evaluación.
+    ref:
+     - Taxonomía de Fink.
+
+- slug: Cognitivism
+  en:
+    term: "Cognitivism"
+    def: >
+     A theory of learning that holds that mental states and processes can and must be included in models of learning
+    ref:
+      - behaviorism.  
+  es:
+    term: "Cognitivismo"
+    def: >
+     Una teoría del aprendizaje que sostiene que los estados y procesos mentales pueden y deben incluirse en modelos de aprendizaje.
+    ref:
+     - NA
+
+- slug: Community_of_practice
+  en:
+    term: "Community of practice"
+    def: >
+     A self-perpetuating group of people who share and develop a craft such as knitters, musicians, or programmers
+    ref:
+      - legitimate peripheral participation.  
+  es:
+    term: "Comunidad de práctica"
+    def: >
+     Un grupo de personas que se perpetúan a sí mismas y comparten y desarrollan un oficio como tejedoras/es, músicas/os o programadoras/es.
+    ref:
+     - Participación inicial legítima.
+
+- slug: Competent_practitioner
+  en:
+    term: "Competent practitioner"
+    def: >
+     Someone who can do normal tasks with normal effort under normal circumstances
+    ref:
+      - novice.
+      - expert.  
+  es:
+    term: "Practicante competente. Personas competentes"
+    def: >
+     Alguien que puede realizar tareas normales con un esfuerzo normal en circunstancias normales.
+    ref:
+     - Principiante.
+     - Expertos/as.
+
+- slug: Content_knowledge
+  en:
+    term: "Content knowledge"
+    def: >
+     A person's understanding of a subject
+    ref:
+      - general pedagogical knowledge.
+      - pedagogical content knowledge  
+  es:
+    term: "Conocimiento del contenid"
+    def: >
+     La comprensión de una persona de un tema.
+    ref:
+     - Conocimiento pedagógico general.
+     - Conocimiento de contenido pedagógico.
+
+- slug: Educational_psychology
+  en:
+    term: "Educational psychology"
+    def: >
+     The study of how people learn
+    ref:
+      - instructional design.  
+  es:
+    term: "Psicología Educacional"
+    def: >
+     El estudio de cómo la gente aprende
+    ref:
+     - Diseño instruccional
+
+- slug: Expert
+  en:
+    term: "Expert"
+    def: >
+     Someone who can diagnose and handle unusual situations, knows when the usual rules do not apply, and tends to recognize solutions rather than reasoning to them.
+    ref:
+      - competent practitioner
+      - novice  
+  es:
+    term: "Expertos/as. Personas expertas"
+    def: >
+     Alguien que puede diagnosticar y manejar situaciones inusuales, sabe cuándo no se aplican las reglas habituales y tiende a reconocer soluciones en lugar de razonarlas.
+    ref:
+     - Practicantes competentes.
+     - Principiante.
+
+- slug: Extrinsic_motivation
+  en:
+    term: "Extrinsic motivation"
+    def: >
+     Being driven by external rewards such as payment or fear of punishment
+    ref:
+      - intrinsic motivation.  
+  es:
+    term: "Motivación extrínseca"
+    def: >
+     Ser impulsado por recompensas externas como el pago o el miedo al castigo.
+    ref:
+     - Motivación intrínseca.
+
+- slug: Faded_example
+  en:
+    term: "Faded example"
+    def: >
+     A series of examples in which a steadily increasing number of key steps are blanked out
+    ref:
+      - scaffolding.  
+  es:
+    term: "Ejemplos desvanecidos"
+    def: >
+     Una serie de ejemplos en los que se borra un número cada vez mayor de pasos clave.
+    ref:
+     - Andamiaje.
+
+- slug: Fink_s_Taxonomy
+  en:
+    term: "Fink's Taxonomy"
+    def: >
+     A six-part non-hierarchical classification of understanding first proposed in Fink2013 whose categories are foundational knowledge, application, integration, human dimension, caring, and learning how to learn
+    ref:
+      - Bloom's Taxonomy.  
+  es:
+    term: "Taxonomía de Fink"
+    def: >
+     Una clasificación de comprensión no jerárquica de seis partes, propuesta por primera vez en Fink, 2013, cuyas categorías son conocimiento fundamental, aplicación, integración, dimensión humana, cuidado y aprender a aprender
+    ref:
+     - Taxonomía de Bloom.
+
+- slug: Fixed_mindset
+  en:
+    term: "Fixed mindset"
+    def: >
+     The belief that an ability is innate, and that failure is due to a lack of some necessary attribute
+    ref:
+      - growth mindset.  
+  es:
+    term: "Mentalidad fija"
+    def: >
+     La creencia de que una habilidad es innata y que el fracaso se debe a la falta de algún atributo necesario
+    ref:
+     - Mentalidad de crecimiento.
+
+- slug: Formative_assessment
+  en:
+    term: "Formative assessment"
+    def: >
+     Assessment that takes place during a lesson in order to give both the learner and the teacher feedback on actual understanding
+    ref:
+      - summative assessment.  
+  es:
+    term: "Evaluación formativa"
+    def: >
+     Evaluación que se lleva a cabo durante una clase para dar retroalimentación tanto al alumno como al profesor sobre la comprensión real
+    ref:
+     - Evaluación sumativa.
+
+- slug: General_pedagogical_knowledge
+  en:
+    term: "General pedagogical knowledge"
+    def: >
+     A person's understanding of the general principles of teaching
+    ref:
+      - content knowledge
+      - pedagogical content knowledge.  
+  es:
+    term: "Conocimiento pedagógico general"
+    def: >
+     La comprensión de una persona de los principios generales de la enseñanza.
+    ref:
+     - Conocimiento del contenido.
+     - Conocimiento de contenido pedagógico
+
+- slug: Growth_mindset
+  en:
+    term: "Growth mindset"
+    def: >
+     The belief that ability comes with practice
+    ref:
+      - fixed-mindsetfixed mindset.  
+  es:
+    term: "Mentalidad de crecimiento"
+    def: >
+     La creencia de que la habilidad viene con la práctica.
+    ref:
+     - Mentalidad fija.
+
+- slug: Instructional_design
+  en:
+    term: "Instructional design"
+    def: >
+     The craft of creating and evaluating specific lessons for specific audiences
+    ref:
+      - educational psychology.  
+  es:
+    term: "Diseño instrucciona"
+    def: >
+     El arte de crear y evaluar lecciones específicas para audiencias específicas.
+    ref:
+     - Psicología Educacional.
+
+- slug: Intrinsic_load
+  en:
+    term: "Intrinsic load"
+    def: >
+     The cognitive load required to absorb new information.
+    ref:
+      - cognitive load.  
+  es:
+    term: "Carga instrínseca"
+    def: >
+     La carga cognitiva requerida para absorber nueva información.
+    ref:
+     - Carga cognitiva.
+
+- slug: Intrinsic_motivation
+  en:
+    term: "Intrinsic motivation"
+    def: >
+     Being driven by enjoyment of a task or the satisfaction of doing it for its own sake
+    ref:
+      - extrinsic motivation.  
+  es:
+    term: "Motivación intrínseca"
+    def: >
+     Ser impulsada/o por el disfrute o la satisfacción de hacer una tarea como fin en si mismo
+    ref:
+     - Motivación extrínseca
+
+- slug: Long_term_memory
+  en:
+    term: "Long-term memory"
+    def: >
+     The part of memory that stores information for long periods of time. Long-term memory is very large, but slow
+    ref:
+      - short-term memory.  
+  es:
+    term: "Memoria de largo plazo"
+    def: >
+     La parte de la memoria que almacena información durante largos períodos de tiempo. La memoria a largo plazo es muy grande, pero lenta.
+    ref:
+     - Memoria de corto plazo.
+
+- slug: Novice
+  en:
+    term: "Novice"
+    def: >
+     Someone who has not yet built a usable mental model of a domain
+    ref:
+      - competent practitioner.
+      - expert.  
+  es:
+    term: "Novata/o. Persona novata. Principiante"
+    def: >
+     Alguien que aún no ha construido un modelo mental utilizable de un dominio.
+    ref:
+     - Practicantes competentes.
+     - Experta/o.
+
+- slug: Passive_teaching
+  en:
+    term: "Passive teaching"
+    def: >
+     An approach to instruction in which the teacher does not adjust pace or examples, or otherwise act on feedback from learners, during the lesson
+    ref:
+      - active teaching.  
+  es:
+    term: "Enseñanza pasiva"
+    def: >
+     Un enfoque a la enseñanza en el que la/el docente no ajusta el ritmo o los ejemplos, o no actúa de acuerdo con los comentarios de las/os estudiantes, durante la lección
+    ref:
+     - Enseñanza activa.
+
+- slug: Persistent_memory
+  en:
+    term: "Persistent memory"
+    def: >
+     See long-term memory.
+    ref:
+      - long-term memory.  
+  es:
+    term: "Memoria persistente"
+    def: >
+     Ver memoria de largo plazo.
+    ref:
+     - Memoria de largo plazo.
+
+- slug: Plausible_distractor
+  en:
+    term: "Plausible distractor"
+    def: >
+     A wrong or less-than-best answer to a multiple-choice question that looks like it could be right
+    ref:
+      - diagnostic power.  
+  es:
+    term: "Distractor pausible"
+    def: >
+     Una respuesta incorrecta, pero que podría ser correcta, a una pregunta de opción múltiple.
+    ref:
+     - Poder de diagnóstico.
+
+- slug: Productive_failure
+  en:
+    term: "Productive failure"
+    def: >
+     A situation in which learners are deliberately given problems that can't be solved with the knowledge they have and must go out and acquire new information in order to make progress
+    ref:
+      - Zone of Proximal Development.  
+  es:
+    term: "Falla productiva"
+    def: >
+     Una situación en la que a las/os estudiantes se les dan deliberadamente, problemas que no se pueden resolver con el conocimiento que tienen y deben salir y adquirir nueva información para progresar.
+    ref:
+     - Zona de Desarrollo Proximal.
+
+- slug: Transfer_of_learning
+  en:
+    term: "Transfer of learning"
+    def: >
+     Applying knowledge learned in one context to problems in another context
+    ref:
+      - near transfer.
+      - far transfer.  
+  es:
+    term: "Transferencia de aprendizaje"
+    def: >
+     Aplicar el conocimiento aprendido en un contexto a problemas en otro contexto.
+    ref:
+     - Transferencia cercana.
+     - Transferencia lejana.
+
