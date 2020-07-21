@@ -1,5 +1,5 @@
 # Settings
-OUTPUT=../docs/en
+OUTPUT=../docs/es
 
 # Commands.
 PANDOC=pandoc \

@@ -3,7 +3,7 @@
 # Files
 TEX=$(wildcard en/*.tex)
 SRC=${TEX} $(wildcard en/*.bib) $(wildcard *.cls) $(wildcard *.csl)
-HTML=docs/index.html
+HTML=docs/index.html docs/en/index.html docs/es/index.html
 FIGURES_SRC=$(wildcard figures/*)
 FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
 STATIC_SRC=$(wildcard static/*)
@@ -22,6 +22,7 @@ html : ${HTML} ${FIGURES_DST} ${STATIC_DST} docs/CNAME
 # Generate HTML.
 ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
 	@make -C en -f html.mk html
+	@make -C es -f html.mk html
 
 # Copy figures.
 docs/figures/% : figures/%
