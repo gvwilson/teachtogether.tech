@@ -1,11 +1,9 @@
-.PHONY : all check clean commands everything html once pages pdf settings spell words
+.PHONY : all clean commands html settings
 
 # Files
-TEX=$(wildcard en/*.tex)
-SRC=${TEX} $(wildcard en/*.bib) $(wildcard *.cls) $(wildcard *.csl)
+TEX=$(wildcard en/*.tex) $(wildcard es/*.tex)
+SRC=${TEX} $(wildcard en/*.bib) $(wildcard es/*.bib) $(wildcard *.cls) $(wildcard *.csl)
 HTML=docs/index.html docs/en/index.html docs/es/index.html
-FIGURES_SRC=$(wildcard figures/*)
-FIGURES_DST=$(patsubst %,docs/%,${FIGURES_SRC})
 STATIC_SRC=$(wildcard static/*)
 STATIC_DST=$(patsubst %,docs/%,${STATIC_SRC})
 
@@ -17,17 +15,12 @@ commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
 
 ## html : generate HTML from LaTeX source.
-html : ${HTML} ${FIGURES_DST} ${STATIC_DST} docs/CNAME
+html : ${HTML} ${STATIC_DST} docs/CNAME
 
 # Generate HTML.
 ${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
-	@make -C en -f html.mk html
-	@make -C es -f html.mk html
-
-# Copy figures.
-docs/figures/% : figures/%
-	@mkdir -p docs/figures
-	@cp $< $@
+	@make -C en html
+	@make -C es html
 
 # Copy static.
 docs/static/% : static/%
@@ -53,5 +46,3 @@ settings :
 	@echo TEX ${TEX}
 	@echo SRC ${SRC}
 	@echo HTML ${HTML}
-	@echo FIGURES_SRC ${FIGURES_SRC}
-	@echo FIGURES_DST ${FIGURES_DST}
