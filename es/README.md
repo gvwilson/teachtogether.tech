@@ -111,6 +111,7 @@ Ejemplo:
 | expertise reversal effect | efecto inverso de la experiencia * |
 | extraneous-load       | carga extrínseca                  |
 | feedback       | devolución, retroalimentación|
+| flash cards |tarjetas de estudio|
 | germane-load          | carga pertinente                  |
 | live coding | programación en vivo |
 | loop | bucle |
