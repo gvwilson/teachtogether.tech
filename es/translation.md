@@ -5,7 +5,7 @@ La traducción de “Enseñar Tecnología en Comunidad” es un proyecto colabor
 
 Quienes trabajamos en este proyecto somos (en orden alfabético): [Laura Acion](https://twitter.com/_lacion_), [Mónica Alonso](https://twitter.com/MonicaLA2000), [Zulemma Bazurto](https://twitter.com/Zjbb), [Alejandra Bellini](https://twitter.com/AlejaBellini), [Yanina Bellini Saibene](https://twitter.com/yabellini),
 [Juliana Benitez Saldivar](https://twitter.com/July_Benitezs), [Ruth Chirinos](https://twitter.com/ruthy_root), [Paola Corrales](https://twitter.com/PaobCorrales), [Ana Laura Diedrich](https://twitter.com/anadiedrichs), [Patricia Loto](https://twitter.com/patriloto), [Priscilla Minotti](https://twitter.com/pmnatural), [Natalia Morandeira](https://twitter.com/Nat_Mora_), [Lucía Rodríguez Planes](https://twitter.com/_luciarp_), [Paloma Rojas](https://twitter.com/palolili23),
-[Gabriela Sandoval](https://twitter.com/GabySandovalM), [Yuriko Sosa](https://twitter.com/YkSosaP) y Yara Terrazas-Carafa. La coordinación del trabajo está a cargo de Yanina Bellini Saibene y la edición final a cargo de Yanina Bellini Saibene y Laura Ación.
+[Gabriela Sandoval](https://twitter.com/GabySandovalM), [Yuriko Sosa](https://twitter.com/YkSosaP) y [Yara Terrazas-Carafa](https://twitter.com/_yarena). La coordinación del trabajo está a cargo de Yanina Bellini Saibene y la edición final a cargo de Yanina Bellini Saibene y Laura Ación.
 
 Malena Zabalegui nos aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 
