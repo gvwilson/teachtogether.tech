@@ -1,7 +1,7 @@
 ## Sobre la traducción
 
 Este es el sitio web de la versión en español, aún en proceso de traducción, de "Teaching Tech Together" de Greg Wilson.  
-La traducción de “Enseñando Tecnología en Comunidad” es un proyecto colaborativo de la comunidad de [R-Ladies](https://rladies.org/) y de [MetaDocencia](https://www.metadocencia.org/) en Latinoamérica, 
+La traducción de “Enseñar Tecnología en Comunidad” es un proyecto colaborativo de la comunidad de [R-Ladies](https://rladies.org/) y de [MetaDocencia](https://www.metadocencia.org/) en Latinoamérica, 
 que tiene por objetivo traducir al español material actualizado y de calidad para hacerlo más accesible para la región.
 
 Las personas que están trabajando en este proyecto son (por orden alfabético): Laura Acion, Mónica Alonso, Zulemma Bazurto, Alejandra Bellini, Yanina Bellini Saibene,
