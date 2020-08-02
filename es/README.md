@@ -200,7 +200,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Teaching Online|Yanina Bellini||||||las/los
 | Exercise Types|Priscilla Minotti||||||los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | ||las/los
-| Outreach|Juliana Benitez|Natalia Morandeira||Lista|||los/las
+| Outreach|Juliana Benitez|Natalia Morandeira||Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
@@ -246,6 +246,11 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |screencast.xml |Yanina Bellini|||Lista|||
 |seasons.xml |Yanina Bellini|Mónica Alonso||Lista|||
 |what-to-teach.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+|women-coding |Yanina Bellini|||||||
+|interventions-scaled |Yanina Bellini|||||||
+|enrollment |Yanina Bellini|||||||
+|dunning-kruger |Yanina Bellini|||||||
+|deathbulge-jerk|Yanina Bellini|||||||
 
 ## 3. Otras participaciones
 
