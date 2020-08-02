@@ -187,7 +187,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | ---------------|------------|-----------|-----------|-----------|------------|------------|---------------|
 | Dedication| Yanina Bellini |Alejandra Bellini |Mónica Alonso|Lista|Lista|Lista|las/los
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
-| Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista||las/los
+| Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval|Lista|Lista||las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
@@ -205,7 +205,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
-| Glossary| Yanina Bellini|||Lista|||las/los
+| Glossary| Yanina Bellini|Zulemma Bazurto||Lista|||las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista||las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
