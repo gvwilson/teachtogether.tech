@@ -7,7 +7,7 @@ Quienes trabajamos en este proyecto somos (en orden alfabético): [Laura Acion](
 [Juliana Benitez Saldivar](https://twitter.com/July_Benitezs), [Ruth Chirinos](https://twitter.com/ruthy_root), [Paola Corrales](https://twitter.com/PaobCorrales), [Ana Laura Diedrich](https://twitter.com/anadiedrichs), [Patricia Loto](https://twitter.com/patriloto), [Priscilla Minotti](https://twitter.com/pmnatural), [Natalia Morandeira](https://twitter.com/Nat_Mora_), [Lucía Rodríguez Planes](https://twitter.com/_luciarp_), [Paloma Rojas](https://twitter.com/palolili23),
 [Gabriela Sandoval](https://twitter.com/GabySandovalM), [Yuriko Sosa](https://twitter.com/YkSosaP) y [Yara Terrazas-Carafa](https://twitter.com/_yarena). La coordinación del trabajo está a cargo de Yanina Bellini Saibene y la edición final a cargo de Yanina Bellini Saibene y Laura Ación.
 
-Malena Zabalegui nos aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
+[Malena Zabalegui](https://www.instagram.com/malenazabalegui/) nos aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 
 También generamos un [glosario y diccionario bilingüe de términos de educación y tecnología](https://yabellini.shinyapps.io/T3Glossary/) a partir del glosario del libro y del listado de términos a traducir (o no) del libro. El desarrollo de este glosario está a cargo de Yanina Bellini Saibene.
 
