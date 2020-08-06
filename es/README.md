@@ -233,19 +233,19 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
-|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista|||
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
-|conditionals.xml |Yanina Bellini|Paola Rojas||Lista|||
-|for-loop.xml |Yanina Bellini|Mónica Alonso||Lista|||
-|labeling.xml |Yanina Bellini|Priscilla Minotti||Lista|||
+|conditionals.xml |Yanina Bellini|Paola Rojas|Natalie Stroud|Lista|||
+|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|||
+|labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista|||
 |library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
-|library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira||Lista|Lista||los/las
+|library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
 |library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
-|matching.xml |Yanina Bellini|Priscilla Minotti||Lista|||
+|matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista|||
 |photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
-|screencast.xml |Yanina Bellini|||Lista|||
-|seasons.xml |Yanina Bellini|Mónica Alonso||Lista|||
-|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|||
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|||
+|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista|||
 |women-coding |Yanina Bellini|||||||
 |interventions-scaled |Yanina Bellini|||||||
 |enrollment |Yanina Bellini|||||||
