@@ -199,7 +199,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Motivation and Demotivation|Gabriela Sandoval||||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
 | Exercise Types|Priscilla Minotti||||||los/las
-| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | ||las/los
+| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista ||las/los
 | Outreach|Juliana Benitez|Natalia Morandeira||Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
@@ -207,7 +207,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
 | Glossary| Yanina Bellini|Zulemma Bazurto||Lista|||las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
-| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista||las/los
+| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|las/los
 | References| ||||||los/las
