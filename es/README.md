@@ -200,7 +200,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Teaching Online|Yanina Bellini||||||las/los
 | Exercise Types|Priscilla Minotti||||||los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista ||las/los
-| Outreach|Juliana Benitez|Natalia Morandeira||Lista|Lista||los/las
+| Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
@@ -233,19 +233,19 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
-|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista|||
+|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
-|conditionals.xml |Yanina Bellini|Paola Rojas|Natalie Stroud|Lista|||
-|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|||
-|labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista|||
+|conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
+|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
-|library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
+|library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 |library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
-|matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista|||
+|matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
-|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|||
-|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|||
-|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista|||
+|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
 |women-coding |Yanina Bellini|||||||
 |interventions-scaled |Yanina Bellini|||||||
 |enrollment |Yanina Bellini|||||||
