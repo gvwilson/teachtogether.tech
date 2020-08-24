@@ -84,10 +84,14 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
+| marketing ||
 
 
 
 #### 2. Términos técnicos que se traducen
+
+En este sitio se puede acceder a una aplicación web con el glosario completo de T3 en Español e Inglés: https://yabellini.shinyapps.io/T3Glossary/
+
 Recordar que la primera aparición puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado:
 
 Ejemplo:
@@ -95,6 +99,7 @@ Ejemplo:
 
 | Inglés                | Español                           |
 | ----------------------|-----------------------------------|
+| bootcamp | entrenamiento intensivo |
 | burnout/burning out | síndrome de desgaste ocupacional  |
 | competent practitioners| practicantes competentes, personas competentes |
 | call stack | pila de llamada |
@@ -106,15 +111,18 @@ Ejemplo:
 | expertise reversal effect | efecto inverso de la experiencia * |
 | extraneous-load       | carga extrínseca                  |
 | feedback       | devolución, retroalimentación|
+| flash cards |tarjetas de estudio|
 | germane-load          | carga pertinente                  |
 | live coding | programación en vivo |
 | loop | bucle |
 | novice                | novatos/as, personas novatas |
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
+| outreach | difusión |
 | path | ruta de acceso |
 | post-mortem  | autopsia |
 | screencasting | grabación de pantalla |
+| school board | junta escolar |
 | situated learning | aprendizaje situado |
 | split-attention effect| efecto de atención dividida       |
 | stack | pila |
@@ -179,7 +187,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | ---------------|------------|-----------|-----------|-----------|------------|------------|---------------|
 | Dedication| Yanina Bellini |Alejandra Bellini |Mónica Alonso|Lista|Lista|Lista|las/los
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
-| Introduction| Natalia Morandeira|Yanina Bellini|Yuriko Sosa|Lista|Lista||las/los
+| Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval|Lista|Lista||las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
@@ -191,17 +199,17 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Motivation and Demotivation|Gabriela Sandoval||||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
 | Exercise Types|Priscilla Minotti||||||los/las
-| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | ||las/los
-| Outreach|Juliana Benitez||||||los/las
+| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista ||las/los
+| Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
-| Glossary| Yanina Bellini||||||las/los
-| Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista||los/las
-| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista||las/los
-| Example Concept Maps|Yanina Bellini|Laura Acion||Lista|Lista||los/las
-| Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini||Lista|Lista||las/los
+| Glossary| Yanina Bellini|Zulemma Bazurto||Lista|||las/los
+| Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
+| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
+| Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
+| Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|las/los
 | References| ||||||los/las
 
 
@@ -221,29 +229,39 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |cognitive-architecture.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista||
-|conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista||
+|conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
-|conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista||
-|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+|conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
+|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
-|conditionals.xml |Yanina Bellini|Paola Rojas||Lista|||
-|for-loop.xml |Yanina Bellini|Mónica Alonso||Lista|||
-|labeling.xml |Yanina Bellini|Priscilla Minotti||Lista|||
-|library-director-concept-map.xml |Yanina Bellini|Laura Acion||Lista|Lista||los/las
-|library-friends-concept-map.xml |Yanina Bellini|||Lista|||los/las
-|library-patron-concept-map.xml |Yanina Bellini|Laura Acion||Lista|Lista||los/las
-|matching.xml |Yanina Bellini|Priscilla Minotti||Lista|||
+|conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
+|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
+|library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
+|library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
+|library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
+|matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
-|screencast.xml |Yanina Bellini|||Lista|||
-|seasons.xml |Yanina Bellini|Mónica Alonso||Lista|||
-|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval||Lista|||
+|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
+|women-coding |Yanina Bellini|||||||
+|interventions-scaled |Yanina Bellini|||||||
+|enrollment |Yanina Bellini|||||||
+|dunning-kruger |Yanina Bellini|||||||
+|deathbulge-jerk|Yanina Bellini|||||||
 
-## Otras participaciones
+## 3. Otras participaciones
 
 * **Coordinación general**: Yanina Bellini Saibene
 * **Edición de la traducción**: Laura Acion
 * Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
+* **Glosario (Shiny y YAML)**: Yanina Bellini Saibene
+
+## 4. Como incluir tu participación en este proyecto en tu CV:
+
+- <Fecha de inicio, ej.: Mayo de 2020 – Fecha de fin, ej: Julio de 2020>. Traducción colaborativa al castellano del libro “Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them” de Greg Wilson (2019, Taylor & Francis, ISBN 978-0-367-35328-5, https://teachtogether.tech/). Coordinación general de la traducción: Yanina Bellini Saibene; Edición general: Laura Acion. Participación como <rol, ej.: traductora y revisora de capítulos>. Más información y grupo de traductoras: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
 
 ## Atribuciones y agradecimientos
 
