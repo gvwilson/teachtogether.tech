@@ -255,13 +255,13 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 ## 3. Otras participaciones
 
 * **Coordinación general**: Yanina Bellini Saibene
-* **Edición de la traducción**: Laura Acion
+* **Edición de la traducción**: Yanina Bellini Saibene
 * Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 * **Glosario (Shiny y YAML)**: Yanina Bellini Saibene
 
 ## 4. Como incluir tu participación en este proyecto en tu CV:
 
-- <Fecha de inicio, ej.: Mayo de 2020 – Fecha de fin, ej: Julio de 2020>. Traducción colaborativa al castellano del libro “Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them” de Greg Wilson (2019, Taylor & Francis, ISBN 978-0-367-35328-5, https://teachtogether.tech/). Coordinación general de la traducción: Yanina Bellini Saibene; Edición general: Laura Acion. Participación como <rol, ej.: traductora y revisora de capítulos>. Más información y grupo de traductoras: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
+- <Fecha de inicio, ej.: Mayo de 2020 – Fecha de fin, ej: Julio de 2020>. Traducción colaborativa al castellano del libro “Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them” de Greg Wilson (2019, Taylor & Francis, ISBN 978-0-367-35328-5, https://teachtogether.tech/). Coordinación general de la traducción: Yanina Bellini Saibene; Edición general: Yanina Bellini Saibene. Participación como <rol, ej.: traductora y revisora de capítulos>. Más información y grupo de traductoras: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
 
 ## Atribuciones y agradecimientos
 
