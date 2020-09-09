@@ -236,15 +236,15 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
 |conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
-|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
 |labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 |library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
-|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
-|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||
-|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||las/los
+|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||las/los
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
 |what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
 |women-coding |Yanina Bellini|||||||
 |interventions-scaled |Yanina Bellini|||||||
