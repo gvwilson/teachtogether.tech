@@ -189,7 +189,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
-| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval|Lista|Lista||las/los
+| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista||las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
 | Individual Learning| Paloma Rojas | Patricia Loto |||||las/los
 | A Lesson Design Process| Paloma Rojas ||||||los/las
