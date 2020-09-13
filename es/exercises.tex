@@ -1,71 +1,56 @@
-\chapter{Exercise Types}\label{s:exercises}
+\chapter{Tipos de Ejercicios}\label{s:exercises}
 
-Every good carpenter has a set of screwdrivers,
-and every good teacher has different kinds of exercises
-to check what learners are actually learning,
-help them practice their new skills,
-and keep them engaged.
-This chapter starts by describing several kinds of exercises
-you can use to check if your teaching has been effective.
-It then looks at the state of the art in automated grading,
-and closes by exploring discussion, projects, and other important kinds of work
-that require more human attention to assess.
-Our discussion draws in part on
-the \hreffoot{http://web-cat.org/questionbank/}{Canterbury Question Bank}~\cite{Sand2013},
-which has entries for various languages and topics in introductory computing.
+Todo buen carpintero tiene un juego de destornilladores ,y todo buen docente tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los alumnos y las alumnas, para ayudarlos a practicar sus nuevas habilidades, y para mantener su  compromiso.
 
-\seclbl{The Classics}{s:exercises-classics}
+Este capítulo comienza describiendo varios tipos de ejercicios que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva.
 
-As \secref{s:models-formative-assessment} discussed,
-\emph{multiple choice questions} (MCQs) are most effective\index{multiple choice question}
-when the wrong answers probe for specific misconceptions.
-They are usually designed to test the lower levels of Bloom's Taxonomy\index{Bloom's Taxonomy}
-(\secref{s:process-objectives}),
-but can also require learners to exercise judgment.
+Luego examina el estado del arte en cuanto a calificación automatizada, y culmina con la exploración de la discusión, proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.
 
-\begin{aside}{A Multiple Choice Question}
-  In what order do operations occur when the computer evaluates the
-  expression \texttt{price\ =\ addTaxes(cost\ -\ discount)}?
+Nuestra discusión se basa parcialmente en el banco de preguntas \hreffoot{http://web-cat.org/questionbank/}{Canterbury Question Bank}~\cite{Sand2013}, que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
+
+\seclbl{Los clásicos}{s:exercises-classics}
+
+Como se discute en \secref{s:models-formative-assessment}, las \emph{preguntas de opción múltiple} (PMC)  son más efectivas cuando las respuestas incorrectas sondean conceptos erróneos.  
+Están designadas para evaluar los niveles más bajos en la taxonomía de Bloom\index{Bloom's Taxonomy}
+(\secref{s:process-objectives}) ,pero también puede requerir que los estudiantes utilicen su propio juicio/criterio.
+
+\begin{aside}{Una pregunta de opción múltiple}
+  En qué orden ocurren las operaciones cuando la computadora evalúa la expresión \texttt{precio\ =\ agregarImpuestos(costo\ -\ descuento)}?
   \begin{enumerate}
   \item
-    subtraction, function call, assignment
+    resta, llamado a función, asignación
   \item
-    function call, subtraction, assignment
+    llamado a función, resta, asignación
   \item
-    function call, then assignment and subtraction simultaneously
+    llamado a función, luego asignación y resta simultáneamente
   \item
-    none of the above
+    ninguna de las anteriores
   \end{enumerate}
 \end{aside}
 
-The second classic type of programming exercise is \emph{code and run} (C\&R),
-in which the learner writes code that produces a specified output.
-C\&R exercises can be as simple or as complex as the teacher wants,
-but when used in class,
-they should be brief and have only one or two plausible correct answers.
-It's often enough to ask novices to calculate and print a single value
-or call a specific function:
-experienced teachers often forget
-how hard it can be to figure out which parameters go where.
-For more advanced learners,
-figuring out which function to call is more engaging
-and a better gauge of their understanding.
 
-\begin{aside}{Code \& Run}
-  The variable \texttt{picture} contains a full-color image read from a file.
-  Using one function,
-  create a black and white version of the image
-  and assign it to a new variable called \texttt{monochrome}.
+El segundo tipo de ejercicio de programación clásico es \emph{códificar y ejecutar} (C\&R, por sus siglas en inglés),
+donde el estudiante escribe un código que produce una salida especificada. 
+Los ejercicios C\&R pueden ser tan simples o complejos como el docente o la docente quieran, pero cuando se usen en clase deben ser breves y deben tener solamente una o dos respuestas correctas posibles.
+Generalmente es suficiente con pedir a quienes se inician que calculen e impriman un solo valor o que llamen a una función específica:
+
+docentes experimentados frecuentemente se olvidan de cuán difícil puede ser darse cuenta de cuál parámetro van en qué lugar.
+Para los estudiantes y las estudiantes  más avanzados, darse cuenta de cuál es la función que hay que llamar, es una actividad más atractiva y una mejor evaluación de su comprensión.
+
+\begin{aside}{Programa \& ejecuta}
+La variable \texttt{picture}contiene una imagen a todo color de un archivo.
+Usando una función,
+crea una versión blanco y negro de la imagen
+y asígnala a una variable nueva llamada \texttt{monochrome}.
 \end{aside}
 
-Write and run exercises can be combined with MCQs.
-For example,
-this MCQ can only be answered by running the Unix \texttt{ls} command:
+Los ejercicios de escribir y ejecutar pueden ser combinados con MCQ.
+Por ejemplo,
+este MCQ sólo puede ser contestado ejecutando el comando Unix \texttt{ls}:
 
-\begin{aside}{Combining MCQ with Code \& Run}
-  You are in the directory \texttt{/home}.
-  Which of the following files is \emph{not} in that directory?
-
+\begin{aside}{Combinar MCQ con Programar \& ejecutar}
+  Estás en el directorio  \texttt{/home}.
+  ¿Cuál de los siguientes archivos está\emph{no está} en dicho directorio?
   \begin{enumerate}
   \item
     \texttt{autumn.csv}
@@ -78,77 +63,73 @@ this MCQ can only be answered by running the Unix \texttt{ls} command:
   \end{enumerate}
 \end{aside}
 
-C\&Rs help people practice the skills they most want to learn,
-but they can be hard to assess:
-there can be lots of unexpected ways to get the right answer,
-and people will be demoralized if an automatic grading system rejects their code
-because it doesn't match the teacher's.
-One way to reduce how often this occurs is to assess only their output,
-but that doesn't give them feedback on how they are programming.
-Another is to give them a small test suite they can run their code against
-before they submit it
-(at which point it is run against a more comprehensive set of tests).
-Doing this helps them figure out if they have completely misunderstood the intent of the exercise
-before they do anything that they think might cost them grades.
+Los ejercicios de C\&Rs ayudan a practicar las habilidades que más quieren aprender,
+pero pueden ser  difíciles de evaluar:
+puede haber muchos caminos posibles para obtener la respuesta correcta,
+y se genera desánimo si el sistema de evaluación rechaza el código elaborado porque no se corresponde con el del docente.
+Una forma de reducir cuán frecuentemente ocurre esto es evaluar solo la salida,
+pero esto no da feedback sobre cómo están programando.
+Otra manera es darles un pequeño conjunto de pruebas con el que puedan comparar su código antes de enviarlo
+(ya que se corre/ejecuta contra un conjunto de pruebas más completo).
+Hacer esto les ayuda a descubrir si han malinterpretado completamente la intención del ejercicio antes de hacer cualquier cosa que pueda afectarles la nota.
 
-Instead of writing code that satisfies some specification,
-learners can be asked to write tests
-to determine whether a piece of code conforms to a spec.
-This is a useful skill in its own right,
-and doing it may give learners a bit more sympathy for how hard their teachers work.
+En vez de escribir código que satisface una cierta especificación, 
+se les puede pedir a los estudiantes y a las estudiantes que escriban pruebas que determinen si un fragmento de código satisface una cierta especificación. 
+Esta es una habilidad útil por sí misma, y al hacerlo puede generar en los estudiantes un poco más de simpatía por lo duro que trabajan sus profesores.
 
-\begin{aside}{Inverting Code \& Run}
-  The function \texttt{monotonic\_sum} calculates the sum of each section
-  of a list of numbers in which the values are strictly increasing.
-  For example,
-  given the input \texttt{[1,\ 3,\ 3,\ 4,\ 5,\ 1]},
-  the output is \texttt{[4,\ 12,\ 1]}.
-  Write and run unit tests to determine which of the following bugs the function contains:
+\begin{aside}{Invirtiendo programar \& ejecutar}
+ La función \texttt{monotonic\_sum} calcula la suma de una lista de números de una sección, en la que los valores aumentan estrictamente.
 
-  \begin{itemize}
+Por ejemplo,
+  dada la entrada \texttt{[1,\ 3,\ 3,\ 4,\ 5,\ 1]},
+  la salida es  \texttt{[4,\ 12,\ 1]}.
+
+Escribe y corre pruebas unitarias para determinar cuál de los siguientes errores está contenido en la función :
+
+   \begin{itemize}
   \item
-    Considers every negative number the start of a new sub-sequence.
+    Considera cada número negativo como el inicio de una nueva sub-secuencia.
   \item
-    Does not include the first value of each sub-sequence in the sub-sum.
+    No incluye el primer valor de cada sub-sequencia en la sub-suma.
   \item
-    Does not include the last value of each sub-sequence in the sub-sum.
+    No incluye el último valor de cada sub-sequencia en la sub-suma.
   \item
-    Only re-starts the sum when values decrease rather than fail to increase.
+    Solo reinicia la suma cuando los valores decrecen en vez de aumentar.
   \end{itemize}
 \end{aside}
 
-\emph{Fill in the blanks} is a refinement of C\&R
-in which the learner is given some starter code and has to complete it.
-(In practice, most C\&R exercises are actually fill in the blanks
-because the teacher provides comments
-to remind the learners of the steps they should take.)
-Questions of this type are the basis for faded examples;
-as discussed in \chapref{s:architecture},
-novices often find them less intimidating than writing all the code from scratch,
-and since the teacher has provided most of the answer's structure,
-submissions are much more predictable and therefore easier to check.
 
-\begin{aside}{Fill in the Blanks}
-  Fill in the blanks
-  so that the code below prints the string \texttt{'hat'}.
+\emph{Llenar los espacios en blanco} es un refinamiento de C\&R
+donde se le da al estudiante y a la estudiante  el comienzo de un código y debe completarlo
+
+(En la práctica, la mayoría de los ejercicios C\&R son en realidad del tipo completar los espacios en blanco porque el docente o la  docente proveen comentarios
+para recordarles a los estudiantes los pasos que deben seguir. 
+Las preguntas de este tipo son la bases para  ejemplos descoloridos;
+como se discute en \chapref{s:architecture},
+las personas principiantes encuentran este tipo de ejercicios  menos intimidante que escribir todo el código desde cero,
+y como el docente o la docente ha provisto la mayor parte de la estructura de la respuesta,
+las respuestas enviadas son más predecibles y fáciles de revisar.
+
+\begin{aside}{Completar los espacios en blanco}
+ Completa los espacios en blanco,
+ para que el código de abajo imprima el texto  \texttt{'hat'}.
 
 \begin{minted}{text}
-text = 'all that it is'
+text = 'todo lo que es'
 slice = text[____:____]
 print(slice)
 \end{minted}
 \end{aside}
 
-Parsons Problems \index{Parsons Problem} also avoid the ``blank screen of terror'' problem
-while allowing learners to concentrate on control flow separately from vocabulary
-\cite{Pars2006,Eric2015,Morr2016,Eric2017}.
-Tools for building and doing Parsons Problems online exist~\cite{Ihan2011},
-but they can be emulated (albeit somewhat clumsily)
-by asking learners to rearrange lines of code in an editor.
+Los problemas de Parsons \index{Parsons Problem} también evitan el problema de la ``pantalla blanca del terror" y permiten que los alumnos y las alumnas se concentren en el control del flujo separadamente del vocabulario \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
 
-\begin{aside}{Parsons Problem}
-  Rearrange and indent these lines to sum the positive values in a list.
-  (You will need to add colons in appropriate places as well.)
+Existen herramientas  en línea para construir y hacer Problemas de Parsons~\cite{Ihan2011},
+pero pueden ser emuladas (aunque torpemente) 
+pidiendo a los estudiantes que reorganicen líneas de código en un editor de texto.
+
+\begin{aside}{Problemas de Parsons}
+  Reordena e indenta estas líneas para sumar los valores positivos en una lista.
+  (Agrega también punto y coma en lugares apropiados.)
 
 \begin{minted}{text}
 total = 0
@@ -158,27 +139,26 @@ for v in values
 \end{minted}
 \end{aside}
 
-Note that giving learners more lines than they need,
-or asking them to rearrange some lines and add a few more,
-makes Parsons Problems significantly harder~\cite{Harm2016}.
+Dar más líneas de las que necesitan los alumnos, o pedirles que reordenen algunas líneas y añadan otras más, hace que los problemas de Parsons sean significativamente más difíciles~\cite{Harm2016}.
 
+\seclbl{Seguir}{s:exercises-tracing}
+\emph{Seguir la ejecución} es lo contrario de un Problema de Parsons: 
+dadas unas pocas líneas de código, 
+los/as estudiantes tienen que trazar el orden en el que se ejecutan esas líneas.
 \seclbl{Tracing}{s:exercises-tracing}
 
-\emph{Tracing execution} is the inverse of a Parsons Problem:
-given a few lines of code,
-the learner has to trace the order in which those lines are executed.
-This is an essential debugging skill\index{debugging}
-and a good way to solidify learners' understanding of loops, conditionals,
-and the evaluation order of function and method calls.
-The easiest way to implement it is to have learners write out a sequence of labeled steps.
-Having them choose the correct sequence from a set
-(i.e.\ presenting this as an MCQ)
-adds cognitive load without adding value,
-since they have to do all the work of figuring out the correct sequence,
-then search for it in the list of options.
 
-\begin{aside}{Tracing Execution Order}
-  In what order are the labeled lines in this block of code executed?
+Esta es una habilidad esencial de depuración\index{debugging}
+ y una buena manera de consolidar la comprensión de los bucles, los condicionales y el orden de evaluación de las llamadas a funciones y a métodos.
+
+La forma más fácil de implementarlo es hacer que los alumnos y las alumnas escriban una secuencia de pasos etiquetados.
+Hacer que elijan la secuencia correcta de un conjunto 
+(es decir, presentarla como un MCQ) 
+añade carga cognitiva pero sin añadir valor, 
+ya que tienen que hacer todo el trabajo descifrar cuál es la secuencia correcta, y luego buscarla en la lista de opciones.
+
+\begin{aside}{Seguir el orden de ejecución}
+  En qué orden se ejecutan las líneas etiquetadas de este bloque de código?
 
 \begin{minted}{text}
 A)     vals = [-1, 0, 1]
@@ -191,18 +171,19 @@ D)         pass
 \end{minted}
 \end{aside}
 
-\emph{Tracing values} is similar to tracing execution,
-but instead of spelling out the order in which code is executed,
-the learner lists the values that one or more variables take on
-as the program runs.
-One way to implement this is to give the learner a table
-whose columns are labeled with variable names
-and whose rows are labeled with line numbers,
-and ask them to fill in the values taken on by the variables on those lines.
+\emph{Seguir los valores} es similar a trazar la ejecución, 
+pero en lugar de listar el orden en que se ejecuta el código, 
+el estudiante enumera los valores que una o más variables asumen
+ a medida que el programa se ejecuta.
+
+Una forma de implementar esto es dar al estudiante y a la estudiante una tabla 
+cuyas columnas están etiquetadas con nombres de variables 
+y cuyas filas estén etiquetadas con números de línea, 
+y pedirle que complete los valores que toman las variables en esas líneas.
 
 \newpage
-\begin{aside}{Tracing Values}
-  What values do \texttt{left} and \texttt{right} take on as this program executes?
+\begin{aside}{Seguir los valores}
+  ¿Qué valores toman \texttt{left} y \texttt{right} a medida que este programa se ejecuta?
 
 \begin{minted}{text}
 A) left = 23
@@ -232,16 +213,16 @@ D)     left, right = right, left % right
 \end{tabular}
 \end{center}
 
-You can also require learners to trace code backwards
-to figure out what the input must have been
-for the code to produce a particular result~\cite{Armo2008}.
-These \emph{reverse execution} problems require search and deductive reasoning,
-and when the output is an error message,
-they help learners develop valuable debugging skills.
+También puedes pedir a los alumnos y a las alumnas que rastreen el código hacia atrás para averiguar cuál debe haber sido la entrada para que el código produzca un resultado determinado~\cite{Armo2008}.
 
-\begin{aside}{Reverse Execution}
-  Fill in the missing number in \texttt{values}
-  that caused this function to crash.
+
+Estos problemas de  \emph{ejecución inversa} requieren razonamientos de búsqueda y deducción, 
+y cuando la salida es un mensaje de error, 
+ayudan a los alumnos a desarrollar habilidades valiosas de depuración.
+
+\begin{aside}{Ejecución Reversa}
+  Completa el valor numérico faltante en \texttt{values}
+  que causó que esta función se interrumpa.
 
 \begin{minted}{text}
 values = [ [1.0, -0.5], [3.0, 1.5], [2.5, ___] ]
@@ -252,15 +233,18 @@ for (reading, scaling) in values:
 \end{aside}
 
 \emph{Minimal fix} exercises also help learners develop debugging skills.
-Given a few lines of code that contain a bug,
-the learner must find it and make one small change to fix it.
-Making the change can be done using C\&R,
-while identifying it can be done as a multiple choice question.
+Los ejercicios de \emph{arreglo mínimo} también ayudan a desarrollar habilidades de depuración.
 
-\begin{aside}{Minimal Fix}
-  This function is supposed to test
-  whether a number lies within a range.
-  Make one small change so that it actually does so.
+Dadas unas pocas líneas de código que contienen un error, el estudiante o la estudiante deben encontrarlo y hacer un pequeño cambio para arreglarlo.
+
+El cambio puede hacerse usando C\&R,
+mientras que la identificación puede hacerse como una pregunta de opción múltiple.
+
+
+\begin{aside}{Ajuste mínimo}
+ Se asume que esta función comprueba 
+ si un número se encuentra dentro de un rango.
+ Haz un pequeño cambio para que realmente lo haga.
 
 \begin{minted}{text}
 def inside(point, lower, higher):
@@ -273,21 +257,23 @@ def inside(point, lower, higher):
 \end{minted}
 \end{aside}
 
-\emph{Theme and variation} exercises are similar,
-but the learner is asked to make a small alteration that changes the output in some specific way
-instead of making a change to fix a bug.
-Allowed changes can include changing a variable's initial value,
-replacing one function call with another,
-swapping inner and outer loops,
-or changing the order of tests in a complex conditional.
-Again,
-this kind of exercise gives learners a chance to practice a useful real-world skill:
-the fastest way to produce the code they need
-is to tweak code that already does something close.
+Los ejercicios de \emph{Tema y variación}son similares, 
+pero se pide al alumno o a la alumna que hagan una pequeña alteración que cambie el resultado de alguna manera específica 
+en lugar de hacer un cambio para arreglar un error.
+Los cambios permitidos pueden incluir cambiar el valor inicial de una variable, 
+reemplazar una llamada de función por otra, 
+intercambiar bucles internos y externos,
+o cambiar el orden de las pruebas en un condicional complejo
 
-\begin{aside}{Theme and Variations}
-  Change the inner loop in the function below
-  so that it fills the upper left triangle of an image with a specified color.
+De nuevo,
+este tipo de ejercicio da a los estudiantes y a las estudiantes la oportunidad de practicar una habilidad útil para el mundo real:
+la forma más rápida de producir el código que necesitan 
+es ajustando un código que ya hace algo parecido.
+
+\begin{aside}{Tema y variaciones}
+  Cambiar el bucle interior de la siguiente 
+  función para que llene el triángulo superior izquierdo de una imagen
+  con un color especificado.
 
 \begin{minted}{text}
 function fillTriangle(picture, color) is
@@ -300,19 +286,19 @@ end
 \end{minted}
 \end{aside}
 
-\emph{Refactoring exercises} are the complement of theme and variation exercises:
-given a working piece of code,
-the learner has to modify it in some way \emph{without} changing its output.
-For example,
-the learner could replace loops with vectorized expressions
-or simplify the condition in a while loop.
-This is also a useful real-world skill,
-but there are often so many ways to refactor code
-that grading requires human inspection.
+Los \emph{Ejercicios de Modificación} son el complemento de los ejercicios de  tema y variación: 
+dado un trozo de código que funciona, el estudiante y la estudiante tienen que modificarlo de alguna manera sin cambiar la salida.
+
+Por ejemplo, 
+el alumno o la alumna pueden reemplazar los bucles con expresiones vectorizadas
+ o simplificar la condición en un bucle while
+
+Esto también es una habilidad útil para la vida real, 
+pero como hay tantas formas de modificar el código,
+se necesita inspección humana para poder poner una nota.
 
 \begin{aside}{Refactoring}
-  Write a single list comprehension
-  that has the same effect as this loop.
+  Escribir una sola compresión de lista que tenga el mismo efecto que este bucle.
 
 \begin{minted}{text}
 result = []
@@ -322,234 +308,205 @@ for v in values:
 \end{minted}
 \end{aside}
 
-\seclbl{Diagrams}{s:exercises-diagrams}
 
-Having learners draw concept maps and other diagrams
-gives insight into how they're thinking (\secref{s:memory-concept-maps}),
-but free-form diagrams take human time and judgment to assess.
-\emph{Labeling diagrams},
-on the other hand,
-is almost as powerful pedagogically
-but much easier to scale.
+\seclbl{Diagramas}{s:exercises-diagrams}
 
-Rather than having learners create diagrams from scratch,
-provide them with a diagram and a set of labels
-and have them put the latter in the right places on the former.
-The diagram can be a data structure
-(``after this code is executed, which variables point to which parts of this structure?''),
-a chart (``match each of these pieces of code with the part of the chart it generated''),
-or the code itself (``match each term to an example of that program element'').
+Hacer que los alumnos dibujen mapas conceptuales y otros diagramas, brinda una idea de cómo están pensando (\secref{s:memory-concept-maps}),
+pero los diagramas de forma libre requieren tiempo y juicio humano para evaluarlos.
 
-\begin{aside}{Labeling a Diagram}
-  \figref{f:exercises-labeling} shows
-  how a small fragment of HTML is represented in memory.
-  Put the labels 1--9 on the elements of the tree
-  to show the order in which they are reached in a depth-first traversal.
-\end{aside}
+\emph{Etiquetar los diagramas},
+por otra parte, 
+es pedagógicamente igual de poderoso 
+pero mucho más fácil de escalar.
 
-\figpdf{figures/labeling.pdf}{Labeling a diagram}{f:exercises-labeling}
+En lugar de hacer que los alumnos y las alumnas creen diagramas desde cero, hay que proporcionarles un diagrama y un conjunto de etiquetas y hacer que las coloquen en  los lugares correctos.
+El diagrama puede ser una estructura de datos (``después de ejecutar este código, ¿qué variables apuntan a qué partes de esta estructura?''), un gráfico (``aparea cada uno de estos fragmentos de código con la parte del gráfico generado''), o el propio código (``haz coincidir cada término con un ejemplo del mismo en el programa'').
 
-Another way to use diagrams is
-to give learners the pieces of the diagram and ask them to arrange them correctly.
-This is a visual equivalent of a Parsons Problem,
-and you can provide as much or as little of a skeleton to help with placement
-as you think they're ready for.
-I have fond memories of trying to place resistors and capacitors in a circuit diagram
-in order to get the right voltage at a certain point,
-and have seen teachers give learners a fixed set of Scratch blocks\index{Scratch}
-and ask them to create a particular drawing using only those blocks.
+\begin{aside}{Etiquetar un diagrama}
+  \figref{f:exercises-labeling} muestra
+cómo un fragmento pequeño de HTML se representa en memoria.
+  Pon las etiquetas 1--9 sobre los elementos del árbol 
+  para mostrar el orden de llegada cuando se hace recorrido en profundidad.
+\end{aside
 
-\emph{Matching problems} can be thought of as a special case of labeling
-in which the ``diagram'' is a column of text
-and the labels are taken from the other column.
-\emph{One-to-one matching} gives the learner two lists of equal length
-and asks them to pair corresponding items,
-e.g.\ ``match each piece of code with the output it produces.''
 
-\begin{aside}{Matching}
-  Match each regular expression operator in \figref{f:exercises-matching}
-  with what it does.
+\figpdf{figures/labeling.pdf}{Etiquetando un diagrama}{f:exercises-labeling}
+
+
+Otra forma de usar los diagramas es darles a los alumnos y a las alumnas partes del diagrama y pedirles que las ordenen correctamente.
+
+Este es un equivalente visual de un Problema de Parsons, 
+y se puede proporcionar tanto más o menos del esquema para ayudar con la colocación de las etiquetas como se considere apropiado.
+
+Tengo buenos recuerdos tratando de colocar resistencias y capacitores en un circuito para obtener el voltaje correcto en un punto determinado, y he visto profesores que le dan a sus alumnas un conjunto definido de bloques de Scratch\index{Scratch} y les piden que creen un diseño particular usando sólo esos bloques.
+
+Los \emph{Problemas de Correspondencia} pueden pensarse como un caso especial de etiquetado 
+en el que el ``diagrama" es una columna de texto 
+y las etiquetas se toman de la otra columna.
+
+En la \emph{Correspondencia Uno-a-uno} se le da al estudiante o a la estudiante dos listas de igual longitud y se le pide que asocie los elementos correspondientes, 
+e.g.\ `` asocia cada fragmento de código con la salida que produce".
+
+\begin{aside}{Correspondencia}
+  Asocia cada operador de expresión regular en \figref{f:exercises-matching}
+  con lo que hace.
 \end{aside}
 
 \figpdfhere{figures/matching.pdf}{Matching items}{f:exercises-matching}
 
-With \emph{many-to-many matching} the lists aren't the same length,
-so some items may be matched to several others
-and others may not be matched at all.
-Many-to-many are more difficult
-because learners can't do easy matches first to reduce their search space.
-Matching problems can be implemented by having learners submit lists of matching pairs
-(such as ``A3, B1, C2''),
-but that's clumsy and error-prone.
-Having them recognize a set of correct pairs in an MCQ is even worse,
-as it's painfully easy to misread.
-Drawing or dragging works much better,
-but may require some work to implement.
+Con la \emph{correspondencia de muchos a muchos} las listas no tienen la misma longitud, por lo que algunos elementos pueden asociarse con varios
+y otros pueden no tener correspondencias.
 
-\emph{Ranking} is a special case of matching
-that is (slightly) more amenable to answering via lists,
-since our minds are pretty good at detecting errors or anomalies in sequences.
-The ranking criteria determine the level of reasoning required.
-If you have learners order sorting algorithms from fastest to slowest
-you are probably exercising recall
-(i.e.\ asking them recognizing the algorithms' names and know their properties),
-while asking them to rank solutions from most robust to most brittle
-exercises reasoning and judgment.
+Las correspondencias muchos-a-muchos son más difíciles 
+porque los estudiantes no pueden hacer los apareamientos fáciles primero para reducir su espacio de búsqueda.
 
-\emph{Summarization} also requires learners to use higher-order thinking
-and gives them a chance to practice a skill that is very useful when reporting bugs.
-For example,
-you can ask learners,
-``Which sentence best describes how the output of f changes as x varies from 0 to 10?''
-and then given several options as a multiple choice question.
-You can also ask for very short free-form answers to questions in constrained domains,
-such as, ``What is the key feature of a stable sorting algorithm?''
-We can't fully automate checks for these without a frustrating number of false positives (accepting wrong answers)
-and false negatives (rejecting correct ones),
-but questions of this kind lend themselves well to peer grading (\secref{s:individual-peer}).
+Los problemas de correspondencia pueden ser implementados haciendo que los alumnos envíen listas de items apareados 
+(como ``A3, B1, C2''), 
+pero eso es burdo y propenso a errores.
 
-\seclbl{Automatic Grading}{s:exercises-grading}
+Hacer que reconozcan un conjunto de pares correctos en un MCQ es aún peor, 
+ya que es muy fácil de malinterpretar, lamentablemente .
+
+Dibujar o arrastrar funciona mucho mejor, 
+pero puede requerir más trabajo para implementarlo.
+
+
+\emph{Ranking} es un caso especial de emparejamiento 
+que es (ligeramente) más facil de responder mediante listas, 
+ya que nuestras mentes son bastante buenas para detectar errores o anomalías en las secuencias.
+Los criterios de ranking determinan el nivel de razonamiento requerido.
+
+Si haces que los alumnos y las alumnas ordenen los algoritmos de ranking del más rápido al más lento, probablemente estés ejercitando su memoria 
+(es decir\  pidiéndoles que reconozcan los nombres de los algoritmos y sus propiedades), mientras que al pedirles que clasifiquen las soluciones desde las más robustas a las más frágiles, ejercitas su razonamiento y el juicio.
+
+\emph{Resumir} también requiere que los alumnos utilicen un pensamiento de orden superior y les da la oportunidad de practicar una habilidad que es muy útil para informar sobre errores.
+Por ejemplo, 
+se puede les preguntar a los alumnos y a las alumnas,
+ ``¿Qué frase describe mejor cómo cambia la salida de f a medida que  x varía de 0 a 10?" 
+y luego se les dan varias opciones como una pregunta de opción múltiple.
+
+También puedes pedir respuestas muy cortas de formato libre a preguntas en dominios restringidos, como por ejemplo, ``¿Cuál es la característica clave de un algoritmo de ordenamiento que sea estable?
+No podemos automatizar completamente la comprobación de las respuestas sin generar un número frustrante de falsos positivos 
+(aceptando respuestas erróneas) 
+y falsos negativos (rechazando las correctas), 
+pero las preguntas de este tipo se prestan bien a la clasificación por pares 
+(\secref{s:individual-peer}).
+
+\seclbl{Calificación automática}{s:exercises-grading}
 \index{automatic grading}
 
-Automatic program grading tools have been around longer than I have been alive:
-the earliest published mention dates from 1960~\cite{Holl1960},
-and the surveys published in~\cite{Douc2005,Ihan2010} mention many specific tools by name.
-Building such tools is a lot more complex than it might first seem.
-How are assignments represented?
-How are submissions tracked and reported?
-Can learners co-operate?
-How can submissions be executed safely?
-\cite{Edwa2014a} is an entire paper devoted to
-an adaptive scheme for detecting and managing infinite loops in code submissions,
-and that's just one of the many issues that comes up.
+Las herramientas de corrección automática han existido desde antes que yo naciera: la primera mención publicada data de 1960, y las encuestas publicadas por~\cite{Douc2005,Ihan2010} nombran muchas herramientas específicas.
 
-When discussing auto-graders,
-it is important to distinguish learner satisfaction from learning outcomes.
-For example,
-\cite{Magu2018} switched informal programming labs for a second-year CS course
-to a weekly machine-evaluated test using an auto-grader.
-Learners didn't like the automated system,
-but the overall failure rate for the course was halved
-and the number of learners gaining first class honors tripled.
-In contrast,
-\cite{Rubi2014} also began to use an auto-grader designed for competitions,
-but saw no significant decrease in their learners' dropout rates;
-once again,
-learners made some negative comments about the tool,
-which the authors attribute to the quality of its feedback messages
-rather than to dislike of auto-grading.
+Construir tales herramientas es mucho más complejo de lo que podría parecer a primera vista.
 
-\cite{Srid2016} took a different approach.
-They used \gref{g:fuzz-testing}{fuzz testing}
-(i.e.\ randomly generated test cases)
-to check whether learner code does the same thing as a reference implementation supplied by the teacher.
-In the first project of a 1400-learner introductory course,
-fuzz testing caught errors that were missed by a suite of hand-written test cases
-for more than 48\% of learners.
+¿Cómo se representan las tareas?
 
-\cite{Basu2015} gave learners a suite of solution test cases,
-but learners had to unlock each one by answering questions about its expected behavior
-before they were allowed to apply it to their proposed solution.
-For example,
-suppose learners had to write a function to find the largest adjacent pair of numbers in a list.
-Before being allowed to use the question's tests,
-they had to choose the right answer to,
-``What does \texttt{largestPair(4, 3, -1, 5, 3, 3)} produce?''
-In a 1300-person university course,
-the vast majority of learners chose to validate their understanding of test cases this way
-before attempting to solve problems,
-and then asked fewer questions and expressed less confusion about assignments.
+¿Cómo se rastrean y reportan los envíos de tareas?
 
-\begin{aside}{Against Off-the-Shelf Tools}
-  It's tempting to use off-the-shelf style checking tools to grade learners' code.
-  However,
-  \cite{Nutb2016} initially found no correlation between human-provided marks
-  and style-checker rule violations.
-  Sometimes this was because learners violated one rule many times
-  (thereby losing more points than they should have),
-  but other times it was because they submitted the assignment starter code with few alterations
-  and got more points than they should have.
+¿Pueden los alumnos trabajar cooperativamente?
 
-  Even tools built specifically for teaching can fall short of teachers' needs.
-  \cite{Keun2016a,Keun2016b} looked at the messages produced by 69 auto-grading tools.
-  They found that the tools often do not give feedback on how to fix problems and take the next step.
-  They also found that most teachers cannot easily adapt most of the tools to their needs:
-  like many workflow tools,
-  they tend to enforce their creators' unrecognized assumptions about how institutions work.
-  Their classification scheme is a useful shopping list
-  when looking at tools of this kind.
+¿Cómo se pueden enviar las tareas de manera segura?
+
+\cite{Edwa2014a es un artículo entero dedicado a un esquema adaptativo para detectar y gestionar bucles infinitos de los envíos de código, y esa es sólo una de las muchas cuestiones que surgen.
+
+Cuando se habla de autocalificadores, 
+es importante diferenciar la satisfacción de la estudiante de los resultados del aprendizaje.
+Por ejemplo, 
+\cite{Magu2018} sustituyó los laboratorios informales de programación de un curso de CS de segundo año por una prueba semanal evaluada utilizando un autocalificador.
+A los alumnos no les gustó el sistema automatizado, 
+pero la tasa general de fracasos del curso se redujo a la mitad 
+y se triplicó el número de alumnos que obtuvieron calificaciones distinguidas.
+Por el contrario , 
+\cite{Rubi2014} también comenzó a utilizar un autocalificador diseñado para competencias, pero no vio una disminución significativa en la tasa de abandono de sus alumnos y alumnas;
+una vez más, 
+los alumnos y las alumnas hicieron comentarios negativos sobre la herramienta, 
+que los autores atribuyeron a la calidad de los mensajes de retroalimentación más que a una aversión a la autocalificación.
+
+\cite{Srid2016} adoptaron un enfoque diferente.
+Utilizaron \gref{g:fuzz-testing}{fuzz testing} 
+(es decir, fuzzing o fuzz testing, casos de prueba generados al azar) 
+para comprobar si el código del alumno hace lo mismo que una implementación de referencia suministrada por el profesor.
+En el primer proyecto de un curso introductorio de 1400 alumnos y alumnas, el fuzz testing identificó errores que no fueron detectados por un conjunto de casos de prueba escritos a mano para más del 48 % de los alumnos.
+
+\cite{Basu2015}  dio a sus estudiantes una serie de soluciones a casos de prueba, 
+pero tenían que desbloquear cada caso respondiendo a preguntas sobre su comportamiento esperado
+antes de poder aplicar la solución propuesta.
+
+Por ejemplo, 
+supongamos que los alumnos tuvieran que escribir una función para encontrar el mayor par de números adyacentes en una lista.Antes de que se les permitiera usar las pruebas de la pregunta, tenían que elegir la respuesta correcta a, ``¿Qué hace  \texttt{largestPair(4, 3, -1, 5, 3, 3)}".
+En un curso universitario de 1300 personas, 
+la gran mayoría de los estudiantes y las estudiantes eligió validar su comprensión sobre los casos de prueba de esta manera 
+antes de intentar resolver los problemas, 
+y luego hicieron menos preguntas y expresaron menos confusión sobre las tareas.
+
+\begin{aside}{Contra las herramientas disponibles en el mercado}
+Es tentador usar herramientas de revisión de estilo facilmente disponibles para calificar el código de los estudiantes.
+Sin embargo,
+\cite{Nutb2016} inicialmente no encontró correlación entre las calificaciones proporcionadas por personas 
+y las violaciones a las reglas del corrector de estilo.
+A veces esto se debía a que los alumnos y las alumnas violaban una regla muchas veces 
+(perdiendo así más puntos de los que debían), 
+pero otras veces se debía a que enviaban el código de inicio de tarea con pocas alteraciones y obtenían más puntos de los que debían.
+
+ Incluso herramientas construidas específicamente para la enseñanza pueden no estar a la altura de las necesidades de los profesores.
+   \cite{Keun2016a,Keun2016b}  observaron los mensajes producidos por 69 herramientas de autocalificación.
+  Encontraron que a menudo las herramientas de autocalificación no dan retroalimentación sobre cómo arreglar los problemas y dar el siguiente paso.
+    También encontraron que la mayoría de los docentes y las docentes no pueden adaptar fácilmente la mayoría de las herramientas a sus necesidades: 
+como muchas herramientas de flujo de trabajo, tienden a hacer cumplir supuestos no reconocidos por sus creadores, sobre el funcionamiento de sus instituciones.
+  Su esquema de clasificación es una lista de compras útil cuando se examinan herramientas de este tipo.
 \end{aside}
 
-\cite{Buff2015} presents a well-informed reflection on the whole idea of providing automated feedback.
-Their starting point is that,
-``Automated grading systems help learners identify bugs in their code,
-[but] may inadvertently discourage learners from thinking critically and testing thoroughly
-and instead encourage dependence on the teacher's tests.''
-One of the key issues they identified is that
-a learner may thoroughly test their code,
-but the feature may still not be implemented according to the teacher's specifications.
-In this case,
-the ``failure'' is not caused by a lack of testing
-but by a misunderstanding of the requirements,
-and it is unlikely that more testing will expose the problem.
-If the auto-grading system doesn't provide insightful, actionable feedback,
-this experience will only frustrate the learner.
+\cite{Buff2015} presenta una reflexión bien documentada sobre la idea de proporcionar una retroalimentación automatizada.
+Su punto de partida es que, 
+``Los sistemas de calificación automatizados ayudan a los estudiantes a identificar los errores en su código, 
+[pero] pueden inadvertidamente desalentarlos de pensar en forma crítica y a realizar pruebas exhaustivas, 
+fomentando en cambio  la dependencia de las pruebas del profesor".
+Una de las cuestiones clave que identificaron es que un estudiante o una estudiante pueden probar exhaustivamente su código, pero puede no ser implementado de acuerdo con las especificaciones del profesor.
+En este caso, 
+el ``fallo" no se debe a la falta de pruebas sino a un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema.
+Si el sistema de auto-calificación no proporciona una retroalimentación que brinde una mejor comprensión y aplicación de los conocimientos, esta experiencia sólo frustrará al alumno.
+Para proporcionar esa retroalimentación, 
+el sistema de \cite{Buff2015} identifica qué métodos son ejecutados por las pruebas fallidas del código del alumno 
+para que el sistema pueda asociar dichas fallas con características particulares de lo que envío el alumno.
+El sistema decide si se han ``ganado" ayudas específicas viendo si el alumno ha testeado lo suficiente la característica asociada, para evitar que se apoye en las ayudas en vez de realizar las pruebas.
+En \cite{Srid2016} se describen otros enfoques para compartir la retroalimentación con las estudiantes 
+cuando estando testeando automáticamente su código.
+Lo primero es proporcionar la salida esperada para las pruebas---pero 
+luego los alumnos generan salidas hard-code para esas entradas 
+(porque todo lo que se puede hacer se hace).
 
-In order to provide that feedback,
-\cite{Buff2015}'s system identifies which methods in the learner's code
-are executed by failing tests
-so that the system can associate failed tests
-with particular features within the learner's submission.
-The system decides whether specific hints have been ``earned''
-by seeing whether the learner has tested the associated feature enough,
-so learners cannot rely on hints instead of doing tests.
+Lo segundo es informar  los resultados de la aprobación o rechazo del código de los alumnos, 
+pero suministrando las entradas y salidas reales de las pruebas sólo después de la fecha de envío.
+Sin embargo, 
+es frustrante decirles a los alumnos que se equivocaron sin decirles por qué.
+Una tercera opción es utilizar una técnica llamada "hashing" para generar un valor que depende de la salida pero sin revelarla.
 
-\cite{Srid2016} describes some other approaches for sharing feedback with learners
-when automatically testing their code.
-The first is to provide the expected output for the tests---but
-then learners hard-code output for those inputs
-(because anything that can be gamed will be).
-The second is to report the pass/fail results for the learners' code,
-but only supply the actual inputs and outputs of the tests after the submission date.
-However,
-telling learners that they are wrong but not telling them why is frustrating.
+Si el usuario produce exactamente el resultado correcto
+su hash desbloqueará la solución, 
+pero es imposible hacer el camino inverso a partir del hash para averiguar cuál es resultado supuesto.
 
-A third option is to use a technique called \gref{g:hashing}{hashing}
-to generate a value that depends on the output but doesn't reveal it.
-If the user produces exactly the right output
-then its hash will unlock the solution,
-but it is impossible to work backward from the hash to figure out
-what the output is supposed to be.
-Hashing requires more work and explanation to set up,
-but strikes a good balance between revealing answers prematurely
-and not revealing them when it would help.
+El hash requiere más trabajo y explicación para configurarlo, 
+pero da un buen balance entre mostrar la respuesta de manera prematura y no revelarla cuando podría ser de ayuda.
 
 \seclbl{Higher-Level Thinking}{s:exercises-higher}
 
-Many other kinds of programming exercises
-are hard for teachers to assess in a class with more than handful of learners
-and equally hard for automated platforms to assess at all.
-Larger programming projects are (hopefully) what classes are building toward,
-but the only way to give feedback is case by case.
+Muchos tipos de ejercicios de programación son difíciles de evaluar por profesores en una clase con más de un puñado de alumnos y alumnas, e igualmente difícil para evaluar mediante plataformas automatizadas.
+Las clases van desarrollándose con vistas a proyectos de programación mayores (si todo va bien) , 
+pero la única manera de dar retroalimentación es caso por caso.
+La \emph{Revisión de código} es, en general, también es difícil de calificar automáticamente,
+pero puede ser abordada si se les da a los estudiantes una lista de fallos y se les pide que cotejen determinados comentarios con determinadas líneas de código.
 
-\emph{Code review} is also hard to grade automatically in general,
-but can be tackled if learners are given a list of faults to look for
-and asked to match particular comments against particular lines of code.
-For example,
-the learner can be told that there are two indentation errors and one bad variable name
-and asked to point them out.
-If they are more advanced,
-they could be given half a dozen kinds of remarks they could make about the code
-without being told how many of each they should find.
+Por ejemplo, 
+se le puede decir a la alumna que hay dos errores de indentación y un nombre de variable malo y pedirle que los señale.
 
-\cite{Steg2016b} is a good starting point for a code style rubric,
-while~\cite{Luxt2009} looks at peer review in programming classes more generally.
-If you are going to have learners do reviews,
-use calibrated peer review (\secref{s:individual-peer})\index{calibrated peer review}
-so that they have models of what good feedback should look like.
+Si son alumnos más avanzados, se les podría dar una media docena de tipos de comentarios que podrían hacerse sobre el código sin que se les diga cuántos de cada uno deberían encontrar.
 
-\begin{aside}{Code Review}
-  Mark the problems in each line of code using the rubric provided.
+\cite{Steg2016b} es un buen punto de partida para una rúbrica de estilo de código, mientras que~\cite{Luxt2009} muestra la revisión por pares en las clases de programación de manera más general.
+
+Si se pide a los estudiantes que hagan revisiones, hay que usar la revisión por pares calibrada (\secref{s:individual-peer})\index{calibrated peer review} para que tengan modelos de cómo debería ser una buena retroalimentación.
+
+\begin{aside}{Revisión de código}
+ Marca los problemas en cada línea de código usando la rúbrica proporcionada.
 
 \begin{minted}{text}
 01)  def addem(f):
@@ -562,82 +519,67 @@ so that they have models of what good feedback should look like.
 08)      print('total')
 \end{minted}
 
-  \begin{longtable}{ll}
-    1. poor variable name   & 2. use of undefined variable \\
-    3. missing return value & 4. unused variable
+   \begin{longtable}{ll}
+    1. nombre de la variable malo   & 2. uso de variable indefinida \\
+    3. falta el valor de salida & 4. variable no usada
   \end{longtable}
+
 \end{aside}
 
-\seclbl{Exercises}{s:exercises-exercises}
+\seclbl{Ejercicios}{s:exercises-exercises}
 
-\exercise{Code and Run}{pairs}{10}
+\exercise{Programar y ejecutar}{en pares}{10’}
+Crea un ejercicio corto de C&R, 
+luego intercambia con un compañero 
+y mira cuánto tiempo les toma a cada uno de ustedes entender y hacer el ejercicio del otro
 
-Create a short C\&R exercise,
-then trade with a partner
-and see how long it takes each of you to understand and do the other's exercise.
-Were there any ambiguities or misunderstandings in the exercise description?
+¿Hubo alguna ambigüedad o malentendido en la descripción del ejercicio?
 
-\exercise{Inverting Code and Run}{small groups}{15}
+\exercise{Invertir el código y la ejecución}{grupos pequeños}}{15’}
+Forma grupos de 4 a 6 personas.
+Haz que cada miembro del grupo cree un ejercicio de C\&R invertido que requiera que las personas averigüen qué entrada produce una salida en particular.
+Elige dos al azar 
+y mira cuántas entradas diferentes que satisfagan los requisitos puede encontrar el grupo .
 
-Form groups of 4--6 people.
-Have each member of the group create an inverted C\&R exercise
-that requires people to figure out what input produces a particular output.
-Pick two at random
-and see how many different inputs the group can find that satisfy the requirements.
+\exercise{Siguiendo valores}{en pares}{10’}
+Escribe un programa corto (10-15 líneas),
+intercambia con una compañera y 
+traza cómo las variables del programa cambian de valor con el tiempo.
+¿Qué diferencias hay en la forma en que tú y tu compañero escribieron sus trazas?
 
-\exercise{Tracing Values}{pairs}{10}
+\exercise{Refactoring}{grupos pequeños}{15’}
+Forma grupos de 3-4 personas.
+Haz que cada persona seleccione un trozo corto de código que haya escrito  (de 10 a 30 líneas de largo) y que no sea tan ordenado como podría ser, 
+luego elige una alumna al azar y haz que todos en el grupo lo ordenen independientemente.
 
-Write a short program (10--15 lines),
-trade with a partner,
-and trace how the variables in the program change value over time.
-What differences are there in how you and your partner wrote down your traces?
+¿En qué se diferencian las versiones limpias?
+¿Qué tan bien o mal podrían acomodarse todas estas variaciones si se calificara automáticamente, o en una clase numerosa?
 
-\exercise{Refactoring}{small groups}{15}
+\exercise{Rotulando un Diagrama}{de a pares}{10’}
+Dibuja un diagrama mostrando algo que se ha explicado recientemente: cómo los navegadores obtienen datos de los servidores, la relación entre los objetos y las clases,
+o cómo se indexan los dataframes en R.
+Pon las etiquetas en el lateral y pídele a tu compañera que las coloque.
 
-Form groups of 3--4 people.
-Have each person select a short piece of code (10--30 lines long) they have written
-that isn't as tidy as it could be,
-then choose one at random and have everyone in the group tidy it up independently.
-How do your cleaned-up versions differ?
-How well or how poorly would you be able to accommodate all of these variations
-if marking automatically or in a large class?
+\exercise{Acertijos de Lapiz y Papel}{toda la clase}{15’}
+\cite{Butl2017} describe un conjunto de rompecabezas de lápiz y papel que pueden convertirse en asignaciones de programación introductorias, señalando que estas tareas son disfrutadas por los alumnos y que fomentan la meta-cognición.
+Piensa en un simple acertijo o juego de lápiz y papel al que jugabas de niño 
+y describe cómo lo convertirías en un ejercicio de programación.
 
-\exercise{Labeling a Diagram}{pairs}{10}
+\exercise{Contando Fallos}{de a pares}{15’}
+Cualquier estimación útil de cuánto tiempo se necesita para resolver un ejercicio 
+debe considerar cuán  frecuentes son los fallos y cuánto tiempo se pierde con ellos.
+Por ejemplo, 
+editar archivos de texto parece una tarea sencilla, 
+pero ¿qué hay de localizar esos archivos?
+La mayoría de los editores que usan interfase gráfica (GUI) guardan las cosas en el escritorio de la usuaria o en su directorio personal; si los archivos utilizados en un curso se almacenan en otro lugar, una proporción importante de los estudiantes no podrá navegar al directorio correcto sin ayuda.
+(Si esto te parece un problema menor, por favor vuelve a la discusión del punto ciego de las personas expertas en \chapref{s:memory}.)
 
-Draw a diagram showing something that you have explained recently:
-how browsers fetch data from servers,
-the relationship between objects and classes,
-or how data frames are indexed in R.
-Put the labels on the side and ask your partner to place them.
+Trabajando con un compañero, haz una lista de las cosas ``simples'' que has notado que salen mal en los ejercicios que has usado o tomado.
+¿Con qué frecuencia aparecen?
+¿Cuánto tiempo tardan los alumnos en arreglarse solos o con ayuda?
+¿Cuánto tiempo de clase asignas actualmente para tratarlos?
 
-\exercise{Pencil-and-Paper Puzzles}{whole class}{15}
 
-\cite{Butl2017} describes a set of pencil-and-paper puzzles
-that can be turned into introductory programming assignments
-and reports that these assignments are enjoyed by learners and encourage meta-cognition.
-Think of a simple pencil-and-paper puzzle or game you played as a child
-and describe how you would turn it into a programming exercise.
+\exercise{Hablando de Tiempo}{individual}{10’}
+¿Qué tan precisas han sido las estimaciones de tiempo de los ejercicios de este libro hasta ahora?
 
-\exercise{Counting Failures}{pairs}{15}
-
-Any useful estimate of how much time an exercise needs
-must take into account how frequent failures are
-and how much time is lost to them.
-For example,
-editing text files seems like a simple task,
-but what about finding those files?
-Most GUI editors save things to the user's desktop or home directory;
-if the files used in a course are stored somewhere else,
-a substantial fraction won't be able to navigate to the right directory without help.
-(If this seems like a small problem to you,
-please revisit the discussion of expert blind spot in \chapref{s:memory}.)
-
-Working with a partner,
-make a list of ``simple'' things you have seen go wrong in exercises you have used or taken.
-How often do they come up?
-How long do they take learners to fix on their own or with help?
-How much time do you currently budget in class to deal with them?
-
-\exercise{Speaking of Timings}{individual}{10}
-
-How accurate have the time estimates on the exercises in this book been so far?
