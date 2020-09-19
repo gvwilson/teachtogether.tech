@@ -199,7 +199,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Motivation and Demotivation|||Gabriela Sandoval||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
 | Exercise Types|Priscilla Minotti|||Lista|||los/las
-| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista ||las/los
+| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
