@@ -191,12 +191,12 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista||las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
-| Individual Learning| Paloma Rojas | Patricia Loto |||||las/los
-| A Lesson Design Process| Paloma Rojas ||||||los/las
+| Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
+| A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|||||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|||||las/los
 | Teaching as a Performance Art| Paola Corrales||||||los/las
-| In the Classroom|||Yuriko Sosa||||las/los
-| Motivation and Demotivation|||Gabriela Sandoval||||los/las
+| In the Classroom||Yuriko Sosa|||||las/los
+| Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
 | Exercise Types|Priscilla Minotti|||Lista|||los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
@@ -205,7 +205,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
-| Glossary| Yanina Bellini|Zulemma Bazurto|Lista|Lista|||las/los
+| Glossary| Yanina Bellini|Zulemma Bazurto|Ruth Chirinos|Lista|Lista||las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
