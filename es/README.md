@@ -189,7 +189,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
-| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista||las/los
+| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
 | Cognitive Architecture|Patricia Loto||||||los/las
 | Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
 | A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|||||los/las
@@ -202,10 +202,10 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
-| License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
+| License| Yanina Bellini |Yara Terrazas-Carafa|Mónica Alonso|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
-| Glossary| Yanina Bellini|Zulemma Bazurto|Ruth Chirinos|Lista|Lista||las/los
+| Glossary| Yanina Bellini|Zulemma Bazurto|Ruth Chirinos|Lista|Lista|Lista|las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
