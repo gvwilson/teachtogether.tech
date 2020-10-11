@@ -80,6 +80,7 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | No traducir    | Observaciones  |
 | ---------------|----------------|
 | commits        | contexto: git  |
+| fuzz testing |contexto: desarrollo de software|
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
@@ -105,6 +106,7 @@ Ejemplo:
 | chunking | particionar, fragmentar |
 | commons        | Los comunes |
 | crispy                | crujiente                         |
+| elevator pitch   | discurso breve de presentación |
 | expert                | expertos/as, personas expertas |
 | expert blind spot     |punto ciego de las personas expertas|
 | expertise | dependiendo del contexto y si no es un término pedagógico: habilidad, pericia, conocimiento |
