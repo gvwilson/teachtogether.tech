@@ -250,10 +250,10 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
 |what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
 |women-coding |Yanina Bellini|||||||
-|interventions-scaled |Yanina Bellini|||||||
-|enrollment |Yanina Bellini|||||||
+|interventions-scaled |Yanina Bellini|||Lista||||
+|enrollment |Yanina Bellini|||Lista||||
 |dunning-kruger |Yanina Bellini|||||||
-|deathbulge-jerk|Yanina Bellini|||||||
+|deathbulge-jerk|Yanina Bellini|Laura Acion|Paola Corrales|||||
 
 ## 3. Otras participaciones
 
