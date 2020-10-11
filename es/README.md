@@ -123,6 +123,7 @@ Ejemplo:
 | outreach | difusión |
 | path | ruta de acceso |
 | post-mortem  | autopsia |
+| postits | notas adhesivas |
 | screencasting | grabación de pantalla |
 | school board | junta escolar |
 | situated learning | aprendizaje situado |
