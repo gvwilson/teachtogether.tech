@@ -80,7 +80,6 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | No traducir    | Observaciones  |
 | ---------------|----------------|
 | commits        | contexto: git  |
-| commons        | contexto: como en las licencias Creative Commons |
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
@@ -104,6 +103,7 @@ Ejemplo:
 | competent practitioners| practicantes competentes, personas competentes |
 | call stack | pila de llamada |
 | chunking | particionar, fragmentar |
+| commons        | Los comunes |
 | crispy                | crujiente                         |
 | expert                | expertos/as, personas expertas |
 | expert blind spot     |punto ciego de las personas expertas|
@@ -190,7 +190,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
-| Cognitive Architecture|Patricia Loto||||||los/las
+| Cognitive Architecture|Patricia Loto|||Lista|||los/las
 | Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
 | A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|||||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich||Lista|Lista||las/los
