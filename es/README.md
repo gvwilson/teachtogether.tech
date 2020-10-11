@@ -236,7 +236,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
-|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
+|conceptmap-motivation.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista||Lista|
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
 |conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
 |for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
@@ -248,12 +248,12 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||las/los
 |screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||las/los
 |seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
-|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
-|women-coding |Yanina Bellini|||||||
+|what-to-teach.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista||Lista|
+|women-coding |Yanina Bellini|||Lista||||
 |interventions-scaled |Yanina Bellini|||Lista||||
 |enrollment |Yanina Bellini|||Lista||||
-|dunning-kruger |Yanina Bellini|||||||
-|deathbulge-jerk|Yanina Bellini|Laura Acion|Paola Corrales|||||
+|dunning-kruger |Yanina Bellini|||Lista||||
+|deathbulge-jerk|Laura Acion|Paola Corrales|Yanina Bellini|||||
 
 ## 3. Otras participaciones
 
