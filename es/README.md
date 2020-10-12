@@ -253,7 +253,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |interventions-scaled |Yanina Bellini|||Lista||||
 |enrollment |Yanina Bellini|||Lista||||
 |dunning-kruger |Yanina Bellini|||Lista||||
-|deathbulge-jerk|Laura Acion|Paola Corrales|Yanina Bellini|||||
+|deathbulge-jerk|Laura Acion|Paola Corrales|Yanina Bellini|Lista|Lista|Lista||
 
 ## 3. Otras participaciones
 
