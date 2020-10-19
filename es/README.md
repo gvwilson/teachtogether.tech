@@ -196,7 +196,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Cognitive Architecture|Patricia Loto|Roxana Villafañe||Lista|||los/las
 | Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
 | A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|||||los/las
-| Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich||Lista|Lista||las/los
+| Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista||las/los
 | Teaching as a Performance Art| Paola Corrales||||||los/las
 | In the Classroom|Lupe Canaviri Maydana|Yuriko Sosa|||||las/los
 | Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|||||los/las
