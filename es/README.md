@@ -193,7 +193,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
-| Cognitive Architecture|Patricia Loto|||Lista|||los/las
+| Cognitive Architecture|Patricia Loto|Roxana Villafañe||Lista|||los/las
 | Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
 | A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|||||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich||Lista|Lista||las/los
@@ -201,7 +201,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | In the Classroom|Lupe Canaviri Maydana|Yuriko Sosa|||||las/los
 | Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
-| Exercise Types|Priscilla Minotti|||Lista|||los/las
+| Exercise Types|Priscilla Minotti|Roxana Villafañe||Lista|||los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
