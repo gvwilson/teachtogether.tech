@@ -1,84 +1,53 @@
-\chapter{Cognitive Architecture}\label{s:architecture}
+\chapter{Arquitectura Cognitiva}\label{s:architecture}
 
-We have been talking about mental models as if they were real things,
-but what actually goes on in a learner's brain when they're learning?
-The short answer is that we don't know;
-the longer answer is that we know a lot more than we used to.
-This chapter will dig a little deeper into what brains do while they're learning
-and how we can leverage that to design and deliver lessons more effectively.
+Hemos hablado acerca de modelos mentales como si fueran cosas reales, 
+pero ¿qué es lo que realmente sucede en el cerebro de un aprendiz cuando está aprendiendo? 
+La respuesta corta es que no lo sabemos, la respuesta larga es que sabemos mucho más que antes.}
+Este capítulo profundizará en lo que el cerebro hace mientras el aprendizaje sucede 
+y cómo podemos aprovechar eso para diseñar y brindar lecciones de manera más efectiva.
 
-\seclbl{What's Going On In There?}{s:architecture-brain}
+\seclbl{¿Qué es lo que sucede allí?}{s:architecture-brain}
 
-\figpdf{../figures/cognitive-architecture.pdf}{Cognitive architecture}{f:arch-model}
+\figpdf{../figures/cognitive-architecture.pdf}{Arquitectura Cognitiva
+}{f:arch-model}
 
-\figref{f:arch-model} is a simplified model of human cognitive architecture.\index{cognitive architecture}
-The core of this model is
-the separation between short-term and long-term memory discussed in \secref{s:memory-seven-plus-or-minus}.
-Long-term memory is like your basement:\index{long-term memory}
-it stores things more or less permanently,
-but you can't access its contents directly.
-Instead,
-you rely on your short-term memory,\index{short-term memory}
-which is the cluttered kitchen table of your mind.
+La figura \figref{f:arch-model}  es un modelo simplificado de la arquitectura cognitiva humana.\index{Arquitectura Cognitiva}. 
+Lo principal (el núcleo) de este modelo es la separación entre la memoria a corto y a largo plazo vistas en \secref{s:memory-seven-plus-or-minus}.
+La memoria a largo plazo es como tu sótano: \index{memoria a largo plazo}
+almacena objetos de forma más o menos permanente pero tu conciencia no puede acceder a ella directamente. 
+En cambio, confías en tu memoria a corto plazo, \index{memoria a corto plazo}
+que es como tu escritorio.
 
-When you need something,
-your brain retrieves it from long-term memory and puts it in short-term memory.
-Conversely,
-new information that arrives in short-term memory
-has to be encoded to be stored in long-term memory.
-If that information isn't encoded and stored,
-it's not remembered and learning hasn't taken place.
+Cuando necesitas algo, 
+tu cerebro lo rescata de la memoria a largo plazo  y lo coloca en la memoria a corto plazo. 
+Por el contrario, la nueva información que llega a la memoria a corto plazo debe codificarse para poder ser almacenada en la memoria a largo plazo.
+Si  esa información no está codificada y almacenada, no se recuerda y esto significa que  no se ha aprendido.
 
-Information gets into short-term memory primarily through
-your verbal channel (for speech)\index{verbal channel}
-and visual channel\index{visual channel}
-(for images)\footnote{
-  A more complete model
-  would also include your senses of touch, smell, and taste,
-  but we'll ignore those for now.}.
-Most people rely primarily on their visual channel,
-but when images and words complement each other,
-the brain does a better job of remembering them both:
-they are encoded together,
-so recall of one later on helps trigger recall of the other.
+La información ingresa a la memoria a corto plazo principalmente 
+a través de tu canal verbal (para el habla)\index{canal verbal}
+y del canal visual\index{canal visual} 
+(para las imágenes)\footnote{
+Un modelo más completo
+también incluiría el sentido del tacto, del olfato y del gusto,
+pero por ahora, los ignoraremos.}.
+La mayoría de las personas confía principalmente en su canal visual, 
+pero cuando las imágenes y las palabras se complementan entre sí,
+ el cerebro hace un mejor trabajo al recordarlas a ambas: 
+se codifican juntas,
+de modo que el recuerdo de una más tarde ayude a activar el recuerdo de la otra.
 
-Linguistic and visual input are processed by different parts of the human brain,
-and linguistic and visual memories are stored separately as well.
-This means that correlating linguistic and visual streams of information takes cognitive effort:
-when someone reads something while hearing it spoken aloud,
-their brain can't help but check that it's getting the same information on both channels.
+Las entradas lingüísticas y visuales son procesadas por diferentes partes del cerebro humano, y a su vez los recuerdos lingüísticos y visuales son almacenados también de manera separada. Esto significa que correlacionar flujos de información lingüísticos y visuales requiere esfuerzo cognitivo: si alguien lee algo mientras lo escucha en voz alta, su cerebro no puede evitar comprobar que obtiene la misma información por ambos canales.
 
-Learning is therefore increased when information is presented simultaneously in two different channels,
-but is reduced when that information is redundant rather than complementary,
-a phenomenon called the \gref{g:split-attention-effect}{split-attention effect}~\cite{Maye2003}.
-For example,
-people generally find it harder to learn from a video that has both narration and on-screen captions
-than from one that has either the narration or the captions but not both,
-because some of their attention has to be devoted to checking
-that the narration and the captions agree with each other.
-Two notable exceptions to this are people who do not yet speak the language well
-and people with hearing impairments or other special needs,
-both of whom may find that the value of the redundant information
-outweighs the extra processing effort.
+Por lo tanto, el aprendizaje aumenta cuando la información se presenta de manera simultánea por dos canales diferentes, pero se reduce cuando esa información es redundante, en lugar de ser complementaria, tal fenómeno es conocido como \gref{g:split-attention-effect}{efecto de atención dividida}~\cite{Maye2003}.
+Por ejemplo, en general las personas encuentran difícil aprender de un video que tiene narración y al mismo tiempo capturas de pantalla más que de uno que solo tiene narración o capturas pero no ambos elementos, porque parte de su atención ha sido utilizada para chequear que la narración  y las capturas se correspondan entre sí. Dos notables excepciones a esto, son las personas que aún no hablan bien un idioma y las que tienen algún impedimento auditivo u otras necesidades especiales, quienes quizás encuentren que el valor de la información redundante supera el esfuerzo de procesamiento adicional.
 
-\begin{aside}{Piece by Piece}
-  The split attention effect explains why
-  it's more effective to draw a diagram piece by piece while teaching
-  than to present the whole thing at once.
-  If parts of the diagram appear at the same time as things are being said,
-  the two will be correlated in the learner's memory.
-  Pointing at part of the diagram later
-  is then more likely to trigger recall of what was being said when that part was being drawn.
+\begin{aside}{Pieza por pieza}
+El efecto de la atención dividida explica porque es más efectivo dibujar un diagrama pieza por pieza mientras enseñas que presentar todo el gráfico de una sola vez. Si las partes de un diagrama aparecen al mismo tiempo en que los gráficos son explicados, ambos elementos serán correlacionados en la memoria del aprendiz. Enfocarnos luego solo en una parte del diagrama es lo más parecido a activar la recuperación de lo que fue dicho cuando esa parte fue dibujada. 
 \end{aside}
 
-The split-attention effect does \emph{not} mean
-that learners shouldn't try to reconcile multiple incoming streams of information---after all,
-this is what they have to do in the real world~\cite{Atki2000}.
-Instead,
-it means that instruction shouldn't require people to do it
-while they are first mastering unit skills;
-instead,
-using multiple sources of information simultaneously should be treated as a separate learning task.
+El efecto de la atención dividida no significa\emph{not} 
+que los estudiantes no deberían intentar conciliar múltiples flujos de información entrantes, después de todo, esto es lo que ellos tienen que hacer en el mundo real  ~\cite{Atki2000}.
+En cambio, significa que la instrucción no debería solicitar a las personas que lo hagan mientras ellos son los primeros en manejar las habilidades de la unidad, en lugar de usar múltiples fuentes  de información de manera simultánea debe tratarse como una tarea de aprendizaje separada. 
 
 \begin{aside}{Not All Graphics are Created Equal}
   \cite{Sung2012} presents an elegant study that distinguishes \emph{seductive} graphics\index{graphics!seductive}
