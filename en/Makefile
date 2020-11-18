@@ -34,7 +34,6 @@ html : ${FIGURES_DST} ../bin/pre-pandoc.py ../bin/post-pandoc.py ../template.htm
 	${PANDOC} --template=../template.html --bibliography=book.bib --output=- temp.tex \
 	| ../bin/post-pandoc.py \
 	> ${OUTPUT}/index.html
-	rm temp.tex
 
 ## pdf : Re-make PDF.
 pdf : ${TEX} ${BIB}
