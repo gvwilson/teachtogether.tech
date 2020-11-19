@@ -201,7 +201,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | In the Classroom|Lupe Canaviri Maydana|Yuriko Sosa|||||las/los
 | Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
-| Exercise Types|Priscilla Minotti|Roxana Villafañe||Lista|Lista||los/las
+| Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista||los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
