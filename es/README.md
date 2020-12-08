@@ -195,7 +195,7 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
 | Cognitive Architecture|Patricia Loto|Roxana Villafañe||Lista|||los/las
 | Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
-| A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|||||los/las
+| A Lesson Design Process|Zulemma Bazurto|Paloma Rojas|Lista||||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista||las/los
 | Teaching as a Performance Art| Paola Corrales||||||los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|||las/los
