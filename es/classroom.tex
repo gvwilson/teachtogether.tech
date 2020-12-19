@@ -1,733 +1,726 @@
-\chapter{In the Classroom}\label{s:classroom}
+\chapter{En el salón de clase}\label{s:classroom}
 
-The previous chapter described how to practice lesson delivery
-and described one method---live coding---that
-allows teachers to adapt to their learners' pace and interests.
-This chapter describes other practices that are also useful in programming classes.
+El capítulo anterior describió cómo practicar la entrega de lecciones
+y describió un método --- live coding --- que
+permite a las/los educadores adaptarse al ritmo y los intereses de sus estudiantes.
+Este capítulo describe otras prácticas que también son útiles en clases de programación.
 
-Before describing them,
-it's worth pausing for a moment to set expectations.
-The best teaching method we know is individual tutoring:\index{individual tutoring (effectiveness of)}
-\cite{Bloo1984} found that students taught one-to-one
-did two standard deviations better than those who learned through conventional lecture,
-i.e.\ that individually tutored students outperformed
-98\% of students who were lectured to.
-However,
-while mentoring and apprenticeship were the most common ways to pass on knowledge
-throughout most of history,
-the industrialization of formal education has made it the exception today.
-Despite the hype around artificial intelligence,\index{artificial intelligence (hype)}
-it isn't going to square this circle any time soon,
-so every method described below is essentially
-an attempt to approach the effectiveness of individual tutoring at scale.
+Antes de describirlos,
+vale la pena detenerse un momento para establecer expectativas.
+El mejor método de enseñanza que conocemos es la tutoría individual:\index{individual tutoring (effectiveness of)}
+\cite{Bloo1984} descubrió que los/las estudiantes a quienes se les enseñó uno a uno
+hicieron dos desviaciones estándar mejor que los/las que aprendieron mediante una clase convencional,
+es decir que los/las estudiantes con tutoría individual superaron al
+98\% de estudiantes a los que se les dio clases.
+Aunque,
+si bien la tutoría y el aprendizaje fueron las formas más comunes de transmitir conocimientos
+a lo largo de la mayor parte de la historia,
+la industrialización de la educación formal la ha convertido en la excepción en la actualidad.
+A pesar de la explosión en torno a la inteligencia artificial,\index{artificial intelligence (hype)}
+esto no va a cerrar este círculo pronto,
+por lo que cada método que se describe a continuación es esencialmente
+un intento de abordar la efectividad de la tutoría individual a escala.
 
-\seclbl{Enforce the Code of Conduct}{s:classroom-coc}
+\seclbl{Hacer cumplir el código de conducta}{s:classroom-coc}
 
-The most important thing I've learned about teaching in the last 30 years is
-how important it is for everyone to treat everyone else with respect,
-both in and out of class.
-If you use this material in any way,
-please adopt a Code of Conduct like the one in \appref{s:conduct}\index{Code of Conduct}
-and require everyone who takes part in your classes to abide by it.
-It can't stop people from being offensive,
-any more than laws against theft stop people from stealing,
-but it \emph{can} make expectations and consequences clear,
-and signal that you are trying to make your class welcoming to all.
+Lo más importante que he aprendido sobre la enseñanza en los últimos 30 años es
+lo importante que es para todos/as tratar a los/las demás con respeto,
+tanto dentro como fuera de clase.
+Si usas este material de alguna manera,
+por favor adopta un Código de Conducta como el de \appref{s:conduct}\index{Code of Conduct}
+y exige a todos/as los/las que participan en tus clases que lo respeten.
+No puedes evitar que las personas sean ofensivas,
+como tampoco las leyes contra el robo evitan que las personas roben,
+pero \emph{puedes} aclarar las expectativas y las consecuencias,
+y señalar que estás tratando de que tu clase sea acogedora para todos/as.
 
-But a Code of Conduct is only useful if it is enforced.
-If you believe that someone has violated yours,
-you may warn them,
-ask them to apologize,
-and/or expel them,
-depending on the severity of the violation and whether or not you believe it was intentional.
-Whatever you do:\index{Code of Conduct!enforcement}
+Pero un Código de Conducta sólo es útil si se hace cumplir.
+Si crees que alguien ha violado el tuyo,
+puedes advertirles,
+pedirles que se disculpen,
+y / o expulsarlos/las,
+dependiendo de la gravedad de la infracción y si crees o no que fue intencional.
+Hagas lo que hagas:\index{Code of Conduct!enforcement}
 
 \begin{description}
 
-\item[Do it in front of witnesses.]
-  Most people will tone down their language and hostility in front of an audience,
-  and having someone else present ensures that
-  later discussion doesn't degenerate into conflicting claims about who said what.
+\item[Hazlo frente a testigos/as.]
+  La mayoría de las personas bajarán el tono de su lenguaje y hostilidad frente a una audiencia,
+  y tener a alguien más presente asegura que
+  la discusión posterior no degenere en afirmaciones contradictorias sobre quién dijo qué.
 
-\item[If you expel someone, say so to the rest of the class and explain why.]
-  This helps prevent rumors from spreading
-  and shows that your Code of Conduct actually means something.
+\item[Si expulsas a alguien, comunícalo al resto de la clase y explica por qué.]
+  Esto ayuda a evitar que los rumores se difundan
+  y muestra que tu Código de Conducta realmente significa algo.
 
-\item[Email the offender as soon as you can]
-  to summarize what happened and the steps you took,
-  and copy the message to your workshop's hosts or one of your fellow teachers
-  so that there's a contemporaneous record of the conversation.
-  If the offender replies,
-  don't engage in a long debate:
-  it's never productive.
-
+\item[Envía un correo electrónico a la persona infractora tan pronto como puedas]
+  para resumir lo que sucedió y los pasos que tomaste,
+  y copia el mensaje a los/las anfitriones/as del taller o a alguno de tus colegas educadores
+  para que haya un registro contemporáneo de la conversación.
+  Si la persona infractora responde,
+  no participes en un debate largo:
+  nunca es productivo.
+ 
 \end{description}
 
-What happens outside of class matters at least as much as what happens within it~\cite{Part2011},
-so you need to provide a way for learners to report problems that you aren't there to see yourself.
-One step is to ask someone who isn't part of your group to be the first point of contact;
-that way,
-if someone wants to make a complaint about you or one of your fellow teachers,
-they have some assurance of confidentiality and independent action.
-\cite{Auro2019} has lots of other advice
-and is both short and practical.
+Lo que sucede fuera de la clase importa al menos tanto como lo que sucede dentro de ella~\cite{Part2011},
+por lo que debes proporcionar una forma para que los/las estudiantes informen sobre los problemas que tú mismo no puedes ver.
+Un paso es pedirle a alguien que no sea parte de tu grupo que sea el primer punto de contacto;
+de esta manera,
+si alguien quiere presentar una queja sobre ti o alguno de tus colegas educadores,
+tiene cierta garantía de confidencialidad y acción independiente.
+\cite{Auro2019} tiene muchos otros consejos
+y es a la vez breve y práctico.
 
-\seclbl{Peer Instruction}{s:classroom-peer}
+\seclbl{Instrucción de pares}{s:classroom-peer}
 
-No matter how good a teacher is,
-they can only say one thing at a time.
-How then can they clear up many different misconceptions in a reasonable time?
-The best solution developed so far is a technique called \gref{g:peer-instruction}{peer instruction}.
-Originally created by Eric Mazur at Harvard~\cite{Mazu1996},\index{Mazur, Eric}
-it has been studied extensively in a wide variety of contexts,
-including programming~\cite{Crou2001,Port2013},
-and~\cite{Port2016} found that learners value peer instruction even at first contact.
+No importa lo buena que sea una persona que enseña,
+solo puede decir una cosa a la vez.
+Entonces, ¿cómo puede aclarar muchos conceptos erróneos diferentes en un tiempo razonable?
+La mejor solución desarrollada hasta ahora es una técnica llamada \gref{g:peer-instruction}{instrucción de pares}.
+Originalmete creada por Eric Mazur en Harvard~\cite{Mazu1996},\index{Mazur, Eric}
+se ha estudiado extensamente en una amplia variedad de contextos,
+incluida la programación~\cite{Crou2001,Port2013},
+y~\cite{Port2016} descubrió que los/las estudiantes valoran la instrucción de sus pares incluso en el primer contacto.
 
-Peer instruction attempts to provide one-to-one instruction in a scalable way
-by interleaving formative assessment with learner discussion:
+La instrucción entre pares intenta proporcionar instrucción individualizada de manera escalable
+intercalando la evaluación formativa con la discusión del estudiante:
 
 \begin{enumerate}
 
 \item
-  Give a brief introduction to the topic.
+  Haz una breve introducción al tema.
 
 \item
-  Give learners a multiple choice question that probes for their misconceptions
-  (rather than testing simple factual knowledge).
+  Ofrece a los estudiantes una pregunta de opción múltiple que investigue sus conceptos erróneos.
+  (en lugar de probar el simple conocimiento de hechos).
 
 \item
-  Have all the learners vote on their answers to the MCQ.
+  Haz que todos los estudiantes voten por sus respuestas al MCQ.
 
   \begin{itemize}
 
   \item
-    If the learners all have the right answer, move on.
+    Si todos los estudiantes tienen la respuesta correcta, continúa.
 
   \item
-    If they all have the same wrong answer,
-    address that specific misconception.
+    Si todos tienen la misma respuesta incorrecta,
+    aborda ese error específico.
 
   \item
-    If they have a mix of right and wrong answers,
-    give them several minutes to argue with each other in groups of 2--4,
-    then vote again.
+    Si tienen una combinación de respuestas correctas e incorrectas,
+    Dales varios minutos para discutir entre ellos en grupos de 2 a 4,
+    luego que vuelvan a votar.
 
   \end{itemize}
 
 \end{enumerate}
 
-As
-\hreffoot{https://www.youtube.com/watch?v=2LbuoxAy56o}{this video} shows,
-group discussion significantly improves learners' understanding
-because it uncovers gaps in their reasoning and forces them to clarify their thinking.
-Re-polling the class then lets the teacher know if they can move on
-or if further explanation is necessary.
-A final round of additional explanation after the correct answer is presented
-gives learners one more chance to solidify their understanding.
+Asi como
+\hreffoot{https://www.youtube.com/watch?v=2LbuoxAy56o}{este video} muestra,
+la discusión en grupo mejora significativamente la comprensión de los estudiantes
+porque descubre lagunas en su razonamiento y los obliga a aclarar su pensamiento.
+Volver a sondear a la clase le permite al maestro saber si pueden seguir adelante
+o si se necesitan más explicaciones.
+Una ronda final de explicación adicional después de que se presenta la respuesta correcta
+les da a los estudiantes una oportunidad más para solidificar su comprensión.
 
-But could this be a false positive?
-Are results improving because of increased understanding during discussion
-or simply from a follow-the-leader effect (``vote like Jane, she's always right'')?
-\cite{Smit2009} tested this by following the first question with a second one
-that learners answered individually.
-They found that peer discussion actually does enhance understanding,
-even when none of the learners in a discussion group originally knew the correct answer.
-As long as there is a diversity of opinion within the group,
-their misconceptions cancel out.
+Pero, ¿podría ser esto un falso positivo?
+¿Los resultados están mejorando debido a una mayor comprensión durante la discusión
+o simplemente por un efecto de seguimiento del líder (``vota como Jane, ella siempre tiene la razón'')?
+\cite{Smit2009} probó esto siguiendo la primera pregunta con una segunda
+que los estudiantes respondieron individualmente.
+Descubrieron que la discusión entre pares mejora la comprensión,
+incluso cuando ninguno de los estudiantes de un grupo de discusión sabía originalmente la respuesta correcta.
+Siempre que exista diversidad de opiniones dentro del grupo,
+sus conceptos erróneos se anulan.
 
 \newpage
-\begin{aside}{Taking a Stand}
-  It is important to have learners vote publicly
-  so that they can't change their minds afterward and rationalize it
-  by making excuses to themselves like ``I just misread the question.''
-  Much of the value of peer instruction comes from the hypercorrection
-  of getting the wrong answer
-  and having to think through the reasons why
+\begin{aside}{Tomar una posición}
+  Es importante que tus estudiantes voten públicamente
+  para que no puedan cambiar de opinión después y racionalizarlo
+  con excusas como: ``Acabo de interpretar mal la pregunta.''
+  Gran parte del valor de la instrucción entre pares proviene de la hipercorrección
+  de obtener la respuesta incorrecta
+  y tener que pensar en las razones del porque de esta respuesta
   (\secref{s:individual-strategies}).
 \end{aside}
 
 \seclbl{Teach Together}{s:classroom-together}
 
-\grefdex{g:co-teaching}{Co-teaching}{co-teaching} describes any situation
-in which two teachers work together in the same classroom.
-\cite{Frie2016} describes several ways to do this:
+\grefdex{g:co-teaching}{Co-enseñar}{co-teaching} describe cualquier situación
+en la que dos educadores trabajan juntos en la misma clase.
+\cite{Frie2016} describe muchas formas de hacer esto:
 
 \begin{description}
 
-\item[Team teaching:]
-  Both teachers deliver a single stream of content in tandem,
-  taking turns like musicians taking solos.
+\item[Enseñar en equipo:]
+  Ambos educadores entregan un único flujo de contenido en conjunto,
+  turnándose como músicos haciendo solos.
 
-\item[Teach and assist:]
-  Teacher A teaches while Teacher B moves around the classroom
-  to help struggling learners.
+\item[Enseñar y ayudar:]
+  El educador A enseña mientras el educador B se mueve por el aula
+  para ayudar a los estudiantes con dificultades.
 
-\item[Alternative teaching:]
-  Teacher A provides a small set of learners with more intensive or specialized instruction
-  while Teacher B delivers a general lesson to the main group.
+\item[Enseñanza alternativa:]
+  El educador A proporciona a un pequeño grupo de estudiantes
+  una instrucción más intensiva o especializada
+  mientras que el educador B ofrece una lección general al grupo principal.
+ 
+\item[Enseñar y observar:]
+  El educador A enseña mientras el educador B observa a los estudiantes
+  y recopila datos sobre su comprensión para ayudar a planificar lecciones futuras.
 
-\item[Teach and observe:]
-  Teacher A teaches while Teacher B observes the learners,
-  collecting data on their understanding to help plan future lessons.
-
-\item[Parallel teaching:]
-  The class is divided in two
-  and the teachers present the same material simultaneously to each.
+\item[Enseñanza paralela:]
+  La clase se divide en dos
+  y los educadores presentan el mismo material simultáneamente a cada grupo.
 
 \item[Station teaching:]
-  The learners are divided into small groups
-  that rotate from one station or activity to the next
-  while teachers supervise where needed.
+  Los estudiantes se dividen en pequeños grupos
+  que rotan de una estación o actividad a la siguiente
+  mientras los educadores supervisan donde sea necesario.
 
 \end{description}
 
-All of these models create more opportunities for unintended knowledge transfer than teaching alone.
+Todos estos modelos crean más oportunidades para la transferencia involuntaria de conocimientos que la enseñanza por sí sola.
 \index{unintended knowledge transfer}
-Team teaching is particularly beneficial in day-long workshops:
-it gives each teacher's voice a chance to rest
-and reduces the risk that they will be so tired by the end of the day
-that they will start snapping at their learners
-or fumbling at their keyboard.
+Enseñar en equipo es particularmente beneficiosa en talleres de un día:
+le da a la voz de cada educador la oportunidad de descansar
+y reduce el riesgo de que estén tan cansados al final del día
+que comiencen a hablar bruscamente con sus estudiantes
+o a manipular el teclado.
 
-\begin{aside}{Helping}
-  Many people who aren't comfortable teaching
-  are willing and able to provide in-class technical support.
-  They can help learners with setup and installation,
-  answer technical questions during exercises,
-  monitor the room to spot people who may need help,
-  or keep an eye on the shared notes (\secref{s:classroom-notetaking}),
-  and either answer questions
-  or remind the teacher to do so during breaks.
+\begin{aside}{Ayudar}
+  Muchas personas que no se sienten cómodas enseñando
+  están dispuestas y son capaces de brindar asistencia técnica en clase.
+  Pueden ayudar a los estudiantes con la configuración e instalación,
+  responder preguntas técnicas durante los ejercicios,
+  supervisar la sala para detectar personas que puedan necesitar ayuda
+  o poner atención a las notas compartidas. (\secref{s:classroom-notetaking}),
+  y responder preguntas
+  o recuerdar al educador que lo haga durante los descansos.
 
-  Helpers are sometimes people training to become teachers
-  (i.e.\ they're Teacher B in the teach and assist model),
-  but they can also be members of the host institution's technical support staff,
-  alumni of the class,
-  or advanced learners who already know the material well.
-  Using the latter as helpers is doubly effective:
-  not only are they more likely to understand the problems their peers are having,
-  it also stops them from getting bored.
-  This helps the whole class stay engaged because boredom is infectious:
-  if a handful of people start checking out,
-  the people around them will follow suit.
+  Los ayudantes a veces son personas que se están capacitando para convertirse en educadores
+  (es decir, son el educador B en el modelo de enseñar y apoyar),
+  pero también pueden ser miembros del personal de apoyo técnico de la institución anfitriona,
+  exestudiantes de la clase
+  o estudiantes avanzados que ya conocen el material bien.
+  Usar a estos últimos como ayudantes es doblemente efectivo: no solo es más probable que comprendan los problemas que tienen sus compañeros,
+  sino que también evita que se aburran.
+  Esto ayuda a que toda la clase se mantenga comprometida porque el aburrimiento es contagioso:
+  si un puñado de personas comienza a pagar,
+  las personas que los rodean seguirán su ejemplo.
 \end{aside}
 
-If you and a partner are co-teaching:
+Si tu y un compañero están co-enseñando:
 
 \begin{itemize}
 
 \item
-  Take 2--3 minutes before the start of each class
-  to confirm who's teaching what.
-  If you have time,
-  try drawing or reviewing a concept map together.
+  Toma de 2 a 3 minutos antes del comienzo de cada clase
+  para confirmar quién está enseñando qué.
+  Si tienen tiempo,
+  intenten dibujar o revisar juntos un mapa conceptual.
 
 \item
-  Use that time to work out a couple of hand signals as well.
-  ``You're going too fast,''
-  ``speak up,''
-  ``that learner needs help,''
-  and, ``It's time for a bathroom break'' are all useful.
+  Usa ese tiempo para hacer también un par de señales con las manos.
+  `` Vas demasiado rápido '',
+  `` habla '',
+  `` ese estudiante necesita ayuda ''
+  y `` es hora de ir al baño '' son todos útiles.
 
 \item
-  Each person should teach for at least 10--15 minutes at a stretch,
-  since learners will be distracted by more frequent switch-ups.
+  Cada persona debe enseñar durante al menos 10 a 15 minutos seguidos,
+  ya que los estudiantes se distraerán con cambios más frecuentes.
 
 \item
-  The person who isn't teaching shouldn't interrupt,
-  offer corrections or elaborations,
-  or do anything else to distract from what the person teaching is doing or saying.
-  The one exception is to ask leading questions
-  if the learners seem lethargic or unsure of themselves.
+  La persona que no está enseñando no debe interrumpir,
+  ofrecer correcciones o elaboraciones,
+  o hacer cualquier otra cosa que distrae de lo que está haciendo o diciendo la persona que enseña.
+  La única excepción es hacer preguntas guía
+  si los estudiantes parecen pasivos o inseguros de sí mismos.
+ 
+\item
+  Cada persona debería tomar un par de minutos antes de empezar a enseñar
+  para ver lo que su compañero va a enseñar después de acabar,
+  y luego \emph{no} presentar nada de ese material.
 
 \item
-  Each person should take a couple of minutes before they start teaching
-  to see what their partner is going to teach after they're done,
-  and then \emph{not} present any of that material.
-
-\item
-  The person who isn't teaching should stay engaged with the class,
-  not catch up on their email.
-  Monitoring the shared notes (\secref{s:classroom-notetaking}),
-  keeping an eye on the learners to see who's struggling,
-  jotting down some feedback to give your teaching partner at the next break---anything
-  that contributes to the lesson is better than anything that doesn't.
-
+  La persona que no está enseñando debe mantenerse comprometida con la clase,
+  no ponerse al día con su correo electrónico.
+  Supervisar las notas compartidas (\secref{s:classroom-notetaking}),
+  vigilar a los estudiantes para ver quién tiene dificultades,
+  anotar algunos comentarios para dárselos a su compañero de enseñanza en el próximo receso---cualquier
+  cosa que contribuya a la lección es mejor que cualquier cosa que no lo haga.
+ 
 \end{itemize}
 
-Most importantly,
-take a few minutes when the class is over to congratulate or commiserate with each other:
-in teaching as in life,
-shared misery is lessened and shared joy increased.
+Lo más importante es que,
+cuando termine la clase, tomen unos minutos para felicitarse o compadecerse unos de otros:
+tanto en la enseñanza como en la vida,
+la miseria compartida disminuye y la alegría compartida aumenta.
 
-\seclbl{Assess Prior Knowledge}{s:classroom-prior}
+\seclbl{Evaluar conocimientos previos}{s:classroom-prior}
 
-The more you know about your learners before you start teaching,
-the more you will be able to help them.
-Inside a formal school system,
-the prerequisites to your course will tell you something about
-what they're likely to already know.
-In a free-range setting,
-though,
-your learners may be much more diverse,
-so you may want to give them a short survey or questionnaire in advance of your class
-to find out what knowledge and skills they have.
+Cuanto más sepas sobre tus estudiantes antes de comenzar a enseñar,
+más podrás ayudarles.
+Dentro de un sistema escolar formal,
+los pre-requisitos de tu curso te dirán algo sobre
+lo que probablemente ya sepan.
+Sin embargo,
+en un entorno de campo libre,
+tus estudiantes pueden ser mucho más diversos,
+por lo que es posible que quieras darles una breve encuesta o cuestionario antes de tu clase
+para averiguar qué conocimientos y habilidades tienen.
 
-Asking people to rate themselves on a scale from 1 to 5 is pointless
-because the less people know about a subject,\index{self-assessment (perils of)}
-the less accurately they can estimate their knowledge
+Pedir a las personas que se califiquen a sí mismas en una escala del 1 al 5 no tiene sentido
+porque cuanto menos saben las personas sobre un tema, \index{self-assessment (perils of)}
+con menor precisión pueden estimar sus conocimientos
 (\figref{f:classroom-dunning-kruger},
-from \hreffoot{Neurologica}{https://theness.com/neurologicablog/index.php/misunderstanding-dunning-kruger/}),
-a phenomenon called the \gref{g:dunning-kruger-effect}{Dunning-Kruger effect}~\cite{Krug1999}.
-Conversely,
-people who are members of underrepresented groups will often underrate their skills.
+de \hreffoot{Neurologica}{https://theness.com/neurologicablog/index.php/misunderstanding-dunning-kruger/}),
+un fenómeno llamado  \gref{g:dunning-kruger-effect}{Dunning-Kruger effect}~\cite{Krug1999}.
+Por el contrario,
+las personas que son miembros de grupos subrepresentados a menudo subestiman sus habilidades.
 
 \figimg{figures/dunning-kruger.png}{The Dunning-Kruger Effect}{f:classroom-dunning-kruger}
 
-Rather than asking people to self-assess,
-you can ask them how easily they could complete some specific tasks.
-Doing this is risky,
-though,
-because school trains people
-to treat anything that looks like an exam as something they have to pass
-rather than as a chance to shape instruction.
-If someone answers ``I don't know'' to even a couple of questions on your pre-assessment,
-they might conclude that your class is too advanced for them.
-You could therefore scare off many of the people you most want to help.
+En lugar de pedirles a las personas que se autoevalúen,
+puedes preguntarles con qué facilidad podrían completar algunas tareas específicas.
+Sin embargo,
+hacer esto es arriesgado
+porque la escuela entrena a las personas
+para que traten cualquier cosa que parezca un examen como algo que tienen que aprobar
+en lugar de una oportunidad para dar forma a la instrucción.
+Si alguien responde ``No sé'' incluso a un par de preguntas en su pre-evaluación,
+podría concluir que tu clase es demasiado avanzada para ellos.
+Por lo tanto, podrías asustar a muchas de las personas que más deseas ayudar.
 
-\secref{s:checklists-preassess} presents a short pre-assessment questionnaire
-that most potential learners are unlikely to find intimidating.
-If you use it or anything like it,
-try to follow up with people who \emph{don't} respond to find out why not
-and compare your evaluation of learners with their self-assessment
-to improve your questions.
+\secref{s:checklists-preassess} presenta un breve cuestionario de preevaluación
+que es poco probable que la mayoría de los potenciales estudiantes encuentren intimidante.
+Si lo usas o algo parecido,
+trata de hacer un seguimiento con las personas que \emph{no} responden para averiguar por qué no
+y compara tu evaluación de tus estudiantes con su autoevaluación
+para mejorar tus preguntas.
 
 \seclbl{Plan for Mixed Abilities}{s:classroom-mixed}
 \index{mixed abilities (accommodating)}
 
-If your learners have widely varying levels of prior knowledge,
-you can easily wind up in a situation where a third of your class is lost
-and a third is bored.
-That's unsatisfying for everyone,
-but there are some strategies you can use to manage the situation:
+Si tus estudiantes tienen niveles muy diversos de conocimientos previos,
+puedes terminar fácilmente en una situación en la que un tercio de tu clase se pierde
+y un tercio se aburre.
+Eso es poco satisfactorio para todos,
+pero hay algunas estrategias que puedes utilizar para manejar la situación:
 
 \begin{itemize}
 
 \item
-  Before running a workshop,
-  communicate its level clearly to everyone
-  by showing a few examples of exercises that they will be asked to complete.
-  This helps potential participants gauge the level of the class
-  far more effectively than a point-form list of topics.
+  Antes de realizar un taller,
+  comunica claramente su nivel a todos mostrando algunos ejemplos de ejercicios que se les pedirá que completen.
+  Esto ayuda a los potenciales participantes a medir el nivel de la clase
+  de manera mucho más efectiva que una lista de temas en forma de puntos.
+ 
+\item
+  Proporciona ejercicios adicionales a su propio ritmo
+  para que los estudiantes más avanzados no terminen temprano y se aburran.
 
 \item
-  Provide extra self-paced exercises
-  so that more advanced learners don't finish early and get bored.
+  Pon atención a los estudiantes que se están quedando atrás
+  e actúa temprano para que no se frustren ni se den por vencidos.
 
 \item
-  Keep an eye out for learners who are falling behind
-  and intervene early so that they don't become frustrated and give up.
-
-\item
-  Ask more advanced learners to help people next to them
-  (see \secref{s:classroom-pair} below).
+  Pide a tus estudiantes más avanzados ayudar a las personas que están a su lado
+  (vea \secref{s:classroom-pair} debajo).
 
 \end{itemize}
 
-One other way to accommodate mixed abilities is
-to have everyone work through material on their own at their own pace
-as they would in an online course,
-but to do it simultaneously and side by side
-with helpers roaming the room to get people unstuck.
-Some people will go three or four times further than others when workshops are run like this,
-but everyone will have had a rewarding and challenging day.
+Otra forma de adaptarse a las habilidades mixtas es
+hacer que todos trabajen en el material por su cuenta a su propio ritmo,
+como lo harían en un curso en línea,
+pero hacerlo simultáneamente y lado a lado
+con los ayudantes que deambulan por la sala para despejar a las personas.
+Algunas personas llegarán tres o cuatro veces más lejos que otras cuando los talleres se realicen de esta manera,
+pero todos habrán tenido un día gratificante y desafiante.
 
-\begin{aside}{False Beginners}
-  A \gref{g:false-beginner}{false beginner} is someone
-  who has studied a language before but is learning it again.
-  They may be indistinguishable from \grefdex{g:absolute-beginner}{absolute beginners}{absolute beginner}
-  on pre-assessment tests,
-  but they are able to move much more quickly once the class starts
-  because they are re-learning rather than learning for the first time.
-
-  Being a false beginner is often a sign of \gref{g:preparatory-privilege}{preparatory privilege}~\cite{Marg2010},
-  and false beginners are common in free-range programming classes.
-  For example,
-  a child whose family is affluent enough to have sent them to a robotics summer camp
-  may do poorly on a pre-test of programming knowledge
-  because the material isn't fresh in their mind,
-  but still has an advantage over a child from a less fortunate background.
-  The strategies described above can help level the playing field in cases like this,
-  but again,
-  the real solution is to use your own privilege
-  to address larger out-of-class factors~\cite{Part2011}.
+\begin{aside}{Falsos principiantes}
+  Un \gref{g:falso-principiante}{false beginner} es alguien
+  que ha estudiado un lenguaje antes pero está aprendiéndolo de nuevo.
+  Pueden ser indistinguibles de \grefdex{g:absolute-beginner}{principiantes absolutos}{absolute beginner}
+  en las pruebas de pre-evaluación,
+  pero pueden moverse mucho más rápido una vez que comienza la clase
+  porque están volviendo a aprender en lugar de aprender por primera vez.
+ 
+  Ser un falso principiante es a menudo una señal de \gref{g:preparatory-privilege}{privilegio preparatorio}~\cite{Marg2010},
+  y los falsos principiantes son comunes en las clases de programación de rango abierto.
+  Por ejemplo,
+  un niño cuya familia es lo suficientemente acomodada como para haberlos enviado a un campamento de verano de robótica
+  puede tener un desempeño pobre en una pre-evaluación de conocimientos de programación
+  porque el material no está fresco en su mente,
+  pero aún tiene una ventaja sobre un niño de un trasfondo menos afortunado.
+  Las estrategias descritas anteriormente pueden ayudar a nivelar el campo de juego en casos como este,
+  pero nuevamente, la solución real es usar tu propio privilegio
+  para abordar factores fuera de clase más importantes~\cite{Part2011}.
 \end{aside}
 
-The most important thing is to accept that
-you can't help everyone all of the time.
-If you slow down to accommodate two people who are struggling,
-you are failing the other eighteen.
-Equally,
-if you spend a few minutes talking about an advanced topic to a learner who is bored,
-the rest of the class will feel left out.
+Lo más importante es aceptar que
+no puedes ayudar a todos todo el tiempo.
+Si reduces la velocidad para acomodar a dos personas que les está costando,
+estás fallando a las otras dieciocho.
+Del mismo modo,
+si dedicas unos minutos a hablar sobre un tema avanzado con un estudiante que está aburrido,
+el resto de la clase se sentirá excluida.
 
 \seclbl{Pair Programming}{s:classroom-pair}
 
-\grefdex{g:pair-programming}{Pair programming}{pair programming} is a software development practice
-in which \hreffoot{https://www.youtube.com/watch?v=vgkahOzFH2Q}{two programmers work together on one computer}.
-One person (the driver) does the typing
-while the other (the navigator) offers comments and suggestions,
-and the two switch roles several times per hour.
+\grefdex{g:pair-programming}{Pair programming}{pair programming} es una practica del desarrollo de software
+en la que \hreffoot{https://www.youtube.com/watch?v=vgkahOzFH2Q}{dos programadores trabajan juntos en una computadora}.
+Una persona (el conductor) escribe
+mientras que la otra (el navegador) ofrece comentarios y sugerencias,
+y los dos cambian de función varias veces por hora.
 
-Pair programming is an effective practice in professional work~\cite{Hann2009}
-and is also a good way to teach:
-benefits include increased success rate in introductory courses,
-better software,
-and higher learner confidence in their solutions.
-There is also evidence that learners from underrepresented groups
-benefit even more than others~\cite{McDo2006,Hank2011,Port2013,Cele2018}.
-Partners can help each other out during practical exercises,
-clarify each other's misconceptions when the solution is presented,
-and discuss common interests during breaks.
-I have found it particularly helpful with mixed-ability classes,
-since pairs are more homogeneous than individuals.
+El Pair programming es una práctica eficaz en el trabajo profesional~\cite{Hann2009}
+y también es una buena forma de enseñar:
+los beneficios incluyen una mayor tasa de éxito en los cursos introductorios,
+un mejor software
+y una mayor confianza de los estudiantes en sus soluciones.
+También hay evidencia de que estudiantes de grupos subrepresentados
+se benefician incluso más que otros~\cite{McDo2006,Hank2011,Port2013,Cele2018}.
+Los compañeros pueden ayudarse mutuamente durante los ejercicios prácticos,
+aclarar los conceptos erróneos de los demás cuando se presenta la solución
+y discutir intereses comunes durante los descansos.
+Lo he encontrado particularmente útil con las clases de habilidades mixtas,
+ya que las parejas son más homogéneas que los individuos.
 
-When you use pairing,
-put \emph{everyone} in pairs,
-not just learners who are struggling,
-so that no one feels singled out.
-It's also useful to have people sit in new places
-(and hence pair with different partners)
-on a regular basis,
-and to have people switch roles within each pair three or four times per hour
-so that the stronger personality in each pair doesn't dominate the session.
+Cuando utilices el pair programming,
+coloca a \emph{todos} en parejas,
+no solo a los estudiantes que tienen dificultades,
+para que nadie se sienta seleccionado.
+También es útil que las personas se sienten en lugares nuevos
+(y, por lo tanto, se emparejen con diferentes compañeros)
+de forma regular,
+y que las personas cambien de rol dentro de cada pareja tres o cuatro veces por hora
+para que la personalidad más fuerte de cada pareja no domine la sesión.
 
-If your learners are new to pair programming,
-take a few minutes to demonstrate what it actually looks like
-so that they understand that
-the person who doesn't have their hands on the keyboard
-isn't supposed to just sit and watch.
-Finally,
-tell them that people who focus on trying to complete the task as quickly as possible
-are less fair in their sharing~\cite{Lewi2015}.
+Si tus estudiantes son nuevos en el pair programming,
+toma unos minutos para demostrar cómo se ve realmente
+para que comprendan que
+la persona que no tiene las manos en el teclado
+no debe sentarse y mirar.
+Finalmente,
+díles que las personas que se enfocan en tratar de completar la tarea lo más rápido posible
+son menos justas al compartir~\cite{Lewi2015}.
 
-\begin{aside}{Switching Partners}
-  Teachers have mixed opinions on whether people should be required to change partners at regular intervals.
-  On the one hand it gives everyone a chance to gain new insights and make new friends.
-  On the other,
-  moving computers and power adapters to new desks several times a day is disruptive,
-  and pairing can be uncomfortable for introverts.
-  That said,
-  \cite{Hann2010} found weak correlation between the ``Big Five'' personality traits
-  and performance in pair programming,
-  although an earlier study~\cite{Wall2009} found that
-  pairs whose members had differing levels of personality traits communicated more often.
+\begin{aside}{Cambio de parejas}
+  Los educadores tienen opiniones encontradas sobre si se debería exigir a las personas que cambien de pareja a intervalos regulares.
+  Por un lado, les da a todos la oportunidad de obtener nuevos conocimientos y hacer nuevos amigos.
+  Por otro lado,
+  trasladar las computadoras y los adaptadores de corriente a escritorios nuevos varias veces al día es desgastante
+  y la combinación puede resultar incómoda para los introvertidos.
+  Dicho esto,
+  \cite{Hann2010} encontró una correlación débil entre los rasgos de personalidad de los ``Cinco Grandes''
+  y el rendimiento en la programación de parejas,
+  aunque un estudio anterior~\cite{Wall2009} encontró que
+  las parejas cuyos miembros tenían diferentes niveles de rasgos de personalidad se comunicaban con más frecuencia.
 \end{aside}
 
 \seclbl{Take Notes{\ldots}Together?}{s:classroom-notetaking}
 \index{note-taking}
 
-Note-taking is a form of real-time elaboration (\secref{s:individual-strategies}):
-it forces you to organize and reflect on material as it's coming in,
-which in turn increases the likelihood that you will transfer it to long-term memory.
-Many studies have shown that
-taking notes while learning improves retention~\cite{Aike1975,Boha2011}.
-While it has not yet been widely studied~\cite{Ornd2015,Yang2015},
-I have found that having learners take notes together in a shared online page is also effective:
+La toma de notas es una forma de elaboración en tiempo real (\secref{s:individual-strategies}):
+te obliga a organizar y reflexionar sobre el material a medida que ingresa,
+lo que a su vez aumenta la probabilidad de que lo transfieras a la memoria a largo plazo.
+Muchos estudios han demostrado que
+tomar notas mientras se aprende mejora la retención~\cite{Aike1975,Boha2011}.
+Si bien aún no se ha estudiado ampliamente~\cite{Ornd2015,Yang2015},
+He descubierto que hacer que los estudiantes tomen notas juntos en una página en línea compartida también es eficaz:
 
 \begin{itemize}
 
 \item
-  It allows people to compare what they think they're hearing
-  with what other people are hearing,
-  which helps them fill in gaps and correct misconceptions right away.
+  Permite a las personas comparar lo que creen que están escuchando
+  con lo que otras personas están escuchando,
+  lo que les ayuda a llenar los vacíos y corregir conceptos erróneos de inmediato.
+ 
+\item
+  Les da a los estudiantes más avanzados de la clase algo útil que hacer.
+  En lugar de aburrirse y revisar Instagram durante la clase,
+  pueden tomar la iniciativa para registrar lo que se dice,
+  lo que los mantiene comprometidos
+  y permite que los estudiantes menos avanzados concentren más su atención en el nuevo material.
+ 
+\item
+  Las notas que toman los estudiantes suelen ser más útiles para \emph{ellos}
+  que las que el educador prepararía de antemano,
+  ya que es más probable que los estudiantes escriban lo que realmente encontraron nuevo
+  en lugar de lo que el educador predijo que sería nuevo.
 
 \item
-  It gives the more advanced learners in the class something useful to do.
-  Rather than getting bored and checking Instagram during class,
-  they can take the lead in recording what's being said,
-  which keeps them engaged
-  and allows less advanced learners to focus more of their attention on new material.
-
-\item
-  The notes the learners take are usually more helpful \emph{to them}
-  than those the teacher would prepare in advance,
-  since the learners are more likely to write down what they actually found new
-  rather than what the teacher predicted would be new.
-
-\item
-  Glancing at recent notes while learners are working on an exercise
-  helps the teacher discover that the class missed or misunderstood something.
-
+  Mirar notas recientes mientras los estudiantes están trabajando en un ejercicio
+  ayuda al educador a descubrir que la clase se perdió o entendió algo mal.
+ 
 \end{itemize}
 
-\begin{aside}{Is the Pen Mightier than the Keyboard?}
-  \cite{Muel2014} reported that taking notes on a computer
-  is generally less effective than taking notes using pen and paper.
-  While their result was widely shared,
-  \cite{More2019} was unable to replicate it.
+\begin{aside}{¿Es el lápiz más poderoso que el teclado?}
+  \cite{Muel2014} informó que tomar notas en una computadora
+  es generalmente menos efectivo que tomar notas con lápiz y papel.
+  Si bien su resultado fue ampliamente compartido,
+  \cite{More2019} no pudo replicarlo.
 \end{aside}
 
-If learners are taking notes together,
-you can also have them paste in short snippets of code
-and point-form or sentence-length answers to formative assessment questions.
-To prevent everyone from trying to edit the same couple of lines at the same time,
-make a list of everyone's name and paste it into the document
-whenever you want each person to answer a question.
+Si los estudiantes toman notas juntos,
+también puedes hacer que peguen fragmentos cortos de código
+y respuestas en forma de puntos o de oraciones a las preguntas de evaluación formativa.
+Para evitar que todos intenten editar el mismo par de líneas al mismo tiempo,
+haz una lista con el nombre de todos y pégala en el documento
+siempre que quieras que cada persona responda una pregunta.
 
-Learners often find that taking notes together is distracting
-the first time they try it
-because they have to split their attention between
-what the teacher is saying
-and what their peers are writing (\secref{s:architecture-brain}).
-If you are only working with a particular group once,
-you should therefore heed the advice in \secref{s:classroom-innovate}
-and have them take notes individually.
+Los estudiantes a menudo descubren que tomar notas juntos les distrae
+la primera vez que lo intentan porque tienen que dividir su atención entre
+lo que dice el educador
+y lo que escriben sus compañeros (\secref{s:architecture-brain}).
+Si estás trabajando con un grupo en particular solo una vez,
+debes prestar atención a los consejos en \secref{s:classroom-innovate}
+y pedirles que tomen notas individualmente.
 
-\begin{aside}{Points for Improvement}
-  One way to demonstrate to learners that they are learning \emph{with} you,
-  not just \emph{from} you,
-  is to allow them to take notes by editing (a copy of) your lesson.
-  Instead of posting PDFs for them to download,
-  create editable copies of your slides, notes, and exercises
-  in a wiki,
-  a Google Doc,
-  or anything else that allows you to review and comment on changes.
-  Giving people credit for fixing mistakes,
-  clarifying explanations,
-  adding new examples,
-  and writing new exercises doesn't reduce your workload,
-  but increases engagement and the lesson's lifetime
+\begin{aside}{Puntos para Mejorar}
+  Una forma de demostrarles a los estudiantes que están aprendiendo \emph{con}tigo,
+  no solo \emph{de} ti,
+  es permitirles que tomen notas editando (una copia de) su lección.
+  En lugar de publicar archivos PDF para que los descarguen,
+  crea copias editables de tus diapositivas, notas y ejercicios
+  en una wiki,
+  un documento de Google
+  o cualquier otra cosa que te permita revisar y comentar los cambios.
+  Dale crédito a las personas por corregir errores,
+  aclarar explicaciones,
+  agregar nuevos ejemplos
+  y escribir nuevos ejercicios no reduce tu carga de trabajo,
+  pero aumenta el compromiso y la duración de la lección.
   (\secref{s:process-maintainability}).
 \end{aside}
 
-\seclbl{Sticky Notes}{s:classroom-sticky-notes}
+\seclbl{Notas adhesivas}{s:classroom-sticky-notes}
 
-Sticky notes are one of my favorite teaching tools,
-and I'm not alone in loving their versatility,
-portability, stickability, foldability,
-and subtle yet alluring aroma~\cite{Ward2015}.
+Las notas adhesivas son una de mis herramientas de enseñanza favoritas,
+y no soy el único que ama su versatilidad,
+portabilidad, adherencia, capacidad de plegado
+y aroma sutil pero atractivo~\cite{Ward2015}.
 
-\subsection*{As Status Flags}
+\subsection*{Como indicadores de estado}
 \index{sticky notes!as status flags}
 
-Give each learner two sticky notes of different colors,
-such as orange and green.
-These can be held up for voting,
-but their real use is as status flags.
-If someone has completed an exercise and wants it checked,
-they put the green sticky note on their laptop;
-if they run into a problem and need help,
-they put up the orange one.
-This works much better than having people raise their hands:
-it's more discreet (which means they're more likely to actually do it),
-they can keep working while their flag is raised rather than trying to type one-handed,
-and the teacher can quickly see from the front of the room what state the class is in.
-Status flags are particularly helpful when people in mixed-ability classes
-are working through material at their own speed (\secref{s:classroom-mixed}).
+Dale a cada estudiante dos notas adhesivas de diferentes colores,
+como naranja y verde.
+Estos se pueden sostener para votar,
+pero su uso real es como indicadores de estado.
+Si alguien ha completado un ejercicio y quiere que lo revisen,
+coloca la nota adhesiva verde en su laptop;
+si tienen un problema y necesitan ayuda,
+colocan el naranja.
+Esto funciona mucho mejor a que la gente levante la mano:
+es más discreto (lo que significa que es más probable que lo hagan),
+pueden seguir trabajando mientras su bandera está levantada en lugar de intentar escribir con una sola mano,
+y el educador puede ver rápidamente desde el frente del salón en qué estado se encuentra la clase.
+Los indicadores de estado son particularmente útiles cuando las personas en clases con habilidades mixtas
+están trabajando en el material a su propio ritmo (\secref{s:classroom-mixed}).
 
-Once your learners are comfortable with two stickies,
-give them a third that they can put up when their brains are full
-or they need a bathroom break\footnote{A colleague once told me that
-the basic unit of teaching is the bladder.
-When I said I'd never thought of that,
-she said, ``You've obviously never been pregnant.''}.
-Again,
-adults are more likely to post a sticky than to raise their hand,
-and once one blue sticky note goes up,
-a flurry of others usually follows.
+Una vez que sus estudiantes se sientan cómodos con dos adhesivos,
+dáles un tercero que puedan usar cuando tengan el cerebro lleno
+o necesiten un descanso para ir al baño \footnote{Una colega me dijo una vez que
+la unidad básica de enseñanza es la vejiga.
+Cuando dije yo nunca había pensado en eso,
+dijo: ``Obviamente nunca has estado embarazada''}.
+Nuevamente,
+es más probable que los adultos publiquen una nota adhesiva a que levanten la mano,
+y una vez que una nota adhesiva azul es levantada,
+generalmente sigue una ráfaga de otras.
 
-\subsection*{To Distribute Attention}
+\subsection*{Para distribuir atención}
 \index{sticky notes!to distribute attention}
 
-Sticky notes can also be used to ensure the teacher's attention is fairly distributed.
-Have each learner write their name on a sticky note
-and put it on their laptop.
-Each time the teacher calls on them or answers one of their questions,
-they take their sticky note down.
-Once all the sticky notes are down,
-everyone puts theirs up again.
+También se pueden usar notas adhesivas para garantizar que la atención del educador se distribuya de manera justa.
+Haz que cada estudiante escriba su nombre en una nota adhesiva
+y que lo ponga en su computadora portátil.
+Cada vez que el maestro los llama o responde una de sus preguntas,
+ponen su nota adhesiva debajo.
+Una vez que todas las notas adhesivas están abajo,
+todos vuelven a poner las suyas arriba.
 
-This technique makes it easy for the teacher to see who they haven't spoken with recently,
-which in turn helps them avoid unconscious bias
-and interacting preferentially with their most extroverted learners.
-Without a check like this,
-it's all too easy to create a feedback loop in which extroverts get more attention,
-which leads to them doing better,
-which in turn leads to them getting more attention,
-while quieter, less confident, or marginalized learners are left behind~\cite{Alvi1999,Juss2005}.
+Esta técnica hace que sea fácil para el educador ver con quién no ha hablado recientemente,
+lo que a su vez ayuda a evitar prejuicios inconscientes
+e interactuar preferentemente con sus estudiantes más extrovertidos.
+Sin una verificación como esta,
+es muy fácil crear un ciclo de retroalimentación en el que los extrovertidos reciben más atención,
+lo que los lleva a mejorar,
+lo que a su vez los lleva a recibir más atención,
+mientras que los estudiantes más introvertidos, menos seguros o marginados quedan detrás~\cite{Alvi1999,Juss2005}.
 
-It also shows learners that attention is being distributed fairly
-so that when they \emph{are} called on,
-they won't feel like they're being picked on.
-When I am working with a new group,
-I allow people to take down their own sticky notes
-during the first hour or two of class
-if they would rather not be called on.
-If they keep doing this as time goes on,
-I try to have a quiet conversation with them to find out why
-and to see if there's anything I can do to make them more comfortable.
+También muestra a tus estudiantes que la atención se distribuye de manera justa,
+de modo que cuando se les llame,
+no se sientan molestados.
+Cuando trabajo con un grupo nuevo,
+permito que las personas tomen sus propias notas adhesivas
+durante la primera o la segunda hora de clase
+si prefieren que no los llamen.
+Si continúan haciendo esto a medida que pasa el tiempo,
+trato de tener una conversación tranquila con ellos para averiguar por qué
+y para ver si hay algo que pueda hacer para que se sientan más cómodos.
 
-\subsection*{As Minute Cards}
+\subsection*{Como tarjetas de actas}
 \index{sticky notes!as minute cards}
 
-You can also use sticky notes as \grefdex{g:minute-cards}{minute cards}{minute card}.
-Before each break,
-learners take a minute to write one thing on the green sticky note
-that they think will be useful
-and one thing on the orange note
-that they found too fast,
-too slow,
-confusing,
-or irrelevant.
-While they are enjoying their coffee or lunch,
-review their notes and look for patterns.
-It takes less than five minutes to see what learners in a 40-person class are enjoying,
-what they are confused by,
-what problems they're having,
-and what questions you have not yet answered.
+También puedes usar notas adhesivas como \grefdex{g:minute-cards}{tarjetas de actas}{minute card}.
+Antes de cada receso,
+los estudiantes se toman un minuto para escribir una cosa en la nota adhesiva verde
+que creen que será útil
+y una cosa en la nota naranja
+que encontraron demasiado rápido,
+demasiado lento,
+confuso
+o irrelevante.
+Mientras disfrutan de su café o almuerzo,
+revisa sus notas y busca patrones.
+Se necesitan menos de cinco minutos para ver qué disfrutan los estudiantes de una clase de 40 personas,
+en qué se sienten confundidos,
+qué problemas tienen
+y qué preguntas aún no has respondido.
 
-Learners should not sign their minute cards:
-they are meant as anonymous feedback.
-The one-up/one-down technique described in \secref{s:classroom-practices}
-is a chance for collective, attributable feedback.
+Los estudiantes no deben firmar sus tarjetas de actas:
+están pensadas como comentarios anónimos.
+La técnica de uno arriba/uno abajo descrita en \secref{s:classroom-practices}
+es una oportunidad para una retroalimentación colectiva.
 
-\seclbl{Never a Blank Page}{s:classroom-blank}
+\seclbl{Nunca una página en blanco}{s:classroom-blank}
 
-Programming workshops and other kinds of classes
-can be built around a set of independent exercises,
-develop a single extended example in stages,
-or use a mixed strategy.
-The two main advantages of independent exercises are that
-people who fall behind can easily re-synchronize
-and that lesson developers can add, remove, and rearrange material at will
+Los talleres de programación y otros tipos de clases
+se pueden construir en torno a un conjunto de ejercicios independientes,
+desarrollar un solo ejemplo extendido en etapas
+o utilizar una estrategia mixta.
+Las dos ventajas principales de los ejercicios independientes son que
+las personas que se retrasan pueden volver a sincronizar fácilmente
+y que los desarrolladores de lecciones pueden agregar, eliminar y reorganizar el material a voluntad
 (\secref{s:process-maintainability}).
-A single extended example,
-on the other hand,
-will show learners how the bits and pieces they're learning fit together:
-in educational parlance,
-it provides more opportunity for them to integrate their knowledge.
+Un solo ejemplo extendido,
+por otro lado,
+mostrará a los estudiantes cómo encajan las partes y piezas que están aprendiendo:
+en el lenguaje educativo,
+les brinda más oportunidades para integrar sus conocimientos.
 
-Whichever approach you take,
-novices should never start doing exercises with a blank page or screen,
-since they often find this intimidating or bewildering.
-If they have been following along as you do live coding,
-ask them to add a few more lines
-or to modify the example you have built up.
-Alternatively, if they are taking notes together,
-paste a few lines of starter code into the document
-for them to extend or modify.
+Independientemente del enfoque que adopte,
+los principiantes nunca deben comenzar a hacer ejercicios con una página o pantalla en blanco,
+ya que a menudo les resulta intimidante o desconcertante.
+Si te han seguido mientras realizas la codificación en vivo,
+pídales que agreguen algunas líneas más
+o que modifiquen el ejemplo que creaste.
+Alternativamente, si están tomando notas juntos,
+pega algunas líneas de código de inicio en el documento
+para que lo amplíen o modifiquen.
 
-Modifying existing code instead of writing new code from scratch
-doesn't just give learners structure:
-it is also closer to what they will do in real life.
-Keep in mind,
-though,
-that learners may be distracted by trying to understand all of the starter code
-rather than doing their own work.
-Java's \texttt{public static void main()}
-or a handful of \texttt{import} statements at the top of a Python program
-may make sense to you,
-but is extraneous load to them (\chapref{s:architecture}).
+Modificar el código existente en lugar de escribir código nuevo desde cero
+no solo proporciona a los estudiantes una estructura:
+también está más cerca de lo que harán en la vida real.
+Sin embargo,
+ten en cuenta que los estudiantes pueden distraerse tratando de comprender todo el código de inicio
+en lugar de hacer su propio trabajo.
+El \texttt{public static void main()} de Java
+o un puñado de sentencias \texttt{import} al inicio de un programa en Python
+podría tener sentido para ti,
+pero es carga extraña para ellas. (\chapref{s:architecture}).
 
-\seclbl{Setting Up Your Learners}{s:classroom-setup}
+\seclbl{Configuración de tus estudiantes}{s:classroom-setup}
 
-Free-range learners often want bring their own computers
-and to leave the class with those machines set up to do real work.
-Free-range teachers should therefore prepare to teach on both Windows and MacOS\footnote{``And Linux!''
-someone shouts from the back of the room.},
-even though it would be simpler to require learners to use just one.
+Los estudiantes de rangos abiertos a menudo quieren traer sus propias computadoras
+y dejar la clase con esas máquinas configuradas para hacer un trabajo real.
+Por lo tanto, los educadores de rangos abiertos deberían prepararse para enseñar tanto en Windows como en MacOS \footnote{``¡Y Linux!'', grita alguien desde el fondo del salón.},
+aunque sería más sencillo exigir a los estudiantes que utilicen solo uno.
 
-\begin{aside}{Common Denominators}
-  If your participants are using different operating systems,
-  try to avoid using features which are specific to just one
-  and point out any that you \emph{do} use.
-  For example,
-  the ``minimize window'' controls and behavior on Windows are different
-  from those on MacOS.
+\begin{aside}{Denominadores comunes}
+  Si tus participantes utilizan diferentes sistemas operativos,
+  trata de evitar el uso de funciones que sean específicas de uno solo
+  y señala las que \emph{utilices}.
+  Por ejemplo,
+  los controles y el comportamiento de ``minimizar ventana'' en Windows son diferentes
+  a los de MacOS.
 \end{aside}
 
-No matter how many platforms you have to deal with,
-put detailed setup instructions on your course website
-and email learners a couple of days before the workshop starts
-to remind them to do the setup.
-A few people will still show up without the required software because
-they ran into problems,
-couldn't find time to complete all the steps,
-or are simply the sort of person who never follows instructions in advance.
-To detect this,
-have everyone run some simple command as soon as they arrive
-and show the teachers the result,
-then get helpers and other learners
-to assist people who have run into trouble.
+No importa cuántas plataformas tengas que manejar,
+coloca instrucciones de configuración detalladas en el sitio web de su curso
+y envía un correo electrónico a los estudiantes un par de días antes de que comience el taller
+para recordarles que realicen la configuración.
+Algunas personas seguirán apareciendo sin el software requerido porque
+tuvieron problemas,
+no pudieron encontrar tiempo para completar todos los pasos
+o simplemente son el tipo de persona que nunca sigue las instrucciones por adelantado.
+Para detectar esto,
+haz que todos ejecuten un comando simple tan pronto como lleguen
+y muestren el resultado a los educadores,
+luego busque ayudantes y otros estudiantes
+para ayudar a las personas que se han encontrado con problemas.
 
-\begin{aside}{Virtual Machines}
-  Some people use tools like \hreffoot{http://docker.com}{Docker}
-  to put virtual machines on learners' computers\index{virtual machines}
-  so that everyone is working with exactly the same tools,
-  but this introduces a new set of problems.
-  Older or smaller machines simply aren't fast enough to run them,
-  learners struggle to switch back and forth
-  between two different sets of keyboard shortcuts for things like copying and pasting,
-  and even competent practitioners will become confused about what exactly is happening where.
+\begin{aside}{Máquinas Virtuales}
+  Algunas personas usan herramientas como \hreffoot{http://docker.com}{Docker}
+  para poner máquinas virtuales en las computadoras de sus estudiantes\index{virtual machines}
+  para que todos trabajen exactamente con las mismas herramientas,
+  pero esto presenta un nuevo conjunto de problemas.
+  Las máquinas más antiguas o más pequeñas simplemente no son lo suficientemente rápidas para ejecutarlas,
+  los estudiantes luchan por alternar
+  entre dos conjuntos diferentes de atajos de teclado para cosas como copiar y pegar,
+  e incluso los profesionales competentes se confundirán sobre qué está sucediendo exactamente y dónde.
 \end{aside}
 
-Setting up is so complicated that
-many teachers prefer to have learners use browser-based tools instead.
-However,
-this makes the class dependent on institutional WiFi\index{institutional WiFi (perils of)}
-(which can be of highly variable quality)
-and doesn't satisfy learners' desire to leave with their own machines ready for real-world use.
-As cloud-based tools like \hreffoot{https://glitch.com/}{Glitch}
-and \hreffoot{http://rstudio.cloud}{RStudio Cloud} become more robust,
-though,
-the latter consideration is becoming less important.
+La configuración es tan complicada que
+muchos educadores prefieren que los estudiantes usen herramientas basadas en navegador.
+Sin embargo,
+esto hace que la clase dependa del WiFi\index{institutional WiFi (perils of)}
+(que puede ser de calidad muy variable)
+y no satisface el deseo de los estudiantes de irse con sus propias máquinas listas para su uso en el mundo real.
+Mientras herramientas basadas en la nube como \hreffoot{https://glitch.com/}{Glitch}
+y \hreffoot{http://rstudio.cloud}{RStudio Cloud} se vuelven más robustas,
+esta última consideración se está volviendo menos importante.
 
-One last way to tackle setup issues is to split the class over several days,
-and to have people install what's required for each day
-before leaving class on the day before.
-Dividing the work into chunks makes each one less intimidating,
-learners are more likely to actually do it,
-and it ensures that you can start on time for every lesson except the first.
+Una última forma de abordar los problemas de configuración es dividir la clase en varios días
+y hacer que las personas instalen lo que se requiere para cada día
+antes de dejar la clase el día anterior.
+Dividir el trabajo en partes hace que cada una sea menos intimidante,
+es más probable que los estudiantes realmente lo hagan
+y garantiza que puedas comenzar a tiempo para cada lección, excepto la primera.
 
-\seclbl{Other Teaching Practices}{s:classroom-practices}
+\seclbl{Otras prácticas de enseñanza}{s:classroom-practices}
 
-None of the smaller practices described below are essential,
-but all will improve lesson delivery.
-As with chess and marriage,
-success in teaching is often a matter of slow, steady progress.
+Ninguna de las prácticas más pequeñas que se describen a continuación es esenciales,
+pero todas mejorarán la entrega de lecciones.
+Como ocurre con el ajedrez y el matrimonio,
+el éxito en la enseñanza suele ser una cuestión de progreso lento y constante.
 
-\subsection*{Start With Introductions}
+\subsection*{Comience con introducciones}
 
-Begin your class by introducing yourself.
-If you're an expert,
-tell them a bit about how you got to where you are;
-if you're only two steps ahead of them,
-emphasize what you and they have in common.
-Whatever you say,
-your goals are to make yourself more approachable
-and to encourage their belief that they can succeed.
+Comienza tu clase presentándote.
+Si eres un experto,
+cuéntales un poco cómo llegaste a donde estás;
+si solo estás dos pasos por delante de ellos,
+enfatiza lo que usted y ellos tienen en común.
+Digas lo que digas,
+tus metas son hacerte más accesible
+y fomentar su creencia de que pueden tener éxito.
 
-Learners should also introduce themselves to each other.
-In a class of a dozen,
-they can do this verbally;
-in a larger class or if they are strangers to one another,
-I find it's better to have them each write a line or two about themselves
-in the shared notes (\secref{s:classroom-notetaking}).
+Los estudiantes también deben presentarse entre sí.
+En una clase de una docena,
+pueden hacer esto verbalmente;
+en una clase más grande o si son desconocidos entre sí,
+creo que es mejor que cada uno escriba una o dos líneas sobre sí mismos en las notas compartidas (\secref{s:classroom-notetaking}).
 
-\subsection*{Set Up Your Own Environment}
+\subsection*{Configura tu propio entorno}
 
-Setting up your environment is just as important as setting up your learners',
-but more involved.
-As well as having network access and all the software you're going to use,
-you should also have a glass of water
-or a cup of tea or coffee.
-This helps keep your throat lubricated,
-but its real purpose is to give you an excuse to pause and think for a couple of seconds
-when someone asks a hard question
-or when you lose track of what you were going to say next.
-You will probably also want some whiteboard pens
-and a few of the other things described in \secref{s:checklists-events}.
+Configurar tu entorno es tan importante como configurar el de tus estudiantes,
+pero más involucrado.
+Además de tener acceso a la red y todo el software que vas a utilizar,
+también debes tomar un vaso de agua
+o una taza de té o café.
+Esto ayuda a mantener tu garganta lubricada,
+pero su propósito real es darte una excusa para hacer una pausa y pensar durante un par de segundos
+cuando alguien te hace una pregunta difícil
+o cuando pierdes la noción de lo que ibas a decir a continuación.
+Probablemente también querrá algunos marcadores de pizarra
+y algunas de las otras cosas que se describen en \secref{s:checklists-events}.
 
 One way to keep your day-to-day work from getting in the way of your teaching
 is to create a separate account on your computer for the latter.
@@ -735,274 +728,272 @@ Use system defaults for everything in this second account,
 along with a larger font and a blank screen background,
 and turn off notifications so that your teaching isn't interrupted by pop-ups.
 
-\subsection*{Avoid Homework in All-Day Formats}
+\subsection*{Evite la tarea en formatos de todo el día}
 
-Learners who have spent an entire day programming will be tired.
-If you give them homework to do after hours,
-they'll start the next day tired as well,
-so don't.
+Los estudiantes que hayan pasado todo un día programando estarán cansados.
+Si les das tarea para hacer fuera del horario de clase,
+también empezarán cansados al día siguiente,
+así que no lo hagas.
 
-\subsection*{Don't Touch the Learner's Keyboard}
+\subsection*{No toques el teclado de tu estudiante}
 
-It's often tempting to fix things for learners,
-but even if you narrate every step,
-it's likely to demotivate them
-by emphasizing the gap between their knowledge and yours.
-Instead,
-keep your hands off the keyboard and talk your learners through whatever they need to do:
-it will take longer,
-but it's more likely to stick.
+A menudo es tentador arreglar las cosas para los estudiantes,
+pero incluso si narras cada paso,
+es probable que los desmotives
+al enfatizar la brecha entre sus conocimientos y los tuyos.
+En su lugar,
+mantenga sus manos fuera del teclado y hable con sus estudiantes sobre lo que tengan que hacer:
+llevará más tiempo,
+pero es más probable que se quede.
 
-\subsection*{Repeat the Question}
+\subsection*{Repite la Pregunta}
 
-Whenever someone asks a question in class,
-repeat it back to them before answering
-to check that you've understood it
-and to give people who might not have heard it a chance to do so.
-This is particularly important when presentations are being recorded or broadcast,
-since your microphone will usually not pick up what other people are saying.
-Repeating questions back also gives you a chance
-to redirect the question to something you're more comfortable answering{\ldots}
+Siempre que alguien haga una pregunta en clase,
+repítasela antes de responder
+para comprobar que la ha entendido
+y para que las personas que quizás no la hayan escuchado tengan la oportunidad de hacerlo.
+Esto es particularmente importante cuando se graban o transmiten presentaciones,
+ya que tu micrófono generalmente no captará lo que otras personas están diciendo. Repetir las preguntas también te da la oportunidad
+de redirigir la pregunta a algo con lo que se sienta más cómodo respondiendo{\ldots}
 
-\subsection*{One Up, One Down}
+\subsection*{Uno arriba, uno abajo}
 
-An adjunct to minute cards is to ask for summary feedback at the end of each day.
-Learners alternately give either one positive or one negative point about the day
-without repeating anything that has already been said.
-The ban on repeats forces people to say things they otherwise might not:
-once all the ``safe'' feedback has been given,
-participants will start saying what they really think.
+Un complemento de las tarjetas de actas es solicitar comentarios resumidos al final de cada día.
+Los estudiantes dan alternativamente un punto positivo o negativo sobre el día
+sin repetir nada de lo que ya se ha dicho.
+La prohibición de las repeticiones obliga a las personas a decir cosas que de otro modo no harían:
+una vez que se hayan dado todos los comentarios ``seguros'',
+los participantes comenzarán a decir lo que realmente piensan.
 
-\begin{aside}{Different Modes, Different Answers}
-  Minute cards (\secref{s:classroom-sticky-notes}) are anonymous;
-  the alternating up-and-down feedback is not.
-  You should use the two together
-  because anonymity allows both honesty and trolling.
+\begin{aside}{Diferentes modos, diferentes respuestas}
+  Las tarjetas de actas (\secref{s:classroom-sticky-notes}) son anónimas;
+  la retroalimentación alterna de arriba a abajo no lo es.
+  Debes usar los dos juntos
+  porque el anonimato permite tanto la honestidad como la ofensa.
 \end{aside}
 
-\subsection*{Have Learners Make Predictions}
+\subsection*{Haz que los estudiantes hagan predicciones}
 
-Research has shown that people learn more from demonstrations
-if they are asked to predict what's going to happen~\cite{Mill2013}.
-Doing this fits naturally into live coding:
-after adding or changing a few lines of a program,
-ask the class what is going to happen when it runs.
-If the example is even moderately complex,
-prediction can serve as a motivating question for a round of peer instruction.
+Las investigaciones han demostrado que las personas aprenden más de las demostraciones
+si se les pide que predigan lo que sucederá~\cite{Mill2013}.
+Hacer esto encaja naturalmente en la codificación en vivo:
+después de agregar o cambiar algunas líneas de un programa,
+pregunta a la clase qué sucederá cuando se ejecute.
+Si el ejemplo es incluso moderadamente complejo,
+la predicción puede servir como una pregunta motivadora para una ronda de instrucción entre pares.
 
-\subsection*{Setting Up Tables}
+\subsection*{Configuración de Mesas}
 
-You may not have any control over the layout of the desks or tables
-in the room in which you teach,
-but if you do,
-we find it's best to have flat (dinner-style) seating
-rather than banked (theater-style) seating
-so that you can reach learners who need help more easily
-and so that it's easier for learners to pair with one another (\secref{s:classroom-mixed}).
-In-floor power outlets so that you don't have to run power cords across the floor
-make life easier as well as safer,
-but are still uncommon.
+Es posible que no tengas ningún control sobre la distribución de los escritorios o mesas
+en la sala en la que enseñas,
+pero si lo tienes,
+creemos que es mejor tener asientos planos (estilo cena)
+en lugar de asientos bancarios (estilo teatro),
+así puedes llegar a los estudiantes que necesitan ayuda más fácilmente
+y que sea más fácil para los estudiantes emparejarse entre sí (\secref{s:classroom-mixed}).
+Las tomas de corriente en el piso para que no tengas que pasar cables de alimentación por el piso
+hacen la vida más fácil y segura,
+pero siguen siendo poco comunes.
 
-Whatever layout you have,
-try to make sure that every seat has an unobstructed view of the screen.
-Good back support is important too,
-since people are going to be in them for an extended period.
-Like in-floor power outlets,
-good classroom seating is still unfortunately uncommon.
+Independientemente del diseño que tengas,
+trata de asegurarte de que cada asiento tenga una vista sin obstáculos de la pantalla.
+Un buen soporte para la espalda también es importante,
+ya que las personas estarán en ellos durante un período prolongado.
+Al igual que los tomacorrientes en el piso,
+los buenos asientos en el salón de clases aún son infrecuentes.
 
-\subsection*{Cough Drops}
+\subsection*{Pastillas para la tos}
 
-If you talk all day to a room full of people,
-your throat gets raw because you are irritating the epithelial cells in your larynx and pharynx.
-This doesn't just make you hoarse---it also makes you more vulnerable to infection
-(which is part of the reason people often come down with colds after teaching).
+Si hablas todo el día en una habitación llena de gente,
+se te irrita la garganta porque está irritando las células epiteliales de la laringe y la faringe.
+Esto no solo te vuelve ronco, sino que también te hace más vulnerable a las infecciones
+(que es parte de la razón por la que las personas a menudo se resfrían después de enseñar).
 
-The best way to protect yourself against this is to keep your throat lined,
-and the best way to do that is to use cough drops early and often.
-Good ones will also mask the onset of coffee breath,
-for which your learners will probably be grateful.
+La mejor manera de protegerse contra esto es mantener la garganta alineada,
+y la mejor manera de hacerlo es usar pastillas para la tos temprano y con frecuencia.
+Los buenos también enmascararán la aparición del aliento a café,
+por lo que tus estudiantes probablemente estarán agradecidos.
 
-\subsection*{Think-Pair-Share}
+\subsection*{Piensa, empareja, comparte}
 
-\grefdex{g:think-pair-share}{Think-pair-share}{think-pair-share} is a lightweight technique
-that helps people improve ideas
-through discussion with their peers.
-Each person starts by thinking individually about a question or problem
-and jotting down a few notes.
-They then explain their ideas to each another in pairs,
-merging them or selecting the most promising.
-Finally,
-a few pairs present their ideas to the whole group.
-
-Think-pair-share works because it forces people to externalize their cognition
+\grefdex{g:think-pair-share}{Piensa, empareja, comparte}{think-pair-share} es una técnica ligera
+que ayuda a las personas a mejorar sus ideas
+mediante la discusión con sus compañeros.
+Cada persona comienza pensando individualmente sobre una pregunta o problema
+y anotando algunas notas.
+Luego, se explican sus ideas por parejas,
+fusionándolas o seleccionando las más prometedoras.
+Finalmente,
+algunas parejas presentan sus ideas a todo el grupo.
+Piensa, empareja, comparte funciona porque obliga a las personas a exteriorizar su cognición
 (\secref{s:memory-concept-maps}).
-It also gives them a chance to spot and resolve gaps or contradictions in their ideas
-\emph{before} exposing them to a larger group,
-which can make less extroverted learners a little less nervous
-about appearing foolish.
+También les da la oportunidad de detectar y resolver brechas o contradicciones en sus ideas
+\emph{antes} de exponerlas a un grupo más grande,
+lo que puede hacer que tus estudiantes menos extrovertidos estén un poco menos nerviosos
+por parecer tontos.
 
-\subsection*{Morning, Noon, and Night}
+\subsection*{Mañana, mediodía y noche}
 
-\cite{Smar2018} found that
-learners do less well
-if their classes and other work are scheduled at times that don't line up with their natural body clocks,
-i.e.\ that if a morning person takes night classes or vice versa,
-their grades suffer.
-It's usually not possible to accommodate this in small groups,
-but larger ones should try to stagger start times for parallel sessions.
-This can also help people juggling childcare responsibilities and other constraints,
-and reduce the length of lineups at coffee breaks and for washrooms.
+\cite{Smar2018} descubrió que
+a los estudiantes les va peor
+si sus clases y otros trabajos se programan en horarios que no coinciden con sus relojes corporales naturales,
+es decir, que si una persona matutina toma clases nocturnas o viceversa,
+sus calificaciones se ven afectadas.
+Por lo general, no es posible acomodar esto en grupos pequeños,
+pero los más grandes deben intentar escalonar las horas de inicio de las sesiones paralelas.
+Esto también puede ayudar a las personas a hacer malabarismos con las responsabilidades del cuidado de los niños y otras limitaciones,
+y reducir la duración de las filas en las pausas para el café y en los baños.
 
 \subsection*{Humor}
 
-Humor should be used sparingly when teaching:
-most jokes are less funny when written down
-and become even less funny with each re-reading.
-Being spontaneously funny while teaching usually works better
-but can easily go wrong:
-what's a joke to your circle of friends
-may turn out to be a serious political issue to your audience.
-If you do make jokes when teaching,
-don't make them at the expense of any group,
-or of any individual except possibly yourself.
+El humor debe usarse con moderación al enseñar:
+la mayoría de los chistes son menos divertidos cuando se escriben
+y se vuelven aún menos divertidos con cada relectura.
+Ser espontáneamente divertido mientras enseñas generalmente funciona mejor,
+pero puede salir mal fácilmente:
+lo que es una broma para tu círculo de amigos
+puede convertirse en un problema político serio para tu audiencia.
+Si haces bromas cuando enseñas,
+no las hagas a expensas de ningún grupo
+o de ningún individuo excepto posiblemente de ti mismo.
 
-\seclbl{Limit Innovation}{s:classroom-innovate}
+\seclbl{Limita la innovación}{s:classroom-innovate}
 
-Each of the techniques presented in this chapter will make your classes better,
-but you shouldn't try to adopt them all at once.
-The reason is that every new practice increases \emph{your} cognitive load as well as your learners',
-since you are all now trying to learn a new way to learn
-as well as the lesson's subject matter.
-If you are working with a group repeatedly,
-you can introduce one new technique every few lessons;
-if you only have them for a one-day workshop,
-it's best to pick just one method they haven't seen before
-and get them comfortable with that.
+Cada una de las técnicas presentadas en este capítulo mejorará tus clases,
+pero no debes intentar adoptarlas todas a la vez.
+La razón es que cada nueva práctica aumenta \emph{tu} carga cognitiva, así como la de tus estudiantes,
+ya que ahora todos están tratando de aprender una nueva forma de aprender,
+así como el tema de la lección.
+Si trabajas con un grupo repetidamente,
+puedes introducir una técnica nueva cada pocas lecciones;
+si tú solo los tienes para un taller de un día,
+es mejor elegir solo un método que no hayan visto antes
+y que se sientan cómodos con eso.
 
-\seclbl{Exercises}{s:classroom-exercises}
+\seclbl{Ejercicios}{s:classroom-exercises}
 
-\exercise{Create a Questionnaire}{individual}{20}
+\exercise{Crea un cuestionario}{individual}{20}
 
-Using the questionnaire in \secref{s:checklists-preassess} as a template,
-create a short questionnaire you could give learners before teaching a class of your own.
-What do you most want to know about their background,
-and how can both parties be sure they agree on what level of understanding you're asking about?
+Utiliza el cuestionario de \secref{s:checklists-preassess} como plantilla,
+crea un breve cuestionario que puedas entregar a tus estudiantes antes de impartir una clase propia.
+¿Qué es lo que más deseas saber sobre sus antecedentes
+y cómo pueden ambas partes estar seguras de que están de acuerdo en qué nivel de comprensión está preguntando?
 
-\exercise{One of Your Own}{whole class}{15}
+\exercise{Uno de los tuyos}{Toda la clase}{15}
 
-Think of one teaching practice that hasn't been described so far.
-Present your idea to a partner,
-listen to theirs,
-and select one to present to the group as a whole.
-(This exercise is an example of think-pair-share.)
+Piensa en una práctica de enseñanza que no se haya descrito hasta ahora.
+Presenta tu idea a un compañero,
+escucha la de ellos
+y seleccione una para presentarlo al grupo en general.
+(Este ejercicio es un ejemplo de pensar-emparejar-compartir).
 
-\exercise{May I Drive?}{pairs}{10}
+\exercise{¿Puedo conducir?}{pares}{10}
 
-Swap computers with a partner
-(preferably one who uses a different operating system than you)
-and work through a simple programming exercise.
-How frustrating is it?
-How much insight does it give you into what novices have to go through all the time?
+Intercambia computadoras con un compañero
+(preferiblemente alguien que use un sistema operativo diferente al tuyo)
+y trabaje con un simple ejercicio de programación.
+¿Qué tan frustrante es?
+¿Cuánta información te da sobre lo que los novatos tienen que pasar todo el tiempo?
 
-\exercise{Pairing}{pairs}{15}
+\exercise{Emparejar}{parejas}{15}
 
-Watch \hreffoot{https://www.youtube.com/watch?v=vgkahOzFH2Q}{this video} of pair programming
-and then practice doing it with a partner.
-Remember to switch roles between driver and navigator every few minutes.
-How long does it take you to fall into a working rhythm?
+Mira \hreffoot{https://www.youtube.com/watch?v=vgkahOzFH2Q}{este video} de pair programming
+y luego practica hacerlo con un compañero.
+Recuerda cambiar los roles entre conductor y navegador cada pocos minutos.
+¿Cuánto tiempo tardas en adoptar un ritmo de trabajo?
 
-\exercise{Compare Notes}{small groups}{15}
+\exercise{Compara Notas}{grupos pequeños}{15}
 
-Form groups of 3--4 people
-and compare the notes you have taken on this chapter.
-What did you think was noteworthy that your peers missed and vice versa?
-What did you understand differently?
+Forma grupos de 3 a 4 personas
+y compare las notas que ha tomado en este capítulo.
+¿Qué le pareció digno de mención que sus compañeros perdieron y viceversa?
+¿Qué entendiste diferente?
 
-\exercise{Credibility}{individual}{15}
+\exercise{Credibilidad}{individual}{15}
 
-\cite{Fink2013} describes three things
-that make teachers credible in their learners' eyes:
-
-\begin{description}
-
-\item[Competence:]
-  knowledge of the subject
-  as shown by the ability to explain complex ideas
-  or reference the work of others.
-
-\item[Trustworthiness:]
-  having the learners' best interests in mind.
-  This can be shown by giving individualized feedback,
-  offering a rational explanation for grading decisions,
-  and treating all learners the same.
-
-\item[Dynamism:]
-  excitement about the subject (\chapref{s:performance}).
-
-\end{description}
-
-Describe one thing you do when teaching that fits into each category,
-and then describe one thing you don't do but should.
-
-\exercise{Measuring Effectiveness}{individual}{15}
-
-\cite{Kirk1994} defines four levels at which to evaluate training:
+\cite{Fink2013} describe tres cosas
+que hacen que los educadores sean creíbles a los ojos de sus estudiantes:
 
 \begin{description}
 
-\item[Reaction:]
-  how did the learners feel about the training?
+\item[Competencia:]
+  conocimiento del tema
+  como lo demuestra la capacidad para explicar ideas complejas
+  o hacer referencia al trabajo de otros.
+ 
+\item[Integridad:]
+  teniendo en cuenta los mejores intereses de los estudiantes.
+  Esto se puede demostrar dando retroalimentación individualizada,
+  ofreciendo una explicación racional para las decisiones de calificación
+  y tratando a todos los estudiantes por igual.
 
-\item[Learning:]
-  how much did they actually learn?
-
-\item[Behavior:]
-  how much have they changed their behavior as a result?
-
-\item[Results:]
-  how have those changes in behavior affected their output
-  or the output of their group?
+\item[Dinamismo:]
+  entusiasmo por el tema (\chapref{s:performance}).
 
 \end{description}
 
-What are you doing at each level to evaluate what and how you teach?
-What could you do that you're not doing?
+Describe una cosa que haces al enseñar que se ajuste a cada categoría
+y luego describe una cosa que no haces pero que deberías hacer.
 
-\exercise{Objections and Counter-Objections}{think-pair-share}{15}
+\exercise{Medir la eficacia}{individual}{15}
 
-You have decided not to ask your learners if your class was useful
-because you know there is no correlation between their answers
-and how much they actually learn (\secref{s:pck-now}).
-Instead,
-you have put forward four proposals,
-each of which your colleagues have shot down:
+\cite{Kirk1994} define cuatro niveles en los cuales evaluar la formación:
 
 \begin{description}
 
-\item[See if they recommend the class to friends.]
-  Why would this be any more meaningful
-  than asking them how they feel about the class?
+\item[Reacción:]
+  ¿Cómo se sintieron los estudiantes con respecto a la formación?
 
-\item[Give them an exam at the end.]
-  But how much learners know at the end of the day
-  is a poor predictor of how much they will remember two or three months later,
-  and any kind of final exam will make the class a lot more stressful.
+\item[Aprendizaje:]
+  ¿Cuánto aprendieron realmente?
 
-\item[Give them an exam two or three months later.]
-  That's practically impossible with free-range learners,
-  and the people who didn't get anything out of the workshop
-  are probably less likely to take part in follow-up,
-  so feedback gathered this way will be skewed.
+\item[Comportamiento:]
+  ¿Cuánto han cambiado su comportamiento como resultado?
 
-\item[See if they keep using what they learned.]
-  Installing spyware on learners' computers is frowned upon,
-  so how will this be implemented?
+\item[Resultados:]
+  ¿Cómo han afectado esos cambios de comportamiento su resultado
+  o el resultado de su grupo?
 
 \end{description}
 
-Working on your own,
-come up with answers to these objections,
-then share your responses with a partner
-and discuss the approaches you have come up with.
-When you are done,
-share your favored approach with the class.
+¿Qué estás haciendo en cada nivel para evaluar qué y cómo enseñas?
+¿Qué podrías hacer que no estés haciendo?
+
+\exercise{Objeciones y contraobjeciones}{piensa-empareja-comparte}{15}
+
+Has decidido no preguntarles a tus estudiantes si su clase fue útil
+porque sabes que no existe una correlación entre sus respuestas
+y cuánto aprenden realmente (\secref{s:pck-now}).
+En cambio,
+has presentado cuatro propuestas,
+cada una de las cuales tus colegas han rechazado:
+
+\begin{description}
+
+\item[Ve si recomiendan la clase a sus amigos.]
+  ¿Por qué esto sería más significativo
+  que preguntarles cómo se sienten acerca de la clase?
+ 
+\item[Hazles un examen al final.]
+  Pero cuánto saben los estudiantes al final del día
+  es un mal predictor de cuánto recordarán dos o tres meses después,
+  y cualquier tipo de examen final hará que la clase sea mucho más estresante.
+ 
+\item[Hazles un examen dos o tres meses después.]
+  Eso es prácticamente imposible con los estudiantes de rango abierto,
+  y las personas que no obtuvieron nada del taller
+  probablemente tengan menos probabilidades de participar en el seguimiento,
+  por lo que los comentarios recopilados de esta manera serán sesgados.
+ 
+\item[Revisa si siguen usando lo que aprendieron.]
+  La instalación de software espía en las computadoras de los estudiantes está mal vista,
+  entonces, ¿cómo se implementará?
+
+\end{description}
+
+Trabajando por tu cuenta,
+encuentra respuestas a estas objeciones,
+luego comparte tus respuestas con un compañero
+y discute los enfoques que ha ideado.
+Cuando hayas terminado,
+comparte tu enfoque favorito con la clase.

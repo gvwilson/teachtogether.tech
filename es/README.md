@@ -80,7 +80,7 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | No traducir    | Observaciones  |
 | ---------------|----------------|
 | commits        | contexto: git  |
-| commons        | contexto: como en las licencias Creative Commons |
+| fuzz testing |contexto: desarrollo de software|
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
@@ -104,7 +104,9 @@ Ejemplo:
 | competent practitioners| practicantes competentes, personas competentes |
 | call stack | pila de llamada |
 | chunking | particionar, fragmentar |
+| commons        | Los comunes |
 | crispy                | crujiente                         |
+| elevator pitch   | discurso breve de presentación |
 | expert                | expertos/as, personas expertas |
 | expert blind spot     |punto ciego de las personas expertas|
 | expertise | dependiendo del contexto y si no es un término pedagógico: habilidad, pericia, conocimiento |
@@ -121,6 +123,7 @@ Ejemplo:
 | outreach | difusión |
 | path | ruta de acceso |
 | post-mortem  | autopsia |
+| postits | notas adhesivas |
 | screencasting | grabación de pantalla |
 | school board | junta escolar |
 | situated learning | aprendizaje situado |
@@ -189,23 +192,23 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | The Rules| Laura Acion | Yanina Bellini | Yara Terrazas-Carafa| Lista | Lista | Lista|los/las
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
-| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Gabriela Sandoval|Lista|Lista||las/los
-| Cognitive Architecture|Patricia Loto||||||los/las
-| Individual Learning| Paloma Rojas | Patricia Loto |||||las/los
-| A Lesson Design Process| Paloma Rojas ||||||los/las
-| Pedagogical Content Knowledge| Paola Corrales||||||las/los
+| Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
+| Cognitive Architecture|Patricia Loto|||Lista|||los/las
+| Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
+| A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe|Paloma Rojas|Lista|||los/las
+| Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
 | Teaching as a Performance Art| Paola Corrales||||||los/las
-| In the Classroom|Yuriko Sosa||||||las/los
-| Motivation and Demotivation|Gabriela Sandoval||||||los/las
+| In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|||las/los
+| Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|||||los/las
 | Teaching Online|Yanina Bellini||||||las/los
-| Exercise Types|Priscilla Minotti||||||los/las
-| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista ||las/los
-| Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista||los/las
+| Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista||los/las
+| Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
+| Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
-| License| Yanina Bellini |Yara Terrazas-Carafa|Mónica|Lista|Lista|Lista|los/las
+| License| Yanina Bellini |Yara Terrazas-Carafa|Mónica Alonso|Lista|Lista|Lista|los/las
 | Code of Conduct| Yanina Bellini | Yara Terrazas-Carafa |Mónica Alonso|Lista|Lista|Lista|las/los
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
-| Glossary| Yanina Bellini|Zulemma Bazurto||Lista|||las/los
+| Glossary| Yanina Bellini|Zulemma Bazurto|Ruth Chirinos|Lista|Lista|Lista|las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
@@ -233,35 +236,35 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
-|conceptmap-motivation.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
+|conceptmap-motivation.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista||Lista|
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
 |conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
-|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
+|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
 |labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 |library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
-|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||--
-|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||
-|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|
-|what-to-teach.xml |Yanina Bellini|Gabriela Sandoval|Natalie Stroud|Lista||Lista|
-|women-coding |Yanina Bellini|||||||
-|interventions-scaled |Yanina Bellini|||||||
-|enrollment |Yanina Bellini|||||||
-|dunning-kruger |Yanina Bellini|||||||
-|deathbulge-jerk|Yanina Bellini|||||||
+|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||las/los
+|screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||las/los
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
+|what-to-teach.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista||Lista|
+|women-coding |Yanina Bellini|||Lista||||
+|interventions-scaled |Yanina Bellini|||Lista||||
+|enrollment |Yanina Bellini|||Lista||||
+|dunning-kruger |Yanina Bellini|||Lista||||
+|deathbulge-jerk|Laura Acion|Paola Corrales|Yanina Bellini|Lista|Lista|Lista||
 
 ## 3. Otras participaciones
 
 * **Coordinación general**: Yanina Bellini Saibene
-* **Edición de la traducción**: Laura Acion
+* **Edición de la traducción**: Yanina Bellini Saibene y Natalia Morandeira
 * Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 * **Glosario (Shiny y YAML)**: Yanina Bellini Saibene
 
 ## 4. Como incluir tu participación en este proyecto en tu CV:
 
-- <Fecha de inicio, ej.: Mayo de 2020 – Fecha de fin, ej: Julio de 2020>. Traducción colaborativa al castellano del libro “Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them” de Greg Wilson (2019, Taylor & Francis, ISBN 978-0-367-35328-5, https://teachtogether.tech/). Coordinación general de la traducción: Yanina Bellini Saibene; Edición general: Laura Acion. Participación como <rol, ej.: traductora y revisora de capítulos>. Más información y grupo de traductoras: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
+- <Fecha de inicio, ej.: Mayo de 2020 – Fecha de fin, ej: Julio de 2020>. Traducción colaborativa al castellano del libro “Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them” de Greg Wilson (2019, Taylor & Francis, ISBN 978-0-367-35328-5, https://teachtogether.tech/). Coordinación general de la traducción: Yanina Bellini Saibene; Edición general: Yanina Bellini Saibene. Participación como <rol, ej.: traductora y revisora de capítulos>. Más información y grupo de traductoras: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
 
 ## Atribuciones y agradecimientos
 

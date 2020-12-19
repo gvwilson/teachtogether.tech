@@ -1,635 +1,638 @@
-\chapter{A Lesson Design Process}\label{s:process}
+\chapter{Un proceso para diseñar lecciones}\label{s:process}
 
-Most people design lessons like this:
-
+La mayoría de las personas diseñan lecciones de esta manera:
 \begin{enumerate}
 
-\item
-  Someone asks you to teach something you barely know
-  or haven't thought about in years.
+ \item
+Alguien te pide que enseñes algo que sabes muy poco o que no has pensado en años.
 
-\item
-  You start writing slides to explain what you know about the subject.
+ \item
+Empiezas escribiendo diapositivas para explicar lo que sabes sobre el tema.
 
-\item
-  After 2 or 3 weeks,
-  you make up an assignment based on what you've taught so far.
-
-\item
-  You repeat step 3 several times.
-
-\item
-  You stay awake into the wee hours of the morning
-  to create a final exam
-  and promise yourself that you'll be more organized next time.
-
+ \item
+Después de 2 o 3 semanas,
+preparas una tarea basada en lo que has enseñado hasta ahora
+ \item
+Repites el paso 3 varias veces.
+ \item
+Permaneces sin dormir hasta altas horas de la mañana
+para crear un examen final
+y te prometes que serás más organizada/o la próxima vez.
 \end{enumerate}
 
-A more effective method is similar in spirit to a programming practice called
-\gref{g:test-driven-development}{test-driven development} (TDD).
-Programmers who use TDD don't write software
-and then test that it is working correctly.
-Instead,
-they write the tests first,
-then write just enough new software to make those tests pass.
-
-TDD works because writing tests forces programmers to be precise about
-what they're trying to accomplish and what ``done'' looks like.
-TDD also prevents endless polishing:
-when the tests pass, you stop coding.
-Finally,
-it reduces the risk of confirmation bias:
-someone who hasn't yet written a piece of software
-will be more objective than someone who has just put in several hours of hard work
-and really, really wants to be done.
-
-A similar method called \gref{g:backward-design}{backward design} works very well for lesson design.
-This method was developed independently in~\cite{Wigg2005,Bigg2011,Fink2013}
-and is summarized in~\cite{McTi2013}.
-In simplified form, its steps are:
-
+Un método más efectivo es similar en esencia a una práctica de programación llamada \gref{g:test-driven-development}{desarrollo-impulsado-por pruebas}(TDD por sus siglas en inglés).
+Las programadoras y los programadores que usan TDD no escriben software
+y luego testean/prueban que esté funcionando correctamente.
+En su lugar,
+escriben la prueba primero,
+luego escriben suficiente software nuevo para que esas pruebas pasen.
+ 
+TDD funciona porque escribir pruebas obliga a quienes programan a ser más precisas/os acerca de lo que están intentando lograr y cómo se ve ``hecho''.
+TDD también evita el pulido sin fin:
+cuando pasan las pruebas, dejas de codificar.
+Finalmente,
+esto reduce el riesgo de sesgo de confirmación:
+alguien que aún no ha escrito un fragmento de software
+será más objetivo que alguien que acaba de dedicar varias horas al trabajo duro
+y realmente, realmente quiere terminar.
+ 
+Un método similar denominado \gref{g:backward-design}{Reingeniería} funciona muy bien para el diseño de lecciones.
+Este método fue desarrollado en forma independiente en ~\cite{Wigg2005,Bigg2011,Fink2013} y está resumido en~\cite{McTi2013}
+En forma simplificada, sus pasos son:
+ 
 \begin{enumerate}
-
+ 
 \item
-  Create or recycle learner personas (discussed in the next section)
-  to figure out who you are trying to help and what will appeal to them.
+Crear o reciclar estudiante tipo (discutido en la siguiente sección)
+para imaginar a quién estás intentando ayudar y qué les atraerá.
 
+ \item
+Haz una lluvia de ideas para tener una idea aproximada de lo que quieres cubrir,
+cómo lo vas a hacer,
+qué problemas o conceptos erróneos esperas encontrar,
+qué \emph{no} no se va a incluir,
+y etc.
+Dibujar mapas conceptuales puede ayudar mucho en esta etapa (\secref{s:memory-concept-maps }).\index{concept map}
+ 
 \item
-  Brainstorm to get a rough idea of what you want to cover,
-  how you're going to do it,
-  what problems or misconceptions you expect to encounter,
-  what's \emph{not} going to be included,
-  and so on.
-  Drawing concept maps can help a lot at this stage (\secref{s:memory-concept-maps}).\index{concept map}
-
+Crea una evaluación sumativa (\secref{s:models-formative-
+assessment})\index{summative assessment}
+para definir tu objetivo general.
+Esto puede ser el examen final para un curso
+o el proyecto final para un taller de un día;
+independientemente de su forma o tamaño,
+muestra lo lejos que esperas llegar
+más claramente que una lista puntual de objetivos.
+ 
 \item
-  Create a summative assessment (\secref{s:models-formative-assessment})\index{summative assessment}
-  to define your overall goal.
-  This can be the final exam for a course
-  or the capstone project for a one-day workshop;
-  regardless of its form or size,
-  it shows how far you hope to get
-  more clearly than a point-form list of objectives.
-
+Crea evaluaciones formativas\index{formative assessment}
+eso le dará a las personas una oportunidad para practicar las cosas que están aprendiendo.
+Estas también te dirán a ti (y a las personas) si están progresando
+y dónde deben centrar su atención.
+El mejor camino para hacer esto es detallar los conocimientos y las habilidades 
+utilizadas en la evaluación sumativa que desarrollaste en el paso anterior y 
+luego crear al menos una evaluación sumativa para cada uno.
+ 
 \item
-  Create formative assessments\index{formative assessment}
-  that will give people a chance to practice the things they're learning.
-  These will also tell you (and them) whether they're making progress
-  and where they need to focus their attention.
-  The best way to do this is to itemize the knowledge and skills used in
-  the summative assessment you developed in the previous step
-  and then create at least one formative assessment for each.
-
+Ordena las evaluaciones formativas para crear un esquema del curso
+en función de su complejidad,
+sus dependencias,
+y cuán bien los temas motivarán a tus aprendices (\secref{s:motivation-authentic}).
+ 
 \item
-  Order the formative assessments to create a course outline
-  based on their complexity,
-  their dependencies,
-  and how well topics will motivate your learners (\secref{s:motivation-authentic}).
-
+Escribe material para conseguir que los/las alumnos/as pasen de una evaluación formativa a la siguiente.
+Cada hora de instrucción debe constar de tres a cinco episodios.
+ 
 \item
-  Write material to get learners from one formative assessment to the next.
-  Each hour of instruction should consist of three to five such episodes.
-
+Escribe una descripción resumida del curso
+para ayudar a tu audiencia objetivo a encontrarlo
+y averiguar si es adecuado para ella.
+ \end{enumerate}
+ 
+Este método ayuda a mantener la enseñanza enfocada en sus objetivos.
+También asegura que las/los estudiantes no se enfrenten a nada para lo que no están preparadas/os al final del curso.
+ 
+\begin{aside}{Incentivos Perversos}
+La reingeniería \emph{no} es lo mismo que gref{g:teaching-to-the-test}{enseñar para el examen}.
+Cuando se usa la reingeniería,
+el conjunto de docentes establece objetivos para ayudar en el diseño de las lecciones;
+es posible que ellas/ellos nunca den el examen final que escribieron.
+En muchos sistemas escolares,
+por otro lado,
+una autoridad externa define los criterios de evaluación para todas/todos las/los estudiantes,
+independientemente de sus situaciones individuales.
+Los resultados de esas evaluaciones sumativas afectan directamente el salario y promoción de las y los profesores,
+lo que significa que estos tienen un incentivo para enfocarse en que las/los estudiantes pasen las pruebas en lugar de ayudarles a aprender.
+  
+\cite{Gree2014} argumenta que enfocarse en las pruebas y la medición hace un llamado a quienes tienen el poder de establecer las  pruebas, pero es poco probable mejorar los resultados
+a menos que esto se acompañe con apoyo para que las/los profesores realicen mejoras basadas en los resultados de las pruebas.
+Esto último a menudo falta porque
+las grandes organizaciones usualmente valoran uniformidad por sobre la productividad ~\cite{Scot1998}.
+\end{aside}
+ 
+El diseño inverso se describe como una secuencia,
+pero casi nunca se hace de esa manera.
+Podemos,
+por ejemplo, cambiar nuestra opinión acerca de lo que queremos enseñar
+en base a algo que se nos ocurre mientras estamos escribiendo un MCQ,
+o re-evaluar a quién estamos intentando ayudar una vez que tengamos un resumen de la lección.
+Sin embargo,
+las notas que dejamos atrás deben presentar cosas en el orden descrito anteriormente para que quien tenga que usar o mantener la lección después de nosotras/nosotros pueda seguir sobre nuestro pensamiento
+~\cite{Parn1986}.
+  
+\seclbl{Estudiante tipo}{s:process-personas}
+ 
+El primer paso en el proceso de diseño inverso es averiguar quién es tu audiencia.
+Una manera para hacer esto es escribir dos o tres
+\grefdex{g:learner-persona}{learner personas}{estudiante tipo}
+como los de \secref{s:intro-audience}.
+Esta técnica es tomada de diseñadores de experiencia de usuario,
+quienes crean perfiles breves de usuarios típicos
+para ayudarles a pensar en su audiencia.
+Una/un estudiante tipo consiste en:
+ 
+\begin{enumerate}
+ 
 \item
-  Write a summary description of the course
-  to help its intended audience find it
-  and figure out whether it's right for them.
-
+antecedentes generales de la persona
+ 
+\item
+lo que ya saben;
+ 
+\item
+lo que quieren hacer;
+y
+ 
+\item
+cualquier necesidad especial que tengan.
+ 
 \end{enumerate}
-
-This method helps keep teaching focused on its objectives.
-It also ensures that learners don't face anything at the end of the course
-that they are not prepared for.
-
-\begin{aside}{Perverse Incentives}
-  Backward design is \emph{not} the same thing as \gref{g:teaching-to-the-test}{teaching to the test}.
-  When using backward design,
-  teachers set goals to aid in lesson design;
-  they may never actually give the final exam that they wrote.
-  In many school systems,
-  on the other hand,
-  an external authority defines assessment criteria for all learners,
-  regardless of their individual situations.
-  The outcomes of those summative assessments directly affect the teachers' pay and promotion,
-  which means teachers have an incentive to focus on having learners pass tests
-  rather than on helping them learn.
-
-  \cite{Gree2014} argues that focusing on testing and measurement
-  appeals to those with the power to set the tests,
-  but is unlikely to improve outcomes
-  unless it is coupled with support for teachers to make improvements based on test outcomes.
-  The latter is often missing because
-  large organizations usually value uniformity over productivity~\cite{Scot1998}.
+ Las personas en \secref{s:intro-audience} tienen los cuatro puntos listados anteriormente,
+junto con un breve resumen de cómo este libro les ayudará.
+Una/un estudiante tipo para un grupo de voluntarios que realiza talleres de Python los fines de semana sería:
+ 
+\begin{enumerate}
+ 
+\item
+ Jorge se acaba de mudar de Costa Rica a Canadá para estudiar ingeniería agrícola.
+El se ha unido al equipo de fútbol universitario
+y espera aprender a jugar hockey sobre hielo.
+ 
+\item
+Aparte de usar Excel, Word y el internet,
+la experiencia previa más significativa de Jorge con computadoras
+es ayudar a su hermana a construir un sitio en WordPress
+para el negocio familiar en casa.
+ 
+ 
+\item
+  Jorge quiere medir las propiedades del suelo en granjas cercanas
+usando un dispositivo de mano que envía datos a su computadora.
+Ahora mismo él tiene que abrir cada archivo de datos en Excel,
+eliminar la primera y la última columna,
+y calcular algunas estadísticas sobre lo que queda.
+El tiene que recopilar al menos 600 mediciones en los próximos meses
+y realmente no quiere tener que hacer estos pasos a mano para cada uno.
+ 
+\item
+Jorge puede leer Inglés bien,
+pero algunas veces le cuesta sostener una conversación hablada que involucre mucha jerga.
+ 
+\end{enumerate}
+ 
+En lugar de escribir nuevos tipos para cada lección o curso,
+las/los profesores usualmente crean y comparten media docena
+que cubren a todas las personas a las que probablemente enseñan,
+luego eligen algunos de ese conjunto para describir a la audiencia un material en particular.
+Los tipos que se usan de esta manera se convierten en un conveniente atajo para los problemas de diseño:
+Al hablar entre nosotras/os,
+las/los profesores pueden decir,
+``¿Jorge entendería por qué estamos haciendo esto?''
+o
+``¿Qué problemas de instalación enfrentaría Jorge?''
+ 
+\begin{aside}{Sus metas, no las tuyas}
+Los tipo deberían siempre describir lo que la/el estudiante quiere hacer
+en lugar de lo que creen que necesitan.
+Pregúntate lo que ellas/ellos están buscando en línea;
+probablemente no incluirá jerga que no conocen aún,
+así que parte de lo que tienes que hacer como diseñadora/diseñador instruccional es
+descubrir cómo hacer tu lección encontrable (visible). index{findability!of lessons}
 \end{aside}
 
-Reverse design is described as a sequence,
-but it's almost never done that way.
-We may,
-for example, change our mind about what we want to teach
-based on something that occurs to us while we're writing an MCQ,
-or re-assess who we're trying to help once we have a lesson outline.
-However,
-the notes we leave behind should present things in the order described above
-so that whoever has to use or maintain the lesson after us can retrace our thinking
-\cite{Parn1986}.
 
-\seclbl{Learner Personas}{s:process-personas}
-
-The first step in the reverse design process is figuring out who your audience is.
-One way to do this is to write two or three
-\grefdex{g:learner-persona}{learner personas}{learner persona}
-like those in \secref{s:intro-audience}.
-This technique is borrowed from user experience designers,
-who create short profiles of typical users
-to help them think about their audience.
-
-A learner persona consists of:
-
-\begin{enumerate}
-
+ \seclbl{Objetivos de aprendizaje}{s:process-objectives}
+ 
+Evaluaciones formativas y sumativas ayudan a las/los profesores a descubrir lo que van a enseñar,
+pero para comunicar eso a las/los estudiantes y otro conjunto de docentes,
+debe tener también una descripción del curso.
+\grefdex{g:learning-objective}{learning objectives}{objetivo de aprendizaje}.
+Estos ayudan a asegurar que
+todos tengan el mismo entendimiento de lo que se supone que una lección debe lograr.
+Por ejemplo,
+una declaración como ``entendiendo Git'' podría significar cualquiera de los siguientes ítemes:
+ 
+\begin{itemize}
+ 
 \item
-  the person's general background;
-
+  Las/los estudiantes pueden describir tres maneras
+  en la cual los sistemas de versión de control como Git  son mejores que herramientas para compartir archivos como Dropbox
+  y dos formas que son las peores.
+ 
 \item
-  what they already know;
-
+Las/los estudiantes pueden hacer commit a un archivo modificado en un repositorio de Git
+usando una herramienta GUI de escritorio.
+ 
 \item
-  what they want to do;
-  and
+  Las/los estudiantes pueden explicar qué es un HEAD por separado
+ y recuperarlo usando operaciones de línea de comandos.
+ 
+\end{itemize}
+ 
 
-\item
-  any special needs they have.
-
-\end{enumerate}
-
-The personas in \secref{s:intro-audience} have the four points listed above,
-along with a short summary of how this book will help them.
-A learner persona for a volunteer group that runs weekend Python workshops might be:
-
-\begin{enumerate}
-
-\item
-  Jorge just moved from Costa Rica to Canada to study agricultural engineering.
-  He has joined the college soccer team
-  and is looking forward to learning how to play ice hockey.
-
-\item
-  Other than using Excel, Word, and the internet,
-  Jorge's most significant previous experience with computers
-  is helping his sister build a WordPress site
-  for the family business back home.
-
-\item
-  Jorge wants to measure properties of soil from nearby farms
-  using a handheld device that sends data to his computer.
-  Right now he has to open each data file in Excel,
-  delete the first and last column,
-  and calculate some statistics on what's left.
-  He has to collect at least 600 measurements in the next few months,
-  and really doesn't want to have to do these steps by hand for each one.
-
-\item
-  Jorge can read English well,
-  but sometimes struggles to keep up with spoken conversation that involves a lot of jargon.
-
-\end{enumerate}
-
-Rather than writing new personas for every lesson or course,
-teachers usually create and share half a dozen
-that cover everyone they are likely to teach,
-then pick a few from that set to describe the audience for particular material.
-Personas that are used this way become a convenient shorthand for design issues:
-when speaking with each other,
-teachers can say,
-``Would Jorge understand why we're doing this?''
-or,
-``What installation problems would Jorge face?''
-
-\begin{aside}{Their Goals, Not Yours}
-  Personas should always describe what the learner wants to do
-  rather than what you think they actually need.
-  Ask yourself what they are searching for online;
-  it probably won't include jargon that they don't yet know,
-  so part of what you have to do as an instructional designer is
-  figure out how to make your lesson findable.\index{findability!of lessons}
+\begin{aside}{Objetivos vs. Resultados}
+ Un objetivo de aprendizaje es lo que una lección se esmera por lograr.
+ Un \gref{g:learning-outcome}{resultado de aprendizaje} es lo que realmente se logra,
+ es decir, lo que las/los estudiantes realmente se llevan.
+El rol de la evaluación sumativa es por lo tanto
+para comparar resultados de aprendizajes con objetivos de aprendizajes.
 \end{aside}
+ 
+Un objetivo de aprendizaje describe cómo la/el estudiante demostrará lo que ha aprendido
+una vez que ha completado exitosamente una lección.
+Más específicamente,
+este tiene un \emph{verbo medible o verificable} que establece lo que la/el estudiante hará
+y especifica los \emph{criterios aceptables de rendimiento}.
+Escribirlos puede inicialmente parecer restrictivo,
+pero ellos te harán a ti,
+a tus compañeras/compañeros docentes,
+y a tus estudiantes más felices a largo plazo:
+terminarás con guías claras tanto para su enseñanza como para su evaluación,
+y tus estudiantes apreciarán tener expectativas claras.
 
-\seclbl{Learning Objectives}{s:process-objectives}
+Una forma de comprender lo que constituye un buen objetivo de aprendizaje
+es ver cómo se puede mejorar uno pobre:
 
-Formative and summative assessments help teachers figure out what they're going to teach,
-but in order to communicate that to learners and other teachers,
-a course description should also have
-\grefdex{g:learning-objective}{learning objectives}{learning objective}.
-These help ensure that
-everyone has the same understanding of what a lesson is supposed to accomplish.
-For example,
-a statement like ``understand Git'' could mean any of the following:
-
-\begin{itemize}
-
+ \begin{itemize}
+ 
 \item
-  Learners can describe three ways
-  in which version control systems like Git are better than file-sharing tools like Dropbox
-  and two ways in which they are worse.
-
+  \emph{La/el estudiante tendrá oportunidad para aprender buenas prácticas de programación.}\\
+Esto describe el contenido de la lección,
+no los atributos de éxito de las/los estudiantes.\\
+ 
 \item
-  Learners can commit a changed file to a Git repository
-  using a desktop GUI tool.
-
+  \emph{La/el estudiante tendrá una mejor apreciación
+de las buenas prácticas de programación.}\\
+ Esto no empieza con un verbo activo ni define el nivel de aprendizaje,
+y el tema de aprendizaje no tiene contexto y no es específico.\\
+ 
 \item
-  Learners can explain what a detached HEAD is
-  and recover from it using command-line operations.
-
+  \emph{La/el estudiante comprenderá cómo programar en R.}\\
+  Si bien esto comienza con un verbo activo,
+   no define el nivel aprendizaje, 
+  y el tema de aprendizaje es todavía demasiado vago para evaluarlo.\\
+ 
+\item
+  \emph{La/el estudiante escribirá scripts de análisis de datos para leer, filtrar y resumir datos tabulares usando R.}\\
+ Esto comienza con un verbo activo,
+define el nivel de aprendizaje
+y provee contexto para asegurar que los resultados puedan evaluarse.
 \end{itemize}
+ 
+Cuando se trata de elegir verbos,
+la mayoría de docentes usan la gref{g:blooms-taxonomía}{Taxonomía de Bloom}.
+Publicado por primera vez en 1956 y actualizado a principios de siglo ~\cite{Ande2001},
+es un marco ampliamente usado para discutir los niveles de comprensión.
+Su forma más reciente tiene 6 categorías;
+la lista a continuación da algunos de los verbos típicamente usados en los objetivos de aprendizaje escritos para cada uno:
 
-\begin{aside}{Objectives vs. Outcomes}
-  A learning objective is what a lesson strives to achieve.
-  A \gref{g:learning-outcome}{learning outcome} is what it actually achieves,
-  i.e.\ what learners actually take away.
-  The role of summative assessment is therefore
-  to compare learning outcomes with learning objectives.
-\end{aside}
-
-A learning objective describes how the learner will demonstrate what they have learned
-once they have successfully completed a lesson.
-More specifically,
-it has a \emph{measurable or verifiable verb} that states what the learner will do
-and specifies the \emph{criteria for acceptable performance}.
-Writing these may initially seem restrictive,
-but they will make you,
-your fellow teachers,
-and your learners happier in the long run:
-you will end up with clear guidelines for both your teaching and assessment,
-and your learners will appreciate having clear expectations.
-
-One way to understand what makes for a good learning objective
-is to see how a poor one can be improved:
-
-\begin{itemize}
-
-\item
-  \emph{The learner will be given opportunities to learn good programming practices.}\\
-  This describes the lesson's content,
-  not the attributes of successful learners.\\
-
-\item
-  \emph{The learner will have a better appreciation for good programming practices.}\\
-  This doesn't start with an active verb or define the level of learning,
-  and the subject of learning has no context and is not specific.\\
-
-\item
-  \emph{The learner will understand how to program in R.}\\
-  While this starts with an active verb,
-  it doesn't define the level of learning
-  and the subject of learning is still too vague for assessment.\\
-
-\item
-  \emph{The learner will write one-page data analysis scripts to read, filter, and summarize tabular data using R.}\\
-  This starts with an active verb,
-  defines the level of learning,
-  and provides context to ensure that outcomes can be assessed.
-
-\end{itemize}
-
-When it comes to choosing verbs,
-many teachers use \gref{g:blooms-taxonomy}{Bloom's Taxonomy}.
-First published in 1956 and updated at the turn of the century~\cite{Ande2001},
-it is a widely used framework for discussing levels of understanding.
-Its most recent form has six categories;
-the list below gives a few of the verbs typically used in learning objectives written for each:
 
 \begin{description}
-
-\item[Remembering:]
-  Exhibit memory of previously learned material by recalling facts, terms, basic concepts, and answers.
-  \emph{(recognize, list, describe, name, find)}
-
-\item[Understanding:]
-  Demonstrate understanding of facts and ideas
-  by organizing, comparing, translating, interpreting, giving descriptions, and stating main ideas.
-  \emph{(interpret, summarize, paraphrase, classify, explain)}
-
-\item[Applying:]
-  Solve new problems by applying acquired knowledge, facts, techniques and rules in a different way.
-  \emph{(build, identify, use, plan, select)}
-
-\item[Analyzing:]
-  Examine and break information into parts by identifying motives or causes;
-  make inferences and find evidence to support generalizations.
-  \emph{(compare, contrast, simplify)}
-
-\item[Evaluating:]
-  Present and defend opinions by making judgments about information,
-  validity of ideas,
-  or quality of work based on a set of criteria.
-  \emph{(check, choose, critique, prove, rate)}
-
-\item[Creating:]
-  Compile information together in a different way by combining elements in a new pattern or proposing alternative solutions.
-  \emph{(design, construct, improve, adapt, maximize, solve)}
-
+ 
+\item[Recordar:]
+  Demostrar memoria del  material previamente aprendido
+recordando hechos, términos,
+conceptos básicos y respuestas.
+  \emph{(reconocer, listar, describir, nombrar, encontrar.)}
+ 
+\item[Comprender:]
+  Demostrar comprensión de los hechos e ideas
+organizando, comparando, traduciendo, interpretando, dando descripciones y estableciendo ideas principales.
+  \emph{(interpretar, resumir, parafrasear, clasificar, explicar)}
+ 
+\item[Aplicar:]
+  Resolver problemas nuevos aplicando los conocimientos,
+hechos, técnicas y reglas adquiridos de una forma diferente
+  \emph{(construir, identificar, usar, planificar, seleccionar)}
+ 
+\item[Analizar:]
+  Examinar y dividir la información en partes identificando motivos o causas,
+  hacer inferencias y encontrar evidencia para apoyar generalizaciones.
+  \emph{(comparar, contrastar, simplificar)}
+ 
+\item[Evaluar:]
+  Presentar y defender opiniones emitiendo juicios sobre información,
+  validez de las ideas,
+o calidad del trabajo basada en un conjunto de criterios.
+  \emph{(comprobar, elegir, criticar, probar, calificar)}
+ 
+\item[Crear:]
+ Recopilar información de forma diferente
+combinando elementos en un nuevo patrón o proponiendo soluciones alternativas.
+  \emph{(diseñar, construir, mejorar, adaptar, maximizar, resolver)}
+ 
 \end{description}
+ 
+La Taxonomía de Bloom aparece en casi todos los libros de texto sobre educación,
+pero ~\cite{Masa2018} encontró que
+Incluso los educadores experimentados tienen problemas para ponerse de acuerdo
+sobre cómo clasificar cosas específicas.
+Los verbos siguen siendo útiles,
+aunque,
+al igual que la noción de construir la comprensión en pasos:
+como Daniel Willingham ha dicho, \index{Willingham, Daniel}
+la gente no puede pensar sin algo en qué pensar ~\cite{Will2010},
+y esta taxonomía puede ayudar a las/los docentes a asegurarse
+que las/los estudiantes tengan esas cosas cuando las necesiten.
 
-Bloom's Taxonomy appears in almost every textbook on education,
-but~\cite{Masa2018} found that
-even experienced educators have trouble agreeing on how to classify specific things.
-The verbs are still useful,
-though,
-as is the notion of building understanding in steps:
-as Daniel Willingham has said,\index{Willingham, Daniel}
-people can't think without something to think about~\cite{Will2010},
-and this taxonomy can help teachers ensure that learners have those somethings when they need them.
-
-Another way to think about learning objectives comes from~\cite{Fink2013},
-which defines learning in terms of the change it is meant to produce in the learner.
-\gref{g:finks-taxonomy}{Fink's Taxonomy} also has six categories,
-but unlike Bloom's they are complementary rather than hierarchical:
-
+Otra manera de pensar acerca de los objetivos de aprendizaje proviene de ~\cite{Fink2013},
+el cual define aprendizaje en términos del cambio que se supone que debe producirse en la/el estudiante.
+La \gref{g:finks-taxonomy}{Taxonomía de Fink} también tiene seis categorías,
+pero a diferencia de las de Bloom ellas son complementarias en lugar de jerárquicas:
+ 
 \begin{description}
-
-\item[Foundational Knowledge:]
-  understanding and remembering information and ideas.
-  \emph{(remember, understand, identify)}
-
-\item[Application:]
-  skills, critical thinking, managing projects.
-  \emph{(use, solve, calculate, create)}
-
-\item[Integration:]
-  connecting ideas, learning experiences, and real life.
-  \emph{(connect, relate, compare)}
-
-\item[Human Dimension:]
-  learning about oneself and others.
-  \emph{(come to see themselves as, understand others in terms of, decide to become)}
-
-\item[Caring:]
-  developing new feelings, interests, and values.
-  \emph{(get excited about, be ready to, value)}
-
-\item[Learning How to Learn:]
-  becoming a better learner.
-  \emph{(identify source of information for, frame useful questions about)}
-
+ 
+\item[Conocimiento fundamental:]
+  Comprender y recordar información e ideas.
+  \emph{(recordar, comprender, identificar)}
+ 
+\item[Aplicación:]
+  habilidades, pensamiento crítico, gestión de proyectos.
+  \emph{(usar, resolver, calcular, crear)}
+ 
+\item[Integración:]
+  conectar ideas, experiencias de aprendizaje y vida real
+  \emph{(conectar, relatar, comparar)}
+ 
+\item[Dimensión Humana:]
+  Aprender sobre sí misma/mismo y otras/otros.
+  \emph{(llegar a verse a sí misma/mismo, entender a las/los demás en términos de, decidir ser)}
+ 
+\item[Cuidando:]
+  Desarrollar nuevos sentimientos, intereses y valores
+  \emph{(emocionarse, estar preparada/preparado para, valorar)}
+ 
+\item[Aprendiendo a aprender:]
+  Convertirse en una/un mejor estudiante.
+  \emph{(identificar la fuente de información para, enmarcar preguntas útiles sobre)}
+ 
 \end{description}
-
-A set of learning objectives based on this taxonomy
-for an introductory course on HTML and CSS might be:
-
+ 
+Un conjunto de objetivos de aprendizaje basados en esta taxonomía para un curso introductorio sobre HTML y CSS sería:
+ 
 \begin{itemize}
-
+ 
 \item
-  Explain what CSS properties are and how CSS selectors work.
-
+  Explicar qué son las propiedades de CSS y cómo funcionan los selectores de CSS.
+ 
 \item
-  Style a web page using common tags and CSS properties.
-
+  Diseñar una página web usando etiquetas comunes y propiedades CSS.
+ 
 \item
-  Compare and contrast writing HTML and CSS
-  to writing with desktop publishing tools.
-
+ Comparar y contrastar la escritura HTML y CSS
+para escribir con herramientas de edición de escritorio.
+  
 \item
-  Identify and correct issues in sample web pages
-  that would make them difficult for the visually impaired to interact with.
-
+  Identificar y corregir problemas en páginas web de muestra
+  que dificultarían la interacción de las personas con discapacidad visual.
+ 
 \item
-  Describe features of favorite web sites
-  whose design particularly appeals to you
-  and explain why.
-
+Describir las características de los sitios web favoritos
+cuyo diseño te atraiga de forma particular
+y explica el por qué.
+ 
 \item
-  Describe your two favorite online sources of information about CSS
-  and explain what you like about them.
-
+  Describir tus dos fuentes de información favoritas en línea acerca
+de CSS y explica qué te gusta de ellas.
+ 
 \end{itemize}
-
-\seclbl{Maintainability}{s:process-maintainability}
-
-Once a lesson has been created someone needs to maintain it,
-and doing that is a lot easier if it has been built in a maintainable way.
-But what exactly does ``maintainable'' mean?\index{maintainability (of lessons)}
-The short answer is that a lesson is maintainable
-if it's cheaper to update it than to replace it.
-This equation depends on four factors:
-
+ 
+\seclbl{Mantenimiento}{s:process-maintainability}
+ 
+Una vez que una lección ha sido creada alguien debe mantenerla,
+y hacerlo es mucho más fácil si se ha construido de manera que se pueda mantener.
+¿Pero qué significa exactamente ``mantenible´´? \index{ maintainability (of lessons)}
+La respuesta corta es que una lección es mantenible
+si es más barato actualizarla que reemplazarla.
+Esta ecuación depende de 4 factores:
+ 
 \begin{description}
+ 
+\item[¿Qué tan bien documentado está el diseño del curso?]
+  Si la persona que realiza el mantenimiento no conoce (o no recuerda)
+  lo que se supone la lección debe lograr,
+  o por qué los temas son presentados en un orden en particular,
+  le llevará más tiempo actualizarla.
+  Una razón para usar el diseño inverso
+  es captar decisiones sobre por qué cada curso es como es.
+ 
+\item[¿Qué tan fácil es para los colaboradores ayudar?]
+  Las/los docentes suelen compartir material enviándose por correo archivos de PowerPoint entre ellas/ellos o poniéndolos en una unidad compartida.
+  Herramientas de escritura colaborativa como \hreffoot{http://docs.google.com}{\emph{Google Docs}} and wikis
+  son una gran mejora,
+  ya que permiten que muchas personas actualicen el mismo documento
+  y comenten las actualizaciones de otras personas.
+  El sistema de control de versiones usado por programadores,
+  tales como \hreffoot{http://github.com}{\emph{GitHub}},
+  son otro enfoque.
+  Permiten que cualquier número de personas trabajen de forma independiente
+  y luego unir sus cambios en forma controlada y revisable.
+  Desafortunadamente,
+  los sistemas de control de versión tienen una curva de aprendizaje pronunciada
+   y no manejan formatos de documentos de oficina comunes.
+ 
+\item[Qué tan dispuestas están las personas a colaborar.]
+  Las herramientas necesarias para construir un Wikipedia para lecciones
+  existen hacen veinte años,
+  pero la mayoría de docentes no escriben ni comparten sus lecciones
+  de la misma manera en que escriben y comparten las entradas de enciclopedias.
+ 
+\item[Qué tan útil es compartir en realidad.]
+  La \gref{g:reusability-paradox}{Paradoja de la Reusabilidad} establece que
+  cuanto más reutilizable es un objetivo de aprendizaje,
+  menos efectivo pedagógicamente es ~\cite{Wile2002}.
+  La razón es que una buena lección se parece más a una novela que a un programa:
+  sus partes están estrechamente acopladas en lugar de ser cajas negras independientes.
+  Por lo tanto, la reutilización directa puede ser el objetivo equivocado de las lecciones;
+  podríamos llegar más lejos tratando de hacerlas más fáciles de mezclar.
+ \end{description}
 
-\item[How well documented the course's design is.]
-  If the person doing maintenance doesn't know (or doesn't remember)
-  what the lesson is supposed to accomplish
-  or why topics are introduced in a particular order,
-  it will take them more time to update it.
-  One reason to use reverse design
-  is to capture decisions about why each course is the way it is.
-
-\item[How easy it is for collaborators to collaborate technically.]
-  Teachers usually share material by mailing PowerPoint files to each other
-  or by putting them in a shared drive.
-  Collaborative writing tools like \hreffoot{http://docs.google.com}{Google Docs} and wikis
-  are a big improvement,
-  as they allow many people to update the same document and comment on other people's updates.
-  The version control systems used by programmers,
-  such as \hreffoot{http://github.com}{GitHub},
-  are another approach.
-  They let any number of people work independently
-  and then merge their changes in a controlled, reviewable way.
-  Unfortunately,
-  version control systems have a steep learning curve
-  and don't handle common office document formats.
-
-\item[How willing people are to collaborate.]
-  The tools needed to build a Wikipedia for lessons have been around for twenty years,
-  but most teachers still don't write and share lessons
-  the way that they write and share encyclopedia entries.
-
-\item[How useful sharing actually is.]
-  The \gref{g:reusability-paradox}{Reusability Paradox} states that
-  the more reusable a learning object is,
-  the less pedagogically effective it is~\cite{Wile2002}.
-  The reason is that a good lesson resembles a novel more than it does a program:
-  its parts are tightly coupled rather than independent black boxes.
-  Direct re-use may therefore be the wrong goal for lessons;
-  we might get further by trying to make them easier to remix.
-
-\end{description}
-
-If the Reusability Paradox is true,
-collaboration will be more likely
-if the things being collaborated on are small.
-This fits well with Mike Caulfield's theory of\index{Caulfield, Mike}
-\hreffoot{https://hapgood.us/2016/05/13/choral-explanations/}{choral explanations},
-which argues that sites like \hreffoot{https://stackoverflow.com/}{Stack Overflow} succeed because
-they provide a chorus of answers for every question,
-each of which is most suitable for a slightly different questioner.
-If this is right,
-the lessons of tomorrow may be guided tours of community-curated Q\&A repositories
-designed for learners at widely different levels.
-
-\seclbl{Exercises}{s:process-exercises}
-
-\exercise{Create Learner Personas}{small groups}{30}
-
-Working in small groups,
-create a 4-point persona that describes one of your typical learners.
-
-\exercise{Classify Learning Objectives}{pairs}{10}
-
-Look at the example learning objectives
-for an introductory course on HTML and CSS in \secref{s:process-objectives}
-and classify each according to Bloom's Taxonomy.
-Compare your answers with those of your partner.
-Where did you agree and disagree?
-
-\exercise{Write Learning Objectives}{pairs}{20}
-
-Write one or more learning objectives
-for something you currently teach or plan to teach
-using Bloom's Taxonomy.
-Working with a partner,
-critique and improve the objectives.
-Does each one have a verifiable verb
-and clearly state criteria for acceptable performance?
-
-\exercise{Write More Learning Objectives}{pairs}{20}
-
-Write one or more learning objectives
-for something you currently teach or plan to teach
-using Fink's Taxonomy.
-Working with a partner,
-critique and improve the objectives.
-
-\exercise{Help Me Do It By Myself}{small groups}{15}
-
-The educational theorist Lev Vygotsky introduced the notion of a \gref{g:zpd}{Zone of Proximal Development} (ZPD),
-which includes the problems that people cannot yet solve on their own
-but are able to solve with help from a mentor.
-These are the problems that are most fruitful to tackle next,
-as they are out of reach but attainable.
-
-Working in small groups,
-choose one learner persona you have developed
-and describe two or three problems that are in that learner's ZPD.
-
-\exercise{Building Lessons by Subtracting Complexity}{individual}{20}
-
-One way to build a programming lesson is
-to write the program you want learners to finish with,
-then remove the most complex part that you want them to write
-and make it the last exercise.
-You can then remove the next most complex part you want them to write
-and make it the penultimate exercise,
-and so on.
-Anything that's left after you have pulled out the exercises,
-such as loading libraries or reading data,
-becomes the starter code that you give them.
-
-Take a program or web page that you want your learners to be able to create
-and work backward to break it into digestible parts.
-How many are there?
-What key idea is introduced by each one?
-
-\exercise{Inessential Weirdness}{individual}{15}
-
-Betsy Leondar-Wright coined the phrase
-``\hreffoot{http://www.classmatters.org/2006\_07/its-not-them.php}{inessential weirdness}''
-to describe things groups do
-that aren't really necessary,
-but which alienate people who aren't yet members of that group.
-Sumana Harihareswara later used this notion
-as the basis for a talk on
-\hreffoot{https://www.harihareswara.net/sumana/2016/05/21/0}{inessential weirdnesses in open source software},
-which includes things like using command-line tools with cryptic names.
-Take a few minutes to read these articles,
-then make a list of inessential weirdnesses you think your learners might encounter
-when you first teach them.
-How many of these can you avoid?
-
-\exercise{PETE}{individual}{15}
+Si la paradoja de Reusabilidad es cierta,
+la colaboración será más probable
+si las cosas en las que se colabora son pequeñas.
+Esto se ajusta a la teoría de Mike Caulfield \index{Caulfield, Mike}
+\hreffoot{https://hapgood.us/2016/05/13/choral-explanations/}{\emph{choral explanations}}(explicaciones corales),
+que sostiene que sitios como
+\hreffoot{https://stackoverflow.com/}{\emph{Stack Overflow}} tienen éxito porque
+proporcionan un coro de respuestas para cada pregunta,
+cada una de las cuales es más adecuada para
+una persona que pregunta y que es ligeramente diferente a las demás que preguntan.
+Si esto es correcto
+las lecciones de mañana puedes ser visitas guiadas de repositorios
+de preguntas y respuestas seleccionadas por la comunidad
+diseñadas para estudiantes en niveles muy diferentes.
+ 
+ 
+\seclbl{Ejercicios}{s:process-exercises}
+ 
+\exercise{Crear estudiantes tipo}{grupos pequeños}{30'}
+ 
+Trabajando en grupos pequeños,
+crea un tipo de 4 puntos que describa a una/uno de sus estudiantes estándar.
+ 
+\exercise{Clasificar Objetivos de Aprendizaje}{pares}{10'}
+ 
+Mira el ejemplo de objetivos de aprendizaje
+para un curso introductorio sobre HTML y CSS
+en \secref{s:process-objectives}
+y clasifica cada uno de acuerdo a la Taxonomía de Bloom.
+Compara tus respuestas con las de tu pareja.
+¿Dónde estuvieron de acuerdo y en desacuerdo?
+ 
+\exercise{Escribir Objetivos de Aprendizaje}{pares}{20'}
+ 
+Escribe uno o más objetivos de aprendizaje
+para algo que actualmente enseñas o planeas enseñar
+utilizando la Taxonomía de Bloom.
+Trabajando con una pareja,
+critica y mejora los objetivos.
+¿Cada uno tiene un verbo verificable y establece claramente
+los criterios  para un desempeño aceptable?
+ 
+\exercise{Escribir más Objetivos de Aprendizaje}{pares}{20'}
+ 
+Escribe uno o más objetivos de aprendizaje
+para algo que actualmente enseñas o planeas enseñar
+utilizando la Taxonomía de Fink.
+Trabajando con una pareja,
+critica y mejora los objetivos.
+ 
+\exercise{Ayúdame a hacerlo sola/solo}{grupos pequeños }{15'}
+ 
+El teórico de la educación Lev Vygotsky introdujo la noción de una 
+\gref{g:zpd}{Zona de Desarrollo Proximal} (ZPD por sus siglas en inglés),
+la cual incluye los problemas que las personas no pueden resolver aún por sí mismas
+pero que son capaces de resolver con la ayuda de una mentora/un mentor.
+Estos son los problemas que resultan más fructíferos abordar a continuación,
+ya que están fuera de tu alcance pero son alcanzables.
+ 
+Trabajando en grupos pequeños,
+escoge una/un estudiante tipo que hayas desarrollado
+y describe dos o tres problemas que se encuentran en la ZPD de esa/ese estudiante.
+ 
+\exercise{Construyendo lecciones, restando complejidad}{individual}{20'}
+ 
+Una forma para construir una lección de programación
+es escribir el programa que deseas que las/los estudiantes terminen,
+luego elimina la parte más compleja que deseas que escriban
+y conviértela en el último ejercicio.
+Tú puedes luego remover la siguiente parte más compleja que deseas que escriban
+y conviértela en el penúltimo ejercicio, etc.
+Todo lo que quede después de haber retirado los ejercicios,
+como cargar librerías o leer datos,
+se convierte en el código al inicio les das.
+ Elige un programa o página web que desees que
+tus estudiantes puedan crear,
+y trabaja hacia atrás para dividirlo en partes que se asimilen.
+¿Cuántos hay?
+¿Qué idea clave introduce cada uno?
+ 
+\exercise{Rareza no esencial}{individual}{15'}
+ 
+Betsy Leondar-Wright acuñó la frase
+``\hreffoot{http://www.classmatters.org/2006\_07/its-not-them.php}{\emph{inessential weirdness }}''(rareza no esencial)
+para describir cosas que hacen los grupos
+que no son realmente necesarias,
+pero que alienan a personas que aún no son miembros de ese grupo
+Sumana Harihareswara luego usó esta noción
+como base para una charla sobre
+\hreffoot{https://www.harihareswara.net/sumana/2016/05/21/0}{\emph{inessential weirdnesses in open source software}}(rarezas no esenciales en el software de código abierto),
+que incluye códigos como el uso de herramientas de línea de comandos con nombres crípticos.
+Toma unos minutos para leer estos artículos,
+luego has una lista de las rarezas no esenciales que crees
+que tus estudiantes podrían encontrar
+Cuando les enseñes por primera vez
+¿Cuántas de estas puedes evitar?
+ 
+\exercise{PETE}{individual}{15'}
 \index{PETE (lesson pattern)}
 \index{lesson pattern!PETE}
 
-One pattern that works well for programming lessons is PETE:
-introduce the \textbf{P}roblem,
-work through an \textbf{E}xample,
-explain the \textbf{T}heory,
-and then \textbf{E}laborate on a second example
-so that learners can see what is specific to each case and what applies to all cases.
-Pick something you have recently taught or been taught
-and outline a short lesson for it that follows these five steps.
-
-\exercise{PRIMM}{individual}{15}
+Un patrón que trabaja bien para lecciones de programación es PETE:
+Introduce el  \textbf{P}roblema,
+trabaja a través de un \textbf{E}jemplo,
+explica la \textbf{T}eoría,
+y luego \textbf{E}labora un Segundo ejemplo
+para que las/los estudiantes puedan ver qué es específico en cada caso
+y qué se aplica a todos los casos.
+Elige algo que ya hayas enseñado o les hayan enseñado.
+Y delinea una pequeña lección que siga estos cinco pasos.
+.
+\exercise{PRIMM}{individual}{15'}
 \index{PRIMM (lesson pattern)}
 \index{lesson pattern!PRIMM}
 
-Another lesson pattern is PRIMM~\cite{Sent2019}:
-\textbf{P}redict a program's behavior or output,
-\textbf{R}un it to see what it actually does,
-\textbf{I}nvestigate why it does that by stepping through it in a debugger or drawing the flow of control,
-\textbf{M}odify it (or its inputs),
-and then \textbf{M}ake something similar from scratch.
-Pick something you have recently taught or been taught
-and outline a short lesson for it that follows these five steps.
-
-\exercise{Concrete-Representational-Abstract}{pairs}{15}
+Otro patrón de lección es PRIMM~\cite{Sent2019}:
+\textbf{P}redecir el comportamiento o salida de un programa,
+Correr, del inglés \textbf{R}un, el programa para ver lo que realmente hace,
+\textbf{I}nvestigar por qué lo hace pasando a través del mismo en un depurador o dibujando el flujo de control.
+\textbf{M}odificar el programa (o sus entradas),
+y luego hacer, del inglés \textbf{M}ake, algo similar desde cero.
+Elige algo que hayas enseñado o te hayan enseñado recientemente
+y bosqueja una breve lección que siga los siguientes cinco pasos.
+ 
+\exercise{Concreto-Figurativo-Abstracto}{pares}{15'}
 \index{CRA (lesson pattern)}
 \index{lesson pattern!CRA}
-
-\hreffoot{https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/}{Concrete-Representational-Abstract} (CRA)
-is an approach to introducing new ideas
-that is used primarily with younger learners:
-physically manipulate a \textbf{C}oncrete object,
-\textbf{R}epresent the object with an image,
-then perform the same operations
-using numbers, symbols, or some other \textbf{A}bstraction.
-
+ 
+ 
+\hreffoot{https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/}{ \emph{Concrete-Representational-Abstract }} (Concreto-Representativo-Abstracto) (CRA), por sus siglas en inglés, es un enfoque para introducir nuevas ideas
+que es usado principalmente con estudiantes más jóvenes:
+manipular físicamente un objeto \textbf{C}oncreto,
+\textbf{R}epresentar el objeto con una imagen,
+luego realizar las mismas operaciones
+usando números, símbolos o algo \textbf{A}bstracto.
+ \begin{enumerate}
+ 
+\item
+  Escribe cada uno de los números 2, 7, 5, 10, 6 en una nota adhesiva.
+ 
+\item
+  Simula un bucle que encuentre el valor más grande buscando cada uno por turno (concreto).
+ 
+\item
+ Dibuja un diagrama del proceso que usaste etiquetando cada paso (representativo)
+ 
+\item
+  Escribe instrucciones que alguien más podría seguir por medio de los pasos (abstracto)
+\end{enumerate}
+ 
+ 
+Compara tus materiales representativo y abstracto con tus compañeras/compañeros.
+ 
+\exercise{Evaluación de un repositorio de lecciones}{grupos pequeños}{10'}
+ 
+\cite{Leak2017} explora por qué las/los docentes de ciencias computacionales
+no utilizan sitios para compartir lecciones y recomienda formas para hacerlas más atractivas:
+ 
 \begin{enumerate}
-
+ 
 \item
-  Write each of the numbers 2, 7, 5, 10, 6 on a sticky note.
-
+  La página de destino debe permitir a los visitantes del sitio
+identificar sus antecedentes y sus intereses al visitarlo.
+Los sitios deben hacer dos preguntas:
+``¿Cuál es su función actual? '' y
+``¿En qué curso y grado estás interesada/interesado? ''
+ 
 \item
-  Simulate a loop that finds the largest value by looking at each in turn (concrete).
-
+  Los sitios deben mostrar todos los recursos de aprendizaje
+en el contexto del curso completo para que los usuarios potenciales puedan comprender
+su contexto de uso previsto.
+ 
 \item
-  Sketch a diagram of the process you used,
-  labeling each step (representational).
-
-\item
-  Write instructions that someone else could follow
-  to go through the same steps (abstract).
+  A muchas/muchos docentes les preocupa que sus pares
+juzguen su (falta de) conocimiento si publican en los foros de discusión
+de los sitios.
+Por tanto, estos foros deberían permitir la publicación anónima.
 \end{enumerate}
 
-Compare your representational and abstract materials with your partner's.
+En grupos pequeños,
+Discute si estas tres características serían
+suficientes para convencerte de usar un sitio para compartir lecciones,
+y si no,
+lo que haría.
 
-\exercise{Evaluating a Lesson Repository}{small groups}{10}
-
-\cite{Leak2017} explores why computer science teachers don't use lesson sharing sites
-and recommends ways to make them more appealing:
-
-\begin{enumerate}
-
-\item
-  The landing page should allow site visitors to identify their background and their interests in visiting the site.
-  Sites should ask two questions:
-  ``What is your current role?'' and
-  ``What course and grade level are you interested in?''
-
-\item
-   Sites should display all learning resources in the context of the full course
-   so that potential users can understand their intended context of use.
-
-\item
-  Many teachers have concerns about having their (lack of) knowledge judged by their peers
-  if they post to sites' discussion forums.
-  These forums should therefore allow anonymous posting.
-
-\end{enumerate}
-
-In small groups,
-discuss whether these three features would be enough to convince you to use a lesson sharing site,
-and if not,
-what would.
-
-\section*{Review}
-
-\figpdfhere{figures/conceptmap-personas.pdf}{Concepts: Learner personas}{f:process-personas}
+ 
+\section*{Revisión}
+ 
+\figpdfhere{figures/conceptmap-personas.pdf}{Concepto: Estudiantes}
