@@ -1,417 +1,407 @@
-\chapter{Teaching as a Performance Art}\label{s:performance}
+\chapter{Enseñar como un arte performativo}\label{s:performance}
 
-In \emph{Darwin Among the Machines},
-George Dyson\index{Dyson, George} wrote,
-``In the game of life and evolution there are three players at the table:
-human beings, nature, and machines.
-I am firmly on the side of nature.
-But nature, I suspect, is on the  side of the machines{\ldots}''
-There are similarly now three players in the game of education:
-textbooks and other read-only materials,
-live lectures,
-and automated online lessons.
-You may give your learners both written lessons
-and some combination of recorded video and self-paced exercises,
-but if you are going to teach in person
-you must offer something different from (and hopefully better than) either of them.
-This chapter therefore focuses on how to teach programming by actually doing it.
+En \emph{Darwin entre las máquinas},
+George Dyson\index{Dyson, George} escribió,
+``En el juego de la vida y la evolución hay 3 jugadores en la mesa:
+los humanos, la naturaleza y las máquinas.
+Estoy firmemente del lado de la naturaleza.
+Pero la naturaleza, sospecho, está del lado de las máquinas{\ldots}''
+De manera similar, ahora hay 3 jugadores en el juego de la educación:
+los libros de texto y otros materiales de lectura,
+las clases en vivo,
+y las clases en línea automatizadas.
+Podrías darle a tus estudiantes clases escritas y alguna combinación
+de videos grabados y ejercicios para que realicen a su propio ritmo,
+pero si vas a enseñar en persona tienes
+que ofrecer algo diferente (y con suerte mejor que) cualquiera de los anteriores.
+Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando.
 
-\seclbl{Live Coding}{s:performance-live}
+\seclbl{Programar en vivo}{s:performance-live}
 
 \begin{quote}
 
-  Teaching is theater, not cinema. \\
+  La enseñanza es teatro, no cine. \\
   --- Neal Davis\index{Davis, Neal}
 
 \end{quote}
 
-The most effective way to teach programming is \gref{g:live-coding}{live coding}~\cite{Rubi2013,Haar2017,Raj2018}.
-Instead of presenting pre-written material,
-the teacher writes code in front of the class
-while the learners follow along,
-typing it in and running it as they go.
-Live coding works better than slides for several reasons:
+La manera más efectiva de enseñar a programar es \gref{g:live-coding}{programando en vivo}~\cite{Rubi2013,Haar2017,Raj2018}.
+En vez de presentar material previamente escrito,
+quien enseña escribe el código en frente de la clase
+mientras que los/las estudiantes lo siguen a la par,
+escribiendo y ejecutándo el código a medida que avanzan.
+Programar en vivo funciona mejor que las presentaciones por varias razones:
 
 \begin{itemize}
 
 \item
-  It enables \gref{g:active-teaching}{active teaching}
-  by allowing teachers to follow their learners' interests and questions in the moment.
-  A slide deck is like a railway track:
-  it may be a smooth ride,
-  but you have to decide in advance where you're going.
-  Live coding is more like driving an off-road vehicle:
-  it may be bumpier,
-  but it's a lot easier to change direction and go where people want.
+  Permite la \gref{g:active-teaching}{enseñanza activa}
+  al permitir a quienes están enseñando responder a los intereses y preguntas de los/las estudiantes en el momento.
+  Una presentación de diapositivas es como una vía de ferrocarril:
+  podrá ser un viaje suave,
+  pero tienes que decidir hacia donde vas con anticipación.
+  Programar en vivo es cómo manejar un vehículo todo terreno:
+  podrá ser más accidentado,
+  pero es mucho más fácil cambiar de dirección e ir hacia donde la gente quiere.
 
 \item
-  Watching a program being written is more motivating
-  than watching someone page through slides.
+  Mirar como se va escribiendo un programa es más motivador
+  que mirar a alquien pasar diapositivas.
 
 \item
-  It facilitates unintended knowledge transfer:\index{unintended knowledge transfer}
-  people learn more than we are consciously teaching
-  by watching \emph{how} we do things.
+  Facilita la transferencia de conocimiento de manera involuntaria:\index{unintended knowledge transfer}
+  las personas aprenden más de lo que enseñamos conscientemente
+  al observar \emph{cómo} hacemos las cosas.
 
 \item
-  It slows the teacher down:
-  if they have to type in the program as they go along
-  then they can only go twice as fast as their learners
-  rather than ten times faster as they could with slides.
+  Disminuye la velocidad de la persona que está enseñando:
+  si tiene que escribir el programa medida que avanza,
+  entonces solo puede ir el doble de rápido que sus estudiantes
+  en vez de 10 veces más rápido como lo harían usando diapositivas.
 
 \item
-  It helps reduce the load on short-term memory
-  because it makes the teacher more aware of how much they are throwing at their learners.
+  Ayuda a reducir la carga en la memoria de corto plazo
+  porque hace que quien esté enseñando se más consciente de cuanto 
+  le está mostrando a sus estudiantes.
 
 \item
-  Learners get to see how to diagnose and correct mistakes.
-  They are going to spend a lot of time doing this;
-  unless you're a perfect typist,
-  live coding ensures that they get to see how to.
+  Los/Las estudiantes pueden ver cómo diagnosticar y corregir errores.
+  Van a dedicar mucho tiempo a esto;
+  a menos que puedan tipear de manera perfecta,
+  programar en vivo asegura que puedan ver como hacer esto.
 
 \item
-  Watching teachers make mistakes shows learners that
-  it's all right to make mistakes of their own.
-  If the teacher isn't embarrassed about making and talking about mistakes,
-  learners will be more comfortable doing so too.
+  Ver a quienes enseñan cometer errorer muestra a sus estudiantes que está bien que cometan errores.
+  Si el/la docente no se avergüenza al cometer errores y habla sobre ellos,
+  sus estudiantes también se sentirán más cómodos/as hacíendolo.
 
 \end{itemize}
 
-Another benefit of live coding is that it demonstrates the order in which programs should be written.
-When looking at how people solved Parsons Problems,\index{Parsons Problem}
-\cite{Ihan2011} found that experienced programmers often dragged the method signature to the beginning,
-then added the majority of the control flow (i.e.\ loops and conditionals),
-and only then added details like variable initialization and handling of corner cases.
-This out-of-order authoring is foreign to novices,
-who read and write code in the order it's presented on the page;
-seeing it helps them learn to decompose problems into subgoals that can be tackled one by one.
-Live coding also gives teachers a chance to emphasize the importance of small steps with frequent feedback~\cite{Blik2014}
-and the importance of picking a plan
-rather than making more-or-less random changes and hoping things will get better~\cite{Spoh1985}.
+Otro beneficio de la programación en vivo es que demuestra el orden en que se deben escribir los programas.
+Cuando observaron cómo las personas resuelven problemas de Parson,\index{Parsons Problem}
+\cite{Ihan2011} encontraron que las personas con experiencia programando usualmente ubican la identificación del método al principio,
+luego agregan la mayor parte del control de flujo (es decir, bucles y condiciones),
+y solo luego de eso, agregan detalles como la inicialización de variables y el manejo de casos especiales.
+Es método "fuera de orden" es ajeno para las personas novatas,
+que leen y escriben código en el orden en que se presenta en la página;
+ver el código les ayuda a descomponer los problemas en submetas que pueden abordar una a la vez.
+La programación en vivo además les da quienes están enseñando la chance de enfatizar la importancia de los pequeños pasos con comentarios frecuentes~\cite{Blik2014}
+y la importancia de definir un plan en vez de hacer 
+cambios más o menos aleatorios y esperar que las cosas mejoren~\cite{Spoh1985}.
 
-It takes a bit of practice to get comfortable
-talking while you code in front of an audience,
-but most people report that it quickly becomes no more difficult than talking around a deck of slides.
-The sections below offer tips on how to make your live coding better.
+Sentise cómodo/a al hablar mientras se escribe código en 
+frente de una audiencia, requiere práctica,
+pero la mayoría de las personas indican que rápidamente se vuelve igual que difícil que hablar alrededor de una presentación de diapositivas.
+Las secciones que siguen ofrecen consejos sobre cómo mejorar la manera de programar en vivo.
 
-\subsection*{Embrace Your Mistakes}
+\subsection*{Aprovecha tus errores}
 
 \begin{quote}
 
-  The typos are the pedagogy. \\
+  Los errores de tipeo son la pedagogía. \\
   --- Emily Jane McTavish\index{McTavish, Emily Jane}
 
 \end{quote}
 
-The most important rule of live coding is to embrace your mistakes.\index{mistakes (importance of embracing)}
-No matter how well you prepare,
-you will make some;
-when you do,
-think through them with your audience.
-While data is hard to come by,
-professional programmers spend anywhere from 25\% to 60\% of their time debugging;
-novices spend much more (\secref{s:pck-debug}),
-but most textbooks and tutorials spend little time diagnosing and correcting problems.
-If you talk aloud while you figure out what you mistyped
-or where you took the wrong path,
-and explain how you've corrected yourself,
-you will give your learners a toolbox they can use when they make their own mistakes.
+La regla más importante de la programación en vivo es aprovechar tus errores.\index{mistakes (importance of embracing)}
+No importa que tan bien te prepares, 
+cometerás algunos errores;
+cuando lo hagas,
+piensa sobre ellos con tu audiencia.
+Si bien obtener los datos es difícil,
+programadores/as profesionales dedican del 25\% al 60\% de su tiempo identificando y resolviendo errores;
+las personas novatas dedican le dedicanmucho más (\secref{s:pck-debug}),
+pero la mayoría de los libros de texto y tutoriales dedican poco tiempo a diagnosticar y corregir problemas.
+Si hablas en voz alta mientras intentas identificar que escribiste mal
+o dónde tomaste el camino equivocado,
+y explicas cómo lo corriges,
+les darás a tus estudiantes un conjunto de herramientras que pueden usar cuando comentan sus propios errores.
 
-\begin{aside}{Deliberate Fumbles}
-  Once you have given a lesson several times,
-  you're unlikely to make anything other than basic typing mistakes
-  (which can still be informative).
-  You can try to remember past mistakes and make them deliberately,
-  but that often feels forced.
-  An alternative approach is \gref{g:twitch-coding}{twitch coding}:
-  ask learners one by one to tell you what to type next.
-  This is pretty much guaranteed to get you into some kind of trouble.
+\begin{aside}{Tropiezos deliberados}
+  Una vez que hayas enseñado una lección varias veces,
+  es poco probable que cometas nada más que errores básicos de tipeo
+  (que de todas maneras pueden ser informativos).
+  Puede intentar recordar errores pasados y cometerlos deliberadamente,
+  pero usualmente eso se siente forzado.
+  Un enfoque alternativo es \gref{g:twitch-coding}{sacudir la programación}:
+  pide a tus estudiantes, uno a uno que te indiquen que escribir a continnuación.
+  Esto practicamente garantiza que te encuentres en algún tipo de problemas.
 \end{aside}
 
-\subsection*{Ask For Predictions}
+\subsection*{Pregunta por predicciones}
 
-One way to keep learners engaged while you are live coding
-is to ask them to make predictions about what the code on the screen is going to do.
-You can then write down the first few suggestions they make,
-have the whole class vote on which they think is most likely,
-and then run the code.
-This is a lightweight form of peer instruction,\index{peer instruction}
-which we will discuss in \secref{s:classroom-peer};
-as well as keeping their attention on task,
-it gives them practice at reasoning about code's behavior.
+Una manera de mantener a tus estudiantes motivados/as mientras estas programando en vivo
+es pedirles que hagan predicciones sobre que hará el código que ven en la pantalla.
+Luego, puedes escribir las primeras sugerencias que hagan,
+hacer que toda la clase vote sobre cúal piensan que es la opción más probable,
+y finalmente ejecutar el código.
+Esta es una forma simple de instrucción entre pares,\index{peer instruction}
+que discutiremos en la sección \secref{s:classroom-peer};
+además de mantener su atención en la actividad,
+les permite practicar cómo razona sobre el comportamiento del código.
 
-\subsection*{Take It Slow}
+\subsection*{Tomalo con calma}
 
-Every time you type a command,
-add a line of code to a program,
-or select an item from a menu,
-say what you are doing out loud
-and then point to what you have done and its output on the screen
-and go through it a second time.
-This allows learners to catch up
-and to check that what they have just done is correct.
-It is particularly important when some of your learners have seeing or hearing challenges
-or are not fluent in the language of instruction.
+Cada vez que escribas un comando,
+agregues una lidea de código a un programa,
+o selecciones un elemento de un menú,
+di que estas haciendo en voz alta,
+luego señala lo que haz hecho y su resultado en la pantalla
+y repasalo una segunda vez.
+Esto ayuda a tus estudiantes a ponerse al día
+y a revisar que lo que acaban de hacer es correcto.
+Esto es particularmente importante cuando algunos de tus estudiantes tienen dificultades para ver o escuchar o no dominan el idioma en el que estás enseñando.
 
-Whatever you do,
-\emph{don't} copy and paste code:
-doing this practically guarantees that you'll race ahead of your learners.
-And if you use tab completion,
-say it out loud so that your learners understand what you're doing:
-``Let's use turtle dot `r' `i' and tab to get `right'.''
+Hagas lo que hagas,
+\emph{no} copies y pegues códgio:
+hacer eso practicamente garantiza que iras mucho más rápido que tus estudiantes.
+Y si usas la tecla tab para autocompletar lo que estás escribiendo,
+decilo en vos alta para que tus estudiantes entiendan lo que estás haciendo:
+``Usemos turtle dot `r' `i' y tab para completar con `right'.''
 
-If the output of your command or code makes what you just typed disappear from view,
-scroll back up so learners can see it again.
-If that's not practical,
-execute the same command a second time
-or copy and paste the last command(s) into the workshop's shared notes.
+Si la salida de tu comando o código hace que lo que acabas de escribir desaparezca de la vista,
+volvé arriba para que tus estudiantes puedan verlo de nuevo.
+Si eso no es posible,
+ejecuta el mismo comando una segunda vez
+o copia y pega el último comando o comandos en las notas compartidas del taller.
 
-\subsection*{Be Seen and Heard}
+\subsection*{Ser visto/a y escuchado/a}
 
-When you sit down,
-you are more likely to look at your screen rather than at your audience
-and may be hidden from learners in the back rows of your classroom.
-If you are physically able to stand up for a couple of hours,
-you should therefore do so while teaching.
-Plan for this and make sure that you have a raised table,
-standing desk,
-or lectern
-for your laptop
-so that you don't have to bend over to type.
+Cuando te sientas,
+es más probable que mires tu pantalla en vez de mirar a tu audiencia
+y puedes quedar fuera de la vista de tus estudiantes en las últimas filas del aula.
+Si eres físicamente capaz de pararte durante un par de horas,
+debes hacerlo mientras enseñas.
+Planifíscalo y asegúrate de tener una mesa elevada, 
+un escritorio de pie,
+o un atril
+para tu computadora portátil
+para que no tengas que inclinarte al escribir.
 
-Regardless of whether you are standing or sitting,
-make sure to move around as much as you can:
-go to the screen to point something out,
-draw something on the whiteboard,
-or just step away from your computer for a few moments and speak directly to your audience.
-Doing this draws your learners' attention away from their screens
-and provides a natural time for them to ask questions.
+Independientemente de si estás de pie o sentado/a,
+asegurate de moverte lo más que puedas:
+acercate a la pantalla para señalar algo,
+dibuja algo en la pizarra,
+o simplemente alejate de la computadora por un momento y hablale directamente a tu audiencia.
+Hacer esto aleja la atención de tus estudiantes de sus pantallas
+y les proporciona un mmomento natural para hacer preguntas.
 
-If you are going to be teaching for more than a couple of hours,
-it's worth using a microphone even in a small room.
-Your throat gets tired just like every other part of your body;
-using a mike is no different from wearing comfortable shoes
-(which you also ought to do).
-It can also make a big difference to people with hearing disabilities.
+Si vas a enseñar por más de un par de horas,
+vale la pena usar un micrófono incluso si la habitación es pequeña.
+Tu garganta se cansa tanto como cualquier otra parte de tu cuerpo;
+usar un micrófono no es diferente de usar zapatos cómodos 
+(algo que también deberías usar).
+También puede marcar una gran diferencia para las personas que tienen discapacidad auditiva.
 
-\subsection*{Mirror Your Learner's Environment}
+\subsection*{Copia la pantalla de tu estudiante}
 
-You may have customized your environment with a fancy Unix shell prompt,
-a custom color scheme for your development environment,
-or a plethora of keyboard shortcuts.
-Your learners won't have any of this,
-so try to create an environment that mirrors what they \emph{do} have.
-Some teachers create a separate bare-bones account on their laptop
-or a separate teaching-only account
-if they're using an online service like Scratch or GitHub.
-Doing this can also help prevent packages that you installed for work yesterday
-breaking the lesson you are supposed to teach this morning.
+Es posible que hayas personalizado tu entorno de trabajo con una terminal de Unix shell elegante,
+un esquema de colores personalizado,
+o una gran cantidad de atajos de teclado.
+Tu estudiantes no tendrán nada de eso,
+así que intenta crear un entorno de trabajo que refleje lo que \emph{sí} tienen.
+Algunos/as docentes crean un usuario distinto con configuración básica en sus computadoras
+o una cuenta específica para enseñar 
+si están usando algún servicio online como Scratch o GitHub.
+Hacer esto también puede ayudar a evitar que los paquetes que instalaste ayer para trabajar 
+rompan la lección que se supone que enseñes hoy.
 
-\subsection*{Use the Screen Wisely}
+\subsection*{Usa la pantalla de menera sabia}
 
-You will usually need to enlarge your font considerably
-for people to read it from the back of the room,
-which means you can put much less on the screen than you're used to.
-In many cases you will be reduced to 60--70 columns and 20--30 rows,
-so that you're using a 21st century supercomputer
-as if it was a dumb terminal from the early 1980s.
+Por lo general, necesitaras agrandar el tamañana de la letra considerablemente
+para que las personas en el fondo de la sala puedan leer. 
+Esto significa que podrás colocar muchas menos cosas en la pantalla de las que estás acostumbrado/a.
+En muchos casos, se reducirá a 60--70 columnas y 20--30 filas,
+por lo que estarás usando una super computadora del siglo 21
+como si fuera una sencilla terminal de principios de la década de 1980.
 
-To manage this,
-maximize the window you are using to teach
-and then ask everyone to give you a thumbs-up or thumbs-down on its readability.
-Use a black font on a lightly-tinted background
-rather than a light font on a dark background---the light tint will glare less
-than pure white.
+Para organizar esto,
+maximiza la ventana que estás usando para enseñar
+y luego preguntale a todos si pueden leer lo que están en la pantalla o no.
+Usa una fuente de color negro sobre un fondo ligeramente coloreado en vez de una fuente de color claro sobre un fondo oscuro---el tono claro deslubrará 
+menos que el blanco puro.
 
-Pay attention to the room lighting as well:
-it should not be fully dark, and there should be no lights directly
-on or above your projection screen.
-Allow a few minutes for learners to reposition their tables
-so that they can see clearly.
+Presta atención a la iluminación de la sala:
+no debe estar completamente a oscuras, y no debe haber luces directamente 
+o por encima de la pantalla de protección.
+Dedica algunos minitos para que tus estudiantes puedan reacomodar sus mesas
+para ver con claridad.
 
-When the bottom of the projection screen is at the same height as your learners' heads,
-people in the back won't be able to see the lower parts.
-You can raise the bottom of your window to compensate,
-but this will give you even less space for typing.
+Cuando la parte inferior de la proyección de la pantalla está a la misma altura que las cabezas de tus estudiantes,
+las personas en el fondo no podrán ver lo que ocurre en esa sección de la pantalla.
+Puede elevar la parte inferior de la ventana para compesar esto,
+pero eso generará que tengas aún menos espacio para escribir.
 
-If you can get a second projector and screen,
-use it:
-the extra real estate will allow you to display your code on one side
-and its output or behavior on the other.
-If second screen requires its own computer,
-ask a helper to control it
-rather than hopping back and forth between two keyboards.
+Si puedes acceder a un segundo proyector y pantalla,
+usalos:
+el espacio adicional te permitirá mostrar el código de un lado
+y su resultado o comportamiento del otro lado.
+Si la segunda pantalla requiere su propia computadora,
+pidele a un/a ayudante que la controle
+en lugar de ir y venir entre los dos teclados.
 
-Finally,
-if you are teaching something like the Unix shell in a console window,
-it's important to tell people when you run an in-console text editor
-and when you return to the console prompt.
-Most novices have never seen a window take on multiple personalities in this way,
-and can quickly become confused by
-when you are interacting with the shell,
-when you are typing in the editor,
-and when you are dealing with an interactive prompt for Python or some other language.
-You can avoid this problem by using a separate window for editing;
-if you do this,
-always tell learners when you are switching focus from one to the other.
+Finalmente,
+si estás enseñando algo como la terminal de Unix shell en una consola,
+es importante decirle a las personas usas un editor de texto en la consola
+y cuando regresas a la consola propiamente dicha.
+La mayoría de las personas novatas no han visto nunca una ventana asumir multiples personalidades de esta manera,
+y pueden confundirse rápidamente
+cuando estás interactuando en la terminal,
+cuando estás escribiendo en un editor de texto,
+y cuando estás trabajando de manera interactiva con Python u otro lenguaje.
+Puedes evitar este problema usando ventanas separadas para usar el editor de texto;
+si haces esto,
+siempre avísales a tus estudiantes cuando estás cambiando de una ventana a la otra.
 
-\begin{aside}{Accessibility Aids Help Everyone}
-  Tools like \hreffoot{https://boinx.com/mousepose/overview/}{Mouseposé} (for Mac)
-  and \hreffoot{http://www.pointerfocus.com/}{PointerFocus} (for Windows)
-  highlight the position of your mouse cursor on the screen,
-  and screen recording tools like \hreffoot{https://www.techsmith.com/video-editor.html}{Camtasia}
-  and standalone applications like \hreffoot{https://github.com/keycastr/keycastr}{KeyCastr}
-  echo invisible keys like tab and Control-J as you type them.
-  These can be a bit annoying when you first start to use them,
-  but help your learners figure out what you're doing.
+\begin{aside}{Las herramientas de accesibilidad ayudan a todas las personas}
+  Las herramientas como \hreffoot{https://boinx.com/mousepose/overview/}{Mouseposé} (para Mac)
+  y \hreffoot{http://www.pointerfocus.com/}{PointerFocus} (para Windows)
+  resaltan la posición del cursor del mouse en la pantalla,
+  y las herramientras de grabación de pantalla como \hreffoot{https://www.techsmith.com/video-editor.html}{Camtasia}
+  y aplicaciones independientes como \hreffoot{https://github.com/keycastr/keycastr}{KeyCastr}
+  muestran teclas invisibles como tab y Control-J a medida que las usas.
+  Esto puede ser un poco molesto al comienzo,
+  pero ayuda a tus estudiantes a descubrir lo que estás haciendo.
 \end{aside}
 
-\subsection*{Double Devices}
+\subsection*{Dos dispositivos}
 
-Some people now use two devices when teaching:
-a laptop plugged into the projector for learners to see
-and a tablet so that they can view their own notes
-and the notes that the learners are taking (\secref{s:classroom-notetaking}).
-This is more reliable than flipping back and forth between virtual desktops,
-though a printout of the lesson is still the most reliable backup technology.
+Algunas personas usan dos dispositivos cuando enseñan:
+una computadora portatil conectada al proyector que los/as estudiantes vean
+y una tablet para que puedan ver sus propias notas y las notas que los/as estudiantes están tomando (\secref{s:classroom-notetaking}).
+Esto es más confiable que pasar de un escritorio virtual al otro, 
+aunque imprimir la lección sigue siendo la técnología de respaldo más confiable.
 
-\subsection*{Draw Early, Draw Often}
+\subsection*{Dibuja temprano, dibuja seguido}
 
-Diagrams are always a good idea.
-I sometimes have a slide deck full of ones that I have prepared in advance,
-but building diagrams step by step helps with retention (\secref{s:architecture-brain})
-and allows you to improvise.
+Los diagramas son siempre una buena idea.
+A veces tengo una presentación de diapostivas llena de diagramas preparada de antemano,
+pero construir los diagramas paso a paso ayuda a retenerlos más (\secref{s:architecture-brain})
+y te permite improvisar.
 
-\subsection*{Avoid Distractions}
+\subsection*{Evita las distracciones}
 
-Turn off any notifications you may use on your laptop,
-especially those from social media.
-Seeing messages flash by on the screen distracts you as well as your learners,
-and it can be awkward when a message pops up you'd rather not have others see.
-Again,
-you might want to create a second account on your computer
-that doesn't have email or other tools set up at all.
+Desactiva las notificaciones que usas en tu computadora,
+espcialmente las de redes sociales.
+Ver mensajes parpadeando en la pantalla te distrae a vos y a tus estudiantes,
+y puede ser incómodo si aparece un mensaje que no te gustaría que otras personas vean.
+De nuevo,
+es posible que quieras crear una segunda cuenta en tu computadora que no tenga correo electrónico u otras herramientas configuradas.
 
-\subsection*{Improvise---After You Know the Material}
+\subsection*{Improvisa---luego de haber aprendido el material}
 
-Stick fairly closely to the lesson plan you've drawn up or borrowed
-the first time you teach a lesson.
-It may be tempting to deviate from the material
-because you would like to show a neat trick or demonstrate another way to do something,
-but there is a fair chance you'll run into something unexpected
-that will cost you more time than you have.
+No te alejes de la lección que planificaste o pediste prestada la primera vez que la enseñes.
+Puede ser tentandor desviarse del material
+porque te gustaría mostrar un lindo truco o demostrar otra manera de hacer algo,
+pero existe la posibilidad de que te encuentres con algo inesperado 
+que te lleve más tiempo del que tenés.
 
-Once you are more familiar with the material,
-though,
-you can and should start improvising based on the backgrounds of your learners,
-their questions in class,
-and what you personally find most interesting.
-This is like playing a new song:
-you stick to the sheet music the first few times,
-but after you're comfortable with the melody and chord changes,
-you can start to put your own stamp on it.
+Sin embargo, una vez que el material te resulte más familiar,
+puedes y debes comenzar a improvisar en base a los antecedentes de tus estudiantes,
+sus preguntas durante la clase,
+y lo que personalmente te parezca más interesante.
+Esto es como tocar una nueva canción:
+sigues la partitura las primeras veces,
+pero después de que te sientes comodo/a con los cambios de melodía y acordes,
+puedes comenzar a ponerle tu propio sello.
 
-When you want to use something new,
-run through it beforehand
-\emph{using the same computer that you'll be teaching on}:
-installing several hundred megabytes of software over high school WiFi
-in front of bored 16-year-olds isn't something you ever want to have to do.
+Cuando quieras usar algo nuevo,
+revísalo de antemano
+\emph{usando la misma computadora que usarás cuando des la clase}:
+instalar cientos de megabytes de programas a través del WiFi de la escuela secundaria
+en frente de joneves de 16 años aburridos no es algo por lo que alguna vez quieras pasar.
 
-\begin{aside}{Direct Instruction}
-  \gref{g:direct-instruction}{Direct Instruction} (DI) is a teaching method
-  centered around meticulous curriculum design delivered through a prescribed script.
-  It's more like an actor reciting lines than it is like the improvisational approach we recommend.
-  \cite{Stoc2018} found a statistically significant positive effect for DI
-  even though it sometimes gets knocked for being mechanical.
-  I prefer improvisation because DI requires more up-front preparation
-  than most free-range learning groups can afford.
+\begin{aside}{Enseñanza directa}
+  La \gref{g:direct-instruction}{Enseñanza directa} (ED) es un método de enseñanza
+  centrando en el diseño meticuloso de la currícula dictado usando un guío predefinido.
+  Es más como un actor recitando lineas que como el enfoque de inprovisación que recomendamos.
+  \cite{Stoc2018} encontró que la ED tiene un efecto estadísticamente significativo positivo 
+  a pesar de que a veces pueda ser muy repetitivo.
+  Yo prefiero improvisar porque la ED requiere más preparación inicial que lo que la mayoría 
+  de los grupos de estudiantes free-range pueden permitirse.
 \end{aside}
 
-\subsection*{Face the Screen---Occasionally}
+\subsection*{Mira a la pantalla---de vez en cuando}
 
-It's OK to face the projection screen occasionally
-when you are walking through a section of code or drawing a diagram:
-\emph{not} looking at a roomful of people who are all looking at you
-can help lower your anxiety levels and give you a moment to think about what to say next.
+Está bien enfrentar la pantalla donde estás proyectando ocacionalmente
+cuando estás mostrando una sección de código o dibujando un esquema:
+\emph{no} mirar a la sala llena de personas que te están mirando a vos
+puede ayudarte a reducir tu nivel de ansiedad y darte un momento para pensar qué decir a continuación.
 
-You shouldn't do this for more than a few seconds at a time, though.
-A good rule of thumb is to treat the projection screen as one of your learners:
-if it would be uncomfortable to stare at someone
-for as long as you are spending looking at the screen,
-it's time to turn around and face your class again.
+Sin embargo, no deberías hacerto por más de unos segundos.
+Una buena regla general es tratar a la pantalla como a uno/a de tus estudiantes:
+si mirar a una persona durante el tiempo que miras a la pantalla te resulta incómodo, es hora de darte la vuelta y mirar a la clase nuevamente.
 
-\subsection*{Drawbacks}
+\subsection*{Incovenientes}
 
-Live coding does have some drawbacks,
-but they can all be avoided or worked around with a little bit of practice.
-If you find that you are making too many trivial typing mistakes,
-set aside five minutes every day to practice typing:
-it will help your day-to-day work as well.
-If you think you are spending too much time referring to your lesson notes,
-break them into smaller pieces
-so that you only ever have to think about one small step at a time.
+Porgramar en vivo tiene algunos inconvenientes,
+pero pueden evitarse o solucionarse con un poco de práctica.
+Si descrubres que están cometiendo demasiados errores de tipeo,
+reserva 5 minutos por día para practicar escribir con el teclado:
+también te ayudará en tu trabajo diario.
+Si crees que dependes demasiado de las notas de la clase,
+divídelas en partes más pequeñas 
+para que solo tengas que pensar en un pequeño paso a la vez.
 
-And if you feel that you're spending too much time typing in library import statements,
-class headers,
-and other boilerplate code,
-give yourself and your learners some skeleton code as a starting point (\secref{s:classroom-blank}).
-Doing this will also reduce their cognitive load,
-since it will focus their attention where you want it.
+Y si sientes que estás pasando demasiado tiempo escribiendo código para importar librerías, encabezados de clases y código repetitivo, 
+genera un esqueleto de código para que vos y tus estudiantes usen como punto de partida (\secref{s:classroom-blank}).
+Hacer esto también reducirá su carga cognitiva,
+dado que centrarán su atención donde vos quieres.
 
-\seclbl{Lesson Study}{s:performance-jugyokenkyu}
+\seclbl{Estudiar la lección}{s:performance-jugyokenkyu}
 
-From politicians to researchers and teachers themselves,
-educational reformers have designed systems
-to find and promote people who can teach well
-and eliminate those who cannot.
-But the assumption that some people are born teachers is wrong:
-instead,
-like any other performance art,
-the keys to better teaching are practice and collaboration.
-As~\cite{Gree2014} explains,
-the Japanese approach to this is called \gref{g:jugyokenkyu}{jugyokenkyu},
-which means ``lesson study'':
+Desde políticos hasta investigador/as y docentes,
+quines reforman la educación han diseñado sistemas 
+para encontrar y apoyar a personas que pueden enseñar bien
+y eliminar a las personas no lo hacen.
+Pero la suposición de que algunas personas nacen como docentes es errónea:
+en cambio,
+como cualquier otra representación artística,
+las claves para enseñar mejor son práctica y colaboración.
+Cómo explica~\cite{Gree2014},
+En japonés este enfoque se llama \gref{g:jugyokenkyu}{jugyokenkyu},
+que signofica ``estudiar la lección'':
 
 \begin{quote}
 
-  In order to graduate,
-  [Japanese] education majors not only had to watch their assigned master teacher work,
-  they had to effectively replace him,
-  installing themselves in his classroom first as observers and then,
-  by the third week,
-  as a wobbly{\ldots}approximation of the teacher himself.
-  It worked like a kind of teaching relay.
-  Each trainee took a subject,
-  planning five days' worth of lessons{\ldots} [and then] each took a day.
-  To pass the baton,
-  you had to teach a day's lesson in every single subject:
-  the one you planned and the four you did not{\ldots}
-  and you had to do it right under your master teacher's nose.
-  Afterward, everyone---the teacher, the college students,
-  and sometimes even another outside observer---would sit around a formal table
-  to talk about what they saw.
+  Para graduarse,
+  los especialistas en educación [japoneses] no solo tenían que ver como trabaja el docente que le asignan,
+  tenían que reemplazarlo efectivamente,
+  participando en su aula primero como observadores/as y luego,
+  a la tercera semana,
+  como una aproximación{\ldots}titubeante del propio maestro.
+  Funcionó como una especie de relevo de docentes.
+  Cada estudiante eligió una asignatura,
+  preparando clases para 5 días{\ldots} [y luego] cada uno enseñó un día.
+  Para pasar la batuta,
+  tenía que enseñar una clase de un día en cada asignatura:
+  la que tenían planeada y las 4 que no{\ldots}
+  y tenían que hacerlo delante de su maestro.
+  Después, todos---el docente, los estudiantes para ser docentes,
+  y a veces, uncluso un observador externo---se sentaban alrededor de una mesa
+  para hablar de lo que observaron.
 
 \end{quote}
 
-Putting work under a microscope in order to improve it is commonplace
-in fields as diverse as \hreffoot{https://en.wikipedia.org/wiki/W.\_Edwards\_Deming}{manufacturing} and music.
-A professional musician,
-for example,
-will dissect half a dozen recordings of ``Body and Soul'' or ``Smells Like Teen Spirit'' before performing it.
-They would also expect to get feedback from fellow musicians during practice and after performances.
+Poner el trabajo bajo un microscopio para mejorarlo es común
+en áreas tan diversas como la \hreffoot{https://en.wikipedia.org/wiki/W.\_Edwards\_Deming}{fabricación} y la múscia.
+Un/a músico/o profesional,
+por ejemplo,
+analizará media docena de grabaciones de ``Body and Soul'' o ``Smells Like Teen Spirit'' antes de interpretarlas.
+También recibirán comentarios de colegas musicos durante la práctica y después de las actuaciones.
 
-But continuous feedback isn't part of teaching culture in most English-speaking countries.
-There,
-what happens in the classroom stays in the classroom:
-teachers don't watch each other's lessons on a regular basis,
-so they can't borrow each other's good ideas.
-Teachers may get lesson plans and assignments from colleagues,
-the school board or a textbook publisher,
-or go through a few MOOCs on the internet,
-but each one has to figure out
-how to deliver specific lessons in specific classrooms for specific learners.
-This is particularly true for volunteers and other free-range teachers
-involved in after-school workshops and bootcamps.
+Pero la retroalimentación continua no es parte de la cultura de la enseñanzan en la mayoría de los paises de habla inglesa.
+Allí,
+lo que sucede en el aula se queda en el aula:
+quienes enseñan no miran las clases de sus colegas de manera regular,
+por lo que no pueden tomar prestadas las buenas ideas de las demás personas.
+Los/as docentes podrán acceder a los planes de clases y tareas de otros colegas,
+la junta escolar o una editorial de libros de texto,
+o revisar MOOCs en Internet,
+pero cada persona tiene que descubrir
+como dar las clases específicas en aulas específicas para estudiantes específicos/as.
+Esto es particularmente cierto para personas voluntarias y docentes free-range
+que participan en talleres y actividades fuera de la escuela.
 
 Writing up new techniques
 and giving \grefdex{g:demonstration-lesson}{demonstration lessons}{demonstration lesson}
