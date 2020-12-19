@@ -273,7 +273,7 @@ hasta que se le pide que resuelva un problema completo desde cero. Al enseñar �
 \end{center}
 
 \noindent
-and then ask learners to solve this:
+y luego pide a los estudiantes que resuelvan esto:
 
 \begin{center}
 \begin{tabular}{rcl}
@@ -287,7 +287,7 @@ and then ask learners to solve this:
 \end{center}
 
 \noindent
-and this:
+y esto:
 
 \begin{center}
 \begin{tabular}{rcl}
@@ -299,7 +299,7 @@ and this:
 \end{center}
 
 \noindent
-and finally this:
+y finalmente, esto:
 
 \begin{center}
 \begin{tabular}{rcl}
@@ -308,8 +308,8 @@ and finally this:
 \end{tabular}
 \end{center}
 
-A similar exercise for teaching Python might start by showing learners\index{Python}
-how to find the total length of a list of words:
+Un ejercicio similar para enseñar Python podría comenzar mostrando a los estudiantes\index{Python} 
+cómo encontrar la longitud total de una lista de palabras:
 
 \begin{minted}{text}
 # total_length(["red", "green", "blue"]) => 12
@@ -321,8 +321,10 @@ define total_length(list_of_words):
 \end{minted}
 
 \noindent
-and then ask them to fill in the blanks in this
-(which focuses their attention on control structures):
+
+y luego pídales que llenen los espacios en blanco en esto 
+(lo que centra su atención en las estructuras de control):
+
 
 \begin{minted}{text}
 # word_lengths(["red", "green", "blue"]) => [3, 5, 4]
@@ -333,8 +335,8 @@ define word_lengths(list_of_words):
     return list_of_lengths
 \end{minted}
 
-The next problem might be this
-(which focuses their attention on updating the final result):
+El siguiente problema podría ser este 
+(que centra su atención en actualizar el resultado final):
 
 \begin{minted}{text}
 # join_all(["red", "green", "blue"]) => "redgreenblue"
@@ -345,7 +347,7 @@ define join_all(list_of_words):
     return joined_words
 \end{minted}
 
-Learners would finally be asked to write an entire function on their own:
+Finalmente, se pedirá a los estudiantes que escriban una función completa por su cuenta:
 
 \begin{minted}{text}
 # make_acronym(["red", "green", "blue"]) => "RGB"
@@ -367,6 +369,10 @@ For example,
 the programming problems above all use the accumulator design pattern,
 in which the results of processing items from a collection
 are repeatedly added to a single variable in some way to create the final result.
+
+Los ejemplos difusos funcionan porque presentan la estrategia de resolución de problemas pieza por pieza: en cada paso, los estudiantes tienen un nuevo problema que abordar, que es menos intimidante que una pantalla en blanco o una hoja de papel en blanco (\secref{s:classroom-practices}). También anima a los estudiantes a pensar en las similitudes y diferencias entre varios enfoques, lo que ayuda a crear los vínculos en sus modelos mentales que ayudan a la recuperación de la información.
+La clave para construir un buen ejemplo difuso es pensar en la estrategia de resolución de problemas que se pretende enseñar. Por ejemplo, los problemas de programación sobre todo utilizan el patrón de diseño del acumulador, en el que los resultados del procesamiento de elementos de una colección se agregan repetidamente a una sola variable de alguna manera para crear el resultado final.
+
 
 \begin{aside}{Cognitive Apprenticeship}
   An alternative model of learning and instruction that also uses scaffolding and fading
@@ -391,6 +397,17 @@ are repeatedly added to a single variable in some way to create the final result
   (\secref{s:individual-strategies}).
 \end{aside}
 
+\begin{aside}{Aprendizaje cognitivo}
+Un modelo alternativo de aprendizaje e instrucción que también usa andamiaje y desvanecimiento es \gref{g:cognitive-apprenticeship}{aprendizaje cognitivo}, que enfatiza la forma en que un maestro transmite habilidades y conocimientos a un aprendiz. El maestro proporciona modelos de desempeño y resultados, luego entrena a los principiantes explicando qué están haciendo y por qué~\cite{Coll1991,Casp2007}.
+El aprendiz reflexiona sobre su propia resolución de problemas, por ejemplo, pensando en voz alta o criticando su propio trabajo, y finalmente explora problemas de su propia elección.
+Este modelo nos dice que los profesores deben presentar varios ejemplos al explicar una nueva idea para que los estudiantes puedan ver qué generalizar, y que deben variar la forma del problema para dejar en claro cuáles son y cuáles no son características superficiales features\footnote{For a long time,
+I believed that the variable holding the value a function was going to return
+    \emph{had} to be called \texttt{result}
+. Los problemas deben presentarse en contextos del mundo real, y debemos fomentar la autoexplicación para ayudar a los estudiantes a organizarse y dar sentido a lo que se les acaba de enseñar 
+ (\secref{s:individual-strategies}).
+\end{aside}
+
+
 \subsection*{Labeled Subgoals}
 
 \grefdex{g:subgoal-labeling}{Labeling subgoals}{labeled subgoals} means
@@ -401,16 +418,26 @@ and the same benefit is seen in other domains~\cite{Marg2012}.
 Returning to the Python example used earlier,
 the subgoals in finding the total length of a list of words or constructing an acronym are:
 
+\subsection*{Subobjetivos etiquetados}
+ 
+\grefdex{g:subgoal-labeling}{Labeling subgoals}{labeled subgoals}  significa 
+dar nombre a los pasos en una descripción paso a paso de un proceso de resolución de problemas. 
+[ Marg2016 , Morr2016 ] descubrieron que los estudiantes con subobjetivos etiquetados 
+resolvían los problemas de Parsons mejor que los estudiantes sin estos, 
+y se observa el mismo beneficio en otros dominios [ Marg201]. 
+Volviendo al ejemplo de Python usado anteriormente, 
+los objetivos secundarios para encontrar la longitud total de una lista de palabras o construir un acrónimo son:
+
 \begin{enumerate}
 
 \item
-  Create an empty value of the type to be returned.
+  Crea un valor vacío del tipo que se devolverá.
 
 \item
-  Get the value to be added to the result from the loop variable.
+  Obtiene el valor que se agregará al resultado de la variable de ciclo.
 
 \item
-  Update the result with that value.
+  Actualiza el resultado con ese valor.
 
 \end{enumerate}
 
@@ -419,6 +446,8 @@ helps learners distinguish what's generic from what is specific to the problem a
 It also helps them build a mental model of that kind of problem
 so that they can solve other problems of that kind,
 and gives them a natural opportunity for self-explanation (\secref{s:individual-strategies}).
+
+Etiquetar subobjetivos funciona porque agrupar los pasos relacionados en fragmentos con nombre (Sección  3.2 ) ayuda a los estudiantes a distinguir lo que es genérico de lo que es específico del problema en cuestión. También les ayuda a construir un modelo mental de ese tipo de problema para que puedan resolver otros problemas de ese tipo y les da una oportunidad natural para la autoexplicación (Sección  5.1 ).
 
 \subsection*{Minimal Manuals}
 
@@ -437,6 +466,10 @@ Later studies confirmed that this approach outperformed the traditional approach
 regardless of prior experience with computers~\cite{Lazo1993}.
 \cite{Carr2014} summarized this work by saying:
 
+Manuales mínimos
+
+La aplicación más pura de la teoría de la carga cognitiva puede ser el manual mínimo de John Carroll  [ Carr1987 , Carr2014]. Su punto de partida es una cita de un usuario: "Quiero hacer algo, no aprender a hacer todo". Carroll y sus colegas rediseñaron la capacitación para presentar cada idea como una tarea autónoma de una sola página: un título que describa de qué trata la página, instrucciones paso a paso sobre cómo hacer una sola cosa (por ejemplo, cómo eliminar una línea en blanco en un editor de texto), y luego varias notas sobre cómo reconocer y resolver problemas comunes. Descubrieron que reescribir los materiales de capacitación de esta manera los hacía más cortos en general y que las personas que los usaban aprendían más rápido. Estudios posteriores confirmaron que este enfoque superó al enfoque tradicional independientemente de la experiencia previa con computadoras [ Lazo1993 ]. [ Carr2014 ] resumieron este trabajo diciendo:
+
 \begin{quote}
 
   Our ``minimalist'' designs sought to leverage user initiative and prior knowledge,
@@ -451,7 +484,9 @@ regardless of prior experience with computers~\cite{Lazo1993}.
 
 \end{quote}
 
-\seclbl{Other Models of Learning}{s:architecture-theory}
+Nuestros diseños “minimalistas” buscaban aprovechar la iniciativa del usuario y el conocimiento previo, en lugar de controlarlo mediante advertencias y pasos ordenados. Enfatizó que los usuarios generalmente aportan mucha experiencia y conocimiento a este aprendizaje, por ejemplo, conocimiento sobre el dominio de la tarea, y que dicho conocimiento podría ser un recurso para los diseñadores instruccionales. El minimalismo aprovechó los episodios de reconocimiento, diagnóstico y corrección de errores, en lugar de intentar simplemente prevenirlos. Enmarca la resolución de problemas y la corrección como oportunidades de aprendizaje en lugar de aberraciones.
+
+\seclbl{Otros modelos de aprendizaje}{s:architecture-theory}
 
 Critics of cognitive load theory have sometimes argued that\index{cognitive load!criticism of}
 any result can be justified after the fact by labeling things that hurt performance as extraneous load
@@ -464,6 +499,9 @@ and to provide worked examples and sub-goals.
 The new course reduced the exam failure rate by 34\%
 and increased learner satisfaction.
 
+Los críticos de la teoría de la carga cognitiva a veces han argumentado que cualquier resultado puede justificarse a posteriori al etiquetar las cosas que perjudican el rendimiento como cargas extrañas y las que no lo hacen como intrínsecas o pertinentes. Sin embargo, la instrucción basada en la teoría de la carga cognitiva es innegablemente efectiva. Por ejemplo, [ Maso2016 ] rediseñó un curso de base de datos para eliminar la atención dividida y los efectos de redundancia y para proporcionar ejemplos prácticos y subobjetivos. El nuevo curso redujo la tasa de reprobación del examen en un 34% y aumentó la satisfacción del estudiante.
+
+
 A decade after the publication of~\cite{Kirs2006},
 a growing number of people believe that cognitive load theory and inquiry-based approaches are compatible
 if viewed in the right way.
@@ -473,6 +511,8 @@ while~\cite{Kirs2018} extends cognitive load theory to include collaborative asp
 As with~\cite{Mark2018} (discussed in \secref{s:individual-strategies}),
 researchers' perspectives may differ,
 but the practical implementation of their theories often wind up being the same.
+
+Una década después de la publicación de [ Kirs2006 ], un número creciente de personas cree que la teoría de la carga cognitiva y los enfoques basados ​​en la investigación son compatibles si se ven de la manera correcta. [ Kaly2015 ] sostiene que la teoría de la carga cognitiva es básicamente una microgestión del aprendizaje dentro de un contexto más amplio que considera cosas como la motivación, mientras que [ Kirs2018 ] extiende la teoría de la carga cognitiva para incluir aspectos colaborativos del aprendizaje. Al igual que con [ Mark2018 ] (discutido en la Sección  5.1 ), las perspectivas de los investigadores pueden diferir, pero la implementación práctica de sus teorías a menudo termina siendo la misma.
 
 One of the challenges in educational research is that
 what we mean by ``learning'' turns out to be complicated
@@ -489,6 +529,9 @@ which focuses on bringing people into a community
 and recognizes that
 teaching and learning are always rooted in who we are and who we aspire to be.
 We will discuss it in more detail in \chapref{s:community}.
+
+Uno de los desafíos en la investigación educativa es que lo que queremos decir con “aprendizaje” resulta complicado una vez que se mira más allá del aula occidental estandarizada. Dos perspectivas específicas de la psicología educativa han influido en este libro. El que hemos utilizado hasta ahora es el cognitivismo , que se centra en cosas como el reconocimiento de patrones, la formación de la memoria y el recuerdo. Es bueno para responder preguntas de bajo nivel, pero generalmente ignora cuestiones más importantes como, "¿Qué queremos decir con 'aprendizaje'?" y, "¿Quién decide?" El otro es el aprendizaje situado , que se centra en llevar a las personas a una comunidad y reconoce que la enseñanza y el aprendizaje siempre están arraigados en quiénes somos y quiénes aspiramos a ser. Lo discutiremos con más detalle en el Capítulo  13.
+
 
 The \hreffoot{http://www.learning-theories.com/}{Learning Theories website}
 and~\cite{Wibu2016}
@@ -508,9 +551,11 @@ we always have to try new methods in the class,
 with actual learners,
 in order to find out how well they balance the many forces in play.
 
-\seclbl{Exercises}{s:architecture-exercises}
+El sitio web de Learning Theories y [ Wibu 2016 ] tienen buenos resúmenes de estas y otras perspectivas. Además del cognitivismo, los que se encuentran con mayor frecuencia incluyen el conductismo (que trata la educación como un condicionamiento de estímulo / respuesta), el constructivismo (que considera el aprendizaje como un proceso activo durante el cual los estudiantes construyen conocimiento por sí mismos) y el conectivismo.(que sostiene que el conocimiento se distribuye, que el aprendizaje es el proceso de navegar, crecer y podar conexiones, y que enfatiza los aspectos sociales del aprendizaje que Internet hace posible). Estas perspectivas pueden ayudarnos a organizar nuestros pensamientos, pero en la práctica, siempre tenemos que probar nuevos métodos en la clase, con estudiantes reales, para descubrir qué tan bien equilibran las muchas fuerzas en juego.
 
-\exercise{Create a Faded Example}{pairs}{30}
+\seclbl{Ejercicios}{s:architecture-exercises}
+
+\exercise{Crear un ejemplo desvanecido}{pares}{30'}
 
 It's very common for programs to count how many things fall into different categories:
 for example,
@@ -545,6 +590,13 @@ and have them play the part of learners for those groups.
 Alternatively,
 choose a different problem domain and develop a faded example for it.
 
+Es muy común que los programas cuenten cuántas cosas caen en diferentes categorías: por ejemplo, cuántas veces aparecen colores diferentes en una imagen o cuántas veces aparecen palabras diferentes en un párrafo de texto.
+Crea un ejemplo breve (no más de 10 líneas de código) que muestre a las personas cómo hacer esto, y luego crea un segundo ejemplo que resuelva un problema similar de una manera similar pero que tenga un par de espacios en blanco para que los estudiante los completen. ¿Decides qué desvanecer? ¿Cuál sería el siguiente ejemplo de la serie?
+Define la audiencia de sus ejemplos. Por ejemplo, ¿son estos principiantes que solo conocen algunos conceptos básicos de programación? ¿O estos estudiantes tienen alguna experiencia en programación?
+Muestra tu ejemplo a un compañero, pero no le digas para qué nivel crees que es. Una vez que hayan llenado los espacios en blanco, pídeles que adivinen el nivel deseado.
+Si hay personas entre los aprendices que no programan en absoluto, intenta ubicarlos en diferentes grupos y pídeles que hagan el papel de aprendices para esos grupos. Alternativamente, elija un dominio de problema diferente y desarrolle un ejemplo difuso para él.
+
+
 \exercise{Classifying Load}{small groups}{15}
 
 \begin{enumerate}
@@ -565,6 +617,13 @@ choose a different problem domain and develop a faded example for it.
 (The exercise ``Noticing Your Blind Spot'' in \secref{s:memory-exercises}
 will give you an idea of how detailed your point-form list should be.)
 
+Clasificación de carga (grupos pequeños / 15)
+Elige una lección corta que un miembro de tu grupo haya enseñado o tomado recientemente.
+Haz una lista en forma de puntos de las ideas, instrucciones y explicaciones que contiene.
+Clasifica cada uno como intrínseco, pertinente o extraño. ¿En qué partes estaban todos de acuerdo? ¿Dónde estuvo en desacuerdo y por qué?
+(El ejercicio "Cómo darse cuenta de su punto ciego" en la Sección  3.4 le dará una idea de cuán detallada debe ser su lista de formularios de puntos).
+
+
 \exercise{Create a Parsons Problem}{pairs}{20}
 
 Write five or six lines of code that does something useful,
@@ -578,6 +637,10 @@ do not include any of the curly braces.
 use a different problem domain,
 such as making banana bread.)
 
+Crear un problema de Parsons (pares / 20)
+Escribe cinco o seis líneas de código que hagan algo útil, mezclalas y pídele a tu compañero que las ponga en orden. Si estás utilizando un lenguaje basado en sangrías como Python, no utilices sangría en ninguna de las líneas; si estás utilizando un lenguaje de llaves como Java, no incluyas ninguna de las llaves. (Si tu grupo incluye personas que no son programadores, usa un dominio de problema diferente, como hacer budín/pan de plátano).
+
+
 \exercise{Minimal Manuals}{individual}{20}
 
 Write a one-page guide to doing something that your learners might encounter in one of your classes,
@@ -586,6 +649,10 @@ or printing a number with a certain number of digits after the decimal point.
 Try to list at least three or four incorrect behaviors or outcomes the learner might see
 and include a one- or two-line explanation
 of why each happens and how to correct it.
+
+Manuales mínimos (individual / 20)
+Escribe una guía de una página para hacer algo que tus estudiantes puedan encontrar en una de tus clases, como centrar el texto horizontalmente o imprimir un número con un cierto número de dígitos después del punto decimal. Intentá enumerar al menos tres o cuatro resultados incorrectos que el estudiante pueda ver e incluí una explicación de una o dos líneas de por qué ocurre cada uno y cómo corregirlo.
+
 
 \exercise{Cognitive Apprenticeship}{pairs}{15}
 
@@ -599,6 +666,10 @@ and what alternatives you've considered but discarded.
 When you are done,
 swap roles with your partner and repeat the exercise.
 
+Aprendizaje cognitivo (parejas / 15)
+Elige un problema de codificación que puedas resolver en dos o tres minutos y piensa en voz alta mientras lo resuelves, al mismo tiempo tu compañero te hace preguntas sobre lo que estás haciendo y por qué. No solo explica lo que estás haciendo, sino también por qué lo estás haciendo, cómo sabes que es lo correcto y qué alternativas has considerado pero descartado. Cuando hayas terminado, intercambia roles con tu compañero y repetí el ejercicio.
+
+
 \exercise{Worked Examples}{pairs}{15}
 
 Seeing worked examples helps people learn to program faster than just writing lots of code~\cite{Skud2014},
@@ -608,6 +679,9 @@ go through a 10--15 line piece of code and explain what every statement does
 and why it is necessary.
 How long does it take?
 How many things do you feel you need to explain per line of code?
+
+Ejemplos resueltos (pares / 15)
+Ver ejemplos resueltos ayuda a las personas a aprender a programar más rápido que simplemente escribiendo mucho código [ Skud2014 ], y deconstruir/desagregar el código rastreándolo o depurándolo también aumenta el aprendizaje [ Grif2016 ]. Trabajando en parejas, revisa un fragmento de código de 10 a 15 líneas y explica qué hace cada declaración y por qué es necesaria. ¿Cuánto tiempo te tardas? ¿Cuántas cosas crees que necesitas explicar por línea de código?
 
 \exercise{Critiquing Graphics}{individual}{30}
 
@@ -648,3 +722,20 @@ and rate its graphics as ``poor,'' ``average,'' or ``good'' according to these s
 \section*{Review}
 
 \figpdfhere{figures/conceptmap-cognitive-load.pdf}{Concepts: Cognitive load}{f:architecture-cognitive-load}
+
+Gráficos críticos (individual / 30)
+[ Maye2009 , Mill2016a ] presentn seis principios para una buena enseñanza de gráficos:
+Señalización:
+resalta visualmente los puntos más importantes para que se destaquen del material menos crítico.
+ 
+Contigüidad espacial:
+coloca los subtítulos lo más cerca posible de los gráficos para compensar el costo de cambiar entre los dos.
+Contigüidad temporal:
+Presenta narraciones y gráficos hablados tan seguidos en el tiempo como sea práctico. (Presentar ambos a la vez es mejor que presentarlos uno tras otro).
+Segmentación:
+Cuando presentes una secuencia larga de material o cuando los estudiantes no tengan experiencia con el tema, divide la presentación en segmentos cortos y deja que los estudiantes controlen la rapidez con que avanzan al siguiente.
+Pre-entrenamiento:
+Si los estudiantes no conocen los conceptos y la terminología principales utilizados en tu presentación, enseña solo esos conceptos y términos de antemano.
+Modalidad:
+las personas aprenden mejor de las imágenes más la narración que de las imágenes más el texto, a menos que no sean hablantes nativos o haya palabras o símbolos técnicos.
+Elige un video de una lección o charla en línea que utilice diapositivas u otras presentaciones estáticas y califique sus gráficos como "deficientes", "promedio" o "buenos" de acuerdo con estos seis criterios.
