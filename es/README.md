@@ -246,7 +246,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista|Lista|las/los
 |screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||las/los
-|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|Lista|Lista|las/los
 |what-to-teach.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista|Lista|Lista|
 |women-coding |Yanina Bellini|||Lista||||
 |interventions-scaled |Yanina Bellini|||Lista||||
