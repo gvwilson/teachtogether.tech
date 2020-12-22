@@ -230,14 +230,14 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |cognitive-architecture.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
-|conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista||
+|conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|Lista|
 |conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
 |conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-motivation.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista|Lista|Lista|
-|conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
-|conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
+|conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|Lista||
+|conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista|Lista|Lista|
 |for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|Lista|Lista|las/los
 |labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
