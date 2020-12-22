@@ -2,7 +2,7 @@
 
 # Files
 TEX=$(wildcard en/*.tex) $(wildcard es/*.tex)
-SRC=${TEX} $(wildcard en/*.bib) $(wildcard es/*.bib) $(wildcard *.cls) $(wildcard *.csl)
+SRC=${TEX} $(wildcard en/*.bib) $(wildcard es/*.bib) $(wildcard *.cls) $(wildcard *.csl) $(wildcard */template.html)
 HTML=docs/index.html docs/en/index.html docs/es/index.html
 STATIC_SRC=$(wildcard static/*)
 STATIC_DST=$(patsubst %,docs/%,${STATIC_SRC})
@@ -18,7 +18,7 @@ commands :
 html : ${HTML} ${STATIC_DST} docs/CNAME
 
 # Generate HTML.
-${HTML} : ${SRC} template.html bin/pre-pandoc.py bin/post-pandoc.py
+${HTML} : ${SRC} bin/pre-pandoc.py bin/post-pandoc.py
 	@make -C en html
 	@make -C es html
 

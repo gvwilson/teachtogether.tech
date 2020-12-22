@@ -28,10 +28,10 @@ commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
 
 ## html : re-make HTML.
-html : ${FIGURES_DST} ../bin/pre-pandoc.py ../bin/post-pandoc.py ../template.html 
+html : ${FIGURES_DST} ../bin/pre-pandoc.py ../bin/post-pandoc.py template.html 
 	@mkdir -p ${OUTPUT}
 	../bin/pre-pandoc.py < book.tex > temp.tex
-	${PANDOC} --template=../template.html --bibliography=book.bib --output=- temp.tex \
+	${PANDOC} --template=template.html --bibliography=book.bib --output=- temp.tex \
 	| ../bin/post-pandoc.py \
 	> ${OUTPUT}/index.html
 
