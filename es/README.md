@@ -139,7 +139,6 @@ Ejemplo:
 |i.e. (id est) | "es decir" |
 |e.g. (exempli gratia) | por ejemplo, abreviatura "p. ej." |
 
-
 #### 3. Material referenciado en el libro
 
 Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar _\emph{}_ para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
@@ -154,7 +153,8 @@ El primer lugar de consulta son las [slides del curso de Instructores de RStudio
 
 [The Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
- 
+Para algunos términos educativos tener en cuenta traducción oficial de las estrategias de aprendizaje de [Learning Scientists](https://bit.ly/3mGJseE)
+
 ## D. Aspectos de ortografía / gramática del español
 
 * Ni los demostrativos ni el adverbio "solo" se tildan.
