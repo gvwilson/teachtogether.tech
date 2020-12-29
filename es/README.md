@@ -196,10 +196,10 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Individual Learning|Paloma Rojas|María Dermit|Patricia Loto|Lista|||las/los
 | A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe|Paloma Rojas|Lista|||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
-| Teaching as a Performance Art| Paola Corrales||||||los/las
+| Teaching as a Performance Art| Paola Corrales|Yuriko Sosa||Lista|||los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista||las/los
 | Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Gabriela Sandoval|Lista|||los/las
-| Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista||las/los
+| Teaching Online|Yanina Bellini|María Dermit||Lista|Lista||las/los
 | Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista|Lista|los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
