@@ -87,7 +87,6 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | marketing ||
 
 
-
 #### 2. Términos técnicos que se traducen
 
 En este sitio se puede acceder a una aplicación web con el glosario completo de T3 en Español e Inglés: https://yabellini.shinyapps.io/T3Glossary/
@@ -140,7 +139,6 @@ Ejemplo:
 |i.e. (id est) | "es decir" |
 |e.g. (exempli gratia) | por ejemplo, abreviatura "p. ej." |
 
-
 #### 3. Material referenciado en el libro
 
 Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva (utilizar _\emph{}_ para lograr la cursiva) y se aclara entre parentesis una traducción del título/nombre en español.
@@ -155,7 +153,8 @@ El primer lugar de consulta son las [slides del curso de Instructores de RStudio
 
 [The Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md) y [R para Ciencia de Datos](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) tienen algunas convenciones que podemos ir revisando y ver si se adecuan al propósito de esta traducción.
 
- 
+Para algunos términos educativos tener en cuenta traducción oficial de las estrategias de aprendizaje de [Learning Scientists](https://bit.ly/3mGJseE)
+
 ## D. Aspectos de ortografía / gramática del español
 
 * Ni los demostrativos ni el adverbio "solo" se tildan.
@@ -193,15 +192,15 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
-| Cognitive Architecture|Patricia Loto|||Lista|||los/las
-| Individual Learning|Paloma Rojas|Patricia Loto|||||las/los
+| Cognitive Architecture|Patricia Loto|María Dermit||Lista|||los/las
+| Individual Learning|Paloma Rojas|María Dermit|Patricia Loto|Lista|||las/los
 | A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe|Paloma Rojas|Lista|||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
 | Teaching as a Performance Art| Paola Corrales||||||los/las
-| In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|||las/los
-| Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|||||los/las
-| Teaching Online|Yanina Bellini||||||las/los
-| Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista||los/las
+| In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista||las/los
+| Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Gabriela Sandoval|Lista|||los/las
+| Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista||las/los
+| Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista|Lista|los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 | Why I Teach| Yanina Bellini |Yara Terrazas-Carafa|Alejandra Bellini|Lista|Lista|Lista|las/los
@@ -226,29 +225,29 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 
 | Figuras        |Traductor/a |Revisor/a 1|Revisor/a 2|1ra versión|1ra revisión|2da revisión|Marca de género|
 | ---------------|------------|-----------|-----------|-----------|------------|------------|---------------|
-|2x2-rubric.xml  | Yanina Bellini|Paola Corrales||Lista|||--|
+|2x2-rubric.xml  | Yanina Bellini|Paola Corrales||Lista|Lista|Lista|--|
 |bathtub.xml |Yanina  Bellini|Natalia Morandeira|--|Lista|Lista|Lista|--|
 |chunking-chunked.xml |No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |chunking-unchunked.xml | No necesita traducción| Son números|--|Lista|Lista|Lista|--|
 |cognitive-architecture.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
-|conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista||
+|conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|Lista|
 |conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
-|conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
+|conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista|Lista|
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
-|conceptmap-motivation.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista||Lista|
-|conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|||
-|conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista||Lista|
-|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
+|conceptmap-motivation.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista|Lista|Lista|
+|conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|Lista||
+|conditionals.xml |Yanina Bellini|Paloma Rojas|Natalie Stroud|Lista|Lista|Lista|
+|for-loop.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|Lista|Lista|las/los
 |labeling.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
 |library-director-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |library-friends-concept-map.xml |Yanina Bellini|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
 |library-patron-concept-map.xml |Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 |matching.xml |Yanina Bellini|Priscilla Minotti|Natalie Stroud|Lista||Lista|
-|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista||las/los
+|photosynthesis.xml |Laura Acion|Yanina Bellini|Mónica Alonso|Lista|Lista|Lista|las/los
 |screencast.xml |Yanina Bellini|Natalie Stroud||Lista|Lista||las/los
-|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista||Lista|las/los
-|what-to-teach.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista||Lista|
+|seasons.xml |Yanina Bellini|Mónica Alonso|Natalie Stroud|Lista|Lista|Lista|las/los
+|what-to-teach.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista|Lista|Lista|
 |women-coding |Yanina Bellini|||Lista||||
 |interventions-scaled |Yanina Bellini|||Lista||||
 |enrollment |Yanina Bellini|||Lista||||
