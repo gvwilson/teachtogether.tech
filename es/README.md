@@ -198,8 +198,8 @@ Cualquier duda que surja la resolvemos en el canal del Slack.
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
 | Teaching as a Performance Art| Paola Corrales||||||los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista||las/los
-| Motivation and Demotivation|Silvia Canelón|Gabriela Sandoval|Lista||||los/las
-| Teaching Online|Yanina Bellini|María Dermit||Lista|Lista||las/los
+| Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Gabriela Sandoval|Lista|||los/las
+| Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista||las/los
 | Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista|Lista|los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
@@ -233,7 +233,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 |conceptmap-active-learning.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|Lista|
 |conceptmap-assessment.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-cognitive-load.xml |Laura Acion|Yanina Bellini|Patricia Loto|Lista|Lista||
-|conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista||
+|conceptmap-feedback.xml |Laura Acion|Yanina Bellini|Paola Corrales|Lista|Lista|Lista|
 |conceptmap-mental-models.xml |Laura Acion|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|
 |conceptmap-motivation.xml |Yanina Bellini|Silvia Canelón|Natalie Stroud|Lista|Lista|Lista|
 |conceptmap-personas.xml |Laura Acion|Yanina Bellini|Paloma Rojas|Lista|Lista|Lista||
