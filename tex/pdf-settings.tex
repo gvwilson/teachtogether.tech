@@ -3,7 +3,7 @@
 \debug_on:n { check-declarations , deprecation }
 \ExplSyntaxOff
 % Korean LaTeX packages
-\usepackage{kotex}
+%%- \usepackage[utf]{kotex}
 
 \usepackage{fix-cm}
 \usepackage{amssymb}
@@ -20,6 +20,10 @@
 \usepackage[center]{caption}
 \usepackage{float}
 
+% Adapted from Nemilov.cls.
+\def\dedication#1{\thispagestyle{empty}\par\vspace*{9pc}\hfil{\large \textbf{\emph{Dedication}}}\hfil\par\vspace*{9pt}%
+\hfil {\vrule height.5pt width 7pc}\hfil\par\vspace*{16pt}%
+\vbox{\centering {#1}}}
 
 \hfuzz=30pt % Don't bother to report over-full boxes < 10pt
 \vfuzz=30pt % Don't bother to report over-full boxes < 10pt
