@@ -3,7 +3,7 @@
 ## A. Organización del trabajo
 Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto (ver la tabla al final de estas orientaciones con las personas responsables).
 
-La fuente del libro está en LaTeX, para dudas sobre la sintaxis podemos consultar [esta guía](https://sites.google.com/site/guiadelatex/home) y [esta](http://nokyotsu.com/latex/guia.html), ambas en Español.
+La fuente del libro está en LaTeX, para dudas sobre la sintaxis podemos consultar [esta guía](https://sites.google.com/site/guiadelatex/home) y [esta](http://nokyotsu.com/latex/guia.html), ambas en español.
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
