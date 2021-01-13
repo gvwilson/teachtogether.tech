@@ -70,7 +70,7 @@ Ejemplo:
 
 __9. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la traducción del capítulo deja pasar un tiempo (algunas horas o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas.
 
-## C. Traducción (o no) de términos técnicos.
+## C. Traducción (o no) de términos técnicos
 Hay términos técnicos que será necesario traducir y otros que no. El criterio suele estar en si existe una versión en español extendida (o entendible), o si se suele utilizar la versión original en inglés. En el caso de los últimos, hay que determinar qué género gramatical asignarle y si ofreceremos una traducción explicativa la primera vez que los utilicemos.
 A medida que avancemos con la traducción, la idea es ir discutiendo este punto. A partir de lo que se acuerde, iremos completando las listas de términos.
 
