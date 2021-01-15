@@ -68,7 +68,7 @@ Ejemplo:
 > ... but take three breaths and it's gone.  > ... pero se pasa en un suspiro.
 
 
-__9. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la traducción del capítulo deja pasar un tiempo (algunas horas o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas.
+__9. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la traducción del capítulo deja pasar un tiempo (algunas horas o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas. También es útil revisar el texto en una versión con formato (compilada como pdf o html), ya que seguramente algunos errores serán más visibles que en la versión cruda (ver la sección G de este Readme con algunas instrucciones para compilar).
 
 ## C. Traducción (o no) de términos técnicos
 Hay términos técnicos que será necesario traducir y otros que no. El criterio suele estar en si existe una versión en español extendida (o entendible), o si se suele utilizar la versión original en inglés. En el caso de los últimos, hay que determinar qué género gramatical asignarle y si ofreceremos una traducción explicativa la primera vez que los utilicemos.
@@ -181,7 +181,50 @@ Fuente: punto 2 de https://www.rae.es/dpd/coma
 
 Cualquier duda que surja la resolvemos en el canal del Slack. 
 
-## G. Responsables y Progreso de la traducción
+## G. Cómo compilar el libro como pdf
+
+Durante el proceso de revisión de la traducción, es útil leer el libro en un formato amigable. Una posibilidad es compilarlo como pdf.
+
+__Algunas configuraciones que debes hacer por única vez__
+
+Si ya has usado Latex, en SO Linux es necesario instalar al menos estas librerías extra:
+
+* texlive-lang-spanish
+* texlive-fonts-extra
+* texlive-science
+* texlive-bibtex-extra
+* biber
+* libfontenc-dev
+
+Si no has usado Latex aún, probablemente requieras otras librerías (puedes instalar un editor de Latex para garantizar que tienes las librerías más comunes, por ejemplo Kile en Linux).
+
+Por otro lado, dentro de la carpeta _/es_ del repositorio, en el archivo _book.tex_, chequea si está la línea:
+_\usepackage[utf8]{inputenc}_
+
+Si no está, debes agregarla después de _\documentclass_ pero antes de _\begin{document}_. Esto resuelve un problema de compilación en Linux y no afecta la compilación en Windows.
+
+__Para compilar el libro como pdf__
+
+Ve a la consola o terminal. Navega hasta la carpeta _/es_ de tu copia local del repositorio y ejecuta _make pdf_
+
+¡Listo! Se genera el archivo _book.pdf_ con el libro compilado en pdf. Este archivo sólo quedará en tu copia local del repositorio, ya que está listado en .gitignore.
+
+Si eso no funciona, puedes probar de ejecutar, en vez de _make pdf_, los siguientes comandos (sí, algunos se repiten) y de paso revisar los errores por si señalan la falta de alguna librería más:
+
+	pdflatex --shell-escape book
+	biber book
+	makeindex book
+	pdflatex --shell-escape book
+	pdflatex --shell-escape book
+	pdflatex --shell-escape book 
+
+
+## H. Cómo compilar el libro como html
+
+Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar librerías.
+
+
+## H. Responsables y progreso de la traducción
 
 ### 1. Secciones
 
