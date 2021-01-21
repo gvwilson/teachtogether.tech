@@ -43,7 +43,7 @@ pdf : ${TEX} ${BIB}
 	pdflatex --shell-escape book
 	pdflatex --shell-escape book
 	pdflatex --shell-escape book
-
+	
 # Copy figures.
 ${OUTPUT}/figures/% : figures/%
 	@mkdir -p ${OUTPUT}/figures
