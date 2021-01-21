@@ -43,6 +43,7 @@ pdf : ${TEX} ${BIB}
 	pdflatex --shell-escape book
 	pdflatex --shell-escape book
 	pdflatex --shell-escape book
+	@cp book.pdf libro_enproceso.pdf
 
 # Copy figures.
 ${OUTPUT}/figures/% : figures/%
