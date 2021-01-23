@@ -84,7 +84,8 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
-| marketing ||
+| marketing |
+| ranking ||
 
 
 #### 2. Términos técnicos que se traducen
