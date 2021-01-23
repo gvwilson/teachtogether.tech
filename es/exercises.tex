@@ -1,17 +1,17 @@
-\chapter{Tipos de Ejercicios}\label{s:exercises}
+\chapter{Tipos de ejercicios}\label{s:exercises}
 
-Todo buen carpintero tiene un juego de destornilladores y todo buen docente tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los alumnos y las alumnas, para ayudarlos a practicar sus nuevas habilidades, y para mantener su  compromiso.
+Todo buen carpintero tiene un juego de destornilladores y todo buen docente tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los/las estudiantes, para ayudarlos a practicar sus nuevas habilidades, y para mantener su  compromiso.
 
 Este capítulo comienza describiendo varios tipos de ejercicios que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva.
 
-Luego examina el estado del arte en cuanto a calificación automatizada, y culmina con la exploración de la discusión, proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.
+Luego examina el estado del arte en cuanto a calificación automatizada y culmina explorando discusiones, proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.
 
-Nuestra discusión se basa parcialmente en el banco de preguntas \hreffoot{http://web-cat.org/questionbank/}{Canterbury Question Bank}~\cite{Sand2013}, que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
+Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury \hreffoot{http://web-cat.org/questionbank/}{Canterbury Question Bank}~\cite{Sand2013}, que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
 
 \seclbl{Los clásicos}{s:exercises-classics}
 
-Como se discute en \secref{s:models-formative-assessment}, las \emph{preguntas de opción múltiple} (PMC)  son más efectivas cuando las respuestas incorrectas sondean conceptos erróneos.  
-Están designadas para evaluar los niveles más bajos en la taxonomía de Bloom\index{Bloom's Taxonomy}
+Como se discute en \secref{s:models-formative-assessment}, las \emph{preguntas de opción múltiple} (\emph{MCQ} por sus siglas en Inglés)  son más efectivas cuando las respuestas incorrectas sondean conceptos erróneos específicos.  
+Están designadas para evaluar los niveles más bajos en la \index{Bloom's Taxonomy}
 (\secref{s:process-objectives}) ,pero también puede requerir que los/las estudiantes utilicen su propio juicio/criterio.
 
 \begin{aside}{Una pregunta de opción múltiple}
@@ -29,13 +29,12 @@ Están designadas para evaluar los niveles más bajos en la taxonomía de Bloom\
 \end{aside}
 
 
-El segundo tipo de ejercicio de programación clásico es \emph{códificar y ejecutar} (C\&R, por sus siglas en inglés),
+El segundo tipo de ejercicio de programación clásico es \emph{codificar y ejecutar} (\emph{C\&R}, por sus siglas en inglés),
 donde el estudiante escribe un código que produce una salida especificada. 
-Los ejercicios C\&R pueden ser tan simples o complejos como el docente o la docente quieran, pero cuando se usen en clase deben ser breves y deben tener solamente una o dos respuestas correctas posibles.
-Generalmente es suficiente con pedir a quienes se inician que calculen e impriman un solo valor o que llamen a una función específica:
-
-Docentes experimentados frecuentemente se olvidan de cuán difícil puede ser darse cuenta de cuál parámetro van en qué lugar.
-Para los estudiantes y las estudiantes  más avanzados, darse cuenta de cuál es la función que hay que llamar, es una actividad más atractiva y una mejor evaluación de su comprensión.
+Los ejercicios \emph{C\&R} pueden ser tan simples o complejos como el docente o la docente quiera, pero cuando se usen en clase deben ser breves y tener solo una o dos respuestas correctas posibles.
+Generalmente es suficiente pedir a las personas principiantes que calculen e impriman un solo valor o que llamen a una función específica:
+docentes experimentados a menudo olvidan de lo difícil que puede ser averiguar qué parámetros van en qué lugar.
+Para los/las estudiantes  más avanzados, averiguar qué función llamar, es una actividad más atractiva y una mejor evaluación de su comprensión.
 
 \begin{aside}{Programa \& ejecuta}
 La variable \texttt{picture}contiene una imagen a todo color de un archivo.
@@ -44,11 +43,11 @@ crea una versión blanco y negro de la imagen
 y asígnala a una variable nueva llamada \texttt{monochrome}.
 \end{aside}
 
-Los ejercicios de escribir y ejecutar pueden ser combinados con MCQ.
+Los ejercicios de escritura y ejecución se pueden combinar con preguntas de opción múltiple.
 Por ejemplo,
-este MCQ sólo puede ser contestado ejecutando el comando Unix \texttt{ls}:
+estas preguntas de opción múltiple sólo puede ser contestada ejecutando el comando Unix \texttt{ls}:
 
-\begin{aside}{Combinar MCQ con Programar \& ejecutar}
+\begin{aside}{Combinar preguntas de opción múltiple con programar \& ejecutar}
   Estás en el directorio  \texttt{/home}.
   ¿Cuál de los siguientes archivos está\emph{no está} en dicho directorio?
   \begin{enumerate}
@@ -63,22 +62,22 @@ este MCQ sólo puede ser contestado ejecutando el comando Unix \texttt{ls}:
   \end{enumerate}
 \end{aside}
 
-Los ejercicios de C\&Rs ayudan a practicar las habilidades que más quieren aprender,
+Los ejercicios de C\&Rs ayudan a las personas a practicar las habilidades que más quieren aprender,
 pero pueden ser  difíciles de evaluar:
-puede haber muchos caminos posibles para obtener la respuesta correcta,
-y se genera desánimo si el sistema de evaluación rechaza el código elaborado porque no se corresponde con el del docente.
-Una forma de reducir cuán frecuentemente ocurre esto es evaluar solo la salida,
-pero esto no da feedback sobre cómo están programando.
-Otra manera es darles un pequeño conjunto de pruebas con el que puedan comparar su código antes de enviarlo
-(ya que se corre/ejecuta contra un conjunto de pruebas más completo).
+puede haber muchas maneras inesperadas de obtener la respuesta correcta,
+y la gente se desmoralizará si un sistema de calificación automática rechaza su código porque no se corresponde con el del docente.
+Una forma de reducir la frecuencia con la que esto ocurre es evaluar solo su producción,
+pero eso no les da una devolución sobre cómo están programando.
+Otra manera es darles un pequeño conjunto de evaluación en el que pueden ejecutar su código antes de enviarlo
+(y entonces el código se evalúa con un conjunto más amplio de pruebas).
 Hacer esto les ayuda a descubrir si han malinterpretado completamente la intención del ejercicio antes de hacer cualquier cosa que pueda afectarles la nota.
 
-En vez de escribir código que satisface una cierta especificación, 
-se les puede pedir a los/las estudiantes y a las estudiantes que escriban pruebas que determinen si un fragmento de código satisface una cierta especificación. 
-Esta es una habilidad útil por sí misma, y al hacerlo puede generar en los/las estudiantes un poco más de simpatía por lo duro que trabajan sus profesores.
+En lugar de escribir código que satisface algunas especificaciones,  
+se les puede pedir a los/las estudiantes que escriban pruebas para determinar si un fragmento de código se ajusta a una especificación. 
+Esta es una habilidad útil por sí misma y hacerlo puede dar a los/las estudiantes un poco más de simpatía por lo duro que trabajan sus profesores.
 
 \begin{aside}{Invirtiendo programar \& ejecutar}
- La función \texttt{monotonic\_sum} calcula la suma de una lista de números de una sección, en la que los valores aumentan estrictamente.
+ La función \texttt{monotonic\_sum} calcula la suma de cada sección de una lista de números, en la que los valores aumentan estrictamente.
 
 Por ejemplo,
   dada la entrada \texttt{[1,\ 3,\ 3,\ 4,\ 5,\ 1]},
@@ -99,16 +98,16 @@ Escribe y corre pruebas unitarias para determinar cuál de los siguientes errore
 \end{aside}
 
 
-\emph{Llenar los espacios en blanco} es un refinamiento de C\&R
-donde se le da al estudiante y a la estudiante  el comienzo de un código y debe completarlo
+\emph{Llenar los espacios en blanco} es un refinamiento de \emph{C\&R}
+en el que el/la estudiante recibe el comienzo de un código y debe completarlo.
 
-(En la práctica, la mayoría de los ejercicios C\&R son en realidad del tipo completar los espacios en blanco porque el docente o la  docente proveen comentarios
+(En la práctica, la mayoría de los ejercicios \emph{C\&R} son en realidad del tipo de llenar los espacios en blanco, porque el/la docente proporciona comentarios
 para recordarles a los estudiantes los pasos que deben seguir. 
-Las preguntas de este tipo son la bases para  ejemplos descoloridos;
+Las preguntas de este tipo son las bases para ejemplos desvanecidos;
 como se discute en \chapref{s:architecture},
-las personas principiantes encuentran este tipo de ejercicios  menos intimidante que escribir todo el código desde cero,
-y como el docente o la docente ha provisto la mayor parte de la estructura de la respuesta,
-las respuestas enviadas son más predecibles y fáciles de revisar.
+las personas principiantes a menudo encuentran a este tipo de ejercicios  menos intimidante que escribir todo el código desde cero;
+y dado que el/la docente ha proporcionado la mayor parte de la estructura de la respuesta,
+las respuestas enviadas son mucho más predecibles y, por lo tanto, más fáciles de revisar.
 
 \begin{aside}{Completar los espacios en blanco}
  Completa los espacios en blanco,
@@ -121,15 +120,15 @@ print(slice)
 \end{minted}
 \end{aside}
 
-Los problemas de Parsons \index{Parsons Problem} también evitan el problema de la ``pantalla blanca del terror'' y permiten que los alumnos y las alumnas se concentren en el control del flujo separadamente del vocabulario \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
+El problema de Parsons \index{Parsons Problem} también evitar el problema de la ``pantalla blanca del terror" a la vez que permite que los/las estudiantes se concentren en el flujo de control por separado del vocabulario \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
 
-Existen herramientas  en línea para construir y hacer Problemas de Parsons~\cite{Ihan2011},
-pero pueden ser emuladas (aunque torpemente) 
-pidiendo a los/las estudiantes que reorganicen líneas de código en un editor de texto.
+Existen herramientas para construir y hacer problemas de Parsons en línea~\cite{Ihan2011},
+pero pueden ser emuladas (aunque un poco torpemente) 
+pidiendo a los/las estudiantes que reorganicen las líneas de código en un editor de texto.
 
 \begin{aside}{Problemas de Parsons}
-  Reordena e indenta estas líneas para sumar los valores positivos en una lista.
-  (Agrega también punto y coma en lugares apropiados.)
+  Reorganiza y agrega sangrías a estas líneas para obtener la suma de los valores positivos de una lista.
+  (También deberás agregar dos "dos puntos" en lugares apropiados)
 
 \begin{minted}{text}
 total = 0
@@ -139,24 +138,25 @@ for v in values
 \end{minted}
 \end{aside}
 
-Dar más líneas de las que necesitan los/las estudiantes, o pedirles que reordenen algunas líneas y añadan otras más, hace que los problemas de Parsons sean significativamente más difíciles~\cite{Harm2016}.
+Ten en cuenta que dar a los/las estudiantes más líneas de las que necesitan, o pedirles que reordenen algunas líneas y añadir algunas más, hace que los problemas de Parsons sean significativamente más difíciles~\cite{Harm2016}.
 
 \seclbl{Seguir}{s:exercises-tracing}
 
-\emph{Seguir la ejecución} es lo contrario de un Problema de Parsons: 
+\emph{Seguir la ejecución} es la inversa de un problema de Parsons: 
 dadas unas pocas líneas de código, 
-los/as estudiantes tienen que trazar el orden en el que se ejecutan esas líneas.
-Esta es una habilidad esencial de depuración\index{debugging}
- y una buena manera de consolidar la comprensión de los bucles, los condicionales y el orden de evaluación de las llamadas a funciones y a métodos.
+los/las estudiantes tienen que rastrear el orden en que se ejecutan esas líneas.
 
-La forma más fácil de implementarlo es hacer que los alumnos y las alumnas escriban una secuencia de pasos etiquetados.
+Esta es una habilidad esencial de depuración\index{debugging}
+ y una buena manera de consolidar la comprensión de los/las estudiantes de los bucles, los condicionales y el orden de evaluación de las llamadas a funciones y  métodos.
+
+La forma más fácil de implementarlo es hacer que los/las estudiantes escriban una secuencia de pasos etiquetados.
 Hacer que elijan la secuencia correcta de un conjunto 
-(es decir, presentarla como un MCQ) 
-añade carga cognitiva pero sin añadir valor, 
-ya que tienen que hacer todo el trabajo descifrar cuál es la secuencia correcta, y luego buscarla en la lista de opciones.
+(es decir, presentarla como un preguntas de opción múltiple) 
+añade carga cognitiva sin añadir valor, 
+ya que tienen que hacer todo el trabajo de averiguar  la secuencia correcta y luego buscarla en la lista de opciones.
 
 \begin{aside}{Seguir el orden de ejecución}
-  En qué orden se ejecutan las líneas etiquetadas de este bloque de código?
+  ¿En qué orden se ejecutan las líneas etiquetadas en este bloque de código?
 
 \begin{minted}{text}
 A)     vals = [-1, 0, 1]
@@ -170,14 +170,14 @@ D)         pass
 \end{aside}
 
 \emph{Seguir los valores} es similar a trazar la ejecución, 
-pero en lugar de listar el orden en que se ejecuta el código, 
-el estudiante enumera los valores que una o más variables asumen
- a medida que el programa se ejecuta.
+pero en lugar de deletrear el orden en que se ejecuta el código, 
+el estudiante enumera los valores que una o más variables toman
+ a medida que se ejecuta el programa.
 
-Una forma de implementar esto es dar al estudiante y a la estudiante una tabla 
-cuyas columnas están etiquetadas con nombres de variables 
+Una forma de implementar esto es dar a cada estudiante una tabla 
+cuyas columnas estén etiquetadas con nombres de variables 
 y cuyas filas estén etiquetadas con números de línea, 
-y pedirle que complete los valores que toman las variables en esas líneas.
+y pedirles que completen los valores que las variables toman en dichas líneas.
 
 \newpage
 \begin{aside}{Seguir los valores}
@@ -211,16 +211,16 @@ D)     left, right = right, left % right
 \end{tabular}
 \end{center}
 
-También puedes pedir a los alumnos y a las alumnas que rastreen el código hacia atrás para averiguar cuál debe haber sido la entrada para que el código produzca un resultado determinado~\cite{Armo2008}.
+También puedes requerir que  los/las estudiantes rastreen el código hacia atrás para averiguar cuál debe haber sido la entrada para que el código produzca un resultado determinado~\cite{Armo2008}.
 
 
 Estos problemas de  \emph{ejecución inversa} requieren razonamientos de búsqueda y deducción, 
 y cuando la salida es un mensaje de error, 
-ayudan a los/las alumnos/as a desarrollar habilidades valiosas de depuración.
+ayudan a los/las estudiantes a desarrollar habilidades valiosas de depuración.
 
 \begin{aside}{Ejecución Reversa}
-  Completa el valor numérico faltante en \texttt{values}
-  que causó que esta función se interrumpa.
+  Rellena el número faltante en \texttt{values}
+  que causó que esta función se interrumpiera.
 
 \begin{minted}{text}
 values = [ [1.0, -0.5], [3.0, 1.5], [2.5, ___] ]
@@ -230,19 +230,19 @@ for (reading, scaling) in values:
 \end{minted}
 \end{aside}
 
-\emph{Minimal fix} exercises also help learners develop debugging skills.
+
 Los ejercicios de \emph{ajuste mínimo} también ayudan a desarrollar habilidades de depuración.
 
 Dadas unas pocas líneas de código que contienen un error, el estudiante o la estudiante deben encontrarlo y hacer un pequeño cambio para arreglarlo.
 
 El cambio puede hacerse usando C\&R,
-mientras que la identificación puede hacerse como una pregunta de opción múltiple.
+mientras que la identificación se puede hacer como una pregunta de opción múltiple.
 
 
 \begin{aside}{Ajuste mínimo}
- Se asume que esta función comprueba 
+ Esta función se supone que prueba 
  si un número se encuentra dentro de un rango.
- Haz un pequeño cambio para que la función realmente lo haga.
+ Realiza un pequeño cambio para que la función realmente lo haga.
 
 \begin{minted}{text}
 def inside(point, lower, higher):
@@ -256,8 +256,8 @@ def inside(point, lower, higher):
 \end{aside}
 
 Los ejercicios de \emph{Tema y variación}son similares, 
-pero se pide al alumno o a la alumna que hagan una pequeña alteración que cambie el resultado de alguna manera específica 
-en lugar de hacer un cambio para arreglar un error.
+pero se le pide al/a la estudiante que haga una pequeña alteración que cambie la salida de alguna manera específica 
+en lugar de realizar un cambio para corregir un error.
 Los cambios permitidos pueden incluir cambiar el valor inicial de una variable, 
 reemplazar una llamada de función por otra, 
 intercambiar bucles internos y externos,
@@ -269,7 +269,7 @@ la forma más rápida de producir el código que necesitan
 es ajustando un código que ya hace algo parecido.
 
 \begin{aside}{Tema y variaciones}
-  Cambiar el bucle interior de la siguiente 
+  Cambia el bucle interno de la siguiente 
   función para que llene el triángulo superior izquierdo de una imagen
   con un color especificado.
 
@@ -284,18 +284,18 @@ end
 \end{minted}
 \end{aside}
 
-Los \emph{Ejercicios de Modificación} son el complemento de los ejercicios de  tema y variación: 
-dado un trozo de código que funciona, el estudiante y la estudiante tienen que modificarlo de alguna manera sin cambiar la salida.
+Los \emph{ejercicios de modificación} son el complemento de los ejercicios temáticos y de variación: 
+dado un trozo de código que funciona, el/la estudiante tiene que modificarlo de alguna manera sin cambiar la salida.
 
 Por ejemplo, 
-el alumno o la alumna pueden reemplazar los bucles con expresiones vectorizadas
+el/la estudiante puede reemplazar los bucles con expresiones vectorizadas
  o simplificar la condición en un bucle while
 
-Esto también es una habilidad útil para la vida real, 
-pero como hay tantas formas de modificar el código,
-se necesita inspección humana para poder poner una nota.
+Esta es también una habilidad útil para la vida real, 
+pero a menudo hay tantas formas de modificar el código
+que la calificación requiere inspección humana.
 
-\begin{aside}{Refactoring}
+\begin{aside}{Refactorizar}
   Escribir una sola compresión de lista que tenga el mismo efecto que este bucle.
 
 \begin{minted}{text}
@@ -309,60 +309,61 @@ for v in values:
 
 \seclbl{Diagramas}{s:exercises-diagrams}
 
-Hacer que los alumnos dibujen mapas conceptuales y otros diagramas, brinda una idea de cómo están pensando (\secref{s:memory-concept-maps}),
+Hacer que los estudiantes dibujen mapas conceptuales y otros diagramas, brinda una idea de cómo están pensando (\secref{s:memory-concept-maps}),
 pero los diagramas de forma libre requieren tiempo y juicio humano para evaluarlos.
 
 \emph{Etiquetar los diagramas},
 por otra parte, 
-es pedagógicamente igual de poderoso 
+es casi tan potente pedagógicamente  
 pero mucho más fácil de escalar.
+En lugar de hacer que los/las estudiantes creen diagramas desde cero, puedes entregarles un diagrama y un conjunto de etiquetas, y hacer que coloquen las etiquetas en los lugares correctos.
+El diagrama puede ser una estructura de datos (``después de ejecutar este código, ¿qué variables apuntan a qué partes de esta estructura?''), un gráfico (``une con flechas cada uno de estos fragmentos de código con la parte del gráfico generado''), o el propio código (``haz coincidir cada término con un ejemplo de ese mismo elemento en el programa'').
 
-En lugar de hacer que los alumnos y las alumnas creen diagramas desde cero, hay que proporcionarles un diagrama y un conjunto de etiquetas y hacer que las coloquen en  los lugares correctos.
-El diagrama puede ser una estructura de datos (``después de ejecutar este código, ¿qué variables apuntan a qué partes de esta estructura?''), un gráfico (``aparea cada uno de estos fragmentos de código con la parte del gráfico generado''), o el propio código (``haz coincidir cada término con un ejemplo del mismo en el programa'').
-
-\begin{aside}{Etiquetar un diagrama}
+\begin{aside}{Etiquetado de un diagrama}
   \figref{f:exercises-labeling} muestra
 cómo un fragmento pequeño de HTML se representa en memoria.
-  Pon las etiquetas 1--9 sobre los elementos del árbol 
-  para mostrar el orden de llegada cuando se hace recorrido en profundidad.
-\end{aside}
+  Coloca las etiquetas 1--9 sobre los elementos del árbol 
+  para mostrar el orden en el que se alcanzan en un recorrido en profundidad.
+\end{aside
 
 
-\figpdf{figures/labeling.pdf}{Etiquetando un diagrama}{f:exercises-labeling}
+\figpdf{figures/labeling.pdf}{Etiquetado de un diagrama}{f:exercises-labeling}
 
 
-Otra forma de usar los diagramas es darles a los alumnos y a las alumnas partes del diagrama y pedirles que las ordenen correctamente.
+Otra forma de usar diagramas es dar a tus estudiantes las partes del diagrama y pedirles que las organicen correctamente.
 
-Este es un equivalente visual de un Problema de Parsons, 
-y se puede proporcionar tanto más o menos del esquema para ayudar con la colocación de las etiquetas como se considere apropiado.
+Este es un equivalente visual a un problema de Parsons, 
+y para ayudar con el etiquetado puedes proporcionar más o menos del esqueleto, de acuerdo a la dificultad para la que crees que están preparados/as.
 
-Tengo buenos recuerdos tratando de colocar resistencias y capacitores en un circuito para obtener el voltaje correcto en un punto determinado, y he visto profesores que le dan a sus alumnas un conjunto definido de bloques de Scratch\index{Scratch} y les piden que creen un diseño particular usando sólo esos bloques.
 
-Los \emph{Problemas de Correspondencia} pueden pensarse como un caso especial de etiquetado 
-en el que el ``diagrama'' es una columna de texto 
+
+Tengo buenas memorias de tratar de colocar resistencias y capacitores en un diagrama de circuito con el fin de obtener el voltaje correcto en un punto determinado, y he visto profesores/as que les dan a sus estudiantes un conjunto definido de bloques de Scratch\index{Scratch} y les piden que creen un diseño particular usando solo esos bloques.
+
+Los \emph{problemas de correspondencia} pueden pensarse como un caso especial de etiquetado 
+en el que el ``diagrama" es una columna de texto 
 y las etiquetas se toman de la otra columna.
 
-En la \emph{Correspondencia Uno-a-uno} se le da al estudiante o a la estudiante dos listas de igual longitud y se le pide que asocie los elementos correspondientes, 
-e.g.\ ``asocia cada fragmento de código con la salida que produce''.
+En la \emph{correspondencia uno-a-uno} se le da a cada estudiante dos listas de igual longitud y se le pide que asocie los elementos correspondientes, 
+e.g.\ `` asocia cada fragmento de código con la salida que produce".
 
 \begin{aside}{Correspondencia}
   Asocia cada operador de expresión regular en \figref{f:exercises-matching}
   con lo que hace.
 \end{aside}
 
-\figpdfhere{figures/matching.pdf}{Matching items}{f:exercises-matching}
+\figpdfhere{figures/matching.pdf}{Unir los ítems}{f:exercises-matching}
 
 Con la \emph{correspondencia de muchos a muchos} las listas no tienen la misma longitud, por lo que algunos elementos pueden asociarse con varios
-y otros pueden no tener correspondencias.
+y otros pueden no ser emparejados en absoluto.
 
 Las correspondencias muchos-a-muchos son más difíciles 
 porque los/las estudiantes no pueden hacer los apareamientos fáciles primero para reducir su espacio de búsqueda.
 
-Los problemas de correspondencia pueden ser implementados haciendo que los/las alumnos/as envíen listas de ítems apareados 
+Los problemas de correspondencia pueden ser implementados en exámenes autocorregibles haciendo que los/las estudiantes/as envíen listas de ítems apareados 
 (como ``A3, B1, C2''), 
 pero eso es burdo y propenso a errores.
 
-Hacer que reconozcan un conjunto de pares correctos en un MCQ es aún peor, 
+Hacer que reconozcan un conjunto de pares correctos en un preguntas de opción múltiple es aún peor, 
 ya que es muy fácil de malinterpretar, lamentablemente .
 
 Dibujar o arrastrar funciona mucho mejor, 
@@ -370,22 +371,22 @@ pero puede requerir más trabajo para implementarlo.
 
 
 \emph{Ranking} es un caso especial de emparejamiento 
-que es (ligeramente) más fácil de responder mediante listas, 
-ya que nuestras mentes son bastante buenas para detectar errores o anomalías en las secuencias.
+que es (ligeramente) más fácil de responder a través de listas, 
+ya que nuestras mentes son bastante buenas en la detección de errores o anomalías en las secuencias.
 Los criterios de ranking determinan el nivel de razonamiento requerido.
 
-Si haces que los alumnos y las alumnas ordenen los algoritmos de ranking del más rápido al más lento, probablemente estés ejercitando su memoria 
-(es decir\  pidiéndoles que reconozcan los nombres de los algoritmos y sus propiedades), mientras que al pedirles que clasifiquen las soluciones desde las más robustas a las más frágiles, ejercitas su razonamiento y el juicio.
+Si haces que tus estudiantes ordenen los algoritmos del más rápido al más lento, probablemente estés ejercitando la recuperación
+(es decir\  pidiéndoles que reconozcan los nombres de los algoritmos y que sepan sus propiedades), mientras que al pedirles que ordenen las soluciones de las más robustas a las más frágiles, ejercitas su razonamiento y juicio.
 
-\emph{Resumir} también requiere que los/as alumnos/as utilicen un pensamiento de orden superior y les da la oportunidad de practicar una habilidad que es muy útil para informar sobre errores.
+\emph{Resumir} también requiere que los/as estudiantes/as utilicen un pensamiento de orden superior y les da la oportunidad de practicar una habilidad que es muy útil para informar sobre errores.
 Por ejemplo, 
-se puede les preguntar a los alumnos y a las alumnas,
- ``¿Qué frase describe mejor cómo cambia la salida de f a medida que  x varía de 0 a 10?'' 
-y luego se les dan varias opciones como una pregunta de opción múltiple.
+les puedes preguntar a tus estudiantes:
+ ``¿Qué frase describe mejor cómo cambia la salida de f a medida que  x varía de 0 a 10?" 
+y luego darles varias opciones como una pregunta de opción múltiple.
 
-También puedes pedir respuestas muy cortas de formato libre a preguntas en dominios restringidos, como por ejemplo, ``¿Cuál es la característica clave de un algoritmo de ordenamiento que sea estable?''
+También puedes pedir respuestas muy cortas de formato libre a preguntas en dominios restringidos, como por ejemplo, ``¿Cuál es la característica clave para que un algoritmo de ordenamiento sea estable?”
 No podemos automatizar completamente la comprobación de las respuestas sin generar un número frustrante de falsos positivos 
-(aceptando respuestas erróneas) 
+(aceptando respuestas incorrectas) 
 y falsos negativos (rechazando las correctas), 
 pero las preguntas de este tipo se prestan bien a la clasificación por pares 
 (\secref{s:individual-peer}).
@@ -393,111 +394,114 @@ pero las preguntas de este tipo se prestan bien a la clasificación por pares
 \seclbl{Calificación automática}{s:exercises-grading}
 \index{automatic grading}
 
-Las herramientas de corrección automática han existido desde antes que yo naciera: la primera mención publicada data de 1960, y las encuestas publicadas por~\cite{Douc2005,Ihan2010} nombran muchas herramientas específicas.
+Las herramientas automáticas de corrección de evaluaciones han existido desde antes que yo naciera: la primera mención publicada data de 1960 y las encuestas publicadas por~\cite{Douc2005,Ihan2010} mencionan muchas herramientas específicas por su nombre.
 
-Construir tales herramientas es mucho más complejo de lo que podría parecer a primera vista.
+Construir este tipo de herramientas es mucho más complejo de lo que podría parecer a primera vista.
 
 ¿Cómo se representan las tareas?
 
-¿Cómo se rastrean y reportan los envíos de tareas?
+¿Cómo se realiza un seguimiento y se informan los envíos?
 
-¿Pueden los/as alumnos/as trabajar cooperativamente?
+¿Pueden los/as estudiantes/as trabajar cooperativamente?
 
-¿Cómo se pueden enviar las tareas de manera segura?
+¿Cómo se pueden ejecutar los envíos de forma segura?
 
-\cite{Edwa2014a} es un artículo entero dedicado a un esquema adaptativo para detectar y gestionar bucles infinitos de los envíos de código, y esa es sólo una de las muchas cuestiones que surgen.
+\cite{Edwa2014a} es un artículo entero dedicado a un esquema adaptativo para detectar y gestionar bucles infinitos de los envíos de código, y esa es solo uno de las muchos problemas que surgen.
 
 Cuando se habla de autocalificadores, 
 es importante diferenciar la satisfacción de los/las estudiantes de los resultados del aprendizaje.
 Por ejemplo, 
-\cite{Magu2018} sustituyó los laboratorios informales de programación de un curso de CS de segundo año por una prueba semanal evaluada utilizando un autocalificador.
-A los/as alumnos/as no les gustó el sistema automatizado, 
+\cite{Magu2018} sustituyó los laboratorios informales de programación para un curso de Ciencias de la Computación (\emph{CS} por sus siglas en inglés) de segundo año por una prueba semanal evaluada utilizando un calificador automático.
+A los/as estudiantes/as no les gustó el sistema automatizado, 
 pero la tasa general de fracasos del curso se redujo a la mitad 
-y se triplicó el número de alumnos/as que obtuvieron calificaciones distinguidas.
-Por el contrario , 
-\cite{Rubi2014} también comenzó a utilizar un autocalificador diseñado para competencias, pero no vio una disminución significativa en la tasa de abandono de sus alumnos y alumnas;
+y se triplicó el número de estudiantes/as que obtuvieron calificaciones con honores.
+Por el contrario, 
+\cite{Rubi2014} también comenzó a utilizar un autocalificador diseñado para competencias, pero no vio una disminución significativa en las tasas de deserción de sus estudiantes;
 una vez más, 
-los alumnos y las alumnas hicieron comentarios negativos sobre la herramienta, 
-que los autores atribuyeron a la calidad de los mensajes de retroalimentación más que a una aversión a la autocalificación.
+los/las estudiantes hicieron comentarios negativos sobre la herramienta, 
+que los autores atribuyen a la calidad de los mensajes de retroalimentación más que a una aversión a la autocalificación.
 
 \cite{Srid2016} adoptaron un enfoque diferente.
 Utilizaron \gref{g:fuzz-testing}{fuzz testing} 
-(es decir, fuzzing o fuzz testing, casos de prueba generados al azar) 
-para comprobar si el código del alumno/a hace lo mismo que una implementación de referencia suministrada por el profesor.
-En el primer proyecto de un curso introductorio de 1400 alumnos y alumnas, el fuzz testing identificó errores que no fueron detectados por un conjunto de casos de prueba escritos a mano para más del 48 % de los alumnos.
+(casos de prueba generados aleatoriamente) 
+para comprobar si el código del/de la estudiante/a realiza lo mismo que una implementación de referencia proporcionada por el profesor.
+En el primer proyecto de un curso introductorio de 1400 estudiantes y estudiantes, el fuzz testing identificó errores que no habían sido detectados en un conjunto de casos de prueba escritos a mano para más del 48% de los estudiantes.
 
-\cite{Basu2015}  dio a sus estudiantes una serie de soluciones a casos de prueba, 
-pero tenían que desbloquear cada caso respondiendo a preguntas sobre su comportamiento esperado
-antes de poder aplicar la solución propuesta.
+\cite{Basu2015} dio a sus estudiantes una serie de soluciones a casos de prueba, 
+pero tenían que desbloquear cada caso respondiendo preguntas sobre su comportamiento esperado
+antes de que se les permitiera aplicarlo a la solución propuesta por ellos/as.
 
 Por ejemplo, 
-supongamos que los/as alumnos/as tuvieran que escribir una función para encontrar el mayor par de números adyacentes en una lista.Antes de que se les permitiera usar las pruebas de la pregunta, tenían que elegir la respuesta correcta a, ``¿Qué hace  \texttt{largestPair(4, 3, -1, 5, 3, 3)}''.
+supongamos que los/as estudiantes/as tenían que escribir una función para encontrar el mayor par de números adyacentes en una lista. Antes de que se les permitiera usar las pruebas de la pregunta, tenían que elegir la respuesta correcta a: ``¿Qué produce \texttt{largestPair(4, 3, -1, 5, 3, 3)}?".
 En un curso universitario de 1300 personas, 
-la gran mayoría de los estudiantes y las estudiantes eligió validar su comprensión sobre los casos de prueba de esta manera 
+la gran mayoría de los/las estudiantes optaron por validar su comprensión de los casos de prueba de esta manera 
 antes de intentar resolver los problemas, 
-y luego hicieron menos preguntas y expresaron menos confusión sobre las tareas.
+y luego hicieron menos preguntas y expresaron menos confusión acerca de las tareas.
 
-\begin{aside}{Contra las herramientas disponibles en el mercado}
+\begin{aside}{Contra herramientas disponibles en el mercado}
 Es tentador usar herramientas de revisión de estilo fácilmente disponibles para calificar el código de los/las estudiantes.
 Sin embargo,
 \cite{Nutb2016} inicialmente no encontró correlación entre las calificaciones proporcionadas por personas 
 y las violaciones a las reglas del corrector de estilo.
-A veces esto se debía a que los alumnos y las alumnas violaban una regla muchas veces 
-(perdiendo así más puntos de los que debían), 
-pero otras veces se debía a que enviaban el código de inicio de tarea con pocas alteraciones y obtenían más puntos de los que debían.
+A veces esto se debía a que los/las estudiantes violaban una regla muchas veces 
+(perdiendo así más puntos de los que deberían haber perdido), 
+pero otras veces se debía a que enviaban el código de inicio de tarea con pocas alteraciones y de esa manera obtenían más puntos de los que deberían haber obtenido.
 
- Incluso herramientas construidas específicamente para la enseñanza pueden no estar a la altura de las necesidades de los profesores.
-   \cite{Keun2016a,Keun2016b}  observaron los mensajes producidos por 69 herramientas de autocalificación.
-  Encontraron que a menudo las herramientas de autocalificación no dan retroalimentación sobre cómo arreglar los problemas y dar el siguiente paso.
+ Incluso las herramientas construidas específicamente para la enseñanza pueden quedar por debajo de las necesidades de los profesores.
+   \cite{Keun2016a,Keun2016b}  observaron los mensajes producidos por 69 herramientas de calificación automática.
+  Encontraron que estas herramientas a menudo no dan retroalimentación sobre cómo solucionar problemas y dar el siguiente paso.
     También encontraron que la mayoría de los docentes y las docentes no pueden adaptar fácilmente la mayoría de las herramientas a sus necesidades: 
-como muchas herramientas de flujo de trabajo, tienden a hacer cumplir supuestos no reconocidos por sus creadores, sobre el funcionamiento de sus instituciones.
+como muchas herramientas de flujo de trabajo, tienden a hacer cumplir supuestos no reconocidos por sus creadores sobre cómo funcionan las instituciones.
   Su esquema de clasificación es una lista de compras útil cuando se examinan herramientas de este tipo.
 \end{aside}
 
 \cite{Buff2015} presenta una reflexión bien documentada sobre la idea de proporcionar una retroalimentación automatizada.
 Su punto de partida es que, 
-``Los sistemas de calificación automatizados ayudan a los/las estudiantes a identificar los errores en su código, 
-[pero] pueden inadvertidamente desalentarlos de pensar en forma crítica y a realizar pruebas exhaustivas, 
-fomentando en cambio  la dependencia de las pruebas del profesor''.
-Una de las cuestiones clave que identificaron es que un estudiante o una estudiante pueden probar exhaustivamente su código, pero puede no ser implementado de acuerdo con las especificaciones del profesor.
+``Los sistemas de calificación automatizados ayudan a los/las estudiantes a identificar errores en su código, 
+[pero] pueden inadvertidamente disuadir a los/las estudiantes de pensar críticamente y probar a fondo y, en cambio,  
+fomentan dependencia con las pruebas del profesor".
+Una de las cuestiones clave que identificaron es que un/una estudiante puede probar a fondo su código, pero es posible que la característica aún no se implemente de acuerdo con las especificaciones del/de la docente.
 En este caso, 
-el ``fallo'' no se debe a la falta de pruebas sino a un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema.
-Si el sistema de autocalificación no proporciona una retroalimentación que brinde una mejor comprensión y aplicación de los conocimientos, esta experiencia sólo frustrará al alumno/a.
-Para proporcionar esa retroalimentación, 
-el sistema de \cite{Buff2015} identifica qué métodos son ejecutados por las pruebas fallidas del código del alumno 
-para que el sistema pueda asociar dichas fallas con características particulares de lo que envío el alumno/a.
-El sistema decide si se han ``ganado'' ayudas específicas viendo si el alumno ha testeado lo suficiente la característica asociada, para evitar que se apoye en las ayudas en vez de realizar las pruebas.
-En \cite{Srid2016} se describen otros enfoques para compartir la retroalimentación con los/las estudiantes 
-cuando  estaban testeando automáticamente su código.
-Lo primero es proporcionar la salida esperada para las pruebas---pero 
-luego los alumnos generan salidas hard-code para esas entradas 
-(porque todo lo que se puede hacer se hace).
+el ``fallo" no es causado por la falta de pruebas, si no por un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema.
 
-Lo segundo es informar  los resultados de la aprobación o rechazo del código de los alumnos, 
-pero suministrando las entradas y salidas reales de las pruebas sólo después de la fecha de envío.
+If the auto-grading system doesn’t provide insightful, actionable feedback, this experience will only frustrate the learner.
+
+Si el sistema de calificación automática no proporciona una retroalimentación que brinde una mejor comprensión y aplicación de los conocimientos, esta experiencia sólo frustrará al estudiante/a.
+Con el fin de proporcionar esa retroalimentación, 
+el sistema de \cite{Buff2015} identifica qué métodos en el código del/de la estudiante  se ejecutan mediante pruebas fallidas 
+para que el sistema pueda asociar pruebas fallidas con características particulares de lo que envió el/la estudiante.
+El sistema decide si se han ``ganado" ayudas específicas viendo si el estudiante ha probado la característica asociada lo suficiente, para evitar que los/las estudiantes se apoyen en las ayudas en vez de realizar las pruebas.
+En \cite{Srid2016} se describen otros enfoques para compartir la retroalimentación con los/las estudiantes 
+cuando se prueba automáticamente su código.
+Lo primero es proporcionar la salida esperada para las pruebas---pero 
+luego los estudiantes generan la salida de código duro para esas entradas 
+(porque todo lo que se pueda jugar será).
+
+Lo segundo es informar  los resultados de la aprobación o rechazo del código de los estudiantes, 
+pero suministrando las entradas y salidas reales de las pruebas solo después de la fecha de envío.
 Sin embargo, 
-es frustrante decirles a los alumnos que se equivocaron sin decirles por qué.
-Una tercera opción es utilizar una técnica llamada ``hashing'' para generar un valor que depende de la salida pero sin revelarla.
+decirles a los/las estudiantes que están equivocados/as pero no decirles por qué es frustrante.
+Una tercera opción es utilizar una técnica llamada \gref{g:hashing}{hashing} para generar un valor que depende de la salida pero sin revelarla.
 
 Si el usuario produce exactamente el resultado correcto
-su hash desbloqueará la solución, 
-pero es imposible hacer el camino inverso a partir del hash para averiguar cuál es resultado supuesto.
+entonces su hash desbloqueará la solución, 
+pero es imposible hacer el camino inverso a partir del hash para averiguar cuál se supone que es la salida.
 
-El hash requiere más trabajo y explicación para configurarlo, 
-pero da un buen balance entre mostrar la respuesta de manera prematura y no revelarla cuando podría ser de ayuda.
+Hashing requiere más trabajo y explicación para configurarlo, 
+pero logra un buen balance entre revelar respuestas prematuramente  y no revelarlas cuando podría ser de ayuda.
 
-\seclbl{Higher-Level Thinking}{s:exercises-higher}
+\seclbl{Razonamientos de alto nivel}{s:exercises-higher}
 
-Muchos tipos de ejercicios de programación son difíciles de evaluar por profesores en una clase con más de un puñado de alumnos y alumnas, e igualmente difícil para evaluar mediante plataformas automatizadas.
-Las clases van desarrollándose con vistas a proyectos de programación mayores (si todo va bien) , 
+Muchos tipos de ejercicios de programación son difíciles de evaluar por docentes en una clase con más de un puñado de estudiantes, e igualmente difícil para evaluar mediante plataformas automatizadas.
+Las clases van desarrollándose con vistas a proyectos de programación mayores (si todo va bien), 
 pero la única manera de dar retroalimentación es caso por caso.
-La \emph{Revisión de código} es, en general, también  difícil de calificar automáticamente,
-pero puede ser abordada si se les da a los/las estudiantes una lista de fallos y se les pide que cotejen determinados comentarios con determinadas líneas de código.
+La \emph{revisión de código} también es, en general, difícil de calificar automáticamente,
+pero puede ser abordada si se proporciona a  los/las estudiantes una lista de fallos a buscar y se les pide que comparen comentarios con líneas de código concretas.
 
 Por ejemplo, 
-se le puede decir a la alumna que hay dos errores de indentación y un nombre de variable malo y pedirle que los señale.
+se le puede decir a un estudiante que hay dos errores de sangría y un nombre de variable incorrecto y se le puede pedir que los señale.
 
-Si son alumnos/as más avanzados, se les podría dar una media docena de tipos de comentarios que podrían hacerse sobre el código sin que se les diga cuánto de cada uno debería encontrar.
+Si son estudiantes/as más avanzados/as, se les podría dar media docena de tipos de comentarios que podrían hacerse sobre el código sin que se les diga cuánto de cada uno debería encontrar.
 
 \cite{Steg2016b} es un buen punto de partida para una rúbrica de estilo de código, mientras que~\cite{Luxt2009} muestra la revisión por pares en las clases de programación de manera más general.
 
@@ -526,69 +530,71 @@ Si se pide a los/las estudiantes que hagan revisiones, hay que usar la revisión
 
 \seclbl{Ejercicios}{s:exercises-exercises}
 
-\exercise{Programar y ejecutar}{en pares}{10'}
+\exercise{Programar y ejecutar}{en pares}{10’}
 
-Crea un ejercicio corto de C\&R, 
-luego intercambia con un compañero 
-y mira cuánto tiempo les toma a cada uno de ustedes entender y hacer el ejercicio del otro
+Crea un ejercicio corto de \emph{C\&R}, 
+luego intercambia con un par 
+y analiza cuánto tiempo les toma a cada uno de ustedes entender y hacer el ejercicio del otro
 
 ¿Hubo alguna ambigüedad o malentendido en la descripción del ejercicio?
 
-\exercise{Invertir el código y la ejecución}{grupos pequeños}{15'}
+\exercise{Invertir el código y la ejecución}{grupos pequeños}}{15’}
 
 Forma grupos de 4 a 6 personas.
-Haz que cada miembro del grupo cree un ejercicio de C\&R invertido que requiera que las personas averigüen qué entrada produce una salida en particular.
+Haz que cada miembro del grupo cree un ejercicio de \emph{C\&R} invertido que requiera que las personas averigüen qué entrada produce una salida en particular.
 Elige dos al azar 
-y mira cuántas entradas diferentes que satisfagan los requisitos puede encontrar el grupo.
+y mira cuántas entradas diferentes que satisfagan los requisitos puede encontrar el grupo .
 
-\exercise{Siguiendo valores}{en pares}{10'}
+\exercise{Siguiendo valores}{en pares}{10’}
 
 Escribe un programa corto (10-15 líneas),
- intercambia con una compañera y 
+ intercambia con un par y 
 traza cómo las variables del programa cambian de valor con el tiempo.
-¿Qué diferencias hay en la forma en que tú y tu compañero escribieron sus trazas?
+¿Qué diferencias hay en la forma en que tú y tu compañero/a escribieron sus trazas?
 
-\exercise{Refactoring}{grupos pequeños}{15'}
+\exercise{Refactoring}{grupos pequeños}{15’}
 
 Forma grupos de 3-4 personas.
 
-Haz que cada persona seleccione un trozo corto de código que haya escrito  (de 10 a 30 líneas de largo) y que no sea tan ordenado como podría ser, 
-luego elige una alumna al azar y haz que todos en el grupo lo ordenen independientemente.
+
+Haz que cada persona seleccione un fragmento corto de código (10--30 líneas de largo) que haya escrito  que no sea tan ordenado como podría ser, 
+luego elige una estudiante al azar y que todas las personas de la clase lo ordenen independientemente.
 
 ¿En qué se diferencian las versiones limpias?
-¿Qué tan bien o mal podrían acomodarse todas estas variaciones si se calificara automáticamente, o en una clase numerosa?
+¿Qué tan bien o que tan mal podrían acomodarse todas estas variaciones si se calificara automáticamente, o en una clase grande?
 
-\exercise{Rotulando un Diagrama}{de a pares}{10'}
+\exercise{Rotulando un diagrama}{de a pares}{10’}
 
 Dibuja un diagrama mostrando algo que se ha explicado recientemente: cómo los navegadores obtienen datos de los servidores, la relación entre los objetos y las clases,
 o cómo se indexan los dataframes en R.
 
 Pon las etiquetas en el lateral y pídele a tu compañera que las coloque.
 
-\exercise{Acertijos de Lápiz y Papel}{toda la clase}{15'}
+\exercise{Acertijos de lápiz y papel}{toda la clase}{15’}
 
-\cite{Butl2017} describe un conjunto de rompecabezas de lápiz y papel que pueden convertirse en asignaciones de programación introductorias, señalando que estas tareas son disfrutadas por los/as alumnos/as y que fomentan la meta-cognición.
-Piensa en un simple acertijo o juego de lápiz y papel al que jugabas de niño 
+\cite{Butl2017} describe un conjunto de rompecabezas de lápiz y papel que pueden convertirse en asignaciones de programación introductorias, señalando que estas tareas son disfrutadas por los/as estudiantes/as y que fomentan la metacognición.
+Piensa en un simple rompecabezas de lápiz y papel al que jugabas en tu niñez
 y describe cómo lo convertirías en un ejercicio de programación.
 
-\exercise{Contando Fallos}{de a pares}{15'}
+\exercise{Contando fallos}{de a pares}{15’}
 Cualquier estimación útil de cuánto tiempo se necesita para resolver un ejercicio 
-debe considerar cuán  frecuentes son los fallos y cuánto tiempo se pierde con ellos.
+debe considerar cuán frecuentes son los fallos y cuánto tiempo se pierde con ellos.
 Por ejemplo, 
 editar archivos de texto parece una tarea sencilla, 
-pero ¿qué hay de localizar esos archivos?
-La mayoría de los editores que usan interfase gráfica (GUI) guardan las cosas en el escritorio de la usuaria o en su directorio personal; si los archivos utilizados en un curso se almacenan en otro lugar, una proporción importante de los/las estudiantes no podrá navegar al directorio correcto sin ayuda.
-(Si esto te parece un problema menor, por favor vuelve a la discusión del punto ciego de las personas expertas en \chapref{s:memory}.)
+pero ¿qué pasa con la búsqueda de esos archivos?
+La mayoría de los editores que usan interfase gráfica (GUI, por su sigla en inglés) guardan archivos en el escritorio o en el directorio personal del usuario/a; si los archivos utilizados en un curso se almacenan en otro lugar, una proporción importante de los/las estudiantes no podrá navegar al directorio correcto sin ayuda.
+(Si esto te parece un problema menor, por favor vuelve a visitar la discusión del punto ciego de las personas expertas en \chapref{s:memory}.)
 
 
 Trabajando con un compañero, haz una lista de las cosas ``simples'' que has notado que salen mal en los ejercicios que has usado o tomado.
 
 ¿Con qué frecuencia aparecen?
 
-¿Cuánto tiempo tardan los alumnos en arreglarse solos o con ayuda?
+¿Cuánto tiempo tardan los estudiantes en arreglarse por su cuenta o con ayuda?
 
-¿Cuánto tiempo de clase asignas actualmente para tratarlos?
+¿Cuánto tiempo de clase asignas actualmente para lidiar con estos problemas?
 
 
-\exercise{Hablando de Tiempo}{individual}{10'}
+\exercise{Hablando de tiempo}{individual}{10’}
+
 ¿Qué tan precisas han sido las estimaciones de tiempo de los ejercicios de este libro hasta ahora?
