@@ -82,6 +82,7 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | commits        | contexto: git  |
 | fuzz testing |contexto: desarrollo de software|
 | heap | contexto: python |
+| hardware |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
 | marketing |
