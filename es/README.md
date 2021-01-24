@@ -237,7 +237,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Introduction| Natalia Morandeira|Yanina Bellini|Zulemma Bazurto|Lista|Lista|Lista|las/los
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
-| Cognitive Architecture|Patricia Loto|María Dermit||Lista|Lista||los/las
+| Cognitive Architecture|Patricia Loto|María Dermit|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Individual Learning|Paloma Rojas|María Dermit||Lista|Lista||las/los
 | A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe||Lista|Lista||los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
