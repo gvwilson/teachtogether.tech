@@ -243,7 +243,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
 | Teaching as a Performance Art| Paola Corrales|Yuriko Sosa||Lista|Lista||los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista|Lista|las/los
-| Motivation and Demotivation|Silvia Canelón|Yuriko Sosa||Lista|Lista||los/las
+| Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Yanina Bellini |Lista|Lista|Lista|los/las
 | Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista||las/los
 | Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista|Lista|los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
