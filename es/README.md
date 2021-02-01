@@ -35,10 +35,15 @@ __4. Género gramatical.__ A diferencia del inglés, el español tiene género g
 | al/a la aprendiz |a tus estudiantes |
 | al/a la docente |al conjunto de docentes |
    
-     
-   d. Cuando terminemos de realizar la traducción y las dos revisiones, la traductora volverá a realizar una lectura del capítulo y como práctica final hacer una búsqueda de las barras "/" (Ctrl+F) e intentar cambiar la mayor cantidad a lenguaje neutro.
+   d. La lectura del lenguaje no sexista con las conjunciones "al" y "del" es complicada.  
+      
+   - Caso de capítulo los/las: "al/a la docente" "del/de la docente": dejar el masculino en la conjunción, pero no en el sustantivo si este tiene marca de género: "Al usuario/a".
+      
+   - Caso de capítulo las/los: "a la/al docente" "de la/del docente": dejar el femenino en el artículo, pero no en el sustantivo si este tiene marca de género: "A la usuaria/o".
    
-   e. Para resolver más dudas utilizaremos [esta guía](https://www4.hcdn.gob.ar/dependencias/dprensa/guia_lenguaje_igualitario.pdf) como fuente y agregaremos los ejemplos correspondientes en estas orientaciones. 
+   e. Cuando terminemos de realizar la traducción y las dos revisiones, la traductora volverá a realizar una lectura del capítulo y como práctica final hacer una búsqueda de las barras "/" (Ctrl+F) e intentar cambiar la mayor cantidad a lenguaje neutro.
+   
+   f. Para resolver más dudas utilizaremos [esta guía](https://www4.hcdn.gob.ar/dependencias/dprensa/guia_lenguaje_igualitario.pdf) como fuente y agregaremos los ejemplos correspondientes en estas orientaciones. 
 
 __5. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
 
@@ -244,7 +249,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Teaching as a Performance Art| Paola Corrales|Yuriko Sosa||Lista|Lista||los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista|Lista|las/los
 | Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Yanina Bellini |Lista|Lista|Lista|los/las
-| Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista||las/los
+| Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista|Lista|las/los
 | Exercise Types|Priscilla Minotti|Roxana Villafañe|Natalie Stroud|Lista|Lista|Lista|los/las
 | Building a Community of Practice| Yanina Bellini| Yara Terrazas-Carafa| Alejandra Bellini | Lista | Lista | Lista |las/los
 | Outreach|Juliana Benitez|Natalia Morandeira|Natalie Stroud|Lista|Lista|Lista|los/las
@@ -257,7 +262,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|las/los
-| References| ||||||los/las
+| References|Yanina Bellini ||||||los/las
 
 
 ### 2. Figuras y diagramas
