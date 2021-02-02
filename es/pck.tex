@@ -4,23 +4,22 @@ Cada docente necesita tres cosas:
 
 \begin{description}
 
-\item[\gref{g:content-knowledge}{conocimiento del contenido}]
+\item[\gref{g:content-knowledge}{conocimiento del contenido}],
   por ejemplo, como programar;
 
-\item[\gref{g:general-pedagogical-knowledge}{conocimiento general de pedagogía}]
+\item[\gref{g:general-pedagogical-knowledge}{conocimiento general de pedagogía}],
   por ejemplo, comprensión de la psicología del aprendizaje;
   y
 
-\item[\gref{g:pedagogical-content-knowledge}{conocimiento de la pedagogía del contenido}]
-  (PCK por Pedagogical Content Knowledge en inglés),
-  que es el conocimiento específico de cómo enseñar un concepto particular a una audiencia en particular.
+\item[\gref{g:pedagogical-content-knowledge}{conocimiento de la pedagogía del contenido}],
+  que es el conocimiento específico acerca de cómo enseñar un concepto particular a un público en particular.
   En informática,
-  PCK incluye cosas tales como qué ejemplos usar cuando se enseña, como se incluyen parámetros en una función o qué conceptos erróneos son los más comunes sobre etiquetas HTML anidadas.
+  el conocimiento de la pedagogía del contenido incluye qué ejemplos usar cuando se enseña, cómo se incluyen parámetros en una función o qué concepciones erróneas sobre etiquetas HTML anidadas son los más comunes.
 \end{description}
 
 Podemos agregar conocimiento técnico a este conjunto~\cite{Koeh2013},
-pero eso no cambia el punto clave: no es suficiente saber sobre el tema y como enseñar---tienes que saber cómo enseñar ese tema en particular~\cite{Maye2004}.
-Este capítulo resume algunos resultados de investigaciones sobre enseñanza de informática para añadir a tu colección de PCK.
+pero eso no cambia el punto clave: no es suficiente saber sobre el tema y cómo enseñar---tienes que saber cómo enseñar ese tema en particular~\cite{Maye2004}.
+Este capítulo resume algunos resultados de investigaciones sobre enseñanza de informática para añadir a tu colección sobre el conocimiento de la pedagogía del contenido.
 
 Como con toda investigación,
 se requiere cierta precaución al interpretar los resultados:
@@ -28,52 +27,52 @@ se requiere cierta precaución al interpretar los resultados:
 \begin{description}
 
 \item[Las teorías cambian a medida que se obtienen más datos.]
-  La investigación en educación en informática (CER, por Computing education research en inglés) es una disciplina nueva:\index{computing education research}
-  la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Profesores de Matemática en 1920, pero la Asociación de Profesores de Informática no se creó hasta 2005.
+  La investigación sobre educación en informática es una disciplina nueva:\index{computing education research}
+  la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920, pero la Asociación de Docentes de Informática no se creó hasta 2005.
   Mientras que existe un flujo constante de nuevo conocimiento en conferencias como \hreffoot{http://sigcse.org/}{SIGCSE},
-  \hreffoot{http://iticse.acm.org/}{ITiCSE},
-  y \hreffoot{https://icer.hosting.acm.org}{ICER},
-  simplemente no sabemos tanto sobre como aprender a programar como sí sabemos sobre aprender a leer, jugar un deporte o resolver cálculos simples.
+  \hreffoot{http://iticse.acm.org/}{ITiCSE}
+  e \hreffoot{https://icer.hosting.acm.org}{ICER},
+  simplemente no sabemos tanto sobre cómo aprender a programar como sí sabemos sobre aprender a leer, jugar un deporte o resolver cálculos simples.
  
-\item[La mayoría de las personas en estos estudios son WEIRD:]\index{WEIRD}
-  viven en sociedades occidentales, democráticas, industrializadas y con alto nivel de riqueza y educación (WEIRD por Western, Education, Industrialized, Rich, and Democratic en inglés)~\cite{Henr2010}.
+\item[La mayoría de las personas en estos estudios
+  viven en sociedades occidentales, democráticas, industrializadas y con alto nivel de riqueza y educación], tal como señala ~\cite{Henr2010}.
   Además,
-  son principalmente jóvenes en contextos formales, ya que es la población a la que la mayoría de las personas que investigan tienen fácil acceso.
-  Sabemos mucho menos sobre adultos, grupos marginados y estudiantes en contextos no formales o \grefdex{g:end-user-programmer}{usuario final programador}{usuario final programador},
+  son principalmente jóvenes que estudian en instituciones educativas, ya que es la población a la que la mayoría de las personas que investigan tienen fácil acceso.
+  Sabemos mucho menos sobre adultos, grupos marginados y estudiantes en ambientes educativos flexibles (estudiantes free-range), así como sobre \grefdex{g:end-user-programmer}{usuarias/os finales programadoras/es}{usuario final programador},
   aún cuando son la mayoría.
 
 \end{description}
 
 Si esto fuera un ensayo académico, empezaría la mayoría de oraciones con frases como,
 ``Algunas investigaciones parece indicar que{\ldots}''
-Pero dado que los y las docentes en las aulas tienen que tomar decisiones independientemente de si las investigaciones tienen respuestas claras o no, este capítulo presenta las mejores conjeturas prácticas en lugar de sutiles posibilidades.
+Pero dado que las/los docentes reales que enseñan en aulas reales tienen que tomar decisiones independientemente de si las investigaciones tienen respuestas claras o no, este capítulo presenta las mejores conjeturas prácticas en lugar de sutiles posibilidades.
 
 \begin{aside}{Jerga}
   Como cualquier especialidad,
-  CER tiene jerga.
+  la investigación sobre educación en informárica tiene jerga.
   \gref{g:cs1}{CS1} refiere a un curso introductorio de un semestre de duración, donde los estudiantes aprenden variables, bucles y funciones por primera vez, mientras que \gref{g:cs2}{CS2} refiere a un segundo curso que cubre las estructuras de datos básicas como pilas y colas, 
   y \gref{g:cs0}{CS0} se refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con computación de inmediato.
-  Las definiciones completas de estos términos se encuentran en \hreffoot{https://www.acm.org/education/curricula-recommendations}{Lineamientos del programa ACM}.
+  Las definiciones completas de estos términos se encuentran en los \hreffoot{https://www.acm.org/education/curricula-recommendations}{lineamientos del programa ACM}.
 \end{aside}
 
 \seclbl{¿Qué les estamos enseñando ahora?}{s:pck-now}
 
-Se sabe muy poco sobre qué enseñan en coding bootcamps e iniciativas no formales, en parte porque muchas personas son reticentes a compartir los programas.
+Se sabe muy poco sobre qué se enseña en entrenamientos de programación intensivo e iniciativas free-range, en parte porque muchas personas son reticentes a compartir los programas.
 Sabemos más sobre lo que  se enseña en instituciones~\cite{Luxt2017}:
 
 \begin{longtable}{llll}
 \textbf{Temas}            & \textbf{\%}    & \textbf{Temas}        & \textbf{\%} \\
 Proceso de programación         & 87\%        & Tipos de datos                & 23\% \\
-Pensamiento abstracto para programación    & 63\%        & Entrada /Salida                  & 17\% \\
+Pensamiento abstracto para programación    & 63\%        & Entrada/Salida                  & 17\% \\
 Estructuras de datos              & 40\%        & Librerías                     & 15\% \\
-Conceptos orientados a objetos        & 36\%        & Variables y Asignación       & 14\% \\
+Conceptos orientados a objetos        & 36\%        & Variables y asignación       & 14\% \\
 Estructuras de control              & 33\%        & Recursión             & 10\% \\
-Operaciones y Funciones         & 26\%        & Punteros y administración de memoria    &  5\%
+Operaciones y funciones         & 26\%        & Punteros y administración de memoria    &  5\%
 \end{longtable}
 
 Títulos de temas de alto nivel como estos pueden esconder una gran cantidad de fallas.
 Un resultado más tangible surge de \cite{Rich2017},
-donde revisa cien artículos para encontrar trayectorias de aprendizaje para clases de computación en escuelas primarias y secundarias.
+quienes revisaron cien artículos y encontraron trayectorias de aprendizaje para clases de computación en escuelas primarias y secundarias.
 Sus resultados para la secuenciación, la repetición y los condicionales son esencialmente mapas conceptuales colectivos
 que combinan y racionalizan el pensamiento implícito y explícito de gran cantidad de docentes.
 (\figref{f:pck-trajectory}).
@@ -84,44 +83,44 @@ que combinan y racionalizan el pensamiento implícito y explícito de gran canti
 
 \seclbl{¿Cuánto están aprendiendo?}{s:pck-learning}
 
-Puede haber un mundo de distancia entre lo que enseñan las/los docentes y cuánto aprenden las personas.
-Para explorar lo último, debemos usar otras medidas o hacer estudios directos.
+Puede haber un mundo de distancia entre lo que enseñan las/los docentes y cuánto aprenden sus estudiantes.
+Para explorar cuánto se aprende, debemos usar otras medidas o hacer estudios directos.
 Tomando el primer enfoque, aproximadamente dos tercios de las/los estudiantes de nivel superior aprueban su primer curso de informática,
 con algunas variaciones dependiendo del tamaño de la clase,
 pero sin diferencias significativas a lo largo del tiempo o basadas en el lenguaje~\cite{Benn2007a,Wats2014}.
 
 ¿Cómo afecta la experiencia previa a estos resultados?\index{effect of prior experience}
 Para responder esto,
-\cite{Wilc2018} compara el desempeño y la confianza de personas novatas
+\cite{Wilc2018} compararon el desempeño y la confianza de personas novatas
 con y sin experiencia previa en programación en CS1 y CS2 (ver más abajo).
 Encontraron que personas novatas con experiencia previa superaron a personas sin experiencia en un 10\% en CS1,
 pero esas diferencias desaparecieron hacia el final de CS2.
 También encontraron que las mujeres con experiencia previa superaron a sus pares masculinos en todas las áreas,
 pero siempre tenían menos confianza en sus habilidades. (\secref{s:motivation-inclusivity}).
 
-En cuanto a estudios sobre cuanto aprenden las personas novatas,
-\cite{McCr2001} presenta un estudio internacional en múltiples espacios que luego fue replicado por~\cite{Utti2013}.
+En cuanto a estudios sobre cuánto aprenden las personas novatas,
+\cite{McCr2001} presentaron un estudio internacional en múltiples espacios que luego fue replicado por~\cite{Utti2013}.
 De acuerdo al primer estudio,
 ``{\ldots}los decepcionantes resultados sugieren que
 muchas/os estudiantes no saben cómo programar al final de los cursos introductorios''.
 Más específicamente,
 ``Para una muestra combinada de 216 estudiantes de cuatro universidades,
-la puntuación media fue de 22,89 sobre 110 puntos en los criterios generales de evaluación desarrollados para este estudio''
+la puntuación media fue de 22,89 sobre 110 puntos en los criterios generales de evaluación desarrollados para este estudio.''
 Este resultado puede hablar tanto de las expectativas de profesores como de la habilidad de las/los estudiantes,
 pero de cualquier manera,
 nuestra primera recomendación es \recommendation{medir y hacer un seguimiento de los resultados}
 de tal manera que se puedan comparar a través del tiempo para que puedas saber si tus lecciones se están volviendo más o menos efectivas.
 
-\seclbl{¿Qué conceptos erróneos tienen las personas novatas?}{s:pck-misunderstand}
+\seclbl{¿Qué concepciones erróneas tienen las personas novatas?}{s:pck-misunderstand}
 
-\chapref{s:models} explicó por qué aclarar los conceptos erróneos a las personas novatas es tan importante, como enseñarles
+\chapref{s:models} explicó por qué aclarar las concepciones erróneas a las personas novatas es tan importante como enseñarles
 estrategias para resolver problemas.
 La mayor confusión de las personas novatas ---a veces llamada el ``superbug'' en programación ---es\index{superbug}
 la creencia de que las computadoras entienden lo que las personas quieren decir de la misma manera que cualquier ser humano lo haría~\cite{Pea1986}.
 Nuestra segunda recomendación es entonces \recommendation{enseñar a las personas novatas que las computadoras no entienden los programas},
 es decir, que llamar a una variable ``precio'' no garantiza que su valor sea realmente un precio.
 
-\cite{Sorv2018}  muestra más de cuarenta conceptos erróneos que docentes también pueden intentar aclarar,
+\cite{Sorv2018}  muestra más de cuarenta concepciones erróneas que las/los docentes también pueden intentar aclarar,
 muchos de las cuales también se discuten en el estudio de~\cite{Qian2017}.
 Una es la creencia de que las variables en los programas funcionan de la misma manera que en planillas de cálculo,
 es decir, que luego de ejecutar:
@@ -610,10 +609,10 @@ por favor ayuda a que ese día se acerque publicando tu trabajo en lugares de ac
 
 \seclbl{Ejercicios}{s:pck-exercises}
 
-\exercise{Conceptos erróneos de tus estudiantes}{grupos pequeños}{15'}
+\exercise{Concepciones erróneas de tus estudiantes}{grupos pequeños}{15'}
 
 Trabajando en grupos pequeños,
-vuelvan a leer la \secref{s:pck-misunderstand} y escriban una lista de conceptos erróneos que piensan que pueden tener sus estudiantes.
+vuelvan a leer la \secref{s:pck-misunderstand} y escriban una lista de concepciones erróneas que piensan que pueden tener sus estudiantes.
 ¿Qué tan específicos son?
 ¿Cómo verificarían que tan precisa es su lista?
 
@@ -735,13 +734,13 @@ Mira la lista de intervenciones desarrolladas por~\cite{Viha2014} (\secref{s:pck
 ¿Cuáles podrías agregar fácilmente?
 ¿Cuáles son irrelevantes?
 
-\exercise{Conceptos erróneos y desafíos}{grupos pequeños}{15'}
+\exercise{Concepciones erróneas y desafíos}{grupos pequeños}{15'}
 
 El sitio \hreffoot{http://www.pd4cs.org/}{Desarrollo Profesional para la Enseñanza de Principios  de CS}
-incluye \hreffoot{http://www.pd4cs.org/mc-index/}{una lista detallada de conceptos erróneos de estudiantes y ejercicios}.
+incluye \hreffoot{http://www.pd4cs.org/mc-index/}{una lista detallada de concepciones erróneas de estudiantes y ejercicios}.
 Trabajando en grupos pequeños,
 elige una sección (por ejemplo, estructura de datos o funciones) y revisa la lista.
-¿Cuáles de estos conceptos erróneos recuerdas haber tenido cuando eras estudiante?
+¿Cuáles de estas concepciones erróneas recuerdas haber tenido cuando eras estudiante?
 ¿Cuáles tienes todavía?
 ¿Cuáles has visto en tus estudiantes?
 
