@@ -243,10 +243,10 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Mental Models and Formative Assessment|Natalia Morandeira|Ruth Chirinos|Alejandra Bellini|Lista|Lista|Lista|los/las
 | Expertise and Memory|Mónica Alonso|Natalia Morandeira|Silvia Canelón|Lista|Lista|Lista|las/los
 | Cognitive Architecture|Patricia Loto|María Dermit|Natalia Morandeira|Lista|Lista|Lista|los/las
-| Individual Learning|Paloma Rojas|María Dermit||Lista|Lista||las/los
-| A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe||Lista|Lista||los/las
+| Individual Learning|Paloma Rojas|María Dermit|Natalia Morandeira|Lista|Lista|Lista|las/los
+| A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
-| Teaching as a Performance Art| Paola Corrales|Yuriko Sosa||Lista|Lista||los/las
+| Teaching as a Performance Art| Paola Corrales|Yuriko Sosa|Yanina Bellini|Lista|Lista|Lista|los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista|Lista|las/los
 | Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Yanina Bellini |Lista|Lista|Lista|los/las
 | Teaching Online|Yanina Bellini|María Dermit|Yuriko Sosa|Lista|Lista|Lista|las/los
