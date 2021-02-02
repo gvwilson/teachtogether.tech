@@ -22,7 +22,7 @@ __4. Género gramatical.__ A diferencia del inglés, el español tiene género g
 
 * Si no podemos evitar usar marca de género, lo más aceptado por el momento es el desdoblamiento, femenino-masculino o masculino-femenino, que puede ser de dos maneras, por ejemplo: las/los estudiantes, los/las estudiantes; o bien los y las estudiantes, las y los estudiantes, etc.  En esta traducción, al desdoblar:
 
-   a. Vamos a utilizar *los/las* ó *los/las* privilegiando la agilidad y fluidez del texto, que el mismo se entienda y que sea claro el mensaje
+   a. Vamos a utilizar *los/las* ó *las/los* privilegiando la agilidad y fluidez del texto, que el mismo se entienda y que sea claro el mensaje
 
    b. Para que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, entre capítulos y el uso será consistente durante todo el capítulo (en la tabla de la sección *G* se detalla que desdoblamiento le toca a cada capítulo).
    
@@ -154,7 +154,19 @@ Cuando se encuentre una referencia a una entrada en Wikipedia se buscará la ver
 
 Cuando se encuentre una referencia a una lección de The Carpetries se buscará la versión en Español para agregar ese link.  En caso que no exista se dejará la referencia en Inglés.
 
-#### 4. Material para consultar
+#### 4. Uniformidad para traducir los ejercicios
+
+Los ejercicios en cada capítulo indican la cantidad de personas que deben participar y la cantidad de minutos que lleva realizarlo.
+
+Para la cantidad de personas traduciremos:
+ * Individual
+ * Parejas
+ * Grupos pequeños
+ * Toda la clase
+
+Para indicar los minutos agregaremos una comilla simple (') a la derecha del número: 15**'** 
+
+#### 5. Material para consultar
 
 El primer lugar de consulta son las [slides del curso de Instructores de RStudio en Español](https://drive.google.com/drive/folders/1qwTEMqoqphF9qu7f0lSCSTmikIf5chBi) para chequear como fueron traducidos los términos en ese material.
 
