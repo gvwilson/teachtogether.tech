@@ -49,7 +49,7 @@ Pero dado que las/los docentes reales que enseñan en aulas reales tienen que to
 
 \begin{aside}{Jerga}
   Como cualquier especialidad,
-  la investigación sobre educación en informárica tiene jerga.
+  la investigación sobre educación en informática tiene jerga.
   \gref{g:cs1}{CS1} refiere a un curso introductorio de un semestre de duración, donde los estudiantes aprenden variables, bucles y funciones por primera vez, mientras que \gref{g:cs2}{CS2} refiere a un segundo curso que cubre las estructuras de datos básicas como pilas y colas, 
   y \gref{g:cs0}{CS0} se refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con computación de inmediato.
   Las definiciones completas de estos términos se encuentran en los \hreffoot{https://www.acm.org/education/curricula-recommendations}{lineamientos del programa ACM}.
@@ -365,9 +365,9 @@ las diferencias son mayores.
 \begin{aside}{Más difícil de lo necesario}
   Las personas que crean lenguajes de programación hacen que esos lenguajes sean más difíciles de aprender al no realizar pruebas básicas de usabilidad.
   Por ejemplo,
-  \cite{Stef2013} encontró que,
+  \cite{Stef2013} encontraron que,
   ``{\ldots}las tres palabras más comunes para generar bucles en ciencias de la computación,
-  \texttt{for}, \texttt{while}, and \texttt{foreach},
+  \texttt{for}, \texttt{while} y \texttt{foreach},
   fueron calificadas como las tres opciones más anti-intuitivas por personas que no programan.''
   Su trabajo muestra que sintaxis al estilo de C (como se usa en Java y Perl)
   son tanto más difíciles de aprender para personas novatas como una sintaxis diseñada de manera aleatoria,
@@ -385,9 +385,9 @@ las diferencias son mayores.
 Los objetos y clases son herramientas poderosas para personas con experiencia en programación,
 y muchas/os docentes promueven un enfoque de \gref{g:objects-first}{primero objetos} para enseñar a programar
 (aunque a veces no concuerdan exactamente con lo que eso significa~\cite{Benn2007b}).
-\cite{Sorv2014} describe y motiva este enfoque,
+\cite{Sorv2014} describen y motivan este enfoque,
 y~\cite{Koll2015} describe tres generaciones de herramientas
-designadas para soportar programación de personas novatas en ambientes orientados a objetos.
+designadas para apoyar a personas novatas para que programen en ambientes orientados a objetos.
 
 Introducir objetos temprano tiene algunos desafíos.
 \cite{Mill2016b} encontró que la mayoría de las personas novatas que usan Python\index{Python}
@@ -395,12 +395,12 @@ tenían problemas para entender \texttt{self}
 (que refiere al objeto actual):
 las personas lo omitieron en las definiciones de métodos,
 no lo usaron cuando hacían referencia a los atributos del objeto,
-o ambas.
+o tuvieron ambas dificultades.
 \cite{Rago2017} encontró algo similar en estudiantes de nivel secundario,
 y además encontró que docentes de secundaria usualmente tampoco tenían claro el concepto.
 En resumen,
-recomendamos que docentes \recommendation{comiencen con funciones en vez de objetos},
-es decir, que a las/los estudiantes no se les enseñe cómo definir clases
+recomendamos que, como docente, \recommendation{comiences con funciones en vez de objetos},
+es decir, que no les enseñes a tus estudiantes cómo definir clases
 hasta que comprendan las estructuras básicas de control y los tipos de datos.
 
 \subsection*{Declaración de tipos}
@@ -416,14 +416,14 @@ evita preguntas sobre qué métodos están disponibles y cómo usarlos.
 \subsection*{Nombrando variables}
 \index{variable naming}
 
-\cite{Kern1999} escribió,
-``A menudo se alienta a la gente que programa a usar nombres de variables largos independientemente del contexto.
+\cite{Kern1999} escribieron:
+``A menudo se alienta a quienes programan a usar nombres de variables largos independientemente del contexto.
 Esto es un error: la claridad a menudo se logra siendo breves.''
-Mucha gente que programa cree esto,
-pero \cite{Hofm2017} encontró que usar palabras completas en nombres de variables
+Muchas/os programadoras/es creen esto,
+pero \cite{Hofm2017} encontraron que usar palabras completas en nombres de variables
  condujo, en promedio, a una comprensión un 19\% más rápida en comparación con letras y abreviaturas.
 En contraste,
-\cite{Beni2017} encontró que el uso de nombres de variables de una sola letra no afectaba la capacidad de las personas principiantes para modificar el código.
+\cite{Beni2017} encontraron que el uso de nombres de variables de una sola letra no afectaba la capacidad de las personas principiantes de modificar el código.
 Esto puede deberse a que sus programas son más cortos que los de profesionales
 o porque algunos nombres de variables de una sola letra tienen tipos y significados implícitos.
 Por ejemplo,
@@ -433,26 +433,26 @@ mientras que \texttt{x}, \texttt{y} y \texttt{z} son números de punto flotante 
 más o menos equivalentemente.
 
 ¿Qué tan importante es esto?
-\cite{Bink2012} reportó que leer y comprender el código es fundamentalmente distinto de leer prosa:
+\cite{Bink2012} reportaron que leer y comprender el código es fundamentalmente distinto de leer prosa:
 ``{\ldots}la estructura más formal y la sintaxis del código fuente
-permite a la gente que programa, asimilar y comprender partes del código rápidamente independientemente del estilo.
-En particular{\ldots}las guías y los planes de programas juegan un papel importante en la comprensión.''
+permite a quienes programan asimilar y comprender partes del código rápidamente independientemente del estilo.
+En particular{\ldots}las guías y los planes de programación juegan un papel importante en la comprensión.''
 También encontró que a las/los desarrolladoras/es con experiencia no les afecta el estilo del identificador,
 entonces nuestra recomendación es utilizar un estilo coherente en todos los ejemplos.
 Dado que la mayoría de los lenguajes tienen guías de estilo
 (por ejemplo,\ \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} para Python)
 y herramientas para verificar que el código siga esas pautas,
 nuestra recomendación completa es
-\recommendation{usar herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente}.
+\recommendation{utiliza herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente}.
 
 \seclbl{¿Ayudan mejores mensajes de error?}{s:pck-error}
 \index{error messages}
 
 Los mensajes de error incomprensibles son una fuente importante de frustración para personas novatas
 (y también para personas experimentadas ).
-Por lo tanto, varias/os investigadoras/es han explorado si mejores mensajes de error ayudan a evitar esto.
+Por lo tanto, en varias investigaciones se exploró si mejores mensajes de error ayudan a evitar esto.
 Por ejemplo,
-\cite{Beck2016} reescribió algunos de los mensajes del compilador de Java para que en lugar de:
+\cite{Beck2016} reescribieron algunos de los mensajes del compilador de Java para que en lugar de:
 
 \begin{minted}{text}
 C:\stj\Hola.java:2: error: cannot find symbol
@@ -474,14 +474,14 @@ If ``string'' refers to a datatype, capitalize the 's'!
 Efectivamente,
 las personas novatas que recibieron estos mensajes repitieron menos errores y cometieron menos errores en general.
 
-\cite{Bari2017} fue más allá y usó seguimiento ocular para mostrar que
+\cite{Bari2017} fueron más allá y usaron seguimiento ocular para mostrar que
 a pesar de las quejas de las personas que escriben los compiladores,
 las personas realmente leen los mensajes de error---de hecho, pasan del 13 al 25\% de su tiempo haciendo eso.
 Sin embargo,
 leer mensajes de error resulta ser tan difícil como leer el código fuente,
 y la dificultad en leer los mensajes de error predice fuertemente el desempeño de la tarea.
-Por lo tanto, quienes enseñan
-\recommendation{deben mostrar a sus estudiantes cómo leer e interpretar mensajes de error}.
+Por lo tanto, al enseñar
+\recommendation{muéstrales a tus estudiantes cómo leer e interpretar mensajes de error}.
 \cite{Marc2011} tiene una rúbrica con respuestas a los mensajes de error que puede ser útil para calificar ese tipo de ejercicios.
 
 \subsection*{¿Ayuda la visualización?}
@@ -490,7 +490,7 @@ Por lo tanto, quienes enseñan
 Visualizar la ejecución de un programa es una idea siempre popular,
 y herramientas como el Tutor de Python en línea~\cite{Guo2013}
 y \hreffoot{http://latentflip.com/loupe/}{Loupe}
-(que muestra como funciona un bucle de eventos de JavaScript)
+(que muestra cómo funciona un bucle de eventos de JavaScript)
 son útiles para enseñar.
 Sin embargo,
 las personas aprenden más al construir visualizaciones
@@ -498,7 +498,7 @@ que al ver visualizaciones construidas por otras personas \cite{Stas1998,Ceti201
 entonces, ¿las visualizaciones realmente ayudan al aprendizaje?
 
 Para responder esto,
-\cite{Cunn2017} replicó un estudio previo sobre los tipos de esquemas que realizan las/los estudiantes cuando rastrean la ejecución del código.
+\cite{Cunn2017} replicaron un estudio previo sobre los tipos de esquemas que realizan las/los estudiantes cuando rastrean la ejecución del código.
 Encontraron que no hacer esquemas se correlaciona con un menor éxito,
 mientras que el seguimiento de los cambios de valor de una variable escribiendo los nuevos valores cerca de su nombre
 a medida que cambian fue la estrategia más efectiva.
@@ -513,9 +513,9 @@ Nuestra recomendación es, por lo tanto, \recommendation{enseña a rastrear los 
 \begin{aside}{Diagramas de flujo}\index{flowcharts}
   Un hallazgo que a menudo se pasa por alto sobre la visualización es que
   las personas entienden mejor los diagramas de flujo que el pseudocódigo \emph{si ambos están igualmente bien estructurados}~\cite{Scan1989}.
-  Trabajos anteriores que muestran que el pseudocódigo supera a los diagramas de flujo usaron pseudocódigo estructurado pero diagramas de flujo desordenado;
-  pero cuando se nivelaba el campo de juego,
-  a las personas novatas les iba mejor con la representación gráfica.
+  Los estudios previos que señalaban que el pseudocódigo superaba a los diagramas de flujo usaron pseudocódigo estructurado pero diagramas de flujo desordenados:
+  cuando se niveló el campo de juego,
+  se observó que a las personas novatas les fue mejor con la representación gráfica.
 \end{aside}
 
 \seclbl{¿Qué más podemos hacer para ayudar?}{s:pck-help}
@@ -524,15 +524,15 @@ Nuestra recomendación es, por lo tanto, \recommendation{enseña a rastrear los 
 Señalan que hay muchas razones para tomar sus conclusiones con cautela:
 las prácticas de enseñanza previas al cambio rara vez se establecen claramente,
 la calidad del cambio no es juzgada,
-y solo el 8.3\% de los estudios reportaron resultados negativos;
-entonces, o hay un sesgo al reportar resultados,
+y solo el 8.3\% de los estudios reportaron resultados negativos. 
+Entonces, o hay un sesgo al reportar resultados,
 o la forma en la que enseñamos en este momento es la peor posible y cualquier cosa sería una mejora.
-Y como muchos otros estudios discutidos en este capítulo,
+Como muchos otros estudios discutidos en este capítulo,
 en este trabajo sólo estaban observando clases universitarias,
 por lo que sus hallazgos pueden no ser generalizables a otros grupos.
 
 Con esas advertencias en mente,
-encontraron diez cosas que las/dos docentes puede hacer para mejorar los resultados (\figref{f:pck-interventions}):
+los autores encontraron diez cosas que las/dos docentes puede hacer para mejorar los resultados (\figref{f:pck-interventions}):
 
 \begin{description}
 
@@ -549,7 +549,7 @@ encontraron diez cosas que las/dos docentes puede hacer para mejorar los resulta
   Creación de un curso preliminar a tomar antes del curso introductorio de programación;
   podría organizarse solo para algunas personas (por ejemplo, si están en riesgo).
 
-\item[Cómo jugando:]
+\item[Temática de juego:]
   Una componente de juego fue introducida en el curso.
 
 \item[Esquema de calificación:]
@@ -563,7 +563,7 @@ encontraron diez cosas que las/dos docentes puede hacer para mejorar los resulta
   Actividades que usen explícitamente el uso de recursos multimedia (\chapref{s:motivation}).
 
 \item[Apoyo de colegas:]
-  El apoyo de pares en forma de parejas, grupos, mentores contratados o tutoras/es.
+  El apoyo de pares en forma de parejas, grupos, mentores contratados o tutorías.
 
 \item[Otro apoyo:]
   Un término general para todas las actividades de apoyo,
@@ -574,8 +574,8 @@ encontraron diez cosas que las/dos docentes puede hacer para mejorar los resulta
 \figimg{figures/interventions-scaled.png}{Efectividad de las intervenciones}{f:pck-interventions}
 
 Esta lista destaca la importancia del aprendizaje cooperativo.
-\cite{Beck2013} analizó esto específicamente durante tres años académicos en cursos a cargo dos docentes diferentes
-y encontró beneficios significativos en general y para muchos subgrupos.
+\cite{Beck2013} analizaron esto específicamente durante tres años académicos en cursos a cargo dos docentes diferentes
+y encontraron beneficios significativos en general y para muchos subgrupos.
 Las personas que cooperaron obtuvieron calificaciones más altas
 y dejaron menos preguntas en blanco en el examen final,
 lo que indica una mayor autoeficacia y disposición para depurar cosas.
@@ -585,18 +585,18 @@ lo que indica una mayor autoeficacia y disposición para depurar cosas.
   hacer que las personas novatas trabajen en ejercicios de creatividad computacional mejora sus calificaciones en varios niveles~\cite{Shel2017}.
   Un ejercicio típico es describir un objeto cotidiano (como un clip o un cepillo de dientes)
   en términos de sus entradas, salidas y funciones.
-  Este tipo de enseñanza a veces se le llama \grefdex{g:cs-unplugged}{desconectado}{CS unplugged};
+  Este tipo de enseñanza a veces se es llamada \grefdex{g:cs-unplugged}{desconectado}{CS unplugged};
   La página web \hreffoot{https://csunplugged.org/en/}{CS~Unplugged} tiene lecciones y ejercicios para esto.
 \end{aside}
 
 \seclbl{¿Qué sigue?}{s:pck-final}
 
 Para aquellas personas que quieran profundizar,
-\cite{Finc2019} es un completo resumen de CER,
+\cite{Finc2019} es un completo resumen de investigación sobre educación en informática y
 \cite{Ihan2016} resume los métodos que estos estudios usan más frecuentemente.
 Espero que algún día tengamos catálogos como~\cite{Ojos2015}
 y más materiales para capacitar docentes como~\cite{Hazz2014,Guzd2015a,Sent2018}
-para ayudarnos a todas y todos a enseñar mejor.
+para ayudarnos a enseñar mejor.
 
 La mayor parte de la investigación mencionada en este capítulo fue financiada con fondos públicos
 pero tenemos que pagar para leerla:
@@ -638,26 +638,25 @@ Estos errores comunes corresponden a una lista más larga en ~\cite{Sirk2012}:
 \noindent
 Escribe un ejercicio para chequear que tus estudiantes \emph{no} están cometiendo cada uno de estos errores.
 
-\exercise{Código desarmado}{en parejas}{15'}
+\exercise{Código desarmado}{parejas}{15'}
 
-\cite{Chen2017} describe ejercicios en los que las/los estudiantes reconstruyen el código que ha sido desarmado
+\cite{Chen2017} describen ejercicios en los que las/los estudiantes reconstruyen el código que ha sido desarmado
 al eliminar comentarios,
 borrar o reemplazar líneas de código,
-moviendo líneas,
+al mover líneas,
 etc.
 El rendimiento en estos ejercicios se correlaciona fuertemente con el rendimiento en las evaluaciones
-donde las personas deben escribir código,
+en las que las personas deben escribir código,
 pero estas preguntas requieren menos trabajo para evaluar.
-Toma la solución de un ejercicio de programación que hayas creado en el pasado,
-desármalo de dos maneras distintas,
-intercambia el ejercicio con alguien más,
-y mira cuanto tiempo le lleva a cada persona responder correctamente tu problema.
+Toma la solución de un ejercicio de programación que hayas creado en el pasado y desármalo de dos maneras distintas.
+Intercambia el ejercicio con tu pareja.
+Analicen cuánto tiempo les lleva responder correctamente los problemas elaborados por la otra persona.
 
-\exercise{El problema de la lluvia}{en parejas}{10'}
+\exercise{El problema de la lluvia}{parejas}{10'}
 
 \cite{Solo1986} presentó el problema de la lluvia,
 que se ha usado en muchos estudios posteriores sobre programación~\cite{Fisl2014,Simo2013,Sepp2015}.
-Escribir un programa que repetidamente lee números enteros positivos hasta que llega a 99999.
+Escribe un programa que repetidamente lea números enteros positivos hasta que llega a 99999.
 Después de llegar a 99999,
 el programa imprime el promedio de esos números leídos.
 
@@ -667,12 +666,12 @@ el programa imprime el promedio de esos números leídos.
   Resuelve el problema de la lluvia en el lenguaje de programación que prefieras.
 
 \item
-  Compara tu solución con las de tu colega.
+  Compara tu solución con la de tu pareja.
   ¿Qué hace tu programa que no hace el de tu colega y viceversa?
 
 \end{enumerate}
 
-\exercise{Roles de variables}{en parejas}{15'}
+\exercise{Roles de variables}{parejas}{15'}
 
 \cite{Kuit2004,Byck2005,Saja2006} presentaron un conjunto de patrones de una sola variable
 que encuentro muy útil en la enseñanza de personas novatas:
@@ -716,7 +715,7 @@ que encuentro muy útil en la enseñanza de personas novatas:
 \end{description}
 
 Elige un programa de 5 a 15 líneas y clasifica sus variables usando estas categorías.
-Compara tus clasificaciones con tu colega.
+Compara tus clasificaciones con tu pareja.
 En los casos en los que no estuvieron de acuerdo,
 ¿entendieron el punto de vista de la otra persona?
 
@@ -746,10 +745,10 @@ elige una sección (por ejemplo, estructura de datos o funciones) y revisa la li
 
 \exercise{¿Qué es lo que más te importa?}{toda la clase}{15'}
 
-\cite{Denn2019} le pidió a personas que propongan y califiquen varias preguntas de CER,
-y encontraron que no había superposición entre las preguntas que más les importaban a los investigadores
-a las que les interesaba a quienes no investigaban.
-Las preguntas favoritas de investigadores fueron:
+\cite{Denn2019} les pidieron a varias personas que propongan y califiquen preguntas de investigación sobre educación en informática.
+Encontraron que no había superposición entre las preguntas que más les importaban a las/los investigadoras/es
+y las que les interesaban a quienes no investigaban.
+Las preguntas favoritas de las/los investigadoras/es fueron:
 
 \begin{enumerate}
 
