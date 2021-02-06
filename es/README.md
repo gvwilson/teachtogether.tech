@@ -274,7 +274,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|las/los
-| References|Yanina Bellini ||||||los/las
+| References|Yanina Bellini |Natalia Morandeira|Paola Corrales|Lista|Lista||los/las
 
 
 ### 2. Figuras y diagramas
