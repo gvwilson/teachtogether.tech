@@ -194,7 +194,11 @@ Para algunos términos educativos tener en cuenta traducción oficial de las est
     _- "Preparé el examen y la clase de la semana siguiente, y tomé un café":_ va con coma para distinguir del "y" de la primera parte de la oración.
 
 Fuente: punto 2 de https://www.rae.es/dpd/coma
- 
+
+*  Punto y paréntesis:
+
+    * Si hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)
+    * Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
 
 ## F. ¿Dudas durante el proceso?
 
