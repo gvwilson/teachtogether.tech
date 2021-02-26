@@ -166,7 +166,39 @@ Para la cantidad de personas traduciremos:
 
 Para indicar los minutos agregaremos una comilla simple (') a la derecha del número: 15**'** 
 
-#### 5. Material para consultar
+#### 5. Uso de nombres regionales
+
+El libro presenta una serie de personas ficticias. Se decidió cambiar a nombres regionales para que sean mas representativos y
+mantener coherencia con el cambio de ejemplos también a temas regionales.
+
+| Capítulo:       | Introducción|
+|---------------------------|
+|Nombre original  | Nombre regional |
+|-----------------|---------|
+|Emily | Emilia |
+|Moshe | David |
+|Samira | Samira |
+|Gene | Rene |
+|Jorge | Jorge |
+| Capítulo:       | Construyendo una comunidad de práctica|
+|---------------------------|
+|Nombre original  | Nombre regional |
+|-----------------|---------|
+|Anna  | Ana |
+|Catherine | Catalina |
+|Frank | Fernando |
+|Hediyeh | Cristian |
+|Ken | Roberto |
+|Melissa | Melisa |
+|Raj | Juan José |
+| Capítulo:  En el salon de clase  |
+|---------------------------|
+|Nombre original  | Nombre regional |
+|-----------------|---------|
+| Jane | Andrea |
+
+
+#### 6. Material para consultar
 
 El primer lugar de consulta son las [slides del curso de Instructores de RStudio en Español](https://drive.google.com/drive/folders/1qwTEMqoqphF9qu7f0lSCSTmikIf5chBi) para chequear como fueron traducidos los términos en ese material.
 
