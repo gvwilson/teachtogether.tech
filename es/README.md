@@ -171,8 +171,8 @@ Para indicar los minutos agregaremos una comilla simple (') a la derecha del nú
 El libro presenta una serie de personas ficticias. Se decidió cambiar a nombres regionales para que sean mas representativos y
 mantener coherencia con el cambio de ejemplos también a temas regionales.
 
-| Capítulo:       | Introducción|
-|---------------------------|
+* Capítulo:  Introducción
+
 |Nombre original  | Nombre regional |
 |-----------------|---------|
 |Emily | Emilia |
@@ -180,8 +180,9 @@ mantener coherencia con el cambio de ejemplos también a temas regionales.
 |Samira | Samira |
 |Gene | Rene |
 |Jorge | Jorge |
-| Capítulo:       | Construyendo una comunidad de práctica|
-|---------------------------|
+
+* Capítulo: Construyendo una comunidad de práctica
+
 |Nombre original  | Nombre regional |
 |-----------------|---------|
 |Anna  | Ana |
@@ -191,8 +192,9 @@ mantener coherencia con el cambio de ejemplos también a temas regionales.
 |Ken | Roberto |
 |Melissa | Melisa |
 |Raj | Juan José |
-| Capítulo:  En el salon de clase  |
-|---------------------------|
+
+* Capítulo:  En el salon de clase  
+
 |Nombre original  | Nombre regional |
 |-----------------|---------|
 | Jane | Andrea |
