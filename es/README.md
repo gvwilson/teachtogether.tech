@@ -178,7 +178,7 @@ mantener coherencia con el cambio de ejemplos también a temas regionales.
 |Emily | Emilia |
 |Moshe | David |
 |Samira | Samira |
-|Gene | Rene |
+|Gene | René |
 |Jorge | Jorge |
 
 * Capítulo: Construyendo una comunidad de práctica
