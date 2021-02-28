@@ -166,7 +166,41 @@ Para la cantidad de personas traduciremos:
 
 Para indicar los minutos agregaremos una comilla simple (') a la derecha del número: 15**'** 
 
-#### 5. Material para consultar
+#### 5. Uso de nombres regionales
+
+El libro presenta una serie de personas ficticias. Se decidió cambiar a nombres regionales para que sean mas representativos y
+mantener coherencia con el cambio de ejemplos también a temas regionales.
+
+* Capítulo:  Introducción
+
+|Nombre original  | Nombre regional |
+|-----------------|---------|
+|Emily | Emilia |
+|Moshe | David |
+|Samira | Samira |
+|Gene | René |
+|Jorge | Jorge |
+
+* Capítulo: Construyendo una comunidad de práctica
+
+|Nombre original  | Nombre regional |
+|-----------------|---------|
+|Anna  | Ana |
+|Catherine | Catalina |
+|Frank | Fernando |
+|Hediyeh | Cristian |
+|Ken | Roberto |
+|Melissa | Melisa |
+|Raj | Juan José |
+
+* Capítulo:  En el salon de clase  
+
+|Nombre original  | Nombre regional |
+|-----------------|---------|
+| Jane | Andrea |
+
+
+#### 6. Material para consultar
 
 El primer lugar de consulta son las [slides del curso de Instructores de RStudio en Español](https://drive.google.com/drive/folders/1qwTEMqoqphF9qu7f0lSCSTmikIf5chBi) para chequear como fueron traducidos los términos en ese material.
 
@@ -194,7 +228,11 @@ Para algunos términos educativos tener en cuenta traducción oficial de las est
     _- "Preparé el examen y la clase de la semana siguiente, y tomé un café":_ va con coma para distinguir del "y" de la primera parte de la oración.
 
 Fuente: punto 2 de https://www.rae.es/dpd/coma
- 
+
+*  Punto y paréntesis:
+
+    * Si hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)
+    * Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
 
 ## F. ¿Dudas durante el proceso?
 
@@ -274,7 +312,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|las/los
-| References|Yanina Bellini ||||||los/las
+| References|Yanina Bellini |Natalia Morandeira|Paola Corrales|Lista|Lista||los/las
 
 
 ### 2. Figuras y diagramas
