@@ -295,7 +295,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Cognitive Architecture|Patricia Loto|María Dermit|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Individual Learning|Paloma Rojas|María Dermit|Natalia Morandeira|Lista|Lista|Lista|las/los
 | A Lesson Design Process|Zulemma Bazurto|Roxana Villafañe|Natalia Morandeira|Lista|Lista|Lista|los/las
-| Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrich|Juliana Benitez|Lista|Lista|Lista|las/los
+| Pedagogical Content Knowledge| Paola Corrales|Ana Laura Diedrichs|Juliana Benitez|Lista|Lista|Lista|las/los
 | Teaching as a Performance Art| Paola Corrales|Yuriko Sosa|Yanina Bellini|Lista|Lista|Lista|los/las
 | In the Classroom|Lupe Canaviri Maydana|María Dermit|Yuriko Sosa|Lista|Lista|Lista|las/los
 | Motivation and Demotivation|Silvia Canelón|Yuriko Sosa|Yanina Bellini |Lista|Lista|Lista|los/las
@@ -309,7 +309,7 @@ Revisa las instrucciones en el archivo _Makefile_. Seguramente debas instalar li
 | Joining Our Community|Yanina Bellini|Natalia Morandeira|Juliana Benitez|Lista|Lista|Lista|los/las
 | Glossary| Yanina Bellini|Zulemma Bazurto|Ruth Chirinos|Lista|Lista|Lista|las/los
 | Meetings, Meetings, Meetings|Mónica Alonso|Ruth Chirinos|Lucia Rodríguez Planes|Lista|Lista|Lista|los/las
-| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrich|Lista|Lista|Lista|las/los
+| Checklists and Templates|Lucia Rodríguez Planes|Alejandra Bellini|Ana Laura Diedrichs|Lista|Lista|Lista|las/los
 | Example Concept Maps|Yanina Bellini|Laura Acion|Natalia Morandeira|Lista|Lista|Lista|los/las
 | Chunking Exercise Solution|Priscilla Minotti|Yanina Bellini|Natalia Morandeira|Lista|Lista|Lista|las/los
 | References|Yanina Bellini |Natalia Morandeira|Paola Corrales|Lista|Lista||los/las
