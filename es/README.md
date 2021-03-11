@@ -127,6 +127,7 @@ Ejemplo:
 | novice-competent-expert classification |clasificacion de los tres niveles de habilidades |
 | novice-competent-expert model of skill development | el modelo de desarrollo de habilidades |
 | outreach | difusión |
+| pair programming | programación en parejas |
 | path | ruta de acceso |
 | post-mortem  | autopsia |
 | postits | notas adhesivas |
