@@ -11,6 +11,7 @@ FIGURES_SRC=$(wildcard figures/*)
 FIGURES_DST=$(patsubst %,${OUTPUT}/%,${FIGURES_SRC})
 
 # Commands.
+LATEX=pdflatex --shell-escape --recorder
 PANDOC=pandoc \
   --standalone \
   --css=../static/bootstrap.min.css \
@@ -37,12 +38,12 @@ html : ${FIGURES_DST} ../bin/pre-pandoc.py ../bin/post-pandoc.py template.html
 
 ## pdf : Re-make PDF.
 pdf : ${TEX} ${BIB}
-	pdflatex --shell-escape book
+	${LATEX} book
 	biber book
 	makeindex book
-	pdflatex --shell-escape book
-	pdflatex --shell-escape book
-	pdflatex --shell-escape book
+	${LATEX} book
+	${LATEX} book
+	${LATEX} book
 
 # Copy figures.
 ${OUTPUT}/figures/% : figures/%
@@ -68,6 +69,6 @@ words :
 ## clean : Clean things up.
 clean :
 	@rm -f book.pdf
-	@rm -f *.aux *.bak *.bbl *.bcf *.blg *.dvi *.idx *.ilg *.ind *.lof *.log *.lot *.out *.pyg *.run.xml *.tmp *.toc *.xref
+	@rm -f *.aux *.bak *.bbl *.bcf *.blg *.dvi *.fls *.idx *.ilg *.ind *.lof *.log *.lot *.out *.pyg *.run.xml *.tmp *.toc *.xref
 	@find . -name '*~' -delete
 	@find . -name '_minted-*' -prune -exec rm -r "{}" \;
