@@ -30,5 +30,6 @@ _minted-*
 _site
 book.pdf
 summaries.pdf
+temp.html
 temp.tex
 tex/*/all.tex
