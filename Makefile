@@ -14,11 +14,13 @@ all : commands
 commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
 
-## html : generate HTML from LaTeX source.
-html : ${HTML} ${STATIC_DST} docs/CNAME
+## pdf : generate PDF for all versions.
+pdf :
+	@make -C en pdf
+	@make -C es pdf
 
-# Generate HTML.
-${HTML} : ${SRC} bin/pre-pandoc.py bin/post-pandoc.py
+## html : generate HTML from LaTeX source.
+html :
 	@make -C en html
 	@make -C es html
 
