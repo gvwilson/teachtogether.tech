@@ -20,17 +20,25 @@ EMPTY_ROW_ODD = '''<tr class="odd">
 </tr>
 '''
 
-def main():
-    text = sys.stdin.read()\
+FOOTNOTES = '<section class="footnotes" role="doc-endnotes">'
+
+
+def main(body, bib):
+    with open(body, 'r') as reader:
+        body = reader.read()
+    with open(bib, 'r') as reader:
+        bib = reader.read()
+    body = body\
         .replace('<table>', '<table class="table table-striped">')\
         .replace(EMPTY_ROW_EVEN, '')\
         .replace(EMPTY_ROW_ODD, '')
-    text = FIGURE_PAT.sub(replace_fig, text)
-    text = BIB_REF_PAT.sub(replace_ref, text)
-    text = BIB_ENTRY_PAT.sub(replace_entry, text)
-    text = fix_empty_table_cells(text)
-    text = fix_footnotes(text)
-    sys.stdout.write(text)
+    body = FIGURE_PAT.sub(replace_fig, body)
+    body = BIB_REF_PAT.sub(replace_ref, body)
+    body = BIB_ENTRY_PAT.sub(replace_entry, body)
+    body = fix_empty_table_cells(body)
+    body = fix_footnotes(body)
+    body = fix_bibliography(body, bib)
+    sys.stdout.write(body)
 
 
 def replace_fig(fig):
@@ -82,5 +90,10 @@ def fix_footnotes(text):
 
     return text
 
+
+def fix_bibliography(text, bib):
+    return text.replace(FOOTNOTES, bib + '\n' + FOOTNOTES)
+
+
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1], sys.argv[2])
