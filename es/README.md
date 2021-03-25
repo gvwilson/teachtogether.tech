@@ -87,7 +87,6 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | commits        | contexto: git  |
 | fuzz testing |contexto: desarrollo de software|
 | hardware |
-| heap | contexto: python |
 | issues         | contexto: git  |
 | pipes | contexto: consola unix, R |
 | marketing |
@@ -121,6 +120,7 @@ Ejemplo:
 | feedback       | devolución, retroalimentación|
 | flash cards |tarjetas de estudio|
 | germane-load          | carga pertinente                  |
+| heap | cola de montículo|
 | live coding | programación en vivo |
 | loop | bucle |
 | novice                | novatos/as, personas novatas |
