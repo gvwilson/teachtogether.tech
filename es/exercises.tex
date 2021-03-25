@@ -66,7 +66,7 @@ Los ejercicios de programar y ejecutar ayudan a las personas a practicar las hab
 pero pueden ser  difíciles de evaluar:
 puede haber muchas maneras inesperadas de obtener la respuesta correcta,
 y es desmoralizante si un sistema de calificación automática rechaza el código de la solución porque no se corresponde con el del docente.
-Una forma de reducir la frecuencia con la que esto ocurre es evaluar solo su producción,
+Una forma de reducir qué tanto ocurre esto es evaluar solo su producción,
 pero eso no les da una devolución sobre cómo están programando.
 Otra manera es darles un pequeño conjunto de evaluación en el que pueden ejecutar su código antes de enviarlo
 (y entonces el código se evalúa con un conjunto más amplio de pruebas).
@@ -114,7 +114,8 @@ las respuestas enviadas son mucho más predecibles y, por lo tanto, más fácile
  para que el código de abajo imprima el texto  \texttt{'cana'}.
 
 \begin{minted}{text}
-text = 'Un canario que ladra si está triste'
+text = 'Un canario que ladra si está triste' \footnote{Inspirado en un verso de María Elena Walsh, del libro Zoo loco 
+\hreffoot{https://es.wikipedia.org/wiki/Zoo_loco}{Zoo Loco}.}
 slice = text[____:____]
 print(slice)
 \end{minted}
@@ -127,8 +128,8 @@ pero pueden ser emuladas (aunque un poco torpemente)
 pidiendo a los/las estudiantes que reorganicen las líneas de código en un editor de texto.
 
 \begin{aside}{Problemas de Parsons}
-  Reorganiza y agrega sangrías a estas líneas para obtener la suma de los valores positivos de una lista.
-  (También deberás agregar dos "dos puntos" en lugares apropiados)
+  Reorganiza e indenta estas líneas para obtener la suma de los valores positivos de una lista.
+  (También deberás agregar dos "dos puntos" en los lugares apropiados)
 
 \begin{minted}{text}
 total = 0
@@ -160,10 +161,10 @@ ya que tienen que hacer todo el trabajo de averiguar la secuencia correcta y lue
 
 \begin{minted}{text}
 A)     vals = [-1, 0, 1]
-B)     inverse_sum = 0
+B)     suma_inversa = 0
        try:
            for v in vals:
-C)             inverse_sum += 1/v
+C)             suma_inversa += 1/v
        except:
 D)         pass
 \end{minted}
@@ -245,10 +246,10 @@ mientras que la identificación se puede hacer como una pregunta de opción múl
  Realiza un pequeño cambio para que la función realmente lo haga.
 
 \begin{minted}{text}
-def inside(point, lower, higher):
-    if (point <= lower):
+def inside(punto, mas_abajo, mas_alto):
+    if (punto <= mas_bajo):
         return false
-    elif (point <= higher):
+    elif (punto <= mas_alto):
         return false
     else:
         return true
@@ -274,10 +275,10 @@ es ajustando un código que ya hace algo parecido.
   con un color especificado.
 
 \begin{minted}{text}
-function fillTriangle(picture, color) is
-    for x := 1 to picture.width do
-        for y := 1 to picture.height do
-            picture[x, y] = color
+function llenarTriangulo(imagen, color) is
+    for x := 1 to imagen.width do
+        for y := 1 to imagen.height do
+            imagen[x, y] = color
         end
     end
 end
@@ -299,10 +300,10 @@ que la calificación requiere inspección humana.
   Escribir una sola compresión de lista que tenga el mismo efecto que este bucle.
 
 \begin{minted}{text}
-result = []
-for v in values:
-    if len(v) > threshold:
-        result.append(v)
+resultado = []
+for v in valores:
+    if len(v) > rango:
+        resultado.append(v)
 \end{minted}
 \end{aside}
 
@@ -518,7 +519,7 @@ Si se pide a los/las estudiantes que hagan revisiones, hay que usar la revisión
 \end{minted}
 
    \begin{longtable}{ll}
-    1. nombre de la variable malo   & 2. uso de variable indefinida \\
+    1. nombre de la variable incorrecto   & 2. uso de variable indefinida \\
     3. falta el valor de salida & 4. variable no usada
   \end{longtable}
 
