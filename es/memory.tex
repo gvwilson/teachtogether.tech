@@ -27,7 +27,7 @@ Pericia es más que solo conocer más hechos:
 las/los practicantes competentes pueden memorizar una gran cantidad de trivialidades sin  mejorar notablemente sus desempeños.
 En cambio,
 imagina por un momento que almacenamos conocimiento como una red o grafo en el cual los hechos son nodos
-y las relaciones son arcos\footnote{Esto definitivamente \emph{no} es como nuestro cerebro trabaja, pero es una metáfora útil.}.
+y las relaciones son arcos\footnote{Definitivamente nuestro cerebro \emph{no} trabaja de esta manera, pero es una metáfora útil.}.
 La diferencia clave entre personas expertas y practicantes competentes es que
 los modelos mentales de las personas expertas están mucho más densamente conectados, 
 es decir, es más probable que conozcan una conexión entre dos hechos cualesquiera.
@@ -61,7 +61,9 @@ Esta metáfora también explica varios aspectos observados del comportamiento ex
 \item
   Esta metáfora también explica por qué las personas expertas son mejores en diagnósticos que las/los practicantes competentes:
  mayor cantidad de conexiones entre hechos hace más fácil razonar hacia atrás, de síntomas a causas.
-  (Esta es la razón por la cual durante una entrevista de trabajo de desarrollo de software es preferible pedirle a las/los candidatas/os que depuren un programa a pedirles que programen: da una impresión más precisa de su habilidad.)
+  (Esta es la razón por la cual durante una entrevista de trabajo de desarrollo de software es 
+  preferible pedirle a las/los candidatas/os que depuren un programa a pedirles que programen: 
+  da una impresión más precisa de su habilidad.)
 
 \item
   Finalmente,
@@ -99,18 +101,18 @@ y lo bien que esa misma persona enseña la temática~\cite{Mars2002}.
 
 La herramienta que elegimos para representar el modelo mental de alguien es un \gref{g:concept-map}{mapa conceptual},
 en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas.
-Como ejemplos,
+Como ejemplos, la
 \figref{f:memory-seasons} muestra por qué la Tierra tiene estaciones (de \hreffoot{https://cmap.ihmc.us/}{IHMC}),
-y el \appref{s:conceptmaps} presenta mapas conceptuales de librerías desde tres puntos de vista distintos.
+y el \appref{s:conceptmaps} presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
 
 \figpdf{figures/seasons.pdf}{Mapa conceptual para estaciones}{f:memory-seasons}
 
 Para mostrar cómo pueden ser usados los mapas conceptuales para enseñar programación,
-considera este \texttt{for} bucle en Python:\index{Python}
+considera este \texttt{for} bucle en \emph{Python}:\index{Python}
 
 \begin{minted}{text}
-for letter in "abc":
-    print(letter)
+for letra in "abc":
+    print(letra)
 \end{minted}
 
 \noindent
@@ -122,9 +124,9 @@ b
 c
 \end{minted}
 
-Los tres ``cosas'' clave en este bucle se muestran al principio de \figref{f:memory-loop},
+Las tres ``cosas'' claves en este bucle se muestran al principio de la \figref{f:memory-loop},
 pero son solo la mitad de la historia.
-La versión ampliada en la parte inferior muestra las relaciones entre esas cosas,
+La versión ampliada en la parte derecha de la figura muestra las relaciones entre esas cosas,
 las cuales son tan importantes para la comprensión como los conceptos en sí mismos.
 
 \figpdf{figures/for-loop.pdf}{Mapa conceptual para un bucle \texttt{for} }{f:memory-loop}
@@ -140,7 +142,8 @@ Los mapas conceptuales pueden ser usados de varias maneras:
   las personas rara vez terminan enseñando las cosas en el orden en que las dibujaron por primera vez.
 
 \item[Para mejorar la comunicación entre quienes diseñan las lecciones]
-  Si dos docentes tienen ideas muy diferentes de aquello que están tratando de enseñar, es probable que arrastren a sus estudiantes en diferentes direcciones.
+  Si dos docentes tienen ideas muy diferentes de aquello que están tratando de enseñar, 
+  es probable que arrastren a sus estudiantes en diferentes direcciones.
   Dibujar y compartir mapas conceptuales puede ayudar a prevenirlo.
   Y sí:
   personas diferentes pueden tener mapas conceptuales diferentes para el mismo tema,
@@ -158,8 +161,9 @@ Los mapas conceptuales pueden ser usados de varias maneras:
   Revisar los mapas conceptuales de estudiantes insume demasiado tiempo para utilizarlo como una evaluación formativa durante las clases,
   pero es muy útil en clases semanales \emph{una vez que tus estudiantes están familiarizadas/os con la técnica}.
   La calificación es necesaria porque
-  cualquier manera nueva de hacer algo inicialmente enlentece a la gente---si quien está aprendiendo intenta encontrarle el sentido a la programación básica,
-  pedirle que se imagine cómo esquematizar sus pensamientos al mismo tiempo es una carga no conveniente.
+  cualquier manera nueva de hacer algo, inicialmente enlentece a la gente---si quien está aprendiendo 
+  intenta encontrarle el sentido a la programación básica,
+  pedirle que se imagine cómo esquematizar sus pensamientos al mismo tiempo es una carga que no conviene realizar.
 
 \end{description}
 
@@ -210,7 +214,7 @@ otro modelo simple tiene bases fisiológicas profundas.
 Como una aproximación rápida,
 la memoria humana se puede dividir en dos capas distintas.
 La primera,
-llamada \grefdex{g:long-term-memory}{long-term}{memoria a largo plazo}
+llamada \grefdex{g:long-term-memory}{memoria a largo plazo}
 o \gref{g:persistent-memory}{memoria persistente},
 es donde almacenamos cosas como los nombres de nuestra gente amiga,
 nuestra dirección,
@@ -219,7 +223,7 @@ La capacidad de esta capa de memoria es esencialmente ilimitada,
 pero es de acceso lento---demasiado lento para ayudarnos a lidiar con leones hambrientos y familiares descontentos.
 
 La evolución entonces nos ha dado un segundo sistema
-llamado \grefdex{g:short-term-memory}{short-term}{memoria a corto plazo}
+llamado \grefdex{g:short-term-memory}{memoria a corto plazo}
 o \gref{g:working-memory}{memoria de trabajo}.
 Es mucho más rápida,
 pero también más pequeña:~\cite{Mill1956} estimó que la memoria de trabajo del adulto promedio solo podía contener 7 ± 2 elementos a la vez.
@@ -293,7 +297,7 @@ la fragmentación también puede engañarnos si identificamos mal las cosas:
 quienes recién llegan a veces pueden ver cosas que personas expertas han visto y pasado por alto.
 
 Dada la importancia de la fragmentación para pensar,
-es tentador identificar \hreffoot{https://es.wikipedia.org/wiki/Patrón\_de\_diseño}{design patterns}\index{patrones de diseño}
+es tentador identificar \hreffoot{https://es.wikipedia.org/wiki/Patrón\_de\_diseño}{patrones de diseño}\index{patrones de diseño}
 y enseñarlos directamente. 
 Estos patrones ayudan a practicantes competentes a pensar y dialogar en varios dominios (incluida la enseñanza~\cite{Berg2012}),
 pero los catálogos de patrones son demasiado duros y abstractos para que personas novatas les encuentren sentido por su cuenta.
@@ -307,11 +311,11 @@ Volveremos a este tema en la \secref{s:pck-programming}.
 Entonces, ¿cómo se convierte alguien en una persona experta?
 La idea de que hacen falta diez mil horas de práctica para conseguirlo es ampliamente citada,
 pero \hreffoot{http://www.goodlifeproject.com/podcast/anders-ericsson/}{probablemente no sea verdad}:
-hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la actuación.
+hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la práctica.
 Lo que realmente funciona es hacer cosas similares pero sutilmente diferentes,
 prestando atención a qué funciona y qué no,
 y luego cambiando el comportamiento en respuesta a esta retroalimentación, para así mejorar de forma acumulativa.
-Esto se llama \grefdex{g:deliberate-practice}{deliberate}{práctica deliberada}
+Esto se llama \grefdex{g:deliberate-practice}{práctica deliberada}
 o \gref{g:reflective-practice}{práctica reflectiva},
 y es común que las personas atraviesen tres etapas:
 
@@ -319,13 +323,13 @@ y es común que las personas atraviesen tres etapas:
 
 \item[Actuar según la devolución de otros.]
   Las/los estudiantes pueden escribir un ensayo sobre qué hicieron en sus vacaciones de verano
-  y recibir devoluciones de una/un docente que les diga cómo mejorarlo.
+  y recibir devoluciones de una/un docente que les indique cómo mejorarlo.
 
-\item[Dar devoluciones sobre el trabajo de otros.]
-  Las/los estudiantes pueden realizar críticas de la evolución de un personaje en una novela de Harry Potter
+\item[Dar devoluciones sobre el trabajo de otras/os.]
+  Las/los estudiantes pueden realizar críticas de la evolución de un personaje en la novela de Jorge Amado \emph{Doña Flor y sus dos maridos}. 
   y recibir una devolución de una/un docente sobre esas críticas.
 
-\item[Darse devoluciones a una/o misma/o.]
+\item[Darse devoluciones a sí misma/o.]
   En algún punto,
   las/los estudiantes empiezan a criticar sus propios trabajos
   con las habilidades que ya han construido.
@@ -389,8 +393,8 @@ Compara tu mapa conceptual con aquellos dibujados por las demás personas.
 \exercise{Notar tus puntos ciegos}{grupos pequeños}{10'}
 
 Elizabeth Wickes listó
-\hreffoot{https://twitter.com/elliewix/status/981285432922202113}{todo aquello que necesitas para entender} 
-para leer esta línea de Python:
+\hreffoot{https://twitter.com/elliewix/status/981285432922202113}{todo lo que necesitas saber para entender} 
+y leer esta línea de Python:
 
 \begin{minted}{text}
 answers = ['tuatara', 'tuataras', 'bus', "lick"]
@@ -400,27 +404,28 @@ answers = ['tuatara', 'tuataras', 'bus', "lick"]
 
 \item
   Los corchetes rodeando el contenido significan que estamos trabajando con una lista
-  (lo opuesto a corchetes inmediatamente a la derecha de algo,
-  que es la notación utilizada para una extracción de datos).
+  (a diferencia de los corchetes inmediatamente a la derecha de algo,
+  que es la notación utilizada para extraer datos).
 
 \item
-  Los elementos se separan por comas fuera y entre comillas
-  (en vez de adentro, como sería para un texto citado).
+  Los elementos se separan por comas fuera de las comillas
+  (si las comas estuvieran dentro de las comillas, sería la cita de un texto).
 
 \item
   Cada elemento es una cadena de caracteres,
   y lo sabemos por las comillas.
   Aquí podríamos tener números u otro tipo de datos si quisiéramos;
-  necesitamos comillas porque estamos trabajando con cadenas.
+  necesitamos comillas porque estamos trabajando con cadenas de caracteres.
 
 \item
   Estamos mezclando el uso de comillas simples y dobles;
-  a Python no le importa eso siempre que estén balanceadas alrededor de las cadenas individuales (por cada comilla que abre, una comilla que cierre).
+  a \emph{Python} no le importa eso siempre que estén balanceadas alrededor 
+  de las cadenas individuales (por cada comilla que abre, una comilla que cierre).
 
 \item
   A cada coma le sigue un espacio,
-  lo cual no es obligatorio para Python,
-  pero preferimos para una lectura más clara.
+  lo cual no es obligatorio para \emph{Python},
+  pero lo preferimos para una lectura más clara.
 
 \end{itemize}
 
@@ -431,13 +436,13 @@ y divídelo a este nivel de detalle.
 
 \exercise{Qué enseñar a continuación}{individual}{5'}
 
-Vuelve al mapa conceptual para la fotosíntesis en \figref{f:memory-photosynthesis}.
+Vuelve al mapa conceptual para la fotosíntesis de la \figref{f:memory-photosynthesis}.
 ¿Cuántos conceptos y relaciones hay en los fragmentos seleccionados?
 ¿Qué incluirías en el próximo fragmento de la lección y por qué?
 
 \exercise{El poder de fragmentación}{individual}{5'}
 
-Mira \figref{f:memory-unchunked} por 10 segundos,
+Mira la \figref{f:memory-unchunked} por 10 segundos,
 luego mira hacia otro lado e intenta escribir tu número de teléfono con estos símbolos\footnote{
   Mi agradecimiento a Warren Code\index{Code, Warren} por presentarme este ejemplo.
 }.
