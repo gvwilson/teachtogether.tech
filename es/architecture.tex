@@ -38,7 +38,7 @@ Si bien la mayoría de las personas confía principalmente en su canal visual,
 cuando las imágenes y las palabras se complementan entre sí
 el cerebro hace un mejor trabajo al recordarlas:
 se codifican juntas,
-de modo que el recuerdo de una más tarde ayuda a activar el recuerdo de la otra.
+de modo que el recuerdo de una ayuda a activar el recuerdo de la otra.
 
 Las entradas lingüísticas y visuales son procesadas por diferentes partes del cerebro humano
 y a su vez los recuerdos lingüísticos y visuales son almacenados también de manera separada.
@@ -50,7 +50,7 @@ Por lo tanto, el aprendizaje aumenta cuando la información se presenta de maner
 pero se reduce cuando esa información es redundante, en lugar de ser complementaria:
 tal fenómeno es conocido como \gref{g:split-attention-effect}{efecto de atención dividida}~\cite{Maye2003}.
 Por ejemplo, en general las personas encuentran más difícil aprender de un video que tiene narración y
-al mismo tiempo capturas de pantalla que de uno que únicamente tiene narración o capturas (pero no ambos elementos),
+capturas de pantalla que aprender de un video que únicamente tiene narración ó capturas (pero no ambos elementos),
 porque en el primer caso parte de su atención ha sido utilizada para chequear que la narración  
 y las capturas se correspondan entre sí. Dos notables excepciones 
 son las personas que aún no hablan bien un idioma y las que tienen algún impedimento auditivo u
@@ -67,15 +67,16 @@ supera el esfuerzo de procesamiento adicional.
 \end{aside}
 
 El efecto de la atención dividida \emph{no} significa
-que los/las estudiantes no deberían intentar conciliar múltiples flujos de información entrantes —después de todo, esto es lo que tienen que hacer en el mundo real~\cite{Atki2000}—.
+que los/las estudiantes no deberían intentar conciliar múltiples flujos de información entrantes 
+—después de todo, esto es lo que tienen que hacer en el mundo real~\cite{Atki2000}—.
 En cambio, significa que la instrucción no debería solicitar a las personas
 que lo hagan mientras están incorporando habilidades por primera vez:
-el uso de múltiples fuentes  de información de manera simultánea debe tratarse como una tarea de aprendizaje separada.
+el uso de múltiples fuentes de información de manera simultánea debe tratarse como una tarea de aprendizaje separada.
 
 \begin{aside}{No todos los gráficos son equivalentes}
   \cite{Sung2012} presenta un elegante estudio que distingue los gráficos \emph{seductores}\index{gráficos!seductores}
   (los cuales son altamente interesantes pero no son directamente relevantes al objetivo de la enseñanza),
-  los gráficos\emph{decorativos}\index{gráficos!decorativos}
+  los gráficos \emph{decorativos}\index{gráficos!decorativos}
   (los cuales son neutros pero no son directamente relevantes al objetivo de la enseñanza),
   y por último
   los gráficos \emph{instructivos}\index{gráficos!instructivos}
@@ -88,8 +89,8 @@ el uso de múltiples fuentes  de información de manera simultánea debe tratars
   tener más información en realidad puede disminuir el rendimiento.
   Les mostraron a niños/as: imágenes, imágenes más números, o simplemente números,
   para que realicen dos tareas. 
-  Para algunos/as niños/as, recibir imágenes o bien imágenes más números fue mejor que tener únicamente números;
-  pero para otros/as, recibir imágenes superó a tener imágenes más números,
+  Para algunos/as niños/as, recibir imágenes o bien imágenes más números fue mejor que recibir únicamente números;
+  pero para otros/as, recibir imágenes superó a recibir imágenes más números,
   lo que superó a solo tener números.
 \end{aside}
 
@@ -162,7 +163,7 @@ si las diferencias entre las palabras son significativas de acuerdo a sus colore
 
 \figimg{figures/frisian.png}{Construyendo una oración}{f:architecture-frisian}
 
-El equivalente de codificación de este ejemplo
+El equivalente en programación de este ejemplo
 se llama \gref{g:parsons-problem}{problema de Parsons}\footnote{Nombrado así debido a uno de sus creadores.}~\cite{Pars2006}.
 
 Cuando enseñes a programar,
@@ -170,18 +171,19 @@ puedes darles a tus estudiantes las líneas de código que necesitan para resolv
 y pedirles que las ordenen en el orden correcto.
 Esto les permite concentrarse en el flujo de control y en las dependencias de datos,
 sin distraerse con la denominación de las variables o tratando de recordar qué funciones llamar.
-Múltiples estudios han demostrado que los problemas de Parsons demandan menos tiempo de resolución pero producen resultados educativos equivalentes~\cite{Eric2017}.
+Múltiples estudios han demostrado que los problemas de Parsons demandan menos tiempo de resolución 
+y producen resultados educativos equivalentes~\cite{Eric2017}.
 
 
-\subsection*{Ejemplos desvanecidos}
+\subsection*{Ejemplos desvanecidos (o con espacios en blanco)}
 
 Otro tipo de ejercicio que se puede explicar en términos de carga cognitiva
-es dar a tus estudiantes una serie de ejemplos desvanecidos \grefdex{g:faded-example}{faded examples}{faded example}.
+es dar a tus estudiantes una serie de ejemplos desvanecidos \grefdex{g:faded-example}(\emph{faded examples} en inglés).
 El primer ejemplo de una serie presenta un uso completo de una estrategia
 particular de resolución de problemas.
 El siguiente problema es del mismo tipo,
 pero tiene algunas lagunas que tu estudiante debe llenar.
-Cada problema sucesivo da menos \gref{g:scaffolding}{scaffolding},
+Cada problema sucesivo da menos \gref{g:scaffolding}{andamiaje (\emph{scaffolding} en inglés)},
 hasta que se pide resolver un problema completo desde cero.
 Al enseñar álgebra en la escuela secundaria,
 por ejemplo,
@@ -236,54 +238,54 @@ y, finalmente, esto:
 \end{tabular}
 \end{center}
 
-Un ejercicio similar para enseñar Python podría comenzar mostrando a estudiantes\index{Python}
+Un ejercicio similar para enseñar \emph{Python} podría comenzar mostrando a estudiantes\index{Python}
 cómo encontrar la longitud total de una lista de palabras:
 
 \begin{minted}{text}
-# total_length(["red", "green", "blue"]) => 12
-define total_length(list_of_words):
+# largo_total(["rojo", "verde", "azul"]) => 12
+define largo_total(lista_de_palabras):
     total = 0
-    for word in list_of_words:
-        total = total + length(word)
+    for palabra in lista_de_palabras:
+        total = total + length(palabra)
     return total
 \end{minted}
 
 \noindent
 
-y luego pidiendo que llenen los espacios en blanco aquí
+y luego pidiendo que llenen los espacios en blanco en este otro código
 (lo que centra su atención en las estructuras de control):
 
 
 \begin{minted}{text}
-# word_lengths(["red", "green", "blue"]) => [3, 5, 4]
-define word_lengths(list_of_words):
-    list_of_lengths = []
+# largo_palabra(["rojo", "verde", "azul"]) => [3, 5, 4]
+define largo_palabra(lista_de_palabras):
+    lista_de_longitudes = []
     for ____ in ____:
-        append(list_of_lengths, ____)
-    return list_of_lengths
+        append(lista_de_longitudes, ____)
+    return lista_de_longitudes
 \end{minted}
 
 El siguiente problema podría ser este
 (que centra su atención en actualizar el resultado final):
 
 \begin{minted}{text}
-# join_all(["red", "green", "blue"]) => "redgreenblue"
-define join_all(list_of_words):
-    joined_words = ____
+# juntar_todo(["rojo", "verde", "azul"]) => "rojoverdeazul"
+define juntar_todo(lista_de_palabras):
+    palabras_unidas = ____
     for ____ in ____:
         ____
-    return joined_words
+    return palabras_unidas
 \end{minted}
 
 Finalmente, los/las estudiantes tendrán que escribir una función completa por su cuenta:
 
 \begin{minted}{text}
-# make_acronym(["red", "green", "blue"]) => "RGB"
-define make_acronym(list_of_words):
+# generar_acronimo(["rojo", "verde", "azul"]) => "RVA"
+define generar_acronimo(lista_de_palabras):
     ____
 \end{minted}
 
-Los ejemplos difusos funcionan porque
+Los ejemplos desvanecidos funcionan porque
 presentan la estrategia de resolución de problemas fragmento por fragmento.
 En cada paso,
 los/las estudiantes tienen un nuevo problema que abordar,
@@ -302,10 +304,10 @@ se agregan repetidamente a una sola variable de alguna manera para crear el resu
 \begin{aside}{Aprendizaje cognitivo}
   Un modelo alternativo de aprendizaje e instrucción que también usa andamiaje y desvanecimiento
   es el \gref{g:cognitive-apprenticeship}{aprendizaje cognitivo},
-  que enfatiza la forma en que un/a docente transmite habilidades y conocimientos a un/a aprendiz.
+  que enfatiza la forma en que un/a docente transmite habilidades y conocimientos a un/a estudiante.
   El/la docente proporciona modelos de desempeño y resultados,
   luego entrena a las personas novatas explicando qué están haciendo y por qué~\cite{Coll1991,Casp2007}.
-  El/la aprendiz reflexiona sobre su propia resolución de problemas,
+  El/la estudiante reflexiona sobre su propia resolución de problemas,
   por ejemplo, pensando en voz alta o criticando su propio trabajo,
   y finalmente explora problemas de su propia elección.
 
@@ -316,7 +318,7 @@ se agregan repetidamente a una sola variable de alguna manera para crear el resu
   cuáles son y cuáles no son características superficiales\footnote{Por mucho tiempo
      creí que la variable que contenía el valor que una función iba a devolver
      \emph{tenía} que llamarse \texttt{resultado},
-     porque mi maestro siempre usaba ese nombre en los ejemplos.}.    
+     porque mi docente siempre usaba ese nombre en los ejemplos.}.    
   Los problemas deben presentarse en contextos del mundo real,
   y debemos fomentar la autoexplicación para ayudar a los/las estudiantes
   a organizarse y dar sentido a lo que se les acaba de enseñar
@@ -331,7 +333,7 @@ dar nombre a los pasos en una descripción paso a paso de un proceso de resoluci
 \cite{Marg2016,Morr2016} descubrieron que al etiquetar los sub\-objetivos, los/las estudiantes 
 resolvían mejor los problemas de Parsons,
 y se observa el mismo beneficio en otros dominios~\cite{Marg2012}.
-Volviendo al ejemplo de Python usado anteriormente,
+Volviendo al ejemplo de \emph{Python} usado anteriormente,
 los objetivos secundarios para encontrar la longitud total de una lista de palabras o construir un acrónimo son:
 
 \begin{enumerate}
@@ -347,7 +349,8 @@ los objetivos secundarios para encontrar la longitud total de una lista de palab
 
 \end{enumerate}
 
-Etiquetar sub\-objetivos funciona porque agrupar los pasos relacionados en fragmentos con nombre (\secref{s:memory-seven-plus-or-minus})\index{fragmentos de código}
+Etiquetar sub\-objetivos funciona porque agrupar los pasos relacionados 
+en fragmentos con nombre (\secref{s:memory-seven-plus-or-minus})\index{fragmentos de código}
 ayuda a tus estudiantes a distinguir lo que es genérico de lo que es específico del problema en cuestión.
 También les ayuda a construir un modelo mental de ese tipo de problema,
 de modo que luego pueden resolver otros problemas de ese tipo,
@@ -355,9 +358,9 @@ y les da una oportunidad natural para la auto\-explicación (\secref{s:individua
 
 \subsection*{Manuales mínimos}
 
-La aplicación más pura de la teoría de la carga cognitiva puede ser el manual mínimo de
-John Carroll\index{Carroll, John} \gref{g:minimal-manual}{minimal manual}~\cite{Carr1987,Carr2014}.
-Su punto de partida es una cita de un usuario: ``Quiero hacer algo, no aprender a hacer todo''.
+La aplicación más pura de la teoría de la carga cognitiva puede ser el \gref{g:minimal-manual}{manual mínimo} de
+John Carroll\index{Carroll, John}~\cite{Carr1987,Carr2014}.
+Su punto de partida es una cita de un usuario: ``Quiero aprender a hacer algo, no aprender a hacer todo''.
 Carroll y sus colegas rediseñaron la capacitación para presentar cada idea como una tarea autónoma de una sola página:
 un título que describa de qué trata la página,
 instrucciones paso a paso sobre cómo hacer una sola cosa
@@ -394,7 +397,7 @@ Sin embargo,
 la instrucción basada en la teoría de la carga cognitiva es innegablemente efectiva.
 Por ejemplo,
 \cite{Maso2016} rediseñó un curso de base de datos para eliminar la atención dividida y los efectos de redundancia
-y para proporcionar ejemplos prácticos y subobjetivos.
+y para proporcionar ejemplos prácticos y con sub\-objetivos.
 El nuevo curso redujo la tasa de reprobación del examen en un 34\%
 y aumentó la satisfacción de los/las estudiantes.
 
@@ -425,7 +428,7 @@ la enseñanza y el aprendizaje siempre están arraigados en quiénes somos y qui
 Lo discutiremos con más detalle en el \chapref{s:community}.
 
 
-El sitio web de \hreffoot{http://www.learning-theories.com/}{Learning Theories, teorías de aprendizaje en inglés}
+El sitio web de \hreffoot{http://www.learning-theories.com/}{\emph{Learning Theories}, teorías de aprendizaje en inglés}
 y~\cite{Wibu2016}
 tienen buenos resúmenes de estas y otras perspectivas.
 Además del cognitivismo, las que se encuentran con mayor frecuencia incluyen el \gref{g:behaviorism}{conductismo}
@@ -453,7 +456,7 @@ o cuántas veces aparecen palabras diferentes en un párrafo de texto.
 
 \begin{enumerate}
 \item
-    Crea un ejemplo breve (no más de 10 líneas de código) que muestre a las personas cómo hacer esto.
+    Crea un ejemplo breve (no más de 10 líneas de código) que muestre a las personas cómo hacer esta tarea.
     Luego, crea un segundo ejemplo que resuelva un problema similar de una manera similar,
     pero que tenga un par de espacios en blanco para que los/las estudiantes los completen.
     ¿Cómo decides qué desvanecer?
@@ -462,7 +465,7 @@ o cuántas veces aparecen palabras diferentes en un párrafo de texto.
 \item
     Define el público de tus ejemplos.
     Por ejemplo,
-    ¿son personas principiantes que solo conocen algunos conceptos básicos de programación?
+    ¿son personas novatas que solo conocen algunos conceptos básicos de programación?
     ¿O son estudiantes con alguna experiencia en programación?
 
 \item
@@ -475,7 +478,7 @@ o cuántas veces aparecen palabras diferentes en un párrafo de texto.
 
 Si entre tus estudiantes hay personas que no programan en absoluto,
 intenta ubicarlos en diferentes grupos
-y pídeles que hagan el papel de aprendices para esos grupos.
+y pídeles que hagan el papel de estudiantes en sus grupos.
 Alternativamente,
 elige un dominio de problema diferente con el que desarrollar tu ejemplo desvanecido.
 
@@ -505,13 +508,13 @@ te dará una idea de cuán detallado debe ser tu listado de ítems).
 
 Escribe cinco o seis líneas de código que hagan algo útil,
 mézclalas y pídele a tu pareja que las ponga en orden.
-Si estás utilizando un lenguaje basado en indentación como Python,
+Si estás utilizando un lenguaje basado en indentación como \emph{Python},
 no utilices sangría en ninguna de las líneas;
 si estás utilizando un lenguaje de llaves como Java,
 no incluyas ninguna de las llaves.
 (Si tu grupo incluye personas que no programan,
 usa un dominio de problema diferente,
-como hacer pan de banana).
+como, por ejemplo, hacer budín de pan).
 
 
 \exercise{Manuales mínimos}{individual}{20'}
@@ -539,7 +542,7 @@ intercambia roles con tu pareja y repite el ejercicio.
 \exercise{Ejemplos resueltos}{parejas}{15'}
 
 Ver ejemplos resueltos ayuda a las personas a aprender a programar más rápido que simplemente escribiendo mucho código~\cite{Skud2014},
-y deconstruir el código rastreándolo o depurándolo también aumenta el aprendizaje~\cite{Grif2016}.
+y desconstruir el código rastreándolo o depurándolo también aumenta el aprendizaje~\cite{Grif2016}.
 Trabajando en parejas, revisa un fragmento de código de 10 a 15 líneas
 y explica qué hace cada declaración y por qué es necesaria.
 ¿Cuánto tiempo demoras?
@@ -565,7 +568,7 @@ y explica qué hace cada declaración y por qué es necesaria.
 \item[Segmentación:]
   Cuando presentes una secuencia larga de material o
   cuando tus estudiantes no tengan experiencia en el tema,
-  divide la presentación en segmentos cortos y deja que los estudiantes controlen la rapidez con que avanzan al siguiente.
+  divide la presentación en segmentos cortos y deja que los/las estudiantes controlen la rapidez con que avanzan al siguiente.
 
 \item[Pre-entrenamiento:]
   Si tus estudiantes no conocen los conceptos y la terminología principales que utilizas en la presentación,
