@@ -160,12 +160,14 @@ Cuando se encuentre una referencia a una lección de The Carpetries se buscará 
 Los ejercicios en cada capítulo indican la cantidad de personas que deben participar y la cantidad de minutos que lleva realizarlo.
 
 Para la cantidad de personas traduciremos:
- * Individual
- * Parejas
- * Grupos pequeños
- * Toda la clase
+|Inglés | English |
+|Individual | Individual|
+|Pairs | Parejas|
+|Small groups | Grupos pequeños|
+|Whole class | Toda la clase |
+|think-pair-share | pensar-parejas-compartir|
 
-Para indicar los minutos agregaremos una comilla simple (') a la derecha del número: 15**'** 
+Para indicar los minutos agregaremos una comilla simple (') a la derecha del número, por ejemplo: 15**'** 
 
 #### 5. Uso de nombres regionales
 
