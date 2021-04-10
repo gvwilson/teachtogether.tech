@@ -161,7 +161,8 @@ Cuando se encuentre una referencia a una lección de The Carpetries se buscará 
 Los ejercicios en cada capítulo indican la cantidad de personas que deben participar y la cantidad de minutos que lleva realizarlo.
 
 Para la cantidad de personas traduciremos:
-|Inglés | English |
+|Inglés | Español |
+| ---------------|----------------|
 |Individual | Individual|
 |Pairs | Parejas|
 |Small groups | Grupos pequeños|
