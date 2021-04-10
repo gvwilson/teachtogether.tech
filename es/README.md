@@ -1,9 +1,10 @@
-# Orientaciones para la traducción
+# Orientaciones para la traducción <img src='../art/hexstickers_es.png' align="right" height="239" />
+
 
 ## A. Organización del trabajo
-Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto (ver la tabla al final de estas orientaciones con las personas responsables).
+Cada capítulo tiene asignada una persona a cargo de la traducción, que es responsable de que esta se lleve a cabo. Se realizarán al menos dos revisiones de cada capítulo y una edición final de todo el libro en su conjunto. Se buscó que el idioma de las traductoras y revisoras tuviera origen en diferentes países para poder considerar las diferentes y hermosas formas en que hablamos español en todo el mundo (ver la tabla al final de estas orientaciones con las personas responsables).  
 
-La fuente del libro está en LaTeX, para dudas sobre la sintaxis podemos consultar [esta guía](https://sites.google.com/site/guiadelatex/home) y [esta](http://nokyotsu.com/latex/guia.html), ambas en español.
+La fuente del libro está en LaTeX, para dudas sobre la sintaxis podemos consultar [esta guía](https://sites.google.com/site/guiadelatex/home) y [esta otra](http://nokyotsu.com/latex/guia.html), ambas en español.
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
@@ -11,7 +12,7 @@ __1. Usar una voz conversacional en lugar de una voz formal o académica.__
 
 __2. Al traducir buscamos generar una versión de cómo diríamos en español lo que en el capítulo está escrito en inglés.__ En algunos casos eso puede implicar alterar el orden de los elementos de una oración o agregar palabras que no estaban en el original. Lo importante es que la traducción se lea lo más natural posible en español, respetando el contenido que se quiso transmitir en el original.
 
-__3. La variedad dialectal del español que usaremos en la traducción es la de Latinoamérica__ (porque el posible público destinatario que la habla es más amplio). Intentaremos generar una versión lo más neutra posible, por lo que:
+__3. La variedad dialectal del español que usaremos en la traducción es la de Latinoamérica__ (porque el posible público destinatario que la habla es más amplio además de ser la variedad que hablan y escriben la mayoría de las traductoras). Intentaremos generar una versión lo más neutra posible, por lo que:
 
 * Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.
 * No utilizaremos el voseo (_vos/vosotros_). T3 está dirigido a una segunda persona, así que para mantener lo mas posible la neutralidad la traduciremos como _tú_ (... _If you are using this material_ > ... _si estás usando este material_; _Who do you most want to teach_ > ... _¿Qué es lo que más quieres enseñar?_).
