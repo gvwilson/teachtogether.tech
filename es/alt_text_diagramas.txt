@@ -1,5 +1,4 @@
-Capítulo models.tex
-
+Capítulo models.tex (el texto en español ya está como issue en github)
 
     Agua-Water:
 
@@ -16,10 +15,11 @@ A formative assessment is quick and clear so it is scalable. It also has diagnos
 
     Modelos mentales - mental models
 
-ES: el mapa conceptual presenta los conceptos y relaciones principales entre esos conceptos relacionados a los conceptos mentales.
+ES: el mapa conceptual presenta los conceptos y relaciones principales entre esos conceptos relacionados a los modelos mentales.
 Los modelos mentales deben ser útiles y no necesitan ser completos o correctos. Cuando una persona novata (que puede tener una falsa confianza) desarrolla un modelo mental se convierte en un practicante competente.
 Los mapas conceptuales se usan para representar un modelo mental por medio de nodos que representan conceptos y enlaces que representan relaciones. Las relaciones habilitan recordar los conceptos. Estos mapas también ayudan a diseñar una lección siguiendo las relaciones.
 
-EN: the concept map presents the main concepts and relationships between those concepts related to mental concepts.
+EN: the concept map presents the main concepts and relationships between those concepts related to mental models.
 Mental models must be useful and do not need to be complete or correct. When a novice (who may have false confidence) develops a mental model, becomes a competent practitioner.
 Concept maps are used to represent a mental model through nodes that represent concepts and links that represent relationships. Relationships enable you to recall concepts. These maps also help design a lesson by following the relationships.
+
