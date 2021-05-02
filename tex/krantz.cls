@@ -1922,7 +1922,7 @@
 
 \def\textlistlabel{}
 
-\newenvironment{reveiwer}[2]{{\itshape\begin{flushright}\vbox{Traductora: #1}\par\vskip6pt \vbox{Revisoras: #2}\end{flushright}}}{\par\addvspace{12pt}}
+\newenvironment{reviewer}[2]{{\itshape\begin{flushright}\vbox{Traductora: #1}\par\vskip6pt \vbox{Revisoras: #2}\end{flushright}}}{\par\addvspace{12pt}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newdimen\concolwidth
