@@ -92,6 +92,10 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | pipes | contexto: consola unix, R |
 | marketing |
 | ranking ||
+| Python | lenguaje de programación|
+| Scratch| lenguaje de programación|
+| HTML | lenguaje de marcado |
+| CSS | hojas de estilos en cascada|
 
 
 #### 2. Términos técnicos que se traducen
