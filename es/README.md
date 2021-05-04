@@ -96,6 +96,8 @@ Estos términos deberían ir en un formato especial (utilizar cursiva, para pone
 | Scratch| lenguaje de programación|
 | HTML | lenguaje de marcado |
 | CSS | hojas de estilos en cascada|
+| Git ||
+|pull requests| contexto: git |
 
 
 #### 2. Términos técnicos que se traducen
