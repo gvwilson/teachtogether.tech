@@ -1,5 +1,10 @@
 \chapter{Tipos de ejercicios}\label{s:exercises}
 
+\begin{reviewer}
+{Priscilla Minotti}
+{Roxana Villafañe y Natalie Stroud}
+\end{reviewer}
+
 Todo/a buen/a carpintero/a tiene un juego de destornilladores y todo/a buen/a docente tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los/las estudiantes, para ayudarlos a practicar sus nuevas habilidades y para mantener su compromiso.
 
 Este capítulo comienza describiendo varios tipos de ejercicios que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva.
@@ -11,7 +16,7 @@ Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury \
 \seclbl{Los clásicos}{s:exercises-classics}
 
 Como se discute en la \secref{s:models-formative-assessment}, las \emph{preguntas de opción múltiple} son más efectivas cuando las respuestas incorrectas sondean conceptos erróneos específicos.  
-Están diseñadas para evaluar los niveles más bajos en la Taxonomía de Bloom \index{Taxonomía de Bloom}
+Están diseñadas para evaluar los niveles más bajos en la Taxonomía de Bloom \index{taxonomía de Bloom}
 (\secref{s:process-objectives}), pero también requieren que los/las estudiantes utilicen su propio juicio.
 
 \begin{aside}{Una pregunta de opción múltiple}
@@ -111,17 +116,17 @@ las respuestas enviadas son mucho más predecibles y, por lo tanto, más fácile
 
 \begin{aside}{Completar los espacios en blanco}
  Completa los espacios en blanco,
- para que el código de abajo imprima el texto  \texttt{'cana'}.
+ para que el código de abajo imprima el texto  \texttt{'cana'}.\footnote{Inspirado en un verso de María Elena Walsh, del libro 
+\hreffoot{https://es.wikipedia.org/wiki/Zoo\_loco}{Zoo Loco}.}
 
 \begin{minted}{text}
-text = 'Un canario que ladra si está triste' \footnote{Inspirado en un verso de María Elena Walsh, del libro Zoo loco 
-\hreffoot{https://es.wikipedia.org/wiki/Zoo_loco}{Zoo Loco}.}
+text = 'Un canario que ladra si está triste' 
 slice = text[____:____]
 print(slice)
 \end{minted}
 \end{aside}
 
-Los problemas de Parsons \index{Problemas de Parsons} también evitan el problema de la ``pantalla blanca del terror" a la vez que permite que los/las estudiantes se concentren en el flujo de control por separado del vocabulario \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
+Los problemas de Parsons \index{problema de Parsons} también evitan el problema de la ``pantalla blanca del terror" a la vez que permite que los/las estudiantes se concentren en el flujo de control por separado del vocabulario \cite{Pars2006,Eric2015,Morr2016,Eric2017}.
 
 Existen herramientas para construir y hacer problemas de Parsons en línea~\cite{Ihan2011},
 pero pueden ser emuladas (aunque un poco torpemente) 
@@ -322,13 +327,13 @@ El diagrama puede ser una estructura de datos (``después de ejecutar este códi
 
 \begin{aside}{Etiquetado de un diagrama}
   La \figref{f:exercises-labeling} muestra
-cómo un fragmento pequeño de HTML se representa en memoria.
+cómo un fragmento pequeño de \emph{HTML} se representa en memoria.
   Coloca las etiquetas 1--9 sobre los elementos del árbol 
   para mostrar el orden en el que se alcanzan en un recorrido en profundidad.
 \end{aside}
 
 
-\figpdf{figures/labeling.pdf}{Etiquetado de un diagrama}{f:exercises-labeling}
+\figpdf{figures/labeling.pdf}{Etiquetado de un diagrama}{f:exercises-labeling}{inicia con una caja con una letra P mayúscula, salen cuatro flechas, dos hacia dos cajas diferentes con la misma etiqueta: "texto", otra hacia una caja con la letra I mayúscula y la última hacia una caja con la letra B mayúscula. Desde la caja de la letra B salen dos flechas, una hacia una caja etiquetada como "texto" y otra hacia una caja con la letra U mayúscula. Desde las letras I e U también salen flechas hacia diferentes cajas etiquetadas como "texto".}
 
 
 Otra forma de usar diagramas es dar a tus estudiantes las partes del diagrama y pedirles que las organicen correctamente.
@@ -350,7 +355,7 @@ p.ej.\ `` asocia cada fragmento de código con la salida que produce".
   con lo que hace.
 \end{aside}
 
-\figpdfhere{figures/matching.pdf}{Unir los ítems}{f:exercises-matching}
+\figpdfhere{figures/matching.pdf}{Unir los ítems}{f:exercises-matching}{En el primer renglón llamado "Operador", se presentan cajas con símbolos en el siguiente orden: signo de pregunta, asterisco, más, peso, potencia. En el segundo renglón llamado "Acción" hay cajas etiquetadas con el siguiente orden: inicio de línea, cero o uno, fin de línea, uno o más, cero o más.}
 
 Con la \emph{correspondencia de muchos a muchos} las listas no tienen la misma longitud, por lo que algunos elementos pueden asociarse con varios
 y otros pueden no ser emparejados en absoluto.
@@ -421,7 +426,7 @@ los/las estudiantes hicieron comentarios negativos sobre la herramienta,
 que los/las autores atribuyen a la calidad de los mensajes de retroalimentación más que a una aversión a la autocalificación.
 
 \cite{Srid2016} adoptaron un enfoque diferente.
-Utilizaron \gref{g:fuzz-testing}{fuzz testing} 
+Utilizaron \gref{g:fuzz-testing}{\emph{fuzz testing}} 
 (casos de prueba generados aleatoriamente) 
 para comprobar si el código del estudiante realiza lo mismo que una implementación de referencia proporcionada por el/la docente.
 En el primer proyecto de un curso introductorio de 1400 estudiantes, el \emph{fuzz testing} identificó errores que no habían sido detectados en un conjunto de casos de prueba escritos a mano para más del 48\% de los/las estudiantes.
@@ -551,10 +556,10 @@ sigue cómo las variables del programa cambian de valor con el tiempo.
 
 \exercise{Refactorizar}{grupos pequeños}{15’}
 
-Forma grupos de 3-4 personas.
+La clase trabaja en grupos de 3-4 personas.
 
-Haz que cada persona seleccione un fragmento corto de código (10--30 líneas de largo) que haya escrito y que no sea tan ordenado como podría ser.
-Luego, elige un/a estudiante al azar y que todas las personas de la clase ordenen su código independientemente.
+En cada grupo, cada persona selecciona un fragmento corto de código (10--30 líneas de largo) que haya escrito y que no sea tan ordenado como podría ser.
+Luego, el/la docente elige un/a estudiante al azar por grupo: todas las personas de la clase ordenan su código independientemente.
 
 ¿En qué se diferencian las versiones limpias?
 ¿Qué tan bien o que tan mal podrían acomodarse todas estas variaciones si se calificara automáticamente, o en una clase grande?

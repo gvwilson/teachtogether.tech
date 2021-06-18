@@ -1,5 +1,10 @@
 \chapter{Conocimiento de la pedagogía del contenido}\label{s:pck}
 
+\begin{reviewer}
+{Paola Corrales}
+{Ana Laura Diedrichs y Juliana Benitez}
+\end{reviewer}
+
 Cada docente necesita tres cosas:
 
 \begin{description}
@@ -14,54 +19,68 @@ Cada docente necesita tres cosas:
 \item[\gref{g:pedagogical-content-knowledge}{conocimiento de la pedagogía del contenido}],
   que es el conocimiento específico acerca de cómo enseñar un concepto particular a un público en particular.
   En informática,
-  el conocimiento de la pedagogía del contenido incluye qué ejemplos usar cuando se enseña, cómo se incluyen parámetros en una función o qué conceptos erróneos sobre etiquetas HTML anidadas son los más comunes.
+  el conocimiento de la pedagogía del contenido incluye qué ejemplos usar cuando se enseña, 
+  cómo se incluyen parámetros en una función o qué conceptos erróneos sobre etiquetas \emph{HTML} anidadas son los más comunes.
 \end{description}
 
 Podemos agregar conocimiento técnico a este conjunto~\cite{Koeh2013},
-pero eso no cambia el punto clave: no es suficiente saber sobre el tema y cómo enseñar---tienes que saber cómo enseñar ese tema en particular~\cite{Maye2004}.
-Este capítulo resume algunos resultados de investigaciones sobre enseñanza de informática para añadir a tu colección sobre el conocimiento de la pedagogía del contenido.
+pero eso no cambia el punto clave: no es suficiente saber sobre el tema y cómo enseñar---tienes que saber cómo enseñar 
+ese tema en particular~\cite{Maye2004}.
+Este capítulo resume algunos resultados de investigaciones sobre enseñanza de informática para añadir a tu colección 
+sobre el conocimiento de la pedagogía del contenido.
 
 Como con toda investigación,
 se requiere cierta precaución al interpretar los resultados:
 
-\begin{description}
+\begin{description}[style=unboxed]
 
 \item[Las teorías cambian a medida que se obtienen más datos.]
   La investigación sobre educación en informática es una disciplina nueva:\index{investigación sobre educación en computación}
-  la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920, pero la Asociación de Docentes de Informática no se creó hasta 2005.
+  la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920, 
+  pero la Asociación de Docentes de Informática no se creó hasta 2005.
   Mientras que existe un flujo constante de nuevo conocimiento en conferencias como \hreffoot{http://sigcse.org/}{SIGCSE},
   \hreffoot{http://iticse.acm.org/}{ITiCSE}
   e \hreffoot{https://icer.hosting.acm.org}{ICER},
-  simplemente no sabemos tanto sobre cómo aprender a programar como sí sabemos sobre aprender a leer, jugar un deporte o resolver cálculos simples.
+  simplemente no sabemos tanto sobre cómo aprender a programar como sí sabemos sobre aprender a leer, 
+  jugar un deporte o resolver cálculos simples.
  
 \item[La mayoría de las personas en estos estudios
-  viven en sociedades occidentales, democráticas, industrializadas y con alto nivel de riqueza y educación] y se los denomina WEIRD\index{WEIRD} por \emph{Western, Education, Industrialized, Rich, and Democratic en inglés}, tal como señala ~\cite{Henr2010}.
+  viven en sociedades occidentales, democráticas, industrializadas y con alto nivel de riqueza y educación] y se los denomina WEIRD\index{WEIRD} 
+  por \emph{Western, Education, Industrialized, Rich, and Democratic} (en inglés), tal como señala ~\cite{Henr2010}.
   Además,
-  son principalmente jóvenes que estudian en instituciones educativas, ya que es la población a la que la mayoría de las personas que investigan tienen fácil acceso.
-  Sabemos mucho menos sobre adultos, grupos marginados y estudiantes en ambientes educativos flexibles (estudiantes free-range), así como sobre \grefdex{g:end-user-programmer}{usuarias/os finales programadoras/es}{usuario/a final programadora/or},
+  son principalmente jóvenes que estudian en instituciones educativas, ya que es la población a la que la mayoría de las personas 
+  que investigan tienen fácil acceso.
+  Sabemos mucho menos sobre adultos, grupos marginados y estudiantes en ambientes educativos flexibles (estudiantes free-range), 
+  así como sobre \grefdex{g:end-user-programmer}{usuarias/os finales programadoras/es}{usuario/a final programador/a},
   aún cuando son la mayoría.
 
 \end{description}
 
 Si esto fuera un ensayo académico, empezaría la mayoría de oraciones con frases como,
 ``Algunas investigaciones parece indicar que{\ldots}''
-Pero dado que las/los docentes reales que enseñan en aulas reales tienen que tomar decisiones independientemente de si las investigaciones tienen respuestas claras o no, este capítulo presenta las mejores conjeturas prácticas en lugar de sutiles posibilidades.
+Pero dado que las/los docentes reales que enseñan en aulas reales tienen que tomar decisiones 
+independientemente de si las investigaciones tienen respuestas claras o no, 
+este capítulo presenta las mejores conjeturas prácticas en lugar de sutiles posibilidades.
 
 \begin{aside}{Jerga}
   Como cualquier especialidad,
   la investigación sobre educación en informática tiene jerga.
-  \gref{g:cs1}{CS1} refiere a un curso introductorio de un semestre de duración, donde los estudiantes aprenden variables, bucles y funciones por primera vez, mientras que \gref{g:cs2}{CS2} refiere a un segundo curso que cubre las estructuras de datos básicas como pilas y colas, 
-  y \gref{g:cs0}{CS0} se refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con computación de inmediato.
+  \gref{g:cs1}{CS1} refiere a un curso introductorio de un semestre de duración, donde las/los estudiantes aprenden variables, 
+  bucles y funciones por primera vez, mientras que \gref{g:cs2}{CS2} refiere a un segundo curso que cubre las estructuras de datos básicas 
+  como pilas y colas, 
+  y \gref{g:cs0}{CS0} se refiere a un curso introductorio para personas sin experiencia previa y que no tienen intención de continuar con 
+  computación de inmediato.
   Las definiciones completas de estos términos se encuentran en los \hreffoot{https://www.acm.org/education/curricula-recommendations}{lineamientos del programa \emph{ACM} (
 Association for Computing Machinery, por sus siglas en inglés)}.
 \end{aside}
 
 \seclbl{¿Qué les estamos enseñando ahora?}{s:pck-now}
 
-Se sabe muy poco sobre qué se enseña en entrenamientos de programación intensivo e iniciativas free-range, en parte porque muchas personas son reticentes a compartir los programas.
+Se sabe muy poco sobre qué se enseña en entrenamientos de programación intensivo e iniciativas free-range, 
+en parte porque muchas personas son reticentes a compartir los programas.
 Sabemos más sobre lo que  se enseña en instituciones~\cite{Luxt2017}:
 
-\begin{longtable}{llll}
+\begin{longtable}{@{}p{10.5pc}lp{10.5pc}l}
 \textbf{Temas}            & \textbf{\%}    & \textbf{Temas}        & \textbf{\%} \\
 Proceso de programación         & 87\%        & Tipos de datos                & 23\% \\
 Pensamiento abstracto para programación    & 63\%        & Entrada/Salida                  & 17\% \\
@@ -78,15 +97,14 @@ Sus resultados para la secuenciación, la repetición y los condicionales son es
 que combinan y racionalizan el pensamiento implícito y explícito de gran cantidad de docentes
 (\figref{f:pck-trajectory}).
 
-\newpage
-
-\figpdfhere{figures/conditionals.pdf}{Trayectoria de aprendizaje para condiciones (extraído  de~\cite{Rich2017})}{f:pck-trajectory}
+\figpdfhere{figures/conditionals.pdf}{Trayectoria de aprendizaje para condiciones (extraído de~\cite{Rich2017})}{f:pck-trajectory}{Este diagrama presenta una serie de conceptos relacionados y marca con diferentes tipos de trama las trayectorias (inicial, intermedia, avanzada) para enseñarlos. Trayectoria inicial: "A menudo las acciones resultan de causas específicas", "Una condición es algo que puede ser verdadero o falso" y "Un condicional conecta una condición a un resultado", "Cada estado de una condición puede tener su propia acción" y "Declaraciones condicionales evalúan condiciones y ejecutan acciones". Trayectoria intermedia: "Declaraciones condicionales pueden crear bifurcaciones en el flujo de ejecución", "Las computadoras requieren que se especifiquen todas las acciones", "Algunas veces se deben considerar múltiples condiciones", "Las condiciones pueden superponerse y se puede aplicar más de una". Trayectoria avanzada: "Una variable booleana puede ser verdadera o falsa", "Los operadores lógicos se pueden utilizar para combinar condiciones", "Las declaraciones condicionales se pueden combinar de varias maneras".}
 
 \seclbl{¿Cuánto están aprendiendo?}{s:pck-learning}
 
 Puede haber un mundo de distancia entre lo que enseñan las/los docentes y cuánto aprenden sus estudiantes.
 Para explorar cuánto se aprende, debemos usar otras medidas o hacer estudios directos.
-Tomando el enfoque tradicional, aproximadamente dos tercios de las/los estudiantes de nivel superior aprueban su primer curso de informática,
+Tomando el enfoque tradicional, aproximadamente dos tercios de las/los estudiantes de nivel superior aprueban su primer 
+curso de informática,
 con algunas variaciones dependiendo del tamaño de la clase,
 pero sin diferencias significativas a lo largo del tiempo o basadas en el lenguaje~\cite{Benn2007a,Wats2014}.
 
@@ -147,7 +165,7 @@ mental plausible pero erróneo haciendo analogías. Otras confusiones incluyen:
 
 \item
   Está garantizado que dos objetos con el mismo valor para sus atributos \texttt{nombre}
-  o  identificación \texttt{id} son el mismo objeto.   
+  o identificación \texttt{id} son el mismo objeto.   
  
 
 \item
@@ -158,9 +176,9 @@ mental plausible pero erróneo haciendo analogías. Otras confusiones incluyen:
   La condición de un bucle \texttt{while} se evalúa constantemente,
   y el bucle se detiene tan pronto como se vuelve falso.
   Por el contrario,
-  la condición de las sentencias\texttt{if} es constantemente evaluada,
+  la condición de las sentencias \texttt{if} es constantemente evaluada,
   y sus declaraciones son ejecutadas tan pronto como la condición se vuelve verdadera,
- independientemente de dónde se encuentre el flujo de control en ese momento.
+  independientemente de dónde se encuentre el flujo de control en ese momento.
 
 \item
   Las asignaciones modifican valores,
@@ -180,7 +198,7 @@ se cometen solo una vez.
 No extraña que los errores que producen problemas de compilación son resueltos mucho más rápido
 que aquellos que no lo hacen.
 Algunos errores, en cambio, se repiten muchas veces, como llamar métodos con los argumentos incorrectos
-(p. ej.\ pasar una cadena  de caracteres en vez de un número entero).
+(p. ej.\ pasar una cadena de caracteres en vez de un número entero).
 
 \begin{aside}{No es correcto versus No está resuelto}
   Una dificultad en una investigación como esta es distinguir los errores del trabajo en proceso.
@@ -200,11 +218,11 @@ confundir \texttt{=} (asignación) con \texttt{==} (igualdad)
 no eran tan común como la mayoría de las/los docentes creían.
 
 \begin{aside}{No solo por el código}
-  \cite{Park2015} recopiló datos de un editor HTML en línea durante un curso introductorio de desarrollo web
+  \cite{Park2015} recopiló datos de un editor \emph{HTML} en línea durante un curso introductorio de desarrollo web
   y encontró que la mayoría de las/los estudiantes cometieron errores de sintaxis que permanecieron sin ser resueltos por semanas durante el curso.
   El 20\% de esos errores estaban relacionados con reglas relativamente complejas
-  que indican \emph{cuándo} es válido que los elementos HTML estén anidados entre sí,
-  pero el 35\% estaba relacionado a sintaxis de etiquetas más simples que determinan \emph{cómo} los elementos HTML están anidados.
+  que indican \emph{cuándo} es válido que los elementos \emph{HTML} estén anidados entre sí,
+  pero el 35\% estaba relacionado a sintaxis de etiquetas más simples que determinan \emph{cómo} los elementos \emph{HTML} están anidados.
   La tendencia de muchas/os docentes a decir
   ``Pero las reglas son simples,''
   es un buen ejemplo del punto ciego de las personas expertas que se analiza en el \chapref{s:memory}{\ldots}
@@ -222,7 +240,7 @@ a pesar de que los errores son usualmente causados por no tener una estrategia p
 en lugar de falta de conocimiento sobre el lenguaje.
 Un trabajo reciente mostró la efectividad de enseñar cuatro habilidades distintas en un orden específico~\cite{Xie2019}:
 
-\begin{longtable}{lll}
+\begin{longtable}{lp{10.7pc}p{10.8pc}}
 			& \textbf{semántica del código}				& \textbf{plantillas asociadas a objetivos} \\
 \textbf{leyendo}	& 1.\ leer el código y predecir su comportamiento	& 3.\ reconocer plantillas y sus usos \\
 \textbf{escribiendo}	& 2.\ escribir la sintaxis correcta			& 4.\ usar las plantillas para alcanzar objetivos
@@ -231,9 +249,9 @@ Un trabajo reciente mostró la efectividad de enseñar cuatro habilidades distin
 Por lo tanto, nuestras siguientes recomendaciones son:
 \recommendation{haz que tus estudiantes lean código, luego lo modifiquen, luego lo escriban} y además  \recommendation{preséntales explícitamente patrones comunes y haz que practiquen usándolos}.
 \cite{Mull2007b} es uno de los tantos estudios que muestran los beneficios de enseñar patrones comunes de manera explícita. Descomponer los problemas
-en patrones comunes crea oportunidades naturales para crear y etiquetar sub-objetivos~\cite{Marg2012,Marg2016}.\index{labeled subgoals}
+en patrones comunes crea oportunidades naturales para crear y etiquetar sub-objetivos~\cite{Marg2012,Marg2016}.\index{sub-objetivos etiquetados}
 
-\seclbl{¿Cómo identifican y resuelven errores las personas novatas??}{s:pck-debug}
+\seclbl{¿Cómo identifican y resuelven errores las personas novatas?}{s:pck-debug}
 
 Una década atrás,
 \cite{McCa2008} escribieron:
@@ -270,7 +288,7 @@ y corregirlos para ayudar a las personas novatas a aprender cómo resolverlos.
 Enseñar a principiantes cómo depurar errores también puede ayudar a que las clases sean más simples de manejar.
 \cite{Alqa2017} encontró que estudiantes con mayor experiencia resolvieron problemas de depuración de errores significativamente más rápido,
 pero que los tiempos variaron ampliamente:
-4--10 minutos fue el rango típico para ejercicios individuales,
+entre 4 a 10 minutos fue el rango típico para ejercicios individuales,
 lo cual significa que algunas/os estudiantes necesitan entre 2 y 3 veces más tiempo que otras/os para resolver el mismo ejercicio.
 Para ayudar a que el progreso de todo el grupo sea más uniforme,
 es conveniente enseñarles a quienes resuelven los ejercicios más lentamente qué están haciendo las personas más rápidas.
@@ -279,7 +297,7 @@ La depuración de errores depende de ser capaz de leer el código,
 algo que múltiples estudios han demostrado que es la forma más efectiva de encontrar errores~\cite{Basi1987,Keme2009,Bacc2013}.
 La rúbrica de calidad de código desarrollada por~\cite{Steg2014,Steg2016a}
 es una buena lista de verificación de elementos a revisar,
-aunque se presenta mejor de a partes  en lugar  de toda junta.
+aunque se presenta mejor de a partes en lugar de toda junta.
 
 Hacer que las/los estudiantes lean código y resuman su comportamiento es un buen ejercicio (\secref{s:individual-strategies}),
 pero frecuentemente lleva mucho tiempo practicarlo en clase.
@@ -291,7 +309,7 @@ Las/los docentes o estudiantes pueden además rastrear los cambios en las variab
 algo que \cite{Cunn2017} encontró efectivo (\secref{s:exercises-tracing}).
 
 \seclbl{¿Qué pasa con las pruebas (\emph{tests})?}{s:pck-testing}
-\index{testing (software)}
+\index{\emph{testing} (software)}
 \index{pruebas (software)}
 
 
@@ -302,20 +320,27 @@ mientras que las personas novatas con un bajo rendimiento dedican mucho más tie
 requieren que las/los estudiantes escriban tests en las actividades.
 ¿Pero qué tan bien lo hacen?
 Una posible respuesta proviene de~\cite{Bria2015},
-quienes calificaron el código de las/los estudiantes según la cantidad de situaciones, definidas por la/el docente, que pasaban correctamente las pruebas de los programas.
-A la inversa, también calificaron
-los casos de prueba escritos por estudiantes de acuerdo con la cantidad de errores detectados que habían sido sembrados deliberadamente.
-Los autores encontraron que las pruebas de personas novatas usualmente tienen una baja cobertura (es decir, no testean gran parte del código)
-y que usualmente testean muchas cosas al mismo tiempo, lo que dificulta determinar las causas de los errores.
+quienes calificaron el código de las/los estudiantes según la cantidad de situaciones, definidas por la/el docente, 
+que pasaban correctamente las pruebas de los programas.
+A la inversa, estos autores también calificaron
+los casos de prueba escritos por las/los estudiantes de acuerdo a cuántos errores
+(deliberadamente introducidos en el código) podían detectar.
 
-Otra respuesta proviene de ~\cite{Edwa2014b},
-quienes examinaron todos los errores en los envíos de códigos realizados por personas novatas
-y a su vez identificaron aquellos errores detectados por el conjunto de pruebas de personas novatas.
-En este trabajo se encontró que las pruebas de personas novatas solo detectaban un promedio de 13,6\% de los errores presentes en la totalidad de los programas.
+Los autores encontraron que los tests de las personas novatas
+usualmente tienen un bajo alcance
+(es decir, no testean gran parte del código)
+y que usualmente testean muchas cosas al mismo tiempo,
+lo que dificulta determicar las causas de los errores.
+
+Otra posible respuesta a la pregunta "¿Qué tan bien testean código las personas novatas?" proviene de ~\cite{Edwa2014b},
+quienes examinaron todos los errores en el código programado por personas novatas
+y a su vez identificaron aquellos errores detectados por el conjunto de pruebas (test) de personas novatas.
+En este trabajo se encontró que las pruebas de personas novatas solo detectaban un promedio de 13,6\% de los errores presentes 
+en la totalidad de los programas.
 Además,
 el 90\% de las pruebas de las personas novatas fueron muy parecidas,
 lo que indica que las personas novatas escriben pruebas principalmente para confirmar que el código está haciendo lo que se supone que debe hacer
-en lugar de encontrar situaciones en las que no ocurre esto.
+en lugar de encontrar situaciones en las que el código no hace lo que se supone que debe hacer.
 
 Un enfoque para enseñar mejores prácticas para generar pruebas es
 definir un problema de programación proporcionando un conjunto de pruebas que deben ser pasadas
@@ -331,11 +356,11 @@ y luego decide si estás enseñando lo que crees que las personas deberían hace
 
 La respuesta corta es ``sí'':
 las personas novatas aprenden a programar más rápido y aprenden más
-usando herramientas basadas en bloques como Scratch (\figref{f:pck-scratch})~\cite{Wein2017}.\index{Scratch}
+usando herramientas basadas en bloques como \emph{Scratch} (\figref{f:pck-scratch})~\cite{Wein2017}.\index{Scratch}
 Una razón es que esos sistemas basados en bloques reducen la carga cognitiva al eliminar la posibilidad de cometer errores de sintaxis.
 Otra razón es que esas interfaces de bloques promueven la exploración de una manera que el texto no hace:
 como todas las buenas herramientas,
-Scratch se puede aprender accidentalmente ~\cite{Malo2010}.
+\emph{Scratch} se puede aprender accidentalmente ~\cite{Malo2010}.
 
 Pero, ¿qué sucede \emph{luego} de los bloques?
 \cite{Chen2018} encontró que las personas cuyo primer lenguaje de programación fue gráfico,
@@ -345,20 +370,20 @@ cuando los lenguajes se aprendieron durante o antes de los primeros años de ado
 Nuestra sexta recomendación es
 \recommendation{preséntales interfaces basadas bloques a niñas/os y adolescentes}
 antes de avanzar a sistemas basados en texto.
-La calificación de edad corresponde a que Scratch deliberadamente parece destinado a usuarias/os jóvenes,
+La calificación de edad corresponde a que \emph{Scratch} deliberadamente parece destinado a usuarias/os jóvenes,
 y puede ser difícil convencer a personas adultas de que lo tomen en serio.
 
-\figimg{figures/scratch-program.png}{Scratch}{f:pck-scratch}
+\figimg{figures/scratch-program.png}{Scratch}{f:pck-scratch}{Captura de pantalla del lenguaje de programación por bloques Scratch.}
 
-Scratch probablemente ha sido estudiado más que cualquier otra herramienta de programación.
+\emph{Scratch} probablemente ha sido estudiado más que cualquier otra herramienta de programación.
 Un ejemplo es ~\cite{Aiva2016},
-quienes analizaron más de 250.000 proyectos de Scratch
+quienes analizaron más de 250.000 proyectos de \emph{Scratch}
 y encontraron (entre otras cosas) que alrededor del 28\% de esos proyectos tenían algunos bloques que nunca eran usados o activados.
 Como en la sección anterior sobre los programas en Java incompletos versus incorrectos,
 las autoras plantean la hipótesis de que las/los usuarias/os pueden estar utilizando estos bloques como borrador
 para hacer un seguimiento de las partes del código que no quieren eliminar (todavía).
 Otros ejemplos son~\cite{Grov2017,Mlad2017},
-que estudiaron a personas novatas aprendiendo sobre bucles en Scratch, Logo y Python.\index{Scratch}\index{Python}
+que estudiaron a personas novatas aprendiendo sobre bucles en \emph{Scratch}, \emph{Logo} y \emph{Python}.\index{Scratch}\index{Python}
 Encontraron que los conceptos erróneos sobre bucles se minimizan cuando se usa un lenguaje basado en bloques
 en lugar de un lenguaje basado en texto.
 Además,
@@ -366,7 +391,8 @@ a medida que las tareas se vuelven más complejas (como el uso de bucles anidado
 las diferencias son mayores.
 
 \begin{aside}{Más difícil de lo necesario}
-  Las personas que crean lenguajes de programación hacen que esos lenguajes sean más difíciles de aprender al no realizar pruebas básicas de usabilidad.
+  Las personas que crean lenguajes de programación hacen que esos lenguajes sean más difíciles de aprender al no realizar 
+  pruebas básicas de usabilidad.
   Por ejemplo,
   \cite{Stef2013} encontraron que,
   ``{\ldots}las tres palabras más comunes para generar bucles en ciencias de la computación,
@@ -374,7 +400,7 @@ las diferencias son mayores.
   fueron calificadas como las tres opciones más anti-intuitivas por personas que no programan.''
   Su trabajo muestra que sintaxis al estilo de C (como se usa en Java y Perl)
   son tanto más difíciles de aprender para personas novatas como una sintaxis diseñada de manera aleatoria,
-  pero que la sintaxis de lenguajes como Python y Ruby\index{Python}\index{Ruby}
+  pero que la sintaxis de lenguajes como \emph{Python} y \emph{Ruby}\index{Python}\index{Ruby}
   es significativamente más fácil de aprender,
   y la sintaxis de un lenguaje cuyas características son probadas antes de incorporarse es aún más fácil.
   \cite{Stef2017} es un útil y breve resumen de lo que realmente sabemos sobre el diseño de lenguajes de programación
@@ -383,7 +409,7 @@ las diferencias son mayores.
 \end{aside}
 
 \subsection*{Programación orientada a objetos}
-\index{object-oriented programming}
+\index{programación orientada a objetos}
 
 Los objetos y clases son herramientas poderosas para personas con experiencia en programación,
 y muchas/os docentes promueven un enfoque de \gref{g:objects-first}{primero objetos} para enseñar a programar
@@ -393,7 +419,7 @@ y~\cite{Koll2015} describe tres generaciones de herramientas
 designadas para apoyar a personas novatas para que programen en ambientes orientados a objetos.
 
 Introducir objetos temprano tiene algunos desafíos.
-\cite{Mill2016b} encontró que la mayoría de las personas novatas que usan Python\index{Python}
+\cite{Mill2016b} encontró que la mayoría de las personas novatas que usan \emph{Python}\index{Python}
 tenían problemas para entender \texttt{self}
 (que refiere al objeto actual):
 las personas lo omitieron en las definiciones de métodos,
@@ -426,7 +452,8 @@ Muchas/os programadoras/es creen esto,
 pero \cite{Hofm2017} encontraron que usar palabras completas en nombres de variables
  condujo, en promedio, a una comprensión un 19\% más rápida en comparación con letras y abreviaturas.
 En contraste,
-\cite{Beni2017} encontraron que el uso de nombres de variables de una sola letra no afectaba la capacidad de las personas principiantes de modificar el código.
+\cite{Beni2017} encontraron que el uso de nombres de variables de una sola letra no afectaba la capacidad de las personas 
+principiantes de modificar el código.
 Esto puede deberse a que sus programas son más cortos que los de profesionales
 o porque algunos nombres de variables de una sola letra tienen tipos y significados implícitos.
 Por ejemplo,
@@ -443,7 +470,7 @@ En particular{\ldots}las guías y los planes de programación juegan un papel im
 También encontró que a las/los desarrolladoras/es con experiencia no les afecta el estilo del identificador,
 entonces nuestra recomendación es utilizar un estilo coherente en todos los ejemplos.
 Dado que la mayoría de los lenguajes tienen guías de estilo
-(por ejemplo,\ \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} para Python)
+(por ejemplo,\ \hreffoot{https://www.python.org/dev/peps/pep-0008/}{PEP 8} para \emph{Python} \index{Python})
 y herramientas para verificar que el código siga esas pautas,
 nuestra recomendación completa es
 \recommendation{utiliza herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente}.
@@ -451,9 +478,9 @@ nuestra recomendación completa es
 \seclbl{¿Ayudan mejores mensajes de error?}{s:pck-error}
 \index{mensajes de error}
 
-Los mensajes de error incomprensibles son una fuente importante de frustración para personas novatas
-(y también para personas experimentadas ).
-Por lo tanto, en varias investigaciones se exploró si mejores mensajes de error ayudan a evitar esto.
+Los mensajes de error incomprensibles son una fuente importante de frustración para las personas novatas
+(y también para personas experimentadas).
+Por lo tanto, en varias investigaciones se exploró si mejores mensajes de error ayudan a evitar esta frustración.
 Por ejemplo,
 \cite{Beck2016} reescribieron algunos de los mensajes del compilador de Java para que en lugar de:
 
@@ -475,7 +502,7 @@ If ``string'' refers to a datatype, capitalize the 's'!
 
 \noindent
 Efectivamente,
-las personas novatas que recibieron estos mensajes repitieron menos errores y cometieron menos errores en general.
+las personas novatas que recibieron estos mensajes repitieron menos los errores y cometieron menos errores en general.
 
 \cite{Bari2017} fueron más allá y usaron seguimiento ocular para mostrar que
 a pesar de las quejas de las personas que escriben los compiladores,
@@ -491,7 +518,7 @@ Por lo tanto, al enseñar
 \index{visualizar un programa}
 
 Visualizar la ejecución de un programa es una idea siempre popular,
-y herramientas como el tutor de Python en línea~\cite{Guo2013}
+y herramientas como el tutor de \emph{Python}\index{Python} en línea~\cite{Guo2013}
 y \hreffoot{http://latentflip.com/loupe/}{Loupe}
 (que muestra cómo funciona un bucle de eventos de JavaScript)
 son útiles para enseñar.
@@ -516,7 +543,8 @@ Nuestra recomendación es, por lo tanto, \recommendation{enseña a rastrear los 
 \begin{aside}{Diagramas de flujo}\index{diagramas de flujo}
   Un hallazgo que a menudo se pasa por alto sobre la visualización es que
   las personas entienden mejor los diagramas de flujo que el pseudocódigo \emph{si ambos están igualmente bien estructurados}~\cite{Scan1989}.
-  Los estudios previos que señalaban que el pseudocódigo superaba a los diagramas de flujo usaron pseudocódigo estructurado pero diagramas de flujo desordenados:
+  Los estudios previos que señalaban que el pseudocódigo superaba a los diagramas de flujo, 
+  usaron pseudocódigo estructurado pero diagramas de flujo desordenados:
   cuando se niveló el campo de juego,
   se observó que a las personas novatas les fue mejor con la representación gráfica.
 \end{aside}
@@ -550,14 +578,14 @@ los autores encontraron diez cosas que las/dos docentes puede hacer para mejorar
 
 \item[CS0:]
   Creación de un curso preliminar a tomar antes del curso introductorio de programación;
-  podría organizarse solo para algunas personas (por ejemplo, si están en riesgo).
+  podría organizarse solo para algunas personas (por ejemplo, si están en riesgo de abandonar).
 
 \item[Temática de juego:]
-  Una componente de juego fue introducida en el curso.
+  Se introdujo una componente de juego en el curso.
 
 \item[Esquema de calificación:]
   Un cambio en el sistema de calificación,
-  como aumentar la importancia de las actividades de programación y reducir la del examen.
+  como, por ejemplo, aumentar la importancia de las actividades de programación y reducir la del examen.
 
 \item[Trabajo en equipos:]
   Actividades con un mayor compromiso de trabajo en grupo, como el aprendizaje en equipo y cooperativo.
@@ -566,7 +594,7 @@ los autores encontraron diez cosas que las/dos docentes puede hacer para mejorar
   Actividades que usen explícitamente el uso de recursos multimedia (\chapref{s:motivation}).
 
 \item[Apoyo de colegas:]
-  El apoyo de pares en forma de parejas, grupos, mentores contratados o tutorías.
+  El apoyo de pares en forma de parejas, grupos, mentoras/es contratadas/os o tutorías.
 
 \item[Otro apoyo:]
   Un término general para todas las actividades de apoyo,
@@ -574,10 +602,10 @@ los autores encontraron diez cosas que las/dos docentes puede hacer para mejorar
 
 \end{description}
 
-\figimg{figures/interventions-scaled.png}{Efectividad de las intervenciones}{f:pck-interventions}
+\figimg{figures/interventions-scaled.png}{Efectividad de las intervenciones}{f:pck-interventions}{Gráfico de barras horizontales: El eje vertical presenta 10 categorías y el eje horizontal una escala de 0 a 50 de efectividad de las intervenciones. Las categorías "Colaboración", "Cambio de contenido" y "Apoyo de pares presentan valores" de 35. "Contextualización" es igual a 40, "CS0" toma el valor 43, "Tema del juego": 17, "Sistema de clasificación": 28, "Trabajo en equipo": 45, "Medios de computación" 48 y "Otro apoyo" 32.}
 
 Esta lista destaca la importancia del aprendizaje cooperativo.
-\cite{Beck2013} analizaron esto específicamente durante tres años académicos en cursos a cargo dos docentes diferentes
+\cite{Beck2013} analizaron este tipo de aprendizaje específicamente durante tres años académicos en cursos a cargo dos docentes diferentes
 y encontraron beneficios significativos en general y para muchos subgrupos.
 Las personas que cooperaron obtuvieron calificaciones más altas
 y dejaron menos preguntas en blanco en el examen final,
@@ -588,8 +616,8 @@ lo que indica una mayor autoeficacia y disposición para depurar cosas.
   hacer que las personas novatas trabajen en ejercicios de creatividad computacional mejora sus calificaciones en varios niveles~\cite{Shel2017}.
   Un ejercicio típico es describir un objeto cotidiano (como un clip o un cepillo de dientes)
   en términos de sus entradas, salidas y funciones.
-  Este tipo de enseñanza a veces es llamada \grefdex{g:cs-unplugged}{CS desconectado}{ciencias de la computación desconectada};
-  La página web \hreffoot{https://csunplugged.org/es/}{CS~Unplugged} tiene lecciones y ejercicios para esto.
+  Este tipo de enseñanza a veces es llamada \grefdex{g:cs-unplugged}{ciencias de la computación desenchufada}{ciencias de la computación desenchufada};
+  La página web \hreffoot{https://csunplugged.org/es/}{CS~Unplugged} tiene lecciones y ejercicios para este tipo de enseñanza.
 \end{aside}
 
 \seclbl{¿Qué sigue?}{s:pck-final}
@@ -606,7 +634,7 @@ pero tenemos que pagar para leerla:
 rompí la ley aproximadamente 250 veces
 para descargar trabajos científicos de páginas web como \hreffoot{https://en.wikipedia.org/wiki/Sci-Hub}{Sci-Hub}
 mientras escribía este libro.\index{descargas ilegales (minería)}
-Espero que llegue el día en que nadie tenga que hacer esto;
+Espero que llegue el día en que nadie tenga que acceder al conocimiento científico de esta manera;
 si investigas,
 por favor ayuda a que ese día se acerque publicando tu trabajo en lugares de acceso abierto.
 
@@ -738,7 +766,7 @@ Mira la lista de intervenciones desarrolladas por~\cite{Viha2014} (\secref{s:pck
 
 \exercise{Conceptos erróneos y desafíos}{grupos pequeños}{15'}
 
-El sitio \hreffoot{http://www.pd4cs.org/}{Desarrollo Profesional para la Enseñanza de Principios  de CS}
+El sitio \hreffoot{http://www.pd4cs.org/}{Desarrollo Profesional para la Enseñanza de Principios de CS}
 incluye \hreffoot{http://www.pd4cs.org/mc-index/}{una lista detallada de conceptos erróneos de estudiantes y ejercicios}.
 Trabajando en grupos pequeños,
 elige una sección (por ejemplo, estructura de datos o funciones) y revisa la lista.
@@ -813,4 +841,4 @@ Haz que cada persona de la clase, independientemente, le otorgue un punto a las
 las ocho preguntas que más les interese, de cualquiera de las dos listas.
 Luego, calcula el puntaje promedio para cada pregunta.
 ¿Cuáles son las preguntas más populares en tu clase?
-¿En qué grupo  están las preguntas más populares?
+¿En qué grupo están las preguntas más populares?

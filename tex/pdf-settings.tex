@@ -46,14 +46,14 @@
 }
 \makeatother
 
-% Change hanging indentation for description environment.
-\makeatletter
-\renewenvironment{description}%
-  {\list{}{\leftmargin=1em\itemsep3pt % <------- Adjust this length
-    \labelwidth\z@ \itemindent-\leftmargin
-    \let\makelabel\descriptionlabel}}%
-  {\endlist}
-\makeatother
+% Change hanging indentation for description environment.%Shashi commentted to run unbox style
+%%%\makeatletter
+%%%\renewenvironment{description}%
+%%%  {\list{}{\leftmargin=1em\itemsep3pt % <------- Adjust this length
+%%%    \labelwidth\z@ \itemindent-\leftmargin
+%%%    \let\makelabel\descriptionlabel}}%
+%%%  {\endlist}
+%%%\makeatother
 
 % Use smaller font for verbatim environments.
 \usepackage{fancyvrb}

@@ -1,5 +1,10 @@
 \chapter{En el salón de clase}\label{s:classroom}
 
+\begin{reviewer}
+{Lupe Canaviri Maydana}
+{María Dermit y Yuriko Sosa}
+\end{reviewer}
+
 El capítulo anterior describió cómo practicar la enseñanza de una lección
 y describió un método ---programación en vivo--- que
 permite a las/los docentes adaptarse al ritmo y los intereses de sus estudiantes.
@@ -60,7 +65,6 @@ Hagas lo que hagas:\index{Código de Conducta!aplicación}
   Si la persona infractora responde,
   no participes en un debate largo:
   nunca es productivo.
- 
 \end{description}
 
 Lo que sucede fuera de la clase importa al menos tanto como lo que sucede dentro de ella~\cite{Part2011},
@@ -72,7 +76,7 @@ tiene cierta garantía de confidencialidad y acción independiente.
 \cite{Auro2019} tiene muchos otros consejos
 y es a la vez breve y práctico.
 
-\seclbl{Instrucción de pares}{s:classroom-peer}
+\seclbl{Instrucción por pares}{s:classroom-peer}
 
 Sin importar qué tan buena sea una persona enseñando,
 solo puede explicar una cosa a la vez.
@@ -83,7 +87,7 @@ se ha estudiado extensamente en una amplia variedad de contextos,
 incluida la programación~\cite{Crou2001,Port2013},
 y~\cite{Port2016} descubrieron que las/los estudiantes valoran la instrucción de sus pares incluso en el primer contacto.
 
-La instrucción entre pares intenta proporcionar instrucción individualizada de manera escalable
+La instrucción por pares intenta proporcionar instrucción individualizada de manera escalable
 intercalando la evaluación formativa con la discusión entre estudiantes:
 
 \begin{enumerate}
@@ -141,7 +145,7 @@ sus conceptos erróneos se anulan.
   Es importante que tus estudiantes voten públicamente
   para que no puedan cambiar de opinión después y racionalizarlo
   con excusas como: ``Acabo de interpretar mal la pregunta.''
-  Gran parte del valor de la instrucción entre pares proviene de la hipercorrección:
+  Gran parte del valor de la instrucción por pares proviene de la hipercorrección:
   obtener la respuesta incorrecta
   y tener que pensar en las razones del porqué de esta respuesta
   (\secref{s:individual-strategies}).
@@ -149,7 +153,7 @@ sus conceptos erróneos se anulan.
 
 \seclbl{Enseñar en comunidad}{s:classroom-together}
 
-\gref{g:co-teaching}{Co-enseñar} describe cualquier situación
+\gref{g:co-teaching}{Co-enseñar}{co-enseñar} describe cualquier situación
 en la que dos docentes trabajan juntas/os en la misma clase.
 \cite{Frie2016} describen muchas formas de hacer esto, ejemplificadas con docentes A y B:
 
@@ -284,7 +288,7 @@ un fenómeno llamado \gref{g:dunning-kruger-effect}{efecto Dunning-Kruger}~\cite
 Por el contrario,
 las personas que integran grupos sub-representados a menudo subestiman sus habilidades.
 
-\figimg{figures/dunning-kruger.png}{El efecto Dunning-Kruger}{f:classroom-dunning-kruger}
+\figimg{figures/dunning-kruger.png}{El efecto Dunning-Kruger}{f:classroom-dunning-kruger}{El efecto Dunning-Kruger: el gráfico muestra una escala de 0 a 100 en el eje vertical y en el eje horizontal las etiquetas: "Primer cuartil", "Segundo cuartil", "Tercer cuartil" y "Cuarto cuartil", en ese orden. Hay tres series graficadas, la correspondiente a la "habilidad percibida" en el primer cuartil toma valores entre 50 y 60 que son muy similares a los presentes en el segundo cuartil. El tercer cuartil presenta valores por encima de 60 y el cuarto cuartil valores cercanos a 80. La serie "puntaje recibido en la prueba", copia de forma casi idéntica la serie "habilidad percibida". La serie "puntuación real de la prueba" toma valores cercanos a 10 en el primer cuartil, valores cercanos a 30 en el segundo cuartil, cercanos a 60 en el tercer cuartil y entre 80 y 90 para el cuarto cuartil.}
 
 En lugar de pedirles a las personas que se autoevalúen,
 puedes preguntarles con qué facilidad podrían completar algunas tareas específicas.
@@ -343,7 +347,7 @@ Algunas personas llegarán tres o cuatro veces más lejos que otras cuando los t
 pero todas habrán tenido un día gratificante y desafiante.
 
 \begin{aside}{Falsas/os principiantes}
-  Una/Un \gref{g:false-beginner}{falsa/o principiante} es alguien
+  Una/Un \gref{g:false-beginner}{falsa/o principiante}{falso/a principiante} es alguien
   que ha estudiado un lenguaje previamente pero lo está aprendiendo de nuevo.
   Pueden ser indistinguibles de \grefdex{g:absolute-beginner}{principiantes absolutas/os}{principiante absoluta/o}
   en las pruebas de pre-evaluación,
@@ -622,8 +626,8 @@ también está más cerca de lo que harán en la vida real.
 Sin embargo,
 ten en cuenta que las/los estudiantes pueden distraerse tratando de comprender todo el código de inicio
 en lugar de hacer su propio trabajo.
-El \texttt{public static void main()} de Java
-o un conjunto de sentencias \texttt{import} al inicio de un programa en Python
+El \texttt{public static void main()} de \emph{Java}
+o un conjunto de sentencias \texttt{import} al inicio de un programa en \emph{Python}
 podría tener sentido para ti,
 pero es una carga extrínsenca para una persona principiante (\chapref{s:architecture}).
 
@@ -658,7 +662,7 @@ luego busca ayudantes y otras/os estudiantes
 para ayudar a las personas que se han encontrado con problemas.
 
 \begin{aside}{Máquinas virtuales}
-  Algunas personas usan herramientas como \hreffoot{http://docker.com}{Docker}
+  Algunas personas usan herramientas como \hreffoot{http://docker.com}{\emph{Docker}}
   para poner máquinas virtuales en las computadoras de sus estudiantes\index{máquinas virtuales}
   para que todos trabajen exactamente con las mismas herramientas,
   pero esto presenta un nuevo conjunto de problemas.
@@ -671,11 +675,11 @@ para ayudar a las personas que se han encontrado con problemas.
 La configuración es tan complicada que
 muchas/os docentes prefieren que se usen herramientas basadas en el navegador.
 Sin embargo,
-esto hace que la clase dependa del WiFi\index{WiFi institucional (peligros del)}
+esto hace que la clase dependa del \emph{WiFi}\index{WiFi institucional (peligros del)}
 (que puede ser de calidad muy variable)
 y no satisface el deseo de las/los estudiantes de irse con sus propias máquinas listas para su uso en el mundo real.
-A la par que herramientas basadas en la nube como \hreffoot{https://glitch.com/}{Glitch}
-y \hreffoot{http://rstudio.cloud}{RStudio Cloud} se vuelven más robustas,
+A la par que herramientas basadas en la nube como \hreffoot{https://glitch.com/}{\emph{Glitch}}
+y \hreffoot{http://rstudio.cloud}{\emph{RStudio Cloud}} se vuelven más robustas,
 esta última consideración se torna menos importante.
 
 Una última forma de abordar los problemas de configuración es dividir la clase en varios días
@@ -782,7 +786,7 @@ Esta actividad encaja naturalmente en la programación en vivo:
 después de agregar o cambiar algunas líneas de un programa,
 pregunta a la clase qué sucederá cuando se ejecute.
 Si el ejemplo es incluso moderadamente complejo,
-la predicción puede servir como una pregunta motivadora para una ronda de instrucción entre pares.
+la predicción puede servir como una pregunta motivadora para una ronda de instrucción por pares.
 
 \subsection*{Configuración de mesas}
 
