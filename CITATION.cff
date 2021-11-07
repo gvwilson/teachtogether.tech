@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this paper as shown."
+authors:
+- family-names: "Wilson"
+  given-names: "Greg"
+  orcid: "0000-0001-8659-8979"
+title: "Teaching Tech Together"
+preferred-citation:
+  type: book
+  authors:
+  - family-names: "Wilson"
+    given-names: "Greg"
+    orcid: "0000-0001-8659-8979"
+  isbn: "978-0367352974"
+  title: "Teaching Tech Together: How to Make Lessons That Work and Build a Teaching Community Around Them"
+  year: "2019"
+  publisher: "Chapman & Hall/CRC Press"
