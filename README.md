@@ -110,5 +110,5 @@ These guidelines are adapted from
 
 This book would not exist without the help of
 [many people](http://teachtogether.tech/en/index.html#s:intro-acknowledgments);
-we are also grateful to [our Spanish translators](http://teachtogether.tech/es/index.html#s:traduccion):
+we are also grateful to [our Spanish translators](http://teachtogether.tech/es/index.html#s:traduccion) and [contributors](http://teachtogether.tech/es/index.html#s:intro-acknowledgments):
 gracias a todas/todos.
