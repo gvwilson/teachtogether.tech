@@ -1,0 +1,77 @@
+copyrightyear: 2022
+author: "Greg Wilson"
+email: "gvwilson@third-bit.com"
+repo: "https://github.com/gvwilson/teachtogether.tech/"
+domain: teachtogether.tech
+tool: "McCole"
+title: "Teaching Tech Together"
+subtitle: "How to create and deliver lessons that work and build a teaching community around them"
+
+src: .
+dst: docs
+links: _data/links.yml
+bib: _data/bibliography.bib
+gloss: _data/glossary.yml
+lang: en
+
+copy:
+- "*/*.jpg"
+- "*/*.png"
+- "*/*.svg"
+- "static/*.css"
+- "static/*.js"
+- "favicon.ico"
+
+root: index.md
+chapters:
+- slug: intro
+  title: "Introduction"
+- slug: models
+  title: "Mental Models and Formative Assessment"
+- slug: memory
+  title: "Expertise and Memory"
+- slug: architecture
+  title: "Cognitive Architecture"
+- slug: individual
+  title: "Individual Learning"
+- slug: process
+  title: "A Lesson Design Process"
+- slug: pck
+  title: "Pedagogical Content Knowledge"
+- slug: performance
+  title: "Teaching as a Performance Art"
+- slug: classroom
+  title: "In the Classroom"
+- slug: motivation
+  title: "Motivation and Demotivation"
+- slug: online
+  title: "Teaching Online"
+- slug: exercises
+  title: "Exercise Types"
+- slug: community
+  title: "Building a Community of Practice"
+- slug: outreach
+  title: "Outreach"
+- slug: finale
+  title: "Why I Teach"
+- slug: license
+  title: "License"
+  appendix: true
+- slug: bibliography
+  title: "Bibliography"
+- slug: conduct
+  title: "Code of Conduct"
+- slug: joining
+  title: "Joining Our Community"
+- slug: glossary
+  title: "Glossary"
+- slug: meetings
+  title: "Meetings, Meetings, Meetings"
+- slug: checklists
+  title: "Checklists and Templates"
+- slug: conceptmaps
+  title: "Example Concept Maps"
+- slug: chunking
+  title: "Chunking Exercise Solution"
+- slug: "links"
+  title: "Links"

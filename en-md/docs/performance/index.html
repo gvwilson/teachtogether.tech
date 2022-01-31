@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="stjs.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="performance">Teaching as a Performance Art</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="performance">Teaching as a Performance Art</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#performance-live">Live Coding</a></li>
+<li><a href="#performance-jugyokenkyu">Lesson Study</a></li>
+<li><a href="#performance-feedback">Giving and Getting Feedback on Teaching</a></li>
+<li><a href="#performance-practice">How to Practice Performance</a></li>
+<li><a href="#performance-exercises">Exercises</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#g:active-teaching">Active teaching</a>, <a href="../glossary/#g:demonstration-lesson">Demonstration lesson</a>, <a href="../glossary/#g:direct-instruction">Direct instruction</a>, <a href="../glossary/#g:jugyokenkyu">Jugyokenkyu</a>, <a href="../glossary/#g:live-coding">Live coding</a>, <a href="../glossary/#g:twitch-coding">Twitch coding</a></p></div>
+
+      
+<p>In <em>Darwin Among the Machines</em>,
+<span i="Dyson, George">George Dyson</span> wrote,
+&quot;In the game of life and evolution there are three players at the table:
+human beings, nature, and machines.
+I am firmly on the side of nature.
+But nature, I suspect, is on the  side of the machines…&quot;
+There are similarly now three players in the game of education:
+textbooks and other read-only materials,
+live lectures,
+and automated online lessons.
+You may give your learners both written lessons
+and some combination of recorded video and self-paced exercises,
+but if you are going to teach in person
+you must offer something different from (and hopefully better than) either of them.
+This chapter therefore focuses on how to teach programming by actually doing it.</p>
+<h2 id="performance-live">Live Coding</h2>
+<blockquote>
+<p>Teaching is theater, not cinema.<br/>
+--- <span i="Davis, Neal">Neal Davis</span></p>
+</blockquote>
+<p>The most effective way to teach programming is <span g="g:live-coding">live coding</span>
+[<a href="../bibliography/#Rubi2013">Rubi2013</a>, <a href="../bibliography/#Haar2017">Haar2017</a>, <a href="../bibliography/#Raj2018">Raj2018</a>].
+Instead of presenting pre-written material,
+the teacher writes code in front of the class
+while the learners follow along,
+typing it in and running it as they go.
+Live coding works better than slides for several reasons:</p>
+<ul>
+<li>
+<p>It enables <span g="g:active-teaching">active teaching</span>
+by allowing teachers to follow their learners' interests and questions in the moment.
+A slide deck is like a railway track:
+it may be a smooth ride,
+but you have to decide in advance where you're going.
+Live coding is more like driving an off-road vehicle:
+it may be bumpier,
+but it's a lot easier to change direction and go where people want.</p>
+</li>
+<li>
+<p>Watching a program being written is more motivating
+than watching someone page through slides.</p>
+</li>
+<li>
+<p>It facilitates <span i="unintended knowledge transfer">unintended knowledge transfer</span>:
+people learn more than we are consciously teaching
+by watching <em>how</em> we do things.</p>
+</li>
+<li>
+<p>It slows the teacher down:
+if they have to type in the program as they go along
+then they can only go twice as fast as their learners
+rather than ten times faster as they could with slides.</p>
+</li>
+<li>
+<p>It helps reduce the load on short-term memory
+because it makes the teacher more aware of how much they are throwing at their learners.</p>
+</li>
+<li>
+<p>Learners get to see how to diagnose and correct mistakes.
+They are going to spend a lot of time doing this;
+unless you're a perfect typist,
+live coding ensures that they get to see how to.</p>
+</li>
+<li>
+<p>Watching teachers make mistakes shows learners that
+it's all right to make mistakes of their own.
+If the teacher isn't embarrassed about making and talking about mistakes,
+learners will be more comfortable doing so too.</p>
+</li>
+</ul>
+<p>Another benefit of live coding is that it demonstrates the order in which programs should be written.
+When looking at how people <span i="Parsons Problem">solved Parsons Problems</span>,
+[<a href="../bibliography/#Ihan2011">Ihan2011</a>] found that experienced programmers often dragged the method signature to the beginning,
+then added the majority of the control flow (i.e. loops and conditionals),
+and only then added details like variable initialization and handling of corner cases.
+This out-of-order authoring is foreign to novices,
+who read and write code in the order it's presented on the page;
+seeing it helps them learn to decompose problems into subgoals that can be tackled one by one.
+Live coding also gives teachers a chance to emphasize
+the importance of small steps with frequent feedback [<a href="../bibliography/#Blik2014">Blik2014</a>]
+and the importance of picking a plan
+rather than making more-or-less random changes and hoping things will get better [<a href="../bibliography/#Spoh1985">Spoh1985</a>].</p>
+<p>It takes a bit of practice to get comfortable
+talking while you code in front of an audience,
+but most people report that it quickly becomes no more difficult than talking around a deck of slides.
+The sections below offer tips on how to make your live coding better.</p>
+<h3>Embrace Your Mistakes</h3>
+<blockquote>
+<p>The typos are the pedagogy.<br/>
+--- <span i="McTavish, Emily Jane">Emily Jane McTavish</span></p>
+</blockquote>
+<p>The most important rule of live coding is to <span i="mistakes (importance of embracing)">embrace your mistakes</span>.
+No matter how well you prepare,
+you will make some;
+when you do,
+think through them with your audience.
+While data is hard to come by,
+professional programmers spend anywhere from 25% to 60% of their time debugging;
+novices spend much more (<a class="secref" href="../pck/#pck-debug">Section&nbsp;7.7</a>),
+but most textbooks and tutorials spend little time diagnosing and correcting problems.
+If you talk aloud while you figure out what you mistyped
+or where you took the wrong path,
+and explain how you've corrected yourself,
+you will give your learners a toolbox they can use when they make their own mistakes.</p>
+<blockquote>
+<h3>Deliberate Fumbles</h3>
+<p>Once you have given a lesson several times,
+you're unlikely to make anything other than basic typing mistakes
+(which can still be informative).
+You can try to remember past mistakes and make them deliberately,
+but that often feels forced.
+An alternative approach is <span g="g:twitch-coding">twitch coding</span>:
+ask learners one by one to tell you what to type next.
+This is pretty much guaranteed to get you into some kind of trouble.</p>
+</blockquote>
+<h3>Ask For Predictions</h3>
+<p>One way to keep learners engaged while you are live coding
+is to ask them to make predictions about what the code on the screen is going to do.
+You can then write down the first few suggestions they make,
+have the whole class vote on which they think is most likely,
+and then run the code.
+This is a lightweight form of <span i="peer instruction">peer instruction</span>,
+which we will discuss in <a class="secref" href="../classroom/#classroom-peer">Section&nbsp;9.2</a>;
+as well as keeping their attention on task,
+it gives them practice at reasoning about code's behavior.</p>
+<h3>Take It Slow</h3>
+<p>Every time you type a command,
+add a line of code to a program,
+or select an item from a menu,
+say what you are doing out loud
+and then point to what you have done and its output on the screen
+and go through it a second time.
+This allows learners to catch up
+and to check that what they have just done is correct.
+It is particularly important when some of your learners have seeing or hearing challenges
+or are not fluent in the language of instruction.</p>
+<p>Whatever you do,
+<em>don't</em> copy and paste code:
+doing this practically guarantees that you'll race ahead of your learners.
+And if you use tab completion,
+say it out loud so that your learners understand what you're doing:
+&quot;Let's use turtle dot <code>r' </code>i' and tab to get `right'.&quot;</p>
+<p>If the output of your command or code makes what you just typed disappear from view,
+scroll back up so learners can see it again.
+If that's not practical,
+execute the same command a second time
+or copy and paste the last command(s) into the workshop's shared notes.</p>
+<h3>Be Seen and Heard</h3>
+<p>When you sit down,
+you are more likely to look at your screen rather than at your audience
+and may be hidden from learners in the back rows of your classroom.
+If you are physically able to stand up for a couple of hours,
+you should therefore do so while teaching.
+Plan for this and make sure that you have a raised table,
+standing desk,
+or lectern
+for your laptop
+so that you don't have to bend over to type.</p>
+<p>Regardless of whether you are standing or sitting,
+make sure to move around as much as you can:
+go to the screen to point something out,
+draw something on the whiteboard,
+or just step away from your computer for a few moments and speak directly to your audience.
+Doing this draws your learners' attention away from their screens
+and provides a natural time for them to ask questions.</p>
+<p>If you are going to be teaching for more than a couple of hours,
+it's worth using a microphone even in a small room.
+Your throat gets tired just like every other part of your body;
+using a mike is no different from wearing comfortable shoes
+(which you also ought to do).
+It can also make a big difference to people with hearing disabilities.</p>
+<h3>Mirror Your Learner's Environment</h3>
+<p>You may have customized your environment with a fancy Unix shell prompt,
+a custom color scheme for your development environment,
+or a plethora of keyboard shortcuts.
+Your learners won't have any of this,
+so try to create an environment that mirrors what they <em>do</em> have.
+Some teachers create a separate bare-bones account on their laptop
+or a separate teaching-only account
+if they're using an online service like Scratch or GitHub.
+Doing this can also help prevent packages that you installed for work yesterday
+breaking the lesson you are supposed to teach this morning.</p>
+<h3>Use the Screen Wisely</h3>
+<p>You will usually need to enlarge your font considerably
+for people to read it from the back of the room,
+which means you can put much less on the screen than you're used to.
+In many cases you will be reduced to 60--70 columns and 20--30 rows,
+so that you're using a 21st century supercomputer
+as if it was a dumb terminal from the early 1980s.</p>
+<p>To manage this,
+maximize the window you are using to teach
+and then ask everyone to give you a thumbs-up or thumbs-down on its readability.
+Use a black font on a lightly-tinted background
+rather than a light font on a dark background---the light tint will glare less
+than pure white.</p>
+<p>Pay attention to the room lighting as well:
+it should not be fully dark, and there should be no lights directly
+on or above your projection screen.
+Allow a few minutes for learners to reposition their tables
+so that they can see clearly.</p>
+<p>When the bottom of the projection screen is at the same height as your learners' heads,
+people in the back won't be able to see the lower parts.
+You can raise the bottom of your window to compensate,
+but this will give you even less space for typing.</p>
+<p>If you can get a second projector and screen,
+use it:
+the extra real estate will allow you to display your code on one side
+and its output or behavior on the other.
+If second screen requires its own computer,
+ask a helper to control it
+rather than hopping back and forth between two keyboards.</p>
+<p>Finally,
+if you are teaching something like the Unix shell in a console window,
+it's important to tell people when you run an in-console text editor
+and when you return to the console prompt.
+Most novices have never seen a window take on multiple personalities in this way,
+and can quickly become confused by
+when you are interacting with the shell,
+when you are typing in the editor,
+and when you are dealing with an interactive prompt for Python or some other language.
+You can avoid this problem by using a separate window for editing;
+if you do this,
+always tell learners when you are switching focus from one to the other.</p>
+<blockquote>
+<h3>Accessibility Aids Help Everyone</h3>
+<p>Tools like <a href="https://boinx.com/mousepose/overview/">Mouseposé</a> (for Mac)
+and <a href="http://www.pointerfocus.com/">PointerFocus</a> (for Windows)
+highlight the position of your mouse cursor on the screen,
+and screen recording tools like <a href="https://www.techsmith.com/video-editor.html">Camtasia</a>
+and standalone applications like <a href="https://github.com/keycastr/keycastr">KeyCastr</a>
+echo invisible keys like tab and Control-J as you type them.
+These can be a bit annoying when you first start to use them,
+but help your learners figure out what you're doing.</p>
+</blockquote>
+<h3>Double Devices</h3>
+<p>Some people now use two devices when teaching:
+a laptop plugged into the projector for learners to see
+and a tablet so that they can view their own notes
+and the notes that the learners are taking (<a class="secref" href="../classroom/#classroom-notetaking">Section&nbsp;9.7</a>).
+This is more reliable than flipping back and forth between virtual desktops,
+though a printout of the lesson is still the most reliable backup technology.</p>
+<h3>Draw Early, Draw Often</h3>
+<p>Diagrams are always a good idea.
+I sometimes have a slide deck full of ones that I have prepared in advance,
+but building diagrams step by step helps with retention (<a class="secref" href="../architecture/#architecture-brain">Section&nbsp;4.1</a>)
+and allows you to improvise.</p>
+<h3>Avoid Distractions</h3>
+<p>Turn off any notifications you may use on your laptop,
+especially those from social media.
+Seeing messages flash by on the screen distracts you as well as your learners,
+and it can be awkward when a message pops up you'd rather not have others see.
+Again,
+you might want to create a second account on your computer
+that doesn't have email or other tools set up at all.</p>
+<h3>Improvise---After You Know the Material</h3>
+<p>Stick fairly closely to the lesson plan you've drawn up or borrowed
+the first time you teach a lesson.
+It may be tempting to deviate from the material
+because you would like to show a neat trick or demonstrate another way to do something,
+but there is a fair chance you'll run into something unexpected
+that will cost you more time than you have.</p>
+<p>Once you are more familiar with the material,
+though,
+you can and should start improvising based on the backgrounds of your learners,
+their questions in class,
+and what you personally find most interesting.
+This is like playing a new song:
+you stick to the sheet music the first few times,
+but after you're comfortable with the melody and chord changes,
+you can start to put your own stamp on it.</p>
+<p>When you want to use something new,
+run through it beforehand
+<em>using the same computer that you'll be teaching on</em>:
+installing several hundred megabytes of software over high school WiFi
+in front of bored 16-year-olds isn't something you ever want to have to do.</p>
+<blockquote>
+<h3>Direct Instruction</h3>
+<p><span g="g:direct-instruction">Direct Instruction</span> (DI) is a teaching method
+centered around meticulous curriculum design delivered through a prescribed script.
+It's more like an actor reciting lines than it is like the improvisational approach we recommend.
+[<a href="../bibliography/#Stoc2018">Stoc2018</a>] found a statistically significant positive effect for DI
+even though it sometimes gets knocked for being mechanical.
+I prefer improvisation because DI requires more up-front preparation
+than most free-range learning groups can afford.</p>
+</blockquote>
+<h3>Face the Screen---Occasionally</h3>
+<p>It's OK to face the projection screen occasionally
+when you are walking through a section of code or drawing a diagram:
+<em>not</em> looking at a roomful of people who are all looking at you
+can help lower your anxiety levels and give you a moment to think about what to say next.</p>
+<p>You shouldn't do this for more than a few seconds at a time, though.
+A good rule of thumb is to treat the projection screen as one of your learners:
+if it would be uncomfortable to stare at someone
+for as long as you are spending looking at the screen,
+it's time to turn around and face your class again.</p>
+<h3>Drawbacks</h3>
+<p>Live coding does have some drawbacks,
+but they can all be avoided or worked around with a little bit of practice.
+If you find that you are making too many trivial typing mistakes,
+set aside five minutes every day to practice typing:
+it will help your day-to-day work as well.
+If you think you are spending too much time referring to your lesson notes,
+break them into smaller pieces
+so that you only ever have to think about one small step at a time.</p>
+<p>And if you feel that you're spending too much time typing in library import statements,
+class headers,
+and other boilerplate code,
+give yourself and your learners some skeleton code as a starting point (<a class="secref" href="../classroom/#classroom-blank">Section&nbsp;9.9</a>).
+Doing this will also reduce their cognitive load,
+since it will focus their attention where you want it.</p>
+<h2 id="performance-jugyokenkyu">Lesson Study</h2>
+<p>From politicians to researchers and teachers themselves,
+educational reformers have designed systems
+to find and promote people who can teach well
+and eliminate those who cannot.
+But the assumption that some people are born teachers is wrong:
+instead,
+like any other performance art,
+the keys to better teaching are practice and collaboration.
+As [<a href="../bibliography/#Gree2014">Gree2014</a>] explains,
+the Japanese approach to this is called <span g="g:jugyokenkyu">jugyokenkyu</span>,
+which means &quot;lesson study&quot;:</p>
+<blockquote>
+<p>In order to graduate,
+[Japanese] education majors not only had to watch their assigned master teacher work,
+they had to effectively replace him,
+installing themselves in his classroom first as observers and then,
+by the third week,
+as a wobbly…approximation of the teacher himself.
+It worked like a kind of teaching relay.
+Each trainee took a subject,
+planning five days' worth of lessons… [and then] each took a day.
+To pass the baton,
+you had to teach a day's lesson in every single subject:
+the one you planned and the four you did not…
+and you had to do it right under your master teacher's nose.
+Afterward, everyone---the teacher, the college students,
+and sometimes even another outside observer---would sit around a formal table
+to talk about what they saw.</p>
+</blockquote>
+<p>Putting work under a microscope in order to improve it is commonplace
+in fields as diverse as <a href="https://en.wikipedia.org/wiki/W._Edwards_Deming">manufacturing</a> and music.
+A professional musician,
+for example,
+will dissect half a dozen recordings of &quot;Body and Soul&quot; or &quot;Smells Like Teen Spirit&quot; before performing it.
+They would also expect to get feedback from fellow musicians during practice and after performances.</p>
+<p>But continuous feedback isn't part of teaching culture in most English-speaking countries.
+There,
+what happens in the classroom stays in the classroom:
+teachers don't watch each other's lessons on a regular basis,
+so they can't borrow each other's good ideas.
+Teachers may get lesson plans and assignments from colleagues,
+the school board or a textbook publisher,
+or go through a few MOOCs on the internet,
+but each one has to figure out
+how to deliver specific lessons in specific classrooms for specific learners.
+This is particularly true for volunteers and other free-range teachers
+involved in after-school workshops and bootcamps.</p>
+<p>Writing up new techniques
+and giving <span g="g:demonstration-lesson" i="demonstration lesson">demonstration lessons</span>
+(in which one person teaches actual learners while other teachers observe)
+are not solutions.
+For example,
+[<a href="../bibliography/#Finc2007">Finc2007</a>, <a href="../bibliography/#Finc2012">Finc2012</a>] found that of the 99 change stories analyzed,
+teachers only searched actively for new practices or materials in three cases,
+and only consulted published material in eight.
+Most changes occurred locally,
+without input from outside sources,
+or involved only personal interaction with other educators.
+[<a href="../bibliography/#Bark2015">Bark2015</a>] found something similar:</p>
+<blockquote>
+<p>Adoption is not a &quot;rational action&quot;…but
+an iterative series of decisions made in a social context,
+relying on normative traditions, social cueing,
+and emotional or intuitive processes…
+Faculty are not likely to use educational research findings
+as the basis for adoption decisions…
+Positive student feedback is taken as strong evidence by faculty
+that they should continue a practice.</p>
+</blockquote>
+<p><em>Jugyokenkyu</em> works because it maximizes the opportunity for unplanned knowledge transfer between teachers:
+someone sets out to demonstrate X,
+but while watching them,
+their audience actually learns Y as well (or instead).
+For example,
+a teacher might intend to show learners how to search for email addresses in a text file,
+but what their audience might take away is some new keyboard shortcuts.</p>
+<h2 id="performance-feedback">Giving and Getting Feedback on Teaching</h2>
+<p>Observing someone helps you,
+and giving them feedback helps them,
+but it can be hard to receive feedback,
+especially when it's negative (<a class="figref" href="#f:performance-feedback-feelings">Figure&nbsp;8.1</a>).</p>
+<figure id="f:performance-feedback-feelings">
+  <img src="deathbulge-jerk.jpg" alt="Figure&nbsp;8.1: Feedback feelings (copyright © Deathbulge 2013)"/>
+  <figcaption>Figure&nbsp;8.1: Feedback feelings (copyright © Deathbulge 2013)</figcaption>
+</figure>
+<p>Feedback is easier to give and receive when both parties share expectations
+about what is and isn't in scope
+and about how comments ought to be phrased.
+If you are the person <span i="feedback!getting">asking for feedback</span>:</p>
+<dl>
+<dt>Initiate feedback.</dt>
+<dd>It's better to ask for feedback than to receive it unwillingly.</dd>
+<dt>Choose your own questions,</dt>
+<dd>i.e. ask for specific feedback.
+It's a lot harder for someone to answer,
+&quot;What do you think?&quot;
+than to answer either,
+&quot;Was I speaking too quickly?&quot;
+or ,
+&quot;What is one thing from this lesson I should keep doing?&quot;
+Directing feedback like this is also more helpful to you.
+It's always better to try to fix one thing at once
+than to change everything and hope it's for the better.
+Directing feedback at something you have chosen to work on helps you stay focused,
+which in turn increases the odds that you'll see progress.</dd>
+<dt>Use a feedback translator.</dt>
+<dd>Have someone else read over all the feedback and give you a summary.
+It can be easier to hear,
+&quot;Several people think you could speed up a little,&quot;
+than to read several notes all saying, &quot;This is too slow&quot;
+or, &quot;This is boring.&quot;</dd>
+<dt>Be kind to yourself.</dt>
+<dd>Many of us are very critical of ourselves,
+so it's always helpful to jot down what we thought of ourselves
+<em>before</em> getting feedback from others.
+That allows us to compare what we think of our performance
+with what others think,
+which in turn allows us to scale the former more accurately.
+For example,
+it's very common for people to think that they're saying &quot;um&quot; and &quot;err&quot; too often
+when their audience doesn't notice it.
+Getting that feedback once allows teachers to adjust their assessment of themselves
+the next time they feel that way.</dd>
+</dl>
+<p>You can <span i="feedback!giving">give feedback</span> to others more effectively as well:</p>
+<dl>
+<dt>Interact.</dt>
+<dd>Staring at someone is a good way to make them feel uncomfortable,
+so if you want to give feedback on how someone normally teaches,
+you need to set them at ease.
+Interacting with them the way that a real learner would is a good way to do this,
+so ask questions or (pretend to) type along with their example.
+If you are part of a group,
+have one or two people play the role of learner
+while the others take notes.</dd>
+<dt>Balance positive and negative feedback.</dt>
+<dd>The &quot;compliment sandwich&quot; made up of one positive comment,
+one negative,
+and a second positive
+becomes tiresome pretty quickly,
+but it's important to tell people what they should keep doing
+as well as what they should change<sup>
+For a while,
+I was so worried about playing in tune that I completely lost my sense of timing.
+</sup>.</dd>
+<dt>Take notes.</dt>
+<dd>You won't remember everything you noticed
+if the presentation lasts longer than a few seconds,
+and you definitely won't recall how often you noticed them.
+Make a note the first time something happens
+and then add a tick mark when it happens again
+so that you can sort your feedback by frequency.</dd>
+</dl>
+<p>Taking notes is more efficient when you have some kind of rubric
+so that you're not scrambling to write your observations
+while the person you're observing is still talking.
+The simplest rubric for free-form comments from a group
+is a 2x2 grid whose vertical axis is labeled &quot;what went well&quot; and &quot;what can be improved&quot;,
+and whose horizontal axis is labeled &quot;content&quot; (what was said)
+and &quot;presentation&quot; (how it was said).
+Observers write their comments on sticky notes as they watch the demonstration,
+then post those in the quadrants of a grid drawn on a whiteboard
+(<a class="figref" href="#f:performance-rubric">Figure&nbsp;8.2</a>).</p>
+<figure id="f:performance-rubric">
+  <img src="2x2-rubric.svg" alt="Figure&nbsp;8.2: Teaching rubric"/>
+  <figcaption>Figure&nbsp;8.2: Teaching rubric</figcaption>
+</figure>
+<blockquote>
+<h3>Rubrics and Question Budgets</h3>
+<p><a class="secref" href="../checklists/#checklists-teacheval">Section&nbsp;G.1</a> contains a sample rubric
+for assessing 5--10 minutes of programming instruction.
+It presents items in more or less the order that they're likely to come up,</p>
+<p>Rubrics like this one
+tend to grow over time as people think of things they'd like to add.
+A good way to keep them manageable is to insist that
+the total length stays constant:
+if someone wants to add a question,
+they have to identify one that's less important and can be removed.</p>
+</blockquote>
+<p>If you are interested in giving and getting feedback,
+[<a href="../bibliography/#Gorm2014">Gorm2014</a>] has good advice
+that you can use to make peer-to-peer feedback a routine part of your teaching,
+while [<a href="../bibliography/#Gawa2011">Gawa2011</a>] looks at the value of having a coach.</p>
+<blockquote>
+<h3>Studio Classes</h3>
+<p>Architecture schools often include <span i="studio class">studio classes</span>
+in which students solve small design problems
+and get feedback from their peers right then and there.
+These classes are most effective when the teacher critiques the peer critiques
+so that participants learn not only how to make buildings
+but how to give and get feedback [<a href="../bibliography/#Scho1984">Scho1984</a>].
+Master classes in music serve a similar purpose,
+and I have found that giving feedback on feedback
+helps people improve their teaching as well.</p>
+</blockquote>
+<h2 id="performance-practice">How to Practice Performance</h2>
+<p>The best way to improve your in-person lesson delivery
+is to watch yourself do it:</p>
+<ul>
+<li>
+<p>Work in groups of three.</p>
+</li>
+<li>
+<p>Each person rotates through the roles of teacher, audience, and videographer.
+The teacher has 2 minutes to explain something.
+The person pretending to be the audience is there to be attentive,
+while the videographer records the session using a cellphone or other handheld device.</p>
+</li>
+<li>
+<p>After everyone has finished teaching,
+the whole group watches the videos together.
+Everyone gives feedback on all three videos,
+i.e. people give feedback on themselves as well as on others.</p>
+</li>
+<li>
+<p>After the videos have been discussed,
+they are deleted.
+(Many people are justifiably uncomfortable about images of themselves appearing online.)</p>
+</li>
+<li>
+<p>Finally,
+the whole class reconvenes
+and adds all the feedback to a shared 2x2 grid of the kind described above
+<em>without</em> saying who each item of feedback is about.</p>
+</li>
+</ul>
+<p>In order for this exercise to work well:</p>
+<ul>
+<li>
+<p>Record all three videos and then watch all three.
+If the cycle is teach-review-teach-review,
+the last person to teach invariably runs short of time
+(sometimes on purpose).
+Doing all the reviewing after all the teaching
+also helps put a bit of distance between the two,
+which makes the exercise slightly less excruciating.</p>
+</li>
+<li>
+<p>Let people know at the start of the class that they will be asked to teach something
+so that they have time to choose a topic.
+Telling them this too far in advance can be counter-productive,
+since some people will fret over how much they should prepare.</p>
+</li>
+<li>
+<p>Groups must be physically separated to reduce audio cross-talk between their recordings.
+In practice,
+this means 2--3 groups in a normal-sized classroom,
+with the rest using nearby breakout spaces, coffee lounges, offices,
+or (on one occasion) a janitor's storage closet.</p>
+</li>
+<li>
+<p>People must give feedback on themselves as well as on each other
+so that they can calibrate their impressions of their own teaching
+against those of other people.
+Most people are harder on themselves than they ought to be,
+and it's important for them to realize this.</p>
+</li>
+</ul>
+<p>The announcement of this exercise is often greeted with groans and apprehension,
+since few people enjoy seeing or hearing themselves.
+However,
+those same people consistently rate it as one of the most valuable parts of teaching workshops.
+It's also good preparation for <span i="co-teaching">co-teaching</span> (<a class="secref" href="../classroom/#classroom-together">Section&nbsp;9.3</a>):
+teachers find it a lot easier to give each other informal feedback
+if they have had some practice doing so
+and have a shared rubric to set expectations.</p>
+<p>And speaking of rubrics:
+once the class has put all of their feedback on a shared grid,
+pick a handful of positive and negative comments,
+write them up as a checklist,
+and have them do the exercise again.
+Most people are more comfortable the second time around,
+and being assessed on the things that they themselves have decided are important
+increases their sense of self-determination (<a class="secref" href="../motivation/#motivation">Chapter&nbsp;10</a>).</p>
+<blockquote>
+<h3>Tells</h3>
+<p>We all have nervous habits:
+we talk more rapidly and in a higher-pitched voice than usual when we're on stage,
+play with our hair,
+or crack our knuckles.
+Gamblers call these &quot;tells,&quot;
+and people often don't realize that they pace,
+look at their shoes,
+or rattle the change in their pocket</p>
+<p>You can't get rid of tells completely,
+and trying to do so can make you obsess about them.
+A better strategy is to try to displace them---for example,
+to train yourself to scrunch your toes inside your shoes when you're nervous
+instead of cleaning your ear with your pinky finger.</p>
+</blockquote>
+<h2 id="performance-exercises">Exercises</h2>
+<h3 class="exercise">Give Feedback on Bad Teaching (whole class/20)</h3>
+<p>As a group,
+watch <a href="https://www.youtube.com/watch?v=jxgMVwQamO0">this video of bad teaching</a>
+and give feedback on two axes:
+positive vs. negative and content vs. presentation.
+Have each person in the class add one point to a 2x2 grid on a whiteboard or in the shared notes
+without duplicating any points.
+What did other people see that you missed?
+What did they think that you strongly agree or disagree with?</p>
+<h3 class="exercise">Practice Giving Feedback (small groups/45)</h3>
+<p>Use the process described in <a class="secref" href="#performance-practice">Section&nbsp;8.4</a>
+to practice teaching in groups of three
+and pool feedback.</p>
+<h3 class="exercise">The Bad and the Good (whole class/20)</h3>
+<p>Watch the videos of <a href="https://youtu.be/bXxBeNkKmJE">live coding done poorly</a>
+and <a href="https://youtu.be/SkPmwe_WjeY">live coding done well</a>
+and summarize your feedback on the differences using the usual 2x2 grid.
+How is the second round of teaching better than the first?
+Is there anything that was better in the first than in the second?</p>
+<h3 class="exercise">See, Then Do (pairs/30)</h3>
+<p>Teach 3--4 minutes of a lesson using live coding to a classmate,
+then swap and watch while that person live codes for you.
+Don't bother trying to record these sessions---it's difficult to capture
+both the person and the screen with a handheld device---but
+give feedback the same way you have previously.
+Explain in advance to your fellow trainee what you will be teaching
+and what the learners you teach it to are expected to be familiar with.</p>
+<ul>
+<li>
+<p>What felt different about live coding compared to standing up and lecturing?
+What was easier or harder?</p>
+</li>
+<li>
+<p>Did you make any mistakes?
+If so, how did you handle them?</p>
+</li>
+<li>
+<p>Did you talk and type at the same time, or alternate?</p>
+</li>
+<li>
+<p>How often did you point at the screen?
+How often did you highlight with the mouse?</p>
+</li>
+<li>
+<p>What will you try to keep doing next time?
+What will you try to do differently?</p>
+</li>
+</ul>
+<h3 class="exercise">Tells (small groups/15)</h3>
+<ol>
+<li>
+<p>Make a note of what you think your tells are,
+but do not share them with other people.</p>
+</li>
+<li>
+<p>Teach a short lesson (2--3 minutes long).</p>
+</li>
+<li>
+<p>Ask your audience how they think you betray nervousness.
+Is their list the same as yours?</p>
+</li>
+</ol>
+<h3 class="exercise">Teaching Tips (small groups/15)</h3>
+<p>The <a href="http://csteachingtips.org/">CS Teaching Tips</a> site
+has a large number of practical tips on teaching computing,
+as well as a collection of downloadable tip sheets.
+Go through their tip sheets in small groups and classify each tip
+according to whether you use it all the time,
+use it occasionally,
+or never use it.
+Where do your practice and your peers' practice differ?
+Are there any tips you strongly disagree with or think would be ineffective?</p>
+<h2>Review</h2>
+<figure id="f:performance-feedback">
+  <img src="conceptmap-feedback.svg" alt="Figure&nbsp;8.3: Concepts: Feedback"/>
+  <figcaption>Figure&nbsp;8.3: Concepts: Feedback</figcaption>
+</figure>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

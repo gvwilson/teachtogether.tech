@@ -1,0 +1,77 @@
+copyrightyear: 2022
+author: "Greg Wilson"
+email: "gvwilson@third-bit.com"
+repo: "https://github.com/gvwilson/teachtogether.tech/"
+domain: teachtogether.tech
+tool: "McCole"
+title: "Teaching Tech Together"
+subtitle: "Cómo crear y dar lecciones que funcionen y construir una comunidad docente a su alrededor"
+
+src: .
+dst: docs
+links: _data/links.yml
+bib: _data/bibliography.bib
+gloss: _data/glossary.yml
+lang: es
+
+copy:
+- "*/*.jpg"
+- "*/*.png"
+- "*/*.svg"
+- "static/*.css"
+- "static/*.js"
+- "favicon.ico"
+
+root: index.md
+chapters:
+- slug: intro
+  title: "Introducción"
+- slug: models
+  title: "Modelos mentales y evaluación formativa"
+- slug: memory
+  title: "Pericia y memoria"
+- slug: architecture
+  title: "Arquitectura cognitiva"
+- slug: individual
+  title: "Aprendizaje individual"
+- slug: process
+  title: "Un proceso para diseñar lecciones"
+- slug: pck
+  title: "Conocimiento de la pedagogía del contenido"
+- slug: performance
+  title: "Enseñar como un arte performativo"
+- slug: classroom
+  title: "En el salón de clase"
+- slug: motivation
+  title: "Motivación y desmotivación"
+- slug: online
+  title: "Enseñar en línea"
+- slug: exercises
+  title: "Tipos de ejercicios"
+- slug: community
+  title: "Construyendo una comunidad de práctica"
+- slug: outreach
+  title: "Difusión y vinculación"
+- slug: finale
+  title: "¿Por qué enseño?"
+- slug: license
+  title: "Licencia"
+  appendix: true
+- slug: bibliography
+  title: "Bibliografía"
+- slug: conduct
+  title: "Código de conducta"
+- slug: joining
+  title: "Unirse a nuestra comunidad"
+- slug: glossary
+  title: "Glosario"
+- slug: meetings
+  title: "Reuniones, reuniones, reuniones"
+- slug: checklists
+  title: "Listas de verificación y plantillas"
+- slug: conceptmaps
+  title: "Ejemplos de mapas conceptuales"
+- slug: chunking
+  title: "Solución del ejercicio de particionar"
+- slug: traduccion
+  title: Sobre la traducción

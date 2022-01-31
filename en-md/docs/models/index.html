@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="stjs.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="models">Mental Models and Formative Assessment</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="models">Mental Models and Formative Assessment</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#models-formative-assessment">Are People Learning?</a></li>
+<li><a href="#models-notional">Notional Machines</a></li>
+<li><a href="#models-exercises">Exercises</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#g:active-teaching">Active teaching</a>, <a href="../glossary/#g:competent-practitioner">Competent practitioner</a>, <a href="../glossary/#g:computational-thinking">Computational thinking</a>, <a href="../glossary/#g:concept-inventory">Concept inventory</a>, <a href="../glossary/#g:diagnostic-power">Diagnostic power</a>, <a href="../glossary/#g:expert">Expert</a>, <a href="../glossary/#g:expertise-reversal">Expertise reversal effect</a>, <a href="../glossary/#g:formative-assessment">Formative assessment</a>, <a href="../glossary/#g:manual">Manual</a>, <a href="../glossary/#g:mental-model">Mental model</a>, <a href="../glossary/#g:notional-machine">Notional machine</a>, <a href="../glossary/#g:novice">Novice</a>, <a href="../glossary/#g:plausible-distractor">Plausible distractor</a>, <a href="../glossary/#g:summative-assessment">Summative assessment</a>, <a href="../glossary/#g:tutorial">Tutorial</a></p></div>
+
+      
+<p>The first task in teaching is to figure out who your learners are.
+Our approach is based on the work of researchers like <span i="Benner, Patricia">Patricia Benner</span>,
+who studied how nurses progress from novice to expert [<a href="../bibliography/#Benn2000">Benn2000</a>].
+Benner identified five stages of cognitive development that most people go through in a fairly consistent way.
+For our purposes, we will simplify this progression to three stages:</p>
+<dl>
+<dt><span g="g:novice" i="novice">Novices</span></dt>
+<dd>don't know what they don't know,
+i.e. they don't yet have a usable mental model of the problem domain.</dd>
+<dt><span g="g:competent-practitioner" i="competent practitioner">Competent practitioners</span></dt>
+<dd>have a mental model that's adequate for everyday purposes.
+They can do normal tasks with normal effort under normal circumstances,
+and have some understanding of the limits to their knowledge
+(i.e. they know what they don't know).</dd>
+<dt><span g="g:expert" i="expert">Experts</span></dt>
+<dd>have mental models that include exceptions and special cases,
+which allows them to handle situations that are out of the ordinary.
+We will discuss expertise in more detail in <a class="secref" href="../memory/#memory">Chapter&nbsp;3</a>.</dd>
+</dl>
+<p>So what <em>is</em> a <span g="g:mental-model">mental model</span>?
+As the name suggests,
+it is a simplified representation of the most important parts of some problem domain
+that is good enough to enable problem solving.
+One example is the ball-and-spring models of molecules used in high school chemistry.
+Atoms aren't actually balls,
+and their bonds aren't actually springs,
+but the model enables people to reason about chemical compounds and their reactions.
+A more sophisticated model of an atom has a small central ball (the nucleus) surrounded by orbiting electrons.
+It's also wrong,
+but the extra complexity enables people to explain more and to solve more problems.
+(Like software,
+mental models are never finished:
+they're just used.)</p>
+<p>Presenting a novice with a pile of facts is counter-productive
+because they don't yet have a model to fit those facts into.
+In fact,
+presenting too many facts too soon can actually reinforce
+the incorrect mental model they've cobbled together.
+As [<a href="../bibliography/#Mull2007a">Mull2007a</a>] observed in a study of video instruction for science students:</p>
+<blockquote>
+<p>Students have existing ideas about…phenomena before viewing a video.
+If the video presents…concepts in a clear, well illustrated way,
+students believe they are learning but they do not engage with the media on a deep enough level
+to realize that what is presented differs from their prior knowledge…
+There is hope, however.
+Presenting students' common misconceptions in a video alongside the…concepts
+has been shown to increase learning
+by increasing the amount of mental effort students expend while watching it.</p>
+</blockquote>
+<p>Your goal when teaching novices should therefore be
+to help them construct a mental model
+so that they have somewhere to put facts.
+For example,
+<span i="The Carpentries">Software Carpentry</span>'s
+<a href="http://swcarpentry.github.io/shell-novice/">lesson on the Unix shell</a>
+introduces fifteen commands in three hours.
+That's one command every twelve minutes,
+which seems glacially slow until you realize that
+the lesson's real purpose isn't to teach those fifteen commands:
+it's to teach paths,
+history,
+tab completion,
+wildcards,
+pipes,
+command-line arguments,
+and redirection.
+Specific commands don't make sense until novices understand those concepts;
+once they do,
+they can start to read manual pages,
+search for the right keywords on the web,
+and tell whether the results of their searches are useful or not.</p>
+<p>The cognitive differences between novices and competent practitioners
+underpin the differences between two kinds of teaching materials.
+A <span g="g:tutorial">tutorial</span> helps newcomers to a field build a mental model;
+a <span g="g:manual">manual</span>,
+on the other hand,
+helps competent practitioners fill in the gaps in their knowledge.
+Tutorials frustrate competent practitioners because they move too slowly
+and say things that are obvious
+(though they are anything <em>but</em> obvious to novices).
+Equally,
+manuals frustrate novices because they use jargon and <em>don't</em> explain things.
+This phenomenon is called the <span g="g:expertise-reversal">expertise reversal effect</span> [<a href="../bibliography/#Kaly2003">Kaly2003</a>],
+and is one of the reasons you have to decide early on
+who your lessons are for.</p>
+<blockquote>
+<h3>A Handful of Exceptions</h3>
+<p>One of the reasons Unix and C became popular is that
+[<a href="../bibliography/#Kern1978">Kern1978</a>, <a href="../bibliography/#Kern1983">Kern1983</a>, <a href="../bibliography/#Kern1988">Kern1988</a>]
+somehow managed to be good tutorials <em>and</em> good manuals at the same time.
+[<a href="../bibliography/#Fehi2008">Fehi2008</a>] and [<a href="../bibliography/#Ray2014">Ray2014</a>] are among the very few other books in computing that achieve this;
+even after re-reading them several times,
+I don't know how they pull it off.</p>
+</blockquote>
+<h2 id="models-formative-assessment">Are People Learning?</h2>
+<p><span i="Twain, Mark">Mark Twain</span> once wrote,
+&quot;It ain't what you don't know that gets you into trouble.
+It's what you know for sure that just ain't so.&quot;
+One of the exercises in building a mental model is therefore
+to clear away things that <em>don't</em> belong.
+Broadly speaking,
+novices' misconceptions fall into three categories:</p>
+<dl>
+<dt><span i="misconception!factual error">Factual errors</span></dt>
+<dd>like believing that Vancouver is the capital of British Columbia
+(it's Victoria).
+These are usually simple to correct.</dd>
+<dt><span i="misconception!broken mental model">Broken models</span></dt>
+<dd>like believing that motion and acceleration must be in the same direction.
+We can address these by having novices reason through examples
+where their models give the wrong answer.</dd>
+<dt><span i="misconception!fundamental belief">Fundamental beliefs</span></dt>
+<dd>such as &quot;the world is only a few thousand years old&quot;
+or &quot;some kinds of people are just naturally better at programming than others&quot; [<a href="../bibliography/#Guzd2015b">Guzd2015b</a>, <a href="../bibliography/#Pati2016">Pati2016</a>].
+These errors are often deeply connected to the learner's social identity,
+so they resist evidence and rationalize contradictions.</dd>
+</dl>
+<p>People learn fastest when teachers identify and clear up learners' misconceptions
+as the lesson is being delivered.
+This is called <span g="g:formative-assessment">formative assessment</span>
+because it forms (or shapes) the teaching while it is taking place.
+Learners don't pass or fail formative assessment;
+instead,
+it gives both the teacher and the learner feedback on how well they are doing
+and what they should focus on next.
+For example,
+a music teacher might ask a learner to play a scale very slowly to check their breathing.
+The learner finds out if they are breathing correctly,
+while the teacher gets feedback on whether the explanation they just gave made sense.</p>
+<blockquote>
+<h3>Summing Up</h3>
+<p>The counterpoint to formative assessment is
+<span g="g:summative-assessment">summative assessment</span>,
+which takes place at the end of the lesson.
+Summative assessment is like a driver's test:
+it tells the learner whether they have mastered the topic
+and the teacher whether their lesson was successful.
+One way of thinking about the difference is that
+a chef tasting food as she cooks it is formative assessments,
+but the guests tasting it once it's served is summative.</p>
+<p>Unfortunately,
+school has trained most people to believe that all assessment is summative,
+i.e. that if something feels like a test,
+doing poorly will count against you.
+Making formative assessments feel informal helps reduce this anxiety;
+in my experience,
+using online quizzes, clickers, or anything else seems to increase it,
+since most people today believe that anything they do on the web is being watched and recorded.</p>
+</blockquote>
+<p>In order to be useful during teaching,
+a <span i="formative assessment!requirements">formative assessment</span> has to be quick to administer
+(so that it doesn't break the flow of the lesson)
+and have an unambiguous correct answer
+(so that it can be used with groups).
+The most widely used kind of formative assessment is probably
+the <span i="multiple choice question">multiple choice question</span> (MCQ).
+A lot of teachers have a low opinion of them,
+but when they are designed well,
+they can reveal much more than just whether someone knows specific facts.
+For example,
+suppose you are teaching children how to do multi-digit addition [<a href="../bibliography/#Ojos2015">Ojos2015</a>]
+and you give them this MCQ:</p>
+<blockquote>
+<p>What is 37 + 15?</p>
+<ol>
+<li>52</li>
+<li>42</li>
+<li>412</li>
+<li>43</li>
+</ol>
+</blockquote>
+<p>The correct answer is 52,
+but the other answers provide valuable insights:</p>
+<ul>
+<li>
+<p>If the child chooses 42,
+she has no understanding of what &quot;carrying&quot; means.
+(She might well write 12 as the answers to 7+5,
+then overwrite the 1 with the 4 she gets from 3+1.)</p>
+</li>
+<li>
+<p>If she chooses 412,
+she is treating each column of numbers as a separate problem.
+This is still wrong,
+but it's wrong for a different reason.</p>
+</li>
+<li>
+<p>If she chooses 43 then she knows she has to carry the 1
+but is carrying it back into the column it came from.
+Again,
+this is a different mistake,
+and requires a different clarifying explanation from the teacher.</p>
+</li>
+</ul>
+<p>Each of these incorrect answers is a <span g="g:plausible-distractor">plausible distractor</span>
+with <span g="g:diagnostic-power">diagnostic power</span>.
+A distractor is a wrong or less-than-best answer;
+&quot;plausible&quot; means that it looks like it could be right,
+while &quot;diagnostic power&quot; means that each of the distractors helps the teacher figure out
+what to explain next to that particular learner.</p>
+<p>The spread of responses to a formative assessment guides what you do next.
+If enough of the class has the right answer, you move on.
+If the majority of the class chooses the same wrong answer,
+you should go back and work on correcting the misconception that distractor points to.
+If their answers are evenly split between several options they are probably just guessing,
+so you should back up and re-explain the idea in a different way.
+(Repeating exactly the same explanation will probably not be useful,
+which is one of things that makes so many video courses pedagogically ineffective.)</p>
+<p>What if most of the class votes for the right answer
+but a few vote for wrong ones?
+In that case,
+you have to decide whether you should spend time getting the minority caught up
+or whether it's more important to keep the majority engaged.
+No matter how hard you work or what teaching practices you use,
+you won't always be able to give everyone what they need;
+it's your responsibility as a teacher to make the call.</p>
+<blockquote>
+<h3>Where Do Wrong Answers Come From?</h3>
+<p>In order to come up with plausible distractors,
+think about the questions your learners asked or problems they had
+the last time you taught this subject.
+If you haven't taught it before,
+think about your own misconceptions,
+ask colleagues about their experiences,
+or look at the history of your field:
+if everyone misunderstood your subject in some way fifty years ago,
+the odds are that a lot of your learners will still misunderstand it that way today.
+You can also ask open-ended questions in class
+to collect misconceptions about material to be covered in a later class,
+or check question and answer sites like <a href="http://www.quora.com">Quora</a>
+or <a href="https://stackoverflow.com/">Stack Overflow</a>
+to see what people learning the subject elsewhere are confused by.</p>
+</blockquote>
+<p>Developing formative assessments makes your lessons better
+because it forces you to think about your learners' mental models.
+In my experience,
+once I do this I automatically write the lesson to cover the most likely gaps and errors.
+Formative assessments therefore pay off even if they aren't used
+(though teaching is more effective if they are).</p>
+<p>MCQs aren't the only kind of formative assessment:
+<a class="secref" href="../exercises/#exercises">Chapter&nbsp;12</a> describes other kinds of exercises that are quick and unambiguous.
+Whatever you pick,
+you should do something that takes a minute or two every 10--15 minutes
+to make sure that your learners are actually learning.
+This rhythm isn't based on an intrinsic attentional limit: [<a href="../bibliography/#Wils2007">Wils2007</a>]
+found little support for the often-repeated claim that
+learners can only pay attention for 10--15 minutes.
+Instead,
+the guideline ensures that if a significant number of people have fallen behind,
+you only have to repeat a short portion of the lesson.
+Frequent formative assessments also keep learners engaged,
+particularly if they involved small-group discussion
+(<a class="secref" href="../classroom/#classroom-peer">Section&nbsp;9.2</a>).</p>
+<p>Formative assessments can also be used <em>before</em> lessons.
+If you start a class with an MCQ and everyone answers it correctly,
+you can avoid explaining something that your learners already know.
+This kind of <span g="g:active-teaching">active teaching</span>
+gives you more time to focus on things they don't know.
+It also shows learners that you respect their time enough not to waste it,
+which helps with motivation (<a class="secref" href="../motivation/#motivation">Chapter&nbsp;10</a>).</p>
+<blockquote>
+<h3>Concept Inventories</h3>
+<p>Given enough data,
+MCQs can be made surprisingly precise.
+The best-known example is the
+<span g="g:concept-inventory" i="concept inventory">Force Concept Inventory</span> [<a href="../bibliography/#Hest1992">Hest1992</a>],
+which assesses understanding of basic Newtonian mechanics.
+By interviewing a large number of respondents,
+correlating their misconceptions with patterns of right and wrong answers,
+and then improving the questions,
+its creators constructed a diagnostic tool that can pinpoint specific misconceptions.
+Researchers can then use that tool to measure the effect of changes in teaching methods [<a href="../bibliography/#Hake1998">Hake1998</a>].</p>
+<p>Tew and others developed and validated
+a language-independent assessment for introductory programming [<a href="../bibliography/#Tew2011">Tew2011</a>];
+[<a href="../bibliography/#Park2016">Park2016</a>] replicated it,
+and [<a href="../bibliography/#Hamo2017">Hamo2017</a>] is developing a concept inventory for recursion.
+However,
+it's very costly to build tools like this,
+and learners' ability to search for answers online is an ever-increasing threat to their validity.</p>
+</blockquote>
+<p>Working formative assessments into class only requires a little bit of preparation and practice.
+Giving learners colored or numbered cards so that they can all answer an MCQ at once
+(rather than holding up their hands in turn),
+having one of the options be, &quot;I have no idea,&quot;
+and encouraging them to talk to their neighbors for a few seconds before answering
+will all help ensure that your teaching flow isn't disrupted.
+<a class="secref" href="../classroom/#classroom-peer">Section&nbsp;9.2</a> describes a powerful,
+evidence-based teaching method that builds on these simple ideas.</p>
+<blockquote>
+<h3>Humor</h3>
+<p>Teachers sometimes put supposedly-silly answers like &quot;my nose!&quot; on MCQs,
+particularly ones intended for younger learners.
+However,
+these don't provide any insight into learners' misconceptions,
+and most people don't actually find them funny.
+As a rule,
+you should only include a joke in a lesson if you find it funny
+the third time you re-read it.</p>
+</blockquote>
+<p>A lesson's formative assessments should prepare learners for its summative assessment:
+no one should ever encounter a question on an exam that the teaching did not prepare them for.
+This doesn't mean you should never put new kinds of problems on an exam,
+but if you do,
+you should have given learners practice tackling novel problems beforehand.
+<a class="secref" href="../process/#process">Chapter&nbsp;6</a> explores this in depth.</p>
+<h2 id="models-notional">Notional Machines</h2>
+<p>The term <span g="g:computational-thinking">computational thinking</span> is bandied about a lot,
+in part because people can agree it's important while meaning very different things by it.
+Rather than arguing over what it does and doesn't include,
+it's more useful to think about the <span g="g:notional-machine">notional machine</span>
+that you want learners to understand [<a href="../bibliography/#DuBo1986">DuBo1986</a>].
+According to [<a href="../bibliography/#Sorv2013">Sorv2013</a>],
+a notional machine:</p>
+<ul>
+<li>
+<p>is an idealized abstraction of computer hardware
+and other aspects of programs' runtime environments;</p>
+</li>
+<li>
+<p>enables the semantics of programs to be described;
+and</p>
+</li>
+<li>
+<p>correctly reflects what programs do when executed.</p>
+</li>
+</ul>
+<p>For example, my notional machine for <span i="Python">Python</span> is:</p>
+<ol>
+<li>
+<p>Running programs live in memory,
+which is divided between a call stack and a heap.</p>
+</li>
+<li>
+<p>Memory for data is always allocated from the heap.</p>
+</li>
+<li>
+<p>Every piece of data is stored in a two-part structure.
+The first part says what type the data is,
+and the second part is the actual value.</p>
+</li>
+<li>
+<p>Booleans, numbers, and character strings are never modified after they are created.</p>
+</li>
+<li>
+<p>Lists, sets, and other collections store references to other data
+rather than storing those values directly.
+They can be modified after they are created,
+i.e. a list can be extended or new values can be added to a set.</p>
+</li>
+<li>
+<p>When code is loaded into memory,
+Python converts it to a sequence of instructions
+that are stored like any other data.
+This is why it's possible to assign functions to variables
+and pass them as parameters.</p>
+</li>
+<li>
+<p>When code is executed,
+Python steps through the instructions,
+doing what each one tells it to in turn.</p>
+</li>
+<li>
+<p>Some instructions make Python read data,
+do calculations,
+and create new data.
+Other instructions control what instructions Python executes,
+which is how loops and conditionals work.
+Yet another instruction tells Python to call a function.</p>
+</li>
+<li>
+<p>When a function is called,
+Python pushes a new stack frame onto the call stack.</p>
+</li>
+<li>
+<p>Each stack frame stores variables' names and references to data.
+Function parameters are just another kind of variable.</p>
+</li>
+<li>
+<p>When a variable is used,
+Python looks for it in the top stack frame.
+If it isn't there, it looks in the bottom (global) frame.</p>
+</li>
+<li>
+<p>When the function finishes,
+Python erases its stack frame and jumps backs to
+the instructions it was executing before the function call.
+If there isn't a &quot;before,&quot;
+the program has finished.</p>
+</li>
+</ol>
+<p>I use this cartoon version of reality whenever I teach Python.
+After about 25 hours of instruction and 100 hours of work on their own time,
+I expect most learners to have a mental model
+that includes most or all of these features.</p>
+<h2 id="models-exercises">Exercises</h2>
+<h3 class="exercise">Your Mental Models (think-pair-share/15)</h3>
+<p>What is one mental model you use to understand your work?
+Write a few sentences describing it and give feedback on a partner's.
+Once you have done that,
+have a few people share their models with the whole group.
+Does everyone agree on what a mental model is?
+Is it possible to give a precise definition,
+or is the concept useful precisely because it is fuzzy?</p>
+<h3 class="exercise">Symptoms of Being a Novice (whole class/5)</h3>
+<p>Saying that novices don't have a mental model of a particular domain
+is not the same as saying that they don't have a mental model at all.
+Novices tend to reason by analogy and guesswork,
+borrowing bits and pieces of mental models from other domains that seem superficially similar.</p>
+<p>People who are doing this often say things that are
+<a href="https://en.wikipedia.org/wiki/Not_even_wrong">not even wrong</a>.
+As a class,
+discuss what some other symptoms of being a novice are.
+What does someone do or say that leads you to classify them as a novice in some domain?</p>
+<h3 class="exercise">Modelling Novice Mental Models (pairs/20)</h3>
+<p>Create a multiple choice question related to a topic you have taught
+or intend to teach
+and explain the diagnostic power of each its distractors
+(i.e. what misconception each distractor is meant to identify).</p>
+<p>When you are done, trade MCQs with a partner.
+Is their question ambiguous?
+Are the misconceptions plausible?
+Do the distractors actually test for them?
+Are any likely misconceptions <em>not</em> tested for?</p>
+<h3 class="exercise">Thinking Things Through (whole class/15)</h3>
+<p>A good formative assessment requires people to think through a problem.
+For example,
+imagine that you have placed a block of ice in a bathtub and then filled the tub to the rim with water.
+When the ice melts,
+does the water level go up (so that the tub overflows),
+go down,
+or stay the same (<a class="figref" href="#f:models-bathtub">Figure&nbsp;2.1</a>)?</p>
+<figure id="f:models-bathtub">
+  <img src="bathtub.svg" alt="Figure&nbsp;2.1: Ice in a bathtub"/>
+  <figcaption>Figure&nbsp;2.1: Ice in a bathtub</figcaption>
+</figure>
+<p>The correct answer is that the level stays the same:
+the ice displaces its own weight in water,
+so it exactly fills the &quot;hole&quot; it has made when it melts.
+Figuring out why helps people build a model of the relationship between weight, volume, and density [<a href="../bibliography/#Epst2002">Epst2002</a>].</p>
+<p>Describe another formative assessment you have seen or used
+that required people to think something through
+and thereby identify flaws in their reasoning.
+When you are done,
+explain your example to a partner
+and give them feedback on theirs.</p>
+<h3 class="exercise">A Different Progression (individual/15)</h3>
+<p>The novice-competent-expert model of skill development
+is sometimes called the <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model</a>.
+Another commonly-used progression is
+the <a href="https://en.wikipedia.org/wiki/Four_stages_of_competence">four stages of competence</a>:</p>
+<dl>
+<dt>Unconscious incompetence:</dt>
+<dd>the person doesn't know what they don't know.</dd>
+<dt>Conscious incompetence:</dt>
+<dd>the person realizes that they don't know something.</dd>
+<dt>Conscious competence:</dt>
+<dd>the person has learned how to do something,
+but can only do it while concentrating
+and may still need to break things down into steps.</dd>
+<dt>Unconscious competence:</dt>
+<dd>the skill has become second nature
+and the person can do it reflexively.</dd>
+</dl>
+<p>Identify one subject where you are at each level.
+What level are most of your learners at in the subject you teach most often?
+What level are you trying to get them to?
+How do these four stages relate to the novice-competent-expert classification?</p>
+<h3 class="exercise">What Kind of Computing? (individual/10)</h3>
+<p>[<a href="../bibliography/#Tedr2008">Tedr2008</a>] summarizes three traditions in computing:</p>
+<dl>
+<dt>Mathematical:</dt>
+<dd>Programs are the embodiment of algorithms.
+They are either correct or incorrect,
+as well as more or less efficient.</dd>
+<dt>Scientific:</dt>
+<dd>Programs are more or less accurate models of information processes
+that can be studied using the scientific method.</dd>
+<dt>Engineering:</dt>
+<dd>Programs are built objects like dams and airplanes,
+and are more or less effective and reliable.</dd>
+</dl>
+<p>Which of these best matches your mental model of computing?
+If none of them do, what model do you have?</p>
+<h3 class="exercise">Explaining Why Not (pairs/5)</h3>
+<p>One of your learners thinks that there is some kind of difference between
+text that they type in character by character
+and identical text that they copy and paste.
+Think of a reason they might believe this
+or something that might have happened to give them this impression,
+then pretend to be that learner while your partner explains why this isn't the case.
+Trade roles and try again.</p>
+<h3 class="exercise">Your Model Now (whole class/5)</h3>
+<p>As a class,
+create a list of the key elements of your mental model of learning.
+What are the half-dozen most important concepts and how do they relate?</p>
+<h3 class="exercise">Your Notional Machines (small groups/20)</h3>
+<p>Working in small groups,
+write up a description of the notional machine you want learners to use
+to understand how their programs run.
+How does a notional machine for a blocks-based language like <span i="Scratch">Scratch</span>
+differ from that for <span i="Python">Python</span>?
+What about a notional machine for spreadsheets
+or for a browser that is interpreting HTML and CSS when rendering a web page?</p>
+<h3 class="exercise">Enjoying Without Learning (individual/5)</h3>
+<p>Multiple studies have shown that
+teaching evaluations don't correlate with learning outcomes [<a href="../bibliography/#Star2014">Star2014</a>, <a href="../bibliography/#Uttl2017">Uttl2017</a>],
+i.e. that how highly learners rate a course doesn't predict how much they remember.
+Have you ever enjoyed a class that you didn't actually learn anything from?
+If so, what made it enjoyable?</p>
+<h2>Review</h2>
+<figure id="f:models-concept-map">
+  <img src="conceptmap-mental-models.svg" alt="Figure&nbsp;2.2: Concepts: Mental models"/>
+  <figcaption>Figure&nbsp;2.2: Concepts: Mental models</figcaption>
+</figure>
+<figure id="f:models-formative-assessment">
+  <img src="conceptmap-assessment.svg" alt="Figure&nbsp;2.3: Concepts: Assessment"/>
+  <figcaption>Figure&nbsp;2.3: Concepts: Assessment</figcaption>
+</figure>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

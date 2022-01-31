@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="teachtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="exercises">Tipos de ejercicios</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="exercises">Tipos de ejercicios</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#exercises-classics">Los clásicos</a></li>
+<li><a href="#exercises-tracing">Seguir</a></li>
+<li><a href="#exercises-diagrams">Diagramas</a></li>
+<li><a href="#exercises-grading">Calificación automática</a></li>
+<li><a href="#exercises-higher">Razonamientos de alto nivel</a></li>
+<li><a href="#exercises-exercises">Ejercicios</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#fuzz-testing">Fuzz testin</a>, <a href="../glossary/#hashing">Hashin</a></p></div>
+
+      
+<p>\begin{reviewer}
+{Priscilla Minotti}
+{Roxana Villafañe y Natalie Stroud}
+\end{reviewer}</p>
+<p>Todo/a buen/a carpintero/a tiene un juego de destornilladores y todo/a buen/a docente
+tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los/las estudiantes,
+para ayudarlos a practicar sus nuevas habilidades y para mantener su compromiso.</p>
+<p>Este capítulo comienza describiendo varios tipos de ejercicios
+que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva.</p>
+<p>Luego examina el estado del arte en cuanto a calificación automatizada y culmina explorando discusiones,
+proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.</p>
+<p>Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury <a href="http://web-cat.org/questionbank/">Canterbury Question Bank</a> [<a href="../bibliography/#Sand2013">Sand2013</a>],
+que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.</p>
+<h2 id="exercises-classics">Los clásicos</h2>
+<p>Como se discute en la <a class="secref" href="../models/#models-formative-assessment">Section&nbsp;2.2</a>,
+las <em>preguntas de opción múltiple</em> son más efectivas cuando las respuestas incorrectas sondean conceptos erróneos específicos.
+Están diseñadas para evaluar los niveles más bajos en la Taxonomía de Bloom <span i="taxonomía de Bloom"></span>
+(<a class="secref" href="../process/#process-objectives">Section&nbsp;6.3</a>), pero también requieren que los/las estudiantes utilicen su propio juicio.</p>
+<blockquote>
+<h3>Una pregunta de opción múltiple</h3>
+<p>¿En qué orden ocurren las operaciones cuando la computadora evalúa la expresión <code>precio = agregarImpuestos(costo - descuento)</code>?</p>
+<ol>
+<li>resta, llamado a función, asignación</li>
+<li>llamado a función, resta, asignación</li>
+<li>llamado a función, luego asignación y resta simultáneamente</li>
+<li>ninguna de las anteriores</li>
+</ol>
+</blockquote>
+<p>El segundo tipo de ejercicio clásico es <em>programar y ejecutar</em>,
+donde el/la estudiante escribe un código que produce una salida especificada.
+Los ejercicios de programar y ejecutar pueden ser tan simples o complejos como el/la docente quiera,
+pero cuando se usen en clase deben ser breves y tener solo una o dos respuestas correctas posibles.
+Generalmente es suficiente pedir a las personas principiantes que calculen e impriman un solo valor o que llamen a una función específica:
+docentes experimentados/as a menudo olvidan de lo difícil que puede ser averiguar qué parámetros van en qué lugar.
+Para los/las estudiantes  más avanzados, averiguar qué función llamar es una actividad más atractiva y una mejor evaluación de su comprensión.</p>
+<blockquote>
+<h3>Programar y ejecutar</h3>
+<p>La variable <code>foto</code> contiene una imagen a todo color de un archivo.
+Usando una función,
+crea una versión blanco y negro de la imagen
+y asígnala a una variable nueva llamada <code>monocromo</code>.</p>
+</blockquote>
+<p>Los ejercicios de programar y ejecutar se pueden combinar con preguntas de opción múltiple.
+Por ejemplo,
+esta pregunta de opción múltiple sólo puede ser contestada ejecutando el comando Unix <code>ls</code>:</p>
+<blockquote>
+<h3>Combinar preguntas de opción múltiple con programar &amp; ejecutar</h3>
+<p>Estás en el directorio  <code>/home</code>.
+¿Cuál de los siguientes archivos <em>no está</em> en dicho directorio?</p>
+<ol>
+<li><code>otonio.csv</code></li>
+<li><code>verano.csv</code></li>
+<li><code>primavera.csv</code></li>
+<li><code>invierno.csv</code></li>
+</ol>
+</blockquote>
+<p>Los ejercicios de programar y ejecutar ayudan a las personas a practicar las habilidades que más quieren aprender,
+pero pueden ser  difíciles de evaluar:
+puede haber muchas maneras inesperadas de obtener la respuesta correcta,
+y es desmoralizante si un sistema de calificación automática rechaza el código de la solución porque no se corresponde con el del docente.
+Una forma de reducir qué tanto ocurre esto es evaluar solo su producción,
+pero eso no les da una devolución sobre cómo están programando.
+Otra manera es darles un pequeño conjunto de evaluación en el que pueden ejecutar su código antes de enviarlo
+(y entonces el código se evalúa con un conjunto más amplio de pruebas).
+Hacer esto les ayuda a descubrir si han malinterpretado completamente la intención del ejercicio
+antes de hacer cualquier cosa que pueda afectarles la nota.</p>
+<p>En lugar de escribir código que satisface algunas especificaciones,
+se les puede pedir a los/las estudiantes que escriban pruebas para determinar si un fragmento de código se ajusta a una especificación.
+Esta habilidad es útil por sí misma y practicarla puede darles a los/las estudiantes
+un poco más de simpatía por el trabajo duro de sus docentes.</p>
+<blockquote>
+<h3>Invirtiendo programar y ejecutar</h3>
+<p>La función <code>suma_monotona</code> calcula la suma de cada sección de una lista de números, en la que los valores aumentan estrictamente.</p>
+<p>Por ejemplo, dada la entrada <code>[1, 3, 3, 4, 5, 1]</code>,
+la salida es  <code>[4, 12, 1]</code>.</p>
+<p>Escribe y corre pruebas unitarias para determinar cuál de los siguientes errores está contenido en la función:</p>
+<ul>
+<li>Considera cada número negativo como el inicio de una nueva sub-secuencia.</li>
+<li>No incluye el primer valor de cada sub-secuencia en la sub-suma.</li>
+<li>No incluye el último valor de cada sub-secuencia en la sub-suma.</li>
+<li>Solo reinicia la suma cuando los valores decrecen en vez de aumentar.</li>
+</ul>
+</blockquote>
+<p><em>Completar los espacios en blanco</em> es un refinamiento de <em>programar y ejecutar</em>
+en el que el/la estudiante recibe el comienzo de un código y debe completarlo.</p>
+<p>(En la práctica, la mayoría de los ejercicios <em>programar y ejecutar</em> son en realidad del tipo completar los espacios en blanco,
+porque el/la docente proporciona comentarios
+para recordarles a sus estudiantes los pasos que deben seguir).
+Las preguntas de este tipo son las bases para ejemplos desvanecidos;
+como se discute en el <a class="secref" href="../architecture/#architecture">Chapter&nbsp;4</a>,
+las personas principiantes a menudo encuentran a este tipo de ejercicios  menos intimidante que escribir todo el código desde cero;
+y dado que el/la docente ha proporcionado la mayor parte de la estructura de la respuesta,
+las respuestas enviadas son mucho más predecibles y, por lo tanto, más fáciles de revisar.</p>
+<blockquote>
+<h3>Completar los espacios en blanco</h3>
+<p>Completa los espacios en blanco,
+para que el código de abajo imprima el texto <code>'cana'</code>.<sup>Inspirado en un verso de María Elena Walsh,
+del libro <a href="https://es.wikipedia.org/wiki/Zoo_loco">Zoo Loco</a></sup>.</p>
+<pre><code class="language-text">text = 'Un canario que ladra si está triste'
+slice = text[____:____]
+print(slice)
+</code></pre>
+</blockquote>
+<p>Los problemas de Parsons <span i="problema de Parsons"></span> también evitan el problema de la &quot;pantalla blanca del terror&quot;
+a la vez que permite que los/las estudiantes se concentren en el flujo de control por separado del vocabulario
+[<a href="../bibliography/#Pars2006">Pars2006</a>, <a href="../bibliography/#Eric2015">Eric2015</a>, <a href="../bibliography/#Morr2016">Morr2016</a>, <a href="../bibliography/#Eric2017">Eric2017</a>].</p>
+<p>Existen herramientas para construir y hacer problemas de Parsons en línea [<a href="../bibliography/#Ihan2011">Ihan2011</a>],
+pero pueden ser emuladas (aunque un poco torpemente)
+pidiendo a los/las estudiantes que reorganicen las líneas de código en un editor de texto.</p>
+<blockquote>
+<h3>Problemas de Parsons</h3>
+<p>Reorganiza e indenta estas líneas para obtener la suma de los valores positivos de una lista.
+(También deberás agregar dos &quot;dos puntos&quot; en los lugares apropiados)</p>
+<pre><code class="language-text">total = 0
+if v &gt; 0
+total += v
+for v in valores
+</code></pre>
+</blockquote>
+<p>Ten en cuenta que dar a los/las estudiantes más líneas de las que necesitan,
+o pedirles que reordenen algunas líneas y añadan algunas más,
+hace que los problemas de Parsons sean significativamente más difíciles [<a href="../bibliography/#Harm2016">Harm2016</a>].</p>
+<h2 id="exercises-tracing">Seguir</h2>
+<p><em>Seguir la ejecución</em> es la inversa de un problema de Parsons:
+dadas unas pocas líneas de código,
+los/las estudiantes tienen que rastrear el orden en que se ejecutan esas líneas.</p>
+<p>Esta es una habilidad esencial de depuración <span i="depuración"></span>
+y una buena manera de consolidar la comprensión de los/las estudiantes de los bucles,
+los condicionales y el orden de evaluación de las llamadas a funciones y métodos.</p>
+<p>La forma más fácil de implementarlo es hacer que los/las estudiantes escriban una secuencia de pasos etiquetados.
+Hacer que elijan la secuencia correcta de un conjunto
+(es decir, presentarla como una pregunta de opción múltiple)
+añade carga cognitiva sin añadir valor,
+ya que tienen que hacer todo el trabajo de averiguar la secuencia correcta y luego buscarla en la lista de opciones.</p>
+<blockquote>
+<h3>Seguir el orden de ejecución</h3>
+<p>¿En qué orden se ejecutan las líneas etiquetadas en este bloque de código?</p>
+<pre><code class="language-text">A)     vals = [-1, 0, 1]
+B)     suma_inversa = 0
+       try:
+           for v in vals:
+C)             suma_inversa += 1/v
+       except:
+D)         pass
+</code></pre>
+</blockquote>
+<p><em>Seguir los valores</em> es similar a seguir la ejecución,
+pero en lugar de deletrear el orden en que se ejecuta el código,
+el/la estudiante enumera los valores que una o más variables toman
+a medida que se ejecuta el programa.</p>
+<p>Una forma de implementar esto es dar a cada estudiante una tabla
+cuyas columnas estén etiquetadas con nombres de variables
+y cuyas filas estén etiquetadas con números de línea,
+y pedirles que completen los valores que las variables toman en dichas líneas.</p>
+<blockquote>
+<h3>Seguir los valores</h3>
+<p>¿Qué valores toman <code>izquierda</code> y <code>derecha</code> a medida que este programa se ejecuta?</p>
+<pre><code class="language-text">A) izquierda = 23
+B) derecha = 6
+C) while derecha:
+D)     izquierda, derecha = derecha, izquierda % derecha
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Número de línea</th>
+<th><code>izquierda</code></th>
+<th><code>derecha</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>___</code></td>
+<td><code>___</code></td>
+<td><code>___</code></td>
+</tr>
+<tr>
+<td><code>___</code></td>
+<td><code>___</code></td>
+<td><code>___</code></td>
+</tr>
+<tr>
+<td><code>___</code></td>
+<td><code>___</code></td>
+<td><code>___</code></td>
+</tr>
+<tr>
+<td><code>___</code></td>
+<td><code>___</code></td>
+<td><code>___</code></td>
+</tr>
+<tr>
+<td><code>___</code></td>
+<td><code>___</code></td>
+<td><code>___</code></td>
+</tr>
+<tr>
+<td><code>___</code></td>
+<td><code>___</code></td>
+<td><code>___</code></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<p>También puedes requerir que  los/las estudiantes rastreen el código hacia atrás
+para averiguar cuál debe haber sido la entrada para que el código produzca
+un resultado determinado [<a href="../bibliography/#Armo2008">Armo2008</a>].</p>
+<p>Estos problemas de  <em>ejecución inversa</em> requieren razonamientos de búsqueda y deducción,
+y cuando la salida es un mensaje de error,
+contribuyen a que los/las estudiantes desarrollen habilidades valiosas de depuración.</p>
+<blockquote>
+<h3>Ejecución inversa</h3>
+<p>Rellena el número faltante en <code>valores</code>
+que causó que esta función se interrumpiera.</p>
+<pre><code class="language-text">valores = [ [1.0, -0.5], [3.0, 1.5], [2.5, ___] ]
+corridaTotal = 0.0
+for (lectura, escalada) in valores:
+    corridaTotal += lectura / escalada
+</code></pre>
+</blockquote>
+<p>Los ejercicios de <em>ajuste mínimo</em> también ayudan a desarrollar habilidades de depuración.</p>
+<p>Dadas unas pocas líneas de código que contienen un error, el/la estudiante deben encontrarlo y hacer un pequeño cambio para arreglarlo.</p>
+<p>El cambio puede hacerse usando <em>programar y ejecutar</em>,
+mientras que la identificación se puede hacer como una pregunta de opción múltiple.</p>
+<blockquote>
+<h3>Ajuste mínimo</h3>
+<p>Esta función se supone que prueba
+si un número se encuentra dentro de un rango.
+Realiza un pequeño cambio para que la función realmente lo haga.</p>
+<pre><code class="language-text">def inside(punto, mas_bajo, mas_alto):
+    if (punto &lt;= mas_bajo):
+        return false
+    elif (punto &lt;= mas_alto):
+        return false
+    else:
+        return true
+</code></pre>
+</blockquote>
+<p>Los ejercicios de <em>tema y variación</em> son similares,
+pero se le pide al estudiante que haga una pequeña alteración que cambie la salida de alguna manera específica
+en lugar de realizar un cambio para corregir un error.
+Los cambios permitidos pueden incluir cambiar el valor inicial de una variable,
+reemplazar una llamada a una función por otra,
+intercambiar bucles internos y externos,
+o cambiar el orden de las pruebas en un condicional complejo.</p>
+<p>De nuevo,
+este tipo de ejercicio da a los/las estudiantes la oportunidad de practicar una habilidad útil para el mundo real:
+la forma más rápida de producir el código que necesitan
+es ajustando un código que ya hace algo parecido.</p>
+<blockquote>
+<h3>Tema y variaciones</h3>
+<p>Cambia el bucle interno de la siguiente
+función para que llene el triángulo superior izquierdo de una imagen
+con un color especificado.</p>
+<pre><code class="language-text">function llenarTriangulo(imagen, color) is
+    for x := 1 to imagen.width do
+        for y := 1 to imagen.height do
+            imagen[x, y] = color
+        end
+    end
+end
+</code></pre>
+</blockquote>
+<p>Los <em>ejercicios de modificación</em> son el complemento de los ejercicios temáticos y de variación:
+dado un fragmento de código que funciona, el/la estudiante tiene que modificarlo de alguna manera sin cambiar la salida.</p>
+<p>Por ejemplo,
+el/la estudiante puede reemplazar los bucles con expresiones vectorizadas
+o simplificar la condición en un bucle <em>while</em>.</p>
+<p>Esta es también una habilidad útil para la vida real,
+pero a menudo hay tantas formas de modificar el código
+que la calificación requiere inspección humana.</p>
+<blockquote>
+<h3>Refactorizar</h3>
+<p>Escribir una sola compresión de lista que tenga el mismo efecto que este bucle.</p>
+<pre><code class="language-text">resultado = []
+for v in valores:
+    if len(v) &gt; rango:
+        resultado.append(v)
+</code></pre>
+</blockquote>
+<h2 id="exercises-diagrams">Diagramas</h2>
+<p>Hacer que los estudiantes dibujen mapas conceptuales y otros diagramas brinda
+una idea de cómo están pensando (<a class="secref" href="../memory/#memory-concept-maps">Section&nbsp;3.2</a>),
+pero los diagramas de forma libre requieren que una persona los evalúe
+(no pueden ser calificados automáticamente), por lo que consumen mucho tiempo.</p>
+<p><em>Etiquetar los diagramas</em>,
+por otra parte,
+es casi tan potente pedagógicamente
+pero mucho más fácil de escalar.
+En lugar de hacer que tus estudiantes creen diagramas desde cero,
+puedes entregarles un diagrama y un conjunto de etiquetas y hacer que coloquen las etiquetas en los lugares correctos.
+El diagrama puede ser una estructura de datos (&quot;después de ejecutar este código,
+¿qué variables apuntan a qué partes de esta estructura?&quot;),
+un gráfico (&quot;une con flechas cada uno de estos fragmentos de código con la parte del gráfico generado&quot;),
+o el propio código (&quot;haz coincidir cada término con un ejemplo de ese mismo elemento en el programa&quot;).</p>
+<blockquote>
+<h3>Etiquetado de un diagrama</h3>
+<p>La <a class="figref" href="#f:exercises-labeling">Figure&nbsp;12.1</a> muestra
+cómo un fragmento pequeño de <em>HTML</em> se representa en memoria.
+Coloca las etiquetas 1--9 sobre los elementos del árbol
+para mostrar el orden en el que se alcanzan en un recorrido en profundidad.</p>
+</blockquote>
+<figure id="f:exercises-labeling">
+  <img src="labeling.svg" alt="Figure&nbsp;12.1: Etiquetado de un diagrama"/>
+  <figcaption>Figure&nbsp;12.1: Etiquetado de un diagrama</figcaption>
+</figure>
+<p>Otra forma de usar diagramas es dar a tus estudiantes las partes del diagrama y pedirles que las organicen correctamente.</p>
+<p>Este es un equivalente visual a un problema de Parsons,
+y para ayudar con el etiquetado puedes proporcionar más o menos del esqueleto,
+de acuerdo a la dificultad para la que crees que están preparados/as.</p>
+<p>Tengo buenas memorias de tratar de colocar resistencias y capacitores en un diagrama de circuito
+con el fin de obtener el voltaje correcto en un punto determinado,
+y he visto docentes que les dan a sus estudiantes un conjunto definido de bloques de Scratch <span i="Scratch"></span>
+y les piden que creen un diseño particular usando solo esos bloques.</p>
+<p>Los <em>problemas de correspondencia</em> pueden pensarse como un caso especial de etiquetado
+en el que el &quot;diagrama&quot; es una columna de texto
+y las etiquetas se toman de la otra columna.</p>
+<p>En la <em>correspondencia uno-a-uno</em> se le da a cada estudiante dos listas de igual longitud y se le pide
+que asocie los elementos correspondientes,
+p.ej. &quot;asocia cada fragmento de código con la salida que produce&quot;.</p>
+<blockquote>
+<h3>Correspondencia</h3>
+<p>Asocia cada operador de expresión regular en la <a class="figref" href="#f:exercises-matching">Figure&nbsp;12.2</a>
+con lo que hace.</p>
+</blockquote>
+<figure id="f:exercises-matching">
+  <img src="matching.svg" alt="Figure&nbsp;12.2: Unir los ítems"/>
+  <figcaption>Figure&nbsp;12.2: Unir los ítems</figcaption>
+</figure>
+<p>Con la <em>correspondencia de muchos a muchos</em> las listas no tienen la misma longitud,
+por lo que algunos elementos pueden asociarse con varios
+y otros pueden no ser emparejados en absoluto.</p>
+<p>Las correspondencias muchos-a-muchos son más difíciles
+porque los/las estudiantes no pueden hacer los apareamientos fáciles primero para reducir su espacio de búsqueda.</p>
+<p>Los problemas de correspondencia pueden ser implementados en exámenes autocorregibles haciendo que los/las estudiantes/as envíen listas de ítems apareados
+(como &quot;A3, B1, C2&quot;),
+pero eso es burdo y propenso a errores.</p>
+<p>Hacer que reconozcan un conjunto de pares correctos en preguntas de opción múltiple es aún peor,
+ya que es muy fácil de malinterpretar, lamentablemente.</p>
+<p>Dibujar o arrastrar funciona mucho mejor,
+pero requiere más trabajo para implementarlo.</p>
+<p><em>Ranking</em> es un caso especial de emparejamiento
+que es (ligeramente) más fácil de responder a través de listas,
+ya que nuestras mentes son bastante buenas en la detección de errores o anomalías en las secuencias.
+Los criterios de ranking determinan el nivel de razonamiento requerido.</p>
+<p>Si haces que tus estudiantes ordenen los algoritmos del más rápido al más lento, probablemente estés ejercitando la memoria
+(es decir, pidiéndoles que reconozcan los nombres de los algoritmos y que sepan sus propiedades),
+mientras que al pedirles que ordenen las soluciones de las más robustas a las más frágiles, ejercitas su razonamiento y juicio.</p>
+<p><em>Resumir</em> también requiere que los/las estudiantes utilicen un pensamiento de orden superior
+y les da la oportunidad de practicar una habilidad que es muy útil para informar sobre errores.
+Por ejemplo,
+les puedes preguntar a tus estudiantes:
+&quot;¿Qué frase describe mejor cómo cambia la salida de f a medida que x varía de 0 a 10?&quot;
+y luego darles varias opciones como una pregunta de opción múltiple.</p>
+<p>También puedes pedir respuestas muy cortas de formato libre a preguntas en dominios restringidos,
+como por ejemplo, &quot;¿Cuál es la característica clave para que un algoritmo de ordenamiento sea estable?”
+No podemos automatizar completamente la comprobación de las respuestas sin generar un número frustrante de falsos positivos
+(aceptando respuestas incorrectas)
+y falsos negativos (rechazando las correctas),
+pero las preguntas de este tipo se prestan bien a la clasificación por pares
+(<a class="secref" href="../individual/#individual-peer">Section&nbsp;5.3</a>).</p>
+<h2 id="exercises-grading">Calificación automática</h2>
+<p><span i="calificación automática"></span></p>
+<p>Las herramientas automáticas de corrección de evaluaciones han existido desde antes que yo naciera:
+la primera mención publicada data de 1960 y las encuestas publicadas por [<a href="../bibliography/#Douc2005">Douc2005</a>, <a href="../bibliography/#Ihan2010">Ihan2010</a>]
+mencionan muchas herramientas específicas por su nombre.</p>
+<p>Construir este tipo de herramientas es mucho más complejo de lo que podría parecer a primera vista.</p>
+<p>¿Cómo se representan las tareas?</p>
+<p>¿Cómo se realiza un seguimiento y se informan los envíos?</p>
+<p>¿Pueden los/las estudiantes trabajar cooperativamente?</p>
+<p>¿Cómo se pueden ejecutar los envíos de forma segura?</p>
+<p>[<a href="../bibliography/#Edwa2014a">Edwa2014a</a>] es un artículo dedicado por completo a un esquema adaptativo
+para detectar y gestionar bucles infinitos de los envíos de código, y este es solo uno de las muchos problemas que surgen.</p>
+<p>Cuando se habla de autocalificadores,
+es importante diferenciar la satisfacción de los/las estudiantes de los resultados del aprendizaje.
+Por ejemplo,
+[<a href="../bibliography/#Magu2018">Magu2018</a>] sustituyó los laboratorios informales de programación
+para un curso de Ciencias de la Computación de segundo año por una prueba semanal evaluada utilizando un calificador automático.
+A los/las estudiantes no les gustó el sistema automatizado,
+pero la tasa general de fracasos del curso se redujo a la mitad
+y se triplicó el número de estudiantes que obtuvieron calificaciones con honores.
+Por el contrario,
+[<a href="../bibliography/#Rubi2014">Rubi2014</a>] también comenzó a utilizar un autocalificador diseñado para competencias,
+pero no vio una disminución significativa en las tasas de deserción de sus estudiantes;
+una vez más,
+los/las estudiantes hicieron comentarios negativos sobre la herramienta,
+que los/las autores atribuyen a la calidad de los mensajes de retroalimentación más que a una aversión a la autocalificación.</p>
+<p>[<a href="../bibliography/#Srid2016">Srid2016</a>] adoptaron un enfoque diferente.
+Utilizaron <span g="fuzz-testing"><em>fuzz testing</em></span>
+(casos de prueba generados aleatoriamente)
+para comprobar si el código del estudiante realiza lo mismo que una implementación de referencia proporcionada por el/la docente.
+En el primer proyecto de un curso introductorio de 1400 estudiantes, el <em>fuzz testing</em> identificó errores que no habían sido detectados en un conjunto de casos de prueba escritos a mano para más del 48% de los/las estudiantes.</p>
+<p>[<a href="../bibliography/#Basu2015">Basu2015</a>] dio a sus estudiantes una serie de soluciones a casos de prueba,
+pero tenían que desbloquear cada caso respondiendo preguntas sobre su comportamiento esperado
+antes de que se les permitiera aplicarlo a la solución propuesta por ellos/as.</p>
+<p>Por ejemplo,
+supongamos que los/las estudiantes tenían que escribir una función para encontrar el mayor par de números adyacentes en una lista.
+Antes de que se les permitiera usar las pruebas de la pregunta, tenían que elegir la respuesta correcta a:
+&quot;¿Qué produce <code>parMasGrande(4, 3, -1, 5, 3, 3)</code>?&quot;.
+En un curso universitario de 1300 personas,
+la gran mayoría de los/las estudiantes optaron por validar su comprensión de los casos de prueba de esta manera
+antes de intentar resolver los problemas,
+y así hicieron menos preguntas y expresaron menos confusión acerca de las tareas.</p>
+<blockquote>
+<h3>En contra de las herramientas &quot;listas para usar&quot; disponibles en el mercado</h3>
+<p>Es tentador calificar el código de los/las estudiantes con herramientas de revisión de estilo disponibles y de acceso sencillo.
+Sin embargo,
+[<a href="../bibliography/#Nutb2016">Nutb2016</a>] inicialmente no encontraron correlación entre las calificaciones proporcionadas por personas
+y las violaciones a las reglas del corrector de estilo.
+A veces esto se debía a que los/las estudiantes violaban una regla muchas veces
+(perdiendo así más puntos de los que deberían haber perdido),
+pero otras veces se debía a que enviaban el código de inicio de tarea con pocas alteraciones
+y de esa manera obtenían más puntos de los que deberían haber obtenido.</p>
+<p>Incluso las herramientas construidas específicamente para enseñar pueden quedar por debajo de las necesidades de los/las docentes.
+[<a href="../bibliography/#Keun2016a">Keun2016a</a>, <a href="../bibliography/#Keun2016b">Keun2016b</a>] observaron los mensajes producidos por 69 herramientas de calificación automática.
+Encontraron que estas herramientas a menudo no dan retroalimentación sobre cómo solucionar problemas y dar el siguiente paso.
+También encontraron que la mayoría de los/las docentes no pueden adaptar fácilmente la mayoría de las herramientas a sus necesidades:
+como muchas herramientas de flujo de trabajo,
+tienden a hacer cumplir los supuestos no reconocidos de sus creadores sobre cómo funcionan las instituciones.
+Tu esquema de clasificación es una buena lista de requisitos para chequear cuando se examinan herramientas de este tipo.</p>
+</blockquote>
+<p>[<a href="../bibliography/#Buff2015">Buff2015</a>] presenta una reflexión bien documentada sobre la idea de proporcionar una retroalimentación automatizada.
+Su punto de partida es que,
+&quot;Los sistemas de calificación automatizados ayudan a los/las estudiantes a identificar errores en su código,
+[pero] pueden inadvertidamente disuadir a los/las estudiantes de pensar críticamente y probar a fondo y, en cambio,
+fomentan dependencia con las pruebas del docente&quot;.
+Una de las cuestiones clave que identificaron es que un/una estudiante puede probar a fondo su código, pero es posible que la característica aún no se implemente de acuerdo con las especificaciones del docente.
+En este caso,
+el &quot;fallo&quot; no es causado por la falta de pruebas sino por un malentendido de los requisitos, y es poco probable que más pruebas expongan el problema.</p>
+<p>Si el sistema de calificación automática no proporciona una retroalimentación que brinde una mejor comprensión y aplicación de los conocimientos, esta experiencia sólo frustrará al estudiante.
+Con el fin de proporcionar esa retroalimentación,
+el sistema de [<a href="../bibliography/#Buff2015">Buff2015</a>] identifica qué métodos en el código del estudiante se ejecutan mediante pruebas fallidas
+para que el sistema pueda asociar pruebas fallidas con características particulares de lo que envió el/la estudiante.
+El sistema decide si se han &quot;ganado&quot; ayudas específicas viendo si el/la estudiante ha probado la característica asociada lo suficiente, para evitar que los/las estudiantes se apoyen en las ayudas en vez de realizar las pruebas.
+En [<a href="../bibliography/#Srid2016">Srid2016</a>] se describen otros enfoques para compartir la retroalimentación con los/las estudiantes
+cuando se prueba automáticamente su código.
+Lo primero es proporcionar la salida esperada para las pruebas---pero
+luego los/las estudiantes generan la salida conocida incrustando el dato directamente en el código fuente del programa <sup>Esta práctica se conoce como <em>hardcodear</em></sup> y dejandola fija para esas entradas
+(porque todo lo que pueda manipularse se hará).</p>
+<p>Lo segundo es informar los resultados de la aprobación o rechazo del código de los/las estudiantes,
+pero suministrando las entradas y salidas reales de las pruebas solo después de la fecha de envío.
+Sin embargo,
+es frustante decirles a los/las estudiantes que se han equivocado pero no decirles por qué.
+Una tercera opción es utilizar una técnica llamada <span g="hashing"><em>hashing</em></span>
+para generar un valor que depende de la salida pero sin revelarla.</p>
+<p>Si el/la usuario/a produce exactamente el resultado correcto
+entonces su <em>hash</em> desbloqueará la solución,
+pero es imposible hacer el camino inverso a partir del <em>hash</em> para averiguar cuál se supone que es la salida.</p>
+<p>El <em>hashing</em> requiere más trabajo y explicación para configurarlo,
+pero logra un buen balance entre revelar respuestas prematuramente  y no revelarlas cuando podría ser de ayuda.</p>
+<h2 id="exercises-higher">Razonamientos de alto nivel</h2>
+<p>Muchos tipos de ejercicios de programación son difíciles de evaluar por los/las docentes en una clase con más de un puñado de estudiantes y son igualmente difíciles de evaluar mediante plataformas automatizadas.
+Las clases van desarrollándose con vistas a proyectos de programación mayores (si todo va bien),
+pero la única manera de dar retroalimentación es caso por caso.
+La <em>revisión de código</em> también es, en general, difícil de calificar automáticamente,
+pero puede ser abordada si se proporciona a los/las estudiantes una lista de fallos a buscar y se les pide que comparen comentarios con líneas de código concretas.</p>
+<p>Por ejemplo,
+se le puede decir a un/a estudiante que hay dos errores de indentación y un nombre de variable incorrecto y se le puede pedir que los señale.</p>
+<p>Si son estudiantes/as más avanzados/as, se les podría dar media docena de tipos de comentarios que podrían hacerse sobre el código sin que se les diga cuántos de cada tipo deberían encontrar.</p>
+<p>[<a href="../bibliography/#Steg2016b">Steg2016b</a>] es un buen punto de partida para una rúbrica de estilo de código, mientras que [<a href="../bibliography/#Luxt2009">Luxt2009</a>] muestra la revisión por pares en las clases de programación de manera más general.</p>
+<p>Si se pide a los/las estudiantes que hagan revisiones,
+hay que usar la revisión por pares calibrada (<a class="secref" href="../individual/#individual-peer">Section&nbsp;5.3</a>)<span i="revisión por pares calibrada"></span>
+para que tengan modelos de cómo debería ser una buena retroalimentación.</p>
+<blockquote>
+<h3>Revisión de código</h3>
+<p>Marca los problemas en cada línea de código usando la rúbrica proporcionada.</p>
+<pre><code class="language-text">01)  def addem(f):
+02)      x1 = open(f).readlines()
+03)      x2 = [x for x in x1 if x.strip()]
+04)      changes = 0
+05)      for v in x2:
+06)          print('total', total)
+07)          tot = tot + int(v)
+08)      print('total')
+</code></pre>
+<ol>
+<li>nombre de la variable incorrecto</li>
+<li>uso de variable indefinida</li>
+<li>falta el valor de salida</li>
+<li>variable no usada</li>
+</ol>
+</blockquote>
+<h2 id="exercises-exercises">Ejercicios</h2>
+<h3 class="exercise">Programar y ejecutar (parejas/10’)</h3>
+<p>Crea un ejercicio corto de <em>programa y ejecuta</em>,
+luego intercambia con tu pareja
+y analiza cuánto tiempo les toma a cada uno de ustedes entender y hacer el ejercicio del otro/a.</p>
+<p>¿Hubo alguna ambigüedad o malentendido en la descripción del ejercicio?</p>
+<h3 class="exercise">Invertir el código y la ejecución (grupos pequeños/15’)</h3>
+<p>Forma grupos de 4 a 6 personas.
+Haz que cada integrante del grupo cree un ejercicio de <em>programar y ejecutar</em> invertido: el ejercicio debe requerir que las personas averigüen qué entrada produce una salida en particular.
+Elige dos ejercicios al azar
+y mira cuántas entradas diferentes que satisfagan los requisitos puede encontrar el grupo.</p>
+<h3 class="exercise">Siguiendo valores (parejas/10’)</h3>
+<p>Escribe un programa corto (10-15 líneas),
+intercambia con tu pareja y
+sigue cómo las variables del programa cambian de valor con el tiempo.
+¿Qué diferencias hay en la forma en que tú y tu pareja escribieron sus seguimientos?</p>
+<h3 class="exercise">Refactorizar (grupos pequeños/15’)</h3>
+<p>La clase trabaja en grupos de 3-4 personas.</p>
+<p>En cada grupo, cada persona selecciona un fragmento corto de código (10--30 líneas de largo) que haya escrito y que no sea tan ordenado como podría ser.
+Luego, el/la docente elige un/a estudiante al azar por grupo: todas las personas de la clase ordenan su código independientemente.</p>
+<p>¿En qué se diferencian las versiones limpias?
+¿Qué tan bien o que tan mal podrían acomodarse todas estas variaciones si se calificara automáticamente, o en una clase grande?</p>
+<h3 class="exercise">Rotulando un diagrama (parejas/10’)</h3>
+<p>Dibuja un diagrama mostrando algo que se ha explicado recientemente: cómo los navegadores obtienen datos de los servidores, la relación entre los objetos y las clases,
+o cómo se indexan los dataframes en R.</p>
+<p>Pon las etiquetas en el lateral y pídele a tu pareja que las asigne a cada elemento del diagrama.</p>
+<h3 class="exercise">Acertijos de lápiz y papel (toda la clase/15’)</h3>
+<p>[<a href="../bibliography/#Butl2017">Butl2017</a>] describe un conjunto de rompecabezas de lápiz y papel que pueden convertirse en asignaciones de programación introductorias, señalando que estas tareas son disfrutadas por los/las estudiantes y que fomentan la metacognición.
+Piensa en un simple rompecabezas de lápiz y papel al que jugabas en tu niñez
+y describe cómo lo convertirías en un ejercicio de programación.</p>
+<h3 class="exercise">Contando fallos (parejas/15’)</h3>
+<p>Cualquier estimación útil de cuánto tiempo se necesita para resolver un ejercicio
+debe considerar cuán frecuentes son los fallos y cuánto tiempo se pierde con ellos.
+Por ejemplo,
+editar archivos de texto parece una tarea sencilla,
+pero ¿qué pasa con la búsqueda de esos archivos?
+La mayoría de los editores que usan interfase gráfica guardan archivos en el escritorio o en el directorio personal del usuario/a; si los archivos utilizados en un curso se almacenan en otro lugar, una proporción importante de los/las estudiantes no podrá navegar al directorio correcto sin ayuda.
+(Si esto te parece un problema menor, por favor vuelve a visitar la discusión del punto ciego de las personas expertas en el <a class="secref" href="../memory/#memory">Chapter&nbsp;3</a>.)</p>
+<p>Trabajando con tu pareja, haz una lista de las cosas &quot;simples&quot; que has notado que salen mal en los ejercicios que has usado o tomado.</p>
+<p>¿Con qué frecuencia aparecen?</p>
+<p>¿Cuánto tiempo tardan los estudiantes en arreglarse por su cuenta o con ayuda?</p>
+<p>¿Cuánto tiempo de clase asignas actualmente para lidiar con estos problemas?</p>
+<h3 class="exercise">Hablando de tiempo (individual/10’)</h3>
+<p>¿Qué tan precisas han sido las estimaciones de tiempo de los ejercicios de este libro hasta ahora?</p>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="teachtogether.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="models">Modelos mentales y evaluación formativa</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="models">Modelos mentales y evaluación formativa</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#models-formative-assessment">¿Están aprendiendo tus estudiantes?</a></li>
+<li><a href="#models-notional">Máquina nocional</a></li>
+<li><a href="#models-exercises">Ejercicios</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#plausible-distractor">Distractor pausible</a>, <a href="../glossary/#expertise-reversal-effect">Efecto inverso de la experiencia</a>, <a href="../glossary/#active-teaching">Enseñanza activa</a>, <a href="../glossary/#formative-assessment">Evaluación formativa</a>, <a href="../glossary/#summative-assessment">Evaluación sumativa</a>, <a href="../glossary/#expert">Expertos/as. Personas expertas</a>, <a href="../glossary/#concept-inventory">Inventario de conceptos</a>, <a href="../glossary/#manual">Manual.</a>, <a href="../glossary/#mental-model">Modelo mental</a>, <a href="../glossary/#notional-machine">Máquina nocional</a>, <a href="../glossary/#novice">Novata/o. Persona novata. Principiante</a>, <a href="../glossary/#computational-thinking">Pensamiento computacional</a>, <a href="../glossary/#diagnostic-power">Poder de diagnóstico</a>, <a href="../glossary/#competent-practitioner">Practicante competente. Personas competentes</a>, <a href="../glossary/#tutorial">Tutorial</a></p></div>
+
+      
+<p>\begin{reviewer}
+{Natalia Morandeira}
+{Ruth Chirinos y Alejandra Bellini}
+\end{reviewer}</p>
+<p>La primera tarea en la enseñanza es descifrar quiénes son tus estudiantes.
+Nuestra aproximación está basada en el trabajo de investigadores/as como Patricia Benner,<span i="Benner, Patricia"></span>
+quien estudió cómo las personas progresan de novatas a expertas en la carrera de enfermería  [<a href="../bibliography/#Benn2000">Benn2000</a>].
+Benner identificó cinco etapas de desarrollo cognitivo que la mayor parte de la gente atraviesa de forma bastante consistente.
+Para nuestros propósitos, simplificamos esta evolución en tres etapas:</p>
+<dl>
+<dt><span g="novice" i="persona novata">Personas novatas</span></dt>
+<dd>no saben qué es lo que no saben,
+es decir, aún no tienen un modelo mental utilizable del dominio del problema.</dd>
+<dt><span g="competent-practitioner" i="practicante competente">Practicantes competentes</span></dt>
+<dd>tienen un modelo mental que es adecuado para los propósitos diarios.
+Pueden llevar a cabo tareas normales con un esfuerzo normal bajo circunstancias normales
+y tienen algún entendimiento de los límites de su conocimiento
+(es decir, saben lo que no saben).</dd>
+<dt><span g="expert" i="persona experta">Personas expertas</span></dt>
+<dd>tienen modelos mentales que incluyen excepciones y casos especiales,
+los cuales les permiten manejar situaciones que están por fuera de lo ordinario.
+Discutiremos sobre la experiencia o pericia en más detalle en el <a class="secref" href="../memory/#memory">Chapter&nbsp;3</a>.</dd>
+</dl>
+<p>Entonces, ¿qué <em>es</em> un <span g="mental-model">modelo mental</span>?
+Como el nombre lo sugiere,
+es una representación simplificada de las partes más importantes de algún dominio del problema;
+que a pesar de ser simplificada es suficientemente buena para permitir la resolución del problema.
+Un ejemplo es el modelo molecular de bolas y varillas que se usa en las clases de química de la escuela.
+Los átomos no son en realidad bolas
+y las uniones atómicas no son en realidad varillas,
+pero el modelo permite a la gente razonar sobre los componentes químicos y sus reacciones.
+Un modelo más sofisticado de un átomo es aquel con una bola pequeña en el centro (el núcleo) rodeada de electrones orbitantes.
+También es incorrecto,
+pero la complejidad extra permite explicar más y resolver más problemas.
+(Como con el software,
+los modelos mentales nunca están finalizados:
+simplemente son utilizados.)</p>
+<p>Presentar a personas novatas un montón de hechos es contraproducente
+porque aún no tienen un modelo dónde ubicarlos.
+Incluso,
+apresurarse a presentar demasiados hechos puede reforzar
+el modelo mental incorrecto que han improvisado.
+Como observó  [<a href="../bibliography/#Mull2007a">Mull2007a</a>] en un estudio sobre video-instrucción para estudiantes de ciencia:</p>
+<blockquote>
+<p>Los/las estudiantes tienen ideas existentes acerca de… los fenómenos antes de ver un video.
+Si el video presenta… conceptos de una forma clara, bien ilustrada,
+los/las estudiantes creen que están aprendiendo, pero no se involucran con el video en un nivel suficientemente profundo
+como para darse cuenta de que lo que se les ha presentado difiere de sus conocimientos previos…
+Sin embargo, hay esperanza.
+Se ha demostrado que el aprendizaje aumenta al presentar en un video…
+los conceptos erróneos comunes de los/las estudiantes junto con los…
+conceptos a enseñar, ya que aumenta el esfuerzo mental que los/las estudiantes realizan mientras miran el video.</p>
+</blockquote>
+<p>Tu objetivo cuando enseñes a personas novatas debe ser, por lo tanto,
+ayudarlas a construir un modelo mental
+para que tengan algún lugar en el que ordenar los hechos.
+Por ejemplo,
+<span i="The Carpentries"></span>
+<a href="https://swcarpentry.github.io/shell-novice-es/">la lección sobre la consola Unix</a> de Software Carpentry (carpinteros/as de software, en español)
+introduce quince comandos en tres horas.
+Eso sería un comando cada doce minutos,
+lo que parece muy lento hasta que te das cuenta de que
+el propósito real de la lección no es enseñar esos quince comandos:
+es enseñar las rutas de acceso,
+la historia de comandos,
+el autocompletado con el tabulador,
+los comodines,
+los <em>pipes</em>
+los argumentos de la línea de comando
+y las redirecciones.
+Los comandos específicos no tienen sentido hasta que las personas novatas entienden estos conceptos;
+una vez que lo hacen,
+pueden empezar a leer manuales,
+pueden buscar las palabras claves correctas en la web,
+y pueden decidir si los resultados de sus búsquedas son útiles o no.</p>
+<p>Las diferencias cognitivas entre personas novatas y practicantes competentes
+apuntalan las diferencias entre dos tipos de materiales educativos.
+Un <span g="tutorial">tutorial</span> ayuda a construir un modelo mental a quienes recién llegan a un determinado campo;
+un <span g="manual">manual</span>,
+por otro lado,
+ayuda a practicantes competentes a llenar los baches de su conocimiento.
+Los tutoriales frustran a los/las practicantes competentes porque avanzan demasiado lento
+y dicen cosas que son obvias
+(aunque no son <em>para nada</em> obvias para personas novatas).
+De la misma manera,
+los manuales frustran a las personas novatas porque usan jergas y <em>no</em> explican las cosas.
+Este fenómeno se llama el <span g="expertise-reversal-effect">efecto inverso de la experiencia</span> [<a href="../bibliography/#Kaly2003">Kaly2003</a>],
+y es una de las razones por las que tienes que decidir tempranamente para quiénes son tus lecciones.</p>
+<blockquote>
+<h3>Un puñado de excepciones</h3>
+<p>Una de las razones por las que Unix y C se hicieron populares es que
+[<a href="../bibliography/#Kern1978">Kern1978</a>, <a href="../bibliography/#Kern1983">Kern1983</a>, <a href="../bibliography/#Kern1988">Kern1988</a>]
+de alguna manera consiguieron tener buenos tutoriales <em>y</em> buenos manuales al mismo tiempo.
+[<a href="../bibliography/#Fehi2008">Fehi2008</a>] y  [<a href="../bibliography/#Ray2014">Ray2014</a>] están entre los otros pocos libros de computación que consiguieron esto;
+incluso luego de releerlos varias veces, no sé cómo lo lograron.</p>
+</blockquote>
+<h2 id="models-formative-assessment">¿Están aprendiendo tus estudiantes?</h2>
+<p>Mark Twain escribió: <span i="Twain, Mark"></span>
+&quot;No es lo que no sabes lo que te mete en problemas.
+Es lo que tienes seguridad de saber y simplemente no es así.&quot;
+Uno de los ejercicios al construir un modelo mental es, por lo tanto,
+despejar las cosas que <em>no</em> pertenecen al modelo.
+En sentido amplio,
+los conceptos erróneos de las personas novatas caen en tres categorías:</p>
+<dl>
+<dt>Errores fácticos</dt>
+<dd>como creer que Río de Janeiro es la capital de Brasil (es Brasilia).
+Estos errores generalmente son fáciles de corregir.
+<span i="concepto erróneo!error fáctico"></span></dd>
+<dt>Modelos rotos</dt>
+<dd>como creer que el movimiento y la aceleración deben estar en la misma dirección.
+Podemos lidiar con estos errores haciendo que las personas novatas razonen a través de ejemplos
+en los que sus modelos den una respuesta incorrecta.
+<span i="concepto erróneo!modelo mental roto"></span></dd>
+<dt>Creencias fundamentales</dt>
+<dd>como por ejemplo &quot;el mundo solo tiene algunos miles de años de antigüedad&quot;
+o &quot;algunos tipos de personas son naturalmente mejores en programación que otros&quot; [<a href="../bibliography/#Guzd2015b">Guzd2015b</a>, <a href="../bibliography/#Pati2016">Pati2016</a>].
+Estos errores están generalmente conectados profundamente con la identidad social del estudiante,
+por lo que resisten a las evidencias y racionalizan las contradicciones.
+<span i="concepto erróneo!creencia fundamental"></span></dd>
+</dl>
+<p>La gente aprende más rápido cuando los/las docentes identifican y aclaran los conceptos erróneos de sus estudiantes mientras se está dando la lección.
+Esto se llama <span g="formative-assessment">evaluación formativa</span>
+porque forma (o le da forma a) la enseñanza mientras se está llevando a cabo.
+Los/las estudiantes no aprueban o reprueban una evaluación formativa.
+En cambio,
+la evaluación formativa da, tanto a quien enseña como a quien aprende, retroalimentación sobre qué tan bien les está yendo y en qué se deberían enfocar en los próximos pasos.
+Por ejemplo,
+un/una docente de música le puede pedir a un/una estudiante que toque una escala muy lentamente para chequear su respiración.
+Entonces, el/la estudiante averigua si la respiración es correcta, mientras que el/la docente recibe una devolución sobre si la explicación que acaba de dar fue comprendida.</p>
+<blockquote>
+<h3>En resumen</h3>
+<p>El contrapunto de la evaluación formativa
+es la <span g="summative-assessment">evaluación sumativa</span>,
+que tiene lugar al final de la lección.
+La evaluación sumativa es como un examen de conducir:
+le dice a quien está aprendiendo a conducir si ha dominado el tópico
+y a quien le está enseñando si su lección ha sido exitosa.
+Una forma de pensar la diferencia entre los dos tipos de evaluaciones es
+realizando una analogía con la cocina:
+quien prueba la comida mientras cocina está haciendo evaluaciones formativas,
+mientras quien es comensal y prueba la comida cuando se le sirve está haciendo una evaluación sumativa.
+Desafortunadamente,
+la escuela ha entrenado a la mayoría de la gente para creer que toda evaluación es sumativa,
+es decir, que si algo se siente como un examen,
+resolverlo pobremente le jugaría en contra.
+Hacer que las evaluaciones formativas se sientan informales reduce esta ansiedad;
+en mi experiencia,
+usar cuestionarios en línea, o donde deba hacerse click, o cualquier cosa semejante parece aumentar la ansiedad,
+ya que hoy en día la mayoría de la gente cree que todo lo que hace en internet está siendo mirado y grabado.</p>
+</blockquote>
+<p>Para ser útil durante la enseñanza,
+una evaluación formativa debe ser rápida de administrar
+(de manera que no rompa el flujo de la lección)
+y debe tener una respuesta correcta no ambigua
+(de manera que pueda ser usada en grupos).<span i="evaluación formativa!requisitos"></span>
+Probablemente, el tipo de evaluación formativa que más ampliamente se usa es
+la pregunta de opción múltiple.<span i="pregunta de opción múltiple"></span>
+Muchos/as docentes tienen una mala opinión sobre ellas,
+pero cuando las preguntas de opción múltiple están bien diseñadas
+pueden revelar mucho más si alguien sabe o no algunos hechos específicos.
+Por ejemplo,
+si estás enseñando a niños/as cómo hacer sumas de números con múltiples dígitos [<a href="../bibliography/#Ojos2015">Ojos2015</a>]
+y les das esta pregunta de opción múltiple:</p>
+<blockquote>
+<p>¿Cuánto es 37 + 15?</p>
+<ol>
+<li>52</li>
+<li>42</li>
+<li>412</li>
+<li>43</li>
+</ol>
+</blockquote>
+<p>La respuesta correcta es 52,
+pero las otras respuestas proporcionan información valiosa:</p>
+<ul>
+<li>
+<p>Si el/la niño/a elige 42,
+no entiende qué significa &quot;llevarse&quot; una unidad.
+(Podría escribir 12 como respuesta a 7+5,
+pero luego reemplazaría el 1 con el 4 que obtiene de la suma de 3+1.)</p>
+</li>
+<li>
+<p>Si elige 412,
+está tratando a cada columna de números como un problema separado.
+Esto sigue siendo incorrecto,
+pero es incorrecto por un motivo distinto.</p>
+</li>
+<li>
+<p>Si elige 43, entonces sabe que tiene que llevarse el 1,
+pero lo lleva de vuelta a la columna de la que viene.
+De nuevo,
+es un error distinto
+que requiere de una explicación clarificadora diferente por parte de quien enseña.</p>
+</li>
+</ul>
+<p>Cada una de estas respuestas incorrectas es un <span g="plausible-distractor">distractor plausible</span>
+con <span g="diagnostic-power">poder diagnóstico</span>.
+Un distractor es una respuesta incorrecta o peor que la mejor respuesta;
+&quot;plausible&quot; significa que parece que podría ser correcta,
+mientras que &quot;poder diagnóstico&quot; significa que cada uno de los distractores ayuda al/a la docente a darse cuenta de qué explicar a continuación a estudiantes puntuales.</p>
+<p>La variedad de respuestas a una evaluación formativa te guía cómo continuar.
+Si una cantidad suficiente de la clase tiene la respuesta correcta, avanzas.
+Si la mayoría de la clase elige la misma respuesta incorrecta,
+deberías retroceder y trabajar en corregir el concepto erróneo que ese distractor señala.
+Si las respuestas de la clase se dividen equitativamente entre varias opciones, probablemente están arriesgando, entonces deberías retroceder y re-explicar la idea de una manera distinta.
+(Repetir exactamente la misma explicación probablemente no será útil,
+lo cual es uno de los motivos por los que tantos cursos por video son pedagógicamente ineficientes.)</p>
+<p>¿Qué pasa si la mayoría de la clase vota por la respuesta correcta
+pero un grupo pequeño vota por las incorrectas?
+En ese caso,
+tienes que decidir si deberías destinar tiempo a que la minoría entienda
+o si es más importante mantener a la mayoría cautivada.
+No importa cuán duro trabajes o qué prácticas de enseñanza uses,
+no siempre vas a conseguir darle a todo tu curso lo que necesita;
+es tu responsabilidad como docente tomar la decisión.</p>
+<blockquote>
+<h3>¿De dónde vienen las respuestas incorrectas?</h3>
+<p>Para diseñar distractores plausibles,
+piensa en las preguntas que tus estudiantes hicieron o en los problemas que tuvieron la última vez que enseñaste esa temática.
+Si no la has enseñado antes,
+piensa en tus propios conceptos erróneos,
+pregúntale a colegas sobre sus experiencias
+o busca la historia de tu campo temático:
+si las demás personas han tenido los mismos malentendidos sobre la temática cincuenta años atrás,
+hay chances de que la mayoría de tus estudiantes aún malentiendan la temática de la misma forma al día de hoy.
+También puedes hacer preguntas abiertas en clase
+para recoger los conceptos erróneos sobre los temas que vas a abarcar en una clase posterior,
+o consultar sitios de preguntas y respuestas como <a href="http://www.quora.com">Quora</a>
+o <a href="https://stackoverflow.com/">Stack Overflow</a>
+para ver con qué se confunden quienes aprenden la temática en cualquier otro lugar.</p>
+</blockquote>
+<p>Desarrollar evaluaciones formativas mejora tus lecciones
+porque te fuerza a pensar en los modelos mentales de tus estudiantes.
+En mi experiencia,
+al pensar evaluaciones formativas automáticamente escribo la lección de forma de abarcar los baches y errores más probables.
+Las evaluaciones formativas, por lo tanto, dan buenos resultados incluso si no son utilizadas
+(aunque la enseñanza es más efectiva cuando sí se utilizan).</p>
+<p>Las preguntas de opción múltiple no son el único tipo de evaluación formativa:
+el <a class="secref" href="../exercises/#exercises">Chapter&nbsp;12</a> describe otros tipos de ejercicios que son rápidos y no son ambiguos.
+Cualquiera sea la evaluación que escojas,
+deberías hacer alguna que tome un minuto o dos cada 10--15 minutos
+de manera de asegurarte de que tus estudiantes están realmente aprendiendo.
+Este ritmo no está basado en un límite de atención intrínseco:  [<a href="../bibliography/#Wils2007">Wils2007</a>]
+encontró poca evidencia a favor de la afirmación usualmente repetida de que
+los/las estudiantes solo pueden prestar atención durante 10--15 minutos.
+En cambio,
+la guía asegura que, si un número significativo de personas se ha quedado atrás,
+solo tienes que repetir una pequeña porción de la lección.
+Las evaluaciones formativas frecuentes también mantienen el compromiso de tus estudiantes,
+particularmente si se involucran en una discusión en un grupo pequeño
+(<a class="secref" href="../classroom/#classroom-peer">Section&nbsp;9.2</a>).</p>
+<p>Las evaluaciones formativas también pueden ser usadas <em>antes</em> de las lecciones.
+Si comienzas una clase con una pregunta de opción múltiple y toda la clase la contesta correctamente,
+puedes evitar explicar algo que tus estudiantes ya saben.
+Este tipo de <span g="active-teaching">enseñanza activa</span>
+te da más tiempo para enfocarte en las cosas que tus estudiantes no saben.
+También le muestra a tus estudiantes que respetas su tiempo lo suficiente como para no desperdiciarlo,
+lo que ayuda a la motivación (<a class="secref" href="../motivation/#motivation">Chapter&nbsp;10</a>).</p>
+<blockquote>
+<h3>Inventario de conceptos</h3>
+<p>Con una cantidad de datos suficiente,
+las preguntas de opción múltiple pueden ser sorprendentemente precisas.
+El ejemplo más conocido es el
+<span g="concept-inventory" i="inventario de conceptos">inventario del concepto de fuerza</span> [<a href="../bibliography/#Hest1992">Hest1992</a>],
+que evalúa la comprensión sobre los mecanismos básicos newtonianos.
+Al entrevistar a un gran número de participantes,
+correlacionando sus conceptos erróneos con los patrones de respuestas correctas e incorrectas,
+así como mejorando las preguntas,
+los creadores de este inventario construyeron una herramienta de diagnóstico que permite identificar conceptos erróneos específicas.
+Las personas que investigan pueden utilizar dicha herramienta para medir el efecto de los cambios
+en los métodos de enseñanza  [<a href="../bibliography/#Hake1998">Hake1998</a>].
+Tew y colaboradores desarrollaron y validaron una evaluación independiente del lenguaje para programación introductoria
+[<a href="../bibliography/#Tew2011">Tew2011</a>];
+[<a href="../bibliography/#Park2016">Park2016</a>] la replicaron y [<a href="../bibliography/#Hamo2017">Hamo2017</a>] está desarrollando un inventario de conceptos sobre la recursividad.
+Sin embargo,
+es muy costoso construir herramientas de este tipo
+y su validez está cada vez más amenazada por la habilidad de los/las estudiantes para buscar respuestas en línea.</p>
+</blockquote>
+<p>Desarrollar evaluaciones formativas en una clase solo requiere un poco de preparación y práctica.
+Puedes darles a tus estudiantes tarjetas coloreadas o numeradas para que respondan una pregunta
+de opción múltiple simultáneamente (en lugar de que tengan que levantar sus manos en turnos),
+incluyendo como una de las opciones &quot;No tengo idea&quot;
+y alentando que hablen un par de segundos con sus pares más cercanos antes de responder.
+Todas estas prácticas te ayudarán a garantizar que el flujo de enseñanza no sea interrumpido.
+La <a class="secref" href="../classroom/#classroom-peer">Section&nbsp;9.2</a> describe un método de enseñanza poderoso y basado en evidencias,
+construido a partir de estas simples ideas.</p>
+<blockquote>
+<h3>Humor</h3>
+<p>Los/las docentes a veces incluyen respuestas supuestamente tontas en las
+preguntas de opción múltiple, como &quot;¡mi nariz!&quot;, particularmente en los cuestionarios destinados a estudiantes jóvenes.
+Sin embargo,
+estas respuestas no proveen ninguna idea sobre los conceptos erróneos de los/las estudiantes
+y la mayoría de la gente no las encuentran graciosas.
+Como regla,
+deberías solo incluir un chiste en una lección si lo encuentras gracioso la tercera vez que lo relees.</p>
+</blockquote>
+<p>Las evaluaciones formativas de una lección deberían preparar a los/las estudiantes para una evaluación sumativa:
+nadie debería encontrar nunca una pregunta en un examen para la cual la enseñanza no lo/la ha preparado.
+Esto no significa que nunca debes incluir nuevos tipos de problemas en un examen, pero, si lo haces,
+deberías haber ejercitado de antemano a tus estudiantes para abordar problemas nuevos.
+El <a class="secref" href="../process/#process">Chapter&nbsp;6</a> explora este punto en profundidad.</p>
+<h2 id="models-notional">Máquina nocional</h2>
+<p>El término <span g="computational-thinking">pensamiento computacional</span> está muy extendido,
+en parte porque la gente coincide en que es importante aún cuando con el mismo término se suele referir a cosas muy distintas.
+En vez de discutir qué incluye y qué no incluye el término,
+es más útil pensar en la <span g="notional-machine">máquina nocional</span>
+que quieres que tus estudiantes entiendan  [<a href="../bibliography/#DuBo1986">DuBo1986</a>].
+De acuerdo a  [<a href="../bibliography/#Sorv2013">Sorv2013</a>],
+una máquina nocional:</p>
+<ul>
+<li>
+<p>es una abstracción idealizada del <em>hardware</em> de computadora
+y de otros aspectos de los entornos de ejecución de los programas;</p>
+</li>
+<li>
+<p>permite describir la semántica de los programas;
+y</p>
+</li>
+<li>
+<p>refleja correctamente qué hacen los programas cuando son ejecutados.</p>
+</li>
+</ul>
+<p>Por ejemplo, mi máquina nocional para Python es:<span i="Python"></span></p>
+<ol>
+<li>
+<p>Ejecutar programas en el momento en la memoria,
+la cual se divide en la pila de llamadas y la cola de montículo (<em>heap</em> en inglés).</p>
+</li>
+<li>
+<p>La memoria para los datos siempre es asignada desde la cola del montículo.</p>
+</li>
+<li>
+<p>Cada conjunto de datos se almacena en una estructura de dos partes.
+La primera parte dice de qué tipo de datos se trata
+y la segunda parte es el valor real.</p>
+</li>
+<li>
+<p>Booleanos, números y caracteres de texto nunca son modificados una vez que se crean.</p>
+</li>
+<li>
+<p>Las listas, conjuntos y otras colecciones almacenan referencias a otros datos
+en lugar de almacenar estos valores directamente.
+Pueden ser modificados una vez que se crean,
+es decir, una lista puede ser ampliada o nuevos valores pueden ser agregados a un conjunto.</p>
+</li>
+<li>
+<p>Cuando un código se carga a la memoria,
+Python lo convierte a una secuencia de instrucciones
+que son almacenadas como cualquier otro tipo de dato.
+Este es el motivo por el que es posible asignar funciones a variables
+y luego pasarlas como parámetros.</p>
+</li>
+<li>
+<p>Cuando un código es ejecutado,
+Python sigue las instrucciones paso a paso,
+haciendo lo que cada instrucción le indica de a una por vez.</p>
+</li>
+<li>
+<p>Algunas instrucciones hacen que Python lea datos,
+haga cálculos
+y cree nuevos datos.
+Otras, controlan qué instrucciones va a ejecutar,
+como los bucles y condicionales; también hay instrucciones que
+le indican a Python que llame a una función.</p>
+</li>
+<li>
+<p>Cuando se llama a una función,
+Python coloca un nuevo marco de pila en la pila de llamadas.</p>
+</li>
+<li>
+<p>Cada marco de pila almacena los nombres de las variables y las referencias a los datos.
+Los parámetros de las funciones son simplemente otro tipo de variable.</p>
+</li>
+<li>
+<p>Cuando una variable es utilizada,
+Python la busca en el marco de la pila superior
+Si no la encuentra allí, busca en el último marco en la memoria global.</p>
+</li>
+<li>
+<p>Cuando la función finaliza,
+Python la borra del marco de la pila y vuelve
+a las instrucciones que estaba ejecutando antes de llamar a la función.
+Si no encuentra un &quot;antes,&quot;
+el programa ha finalizado.</p>
+</li>
+</ol>
+<p>Uso esta versión caricaturizada de la realidad siempre que enseño Python.
+Después de 25 horas de instrucción y 100 horas de trabajar por su cuenta,
+espero que la mayor parte del grupo tenga un modelo mental
+que incluya todas o la mayoría de estas características.</p>
+<h2 id="models-exercises">Ejercicios</h2>
+<h3 class="exercise">Tus modelos mentales (pensar-parejas-compartir/15')</h3>
+<p>¿Cuál es el modelo mental que usas para entender tu trabajo?
+Escribe unas pocas oraciones para describirlo y hazle una devolución a tu pareja sobre su modelo mental.
+Una vez que has hecho esto en pareja,
+algunas pocas personas de la clase compartirán sus modelos con el grupo completo.
+¿Está todo el grupo de acuerdo sobre qué es un modelo mental?
+¿Es posible dar una definición precisa?,
+¿o el concepto es útil justamente porque es difuso?</p>
+<h3 class="exercise">Síntomas de ser una persona novata (toda la clase/5')</h3>
+<p>Decir que las personas novatas no tienen un modelo mental de un dominio particular
+no es equivalente a decir que no tienen ningún modelo mental.
+Las personas novatas tienden a razonar por analogía y arriesgan conjeturas:
+toman prestado fragmentos y partes de modelos mentales de otros dominios que superficialmente parecen similares.</p>
+<p>La gente que hace esto generalmente dice cosas que <a href="https://es.wikipedia.org/wiki/Ni_siquiera_es_falso">ni siquiera son falsas</a>.
+Como clase,
+discutan qué otros síntomas tiene una persona novata.
+¿Qué dice o hace una persona para llevarte a clasificarla como novata en algún dominio?</p>
+<h3 class="exercise">Modelar modelos mentales de las personas novatas (parejas/20')</h3>
+<p>Crea una pregunta de opción múltiple relacionada a un tópico que has enseñado o pretendas enseñar
+y explica el poder diagnóstico de cada uno de sus distractores
+(es decir, qué concepto erróneo pretende ser identificado con cada distractor).</p>
+<p>Una vez que hayas finalizado, intercambia las preguntas de opción múltiple con tu pareja.
+¿Son sus preguntas ambiguas?
+¿Son los conceptos erróneos plausibles?
+¿Los distractores realmente evalúan esos conceptos erróneos?
+¿Hay otros posibles conceptos erróneos que <em>no</em> sean evaluados?</p>
+<h3 class="exercise">Pensar en las cosas (toda la clase/15')</h3>
+<p>Una buena evaluación formativa requiere que la gente piense profundamente en un problema.
+Por ejemplo,
+imagina que has colocado un bloque de hielo en un recipiente y luego llenas de agua este recìpiente, hasta el borde.
+Cuando el hielo se derrite, ¿el nivel de agua aumenta (de manera que el recipiente rebasa)?,
+¿el nivel de agua baja?, ¿o se mantiene igual (<a class="figref" href="#f:models-bathtub">Figure&nbsp;2.1</a>)?</p>
+<figure id="f:models-bathtub">
+  <img src="bathtub.svg" alt="Figure&nbsp;2.1: Hielo en un recipiente"/>
+  <figcaption>Figure&nbsp;2.1: Hielo en un recipiente</figcaption>
+</figure>
+<p>La solución correcta es que el nivel del recipiente permanece igual:
+el hielo desplaza a su propio peso en el agua,
+por lo que completa exactamente el &quot;agujero&quot; que ha dejado al derretirse.
+Para darse cuenta del porqué la gente construye un modelo de la relación entre el peso, el volumen y la densidad  [<a href="../bibliography/#Epst2002">Epst2002</a>].</p>
+<p>Describe otra evaluación formativa que conozcas o hayas utilizado,
+alguna que consideres que lleve a los/las estudiantes a pensar profundamente en algo,
+y por lo tanto ayude a identificar los defectos en sus razonamientos.</p>
+<p>Cuando hayas finalizado,
+explícale tu ejemplo a otra persona de tu grupo
+y dale una devolución sobre su ejemplo.</p>
+<h3 class="exercise">Una progresión diferente (individual/15')</h3>
+<p>El modelo de desarrollo de habilidades de persona novata-competente-experta
+es a veces llamado
+<a href="https://es.qwe.wiki/wiki/Dreyfus_model_of_skill_acquisition">modelo Dreyfus</a>.
+Otra progresión comúnmente utilizada es el modelo de las <a href="https://es.wikipedia.org/wiki/Cuatro_etapas_de_competencia">cuatro etapas de la competencia</a>:</p>
+<dl>
+<dt>Incompetencia inconsciente:</dt>
+<dd>la persona no sabe lo que no sabe.</dd>
+<dt>Incompetencia consciente:</dt>
+<dd>la persona se da cuenta de que no sabe algo.</dd>
+<dt>Competencia consciente:</dt>
+<dd>la persona ha aprendido cómo hacer algo,
+pero solo lo puede hacer mientras mantiene su concentración
+y quizás aún deba dividir la tarea en varios pasos.</dd>
+<dt>Competencia inconsciente:</dt>
+<dd>la habilidad se ha transformado en una segunda naturaleza
+y la persona puede realizarla reflexivamente.</dd>
+</dl>
+<p>Identifica una temática en la que te encuentres en cada uno de los niveles de desarrollo de habilidades.
+En la materia que enseñas, ¿en qué nivel están usualmente la mayoría de tus estudiantes?
+¿Qué nivel estás tratando que alcancen?
+¿Cómo se relacionan estas cuatro etapas con la clasificación persona novata-competente-experta?</p>
+<h3 class="exercise">¿Qué tipo de computación? (individual/10')</h3>
+<p>[<a href="../bibliography/#Tedr2008">Tedr2008</a>] resume tres tradiciones en computación:</p>
+<dl>
+<dt>Matemática:</dt>
+<dd>Los programas son la encarnación de los algoritmos.
+Son correctos o incorrectos, así como más o menos eficientes.</dd>
+<dt>Científica:</dt>
+<dd>Los programas son modelos de procesos de información más o menos adecuados
+que pueden ser estudiados usando el método científico.</dd>
+<dt>Ingenieril:</dt>
+<dd>Los programas son objetos que se construyen, tales como los diques y los aviones,
+y son más o menos efectivos y confiables.</dd>
+<dt>description</dt>
+<dd>¿Cuál de estas tradiciones coincide mejor con tu modelo mental de la computación?
+Si ninguna de ellas coincide, ¿qué modelo tienes?</dd>
+</dl>
+<h3 class="exercise">Explicar por qué no (parejas/5')</h3>
+<p>Una persona de tu curso piensa que hay algún tipo de diferencia entre el texto
+que tipea carácter por carácter y el texto idéntico que copia y pega.
+Piensa en una razón por la que tu estudiante puede creer esto
+o en algo que pueda haber sucedido para darle esa impresión.
+Luego, simula ser esa persona mientras tu pareja te explica por qué no es así.
+Intercambia roles con tu pareja y vuelve a probar.</p>
+<h3 class="exercise">Tu modelo ahora (toda la clase/5')</h3>
+<p>Como clase,
+creen una lista de elementos clave de tu modelo mental de enseñanza.
+¿Cuáles son los seis conceptos más importantes y cómo se relacionan?</p>
+<h3 class="exercise">Tus máquinas nocionales (grupos pequeños/20')</h3>
+<p>En grupos pequeños,
+escriban una descripción de la máquina nocional que quieren que sus estudiantes usen para entender cómo corren sus programas.
+¿En qué difiere una máquina nocional para un lenguaje basado en bloques como Scratch<span i="Scratch"></span>
+de la máquina nocional para Python?<span i="Python"></span>
+¿Y en qué difiere de una máquina nocional para hojas de cálculo o para un buscador que está interpretando
+HTML<sup>Sigla de HyperText Markup Language en inglés</sup>
+y CSS<sup>Sigla de Cascading Style Sheets en inglés</sup>
+cuando renderiza una página web?</p>
+<h3 class="exercise">Disfrutar sin aprender (individual/5')</h3>
+<p>Muchos estudios han mostrado que
+las evaluaciones de la enseñanza no se correlacionan con los resultados de la enseñanza  [<a href="../bibliography/#Star2014">Star2014</a>, <a href="../bibliography/#Uttl2017">Uttl2017</a>],
+es decir, cuán alto sea el puntaje del grupo de estudiantes en un curso no predice cuánto recuerdan.
+¿Alguna vez has disfrutado de una clase en la que en realidad no has aprendido nada?
+Si la respuesta es sí, ¿qué hizo que disfrutes esa clase?</p>
+<h2>Revisión</h2>
+<figure id="f:models-concept-map">
+  <img src="conceptmap-mental-models.svg" alt="Figure&nbsp;2.2: Conceptos: Modelos mentales"/>
+  <figcaption>Figure&nbsp;2.2: Conceptos: Modelos mentales</figcaption>
+</figure>
+<figure id="f:models-formative-assessment">
+  <img src="conceptmap-assessment.svg" alt="Figure&nbsp;2.3: Conceptos: Evaluación"/>
+  <figcaption>Figure&nbsp;2.3: Conceptos: Evaluación</figcaption>
+</figure>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

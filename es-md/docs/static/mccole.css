@@ -1,0 +1,199 @@
+/* Define style parameters */
+:root {
+    /* Colors */
+    --highlight-flash: #fae8f5;
+    --highlight-heavy:#D0D0D0;
+    --highlight-light: #F0F0F0;
+    --text-color: #202020;
+
+    /* Dimensions */
+    --indent: 1.0rem;
+    --indent-neg: -1.0rem;
+    --internal-padding: 0.5rem;
+    --large-font: 150%;
+    --line-spacing: 18pt;
+    --list-padding: 2rem;
+    --outline-thick: 5px;
+    --outline-thin: 2px;
+    --page-width: 60rem;
+    --text-size: 12pt;
+
+    /* Tables */
+    --table-border-width: 1px;
+}
+
+/* Overall appearance */
+body {
+    width: var(--page-width);
+    color: var(--text-color);
+    font: normal var(--text-size)/var(--line-spacing) "Georgia";
+    margin-left: var(--indent);
+}
+
+/* Bibliography */
+p.bib {
+    padding-left: var(--indent);
+    text-indent: var(--indent-neg);
+}
+span.bibkey {
+    font-weight: bold;
+}
+span.bibentry {
+}
+
+/* Blockquotes (callouts) */
+blockquote {
+    margin-left: 0px;
+    border-left: var(--indent) solid var(--highlight-heavy);
+    padding-left: var(--indent);
+}
+
+/* Centered block */
+div.centered {
+    text-align: center;
+}
+
+/* Code blocks */
+pre {
+    background-color: var(--highlight-light);
+    padding-left: var(--internal-padding);
+    padding-right: var(--internal-padding);
+    font-size: 90%;
+    border: var(--outline-thin) solid var(--highlight-heavy);
+}
+
+.language-out {
+    font-style: italic;
+}
+
+/* Announcements */
+div.announcement {
+    padding-top: var(--outline-thick);
+    padding-bottom: var(--outline-thick);
+    text-align: center;
+    font-size: var(--large-font);
+    background-color: var(--highlight-flash);
+}
+
+/* Figures */
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Footer */
+footer p {
+    font-size: var(--large-font);
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Images */
+img.icon {
+    height: 1em;
+}
+
+/* Glossary entries */
+span.glosskey {
+    font-weight: bold;
+}
+
+/* Glossary references */
+span[g] {
+    font-weight: bold;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+}
+
+h2.subtitle {
+    text-align: center;
+    font-style: italic;
+}
+
+blockquote h3::before {
+    content: "\2606 "; /* star */
+}
+
+h3.exercise::before {
+    content: "\270E "; /* pencil */
+}
+
+/* Home link */
+p.home {
+    font-style: italic;
+}
+
+/* Key terms */
+div.keyterms {
+    padding-left: var(--outline-thick);
+    background-color: var(--highlight-light);
+}
+
+div.keyterms p::before {
+    content: "Key terms: ";
+    font-weight: bold;
+}
+
+/* Ledes */
+div.lede {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: var(--list-padding);
+    list-style-position: outside;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    caption-side: bottom;
+    border: var(--table-border-width) solid var(--text-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align: left;
+    border: var(--table-border-width) solid var(--text-color);
+    padding-left: var(--internal-padding);
+    padding-right: var(--internal-padding);
+    background-color: var(--highlight-light);
+}
+
+td {
+    text-align: left;
+    border: var(--table-border-width) solid var(--text-color);
+    padding-left: var(--internal-padding);
+    padding-right: var(--internal-padding);
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: var(--highlight-light);
+}
+
+caption {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Table of contents */
+ol.toc {
+    padding-left: calc(var(--list-padding) - var(--outline-thick));
+    font-weight: bold;
+}
+
+td.toc-index {
+    text-align: right;
+}
+

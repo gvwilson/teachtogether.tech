@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="stjs.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="individual">Individual Learning</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="individual">Individual Learning</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#individual-strategies">Six Strategies</a></li>
+<li><a href="#individual-time">Time Management</a></li>
+<li><a href="#individual-peer">Peer Assessment</a></li>
+<li><a href="#individual-exercises">Exercises</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#g:active-learning">Active learning</a>, <a href="../glossary/#g:automaticity">Automaticity</a>, <a href="../glossary/#g:calibrated-peer-review">Calibrated peer review</a>, <a href="../glossary/#g:contributing-student">Contributing student pedagogy</a>, <a href="../glossary/#g:far-transfer">Far transfer</a>, <a href="../glossary/#g:flow">Flow</a>, <a href="../glossary/#g:guided-notes">Guided notes</a>, <a href="../glossary/#g:hypercorrection">Hypercorrection effect</a>, <a href="../glossary/#g:metacognition">Metacognition</a>, <a href="../glossary/#g:near-transfer">Near transfer</a>, <a href="../glossary/#g:passive-learning">Passive learning</a>, <a href="../glossary/#g:read-cover-retrieve">Read-cover-retrieve</a>, <a href="../glossary/#g:transfer-of-learning">Transfer of learning</a>, <a href="../glossary/#g:transfer-appropriate-processing">Transfer-appropriate processing</a></p></div>
+
+      
+<p>Previous chapters have explored what teachers can do to help learners.
+This chapter looks at what learners can do for themselves
+by changing their study strategies and getting enough rest.</p>
+<p>The most effective strategy is to switch from <span g="g:passive-learning">passive learning</span>
+to <span g="g:active-learning">active learning</span> [<a href="../bibliography/#Hpl2018">Hpl2018</a>],
+which significantly improves performance and reduces failure rates [<a href="../bibliography/#Free2014">Free2014</a>]:</p>
+<table>
+<thead>
+<tr>
+<th>Passive</th>
+<th>Active</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Read about something</td>
+<td>Do exercises</td>
+</tr>
+<tr>
+<td>Watch a video</td>
+<td>Discuss a topic</td>
+</tr>
+<tr>
+<td>Attend a lecture</td>
+<td>Try to explain</td>
+</tr>
+</tbody>
+</table>
+<p>Referring back to our simplified model of <span i="cognitive architecture">cognitive architecture</span>
+(<a class="figref" href="../architecture/#f:arch-model">Figure&nbsp;4.1</a>),
+active learning is more effective because it keeps new information in <span i="short-term memory">short-term memory</span> longer,
+which increases the odds that it will be encoded successfully and stored in <span i="long-term memory">long-term memory</span>.
+And by using new information as it arrives,
+learners build or strengthen ties between that information and what they already know,
+which in turn increases the chances that they will be able to retrieve it later.</p>
+<p>The other key to getting more out of learning is <span g="g:metacognition">metacognition</span>,
+or thinking about one's own thinking.
+Just as good musicians listen to their own playing
+and good teachers reflect on their teaching (<a class="secref" href="../performance/#performance">Chapter&nbsp;8</a>),
+learners will learn better and faster if they make plans,
+set goals,
+and monitor their progress.
+It's difficult for learners to master these skills in the abstract---just telling them
+to make plans doesn't have any effect---but
+lessons can be designed to encourage good study practices,
+and drawing attention to these practices in class
+helps learners realize that learning is a skill they can improve like any other [<a href="../bibliography/#McGu2015">McGu2015</a>, <a href="../bibliography/#Miya2018">Miya2018</a>].</p>
+<p>The big prize is <span g="g:transfer-of-learning">transfer of learning</span>,
+which occurs when one thing we have learned helps us learn other things more quickly.
+Researchers distinguish between <span g="g:near-transfer" i="transfer of learning!near transfer">near transfer</span>,
+which occurs between similar or related areas like fractions and decimals in mathematics,
+and <span g="g:far-transfer" i="transfer of learning!far transfer">far transfer</span>,
+which occurs between dissimilar domains---for example,
+the idea that learning to play chess will help mathematical reasoning or vice versa.</p>
+<p>Near transfer undoubtedly occurs---no kind of learning
+beyond simple memorization could occur if it didn't---and
+teachers leverage it all the time
+by giving learners exercises that are similar to material that has just been presented in a lesson.
+However,
+[<a href="../bibliography/#Sala2017">Sala2017</a>] analyzed many studies of far transfer
+and concluded that:</p>
+<blockquote>
+<p>…the results show small to moderate effects.
+However, the effect sizes are inversely related to the quality of the experimental design…
+We conclude that far transfer of learning rarely occurs.</p>
+</blockquote>
+<p>When far transfer does occur,
+it seems to happen only once a subject has been mastered [<a href="../bibliography/#Gick1987">Gick1987</a>].
+In practice,
+this means that learning to program won't help you play chess and vice versa.</p>
+<h2 id="individual-strategies">Six Strategies</h2>
+<p>Psychologists study learning in a wide variety of ways,
+but have reached similar conclusions about what actually works [<a href="../bibliography/#Mark2018">Mark2018</a>].
+The <a href="http://www.learningscientists.org/">Learning Scientists</a>
+have catalogued six of these strategies and
+summarized them in <a href="http://www.learningscientists.org/downloadable-materials">a set of downloadable posters</a>.
+Teaching these strategies to learners,
+and mentioning them by name when you use them in class,
+can help them learn how to learn faster and better [<a href="../bibliography/#Wein2018a">Wein2018a</a>, <a href="../bibliography/#Wein2018b">Wein2018b</a>].</p>
+<h3>Spaced Practice</h3>
+<p>Ten hours of study <span i="spaced practice (learning strategy);learning strategy!spaced practice">spread out</span> over five days
+is more effective than two five-hour days,
+and far better than one ten-hour day.
+You should therefore create a study schedule that spreads study activities over time:
+block off at least half an hour to study each topic each day
+rather than trying to cram everything in the night before an exam [<a href="../bibliography/#Kang2016">Kang2016</a>].</p>
+<p>You should also review material after each class,
+but not immediately after---take at least a half-hour break.
+When reviewing,
+be sure to include at least a little bit of older material:
+for example,
+spend twenty minutes looking over notes from that day's class
+and then five minutes each looking over material from the previous day
+and from a week before.
+Doing this also helps you catch any gaps or mistakes in previous sets of notes
+while there's still time to correct them or ask questions:
+it's painful to realize the night before the exam
+that you have no idea why you underlined &quot;Demodulate!!&quot; three times.</p>
+<p>When reviewing,
+make notes about things that you had forgotten:
+for example,
+make a flash card for each fact that you couldn't remember
+or that you remembered incorrectly [<a href="../bibliography/#Matt2019">Matt2019</a>].
+This will help you focus the next round of study on things that most need attention.</p>
+<blockquote>
+<h3>The Value of Lectures</h3>
+<p>According to [<a href="../bibliography/#Mill2016a">Mill2016a</a>],
+&quot;The lectures that predominate in face-to-face courses are relatively ineffective ways to teach,
+but they probably contribute to spacing material over time,
+because they unfold in a set schedule over time.
+In contrast,
+depending on how the courses are set up,
+online students can sometimes avoid exposure to material altogether until an assignment is nigh.&quot;</p>
+</blockquote>
+<h3>Retrieval Practice</h3>
+<p>The limiting factor for long-term memory is not retention (what is stored)
+but recall (what can be accessed).
+Recall of specific information
+improves with <span i="retrieval practice (learning strategy);learning strategy!retrieval practice">practice</span>,
+so outcomes in real situations can be improved
+by taking practice tests or summarizing the details of a topic from memory
+and then checking what was and wasn't remembered.
+For example,
+[<a href="../bibliography/#Karp2008">Karp2008</a>] found that repeated testing improved recall of word lists from 35% to 80%.</p>
+<p>Recall is better when practice uses activities similar to those used in testing.
+For example,
+writing personal journal entries helps with multiple-choice quizzes,
+but less than doing practice quizzes [<a href="../bibliography/#Mill2016a">Mill2016a</a>].
+This phenomenon is called
+<span g="g:transfer-appropriate-processing">transfer-appropriate processing</span>.</p>
+<p>One way to exercise retrieval skills is to solve problems twice.
+The first time,
+do it entirely from memory without notes or discussion with peers.
+After grading your own work against a rubric supplied by the teacher,
+solve the problem again using whatever resources you want.
+The difference between the two shows you how well you were able to retrieve and apply knowledge.</p>
+<p>Another method (mentioned above) is to create flash cards.
+Physical cards have a question or other prompt on one side and the answer on the other,
+and many flash card apps are available for phones.
+If you are studying as part of a group,
+swapping flash cards with a partner
+helps you discover important ideas that you may have missed or misunderstood.</p>
+<p><span g="g:read-cover-retrieve" i="read-cover-retrieve">Read-cover-retrieve</span>
+is a quick alternative to flash cards.
+As you read something,
+cover up key terms or sections with small sticky notes.
+When you are done,
+go through it a second time and see how well you can guess what's under each of those stickies.
+Whatever method you use,
+don't just practice recalling facts and definitions:
+make sure you also check your understanding of big ideas
+and the connections between them.
+Sketching a concept map and then comparing it to your notes
+or to a previously-drawn concept map
+is a quick way to do this.</p>
+<blockquote>
+<h3>Hypercorrection</h3>
+<p>One powerful finding in learning research is
+the <span g="g:hypercorrection">hypercorrection effect</span> [<a href="../bibliography/#Metc2016">Metc2016</a>].
+Most people don't like to be told they're wrong,
+so it would be reasonable to assume that
+the more confident someone is in the answer they've given on a test,
+the harder it is to change their mind if they were actually wrong.
+It turns out that the opposite is true:
+the more confident someone is that they were right,
+the more likely they are not to repeat the error if they are corrected.</p>
+</blockquote>
+<h3>Interleaving</h3>
+<p>One way you can space your practice is to <span i="interleaving (learning strategy);learning strategy!interleaving">interleave</span>
+study of different topics:
+instead of mastering one subject,
+then a second and third,
+shuffle study sessions.
+Even better,
+switch up the order:
+A-B-C-B-A-C is better than A-B-C-A-B-C,
+which in turn is better than A-A-B-B-C-C [<a href="../bibliography/#Rohr2015">Rohr2015</a>].
+This works because interleaving fosters creation of more links between different topics,
+which in turn improves recall.</p>
+<p>How long you should spend on each item
+depends on the subject and how well you know it.
+Somewhere between 10 and 30 minutes is long enough for you to get into
+a state of flow (<a class="secref" href="#individual-time">Section&nbsp;5.2</a>)
+but not for your mind to wander.
+Interleaving study will initially feel harder than focusing on one topic at a time,
+but that's a sign that it's working.
+If you are using flash cards or practice tests to gauge your progress,
+you should see improvement after only a couple of days.</p>
+<h3>Elaboration</h3>
+<p><span i="elaboration (learning strategy);learning strategy!elaboration">Explaining things to yourself</span> as you go through them
+helps you understand and remember them.
+One way to do this is to follow up each answer on a practice quiz
+with an explanation of why that answer is correct,
+or conversely with an explanation of why some other plausible answer isn't.
+Another is to tell yourself
+how a new idea is similar to or different from one you have seen previously.</p>
+<p>Talking to yourself may seem like an odd way to study,
+but [<a href="../bibliography/#Biel1995">Biel1995</a>] found that
+people trained in self-explanation outperformed those who hadn't been trained.
+Similarly,
+[<a href="../bibliography/#Chi1989">Chi1989</a>] found that some learners simply halt when they hit a step they don't understand
+when trying to solve problems.
+Others pause and generate an explanation of what's going on,
+and the latter group learns faster.
+An exercise to build this skill is to go through an example program line by line with a class,
+having a different person explain each line in turn
+and say why it is there and what it accomplishes.</p>
+<h3>Concrete Examples</h3>
+<p>One particularly useful form of elaboration is
+the use of <span i="concrete examples (learning strategy);learning strategy!concrete examples">concrete examples</span>.
+Whenever you have a statement of a general principle,
+try to provide one or more examples of its use,
+or conversely take each particular problem and list the general principles it embodies.
+[<a href="../bibliography/#Raws2014">Raws2014</a>] found that interleaving examples and definitions like this
+made it more likely that learners would remember the latter correctly.</p>
+<p>One structured way to do this is
+the <span i="ADEPT (lesson pattern);lesson pattern!ADEPT"><a href="https://betterexplained.com/articles/adept-method/">ADEPT method</a></span>:
+give an <strong>A</strong>nalogy,
+draw a <strong>D</strong>iagram,
+present an <strong>E</strong>xample,
+describe the idea in <strong>P</strong>lain language,
+and then give the <strong>T</strong>echnical details.
+Again,
+if you are studying with a partner or in a group,
+you can swap and check work:
+see if you agree that other people's examples actually embody the principle being discussed
+or which principles are used in an example that they haven't listed.</p>
+<p>Another useful technique is to <span i="teach by contrast (lesson pattern);lesson pattern!teach by contrast">teach by contrast</span>,
+i.e. to show learners what a solution is <em>not</em>
+or what kind of problem a technique <em>won't</em> solve.
+For example,
+when showing children how to simplify fractions,
+it's important to give them a few like 5/7 that can't be simplified
+so that they don't become frustrated looking for answers that don't exist.</p>
+<h3>Dual Coding</h3>
+<p>The last of the six core strategies
+that the <a href="http://www.learningscientists.org/">Learning Scientists</a> describe
+is to present <span i="dual coding (learning strategy);learning strategy!dual coding">words and images together</span>.
+As discussed in <a class="secref" href="../architecture/#architecture-brain">Section&nbsp;4.1</a>,
+different subsystems in our brains handle and store linguistic and visual information,
+so if complementary information is presented through both channels,
+they can reinforce one another.
+However,
+learning is less effective when the same information is presented simultaneously in two different channels,
+because then the brain has to expend effort to check the channels against each other [<a href="../bibliography/#Maye2003">Maye2003</a>].</p>
+<p>One way to take advantage of dual coding is to draw or label timelines,
+maps, family trees,
+or whatever else seems appropriate to the material.
+(I am personally fond of pictures showing which functions call which others in a program.)
+Drawing a diagram <em>without</em> labels,
+then coming back later to label it,
+is excellent retrieval practice.</p>
+<h2 id="individual-time">Time Management</h2>
+<p>I used to brag about the hours I was working.
+Not in so many words,
+of course---I had <em>some</em> social skills---but
+I would show up for class around noon,
+unshaven and yawning,
+and casually mention to whoever would listen
+that I'd been up working until 6:00 a.m.</p>
+<p>Looking back,
+I can't remember who I was trying to impress.
+What I remember instead is
+how much of the work I did in those all-nighters I threw away once I'd had some sleep,
+and how much damage the stuff I didn't throw away did to my grades.</p>
+<p>My mistake was to confuse &quot;working&quot; with &quot;being productive.&quot;
+You can't produce software (or anything else) without doing some work,
+but you can easily do lots of work without producing anything of value.
+Convincing people of this can be hard,
+especially when they're in their teens or twenties,
+but it pays tremendous dividends.</p>
+<p>Scientific study of <span i="overwork">overwork</span> and <span i="sleep deprivation">sleep deprivation</span>
+goes back to at least the 1890s---see
+[<a href="../bibliography/#Robi2005">Robi2005</a>] for a short, readable summary.
+The most important results for learners are:</p>
+<ol>
+<li>
+<p>Working more than 8 hours a day for an extended period of time
+lowers your total productivity,
+not just your hourly productivity---i.e. you get less done in total (not just per hour)
+when you're in crunch mode.</p>
+</li>
+<li>
+<p>Working over 21 hours in a stretch increases the odds of you making a catastrophic error
+just as much as being legally drunk.</p>
+</li>
+<li>
+<p>Productivity varies over the course of the workday,
+with the greatest productivity occurring in the first 4 to 6 hours.
+After enough hours,
+productivity approaches zero;
+eventually it becomes negative.</p>
+</li>
+</ol>
+<p>These facts have been reproduced and verified for over a century,
+and the data behind them is as solid as the data linking smoking to lung cancer.
+The problem is that
+<em>people usually don't notice their abilities declining</em>.
+Like drunks who think they are still able to drive,
+people who are deprived of sleep don't realize that
+they are not finishing their sentences (or thoughts).
+Five 8-hour days per week has been proven to maximize long-term total output
+in every industry that has ever been studied;
+studying or programming are no different.</p>
+<p>But what about short bursts now and then,
+like pulling an all-nighter to meet a deadline?
+That has been studied too,
+and the results aren't pleasant.
+Your ability to think drops by 25% for each 24 hours you're awake.
+Put it another way,
+the average person's IQ is only 75 after one all-nighter,
+which puts them in the bottom 5% of the population.
+If you do two all-nighters in a row your effective IQ is 50,
+which is the level at which people are usually judged incapable of independent living.</p>
+<p>&quot;But---but---I have so many assignments to do!&quot; you say.
+&quot;And they're all due at once!
+I <em>have</em> to work extra hours to get them all done!&quot;
+No:
+people have to prioritize and focus in order to be productive,
+and in order to do that,
+they have to be taught how.
+One widely-used technique is to make a list of things that need to be done,
+sort them by priority,
+and then switch off email and other interruptions for 30--60 minutes
+and complete one of those tasks.
+If any task on a to-do list is more than an hour long,
+break it down into smaller pieces and prioritize those separately.</p>
+<p>The most important part of this is switching off interruptions.
+Despite what many people want to believe,
+human beings are not good at <span i="multi-tasking">multi-tasking</span>.
+What we can become good at is <span g="g:automaticity">automaticity</span>,
+which is the ability to do something routine in the background
+while doing something else [<a href="../bibliography/#Mill2016a">Mill2016a</a>].
+Most of us can talk while chopping onions,
+or drink coffee while reading;
+with practice,
+we can also take notes while listening,
+but we can't study effectively,
+program,
+or do other mentally challenging tasks while paying attention to something else---we
+only think we can.</p>
+<p>The point of organizing and preparing is
+to get into the most productive mental state possible.
+Psychologists call it <span g="g:flow">flow</span> [<a href="../bibliography/#Csik2008">Csik2008</a>];
+athletes call it &quot;being in the zone,&quot;
+and musicians talk about losing themselves in what they're playing.
+Whatever name you use,
+people produce much more per unit of time in this state than normal.
+The bad news is that
+it takes roughly 10 minutes to get back into a state of flow after an interruption,
+no matter how short the interruption was.
+This means that if you are interrupted half a dozen times per hour,
+you are <em>never</em> at your productive peak.</p>
+<blockquote>
+<h3>How Did He Know?</h3>
+<p>In his 1961 short story &quot;<a href="https://en.wikipedia.org/wiki/Harrison_Bergeron">Harrison Bergeron</a>,&quot;
+Kurt Vonnegut described a future in which everyone is forced to be equal.
+Good-looking people have to wear masks,
+athletic people have to wear weights---and intelligent people
+are forced to carry around radios that interrupt their thoughts at random intervals.</p>
+</blockquote>
+<h2 id="individual-peer">Peer Assessment</h2>
+<p>Asking people on a team to <span i="peer assessment">rate their peers</span> is a common practice in industry.
+[<a href="../bibliography/#Sond2012">Sond2012</a>] surveyed the literature on peer assessment,
+distinguishing between grading and reviewing.
+They found that peer assessment increased the amount, diversity, and timeliness of feedback,
+helped learners exercise higher-level thinking,
+encouraged reflective practice,
+and supported development of social skills.
+The concerns were predictable:
+validity and reliability,
+motivation and procrastination,
+trolls, collusion, and plagiarism.</p>
+<p>However,
+the evidence shows that these concerns aren't significant in most classes.
+For example,
+[<a href="../bibliography/#Kauf2000">Kauf2000</a>] compared confidential peer ratings and grades on several axes
+for two undergraduate engineering courses
+and found that self-rating and peer ratings statistically agreed,
+that collusion wasn't significant (i.e. people didn't just give all their peers high grades),
+that learners didn't inflate their self-ratings,
+and crucially,
+that ratings were not biased by gender or race.</p>
+<p>One way to implement peer assessment is <span g="g:contributing-student">contributing student pedagogy</span>,
+in which learners produce artifacts to contribute to others' learning.
+This can be developing a short lesson and sharing it with the class,
+adding to a question bank,
+or writing up notes from a particular lecture for in-class publication.
+For example,
+[<a href="../bibliography/#Fran2018">Fran2018</a>] found that learners who made short videos to teach concepts to their peers
+had a significant increase in their own learning
+compared to those who only studied the material or viewed the videos.
+I have found that asking learners to share one bug and its fix with the class every day
+helps their analytic abilities and reduces impostor syndrome.</p>
+<p>Another approach is <span g="g:calibrated-peer-review">calibrated peer review</span>,
+in which a learner reviews one or more examples using a rubric
+and compares their evaluation against the teacher's review of the same work [<a href="../bibliography/#Kulk2013">Kulk2013</a>].
+Once learners' evaluations are close enough to the teacher's,
+they start evaluating their peers' actual work.
+If several peers' assessments are combined,
+this can be as accurate as assessment by teachers [<a href="../bibliography/#Pare2008">Pare2008</a>].</p>
+<p>Like everything else,
+assessment is aided by rubrics.
+The evaluation form in <a class="secref" href="../checklists/#checklists-teameval">Section&nbsp;G.2</a> shows a sample to get you started.
+To use it,
+rank yourself and each of your teammates,
+then calculate and compare scores.
+Large disparities usually indicate a need for a longer conversation.</p>
+<h2 id="individual-exercises">Exercises</h2>
+<h3 class="exercise">Learning Strategies (individual/20)</h3>
+<ol>
+<li>
+<p>Which of the six learning strategies do you regularly use?
+Which ones do you not?</p>
+</li>
+<li>
+<p>Write down three general concepts that you want your learners to   master
+and give two specific examples of each
+(concrete examples practice).
+For each of those concepts,
+work backward from one of your examples to explain how the concept explains it
+(elaboration).</p>
+</li>
+</ol>
+<h3 class="exercise">Connecting Ideas (pairs/5)</h3>
+<p>This exercise is an example of using elaboration to improve retention.
+Pick a partner
+have each person independently choose an idea,
+then announce your ideas and try to find a four-link chain
+that leads from one to the other.
+For example,
+if the two ideas are &quot;Saskatchewan&quot; and &quot;statistics,&quot;
+the links might be:</p>
+<ul>
+<li>
+<p>Saskatchewan is a province of Canada;</p>
+</li>
+<li>
+<p>Canada is a country;</p>
+</li>
+<li>
+<p>countries have governments;</p>
+</li>
+<li>
+<p>governments use statistics to analyze public opinion.</p>
+</li>
+</ul>
+<h3 class="exercise">Convergent Evolution (pairs/15)</h3>
+<p>One practice that wasn't covered above is <span g="g:guided-notes">guided notes</span>,
+which are notes prepared by the teacher
+that cue learners to respond to key information in a lecture or discussion.
+The cues can be blank spaces where learners add information,
+asterisks next to terms learners should define,
+and so on.</p>
+<p>Create two to four guided note cards for a lesson you have recently taught
+or are going to teach.
+Swap cards with your partner:
+how easy is it to understand what is being asked for?
+How long would it take to fill in the prompts?
+How well does this work for programming examples?</p>
+<h3 class="exercise">Changing Minds (pairs/10)</h3>
+<p>[<a href="../bibliography/#Kirs2013">Kirs2013</a>] argues that myths about digital natives,
+learning styles,
+and self-educators are all reflections of the mistaken belief that
+learners know what is best for them,
+and cautions that we may be in a downward spiral
+in which every attempt by education researchers to rebut these myths
+confirms their opponents' belief that learning science is pseudo-science.
+Pick one thing you have learned about learning so far in this book
+that surprised you or contradicted something you previously believed
+and practice explaining it to a partner in 1--2 minutes.
+How convincing are you?</p>
+<h3 class="exercise">Flash Cards (individual/15)</h3>
+<p>Use sticky notes or anything else you have at hand
+to make up half a dozen flash cards
+for a topic you have recently taught or learned.
+Trade with a partner and see how long it takes each of you
+to achieve 100% perfect recall.
+Set the cards aside when you are done,
+then come back after half an hour and see what your recall rate is.</p>
+<h3 class="exercise">Using ADEPT (whole class/15)</h3>
+<p>Pick something you have recently taught or been taught
+and outline a short lesson that uses the five-step ADEPT method to introduce it.</p>
+<h3 class="exercise">The Cost of Multi-Tasking (pairs/10)</h3>
+<p><a href="http://www.learningscientists.org/blog/2017/7/28-1">The Learning Scientists blog</a>
+describes a simple experiment you can do with only a stopwatch
+to demonstrate the mental cost of multi-tasking.
+Working in pairs,
+measure how long it takes each person to do each of these three tasks:</p>
+<ol>
+<li>
+<p>Count from 1 to 26 twice.</p>
+</li>
+<li>
+<p>Recite the alphabet from A to Z twice.</p>
+</li>
+<li>
+<p>Interleave the numbers and letters,
+i.e. say, &quot;1, A, 2, B, …&quot;
+and so on.</p>
+</li>
+</ol>
+<p>Have each pair report their numbers.
+Without specific practice,
+the third task always takes significantly longer than either of the component tasks.</p>
+<h3 class="exercise">Myths in Computing Education (whole class/20)</h3>
+<p>[<a href="../bibliography/#Guzd2015b">Guzd2015b</a>] presents a list of the top ten mistaken beliefs about computing education,
+which includes:</p>
+<ol>
+<li>
+<p>The lack of women in Computer Science is just like all the other STEM fields.</p>
+</li>
+<li>
+<p>To get more women in CS, we need more female CS faculty.</p>
+</li>
+<li>
+<p>Student evaluations are the best way to evaluate teaching.</p>
+</li>
+<li>
+<p>Good teachers personalize education for students' learning styles.</p>
+</li>
+<li>
+<p>A good CS teacher should model good software development practice
+because their job is to produce excellent software engineers.</p>
+</li>
+<li>
+<p>Some people are just naturally better programmers than others.</p>
+</li>
+</ol>
+<p>Have everyone vote +1 (agree), -1 (disagree), or 0 (not sure) for each point,
+then read the full explanations in
+<a href="https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext">the original article</a>
+and vote again.
+Which ones did people change their minds on?
+Which ones do they still believe are true, and why?</p>
+<h3 class="exercise">Calibrated Peer Review (pairs/20)</h3>
+<ol>
+<li>
+<p>Create a 5--10 point rubric
+with entries like &quot;good variable names,&quot; &quot;no redundant code,&quot; and &quot;properly-nested control flow&quot;
+for grading the kind of programs you would like your learners to write.</p>
+</li>
+<li>
+<p>Choose or create a small program that contains 3--4 violations of these entries.</p>
+</li>
+<li>
+<p>Grade the program according to your rubric.</p>
+</li>
+<li>
+<p>Have a partner grade the same program with the same rubric.
+What do they accept that you did not?
+What do they critique that you did not?</p>
+</li>
+</ol>
+<h2>Review</h2>
+<figure id="f:individual-concept-map">
+  <img src="conceptmap-active-learning.svg" alt="Figure&nbsp;5.1: Concepts: Active learning"/>
+  <figcaption>Figure&nbsp;5.1: Concepts: Active learning</figcaption>
+</figure>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

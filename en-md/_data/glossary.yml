@@ -1,0 +1,1017 @@
+- key: "g:absolute-beginner"
+  en:
+    term: "Absolute beginner"
+    def: >
+      Someone who has never
+      encountered concepts or material before. The term is used in distinction to
+      [false beginner](#g:false-beginner).
+
+- key: "g:active-learning"
+  en:
+    term: "Active learning"
+    def: >
+      An approach to instruction in which
+      learners engage with material through discussion, problem solving, case studies,
+      and other activities that require them to reflect on and use new information in
+      real time.  See also [passive learning](#g:passive-learning).
+
+- key: "g:active-teaching"
+  en:
+    term: "Active teaching"
+    def: >
+      An approach to instruction in which the
+      teacher acts on new information acquired from learners while teaching (e.g. by
+      dynamically changing an example or rearranging the intended order of content).
+      See also [passive teaching](#g:passive-teaching).
+
+- key: "g:authentic-task"
+  en:
+    term: "Authentic task"
+    def: >
+      A task which contains important
+      elements of things that learners would do in real (non-classroom situations). To
+      be authentic, a task should require learners to construct their own answers
+      rather than choose between provided answers, and to work with the same tools and
+      data they would use in real life.
+
+- key: "g:automaticity"
+  en:
+    term: "Automaticity"
+    def: >
+      The ability to do a task without
+      concentrating on its low-level details.
+
+- key: "g:backward-design"
+  en:
+    term: "Backward design"
+    def: >
+      An instructional design method that
+      works backwards from a summative assessment to formative assessments and thence
+      to lesson content.
+
+- key: "g:behaviorism"
+  en:
+    term: "Behaviorism"
+    def: >
+      A theory of learning whose central principle
+      is stimulus and response, and whose goal is to explain behavior without recourse
+      to internal mental states or other unobservables. See
+      also [cognitivism](#g:cognitivism).
+
+- key: "g:blooms-taxonomy"
+  en:
+    term: "Bloom's Taxonomy"
+    def: >
+      A six-part hierarchical
+      classification of understanding whose levels are *knowledge*,
+      *comprehension*, *application*, *analysis*, *synthesis*, and
+      *evaluation* that has been widely adopted. See also
+      [Fink's Taxonomy](#g:finks-taxonomy).
+
+- key: "g:brand"
+  en:
+    term: "Brand"
+    def: >
+      The associations people have with a product's name or
+      identity.
+
+- key: "g:calibrated-peer-review"
+  en:
+    term: "Calibrated peer review"
+    def: >
+      Having learners
+      compare their reviews of sample work with a teacher's reviews before being
+      allowed to review their peers' work.
+
+- key: "g:chunking"
+  en:
+    term: "Chunking"
+    def: >
+      The act of grouping related concepts together so
+      that they can be stored and processed as a single unit.
+
+- key: "g:co-teaching"
+  en:
+    term: "Co-teaching"
+    def: >
+      Teaching with another teacher in the
+      classroom.
+
+- key: "g:cognitive-apprenticeship"
+  en:
+    term: "Cognitive apprenticeship"
+    def: >
+      A theory of
+      learning that emphasizes the process of a master passing on skills and insights
+      situationally to an apprentice.
+
+- key: "g:cognitive-load"
+  en:
+    term: "Cognitive load"
+    def: >
+      The mental effort needed to solve a problem.
+      Cognitive load theory divides this
+      into [intrinsic](#g:intrinsic-load),
+      [germane](#g:germane-load),
+      and [extraneous](#g:extraneous-load) load,
+      and holds that people learn fastest when germane and extraneous load are reduced.
+
+- key: "g:cognitivism"
+  en:
+    term: "Cognitivism"
+    def: >
+      A theory of learning that holds that mental
+      states and processes can and must be included in models of learning. See also
+      [behaviorism](#g:behaviorism).
+
+- key: "g:commons"
+  en:
+    term: "Commons"
+    def: >
+      something managed jointly by a community according
+      to rules they themselves have evolved and adopted.
+
+- key: "g:community-of-practice"
+  en:
+    term: "Community of practice"
+    def: >
+      A self-perpetuating group of people who share and develop a
+      craft such as knitters, musicians, or programmers. See also
+      [legitimate peripheral participation](#g:legitimate-peripheral-participation).
+
+- key: "g:community-representation"
+  en:
+    term: "Community representation"
+    def: >
+      Using cultural
+      capital to highlight learners' social identities, histories, and community
+      networks in learning activities.
+
+- key: "g:computational-integration"
+  en:
+    term: "Computational integration"
+    def: >
+      Using computing
+      to re-implement pre-existing cultural artifacts, e.g. creating variants of
+      traditional designs using computer drawing tools.
+
+- key: "g:competent-practitioner"
+  en:
+    term: "Competent practitioner"
+    def: >
+      Someone who can do
+      normal tasks with normal effort under normal circumstances.  See also
+      [novice](#g:novice) and [expert](#g:expert).
+
+- key: "g:computational-thinking"
+  en:
+    term: "Computational thinking"
+    def: >
+      Thinking about
+      problem-solving in ways inspired by programming (though the term is used in many
+      other ways).
+
+- key: "g:concept-inventory"
+  en:
+    term: "Concept inventory"
+    def: >
+      A test designed to determine
+      how well a learner understands a domain.  Unlike most instructor-authored tests,
+      concept inventories are based on extensive research and validation.
+
+- key: "g:concept-map"
+  en:
+    term: "Concept map"
+    def: >
+      A picture of a mental model in which
+      concepts are nodes in a graph and relationships are (labeled) arcs.
+
+- key: "g:connectivism"
+  en:
+    term: "Connectivism"
+    def: >
+      A theory of learning that holds that knowledge
+      is distributed, that learning is the process of navigating, growing, and pruning
+      connections, and which emphasizes the social aspects of learning made possible
+      by the internet.
+
+- key: "g:constructivism"
+  en:
+    term: "Constructivism"
+    def: >
+      A theory of learning that views
+      learners as actively constructing knowledge.
+
+- key: "g:content-knowledge"
+  en:
+    term: "Content knowledge"
+    def: >
+      A person's understanding of a
+      subject. See also
+      [general pedagogical knowledge](#g:general-pedagogical-knowledge)
+      and [pedagogical content knowledge](#g:pedagogical-content-knowledge).
+
+- key: "g:contributing-student"
+  en:
+    term: "Contributing student pedagogy"
+    def: >
+      Having learners
+      produce artifacts to contribute to others' learning.
+
+- key: "g:conversational-programmer"
+  en:
+    term: "Conversational programmer"
+    def: >
+      Someone who
+      needs to know enough about computing to have a meaningful conversation with a
+      programmer, but isn't going to program themselves.
+
+- key: "g:cs-unplugged"
+  en:
+    term: "CS Unplugged"
+    def: >
+      A style of teaching that introduces
+      computing concepts using non-programming examples and artifacts.
+
+- key: "g:cs0"
+  en:
+    term: "CS0"
+    def: >
+      An introductory college-level course on computing aimed at
+      non-majors with little or no prior experience of programming.
+
+- key: "g:cs1"
+  en:
+    term: "CS1"
+    def: >
+      An introductory college-level computer science course,
+      typically one semester long, that focuses on variables, loops, functions, and
+      other basic mechanics.
+
+- key: "g:cs2"
+  en:
+    term: "CS2"
+    def: >
+      A second college-level computer science course that
+      typically introduces basic data structures such as stacks, queues, and
+      dictionaries.
+
+- key: "g:deficit-model"
+  en:
+    term: "Deficit model"
+    def: >
+      The idea that some groups are
+      underrepresented in computing (or some other field) because their members lack
+      some attribute or quality.
+
+- key: "g:deliberate-practice"
+  en:
+    term: "Deliberate practice"
+    def: >
+      The act of observing
+      performance of a task while doing it in order to improve ability.
+
+- key: "g:demonstration-lesson"
+  en:
+    term: "Demonstration lesson"
+    def: >
+      A staged lesson in which
+      one teacher presents to actual learners while other teachers observe in order to
+      learn new teaching techniques.
+
+- key: "g:diagnostic-power"
+  en:
+    term: "Diagnostic power"
+    def: >
+      The degree to which a wrong answer
+      to a question or exercise tells the teacher what misconceptions a particular
+      learner has.
+
+- key: "g:direct-instruction"
+  en:
+    term: "Direct instruction"
+    def: >
+      A teaching method centered
+      around meticulous curriculum design delivered through prescribed script.
+
+- key: "g:dunning-kruger-effect"
+  en:
+    term: "Dunning-Kruger effect"
+    def: >
+      The tendency of people
+      who only know a little about a subject to incorrectly estimate their
+      understanding of it.
+
+- key: "g:educational-psychology"
+  en:
+    term: "Educational psychology"
+    def: >
+      The study of how
+      people learn. See also [instructional design](#g:instructional-design).
+
+- key: "g:ego-depletion"
+  en:
+    term: "Ego depletion"
+    def: >
+      The impairment of self control resulting
+      from prolonged or intensive use.  Recent work has failed to substantiate its
+      existence.
+
+- key: "g:elevator-pitch"
+  en:
+    term: "Elevator pitch"
+    def: >
+      A short description of an idea,
+      project, product, or person that can be delivered and understood in just a few
+      seconds.
+
+- key: "g:end-user-programmer"
+  en:
+    term: "End-user programmer"
+    def: >
+      Someone who does not
+      consider themselves a programmer, but who nevertheless writes and debugs
+      software, such as an artist creating complex macros for a drawing tool.
+
+- key: "g:end-user-teacher"
+  en:
+    term: "End-user teacher"
+    def: >
+      By analogy with
+      [end-user programmer](#g:end-user-programmer),
+      someone who is teaching frequently, but whose primary occupation is not
+      teaching, who has little or no background in pedagogy, and who may work outside
+      institutional classrooms.
+
+- key: "g:expert"
+  en:
+    term: "Expert"
+    def: >
+      Someone who can diagnose and handle unusual
+      situations, knows when the usual rules do not apply, and tends to recognize
+      solutions rather than reasoning to them. See
+      also [competent practitioner](#g:competent-practitioner)
+      and [novice](#g:novice).
+
+- key: "g:expert-blind-spot"
+  en:
+    term: "Expert blind spot"
+    def: >
+      The inability of experts to
+      empathize with novices who are encountering concepts or practices for the first
+      time.
+
+- key: "g:expertise-reversal"
+  en:
+    term: "Expertise reversal effect"
+    def: >
+      The way in which
+      instruction that is effective for novices becomes ineffective for competent
+      practitioners or experts.
+
+- key: "g:externalized-cognition"
+  en:
+    term: "Externalized cognition"
+    def: >
+      The use of graphical,
+      physical, or verbal aids to augment thinking.
+
+- key: "g:extraneous-load"
+  en:
+    term: "Extraneous load"
+    def: >
+      Any [cognitive load](#g:cognitive-load)
+      that distracts from learning.
+
+- key: "g:extrinsic-motivation"
+  en:
+    term: "Extrinsic motivation"
+    def: >
+      Being driven by external
+      rewards such as payment or fear of punishment. See
+      also [intrinsic motivation](#g:intrinsic-motivation).
+
+- key: "g:faded-example"
+  en:
+    term: "Faded example"
+    def: >
+      A series of examples in which a steadily
+      increasing number of key steps are blanked out. See
+      also [scaffolding](#g:scaffolding).
+
+- key: "g:false-beginner"
+  en:
+    term: "False beginner"
+    def: >
+      Someone who has studied a language
+      before but is learning it again. False beginners start at the same point as true
+      beginners (i.e. a pre-test will show the same proficiency) but can move much
+      more quickly.
+
+- key: "g:far-transfer"
+  en:
+    term: "Far transfer"
+    def: >
+      The [transfer of learning](#g:transfer-of-learning)
+      between widely-separated domains, e.g. improvement in math skills as a result
+      of playing chess.
+
+- key: "g:finks-taxonomy"
+  en:
+    term: "Fink's Taxonomy"
+    def: >
+      A six-part non-hierarchical
+      classification of understanding first proposed in <cite>Fink2013</cite> whose
+      categories are *foundational knowledge*, *application*,
+      *integration*, *human dimension*, *caring*, and *learning
+        how to learn*. See also [Bloom's Taxonomy](#g:blooms-taxonomy).
+
+- key: "g:fixed-mindset"
+  en:
+    term: "Fixed mindset"
+    def: >
+      The belief that an ability is innate,
+      and that failure is due to a lack of some necessary attribute. See also
+      [growth mindset](#g:growth-mindset).
+
+- key: "g:flipped-classroom"
+  en:
+    term: "Flipped classroom"
+    def: >
+      One in which learners watch
+      recorded lessons on their own time, while class time is used to work through
+      problem sets and answer questions.
+
+- key: "g:flow"
+  en:
+    term: "Flow"
+    def: >
+      The feeling of being fully immersed in an activity;
+      frequently associated with high productivity.
+
+- key: "g:fluid-representation"
+  en:
+    term: "Fluid representation"
+    def: >
+      The ability to move
+      quickly between different models of a problem.
+
+- key: "g:formative-assessment"
+  en:
+    term: "Formative assessment"
+    def: >
+      Assessment that takes
+      place during a lesson in order to give both the learner and the teacher
+      feedback on actual understanding. See
+      also [summative assessment](#g:summative-assessment).
+
+- key: "g:free-range-learner"
+  en:
+    term: "Free-range learner"
+    def: >
+      Someone learning outside an
+      institutional classroom with required homework and mandated curriculum. (Those
+      who use the term occasionally refer to learners in classrooms as
+      ``battery-farmed learners,'' but we don't because that would be rude.)
+
+- key: "g:fuzz-testing"
+  en:
+    term: "Fuzz testing"
+    def: >
+      A software testing technique based on
+      generating and submitting random data.
+
+- key: "g:general-pedagogical-knowledge"
+  en:
+    term: "General pedagogical knowledge"
+    def: >
+      A
+      person's understanding of the general principles of teaching. See also
+      [content knowledge](#g:content-knowledge)
+      and [pedagogical content knowledge](#g:pedagogical-content-knowledge).
+
+- key: "g:germane-load"
+  en:
+    term: "Germane load"
+    def: >
+      The [cognitive load](#g:cognitive-load)
+      required to link new information to old.
+
+- key: "g:governance-board"
+  en:
+    term: "Governance board"
+    def: >
+      A board whose primary responsibility is
+      to hire, monitor, and if need be, fire the director.
+
+- key: "g:growth-mindset"
+  en:
+    term: "Growth mindset"
+    def: >
+      The belief that ability comes with
+      practice. See also [fixed mindset](#g:fixed-mindset).
+
+- key: "g:guided-notes"
+  en:
+    term: "Guided notes"
+    def: >
+      Teacher-prepared notes that cue
+      learners to respond to key information in a lecture or discussion.
+
+- key: "g:hashing"
+  en:
+    term: "Hashing"
+    def: >
+      Generating a condensed pseudo-random digital key
+      from data; any specific input produces the same output, but different inputs are
+      highly likely to produce different outputs.
+
+- key: "g:hypercorrection"
+  en:
+    term: "Hypercorrection effect"
+    def: >
+      The more strongly someone
+      believed that their answer on a test was right, the more likely they are not to
+      repeat the error once they discover that in fact they were wrong.
+
+- key: "g:implementation-science"
+  en:
+    term: "Implementation science"
+    def: >
+      The study of how to
+      translate research findings to everyday clinical practice.
+
+- key: "g:impostor-syndrome"
+  en:
+    term: "Impostor syndrome"
+    def: >
+      A feeling of insecurity about
+      one's accomplishments that manifests as a fear of being exposed as a fraud.
+
+- key: "g:inclusivity"
+  en:
+    term: "Inclusivity"
+    def: >
+      Working actively to include people with
+      diverse backgrounds and needs.
+
+- key: "g:inquiry-based-learning"
+  en:
+    term: "Inquiry-based learning"
+    def: >
+      The practice of
+      allowing learners to ask their own questions, set their own goals, and find
+      their own path through a subject.
+
+- key: "g:instructional-design"
+  en:
+    term: "Instructional design"
+    def: >
+      The craft of creating and
+      evaluating specific lessons for specific audiences. See also
+      [educational psychology](#g:educational-psychology).
+
+- key: "g:intrinsic-load"
+  en:
+    term: "Intrinsic load"
+    def: >
+      The [cognitive load](#g:cognitive-load)
+      required to absorb new information.
+
+- key: "g:intrinsic-motivation"
+  en:
+    term: "Intrinsic motivation"
+    def: >
+      Being driven by enjoyment
+      of a task or the satisfaction of doing it for its own sake.  See also
+      [extrinsic motivation](#g:extrinsic-motivation).
+
+- key: "g:intuition"
+  en:
+    term: "Intuition"
+    def: >
+      The ability to understand something immediately,
+      without any apparent need for conscious reasoning.
+
+- key: "g:jugyokenkyu"
+  en:
+    term: "Jugyokenkyu"
+    def: >
+      Literally ``lesson study,'' a set of
+      practices that includes having teachers routinely observe one another and
+      discuss lessons to share knowledge and improve skills.
+
+- key: "g:learned-helplessness"
+  en:
+    term: "Learned helplessness"
+    def: >
+      A situation in which
+      people who are repeatedly subjected to negative feedback that they have no way
+      to escape learn not to even try to escape when they could.
+
+- key: "g:learner-persona"
+  en:
+    term: "Learner persona"
+    def: >
+      A brief description of a typical
+      target learner for a lesson that includes their general background, what they
+      already know, what they want to do, how the lesson will help them, and any
+      special needs they might have.
+
+- key: "g:lms"
+  en:
+    term: "Learning Management System"
+    def: >
+      (LMS): An application for tracking course
+      enrollment, exercise submissions, grades, and other bureaucratic aspects of
+      formal classroom learning.
+
+- key: "g:learning-objective"
+  en:
+    term: "Learning objective"
+    def: >
+      What a lesson is trying to
+      achieve.
+
+- key: "g:learning-outcome"
+  en:
+    term: "Learning outcome"
+    def: >
+      What a lesson actually achieves.
+
+- key: "g:legitimate-peripheral-participation"
+  en:
+    term: "Legitimate peripheral participation"
+    def: >
+      Newcomers' participation in simple, low-risk tasks that a
+      [community of practice](#g:community-of-practice) recognizes as valid contributions.
+
+- key: "g:live-coding"
+  en:
+    term: "Live coding"
+    def: >
+      The act of teaching programming by writing
+      software in front of learners as the lesson progresses.
+
+- key: "g:long-term-memory"
+  en:
+    term: "Long-term memory"
+    def: >
+      The part of memory that stores
+      information for long periods of time. Long-term memory is very large, but
+      slow. See also [short-term memory](#g:short-term-memory).
+
+- key: "g:manual"
+  en:
+    term: "Manual"
+    def: >
+      Reference material intended to help someone who
+      already understands a subject fill in (or remind themselves of) details.
+
+- key: "g:marketing"
+  en:
+    term: "Marketing"
+    def: >
+      The craft of seeing things from other people's
+      perspective, understanding their wants and needs, and finding ways to meet them
+
+- key: "g:mooc"
+  en:
+    term: "Massive Open Online Course"
+    def: >
+      (MOOC) An online course designed
+      for massive enrollment and asynchronous study, typically using recorded videos
+      and automated grading.
+
+- key: "g:mental-model"
+  en:
+    term: "Mental model"
+    def: >
+      A simplified representation of the key
+      elements and relationships of some problem domain that is good enough to support
+      problem solving.
+
+- key: "g:metacognition"
+  en:
+    term: "Metacognition"
+    def: >
+      Thinking about thinking.
+
+- key: "g:minimal-manual"
+  en:
+    term: "Minimal manual"
+    def: >
+      An approach to training that breaks
+      every task into single-page instructions that also explain how to diagnose and
+      correct common errors.
+
+- key: "g:minute-cards"
+  en:
+    term: "Minute cards"
+    def: >
+      A feedback technique in which learners
+      spend a minute writing one positive thing about a lesson (e.g. one thing
+      they've learned) and one negative thing (e.g. a question that still hasn't been
+      answered).
+
+- key: "g:near-transfer"
+  en:
+    term: "Near transfer"
+    def: >
+      [Transfer of learning](#g:transfer-of-learning)
+      between closely-related domains, e.g. improvement in understanding of decimals
+      as a result of doing exercises with fractions.
+
+- key: "g:notional-machine"
+  en:
+    term: "Notional machine"
+    def: >
+      A general, simplified model of how
+      a particular family of programs executes.
+
+- key: "g:novice"
+  en:
+    term: "Novice"
+    def: >
+      Someone who has not yet built a usable mental model of
+      a domain. See also [competent practitioner](#g:competent-practitioner)
+      and [expert](#g:expert).
+
+- key: "g:objects-first"
+  en:
+    term: "Objects first"
+    def: >
+      An approach to teaching programming in
+      which objects and classes are introduced early.
+
+- key: "g:pair-programming"
+  en:
+    term: "Pair programming"
+    def: >
+      A software development practice in
+      which two programmers share one computer. One programmer (the driver) does the
+      typing, while the other (the navigator) offers comments and suggestions in real
+      time. Pair programming is often used as a teaching practice in programming
+      classes.
+
+- key: "g:parsons-problem"
+  en:
+    term: "Parsons Problem"
+    def: >
+      An assessment technique developed by
+      Dale Parsons and others in which learners rearrange given material to construct
+      a correct answer to a question <cite>Pars2006</cite>.
+
+- key: "g:passive-learning"
+  en:
+    term: "Passive learning"
+    def: >
+      An approach to instruction in which
+      learners read, listen, or watch without immediately using new knowledge.
+      Passive learning is less effective than [active learning](#g:active-learning).
+
+- key: "g:passive-teaching"
+  en:
+    term: "Passive teaching"
+    def: >
+      An approach to instruction in which
+      the teacher does not adjust pace or examples, or otherwise act on feedback from
+      learners, during the lesson.  See also [active
+      teaching](#g:active-teaching).
+
+- key: "g:pedagogical-content-knowledge"
+  en:
+    term: "Pedagogical content knowledge"
+    def: >
+      (PCK)
+      The understanding of how to teach a particular subject, i.e. the best order in
+      which to introduce topics and what examples to use. See also
+      [content knowledge](#g:content-knowledge)
+      and [general pedagogical knowledge](#g:general-pedagogical-knowledge).
+
+- key: "g:peer-instruction"
+  en:
+    term: "Peer instruction"
+    def: >
+      A teaching method in which an
+      teacher poses a question and then learners commit to a first answer, discuss
+      answers with their peers, and commit to a (revised) answer.
+
+- key: "g:persistent-memory"
+  en:
+    term: "Persistent memory"
+    def: >
+      See [long-term memory](#g:long-term-memory).
+
+- key: "g:personalized-learning"
+  en:
+    term: "Personalized learning"
+    def: >
+      Automatically tailoring
+      lessons to meet the needs of individual learners.
+
+- key: "g:plausible-distractor"
+  en:
+    term: "Plausible distractor"
+    def: >
+      A wrong or less-than-best
+      answer to a multiple-choice question that looks like it could be right. See also
+      [diagnostic power](#g:diagnostic-power).
+
+- key: "g:positioning"
+  en:
+    term: "Positioning"
+    def: >
+      What sets one brand apart from other,
+      similar brands.
+
+- key: "g:preparatory-privilege"
+  en:
+    term: "Preparatory privilege"
+    def: >
+      The advantage of coming
+      from a background that provides more preparation for a particular learning task
+      than others.
+
+- key: "g:productive-failure"
+  en:
+    term: "Productive failure"
+    def: >
+      A situation in which learners
+      are deliberately given problems that can't be solved with the knowledge they
+      have and must go out and acquire new information in order to make progress.
+      See also [Zone of Proximal Development](#g:zpd).
+
+- key: "g:pull-request"
+  en:
+    term: "Pull request"
+    def: >
+      A set of proposed changes to a GitHub
+      repository that can be reviewed, updated, and eventually merged.
+
+- key: "g:read-cover-retrieve"
+  en:
+    term: "Read-cover-retrieve"
+    def: >
+      A study practice in which
+      the learner covers up key facts or terms during a first pass through material,
+      then checks their recall on a second pass.
+
+- key: "g:reflective-practice"
+  en:
+    term: "Reflective practice"
+    def: >
+      See [deliberate practice](#g:deliberate-practice).
+
+- key: "g:reusability-paradox"
+  en:
+    term: "Reusability Paradox"
+    def: >
+      Holds that the more reusable
+      part of a lesson is, the less pedagogically effective it is.
+
+- key: "g:scaffolding"
+  en:
+    term: "Scaffolding"
+    def: >
+      Extra material provided to early-stage
+      learners to help them solve problems.
+
+- key: "g:seo"
+  en:
+    term: "Search engine optimization"
+    def: >
+      Increasing the quantity and quality
+      of web site traffic by making pages more easily found by, or seem more important
+      to, search engines.
+
+- key: "g:service-board"
+  en:
+    term: "Service board"
+    def: >
+      A board whose members take on working roles
+      in the organization.
+
+- key: "g:short-term-memory"
+  en:
+    term: "Short-term memory"
+    def: >
+      The part of memory that briefly
+      stores information that can be directly accessed by consciousness.
+
+- key: "g:situated-learning"
+  en:
+    term: "Situated learning"
+    def: >
+      A model of learning that focuses
+      on people's transition from being newcomers to be accepted members of a
+      [community of practice](#g:community-of-practice).
+
+- key: "g:split-attention-effect"
+  en:
+    term: "Split-attention effect"
+    def: >
+      The decrease in
+      learning that occurs when learners must divide their attention between multiple
+      concurrent presentations of the same information (e.g. captions and a
+      voiceover).
+
+- key: "g:stereotype-threat"
+  en:
+    term: "Stereotype threat"
+    def: >
+      A situation in which people feel
+      that they are at risk of being held to stereotypes of their social group.
+
+- key: "g:subgoal-labeling"
+  en:
+    term: "Subgoal labeling"
+    def: >
+      Giving names to the steps in a
+      step-by-step description of a problem-solving process.
+
+- key: "g:summative-assessment"
+  en:
+    term: "Summative assessment"
+    def: >
+      Assessment that takes
+      place at the end of a lesson to tell whether the desired learning has taken
+      place.
+
+- key: "g:tangible-artifact"
+  en:
+    term: "Tangible artifact"
+    def: >
+      Something a learner can work on
+      whose state gives feedback about the learner's progress and helps the learner
+      diagnose mistakes.
+
+- key: "g:teaching-to-the-test"
+  en:
+    term: "Teaching to the test"
+    def: >
+      Any method of ``education''
+      that focuses on preparing students to pass standardized tests, rather than on
+      actual learning.
+
+- key: "g:test-driven-development"
+  en:
+    term: "Test-driven development"
+    def: >
+      A software
+      development practice in which programmers write tests first in order to give
+      themselves concrete goals and clarify their understanding of what ``done'' looks
+      like.
+
+- key: "g:think-pair-share"
+  en:
+    term: "Think-pair-share"
+    def: >
+      A collaboration method in which
+      each person thinks individually about a question or problem, then pairs with a
+      partner to pool ideas, and then have one person from each pair present to the
+      whole group.
+
+- key: "g:transfer-of-learning"
+  en:
+    term: "Transfer of learning"
+    def: >
+      Applying knowledge learned
+      in one context to problems in another context.  See also
+      [near transfer](#g:near-transfer) and [far transfer](#g:far-transfer).
+
+- key: "g:transfer-appropriate-processing"
+  en:
+    term: "Transfer-appropriate processing"
+    def: >
+      The
+      improvement in recall that occurs when practice uses activities similar to those
+      used in testing.
+
+- key: "g:tutorial"
+  en:
+    term: "Tutorial"
+    def: >
+      A lesson intended to help someone improve their
+      general understanding of a subject.
+
+- key: "g:twitch-coding"
+  en:
+    term: "Twitch coding"
+    def: >
+      Having a group of people decide moment
+      by moment or line by line what to add to a program next.
+
+- key: "g:working-memory"
+  en:
+    term: "Working memory"
+    def: >
+      see [short-term memory](#g:short-term-memory).
+
+- key: "g:zpd"
+  en:
+    term: "Zone of Proximal Development"
+    def: >
+      (ZPD) Includes the set of problems that
+      people cannot yet solve on their own but are able to solve with assistance from
+      a more experienced mentor.  See also [productive failure](#g:productive-failure).

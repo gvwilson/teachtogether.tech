@@ -1,0 +1,459 @@
+\chapter{Pericia y memoria}\label{s:memory}
+
+\begin{reviewer}
+{Mónica Alonso}
+{Natalia Morandeira y Silvia Canelón}
+\end{reviewer}
+
+\begin{quote}
+
+  La memoria es el remanente del pensamiento. \\
+  --- Daniel Willingham\index{Willingham, Daniel}, \emph{Por qué a las/los estudiantes no les gusta la escuela (Why Students Don't Like School)}
+
+\end{quote}
+
+El capítulo anterior explicaba las diferencias entre personas novatas y practicantes competentes.
+En este capítulo se aborda la pericia:
+qué es,
+cómo se puede adquirir,
+y cómo puede ser tanto perjudicial como de ayuda.
+Luego haremos una introducción sobre uno de los límites más importantes en el aprendizaje
+y analizaremos cómo dibujar nuestros modelos mentales nos puede ayudar a convertir el conocimiento en lecciones.
+
+Para empezar,
+¿a qué nos referimos cuando decimos que alguien es una persona experta?\index{persona experta}
+La respuesta habitual es que puede resolver problemas mucho más rápido que la persona que es ``simplemente competente'',
+o que puede reconocer y entender casos donde las reglas normales no se pueden aplicar.
+Es más, de alguna manera una persona experta hace que parezca que resolver ciertos problemas no requiere esfuerzo alguno:
+en muchos casos,
+parece saber la respuesta correcta de un vistazo~\cite{Parn2017}.
+
+Pericia es más que solo conocer más hechos:
+las/los practicantes competentes pueden memorizar una gran cantidad de trivialidades sin  mejorar notablemente sus desempeños.
+En cambio,
+imagina por un momento que almacenamos conocimiento como una red o grafo en el cual los hechos son nodos
+y las relaciones son arcos\footnote{Definitivamente nuestro cerebro \emph{no} trabaja de esta manera, pero es una metáfora útil.}.
+La diferencia clave entre personas expertas y practicantes competentes es que
+los modelos mentales de las personas expertas están mucho más densamente conectados, 
+es decir, es más probable que conozcan una conexión entre dos hechos cualesquiera.
+
+La metáfora del grafo explica por qué ayudar a tus estudiantes a hacer conexiones es tan importante como presentarles los hechos:
+sin esas conexiones
+la gente no puede recordar y usar aquello que sabe.
+Esta metáfora también explica varios aspectos observados del comportamiento experto:
+
+\begin{itemize}
+
+\item
+  Las personas expertas pueden saltar directamente de un problema a una solución
+  porque realmente existe una conexión directa entre ambas cuestiones en sus mentes.
+  Mientras una/un practicante competente debería razonar
+  $A{\rightarrow}B{\rightarrow}C{\rightarrow}D{\rightarrow}E$,
+  una persona experta puede ir de $A$ a $E$ en un único paso.
+  Esto lo llamamos \gref{g:intuition}{intuición}:
+  en vez de razonar su camino hacia una solución,
+  la persona experta reconoce una solución de la misma manera que reconocería una cara familiar.
+
+\item
+  Los grafos densamente conectados son también la base para la 
+  \gref{g:fluid-representation}{representación fluida} de las personas expertas,
+ es decir, sus habilidades para cambiar una y otra vez entre distintas formas de ver un problema~\cite{Petr2016}.
+  Por ejemplo,
+  tratando de resolver un problema en matemáticas,
+  una persona experta puede cambiar entre abordarlo de manera geométrica 
+  a representarlo como un conjunto de ecuaciones.
+
+\item
+  Esta metáfora también explica por qué las personas expertas son mejores en diagnósticos que las/los practicantes competentes:
+ mayor cantidad de conexiones entre hechos hace más fácil razonar hacia atrás, de síntomas a causas.
+  (Esta es la razón por la cual durante una entrevista de trabajo de desarrollo de software es 
+  preferible pedirle a las/los candidatas/os que depuren un programa a pedirles que programen: 
+  da una impresión más precisa de su habilidad.)
+
+\item
+  Finalmente,
+  las personas expertas están muchas veces tan familiarizadas con su tema que
+  no pueden imaginarse cómo es \emph{no} ver el mundo de esa manera.
+  Esto implica que muchas veces están menos capacitadas para enseñar un tema que aquellas personas con menos experiencia, 
+  pero que aún recuerdan cómo lo aprendieron.
+
+\end{itemize}
+
+El último de estos puntos se llama \gref{g:expert-blind-spot}{punto ciego de las personas expertas}.
+Como se definió originalmente en~\cite{Nath2003},
+es la tendencia de las personas expertas a organizar una explicación de acuerdo a los principios fundamentales del tema,
+en lugar de guiarse por aquello que ya conocen quienes están aprendiendo.
+Esto se puede superar con entrenamiento,
+pero es parte de la razón por la cual no hay correlación entre
+lo bien que investiga alguien en un área
+y lo bien que esa misma persona enseña la temática~\cite{Mars2002}.
+
+\begin{aside}{La letra S}
+ Las personas expertas a menudo caen en sus puntos ciegos usando la palabra ``solo,''
+  como en,
+  ``Oh, es fácil, solo enciendes una nueva máquina virtual
+  y luego solo instalas estos cuatro parches a Ubuntu
+  y luego solo reescribes todo tu programa en un lenguaje funcional puro.''
+  Como discutimos en el \chapref{s:motivation},
+  hacer esto indica que quien habla piensa que el problema es trivial
+  y por lo tanto la persona que lucha con el problema debe ser estúpida:
+  entonces, no tengas esta actitud.
+
+
+\end{aside}
+
+\seclbl{Mapas conceptuales}{s:memory-concept-maps}
+
+La herramienta que elegimos para representar el modelo mental de alguien es un \gref{g:concept-map}{mapa conceptual},
+en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas.
+Como ejemplos, la
+\figref{f:memory-seasons} muestra por qué la Tierra tiene estaciones (de \hreffoot{https://cmap.ihmc.us/}{IHMC}),
+y el \appref{s:conceptmaps} presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
+
+\figpdf{figures/seasons.pdf}{Mapa conceptual para estaciones}{f:memory-seasons}{las estaciones del año están determinadas por la cantidad de luz del sol y resultan en variaciones estacionales de temperatura. La cantidad de luz del sol está determinada por la duración del día (que es mas larga en verano y más corta en invierno) y la altura del sol sobre el horizonte (que es más alta en verano y más baja en invierno). La duración del día está determinada por la posición en órbita con una ligera desviación, que en la distancia tiene un efecto insignificante. Por esta posición en órbita, el eje apunta hacia o lejos del sol. La inclinación del eje en verano apunta hacia el sol.}
+
+Para mostrar cómo pueden ser usados los mapas conceptuales para enseñar programación,
+considera este bucle \texttt{for} en \emph{Python}:\index{Python}
+
+\begin{minted}{text}
+for letra in "abc":
+    print(letra)
+\end{minted}
+
+\noindent
+cuya salida es:
+
+\begin{minted}{text}
+a
+b
+c
+\end{minted}
+
+Las tres ``cosas'' claves en este bucle se muestran al principio de la \figref{f:memory-loop},
+pero son solo la mitad de la historia.
+La versión ampliada en la parte derecha de la figura muestra las relaciones entre esas cosas,
+las cuales son tan importantes para la comprensión como los conceptos en sí mismos.
+
+\figpdf{figures/for-loop.pdf}{Mapa conceptual para un bucle \texttt{for} }{f:memory-loop}{se presentan dos diagramas. El diagrama de la izquierda presenta una caja con el concepto "Variable del bucle" de la cual salen dos flechas, una apuntando a otra caja con el concepto "colección" y la otra a una tercera caja con la etiqueta "cuerpo del bucle". Esta última caja tiene una flecha que apunta a la caja "colección". El diagrama de la derecha repite el esquema de la izquierda pero las flechas tienen etiquetas. La lectura del diagrama queda como: la variable del bucle toma cada elemento de la colección y cambia en el cuerpo del bucle que corre una vez para cada elemento de la colección.}
+
+\newpage
+Los mapas conceptuales pueden ser usados de varias maneras:
+
+\begin{description}
+
+\item[Para ayudar a docentes a descubrir qué están tratando de enseñar.]
+  Un mapa conceptual separa el contenido del orden:
+  en nuestra experiencia,
+  las personas rara vez terminan enseñando las cosas en el orden en que las dibujaron por primera vez.
+
+\item[Para mejorar la comunicación entre quienes diseñan las lecciones]
+  Si dos docentes tienen ideas muy diferentes de aquello que están tratando de enseñar, 
+  es probable que arrastren a sus estudiantes en diferentes direcciones.
+  Dibujar y compartir mapas conceptuales puede ayudar a prevenirlo.
+  Y sí:
+  personas diferentes pueden tener mapas conceptuales diferentes para el mismo tema,
+  pero el mapeo conceptual hace explícitas estas diferencias.
+
+\item[Para mejorar la comunicación con estudiantes.]
+  Si bien es posible dar a tus estudiantes un mapa pre-dibujado al inicio de la lección para que puedan anotar,
+  es mejor dibujarlo parte por parte mientras se está enseñando,
+  para reforzar la relación entre lo que muestra el mapa y lo que tú dices.
+  Volveremos a esta idea en la \secref{s:architecture-brain}.
+
+\item[Para evaluación.]
+  Hacer que las/los estudiantes dibujen lo que creen que acaban de aprender
+  le muestra a quien enseña lo que se pasó por alto y lo que se comunicó mal.
+  Revisar los mapas conceptuales de estudiantes insume demasiado tiempo para utilizarlo como una evaluación formativa durante las clases,
+  pero es muy útil en clases semanales \emph{una vez que tus estudiantes están familiarizadas/os con la técnica}.
+  La calificación es necesaria porque
+  cualquier manera nueva de hacer algo, inicialmente enlentece a la gente---si quien está aprendiendo 
+  intenta encontrarle el sentido a la programación básica,
+  pedirle que se imagine cómo esquematizar sus pensamientos al mismo tiempo es una carga que no conviene realizar.
+
+\end{description}
+
+Algunas/os docentes son escépticas/os a que las personas novatas puedan mapear efectivamente lo que entendieron,
+dado que la introspección y la explicación de lo entendido son generalmente habilidades más avanzadas que la comprensión en sí misma.
+Por ejemplo,
+\cite{Kepp2008} observó el uso del mapeo conceptual en la enseñanza de computación.
+Uno de los hallazgos fue que
+``{\ldots} el mapeo conceptual es problemático para muchas/os estudiantes porque
+evalúa la comprensión personal en lugar del conocimiento que simplemente se aprendió de memoria.''
+Como alguien que valora la comprensión sobre el conocimiento de memoria, 
+lo considero un beneficio.
+
+\begin{aside}{Comienza por cualquier lugar}
+  Cuando se pide por primera vez dibujar un mapa conceptual, muchas personas no saben por dónde empezar.
+  Si esto ocurre,
+  escribe dos palabras asociadas con el tema que estás tratando de mapear,
+ luego dibuja una línea entre ellas y agrega una etiqueta explicando cómo estas dos ideas están relacionadas.
+  Puedes entonces preguntarte qué otras cosas están relacionadas en el mismo sentido,
+  qué partes tienen esas cosas,
+  o qué sucede antes o después con los conceptos que ya están en la hoja
+  a fin de descubrir más nodos y arcos.
+  Después de eso, casi siempre la parte más difícil está terminada.
+\end{aside}
+
+Los mapas conceptuales son solo una forma de representar nuestro conocimiento de un tema~\cite{Eppl2006};
+otros incluyen diagramas de Venn, diagramas de flujo y árboles de decisión~\cite{Abel2009}.
+Todos estos esquemas \grefdex{g:externalized-cognition}{externalizan la cognición}{cognición externalizada},
+es decir, hacen visibles los modelos mentales de manera que pueden ser comparados y combinados\footnote{Parafraseando a
+ Lady Windermere, obra de Oscar Wilde,\index{Wilde, Oscar}
+las personas a menudo no saben lo que piensan hasta que se escuchan a sí mismas decirlo}.
+
+\begin{aside}{Trabajo crudo y honestidad}
+  Muchas/os diseñadoras/es de interfaces de usuaria/o creen que es mejor mostrar bocetos de sus ideas en lugar de maquetas pulidas,
+  porque es más probable que las personas den una opinión honesta sobre algo que 
+  presumen que tiene pocos minutos de elaboración.
+  Si parece que el trabajo requirió horas, 
+  la mayoría de las personas suavizará sus críticas.
+  Al dibujar mapas conceptuales para motivar un intercambio de ideas,
+  deberías entonces usar lápices y papel borrador (o marcadores y una pizarra)
+  en lugar de sofisticadas herramientas de dibujo por computadora.
+\end{aside}
+
+\seclbl{Siete más o menos dos}{s:memory-seven-plus-or-minus}
+
+Mientras el modelo gráfico de conocimiento es incorrecto pero útil,
+otro modelo simple tiene bases fisiológicas profundas.
+Como una aproximación rápida,
+la memoria humana se puede dividir en dos capas distintas.
+La primera,
+llamada \gref{g:long-term-memory}{memoria a largo plazo}
+o \gref{g:persistent-memory}{memoria persistente},
+es donde almacenamos cosas como los nombres de nuestra gente amiga,
+nuestra dirección,
+y lo que hizo un payaso en nuestra fiesta de cumpleaños de ocho que nos asustó mucho.
+La capacidad de esta capa de memoria es esencialmente ilimitada,
+pero es de acceso lento---demasiado lento para ayudarnos a lidiar con leones hambrientos y familiares descontentos.
+
+La evolución entonces nos ha dado un segundo sistema
+llamado \gref{g:short-term-memory}{memoria a corto plazo}
+o \gref{g:working-memory}{memoria de trabajo}.
+Es mucho más rápida,
+pero también más pequeña:~\cite{Mill1956} estimó que la memoria de trabajo del adulto promedio solo podía contener 7 ± 2 elementos a la vez.
+Esta es la razón por la cual \hreffoot{https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used}{los números de teléfono}
+son de 7 u 8 dígitos de longitud:
+antes los teléfonos tenían un disco en vez de teclado y
+esa era la cadena de números más larga que la mayoría de los adultos podía recordar con precisión durante el tiempo que tardaba el disco en girar varias veces.
+
+\begin{aside}{Participación}
+  El tamaño de la memoria de trabajo a veces se usa para explicar por qué los equipos 
+  deportivos tienden a formarse con aproximadamente media docena de miembros o
+  se separan en sub-grupos como delanteras/os y línea de tres cuartos en rugby.
+  También se usa para explicar por qué las reuniones solo son productivas hasta un cierto número de participantes:
+si veinte personas tratan de discutir algo,
+o bien se arman tres reuniones al mismo tiempo
+o media docena de personas hablan mientras los demás escuchan.
+El argumento es que la habilidad de las personas para llevar registro de sus pares está limitada al tamaño de la memoria de trabajo,
+pero hasta donde sé,
+esta aseveración jamás fue probada.
+\end{aside}
+
+7±2 es simplemente el número más importante al enseñar.
+Quien enseña no puede colocar información directamente en la memoria a largo plazo de una/un estudiante.
+En cambio,
+cualquier cosa que presente se almacena primero en la memoria a corto plazo de cada estudiante
+y solo se transfiere a la memoria a largo plazo después que ha sido mantenida ahí y ensayada (\secref{s:individual-strategies}).
+Si quien enseña presenta demasiados contenidos y muy rápidamente,
+la vieja información no llega a transferirse a tiempo antes de ser desplazada por la nueva información.
+
+Esta es una de las maneras de usar mapas conceptuales al diseñar una lección:
+sirve para asegurarse que la memoria a corto plazo de tus estudiantes no estará sobrecargada.
+Con el mapa ya diseñado,
+la/el docente elige un fragmento apropiado para la memoria a corto plazo, el cual llevará a una evaluación formativa (\figref{f:memory-photosynthesis})\index{evaluación formativa}; en la próxima lección continuará con otro fragmento del mapa conceptual, y así sucesivamente.
+
+\figpdf{figures/photosynthesis.pdf}{El uso de mapas conceptuales en el diseño de la lección}{f:memory-photosynthesis}{la fotosíntesis produce: a) glucosa que guarda energía y b) oxígeno que es liberado al aire; para este proceso requiere CO2 (absorbido del aire), agua y luz. La fotosíntesis ocurre en los cloroplastos que absorben luz.}
+
+\begin{aside}{Construyendo juntos mapas conceptuales}
+ La próxima vez que tengas una reunión de equipo,
+ entrega a cada persona una hoja de papel
+ y pídeles que pasen unos minutos dibujando sus propios mapas conceptuales sobre el proyecto en el que están trabajando.
+  A la cuenta de tres,
+  haz que todos revelen sus mapas conceptuales al grupo.
+  La discusión que sigue puede ayudar a las personas a comprender
+  por qué han estado tropezando.
+\end{aside}
+
+Ten en cuenta que el modelo simple de memoria presentado aquí ha sido reemplazado en gran medida por uno más sofisticado,
+en el que la memoria a corto plazo se divide en varios almacenamientos
+(p. ej.\ para memoria visual versus memoria lingüística),
+cada uno de los cuales realiza un pre\-procesamiento involuntario~\cite{Mill2016a}.
+Nuestra presentación es entonces un ejemplo de un modelo mental que ayuda al aprendizaje y al trabajo diario.
+
+\subsection*{Reconocimiento de patrones}
+
+Investigaciones recientes sugieren que el tamaño real de la memoria a corto plazo 
+podría ser tan bajo como 4±1 elementos~\cite{Dida2016}.
+Para manejar conjuntos de información más grandes,
+nuestras mentes crean \grefdex{g:chunking}{fragmentos}{fragmentación}.
+Por ejemplo,
+en general recordamos a las palabras como elementos simples más que como secuencia de letras.
+Del mismo modo,
+el patrón formado por cinco puntos en cartas o dados se recuerda como un todo 
+en lugar de cinco piezas de información separadas.
+
+Las personas expertas tienen más fragmentos y de mayor tamaño que las no-expertas,
+p.ej.\``ven'' patrones más grandes y tienen más patrones con los que contrastar cosas.
+Esto les permite razonar a un nivel superior
+y buscar información de manera más rápida y precisa.
+Sin embargo,
+la fragmentación también puede engañarnos si identificamos mal las cosas:
+quienes recién llegan a veces pueden ver cosas que personas expertas han visto y pasado por alto.
+
+Dada la importancia de la fragmentación para pensar,
+es tentador identificar \hreffoot{https://es.wikipedia.org/wiki/Patrón\_de\_diseño}{patrones de diseño}\index{patrones de diseño}
+y enseñarlos directamente. 
+Estos patrones ayudan a practicantes competentes a pensar y dialogar en varios dominios (incluida la enseñanza~\cite{Berg2012}),
+pero los catálogos de patrones son demasiado duros y abstractos para que personas novatas les encuentren sentido por su cuenta.
+Dicho esto,
+asignar nombres a un pequeño número de patrones parece ayudar con la enseñanza,
+principalmente dando a tus estudiantes un vocabulario más rico para pensar y comunicarse \cite{Kuit2004,Byck2005,Saja2006}.
+Volveremos a este tema en la \secref{s:pck-programming}.
+
+\seclbl{Convirtiéndose en una persona experta}{s:memory-becoming-expert}
+
+Entonces, ¿cómo se convierte alguien en una persona experta?
+La idea de que hacen falta diez mil horas de práctica para conseguirlo es ampliamente citada,
+pero \hreffoot{http://www.goodlifeproject.com/podcast/anders-ericsson/}{probablemente no sea verdad}:
+hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la práctica.
+Lo que realmente funciona es hacer cosas similares pero sutilmente diferentes,
+prestando atención a qué funciona y qué no,
+y luego cambiando el comportamiento en respuesta a esta retroalimentación, para así mejorar de forma acumulativa.
+Esto se llama \gref{g:deliberate-practice}{práctica deliberada}
+o \gref{g:reflective-practice}{práctica reflectiva},
+y es común que las personas atraviesen tres etapas:
+
+\begin{description}
+
+\item[Actuar según la devolución de otros.]
+  Las/los estudiantes pueden escribir un ensayo sobre qué hicieron en sus vacaciones de verano
+  y recibir devoluciones de una/un docente que les indique cómo mejorarlo.
+
+\item[Dar devoluciones sobre el trabajo de otras/os.]
+  Las/los estudiantes pueden realizar críticas de la evolución de un personaje en la novela de Jorge Amado \emph{Doña Flor y sus dos maridos}. 
+  y recibir una devolución de una/un docente sobre esas críticas.
+
+\item[Darse devoluciones a sí misma/o.]
+  En algún punto,
+  las/los estudiantes empiezan a criticar sus propios trabajos
+  con las habilidades que ya han construido.
+  Dado que auto\-criticarse es mucho más rápido que esperar los comentarios de otras personas, 
+  esta aptitud comenzará a desarrollarse de un momento a otro.
+  
+\end{description}
+
+\begin{aside}{¿Qué cuenta como práctica deliberada?}
+  \cite{Macn2014} descubrió que
+  ``{\ldots}la práctica deliberada explicaba el 26\% de la varianza en el rendimiento de los juegos,
+  21\% para música,
+  18\% para deportes,
+  4\% para educación,
+  y menos del 1\% para profesiones.''
+  Sin embargo,~\cite{Eric2016} criticó este hallazgo diciendo:
+  ``Resumir cada hora de cualquier tipo de práctica durante la carrera de un individuo
+ implica que el impacto de todos los tipos de actividad práctica respecto a rendimiento es igual ------una suposición
+  que{\ldots}es inconsistente con la evidencia.''
+  Para ser efectiva,
+  la práctica deliberada requiere tanto un objetivo de rendimiento claro
+  como una devolución informativa inmediata.
+  Se trata de dos cosas que las/los docentes deberían esforzarse en conseguir.
+\end{aside}
+
+\seclbl{Ejercicios}{s:memory-exercises}
+
+\exercise{Mapear conceptos}{parejas}{30'}
+
+Dibuja un mapa conceptual sobre algo que puedas enseñar en cinco minutos.
+Discute con tu colega y critiquen el mapa que cada cual elaboró.
+¿Presentan conceptos o detalles superficiales?
+¿Cuáles de las relaciones en el mapa de tu colega consideras conceptos y viceversa?
+
+\exercise{Mapeo de conceptos (nuevamente)}{grupos pequeños}{20'}
+
+La clase se divide en grupos de 3--4 personas.
+En cada grupo, cada persona diseña por su cuenta un mapa conceptual que muestre un modelo mental sobre qué sucede en un aula.
+Cuando todas las personas del grupo hayan terminado,
+comparen los mapas conceptuales.
+¿En qué coinciden y difieren sus modelos mentales?
+
+\exercise{Mejora de la memoria a corto plazo}{individual}{5'}
+
+\cite{Cher2007} sugiere que
+la razón principal por la que las personas dibujan diagramas cuando discuten cosas
+es para ampliar su memoria a corto plazo:
+señalar una burbuja dibujada hace unos minutos provoca el recuerdo de varios minutos de debate.
+Cuando intercambiaste mapas conceptuales en el ejercicio anterior,
+¿qué tan fácil fue para otras personas entender lo que significaba tu mapa?
+¿qué tan fácil sería para ti si lo dejas de lado por un día o dos y luego lo miras de nuevo?
+
+\exercise{Eso es un poco autorreferencial, ¿no?}{toda la clase}{30'}
+
+Trabajando independientemente,
+dibuja un mapa conceptual sobre mapas conceptuales.
+Compara tu mapa conceptual con aquellos dibujados por las demás personas.
+¿Qué incluyeron la mayoría de las personas?
+¿Cuáles fueron las diferencias más significativas?
+
+\exercise{Notar tus puntos ciegos}{grupos pequeños}{10'}
+
+Elizabeth Wickes listó
+\hreffoot{https://twitter.com/elliewix/status/981285432922202113}{todo lo que necesitas saber para entender} 
+y leer esta línea de \emph{Python}:
+
+\begin{minted}{text}
+respuestas = ['tuatara', 'tuataras', 'bus', "lick"]
+\end{minted}
+
+\begin{itemize}
+
+\item
+  Los corchetes rodeando el contenido significan que estamos trabajando con una lista
+  (a diferencia de los corchetes inmediatamente a la derecha de algo,
+  que es la notación utilizada para extraer datos).
+
+\item
+  Los elementos se separan por comas fuera de las comillas
+  (si las comas estuvieran dentro de las comillas, sería la cita de un texto).
+
+\item
+  Cada elemento es una cadena de caracteres,
+  y lo sabemos por las comillas.
+  Aquí podríamos tener números u otro tipo de datos si quisiéramos;
+  necesitamos comillas porque estamos trabajando con cadenas de caracteres.
+
+\item
+  Estamos mezclando el uso de comillas simples y dobles;
+  a \emph{Python} no le importa eso siempre que estén balanceadas alrededor 
+  de las cadenas individuales (por cada comilla que abre, una comilla que cierre).
+
+\item
+  A cada coma le sigue un espacio,
+  lo cual no es obligatorio para \emph{Python},
+  pero lo preferimos para una lectura más clara.
+
+\end{itemize}
+
+Cada uno de estos detalles no sería ni percibido por una persona experta.
+Trabajando en grupos de  3--4 personas,
+selecciona algo igualmente corto de una lección que hayas enseñado o aprendido
+y divídelo a este nivel de detalle.
+
+\exercise{Qué enseñar a continuación}{individual}{5'}
+
+Vuelve al mapa conceptual para la fotosíntesis de la \figref{f:memory-photosynthesis}.
+¿Cuántos conceptos y relaciones hay en los fragmentos seleccionados?
+¿Qué incluirías en el próximo fragmento de la lección y por qué?
+
+\exercise{El poder de fragmentación}{individual}{5'}
+
+Mira la \figref{f:memory-unchunked} por 10 segundos,
+luego mira hacia otro lado e intenta escribir tu número de teléfono con estos símbolos\footnote{
+  Mi agradecimiento a Warren Code\index{Code, Warren} por presentarme este ejemplo.
+}.
+(Usa un espacio para '0'.)
+Cuando hayas terminado,
+mira la representación alternativa en el \appref{s:chunking}.
+¿Cuánto más fáciles de recordar son los símbolos cuando el patrón se hace explícito?
+
+\figpdfhere{figures/chunking-unchunked.pdf}{Representación no fragmentada}{f:memory-unchunked}{se presentan los números 1 a 9 al lado de una serie de líneas. En el primer renglón aparece el número uno que a su lado tiene una línea vertical de la cual sale una línea horizontal en la parte inferior hacia la izquerda. El número dos tiene a su lado dos líneas verticales paralelas entre sí y una línea horizontal en su parte inferior uniéndolas. El número tres presenta una línea vertical de la cual sale una línea horizontal en su parte inferior hacia la derecha. El número cuatro presenta dos líneas horizontales paralelas y una línea vertical uniendolas por su lado derecho. El número cinco tiene a su lado un cuadrado. El número seis también tiene las dos líneas horizontales unidas por una línea vertical en el extremo izquierdo. El número siete tiene una línea horizontal arriba y otra línea vertical a la derecha. El número ocho presenta dos líneas verticales unidas por una línea horizontal en los extremos superiores. Finalmente, el número nueve presenta una línea vertical de la cual sale una línea horizontal hacia la derecha desde el extremo superior.}

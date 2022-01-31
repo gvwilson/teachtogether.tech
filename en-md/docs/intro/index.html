@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="stjs.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="intro">Introduction</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="intro">Introduction</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#intro-audience">Who You Are</a></li>
+<li><a href="#intro-instead">What to Read Instead</a></li>
+<li><a href="#intro-acknowledgments">Acknowledgments</a></li>
+<li><a href="#intro-exercises">Exercises</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#g:end-user-teacher">End-user teacher</a>, <a href="../glossary/#g:free-range-learner">Free-range learner</a>, <a href="../glossary/#g:impostor-syndrome">Impostor syndrome</a></p></div>
+
+      
+<p>Grassroots groups have sprung up around the world
+to teach programming, web design, robotics, and other skills
+to <span g="g:free-range-learner" i="free-range learner">free-range learners</span>.
+These groups exist so that people don't have to learn these things on their own,
+but ironically,
+their founders and teachers are often teaching themselves how to teach.</p>
+<p>There's a better way.
+Just as knowing a few basic facts about germs and nutrition can help you stay healthy,
+knowing a few things about cognitive psychology,
+instructional design,
+inclusivity,
+and community organization
+can help you be a more effective teacher.
+This book presents key ideas you can use right now,
+explains why we believe they are true,
+and points you at other resources that will help you go further.</p>
+<blockquote>
+<h3>Re-Use</h3>
+<p>Parts of this book were originally created for
+<a href="http://carpentries.github.io/instructor-training/">the Software Carpentry instructor training program</a>,
+and all of it can be freely distributed and re-used
+under the Creative Commons Attribution-NonCommercial 4.0 license
+(<a class="secref" href="../license/#license">Appendix&nbsp;A</a>).
+You can use the online version at <a href="http://teachtogether.tech/">http://teachtogether.tech/</a> in any class
+(free or paid),
+and can quote short excerpts under <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a> provisions,</p>
+<p>Contributions, corrections, and suggestions are all welcome,
+and all contributors will be acknowledged each time a new version is published.
+Please see <a class="secref" href="../joining/#joining">Appendix&nbsp;D</a> for details
+and <a class="secref" href="../conduct/#conduct">Appendix&nbsp;C</a> for our code of conduct.</p>
+</blockquote>
+<h2 id="intro-audience">Who You Are</h2>
+<p><a class="secref" href="../process/#process-personas">Section&nbsp;6.2</a> explains how to figure out who your learners are.
+The four that this book is for are all <span g="g:end-user-teacher" i="end-user teacher">end-user teachers</span>:
+teaching isn't their primary occupation,
+they have little or no background in pedagogy,
+and they may work outside institutional classrooms.</p>
+<dl>
+<dt>Emily</dt>
+<dd>trained as a librarian
+and now works as a web designer and project manager in a small consulting company.
+In her spare time she helps run web design classes for women entering tech as a second career.
+She is now recruiting colleagues to run more classes in her area,
+and wants to know how to make lessons others can use
+and grow a volunteer teaching organization.</dd>
+<dt>Moshe</dt>
+<dd>is a professional programmer with two teenage children
+whose school doesn't offer programming classes.
+He has volunteered to run a monthly after-school programming club,
+and while he frequently gives presentations to colleagues,
+he has no classroom experience.
+He wants to learn how to build effective lessons in reasonable time,
+and would like to know more about the pros and cons of self-paced online classes.</dd>
+<dt>Samira</dt>
+<dd>is an undergraduate in robotics who is thinking about becoming a teacher after she graduates.
+She wants to help at weekend robotics workshops for her peers,
+but has never taught a class before
+and feels a lot of <span g="g:impostor-syndrome">impostor syndrome</span>.
+She wants to learn more about education in general in order to decide if it's for her,
+and is also looking for specific tips to help her deliver lessons more effectively.</dd>
+<dt>Gene</dt>
+<dd>is a professor of computer science.
+They have been teaching undergraduate courses on operating systems for six years,
+and increasingly believe that there has to be a better way.
+The only training available through their university's teaching and learning center
+is about posting assignments and submitting grades in the online learning management system,
+so they want to find out what else they should be asking for.</dd>
+</dl>
+<p>These people have <em>a variety of technical backgrounds</em>
+and <em>some previous teaching experience</em>,
+but <em>no formal training in teaching, lesson design, or community organization</em>.
+Most work with <em>free-range learners</em>
+and are <em>focused on teenagers and adults</em>
+rather than children;
+all <em>have limited time and resources</em>.
+We expect our quartet to use this material as follows:</p>
+<dl>
+<dt>Emily</dt>
+<dd>will take part in a weekly online reading group with her volunteers.</dd>
+<dt>Moshe</dt>
+<dd>will cover part of this book in a one-day weekend workshop
+and study the rest on his own.</dd>
+<dt>Samira</dt>
+<dd>will use this book in a one-semester undergraduate course with assignments, a project, and a final exam.</dd>
+<dt>Gene</dt>
+<dd>will read the book on their own in their office or while commuting,
+wishing all the while that universities did more to support high-quality teaching.</dd>
+</dl>
+<h2 id="intro-instead">What to Read Instead</h2>
+<p>If you are in a hurry or want a taste of what this book will cover,
+[<a href="../bibliography/#Brow2018">Brow2018</a>] presents ten evidence-based tips for teaching computing.
+You may also enjoy:</p>
+<ul>
+<li>
+<p><a href="http://carpentries.github.io/instructor-training/">The Carpentries instructor training</a>,
+from which this book is derived.</p>
+</li>
+<li>
+<p>[<a href="../bibliography/#Lang2016">Lang2016</a>] and [<a href="../bibliography/#Hust2012">Hust2012</a>], which are short and approachable,
+and which connect things you can do right now to the research that backs them.</p>
+</li>
+<li>
+<p>[<a href="../bibliography/#Berg2012">Berg2012</a>, <a href="../bibliography/#Lemo2014">Lemo2014</a>, <a href="../bibliography/#Majo2015">Majo2015</a>, <a href="../bibliography/#Broo2016">Broo2016</a>, <a href="../bibliography/#Rice2018">Rice2018</a>, <a href="../bibliography/#Wein2018b">Wein2018b</a>]
+are all full of practical suggestions for things you can do in your classroom,
+but may make more sense once you have a framework for understanding why their ideas work.</p>
+</li>
+<li>
+<p>[<a href="../bibliography/#DeBr2015">DeBr2015</a>],
+which explains what's true about education by explaining what isn't,
+and [<a href="../bibliography/#Dida2016">Dida2016</a>],
+which grounds learning theory in cognitive psychology.</p>
+</li>
+<li>
+<p>[<a href="../bibliography/#Pape1993">Pape1993</a>],
+which remains an inspiring vision of how computers could change education.
+<a href="https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4">Amy Ko's excellent description</a>
+does a better job of summarizing Papert's ideas than I possibly could,
+and [<a href="../bibliography/#Craw2010">Craw2010</a>] is a thought-provoking companion to both.</p>
+</li>
+<li>
+<p>[<a href="../bibliography/#Gree2014">Gree2014</a>, <a href="../bibliography/#McMi2017">McMi2017</a>, <a href="../bibliography/#Watt2014">Watt2014</a>] explain why so many attempts at educational reform have failed over the past forty years,
+how for-profit colleges are exploiting and exacerbating the growing inequality in our society,
+and how technology has repeatedly failed to revolutionize education.</p>
+</li>
+<li>
+<p>[<a href="../bibliography/#Brow2007">Brow2007</a>] and [<a href="../bibliography/#Mann2015">Mann2015</a>],
+because you can't teach well without changing the system in which we teach,
+and you can't do that on your own.</p>
+</li>
+</ul>
+<p>Those who want more academic material may also find [<a href="../bibliography/#Guzd2015a">Guzd2015a</a>, <a href="../bibliography/#Hazz2014">Hazz2014</a>, <a href="../bibliography/#Sent2018">Sent2018</a>, <a href="../bibliography/#Finc2019">Finc2019</a>, <a href="../bibliography/#Hpl2018">Hpl2018</a>] rewarding,
+while <a href="http://computinged.wordpress.com">Mark Guzdial's blog</a> has consistently been informative and thought-provoking.</p>
+<h2 id="intro-acknowledgments">Acknowledgments</h2>
+<p>This book would not exist without the contributions of
+Laura Acion,
+Jorge Aranda,
+Mara Averick,
+Erin Becker,
+Yanina Bellini Saibene,
+Azalee Bostroem,
+Hugo Bowne-Anderson,
+Neil Brown,
+Gerard Capes,
+Francis Castro,
+Daniel Chen,
+Dav Clark,
+Warren Code,
+Ben Cotton,
+Richie Cotton,
+Karen Cranston,
+Katie Cunningham,
+Natasha Danas,
+Matt Davis,
+Neal Davis,
+Mark Degani,
+Tim Dennis,
+Paul Denny,
+Michael Deutsch,
+Brian Dillingham,
+Grae Drake,
+Kathi Fisler,
+Denae Ford,
+Auriel Fournier,
+Bob Freeman,
+Nathan Garrett,
+Mark Guzdial,
+Rayna Harris,
+Ahmed Hasan,
+Ian Hawke,
+Felienne Hermans,
+Kate Hertweck,
+Toby Hodges,
+Roel Hogervorst,
+Mike Hoye,
+Dan Katz,
+Christina Koch,
+Shriram Krishnamurthi,
+Katrin Leinweber,
+Colleen Lewis,
+Dave Loyall,
+Paweł Marczewski,
+Lenny Markus,
+Sue McClatchy,
+Jessica McKellar,
+Ian Milligan,
+Julie Moronuki,
+Lex Nederbragt,
+Aleksandra Nenadic,
+Jeramia Ory,
+Joel Ostblom,
+Elizabeth Patitsas,
+Aleksandra Pawlik,
+Sorawee Porncharoenwase,
+Emily Porta,
+Alex Pounds,
+Thomas Price,
+Danielle Quinn,
+Ian Ragsdale,
+Erin Robinson,
+Rosario Robinson,
+Ariel Rokem,
+Pat Schloss,
+Malvika Sharan,
+Florian Shkurti,
+Dan Sholler,
+Juha Sorva,
+Igor Steinmacher,
+Tracy Teal,
+Tiffany Timbers,
+Richard Tomsett,
+Preston Tunnell Wilson,
+Matt Turk,
+Fiona Tweedie,
+Martin Ukrop,
+Anelda van der Walt,
+Stéfan van der Walt,
+Allegra Via,
+Petr Viktorin,
+Belinda Weaver,
+Hadley Wickham,
+Jason Williams,
+Simon Willison,
+Karen Word,
+John Wrenn,
+and Andromeda Yelton.
+I am also grateful to Lukas Blakk for the logo,
+to Shashi Kumar for LaTeX help,
+to Markku Rontu for making the diagrams look better,
+and to everyone who has used this material over the years.
+Any mistakes that remain are mine.</p>
+<h2 id="intro-exercises">Exercises</h2>
+<p>Each chapter ends with a variety of exercises that include a suggested format
+and how long they usually take to do in person.
+Most can be used in other formats---in particular,
+if you are going through this book on your own,
+you can still do many of the exercises that are intended for groups---and
+you can always spend more time on them than what's suggested.</p>
+<p>If you are using this material in a teacher training workshop,
+you can give the exercises below to participants a day or two in advance
+to get an idea of who they are and how best you can help them.
+Please read the caveats in <a class="secref" href="../classroom/#classroom-prior">Section&nbsp;9.4</a> before doing this.</p>
+<h3 class="exercise">Highs and Lows (whole class/5)</h3>
+<p>Write brief answers to the following questions and share with your peers.
+(If you are taking notes together online as described in <a class="secref" href="../classroom/#classroom-notetaking">Section&nbsp;9.7</a>,
+put your answers there.)</p>
+<ol>
+<li>
+<p>What is the best class or workshop you ever took?
+What made it so good?</p>
+</li>
+<li>
+<p>What was the worst one?
+What made it so bad?</p>
+</li>
+</ol>
+<h3 class="exercise">Know Thyself (whole class/10)</h3>
+<p>Share brief answers to the following questions with your peers.
+Record your answers so that you can refer back to them
+as you go through the rest of this book.</p>
+<ol>
+<li>
+<p>What do you most want to teach?</p>
+</li>
+<li>
+<p>Who do you most want to teach?</p>
+</li>
+<li>
+<p>Why do you want to teach?</p>
+</li>
+<li>
+<p>How will you know if you're teaching well?</p>
+</li>
+<li>
+<p>What do you most want to learn about teaching and learning?</p>
+</li>
+<li>
+<p>What is one specific thing you believe is true about teaching and learning?</p>
+</li>
+</ol>
+<h3 class="exercise">Why Learn to Program? (individual/20)</h3>
+<p>Politicians, business leaders, and educators often say that
+people should learn to program because the jobs of the future will require it.
+However,
+as Benjamin Doxtdator <a href="http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/">pointed out</a>,
+many of those claims are built on shaky ground.
+Even if they were true, education shouldn't prepare people for the jobs of the future:
+it should give them the power to decide what kinds of jobs there are
+and to ensure that those jobs are worth doing.
+And as <a href="https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/">Mark Guzdial points out</a>,
+there are actually many reasons to learn how to program:</p>
+<ol>
+<li>
+<p>To understand our world.</p>
+</li>
+<li>
+<p>To study and understand processes.</p>
+</li>
+<li>
+<p>To be able to ask questions about the influences on their lives.</p>
+</li>
+<li>
+<p>To use an important new form of literacy.</p>
+</li>
+<li>
+<p>To have a new way to learn art, music, science, and mathematics.</p>
+</li>
+<li>
+<p>As a job skill.</p>
+</li>
+<li>
+<p>To use computers better.</p>
+</li>
+<li>
+<p>As a medium in which to learn problem-solving.</p>
+</li>
+</ol>
+<p>Draw a 3x3 grid whose axes are labeled &quot;low,&quot; &quot;medium,&quot; and &quot;high&quot;
+and place each reason in one sector
+according to how important it is to you (the X axis)
+and to the people you plan to teach (the Y axis).</p>
+<ol>
+<li>
+<p>Which points are closely aligned in importance
+(i.e. on the diagonal in your grid)?</p>
+</li>
+<li>
+<p>Which points are misaligned
+(i.e. in the off-diagonal corners)?</p>
+</li>
+<li>
+<p>How should this affect what you teach?</p>
+</li>
+</ol>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

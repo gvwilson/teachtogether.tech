@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="stjs.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="memory">Expertise and Memory</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="memory">Expertise and Memory</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#memory-concept-maps">Concept Maps</a></li>
+<li><a href="#memory-seven-plus-or-minus">Seven Plus or Minus Two</a></li>
+<li><a href="#memory-becoming-expert">Becoming an Expert</a></li>
+<li><a href="#memory-exercises">Exercises</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#g:chunking">Chunking</a>, <a href="../glossary/#g:concept-map">Concept map</a>, <a href="../glossary/#g:deliberate-practice">Deliberate practice</a>, <a href="../glossary/#g:expert-blind-spot">Expert blind spot</a>, <a href="../glossary/#g:externalized-cognition">Externalized cognition</a>, <a href="../glossary/#g:fluid-representation">Fluid representation</a>, <a href="../glossary/#g:intuition">Intuition</a>, <a href="../glossary/#g:long-term-memory">Long-term memory</a>, <a href="../glossary/#g:persistent-memory">Persistent memory</a>, <a href="../glossary/#g:reflective-practice">Reflective practice</a>, <a href="../glossary/#g:short-term-memory">Short-term memory</a>, <a href="../glossary/#g:working-memory">Working memory</a></p></div>
+
+      
+<blockquote>
+<p>Memory is the residue of thought.</p>
+<p>--- <span i="Willingham, Daniel">Daniel Willingham</span>, <em>Why Students Don't Like School</em></p>
+</blockquote>
+<p>The previous chapter explained the differences between novices and competent practitioners.
+This one looks at expertise:
+what it is,
+how people acquire it,
+and how it can be harmful as well as helpful.
+We then introduce one of the most important limits on learning
+and look at how drawing pictures of mental models can help us turn knowledge into lessons.</p>
+<p>To start,
+what do we mean when we say someone is an <span i="expert">expert</span>?
+The usual answer is that they can solve problems much faster than people who are &quot;merely competent&quot;,
+or that they can recognize and deal with cases where the normal rules don't apply.
+They also somehow make this look effortless:
+in many cases,
+they seem to know the right answer at a glance [<a href="../bibliography/#Parn2017">Parn2017</a>].</p>
+<p>Expertise is more than just knowing more facts:
+competent practitioners can memorize a lot of trivia without noticeably improving their performance.
+Instead,
+imagine for a moment that we store knowledge as a network or graph
+in which facts are nodes
+and relationships are arcs<sup>This is definitely <em>not</em> how our brains work, but it's a useful metaphor.</sup>.
+The key difference between experts and competent practitioners is that
+experts' mental models are much more densely connected,
+i.e. they are more likely to know a connection between any two facts.</p>
+<p>The graph metaphor explains why helping learners make connections
+is as important as introducing them to facts:
+without those connections,
+people can't recall and use what they know.
+It also explains many observed aspects of expert behavior:</p>
+<ul>
+<li>
+<p>Experts can often jump directly from a problem to a solution
+because there actually is a direct link between the two in their mind.
+Where a competent practitioner would have to reason
+\(A{\rightarrow}B{\rightarrow}C{\rightarrow}D{\rightarrow}E\),
+an expert can go from \(A\) to \(E\) in a single step.
+We call this <span g="g:intuition">intuition</span>:
+instead of reasoning their way to a solution,
+the expert recognizes a solution in the same way that they would recognize a familiar face.</p>
+</li>
+<li>
+<p>Densely-connected graphs are also the basis for experts'
+<span g="g:fluid-representation" i="fluid representation">fluid representations</span>,
+i.e. their ability to switch back and forth between different views of a problem [<a href="../bibliography/#Petr2016">Petr2016</a>].
+For example,
+when trying to solve a problem in mathematics,
+an expert might switch between tackling it geometrically
+and representing it as a set of equations.</p>
+</li>
+<li>
+<p>This metaphor also explains why experts are better at diagnosis than competent practitioners:
+more linkages between facts makes it easier to reason backward from symptoms to causes.
+(This in turn is why asking programmers to debug during job interviews
+gives a more accurate impression of their ability than asking them to program.)</p>
+</li>
+<li>
+<p>Finally,
+experts are often so familiar with their subject that
+they can no longer imagine what it's like to <em>not</em> see the world that way.
+This means they are often less able to teach the subject than people with less expertise
+who still remember learning it themselves.</p>
+</li>
+</ul>
+<p>The last of these points is called <span g="g:expert-blind-spot">expert blind spot</span>.
+As originally defined in [<a href="../bibliography/#Nath2003">Nath2003</a>],
+it is the tendency of experts to organize explanation according to the subject's deep principles
+rather than being guided by what their learners already know.
+It can be overcome with training,
+but it is part of reason there is no correlation between
+how good someone is at doing research in an area
+and how good they are at teaching it [<a href="../bibliography/#Mars2002">Mars2002</a>].</p>
+<blockquote>
+<h3>The J Word</h3>
+<p>Experts often betray their blind spot by using the word &quot;just,&quot;
+as in,
+&quot;Oh, it's easy, you just fire up a new virtual machine
+and then you just install these four patches to Ubuntu
+and then you just re-write your entire program in a pure functional language.&quot;
+As we discuss in <a class="secref" href="../motivation/#motivation">Chapter&nbsp;10</a>,
+doing this signals that the speaker thinks the problem is trivial
+and that the person struggling with it must therefore be stupid,
+so don't do this.</p>
+</blockquote>
+<h2 id="memory-concept-maps">Concept Maps</h2>
+<p>Our tool of choice for representing someone's mental model is a <span g="g:concept-map">concept map</span>,
+in which facts are bubbles and connections are labeled connections.
+As examples,
+<a class="figref" href="#f:memory-seasons">Figure&nbsp;3.1</a> shows why the Earth has seasons (from <a href="https://cmap.ihmc.us/">IHMC</a>),
+and <a class="secref" href="../conceptmaps/#conceptmaps">Appendix&nbsp;H</a> presents concept maps for libraries from three points of view.</p>
+<figure id="f:memory-seasons">
+  <img src="seasons.svg" alt="Figure&nbsp;3.1: Concept map for seasons"/>
+  <figcaption>Figure&nbsp;3.1: Concept map for seasons</figcaption>
+</figure>
+<p>To show how concept maps can be using in teaching programming,
+consider this <code>for</code> loop in <span i="Python">Python</span>:</p>
+<pre><code class="language-text">for letter in &quot;abc&quot;:
+    print(letter)
+</code></pre>
+<p>whose output is:</p>
+<pre><code class="language-text">a
+b
+c
+</code></pre>
+<p>The three key &quot;things&quot; in this loop are shown in the top of <a class="figref" href="#f:memory-loop">Figure&nbsp;3.2</a>,
+but they are only half the story.
+The expanded version in the bottom shows the relationships between those things,
+which are as important for understanding as the concepts themselves.</p>
+<figure id="f:memory-loop">
+  <img src="for-loop.svg" alt="Figure&nbsp;3.2: Concept map for a `for` loop"/>
+  <figcaption>Figure&nbsp;3.2: Concept map for a `for` loop</figcaption>
+</figure>
+<p>Concept maps can be used in many ways:</p>
+<dl>
+<dt>Helping teachers figure out what they're trying to teach.</dt>
+<dd>A concept map separates content from order:
+in our experience,
+people rarely wind up teaching things in the order in which they first drew them.</dd>
+<dt>Aiding communication between lesson designers.</dt>
+<dd>Teachers with very different ideas of what they're trying to teach
+are likely to pull their learners in different directions.
+Drawing and sharing concept maps can help prevent this.
+And yes,
+different people may have different concept maps for the same topic,
+but concept mapping makes those differences explicit.</dd>
+<dt>Aiding communication with learners.</dt>
+<dd>While it's possible to give learners a pre-drawn map at the start of a lesson for them to annotate,
+it's better to draw it piece by piece while teaching
+to reinforce the ties between what's in the map and what the teacher said.
+We will return to this idea in <a class="secref" href="../architecture/#architecture-brain">Section&nbsp;4.1</a>.</dd>
+<dt>For assessment.</dt>
+<dd>Having learners draw pictures of what they think they just learned
+shows the teacher what they missed and what was miscommunicated.
+Reviewing learners' concept maps is too time-consuming to do as a formative assessment during class,
+but very useful in weekly lectures <em>once learners are familiar with the technique</em>.
+The qualification is necessary because
+any new way of doing things initially slows people down---if a learner is trying to make sense of basic programming,
+asking them to figure out how to draw their thoughts at the same time is an unfair load.</dd>
+</dl>
+<p>Some teachers are also skeptical of whether novices can effectively map their understanding,
+since introspection and explanation of understanding are generally more advanced skills than understanding itself.
+For example,
+[<a href="../bibliography/#Kepp2008">Kepp2008</a>] looked at the use of concept mapping in computing education.
+One of their findings was that,
+&quot;…concept mapping is troublesome for many students because
+it tests personal understanding rather than knowledge that was merely learned by rote.&quot;
+As someone who values understanding over rote knowledge,
+I consider that a benefit.</p>
+<blockquote>
+<h3>Start Anywhere</h3>
+<p>When first asked to draw a concept map, many people will not know where to start.
+When this happens,
+write down two words associated with the topic you're trying to map,
+then draw a line between them and add a label explaining how those two ideas are related.
+You can then ask what other things are related in the same way,
+what parts those things have,
+or what happens before or after the concepts already on the page
+in order to discover more nodes and arcs.
+After that, the hard part is often stopping.</p>
+</blockquote>
+<p>Concept maps are just one way to represent our understanding of a subject [<a href="../bibliography/#Eppl2006">Eppl2006</a>];
+others include Venn diagrams, flowcharts, and decision trees [<a href="../bibliography/#Abel2009">Abel2009</a>].
+All of these <span g="g:externalized-cognition" i="externalized cognition">externalize cognition</span>,
+i.e. make mental models visible so that they can be compared and combined<sup>To paraphrase
+<span i="Wilde, Oscar">Oscar Wilde</span>'s Lady Windermere,
+people often don't know what they're thinking until they've heard themselves say it.}.</p>
+<blockquote>
+<h3>Rough Work and Honesty</h3>
+<p>Many user interface designers believe that
+it's better to show people rough sketches of their ideas rather than polished mock-ups
+because people are more likely to give honest feedback on something that they think
+only took a few minutes to create:
+if it looks as though what they're critiquing took hours to create,
+most will pull their punches.
+When drawing concept maps to motivate discussion,
+you should therefore use pencils and scrap paper (or pens and a whiteboard)
+rather than fancy computer drawing tools.</p>
+</blockquote>
+<h2 id="memory-seven-plus-or-minus">Seven Plus or Minus Two</h2>
+<p>While the graph model of knowledge is wrong but useful,
+another simple model has a sounder physiological basis.
+As a rough approximation,
+human memory can be divided into two distinct layers.
+The first,
+called <span g="g:long-term-memory" i="long-term memory">long-term</span>
+or <span g="g:persistent-memory">persistent memory</span>,
+is where we store things like our friends' names,
+our home address,
+and what the clown did at our eighth birthday party that scared us so much.
+Its capacity is essentially unlimited,
+but it is slow to access---too slow to help us cope with hungry lions and disgruntled family members.</p>
+<p>Evolution has therefore given us a second system
+called <span g="g:short-term-memory" i="short-term memory">short-term</span>
+or <span g="g:working-memory">working memory</span>.
+It is much faster,
+but also much smaller: [<a href="../bibliography/#Mill1956">Mill1956</a>] estimated that the average adult's working memory could only hold 7±2 items at a time.
+This is why <a href="https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used">phone numbers</a>
+are 7 or 8 digits long:
+back when phones had dials instead of keypads,
+that was the longest string of numbers most adults could remember accurately for as long as it took the dial to go around several times.</p>
+<blockquote>
+<h3>Participation</h3>
+<p>The size of working memory is sometimes used to explain
+why sports teams tend to have about half a dozen members
+or are broken into sub-groups like the forwards and backs in rugby.
+It is also used to explain why meetings are only productive up to a certain number of participants:
+if twenty people try to discuss something,
+either three meetings are going on at once
+or half a dozen people are talking while everyone else listens.
+The argument is that people's ability to keep track of their peers is constrained by the size of working memory,
+but so far as I know,
+the link has never been proven.</p>
+</blockquote>
+<p>7±2 is the single most important number in teaching.
+A teacher cannot place information directly in a learner's long-term memory.
+Instead,
+whatever they present is first stored in the learner's short-term memory,
+and is only transferred to long-term memory after it has been held there and rehearsed (<a class="secref" href="../individual/#individual-strategies">Section&nbsp;5.1</a>).
+If the teacher presents too much information too quickly,
+the new information displaces the old
+before the latter is transferred.</p>
+<p>This is one of the ways to use a concept map when designing a lesson:
+it helps make sure learners' short-term memories won't be overloaded.
+Once the map is drawn,
+the teacher chooses a subsection that will fit in short-term memory
+and lead to a <span i="formative assessment">formative assessment</span> (<a class="figref" href="#f:memory-photosynthesis">Figure&nbsp;3.3</a>),
+then adds another subsection for the next lesson episode and so on.</p>
+<figure id="f:memory-photosynthesis">
+  <img src="photosynthesis.svg" alt="Figure&nbsp;3.3: Using concept maps in lesson design"/>
+  <figcaption>Figure&nbsp;3.3: Using concept maps in lesson design</figcaption>
+</figure>
+<blockquote>
+<h3>Building Concept Maps Together</h3>
+<p>The next time you have a team meeting,
+give everyone a sheet of paper
+and have them spend a few minutes drawing their own concept map of the project you're all working on.
+On the count of three,
+have everyone reveal their concept maps to their group.
+The discussion that follows may help people understand
+why they've been tripping over each other.</p>
+</blockquote>
+<p>Note that the simple model of memory presented here has largely been replaced by a more sophisticated one
+in which short-term memory is broken down into several modal stores
+(e.g. for visual vs. linguistic memory),
+each of which does some involuntary preprocessing [<a href="../bibliography/#Mill2016a">Mill2016a</a>].
+Our presentation is therefore an example of a mental model that aids learning and everyday work.</p>
+<h3>Pattern Recognition</h3>
+<p>Recent research suggests that the actual size of short-term memory
+might be as low as 4±1 items [<a href="../bibliography/#Dida2016">Dida2016</a>].
+In order to handle larger sets of information,
+our minds create <span g="g:chunking" i="chunking">chunks</span>.
+For example,
+most of us remember words as single items rather than as sequences of letters.
+Similarly,
+the pattern made by five spots on cards or dice is remembered as a whole
+rather than as five separate pieces of information.</p>
+<p>Experts have more and larger chunks than non-experts,
+i.e. experts &quot;see&quot; larger patterns and have more patterns to match things against.
+This allows them to reason at a higher level
+and to search for information more quickly and more accurately.
+However,
+chunking can also mislead us if we mis-identify things:
+newcomers really can sometimes see things that experts have looked at and missed.</p>
+<p>Given how important chunking is to thinking,
+it is tempting to identify <span i="design patterns"><a href="https://en.wikipedia.org/wiki/Software_design_pattern">design patterns</a></span>
+and teach them directly.
+These patterns help competent practitioners think and talk to each other in many domains (including teaching [<a href="../bibliography/#Berg2012">Berg2012</a>]),
+but pattern catalogs are too dry and too abstract for novices to make sense of on their own.
+That said,
+giving names to a small number of patterns does seem to help with teaching,
+primarily by giving the learners a richer vocabulary to think and communicate with [<a href="../bibliography/#Kuit2004">Kuit2004</a>, <a href="../bibliography/#Byck2005">Byck2005</a>, <a href="../bibliography/#Saja2006">Saja2006</a>].
+We will return to this in <a class="secref" href="../pck/#pck-programming">Section&nbsp;7.6</a>.</p>
+<h2 id="memory-becoming-expert">Becoming an Expert</h2>
+<p>So how does someone become an expert?
+The idea that ten thousand hours of practice will do it is widely quoted
+but <a href="http://www.goodlifeproject.com/podcast/anders-ericsson/">probably not true</a>:
+doing the same thing over and over again is much more likely to solidify bad habits than improve performance.
+What actually works is doing similar but subtly different things,
+paying attention to what works and what doesn't,
+and then changing behavior in response to that feedback to get cumulatively better.
+This is called <span g="g:deliberate-practice" i="deliberate practice">deliberate</span>
+or <span g="g:reflective-practice">reflective practice</span>,
+and a common progression is for people to go through three stages:</p>
+<dl>
+<dt>Act on feedback from others.</dt>
+<dd>A learner might write an essay about what they did on their summer holiday
+and get feedback from a teacher telling them how to improve it.</dd>
+<dt>Give feedback on others' work.</dt>
+<dd>The learner might critique character development in a Harry Potter novel
+and get feedback from the teacher on their critique.</dd>
+<dt>Give feedback to themselves.</dt>
+<dd>At some point,
+the learner starts critiquing their own work as they do it
+using the skills they have now built up.
+Doing this is so much faster than waiting for feedback from others
+that proficiency suddenly starts to take off.</dd>
+</dl>
+<blockquote>
+<h3>What Counts as Deliberate Practice?</h3>
+<p>[<a href="../bibliography/#Macn2014">Macn2014</a>] found that,
+&quot;…deliberate practice explained 26% of the variance in performance for games,
+21% for music,
+18% for sports,
+4% for education,
+and less than 1% for professions.&quot;
+However, [<a href="../bibliography/#Eric2016">Eric2016</a>] critiqued this finding by saying,
+&quot;Summing up every hour of any type of practice during an individual's career
+implies that the impact of all types of practice activity on performance is equal---an assumption
+that…is inconsistent with the evidence.&quot;
+To be effective,
+deliberate practice requires both a clear performance goal
+and immediate informative feedback,
+both of which are things teachers should strive for anyway.</p>
+</blockquote>
+<h2 id="memory-exercises">Exercises</h2>
+<h3 class="exercise">Concept Mapping (pairs/30)</h3>
+<p>Draw a concept map for something you would teach in five minutes.
+Trade with a partner and critique each other's maps.
+Do they present concepts or surface detail?
+Which of the relationships in your partner's map do you consider concepts and vice versa?</p>
+<h3 class="exercise">Concept Mapping (Again) (small groups/20)</h3>
+<p>Working in groups of 3--4,
+have each person independently draw a concept map showing their mental model of what goes on in a classroom.
+When everyone is done,
+compare the concept maps.
+Where do your mental models agree and disagree?</p>
+<h3 class="exercise">Enhancing Short-Term Memory (individual/5 minutes)</h3>
+<p>[<a href="../bibliography/#Cher2007">Cher2007</a>] suggests that
+the main reason people draw diagrams when they are discussing things
+is to enlarge their short-term memory:
+pointing at a wiggly bubble drawn a few minutes ago triggers recall of several minutes of debate.
+When you exchanged concept maps in the previous exercise,
+how easy was it for other people to understand what your map meant?
+How easy would it be for you if you set it aside for a day or two and then looked at it again?</p>
+<h3 class="exercise">That's a Bit Self-Referential, Isn't It? (whole class/30)</h3>
+<p>Working independently,
+draw a concept map for concept maps.
+Compare your concept map with those drawn by other people.
+What did most people include?
+What were the significant differences?</p>
+<h3 class="exercise">Noticing Your Blind Spot (small groups/10)</h3>
+<p>Elizabeth Wickes listed
+<a href="https://twitter.com/elliewix/status/981285432922202113">all the things you need to understand</a>
+in order to read this one line of Python:</p>
+<pre><code class="language-text">answers = ['tuatara', 'tuataras', 'bus', &quot;lick&quot;]
+</code></pre>
+<ul>
+<li>
+<p>The square brackets surrounding the content mean we're working with a list
+(as opposed to square brackets immediately to the right of something,
+which is a data extraction notation).</p>
+</li>
+<li>
+<p>The elements are separated by commas outside and between the quotes
+(rather than inside, as they would be for quoted speech).</p>
+</li>
+<li>
+<p>Each element is a character string,
+and we know that because of the quotes.
+We could have number or other data types in here if we wanted;
+we need quotes because we're working with strings.</p>
+</li>
+<li>
+<p>We're mixing our use of single and double quotes;
+Python doesn't care so long as they balance around the individual strings.</p>
+</li>
+<li>
+<p>Each comma is followed by a space,
+which is not required by Python,
+but which we prefer for readability.</p>
+</li>
+</ul>
+<p>Each of these details might be overlooked by an expert.
+Working in groups of 3--4,
+select something equally short from a lesson you have recently taught or learned
+and break it down to this level of detail.</p>
+<h3 class="exercise">What to Teach Next (individual/5)</h3>
+<p>Refer back to the concept map for photosynthesis in <a class="figref" href="#f:memory-photosynthesis">Figure&nbsp;3.3</a>.
+How many concepts and links are in the selected chunks?
+What would you include in the next chunk of the lesson and why?</p>
+<h3 class="exercise">The Power of Chunking (individual/5)</h3>
+<p>Look at <a class="figref" href="#f:memory-unchunked">Figure&nbsp;3.4</a> for 10 seconds,
+then look away and try to write out your phone number with these symbols<sup>
+My thanks to <span i="Code, Warren">Warren Code</span> for introducing me to this example.
+</sup>.
+(Use a space for '0'.)
+When you are finished,
+look at the alternative representation in <a class="secref" href="../chunking/#chunking">Appendix&nbsp;I</a>.
+How much easier are the symbols to remember when the pattern is made explicit?</p>
+<figure id="f:memory-unchunked">
+  <img src="chunking-unchunked.svg" alt="Figure&nbsp;3.4: Unchunked representation"/>
+  <figcaption>Figure&nbsp;3.4: Unchunked representation</figcaption>
+</figure>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>

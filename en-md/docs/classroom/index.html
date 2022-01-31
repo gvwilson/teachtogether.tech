@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<script>MathJax = {tex: {inlineMath: [["\\(", "\\)"]]}, svg: {fontCache: "global"}};</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<script src="../static/mccole.js"></script>
+<script>window.onload = () => fixPage()</script>
+
+    <script defer data-domain="stjs.tech" src="https://plausible.io/js/plausible.js"></script>
+
+    <link href="../static/mccole.css" rel="stylesheet" type="text/css">
+    <title>Teaching Tech Together: <h1 id="classroom">In the Classroom</h1></title>
+  </head>
+  <body>
+    <main>
+      <p class="home"><a href="../">Teaching Tech Together</a></p>
+      <h1 id="classroom">In the Classroom</h1>
+      
+      <nav>
+	<ol class="toc">
+<li><a href="#classroom-coc">Enforce the Code of Conduct</a></li>
+<li><a href="#classroom-peer">Peer Instruction</a></li>
+<li><a href="#classroom-together">Teach Together</a></li>
+<li><a href="#classroom-prior">Assess Prior Knowledge</a></li>
+<li><a href="#classroom-mixed">Plan for Mixed Abilities</a></li>
+<li><a href="#classroom-pair">Pair Programming</a></li>
+<li><a href="#classroom-notetaking">Take Notes…Together?</a></li>
+<li><a href="#classroom-sticky-notes">Sticky Notes</a></li>
+<li><a href="#classroom-blank">Never a Blank Page</a></li>
+<li><a href="#classroom-setup">Setting Up Your Learners</a></li>
+<li><a href="#classroom-practices">Other Teaching Practices</a></li>
+<li><a href="#classroom-innovate">Limit Innovation</a></li>
+<li><a href="#classroom-exercises">Exercises</a></li>
+</ol>
+
+      </nav>
+      <div class="keyterms"><p><a href="../glossary/#g:absolute-beginner">Absolute beginner</a>, <a href="../glossary/#g:co-teaching">Co-teaching</a>, <a href="../glossary/#g:dunning-kruger-effect">Dunning-Kruger effect</a>, <a href="../glossary/#g:false-beginner">False beginner</a>, <a href="../glossary/#g:minute-cards">Minute cards</a>, <a href="../glossary/#g:pair-programming">Pair programming</a>, <a href="../glossary/#g:peer-instruction">Peer instruction</a>, <a href="../glossary/#g:preparatory-privilege">Preparatory privilege</a>, <a href="../glossary/#g:think-pair-share">Think-pair-share</a></p></div>
+
+      
+<p>The previous chapter described how to practice lesson delivery
+and described one method---live coding---that
+allows teachers to adapt to their learners' pace and interests.
+This chapter describes other practices that are also useful in programming classes.</p>
+<p>Before describing them,
+it's worth pausing for a moment to set expectations.
+The best teaching method we know is <span i="individual tutoring (effectiveness of)">individual tutoring</span>:
+[<a href="../bibliography/#Bloo1984">Bloo1984</a>] found that students taught one-to-one
+did two standard deviations better than those who learned through conventional lecture,
+i.e. that individually tutored students outperformed
+98% of students who were lectured to.
+However,
+while mentoring and apprenticeship were the most common ways to pass on knowledge
+throughout most of history,
+the industrialization of formal education has made it the exception today.
+Despite the <span i="artificial intelligence (hype)">hype around artificial intelligence</span>,
+it isn't going to square this circle any time soon,
+so every method described below is essentially
+an attempt to approach the effectiveness of individual tutoring at scale.</p>
+<h2 id="classroom-coc">Enforce the Code of Conduct</h2>
+<p>The most important thing I've learned about teaching in the last 30 years is
+how important it is for everyone to treat everyone else with respect,
+both in and out of class.
+If you use this material in any way,
+please adopt a <span i="Code of Conduct">Code of Conduct</span> like the one in <a class="secref" href="../conduct/#conduct">Appendix&nbsp;C</a>
+and require everyone who takes part in your classes to abide by it.
+It can't stop people from being offensive,
+any more than laws against theft stop people from stealing,
+but it <em>can</em> make expectations and consequences clear,
+and signal that you are trying to make your class welcoming to all.</p>
+<p>But a Code of Conduct is only useful if it is <span i="Code of Conduct!enforcement">enforced</span>.
+If you believe that someone has violated yours,
+you may warn them,
+ask them to apologize,
+and/or expel them,
+depending on the severity of the violation and whether or not you believe it was intentional.
+Whatever you do:</p>
+<dl>
+<dt>Do it in front of witnesses.</dt>
+<dd>Most people will tone down their language and hostility in front of an audience,
+and having someone else present ensures that
+later discussion doesn't degenerate into conflicting claims about who said what.</dd>
+<dt>If you expel someone, say so to the rest of the class and explain why.</dt>
+<dd>This helps prevent rumors from spreading
+and shows that your Code of Conduct actually means something.</dd>
+<dt>Email the offender as soon as you can</dt>
+<dd>to summarize what happened and the steps you took,
+and copy the message to your workshop's hosts or one of your fellow teachers
+so that there's a contemporaneous record of the conversation.
+If the offender replies,
+don't engage in a long debate:
+it's never productive.</dd>
+</dl>
+<p>What happens outside of class matters at least as much as what happens within it [<a href="../bibliography/#Part2011">Part2011</a>],
+so you need to provide a way for learners to report problems that you aren't there to see yourself.
+One step is to ask someone who isn't part of your group to be the first point of contact;
+that way,
+if someone wants to make a complaint about you or one of your fellow teachers,
+they have some assurance of confidentiality and independent action.
+[<a href="../bibliography/#Auro2019">Auro2019</a>] has lots of other advice
+and is both short and practical.</p>
+<h2 id="classroom-peer">Peer Instruction</h2>
+<p>No matter how good a teacher is,
+they can only say one thing at a time.
+How then can they clear up many different misconceptions in a reasonable time?
+The best solution developed so far is a technique called <span g="g:peer-instruction">peer instruction</span>.
+Originally created by <span i="Mazur, Eric">Eric Mazur</span> at Harvard [<a href="../bibliography/#Mazu1996">Mazu1996</a>],
+it has been studied extensively in a wide variety of contexts,
+including programming [<a href="../bibliography/#Crou2001">Crou2001</a>, <a href="../bibliography/#Port2013">Port2013</a>],
+and [<a href="../bibliography/#Port2016">Port2016</a>] found that learners value peer instruction even at first contact.</p>
+<p>Peer instruction attempts to provide one-to-one instruction in a scalable way
+by interleaving formative assessment with learner discussion:</p>
+<ol>
+<li>
+<p>Give a brief introduction to the topic.</p>
+</li>
+<li>
+<p>Give learners a multiple choice question that probes for their misconceptions
+(rather than testing simple factual knowledge).</p>
+</li>
+<li>
+<p>Have all the learners vote on their answers to the MCQ.</p>
+<ul>
+<li>
+<p>If the learners all have the right answer, move on.</p>
+</li>
+<li>
+<p>If they all have the same wrong answer,
+address that specific misconception.</p>
+</li>
+<li>
+<p>If they have a mix of right and wrong answers,
+give them several minutes to argue with each other in groups of 2--4,
+then vote again.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>As
+<a href="https://www.youtube.com/watch?v=2LbuoxAy56o">this video</a> shows,
+group discussion significantly improves learners' understanding
+because it uncovers gaps in their reasoning and forces them to clarify their thinking.
+Re-polling the class then lets the teacher know if they can move on
+or if further explanation is necessary.
+A final round of additional explanation after the correct answer is presented
+gives learners one more chance to solidify their understanding.</p>
+<p>But could this be a false positive?
+Are results improving because of increased understanding during discussion
+or simply from a follow-the-leader effect (&quot;vote like Jane, she's always right&quot;)?
+[<a href="../bibliography/#Smit2009">Smit2009</a>] tested this by following the first question with a second one
+that learners answered individually.
+They found that peer discussion actually does enhance understanding,
+even when none of the learners in a discussion group originally knew the correct answer.
+As long as there is a diversity of opinion within the group,
+their misconceptions cancel out.</p>
+<blockquote>
+<h3>Taking a Stand</h3>
+<p>It is important to have learners vote publicly
+so that they can't change their minds afterward and rationalize it
+by making excuses to themselves like &quot;I just misread the question.&quot;
+Much of the value of peer instruction comes from the hypercorrection
+of getting the wrong answer
+and having to think through the reasons why
+(<a class="secref" href="../individual/#individual-strategies">Section&nbsp;5.1</a>).</p>
+</blockquote>
+<h2 id="classroom-together">Teach Together</h2>
+<p><span g="g:co-teaching" i="co-teaching">Co-teaching</span> describes any situation
+in which two teachers work together in the same classroom.
+[<a href="../bibliography/#Frie2016">Frie2016</a>] describes several ways to do this:</p>
+<dl>
+<dt>Team teaching:</dt>
+<dd>Both teachers deliver a single stream of content in tandem,
+taking turns like musicians taking solos.</dd>
+<dt>Teach and assist:</dt>
+<dd>Teacher A teaches while Teacher B moves around the classroom
+to help struggling learners.</dd>
+<dt>Alternative teaching:</dt>
+<dd>Teacher A provides a small set of learners with more intensive or specialized instruction
+while Teacher B delivers a general lesson to the main group.</dd>
+<dt>Teach and observe:</dt>
+<dd>Teacher A teaches while Teacher B observes the learners,
+collecting data on their understanding to help plan future lessons.</dd>
+<dt>Parallel teaching:</dt>
+<dd>The class is divided in two
+and the teachers present the same material simultaneously to each.</dd>
+<dt>Station teaching:</dt>
+<dd>The learners are divided into small groups
+that rotate from one station or activity to the next
+while teachers supervise where needed.</dd>
+</dl>
+<p>All of these models create more opportunities for
+<span i="unintended knowledge transfer">unintended knowledge transfer</span>
+than teaching alone.
+Team teaching is particularly beneficial in day-long workshops:
+it gives each teacher's voice a chance to rest
+and reduces the risk that they will be so tired by the end of the day
+that they will start snapping at their learners
+or fumbling at their keyboard.</p>
+<blockquote>
+<h3>Helping</h3>
+<p>Many people who aren't comfortable teaching
+are willing and able to provide in-class technical support.
+They can help learners with setup and installation,
+answer technical questions during exercises,
+monitor the room to spot people who may need help,
+or keep an eye on the shared notes (<a class="secref" href="#classroom-notetaking">Section&nbsp;9.7</a>),
+and either answer questions</p>
+<p>Helpers are sometimes people training to become teachers
+(i.e. they're Teacher B in the teach and assist model),
+but they can also be members of the host institution's technical support staff,
+alumni of the class,
+or advanced learners who already know the material well.
+Using the latter as helpers is doubly effective:
+not only are they more likely to understand the problems their peers are having,
+it also stops them from getting bored.
+This helps the whole class stay engaged because boredom is infectious:
+if a handful of people start checking out,
+the people around them will follow suit.</p>
+</blockquote>
+<p>If you and a partner are co-teaching:</p>
+<ul>
+<li>
+<p>Take 2--3 minutes before the start of each class
+to confirm who's teaching what.
+If you have time,
+try drawing or reviewing a concept map together.</p>
+</li>
+<li>
+<p>Use that time to work out a couple of hand signals as well.
+&quot;You're going too fast,&quot;
+&quot;speak up,&quot;
+&quot;that learner needs help,&quot;
+and, &quot;It's time for a bathroom break&quot; are all useful.</p>
+</li>
+<li>
+<p>Each person should teach for at least 10--15 minutes at a stretch,
+since learners will be distracted by more frequent switch-ups.</p>
+</li>
+<li>
+<p>The person who isn't teaching shouldn't interrupt,
+offer corrections or elaborations,
+or do anything else to distract from what the person teaching is doing or saying.
+The one exception is to ask leading questions
+if the learners seem lethargic or unsure of themselves.</p>
+</li>
+<li>
+<p>Each person should take a couple of minutes before they start teaching
+to see what their partner is going to teach after they're done,
+and then <em>not</em> present any of that material.</p>
+</li>
+<li>
+<p>The person who isn't teaching should stay engaged with the class,
+not catch up on their email.
+Monitoring the shared notes (<a class="secref" href="#classroom-notetaking">Section&nbsp;9.7</a>),
+keeping an eye on the learners to see who's struggling,
+jotting down some feedback to give your teaching partner at the next break---anything
+that contributes to the lesson is better than anything that doesn't.</p>
+</li>
+</ul>
+<p>Most importantly,
+take a few minutes when the class is over to congratulate or commiserate with each other:
+in teaching as in life,
+shared misery is lessened and shared joy increased.</p>
+<h2 id="classroom-prior">Assess Prior Knowledge</h2>
+<p>The more you know about your learners before you start teaching,
+the more you will be able to help them.
+Inside a formal school system,
+the prerequisites to your course will tell you something about
+what they're likely to already know.
+In a free-range setting,
+though,
+your learners may be much more diverse,
+so you may want to give them a short survey or questionnaire in advance of your class
+to find out what knowledge and skills they have.</p>
+<p>Asking people to rate themselves on a scale from 1 to 5 is <span i="self-assessment (perils of)">pointless</span>
+because the less people know about a subject,
+the less accurately they can estimate their knowledge
+(<a class="figref" href="#f:classroom-dunning-kruger">Figure&nbsp;9.1</a>,
+from <a href="https://theness.com/neurologicablog/index.php/misunderstanding-dunning-kruger/">Neurologica</a>),
+a phenomenon called the <span g="g:dunning-kruger-effect">Dunning-Kruger effect</span> [<a href="../bibliography/#Krug1999">Krug1999</a>].
+Conversely,
+people who are members of underrepresented groups will often underrate their skills.</p>
+<figure id="f:classroom-dunning-kruger">
+  <img src="dunning-kruger.png" alt="Figure&nbsp;9.1: The Dunning-Kruger Effect"/>
+  <figcaption>Figure&nbsp;9.1: The Dunning-Kruger Effect</figcaption>
+</figure>
+<p>Rather than asking people to self-assess,
+you can ask them how easily they could complete some specific tasks.
+Doing this is risky,
+though,
+because school trains people
+to treat anything that looks like an exam as something they have to pass
+rather than as a chance to shape instruction.
+If someone answers &quot;I don't know&quot; to even a couple of questions on your pre-assessment,
+they might conclude that your class is too advanced for them.
+You could therefore scare off many of the people you most want to help.</p>
+<p><a class="secref" href="../checklists/#checklists-preassess">Section&nbsp;G.5</a> presents a short pre-assessment questionnaire
+that most potential learners are unlikely to find intimidating.
+If you use it or anything like it,
+try to follow up with people who <em>don't</em> respond to find out why not
+and compare your evaluation of learners with their self-assessment
+to improve your questions.</p>
+<h2 id="classroom-mixed">Plan for Mixed Abilities</h2>
+<p>If your learners have widely <span i="mixed abilities (accommodating)">varying levels of prior knowledge</span>,
+you can easily wind up in a situation where a third of your class is lost
+and a third is bored.
+That's unsatisfying for everyone,
+but there are some strategies you can use to manage the situation:</p>
+<ul>
+<li>
+<p>Before running a workshop,
+communicate its level clearly to everyone
+by showing a few examples of exercises that they will be asked to complete.
+This helps potential participants gauge the level of the class
+far more effectively than a point-form list of topics.</p>
+</li>
+<li>
+<p>Provide extra self-paced exercises
+so that more advanced learners don't finish early and get bored.</p>
+</li>
+<li>
+<p>Keep an eye out for learners who are falling behind
+and intervene early so that they don't become frustrated and give up.</p>
+</li>
+<li>
+<p>Ask more advanced learners to help people next to them
+(see <a class="secref" href="#classroom-pair">Section&nbsp;9.6</a> below).</p>
+</li>
+</ul>
+<p>One other way to accommodate mixed abilities is
+to have everyone work through material on their own at their own pace
+as they would in an online course,
+but to do it simultaneously and side by side
+with helpers roaming the room to get people unstuck.
+Some people will go three or four times further than others when workshops are run like this,
+but everyone will have had a rewarding and challenging day.</p>
+<blockquote>
+<h3>False Beginners</h3>
+<p>A <span g="g:false-beginner">false beginner</span> is someone
+who has studied a language before but is learning it again.
+They may be indistinguishable from <span g="g:absolute-beginner" i="absolute beginner">absolute beginners</span>
+on pre-assessment tests,
+but they are able to move much more quickly once the class starts</p>
+<p>Being a false beginner is often a sign of <span g="g:preparatory-privilege">preparatory privilege</span> [<a href="../bibliography/#Marg2010">Marg2010</a>],
+and false beginners are common in free-range programming classes.
+For example,
+a child whose family is affluent enough to have sent them to a robotics summer camp
+may do poorly on a pre-test of programming knowledge
+because the material isn't fresh in their mind,
+but still has an advantage over a child from a less fortunate background.
+The strategies described above can help level the playing field in cases like this,
+but again,
+the real solution is to use your own privilege
+to address larger out-of-class factors [<a href="../bibliography/#Part2011">Part2011</a>].</p>
+</blockquote>
+<p>The most important thing is to accept that
+you can't help everyone all of the time.
+If you slow down to accommodate two people who are struggling,
+you are failing the other eighteen.
+Equally,
+if you spend a few minutes talking about an advanced topic to a learner who is bored,
+the rest of the class will feel left out.</p>
+<h2 id="classroom-pair">Pair Programming</h2>
+<p><span g="g:pair-programming" i="pair programming">Pair programming</span> is a software development practice
+in which <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q">two programmers work together on one computer</a>.
+One person (the driver) does the typing
+while the other (the navigator) offers comments and suggestions,
+and the two switch roles several times per hour.</p>
+<p>Pair programming is an effective practice in professional work [<a href="../bibliography/#Hann2009">Hann2009</a>]
+and is also a good way to teach:
+benefits include increased success rate in introductory courses,
+better software,
+and higher learner confidence in their solutions.
+There is also evidence that learners from underrepresented groups
+benefit even more than others [<a href="../bibliography/#McDo2006">McDo2006</a>, <a href="../bibliography/#Hank2011">Hank2011</a>, <a href="../bibliography/#Port2013">Port2013</a>, <a href="../bibliography/#Cele2018">Cele2018</a>].
+Partners can help each other out during practical exercises,
+clarify each other's misconceptions when the solution is presented,
+and discuss common interests during breaks.
+I have found it particularly helpful with mixed-ability classes,
+since pairs are more homogeneous than individuals.</p>
+<p>When you use pairing,
+put <em>everyone</em> in pairs,
+not just learners who are struggling,
+so that no one feels singled out.
+It's also useful to have people sit in new places
+(and hence pair with different partners)
+on a regular basis,
+and to have people switch roles within each pair three or four times per hour
+so that the stronger personality in each pair doesn't dominate the session.</p>
+<p>If your learners are new to pair programming,
+take a few minutes to demonstrate what it actually looks like
+so that they understand that
+the person who doesn't have their hands on the keyboard
+isn't supposed to just sit and watch.
+Finally,
+tell them that people who focus on trying to complete the task as quickly as possible
+are less fair in their sharing [<a href="../bibliography/#Lewi2015">Lewi2015</a>].</p>
+<blockquote>
+<h3>Switching Partners</h3>
+<p>Teachers have mixed opinions on whether people should be required to change partners at regular intervals.
+On the one hand it gives everyone a chance to gain new insights and make new friends.
+On the other,
+moving computers and power adapters to new desks several times a day is disruptive,
+and pairing can be uncomfortable for introverts.
+That said,
+[<a href="../bibliography/#Hann2010">Hann2010</a>] found weak correlation between the &quot;Big Five&quot; personality traits
+and performance in pair programming,
+although an earlier study [<a href="../bibliography/#Wall2009">Wall2009</a>] found that
+pairs whose members had differing levels of personality traits communicated more often.</p>
+</blockquote>
+<h2 id="classroom-notetaking">Take Notes…Together?</h2>
+<p><span i="note-taking">Note-taking</span> is a form of real-time elaboration (<a class="secref" href="../individual/#individual-strategies">Section&nbsp;5.1</a>):
+it forces you to organize and reflect on material as it's coming in,
+which in turn increases the likelihood that you will transfer it to long-term memory.
+Many studies have shown that
+taking notes while learning improves retention [<a href="../bibliography/#Aike1975">Aike1975</a>, <a href="../bibliography/#Boha2011">Boha2011</a>].
+While it has not yet been widely studied [<a href="../bibliography/#Ornd2015">Ornd2015</a>, <a href="../bibliography/#Yang2015">Yang2015</a>],
+I have found that having learners take notes together in a shared online page is also effective:</p>
+<ul>
+<li>
+<p>It allows people to compare what they think they're hearing
+with what other people are hearing,
+which helps them fill in gaps and correct misconceptions right away.</p>
+</li>
+<li>
+<p>It gives the more advanced learners in the class something useful to do.
+Rather than getting bored and checking Instagram during class,
+they can take the lead in recording what's being said,
+which keeps them engaged
+and allows less advanced learners to focus more of their attention on new material.</p>
+</li>
+<li>
+<p>The notes the learners take are usually more helpful <em>to them</em>
+than those the teacher would prepare in advance,
+since the learners are more likely to write down what they actually found new
+rather than what the teacher predicted would be new.</p>
+</li>
+<li>
+<p>Glancing at recent notes while learners are working on an exercise
+helps the teacher discover that the class missed or misunderstood something.</p>
+</li>
+</ul>
+<blockquote>
+<h3>Is the Pen Mightier than the Keyboard?</h3>
+<p>[<a href="../bibliography/#Muel2014">Muel2014</a>] reported that taking notes on a computer
+is generally less effective than taking notes using pen and paper.
+While their result was widely shared,
+[<a href="../bibliography/#More2019">More2019</a>] was unable to replicate it.</p>
+</blockquote>
+<p>If learners are taking notes together,
+you can also have them paste in short snippets of code
+and point-form or sentence-length answers to formative assessment questions.
+To prevent everyone from trying to edit the same couple of lines at the same time,
+make a list of everyone's name and paste it into the document
+whenever you want each person to answer a question.</p>
+<p>Learners often find that taking notes together is distracting
+the first time they try it
+because they have to split their attention between
+what the teacher is saying
+and what their peers are writing (<a class="secref" href="../architecture/#architecture-brain">Section&nbsp;4.1</a>).
+If you are only working with a particular group once,
+you should therefore heed the advice in <a class="secref" href="#classroom-innovate">Section&nbsp;9.12</a>
+and have them take notes individually.</p>
+<blockquote>
+<h3>Points for Improvement</h3>
+<p>One way to demonstrate to learners that they are learning <em>with</em> you,
+not just <em>from</em> you,
+is to allow them to take notes by editing (a copy of) your lesson.
+Instead of posting PDFs for them to download,
+create editable copies of your slides, notes, and exercises
+in a wiki,
+a Google Doc,
+or anything else that allows you to review and comment on changes.
+Giving people credit for fixing mistakes,
+clarifying explanations,
+adding new examples,
+and writing new exercises doesn't reduce your workload,
+but increases engagement and the lesson's lifetime
+(<a class="secref" href="../process/#process-maintainability">Section&nbsp;6.4</a>).</p>
+</blockquote>
+<h2 id="classroom-sticky-notes">Sticky Notes</h2>
+<p>Sticky notes are one of my favorite teaching tools,
+and I'm not alone in loving their versatility,
+portability, stickability, foldability,
+and subtle yet alluring aroma [<a href="../bibliography/#Ward2015">Ward2015</a>].</p>
+<h3>As Status Flags</h3>
+<p>Give each learner two <span i="sticky notes!as status flags">sticky notes</span> of different colors,
+such as orange and green.
+These can be held up for voting,
+but their real use is as status flags.
+If someone has completed an exercise and wants it checked,
+they put the green sticky note on their laptop;
+if they run into a problem and need help,
+they put up the orange one.
+This works much better than having people raise their hands:
+it's more discreet (which means they're more likely to actually do it),
+they can keep working while their flag is raised rather than trying to type one-handed,
+and the teacher can quickly see from the front of the room what state the class is in.
+Status flags are particularly helpful when people in mixed-ability classes
+are working through material at their own speed (<a class="secref" href="#classroom-mixed">Section&nbsp;9.5</a>).</p>
+<p>Once your learners are comfortable with two stickies,
+give them a third that they can put up when their brains are full
+or they need a bathroom break<sup>A colleague once told me that
+the basic unit of teaching is the bladder.
+When I said I'd never thought of that,
+she said, &quot;You've obviously never been pregnant.&quot;</sup>.
+Again,
+adults are more likely to post a sticky than to raise their hand,
+and once one blue sticky note goes up,
+a flurry of others usually follows.</p>
+<h3>To Distribute Attention</h3>
+<p>Sticky notes can also be used to ensure
+<span i="sticky notes!to distribute attention">the teacher's attention is fairly distributed</span>.
+Have each learner write their name on a sticky note
+and put it on their laptop.
+Each time the teacher calls on them or answers one of their questions,
+they take their sticky note down.
+Once all the sticky notes are down,
+everyone puts theirs up again.</p>
+<p>This technique makes it easy for the teacher to see who they haven't spoken with recently,
+which in turn helps them avoid unconscious bias
+and interacting preferentially with their most extroverted learners.
+Without a check like this,
+it's all too easy to create a feedback loop in which extroverts get more attention,
+which leads to them doing better,
+which in turn leads to them getting more attention,
+while quieter, less confident, or marginalized learners are left behind [<a href="../bibliography/#Alvi1999">Alvi1999</a>, <a href="../bibliography/#Juss2005">Juss2005</a>].</p>
+<p>It also shows learners that attention is being distributed fairly
+so that when they <em>are</em> called on,
+they won't feel like they're being picked on.
+When I am working with a new group,
+I allow people to take down their own sticky notes
+during the first hour or two of class
+if they would rather not be called on.
+If they keep doing this as time goes on,
+I try to have a quiet conversation with them to find out why
+and to see if there's anything I can do to make them more comfortable.</p>
+<h3>As Minute Cards</h3>
+<p>You can also use sticky notes as <span g="g:minute-cards" i="minute card">minute cards</span>.
+Before each break,
+learners take a minute to write one thing on the green sticky note
+that they think will be useful
+and one thing on the orange note
+that they found too fast,
+too slow,
+confusing,
+or irrelevant.
+While they are enjoying their coffee or lunch,
+review their notes and look for patterns.
+It takes less than five minutes to see what learners in a 40-person class are enjoying,
+what they are confused by,
+what problems they're having,
+and what questions you have not yet answered.</p>
+<p>Learners should not sign their minute cards:
+they are meant as anonymous feedback.
+The one-up/one-down technique described in <a class="secref" href="#classroom-practices">Section&nbsp;9.11</a>
+is a chance for collective, attributable feedback.</p>
+<h2 id="classroom-blank">Never a Blank Page</h2>
+<p>Programming workshops and other kinds of classes
+can be built around a set of independent exercises,
+develop a single extended example in stages,
+or use a mixed strategy.
+The two main advantages of independent exercises are that
+people who fall behind can easily re-synchronize
+and that lesson developers can add, remove, and rearrange material at will
+(<a class="secref" href="../process/#process-maintainability">Section&nbsp;6.4</a>).
+A single extended example,
+on the other hand,
+will show learners how the bits and pieces they're learning fit together:
+in educational parlance,
+it provides more opportunity for them to integrate their knowledge.</p>
+<p>Whichever approach you take,
+novices should never start doing exercises with a blank page or screen,
+since they often find this intimidating or bewildering.
+If they have been following along as you do live coding,
+ask them to add a few more lines
+or to modify the example you have built up.
+Alternatively, if they are taking notes together,
+paste a few lines of starter code into the document
+for them to extend or modify.</p>
+<p>Modifying existing code instead of writing new code from scratch
+doesn't just give learners structure:
+it is also closer to what they will do in real life.
+Keep in mind,
+though,
+that learners may be distracted by trying to understand all of the starter code
+rather than doing their own work.
+Java's <code>public static void main()</code>
+or a handful of <code>import</code> statements at the top of a Python program
+may make sense to you,
+but is extraneous load to them (<a class="secref" href="../architecture/#architecture">Chapter&nbsp;4</a>).</p>
+<h2 id="classroom-setup">Setting Up Your Learners</h2>
+<p>Free-range learners often want bring their own computers
+and to leave the class with those machines set up to do real work.
+Free-range teachers should therefore prepare to teach on both Windows and MacOS<sup>&quot;And Linux!&quot;
+someone shouts from the back of the room.</sup>,
+even though it would be simpler to require learners to use just one.</p>
+<blockquote>
+<h3>Common Denominators</h3>
+<p>If your participants are using different operating systems,
+try to avoid using features which are specific to just one
+and point out any that you <em>do</em> use.
+For example,
+the &quot;minimize window&quot; controls and behavior on Windows are different
+from those on MacOS.</p>
+</blockquote>
+<p>No matter how many platforms you have to deal with,
+put detailed setup instructions on your course website
+and email learners a couple of days before the workshop starts
+to remind them to do the setup.
+A few people will still show up without the required software because
+they ran into problems,
+couldn't find time to complete all the steps,
+or are simply the sort of person who never follows instructions in advance.
+To detect this,
+have everyone run some simple command as soon as they arrive
+and show the teachers the result,
+then get helpers and other learners
+to assist people who have run into trouble.</p>
+<blockquote>
+<h3>Virtual Machines</h3>
+<p>Some people use tools like <a href="http://docker.com">Docker</a>
+to put <span i="virtual machines">virtual machines</span> on learners' computers
+so that everyone is working with exactly the same tools,
+but this introduces a new set of problems.
+Older or smaller machines simply aren't fast enough to run them,
+learners struggle to switch back and forth
+between two different sets of keyboard shortcuts for things like copying and pasting,
+and even competent practitioners will become confused about what exactly is happening where.</p>
+</blockquote>
+<p>Setting up is so complicated that
+many teachers prefer to have learners use browser-based tools instead.
+However,
+this makes the class dependent on <span i="institutional WiFi (perils of)">institutional WiFi</span>
+(which can be of highly variable quality)
+and doesn't satisfy learners' desire to leave with their own machines ready for real-world use.
+As cloud-based tools like <a href="https://glitch.com/">Glitch</a>
+and <a href="http://rstudio.cloud">RStudio Cloud</a> become more robust,
+though,
+the latter consideration is becoming less important.</p>
+<p>One last way to tackle setup issues is to split the class over several days,
+and to have people install what's required for each day
+before leaving class on the day before.
+Dividing the work into chunks makes each one less intimidating,
+learners are more likely to actually do it,
+and it ensures that you can start on time for every lesson except the first.</p>
+<h2 id="classroom-practices">Other Teaching Practices</h2>
+<p>None of the smaller practices described below are essential,
+but all will improve lesson delivery.
+As with chess and marriage,
+success in teaching is often a matter of slow, steady progress.</p>
+<h3>Start With Introductions</h3>
+<p>Begin your class by introducing yourself.
+If you're an expert,
+tell them a bit about how you got to where you are;
+if you're only two steps ahead of them,
+emphasize what you and they have in common.
+Whatever you say,
+your goals are to make yourself more approachable
+and to encourage their belief that they can succeed.</p>
+<p>Learners should also introduce themselves to each other.
+In a class of a dozen,
+they can do this verbally;
+in a larger class or if they are strangers to one another,
+I find it's better to have them each write a line or two about themselves
+in the shared notes (<a class="secref" href="#classroom-notetaking">Section&nbsp;9.7</a>).</p>
+<h3>Set Up Your Own Environment</h3>
+<p>Setting up your environment is just as important as setting up your learners',
+but more involved.
+As well as having network access and all the software you're going to use,
+you should also have a glass of water
+or a cup of tea or coffee.
+This helps keep your throat lubricated,
+but its real purpose is to give you an excuse to pause and think for a couple of seconds
+when someone asks a hard question
+or when you lose track of what you were going to say next.
+You will probably also want some whiteboard pens
+and a few of the other things described in <a class="secref" href="../checklists/#checklists-events">Section&nbsp;G.3</a>.</p>
+<p>One way to keep your day-to-day work from getting in the way of your teaching
+is to create a separate account on your computer for the latter.
+Use system defaults for everything in this second account,
+along with a larger font and a blank screen background,
+and turn off notifications so that your teaching isn't interrupted by pop-ups.</p>
+<h3>Avoid Homework in All-Day Formats</h3>
+<p>Learners who have spent an entire day programming will be tired.
+If you give them homework to do after hours,
+they'll start the next day tired as well,
+so don't.</p>
+<h3>Don't Touch the Learner's Keyboard</h3>
+<p>It's often tempting to fix things for learners,
+but even if you narrate every step,
+it's likely to demotivate them
+by emphasizing the gap between their knowledge and yours.
+Instead,
+keep your hands off the keyboard and talk your learners through whatever they need to do:
+it will take longer,
+but it's more likely to stick.</p>
+<h3>Repeat the Question</h3>
+<p>Whenever someone asks a question in class,
+repeat it back to them before answering
+to check that you've understood it
+and to give people who might not have heard it a chance to do so.
+This is particularly important when presentations are being recorded or broadcast,
+since your microphone will usually not pick up what other people are saying.
+Repeating questions back also gives you a chance
+to redirect the question to something you're more comfortable answering…</p>
+<h3>One Up, One Down</h3>
+<p>An adjunct to minute cards is to ask for summary feedback at the end of each day.
+Learners alternately give either one positive or one negative point about the day
+without repeating anything that has already been said.
+The ban on repeats forces people to say things they otherwise might not:
+once all the &quot;safe&quot; feedback has been given,
+participants will start saying what they really think.</p>
+<blockquote>
+<h3>Different Modes, Different Answers</h3>
+<p>Minute cards (<a class="secref" href="#classroom-sticky-notes">Section&nbsp;9.8</a>) are anonymous;
+the alternating up-and-down feedback is not.
+You should use the two together
+because anonymity allows both honesty and trolling.</p>
+</blockquote>
+<h3>Have Learners Make Predictions</h3>
+<p>Research has shown that people learn more from demonstrations
+if they are asked to predict what's going to happen [<a href="../bibliography/#Mill2013">Mill2013</a>].
+Doing this fits naturally into live coding:
+after adding or changing a few lines of a program,
+ask the class what is going to happen when it runs.
+If the example is even moderately complex,
+prediction can serve as a motivating question for a round of peer instruction.</p>
+<h3>Setting Up Tables</h3>
+<p>You may not have any control over the layout of the desks or tables
+in the room in which you teach,
+but if you do,
+we find it's best to have flat (dinner-style) seating
+rather than banked (theater-style) seating
+so that you can reach learners who need help more easily
+and so that it's easier for learners to pair with one another (<a class="secref" href="#classroom-mixed">Section&nbsp;9.5</a>).
+In-floor power outlets so that you don't have to run power cords across the floor
+make life easier as well as safer,
+but are still uncommon.</p>
+<p>Whatever layout you have,
+try to make sure that every seat has an unobstructed view of the screen.
+Good back support is important too,
+since people are going to be in them for an extended period.
+Like in-floor power outlets,
+good classroom seating is still unfortunately uncommon.</p>
+<h3>Cough Drops</h3>
+<p>If you talk all day to a room full of people,
+your throat gets raw because you are irritating the epithelial cells in your larynx and pharynx.
+This doesn't just make you hoarse---it also makes you more vulnerable to infection
+(which is part of the reason people often come down with colds after teaching).</p>
+<p>The best way to protect yourself against this is to keep your throat lined,
+and the best way to do that is to use cough drops early and often.
+Good ones will also mask the onset of coffee breath,
+for which your learners will probably be grateful.</p>
+<h3>Think-Pair-Share</h3>
+<p><span g="g:think-pair-share" i="think-pair-share">Think-pair-share</span> is a lightweight technique
+that helps people improve ideas
+through discussion with their peers.
+Each person starts by thinking individually about a question or problem
+and jotting down a few notes.
+They then explain their ideas to each another in pairs,
+merging them or selecting the most promising.
+Finally,
+a few pairs present their ideas to the whole group.</p>
+<p>Think-pair-share works because it forces people to externalize their cognition
+(<a class="secref" href="../memory/#memory-concept-maps">Section&nbsp;3.2</a>).
+It also gives them a chance to spot and resolve gaps or contradictions in their ideas
+<em>before</em> exposing them to a larger group,
+which can make less extroverted learners a little less nervous
+about appearing foolish.</p>
+<h3>Morning, Noon, and Night</h3>
+<p>[<a href="../bibliography/#Smar2018">Smar2018</a>] found that
+learners do less well
+if their classes and other work are scheduled at times that don't line up with their natural body clocks,
+i.e. that if a morning person takes night classes or vice versa,
+their grades suffer.
+It's usually not possible to accommodate this in small groups,
+but larger ones should try to stagger start times for parallel sessions.
+This can also help people juggling childcare responsibilities and other constraints,
+and reduce the length of lineups at coffee breaks and for washrooms.</p>
+<h3>Humor</h3>
+<p>Humor should be used sparingly when teaching:
+most jokes are less funny when written down
+and become even less funny with each re-reading.
+Being spontaneously funny while teaching usually works better
+but can easily go wrong:
+what's a joke to your circle of friends
+may turn out to be a serious political issue to your audience.
+If you do make jokes when teaching,
+don't make them at the expense of any group,
+or of any individual except possibly yourself.</p>
+<h2 id="classroom-innovate">Limit Innovation</h2>
+<p>Each of the techniques presented in this chapter will make your classes better,
+but you shouldn't try to adopt them all at once.
+The reason is that every new practice increases <em>your</em> cognitive load as well as your learners',
+since you are all now trying to learn a new way to learn
+as well as the lesson's subject matter.
+If you are working with a group repeatedly,
+you can introduce one new technique every few lessons;
+if you only have them for a one-day workshop,
+it's best to pick just one method they haven't seen before
+and get them comfortable with that.</p>
+<h2 id="classroom-exercises">Exercises</h2>
+<h3 class="exercise">Create a Questionnaire (individual/20)</h3>
+<p>Using the questionnaire in <a class="secref" href="../checklists/#checklists-preassess">Section&nbsp;G.5</a> as a template,
+create a short questionnaire you could give learners before teaching a class of your own.
+What do you most want to know about their background,
+and how can both parties be sure they agree on what level of understanding you're asking about?</p>
+<h3 class="exercise">One of Your Own (whole class/15)</h3>
+<p>Think of one teaching practice that hasn't been described so far.
+Present your idea to a partner,
+listen to theirs,
+and select one to present to the group as a whole.
+(This exercise is an example of think-pair-share.)</p>
+<h3 class="exercise">May I Drive? (pairs/10)</h3>
+<p>Swap computers with a partner
+(preferably one who uses a different operating system than you)
+and work through a simple programming exercise.
+How frustrating is it?
+How much insight does it give you into what novices have to go through all the time?</p>
+<h3 class="exercise">Pairing (pairs/15)</h3>
+<p>Watch <a href="https://www.youtube.com/watch?v=vgkahOzFH2Q">this video</a> of pair programming
+and then practice doing it with a partner.
+Remember to switch roles between driver and navigator every few minutes.
+How long does it take you to fall into a working rhythm?</p>
+<h3 class="exercise">Compare Notes (small groups/15)</h3>
+<p>Form groups of 3--4 people
+and compare the notes you have taken on this chapter.
+What did you think was noteworthy that your peers missed and vice versa?
+What did you understand differently?</p>
+<h3 class="exercise">Credibility (individual/15)</h3>
+<p>[<a href="../bibliography/#Fink2013">Fink2013</a>] describes three things
+that make teachers credible in their learners' eyes:</p>
+<dl>
+<dt>Competence:</dt>
+<dd>knowledge of the subject
+as shown by the ability to explain complex ideas
+or reference the work of others.</dd>
+<dt>Trustworthiness:</dt>
+<dd>having the learners' best interests in mind.
+This can be shown by giving individualized feedback,
+offering a rational explanation for grading decisions,
+and treating all learners the same.</dd>
+<dt>Dynamism:</dt>
+<dd>excitement about the subject (<a class="secref" href="../performance/#performance">Chapter&nbsp;8</a>).</dd>
+</dl>
+<p>Describe one thing you do when teaching that fits into each category,
+and then describe one thing you don't do but should.</p>
+<h3 class="exercise">Measuring Effectiveness (individual/15)</h3>
+<p>[<a href="../bibliography/#Kirk1994">Kirk1994</a>] defines four levels at which to evaluate training:</p>
+<dl>
+<dt>Reaction:</dt>
+<dd>how did the learners feel about the training?</dd>
+<dt>Learning:</dt>
+<dd>how much did they actually learn?</dd>
+<dt>Behavior:</dt>
+<dd>how much have they changed their behavior as a result?</dd>
+<dt>Results:</dt>
+<dd>how have those changes in behavior affected their output
+or the output of their group?</dd>
+</dl>
+<p>What are you doing at each level to evaluate what and how you teach?
+What could you do that you're not doing?</p>
+<h3 class="exercise">Objections and Counter-Objections (think-pair-share/15)</h3>
+<p>You have decided not to ask your learners if your class was useful
+because you know there is no correlation between their answers
+and how much they actually learn (<a class="secref" href="../pck/#pck-now">Section&nbsp;7.2</a>).
+Instead,
+you have put forward four proposals,
+each of which your colleagues have shot down:</p>
+<dl>
+<dt>See if they recommend the class to friends.</dt>
+<dd>Why would this be any more meaningful
+than asking them how they feel about the class?</dd>
+<dt>Give them an exam at the end.</dt>
+<dd>But how much learners know at the end of the day
+is a poor predictor of how much they will remember two or three months later,
+and any kind of final exam will make the class a lot more stressful.</dd>
+<dt>Give them an exam two or three months later.</dt>
+<dd>That's practically impossible with free-range learners,
+and the people who didn't get anything out of the workshop
+are probably less likely to take part in follow-up,
+so feedback gathered this way will be skewed.</dd>
+<dt>See if they keep using what they learned.</dt>
+<dd>Installing spyware on learners' computers is frowned upon,
+so how will this be implemented?</dd>
+</dl>
+<p>Working on your own,
+come up with answers to these objections,
+then share your responses with a partner
+and discuss the approaches you have come up with.
+When you are done,
+share your favored approach with the class.</p>
+
+    </main>
+    <footer>
+  <hr/>
+  <p>
+    Copyright © 2022 Greg Wilson
+    &nbsp;
+    <a href="../license/"><img class="icon" src="../static/cc-by-nc.svg" alt="CC-BY-NC icon"/></a>
+    <a href="../license/"><img class="icon" src="../static/hippocratic.svg" alt="Hippocratic License icon"/></a>
+    <a href="https://github.com/gvwilson/teachtogether.tech/"><img class="icon" src="../static/github.svg" alt="GitHub icon"/></a>
+    <a href="mailto:gvwilson@third-bit.com"><img class="icon" src="../static/email.svg" alt="email icon"/></a>
+  </p>
+</footer>
+
+  </body>
+</html>
