@@ -20,35 +20,29 @@ Rate each item as "Yes," "Iffy," "No," or "Not Applicable."
 <tr><td>  </td><td> Introduces self </td></tr>
 <tr><td>  </td><td> Introduces topics to be covered </td></tr>
 <tr><td>  </td><td> Describes prerequisites </td></tr>
-
 <tr><td> Content </td><td> Clear goal/narrative arc </td></tr>
 <tr><td> </td><td> Inclusive language </td></tr>
 <tr><td> </td><td> Authentic tasks/examples </td></tr>
 <tr><td> </td><td> Teaches best practices/uses idiomatic code </td></tr>
 <tr><td> </td><td> Steers a path between the Scylla of jargon and the Charybdis of over-simplification </td></tr>
-
 <tr><td> Delivery </td><td> Clear, intelligible voice (use "Iffy" or "No" for strong accent) </td></tr>
 <tr><td> </td><td> Rhythm: not too fast or too slow, no long pauses or self-interruption, not obviously reading from a script </td></tr>
 <tr><td> </td><td> Self-assured: does not stray into the icky tarpit of uncertainty or the dungheap of condescension </td></tr>
-
 <tr><td> Slides </td><td> Exist (use N/A for other responses if not) </td></tr>
 <tr><td> </td><td> Slides and speech complement one another (dual coding) </td></tr>
 <tr><td> </td><td> Readable fonts and colors/no overwhelming slabs of text </td></tr>
 <tr><td> </td><td> Frequent change on screen (something every 30 seconds) </td></tr>
 <tr><td> </td><td> Good use of graphics </td></tr>
-
 <tr><td> Live Coding </td><td> Used (use N/A for other responses if not) </td></tr>
 <tr><td> </td><td> Code and speech complement one another </td></tr>
 <tr><td> </td><td> Readable fonts and colors/right amount of code on the screen </td></tr>
 <tr><td> </td><td> Proficient use of tools </td></tr>
 <tr><td> </td><td> Highlights key features of code </td></tr>
 <tr><td> </td><td> Dissects errors </td></tr>
-
 <tr><td> Closing </td><td> Exists (use N/A for other responses if it doesn't) </td></tr>
 <tr><td> </td><td> Good length (10--30 seconds) </td></tr>
 <tr><td> </td><td> Summarizes key points </td></tr>
 <tr><td> </td><td> Outlines next steps </td></tr>
-
 <tr><td> Overall </td><td> Points clearly connected/logical flow </td></tr>
 <tr><td> </td><td> Make the topic interesting (i.e. not boring) </td></tr>
 <tr><td> </td><td> Knowledgeable </td></tr>
@@ -66,21 +60,18 @@ your own. Rate each item as "Yes," "Iffy," "No," or "Not Applicable."
 <tr><td> </td><td> Articulates ideas clearly and concisely </td></tr>
 <tr><td> </td><td> Gives good reasons for ideas </td></tr>
 <tr><td> </td><td> Wins support from others </td></tr>
-
 <tr><td> Decision Making </td><td> Analyzes problems from different points of view </td></tr>
 <tr><td> </td><td> Applies logic in solving problems </td></tr>
 <tr><td> </td><td> Offers solutions based on facts rather than "gut feel" or intuition </td></tr>
 <tr><td> </td><td> Solicits new ideas from others </td></tr>
 <tr><td> </td><td> Generates new ideas </td></tr>
 <tr><td> </td><td> Accepts change </td></tr>
-
 <tr><td> Collaboration </td><td> Acknowledges issues that the team needs to confront and resolve </td></tr>
 <tr><td> </td><td> Works toward solutions that are acceptable to all involved </td></tr>
 <tr><td> </td><td> Shares credit for success with others </td></tr>
 <tr><td> </td><td> Encourages participation among all participants </td></tr>
 <tr><td> </td><td> Accepts criticism openly and non-defensively </td></tr>
 <tr><td> </td><td> Cooperates with others </td></tr>
-
 <tr><td> Self-Management </td><td> Monitors progress to ensure that goals are met </td></tr>
 <tr><td> </td><td> Puts top priority on getting results </td></tr>
 <tr><td> </td><td> Defines task priorities for work sessions </td></tr>
