@@ -20,13 +20,13 @@ y en cómo podemos aprovecharlo para diseñar y brindar lecciones de manera más
   <figcaption>Arquitectura cognitiva</figcaption>
 </figure>
 
-La <a figure="f:arch-model"/> es un modelo simplificado de la arquitectura cognitiva humana. <span i="arquitectura cognitiva"></span>
+La <a figure="f:arch-model"/> es un modelo simplificado de la <span i="arquitectura cognitiva">arquitectura cognitiva</span> humana. 
 El núcleo de este modelo es la separación entre la memoria a corto y a largo plazo vistas en la <a section="memory-seven-plus-or-minus"/>.
-La memoria a largo plazo es como tu sótano:<span i="memoria a largo plazo"></span>
+La <span i="memoria a largo plazo">memoria a largo plazo</span> es como tu sótano:
 almacena objetos de forma más o menos permanente
 pero tu conciencia no puede acceder a ella directamente.
 En cambio,
-confías en tu memoria a corto plazo,<span i="memoria a corto plazo"></span>
+confías en tu <span i="memoria a corto plazo">memoria a corto plazo</span>,
 que es como el escritorio de tu mente.
 
 Cuando necesitas algo,
@@ -38,8 +38,8 @@ Si esa información no está codificada y almacenada, no se recuerda y esto sign
 no se ha aprendido.
 
 La información ingresa a la memoria a corto plazo principalmente
-a través de tu canal verbal (para el habla)<span i="canal verbal"></span>
-y del canal visual<span i="canal visual"></span>
+a través de tu <span i="canal verbal">canal verbal</span> (para el habla)
+y del <span i="canal visual">canal visual</span>
 (para las imágenes)<sup>
   Un modelo más completo
   también incluiría el sentido del tacto, del olfato y del gusto,
@@ -85,12 +85,12 @@ el uso de múltiples fuentes de información de manera simultánea debe tratarse
 
 > ### No todos los gráficos son equivalentes
 >
-> <cite>Sung2012</cite> presenta un elegante estudio que distingue los gráficos *seductores*<span i="gráficos!seductores"></span>
+> <cite>Sung2012</cite> presenta un elegante estudio que distingue los <span i="gráficos!seductores">gráficos *seductores*</span>
 > (los cuales son altamente interesantes pero no son directamente relevantes al objetivo de la enseñanza),
-> los gráficos *decorativos*<span i="gráficos!decorativos"></span>
+> los <span i="gráficos!decorativos">gráficos *decorativos*</span>
 > (los cuales son neutros pero no son directamente relevantes al objetivo de la enseñanza),
 > y por último
-> los gráficos *instructivos*<span i="gráficos!instructivos"></span>
+> los <span i="gráficos!instructivos">gráficos *instructivos*</span>
 > (los cuales sí son directamente relevantes al objetivo de la enseñanza).
 > Los/las estudiantes que recibieron cualquier tipo de gráfico calificaron al material
 > con un mayor puntaje, pero en verdad solo quienes recibieron gráficos instructivos
@@ -129,7 +129,7 @@ para resolver problemas del mundo real de forma realista?
 Sin embargo, pedir a los/las estudiantes que lo hagan en un nuevo dominio es una sobrecarga,
 ya que les exige que dominen al mismo tiempo el contenido fáctico de un dominio y las estrategias de resolución de problemas.
 Más específicamente,
-<span g="cognitive-load">la teoría de la carga cognitiva</span>{carga cognitiva!teoría} propone que
+la teoría de la <span g="cognitive-load" i="carga cognitiva!teoría">carga cognitiva</span> propone que
 las personas tienen que lidiar con tres cosas cuando está aprendiendo:
 
 <span g="intrinsic-load" i="carga cognitiva!intrínseca">Carga intrínseca</span>
@@ -142,7 +142,7 @@ las personas tienen que lidiar con tres cosas cuando está aprendiendo:
 <span g="extraneous-load" i="carga cognitiva!extrínseca">Carga extrínseca</span>
 : es cualquier cuestión que distraiga del aprendizaje.
 
-La teoría de la carga cognitiva sostiene que
+La <span i="carga cognitiva!teoría">teoría de la carga cognitiva</span> sostiene que
 las personas tienen que dividir una cantidad fija de memoria de trabajo entre estas tres cosas.
 Nuestro objetivo como docentes es maximizar la memoria disponible para manejar la carga intrínseca,
 lo cual significa reducir la carga pertinente en cada paso y eliminar la carga extrínseca.
@@ -229,7 +229,7 @@ y, finalmente, esto:
 <tr><td> x		</td><td> = </td><td>	_ </td></tr>
 </table>
 
-Un ejercicio similar para enseñar Python podría comenzar mostrando a estudiantes<span i="Python"></span>
+Un ejercicio similar para enseñar <span i="Python">Python</span> podría comenzar mostrando a estudiantes
 cómo encontrar la longitud total de una lista de palabras:
 
 ```text
@@ -314,7 +314,7 @@ se agregan repetidamente a una sola variable de alguna manera para crear el resu
 
 ### Sub-objetivos etiquetados
 
-<span g="subgoal-labeling">Etiquetar sub-objetivos</span>{etiquetar sub-objetivos} significa
+<span g="subgoal-labeling" i="etiquetar sub-objetivos">Etiquetar sub-objetivos</span> significa
 dar nombre a los pasos en una descripción paso a paso de un proceso de resolución de problemas.
 <cite>Marg2016,Morr2016</cite> descubrieron que al etiquetar los sub-objetivos, los/las estudiantes
 resolvían mejor los problemas de Parsons,
@@ -329,7 +329,7 @@ los objetivos secundarios para encontrar la longitud total de una lista de palab
 1. Actualiza el resultado con ese valor.
 
 Etiquetar sub-objetivos funciona porque agrupar los pasos relacionados
-en fragmentos con nombre (<a section="memory-seven-plus-or-minus"/>)<span i="fragmentos de código"></span>
+en <span i="fragmentos de código">fragmentos</span> con nombre (<a section="memory-seven-plus-or-minus"/>)
 ayuda a tus estudiantes a distinguir lo que es genérico de lo que es específico del problema en cuestión.
 También les ayuda a construir un modelo mental de ese tipo de problema,
 de modo que luego pueden resolver otros problemas de ese tipo,
@@ -337,8 +337,8 @@ y les da una oportunidad natural para la auto-explicación (<a section="individu
 
 ### Manuales mínimos
 
-La aplicación más pura de la teoría de la carga cognitiva puede ser el <span g="minimal-manual">manual mínimo</span> de
-John Carroll<span i="Carroll, John"></span> <cite>Carr1987,Carr2014</cite>.
+La aplicación más pura de la <span i="carga cognitiva!teoría">teoría de la carga cognitiva</span> puede ser el <span g="minimal-manual">manual mínimo</span> de
+<span i="Carroll, John">John Carroll</span> <cite>Carr1987,Carr2014</cite>.
 Su punto de partida es una cita de un usuario: "Quiero aprender a hacer algo, no aprender a hacer todo".
 Carroll y sus colegas rediseñaron la capacitación para presentar cada idea como una tarea autónoma de una sola página:
 un título que describa de qué trata la página,
@@ -363,7 +363,7 @@ independientemente de la experiencia previa con computadoras <cite>Lazo1993</cit
 
 ## Otros modelos de aprendizaje {#architecture-theory}
 
-Quienes critican la teoría de la carga cognitiva a veces han argumentado que<span i="carga cognitiva!críticas"></span>
+Quienes critican la <span i="carga cognitiva!críticas">teoría de la carga cognitiva</span> a veces han argumentado que
 cualquier resultado puede justificarse *a posteriori* al etiquetar como carga extrínseca a
 aquello que perjudica el rendimiento
 y como carga intrínseca o pertinente a aquello que no lo perjudica.
