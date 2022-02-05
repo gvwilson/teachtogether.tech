@@ -58,7 +58,7 @@ Quienes trabajamos en este proyecto somos (en orden alfabético):
 [Natalia Morandeira][k0144],
 [Lucía Rodríguez Planes][k0145],
 [Paloma Rojas][k0146],
-[Yuriko Sosa][k0147]
+[Yuriko Sosa][k0147],
 [Natalie Stroud][k0148],
 [Yara Terrazas-Carafa][k0149] y
 [Roxana Noelía Villafañe][k0150].
