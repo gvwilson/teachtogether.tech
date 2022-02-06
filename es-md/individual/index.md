@@ -74,9 +74,9 @@ esto significa que aprender a programar no ayudará a jugar ajedrez y viceversa.
 
 Las/los psicólogas/os estudian el aprendizaje en una amplia variedad de formas,
 pero han llegado a conclusiones similares sobre qué funciona realmente <cite>Mark2018</cite>.
-Las/Los [Learning Scientists][k0034] (Científicos/as del aprendizaje)
+Las/Los [Learning Scientists][learning-scientists] (Científicos/as del aprendizaje)
 han catalogado seis de estas estrategias y
-las resumieron en [una serie de afiches para descargar][k0032]<sup>Los afiches se encuentran en español,
+las resumieron en [una serie de afiches para descargar][learning-scientists-posters]<sup>Los afiches se encuentran en español,
 busca el botón *posters in other languages* en la web</sup>.
 Si enseñas estas estrategias a tus estudiantes,
 y las mencionas por su nombre cuando las utilices en la clase,
@@ -244,7 +244,7 @@ o, por el contrario, toma un problema en particular y enuncia los principios gen
 permite que las/los estudiantes puedan recordar las definiciones correctamente.
 
 Una forma estructurada de hacer esto es con
-el [método ADEPT][k0033]:
+el [método ADEPT][adept]:
 <span i="ADEPT (patrón de lección)"></span>
 <span i="patrón de lección!ADEPT"></span>
 da una <strong>A</strong>nalogía,
@@ -274,7 +274,7 @@ para que no se frustren buscando respuestas que no existen.
 <span i="extrategia de aprendizaje!codificación dual"></span>
 
 La última de las seis estrategias principales
-descriptas en [Learning Scientists][k0034]
+descriptas en [Learning Scientists][learning-scientists]
 es presentar palabras e imágenes juntas.
 Como discutimos en la <a section="architecture-brain"/>,
 diferentes subsistemas en nuestro cerebro manejan y almacenan la información lingüística y visual,
@@ -399,7 +399,7 @@ Lo que significa que si te interrumpieron seis veces por hora,
 
 > ### ¿Cómo lo supo?
 >
-> En su breve historia en 1961 "[Harrison Bergeron][k0035]",
+> En su breve historia en 1961 "[Harrison Bergeron][bergeron-harrison]",
 > Kurt Vonnegut describió un futuro en el que las personas están obligadas a ser iguales.
 > Las personas atractivas tienen que usar máscaras,
 > las personas atléticas tienen que cargar pesas---y las personas inteligentes
@@ -541,7 +541,7 @@ y delinea una pequeña lección que utilice los cinco pasos del método ADEPT pa
 
 ### El costo de la multitarea (parejas/10’) {.exercise}
 
-[El blog de The Learning Scientists][k0036]
+[El blog de The Learning Scientists][learning-scientists-blog]
 describe un experimento simple que puedes hacer con solo un cronómetro
 para demostrar el costo de hacer múltiples tareas a la vez.
 En parejas,
@@ -579,7 +579,7 @@ que incluye:
 1. Algunas personas son naturalmente mejores programadoras que otras.
 
 Cada persona de la clase es invitada a votar +1 (de acuerdo), -1 (en desacuerdo) o 0 (neutro) para cada punto.
-Luego, la/el docente lee la explicación completa en [el artículo original][k0063]
+Luego, la/el docente lee la explicación completa en [el artículo original][guzdial-myths]
 y se vuelve a hacer la votación.
 ¿En cuáles preguntas las personas cambiaron de parecer?
 ¿Cuáles todavía creen que son verdad, y por qué?

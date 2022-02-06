@@ -246,11 +246,11 @@ siempre avisa a tus estudiantes al cambiar de una ventana a la otra.
 
 > ### Las herramientas de accesibilidad ayudan a todas las personas
 >
-> Las herramientas como [Mouseposé][k0111] (para Mac)
-> y [PointerFocus][k0112] (para Windows)
+> Las herramientas como [Mouseposé][mousepose] (para Mac)
+> y [PointerFocus][pointerfocus] (para Windows)
 > resaltan la posición del cursor del mouse en la pantalla,
-> y las herramientas de grabación de pantalla como [Camtasia][k0113]
-> y aplicaciones independientes como [KeyCastr][k0114]
+> y las herramientas de grabación de pantalla como [Camtasia][camtasia]
+> y aplicaciones independientes como [KeyCastr][keycastr]
 > muestran teclas invisibles como *Tab* y *Control-J* a medida que las usas.
 > Esto puede ser un poco molesto al comienzo,
 > pero ayuda a tus estudiantes a descubrir lo que estás haciendo.
@@ -371,7 +371,7 @@ que significa "estudiar la lección":
 > para hablar sobre lo que observaron.
 
 Poner el trabajo bajo un microscopio para mejorarlo es común
-en áreas tan diversas como la [fabricación][k0115] y la música.
+en áreas tan diversas como la [fabricación][deming-edwards] y la música.
 Un/a músico/a profesional,
 por ejemplo,
 analizará media docena de grabaciones de *"Body and Soul"* o *"Smells Like Teen Spirit"* antes de interpretarlas.
@@ -646,7 +646,7 @@ y la evaluación sobre lo que han decidido que es importante aumenta su sentido 
 ### Dar devolución sobre una mala enseñanza (toda la clase/20') {.exercise}
 
 En grupo,
-miren [este video de mala enseñanza][k0116]
+miren [este video de mala enseñanza][video-bad-teaching]
 (en inglés, subtitulado al español ---activen los subtítulos al ingresar al link)
 y den retroalimentación sobre dos ejes:
 positivo versus negativo y contenido versus presentación.
@@ -702,7 +702,7 @@ Explícales a tus colegas qué vas a enseñar y con qué esperas que estén fami
 
 ### Consejos para enseñar (grupos pequeños/15') {.exercise}
 
-El sitio [CS Teaching Tips][k0119] (en inglés)
+El sitio [CS Teaching Tips][cs-teaching-tips] (en inglés)
 tiene una gran cantidad de consejos prácticos sobre cómo enseñar computación,
 así como una colección de hojas de consejos descargables.
 Revisa las hojas de consejos en grupos pequeños y clasifica cada uno

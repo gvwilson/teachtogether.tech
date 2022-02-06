@@ -17,7 +17,7 @@ que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva
 Luego examina el estado del arte en cuanto a calificación automatizada y culmina explorando discusiones,
 proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.
 
-Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury [Canterbury Question Bank][k0027] <cite>Sand2013</cite>,
+Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury [Canterbury Question Bank][canterbury-question-bank] <cite>Sand2013</cite>,
 que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
 
 ## Los clásicos {#exercises-classics}

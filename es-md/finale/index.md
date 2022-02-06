@@ -47,7 +47,7 @@ Quiero que lo hagan porque es la aventura más grande de nuestro tiempo.
 Hace ciento cincuenta años,
 la mayoría de las sociedades practicaban la esclavitud.
 Hace cien años, en Canadá,
-mi abuela [no era considerada una persona desde el punto de vista legal][k0029].
+mi abuela [no era considerada una persona desde el punto de vista legal][famous-five].
 El año en que nací,
 la mayoría de las personas del mundo sufrían bajo algún régimen totalitario
 y la justicia todavía dictaminaba terapia de electroshock para "curar" a las/los homosexuales.

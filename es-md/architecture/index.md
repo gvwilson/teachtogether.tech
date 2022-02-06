@@ -401,7 +401,7 @@ y reconoce que
 la enseñanza y el aprendizaje siempre están arraigados en quiénes somos y quiénes aspiramos a ser.
 Lo discutiremos con más detalle en el <a section="community"/>.
 
-El sitio web de [Teorías de Aprendizaje][k0000] (*Learning Theories* en inglés)
+El sitio web de [Teorías de Aprendizaje][learning-theories] (*Learning Theories* en inglés)
 y <cite>Wibu2016</cite>
 tienen buenos resúmenes de estas y otras perspectivas.
 Además del cognitivismo, las que se encuentran con mayor frecuencia incluyen el <span g="behaviorism">conductismo</span>

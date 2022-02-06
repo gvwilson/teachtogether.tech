@@ -96,7 +96,7 @@ y lo bien que esa misma persona enseña la temática <cite>Mars2002</cite>.
 La herramienta que elegimos para representar el modelo mental de alguien es un <span g="concept-map">mapa conceptual</span>,
 en el cual los hechos son burbujas y las conexiones son relaciones etiquetadas.
 Como ejemplos, la
-<a figure="f:memory-seasons"/> muestra por qué la Tierra tiene estaciones (de [IHMC][k0049]),
+<a figure="f:memory-seasons"/> muestra por qué la Tierra tiene estaciones (de [IHMC][ihmc]),
 y el <a section="conceptmaps"/> presenta mapas conceptuales de una biblioteca desde tres puntos de vista distintos.
 
 <figure id="f:memory-seasons">
@@ -221,7 +221,7 @@ llamado <span g="short-term-memory">memoria a corto plazo</span>
 o <span g="working-memory">memoria de trabajo</span>.
 Es mucho más rápida,
 pero también más pequeña: <cite>Mill1956</cite> estimó que la memoria de trabajo del adulto promedio solo podía contener 7 ± 2 elementos a la vez.
-Esta es la razón por la cual [los números de teléfono][k0050]
+Esta es la razón por la cual [los números de teléfono][phone-number-length]
 son de 7 u 8 dígitos de longitud:
 antes los teléfonos tenían un disco en vez de teclado y
 esa era la cadena de números más larga que la mayoría de los adultos podía recordar con precisión durante el tiempo que tardaba el disco en girar varias veces.
@@ -309,7 +309,7 @@ Volveremos a este tema en la <a section="pck-programming"/>.
 
 Entonces, ¿cómo se convierte alguien en una persona experta?
 La idea de que hacen falta diez mil horas de práctica para conseguirlo es ampliamente citada,
-pero [probablemente no sea verdad][k0052]:
+pero [probablemente no sea verdad][ten-thousand-hour-rule]:
 hacer lo mismo una y otra vez es más probable que fortalezca los malos hábitos a que mejore la práctica.
 Lo que realmente funciona es hacer cosas similares pero sutilmente diferentes,
 prestando atención a qué funciona y qué no,
@@ -388,7 +388,7 @@ Compara tu mapa conceptual con aquellos dibujados por las demás personas.
 ### Notar tus puntos ciegos (grupos pequeños/10') {.exercise}
 
 Elizabeth Wickes listó
-[todo lo que necesitas saber para entender][k0053]
+[todo lo que necesitas saber para entender][wickes-python-lists]
 y leer esta línea de *Python*:
 
 ```text

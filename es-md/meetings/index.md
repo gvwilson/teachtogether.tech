@@ -176,7 +176,7 @@ es una de las mejores inversiones que harás.
 ## Las reglas de Martha {#meetings-marthas-rules}
 
 Las organizaciones de todo el mundo realizan sus reuniones de acuerdo a
-[Reglas de Orden de Roberto][k0047] (*Robert's Rules of Order* en inglés),
+[Reglas de Orden de Roberto][roberts-rules] (*Robert's Rules of Order* en inglés),
 pero son mucho más formales que lo requerido para proyectos pequeños.
 Una ligera alternativa conocida como "Las reglas de Martha"
 puede que sea mucho mejor para la toma de decisiones por consenso <cite>Mina1986</cite>:
@@ -236,7 +236,7 @@ puede que sea mucho mejor para la toma de decisiones por consenso <cite>Mina1986
 
 ## Reuniones en línea {#meetings-online}
 
-La [discusión de Chelsea Troy][k0048]
+La [discusión de Chelsea Troy][troy-remote-meetings]
 sobre por qué las reuniones en línea son a menudo frustrantes e improductivas
 rescata un punto importante:
 en la mayoría de las reuniones en línea

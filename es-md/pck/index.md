@@ -35,9 +35,9 @@ Las teorías cambian a medida que se obtienen más datos.
 : La investigación sobre educación en informática es una disciplina nueva:<span i="investigación sobre educación en computación"></span>
   la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920,
   pero la Asociación de Docentes de Informática no se creó hasta 2005.
-  Mientras que existe un flujo constante de nuevo conocimiento en conferencias como [SIGCSE][k0102],
-  [ITiCSE][k0103]
-  e [ICER][k0104],
+  Mientras que existe un flujo constante de nuevo conocimiento en conferencias como [SIGCSE][sigcse],
+  [ITiCSE][iticse]
+  e [ICER][icer],
   simplemente no sabemos tanto sobre cómo aprender a programar como sí sabemos sobre aprender a leer,
   jugar un deporte o resolver cálculos simples.
 
@@ -477,7 +477,7 @@ En particular…las guías y los planes de programación juegan un papel importa
 También encontró que a las/los desarrolladoras/es con experiencia no les afecta el estilo del identificador,
 entonces nuestra recomendación es utilizar un estilo coherente en todos los ejemplos.
 Dado que la mayoría de los lenguajes tienen guías de estilo
-(por ejemplo, [PEP 8][k0105] para Python<span i="Python"></span>)
+(por ejemplo, [PEP 8][pep-8] para Python<span i="Python"></span>)
 y herramientas para verificar que el código siga esas pautas,
 nuestra recomendación completa es
 **utiliza herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente**.
@@ -524,7 +524,7 @@ Por lo tanto, al enseñar
 
 Visualizar la ejecución de un programa es una idea siempre popular,
 y herramientas como el tutor de Python<span i="Python"></span> en línea <cite>Guo2013</cite>
-y [Loupe][k0106]
+y [Loupe][loupe]
 (que muestra cómo funciona un bucle de eventos de JavaScript)
 son útiles para enseñar.
 Sin embargo,
@@ -639,7 +639,7 @@ para ayudarnos a enseñar mejor.
 La mayor parte de la investigación mencionada en este capítulo fue financiada con fondos públicos
 pero tenemos que pagar para leerla:
 rompí la ley aproximadamente 250 veces
-para descargar trabajos científicos de páginas web como [Sci-Hub][k0108]
+para descargar trabajos científicos de páginas web como [Sci-Hub][sci-hub]
 mientras escribía este libro.<span i="descargas ilegales (minería)"></span>
 Espero que llegue el día en que nadie tenga que acceder al conocimiento científico de esta manera;
 si investigas,
@@ -758,8 +758,8 @@ Mira la lista de intervenciones desarrolladas por <cite>Viha2014</cite> (<a sect
 
 ### Conceptos erróneos y desafíos (grupos pequeños/15') {.exercise}
 
-El sitio [Desarrollo Profesional para la Enseñanza de Principios de CS][k0109]
-incluye [una lista detallada de conceptos erróneos de estudiantes y ejercicios][k0110].
+El sitio [Desarrollo Profesional para la Enseñanza de Principios de CS][pd4cs]
+incluye [una lista detallada de conceptos erróneos de estudiantes y ejercicios][pd4cs-misconceptions].
 Trabajando en grupos pequeños,
 elige una sección (por ejemplo, estructura de datos o funciones) y revisa la lista.
 ¿Cuáles de estos conceptos erróneos recuerdas haber tenido cuando eras estudiante?

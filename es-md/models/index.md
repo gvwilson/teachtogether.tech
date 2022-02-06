@@ -237,8 +237,8 @@ es tu responsabilidad como docente tomar la decisión.
 > hay chances de que la mayoría de tus estudiantes aún malentiendan la temática de la misma forma al día de hoy.
 > También puedes hacer preguntas abiertas en clase
 > para recoger los conceptos erróneos sobre los temas que vas a abarcar en una clase posterior,
-> o consultar sitios de preguntas y respuestas como [Quora][k0055]
-> o [Stack Overflow][k0123]
+> o consultar sitios de preguntas y respuestas como [Quora][quota]
+> o [Stack Overflow][stack-overflow]
 > para ver con qué se confunden quienes aprenden la temática en cualquier otro lugar.
 
 Desarrollar evaluaciones formativas mejora tus lecciones
