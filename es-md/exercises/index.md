@@ -24,7 +24,7 @@ que trae entradas para varios lenguajes de programación y temas introductorios 
 
 Como se discute en la <a section="models-formative-assessment"/>,
 las *preguntas de opción múltiple* son más efectivas cuando las respuestas incorrectas sondean conceptos erróneos específicos.
-Están diseñadas para evaluar los niveles más bajos en la Taxonomía de Bloom <span i="taxonomía de Bloom"></span>
+Están diseñadas para evaluar los niveles más bajos en la <span i="taxonomía de Bloom">Taxonomía de Bloom</span>
 (<a section="process-objectives"/>), pero también requieren que los/las estudiantes utilicen su propio juicio.
 
 > ### Una pregunta de opción múltiple
@@ -118,7 +118,7 @@ las respuestas enviadas son mucho más predecibles y, por lo tanto, más fácile
 > print(slice)
 > ```
 
-Los problemas de Parsons <span i="problema de Parsons"></span> también evitan el problema de la "pantalla blanca del terror"
+Los <span i="problema de Parsons">problemas de Parsons</span> también evitan el problema de la "pantalla blanca del terror"
 a la vez que permite que los/las estudiantes se concentren en el flujo de control por separado del vocabulario
 <cite>Pars2006,Eric2015,Morr2016,Eric2017</cite>.
 
@@ -148,7 +148,7 @@ hace que los problemas de Parsons sean significativamente más difíciles <cite>
 dadas unas pocas líneas de código,
 los/las estudiantes tienen que rastrear el orden en que se ejecutan esas líneas.
 
-Esta es una habilidad esencial de depuración <span i="depuración"></span>
+Esta es una habilidad esencial de <span i="depuración">depuración</span>
  y una buena manera de consolidar la comprensión de los/las estudiantes de los bucles,
 los condicionales y el orden de evaluación de las llamadas a funciones y métodos.
 
@@ -334,7 +334,7 @@ de acuerdo a la dificultad para la que crees que están preparados/as.
 
 Tengo buenas memorias de tratar de colocar resistencias y capacitores en un diagrama de circuito
 con el fin de obtener el voltaje correcto en un punto determinado,
-y he visto docentes que les dan a sus estudiantes un conjunto definido de bloques de Scratch <span i="Scratch"></span>
+y he visto docentes que les dan a sus estudiantes un conjunto definido de bloques de <span i="Scratch">Scratch</span>
 y les piden que creen un diseño particular usando solo esos bloques.
 
 Los *problemas de correspondencia* pueden pensarse como un caso especial de etiquetado
@@ -396,8 +396,8 @@ y falsos negativos (rechazando las correctas),
 pero las preguntas de este tipo se prestan bien a la clasificación por pares
 (<a section="individual-peer"/>).
 
-## Calificación automática {#exercises-grading}
-<span i="calificación automática"></span>
+## <span i="calificación automática">Calificación automática</span> {#exercises-grading}
+
 
 Las herramientas automáticas de corrección de evaluaciones han existido desde antes que yo naciera:
 la primera mención publicada data de 1960 y las encuestas publicadas por <cite>Douc2005,Ihan2010</cite>
@@ -519,7 +519,7 @@ Si son estudiantes/as más avanzados/as, se les podría dar media docena de tipo
 <cite>Steg2016b</cite> es un buen punto de partida para una rúbrica de estilo de código, mientras que <cite>Luxt2009</cite> muestra la revisión por pares en las clases de programación de manera más general.
 
 Si se pide a los/las estudiantes que hagan revisiones,
-hay que usar la revisión por pares calibrada (<a section="individual-peer"/>)<span i="revisión por pares calibrada"></span>
+hay que usar la <span i="revisión por pares calibrada">revisión por pares calibrada</span> (<a section="individual-peer"/>)
 para que tengan modelos de cómo debería ser una buena retroalimentación.
 
 > ### Revisión de código
