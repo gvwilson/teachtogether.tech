@@ -25,14 +25,14 @@ De acuerdo a la
 [teoría de la autodeterminación][k0060],
 los tres impulsores de motivación intrínseca son:
 
-Competencia:
-: la sensación de que sabes lo que haces. <span i="motivación!competencia"></span>
+<span i="motivación!competencia">Competencia</span>:
+: la sensación de que sabes lo que haces. 
 
-Autonomía:
-: la sensación de estar en control de tu propio destino.<span i="motivación!autonomía"></span>
+<span i="motivación!autonomía">Autonomía</span>:
+: la sensación de estar en control de tu propio destino.
 
-Relación:
-: la sensación de estar conectado/a con las demás personas.<span i="motivación!relación"></span>
+<span i="motivación!relación">Relación</span>:
+: la sensación de estar conectado/a con las demás personas.
 
 Una lección bien diseñada fomenta estos tres impulsores.
 Por ejemplo,
@@ -72,7 +72,7 @@ siempre tendrán consejos en los que nunca hubieras pensado.
 > ### No solo para estudiantes
 >
 > Las discusiones sobre motivación en educación con frecuencia pasan
-> por alto la necesidad de motivar al *docente*.<span i="motivación!de docentes"></span>
+> por alto la necesidad de motivar al <span i="motivación!de docentes">*docente*</span>.
 > Los/las estudiantes responden al entusiasmo de su docente,
 > y los/las docentes (particularmente si el trabajo es voluntario) necesitan valorar un tema para seguir enseñándolo.
 > Esta es otra razón poderosa para co-enseñar (<a section="classroom-together"/>):
@@ -104,7 +104,7 @@ toma un esfuerzo adicional (<a section="online"/>).
 
 ## Tareas auténticas {#motivation-authentic}
 
-Como Dylan Wiliam menciona en <cite>Hend2017</cite>,<span i="Wiliam, Dylan"></span>
+Como <span i="Wiliam, Dylan">Dylan Wiliam</span> menciona en <cite>Hend2017</cite>,
 la motivación no siempre conduce al logro
 pero el logro casi siempre conduce a la motivación:
 el éxito de los/las estudiantes les motiva mucho más a que les digan lo geniales que son.
@@ -144,7 +144,7 @@ mientras que los temas en la diagonal se deben sopesar entre sí.
 
 Un ejemplo bien estudiado de priorizar lo que es útil
 sin sacrificar lo que es fundamental
-es el enfoque de computación de medios desarrollado en Georgia Tech <cite>Guzd2013</cite>.<span i="computación de medios"></span>
+es el enfoque de <span i="computación de medios">computación de medios</span> desarrollado en Georgia Tech <cite>Guzd2013</cite>.
 En vez de imprimir "hola mundo" o sumar los primeros diez enteros,
 el primer programa de un/a estudiante podría ser abrir una imagen,
 cambiarle el tamaño para crear una versión miniatura
@@ -183,8 +183,8 @@ Por lo tanto, motivarlos/as es menos preocupante que desmotivarlos/as.
 Desafortunadamente,
 es fácil desmotivar a las personas accidentalmente.
 Por ejemplo,
-<cite>Cher2009</cite> reportaron cuatro estudios mostrando que<span i="desmotivación!causas ambientales"></span>
-hay pistas ambientales sutiles con una diferencia medible en el interés que las personas de diferentes géneros tienen en la computación:
+<cite>Cher2009</cite> reportaron cuatro estudios mostrando que
+hay pistas <span i="desmotivación!causas ambientales">ambientales</span> sutiles con una diferencia medible en el interés que las personas de diferentes géneros tienen en la computación:
 cambiar los objetos en un aula de ciencias de la computación de aquellos considerados estereotipados de ciencias de la computación
 (p.ej. afiches y videojuegos de Star Trek)
 a objetos no considerados estereotipados (p.ej. afiches de la naturaleza y guías telefónicas)
@@ -196,22 +196,22 @@ puede mantener desigualdad de género en ocupaciones tradicionalmente dominadas 
 
 Hay tres desmotivadores principales para estudiantes adultos/as:
 
-Imprevisibilidad:
+<span i="desmotivación!imprevisibilidad">Imprevisibilidad</span>:
 : desmotiva a las personas porque
   si no hay una conexión confiable entre lo que hacen y el resultado que logran,
-  no hay razón para que intenten hacer nada.<span i="desmotivación!imprevisibilidad"></span>
+  no hay razón para que intenten hacer nada.
 
-Indiferencia:
+<span i="desmotivación!indiferencia">Indiferencia</span>:
 : desmotiva porque
   los/las estudiantes que creen que el/la docente o el sistema educativo no se preocupan por ellos/as,
-  no se van a preocupar por aprender la clase.<span i="desmotivación!indiferencia"></span>
+  no se van a preocupar por aprender la clase.
 
-Injusticia:
+<span i="desmotivación!injusticia">Injusticia</span>:
 : desmotiva a las personas desfavorecidas por razones obvias.
   Lo sorprendente es que también desmotiva a las personas que se benefician de la injusticia:
   consciente o inconscientemente,
   les preocupa que
-  algun dia se encuentren en el grupo desfavorecido <cite>Wilk2011</cite>.<span i="desmotivación!injusticia"></span>
+  algun dia se encuentren en el grupo desfavorecido <cite>Wilk2011</cite>.
 
 En situaciones extremas,
 los/las estudiantes pueden desarrollar <span g="learned-helplessness">indefensión aprendida</span>:
@@ -223,7 +223,7 @@ usar un lenguaje que sugiera que algunas personas son programadoras naturales y 
 Guzdial lo ha llamado
 [el mito más grande de enseñar ciencias de la computación][guzdial-myths],
 y <cite>Pati2016</cite> respaldó esto mostrando que
-la gente ve evidencia de un "gen *geek*" donde no existe uno.<span i="gen geek (inexistencia de)"></span>
+la gente ve evidencia de un "<span i="gen geek (inexistencia de)">gen *geek*</span>" donde no existe uno.
 Analizaron distribuciones de calificaciones de 778 cursos universitarios y encontraron que solo 5,8% mostraba signos
 de ser multimodal,
 es decir, solo una clase de veinte mostró signos de tener dos poblaciones distintas de estudiantes.
@@ -329,9 +329,9 @@ lo que puede alimentar la creencia de que la tarea es fácil para todas las otra
 Las personas que pertenencen a grupos subrepresentados que ya sienten una presión adicional para demostrar su valía
 pueden ser particularmente afectadas.
 
-La iniciativa Ada (*Ada Initiative*) ha creado unas <span i="síndrome del impostor/a!combatir"></span>
+La iniciativa Ada (*Ada Initiative*) ha creado unas 
 [guías][impostor-syndrome]
-para luchar con tu propio síndrome del impostor/a,
+para <span i="síndrome del impostor/a!combatir">luchar con tu propio síndrome del impostor/a</span>,
 que incluyen:
 
 Habla del problema con personas de tu confianza.
@@ -380,7 +380,7 @@ en base a sus resultados.
 
 ### Mentalidad y amenaza de estereotipo
 
-Carol Dweck y otros<span i="Dweck, Carol"></span>
+<span i="Dweck, Carol">Carol Dweck</span> y otros
 han estudiado las diferencias de la <span g="fixed-mindset">mentalidad fija</span>
 y la <span g="growth-mindset">mentalidad de crecimiento</span> en resultados de aprendizaje.
 Si la gente cree que la competencia en alguna área es intrínseca
@@ -413,8 +413,8 @@ hay preocupación sobre
 y el problema se complica aún más por el hecho de que el término se ha utilizado de muchas formas <cite>Shap2007</cite>,
 pero nadie argumentaría que mencionar estereotipos en clase ayudaría a los/las estudiantes.
 
-## Accesibilidad {#motivation-accessibility}
-<span i="accesibilidad"></span>
+## <span i="accesibilidad">Accesibilidad</span> {#motivation-accessibility}
+
 
 Colocar las lecciones y los ejercicios fuera del alcance de alguien es tan desmotivador como parece,
 y es muy fácil hacerlo sin darse cuenta.
@@ -492,8 +492,7 @@ Permite el propio-ritmo y la repetición
 Incluye narración de la acción de pantalla en los videos
 : (y habla mientras escribes cuando programas en vivo).
 
-### Cucharas
-<span i="cucharas (metáfora)"></span>
+### <span i="cucharas (metáfora)">Cucharas</span>
 
 En el 2003,
 Christine Miserandino comenzó a usar las [cucharas][spoons]
@@ -581,7 +580,7 @@ Por ejemplo,
 en parte porque el aspecto de juego del programa era algo que sus compañeros respetaban.
 <cite>Lach2018</cite> exploró dos estrategias generales para crear contenido inclusivo y los riesgos asociados con ellas:
 
-{<span g="community-representation" i="representación comunitaria">Representación comunitaria:</span>}
+{<span g="community-representation" i="representación comunitaria">Representación comunitaria</span>}
 : resalta las identidades sociales, las historias y las redes comunitarias de los/las estudiantes
   utilizando mentores/as extracurriculares o modelos a seguir de sus vecindarios,
   o actividades que utilizan narrativas e historias comunitarias
@@ -589,7 +588,7 @@ en parte porque el aspecto de juego del programa era algo que sus compañeros re
   El riesgo más grande de este enfoque es la poca profundidad,
   p.ej. utilizar computadoras para construir presentaciones con diapositivas en lugar de hacer cualquier actividad real de computación.
 
-{<span g="computational-integration" i="integración computacional">Integración computacional:</span>}
+{<span g="computational-integration" i="integración computacional">Integración computacional</span>}
 : incorpora ideas de la comunidad de los/las estudiantes,
   tales como reproducir diseños de gráficos de pueblos originarios en un ambiente de programación visual.
   El riesgo más grande aquí es la apropiación cultural,

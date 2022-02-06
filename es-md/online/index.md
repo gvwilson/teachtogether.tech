@@ -46,7 +46,7 @@ una docena de personas resolviendo un problema en un chat de video
 se siente como cualquier otra discusión en grupos pequeños.
 Por el contrario,
 un escuadrón de ayudantes de enseñanza que califican cientos de trabajos con una rúbrica inflexible
-bien podría ser una colección de scripts de Perl.<span i="Perl (referencia despectiva a)"></span>
+bien podría ser una colección de scripts de <span i="Perl (referencia despectiva a)">Perl</span>.
 Por lo tanto, este capítulo comienza con la instrucción en línea totalmente automatizada,
 usando videos grabados y ejercicios calificados automáticamente,
 y luego explora algunos modelos híbridos alternativos.
@@ -54,10 +54,10 @@ y luego explora algunos modelos híbridos alternativos.
 ## Cursos masivos en línea {#online-moocs}
 
 El esfuerzo de más alto perfil para reinventar la educación usando internet
-son los <span g="mooc">cursos masivos en línea</span>{curso masivo en línea} (en inglés *Massive Open Online Course*), o *MOOC*.
-El término fue inventado por David Cormier en 2008<span i="Cormier, David"></span>
-para describir un curso organizado por George Siemens<span i="Siemens, George"></span>
-y Stephen Downes.<span i="Downes, Stephen"></span>
+son los <span g="mooc" i="curso masivo en línea">cursos masivos en línea</span> (en inglés *Massive Open Online Course*), o *MOOC*.
+El término fue inventado por <span i="Cormier, David">David Cormier</span> en 2008
+para describir un curso organizado por <span i="Siemens, George">George Siemens</span>
+y <span i="Downes, Stephen">Stephen Downes</span>.
 Ese curso se basó en una visión <span g="connectivism" i="conectivismo">conectivista</span> del aprendizaje,
 que sostiene que el conocimiento se distribuye
 y el aprendizaje es el proceso de encontrar, crear y podar conexiones.
@@ -89,7 +89,7 @@ si no entienden una explicación la primera vez,
 por lo general, no hay una explicación alternativa para ofrecer.
 Otra razón es que la evaluación automatizada necesaria para lograr lo "masivo" en este tipo de cursos
 solo funciona bien en los niveles más bajos
-de la taxonomía de Bloom (<a section="process-objectives"/>).<span i="taxonomía de Bloom"></span>
+de la <span i="taxonomía de Bloom">taxonomía de Bloom</span> (<a section="process-objectives"/>).
 Ahora también está claro que
 las/los estudiantes tienen que soportar mucho más la carga de mantenerse concentrados en un MOOC,
 que la impersonalidad de trabajar en línea puede fomentar un comportamiento descortés y desmotivar a las personas
@@ -143,7 +143,7 @@ ninguna lección se personalizaba en base a la experiencia previa en programaci�
 > No es realista creer que esto puede ser superado en el corto plazo por cualquier tipo de automatización.
 
 Entonces, ¿cómo se *debe* usar internet para enseñar y aprender habilidades tecnológicas?
-Sus pros y contras son:<span i="aprendizaje en línea!pros y contras de"></span>
+<span i="aprendizaje en línea!pros y contras de">Sus pros y contras son</span>:
 
 Las/los estudiantes pueden acceder a más lecciones y más rápido que nunca antes
 : Obviamente,
@@ -216,7 +216,7 @@ Identifica y aclara tempranamente conceptos erróneos.
   crea explicaciones alternativas de esas partes
   y ejercicios adicionales para que practiquen.
 
-Todo esto tiene que ser implementado de alguna manera,<span i="aprendizaje en línea!implementación de"></span>
+Todo esto tiene que ser <span i="aprendizaje en línea!implementación de">implementado</span> de alguna manera,
 lo que significa que necesitas alguna clase de plataforma de enseñanza.
 Puedes utilizar tanto un <span g="lms">sistema de gestión del aprendizaje</span> (*learning management system*, en inglés) todo en uno
 como [Moodle][moodle] o [Sakai][sakai],
@@ -249,7 +249,7 @@ exploramos algunas de sus ideas en el <a section="community"/>.
 
 > ### Libertad para, libertad de
 >
-> El ensayo de 1958 de Isaiah Berlin<span i="Berlin, Isaiah"></span>
+> El ensayo de 1958 de <span i="Berlin, Isaiah">Isaiah Berlin</span>
 > ["Dos conceptos de libertad"][berlin-essay-liberty]
 > hizo una distinción entre [libertad positiva][libertad-positiva],
 > que es la capacidad de hacer algo,
@@ -280,7 +280,7 @@ y cómo se pueden estructurar los cursos para evitar darles una razón para hace
 Una característica destacada de la mayoría de los MOOC es el uso de clases grabadas en video.
 Estos videos pueden ser efectivos:
 como se menciona en el <a section="performance"/>,
-una técnica de enseñanza llamada instrucción directa<span i="instrucción directa"></span>
+una técnica de enseñanza llamada <span i="instrucción directa">instrucción directa</span>
 basada en la entrega precisa de un guión bien diseñado ha demostrado repetidamente su eficacia <cite>Stoc2018</cite>.
 Sin embargo,
 los guiones para la instrucción directa deben diseñarse,
@@ -296,7 +296,7 @@ los videos deben combinarse con actividades para que sean beneficiosos:
 "… hacer tareas extra tiene un beneficio sobre el aprendizaje … seis veces mayor que mirar o leer extra."
 
 Si estás enseñando programación,
-puedes usar grabaciones de pantallas en lugar de diapositivas,<span i="grabación de pantalla"></span>
+puedes usar <span i="grabación de pantalla">grabaciones de pantallas</span> en lugar de diapositivas,
 ya que ofrecen algunas de las mismas ventajas que la programación en vivo (<a section="performance-live"/>).
 <cite>Chen2009</cite> ofrecen consejos útiles para crear y criticar grabaciones de pantallas y otros videos; la
 <a figure="f:online-screencasting"/> (de <cite>Chen2009</cite>) reproduce los patrones que presenta el papel
@@ -371,8 +371,8 @@ esto destaca la importancia de abordar directamente los conceptos erróneos de t
 No solo le digas a las personas lo que *es*:
 diles también qué *no es* y por qué no.
 
-## Modelos híbridos {#online-hybrid}
-<span i="enseñanza híbrida"></span>
+## <span i="enseñanza híbrida">Modelos híbridos</span> {#online-hybrid}
+
 
 La enseñanza totalmente automatizada es solo una forma de utilizar la web en la enseñanza.
 En la práctica,
@@ -406,7 +406,7 @@ pero en línea es, cada vez más, una mezcla de ambas:
 > Creo que nuestras/os nietas/os probablemente considerarán la distinción que hacemos
 > entre lo que llamamos el mundo real y lo que ellas/os consideran simplemente el mundo
 > como la cosa más pintoresca e incomprensible sobre nosotras/os.<br/>
-> --- William Gibson<span i="Gibson, William"></span>
+> --- <span i="Gibson, William">William Gibson</span>
 
 La implementación más popular de este futuro combinado hoy
 es el <span g="flipped-classroom">aula invertida</span>,
@@ -560,8 +560,8 @@ la colusión y el sesgo *no* son factores importantes en la calificación de par
 >
 > La forma más común de medir la validez de los comentarios
 > es comparar las calificaciones de las/los estudiantes con las calificaciones de personas expertas,
-> pero la revisión por pares calibrada (<a section="individual-peer"/>) puede ser igualmente efectiva.
-> <span i="revisión por pares calibrada"></span>
+> pero la <span i="revisión por pares calibrada">revisión por pares calibrada</span> (<a section="individual-peer"/>) puede ser igualmente efectiva.
+> 
 > Antes de pedirles a estudiantes que califiquen el trabajo del resto del curso,
 > se les pide que califiquen muestras y se comparan sus resultados con las calificaciones asignadas por la/el docente.
 > Una vez que ambas calificaciones se alinean,
