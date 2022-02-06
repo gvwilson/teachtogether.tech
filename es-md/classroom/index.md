@@ -14,7 +14,7 @@ Este capítulo describe otras prácticas que también son útiles en clases de p
 
 Antes de describirlas,
 vale la pena detenerse un momento para establecer expectativas.
-El mejor método de enseñanza que conocemos es la tutoría individual: <span i="tutoría individual (efectividad de)"></span>
+El mejor método de enseñanza que conocemos es la <span i="tutoría individual (efectividad de)">tutoría individual</span>: 
 <cite>Bloo1984</cite> descubrió que el desempeño de las/los estudiantes a quienes se les enseñó uno a uno
 fue dos desviaciones estándar mejor que el de quienes aprendieron mediante una clase convencional.
 Es decir, que las/los estudiantes con tutoría individual superaron al
@@ -23,7 +23,7 @@ Sin embargo,
 si bien la tutoría y la enseñanza a aprendices han sido históricamente las formas más comunes de transmitir conocimientos,
 hoy son excepciones debido a la
 industrialización de la educación formal.
-A pesar de la explosión en torno a la inteligencia artificial,<span i="inteligencia artificial (explosión de)"></span>
+A pesar de la explosión en torno a la <span i="inteligencia artificial (explosión de)">inteligencia artificial</span>,
 la solución no estará allí a corto plazo:
 por eso, cada método que se describe a continuación es esencialmente
 un intento de abordar la efectividad de la tutoría individual a escala.
@@ -34,20 +34,20 @@ Lo más importante que he aprendido sobre enseñar en los últimos 30 años es
 la importancia de tratar a las demás personas con respeto,
 tanto dentro como fuera de la clase.
 Si usas este material de alguna manera,
-por favor adopta un Código de Conducta como el del <a section="conduct"/><span i="Código de Conducta"></span>
+por favor adopta un <span i="Código de Conducta">Código de Conducta</span> como el del <a section="conduct"/>
 y exige a toda persona que participe en tus clases que lo respete.
 No puedes evitar que las personas sean ofensivas,
 de la misma manera que las leyes contra el robo no evitan que las personas roben,
 pero *puedes* dejar claras las expectativas y las consecuencias,
 y señalar que estás tratando de que tu clase sea un lugar seguro y amigable para todas/os.
 
-Un Código de Conducta sólo es útil si se hace cumplir.
+Un <span i="Código de Conducta!aplicación">Código de Conducta</span> sólo es útil si se hace cumplir.
 Si crees que alguien ha violado el tuyo,
 puedes advertirle,
 pedirle que se disculpe,
 y/o expulsarla/o,
 dependiendo de la gravedad de la infracción y de si crees que fue intencional o no.
-Hagas lo que hagas:<span i="Código de Conducta!aplicación"></span>
+Hagas lo que hagas:
 
 Hazlo frente a testigos.
 : La mayoría de las personas bajarán el tono de su lenguaje y hostilidad en público,
@@ -81,7 +81,7 @@ Sin importar qué tan buena sea una persona enseñando,
 solo puede explicar una cosa a la vez.
 Entonces, ¿cómo puede aclarar muchos conceptos erróneos diferentes en un tiempo razonable?
 La mejor solución desarrollada hasta ahora es una técnica llamada <span g="peer-instruction">instrucción por pares</span>.
-Originalmente creada por Eric Mazur en Harvard <cite>Mazu1996</cite>,<span i="Mazur, Eric"></span>
+Originalmente creada por <span i="Mazur, Eric">Eric Mazur</span> en Harvard <cite>Mazu1996</cite>,
 se ha estudiado extensamente en una amplia variedad de contextos,
 incluida la programación <cite>Crou2001,Port2013</cite>,
 y <cite>Port2016</cite> descubrieron que las/los estudiantes valoran la instrucción de sus pares incluso en el primer contacto.
@@ -136,7 +136,7 @@ sus conceptos erróneos se anulan.
 
 ## Enseñar en comunidad {#classroom-together}
 
-<span g="co-teaching">Co-enseñar</span>{co-enseñar} describe cualquier situación
+<span g="co-teaching" i="co-enseñar">Co-enseñar</span> describe cualquier situación
 en la que dos docentes trabajan juntas/os en la misma clase.
 <cite>Frie2016</cite> describen muchas formas de hacer esto, ejemplificadas con docentes A y B:
 
@@ -166,8 +166,7 @@ Enseñanza por estaciones:
   que rotan de una estación o actividad a la siguiente,
   mientras las/los docentes supervisan donde sea necesario.
 
-Todos estos modelos crean más oportunidades para la transferencia involuntaria de conocimiento que la enseñanza por sí sola.
-<span i="transferencia involuntaria de conocimiento"></span>
+Todos estos modelos crean más oportunidades para la <span i="transferencia involuntaria de conocimiento">transferencia involuntaria de conocimiento</span> que la enseñanza por sí sola.
 Enseñar en equipo es particularmente beneficioso en talleres de un día:
 cada docente tendrá la oportunidad de descansar su voz
 y se reduce el riesgo de que al final del día el agotamiento sea tan grande
@@ -248,8 +247,8 @@ tus estudiantes pueden ser mucho más diversas/os,
 por lo que es posible que quieras hacerles una breve encuesta o cuestionario antes de la clase
 para averiguar qué conocimientos y habilidades tienen.
 
-Pedir a las personas que se califiquen a sí mismas en una escala del 1 al 5 no tiene sentido
-porque cuanto menos saben las personas sobre un tema, <span i="auto-evaluación (peligros de)"></span>
+Pedir a las personas que se <span i="auto-evaluación (peligros de)">califiquen a sí mismas</span> en una escala del 1 al 5 no tiene sentido
+porque cuanto menos saben las personas sobre un tema, 
 con menor precisión pueden estimar sus conocimientos
 (<a figure="f:classroom-dunning-kruger"/>, de [Neurologica][k0003]),
 un fenómeno llamado <span g="dunning-kruger-effect">efecto Dunning-Kruger</span> <cite>Krug1999</cite>.
@@ -273,19 +272,18 @@ podría concluir que tu clase es demasiado avanzada para su nivel.
 Por lo tanto, es posible que asustes a muchas de las personas que más deseas ayudar.
 
 La <a section="checklists-preassess"/> presenta un breve cuestionario de pre-evaluación
-que es poco probable que la mayoría de tus potenciales estudiantes encuentren intimidante.
+que la mayoría de tus potenciales estudiantes no va a encontrar intimidante.
 Si usas este formulario o una herramienta parecida,
 trata de hacer un seguimiento a las personas que *no* respondan para averiguar por qué no lo hicieron.
 Además, compara tu evaluación con la que las personas hicieron de sí mismas,
 de modo de mejorar tus preguntas en el futuro.
 
-## Planifica para habilidades mixtas {#classroom-mixed}
-<span i="habilidades mixtas (adaptarse a)"></span>
+## Planifica para <span i="habilidades mixtas (adaptarse a)">habilidades mixtas</span> {#classroom-mixed}
 
 Si tus estudiantes tienen niveles muy diversos de conocimientos previos,
 puedes terminar fácilmente en una situación en la que un tercio de tu clase se pierde
 y un tercio se aburre.
-Eso es poco satisfactorio para toda la clase,
+Eso es insatisfactorio para toda la clase,
 pero hay algunas estrategias que puedes utilizar para manejar la situación:
 
 - Antes de realizar un taller,
@@ -391,9 +389,9 @@ son menos justas al compartir <cite>Lewi2015</cite>.
 > las parejas cuyos integrantes tenían diferentes niveles de rasgos de personalidad se comunicaban con más frecuencia.
 
 ## Tomar notas…¿juntas/os? {#classroom-notetaking}
-<span i="tomar notas"></span>
 
-La toma de notas es una forma de elaboración en tiempo real (<a section="individual-strategies"/>):
+
+La <span i="tomar notas">toma de notas</span> es una forma de elaboración en tiempo real (<a section="individual-strategies"/>):
 te obliga a organizar y reflexionar sobre el material a medida que se presenta,
 lo que a su vez aumenta la probabilidad de que lo transfieras a la memoria a largo plazo.
 Muchos estudios han demostrado que
@@ -468,8 +466,8 @@ y no soy el único que ama su versatilidad,
 portabilidad, adherencia, capacidad de plegado
 y aroma sutil pero atractivo <cite>Ward2015</cite>.
 
-### Como indicadores de estado
-<span i="notas adhesivas!como indicadores de estado"></span>
+### Como <span i="notas adhesivas!como indicadores de estado">indicadores de estado</span>
+
 
 Reparte a cada estudiante dos notas adhesivas de diferentes colores,
 como, por ejemplo, naranja y verde.
@@ -497,8 +495,8 @@ es más probable que los adultos muestren una nota adhesiva a que levanten la ma
 y una vez que una nota color azul es levantada,
 generalmente le sigue una ráfaga de otras notas azules.
 
-### Para distribuir atención
-<span i="notas adhesivas!para distribuir atención"></span>
+### Para <span i="notas adhesivas!para distribuir atención">distribuir atención</span>
+
 
 También se pueden usar notas adhesivas para garantizar que tu atención como docente se distribuya de manera justa.
 Haz que cada estudiante escriba su nombre en una nota adhesiva
@@ -527,8 +525,8 @@ Si continúan haciendo esto a medida que pasa el tiempo,
 trato de tener una conversación tranquila para averiguar por qué
 y para ver si hay algo que pueda hacer para que se sientan más cómodas/os.
 
-### Como tarjetas de actas
-<span i="notas adhesivas!como tarjetas de actas"></span>
+### Como <span i="notas adhesivas!como tarjetas de actas">tarjetas de actas</span>
+
 
 También puedes usar notas adhesivas como <span g="minute-cards" i="tarjeta de acta">tarjetas de actas</span>.
 Antes de cada receso,
@@ -620,7 +618,7 @@ para ayudar a las personas que se han encontrado con problemas.
 > ### Máquinas virtuales
 >
 > Algunas personas usan herramientas como [Docker][k0005]
-> para poner máquinas virtuales en las computadoras de sus estudiantes<span i="máquinas virtuales"></span>
+> para poner <span i="máquinas virtuales">máquinas virtuales</span> en las computadoras de sus estudiantes
 > para que todos trabajen exactamente con las mismas herramientas,
 > pero esto presenta un nuevo conjunto de problemas.
 > Las máquinas más antiguas o más pequeñas simplemente no son lo suficientemente rápidas para ejecutarlas,
@@ -631,7 +629,7 @@ para ayudar a las personas que se han encontrado con problemas.
 La configuración es tan complicada que
 muchas/os docentes prefieren que se usen herramientas basadas en el navegador.
 Sin embargo,
-esto hace que la clase dependa del *WiFi*<span i="WiFi institucional (peligros del)"></span>
+esto hace que la clase dependa del <span i="WiFi institucional (peligros del)">*WiFi*</span>
 (que puede ser de calidad muy variable)
 y no satisface el deseo de las/los estudiantes de irse con sus propias máquinas listas para su uso en el mundo real.
 A la par que herramientas basadas en la nube como [Glitch][k0006]
