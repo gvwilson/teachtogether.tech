@@ -21,7 +21,7 @@ así que la mejor manera de ayudar a ambas partes es fomentar una comunidad de e
 >
 > Las escuelas de Finlandia se encuentran entre las más exitosas del mundo pero, tal como
 > [lo señaló][finnish-schools-essay]
-> Anu Partanen<span i="Partanen, Anu"></span>,
+> <span i="Partanen, Anu">Anu Partanen</span>,
 > su éxito no se explica de manera aislada.
 > Los intentos de otros países por adoptar métodos de enseñanza finlandeses están condenados al fracaso
 > a menos que esos países también garanticen que la niñez (además de sus madres y padres) tengan seguridad,
@@ -162,9 +162,9 @@ reclutamiento, incorporación, retención y retiro.
 No necesitas preocuparte por este ciclo cuando estés gestando una comunidad,
 pero sí cuando llegues al punto en que se involucren más de un puñado de personas no fundadoras.
 
-El primer paso es reclutar voluntarias/os.<span i="reclutamiento (de miembros)"></span>
+El primer paso es <span i="reclutamiento (de miembros)">reclutar voluntarias/os</span>.
 Tu estrategia de marketing debería ayudarte con esto,
-al garantizar que tu organización sea localizable<span i="localizable!organización"></span>
+al garantizar que tu <span i="localizable!organización">organización sea localizable</span>
 y al lograr que la misión y valor sean claros
 para las personas que quieran involucrarse (<a section="outreach"/>).
 Comparte historias que ejemplifiquen el tipo de ayuda que buscas
@@ -199,7 +199,7 @@ lo que contribuye a que tu organización evite el punto ciego de la persona expe
 
 La mitad del ciclo de vida de una persona voluntaria es la incorporación y la retención,
 que cubriremos en <a section="community-onboarding"/> y <a section="community-retention"/>.
-El último paso es cuando alguien deja de ser parte de la organización:<span i="retiro (de miembros)"></span>
+El último paso es cuando alguien <span i="retiro (de miembros)">deja de ser parte de la organización</span>:
 eventualmente, el resto de las personas siguen adelante,
 y las organizaciones saludables se preparan para ese momento.
 Algunas cosas simples pueden generar una sensación positiva ante el cambio,
@@ -239,10 +239,10 @@ Agradéceles,
 
 ## Incorporación {#community-onboarding}
 
-Después de decidir formar parte de un grupo,
+Después de decidir <span i="incorporación (de miembros)">formar parte de un grupo</span>,
 la gente necesita ponerse al día,
-y <cite>Shol2019</cite> resume lo que sabemos al respecto.<span i="incorporación (de miembros)"></span>
-La primera regla es tener y hacer cumplir un código de conducta (<a section="classroom-coc"/>)<span i="Código de Conducta"></span>
+y <cite>Shol2019</cite> resume lo que sabemos al respecto.
+La primera regla es tener y hacer cumplir un <span i="Código de Conducta">código de conducta</span> (<a section="classroom-coc"/>)
 y encontrar alguien independiente a tu comunidad que acepte recibir y revisar informes de comportamiento inapropiado.
 Alguien fuera de la organización tendrá la objetividad de la que las/los integrantes pueden carecer.
 Además, una persona externa puede proteger a quienes dudan si denunciar incidentes relacionados a las personas
@@ -301,11 +301,11 @@ animarles a ayudar a la próxima ola de nuevas personas
 es una buena manera de reconocer lo que han aprendido
 y una forma efectiva de transmitirlo.
 
-## Retención {#community-retention}
-<span i="retención (de participantes)"></span>
+## <span i="retención (de participantes)">Retención</span> {#community-retention}
+
 
 > Si tu gente no la está pasando bien, algo está muy mal.<br/>
-> --- Saul Alinsky<span i="Alinsky, Saul"></span>
+> --- <span i="Alinsky, Saul">Saul Alinsky</span>
 
 Quienes participan de la comunidad no deberían esperar disfrutar cada momento de su trabajo con tu organización,
 pero si no disfrutan ninguno
@@ -376,8 +376,8 @@ Cuando llegues a este punto, o no pagas nada o pagas un salario adecuado.
 Si no les paga nada, su verdadera recompensa es la satisfacción de hacer el bien;
 por otro lado, si les pagas una cantidad simbólica, le quitas esa satisfacción sin darles la posibilidad de ganarse la vida.
 
-## Gobernanza {#community-governance}
-<span i="gobernanza"></span>
+## <span i="gobernanza">Gobernanza</span> {#community-governance}
+
 
 Cada organización tiene una estructura de poder:
 la única pregunta es si es formal y deriva en responsabilidades, o informal y, por lo tanto,
@@ -425,8 +425,8 @@ y tratar de reclutar habilidades particulares como contabilidad, marketing, etc.
 
 ## Cuidarte y cuidar a tu comunidad {#community-care}
 
-El síndrome de desgaste ocupacional (*burnout* en inglés)
-es un riesgo crónico en cualquier actividad comunitaria <cite>Pign2016</cite>,<span i="burnout"></span>
+El <span i="burnout">síndrome de desgaste ocupacional</span> (*burnout* en inglés)
+es un riesgo crónico en cualquier actividad comunitaria <cite>Pign2016</cite>,
 <span i="desgaste ocupacional"></span>
 así que aprende a decir *no* más seguido de lo que dices *sí*.
 Si no te cuidas,

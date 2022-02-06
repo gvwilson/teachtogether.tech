@@ -80,7 +80,7 @@ entonces enseño,
 porque el mundo solo mejora cuando enseñamos a las personas cómo mejorarlo.
 
 En su ensayo de 1947
-["¿Por qué escribo?"][k0030], George Orwell<span i="Orwell, George"></span>
+["¿Por qué escribo?"][k0030], <span i="Orwell, George">George Orwell</span>
 escribió<sup>En el link encuentras el texto completo en castellano.
 El fragmento que sigue es una traducción propia del original en inglés.</sup>:
 

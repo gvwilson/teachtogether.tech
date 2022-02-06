@@ -21,12 +21,12 @@ ya que mejora la tasa de rendimiento y reduce la tasa de fracaso <cite>Free2014<
 | Mirar un video      | Discutir un tema |
 | Asistir a una clase | Tratar de explicar un tema |
 
-Si hacemos referencia a nuestro modelo simplificado de arquitectura cognitiva
-(<a figure="f:arch-model"/>),<span i="arquitectura cognitiva"></span>
-el aprendizaje activo es más efectivo porque retiene la información nueva en la memoria a corto plazo
-por más tiempo,<span i="memoria a corto plazo"></span>
+Si hacemos referencia a nuestro modelo simplificado de <span i="arquitectura cognitiva">arquitectura cognitiva</span>
+(<a figure="f:arch-model"/>),
+el aprendizaje activo es más efectivo porque retiene la información nueva en la <span i="memoria a corto plazo">memoria a corto plazo</span>
+por más tiempo,
 lo cual aumenta la probabilidad que sea codificada con éxito y almacenada
-en la memoria a largo plazo.<span i="memoria a largo plazo"></span>
+en la <span i="memoria a largo plazo">memoria a largo plazo</span>.
 Al usar la nueva información a medida que llega,
 tus estudiantes pueden construir y fortalecer los lazos entre la información nueva y la información que ya poseen,
 lo cual a su vez incrementa las chances de que puedan recuperarla más tarde.
@@ -82,9 +82,7 @@ Si enseñas estas estrategias a tus estudiantes,
 y las mencionas por su nombre cuando las utilices en la clase,
 estarás ayudando a que aprendan cómo aprender más rápido y mejor <cite>Wein2018a,Wein2018b</cite>.
 
-### Práctica distribuida
-<span i="práctica distribuida (estrategia de aprendizaje)"></span>
-<span i="estrategia de aprendizaje!práctica distribuida"></span>
+### <span i="práctica distribuida (estrategia de aprendizaje); estrategia de aprendizaje!práctica distribuida">">Práctica distribuida</span>
 
 Diez horas de estudio repartidas en cinco días
 es más efectivo que dos días de estudio con cinco horas,
@@ -123,9 +121,7 @@ Esto te ayudará a enfocarte en aquello que necesite más atención cuando vuelv
 > dependiendo de cómo se organicen los cursos,
 > las/los estudiantes en línea a veces pueden evitar exponerse al material por completo hasta que una tarea esté cerca."
 
-### La práctica de recordar lo aprendido
-<span i="práctica de recordar lo aprendido (estrategia de aprendizaje)"></span>
-<span i="estrategia de aprendizaje!práctica de recordar lo aprendido"></span>
+### <span i="práctica de recordar lo aprendido (estrategia de aprendizaje);estrategia de aprendizaje!práctica de recordar lo aprendido">La práctica de recordar lo aprendido</span>
 
 El factor limitante de la memoria a largo plazo no es *retener* (qué se almacena)
 sino *recordar* (qué puede accederse).
@@ -183,9 +179,7 @@ o con un mapa conceptual dibujado previamente.
 > mientras más confianza tenga una persona en que tiene la razón,
 > más probable será que no repita el error si recibe una corrección.
 
-### Práctica intercalada
-<span i="práctica intercalada (estrategia de aprendizaje)"></span>
-<span i="estrategia de aprendizaje!práctica intercalada"></span>
+### <span i="práctica intercalada (estrategia de aprendizaje);estrategia de aprendizaje!práctica intercalada">Práctica intercalada</span>
 
 Una forma de espaciar la práctica es intercalar el estudio de diferentes temas:
 en vez de dominar un tema,
@@ -208,9 +202,7 @@ pero ese es un signo de que está funcionando.
 Si usas tarjetas de estudio o haces exámenes de práctica para medir tu progreso,
 deberías ver una mejora después de un par de días.
 
-### Elaboración
-<span i="elaboración (estrategia de aprendizaje)"></span>
-<span i="estrategia de aprendizaje!elaboración"></span>
+### <span i="elaboración (estrategia de aprendizaje);"estrategia de aprendizaje!elaboración"">Elaboración</span>
 
 Explicarte los temas a tí misma/o mientras estudias
 permite entenderlos y recordarlos.
@@ -232,9 +224,7 @@ Un ejercicio para construir esta habilidad es revisar un ejemplo de programació
 que diferentes personas expliquen cada línea
 y digan por qué está ahí y qué es lo que produce.
 
-### Ejemplos concretos
-<span i="ejemplos concretos (estrategia de aprendizaje)"></span>
-<span i="estrategia de aprendizaje!ejemplos concretos"></span>
+### <span i="ejemplos concretos (estrategia de aprendizaje);estrategia de aprendizaje!ejemplos concretos">Ejemplos concretos</span>
 
 Una forma particularmente útil de la estrategia de aprendizaje de elaboración es el uso de ejemplos concretos.
 Cuando se tiene una definición de un principio general,
@@ -244,9 +234,7 @@ o, por el contrario, toma un problema en particular y enuncia los principios gen
 permite que las/los estudiantes puedan recordar las definiciones correctamente.
 
 Una forma estructurada de hacer esto es con
-el [método ADEPT][adept]:
-<span i="ADEPT (patrón de lección)"></span>
-<span i="patrón de lección!ADEPT"></span>
+el <span i="ADEPT (patrón de lección); patrón de leccíon!ADEPT">[método ADEPT][adept]</span>:
 da una <strong>A</strong>nalogía,
 dibuja un <strong>D</strong>iagrama,
 presenta un <strong>E</strong>jemplo,
@@ -259,9 +247,8 @@ ve si estás de acuerdo con el ejemplo que tus pares eligieron para representar
 el principio que se está discutiendo,
 o analiza qué principios se usan en un ejemplo que no hayan anotado.
 
-Otra técnica útil es enseñar por contraste,
-<span i="enseñar por contraste (patrón de lección)"></span>
-<span i="patrón de lección!enseñar por contraste"></span>
+Otra técnica útil es <span i="enseñar por contraste (patrón de lección);"patrón de lección!enseñar por contraste"">enseñar por contraste,</span>
+
 p.ej. mostrar a tus estudiantes cuál *no* es la solución
 o cuál es la técnica que *no* resolverá un problema.
 Por ejemplo,
@@ -269,9 +256,8 @@ al mostrar a las/los niñas/os cómo simplificar fracciones,
 es importante darles a menos un par de ejemplos que no puedan simplificarse, como 5/7,
 para que no se frustren buscando respuestas que no existen.
 
-### Codificación Dual
-<span i="codificación dual (estrategia de aprendizaje)"></span>
-<span i="extrategia de aprendizaje!codificación dual"></span>
+### <span i="codificación dual (estrategia de aprendizaje);"extrategia de aprendizaje!codificación dual"">Codificación Dual</span>
+
 
 La última de las seis estrategias principales
 descriptas en [Learning Scientists][learning-scientists]
@@ -316,8 +302,8 @@ Convencer de esto a otras personas es difícil,
 especialmente cuando son adolescentes o tienen alrededor de veinte años,
 pero paga tremendos dividendos.
 
-Los estudios científicos sobre el trabajo en exceso y la deprivación del sueño se remontan, al menos, a la década de 1890s---puedes ver
-<cite>Robi2005</cite> para un resumen breve y legible.<span i="trabajo en exceso"></span><span i="privación del sueño"></span>
+Los estudios científicos sobre el <span i="trabajo en exceso">trabajo en exceso</span> y la <span i="privación del sueño">deprivación del sueño</span> se remontan, al menos, a la década de 1890s---puedes ver
+<cite>Robi2005</cite> para un resumen breve y legible.
 Los resultados más importantes para estudiantes son:
 
 1. Trabajar más de 8 horas al día por un periodo extendido de tiempo
@@ -371,7 +357,7 @@ sepárala en actividades más pequeñas y priorízalas de forma separada.
 
 La parte más importante de esto es apagar las interrupciones.
 A pesar de lo que mucha gente quiere creer,
-los seres humanos no somos buenos haciendo múltiples tareas a la vez.<span i="múltiples tareas"></span>.
+los seres humanos no somos buenos haciendo <span i="múltiples tareas">múltiples tareas</span> a la vez.
 En lo que sí podemos volvernos buenos es en la <span g="automaticity">automaticidad</span>, es decir,
 la habilidad de hacer algo de forma rutinaria de fondo,
 mientras realizamos otra tarea <cite>Mill2016a</cite>.
@@ -406,8 +392,8 @@ Lo que significa que si te interrumpieron seis veces por hora,
 > están obligadas a llevar radios que interrumpen sus pensamientos en intervalos aleatorios.
 > A veces me pregunto si---oh, un momento, mi teléfono acaba de---perdón, ¿de qué estábamos hablando?
 
-## Evaluación de pares {#individual-peer}
-<span i="evaluación de pares"></span>
+## <span i="evaluación de pares">Evaluación de pares</span> {#individual-peer}
+
 
 Pedirle a las personas de un equipo que evalúen a sus pares es una práctica común en la industria.
 <cite>Sond2012</cite> revisaron la literatura sobre evaluación de pares,
