@@ -8,7 +8,7 @@ template: page.html
 \end{reviewer}
 
 > La memoria es el remanente del pensamiento.<br/>
->  --- Daniel Willingham<span i="Willingham, Daniel"></span>,
+>  --- <span i="Willingham, Daniel">Daniel Willingham</span>,
 > *Por qué a las/los estudiantes no les gusta la escuela (Why Students Don't Like School)*
 
 El capítulo anterior explicaba las diferencias entre personas novatas y practicantes competentes.
@@ -20,7 +20,7 @@ Luego haremos una introducción sobre uno de los límites más importantes en el
 y analizaremos cómo dibujar nuestros modelos mentales nos puede ayudar a convertir el conocimiento en lecciones.
 
 Para empezar,
-¿a qué nos referimos cuando decimos que alguien es una persona experta?<span i="persona experta"></span>
+¿a qué nos referimos cuando decimos que alguien es una <span i="persona experta">persona experta</span>?
 La respuesta habitual es que puede resolver problemas mucho más rápido que la persona que es "simplemente competente",
 o que puede reconocer y entender casos donde las reglas normales no se pueden aplicar.
 Es más, de alguna manera una persona experta hace que parezca que resolver ciertos problemas no requiere esfuerzo alguno:
@@ -105,7 +105,7 @@ y el <a section="conceptmaps"/> presenta mapas conceptuales de una biblioteca de
 </figure>
 
 Para mostrar cómo pueden ser usados los mapas conceptuales para enseñar programación,
-considera este bucle `for` en Python:<span i="Python"></span>
+considera este bucle `for` en <span i="Python">Python</span>:
 
 ```text
 for letra in "abc":
@@ -187,7 +187,7 @@ Los mapas conceptuales son solo una forma de representar nuestro conocimiento de
 otros incluyen diagramas de Venn, diagramas de flujo y árboles de decisión <cite>Abel2009</cite>.
 Todos estos esquemas <span g="externalized-cognition" i="cognición externalizada">externalizan la cognición</span>,
 es decir, hacen visibles los modelos mentales de manera que pueden ser comparados y combinados<sup>Parafraseando a
-Lady Windermere, obra de Oscar Wilde<span i="Wilde, Oscar"></span></sup>
+Lady Windermere, obra de <span i="Wilde, Oscar">Oscar Wilde</span></sup>
 las personas a menudo no saben lo que piensan hasta que se escuchan a sí mismas decirlo.
 
 > ### Trabajo crudo y honestidad
@@ -251,7 +251,7 @@ Esta es una de las maneras de usar mapas conceptuales al diseñar una lección:
 sirve para asegurarse que la memoria a corto plazo de tus estudiantes no estará sobrecargada.
 Con el mapa ya diseñado,
 la/el docente elige un fragmento apropiado para la memoria a corto plazo,
-el cual llevará a una evaluación formativa (<a figure="f:memory-photosynthesis"/>)<span i="evaluación formativa"></span>;
+el cual llevará a una <span i="evaluación formativa">evaluación formativa</span> (<a figure="f:memory-photosynthesis"/>);
 en la próxima lección continuará con otro fragmento del mapa conceptual, y así sucesivamente.
 
 <figure id="f:memory-photosynthesis">
@@ -296,7 +296,7 @@ la fragmentación también puede engañarnos si identificamos mal las cosas:
 quienes recién llegan a veces pueden ver cosas que personas expertas han visto y pasado por alto.
 
 Dada la importancia de la fragmentación para pensar,
-es tentador identificar [patrones de diseño][design-patterns-es]<span i="patrones de diseño"></span>
+es tentador identificar <span i="patrones de diseño">[patrones de diseño][design-patterns-es]</span>
 y enseñarlos directamente.
 Estos patrones ayudan a practicantes competentes a pensar y dialogar en varios dominios (incluida la enseñanza <cite>Berg2012</cite>),
 pero los catálogos de patrones son demasiado duros y abstractos para que personas novatas les encuentren sentido por su cuenta.
@@ -430,7 +430,7 @@ Vuelve al mapa conceptual para la fotosíntesis de la <a figure="f:memory-photos
 
 Mira la <a figure="f:memory-unchunked"/> por 10 segundos,
 luego mira hacia otro lado e intenta escribir tu número de teléfono
-con estos símbolos<sup>Mi agradecimiento a Warren Code<span i="Code, Warren"></span> por presentarme este ejemplo.</sup>.
+con estos símbolos<sup>Mi agradecimiento a <span i="Code, Warren">Warren Code</span> por presentarme este ejemplo.</sup>.
 (Usa un espacio para '0'.)
 Cuando hayas terminado,
 mira la representación alternativa en el <a section="chunking"/>.

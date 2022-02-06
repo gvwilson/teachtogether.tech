@@ -8,7 +8,7 @@ template: page.html
 \end{reviewer}
 
 La primera tarea en la enseñanza es descifrar quiénes son tus estudiantes.
-Nuestra aproximación está basada en el trabajo de investigadores/as como Patricia Benner,<span i="Benner, Patricia"></span>
+Nuestra aproximación está basada en el trabajo de investigadores/as como <span i="Benner, Patricia">Patricia Benner</span>,
 quien estudió cómo las personas progresan de novatas a expertas en la carrera de enfermería  <cite>Benn2000</cite>.
 Benner identificó cinco etapas de desarrollo cognitivo que la mayor parte de la gente atraviesa de forma bastante consistente.
 Para nuestros propósitos, simplificamos esta evolución en tres etapas:
@@ -106,7 +106,7 @@ y es una de las razones por las que tienes que decidir tempranamente para quién
 
 ## ¿Están aprendiendo tus estudiantes? {#models-formative-assessment}
 
-Mark Twain escribió: <span i="Twain, Mark"></span>
+<span i="Twain, Mark">Mark Twain</span> escribió: 
 "No es lo que no sabes lo que te mete en problemas.
 Es lo que tienes seguridad de saber y simplemente no es así."
 Uno de los ejercicios al construir un modelo mental es, por lo tanto,
@@ -114,23 +114,23 @@ despejar las cosas que *no* pertenecen al modelo.
 En sentido amplio,
 los conceptos erróneos de las personas novatas caen en tres categorías:
 
-Errores fácticos
+<span i="concepto erróneo!error fáctico">Errores fácticos</span>
 : como creer que Río de Janeiro es la capital de Brasil (es Brasilia).
   Estos errores generalmente son fáciles de corregir.
-  <span i="concepto erróneo!error fáctico"></span>
+  
 
-Modelos rotos
+<span i="concepto erróneo!modelo mental roto">Modelos rotos</span>
 : como creer que el movimiento y la aceleración deben estar en la misma dirección.
   Podemos lidiar con estos errores haciendo que las personas novatas razonen a través de ejemplos
   en los que sus modelos den una respuesta incorrecta.
-  <span i="concepto erróneo!modelo mental roto"></span>
+  
 
-Creencias fundamentales
+<span i="concepto erróneo!creencia fundamental">Creencias fundamentales</span>
 : como por ejemplo "el mundo solo tiene algunos miles de años de antigüedad"
   o "algunos tipos de personas son naturalmente mejores en programación que otros" <cite>Guzd2015b,Pati2016</cite>.
   Estos errores están generalmente conectados profundamente con la identidad social del estudiante,
   por lo que resisten a las evidencias y racionalizan las contradicciones.
-  <span i="concepto erróneo!creencia fundamental"></span>
+  
 
 La gente aprende más rápido cuando los/las docentes identifican y aclaran los conceptos erróneos de sus estudiantes mientras se está dando la lección.
 Esto se llama <span g="formative-assessment">evaluación formativa</span>
@@ -164,12 +164,12 @@ Entonces, el/la estudiante averigua si la respiración es correcta, mientras que
 > ya que hoy en día la mayoría de la gente cree que todo lo que hace en internet está siendo mirado y grabado.
 
 Para ser útil durante la enseñanza,
-una evaluación formativa debe ser rápida de administrar
+una <span i="evaluación formativa!requisitos">evaluación formativa</span> debe ser rápida de administrar
 (de manera que no rompa el flujo de la lección)
 y debe tener una respuesta correcta no ambigua
-(de manera que pueda ser usada en grupos).<span i="evaluación formativa!requisitos"></span>
+(de manera que pueda ser usada en grupos).
 Probablemente, el tipo de evaluación formativa que más ampliamente se usa es
-la pregunta de opción múltiple.<span i="pregunta de opción múltiple"></span>
+la <span i="pregunta de opción múltiple">pregunta de opción múltiple</span>.
 Muchos/as docentes tienen una mala opinión sobre ellas,
 pero cuando las preguntas de opción múltiple están bien diseñadas
 pueden revelar mucho más si alguien sabe o no algunos hechos específicos.
@@ -334,7 +334,7 @@ una máquina nocional:
 
 - refleja correctamente qué hacen los programas cuando son ejecutados.
 
-Por ejemplo, mi máquina nocional para Python es:<span i="Python"></span>
+Por ejemplo, mi máquina nocional para <span i="Python">Python</span> es:
 
 1. Ejecutar programas en el momento en la memoria,
    la cual se divide en la pila de llamadas y la cola de montículo (*heap* en inglés).
@@ -514,8 +514,8 @@ creen una lista de elementos clave de tu modelo mental de enseñanza.
 
 En grupos pequeños,
 escriban una descripción de la máquina nocional que quieren que sus estudiantes usen para entender cómo corren sus programas.
-¿En qué difiere una máquina nocional para un lenguaje basado en bloques como Scratch<span i="Scratch"></span>
-de la máquina nocional para Python?<span i="Python"></span>
+¿En qué difiere una máquina nocional para un lenguaje basado en bloques como <span i="Scratch">Scratch</span>
+de la máquina nocional para <span i="Python">Python</span>?
 ¿Y en qué difiere de una máquina nocional para hojas de cálculo o para un buscador que está interpretando
 HTML<sup>Sigla de HyperText Markup Language en inglés</sup>
 y CSS<sup>Sigla de Cascading Style Sheets en inglés</sup>
