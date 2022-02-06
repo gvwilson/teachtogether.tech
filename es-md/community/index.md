@@ -20,7 +20,7 @@ así que la mejor manera de ayudar a ambas partes es fomentar una comunidad de e
 > ### Finlandia y por qué no
 >
 > Las escuelas de Finlandia se encuentran entre las más exitosas del mundo pero, tal como
-> [lo señaló][k0009]
+> [lo señaló][finnish-schools-essay]
 > Anu Partanen<span i="Partanen, Anu"></span>,
 > su éxito no se explica de manera aislada.
 > Los intentos de otros países por adoptar métodos de enseñanza finlandeses están condenados al fracaso
@@ -81,7 +81,7 @@ Mapeo de conocimientos:
 Visitas:
 : "¿Podemos visitar su programa extracurricular? Necesitamos establecer uno en nuestra ciudad".
 
-[En términos generales][k0010],
+[En términos generales][community-types],
 una comunidad de práctica puede ser:
 
 Comunidad de acción:
@@ -122,17 +122,17 @@ A partir de entonces, mantener el funcionamiento de la línea de ayuda puede con
 El primer paso para construir una comunidad es decidir si deberías construirla
 o si sería más efectivo unirte a una organización existente.
 Miles de grupos ya están enseñando habilidades tecnológicas,
-desde el [4-H Club][k0011]
-y [programas de alfabetización][k0012]
+desde el [4-H Club][4h-club]
+y [programas de alfabetización][frontier-college]
 hasta organizaciones de programación sin fines de lucro como
-[Black Girls Code][k0013] (Chicas Negras Programan, en inglés)
-y [Bridge][k0014] (Puente, en inglés).
+[Black Girls Code][black-girls-code] (Chicas Negras Programan, en inglés)
+y [Bridge][bridge] (Puente, en inglés).
 En los últimos años estas comunidades de práctica se han desarrollado también en Latinoamérica,
-desde aquellas que enseñan habilidades para enseñar como [MetaDocencia][k0015],
-las que intentan achicar la brecha de genero en STEAM como [GeoLatinas][k0016],
-[Las de Sistemas][k0017] y [Mujeres en Tecnología][k0018]
-hasta las que son parte de las organizaciones globales como los capítulos de [R-Ladies][k0156] (Mujeres de R en inglés)
-y [PyLadies][k0020] (Mujeres de Python en inglés).
+desde aquellas que enseñan habilidades para enseñar como [MetaDocencia][metadocencia],
+las que intentan achicar la brecha de genero en STEAM como [GeoLatinas][geolatinas],
+[Las de Sistemas][las-de-sistemas] y [Mujeres en Tecnología][mujeres-en-tecnologia]
+hasta las que son parte de las organizaciones globales como los capítulos de [R-Ladies][r-ladies] (Mujeres de R en inglés)
+y [PyLadies][pyladies] (Mujeres de Python en inglés).
 Unirse a un grupo existente te dará ventajas en la enseñanza,
 un conjunto inmediato de colegas
 y la oportunidad de aprender más sobre cómo manejar las cosas;
@@ -150,7 +150,7 @@ Si quieres leer más profundamente,
 cuyo enfoque ha sido emulado por muchos grupos exitosos,
 mientras que  <cite>Spal2014</cite> es una guía para enseñar a personas adultas
 escrita por alguien con profundas raíces personales en la organización de grupos de base
-y [NonprofitReady.org][k0021]
+y [NonprofitReady.org][non-profit-ready]
 ofrece capacitación profesional gratuita.
 
 ## Cuatro pasos {#community-four-steps}
@@ -185,7 +185,7 @@ lo que contribuye a que tu organización evite el punto ciego de la persona expe
 >
 > Pedirle a una persona que haga algo pequeño por ti
 > es un buen paso para lograr que haga algo más grande.
-> Esto se basa en el [efecto Ben Franklin][k0022]:
+> Esto se basa en el [efecto Ben Franklin][ben-franklin-effect]:
 > quien ya le ha hecho un favor a alguien es más propensa/o
 > a hacerle *otro* favor a la misma persona,
 > (en comparación con la disposisión que tiene quien ha *recibido* un favor).
@@ -672,7 +672,7 @@ que encontraste útil o una con la que estuviste muy en desacuerdo.
 
 La Administración Nacional Oceánica y Atmosférica estadounidense
 (*NOAA* por sus siglas en inglés) tiene una guía breve, útil y divertida para
-[lidiar con comportamientos disruptivos][k0023].
+[lidiar con comportamientos disruptivos][noaa-disruptive].
 La guía clasifica esos comportamientos bajo etiquetas como "habladora/hablador", "indecisa/o" y "tímida/o"
 y describe estrategias para manejar cada uno.
 En grupos de 3 a 6 personas,
@@ -682,7 +682,7 @@ lean la guía (está disponible solo en inglés) y decidan cuál de las descripc
 
 ### Creando lecciones en comunidad (grupos pequeños/30') {.exercise}
 
-Una de las claves del éxito de [Carpentries][k0024]
+Una de las claves del éxito de [Carpentries][carpentries]
 es su énfasis en construir y mantener lecciones en forma colaborativa <cite>Wils2016,Deve2018</cite>.
 Trabajando en grupos de 3 a 4 personas:
 
@@ -694,7 +694,7 @@ Trabajando en grupos de 3 a 4 personas:
 
 ### ¿Estás crujiente? (individual/10') {.exercise}
 
-[Johnathan Nightingale escribió][k0025]:
+[Johnathan Nightingale escribió][nightingale-comments]:
 
 > Cuando trabajaba en Mozilla,
 > utilizábamos el término "crujiente" (*crispy* en inglés)

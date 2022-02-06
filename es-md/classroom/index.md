@@ -105,7 +105,7 @@ intercalando la evaluación formativa con la discusión entre estudiantes:
      dales varios minutos para discutir entre ellas/os en grupos de 2 a 4,
      luego que vuelvan a votar.
 
-Como muestra [este video][k0002],
+Como muestra [este video][video-concept-test],
 la discusión en grupo mejora significativamente la comprensión de las/los estudiantes
 porque descubre lagunas en sus razonamientos y obliga a que aclaren sus pensamientos.
 Entonces, volver a sondear a la clase permite que la/el docente averigüe si puede continuar
@@ -251,7 +251,7 @@ para averiguar qué conocimientos y habilidades tienen.
 Pedir a las personas que se califiquen a sí mismas en una escala del 1 al 5 no tiene sentido
 porque cuanto menos saben las personas sobre un tema, <span i="auto-evaluación (peligros de)"></span>
 con menor precisión pueden estimar sus conocimientos
-(<a figure="f:classroom-dunning-kruger"/>, de [Neurologica][k0003]),
+(<a figure="f:classroom-dunning-kruger"/>, de [Neurologica][dunning-kruger-critique]),
 un fenómeno llamado <span g="dunning-kruger-effect">efecto Dunning-Kruger</span> <cite>Krug1999</cite>.
 Por el contrario,
 las personas que integran grupos sub-representados a menudo subestiman sus habilidades.
@@ -341,7 +341,7 @@ el resto de la clase se sentirá excluida.
 ## Programación en parejas {#classroom-pair}
 
 La <span g="pair-programming">programación en parejas</span> es una práctica de desarrollo de software
-en la que [dos personas programan juntas en una computadora][k0008].
+en la que [dos personas programan juntas en una computadora][video-pair-programming].
 Una persona (quien conduce) escribe,
 mientras que la otra (quien navega) ofrece comentarios y sugerencias,
 y ambas cambian de función varias veces por hora.
@@ -619,7 +619,7 @@ para ayudar a las personas que se han encontrado con problemas.
 
 > ### Máquinas virtuales
 >
-> Algunas personas usan herramientas como [Docker][k0005]
+> Algunas personas usan herramientas como [Docker][docker]
 > para poner máquinas virtuales en las computadoras de sus estudiantes<span i="máquinas virtuales"></span>
 > para que todos trabajen exactamente con las mismas herramientas,
 > pero esto presenta un nuevo conjunto de problemas.
@@ -634,8 +634,8 @@ Sin embargo,
 esto hace que la clase dependa del *WiFi*<span i="WiFi institucional (peligros del)"></span>
 (que puede ser de calidad muy variable)
 y no satisface el deseo de las/los estudiantes de irse con sus propias máquinas listas para su uso en el mundo real.
-A la par que herramientas basadas en la nube como [Glitch][k0006]
-y [RStudio Cloud][k0007] se vuelven más robustas,
+A la par que herramientas basadas en la nube como [Glitch][glitch]
+y [RStudio Cloud][rstudio-cloud] se vuelven más robustas,
 esta última consideración se torna menos importante.
 
 Una última forma de abordar los problemas de configuración es dividir la clase en varios días
@@ -857,7 +857,7 @@ y trabaja en un simple ejercicio de programación.
 
 ### Emparejar (parejas/15’) {.exercise}
 
-Mira [este video][k0008] de programación en parejas
+Mira [este video][video-pair-programming] de programación en parejas
 y luego practica hacerlo con una/un compañera/o.
 Recuerda cambiar los roles entre conductor/a y navegante cada pocos minutos.
 ¿Cuánto tiempo tardas en adoptar un ritmo de trabajo?

@@ -617,7 +617,7 @@ which indicates greater self-efficacy and willingness to try to debug things.
 > A typical exercise is to describe an everyday object (such as a paper clip or toothbrush)
 > in terms of its inputs, outputs, and functions.
 > This kind of teaching is sometimes called <span g="g:cs-unplugged" i="CS unplugged">unplugged</span>;
-> the [CS Unplugged][cs-unplugged] site has lessons and exercises for doing this.
+> the [CS Unplugged][cs-unplugged-en] site has lessons and exercises for doing this.
 
 ## Where Next? {#pck-final}
 

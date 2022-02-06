@@ -44,7 +44,7 @@ y conversen con sus pares (relación).
 > ### El problema de las notas
 >
 >   Yo nunca he tenido un público en mi vida. Mi público es una rúbrica.<br/>
->   -- citado por [Matt Tierney][k0061]
+>   -- citado por [Matt Tierney][tierney-matt]
 >
 > Las calificaciones y la forma en que distorsionan el aprendizaje se utilizan con frecuencia como ejemplo de motivación extrínseca,
 > pero como observa <cite>Mill2016a</cite>,
@@ -55,7 +55,7 @@ y conversen con sus pares (relación).
 > y ofrece algunos consejos de cómo disminuir este efecto,
 > mientras <cite>Covi2017</cite> observa el problema más grande de
 > balancear la motivación intrínseca y extrínseca en la educación institucional,
-> y el enfoque de [alineación constructiva][k0062]
+> y el enfoque de [alineación constructiva][constructive-alignment]
 > defendido en <cite>Bigg2011</cite> busca armonizar las actividades de aprendizaje con los resultados del aprendizaje.
 
 <cite>Ambr2010</cite> contiene una lista de métodos basados en evidencia para motivar a los/las estudiantes.
@@ -221,7 +221,7 @@ pueden aprender a ni siquiera intentar cambiar aquello que sí podrían.
 Una de las maneras más rápidas y seguras de desmotivar estudiantes es
 usar un lenguaje que sugiera que algunas personas son programadoras naturales y otras no.
 Guzdial lo ha llamado
-[el mito más grande de enseñar ciencias de la computación][k0063],
+[el mito más grande de enseñar ciencias de la computación][guzdial-myths],
 y <cite>Pati2016</cite> respaldó esto mostrando que
 la gente ve evidencia de un "gen *geek*" donde no existe uno.<span i="gen geek (inexistencia de)"></span>
 Analizaron distribuciones de calificaciones de 778 cursos universitarios y encontraron que solo 5,8% mostraba signos
@@ -280,7 +280,7 @@ Dolores de cabeza de instalación de software.
 
 Es incluso más fácil desmotivar a las personas en línea que en persona,
 pero ahora hay estrategias basadas en evidencia para lidiar con esto.
-<cite>Ford2016</cite> encontraron que las siguientes cinco barreras para contribuir en [Stack Overflow][k0123]
+<cite>Ford2016</cite> encontraron que las siguientes cinco barreras para contribuir en [Stack Overflow][stack-overflow]
 sos consideradas significativamente más problemáticas por las mujeres que por los hombres:
 falta de conocimiento de las características del sitio,
 sentirse incapaz de contestar preguntas,
@@ -330,7 +330,7 @@ Las personas que pertenencen a grupos subrepresentados que ya sienten una presi�
 pueden ser particularmente afectadas.
 
 La iniciativa Ada (*Ada Initiative*) ha creado unas <span i="síndrome del impostor/a!combatir"></span>
-[guías][k0065]
+[guías][impostor-syndrome]
 para luchar con tu propio síndrome del impostor/a,
 que incluyen:
 
@@ -394,7 +394,7 @@ Por otro lado,
 si la gente cree que una habilidad se aprende y se puede mejorar,
 en promedio, les irá mejor.
 
-[Se cuestiona][k0066]
+[Se cuestiona][growth-mindset-critique]
 que la mentalidad del crecimiento ha sido sobredimensionada,
 o que traducir las investigaciones al respecto a la práctica
 es mucho más difícil
@@ -409,7 +409,7 @@ puede hacerlas sentirse ansiosas por el riesgo de confirmar esos estereotipos,
 lo que a su vez puede reducir su rendimiento.
 Otra vez,
 hay preocupación sobre
-[la replicabilidad de los estudios claves][k0067],
+[la replicabilidad de los estudios claves][stereotype-threat-critique],
 y el problema se complica aún más por el hecho de que el término se ha utilizado de muchas formas <cite>Shap2007</cite>,
 pero nadie argumentaría que mencionar estereotipos en clase ayudaría a los/las estudiantes.
 
@@ -451,7 +451,7 @@ pero siempre es un punto adecuado de partida.
 Algunas recomendaciones específicas son:
 
 Descubre lo que debes hacer.
-: Cada uno de [estos afiches][k0080]
+: Cada uno de [estos afiches][uk-gov-accessibility-es]
   ofrece lo que debe y no debe hacerse para personas con autismo,
   usuarios/as de lectores de pantalla,
   y personas con baja visión,
@@ -469,7 +469,7 @@ Primero haz las cosas fáciles.
   y revisar tu selección de colores, son buenos puntos de partida.
 
 Revisa qué tan bien lo estás haciendo.
-: Sitios como [WebAIM][k0071] permiten que revises
+: Sitios como [WebAIM][webaim] permiten que revises
   qué tan accesibles son tus materiales en línea para usuarios/as con discapacidad visual.
 
 <cite>Coom2012,Burg2015</cite> son buenas guías de diseño visual para la accesibilidad.
@@ -496,7 +496,7 @@ Incluye narración de la acción de pantalla en los videos
 <span i="cucharas (metáfora)"></span>
 
 En el 2003,
-Christine Miserandino comenzó a usar las [cucharas][k0072]
+Christine Miserandino comenzó a usar las [cucharas][spoons]
 como una forma de explicar cómo es vivir con una enfermedad crónica.
 Las personas sanas comienzan cada día con una cantidad ilimitada de cucharas,
 pero aquellas con lupus u otras condiciones debilitantes solo tienen unas pocas,
@@ -515,7 +515,7 @@ Esa es otra cuchara, y pronto se te acaban.
 > y luego tienes que tomar en cuenta otros 5 minutos por sentirme mal
 > de que te tomó 2 horas hacer todo esto.
 
-Como [Elizabeth Patitsas ha argumentado][k0073],
+Como [Elizabeth Patitsas ha argumentado][patitsas-essay-spoons],
 las personas que tienen muchas cucharas pueden acumular más,
 pero las personas cuya cantidad es limitada pueden tener dificultades para salir adelante.
 Al diseñar clases y ejercicios,
@@ -536,7 +536,7 @@ personas con dificultades físicas,
 personas que estuvieron encarceladas,
 los/las desfavorecidos/as económicamente,
 y todas las demás personas que no encajen en el grupo demográfico de hombres blancos/asiáticos prósperos de Silicon Valley.
-<a figure="f:motivation-women-in-cs"/> (de [NPR][k0074])
+<a figure="f:motivation-women-in-cs"/> (de [NPR][npr])
 ilustra gráficamente los efectos de la cultura excluyente hacia las mujeres en la computación.
 
 <figure id="f:motivation-women-in-cs">
@@ -663,7 +663,7 @@ no son culpa de una persona en particular,
 pero solucionarlos es responsabilidad de todos/as.
 Como docente,
 tienes más poder que la mayoría;
-[este taller][k0075]
+[este taller][frameshift-workshop]
 tiene excelentes consejos prácticos sobre cómo ser un/a buen/a aliado/a,
 y su consejo probablemente es más importante que cualquier cosa que te enseñe este libro sobre la enseñanza.
 
@@ -679,7 +679,7 @@ y su consejo probablemente es más importante que cualquier cosa que te enseñe 
 
 ### Necesidades básicas (toda la clase/10’) {.exercise}
 
-Paloma Medina identifica [seis necesidades básicas][k0076] para las personas en el trabajo:
+Paloma Medina identifica [seis necesidades básicas][biceps] para las personas en el trabajo:
 pertenencia,
 progreso,
 elección,
@@ -727,7 +727,7 @@ Kenneth Wesson escribió,
 "Si los/las niños/as de los barrios marginales pobres superaran sistemáticamente
 a los/as niños/as de hogares suburbanos ricos en las pruebas estandarizadas,
 ¿alguien es lo suficientemente ingenuo como para creer que todavía insistiríamos en usar estas pruebas como indicadores de éxito?"
-Lee [este artículo][k0077]
+Lee [este artículo][nytimes-undiscovered]
 de Cameron Cottrill
 y luego describe un ejemplo de tu propia experiencia de evaluaciones "objetivas" que reforzaron el status quo.
 
@@ -739,11 +739,11 @@ enumeren otras dos o tres frases que refuerzan estereotipos sobre la computació
 
 ### No ser un idiota (individual/15’) {.exercise}
 
-[Este artículo corto][k0078]
+[Este artículo corto][open-source-not-jerk]
 de Gary Bernhardt
 reescribe un mensaje innecesariamente hostil para ser menos grosero.
 Utilizándolo como un modelo,
-encuentra algo desagradable en [Stack Overflow][k0123] o en algún otro foro público de discusión.
+encuentra algo desagradable en [Stack Overflow][stack-overflow] o en algún otro foro público de discusión.
 y reescríbelo para que sea más inclusivo.
 
 ### Salvar las apariencias (individual/10’) {.exercise}
@@ -768,7 +768,7 @@ se buscan estas actividades en línea.
 En parejas,
 escojan una lección cuyos materiales están disponibles en línea
 e independientemente asignen un puntaje a esos materiales de acuerdo a lo que se debe y no se debe hacer según
-[estos afiches][k0080].
+[estos afiches][uk-gov-accessibility-es].
 ¿En qué estuvieron de acuerdo tu pareja y tú?
 ¿En qué estuvieron en desacuerdo?
 ¿Qué tan bien fue la lección para cada una de las seis categorías de usuarios/as?

@@ -293,7 +293,7 @@ chunking can also mislead us if we mis-identify things:
 newcomers really can sometimes see things that experts have looked at and missed.
 
 Given how important chunking is to thinking,
-it is tempting to identify <span i="design patterns">[design patterns][design-patterns]</span>
+it is tempting to identify <span i="design patterns">[design patterns][design-patterns-en]</span>
 and teach them directly.
 These patterns help competent practitioners think and talk to each other in many domains (including teaching <cite>Berg2012</cite>),
 but pattern catalogs are too dry and too abstract for novices to make sense of on their own.

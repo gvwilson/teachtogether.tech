@@ -27,7 +27,7 @@ al igual que las grabadoras revolucionaron la enseñanza musical una década ant
 
 Muchas de las personas que introducen internet en las aulas no conocen esta historia
 y no se dan cuenta de que el suyo es solo el último de
-[una larga serie de intentos][k0081]
+[una larga serie de intentos][teaching-machine-timeline]
 de utilizar máquinas para enseñar <cite>Watt2014</cite>.
 Desde la imprenta, pasando por la radio y la televisión,
 a computadoras de escritorio y dispositivos móviles,
@@ -122,7 +122,7 @@ ninguna lección se personalizaba en base a la experiencia previa en programaci�
 > la computadora omitirá algunas de las siguientes preguntas.
 >
 > Hacer esto puede producir
-> [modestas mejoras][k0082],
+> [modestas mejoras][personalized-learning-effects],
 > pero hay aproximaciones más convenientes.
 > Por ejemplo,
 > si muchas/os estudiantes encuentran difícil un tema en particular,
@@ -139,7 +139,7 @@ ninguna lección se personalizaba en base a la experiencia previa en programaci�
 > En la escuela primaria,
 > puede haber diferencias de 0.1 a 0.15 desviaciones estándar en el desempeño de fin de año debido a buenas/os docentes.
 > <cite>Chet2014</cite>
-> (ver [este artículo][k0083] para un breve resumen).
+> (ver [este artículo][teacher-quality-article] para un breve resumen).
 > No es realista creer que esto puede ser superado en el corto plazo por cualquier tipo de automatización.
 
 Entonces, ¿cómo se *debe* usar internet para enseñar y aprender habilidades tecnológicas?
@@ -219,13 +219,13 @@ Identifica y aclara tempranamente conceptos erróneos.
 Todo esto tiene que ser implementado de alguna manera,<span i="aprendizaje en línea!implementación de"></span>
 lo que significa que necesitas alguna clase de plataforma de enseñanza.
 Puedes utilizar tanto un <span g="lms">sistema de gestión del aprendizaje</span> (*learning management system*, en inglés) todo en uno
-como [Moodle][k0084] o [Sakai][k0085],
+como [Moodle][moodle] o [Sakai][sakai],
 o generar uno por tu cuenta
-usando [Slack][k0086] o [Zulip][k0087] para el chat,
-[Google Hangouts][k0088]
-o [appear.in][k0089] para videoconferencias,
-y [WordPress][k0090],
-[Google Docs][k0120],
+usando [Slack][slack] o [Zulip][zulip-chat] para el chat,
+[Google Hangouts][google-hangouts]
+o [appear.in][appear-in] para videoconferencias,
+y [WordPress][wordpress],
+[Google Docs][google-docs],
 o cualquier número de sistemas wiki para la autoría colaborativa.
 Si recién estás comenzando,
 elige lo que sea más fácil de configurar y administrar
@@ -250,10 +250,10 @@ exploramos algunas de sus ideas en el <a section="community"/>.
 > ### Libertad para, libertad de
 >
 > El ensayo de 1958 de Isaiah Berlin<span i="Berlin, Isaiah"></span>
-> ["Dos conceptos de libertad"][k0092]
-> hizo una distinción entre [libertad positiva][k0093],
+> ["Dos conceptos de libertad"][berlin-essay-liberty]
+> hizo una distinción entre [libertad positiva][libertad-positiva],
 > que es la capacidad de hacer algo,
-> y [libertad negativa][k0094],
+> y [libertad negativa][libertad-negativa],
 > que es la ausencia de reglas que digan que no puedes hacerlo.
 > Las discusiones en línea generalmente ofrecen libertad negativa
 > (nadie te impide decir lo que piensas),
@@ -436,8 +436,8 @@ pero disminuyeron a medida que las/los estudiantes avanzaban.
 Otro modelo híbrido es aquel que lleva al aula la vida en línea.
 Tomar notas en conjunto es un primer paso (<a section="classroom-notetaking"/>);
 agrupando respuestas a preguntas de opción múltiple en tiempo real
-con herramientas como [Pear Deck][k0095]
-y [Socrative][k0096].
+con herramientas como [Pear Deck][peardeck]
+y [Socrative][socrative].
 Si la clase es pequeña --- digamos, de una docena a quince personas ---
 y si hay posibilidades de conectarse a internet en el aula,
 también puedes
@@ -637,7 +637,7 @@ Ciencias de la computación:
 
 ### Ayudar o dañar (grupos pequeños/30') {.exercise}
 
-[Este artículo de Susan Dynarski en *New York Times*][k0097]
+[Este artículo de Susan Dynarski en *New York Times*][online-courses-harming-students]
 explica cómo y por qué las escuelas asignan a cursos en línea a aquellas/os estudiantes que no aprueban los cursos presenciales,
 y cómo esto configura las condiciones para un fracaso aún mayor.
 Lee el artículo y luego:

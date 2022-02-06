@@ -357,12 +357,12 @@ Qué tan bien documentado está el diseño del curso
 
 Qué tan fácil es para los/las colaboradores ayudar
 : Los/las docentes suelen compartir material enviándose por correo archivos de PowerPoint o dejándolos en una unidad compartida.
-  Herramientas de escritura colaborativa como [Google Docs][k0120] y wikis
+  Herramientas de escritura colaborativa como [Google Docs][google-docs] y wikis
   son una gran mejora,
   ya que permiten que muchas personas actualicen el mismo documento
   y comenten las actualizaciones de otras personas.
   Los sistemas de control de versiones usados por programadores/as,
-  tales como [GitHub][k0121],
+  tales como [GitHub][github],
   son otro enfoque.
   Permiten que cualquier número de personas trabaje de forma independiente,
   para luego unir sus cambios en forma controlada y revisable.
@@ -389,9 +389,9 @@ Si la paradoja de la reusabilidad es cierta,
 la colaboración será más probable
 si las cosas en las que se colabora son pequeñas.
 Esto se ajusta a la teoría de Mike Caulfield <span i="Caulfield, Mike"></span> de las
-[explicaciones corales][k0122],
+[explicaciones corales][choral-explanations],
 que sostiene que sitios como
-[Stack Overflow][k0123] tienen éxito porque
+[Stack Overflow][stack-overflow] tienen éxito porque
 proporcionan un coro de respuestas para cada pregunta,
 cada una de las cuales es más adecuada para
 una persona que pregunta y que es ligeramente diferente a las demás personas que preguntan.
@@ -467,13 +467,13 @@ y trabaja hacia atrás para dividirlo en fragmentos que se asimilen.
 ### Rareza no esencial (individual/15') {.exercise}
 
 Betsy Leondar-Wright acuñó la frase
-"[rareza no esencial][k0124]"
+"[rareza no esencial][inessential-weirdness]"
 para describir cosas que hacen los grupos
 que no son realmente necesarias y
 que alienan a personas que aún no son integrantes de ese grupo.
 Sumana Harihareswara luego usó esta noción
 como base para una charla sobre
-[rarezas no esenciales en el software de código abierto][k0125],
+[rarezas no esenciales en el software de código abierto][inessential-weirdness-open-source],
 lo que incluye, por ejemplo, el uso de herramientas de línea de comandos con nombres crípticos.
 Toma unos minutos para leer estos artículos,
 luego haz una lista de las rarezas no esenciales que crees
@@ -515,7 +515,7 @@ y bosqueja una breve lección que siga estos cinco pasos.
 <span i="CRA (patrón de lección)"></span>
 <span i="patrón de lección!CRA"></span>
 
-*[Concreto-representativo-abstracto][cra]*
+*[Concreto-representativo-abstracto][c-r-a]*
 (abreviado *CRA*) es un enfoque para introducir nuevas ideas
 usado principalmente con estudiantes más jóvenes:
 manipular físicamente un objeto *concreto*,

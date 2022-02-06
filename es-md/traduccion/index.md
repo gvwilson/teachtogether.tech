@@ -4,8 +4,8 @@ template: page.html
 
 Este es el sitio web de la versión en español de *Teaching Tech Together* de Greg Wilson.
 La traducción de *Enseñar Tecnología en Comunidad* es un proyecto colaborativo
-de voluntarias de la comunidad de [MetaDocencia][k0155] y
-[R-Ladies][k0156] en Latinoamérica,
+de voluntarias de la comunidad de [MetaDocencia][metadocencia] y
+[R-Ladies][r-ladies] en Latinoamérica,
 que tiene por objetivo traducir al español material actualizado
 y de calidad para hacerlo accesible a hispanohablantes.
 Iniciamos el proceso de traducción en marzo del año 2020 y lo completamos en marzo del 2021.
@@ -18,8 +18,8 @@ Al finalizar todo el proceso se realizó una edición final del libro en su conj
 
 Las decisiones que tomamos durante el proceso de traducción se basaron en experiencias previas
 del equipo y en otras guías de traducciones colaborativas al español como
-[R para Ciencia de Datos][k0157]
-y [The Carpentries][k0158]:
+[R para Ciencia de Datos][r-c-d]
+y [The Carpentries][carpentries-espanol]:
 
 La variedad dialéctica del español (castellano) utilizada en la traducción corresponde
 a Latinoamérica y se utilizó una voz conversacional en lugar de una voz formal o académica.
@@ -41,27 +41,27 @@ para que sean más cercanos a la región de origen de la mayoría de las
 traductoras.
 
 Quienes trabajamos en este proyecto somos (en orden alfabético):
-[Laura Acion][k0130],
-[Mónica Alonso][k0131],
-[Zulemma Bazurto][k0132],
-[Alejandra Bellini][k0133],
-[Yanina Bellini Saibene][k0134],
-[Juliana Benitez Saldivar][k0135],
-[Lupe Canaviri Maydana][k0136],
-[Silvia Canelón][k0137],
-[Ruth Chirinos][k0138],
-[Paola Corrales][k0139],
-[María Dermit][k0140],
-[Ana Laura Diedrich][k0141],
-[Patricia Loto][k0142],
-[Priscilla Minotti][k0143],
-[Natalia Morandeira][k0144],
-[Lucía Rodríguez Planes][k0145],
-[Paloma Rojas][k0146],
-[Yuriko Sosa][k0147],
-[Natalie Stroud][k0148],
-[Yara Terrazas-Carafa][k0149] y
-[Roxana Noelía Villafañe][k0150].
+[Laura Acion][acion-laura],
+[Mónica Alonso][alonso-monica],
+[Zulemma Bazurto][bazurto-zulemma],
+[Alejandra Bellini][bellini-alejandra],
+[Yanina Bellini Saibene][bellini-saibene-yanina],
+[Juliana Benitez Saldivar][benitez-saldivar-juliana],
+[Lupe Canaviri Maydana][canaviri-maydana-lupe],
+[Silvia Canelón][canelon-silvia],
+[Ruth Chirinos][chirinos-ruth],
+[Paola Corrales][corrales-paola],
+[María Dermit][dermit-maria],
+[Ana Laura Diedrich][diedrich-ana-laura],
+[Patricia Loto][loto-patricia],
+[Priscilla Minotti][minotti-priscilla],
+[Natalia Morandeira][morandeira-natalia],
+[Lucía Rodríguez Planes][rodriguez-planes-lucia],
+[Paloma Rojas][rojas-paloma],
+[Yuriko Sosa][sosa-yuriko],
+[Natalie Stroud][stroud-natalie],
+[Yara Terrazas-Carafa][terrazas-carafa-yara] y
+[Roxana Noelía Villafañe][villafane-roxana-noelia].
 
 En cada capítulo encontrarás el detalle de las personas que estuvieron a cargo de traducirlo
 y revisarlo.
@@ -69,8 +69,8 @@ y revisarlo.
 La coordinación del trabajo estuvo a cargo de Yanina Bellini Saibene y
 la edición final a cargo de Yanina Bellini Saibene y Natalia Morandeira.
 
-[Malena Zabalegui][k0151] nos aconsejó sobre el uso de lenguaje no sexista e
-inclusivo para la realización de esta traducción y [Francisco Etchart][k0152]
+[Malena Zabalegui][zabalegui-malena] nos aconsejó sobre el uso de lenguaje no sexista e
+inclusivo para la realización de esta traducción y [Francisco Etchart][etchart-francisco]
 diseñó el hex sticker.
 
 También generamos un
@@ -78,7 +78,7 @@ También generamos un
 a partir del glosario del libro y del listado de términos
 a traducir (o no) del libro.
 El desarrollo de este glosario estuvo a cargo de Yanina Bellini Saibene utilizando
-[glosario][k0159].
+[glosario][glosario].
 
 Todos los detalles del proceso de traducción se pueden consultar
-[en la documentación del proyecto][k0160].
+[en la documentación del proyecto][t3-docs].

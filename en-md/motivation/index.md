@@ -445,7 +445,7 @@ but is always the right place to start.
 A few specific recommendations are:
 
 Find out what you need to do.
-: Each of [these posters][uk-gov-accessibility]
+: Each of [these posters][uk-gov-accessibility-en]
   offers do's and don'ts for people on the autistic spectrum,
   users of screen readers,
   and people with low vision,
@@ -761,7 +761,7 @@ What effect do you think this has?
 In pairs,
 choose a lesson whose materials are available online
 and independently rank it according to the do's and don'ts in
-[these posters][uk-gov-accessibility].
+[these posters][uk-gov-accessibility-en].
 Where did you and your partner agree?
 Where did you disagree?
 How well did the lesson do for each of the six categories of user?

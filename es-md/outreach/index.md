@@ -177,9 +177,9 @@ algoritmos diseñados para prevenir a las personas sobre *rankings* manipulados,
 A menos que tengas muy buena financiación,
 lo mejor que puedes hacer es hacer búsquedas regulares de tu organización y de ti en internet
 para ver qué encuentras.
-Con esa información puedes leer [estas guías (en inglés)][k0098]
+Con esa información puedes leer [estas guías (en inglés)][page-factors]
 y hacer lo que esté a tu alcance para mejorar tu sitio.
-Ten en mente [esta viñeta de *XKCD* (en inglés)][k0099]:
+Ten en mente [esta viñeta de *XKCD* (en inglés)][xkcd-university-websites]:
 la gente no quiere saber sobre tu organigrama u obtener un recorrido virtual de su sitio---las personas quieren tu dirección,
 información sobre estacionamiento cerca
 y alguna idea de lo que enseñas,
@@ -357,7 +357,7 @@ Todo el mundo tiene miedo a lo desconocido y a pasar vergüenza. En consecuencia
 la mayoría de la gente prefiere fracasar que cambiar.
 Por ejemplo,
 Lauren Herckis investigó <span i="Herckis, Lauren"></span>
-[por qué los/las docentes de nivel universitario no adoptan mejores metodos de enseñanza][herckis-teaching-methods].
+[por qué los/las docentes de nivel universitario no adoptan mejores metodos de enseñanza][faculty-teaching-methods].
 Lauren halló que el principal motivo es el miedo a parecer estúpido/a delante de los/las estudiantes;
 Las otras razones fueron:
 preocupación de que el cambio de los métodos de enseñanza pudiera afectar las evaluaciones de los cursos de forma negativa
@@ -756,9 +756,9 @@ todas de las cuales aplican a nuevas prácticas de enseñanza:
 
 ### Mentoreo (todo la clase/15') {.exercise}
 
-El [Institute for African-American Mentoring in Computer Science][k0100]
+El [Institute for African-American Mentoring in Computer Science][iaamcs]
 (Instituto de Mentoría Afroamericana en Ciencias de la Computación)
-ha publicado [guías para mentorear estudiantes de doctorado][k0101].
+ha publicado [guías para mentorear estudiantes de doctorado][iaamcs-guidelines].
 Lee estas guías individualmente (en inglés),
 luego discutan en la clase
 y califiquen los esfuerzos para tu propio grupo como: +1 (definitivamente lo haría),

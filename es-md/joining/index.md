@@ -45,7 +45,7 @@ todo este material puede distribuirse y reutilizarse libremente
 bajo la licencia Creative Commons Atribución -- No Comercial 4.0
 (<a section="license"/>).
 Puedes usar la versión en línea en <http://teachtogether.tech/> en cualquier clase (gratuita o paga),
-y puedes citar extractos breves bajo las disposiciones de [uso justo][k0045],
+y puedes citar extractos breves bajo las disposiciones de [uso justo][uso-justo],
 pero no puedes volver a publicar fragmentos grandes en obras comerciales sin permiso previo.
 
 Este material ha sido usado de muchas maneras,

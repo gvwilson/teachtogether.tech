@@ -11,7 +11,7 @@ template: page.html
 Por favor revisa <https://creativecommons.org/licenses/by-nc/4.0/legalcode.es> para el texto legal completo.*
 
 Este trabajo se licencia bajo
-[Creative Commons Atribución -- No Comercial 4.0][k0046]
+[Creative Commons Atribución -- No Comercial 4.0][cc-by-nc-es]
 (CC-BY-NC-4.0).
 
 **Eres libre de:**

@@ -34,14 +34,14 @@ y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
 > ### Re-uso
 >
 > Algunas secciones de este libro fueron originalmente creadas para
-> [el programa de entrenamiento de instructores/as de Software Carpentry][k0040].
+> [el programa de entrenamiento de instructores/as de Software Carpentry][carpentries-instructor].
 > Cualquier parte del libro puede ser libremente distribuida y re-utilizada
 > bajo la licencia Creative Commons Atribución-NoComercial 4.0
 > (<a section="license"/>).
 > Puedes usar la versión online disponible en <http://teachtogether.tech/es/>
 > en cualquier clase
 > (gratuita o paga),
-> y puedes citar pequeños extractos bajo el criterio de [uso justo][k0045],
+> y puedes citar pequeños extractos bajo el criterio de [uso justo][uso-justo],
 > pero no puedes re-publicar largos fragmentos en trabajos comerciales sin permiso previo.
 >
 > Las contribuciones, correcciones y sugerencias son bienvenidas,
@@ -118,7 +118,7 @@ Si tienes prisa o quieres tener una idea de lo que cubrirá este libro,
 <cite>Brow2018</cite> presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>.
 También puedes disfrutar<sup>Todos en inglés</sup>:
 
-- [El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)][k0040],
+- [El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)][carpentries-instructor],
   en el cual está basado este libro.
 
 - <cite>Lang2016</cite> y <cite>Hust2012</cite>, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar
@@ -134,7 +134,7 @@ También puedes disfrutar<sup>Todos en inglés</sup>:
 
 - <cite>Pape1993</cite>,
   que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación.
-  [La excelente descripción de Amy Ko][k0041]
+  [La excelente descripción de Amy Ko][ko-mindstorms]
   es una síntesis de las ideas de Papert, mejor que la que podría hacer yo,
   y <cite>Craw2010</cite> es una compañía provocadora y estimulante a ambos textos.
 
@@ -147,7 +147,7 @@ También puedes disfrutar<sup>Todos en inglés</sup>:
   y no puedes lograr este cambio trabajando de forma solitaria.
 
 Quienes deseen material más académico pueden encontrar gratificante leer a <cite>Guzd2015a,Hazz2014,Sent2018,Finc2019,Hpl2018</cite>,
-mientras que [el blog de Mark Guzdial][k0042] ha sido consistentemente informativo, sugerente y motivador.
+mientras que [el blog de Mark Guzdial][guzdial-blog] ha sido consistentemente informativo, sugerente y motivador.
 
 ## Agradecimientos {#intro-acknowledgments}
 
@@ -299,11 +299,11 @@ Las/los políticas/os, líderes de negocios y educadoras/es usualmente dicen que
 la gente debe aprender a programar porque los trabajos del futuro lo requerirán.
 Sin embargo,
 como Benjamin Doxtdator
-[ha señalado][k0043],
+[ha señalado][jobs-that-dont-exist],
 muchas de estas afirmaciones están construidas sobre cimientos débiles.
 Incluso si las afirmaciones fueran reales, la educación no debería preparar a la gente para los trabajos del futuro:
 les debería dar el poder de decidir qué tipos de trabajos hay y asegurarles que vale la pena hacer esos trabajos.
-Además, como [señala Mark Guzdial][k0044],
+Además, como [señala Mark Guzdial][guzdial-why-teach-programming],
 hay realmente muchas razones para aprender a programar:
 
 1. Para entender nuestro mundo.

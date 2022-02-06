@@ -86,4 +86,4 @@ del proyecto.
 
 ## Atribución
 
-Este código de conducta es una adaptación del [Contributor Covenant][k0026] version 1.4.
+Este código de conducta es una adaptación del [Contributor Covenant][contributor-covenant] version 1.4.

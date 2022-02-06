@@ -17,7 +17,7 @@ que se pueden usar para corroborar si tu forma de enseñar ha resultado efectiva
 Luego examina el estado del arte en cuanto a calificación automatizada y culmina explorando discusiones,
 proyectos y otros tipos importantes de trabajo que requieren una atención más humana para evaluar.
 
-Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury [Canterbury Question Bank][k0027] <cite>Sand2013</cite>,
+Nuestra discusión se basa parcialmente en el Banco de Preguntas de Canterbury [Canterbury Question Bank][canterbury-question-bank] <cite>Sand2013</cite>,
 que trae entradas para varios lenguajes de programación y temas introductorios a las ciencias de la computación.
 
 ## Los clásicos {#exercises-classics}
@@ -110,7 +110,7 @@ las respuestas enviadas son mucho más predecibles y, por lo tanto, más fácile
 >
 > Completa los espacios en blanco,
 > para que el código de abajo imprima el texto `'cana'`.<sup>Inspirado en un verso de María Elena Walsh,
-> del libro [Zoo Loco][k0028]</sup>.
+> del libro [Zoo Loco][zoo-loco]</sup>.
 >
 > ```text
 > text = 'Un canario que ladra si está triste'

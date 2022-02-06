@@ -462,7 +462,7 @@ and give them feedback on theirs.
 ### A Different Progression (individual/15) {.exercise}
 
 The novice-competent-expert model of skill development
-is sometimes called the [Dreyfus model][dreyfus-model].
+is sometimes called the [Dreyfus model][dreyfus-model-en].
 Another commonly-used progression is
 the [four stages of competence][four-stages-competence]:
 

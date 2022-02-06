@@ -1,339 +1,528 @@
-- key: bridge
-  url: "http://bridgeschool.io/"
-  title: "Bridge"
-- key: carpentries-instructor
-  url: "http://carpentries.github.io/instructor-training/"
-  title: "The Carpentries instructor training"
-- key: carpentries
-  url: "http://carpentries.org"
-  title: "the Carpentries"
-- key: guzdial-blog
-  url: "http://computinged.wordpress.com"
-  title: "Mark Guzdial's blog"
-- key: cs-teaching-tips
-  url: "http://csteachingtips.org/"
-  title: "CS Teaching Tips"
-- key: docker
-  url: "http://docker.com"
-  title: "Docker"
-- key: google-docs
-  url: "http://docs.google.com"
-  title: "Google Docs"
-- key: teacher-quality-article
-  url: "http://educationnext.org/in-schools-teacher-quality-matters-most-coleman/"
-  title: "this article"
-- key: github
-  url: "http://github.com"
-  title: "GitHub"
-- key: google-hangouts
-  url: "http://hangouts.google.com"
-  title: "Google Hangouts"
-- key: iaamcs-guidelines
-  url: "http://iaamcs.org/guidelines"
-  title: "guidelines for mentoring doctoral students"
-- key: iticse
-  url: "http://iticse.acm.org/"
-  title: "ITiCSE"
-- key: loupe
-  url: "http://latentflip.com/loupe/"
-  title: "Loupe"
-- key: moodle
-  url: "http://moodle.org"
-  title: "Moodle"
-- key: producing-oss
-  url: "http://producingoss.com/"
-  title: "available online"
-- key: rstudio-cloud
-  url: "http://rstudio.cloud"
-  title: "RStudio Cloud"
-- key: sigcse
-  url: "http://sigcse.org/"
-  title: "SIGCSE"
-- key: slack
-  url: "http://slack.com"
-  title: "Slack"
-- key: carpentries-shell
-  url: "http://swcarpentry.github.io/shell-novice/"
-  title: "lesson on the Unix shell"
-- key: teaching-machine-timeline
-  url: "http://teachingmachin.es/timeline.html"
-  title: "a long series of attempts"
-- key: canterbury-question-bank
-  url: "http://web-cat.org/questionbank/"
-  title: "Canterbury Question Bank"
-- key: webaim
-  url: "http://webaim.org/"
-  title: "WebAIM"
 - key: 4h-club
-  url: "http://www.4-h-canada.ca/"
-  title: "4-H Club"
-- key: black-girls-code
-  url: "http://www.blackgirlscode.com/"
-  title: "Black Girls Code"
-- key: inessential-weirdness
-  url: "http://www.classmatters.org/2006_07/its-not-them.php"
-  title: "inessential weirdness"
-- key: ten-thousand-hour-rule
-  url: "http://www.goodlifeproject.com/podcast/anders-ericsson/"
-  title: "probably not true"
-- key: iaamcs
-  url: "http://www.iaamcs.org/"
-  title: "Institute for African-American Mentoring in Computer Science"
-- key: learning-theories
-  url: "http://www.learning-theories.com/"
-  title: "Learning Theories website"
-- key: learning-scientists
-  url: "http://www.learningscientists.org/"
-  title: "Learning Scientists"
-- key: learning-scientists-blog
-  url: "http://www.learningscientists.org/blog/2017/7/28-1"
-  title: "The Learning Scientists blog"
-- key: learning-scientists-posters
-  url: "http://www.learningscientists.org/downloadable-materials"
-  title: "a set of downloadable posters"
-- key: jobs-that-dont-exist
-  url: "http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/"
-  title: "pointed out"
-- key: pd4cs
-  url: "http://www.pd4cs.org/"
-  title: "Professional Development for CS Principles Teaching"
-- key: pd4cs-misconceptions
-  url: "http://www.pd4cs.org/mc-index/"
-  title: "a detailed list of learners' misconceptions and exercises"
-- key: pointerfocus
-  url: "http://www.pointerfocus.com/"
-  title: "PointerFocus"
-- key: quota
-  url: "http://www.quora.com"
-  title: "Quora"
-- key: orwell-why-i-write
-  url: "http://www.resort.com/~prime8/Orwell/whywrite.html"
-  title: "Why I Write"
-- key: uk-gov-accessibility
-  url: "https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/"
-  title: "these posters"
-- key: appear-in
-  url: "https://appear.in/"
-  title: "appear.in"
-- key: adept
-  url: "https://betterexplained.com/articles/adept-method/"
-  title: "ADEPT method"
-- key: mousepose
-  url: "https://boinx.com/mousepose/overview/"
-  title: "Mouseposé"
-- key: spoons
-  url: "https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/"
-  title: "spoons"
-- key: guzdial-myths
-  url: "https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext"
-  title: "the biggest myth about teaching computer science"
-- key: troy-remote-meetings
-  url: "https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/"
-  title: "Chelsea Troy's discussion"
-- key: ihmc
-  url: "https://cmap.ihmc.us/"
-  title: "IHMC"
-- key: noaa-disruptive
-  url: "https://coast.noaa.gov/ddb/"
-  title: "dealing with disruptive behaviors"
-- key: guzdial-why-teach-programming
-  url: "https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/"
-  title: "Mark Guzdial points out"
-- key: cc-by-nc
-  url: "https://creativecommons.org/licenses/by-nc/4.0/"
-  title: "Creative Commons Attribution-NonCommercial 4.0"
-- key: cs-unplugged
-  url: "https://csunplugged.org/en/"
-  title: "CS Unplugged"
-- key: growth-mindset-critique
-  url: "https://educhatter.wordpress.com/2017/03/26/growth-mindset-is-the-theory-flawed-or-has-gm-been-debased-in-the-classroom/"
-  title: "There are concerns"
-- key: ben-franklin-effect
-  url: "https://en.wikipedia.org/wiki/Ben_Franklin_effect"
-  title: "Ben Franklin"
-- key: constructive-alignment
-  url: "https://en.wikipedia.org/wiki/Constructive_alignment"
-  title: "constructive alignment"
-- key: curb-cuts
-  url: "https://en.wikipedia.org/wiki/Curb_cut"
-  title: "Curb cuts"
-- key: dreyfus-model
-  url: "https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition"
-  title: "Dreyfus model"
-- key: fair-use
-  url: "https://en.wikipedia.org/wiki/Fair_use"
-  title: "fair use"
-- key: four-stages-competence
-  url: "https://en.wikipedia.org/wiki/Four_stages_of_competence"
-  title: "four stages of competence"
-- key: bergeron-harrison
-  url: "https://en.wikipedia.org/wiki/Harrison_Bergeron"
-  title: "Harrison Bergeron"
-- key: not-even-wrong
-  url: "https://en.wikipedia.org/wiki/Not_even_wrong"
-  title: "not even wrong"
-- key: nothing-about-us-without-us
-  url: "https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us"
-  title: "nihil de nobis, sine nobis"
-- key: roberts-rules
-  url: "https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order"
-  title: "Robert's Rules of Order"
-- key: sci-hub
-  url: "https://en.wikipedia.org/wiki/Sci-Hub"
-  title: "Sci-Hub"
-- key: screen-reader
-  url: "https://en.wikipedia.org/wiki/Screen_reader"
-  title: "screen reader"
-- key: self-determination
-  url: "https://en.wikipedia.org/wiki/Self-determination_theory"
-  title: "self-determination theory"
-- key: design-patterns
-  url: "https://en.wikipedia.org/wiki/Software_design_pattern"
-  title: "design patterns"
-- key: test-driven-development
-  url: "https://en.wikipedia.org/wiki/Test-driven_development"
-  title: "test-driven development"
-- key: famous-five
-  url: "https://en.wikipedia.org/wiki/The_Famous_Five_(Canada)"
-  title: "wasn't legally a person"
-- key: berlin-essay-liberty
-  url: "https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty"
-  title: "Two Concepts of Liberty"
-- key: deming-edwards
-  url: "https://en.wikipedia.org/wiki/W._Edwards_Deming"
-  title: "manufacturing"
-- key: frameshift-workshop
-  url: "https://frameshiftconsulting.com/ally-skills-workshop/"
-  title: "this workshop"
-- key: keycastr
-  url: "https://github.com/keycastr/keycastr"
-  title: "KeyCastr"
-- key: glitch
-  url: "https://glitch.com/"
-  title: "Glitch"
-- key: choral-explanations
-  url: "https://hapgood.us/2016/05/13/choral-explanations/"
-  title: "choral explanations"
-- key: icer
-  url: "https://icer.hosting.acm.org"
-  title: "ICER"
-- key: nightingale-comments
-  url: "https://mailchi.mp/d54702d0a790/take-my-horse-to-the-sand-hill-road"
-  title: "Johnathan Nightingale wrote"
-- key: c-r-a
-  url: "https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/"
-  title: "Concrete-Representational-Abstract"
-- key: ko-mindstorms
-  url: "https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4"
-  title: "Amy Ko's excellent description"
-- key: nytimes-undiscovered
-  url: "https://mobile.nytimes.com/2016/04/10/upshot/why-talented-black-and-hispanic-students-can-go-undiscovered.html"
-  title: "this article"
-- key: page-factors
-  url: "https://moz.com/learn/seo/on-page-factors"
-  title: "these guidelines"
-- key: open-source-guide
-  url: "https://opensource.guide/"
-  title: "Open Source Guides site"
-- key: patitsas-essay-spoons
-  url: "https://patitsas.blogspot.com/2018/03/spoons-are-form-of-capital.html"
-  title: "Elizabeth Patitsas has argued"
-- key: socrative
-  url: "https://socrative.com/"
-  title: "Socrative"
-- key: stack-overflow
-  url: "https://stackoverflow.com/"
-  title: "Stack Overflow"
-- key: dunning-kruger-critique
-  url: "https://theness.com/neurologicablog/index.php/misunderstanding-dunning-kruger/"
-  title: "Neurologica"
-- key: wickes-python-lists
-  url: "https://twitter.com/elliewix/status/981285432922202113"
-  title: "all the things you need to understand"
-- key: tierney-matt
-  url: "https://twitter.com/figuralities/status/987330064571387906"
-  title: "Matt Tierney"
-- key: wordpress
-  url: "https://wordpress.org/"
-  title: "WordPress"
+  title: 4-H Club
+  url: http://www.4-h-canada.ca/
+- key: acion-laura
+  title: Laura Acion
+  url: https://twitter.com/_lacion_
 - key: acm-curriculum
-  url: "https://www.acm.org/education/curricula-recommendations"
-  title: "ACM Curriculum Guidelines"
-- key: contributor-covenant
-  url: "https://www.contributor-covenant.org"
-  title: "Contributor Covenant"
-- key: open-source-not-jerk
-  url: "https://www.destroyallsoftware.com/blog/2018/a-case-study-in-not-being-a-jerk-in-open-source"
-  title: "This short article"
-- key: community-types
-  url: "https://www.feverbee.com/types-of-community-and-activity-within-the-community/"
-  title: "Broadly speaking"
-- key: frontier-college
-  url: "https://www.frontiercollege.ca/"
-  title: "literacy programs"
-- key: inessential-weirdness-open-source
-  url: "https://www.harihareswara.net/sumana/2016/05/21/0"
-  title: "inessential weirdnesses in open source software"
-- key: faculty-teaching-methods
-  url: "https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods"
-  title: "why university faculty don't adopt better teaching methods"
-- key: non-profit-ready
-  url: "https://www.nonprofitready.org/"
-  title: "NonprofitReady.org"
-- key: npr
-  url: "https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding"
-  title: "NPR"
-- key: online-courses-harming-students
-  url: "https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html"
-  title: "Susan Dynarski's article in the *New York Times*"
+  title: ACM Curriculum Guidelines
+  url: https://www.acm.org/education/curricula-recommendations
+- key: adept
+  title: ADEPT method
+  url: https://betterexplained.com/articles/adept-method/
+- key: alonso-monica
+  title: Mónica Alonso
+  url: https://twitter.com/MonicaLA2000
+- key: appear-in
+  title: appear.in
+  url: https://appear.in/
+- key: bazurto-zulemma
+  title: Zulemma Bazurto
+  url: https://twitter.com/Zjbb
+- key: bellini-alejandra
+  title: Alejandra Bellini
+  url: https://twitter.com/AlejaBellini
+- key: bellini-saibene-yanina
+  title: Yanina Bellini Saibene
+  url: https://twitter.com/yabellini
+- key: ben-franklin-effect
+  title: Ben Franklin
+  url: https://en.wikipedia.org/wiki/Ben_Franklin_effect
+- key: benitez-saldivar-juliana
+  title: Juliana Benitez Saldivar
+  url: https://twitter.com/July_Benitezs
+- key: bergeron-harrison
+  title: Harrison Bergeron
+  url: https://en.wikipedia.org/wiki/Harrison_Bergeron
+- key: berlin-essay-liberty
+  title: Two Concepts of Liberty
+  url: https://en.wikipedia.org/wiki/Two_Concepts_of_Liberty
 - key: biceps
-  url: "https://www.palomamedina.com/biceps"
-  title: "six core needs"
-- key: peardeck
-  url: "https://www.peardeck.com/"
-  title: "Pear Deck"
-- key: stereotype-threat-critique
-  url: "https://www.psychologytoday.com/blog/rabble-rouser/201512/is-stereotype-threat-overcooked-overstated-and-oversold"
-  title: "the replicability of key studies"
-- key: pep-8
-  url: "https://www.python.org/dev/peps/pep-0008/"
-  title: "PEP 8"
-- key: phone-number-length
-  url: "https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used"
-  title: "phone numbers"
-- key: personalized-learning-effects
-  url: "https://www.rand.org/pubs/research_briefs/RB9994.html"
-  title: "modest improvements"
-- key: sakai
-  url: "https://www.sakaiproject.org/"
-  title: "Sakai"
+  title: six core needs
+  url: https://www.palomamedina.com/biceps
+- key: black-girls-code
+  title: Black Girls Code
+  url: http://www.blackgirlscode.com/
+- key: bridge
+  title: Bridge
+  url: http://bridgeschool.io/
+- key: c-r-a
+  title: Concrete-Representational-Abstract
+  url: https://makingeducationfun.wordpress.com/2012/04/29/concrete-representational-abstract-cra/
 - key: camtasia
-  url: "https://www.techsmith.com/video-editor.html"
-  title: "Camtasia"
+  title: Camtasia
+  url: https://www.techsmith.com/video-editor.html
+- key: canaviri-maydana-lupe
+  title: Lupe Canaviri Maydana
+  url: https://twitter.com/luucamay_
+- key: canelon-silvia
+  title: Silvia Canelón
+  url: https://twitter.com/spcanelon
+- key: canterbury-question-bank
+  title: Canterbury Question Bank
+  url: http://web-cat.org/questionbank/
+- key: carpentries
+  title: the Carpentries
+  url: http://carpentries.org
+- key: carpentries-espanol
+  title: The Carpentries
+  url: https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md
+- key: carpentries-instructor
+  title: The Carpentries instructor training
+  url: http://carpentries.github.io/instructor-training/
+- key: carpentries-shell
+  title: lesson on the Unix shell
+  url: http://swcarpentry.github.io/shell-novice/
+- key: cc-by-nc-en
+  title: Creative Commons Attribution-NonCommercial 4.0 (English)
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+- key: cc-by-nc-es
+  title: Creative Commons Atribución-No Comercial 4.0 (Español)
+  url: https://creativecommons.org/licenses/by-nc/4.0/deed.es
+- key: chirinos-ruth
+  title: Ruth Chirinos
+  url: https://twitter.com/ruthy_root
+- key: choral-explanations
+  title: choral explanations
+  url: https://hapgood.us/2016/05/13/choral-explanations/
+- key: community-types
+  title: Broadly speaking
+  url: https://www.feverbee.com/types-of-community-and-activity-within-the-community/
+- key: constructive-alignment
+  title: constructive alignment
+  url: https://en.wikipedia.org/wiki/Constructive_alignment
+- key: contributor-covenant
+  title: Contributor Covenant
+  url: https://www.contributor-covenant.org
+- key: corrales-paola
+  title: Paola Corrales
+  url: https://twitter.com/PaobCorrales
+- key: cs-teaching-tips
+  title: CS Teaching Tips
+  url: http://csteachingtips.org/
+- key: cs-unplugged-en
+  title: CS Unplugged (English)
+  url: https://csunplugged.org/en/
+- key: cs-unplugged-es
+  title: CS Unplugged (Español)
+  url: https://csunplugged.org/es/
+- key: curb-cuts
+  title: Curb cuts
+  url: https://en.wikipedia.org/wiki/Curb_cut
+- key: deming-edwards
+  title: manufacturing
+  url: https://en.wikipedia.org/wiki/W._Edwards_Deming
+- key: dermit-maria
+  title: María Dermit
+  url: https://twitter.com/DermitMaria
+- key: design-patterns-en
+  title: design patterns
+  url: https://en.wikipedia.org/wiki/Software_design_pattern
+- key: design-patterns-es
+  title: patrones de diseño
+  url: https://es.wikipedia.org/wiki/Patrón_de_diseño
+- key: diedrich-ana-laura
+  title: Ana Laura Diedrich
+  url: https://twitter.com/anadiedrichs
+- key: docker
+  title: Docker
+  url: http://docker.com
+- key: dreyfus-model-en
+  title: Dreyfus model
+  url: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition
+- key: dreyfus-model-es
+  title: modelo Dreyfus
+  url: https://es.qwe.wiki/wiki/Dreyfus_model_of_skill_acquisition
+- key: dunning-kruger-critique
+  title: Neurologica
+  url: https://theness.com/neurologicablog/index.php/misunderstanding-dunning-kruger/
+- key: etchart-francisco
+  title: Francisco Etchart
+  url: https://www.instagram.com/fetch.franciscoetchart/
+- key: faculty-teaching-methods
+  title: why university faculty don't adopt better teaching methods
+  url: https://www.insidehighered.com/news/2017/07/06/anthropologist-studies-why-professors-dont-adopt-innovative-teaching-methods
+- key: fair-use
+  title: fair use
+  url: https://en.wikipedia.org/wiki/Fair_use
+- key: famous-five
+  title: wasn't legally a person
+  url: https://en.wikipedia.org/wiki/The_Famous_Five_(Canada)
 - key: finnish-schools-essay
-  url: "https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/"
-  title: "pointed out"
+  title: pointed out
+  url: https://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/
+- key: four-stages-competence
+  title: four stages of competence
+  url: https://en.wikipedia.org/wiki/Four_stages_of_competence
+- key: frameshift-workshop
+  title: this workshop
+  url: https://frameshiftconsulting.com/ally-skills-workshop/
+- key: frontier-college
+  title: literacy programs
+  url: https://www.frontiercollege.ca/
+- key: geolatinas
+  title: GeoLatinas
+  url: https://geolatinas.weebly.com/
+- key: github
+  title: GitHub
+  url: http://github.com
+- key: glitch
+  title: Glitch
+  url: https://glitch.com/
+- key: glosario
+  title: glosario
+  url: https://carpentries.github.io/glosario/
+- key: glosario-t3
+  title: T3 Glosario
+  url: https://yabellini.shinyapps.io/T3Glossary/
+- key: google-docs
+  title: Google Docs
+  url: http://docs.google.com
+- key: google-hangouts
+  title: Google Hangouts
+  url: http://hangouts.google.com
+- key: growth-mindset-critique
+  title: There are concerns
+  url: https://educhatter.wordpress.com/2017/03/26/growth-mindset-is-the-theory-flawed-or-has-gm-been-debased-in-the-classroom/
+- key: guzdial-blog
+  title: Mark Guzdial's blog
+  url: http://computinged.wordpress.com
+- key: guzdial-myths
+  title: the biggest myth about teaching computer science
+  url: https://cacm.acm.org/blogs/blog-cacm/189498-top-10-myths-about-teaching-computer-science/fulltext
+- key: guzdial-why-teach-programming
+  title: Mark Guzdial points out
+  url: https://computinged.wordpress.com/2017/10/18/why-should-we-teach-programming-hint-its-not-to-learn-problem-solving/
+- key: iaamcs
+  title: Institute for African-American Mentoring in Computer Science
+  url: http://www.iaamcs.org/
+- key: iaamcs-guidelines
+  title: guidelines for mentoring doctoral students
+  url: http://iaamcs.org/guidelines
+- key: icer
+  title: ICER
+  url: https://icer.hosting.acm.org
+- key: ihmc
+  title: IHMC
+  url: https://cmap.ihmc.us/
 - key: impostor-syndrome
-  url: "https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community"
-  title: "guidelines"
-- key: video-concept-test
-  url: "https://www.youtube.com/watch?v=2LbuoxAy56o"
-  title: "this video"
-- key: video-bad-teaching
-  url: "https://www.youtube.com/watch?v=jxgMVwQamO0"
-  title: "this video of bad teaching"
-- key: video-pair-programming
-  url: "https://www.youtube.com/watch?v=vgkahOzFH2Q"
-  title: "this video"
-- key: xkcd-university-websites
-  url: "https://xkcd.com/773/"
-  title: "this XKCD cartoon"
-- key: live-coding-done-well
-  url: "https://youtu.be/SkPmwe_WjeY"
-  title: "live coding done well"
+  title: guidelines
+  url: https://www.usenix.org/blog/impostor-syndrome-proof-yourself-and-your-community
+- key: inessential-weirdness
+  title: inessential weirdness
+  url: http://www.classmatters.org/2006_07/its-not-them.php
+- key: inessential-weirdness-open-source
+  title: inessential weirdnesses in open source software
+  url: https://www.harihareswara.net/sumana/2016/05/21/0
+- key: iticse
+  title: ITiCSE
+  url: http://iticse.acm.org/
+- key: jobs-that-dont-exist
+  title: pointed out
+  url: http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/
+- key: k0001
+  title: desarrollo impulsado por pruebas
+  url: https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas
+- key: k0019
+  title: R-Ladies (Mujeres de R en inglés)
+  url: https://rladies.org/
+- key: k0054
+  title: la lección sobre la consola Unix
+  url: https://swcarpentry.github.io/shell-novice-es/
+- key: k0057
+  title: ni siquiera son falsas
+  url: https://es.wikipedia.org/wiki/Ni_siquiera_es_falso
+- key: k0059
+  title: cuatro etapas de la competencia
+  url: https://es.wikipedia.org/wiki/Cuatro_etapas_de_competencia
+- key: k0060
+  title: teoría de la autodeterminación
+  url: https://es.wikipedia.org/wiki/Teor'ía_de_la_autodeterminaci'ón
+- key: k0068
+  title: lector de pantalla
+  url: https://es.wikipedia.org/wiki/Lector_de_pantalla
+- key: k0069
+  title: Las rampas
+  url: https://es.wikipedia.org/wiki/Rampa
+- key: k0117
+  title: programación en vivo mal desarrollada
+  url: https://youtu.be/i4WhKJ59_5M
+- key: k0118
+  title: bien desarrollada
+  url: https://youtu.be/R2ob_YUp0yw
+- key: k0126
+  title: MetaDocencia
+  url: https://www.metadocencia.org/
+- key: k0127
+  title: R-Ladies
+  url: https://rladies.org/
+- key: k0128
+  title: R para Ciencia de Datos
+  url: https://github.com/cienciadedatos/documentacion-traduccion-r4ds
+- key: k0129
+  title: The Carpentries
+  url: https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md
+- key: k0154
+  title: en la documentación del proyecto
+  url: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
+- key: k0155
+  title: MetaDocencia
+  url: https://www.metadocencia.org/
+- key: keycastr
+  title: KeyCastr
+  url: https://github.com/keycastr/keycastr
+- key: ko-mindstorms
+  title: Amy Ko's excellent description
+  url: https://medium.com/bits-and-behavior/mindstorms-what-did-papert-argue-and-what-does-it-mean-for-learning-and-education-c8324b58aca4
+- key: las-de-sistemas
+  title: Las de Sistemas
+  url: https://lasdesistemas.org/
+- key: learning-scientists
+  title: Learning Scientists
+  url: http://www.learningscientists.org/
+- key: learning-scientists-blog
+  title: The Learning Scientists blog
+  url: http://www.learningscientists.org/blog/2017/7/28-1
+- key: learning-scientists-posters
+  title: a set of downloadable posters
+  url: http://www.learningscientists.org/downloadable-materials
+- key: learning-theories
+  title: Learning Theories website
+  url: http://www.learning-theories.com/
+- key: libertad-negativa
+  title: libertad negativa
+  url: https://es.wikipedia.org/wiki/Libertad_negativa
+- key: libertad-positiva
+  title: libertad positiva
+  url: https://es.wikipedia.org/wiki/Libertad_positiva
 - key: live-coding-done-badly
-  url: "https://youtu.be/bXxBeNkKmJE"
-  title: "live coding done poorly"
+  title: live coding done poorly
+  url: https://youtu.be/bXxBeNkKmJE
+- key: live-coding-done-well
+  title: live coding done well
+  url: https://youtu.be/SkPmwe_WjeY
+- key: loto-patricia
+  title: Patricia Loto
+  url: https://twitter.com/patriloto
+- key: loupe
+  title: Loupe
+  url: http://latentflip.com/loupe/
+- key: metadocencia
+  title: MetaDocencia
+  url: https://metadocencia.org
+- key: minotti-priscilla
+  title: Priscilla Minotti
+  url: https://twitter.com/pmnatural
+- key: moodle
+  title: Moodle
+  url: http://moodle.org
+- key: morandeira-natalia
+  title: Natalia Morandeira
+  url: https://twitter.com/Nat_Mora_
+- key: mousepose
+  title: Mouseposé
+  url: https://boinx.com/mousepose/overview/
+- key: mujeres-en-tecnologia
+  title: Mujeres en Tecnología
+  url: https://mujeresentecnologia.org/
+- key: nightingale-comments
+  title: Johnathan Nightingale wrote
+  url: https://mailchi.mp/d54702d0a790/take-my-horse-to-the-sand-hill-road
+- key: nihil-de-nobis-sine-nobis
+  title: Nihil de nobis, sine nobis
+  url: https://es.wikipedia.org/wiki/Nada_sobre_nosotros_sin_nosotros
+- key: noaa-disruptive
+  title: dealing with disruptive behaviors
+  url: https://coast.noaa.gov/ddb/
+- key: non-profit-ready
+  title: NonprofitReady.org
+  url: https://www.nonprofitready.org/
+- key: not-even-wrong
+  title: not even wrong
+  url: https://en.wikipedia.org/wiki/Not_even_wrong
+- key: nothing-about-us-without-us
+  title: nihil de nobis, sine nobis
+  url: https://en.wikipedia.org/wiki/Nothing_About_Us_Without_Us
+- key: npr
+  title: NPR
+  url: https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding
+- key: nytimes-undiscovered
+  title: this article
+  url: https://mobile.nytimes.com/2016/04/10/upshot/why-talented-black-and-hispanic-students-can-go-undiscovered.html
+- key: online-courses-harming-students
+  title: Susan Dynarski's article in the *New York Times*
+  url: https://www.nytimes.com/2018/01/19/business/online-courses-are-harming-the-students-who-need-the-most-help.html
+- key: open-source-guide
+  title: Open Source Guides site
+  url: https://opensource.guide/
+- key: open-source-not-jerk
+  title: This short article
+  url: https://www.destroyallsoftware.com/blog/2018/a-case-study-in-not-being-a-jerk-in-open-source
+- key: opensource-guide-es
+  title: Guías de Código Abierto
+  url: https://opensource.guide/es
+- key: orwell-why-i-write
+  title: Why I Write
+  url: http://www.resort.com/~prime8/Orwell/whywrite.html
+- key: page-factors
+  title: these guidelines
+  url: https://moz.com/learn/seo/on-page-factors
+- key: patitsas-essay-spoons
+  title: Elizabeth Patitsas has argued
+  url: https://patitsas.blogspot.com/2018/03/spoons-are-form-of-capital.html
+- key: pd4cs
+  title: Professional Development for CS Principles Teaching
+  url: http://www.pd4cs.org/
+- key: pd4cs-misconceptions
+  title: a detailed list of learners' misconceptions and exercises
+  url: http://www.pd4cs.org/mc-index/
+- key: peardeck
+  title: Pear Deck
+  url: https://www.peardeck.com/
+- key: pep-8
+  title: PEP 8
+  url: https://www.python.org/dev/peps/pep-0008/
+- key: personalized-learning-effects
+  title: modest improvements
+  url: https://www.rand.org/pubs/research_briefs/RB9994.html
+- key: phone-number-length
+  title: phone numbers
+  url: https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits-Is-there-a-reason-that-dashes-and-brackets-are-used
+- key: pointerfocus
+  title: PointerFocus
+  url: http://www.pointerfocus.com/
+- key: por-que-escribo
+  title: '"¿Por qué escribo?"'
+  url: https://ciudadseva.com/texto/por-que-escribo/
+- key: producing-oss
+  title: available online
+  url: http://producingoss.com/
+- key: pyladies
+  title: PyLadies
+  url: https://pyladies.com/
+- key: quota
+  title: Quora
+  url: http://www.quora.com
+- key: r-c-d
+  title: R para Ciencia de Datos
+  url: https://github.com/cienciadedatos/documentacion-traduccion-r4ds
+- key: r-ladies
+  title: R-Ladies
+  url: https://rladies.org/
+- key: rebecca-cherep-de-guber
+  title: Rebeca Cherep de Guber
+  url: https://es.wikipedia.org/wiki/Rebeca_Guber
+- key: roberts-rules
+  title: Robert's Rules of Order
+  url: https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order
+- key: rodriguez-planes-lucia
+  title: Lucía Rodríguez Planes
+  url: https://twitter.com/_luciarp_
+- key: rojas-paloma
+  title: Paloma Rojas
+  url: https://twitter.com/palolili23
+- key: rstudio-cloud
+  title: RStudio Cloud
+  url: http://rstudio.cloud
+- key: sakai
+  title: Sakai
+  url: https://www.sakaiproject.org/
+- key: sci-hub
+  title: Sci-Hub
+  url: https://en.wikipedia.org/wiki/Sci-Hub
+- key: screen-reader
+  title: screen reader
+  url: https://en.wikipedia.org/wiki/Screen_reader
+- key: self-determination
+  title: self-determination theory
+  url: https://en.wikipedia.org/wiki/Self-determination_theory
+- key: sigcse
+  title: SIGCSE
+  url: http://sigcse.org/
+- key: slack
+  title: Slack
+  url: http://slack.com
+- key: socrative
+  title: Socrative
+  url: https://socrative.com/
+- key: sosa-yuriko
+  title: Yuriko Sosa
+  url: https://twitter.com/YkSosaP
+- key: spoons
+  title: spoons
+  url: https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/
+- key: stack-overflow
+  title: Stack Overflow
+  url: https://stackoverflow.com/
+- key: stereotype-threat-critique
+  title: the replicability of key studies
+  url: https://www.psychologytoday.com/blog/rabble-rouser/201512/is-stereotype-threat-overcooked-overstated-and-oversold
+- key: stroud-natalie
+  title: Natalie Stroud
+  url: https://www.linkedin.com/in/natalie-stroud-63110a113/
+- key: t3-docs
+  title: en la documentación del proyecto
+  url: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
+- key: teacher-quality-article
+  title: this article
+  url: http://educationnext.org/in-schools-teacher-quality-matters-most-coleman/
+- key: teaching-machine-timeline
+  title: a long series of attempts
+  url: http://teachingmachin.es/timeline.html
+- key: ten-thousand-hour-rule
+  title: probably not true
+  url: http://www.goodlifeproject.com/podcast/anders-ericsson/
+- key: terrazas-carafa-yara
+  title: Yara Terrazas-Carafa
+  url: https://twitter.com/_yarena
+- key: test-driven-development
+  title: test-driven development
+  url: https://en.wikipedia.org/wiki/Test-driven_development
+- key: tierney-matt
+  title: Matt Tierney
+  url: https://twitter.com/figuralities/status/987330064571387906
+- key: troy-remote-meetings
+  title: Chelsea Troy's discussion
+  url: https://chelseatroy.com/2018/03/29/why-do-remote-meetings-suck-so-much/
+- key: uk-gov-accessibility-en
+  title: these posters
+  url: https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
+- key: uk-gov-accessibility-es
+  title: estos afiches
+  url: https://github.com/UKHomeOffice/posters/tree/master/accessibility/dos-donts/posters_es
+- key: uso-justo
+  title: uso justo
+  url: https://es.wikipedia.org/wiki/Uso_justo
+- key: video-bad-teaching
+  title: this video of bad teaching
+  url: https://www.youtube.com/watch?v=jxgMVwQamO0
+- key: video-concept-test
+  title: this video
+  url: https://www.youtube.com/watch?v=2LbuoxAy56o
+- key: video-pair-programming
+  title: this video
+  url: https://www.youtube.com/watch?v=vgkahOzFH2Q
+- key: villafane-roxana-noelia
+  title: Roxana Noelía Villafañe
+  url: https://twitter.com/data_datum
+- key: webaim
+  title: WebAIM
+  url: http://webaim.org/
+- key: wickes-python-lists
+  title: all the things you need to understand
+  url: https://twitter.com/elliewix/status/981285432922202113
+- key: wordpress
+  title: WordPress
+  url: https://wordpress.org/
+- key: xkcd-university-websites
+  title: this XKCD cartoon
+  url: https://xkcd.com/773/
+- key: zabalegui-malena
+  title: Malena Zabalegui
+  url: https://www.instagram.com/malenazabalegui/
+- key: zoo-loco
+  title: Zoo Loco
+  url: https://es.wikipedia.org/wiki/Zoo_loco
 - key: zulip-chat
-  url: "https://zulipchat.com/"
-  title: "Zulip"
+  title: Zulip
+  url: https://zulipchat.com/

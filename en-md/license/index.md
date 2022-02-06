@@ -10,7 +10,7 @@ Please see <https://creativecommons.org/licenses/by-nc/4.0/legalcode> for the fu
 </div>
 
 This work is licensed under the
-[Creative Commons Attribution-NonCommercial 4.0][cc-by-nc] license
+[Creative Commons Attribution-NonCommercial 4.0][cc-by-nc-en] license
 (CC-BY-NC-4.0).
 
 **You are free to:**
