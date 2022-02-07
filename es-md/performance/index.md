@@ -8,7 +8,7 @@ template: page.html
 \end{reviewer}
 
 En *Darwin entre las máquinas*,
-George Dyson<span i="Dyson, George"></span> escribió,
+<span i="Dyson, George">George Dyson</span> escribió,
 "En el juego de la vida y la evolución hay tres jugadores en la mesa:
 las personas, la naturaleza y las máquinas.
 Estoy firmemente del lado de la naturaleza.
@@ -26,7 +26,7 @@ Por lo tanto, este capítulo se enfoca en cómo enseñar a programar programando
 ## Programar en vivo {#performance-live}
 
 > La enseñanza es teatro, no cine.<br/>
-> --- Neal Davis<span i="Davis, Neal"></span>
+> --- <span i="Davis, Neal">Neal Davis</span>
 
 La manera más efectiva de enseñar a programar es <span g="live-coding">programando en vivo</span> <cite>Rubi2013,Haar2017,Raj2018</cite>.
 En vez de presentar material previamente escrito,
@@ -47,7 +47,7 @@ Programar en vivo funciona mejor que las presentaciones por varias razones:
 - Mirar cómo se va escribiendo un programa es más motivador
   que mirar a alguien pasar diapositivas.
 
-- Facilita la transferencia involuntaria de conocimiento:<span i="transferencia involuntaria de conocimiento"></span>
+- Facilita la <span i="transferencia involuntaria de conocimiento">transferencia involuntaria de conocimiento</span>:
   las personas aprenden más de lo que enseñamos conscientemente
   al observar *cómo* hacemos las cosas.
 
@@ -70,7 +70,7 @@ Programar en vivo funciona mejor que las presentaciones por varias razones:
   sus estudiantes también se sentirán más cómodos/as haciéndolo.
 
 Otro beneficio de la programación en vivo es que demuestra el orden en que se deben escribir los programas.
-Cuando <cite>Ihan2011</cite> observaron cómo las personas resuelven problemas de Parson,<span i="problema de Parsons"></span>
+Cuando <cite>Ihan2011</cite> observaron cómo las personas resuelven <span i="problema de Parsons">problemas de Parson</span>,
 encontraron que quienes tienen experiencia programando usualmente ubican la identificación del método al principio,
 luego agregan la mayor parte del control de flujo (es decir, bucles y condiciones),
 y solo después de eso, agregan detalles como la inicialización de variables y el manejo de casos especiales.
@@ -89,9 +89,9 @@ Las secciones que siguen ofrecen consejos sobre cómo mejorar la manera de progr
 ### Aprovecha tus errores
 
 > Los errores de tipeo son la pedagogía.<br/>
-> --- Emily Jane McTavish<span i="McTavish, Emily Jane"></span>
+> --- <span i="McTavish, Emily Jane">Emily Jane McTavish</span>
 
-La regla más importante de la programación en vivo es aprovechar tus errores.<span i="errores (importancia de aprovecharlos)"></span>
+La regla más importante de la programación en vivo es <span i="errores (importancia de aprovecharlos)">aprovechar tus errores</span>.
 No importa qué tan bien te prepares,
 cometerás algunos errores;
 cuando lo hagas,
@@ -123,7 +123,7 @@ es pedirles que hagan predicciones sobre qué hará el código que ven en la pan
 Luego, puedes escribir las primeras sugerencias que hagan,
 hacer que toda la clase vote sobre cuál piensan que es la opción más probable,
 y finalmente ejecutar el código.
-Esta es una forma simple de instrucción por pares,<span i="instrucción por pares"></span>
+Esta es una forma simple de <span i="instrucción por pares">instrucción por pares,</span>
 que discutiremos en la <a section="classroom-peer"/>.
 Además de mantener su atención en la actividad,
 les permite practicar cómo razonar sobre el comportamiento del código.
@@ -435,8 +435,7 @@ especialmente cuando son negativas (<a figure="f:performance-feedback-feelings"/
 La retroalimentación es más fácil de dar y recibir cuando ambas partes comparten expectativas
 sobre lo que está y no está al alcance
 y sobre cómo se deben expresar los comentarios.
-Si solicitas una retroalimentación:
-<span i="retroalimentación!obtener"></span>
+Si solicitas una <span i="retroalimentación!obtener">retroalimentación</span>:
 
 Iníciala.
 : Es mejor pedir la retroalimentación que recibirla de mala gana.
@@ -474,8 +473,8 @@ Sé amable contigo.
   cuando tu público en realidad no lo nota.
   Recibir esa retroalimentación una vez permite a los/las docentes ajustar la evaluación sobre sí mismos/as la próxima vez que se sientan así.
 
-También puedes dar retroalimentación a otras personas de manera más efectiva:
-<span i="retroalimentación!dar"></span>
+También puedes <span i="retroalimentación!dar">dar retroalimentación</span> a otras personas de manera más efectiva:
+
 
 Interactúa.
 : Mirar fijamente a alguien es una buena manera de hacer que se sienta incómodo/a,
@@ -543,7 +542,7 @@ mientras que <cite>Gawa2011</cite> analiza el valor de tener un/a tutor/a.
 
 > ### Clases de estudio
 >
-> Las escuelas de arquitectura a menudo incluyen clases de estudio<span i="clase de estudio"></span>
+> Las escuelas de arquitectura a menudo incluyen <span i="clase de estudio">clases de estudio</span>
 > en las que estudiantes resuelven pequeños problemas de diseño
 > y reciben devoluciones de sus pares en ese mismo momento.
 > Estas clases son más efectivas cuando el/la docente evalúa las devoluciones de pares
@@ -609,8 +608,8 @@ El anuncio de este ejercicio usualmente es recibido con quejidos y aprensión,
 ya que pocas personas disfrutan verse o escucharse a sí mismas.
 Sin embargo,
 esas mismas personas lo califican constantemente como una de las partes más valiosas de los talleres de enseñanza.
-También es una buena preparación para enseñar de a pares
-(<a section="classroom-together"/>):<span i="co-enseñanza"></span> <span i="enseñanza!de a pares"></span>
+También es una buena preparación para <span i="co-enseñanza;enseñanza!de a pares">enseñar de a pares</span>
+(<a section="classroom-together"/>):
 a las personas que enseñan les resulta mucho más fácil intercambiar devoluciones informales
 si han tenido algo de práctica
 y tienen una rúbrica compartida para definir expectativas.

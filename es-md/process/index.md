@@ -50,9 +50,9 @@ En forma simplificada, sus pasos son:
    cómo lo vas a hacer,
    qué problemas o conceptos erróneos esperas encontrar,
    qué *no* no se va a incluir, etcétera.
-   Dibujar mapas conceptuales puede ayudar mucho en esta etapa (<a section="memory-concept-maps"/>).<span i="mapa conceptual"></span>
+   Dibujar <span i="mapa conceptual">mapas conceptuales</span> puede ayudar mucho en esta etapa (<a section="memory-concept-maps"/>).
 
-1. Crea una evaluación sumativa (<a section="models-formative-assessment"/>)<span i="evaluación sumativa"></span>
+1. Crea una <span i="evaluación sumativa">evaluación sumativa</span> (<a section="models-formative-assessment"/>)
    para definir tu objetivo general.
    Dicha evaluación puede ser el examen final para un curso
    o el proyecto final para un taller de un día.
@@ -60,7 +60,7 @@ En forma simplificada, sus pasos son:
    la evaluación sumativa te mostrará lo lejos que esperas llegar
    más claramente que una lista puntual de objetivos.
 
-1. Crea evaluaciones formativas<span i="evaluación formativa"></span>,
+1. Crea <span i="evaluación formativa">evaluaciones formativas</span>,
    lo cual le dará a tus estudiantes una oportunidad para practicar lo que están aprendiendo.
    Las evaluaciones formativas también te dirán a ti (y a tus estudiantes) si están progresando
    y dónde deben centrar su atención.
@@ -176,7 +176,7 @@ o
 > Pregúntate lo que tus estudiantes están buscando en línea;
 > probablemente no incluirá jerga que no conocen aún,
 > así que parte de lo que tienes que hacer al diseñar lecciones es
-> descubrir cómo hacer que tu curso sea visible y pueda ser encontrado por tu público.<span i="localizable!lección"></span>
+> descubrir cómo hacer que tu curso sea visible y pueda ser <span i="localizable!lección">encontrado</span> por tu público.
 
 ## Objetivos de aprendizaje {#process-objectives}
 
@@ -285,7 +285,7 @@ incluso los/las educadores/as con mucha experiencia tienen problemas para poners
 en cómo clasificar cuestiones específicas.
 Sin embargo, los verbos siguen siendo útiles, al igual que
 la noción de desarrollar la comprensión por pasos:
-como ha dicho Daniel Willingham, <span i="Willingham, Daniel"></span>
+como ha dicho <span i="Willingham, Daniel">Daniel Willingham</span>,
 la gente no puede pensar si no tiene algo en qué pensar  <cite>Will2010</cite>,
 y esta taxonomía puede ayudar a los/las docentes a asegurarse
 que sus estudiantes tienen esas cosas en qué pensar cuando las necesiten.
@@ -342,7 +342,7 @@ Un conjunto de objetivos de aprendizaje basados en la taxonomía de Fink para un
 
 Una vez que una lección ha sido creada alguien debe mantenerla
 y hacerlo es mucho más fácil si se ha construido de manera que se pueda mantener.
-Pero, ¿qué significa exactamente "mantenible"? <span i="mantenimiento (de lecciones)"></span>
+Pero, ¿qué significa exactamente <span i="mantenimiento (de lecciones)">"mantenible"</span>? 
 La respuesta corta es que una lección es mantenible
 si es más barato actualizarla que reemplazarla.
 Esta ecuación depende de cuatro factores:
@@ -388,7 +388,7 @@ Qué tan útil es compartir en realidad.
 Si la paradoja de la reusabilidad es cierta,
 la colaboración será más probable
 si las cosas en las que se colabora son pequeñas.
-Esto se ajusta a la teoría de Mike Caulfield <span i="Caulfield, Mike"></span> de las
+Esto se ajusta a la teoría de <span i="Caulfield, Mike">Mike Caulfield</span> de las
 [explicaciones corales][choral-explanations],
 que sostiene que sitios como
 [Stack Overflow][stack-overflow] tienen éxito porque
@@ -481,9 +481,8 @@ que tus estudiantes podrían encontrar
 cuando les enseñes por primera vez
 ¿Cuántas de estas rarezas no esenciales puedes evitar?
 
-### Un patrón: problema, ejemplo, teoría y elaboración (individual/15') {.exercise}
-<span i="PETE (patrón de lección)"></span>
-<span i="patrón de lección!PETE"></span>
+### Un patrón: problema, ejemplo, teoría y elaboración</span> (individual/15') {.exercise}
+
 
 Un patrón que trabaja bien para lecciones de programación es:
 presentar un *problema*,
@@ -491,14 +490,13 @@ trabajar a través de un *ejemplo*,
 explicar la *teoría*,
 y luego *elaborar* un segundo ejemplo
 para que los/las estudiantes puedan ver qué es específico en cada caso
-y qué se aplica a todos los casos. (En inglés se lo conoce por su sigla PETE:
+y qué se aplica a todos los casos. (En inglés se lo conoce por su sigla <span i="PETE (patrón de lección);patrón de lección!PETE">PETE</span>:
 <strong>P</strong>roblem, <strong>E</strong>xample, <strong>T</strong>heory, <strong>E</strong>laborate.)
 Elige algo que ya hayas enseñado o les hayan enseñado
 y delinea una pequeña lección que siga estos cuatro pasos.
 
 ### Otro patrón: predecir, ejecutar, investigar, modificar y crear (individual/15') {.exercise}
-<span i="PRIMM (patrón de lección)"></span>
-<span i="patrón de lección!PRIMM"></span>
+
 
 Otro patrón de lección es  <cite>Sent2019</cite>:
 *predecir* el comportamiento o salida de un programa,
@@ -506,17 +504,16 @@ Otro patrón de lección es  <cite>Sent2019</cite>:
 *investigar* por qué lo hace, pasando a través del mismo en un depurador o dibujando el flujo de control,
 *modificar* el programa (o sus entradas),
 y luego *crear* algo similar desde cero.
-(En inglés se lo conoce por su sigla PRIMM:
+(En inglés se lo conoce por su sigla <span i="PRIMM (patrón de lección);patrón de lección!PRIMM">PRIMM</span>:
 <strong>P</strong>redict, <strong>R</strong>un, <strong>I</strong>nvestigate, <strong>M</strong>odify, <strong>M</strong>ake.)
 Elige algo que hayas enseñado o te hayan enseñado recientemente
 y bosqueja una breve lección que siga estos cinco pasos.
 
 ### Concreto-representativo-abstracto (parejas/15') {.exercise}
-<span i="CRA (patrón de lección)"></span>
-<span i="patrón de lección!CRA"></span>
+
 
 *[Concreto-representativo-abstracto][c-r-a]*
-(abreviado *CRA*) es un enfoque para introducir nuevas ideas
+(abreviado <span i="CRA (patrón de lección);patrón de lección!CRA">*CRA*</span>) es un enfoque para introducir nuevas ideas
 usado principalmente con estudiantes más jóvenes:
 manipular físicamente un objeto *concreto*,
 *representar* el objeto con una imagen,
