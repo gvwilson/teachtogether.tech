@@ -32,7 +32,7 @@ Como con toda investigación,
 se requiere cierta precaución al interpretar los resultados:
 
 Las teorías cambian a medida que se obtienen más datos.
-: La investigación sobre educación en informática es una disciplina nueva:<span i="investigación sobre educación en computación"></span>
+: La <span i="investigación sobre educación en computación">investigación sobre educación en informática</span> es una disciplina nueva:
   la Sociedad Americana de Educación en Ingeniería fue fundada en 1893 y el Consejo Nacional de Docentes de Matemática en 1920,
   pero la Asociación de Docentes de Informática no se creó hasta 2005.
   Mientras que existe un flujo constante de nuevo conocimiento en conferencias como [SIGCSE][sigcse],
@@ -43,7 +43,7 @@ Las teorías cambian a medida que se obtienen más datos.
 
 La mayoría de las personas en estos estudio
 : viven en sociedades occidentales, democráticas, industrializadas y con alto nivel de riqueza y educación
-  y se los denomina WEIRD<span i="WEIRD"></span>
+  y se los denomina <span i="WEIRD">WEIRD</span>
   por *Western, Education, Industrialized, Rich, and Democratic* (en inglés), tal como señala  <cite>Henr2010</cite>.
   Además,
   son principalmente jóvenes que estudian en instituciones educativas, ya que es la población a la que la mayoría de las personas
@@ -108,7 +108,7 @@ curso de informática,
 con algunas variaciones dependiendo del tamaño de la clase,
 pero sin diferencias significativas a lo largo del tiempo o basadas en el lenguaje <cite>Benn2007a,Wats2014</cite>.
 
-¿Cómo afecta la experiencia previa a estos resultados?<span i="efecto de la experiencia previa"></span>
+¿Cómo afecta la <span i="efecto de la experiencia previa">experiencia previa</span> a estos resultados?
 Para responder esto,
 <cite>Wilc2018</cite> compararon el desempeño y la confianza de personas novatas
 con y sin experiencia previa en programación en CS1 y CS2 (ver más abajo).
@@ -134,8 +134,8 @@ de tal manera que se puedan comparar a través del tiempo para que puedas saber 
 
 El <a section="models"/> explicó por qué aclarar los conceptos erróneos a las personas novatas es tan importante como enseñarles
 estrategias para resolver problemas.
-La mayor confusión de las personas novatas---a veces llamada el "superbug"<span i="superbug"></span>
-o "supererror"<span i="supererror"></span> en programación---es la creencia de que
+La mayor confusión de las personas novatas---a veces llamada el <span i="superbug">"superbug"</span>
+o <span i="supererror">"supererror"</span> en programación---es la creencia de que
 las computadoras entienden lo que las personas quieren decir de la misma manera que cualquier ser humano lo haría <cite>Pea1986</cite>.
 Nuestra segunda recomendación es entonces **enseña a las personas novatas que las computadoras no entienden los programas**,
 es decir, que llamar a una variable "precio" no garantiza que su valor sea realmente un precio.
@@ -223,7 +223,7 @@ no eran tan común como la mayoría de las/los docentes creían.
 <cite>Solo1984,Solo1986</cite> son trabajos pioneros en la exploración de las estrategias de programación de personas novatas y expertas.
 El hallazgo clave es que las personas expertas saben al mismo tiempo el "qué" y el "cómo,"
 es decir, entienden qué poner en los programas
-*y* tienen un conjunto de patrones o plan para guiar su construcción.<span i="patrones de programa"></span>
+*y* tienen un conjunto de <span i="patrones de programa">patrones</span> o plan para guiar su construcción.
 Las personas principiantes no tienen ninguna de las dos cosas,
 pero la mayoría de las/los docentes se enfocan únicamente en lo primero,
 a pesar de que los errores son usualmente causados por no tener una estrategia para resolver el problema,
@@ -252,8 +252,8 @@ Por lo tanto, nuestras siguientes recomendaciones son:
 **haz que tus estudiantes lean código, luego lo modifiquen, luego lo escriban**
 y además **preséntales explícitamente patrones comunes y haz que practiquen usándolos**.
 <cite>Mull2007b</cite> es uno de los tantos estudios que muestran los beneficios de enseñar patrones comunes de manera explícita.
-Descomponer los problemas en patrones comunes crea oportunidades naturales para crear y etiquetar sub-objetivos
-<cite>Marg2012,Marg2016</cite>.<span i="sub-objetivos etiquetados"></span>
+Descomponer los problemas en patrones comunes crea oportunidades naturales para crear y <span i="sub-objetivos etiquetados">etiquetar sub-objetivos</span>
+<cite>Marg2012,Marg2016</cite>.
 
 ## ¿Cómo identifican y resuelven errores las personas novatas? {#pck-debug}
 
@@ -263,7 +263,7 @@ Una década atrás,
 en la mayoría de los libros introductorios de programación."
 Poco ha cambiado desde entonces:
 hay cientos de libros sobre compiladores y sistemas operativos,
-pero solo unos pocos sobre depuración de errores <span i="depuración de errores"></span>
+pero solo unos pocos sobre <span i="depuración de errores">depuración de errores</span>
 y nunca he visto un curso de pregrado dedicado a este tema.
 
 <cite>List2004,List2009</cite> encontraron que a muchas personas novatas les cuesta predecir el resultado de pocas líneas de código
@@ -312,9 +312,7 @@ y además les da la oportunidad ideal para hacer el tipo de preguntas "qué pasa
 Las/los docentes o estudiantes pueden además rastrear los cambios en las variables a medida que avanzan,
 algo que <cite>Cunn2017</cite> encontró efectivo (<a section="exercises-tracing"/>).
 
-## ¿Qué pasa con las pruebas (*tests*)? {#pck-testing}
-<span i="testing (software)"></span>
-<span i="pruebas (software)"></span>
+## ¿Qué pasa con las <span i="testing (software);pruebas (software)">pruebas (*tests*)</span>? {#pck-testing}
 
 Las personas novatas en programación parecen tan reacias a testear software como aquellas personas profesionales.
 No hay duda de que hacerlo es valioso---<cite>Cart2017</cite> encontró que
@@ -355,12 +353,12 @@ y luego decide si estás enseñando lo que crees que las personas deberían hace
  o lo que ellos (y tú) realmente hacen.
 
 ## ¿Importa el lenguaje? {#pck-language}
-<span i="programación basada en bloques"></span>
+
 
 La respuesta corta es "sí":
 las personas novatas aprenden a programar más rápido y aprenden más
-usando herramientas basadas en bloques como *Scratch* (<a figure="f:pck-scratch"/>) <cite>Wein2017</cite>.<span i="Scratch"></span>
-Una razón es que esos sistemas basados en bloques reducen la carga cognitiva al eliminar la posibilidad de cometer errores de sintaxis.
+usando herramientas basadas en bloques como <span i="Scratch">*Scratch*</span> (<a figure="f:pck-scratch"/>) <cite>Wein2017</cite>.
+Una razón es que esos <span i="programación basada en bloques">sistemas basados en bloques</span> reducen la carga cognitiva al eliminar la posibilidad de cometer errores de sintaxis.
 Otra razón es que esas interfaces de bloques promueven la exploración de una manera que el texto no hace:
 como todas las buenas herramientas,
 *Scratch* se puede aprender accidentalmente  <cite>Malo2010</cite>.
@@ -390,7 +388,7 @@ las autoras plantean la hipótesis de que las/los usuarias/os pueden estar utili
 para hacer un seguimiento de las partes del código que no quieren eliminar (todavía).
 Otros ejemplos son <cite>Grov2017,Mlad2017</cite>,
 que estudiaron a personas novatas aprendiendo sobre bucles
-en Scratch, Logo y Python.<span i="Scratch"></span><span i="Python"></span>
+en <span i="Scratch">Scratch</span>, Logo y <span i="Python">Python</span>.
 Encontraron que los conceptos erróneos sobre bucles se minimizan cuando se usa un lenguaje basado en bloques
 en lugar de un lenguaje basado en texto.
 Además,
@@ -408,15 +406,14 @@ las diferencias son mayores.
 > fueron calificadas como las tres opciones más anti-intuitivas por personas que no programan."
 > Su trabajo muestra que sintaxis al estilo de C (como se usa en Java y Perl)
 > son tanto más difíciles de aprender para personas novatas como una sintaxis diseñada de manera aleatoria,
-> pero que la sintaxis de lenguajes como *Python* y *Ruby*<span i="Python"></span><span i="Ruby"></span>
+> pero que la sintaxis de lenguajes como <span i="Python">*Python*</span> y <span i="Ruby">*Ruby*</span>
 > es significativamente más fácil de aprender,
 > y la sintaxis de un lenguaje cuyas características son probadas antes de incorporarse es aún más fácil.
 > <cite>Stef2017</cite> es un útil y breve resumen de lo que realmente sabemos sobre el diseño de lenguajes de programación
 > y por qué creemos que es cierto,
 > mientras que <cite>Guzd2016</cite> expone cinco principios que los lenguajes de programación para estudiantes deberían seguir.
 
-### Programación orientada a objetos
-<span i="programación orientada a objetos"></span>
+### <span i="programación orientada a objetos">Programación orientada a objetos</span>
 
 Los objetos y clases son herramientas poderosas para personas con experiencia en programación,
 y muchas/os docentes promueven un enfoque de <span g="objects-first">primero objetos</span> para enseñar a programar
@@ -426,7 +423,7 @@ y <cite>Koll2015</cite> describe tres generaciones de herramientas
 designadas para apoyar a personas novatas para que programen en ambientes orientados a objetos.
 
 Introducir objetos temprano tiene algunos desafíos.
-<cite>Mill2016b</cite> encontró que la mayoría de las personas novatas que usan Python<span i="Python"></span>
+<cite>Mill2016b</cite> encontró que la mayoría de las personas novatas que usan <span i="Python">Python</span>
 tenían problemas para entender `self`
 (que refiere al objeto actual):
 las personas lo omitieron en las definiciones de métodos,
@@ -439,8 +436,7 @@ recomendamos que, como docente, **comiences con funciones en vez de objetos**,
 es decir, que no les enseñes a tus estudiantes cómo definir clases
 hasta que comprendan las estructuras básicas de control y los tipos de datos.
 
-### Declaración de tipos
-<span i="declaración de tipos"></span>
+### <span i="declaración de tipos">Declaración de tipos</span>
 
 Las personas que programan han discutido durante décadas acerca de si los tipos de datos de variables deberían ser declarados o no,
 usualmente basándose en su experiencia personal como profesionales
@@ -449,8 +445,7 @@ en lugar de tener en cuenta el tipo de datos.
 pero se compensa rápidamente al actuar como documentación del uso de los métodos ---en particular,
 evita preguntas sobre qué métodos están disponibles y cómo usarlos.
 
-### Nombrando variables
-<span i="nombrar variables"></span>
+### <span i="nombrar variables">Nombrando variables</span>
 
 <cite>Kern1999</cite> escribieron:
 "A menudo se alienta a quienes programan a usar nombres de variables largos independientemente del contexto.
@@ -477,15 +472,15 @@ En particular…las guías y los planes de programación juegan un papel importa
 También encontró que a las/los desarrolladoras/es con experiencia no les afecta el estilo del identificador,
 entonces nuestra recomendación es utilizar un estilo coherente en todos los ejemplos.
 Dado que la mayoría de los lenguajes tienen guías de estilo
-(por ejemplo, [PEP 8][pep-8] para Python<span i="Python"></span>)
+(por ejemplo, [PEP 8][pep-8] para <span i="Python">Python</span>)
 y herramientas para verificar que el código siga esas pautas,
 nuestra recomendación completa es
 **utiliza herramientas para garantizar que todos los ejemplos de código se adhieran a un estilo consistente**.
 
 ## ¿Ayudan mejores mensajes de error? {#pck-error}
-<span i="mensajes de error"></span>
 
-Los mensajes de error incomprensibles son una fuente importante de frustración para las personas novatas
+
+Los <span i="mensajes de error">mensajes de error</span> incomprensibles son una fuente importante de frustración para las personas novatas
 (y también para personas experimentadas).
 Por lo tanto, en varias investigaciones se exploró si mejores mensajes de error ayudan a evitar esta frustración.
 Por ejemplo,
@@ -520,10 +515,10 @@ Por lo tanto, al enseñar
 <cite>Marc2011</cite> tiene una rúbrica con respuestas a los mensajes de error que puede ser útil para calificar ese tipo de ejercicios.
 
 ### ¿Ayuda la visualización?
-<span i="visualizar un programa"></span>
 
-Visualizar la ejecución de un programa es una idea siempre popular,
-y herramientas como el tutor de Python<span i="Python"></span> en línea <cite>Guo2013</cite>
+
+<span i="visualizar un programa">Visualizar la ejecución de un programa</span> es una idea siempre popular,
+y herramientas como el tutor de <span i="Python">Python</span> en línea <cite>Guo2013</cite>
 y [Loupe][loupe]
 (que muestra cómo funciona un bucle de eventos de JavaScript)
 son útiles para enseñar.
@@ -545,7 +540,7 @@ La respuesta es no:
 no encontraron correlación entre el tiempo que se tomaron y el puntaje alcanzado.
 Nuestra recomendación es, por lo tanto, **enseña a rastrear los valores que toman las variables al depurar errores**.
 
-> ### Diagramas de flujo<span i="diagramas de flujo"></span>
+> ### <span i="diagramas de flujo">Diagramas de flujo</span>
 >
 > Un hallazgo que a menudo se pasa por alto sobre la visualización es que
 > las personas entienden mejor los diagramas de flujo que el pseudocódigo
@@ -638,9 +633,9 @@ para ayudarnos a enseñar mejor.
 
 La mayor parte de la investigación mencionada en este capítulo fue financiada con fondos públicos
 pero tenemos que pagar para leerla:
-rompí la ley aproximadamente 250 veces
+<span i="descargas ilegales (minería)">rompí la ley</span> aproximadamente 250 veces
 para descargar trabajos científicos de páginas web como [Sci-Hub][sci-hub]
-mientras escribía este libro.<span i="descargas ilegales (minería)"></span>
+mientras escribía este libro.
 Espero que llegue el día en que nadie tenga que acceder al conocimiento científico de esta manera;
 si investigas,
 por favor ayuda a que ese día se acerque publicando tu trabajo en lugares de acceso abierto.

@@ -58,7 +58,7 @@ entonces tu producto real puede ser una mezcla de:
 
 Al igual que el diseño de lecciones (<a section="process"/>),
 los primeros pasos en *marketing* son crear
-las personas tipo <span i="persona tipo"></span>
+las <span i="persona tipo">personas tipo</span>
 de la gente que podría estar interesada en lo que estás haciendo,
 y averiguar cuáles de sus necesidades puedes cumplir.
 Una manera de resumir lo último es escribir <span g="elevator-pitch" i="discurso breve de presentación">discursos de presentación</span>
@@ -166,7 +166,7 @@ lo que creen y recuerdan son las historias.
 > Si no hay una sección en tu sitio web que comience con "Había una vez",
 > piensa en agregar una.
 
-Un paso crucial es lograr que tu organización sea encontrada en las búsquedas en internet. <span i="localizable!organización"></span>
+Un paso crucial es lograr que tu organización sea <span i="localizable!organización">encontrada</span> en las búsquedas en internet. 
 <cite>DiSa2014b</cite> descubrió que
 las clases de computación fuera de la escuela no eran encontradas con los términos de búsqueda que los padres y las madres utilizaban. Otros tipos de clases u organizaciones se enfrentan a desafíos similares.
 Hay mucho mito sobre técnicas para hacer que las cosas puedan ser encontradas en internet (lo que a veces se refiere como <span g="seo">motor de optimización de posicionamiento en buscadores</span> o *SEO* por su sigla en inglés (*"Search Engine Optimization"*)).
@@ -192,7 +192,7 @@ y cómo va a cambiar sus vidas.
 > tienen dinero, materiales, tiempo libre y/o habilidades técnicas.
 > La mayoría no tiene estos recursos---de hecho,
 > aquellos que trabajan con grupos económicamente desfavorecidos muy probablemente no los tengan.
-> (Como Rosario Robinson dice, "Gratis funciona para aquellas personas que pueden permitirse lo gratuito.")<span i="Robinson, Rosario"></span>
+> (Como <span i="Robinson, Rosario">Rosario Robinson</span> dice, "Gratis funciona para aquellas personas que pueden permitirse lo gratuito.")
 > Las historias son más importantes que el programa del curso en esas situaciones,
 > porque son más fáciles de volver a contar.
 > Igualmente,
@@ -356,7 +356,7 @@ pero es mucho mejor que la tasa de respuesta del 2 a 3% que la mayoría de las o
 Todo el mundo tiene miedo a lo desconocido y a pasar vergüenza. En consecuencia,
 la mayoría de la gente prefiere fracasar que cambiar.
 Por ejemplo,
-Lauren Herckis investigó <span i="Herckis, Lauren"></span>
+<span i="Herckis, Lauren">Lauren Herckis</span> investigó 
 [por qué los/las docentes de nivel universitario no adoptan mejores metodos de enseñanza][faculty-teaching-methods].
 Lauren halló que el principal motivo es el miedo a parecer estúpido/a delante de los/las estudiantes;
 Las otras razones fueron:
