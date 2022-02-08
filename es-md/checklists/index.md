@@ -253,7 +253,7 @@ puede ahorrar horas de esfuerzo más tarde.
 
 Establece los objetivos del paso 2 escribiendo descripciones detalladas de
 algunos ejercicios que tus estudiantes serán capaces de resolver al final de la lección.
-Hacer esto es análogo al [desarrollo impulsado por pruebas][k0001]:
+Hacer esto es análogo al [desarrollo impulsado por pruebas][test-driven-development-es]:
 en vez de trabajar en función de un conjunto de objetivos de aprendizaje (probablemente ambiguos),
 hazlo "hacia atrás": elabora ejemplos concretos que quieres que puedan resolver tus estudiantes.
 Esto además permite dejar en evidencia requisitos técnicos necesarios

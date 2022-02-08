@@ -220,70 +220,33 @@
 - key: jobs-that-dont-exist
   title: pointed out
   url: http://www.longviewoneducation.org/field-guide-jobs-dont-exist-yet/
-- key: k0001
-  temp: test-driven-development-es	
+- key: test-driven-development-es
   title: desarrollo impulsado por pruebas
   url: https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas
-- key: k0019
-  temp: r-ladies
-  title: R-Ladies (Mujeres de R en inglés)
-  url: https://rladies.org/
-- key: k0054
-  temp: carpentries-shell-es
+- key: carpentries-shell-es
   title: la lección sobre la consola Unix
   url: https://swcarpentry.github.io/shell-novice-es/
-- key: k0057
-  temp: not-even-wrong-es
+- key: not-even-wrong-es
   title: ni siquiera son falsas
   url: https://es.wikipedia.org/wiki/Ni_siquiera_es_falso
-- key: k0059
-  temp: four-stages-competence-es
+- key: four-stages-competence-es
   title: cuatro etapas de la competencia
   url: https://es.wikipedia.org/wiki/Cuatro_etapas_de_competencia
-- key: k0060
-  temp: self-determination-es
+- key: self-determination-es
   title: teoría de la autodeterminación
   url: https://es.wikipedia.org/wiki/Teor'ía_de_la_autodeterminaci'ón
-- key: k0068
-  temp: screen-reader-es
+- key: screen-reader-es
   title: lector de pantalla
   url: https://es.wikipedia.org/wiki/Lector_de_pantalla
-- key: k0069
-  temp: rampa
+- key: rampa
   title: Las rampas
   url: https://es.wikipedia.org/wiki/Rampa
-- key: k0117
-  temp: live-coding-done-badly-es
+- key: live-coding-done-badly-es
   title: programación en vivo mal desarrollada
   url: https://youtu.be/i4WhKJ59_5M
-- key: k0118
-  temp: live-coding-done-well-es
+- key: live-coding-done-well-es
   title: bien desarrollada
   url: https://youtu.be/R2ob_YUp0yw
-- key: k0126
-  temp: metadocencia
-  title: MetaDocencia
-  url: https://www.metadocencia.org/
-- key: k0127
-  temp: r-ladies
-  title: R-Ladies
-  url: https://rladies.org/
-- key: k0128
-  temp: r4ds-translation-es
-  title: R para Ciencia de Datos
-  url: https://github.com/cienciadedatos/documentacion-traduccion-r4ds
-- key: k0129
-  temp: carpentries-translation-es
-  title: The Carpentries
-  url: https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md
-- key: k0154
-  temp: t3-translation-es
-  title: en la documentación del proyecto
-  url: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
-- key: k0155
-  temp: metadocencia
-  title: MetaDocencia
-  url: https://www.metadocencia.org/
 - key: keycastr
   title: KeyCastr
   url: https://github.com/keycastr/keycastr
