@@ -22,7 +22,7 @@ Ambos tipos de motivación nos afectan en la mayoría de las situaciones---por e
 las personas enseñan porque les gusta y porque les pagan---; pero
 aprendemos mejor cuando estamos motivados/as intrínsecamente<cite>Wlod2017</cite>.
 De acuerdo a la
-[teoría de la autodeterminación][k0060],
+[teoría de la autodeterminación][self-determination-es],
 los tres impulsores de motivación intrínseca son:
 
 <span i="motivación!competencia">Competencia</span>:
@@ -423,7 +423,7 @@ las primeras lecciones de programación en línea que escribí tenían una trans
 al lado de las diapositivas,
 pero no incluían el código fuente:
 eso estaba en capturas de pantalla de diapositivas de PowerPoint.
-Alguien utilizando un [lector de pantalla][k0068]
+Alguien utilizando un [lector de pantalla][screen-reader-es]
 podía entonces oír lo que se decía sobre el programa,
 pero no sabía qué era realmente el programa.
 No siempre es factible adaptarse a las necesidades de cada estudiante,
@@ -435,7 +435,7 @@ puede hacer una gran diferencia.
 >
 > Hacer que el material sea accesible ayuda a todas las personas,
 > no solamente a las personas con dificultades.
-> [Las rampas][k0069]---los pequeños planos inclinados que unen una acera a la calle---
+> [Las rampas][rampa]---los pequeños planos inclinados que unen una acera a la calle---
 > fueron creados originalmente para facilitar el movimiento de personas con discapacidad física,
 > pero resultaron ser igual de útiles para personas con cochecitos y carritos de supermercado.
 > De forma similar,

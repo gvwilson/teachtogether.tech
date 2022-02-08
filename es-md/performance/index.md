@@ -661,8 +661,8 @@ para enseñar en grupos de tres personas y recolectar las devoluciones.
 
 ### Lo malo y lo bueno (toda la clase/20') {.exercise}
 
-Mira los videos de [programación en vivo mal desarrollada][k0117]
-y [bien desarrollada][k0118]
+Mira los videos de [programación en vivo mal desarrollada][live-coding-done-badly-es]
+y [bien desarrollada][live-coding-done-well-es]
 y resume tu devolución sobre las diferencias usando la grilla 2x2 habitual.
 ¿De qué manera la segunda sesión de enseñanza es mejor que la primera?
 ¿Hay algo qué es mejor en el primer video que en el segundo?

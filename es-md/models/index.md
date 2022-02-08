@@ -64,7 +64,7 @@ ayudarlas a construir un modelo mental
 para que tengan algún lugar en el que ordenar los hechos.
 Por ejemplo,
 <span i="The Carpentries"></span>
-[la lección sobre la consola Unix][k0054] de Software Carpentry (carpinteros/as de software, en español)
+[la lección sobre la consola Unix][carpentries-shell-es] de Software Carpentry (carpinteros/as de software, en español)
 introduce quince comandos en tres horas.
 Eso sería un comando cada doce minutos,
 lo que parece muy lento hasta que te das cuenta de que
@@ -408,7 +408,7 @@ no es equivalente a decir que no tienen ningún modelo mental.
 Las personas novatas tienden a razonar por analogía y arriesgan conjeturas:
 toman prestado fragmentos y partes de modelos mentales de otros dominios que superficialmente parecen similares.
 
-La gente que hace esto generalmente dice cosas que [ni siquiera son falsas][k0057].
+La gente que hace esto generalmente dice cosas que [ni siquiera son falsas][not-even-wrong-es].
 Como clase,
 discutan qué otros síntomas tiene una persona novata.
 ¿Qué dice o hace una persona para llevarte a clasificarla como novata en algún dominio?
@@ -453,7 +453,7 @@ y dale una devolución sobre su ejemplo.
 El modelo de desarrollo de habilidades de persona novata-competente-experta
 es a veces llamado
 [modelo Dreyfus][dreyfus-model-es].
-Otra progresión comúnmente utilizada es el modelo de las [cuatro etapas de la competencia][k0059]:
+Otra progresión comúnmente utilizada es el modelo de las [cuatro etapas de la competencia][four-stages-competence-es]:
 
 Incompetencia inconsciente:
 : la persona no sabe lo que no sabe.
