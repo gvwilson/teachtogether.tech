@@ -234,7 +234,7 @@ o, por el contrario, toma un problema en particular y enuncia los principios gen
 permite que las/los estudiantes puedan recordar las definiciones correctamente.
 
 Una forma estructurada de hacer esto es con
-el <span i="ADEPT (patrón de lección); patrón de leccíon!ADEPT">[método ADEPT][adept]</span>:
+el <span i="ADEPT (patrón de lección); patrón de lección!ADEPT">[método ADEPT][adept]</span>:
 da una <strong>A</strong>nalogía,
 dibuja un <strong>D</strong>iagrama,
 presenta un <strong>E</strong>jemplo,
