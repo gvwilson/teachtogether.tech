@@ -544,7 +544,7 @@ what would.
 
 ## Review
 
-<figure id="f:process-personas">
+<figure>
   <img src="conceptmap-personas.svg" alt="Concepts: Learner personas"/>
   <figcaption>Concepts: Learner personas</figcaption>
 </figure>

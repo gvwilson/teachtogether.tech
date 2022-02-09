@@ -792,7 +792,7 @@ at least none of *that* happened.
 
 ## Review
 
-<figure id="f:motivation-concepts">
+<figure>
   <img src="conceptmap-motivation.svg" alt="Concepts: Motivation"/>
   <figcaption>Concepts: Motivation</figcaption>
 </figure>

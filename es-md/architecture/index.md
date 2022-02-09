@@ -537,7 +537,7 @@ y califica sus gráficos como "deficientes", "promedio" o "buenos" de acuerdo co
 
 ## Revisión
 
-<figure id="f:architecture-cognitive-load">
+<figure>
   <img src="conceptmap-cognitive-load.svg" alt="Conceptos: Carga cognitiva"/>
   <figcaption>Conceptos: Carga cognitiva</figcaption>
 </figure>

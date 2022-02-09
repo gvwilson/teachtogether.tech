@@ -9,7 +9,7 @@ template: page.html
 
 Mira el último ejercicio en el <a section="memory"/> para la representación completa de estos símbolos.
 
-<figure id="f:chunking-chunked">
+<figure>
   <img src="chunking-chunked.svg" alt="Representación fragmentada"/>
   <figcaption>Representación fragmentada</figcaption>
 </figure>

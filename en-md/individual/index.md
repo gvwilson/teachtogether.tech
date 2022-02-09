@@ -575,7 +575,7 @@ Which ones do they still believe are true, and why?
 
 ## Review
 
-<figure id="f:individual-concept-map">
+<figure>
   <img src="conceptmap-active-learning.svg" alt="Concepts: Active learning"/>
   <figcaption>Concepts: Active learning</figcaption>
 </figure>

@@ -798,7 +798,7 @@ al menos nada de *eso* sucedió.
 
 ## Revisa
 
-<figure id="f:motivation-concepts">
+<figure>
   <img src="conceptmap-motivation.svg" alt="Conceptos: Motivación"/>
   <figcaption>Conceptos: Motivación</figcaption>
 </figure>

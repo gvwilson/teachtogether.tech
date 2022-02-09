@@ -713,7 +713,7 @@ o nunca lo usaste.
 
 ## Resumen
 
-<figure id="f:performance-feedback">
+<figure>
   <img src="conceptmap-feedback.svg" alt="Conceptos: Retroalimentación"/>
   <figcaption>Conceptos: Retroalimentación</figcaption>
 </figure>

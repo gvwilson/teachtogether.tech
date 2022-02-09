@@ -530,12 +530,12 @@ Si la respuesta es sí, ¿qué hizo que disfrutes esa clase?
 
 ## Revisión
 
-<figure id="f:models-concept-map">
+<figure>
   <img src="conceptmap-mental-models.svg" alt="Conceptos: Modelos mentales"/>
   <figcaption>Conceptos: Modelos mentales</figcaption>
 </figure>
 
-<figure id="f:models-formative-assessment">
+<figure>
   <img src="conceptmap-assessment.svg" alt="Conceptos: Evaluación"/>
   <figcaption>Conceptos: Evaluación</figcaption>
 </figure>

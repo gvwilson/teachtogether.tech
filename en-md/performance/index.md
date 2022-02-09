@@ -718,7 +718,7 @@ Are there any tips you strongly disagree with or think would be ineffective?
 
 ## Review
 
-<figure id="f:performance-feedback">
+<figure>
   <img src="conceptmap-feedback.svg" alt="Concepts: Feedback"/>
   <figcaption>Concepts: Feedback</figcaption>
 </figure>

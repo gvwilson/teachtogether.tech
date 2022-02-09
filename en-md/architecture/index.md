@@ -545,7 +545,7 @@ and rate its graphics as "poor," "average," or "good" according to these six cri
 
 ## Review
 
-<figure id="f:architecture-cognitive-load">
+<figure>
   <img src="conceptmap-cognitive-load.svg" alt="Concepts: Cognitive load"/>
   <figcaption>Concepts: Cognitive load</figcaption>
 </figure>

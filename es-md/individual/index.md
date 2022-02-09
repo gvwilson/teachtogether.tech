@@ -586,7 +586,7 @@ y se vuelve a hacer la votación.
 
 ## Revisión
 
-<figure id="f:individual-concept-map">
+<figure>
   <img src="conceptmap-active-learning.svg" alt="Conceptos: Aprendizaje activo"/>
   <figcaption>Conceptos: Aprendizaje activo</figcaption>
 </figure>

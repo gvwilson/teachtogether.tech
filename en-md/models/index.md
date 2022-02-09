@@ -542,12 +542,12 @@ If so, what made it enjoyable?
 
 ## Review
 
-<figure id="f:models-concept-map">
+<figure>
   <img src="conceptmap-mental-models.svg" alt="Concepts: Mental models"/>
   <figcaption>Concepts: Mental models</figcaption>
 </figure>
 
-<figure id="f:models-formative-assessment">
+<figure>
   <img src="conceptmap-assessment.svg" alt="Concepts: Assessment"/>
   <figcaption>Concepts: Assessment</figcaption>
 </figure>

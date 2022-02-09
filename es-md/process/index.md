@@ -556,7 +556,7 @@ suficientes para convencerte de usar un sitio para compartir lecciones. Si no fu
 
 ## Revisión
 
-<figure id="f:process-personas">
+<figure>
   <img src="conceptmap-personas.svg" alt="Concepto: Personas tipo"/>
   <figcaption>Concepto: Personas tipo</figcaption>
 </figure>
