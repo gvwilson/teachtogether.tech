@@ -10,6 +10,12 @@ STATIC_DST=$(patsubst %,docs/%,${STATIC_SRC})
 # Controls
 all : commands
 
+## new: make the new versions with McCole
+.PHONY: new
+new:
+	mccole -C es-md --onepage toda.html
+	mccole -C en-md --onepage all.html
+
 ## commands : show all commands.
 commands :
 	@grep -h -E '^##' ${MAKEFILE_LIST} | sed -e 's/## //g' | column -t -s ':'
