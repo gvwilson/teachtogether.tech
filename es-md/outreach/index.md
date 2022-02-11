@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Juliana Benitez}
-{Natalia Morandeira y Natalie Stroud}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Juliana Benitez][benitez-saldivar-juliana].<br/>
+Revisoras: [Natalia Morandeira][morandeira-natalia] y [Natalie Stroud][stroud-natalie].
+
+</div>
 
 Está de moda en los círculos tecnológicos
 menospreciar a las universidades y las instituciones gubernamentales como si fueran dinosaurios lentos,
@@ -72,6 +74,7 @@ Una plantilla ampliamente utilizada para este objetivo es:
 <tr><td>proveen</td>		<td><em>beneficio clave</em></td></tr>
 <tr><td>A diferencia de</td>	<td><em>alternativas</em></td></tr>
 <tr><td>nuestro programa</td>	<td><em>característica distintiva clave.</em></td></tr>
+</table>
 
 En el ejemplo del taller de fin de semana,
 podríamos usar este tono para los/las participantes

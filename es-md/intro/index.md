@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Natalia Morandeira}
-{Yanina Bellini Saibene y Zulemma Bazurto}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Natalia Morandeira][morandeira-natalia].<br/>
+Revisoras: [Yanina Bellini Saibene][bellini-saibene-yanina] y [Zulemma Bazurto][bazurto-zulemma].
+
+</div>
 
 En todo el mundo han surgido comunidades de práctica
 para enseñar programación, diseño web, robótica y otras habilidades

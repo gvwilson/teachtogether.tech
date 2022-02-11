@@ -95,8 +95,10 @@ Replace "writing" with "teaching" and you'll have the reason I do what I do.
 Thank you for reading---I hope we can teach together some day.
 Until then:
 
-<div class="centered">
+<div class="centered" markdown="1">
+
 Start where you are.<br/>
 Use what you have.<br/>
 Help who you can.
+
 </div>

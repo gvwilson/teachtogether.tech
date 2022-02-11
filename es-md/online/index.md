@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Yanina Bellini Saibene}
-{María Dermit y	Yuriko Sosa}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Yanina Bellini Saibene][bellini-saibene-yanina].<br/>
+Revisoras: [María Dermit][dermit-maria] y [Yuriko Sosa][sosa-yuriko].
+
+</div>
 
 > Si usas robots para enseñar, les enseñas a las personas a ser robots.<br/>
 > --- atribuido a varias personas

@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Yanina Bellini Saibene}
-{Yara Terrazas-Carafa y Alejandra Bellini}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Yanina Bellini Saibene][bellini-saibene-yanina].<br/>
+Revisoras: [Yara Terrazas-Carafa][terrazas-carafa-yara] y [Alejandra Bellini][bellini-alejandra].
+
+</div>
 
 Cuando comencé a trabajar como voluntario en la Universidad de Toronto,
 mis estudiantes me preguntaron por qué enseñaba gratis.
@@ -101,7 +103,7 @@ Reemplaza "escribir" por "enseñar" y sabrás porqué hago lo que hago.
 Gracias por leer---espero que podamos enseñar juntos algún día.
 Hasta entonces:
 
-<div class="centered">
+<div class="centered" markdown="1">
 
 Comienza donde estás.<br/>
 Usa lo que tienes.<br/>

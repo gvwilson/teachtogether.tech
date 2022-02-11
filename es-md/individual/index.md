@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Paloma Rojas}
-{María Dermit y Natalia Morandeira}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Paloma Rojas][rojas-paloma].<br/>
+Revisoras: [María Dermit][dermit-maria] y [Natalia Morandeira][morandeira-natalia].
+
+</div>
 
 Los capítulos previos han explorado cómo las/los docentes pueden ayudar a sus estudiantes.
 Este capítulo se enfoca en cómo las/los estudiantes pueden ayudarse a sí mismas/os

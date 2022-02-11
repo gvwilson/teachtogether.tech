@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Mónica Alonso}
-{Ruth Chirinos y Lucia Rodríguez Planes}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Mónica Alonso][alonso-monica].<br/>
+Revisoras: [Ruth Chirinos][chirinos-ruth] y [Lucia Rodríguez Planes][rodriguez-planes-lucia].
+
+</div>
 
 La mayoría de la gente no es muy buena al organizar reuniones:
 no llevan una agenda,

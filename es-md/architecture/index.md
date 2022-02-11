@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Patricia Loto}
-{María Dermit y Natalia Morandeira}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Patricia Loto][loto-patricia].<br/>
+Revisoras: [María Dermit][dermit-maria] y [Natalia Morandeira][morandeira-natalia].
+
+</div>
 
 Hemos hablado acerca de modelos mentales como si fueran cosas reales,
 pero ¿qué es lo que realmente sucede en el cerebro de una persona cuando está aprendiendo?

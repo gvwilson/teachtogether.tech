@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Yanina Bellini Saibene}
-{Natalia Morandeira y Juliana Benitez}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Yanina Bellini Saibene][bellini-saibene-yanina].<br/>
+Revisoras: [Natalia Morandeira][morandeira-natalia] y [Juliana Benitez][benitez-saldivar-juliana].
+
+</div>
 
 Esperamos que elijas ayudarnos a mejorar este libro.
 Si esta forma de trabajo colaborativa es nueva para ti,
@@ -142,7 +144,7 @@ te agregaremos a los agradecimientos (<a section="intro-acknowledgments"/>) a me
 
 La fuente de la versión original de este libro se almacena en GitHub en:
 
-<div class="centered">
+<div class="centered" markdown="1">
 
 <https://github.com/gvwilson/teachtogether.tech/>
 

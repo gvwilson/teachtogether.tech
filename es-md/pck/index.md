@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Paola Corrales}
-{Ana Laura Diedrichs y Juliana Benitez}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Paola Corrales][corrales-paola].<br/>
+Revisoras: [Ana Laura Diedrichs][diedrichs-ana-laura] y [Juliana Benitez][benitez-saldivar-juliana].
+
+</div>
 
 Cada docente necesita tres cosas:
 

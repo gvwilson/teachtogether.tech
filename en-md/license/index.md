@@ -2,7 +2,7 @@
 template: page.html
 ---
 
-<div class="centered">
+<div class="centered" markdown="1">
 
 This is a human-readable summary of (and not a substitute for) the license.
 Please see <https://creativecommons.org/licenses/by-nc/4.0/legalcode> for the full legal text.

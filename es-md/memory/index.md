@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Mónica Alonso}
-{Natalia Morandeira y Silvia Canelón}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Mónica Alonso][alonso-monica].<br/>
+Revisoras: [Natalia Morandeira][morandeira-natalia] y [Silvia Canelón][canelon-silvia].
+
+</div>
 
 > La memoria es el remanente del pensamiento.<br/>
 >  --- <span i="Willingham, Daniel">Daniel Willingham</span>,

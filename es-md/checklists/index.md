@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Lucia Rodríguez Planes}
-{Alejandra Bellini y Ana Laura Diedrichs}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Lucia Rodríguez Planes][rodriguez-planes-lucia].<br/>
+Revisoras: [Alejandra Bellini][bellini-alejandra] y [Ana Laura Diedrichs][diedrichs-ana-laura].
+
+</div>
 
 <cite>Gawa2007</cite> hizo popular la idea de que usar listas de verificación puede salvar vidas
 y estudios más recientes apoyan su efectividad <cite>Avel2013,Urba2014,Rams2019</cite>.

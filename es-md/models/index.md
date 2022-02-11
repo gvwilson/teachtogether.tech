@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Natalia Morandeira}
-{Ruth Chirinos y Alejandra Bellini}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Natalia Morandeira][morandeira-natalia].<br/>
+Revisoras: [Ruth Chirinos][chirinos-ruth] y [Alejandra Bellini][bellini-alejandra].
+
+</div>
 
 La primera tarea en la enseñanza es descifrar quiénes son tus estudiantes.
 Nuestra aproximación está basada en el trabajo de investigadores/as como <span i="Benner, Patricia">Patricia Benner</span>,

@@ -132,7 +132,7 @@ we will add you to the acknowledgments (<a section="intro-acknowledgments"/>) un
 
 The source for this book is stored on GitHub at:
 
-<div class="centered">
+<div class="centered" markdown="1">
 
 <https://github.com/gvwilson/teachtogether.tech/>
 

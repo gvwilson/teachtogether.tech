@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Yanina Bellini Saibene}
-{Yara Terrazas-Carafa y Alejandra Bellini}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Yanina Bellini Saibene][bellini-saibene-yanina].<br/>
+Revisoras: [Yara Terrazas-Carafa][terrazas-carafa-yara] y [Alejandra Bellini][bellini-alejandra].
+
+</div>
 
 No tienes que arreglar todos los males de la sociedad para enseñar programación,
 pero *sí debes* involucrarte en

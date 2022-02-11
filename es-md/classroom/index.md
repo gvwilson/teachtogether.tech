@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Lupe Canaviri Maydana}
-{María Dermit y Yuriko Sosa}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Lupe Canaviri Maydana][canaviri-maydana-lupe].<br/>
+Revisoras: [María Dermit][dermit-maria] y [Yuriko Sosa][sosa-yuriko].
+
+</div>
 
 El capítulo anterior describió cómo practicar la enseñanza de una lección
 y describió un método---programación en vivo---que

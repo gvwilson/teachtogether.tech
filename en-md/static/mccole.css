@@ -197,3 +197,9 @@ td.toc-index {
     text-align: right;
 }
 
+/* Translators and reviewers */
+div.reviewers {
+    margin-left: 0px;
+    border-left: var(--indent) solid var(--highlight-heavy);
+    padding-left: var(--indent);
+}

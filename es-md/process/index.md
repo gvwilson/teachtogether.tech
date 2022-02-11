@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Zulemma Bazurto}
-{Roxana Villafañe y Natalia Morandeira}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Zulemma Bazurto][bazurto-zulemma].<br/>
+Revisoras: [Roxana Villafañe][villafane-roxana-noelia] y [Natalia Morandeira][morandeira-natalia].
+
+</div>
 
 La mayoría de las personas diseñan lecciones de esta manera:
 

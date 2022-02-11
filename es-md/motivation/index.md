@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Silvia Canelón}
-{Yuriko Sosa y Yanina Bellini Saibene}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Silvia Canelón][canelon-silvia].<br/>
+Revisoras: [Yuriko Sosa][sosa-yuriko] y [Yanina Bellini Saibene][bellini-saibene-yanina].
+
+</div>
 
 Los/las estudiantes necesitan ánimo para enfrentar terreno desconocido,
 así que este capítulo analiza maneras en las que el cuerpo docente puede motivarlos/las.

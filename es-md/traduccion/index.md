@@ -52,7 +52,7 @@ Quienes trabajamos en este proyecto somos (en orden alfabético):
 [Ruth Chirinos][chirinos-ruth],
 [Paola Corrales][corrales-paola],
 [María Dermit][dermit-maria],
-[Ana Laura Diedrich][diedrich-ana-laura],
+[Ana Laura Diedrichs][diedrichs-ana-laura],
 [Patricia Loto][loto-patricia],
 [Priscilla Minotti][minotti-priscilla],
 [Natalia Morandeira][morandeira-natalia],

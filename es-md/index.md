@@ -2,7 +2,7 @@
 template: index.html
 ---
 
-<div class="centered">
+<div class="centered" markdown="1">
 
 Para mi madre, Doris Wilson,<br/>
 que enseñó a cientos de niñas y niños a leer y creer en sí mismas/os.

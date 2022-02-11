@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Yanina Bellini Saibene}
-{Yara Terrazas-Carafa y Mónica Alonso}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Yanina Bellini Saibene][bellini-saibene-yanina].<br/>
+Revisoras: [Yara Terrazas-Carafa][terrazas-carafa-yara] y [Mónica Alonso][alonso-monica].
+
+</div>
 
 *Este es un resumen de lectura sencilla para personas (y no un sustituto) de la licencia.
 Por favor revisa <https://creativecommons.org/licenses/by-nc/4.0/legalcode.es> para el texto legal completo.*

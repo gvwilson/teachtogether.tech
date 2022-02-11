@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Paola Corrales}
-{Yuriko Sosa y Yanina Bellini}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Paola Corrales][ Corrales].<br/>
+Revisoras: [Yuriko Sosa][sosa-yuriko] y [Yanina Bellini][bellini-saibene-yanina].
+
+</div>
 
 En *Darwin entre las máquinas*,
 <span i="Dyson, George">George Dyson</span> escribió,

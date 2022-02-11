@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Laura Acion}
-{Yanina Bellini Saibene y Yara Terrazas-Carafa}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Laura Acion][acion-laura].<br/>
+Revisoras: [Yanina Bellini Saibene][bellini-saibene-yanina] y [Yara Terrazas-Carafa][terrazas-carafa-yara].
+
+</div>
 
 1. Sé amable: todo lo demás son detalles.
 

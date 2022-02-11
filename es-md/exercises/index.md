@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Priscilla Minotti}
-{Roxana Villafañe y Natalie Stroud}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Priscilla Minotti][minotti-priscilla].<br/>
+Revisoras: [Roxana Villafañe][villafane-roxana-noelia] y [Natalie Stroud][stroud-natalie].
+
+</div>
 
 Todo/a buen/a carpintero/a tiene un juego de destornilladores y todo/a buen/a docente
 tiene diferentes tipos de ejercicios para comprobar qué están aprendiendo realmente los/las estudiantes,

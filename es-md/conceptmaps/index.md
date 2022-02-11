@@ -2,10 +2,12 @@
 template: page.html
 ---
 
-\begin{reviewer}
-{Yanina Bellini Saibene}
-{Laura Acion y Natalia Morandeira}
-\end{reviewer}
+<div class="reviewers" markdown="1">
+
+Traductora: [Yanina Bellini Saibene][bellini-saibene-yanina].<br/>
+Revisoras: [Laura Acion][acion-laura] y [Natalia Morandeira][morandeira-natalia].
+
+</div>
 
 Estos mapas conceptuales fueron creados por Amy Hodge de la Universidad de Stanford
 y se reutilizan con su permiso.
