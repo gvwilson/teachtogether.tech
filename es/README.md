@@ -372,7 +372,17 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 * Malena Zabalegui aconsejó sobre el uso de lenguaje no sexista e inclusivo para la realización de esta traducción.
 * **Glosario (Shiny y YAML)**: Yanina Bellini Saibene
 
-## 4. Como incluir tu participación en este proyecto en tu CV:
+## 4. Citando este trabajo
+### 4.1. Como citar la traducción
+
+- Wilson, G. (2021). Enseñar tecnología en comunidad. Cómo crear y dar lecciones que funcionen y construir una comunidad docente a su alrededor [Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them] (Traducción al español: Y. Bellini Saibene, N. S. Morandeira, P. Corrales, L. Acion, M. Dermit, Y. Sosa, J. Benitez Saldivar, Z. Bazurto, S. Canelón, L. Canaviri Maydana, M. Alonso, A. Bellini, P. Minotti, R. Chirinos, P. Rojas, N. Stroud, R. N. Villafañe, P. Loto, A. L. Diedrich, Y. Terrazas-Carafa & L. Rodríguez Planes). https://teachtogether.tech/es/ (Trabajo original publicado en 2019).
+
+Estilo de cita basado en:
+* [Este artículo en el blog de APA](https://apastyle.apa.org/blog/citing-translated-works). Section Book, republished in translation
+* Incluimos el titulo en Inglés, siguiendo esta sugerencia de APA. Ver ejemplo para Piaget (1950)
+
+
+### 4.2. Como incluir tu participación en este proyecto en tu CV:
 
 - <Fecha de inicio, ej.: Mayo de 2020 – Fecha de fin, ej: Julio de 2020>. Traducción colaborativa al castellano del libro “Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them” de Greg Wilson (2019, Taylor & Francis, ISBN 978-0-367-35328-5, https://teachtogether.tech/). Coordinación general de la traducción: Yanina Bellini Saibene; Edición general: Yanina Bellini Saibene y Natalia Morandeira. Participación como <rol, ej.: traductora y revisora de capítulos>. Más información y grupo de traductoras: https://github.com/gvwilson/teachtogether.tech/blob/master/es/README.md
 
