@@ -10,7 +10,7 @@ subtitle: "How to create and deliver lessons that work and build a teaching comm
 src: .
 dst: docs
 links: _data/links.yml
-bib: _data/bibliography.bib
+bib: ../bibliography.bib
 gloss: _data/glossary.yml
 lang: en
 

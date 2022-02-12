@@ -10,7 +10,7 @@ subtitle: "Cómo crear y dar lecciones que funcionen y construir una comunidad d
 src: .
 dst: docs
 links: _data/links.yml
-bib: _data/bibliography.bib
+bib: ../bibliography.bib
 gloss: _data/glossary.yml
 lang: es
 
