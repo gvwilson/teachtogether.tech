@@ -4,7 +4,7 @@ template: page.html
 
 <div class="reviewers" markdown="1">
 
-Traductora: [Paola Corrales][ Corrales].<br/>
+Traductora: [Paola Corrales][corrales-paola].<br/>
 Revisoras: [Yuriko Sosa][sosa-yuriko] y [Yanina Bellini][bellini-saibene-yanina].
 
 </div>
