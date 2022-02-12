@@ -13,8 +13,18 @@ all : commands
 ## new: make the new versions with McCole
 .PHONY: new
 new:
-	mccole -C es-md --onepage toda.html
-	mccole -C en-md --onepage all.html
+	mccole -C es-md --lang es --onepage toda.html
+	mccole -C en-md --lang en --onepage all.html
+
+## new-es: make the Español version and serve on port 4000
+.PHONY: new-es
+new-es:
+	mccole -C es-md --lang es --onepage toda.html -r 4000
+
+## new-en: make the English version and serve on port 4000
+.PHONY: new-en
+new-en:
+	mccole -C en-md --lang en --onepage toda.html -r 4000
 
 ## commands : show all commands.
 commands :
