@@ -4,14 +4,14 @@ template: page.html
 
 Every teacher needs three things:
 
-<span g="g:content-knowledge">content knowledge</span>
+<span g="content-knowledge">content knowledge</span>
 : such as how to program;
 
-<span g="g:general-pedagogical-knowledge">general pedagogical knowledge</span>
+<span g="general-pedagogical-knowledge">general pedagogical knowledge</span>
 : such as an understanding of the psychology of learning;
   and
 
-<span g="g:pedagogical-content-knowledge">pedagogical content knowledge</span>
+<span g="pedagogical-content-knowledge">pedagogical content knowledge</span>
 : (PCK),
   which is the domain-specific knowledge of
   how to teach a particular concept to a particular audience.
@@ -50,7 +50,7 @@ Most of these studies' subjects are <span i="WEIRD">WEIRD</span>:]
   We know much less about adults,
   members of marginalized groups,
   learners in free-range settings,
-  or <span g="g:end-user-programmer" i="end-user programmer">end-user programmers</span>,
+  or <span g="end-user-programmer" i="end-user programmer">end-user programmers</span>,
   even though there are far more of them.
 
 If this was an academic treatise,
@@ -64,11 +64,11 @@ this chapter presents actionable best guesses rather than nuanced perhapses.
 >
 > Like any specialty,
 > CER has jargon.
-> <span g="g:cs1">CS1</span> refers to an introductory semester-long course
+> <span g="cs1">CS1</span> refers to an introductory semester-long course
 > in which learners meet variables, loops, and functions for the first time,
-> while <span g="g:cs2">CS2</span> refers to a second course
+> while <span g="cs2">CS2</span> refers to a second course
 > that covers basic data structures like stacks and queues,
-> and <span g="g:cs0">CS0</span> refers to an introductory course
+> and <span g="cs0">CS0</span> refers to an introductory course
 > for people without any prior experience
 > who aren't intending to continue with computing right away.
 > Full definitions for these terms can be found in
@@ -419,7 +419,7 @@ the differences become larger.
 ### Object-Oriented Programming
 
 <span i="object-oriented programming">Objects</span> and classes are power tools for experienced programmers,
-and many educators advocate an <span g="g:objects-first">objects first</span> approach to teaching programming
+and many educators advocate an <span g="objects-first">objects first</span> approach to teaching programming
 (though they sometimes disagree on exactly what that means <cite>Benn2007b</cite>).
 <cite>Sorv2014</cite> describes and motivates this approach,
 and <cite>Koll2015</cite> describes three generations of tools
@@ -616,7 +616,7 @@ which indicates greater self-efficacy and willingness to try to debug things.
 > having novices work on computational creativity exercises improves grades at several levels <cite>Shel2017</cite>.
 > A typical exercise is to describe an everyday object (such as a paper clip or toothbrush)
 > in terms of its inputs, outputs, and functions.
-> This kind of teaching is sometimes called <span g="g:cs-unplugged" i="CS unplugged">unplugged</span>;
+> This kind of teaching is sometimes called <span g="cs-unplugged" i="CS unplugged">unplugged</span>;
 > the [CS Unplugged][cs-unplugged-en] site has lessons and exercises for doing this.
 
 ## Where Next? {#pck-final}

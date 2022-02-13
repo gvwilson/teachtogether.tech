@@ -48,11 +48,11 @@ then explores some alternative hybrid models.
 ## MOOCs {#online-moocs}
 
 The highest-profile effort to reinvent education using the internet
-is the <span g="g:mooc">Massive Open Online Course</span>, or MOOC.
+is the <span g="mooc">Massive Open Online Course</span>, or MOOC.
 The term was invented by David Cormier</span> in 2008
 to describe a course organized by <span i="Siemens, George">George Siemens</span>
 and <span i="Downes, Stephen">Stephen Downes</span>.
-That course was based on a <span g="g:connectivism" i="connectivism">connectivist</span> view of learning,
+That course was based on a <span g="connectivism" i="connectivism">connectivist</span> view of learning,
 which holds that knowledge is distributed
 and that learning is the process of finding, creating, and pruning connections.
 
@@ -108,7 +108,7 @@ none personalized lessons based on prior coding experience or learner goals.
 > ### Personalized Learning
 >
 > Few terms have been used and abused in as many ways
-> as <span g="g:personalized-learning">personalized learning</span>.
+> as <span g="personalized-learning">personalized learning</span>.
 > To most ed tech proponents,
 > it means dynamically adjusting the pace of lessons based on learner performance,
 > so that if someone answers several questions in a row correctly,
@@ -210,7 +210,7 @@ Identify and clear up misconceptions early.
 
 All of this has to be <span i="online learning!implementation of">implemented</span> somehow,
 which means that you need some kind of teaching platform.
-You can either use an all-in-one <span g="g:lms">learning management system</span>
+You can either use an all-in-one <span g="lms">learning management system</span>
 like [Moodle][moodle] or [Sakai][sakai],
 or assemble something yourself
 using [Slack][slack] or [Zulip][zulip-chat] for chat,
@@ -402,7 +402,7 @@ but online is increasingly a mixture of both:
 > --- <span i="Gibson, William">William Gibson</span>
 
 The most popular implementation of this blended future today
-is the <span g="g:flipped-classroom">flipped classroom</span>,
+is the <span g="flipped-classroom">flipped classroom</span>,
 in which learners watch recorded lessons on their own
 and class time is used for discussion and working through problem sets.
 Originally described in <cite>King1993</cite>,

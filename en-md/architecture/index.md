@@ -54,7 +54,7 @@ their brain can't help but check that it's getting the same information on both 
 
 Learning is therefore increased when information is presented simultaneously in two different channels,
 but is reduced when that information is redundant rather than complementary,
-a phenomenon called the <span g="g:split-attention-effect">split-attention effect</span> <cite>Maye2003</cite>.
+a phenomenon called the <span g="split-attention-effect">split-attention effect</span> <cite>Maye2003</cite>.
 For example,
 people generally find it harder to learn from a video that has both narration and on-screen captions
 than from one that has either the narration or the captions but not both,
@@ -122,7 +122,7 @@ the authors were claiming that having learners ask their own questions,
 set their own goals,
 and find their own path through a subject
 is less effective than showing them how to do things step by step.
-The "choose your own adventure" approach is known as <span g="g:inquiry-based-learning">inquiry-based learning</span>,
+The "choose your own adventure" approach is known as <span g="inquiry-based-learning">inquiry-based learning</span>,
 and is intuitively appealing:
 after all,
 who would argue *against* having learners use their own initiative
@@ -134,17 +134,17 @@ and its problem-solving strategies
 at the same time.
 
 More specifically,
-<span g="g:cognitive-load">cognitive load theory</span> proposed that
+<span g="cognitive-load">cognitive load theory</span> proposed that
 people have to deal with three things when they're learning:
 
-<span g="g:intrinsic-load" i="cognitive load!intrinsic">Intrinsic load</span>
+<span g="intrinsic-load" i="cognitive load!intrinsic">Intrinsic load</span>
 : is what people have to keep in mind in order to absorb new material.
 
-<span g="g:germane-load" i="cognitive load!germane">Germane Load</span>
+<span g="germane-load" i="cognitive load!germane">Germane Load</span>
 : is the (desirable) mental effort required to link new information to old,
   which is one of the things that distinguishes learning from memorization.
 
-<span g="g:extraneous-load" i="cognitive load!extraneous">Extraneous Load</span>
+<span g="extraneous-load" i="cognitive load!extraneous">Extraneous Load</span>
 : is anything that distracts from learning.
 
 Cognitive load theory holds that
@@ -176,7 +176,7 @@ trying to figure out if the differences are meaningful
 </figure>
 
 The coding equivalent of this
-is called a <span g="g:parsons-problem">Parsons Problem</span><sup>Named after one of its creators.</sup> <cite>Pars2006</cite>.
+is called a <span g="parsons-problem">Parsons Problem</span><sup>Named after one of its creators.</sup> <cite>Pars2006</cite>.
 When teaching people to program,
 you can give them the lines of code they need to solve a problem
 and ask them to put them in the right order.
@@ -188,11 +188,11 @@ but produce equivalent educational outcomes <cite>Eric2017</cite>.
 ### Faded Examples
 
 Another type of exercise that can be explained in terms of cognitive load
-is to give learners a series of <span g="g:faded-example" i="faded example">faded examples</span>.
+is to give learners a series of <span g="faded-example" i="faded example">faded examples</span>.
 The first example in a series presents a complete use of a particular problem-solving strategy.
 The next problem is of the same type,
 but has some gaps for the learner to fill in.
-Each successive problem gives the learner less <span g="g:scaffolding">scaffolding</span>,
+Each successive problem gives the learner less <span g="scaffolding">scaffolding</span>,
 until they are asked to solve a complete problem from scratch.
 When teaching high school algebra,
 for example,
@@ -297,7 +297,7 @@ are repeatedly added to a single variable in some way to create the final result
 > ### Cognitive Apprenticeship
 >
 > An alternative model of learning and instruction that also uses scaffolding and fading
-> is <span g="g:cognitive-apprenticeship">cognitive apprenticeship</span>,
+> is <span g="cognitive-apprenticeship">cognitive apprenticeship</span>,
 > which emphasizes the way in which a master passes on skills and insights to an apprentice.
 > The master provides models of performance and outcomes,
 > then coaches novices by explaining what they are doing and why <cite>Coll1991,Casp2007</cite>.
@@ -318,7 +318,7 @@ are repeatedly added to a single variable in some way to create the final result
 
 ### Labeled Subgoals
 
-<span g="g:subgoal-labeling" i="labeled subgoals">Labeling subgoals</span> means
+<span g="subgoal-labeling" i="labeled subgoals">Labeling subgoals</span> means
 giving names to the steps in a step-by-step description of a problem-solving process.
 <cite>Marg2016,Morr2016</cite> found that learners with labeled subgoals
 solved Parsons Problems better than learners without,
@@ -342,7 +342,7 @@ and gives them a natural opportunity for self-explanation (<a section="individua
 ### Minimal Manuals
 
 The purest application of cognitive load theory may be <span i="Carroll, John">John Carroll's</span>
-<span g="g:minimal-manual">minimal manual</span> <cite>Carr1987,Carr2014</cite>.
+<span g="minimal-manual">minimal manual</span> <cite>Carr1987,Carr2014</cite>.
 Its starting point is a quote from a user:
 "I want to do something, not learn how to do everything."
 Carroll and colleagues redesigned training to present every idea as a single-page self-contained task:
@@ -392,14 +392,14 @@ but the practical implementation of their theories often wind up being the same.
 One of the challenges in educational research is that
 what we mean by "learning" turns out to be complicated
 once you look beyond the standardized Western classroom.
-Two specific perspectives from <span g="g:educational-psychology">educational psychology</span> have influenced this book.
-The one we have used so far is <span g="g:cognitivism">cognitivism</span>,
+Two specific perspectives from <span g="educational-psychology">educational psychology</span> have influenced this book.
+The one we have used so far is <span g="cognitivism">cognitivism</span>,
 which focuses on things like pattern recognition, memory formation, and recall.
 It is good at answering low-level questions,
 but generally ignores larger issues like,
 "What do we mean by `learning'?"
 and, "Who gets to decide?"
-The other is <span g="g:situated-learning">situated learning</span>,
+The other is <span g="situated-learning">situated learning</span>,
 which focuses on bringing people into a community
 and recognizes that
 teaching and learning are always rooted in who we are and who we aspire to be.
@@ -409,11 +409,11 @@ The [Learning Theories website][learning-theories]
 and <cite>Wibu2016</cite>
 have good summaries of these and other perspectives.
 Besides cognitivism,
-those encountered most frequently include <span g="g:behaviorism">behaviorism</span>
+those encountered most frequently include <span g="behaviorism">behaviorism</span>
 (which treats education as stimulus/response conditioning),
-<span g="g:constructivism">constructivism</span>
+<span g="constructivism">constructivism</span>
 (which considers learning an active process during which learners construct knowledge for themselves),
-and <span g="g:connectivism">connectivism</span>
+and <span g="connectivism">connectivism</span>
 (which holds that knowledge is distributed,
 that learning is the process of navigating, growing, and pruning connections,
 and which emphasizes the social aspects of learning made possible by the internet).

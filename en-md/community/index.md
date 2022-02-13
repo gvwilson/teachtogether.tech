@@ -25,10 +25,10 @@ so the best way to help both is to foster a teaching community.
 > This isn't surprising given what we know about the importance of motivation for learning (<a section="motivation"/>):
 > everyone does worse if they believe the system is unpredictable, unfair, or indifferent.
 
-A framework for thinking about teaching communities is <span g="g:situated-learning">situated learning</span>,
-which focuses on how <span g="g:legitimate-peripheral-participation">legitimate peripheral participation</span>
+A framework for thinking about teaching communities is <span g="situated-learning">situated learning</span>,
+which focuses on how <span g="legitimate-peripheral-participation">legitimate peripheral participation</span>
 leads to people becoming members of
-a <span g="g:community-of-practice">community of practice</span> <cite>Weng2015</cite>.
+a <span g="community-of-practice">community of practice</span> <cite>Weng2015</cite>.
 Unpacking those terms,
 a community of practice is a group of people bound together by interest in some activity,
 such as knitting or particle physics.
@@ -385,7 +385,7 @@ you need rules to spell out
 who has the authority to make which decisions
 and how to achieve consensus (<a section="meetings-marthas-rules"/>).
 
-The governance model I prefer is a <span g="g:commons">commons</span>,
+The governance model I prefer is a <span g="commons">commons</span>,
 which is something managed jointly by a community
 according to rules they themselves have evolved and adopted <cite>Ostr2015</cite>.
 As <cite>Boll2014</cite> emphasizes,
@@ -400,9 +400,9 @@ so you should seek advice before choosing<sup>
   This is one of the times when
   having ties with local government or other like-minded organizations pays off.</sup>.
 Both kinds of organization vest ultimate authority in their board.
-Broadly speaking, this is either a <span g="g:service-board">service board</span>
+Broadly speaking, this is either a <span g="service-board">service board</span>
 whose members also take on other roles in the organization
-or a <span g="g:governance-board">governance board</span> whose primary responsibility is to hire, monitor,
+or a <span g="governance-board">governance board</span> whose primary responsibility is to hire, monitor,
 and if need be fire the director.
 Board members can be elected by the community or appointed;
 in either case,
@@ -432,7 +432,7 @@ you won't be able to take care of your community.
 > Research in the 1990s seemed to show that our ability to exert willpower is finite:
 > if we have to resist eating the last donut in the box when we're hungry,
 > we are less likely to fold laundry and vice versa.
-> This phenomenon is called <span g="g:ego-depletion">ego depletion</span>,
+> This phenomenon is called <span g="ego-depletion">ego depletion</span>,
 > and while recent studies have failed to replicate those early results <cite>Hagg2016</cite>,
 > saying "yes" when we're too tired to say "no"
 > is a trap many organizers fall into.

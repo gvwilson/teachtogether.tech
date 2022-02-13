@@ -421,7 +421,7 @@ which the authors attribute to the quality of its feedback messages
 rather than to dislike of auto-grading.
 
 <cite>Srid2016</cite> took a different approach.
-They used <span g="g:fuzz-testing">fuzz testing</span>
+They used <span g="fuzz-testing">fuzz testing</span>
 (i.e. randomly generated test cases)
 to check whether learner code does the same thing as a reference implementation supplied by the teacher.
 In the first project of a 1400-learner introductory course,
@@ -495,7 +495,7 @@ but only supply the actual inputs and outputs of the tests after the submission 
 However,
 telling learners that they are wrong but not telling them why is frustrating.
 
-A third option is to use a technique called <span g="g:hashing">hashing</span>
+A third option is to use a technique called <span g="hashing">hashing</span>
 to generate a value that depends on the output but doesn't reveal it.
 If the user produces exactly the right output
 then its hash will unlock the solution,

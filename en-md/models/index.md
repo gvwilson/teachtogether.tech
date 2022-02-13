@@ -8,22 +8,22 @@ who studied how nurses progress from novice to expert <cite>Benn2000</cite>.
 Benner identified five stages of cognitive development that most people go through in a fairly consistent way.
 For our purposes, we will simplify this progression to three stages:
 
-<span g="g:novice" i="novice">Novices</span>
+<span g="novice" i="novice">Novices</span>
 : don't know what they don't know,
   i.e. they don't yet have a usable mental model of the problem domain.
 
-<span g="g:competent-practitioner" i="competent practitioner">Competent practitioners</span>
+<span g="competent-practitioner" i="competent practitioner">Competent practitioners</span>
 : have a mental model that's adequate for everyday purposes.
   They can do normal tasks with normal effort under normal circumstances,
   and have some understanding of the limits to their knowledge
   (i.e. they know what they don't know).
 
-<span g="g:expert" i="expert">Experts</span>
+<span g="expert" i="expert">Experts</span>
 : have mental models that include exceptions and special cases,
   which allows them to handle situations that are out of the ordinary.
   We will discuss expertise in more detail in <a section="memory"/>.
 
-So what *is* a <span g="g:mental-model">mental model</span>?
+So what *is* a <span g="mental-model">mental model</span>?
 As the name suggests,
 it is a simplified representation of the most important parts of some problem domain
 that is good enough to enable problem solving.
@@ -79,8 +79,8 @@ and tell whether the results of their searches are useful or not.
 
 The cognitive differences between novices and competent practitioners
 underpin the differences between two kinds of teaching materials.
-A <span g="g:tutorial">tutorial</span> helps newcomers to a field build a mental model;
-a <span g="g:manual">manual</span>,
+A <span g="tutorial">tutorial</span> helps newcomers to a field build a mental model;
+a <span g="manual">manual</span>,
 on the other hand,
 helps competent practitioners fill in the gaps in their knowledge.
 Tutorials frustrate competent practitioners because they move too slowly
@@ -88,7 +88,7 @@ and say things that are obvious
 (though they are anything *but* obvious to novices).
 Equally,
 manuals frustrate novices because they use jargon and *don't* explain things.
-This phenomenon is called the <span g="g:expertise-reversal">expertise reversal effect</span> <cite>Kaly2003</cite>,
+This phenomenon is called the <span g="expertise-reversal-effect">expertise reversal effect</span> <cite>Kaly2003</cite>,
 and is one of the reasons you have to decide early on
 who your lessons are for.
 
@@ -129,7 +129,7 @@ novices' misconceptions fall into three categories:
 
 People learn fastest when teachers identify and clear up learners' misconceptions
 as the lesson is being delivered.
-This is called <span g="g:formative-assessment">formative assessment</span>
+This is called <span g="formative-assessment">formative assessment</span>
 because it forms (or shapes) the teaching while it is taking place.
 Learners don't pass or fail formative assessment;
 instead,
@@ -143,7 +143,7 @@ while the teacher gets feedback on whether the explanation they just gave made s
 > ### Summing Up
 >
 > The counterpoint to formative assessment is
-> <span g="g:summative-assessment">summative assessment</span>,
+> <span g="summative-assessment">summative assessment</span>,
 > which takes place at the end of the lesson.
 > Summative assessment is like a driver's test:
 > it tells the learner whether they have mastered the topic
@@ -200,8 +200,8 @@ but the other answers provide valuable insights:
   this is a different mistake,
   and requires a different clarifying explanation from the teacher.
 
-Each of these incorrect answers is a <span g="g:plausible-distractor">plausible distractor</span>
-with <span g="g:diagnostic-power">diagnostic power</span>.
+Each of these incorrect answers is a <span g="plausible-distractor">plausible distractor</span>
+with <span g="diagnostic-power">diagnostic power</span>.
 A distractor is a wrong or less-than-best answer;
 "plausible" means that it looks like it could be right,
 while "diagnostic power" means that each of the distractors helps the teacher figure out
@@ -267,7 +267,7 @@ particularly if they involved small-group discussion
 Formative assessments can also be used *before* lessons.
 If you start a class with an MCQ and everyone answers it correctly,
 you can avoid explaining something that your learners already know.
-This kind of <span g="g:active-teaching">active teaching</span>
+This kind of <span g="active-teaching">active teaching</span>
 gives you more time to focus on things they don't know.
 It also shows learners that you respect their time enough not to waste it,
 which helps with motivation (<a section="motivation"/>).
@@ -277,7 +277,7 @@ which helps with motivation (<a section="motivation"/>).
 > Given enough data,
 > MCQs can be made surprisingly precise.
 > The best-known example is the
-> <span g="g:concept-inventory" i="concept inventory">Force Concept Inventory</span> <cite>Hest1992</cite>,
+> <span g="concept-inventory" i="concept inventory">Force Concept Inventory</span> <cite>Hest1992</cite>,
 > which assesses understanding of basic Newtonian mechanics.
 > By interviewing a large number of respondents,
 > correlating their misconceptions with patterns of right and wrong answers,
@@ -322,10 +322,10 @@ you should have given learners practice tackling novel problems beforehand.
 
 ## Notional Machines {#models-notional}
 
-The term <span g="g:computational-thinking">computational thinking</span> is bandied about a lot,
+The term <span g="computational-thinking">computational thinking</span> is bandied about a lot,
 in part because people can agree it's important while meaning very different things by it.
 Rather than arguing over what it does and doesn't include,
-it's more useful to think about the <span g="g:notional-machine">notional machine</span>
+it's more useful to think about the <span g="notional-machine">notional machine</span>
 that you want learners to understand <cite>DuBo1986</cite>.
 According to <cite>Sorv2013</cite>,
 a notional machine:

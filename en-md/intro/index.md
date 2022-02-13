@@ -4,7 +4,7 @@ template: page.html
 
 Grassroots groups have sprung up around the world
 to teach programming, web design, robotics, and other skills
-to <span g="g:free-range-learner" i="free-range learner">free-range learners</span>.
+to <span g="free-range-learner" i="free-range learner">free-range learners</span>.
 These groups exist so that people don't have to learn these things on their own,
 but ironically,
 their founders and teachers are often teaching themselves how to teach.
@@ -39,7 +39,7 @@ and points you at other resources that will help you go further.
 ## Who You Are {#intro-audience}
 
 <a section="process-personas"/> explains how to figure out who your learners are.
-The four that this book is for are all <span g="g:end-user-teacher" i="end-user teacher">end-user teachers</span>:
+The four that this book is for are all <span g="end-user-teacher" i="end-user teacher">end-user teachers</span>:
 teaching isn't their primary occupation,
 they have little or no background in pedagogy,
 and they may work outside institutional classrooms.
@@ -65,7 +65,7 @@ Samira
 : is an undergraduate in robotics who is thinking about becoming a teacher after she graduates.
   She wants to help at weekend robotics workshops for her peers,
   but has never taught a class before
-  and feels a lot of <span g="g:impostor-syndrome">impostor syndrome</span>.
+  and feels a lot of <span g="impostor-syndrome">impostor syndrome</span>.
   She wants to learn more about education in general in order to decide if it's for her,
   and is also looking for specific tips to help her deliver lessons more effectively.
 

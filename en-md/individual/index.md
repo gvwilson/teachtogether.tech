@@ -6,8 +6,8 @@ Previous chapters have explored what teachers can do to help learners.
 This chapter looks at what learners can do for themselves
 by changing their study strategies and getting enough rest.
 
-The most effective strategy is to switch from <span g="g:passive-learning">passive learning</span>
-to <span g="g:active-learning">active learning</span> <cite>Hpl2018</cite>,
+The most effective strategy is to switch from <span g="passive-learning">passive learning</span>
+to <span g="active-learning">active learning</span> <cite>Hpl2018</cite>,
 which significantly improves performance and reduces failure rates <cite>Free2014</cite>:
 
 | Passive		| Active |
@@ -24,7 +24,7 @@ And by using new information as it arrives,
 learners build or strengthen ties between that information and what they already know,
 which in turn increases the chances that they will be able to retrieve it later.
 
-The other key to getting more out of learning is <span g="g:metacognition">metacognition</span>,
+The other key to getting more out of learning is <span g="metacognition">metacognition</span>,
 or thinking about one's own thinking.
 Just as good musicians listen to their own playing
 and good teachers reflect on their teaching (<a section="performance"/>),
@@ -37,11 +37,11 @@ lessons can be designed to encourage good study practices,
 and drawing attention to these practices in class
 helps learners realize that learning is a skill they can improve like any other <cite>McGu2015,Miya2018</cite>.
 
-The big prize is <span g="g:transfer-of-learning">transfer of learning</span>,
+The big prize is <span g="transfer-of-learning">transfer of learning</span>,
 which occurs when one thing we have learned helps us learn other things more quickly.
-Researchers distinguish between <span g="g:near-transfer" i="transfer of learning!near transfer">near transfer</span>,
+Researchers distinguish between <span g="near-transfer" i="transfer of learning!near transfer">near transfer</span>,
 which occurs between similar or related areas like fractions and decimals in mathematics,
-and <span g="g:far-transfer" i="transfer of learning!far transfer">far transfer</span>,
+and <span g="far-transfer" i="transfer of learning!far transfer">far transfer</span>,
 which occurs between dissimilar domains---for example,
 the idea that learning to play chess will help mathematical reasoning or vice versa.
 
@@ -129,7 +129,7 @@ For example,
 writing personal journal entries helps with multiple-choice quizzes,
 but less than doing practice quizzes <cite>Mill2016a</cite>.
 This phenomenon is called
-<span g="g:transfer-appropriate-processing">transfer-appropriate processing</span>.
+<span g="transfer-appropriate-processing">transfer-appropriate processing</span>.
 
 One way to exercise retrieval skills is to solve problems twice.
 The first time,
@@ -145,7 +145,7 @@ If you are studying as part of a group,
 swapping flash cards with a partner
 helps you discover important ideas that you may have missed or misunderstood.
 
-<span g="g:read-cover-retrieve" i="read-cover-retrieve">Read-cover-retrieve</span>
+<span g="read-cover-retrieve" i="read-cover-retrieve">Read-cover-retrieve</span>
 is a quick alternative to flash cards.
 As you read something,
 cover up key terms or sections with small sticky notes.
@@ -162,7 +162,7 @@ is a quick way to do this.
 > ### Hypercorrection
 >
 > One powerful finding in learning research is
-> the <span g="g:hypercorrection">hypercorrection effect</span> <cite>Metc2016</cite>.
+> the <span g="hypercorrection-effect">hypercorrection effect</span> <cite>Metc2016</cite>.
 > Most people don't like to be told they're wrong,
 > so it would be reasonable to assume that
 > the more confident someone is in the answer they've given on a test,
@@ -350,7 +350,7 @@ break it down into smaller pieces and prioritize those separately.
 The most important part of this is switching off interruptions.
 Despite what many people want to believe,
 human beings are not good at <span i="multi-tasking">multi-tasking</span>.
-What we can become good at is <span g="g:automaticity">automaticity</span>,
+What we can become good at is <span g="automaticity">automaticity</span>,
 which is the ability to do something routine in the background
 while doing something else <cite>Mill2016a</cite>.
 Most of us can talk while chopping onions,
@@ -364,7 +364,7 @@ only think we can.
 
 The point of organizing and preparing is
 to get into the most productive mental state possible.
-Psychologists call it <span g="g:flow">flow</span> <cite>Csik2008</cite>;
+Psychologists call it <span g="flow">flow</span> <cite>Csik2008</cite>;
 athletes call it "being in the zone,"
 and musicians talk about losing themselves in what they're playing.
 Whatever name you use,
@@ -408,7 +408,7 @@ that learners didn't inflate their self-ratings,
 and crucially,
 that ratings were not biased by gender or race.
 
-One way to implement peer assessment is <span g="g:contributing-student">contributing student pedagogy</span>,
+One way to implement peer assessment is <span g="contributing-student-pedagogy">contributing student pedagogy</span>,
 in which learners produce artifacts to contribute to others' learning.
 This can be developing a short lesson and sharing it with the class,
 adding to a question bank,
@@ -420,7 +420,7 @@ compared to those who only studied the material or viewed the videos.
 I have found that asking learners to share one bug and its fix with the class every day
 helps their analytic abilities and reduces impostor syndrome.
 
-Another approach is <span g="g:calibrated-peer-review">calibrated peer review</span>,
+Another approach is <span g="calibrated-peer-review">calibrated peer review</span>,
 in which a learner reviews one or more examples using a rubric
 and compares their evaluation against the teacher's review of the same work <cite>Kulk2013</cite>.
 Once learners' evaluations are close enough to the teacher's,
@@ -471,7 +471,7 @@ the links might be:
 
 ### Convergent Evolution (pairs/15) {.exercise}
 
-One practice that wasn't covered above is <span g="g:guided-notes">guided notes</span>,
+One practice that wasn't covered above is <span g="guided-notes">guided notes</span>,
 which are notes prepared by the teacher
 that cue learners to respond to key information in a lecture or discussion.
 The cues can be blank spaces where learners add information,

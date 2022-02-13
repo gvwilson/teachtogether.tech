@@ -11,7 +11,7 @@ src: .
 dst: docs
 links: _data/links.yml
 bib: ../bibliography.bib
-gloss: _data/glossary.yml
+gloss: ../glossary.yml
 lang: es
 
 copy:

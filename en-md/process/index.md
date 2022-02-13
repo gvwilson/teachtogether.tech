@@ -19,7 +19,7 @@ Most people design lessons like this:
    and promise yourself that you'll be more organized next time.
 
 A more effective method is similar in spirit to a programming practice called
-<span g="g:test-driven-development">test-driven development</span> (TDD).
+<span g="test-driven-development">test-driven development</span> (TDD).
 Programmers who use TDD don't write software
 and then test that it is working correctly.
 Instead,
@@ -36,7 +36,7 @@ someone who hasn't yet written a piece of software
 will be more objective than someone who has just put in several hours of hard work
 and really, really wants to be done.
 
-A similar method called <span g="g:backward-design">backward design</span> works very well for lesson design.
+A similar method called <span g="backward-design">backward design</span> works very well for lesson design.
 This method was developed independently in <cite>Wigg2005,Bigg2011,Fink2013</cite>
 and is summarized in <cite>McTi2013</cite>.
 In simplified form, its steps are:
@@ -85,7 +85,7 @@ that they are not prepared for.
 
 > ### Perverse Incentives
 #
-> Backward design is *not* the same thing as <span g="g:teaching-to-the-test">teaching to the test</span>.
+> Backward design is *not* the same thing as <span g="teaching-to-the-test">teaching to the test</span>.
 > When using backward design,
 > teachers set goals to aid in lesson design;
 > they may never actually give the final exam that they wrote.
@@ -119,7 +119,7 @@ so that whoever has to use or maintain the lesson after us can retrace our think
 
 The first step in the reverse design process is figuring out who your audience is.
 One way to do this is to write two or three
-<span g="g:learner-persona" i="learner persona">learner personas</span>
+<span g="learner-persona" i="learner persona">learner personas</span>
 like those in <a section="intro-audience"/>.
 This technique is borrowed from user experience designers,
 who create short profiles of typical users
@@ -184,7 +184,7 @@ or,
 Formative and summative assessments help teachers figure out what they're going to teach,
 but in order to communicate that to learners and other teachers,
 a course description should also have
-<span g="g:learning-objective" i="learning objective">learning objectives</span>.
+<span g="learning-objective" i="learning objective">learning objectives</span>.
 These help ensure that
 everyone has the same understanding of what a lesson is supposed to accomplish.
 For example,
@@ -203,7 +203,7 @@ a statement like "understand Git" could mean any of the following:
 > ### Objectives vs. Outcomes
 >
 > A learning objective is what a lesson strives to achieve.
-> A <span g="g:learning-outcome">learning outcome</span> is what it actually achieves,
+> A <span g="learning-outcome">learning outcome</span> is what it actually achieves,
 > i.e. what learners actually take away.
 > The role of summative assessment is therefore
 > to compare learning outcomes with learning objectives.
@@ -246,7 +246,7 @@ is to see how a poor one can be improved:
   and provides context to ensure that outcomes can be assessed.
 
 When it comes to choosing verbs,
-many teachers use <span g="g:blooms-taxonomy">Bloom's Taxonomy</span>.
+many teachers use <span g="blooms-taxonomy">Bloom's Taxonomy</span>.
 First published in 1956 and updated at the turn of the century <cite>Ande2001</cite>,
 it is a widely used framework for discussing levels of understanding.
 Its most recent form has six categories;
@@ -292,7 +292,7 @@ and this taxonomy can help teachers ensure that learners have those somethings w
 
 Another way to think about learning objectives comes from <cite>Fink2013</cite>,
 which defines learning in terms of the change it is meant to produce in the learner.
-<span g="g:finks-taxonomy">Fink's Taxonomy</span> also has six categories,
+<span g="finks-taxonomy">Fink's Taxonomy</span> also has six categories,
 but unlike Bloom's they are complementary rather than hierarchical:
 
 Foundational Knowledge:
@@ -377,7 +377,7 @@ How willing people are to collaborate.
   the way that they write and share encyclopedia entries.
 
 How useful sharing actually is.
-: The <span g="g:reusability-paradox">Reusability Paradox</span> states that
+: The <span g="reusability-paradox">Reusability Paradox</span> states that
   the more reusable a learning object is,
   the less pedagogically effective it is <cite>Wile2002</cite>.
   The reason is that a good lesson resembles a novel more than it does a program:
@@ -432,7 +432,7 @@ critique and improve the objectives.
 
 ### Help Me Do It By Myself (small groups/15) {.exercise}
 
-The educational theorist Lev Vygotsky introduced the notion of a <span g="g:zpd">Zone of Proximal Development</span> (ZPD),
+The educational theorist Lev Vygotsky introduced the notion of a <span g="zpd">Zone of Proximal Development</span> (ZPD),
 which includes the problems that people cannot yet solve on their own
 but are able to solve with help from a mentor.
 These are the problems that are most fruitful to tackle next,

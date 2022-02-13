@@ -9,9 +9,9 @@ it talks about how teachers can *demotivate* them
 and how to avoid doing that.
 
 Our starting point is the difference between
-<span g="g:extrinsic-motivation">extrinsic motivation</span>,
+<span g="extrinsic-motivation">extrinsic motivation</span>,
 which we feel when we do something to avoid punishment or earn a reward,
-and <span g="g:intrinsic-motivation">intrinsic motivation</span>,
+and <span g="intrinsic-motivation">intrinsic motivation</span>,
 which is what we feel when we find something personally fulfilling.
 Both affect most situations---for example,
 people teach because they enjoy it and because they get paid---but
@@ -143,9 +143,9 @@ Instead of printing "hello world" or summing the first ten integers,
 a learner's first program might open an image,
 resize it to create a thumbnail,
 and save the result.
-This is an <span g="g:authentic-task">authentic task</span>,
+This is an <span g="authentic-task">authentic task</span>,
 i.e. something that learners believe they would actually do in real life.
-It also has a <span g="g:tangible-artifact">tangible artifact</span>:
+It also has a <span g="tangible-artifact">tangible artifact</span>:
 if the image comes out the wrong size,
 learners have something in hand that can guide their debugging.
 <cite>Lee2013</cite> describes an adaption of this approach from Python to MATLAB,
@@ -209,7 +209,7 @@ There are three main demotivators for adult learners:
   they will some day find themselves in the disadvantaged group <cite>Wilk2011</cite>.
 
 In extreme situations,
-learners may develop <span g="g:learned-helplessness">learned helplessness</span>:
+learners may develop <span g="learned-helplessness">learned helplessness</span>:
 when repeatedly subjected to negative feedback in a situation that they can't change,
 they may learn not to even try to change the things they could.
 
@@ -290,7 +290,7 @@ and doing so improves outcomes for everyone <cite>Sved2016</cite>.
 
 > ### Productive Failure and Privilege
 >
-> Some recent work has explored <span g="g:productive-failure">productive failure</span>,
+> Some recent work has explored <span g="productive-failure">productive failure</span>,
 > where learners are deliberately given problems that can't be solved with the knowledge they have
 > and have to go out and acquire new information in order to make progress <cite>Kapu2016</cite>.
 > Productive failure is superficially reminiscent of tech's "fail fast, fail often" mantra,
@@ -303,7 +303,7 @@ and doing so improves outcomes for everyone <cite>Sved2016</cite>.
 
 ### Impostor Syndrome
 
-<span g="g:impostor-syndrome" i="impostor syndrome">Impostor syndrome</span>
+<span g="impostor-syndrome" i="impostor syndrome">Impostor syndrome</span>
 is the belief that your achievements are lucky flukes
 and an accompanying fear that someone will finally figure this out.
 It is common among high achievers who undertake publicly visible work,
@@ -376,8 +376,8 @@ based on their outcomes.
 ### Mindset and Stereotype Threat
 
 <span i="Dweck, Carol">Carol Dweck</span> and others
-have studied the differences of <span g="g:fixed-mindset">fixed mindset</span>
-and <span g="g:growth-mindset">growth mindset</span> on learning outcomes.
+have studied the differences of <span g="fixed-mindset">fixed mindset</span>
+and <span g="growth-mindset">growth mindset</span> on learning outcomes.
 If people believe that competence in some area is intrinsic
 (i.e. that you either "have the gene" for it or you don't),
 *everyone* does worse,
@@ -396,7 +396,7 @@ than its more enthusiastic advocates have implied <cite>Sisk2018</cite>.
 However,
 it does appear that learners with low socioeconomic status or who are academically at risk might benefit from mindset interventions.
 
-Another widely discussed effect is <span g="g:stereotype-threat">stereotype threat</span> <cite>Stee2011</cite>.
+Another widely discussed effect is <span g="stereotype-threat">stereotype threat</span> <cite>Stee2011</cite>.
 Reminding people of negative stereotypes,
 even in subtle ways,
 can make them anxious about the risk of confirming those stereotypes,
@@ -519,7 +519,7 @@ they almost certainly have more experience with what works and what doesn't than
 
 ## Inclusivity {#motivation-inclusivity}
 
-<span g="g:inclusivity" i="inclusivity">Inclusivity</span> is a policy of
+<span g="inclusivity" i="inclusivity">Inclusivity</span> is a policy of
 including people who might otherwise be excluded or marginalized.
 In computing,
 it means making a positive effort to be more welcoming to women,
@@ -576,7 +576,7 @@ in part because the gaming aspect of the program was something their peers respe
 <cite>Lach2018</cite> explored two general strategies for creating inclusive content
 and the risks associated with them:
 
-{<span g="g:community-representation" i="community representation">Community representation</span>}
+{<span g="community-representation" i="community representation">Community representation</span>}
 : highlights learners' social identities, histories, and community networks
   using after-school mentors or role models from learners' neighborhoods,
   or activities that use community narratives and histories
@@ -584,7 +584,7 @@ and the risks associated with them:
   The major risk with this approach is shallowness,
   e.g. using computers to build slideshows rather than do any real computing.
 
-{<span g="g:computational-integration" i="computational integration">Computational integration</span>}
+{<span g="computational-integration" i="computational integration">Computational integration</span>}
 : incorporates ideas from the learner's community,
   such as reproducing indigenous graphic designs in a visual programming environment.
   The major risk here is cultural appropriation,
@@ -628,7 +628,7 @@ over time, they erode motivation, and with it, participation.
 The first and most important step toward fixing this is
 to stop thinking in terms of a "leaky pipeline" <cite>Mill2015</cite>.
 More generally,
-we need to move past a <span g="g:deficit-model">deficit model</span>,
+we need to move past a <span g="deficit-model">deficit model</span>,
 i.e. to stop thinking that the members of underrepresented groups lack something
 and are therefore responsible for not getting ahead.
 Believing that puts the burden on people who already have to do extra work to overcome structural inequities

@@ -23,7 +23,7 @@ This chapter therefore focuses on how to teach programming by actually doing it.
 > Teaching is theater, not cinema.<br/>
 > --- <span i="Davis, Neal">Neal Davis</span>
 
-The most effective way to teach programming is <span g="g:live-coding">live coding</span>
+The most effective way to teach programming is <span g="live-coding">live coding</span>
 <cite>Rubi2013,Haar2017,Raj2018</cite>.
 Instead of presenting pre-written material,
 the teacher writes code in front of the class
@@ -31,7 +31,7 @@ while the learners follow along,
 typing it in and running it as they go.
 Live coding works better than slides for several reasons:
 
-- It enables <span g="g:active-teaching">active teaching</span>
+- It enables <span g="active-teaching">active teaching</span>
   by allowing teachers to follow their learners' interests and questions in the moment.
   A slide deck is like a railway track:
   it may be a smooth ride,
@@ -109,7 +109,7 @@ you will give your learners a toolbox they can use when they make their own mist
 > (which can still be informative).
 > You can try to remember past mistakes and make them deliberately,
 > but that often feels forced.
-> An alternative approach is <span g="g:twitch-coding">twitch coding</span>:
+> An alternative approach is <span g="twitch-coding">twitch coding</span>:
 > ask learners one by one to tell you what to type next.
 > This is pretty much guaranteed to get you into some kind of trouble.
 
@@ -304,7 +304,7 @@ in front of bored 16-year-olds isn't something you ever want to have to do.
 
 > ### Direct Instruction
 >
-> <span g="g:direct-instruction">Direct Instruction</span> (DI) is a teaching method
+> <span g="direct-instruction">Direct Instruction</span> (DI) is a teaching method
 > centered around meticulous curriculum design delivered through a prescribed script.
 > It's more like an actor reciting lines than it is like the improvisational approach we recommend.
 > <cite>Stoc2018</cite> found a statistically significant positive effect for DI
@@ -354,7 +354,7 @@ instead,
 like any other performance art,
 the keys to better teaching are practice and collaboration.
 As <cite>Gree2014</cite> explains,
-the Japanese approach to this is called <span g="g:jugyokenkyu">jugyokenkyu</span>,
+the Japanese approach to this is called <span g="jugyokenkyu">jugyokenkyu</span>,
 which means "lesson study":
 
 > In order to graduate,
@@ -395,7 +395,7 @@ This is particularly true for volunteers and other free-range teachers
 involved in after-school workshops and bootcamps.
 
 Writing up new techniques
-and giving <span g="g:demonstration-lesson" i="demonstration lesson">demonstration lessons</span>
+and giving <span g="demonstration-lesson" i="demonstration lesson">demonstration lessons</span>
 (in which one person teaches actual learners while other teachers observe)
 are not solutions.
 For example,

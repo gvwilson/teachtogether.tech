@@ -75,7 +75,7 @@ and is both short and practical.
 No matter how good a teacher is,
 they can only say one thing at a time.
 How then can they clear up many different misconceptions in a reasonable time?
-The best solution developed so far is a technique called <span g="g:peer-instruction">peer instruction</span>.
+The best solution developed so far is a technique called <span g="peer-instruction">peer instruction</span>.
 Originally created by <span i="Mazur, Eric">Eric Mazur</span> at Harvard <cite>Mazu1996</cite>,
 it has been studied extensively in a wide variety of contexts,
 including programming <cite>Crou2001,Port2013</cite>,
@@ -131,7 +131,7 @@ their misconceptions cancel out.
 
 ## Teach Together {#classroom-together}
 
-<span g="g:co-teaching" i="co-teaching">Co-teaching</span> describes any situation
+<span g="co-teaching" i="co-teaching">Co-teaching</span> describes any situation
 in which two teachers work together in the same classroom.
 <cite>Frie2016</cite> describes several ways to do this:
 
@@ -247,7 +247,7 @@ because the less people know about a subject,
 the less accurately they can estimate their knowledge
 (<a figure="f:classroom-dunning-kruger"/>,
 from [Neurologica][dunning-kruger-critique]),
-a phenomenon called the <span g="g:dunning-kruger-effect">Dunning-Kruger effect</span> <cite>Krug1999</cite>.
+a phenomenon called the <span g="dunning-kruger-effect">Dunning-Kruger effect</span> <cite>Krug1999</cite>.
 Conversely,
 people who are members of underrepresented groups will often underrate their skills.
 
@@ -307,13 +307,13 @@ but everyone will have had a rewarding and challenging day.
 
 > ### False Beginners
 >
-> A <span g="g:false-beginner">false beginner</span> is someone
+> A <span g="false-beginner">false beginner</span> is someone
 > who has studied a language before but is learning it again.
-> They may be indistinguishable from <span g="g:absolute-beginner" i="absolute beginner">absolute beginners</span>
+> They may be indistinguishable from <span g="absolute-beginner" i="absolute beginner">absolute beginners</span>
 > on pre-assessment tests,
 > but they are able to move much more quickly once the class starts
 >
-> Being a false beginner is often a sign of <span g="g:preparatory-privilege">preparatory privilege</span> <cite>Marg2010</cite>,
+> Being a false beginner is often a sign of <span g="preparatory-privilege">preparatory privilege</span> <cite>Marg2010</cite>,
 > and false beginners are common in free-range programming classes.
 > For example,
 > a child whose family is affluent enough to have sent them to a robotics summer camp
@@ -335,7 +335,7 @@ the rest of the class will feel left out.
 
 ## Pair Programming {#classroom-pair}
 
-<span g="g:pair-programming" i="pair programming">Pair programming</span> is a software development practice
+<span g="pair-programming" i="pair programming">Pair programming</span> is a software development practice
 in which [two programmers work together on one computer][video-pair-programming].
 One person (the driver) does the typing
 while the other (the navigator) offers comments and suggestions,
@@ -521,7 +521,7 @@ and to see if there's anything I can do to make them more comfortable.
 
 ### As Minute Cards
 
-You can also use sticky notes as <span g="g:minute-cards" i="minute card">minute cards</span>.
+You can also use sticky notes as <span g="minute-cards" i="minute card">minute cards</span>.
 Before each break,
 learners take a minute to write one thing on the green sticky note
 that they think will be useful
@@ -774,7 +774,7 @@ for which your learners will probably be grateful.
 
 ### Think-Pair-Share
 
-<span g="g:think-pair-share" i="think-pair-share">Think-pair-share</span> is a lightweight technique
+<span g="think-pair-share" i="think-pair-share">Think-pair-share</span> is a lightweight technique
 that helps people improve ideas
 through discussion with their peers.
 Each person starts by thinking individually about a question or problem

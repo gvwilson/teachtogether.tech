@@ -15,7 +15,7 @@ and pay dividends down the road.
 ## Marketing {#outreach-marketing}
 
 People with academic or technical backgrounds often think that
-<span g="g:marketing">marketing</span> is about spin and misdirection.
+<span g="marketing">marketing</span> is about spin and misdirection.
 In reality,
 it's about seeing things from other people's perspective,
 understanding their wants and needs,
@@ -61,7 +61,7 @@ the first steps in marketing are
 to create <span i="learner persona">personas</span>
 of people who might be interested in what you're doing
 and to figure out which of their needs you can meet.
-One way to summarize the latter is to write <span g="g:elevator-pitch" i="elevator pitch">elevator pitches</span>
+One way to summarize the latter is to write <span g="elevator-pitch" i="elevator pitch">elevator pitches</span>
 aimed at different personas.
 A widely used template for these is:
 
@@ -124,7 +124,7 @@ but the CEO might actually be doing it simply because it's the right thing to do
 
 ## Branding and Positioning {#outreach-branding}
 
-A <span g="g:brand">brand</span> is someone's first reaction to a mention of a product;
+A <span g="brand">brand</span> is someone's first reaction to a mention of a product;
 if the reaction is "what's that?",
 you don't have a brand (yet).
 Branding is important because
@@ -137,7 +137,7 @@ blogs,
 and Twitter all give you ways to reach people,
 but as the volume of misinformation increases,
 people pay less attention to each individual interruption.
-This makes <span g="g:positioning">positioning</span> ever more important.
+This makes <span g="positioning">positioning</span> ever more important.
 Sometimes called "differentiation,"
 it is what sets your offering apart from others---the "unlike" section of your elevator pitches.
 When you reach out to people who are already familiar with your field,
@@ -170,7 +170,7 @@ the search terms that parents used for out-of-school computing classes
 didn't actually find those classes,
 and many other groups face similar challenges.
 There's a lot of folklore about how to make things findable
-(otherwise known as <span g="g:seo">search engine optimization</span> or SEO);
+(otherwise known as <span g="seo">search engine optimization</span> or SEO);
 given Google's near-monopoly powers and lack of transparency,
 most of it boils down to trying to stay one step ahead of
 algorithms designed to prevent people from gaming rankings.
@@ -423,7 +423,7 @@ They found that evidence-based practices in medicine
 take an average of 17 years to be incorporated into routine general practice,
 and that only about half of such practices are ever widely adopted.
 This depressing finding and others like it spurred the growth of
-<span g="g:implementation-science">implementation science</span>,
+<span g="implementation-science">implementation science</span>,
 which is the study of how to get people to adopt better practices.
 
 As <a section="community"/> said,
@@ -633,7 +633,7 @@ How does that affect your marketing?
 
 ### Conversational Programmers (think-pair-share/15) {.exercise}
 
-A <span g="g:conversational-programmer">conversational programmer</span>
+A <span g="conversational-programmer">conversational programmer</span>
 is someone who needs to know enough about computing
 to have a meaningful conversation with a programmer,
 but isn't going to program themselves.

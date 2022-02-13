@@ -139,7 +139,7 @@ The source for this book is stored on GitHub at:
 </div>
 
 If you know how to use Git and GitHub and would like to change, fix, or add something,
-please submit a <span g="g:pull-request">pull request</span> that modifies the LaTeX source.
+please submit a <span g="pull-request">pull request</span> that modifies the LaTeX source.
 If you would like to preview your changes,
 please run `make pdf` or `make html` on the command line.
 

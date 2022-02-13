@@ -43,12 +43,12 @@ It also explains many observed aspects of expert behavior:
   Where a competent practitioner would have to reason
   \\(A{\rightarrow}B{\rightarrow}C{\rightarrow}D{\rightarrow}E\\),
   an expert can go from \\(A\\) to \\(E\\) in a single step.
-  We call this <span g="g:intuition">intuition</span>:
+  We call this <span g="intuition">intuition</span>:
   instead of reasoning their way to a solution,
   the expert recognizes a solution in the same way that they would recognize a familiar face.
 
 - Densely-connected graphs are also the basis for experts'
-  <span g="g:fluid-representation" i="fluid representation">fluid representations</span>,
+  <span g="fluid-representation" i="fluid representation">fluid representations</span>,
   i.e. their ability to switch back and forth between different views of a problem <cite>Petr2016</cite>.
   For example,
   when trying to solve a problem in mathematics,
@@ -66,7 +66,7 @@ It also explains many observed aspects of expert behavior:
   This means they are often less able to teach the subject than people with less expertise
   who still remember learning it themselves.
 
-The last of these points is called <span g="g:expert-blind-spot">expert blind spot</span>.
+The last of these points is called <span g="expert-blind-spot">expert blind spot</span>.
 As originally defined in <cite>Nath2003</cite>,
 it is the tendency of experts to organize explanation according to the subject's deep principles
 rather than being guided by what their learners already know.
@@ -89,7 +89,7 @@ and how good they are at teaching it <cite>Mars2002</cite>.
 
 ## Concept Maps {#memory-concept-maps}
 
-Our tool of choice for representing someone's mental model is a <span g="g:concept-map">concept map</span>,
+Our tool of choice for representing someone's mental model is a <span g="concept-map">concept map</span>,
 in which facts are bubbles and connections are labeled connections.
 As examples,
 <a figure="f:memory-seasons"/> shows why the Earth has seasons (from [IHMC][ihmc]),
@@ -180,7 +180,7 @@ I consider that a benefit.
 
 Concept maps are just one way to represent our understanding of a subject <cite>Eppl2006</cite>;
 others include Venn diagrams, flowcharts, and decision trees <cite>Abel2009</cite>.
-All of these <span g="g:externalized-cognition" i="externalized cognition">externalize cognition</span>,
+All of these <span g="externalized-cognition" i="externalized cognition">externalize cognition</span>,
 i.e. make mental models visible so that they can be compared and combined<sup>To paraphrase
 <span i="Wilde, Oscar">Oscar Wilde</span>'s Lady Windermere,
 people often don't know what they're thinking until they've heard themselves say it.}.
@@ -204,8 +204,8 @@ another simple model has a sounder physiological basis.
 As a rough approximation,
 human memory can be divided into two distinct layers.
 The first,
-called <span g="g:long-term-memory" i="long-term memory">long-term</span>
-or <span g="g:persistent-memory">persistent memory</span>,
+called <span g="long-term-memory" i="long-term memory">long-term</span>
+or <span g="persistent-memory">persistent memory</span>,
 is where we store things like our friends' names,
 our home address,
 and what the clown did at our eighth birthday party that scared us so much.
@@ -213,8 +213,8 @@ Its capacity is essentially unlimited,
 but it is slow to access---too slow to help us cope with hungry lions and disgruntled family members.
 
 Evolution has therefore given us a second system
-called <span g="g:short-term-memory" i="short-term memory">short-term</span>
-or <span g="g:working-memory">working memory</span>.
+called <span g="short-term-memory" i="short-term memory">short-term</span>
+or <span g="working-memory">working memory</span>.
 It is much faster,
 but also much smaller: <cite>Mill1956</cite> estimated that the average adult's working memory could only hold 7±2 items at a time.
 This is why [phone numbers][phone-number-length]
@@ -277,7 +277,7 @@ Our presentation is therefore an example of a mental model that aids learning an
 Recent research suggests that the actual size of short-term memory
 might be as low as 4±1 items <cite>Dida2016</cite>.
 In order to handle larger sets of information,
-our minds create <span g="g:chunking" i="chunking">chunks</span>.
+our minds create <span g="chunking" i="chunking">chunks</span>.
 For example,
 most of us remember words as single items rather than as sequences of letters.
 Similarly,
@@ -311,8 +311,8 @@ doing the same thing over and over again is much more likely to solidify bad hab
 What actually works is doing similar but subtly different things,
 paying attention to what works and what doesn't,
 and then changing behavior in response to that feedback to get cumulatively better.
-This is called <span g="g:deliberate-practice" i="deliberate practice">deliberate</span>
-or <span g="g:reflective-practice">reflective practice</span>,
+This is called <span g="deliberate-practice" i="deliberate practice">deliberate</span>
+or <span g="reflective-practice">reflective practice</span>,
 and a common progression is for people to go through three stages:
 
 Act on feedback from others.

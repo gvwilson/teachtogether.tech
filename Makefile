@@ -24,7 +24,7 @@ new-es:
 ## new-en: make the English version and serve on port 4000
 .PHONY: new-en
 new-en:
-	mccole -C en-md --lang en --onepage toda.html -r 4000
+	mccole -C en-md --lang en --onepage all.html -r 4000
 
 ## commands : show all commands.
 commands :
