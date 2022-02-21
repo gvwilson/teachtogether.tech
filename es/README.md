@@ -379,7 +379,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 
 Estilo de cita basado en:
 * [Este artículo en el blog de APA](https://apastyle.apa.org/blog/citing-translated-works). Section Book, republished in translation
-* Incluimos el titulo en Inglés, siguiendo esta sugerencia de APA. Ver ejemplo para Piaget (1950)
+* Incluimos el titulo en Inglés, siguiendo [esta sugerencia de APA](https://writeanswers.royalroads.ca/faq/199295). Ver ejemplo para Piaget (1950)
 
 
 ### 4.2. Como incluir tu participación en este proyecto en tu CV:
