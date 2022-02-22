@@ -20,7 +20,7 @@ EMPTY_ROW_ODD = '''<tr class="odd">
 </tr>
 '''
 
-FOOTNOTES = '<section class="footnotes" role="doc-endnotes">'
+FOOTNOTES_SECTION = re.compile(r'<section[^>]+class="footnotes[^>]*>')
 
 
 def main(body, bib):
@@ -92,7 +92,8 @@ def fix_footnotes(text):
 
 
 def fix_bibliography(text, bib):
-    return text.replace(FOOTNOTES, bib + '\n' + FOOTNOTES)
+    match = FOOTNOTES_SECTION.search(text)
+    return text.replace(match.group(0), bib + '\n' + match.group(0))
 
 
 if __name__ == '__main__':
