@@ -7,6 +7,7 @@ template: page
   - Como determinar el precio
   - Ver si algo de la sección 14.5 Docente de rango libre se puede traer aqui
   - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
+  - no solo enseñar, a new niche is to translate successful training to other languages.
 - Si buscas financiamiento para una comunidad
   - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
 
@@ -26,10 +27,18 @@ Después de calcular eso, hago ajustes semi-subjetivos.
 - Lo que se puede cobrar depende de la región del mundo donde estés.
 - Hay personas que no cobran lo mismo a empresas y privados que a universidades y non-profits.
 
+- consult with colleagues what is the average price or analyze in the courses / training offered what is the average cost, in general the price of the course offered by 
+- think about what you would pay for such a workshop at e.g. a conference, and consider how many people are in said workshop. 
+- whatever you first think of is probably too low
+
+
+## Intro
 
 Ya sea como docente independiente o como parte de una comunidad de práctica.
 
 ## Blog Greg
+
+- Perhaps after point 4 or between 3 and 4 I would put as an option Contact with professional associations, in general they offer courses to their enrollees and can be a good place to generate contacts and experience.
 
 Empieza en el grupo de apoyo.
 :   Sé un ayudante en un concierto que otro haya organizado para aprender el
@@ -47,6 +56,9 @@ Empieza por las conferencias.
 :   Muchas conferencias tienen un apartado de tutorías; eche un vistazo a lo que hay entre 6 y 12 meses
     meses y póngase en contacto con los organizadores o el director del tutorial para ver qué
     para ver qué buscan o si quieren lo que tú ya tienes.
+    
+Comentarios en un issue: 
+ - give some free courses at the University or even, in some regional events like a hackathons organized between Universities and government it’s a great opportunity to make contacts and to know potentials clients.    
 
 Ve donde no están los demás.
 :   Muchos académicos en recuperación enseñan programación o ciencia de datos a
@@ -132,3 +144,6 @@ No tengas miedo de decir "no".
         ayudarlas como pueda.  También he impartido clases para empresas locales a
         a cambio de donaciones a organizaciones benéficas que quiero apoyar, lo que es mejor
         para ambas partes una vez que se solucionan las implicaciones fiscales.
+
+- offer my training for free as an extracurricular course at the University. First it helps me to give back a little of everything I received from the public education of my country and also allows me to generate networking, trying new material, try how I teach with someone new and training people to teach (we usually teach together with my husband this way regularly). Something like this could go in the last point (do not stop teaching for free), I would add as possibilities to tech for free the meetups of the user groups or communities of practice such as R-Ladies, RUGs, etc.        
+- Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, sean de tiempo, energía, u otra cosa. Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
