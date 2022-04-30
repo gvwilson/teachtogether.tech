@@ -3,8 +3,33 @@ title: "Hacer el bien y lograr que te paguen"
 template: page
 ---
 
+- Si sos free-lance
+  - Como determinar el precio
+  - Ver si algo de la sección 14.5 Docente de rango libre se puede traer aqui
+  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
+- Si buscas financiamiento para una comunidad
+  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
+
+
+## Determinar cuanto cobrar
+
+Proceso para determinar el precio
+	- Determinar el valor de la hora. 
+	- Como tarifa base, cobro 4 horas, porque son unas 3 horas de preparación por 1 hora en el taller.  
+	- Agrego horas (entre 1 a 6) si estoy enseñando algo avanzado o especializado que requiere una preparación extra o depende de que tenga conocimientos más avanzados.
+    - Agrego entre 1 y 3 unidades si quieren que cambie los ejemplos y ejercicios usando datos relacionados a su actividad.
+    - Añado 1 a 3 horas si quieren grabar la clase para usarla en el futuro o publicarla.
+    - Si el numero de estudiantes necesita un co-docente se agregan las horas de los ayudantes.
+
+Después de calcular eso, hago ajustes semi-subjetivos.  
+
+- Lo que se puede cobrar depende de la región del mundo donde estés.
+- Hay personas que no cobran lo mismo a empresas y privados que a universidades y non-profits.
+
+
 Ya sea como docente independiente o como parte de una comunidad de práctica.
 
+## Blog Greg
 
 Empieza en el grupo de apoyo.
 :   Sé un ayudante en un concierto que otro haya organizado para aprender el
