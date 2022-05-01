@@ -98,8 +98,6 @@ Ve donde no están los demás.
   - Ver si algo de la sección 14.5 Docente de rango libre se puede traer aqui
   - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
   - no solo enseñar, a new niche is to translate successful training to other languages.
-- Si sos responsable de buscar financiamiento para una comunidad
-  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
 
 
 ## Determinar cuanto cobrar
@@ -224,3 +222,21 @@ Crea un sitio web de aspecto profesional.
     - el código de conducta de tus talleres.
 
 
+## Financiamiento para una comunidad
+
+La estrategia puede cambiar en el caso que tengas la responsabilidad de conseguir el financiamiento para una organización 
+que tiene un grupo de docentes.  La forma más directa es cobrar a tus estudiantes una inscripción por ser parte de tus 
+capacitaciones. (citar porqué está bueno cobrar de todas maneras, por el tema de la cantidad de gente que luego no se presenta al curso)
+En esta sección del capítulo presentamos algunos modelos alternativos utilizados por comunidades de práctica que se dedican
+a enseñar.
+
+Modelo [The Carpentries]()
+
+Modelo [MetaDocencia]()
+
+Modelo [Mumuki](https://mumuki.io/home/) 
+
+Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
+que es la gobernanza y hacer refencias a las diferentes secciones o capítulos correspondientes.
+
+  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
