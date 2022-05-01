@@ -14,23 +14,47 @@ que te paguen por eso.
 
 ## Por donde empezar
 
-Empieza en el grupo de apoyo.
-:   Sé un ayudante en un concierto que otro haya organizado para aprender el
-    negocio y hacer contactos.  Si se trata de una formación comercial, el
-    Si se trata de una formación comercial, el instructor principal debería cubrir tu viaje y alojamiento y pagar unos cientos de dólares por un día de tu tiempo.
-    dólares por un día de tu tiempo; si no lo es, pregunta si te dejan enseñar
-    una hora de la clase y luego te dan su opinión.
+Si vas a trabajar como autónomo, aqui hay un par de opciones sobre como empezar a 
+ofrecer tus servicios y dar clases.
 
-Empieza con amigos.
-:   ¿Hay algún amigo o colega que trabaje en algún lugar que se beneficiaría de la formación?
-    Si es así, mira si te puede presentar a su jefe o a alguien de RRHH
-    (que suele encargarse de organizar la formación).
+Empieza como parte del grupo de apoyo.
+:   Sé ayudante en el curso o evento que otras personas hayan organizado. Te servirá para aprender 
+    como funciona este negocio y para hacer contactos.  Si se trata de una capacitación paga, 
+    la persona responsable debería cubrir los costos de tu participación (Ej: viaje, alojamiento) 
+    y pagarte una tarifa por tu tiempo.
+    Si la capacitación no es comercial, puedes preguntar si te dejan enseñar una parte de la clase
+    y luego te dan su opinión de tu desempeño y te aconsejan como mejorar.
+
+Empieza con personas conocidas.
+:   ¿Tienes alguna persona conocida, colega o alguna amistad que trabaje en algún lugar 
+	que se beneficiaría del tipo de formación que ofreces?
+    Si es así, pregunta si te puede presentar a su jefe o a alguien de recursos humanos
+    (que suele encargarse de organizar las capacitaciones).
 
 Empieza por las conferencias.
-:   Muchas conferencias tienen un apartado de tutorías; eche un vistazo a lo que hay entre 6 y 12 meses
-    meses y póngase en contacto con los organizadores o el director del tutorial para ver qué
+:   Muchas conferencias tienen una sección o día destinado a tutoriales; 
+	busca que eventos y conferencias se van a realizar entre los próximos 6 y 12 meses
+    y revisa si hay un llamado a propuestas de tutoriales o
+    contacta a las personas responsables de la organización de la conferencia o
+    directamente con la persona responsable de organizar los tutoriales
     para ver qué buscan o si quieren lo que tú ya tienes.
     
+Si hay un llamado a presentación de tutoriales, este suele solicitr algunos detalles
+sobre tu prpouesta.  Sin importar el formato que tenga, te sugerimos que tu propuesta 
+presente al menos los siguientes puntos:
+
+- Audiencia: podes presentar esta parte usando personas tipo (referencia).
+- Objetivos de aprendizaje: lista que van a aprender tus estudiantes (referencia).
+- Propuestas pedagógica: detalla como será la dinámica del curso, que tipo de elementos
+para realizar una enseñanza activa vas a utilizar (ej: evaluaciones formativas, 
+trabajo en grupo, etc.)
+- Outline y duración: una genda tentativa del curso donde se vea explicitamente los cortes y
+las ejercicitaciones.
+- Pre-requisitos de los estudiantes en cuanto a hardware, software y conocimientos
+previos.
+
+En el anexo xx podes ver algunas plantillas para generar estos documentos.
+
 Comentarios en un issue: 
  - give some free courses at the University or even, in some regional events like a hackathons organized between Universities and government it’s a great opportunity to make contacts and to know potentials clients.    
  - Perhaps after point 4 or between 3 and 4 I would put as an option Contact with professional associations, in general they offer courses to their enrollees and can be a good place to generate contacts and experience.
