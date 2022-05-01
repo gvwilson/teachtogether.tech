@@ -31,33 +31,58 @@ Empieza con personas conocidas.
     Si es así, pregunta si te puede presentar a su jefe o a alguien de recursos humanos
     (que suele encargarse de organizar las capacitaciones).
 
+Contacta a las asociaciones, consejos y colegios de profesionales y a los gremios.
+:	Estas organizaciones nuclean personas que se dedican a ejercer una disciplina 
+	en general, tienen un área de capacitación que ofrece capacitaciones y 
+	actualizaciones a las personas miembro. Puedes ponerte en contacto con las 
+	personas responsables de esta actividad y ofrecer tus servicios. Además, 
+	son un buen lugar para generar contactos y experiencia.  Si sos parte de 
+	alguna de estas organzaciones, empieza por allí.
+
 Empieza por las conferencias.
-:   Muchas conferencias tienen una sección o día destinado a tutoriales; 
+:   Las conferencias, hackatones y eventos similares son una gran oportunidad 
+	para hacer contactos y conocer clientes potenciales. 
+	Muchas conferencias tienen una sección o día destinado a tutoriales; 
 	busca que eventos y conferencias se van a realizar entre los próximos 6 y 12 meses
     y revisa si hay un llamado a propuestas de tutoriales o
     contacta a las personas responsables de la organización de la conferencia o
     directamente con la persona responsable de organizar los tutoriales
     para ver qué buscan o si quieren lo que tú ya tienes.
-    
-Si hay un llamado a presentación de tutoriales, este suele solicitr algunos detalles
-sobre tu prpouesta.  Sin importar el formato que tenga, te sugerimos que tu propuesta 
-presente al menos los siguientes puntos:
+	Si hay un llamado a presentación de tutoriales, este suele solicitr algunos detalles
+	sobre tu prpouesta.  Sin importar el formato que tenga, te sugerimos que tu propuesta
+	presente al menos los siguientes puntos:
+	
+	- Audiencia: podes presentar esta parte usando personas tipo (referencia).
+	- Objetivos de aprendizaje: lista que van a aprender tus estudiantes (referencia).
+	- Propuestas pedagógica: detalla como será la dinámica del curso, que tipo de elementos
+	para realizar una enseñanza activa vas a utilizar (ej: evaluaciones formativas, 
+	trabajo en grupo, etc.)
+	- Outline y duración: una genda tentativa del curso donde se vea explicitamente los cortes y
+	las ejercicitaciones.
+	- Pre-requisitos de los estudiantes en cuanto a hardware, software y conocimientos
+	previos.
+	
+	En el anexo xx podes ver algunas plantillas para generar estos documentos.
 
-- Audiencia: podes presentar esta parte usando personas tipo (referencia).
-- Objetivos de aprendizaje: lista que van a aprender tus estudiantes (referencia).
-- Propuestas pedagógica: detalla como será la dinámica del curso, que tipo de elementos
-para realizar una enseñanza activa vas a utilizar (ej: evaluaciones formativas, 
-trabajo en grupo, etc.)
-- Outline y duración: una genda tentativa del curso donde se vea explicitamente los cortes y
-las ejercicitaciones.
-- Pre-requisitos de los estudiantes en cuanto a hardware, software y conocimientos
-previos.
+Enseña en comunidades de práctica, organizaciones sin fines de lucro y universidades públicas.
+:	y su puedes, hazlo sin cobrar dinero. 
+		He impartido media docena de clases gratuitas para
+        bibliotecas públicas en los últimos tres años porque creo que las
+        las bibliotecas públicas son una de las joyas de la corona de la civilización y quiero ayudarlas
+        como pueda.  
+        También he impartido clases para empresas locales a
+        a cambio de donaciones a organizaciones benéficas que quiero apoyar, lo que es mejor
+        para ambas partes una vez que se solucionan las implicaciones fiscales.   
+        Ofrecer mi formación de forma gratuita como curso extracurricular en la Universidad pública 
+        o en grupos como R-Ladies. 
+        Primero me ayuda a devolver un poco de todo lo que recibí de la educación pública 
+        de mi país y de las comunidades de práctica. 
+        Además me permite generar networking, probar material nuevo, 
+        probar cómo enseño con una persona que no enseñé antes y 
+        a formar a gente para que enseñe utilizando las técnicas que aprendimos en este libro. 
+        
 
-En el anexo xx podes ver algunas plantillas para generar estos documentos.
 
-Comentarios en un issue: 
- - give some free courses at the University or even, in some regional events like a hackathons organized between Universities and government it’s a great opportunity to make contacts and to know potentials clients.    
- - Perhaps after point 4 or between 3 and 4 I would put as an option Contact with professional associations, in general they offer courses to their enrollees and can be a good place to generate contacts and experience.
 Ve donde no están los demás.
 :   Muchos académicos en recuperación enseñan programación o ciencia de datos a
     empresas farmacéuticas e instituciones financieras.  Menos piensan en industrias menos
@@ -131,7 +156,7 @@ Habla con tu empleador.
 
 No tengas miedo de decir "no".
 :   La mayoría de la gente tiene una lista de cosas por hacer; si vas a cualquier tipo de
-    consultoría o formación, deberías tener también una lista de cosas por hacer.  La mía
+    consultoría o formación, deberías tener también una lista de cosas que no debemos hacer.  La mía
     incluye:
     - No insistir en dar clases en persona.  Tengo otra entrada del blog elaborando
         sobre cómo proporcionar formación interactiva en línea, que creo que proporciona
@@ -142,15 +167,11 @@ No tengas miedo de decir "no".
     - No trabajes barato con la esperanza de que la formación te lleve a un trabajo de consultoría:
         ocurre, pero es lo suficientemente infrecuente como para no apostar por
         en ello.
-    - No dejes de enseñar gratis.  He impartido media docena de clases gratuitas para
-        bibliotecas públicas en los últimos tres años porque creo que las
-        las bibliotecas públicas son una de las joyas de la corona de la civilización y quiero ayudarlas
-        ayudarlas como pueda.  También he impartido clases para empresas locales a
-        a cambio de donaciones a organizaciones benéficas que quiero apoyar, lo que es mejor
-        para ambas partes una vez que se solucionan las implicaciones fiscales.
+    - No dejes de enseñar gratis.  
 
-- offer my training for free as an extracurricular course at the University. First it helps me to give back a little of everything I received from the public education of my country and also allows me to generate networking, trying new material, try how I teach with someone new and training people to teach (we usually teach together with my husband this way regularly). Something like this could go in the last point (do not stop teaching for free), I would add as possibilities to tech for free the meetups of the user groups or communities of practice such as R-Ladies, RUGs, etc.        
-- Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, sean de tiempo, energía, u otra cosa. Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
+- Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, 
+sean de tiempo, energía, u otra cosa. 
+Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
 
 
 ## Creando tu marca personal
