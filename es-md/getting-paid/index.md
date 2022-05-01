@@ -90,7 +90,6 @@ Ve donde no están los demás.
     2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* 
         para poder hacerte una idea de lo que las personas tipo de esa comunidad ya sabe.
 
-
 ## Como determinar cuanto cobrar / Negociando el pago
 
 - Si sos free-lance
@@ -133,27 +132,8 @@ Negocia el tiempo de preparación.
     preparar material personalizado, pero no te sorprendas si te dicen que no.
 
 
-Habla con tu empleador.
-:   Muchas personas empiezan a formarse profesionalmente y sólo se dedican a ello
-    a tiempo completo una vez que están seguros de que pueden mantenerse a sí mismos.  Nunca he oído
-    de un empleador que diga "no" a esto, pero:
-    1.  Díselo por adelantado: al final se van a enterar, y si has
-        Si has intentado ocultárselo, se preguntarán qué más no les has dicho.
-        no les has dicho.
-    2.  2. Mantén tu formación separada de tu trabajo diario.  Cuando yo era
-        multitarea, sólo desarrollaba los materiales de formación en el ordenador de casa
-        y sólo respondía a los correos relacionados con la formación cuando estaba en casa.
-    3.  3. Ofrézcase a realizar alguna formación interna de forma gratuita (donde "gratuita" significa "durante
-        horas de trabajo, como parte de su empleo regular remunerado").  Si quiere
-        utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
-        Si ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
-        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
-        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
-
 No tengas miedo de decir "no".
-:   La mayoría de la gente tiene una lista de cosas por hacer; si vas a cualquier tipo de
-    consultoría o formación, deberías tener también una lista de cosas que no debemos hacer.  La mía
-    incluye:
+:   Algunas cosas para no hacer:
     - No insistir en dar clases en persona.  Tengo otra entrada del blog elaborando
         sobre cómo proporcionar formación interactiva en línea, que creo que proporciona
         la mayor parte de la eficacia a un coste mucho menor para la familia y el
@@ -163,14 +143,14 @@ No tengas miedo de decir "no".
     - No trabajes barato con la esperanza de que la formación te lleve a un trabajo de consultoría:
         ocurre, pero es lo suficientemente infrecuente como para no apostar por
         en ello.
-    - No dejes de enseñar gratis.  
+
 
 - Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, 
 sean de tiempo, energía, u otra cosa. 
 Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
 
 
-## Creando tu marca personal
+## Materiales
 
 Nunca cedas los derechos de tu material.
 :   Recomiendo encarecidamente publicar el material de formación bajo una licencia Creative Commons
@@ -200,6 +180,26 @@ Para el software, existen múltiples opciones. Les presentamos tres opciones:
     La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el uso no viole los tratados básicos de derechos humanos.
 
 Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
+
+## Materiales
+
+
+Habla con tu empleador.
+:   Muchas personas empiezan a formarse profesionalmente y sólo se dedican a ello
+    a tiempo completo una vez que están seguros de que pueden mantenerse a sí mismos.  Nunca he oído
+    de un empleador que diga "no" a esto, pero:
+    1.  Díselo por adelantado: al final se van a enterar, y si has
+        Si has intentado ocultárselo, se preguntarán qué más no les has dicho.
+        no les has dicho.
+    2.  Mantén tu formación separada de tu trabajo diario.  Cuando yo era
+        multitarea, sólo desarrollaba los materiales de formación en el ordenador de casa
+        y sólo respondía a los correos relacionados con la formación cuando estaba en casa.
+    3.  Ofrézcase a realizar alguna formación interna de forma gratuita (donde "gratuita" significa "durante
+        horas de trabajo, como parte de su empleo regular remunerado").  Si quiere
+        utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
+        ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
+        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
+        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
 
 
 Crea un sitio web de aspecto profesional.
