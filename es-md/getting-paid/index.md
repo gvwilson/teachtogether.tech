@@ -3,7 +3,7 @@ title: "Hacer el bien y lograr que te paguen"
 template: page
 ---
 
-## Intro
+## Introducción
 
 Ya sea como docente independiente o como parte de una comunidad de práctica vas 
 a tener que empezar de alguna manera y vas necesitar conseguir financimiento para 
@@ -64,36 +64,34 @@ Empieza por las conferencias.
 	
 	En el anexo xx podes ver algunas plantillas para generar estos documentos.
 
-Enseña en comunidades de práctica, organizaciones sin fines de lucro y universidades públicas.
+Enseña en comunidades de práctica, organizaciones sin fines de lucro e instituciones públicas.
 :	y su puedes, hazlo sin cobrar dinero. 
-		He impartido media docena de clases gratuitas para
-        bibliotecas públicas en los últimos tres años porque creo que las
-        las bibliotecas públicas son una de las joyas de la corona de la civilización y quiero ayudarlas
-        como pueda.  
-        También he impartido clases para empresas locales a
-        a cambio de donaciones a organizaciones benéficas que quiero apoyar, lo que es mejor
-        para ambas partes una vez que se solucionan las implicaciones fiscales.   
-        Ofrecer mi formación de forma gratuita como curso extracurricular en la Universidad pública 
-        o en grupos como R-Ladies. 
-        Primero me ayuda a devolver un poco de todo lo que recibí de la educación pública 
-        de mi país y de las comunidades de práctica. 
-        Además me permite generar networking, probar material nuevo, 
-        probar cómo enseño con una persona que no enseñé antes y 
-        a formar a gente para que enseñe utilizando las técnicas que aprendimos en este libro. 
+		Greg ha impartido media docena de clases gratuitas para
+        bibliotecas públicas en los últimos años porque cree que las
+        las bibliotecas públicas son una de las mejores invenciones 
+        de la civilización y quiere ayudarlas tanto como pueda.  
+        También ha impartido clases para empresas locales a cambio de donaciones a 
+        organizaciones benéficas que quiere apoyar.   
+        Yanina ha ofrecido sus cursos de forma gratuita a agrupaciones como R-Ladies y como curso 
+        extracurricular en universidades públicas.  De esta manera puede devolver un poco 
+        todo lo que ha recibido de la educación pública de su país y de las comunidades de práctica 
+        de las cuales es parte. 
+        Además le permite generar nuevos contactos, probar material nuevo, 
+        ver cómo enseña con una persona con la que no enseñó antes y 
+        a formar personas para que enseñen utilizando las técnicas y herramientas que 
+        aprendimos en este libro. 
         
-
-
 Ve donde no están los demás.
-:   Muchos académicos en recuperación enseñan programación o ciencia de datos a
-    empresas farmacéuticas e instituciones financieras.  Menos piensan en industrias menos
-    menos glamurosas como el transporte por carretera o la gestión de edificios de oficinas, pero
-    también necesitan ayuda.
-    1.  Utilice ejemplos que sean directamente relevantes para su campo.
-    2.  2. Hable con algunas personas *aparte de sus contactos iniciales* para
-        para hacerse una idea de lo que sabe realmente el miembro medio de la comunidad.
+:   Muchas personas que se dedican a brindar servicios de capacitació0n enseñan programación 
+	o ciencia de datos a negocios más conocidos o que están de moda, como farmacéuticas e instituciones financieras.  
+	Hoy todas las industrias necesitan ayuda con el manejo y explotación de sus datos, aunque no sean tan glamorosas como
+	las que están en boca de todos.  Cualquiera sea el negocio al que vas a ofrecer tus servicios:
+	1.  Utiliza ejemplos que sean directamente relevantes para su campo.
+    2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* 
+        para poder hacerte una idea de lo que las personas tipo de esa comunidad ya sabe.
 
 
-## Negociando el pago
+## Como determinar cuanto cobrar / Negociando el pago
 
 - Si sos free-lance
   - Como determinar el precio
