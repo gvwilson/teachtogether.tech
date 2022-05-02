@@ -474,55 +474,7 @@ luego haz que tus estudiantes programen en vivo en turnos
 para mostrar cómo usarían esas ideas y técnicas en su desempeño
 así les darás a todos/as la oportunidad de elegir cosas que les serán útiles en su contexto.
 
-## Docentes *free-range* {#outreach-free-range}
 
-Las escuelas y las universidades no son los únicos lugares en donde la gente va a aprender programación;
-en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
-Estos últimos suelen tener entre uno y seis meses de duración,
-son llevados a cabo por grupos de voluntarios/as o por empresas con fines de lucro
-y se proponen alcanzar a personas que se están re-entrenando para entrar al mundo de la tecnología.
-Algunos programas son de muy alta calidad,
-pero otros existen primariamente para sacarle dinero del bolsillo a la gente <cite>McMi2017</cite>.
-
-<cite>Thay2017</cite> entrevistó a 26 graduados de estos entrenamientos intensivos
-que les dan una segunda oportunidad a aquellos que han perdido oportunidades previas de educación en computación
-(aunque expresarlo de este modo implica realizar grandes suposiciones
-en lo que respecta a las personas de grupos subrepresentados).
-Las personas que participan de los entrenamientos intensivos enfrentan grandes costos y riesgos personales:
-deben gastar una cantidad significativa de tiempo, dinero y esfuerzo antes,
-durante y después de los entrenamientos intensivos, y cambiar de carrera puede tomar un año o más.
-Varias de las personas entrevistadas sienten que sus certificados fueron subestimados por sus empleadores:
-como dijeron algunas de ellas,
-obtener un trabajo significa aprobar una entrevista,
-pero dado que quienes te entrevistan muchas veces no comparten sus motivos de rechazo,
-es difícil saber qué arreglar o qué más aprender.
-Muchas personas han tenido que recurrir a pasantías (pagas o de otro tipo)
-y pasan mucho tiempo construyendo sus portfolios y haciendo networking.
-Las tres barreras informales que más fácilmente identificaron las personas entrevistadas fueron la jerga,
-el síndrome del impostor/a y una sensación de no encajar.
-
-<cite>Burk2018</cite> profundizó en este tema
-al comparar las habilidades y credenciales
-que la industria tecnológica busca con aquellas habilidades provistas por carreras de cuatro años y programas de entrenamiento intensivo.
-A partir de entrevistas con 15 gerentes de contratación de empresas de varios tamaños y algunos grupos focales,
-encontraron que los/las reclutadores/as enfatizaban uniformemente en habilidades blandas
-(especialmente trabajo en equipo, comunicación y la habilidad para continuar aprendiendo).
-Muchas compañías requerían un título de cuatro años
-(aunque no necesariamente en ciencias de la computación),
-pero muchas también elogiaron a egresados/as de programas de entrenamiento intensivo por ser mayores en edad o tener más madurez
-y por poseer conocimientos más actualizados.
-
-Si te estás aproximando a un programa de entrenamiento intensivo que ya existe,
-tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza,
-en lugar de lo que sabes sobre tecnología,
-ya que gran parte del personal y de los/las fundadores/as tiene experiencia en programación
-pero poca o ninguna capacitación en educación.
-Los primeros capítulos de este libro han servido con este público en el pasado,
-y  <cite>Lang2016</cite> describe
-prácticas de enseñanza basadas en evidencia que pueden implementarse
-con un esfuerzo mínimo y a bajo costo.
-Estas prácticas tal vez no tengan el mayor impacto,
-pero lograr algunas victorias tempranas ayuda a generar apoyo para esfuerzos más grandes.
 
 ## Reflexiones finales  {#outreach-final}
 Es imposible cambiar grandes instituciones por tu cuenta:
