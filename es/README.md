@@ -375,7 +375,7 @@ La carpeta `es` (correspondiente a Español) tiene dos subcarpetas:
 ## 4. Citando este trabajo
 ### 4.1. Como citar la traducción
 
-- Wilson, G. (2021). Enseñar tecnología en comunidad. Cómo crear y dar lecciones que funcionen y construir una comunidad docente a su alrededor [Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them] (Traducción al español: Y. Bellini Saibene, N. S. Morandeira, P. Corrales, L. Acion, M. Dermit, Y. Sosa, J. Benitez Saldivar, Z. Bazurto, S. Canelón, L. Canaviri Maydana, M. Alonso, A. Bellini, P. Minotti, R. Chirinos, P. Rojas, N. Stroud, R. N. Villafañe, P. Loto, A. L. Diedrich, Y. Terrazas-Carafa & L. Rodríguez Planes). https://teachtogether.tech/es/ (Trabajo original publicado en 2019).
+- Wilson, G. (2021). Enseñar tecnología en comunidad. Cómo crear y dar lecciones que funcionen y construir una comunidad docente a su alrededor [Teaching Tech Together. How to create and deliver lessons that work and build a teaching community around them] (Traducción al español: Y. Bellini Saibene, N. S. Morandeira, P. Corrales, L. Acion, M. Dermit, Y. Sosa, J. Benitez Saldivar, Z. Bazurto, S. Canelón, L. Canaviri Maydana, M. Alonso, A. Bellini, P. Minotti, R. Chirinos, P. Rojas, N. Stroud, R. N. Villafañe, P. Loto, A. L. Diedrichs, Y. Terrazas-Carafa & L. Rodríguez Planes). https://teachtogether.tech/es/ (Trabajo original publicado en 2019).
 
 Estilo de cita basado en:
 * [Este artículo en el blog de APA](https://apastyle.apa.org/blog/citing-translated-works). Section Book, republished in translation
