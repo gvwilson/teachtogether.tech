@@ -116,8 +116,7 @@ Programas de entrenamiento intensivos (bootcamps)
 	deben gastar una cantidad significativa de tiempo, dinero y esfuerzo antes,
 	durante y después de los entrenamientos intensivos, y cambiar de carrera puede tomar un año o más.
 	Varias de las personas entrevistadas sienten que sus certificados fueron subestimados por sus empleadores:
-	como dijeron algunas de ellas,
-	obtener un trabajo significa aprobar una entrevista,
+	como dijeron algunas de ellas, obtener un trabajo significa aprobar una entrevista,
 	pero dado que quienes te entrevistan muchas veces no comparten sus motivos de rechazo,
 	es difícil saber qué arreglar o qué más aprender.
 
@@ -127,25 +126,18 @@ Programas de entrenamiento intensivos (bootcamps)
 	el síndrome del impostor/a y una sensación de no encajar.
 
 	<cite>Burk2018</cite> profundizó en este tema al comparar las habilidades y credenciales
-	que la industria tecnológica busca con aquellas habilidades provistas por carreras de cuatro años y programas de entrenamiento intensivo.
-	A partir de entrevistas con 15 gerentes de contratación de empresas de varios tamaños y algunos grupos focales,
-	encontraron que los/las reclutadores/as enfatizaban uniformemente en habilidades blandas
+	que la industria tecnológica busca con aquellas habilidades provistas por carreras 
+	de cuatro años y programas de entrenamiento intensivo.
+	A partir de entrevistas con 15 responsables de contratación de empresas de varios tamaños y algunos grupos focales,
+	encontraron que las personas que reclutan enfatizaban uniformemente en habilidades blandas
 	(especialmente trabajo en equipo, comunicación y la habilidad para continuar aprendiendo).
-	Muchas compañías requerían un título de cuatro años
-	(aunque no necesariamente en ciencias de la computación),
-	pero muchas también elogiaron a egresados/as de programas de entrenamiento intensivo por ser mayores en edad o tener más madurez
-	y por poseer conocimientos más actualizados.
+	Muchas compañías requerían un título de cuatro años (aunque no necesariamente en ciencias de la computación),
+	pero muchas también elogiaron a quienes han egresado de estos programas de entrenamiento intensivo 
+	por tener más madurez y poseer conocimientos más actualizados.
 	
 	Por lo que ten cuidado a que tipo de proyecto y emprendimiento te estas sumando.
 
---- No se muy bien donde poner esto
-Los primeros capítulos de este libro han servido con este público en el pasado,
-y  <cite>Lang2016</cite> describe
-prácticas de enseñanza basadas en evidencia que pueden implementarse
-con un esfuerzo mínimo y a bajo costo.
-Estas prácticas tal vez no tengan el mayor impacto,
-pero lograr algunas victorias tempranas ayuda a generar apoyo para esfuerzos más grandes.
----
+
 
 ## Como determinar cuanto cobrar / Negociando el pago
 
@@ -154,9 +146,6 @@ pero lograr algunas victorias tempranas ayuda a generar apoyo para esfuerzos má
   - Ver si algo de la sección 14.5 Docente de rango libre se puede traer aqui
   - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
   - no solo enseñar, a new niche is to translate successful training to other languages.
-
-
-## Determinar cuanto cobrar
 
 Proceso para determinar el precio
 	- Determinar el valor de la hora. 
@@ -219,7 +208,8 @@ Nunca cedas los derechos de tu material.
 
 Licencia
 
-Los materiales que cuentan con una licencia permiten ser utilizados correctamente. Si la licencia no figura explicitamente, por defecto el contenido es cerrado.
+Los materiales que cuentan con una licencia permiten ser utilizados correctamente. 
+Si la licencia no figura explicitamente, por defecto el contenido es cerrado.
 
 Sugerimos seleccionar una licencia abierta tanto para el material (texto, imágenes, videos) como para el software.
 Material
@@ -237,8 +227,6 @@ Para el software, existen múltiples opciones. Les presentamos tres opciones:
     La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el uso no viole los tratados básicos de derechos humanos.
 
 Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
-
-## Materiales
 
 
 Habla con tu empleador.
@@ -277,6 +265,16 @@ Crea un sitio web de aspecto profesional.
     - elogios de clientes anteriores (o de profesores para los que has sido asistente, o de cualquier otra persona);
         y
     - el código de conducta de tus talleres.
+
+
+--- No se muy bien donde poner esto
+Los primeros capítulos de este libro han servido con este público en el pasado,
+y  <cite>Lang2016</cite> describe
+prácticas de enseñanza basadas en evidencia que pueden implementarse
+con un esfuerzo mínimo y a bajo costo.
+Estas prácticas tal vez no tengan el mayor impacto,
+pero lograr algunas victorias tempranas ayuda a generar apoyo para esfuerzos más grandes.
+---
 
 
 ## Financiamiento para una comunidad
