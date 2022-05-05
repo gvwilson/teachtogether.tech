@@ -101,9 +101,15 @@ Ve donde no están los demás.
 Programas de entrenamiento intensivos (bootcamps)
 :	Si te estás aproximando a un programa de entrenamiento intensivo que ya existe,
 	tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza,
-	en lugar de lo que sabes sobre tecnología,
-	ya que gran parte de las personsa que trabajan en estos emprendimientos tiene experiencia en programación
+	en lugar de lo que sabes sobre tecnología, ya que gran parte de las personsa 
+	que trabajan en estos emprendimientos tiene experiencia en programación
 	pero poca o ninguna capacitación en educación.
+	Puedes demostrar lo que sabes usando el material presentado en los primeros 
+	capítulos de este libro (que ya a funcionado con estos espacios en el pasado).
+	Además <cite>Lang2016</cite> describe prácticas de enseñanza basadas en evidencia 
+	que pueden implementarse con un esfuerzo mínimo y a bajo costo. Puede que estas prácticas 
+	no tengan el mayor impacto, pero lograr algunas victorias tempranas ayuda 
+	a generar apoyo para esfuerzos más grandes.
 
 	Debes tener en cuenta que algunos de estos programas son de muy alta calidad,
 	pero otros existen esencialmente para sacarle dinero a la gente <cite>McMi2017</cite>.
@@ -136,8 +142,6 @@ Programas de entrenamiento intensivos (bootcamps)
 	por tener más madurez y poseer conocimientos más actualizados.
 	
 	Por lo que ten cuidado a que tipo de proyecto y emprendimiento te estas sumando.
-
-
 
 ## Como determinar cuanto cobrar / Negociando el pago
 
@@ -267,14 +271,6 @@ Crea un sitio web de aspecto profesional.
     - el código de conducta de tus talleres.
 
 
---- No se muy bien donde poner esto
-Los primeros capítulos de este libro han servido con este público en el pasado,
-y  <cite>Lang2016</cite> describe
-prácticas de enseñanza basadas en evidencia que pueden implementarse
-con un esfuerzo mínimo y a bajo costo.
-Estas prácticas tal vez no tengan el mayor impacto,
-pero lograr algunas victorias tempranas ayuda a generar apoyo para esfuerzos más grandes.
----
 
 
 ## Financiamiento para una comunidad
