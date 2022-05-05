@@ -5,6 +5,14 @@ template: page
 
 ## Introducción
 
+La primera opción como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades.
+Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología);
+en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
+Estos últimos suelen tener entre uno y seis meses de duración,
+son llevados a cabo por grupos de voluntarios/as o por empresas con un fin de lucro
+y apuntan a un mercado de personas que se quieren cambiar de carrera o se 
+están re-entrenando para ingrear al mercado laborar del mundo de la tecnología.
+
 Ya sea como docente independiente o como parte de una comunidad de práctica vas 
 a tener que empezar de alguna manera y vas necesitar conseguir financimiento para 
 que puedas enseñar de forma sustentable.
@@ -14,7 +22,7 @@ que te paguen por eso.
 
 ## Por donde empezar
 
-Si vas a trabajar como autónomo, aqui hay un par de opciones sobre como empezar a 
+Si vas a trabajar como docente autónomo, aqui hay un par de opciones sobre como empezar a 
 ofrecer tus servicios y dar clases.
 
 Empieza como parte del grupo de apoyo.
@@ -57,7 +65,7 @@ Empieza por las conferencias.
 	- Propuestas pedagógica: detalla como será la dinámica del curso, que tipo de elementos
 	para realizar una enseñanza activa vas a utilizar (ej: evaluaciones formativas, 
 	trabajo en grupo, etc.)
-	- Outline y duración: una genda tentativa del curso donde se vea explicitamente los cortes y
+	- Esquema y duración: una genda tentativa del curso donde se vea explicitamente los cortes y
 	las ejercicitaciones.
 	- Pre-requisitos de los estudiantes en cuanto a hardware, software y conocimientos
 	previos.
@@ -90,15 +98,11 @@ Ve donde no están los demás.
     2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* 
         para poder hacerte una idea de lo que las personas tipo de esa comunidad ya sabe.
 
-## Docentes *free-range* {#outreach-free-range}
 
-Las escuelas y las universidades no son los únicos lugares en donde la gente va a aprender programación;
-en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
-Estos últimos suelen tener entre uno y seis meses de duración,
-son llevados a cabo por grupos de voluntarios/as o por empresas con fines de lucro
-y se proponen alcanzar a personas que se están re-entrenando para entrar al mundo de la tecnología.
-Algunos programas son de muy alta calidad,
-pero otros existen primariamente para sacarle dinero del bolsillo a la gente <cite>McMi2017</cite>.
+Programas de entrenamiento intensivos (bootcamps)
+: 
+Algunos de estos programas son de muy alta calidad,
+pero otros existen esencialmente para sacarle dinero a la gente <cite>McMi2017</cite>.
 
 <cite>Thay2017</cite> entrevistó a 26 graduados de estos entrenamientos intensivos
 que les dan una segunda oportunidad a aquellos que han perdido oportunidades previas de educación en computación
