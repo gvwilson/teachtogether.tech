@@ -144,6 +144,16 @@ Programas de entrenamiento intensivos (bootcamps)
 	
 	Por lo que ten cuidado a que tipo de proyecto y emprendimiento te estas sumando.
 
+Traduce materiales de enseñanza exitosos a tu lenguaje
+:	Hay muchas personas que comparten sus materiales educativos en linea, 
+	algunos de estos materiales han sido utilizados y refinados. Si la licencia
+	de uso permite obras derivadas podrías traducirlo a tu idioma y utilizarlo en 
+	tus cursos. 
+	Es una buena idea contactar a la persona autora de los materiales
+	y hacerle saber tus intenciones de traducción y uso.  Si ya están trabajando
+	en eso tal vez puedas sumarte al equipo. 
+	
+
 ## Como determinar cuanto cobrar / Negociando el pago
 
 Muchas veces el pago está fijado con antelación, por ejemplo, en una institución formal hay convenios colectivos
@@ -153,12 +163,6 @@ de práctica el pago a los tutores sea determinado por la organización del even
 Otras veces te van a pedir un presupuesto por tu trabajo docente.  En esta sección 
 te presentamos una serie de pasos para determinar el precio de tu tarea docente.
 
-
-- Si sos free-lance
-  - Como determinar el precio
-  - Ver si algo de la sección 14.5 Docente de rango libre se puede traer aqui
-  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
-  - no solo enseñar, a new niche is to translate successful training to other languages.
 
 Proceso para determinar el precio
 	- Determinar el valor de la hora. 
