@@ -5,7 +5,7 @@ template: page
 
 ## Introducción
 
-La primera opción como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades.
+La primera opción para trabajar como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades.
 Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología);
 en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
 Estos últimos suelen tener entre uno y seis meses de duración,
@@ -30,7 +30,7 @@ Empieza como parte del grupo de apoyo.
     la persona responsable debería cubrir los costos de tu participación (Ej: viaje, alojamiento) 
     y pagarte una tarifa por tu tiempo.
     Si la capacitación no es comercial, puedes preguntar si te dejan enseñar una parte de la clase
-    y luego te dan su opinión de tu desempeño y te aconsejan como mejorar.
+    y luego te dan su opinión de tu desempeño y te aconsejen como mejorar.
 
 Empieza con personas conocidas.
 :   ¿Tienes alguna persona conocida, colega o alguna amistad que trabaje en algún lugar 
@@ -40,7 +40,7 @@ Empieza con personas conocidas.
 
 Contacta a las asociaciones, consejos y colegios de profesionales y a los gremios.
 :	Estas organizaciones nuclean personas que se dedican a ejercer una disciplina 
-	en general, tienen un área de capacitación que ofrece capacitaciones y 
+	en general, tienen un área de capacitación que ofrece cursos y 
 	actualizaciones a las personas miembro. Puedes ponerte en contacto con las 
 	personas responsables de esta actividad y ofrecer tus servicios. Además, 
 	son un buen lugar para generar contactos y experiencia.  Si sos parte de 
@@ -55,7 +55,7 @@ Empieza por las conferencias.
     contacta a las personas responsables de la organización de la conferencia o
     directamente con la persona responsable de organizar los tutoriales
     para ver qué buscan o si quieren lo que tú ya tienes.
-	Si hay un llamado a presentación de tutoriales, este suele solicitr algunos detalles
+	Si hay un llamado a presentación de tutoriales, este suele solicitar algunos detalles
 	sobre tu prpouesta.  Sin importar el formato que tenga, te sugerimos que tu propuesta
 	presente al menos los siguientes puntos:
 	
@@ -80,7 +80,7 @@ Enseña en comunidades de práctica, organizaciones sin fines de lucro e institu
         También ha impartido clases para empresas locales a cambio de donaciones a 
         organizaciones benéficas que quiere apoyar.   
         Yanina ha ofrecido sus cursos de forma gratuita a agrupaciones como R-Ladies y como curso 
-        extracurricular en universidades públicas.  De esta manera puede devolver un poco 
+        extracurricular en universidades públicas.  De esta manera puede devolver un poco de
         todo lo que ha recibido de la educación pública de su país y de las comunidades de práctica 
         de las cuales es parte. 
         Además le permite generar nuevos contactos, probar material nuevo, 
@@ -95,15 +95,16 @@ Ve donde no están los demás.
 	las que están en boca de todos.  Cualquiera sea el negocio al que vas a ofrecer tus servicios:
 	1.  Utiliza ejemplos que sean directamente relevantes para su campo.
     2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* 
-        para poder hacerte una idea de lo que las personas tipo de esa comunidad ya sabe.
+        para poder hacerte una idea de como son las personas tipo de esa comunidad y que 
+        conocimientos previos ya tienen.
 
 
 Programas de entrenamiento intensivos (bootcamps)
 :	Si te estás aproximando a un programa de entrenamiento intensivo que ya existe,
 	tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza,
-	en lugar de lo que sabes sobre tecnología, ya que gran parte de las personsa 
+	en lugar de lo que sabes sobre tecnología, ya que gran parte de las personas 
 	que trabajan en estos emprendimientos tiene experiencia en programación
-	pero poca o ninguna capacitación en educación.
+	pero poca o ninguna formación en educación.
 	Puedes demostrar lo que sabes usando el material presentado en los primeros 
 	capítulos de este libro (que ya a funcionado con estos espacios en el pasado).
 	Además <cite>Lang2016</cite> describe prácticas de enseñanza basadas en evidencia 
@@ -144,6 +145,14 @@ Programas de entrenamiento intensivos (bootcamps)
 	Por lo que ten cuidado a que tipo de proyecto y emprendimiento te estas sumando.
 
 ## Como determinar cuanto cobrar / Negociando el pago
+
+Muchas veces el pago está fijado con antelación, por ejemplo, en una institución formal hay convenios colectivos
+de trabajo que determinan el sueldo de un docente.  También puede ser que en conferencias y algunas comunidades 
+de práctica el pago a los tutores sea determinado por la organización del evento.
+
+Otras veces te van a pedir un presupuesto por tu trabajo docente.  En esta sección 
+te presentamos una serie de pasos para determinar el precio de tu tarea docente.
+
 
 - Si sos free-lance
   - Como determinar el precio
