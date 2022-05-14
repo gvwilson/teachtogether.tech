@@ -168,10 +168,12 @@ el nivel de personalización requerido, entre otros factores.
 En esta sección te presentamos una serie de pasos para determinar el precio de tu tarea docente a partir de 
 la experiencia personal de los autores y de colegas docentes.
 
-Calcular el precio por hora
+Calcular el precio (por hora)
 :	un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionlaes y los gremios suelen
 	brindar listados de precios por hora para las tareas de sus profesionales. Otra
 	fuente puede ser el valor por hora de un docente de nivel superior (universitario/terciario).
+	También podes consultar con colegas cuál es el precio que ellos cobran y 
+	analizar el precio promedio en cursos similares. 
 
 Determinar una tarifa base
 :	enseñar un curso no es solo ir en la fecha acordada, pararse delente de la clase y 
@@ -183,37 +185,37 @@ Determinar una tarifa base
 	o ya tienes algo de material preparado.  Por ejemplo, podrías iniciar con una 
 	tarifa base de 2 horas de costo por cada hora frente a estudiantes.
 
-
 Más pedidos, más costo
 :	A esa tarifa de base se le pueden agregar más horas de acuerdo a los
 	pedidos del cliente.  Agregar entre 1 a 3 horas para la personalización 
-	del material (ejemplos y ejercicios) utilizando datos relacionados con su actividad.
+	del material (ejemplos, ejercicios) utilizando datos relacionados con su actividad.
 	También añadir entre 2 a 6 horas si solicitan grabar la clase para 
 	uso futuro o para publicarla.  No aceptes "una cosa extra" sin confirmar 
 	primero que vas a vas a cobrar por el trabajo.
 	
-	- Agrego horas (entre 1 a 6) si estoy enseñando algo avanzado o especializado que requiere una preparación extra 
-	  o depende de que tenga conocimientos más avanzados.
+Enseñando en equipo
+: 	Si por el numero de estudiantes que va a tener tu curso
+	necesitas ayuda, entonces se agregan las horas de clase
+	de los ayudantes.  Si el curso es presencial también se agregan
+	los costos de viaje y alojamiento, tanto tuyo como de tus
+	co-docentes y ayudantes.
+	
+Más especializado, más costo
+:	Puedes agregar más horas si estás enseñando algo especializado
+	o avanzado que requiere una preparación extra o que requiere
+	contar con conocimientos más avanzados y actualizados.
+	
 
-    - Si el numero de estudiantes necesita un co-docente se agregan las horas de los ayudantes.
+ 
 
-Después de calcular eso, hago ajustes semi-subjetivos.  
-
-- Lo que se puede cobrar depende de la región del mundo donde estés.
 - Hay personas que no cobran lo mismo a empresas y privados que a universidades y non-profits.
 
-- consult with colleagues what is the average price or analyze in the courses / training offered what is the average cost, in general the price of the course offered by 
+- 
 - think about what you would pay for such a workshop at e.g. a conference, and consider how many people are in said workshop. 
 - whatever you first think of is probably too low
 
 3. Cobre la tarifa vigente.
-:   Se espera pagar entre 300 y 1.000 dólares por una conferencia de un día
-    de conferencia de un día; suponiendo una clase de 20 personas y un reparto al 50 % entre el
-    instructor y el lugar de celebración, eso supone 3.000 dólares y 5.000 dólares para ti.  
-    A esto hay que añadirle siempre los gastos de viaje y alojamiento.
-    siempre hay que añadir los gastos de viaje y alojamiento, pero ninguno de mis
-    clientes ha accedido a pagarme por mi tiempo de viaje.
-
+:
 
 
 
