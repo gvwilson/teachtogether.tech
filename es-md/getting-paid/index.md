@@ -162,23 +162,39 @@ de práctica el pago a los tutores sea determinado por la organización del even
 
 Otras veces te van a pedir un presupuesto por tu trabajo docente.  Determinar este precio
 depende de diversos factores, como por ejemplo la región del mundo donde vas a vender
-tu curso, el tipo de empresa u organización que te lo pide, la duración del curso,
+tu curso, el tipo de empresa u organización que te lo pide, la duración del curso, la modalidad (presencial u online),
 el nivel de personalización requerido, entre otros factores.
 
-n esta sección 
-te presentamos una serie de pasos para determinar el precio de tu tarea docente.
+En esta sección te presentamos una serie de pasos para determinar el precio de tu tarea docente a partir de 
+la experiencia personal de los autores y de colegas docentes.
 
 Calcular el precio por hora
-: un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionlaes y los gremios suelen
+:	un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionlaes y los gremios suelen
 	brindar listados de precios por hora para las tareas de sus profesionales. Otra
-	fuente puede ser el valor por hora de un docente de nivel superior.
-Proceso para determinar el precio
-	- Determinar el valor de la hora. 
-	- Como tarifa base, cobro 4 horas, porque son unas 3 horas de preparación por 1 hora en el taller.  
+	fuente puede ser el valor por hora de un docente de nivel superior (universitario/terciario).
+
+Determinar una tarifa base
+:	enseñar un curso no es solo ir en la fecha acordada, pararse delente de la clase y 
+	empezar a enseñar.  La preparación del material corresponde a un porcentaje 
+	importante del tiempo invertido en el curso.  En general los clientes no
+	van a aceptar pagarte ese tiempo, por lo que incorporarlo en el costo del 
+	curso es una forma de cobrar por esa tarea.  Una hora de curso corresponde entre 
+	1 y 3 horas de preparación.  Este ratio puede cambiar si el curso es totalmente nuevo 
+	o ya tienes algo de material preparado.  Por ejemplo, podrías iniciar con una 
+	tarifa base de 2 horas de costo por cada hora frente a estudiantes.
+
+
+Más pedidos, más costo
+:	A esa tarifa de base se le pueden agregar más horas de acuerdo a los
+	pedidos del cliente.  Agregar entre 1 a 3 horas para la personalización 
+	del material (ejemplos y ejercicios) utilizando datos relacionados con su actividad.
+	También añadir entre 2 a 6 horas si solicitan grabar la clase para 
+	uso futuro o para publicarla.  No aceptes "una cosa extra" sin confirmar 
+	primero que vas a vas a cobrar por el trabajo.
+	
 	- Agrego horas (entre 1 a 6) si estoy enseñando algo avanzado o especializado que requiere una preparación extra 
 	  o depende de que tenga conocimientos más avanzados.
-    - Agrego entre 1 y 3 unidades si quieren que cambie los ejemplos y ejercicios usando datos relacionados a su actividad.
-    - Añado 1 a 3 horas si quieren grabar la clase para usarla en el futuro o publicarla.
+
     - Si el numero de estudiantes necesita un co-docente se agregan las horas de los ayudantes.
 
 Después de calcular eso, hago ajustes semi-subjetivos.  
@@ -198,11 +214,7 @@ Después de calcular eso, hago ajustes semi-subjetivos.
     siempre hay que añadir los gastos de viaje y alojamiento, pero ninguno de mis
     clientes ha accedido a pagarme por mi tiempo de viaje.
 
-Negocia el tiempo de preparación.
-:   Si ofreces un taller en una conferencia, los organizadores probablemente
-    no pagarán por tu preparación: supondrán que ya tienes un curso.  Si
-    Si va a formar a un solo cliente, pida 50-100 dólares por hora para preparar material personalizado.
-    preparar material personalizado, pero no te sorprendas si te dicen que no.
+
 
 
 No tengas miedo de decir "no".
@@ -211,8 +223,7 @@ No tengas miedo de decir "no".
         sobre cómo proporcionar formación interactiva en línea, que creo que proporciona
         la mayor parte de la eficacia a un coste mucho menor para la familia y el
         medio ambiente.
-    - No aceptes "una cosa extra" sin confirmar primero que vas a
-        vas a cobrar por el trabajo.
+    - 
     - No trabajes barato con la esperanza de que la formación te lleve a un trabajo de consultoría:
         ocurre, pero es lo suficientemente infrecuente como para no apostar por
         en ello.
