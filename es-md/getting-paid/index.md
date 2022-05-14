@@ -158,12 +158,13 @@ Traduce materiales de enseñanza exitosos a tu lenguaje
 
 Muchas veces el pago está fijado con antelación, por ejemplo, en una institución formal hay convenios colectivos
 de trabajo que determinan el sueldo de un docente.  También puede ser que en conferencias y algunas comunidades 
-de práctica el pago a los tutores sea determinado por la organización del evento.
+de práctica el pago a los tutores sea determinado por la organización del evento.  En otras ocasiones las 
+contrataciones gubernamentales cuentan con un presupuesto prefijado destinado a capacitaciones.
 
 Otras veces te van a pedir un presupuesto por tu trabajo docente.  Determinar este precio
 depende de diversos factores, como por ejemplo la región del mundo donde vas a vender
-tu curso, el tipo de empresa u organización que te lo pide, la duración del curso, la modalidad (presencial u online),
-el nivel de personalización requerido, entre otros factores.
+tu curso, el tipo de empresa u organización que te lo pide, la duración del curso, 
+la modalidad (presencial u online), el nivel de personalización requerido, entre otros factores.
 
 En esta sección te presentamos una serie de pasos para determinar el precio de tu tarea docente a partir de 
 la experiencia personal de los autores y de colegas docentes.
@@ -191,7 +192,9 @@ Más pedidos, más costo
 	del material (ejemplos, ejercicios) utilizando datos relacionados con su actividad.
 	También añadir entre 2 a 6 horas si solicitan grabar la clase para 
 	uso futuro o para publicarla.  No aceptes "una cosa extra" sin confirmar 
-	primero que vas a vas a cobrar por el trabajo.
+	primero que vas a vas a cobrar por el trabajo.  Si lo que estás enseñando
+	es especializado o avanzado y requiere una preparación extra o
+	contar con conocimientos avanzados y actualizados puedes agregar entre 2 a 4 horas.
 	
 Enseñando en equipo
 : 	Si por el numero de estudiantes que va a tener tu curso
@@ -200,40 +203,40 @@ Enseñando en equipo
 	los costos de viaje y alojamiento, tanto tuyo como de tus
 	co-docentes y ayudantes.
 	
-Más especializado, más costo
-:	Puedes agregar más horas si estás enseñando algo especializado
-	o avanzado que requiere una preparación extra o que requiere
-	contar con conocimientos más avanzados y actualizados.
-	
 
- 
-
-- Hay personas que no cobran lo mismo a empresas y privados que a universidades y non-profits.
-
-- 
-- think about what you would pay for such a workshop at e.g. a conference, and consider how many people are in said workshop. 
-- whatever you first think of is probably too low
-
-3. Cobre la tarifa vigente.
-:
+Ultimos ajustes
+:	puede ser que no quieras tener la misma tarifa para una
+	universidad pública que para una empresa, para una organización
+	sin fines de lucro que para un banco o compañía de seguros.
+	Podés tener un valor de la hora diferente para diferente tipos de 
+	organizaciones.  También podes ofrecer tus servicios de forma gratuita
+	o acordar un precio diferente si donan tu costo a una organización
+	que desees ayudar.  Finalmente, no trabajes barato con la esperanza 
+	de que la capacitación te lleve a un trabajo de consultoría: ocurre, 
+	pero es muy infrecuente como para apostar por en ello.
 
 
+## Financiamiento para una comunidad
 
-No tengas miedo de decir "no".
-:   Algunas cosas para no hacer:
-    - No insistir en dar clases en persona.  Tengo otra entrada del blog elaborando
-        sobre cómo proporcionar formación interactiva en línea, que creo que proporciona
-        la mayor parte de la eficacia a un coste mucho menor para la familia y el
-        medio ambiente.
-    - 
-    - No trabajes barato con la esperanza de que la formación te lleve a un trabajo de consultoría:
-        ocurre, pero es lo suficientemente infrecuente como para no apostar por
-        en ello.
+La estrategia puede cambiar en el caso que tengas la responsabilidad de conseguir el financiamiento para una organización 
+que tiene un grupo de docentes.  La forma más directa es cobrar a tus estudiantes una inscripción por ser parte de tus 
+capacitaciones. (citar porqué está bueno cobrar de todas maneras, por el tema de la cantidad de gente que luego no se presenta al curso)
+En esta sección del capítulo presentamos algunos modelos alternativos utilizados por comunidades de práctica que se dedican
+a enseñar.
+
+Modelo [The Carpentries]()
+
+Modelo [MetaDocencia]()
+
+Modelo [Mumuki](https://mumuki.io/home/) 
+
+Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
+que es la gobernanza y hacer refencias a las diferentes secciones o capítulos correspondientes.
+
+  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
 
 
-- Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, 
-sean de tiempo, energía, u otra cosa. 
-Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
+
 
 
 ## Materiales
@@ -309,21 +312,7 @@ Crea un sitio web de aspecto profesional.
 
 
 
-## Financiamiento para una comunidad
 
-La estrategia puede cambiar en el caso que tengas la responsabilidad de conseguir el financiamiento para una organización 
-que tiene un grupo de docentes.  La forma más directa es cobrar a tus estudiantes una inscripción por ser parte de tus 
-capacitaciones. (citar porqué está bueno cobrar de todas maneras, por el tema de la cantidad de gente que luego no se presenta al curso)
-En esta sección del capítulo presentamos algunos modelos alternativos utilizados por comunidades de práctica que se dedican
-a enseñar.
-
-Modelo [The Carpentries]()
-
-Modelo [MetaDocencia]()
-
-Modelo [Mumuki](https://mumuki.io/home/) 
-
-Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
-que es la gobernanza y hacer refencias a las diferentes secciones o capítulos correspondientes.
-
-  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
+- Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, 
+sean de tiempo, energía, u otra cosa. 
+Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
