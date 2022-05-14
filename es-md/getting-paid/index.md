@@ -224,11 +224,43 @@ capacitaciones. (citar porqué está bueno cobrar de todas maneras, por el tema 
 En esta sección del capítulo presentamos algunos modelos alternativos utilizados por comunidades de práctica que se dedican
 a enseñar.
 
-Modelo [The Carpentries]()
+Modelo [The Carpentries](https://carpentries.org/)
 
-Modelo [MetaDocencia]()
+The Carpentries enseña conocimientos básicos de codificación y ciencia de datos a cientificos/as de todo el mundo.  La organización es
+un proyecto patrocinado fiscalmente por Community Initiatives, una organización registrada como 501(c)3 sin ánimo de lucro 
+con sede en California, Estados Unidos. 
+
+La organización tiene un esquema de _organizaciones miembros_ y _patrocinadores_ sumado
+a una activa _recaudación de fondos_ y _campañas de donación_.
+
+* Una Organización Miembro es una organización que se ha comprometido con el crecimiento 
+y la difusión de la organización. Estas instituciones miembro reciben acceso prioritario 
+a la formación de instructores/as y a la orientación para el desarrollo de capacidades 
+en su organización. Con instructores/as locales, las organizaciones miembros pueden 
+organizar fácilmente talleres locales de bajo coste. Además, los/as instructores/as
+locales reciben apoyo, tutoría y un foro para el desarrollo de lecciones comunitarias por
+medio de la comunidad global.
+Las membresías también proporcionan a The Carpentries ingresos para garantizar el desarrollo 
+y el mantenimiento continuos de las lecciones que demandan las comunidades de investigación. 
+Actualmente el programa tiene diferentes niveles de patrocinio que cambia el monto a 
+aportar y este monto se ajusta de acuerdo al país de orígen de la institución que quiere
+ser miembro.
+
+* El programa de patrocinio tiene como objetivo ayudar a la organización a asociarse 
+con organizaciones afines que quieran contribuir financieramente para ayudar en los 
+esfuerzos para hacer que las habilidades de codificación y datos sean equitativas a 
+nivel mundial y ampliar nuestras operaciones para satisfacer mejor las necesidades 
+la comunidad.
+
+* Existen diversas oportunidades de financiamiento por medio de subisidios ofrecidos
+por fundaciones, agencias y asociaciones.  La organización se presenta a estos llamados
+de subsidios que le permiten mantener sus actividades.
+
+Modelo [MetaDocencia](https://www.metadocencia.org/)
 
 Modelo [Mumuki](https://mumuki.io/home/) 
+
+
 
 Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
 que es la gobernanza y hacer refencias a las diferentes secciones o capítulos correspondientes.
@@ -244,7 +276,7 @@ que es la gobernanza y hacer refencias a las diferentes secciones o capítulos c
 Nunca cedas los derechos de tu material.
 :   Recomiendo encarecidamente publicar el material de formación bajo una licencia Creative Commons
     porque, si es bueno, acabará en la web de todos modos.
-    Si prefieres guardarlo para ti, no pasa nada, pero no dejes que un cliente te diga que es tuyo o que lo tienes.
+    Si prefieres guardarlo para ti, no pasa nada, pero no dejes 
     que un cliente le diga que es suyo o que tiene el derecho exclusivo a usarlo, a menos que
     que te haya pagado (bien) por el privilegio.
 
