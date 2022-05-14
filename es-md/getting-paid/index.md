@@ -256,19 +256,40 @@ la comunidad.
 por fundaciones, agencias y asociaciones.  La organización se presenta a estos llamados
 de subsidios que le permiten mantener sus actividades.
 
+Las personas que enseñan lo hacen de forma voluntaria, al igual que quienes desarrollan y mantienen
+las lecciones.  Hay un staff que es empleado de la organización y quienes tienen su 
+trabajo rentado.
+
 Modelo [MetaDocencia](https://www.metadocencia.org/)
+
+MetaDocencia es una organización sin fines de lucro que nutre una comunidad docente hispanohablante 
+enseñando métodos educativos concretos, basados en evidencia y centrados en tus estudiantes. 
+Desarrolla colaborativamente recursos abiertos, reutilizables y accesibles para 
+fomentar prácticas de enseñanza eficaces.
+
+En sus inicios todas las actividades fueron voultarias y sus servicios gratuitos.  Dentro de los objetivos
+siempre estuvo la intención de _no_ cobrar a los estudiantes por los cursos.
+
+Para poder afrontar los costos de llevar adelante la organización y poder pagar alguna 
+de las actividades de los voluntarios, MetaDocencia también aplicó a llamados de 
+subsidios, los cuales consiguó y le permiten cubrir los costos de funcionamiento y pagar algunas
+de las actividades de los docentes y generadores de contenido.  Por conseguir estos
+financiamientos hoy es un proyecto patrocinado fiscalmente por Code for Science and Society.  
+Esto abrió la posibilidad de recibir donaciones.
 
 Modelo [Mumuki](https://mumuki.io/home/) 
 
+En este caso los clientes son las instituciones que quieren capacitar a sus empleados.  Estas
+organizaciones pagan el costo de los cursos, no las personas que toman la capacitación.
+
+Tienen un programa de tutores que son rentados y un esquema de enseñanza asincronica online.
 
 
-Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
+
+>> Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
 que es la gobernanza y hacer refencias a las diferentes secciones o capítulos correspondientes.
 
   - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
-
-
-
 
 
 ## Materiales
