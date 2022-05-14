@@ -160,14 +160,23 @@ Muchas veces el pago está fijado con antelación, por ejemplo, en una instituci
 de trabajo que determinan el sueldo de un docente.  También puede ser que en conferencias y algunas comunidades 
 de práctica el pago a los tutores sea determinado por la organización del evento.
 
-Otras veces te van a pedir un presupuesto por tu trabajo docente.  En esta sección 
+Otras veces te van a pedir un presupuesto por tu trabajo docente.  Determinar este precio
+depende de diversos factores, como por ejemplo la región del mundo donde vas a vender
+tu curso, el tipo de empresa u organización que te lo pide, la duración del curso,
+el nivel de personalización requerido, entre otros factores.
+
+n esta sección 
 te presentamos una serie de pasos para determinar el precio de tu tarea docente.
 
-
+Calcular el precio por hora
+: un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionlaes y los gremios suelen
+	brindar listados de precios por hora para las tareas de sus profesionales. Otra
+	fuente puede ser el valor por hora de un docente de nivel superior.
 Proceso para determinar el precio
 	- Determinar el valor de la hora. 
 	- Como tarifa base, cobro 4 horas, porque son unas 3 horas de preparación por 1 hora en el taller.  
-	- Agrego horas (entre 1 a 6) si estoy enseñando algo avanzado o especializado que requiere una preparación extra o depende de que tenga conocimientos más avanzados.
+	- Agrego horas (entre 1 a 6) si estoy enseñando algo avanzado o especializado que requiere una preparación extra 
+	  o depende de que tenga conocimientos más avanzados.
     - Agrego entre 1 y 3 unidades si quieren que cambie los ejemplos y ejercicios usando datos relacionados a su actividad.
     - Añado 1 a 3 horas si quieren grabar la clase para usarla en el futuro o publicarla.
     - Si el numero de estudiantes necesita un co-docente se agregan las horas de los ayudantes.
@@ -184,7 +193,8 @@ Después de calcular eso, hago ajustes semi-subjetivos.
 3. Cobre la tarifa vigente.
 :   Se espera pagar entre 300 y 1.000 dólares por una conferencia de un día
     de conferencia de un día; suponiendo una clase de 20 personas y un reparto al 50 % entre el
-    instructor y el lugar de celebración, eso supone 3.000 dólares y 5.000 dólares para ti.  A esto hay que añadirle siempre los gastos de viaje y alojamiento.
+    instructor y el lugar de celebración, eso supone 3.000 dólares y 5.000 dólares para ti.  
+    A esto hay que añadirle siempre los gastos de viaje y alojamiento.
     siempre hay que añadir los gastos de viaje y alojamiento, pero ninguno de mis
     clientes ha accedido a pagarme por mi tiempo de viaje.
 
