@@ -152,7 +152,19 @@ Traduce materiales de enseñanza exitosos a tu lenguaje
 	Es una buena idea contactar a la persona autora de los materiales
 	y hacerle saber tus intenciones de traducción y uso.  Si ya están trabajando
 	en eso tal vez puedas sumarte al equipo. 
-	
+
+Habla con tu empleador.
+:   Muchas personas empiezan a formarse profesionalmente y sólo se dedican a ello
+    a tiempo completo una vez que están seguros de que pueden mantenerse a sí mismos.  Nunca he oído
+    de un empleador que diga "no" a esto, pero:
+    1.  Díselo por adelantado: al final se van a enterar, y si has
+        Si has intentado ocultárselo, se preguntarán qué más no les has dicho.
+    2.  Mantén tu formación separada de tu trabajo diario.  Cuando yo era
+        multitarea, sólo desarrollaba los materiales de formación en el ordenador de casa
+        y sólo respondía a los correos relacionados con la formación cuando estaba en casa.
+    3. Ofrézcase a realizar alguna formación interna de forma gratuita (donde "gratuita" significa "durante
+        horas de trabajo, como parte de su empleo regular remunerado").	
+
 
 ## Como determinar cuanto cobrar / Negociando el pago
 
@@ -289,7 +301,7 @@ Tienen un programa de tutores que son rentados y un esquema de enseñanza asincr
 >> Agregar como conceptos que es un fiscal sponsor, que es un project leader, 
 que es la gobernanza y hacer refencias a las diferentes secciones o capítulos correspondientes.
 
-  - Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
+>> Ver sección 14.1, 14.2 y 14.3 pueden aportar algo a esto.
 
 
 ## Materiales
@@ -300,6 +312,12 @@ Nunca cedas los derechos de tu material.
     Si prefieres guardarlo para ti, no pasa nada, pero no dejes 
     que un cliente le diga que es suyo o que tiene el derecho exclusivo a usarlo, a menos que
     que te haya pagado (bien) por el privilegio.
+
+Materiales armados en tiempo de algun trabajo
+:  Si quiere utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
+        ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
+        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
+        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
 
 
 Licencia
@@ -325,23 +343,9 @@ Para el software, existen múltiples opciones. Les presentamos tres opciones:
 Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
 
 
-Habla con tu empleador.
-:   Muchas personas empiezan a formarse profesionalmente y sólo se dedican a ello
-    a tiempo completo una vez que están seguros de que pueden mantenerse a sí mismos.  Nunca he oído
-    de un empleador que diga "no" a esto, pero:
-    1.  Díselo por adelantado: al final se van a enterar, y si has
-        Si has intentado ocultárselo, se preguntarán qué más no les has dicho.
-        no les has dicho.
-    2.  Mantén tu formación separada de tu trabajo diario.  Cuando yo era
-        multitarea, sólo desarrollaba los materiales de formación en el ordenador de casa
-        y sólo respondía a los correos relacionados con la formación cuando estaba en casa.
-    3.  Ofrézcase a realizar alguna formación interna de forma gratuita (donde "gratuita" significa "durante
-        horas de trabajo, como parte de su empleo regular remunerado").  Si quiere
-        utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
-        ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
-        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
-        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
+## Marketing
 
+>> Ver aquí que otras cosas del capitulo de outreach podemos traer aqui
 
 Crea un sitio web de aspecto profesional.
 :   Y asegúrate de que tu perfil de LinkedIn está actualizado, porque los clientes
@@ -361,7 +365,6 @@ Crea un sitio web de aspecto profesional.
     - elogios de clientes anteriores (o de profesores para los que has sido asistente, o de cualquier otra persona);
         y
     - el código de conducta de tus talleres.
-
 
 
 
