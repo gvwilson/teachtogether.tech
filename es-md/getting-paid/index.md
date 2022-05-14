@@ -306,21 +306,36 @@ que es la gobernanza y hacer refencias a las diferentes secciones o capítulos c
 
 ## Materiales
 
-Nunca cedas los derechos de tu material.
-:   Recomiendo encarecidamente publicar el material de formación bajo una licencia Creative Commons
-    porque, si es bueno, acabará en la web de todos modos.
-    Si prefieres guardarlo para ti, no pasa nada, pero no dejes 
-    que un cliente le diga que es suyo o que tiene el derecho exclusivo a usarlo, a menos que
-    que te haya pagado (bien) por el privilegio.
+Como se detalla en [1] generar material esducativo requieren un esfuerzo significativo tanto 
+para su desarrollo inicial como para mantenerlo actualizado.
 
-Materiales armados en tiempo de algun trabajo
-:  Si quiere utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
-        ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
-        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
-        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
+A pesar que existe la paradoja de la reusabilidad [2] - [3] que postula que un material 
+didáctico será más reutilizables cuando sea lo más genérico posible pero será más efectivo 
+cuando esté personalizado para una audiencia particular, en un contexto particular; 
+compatir nuestro material de una manera que otras personas puedan encontrarla, utilizarla, 
+mejorarla y citarla es una actividad que vale la pena el esfuerzo.
+
+Con la llegada de la virtualidad obligada debido al COVID-19, muchas/os docentes se han visto 
+en la necesidad de compatir su material en un formato digital, además de tener que adaptar 
+alguna parte del mismo.
+
+Tanto en [1] como en [4], se menciona que tratar las lecciones como un recurso 
+comunitario que debe actualizarse, adaptarse y mejorarse gradualmente puede 
+incrementar la calidad del material educativo y liberar un tiempo valioso de 
+los docentes en el diseño de su propio material. 
+
+No solo estaríamos ayudando a nuestros colegas, si no que podemos sumar beneficios 
+para los estudiantes que pueden acceder a nuestro material sin costo y en el momento que 
+lo necesiten. 
+
+Finalmente tendríamos un producto citable, es decir, podríamos pedir 
+y obtener crédito por el material que hemos desarrollado, y también 
+podríamos saber quién está usando este material y dónde.
 
 
-Licencia
+Tres simples pasos para compartir lecciones
+
+* Paso 1: seleccionar una licencia abierta que sea clara con respecto a como usar el material. 
 
 Los materiales que cuentan con una licencia permiten ser utilizados correctamente. 
 Si la licencia no figura explicitamente, por defecto el contenido es cerrado.
@@ -342,6 +357,31 @@ Para el software, existen múltiples opciones. Les presentamos tres opciones:
 
 Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
 
+* Paso 2: almacenar el material en un repositorio que nos permita publicarlo. 
+Un lugar que nos permite realizar esta tarea es GitHub que se usa para 
+desarrollar una variedad de materiales porque nos permite tener diferentes 
+tipos de contenido como diapositivas, documentos, código fuente, imágenes y 
+también nos permite desarrollarlo continuamente a través de un proceso 
+iterativo y con comentarios de otros, ya que GitHub implementa un sistema 
+de control de versiones. 
+Si no has usado GitHub, podes utilizar este tutorial inicial sobre Git.
+
+* Paso 3: agregar un indentificador de objeto digital (DOI) para que sea citable. 
+Vamos a describir este paso con mucho detalle siguiendo estas intrucciones de GitHub.
+
+
+Nunca cedas los derechos de tu material.
+:   Recomendamos encarecidamente publicar el material de formación bajo una licencia [Creative Commons]()
+    porque, si es bueno, va a terminar publicado en la web de todos modos.
+    Tanto como si prefieres publicarlo o guardarlo para ti, no dejes 
+    que un cliente te diga que tu material le pertenece o que tiene el derecho exclusivo a usarlo, 
+    a menos que que te haya pagado (muy bien) por ese privilegio.
+
+Materiales armados en tiempo de algun trabajo
+:  Si quiere utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
+        ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
+        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
+        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
 
 ## Marketing
 
