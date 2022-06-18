@@ -5,9 +5,12 @@ template: page
 
 ## Introducción
 
-La primera opción para trabajar como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades.
-Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología);
-en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
+La primera opción para trabajar como docente es pertener a alguna institución formal de 
+educación, como las escuelas y las universidades.
+Pero estas instituciones no son los únicos lugares en donde la 
+gente va a aprender programación (u otro tipo de tecnología);
+en los últimos años, un número creciente de personas ha acudido a 
+talleres *free-range* y programas de entrenamiento intensivo.
 Estos últimos suelen tener entre uno y seis meses de duración,
 son llevados a cabo por grupos de voluntarios/as o por empresas con un fin de lucro
 y apuntan a un mercado de personas que se quieren cambiar de carrera o se 
@@ -16,8 +19,13 @@ están re-entrenando para ingrear al mercado laborar del mundo de la tecnología
 Ya sea como docente independiente o como parte de una comunidad de práctica vas 
 a tener que empezar de alguna manera y vas necesitar conseguir financimiento para 
 que puedas enseñar de forma sustentable.
+
 En este capitulo repasamos diferentes modelos para hacer el bien enseñando y lograr 
-que te paguen por eso.
+que te paguen por eso.   
+No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque 
+cambian entre países y regiones.  El libro [Mike Gunderloy] tiene consejos al 
+respecto enfocados en Estados Unidos.  Te recomendamos que busques asesoramiento 
+profesional en tu pais.
 
 ## Por donde empezar
 
@@ -168,25 +176,38 @@ Habla con tu empleador.
 
 ## Como determinar cuanto cobrar / Negociando el pago
 
-Muchas veces el pago está fijado con antelación, por ejemplo, en una institución formal hay convenios colectivos
-de trabajo que determinan el sueldo de un docente.  También puede ser que en conferencias y algunas comunidades 
-de práctica el pago a los tutores sea determinado por la organización del evento.  En otras ocasiones las 
-contrataciones gubernamentales cuentan con un presupuesto prefijado destinado a capacitaciones.
+Muchas veces el pago está fijado con antelación, por ejemplo, 
+en una institución formal hay convenios colectivos
+de trabajo que determinan el sueldo de un docente.  
+También puede ser que en conferencias y algunas comunidades 
+de práctica el pago a los tutores sea determinado por la 
+organización del evento.  En otras ocasiones las 
+contrataciones gubernamentales cuentan con un presupuesto 
+prefijado destinado a capacitaciones.
 
-Otras veces te van a pedir un presupuesto por tu trabajo docente.  Determinar este precio
-depende de diversos factores, como por ejemplo la región del mundo donde vas a vender
-tu curso, el tipo de empresa u organización que te lo pide, la duración del curso, 
-la modalidad (presencial u online), el nivel de personalización requerido, entre otros factores.
+Otras veces te van a pedir un presupuesto por tu trabajo docente.  Determinar 
+este precio
+depende de diversos factores, como por ejemplo la región del mundo donde 
+vas a vender
+tu curso, el tipo de empresa u organización que te lo pide, la duración 
+del curso, 
+la modalidad (presencial u online), el nivel de personalización requerido, 
+entre otros factores.
 
-En esta sección te presentamos una serie de pasos para determinar el precio de tu tarea docente a partir de 
-la experiencia personal de los autores y de colegas docentes.
+En esta sección te presentamos una serie de pasos para determinar el precio 
+de tu tarea docente a partir de la experiencia personal de los autores 
+y de colegas docentes.
 
 Calcular el precio (por hora)
-:	un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionlaes y los gremios suelen
-	brindar listados de precios por hora para las tareas de sus profesionales. Otra
-	fuente puede ser el valor por hora de un docente de nivel superior (universitario/terciario).
+:	un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionales 
+	y los gremios suelen 	brindar listados de precios por hora para las 
+	tareas de sus profesionales. Otra 	fuente puede ser el valor por hora de 
+	un docente de nivel superior (universitario/terciario).
 	También podes consultar con colegas cuál es el precio que ellos cobran y 
-	analizar el precio promedio en cursos similares. 
+	analizar el precio promedio en cursos similares.  En 2021 se lanzó 
+	500 Women Scientists' Fix The Gap initiative (https://fixthegap.shinyapps.io/live/)
+	para generar una base de datos pública con una lista de honorarios 
+	por dar charlas en STEM (agregar significado de la sigla).
 
 Determinar una tarifa base
 :	enseñar un curso no es solo ir en la fecha acordada, pararse delente de la clase y 
@@ -226,6 +247,8 @@ Ultimos ajustes
 	que desees ayudar.  Finalmente, no trabajes barato con la esperanza 
 	de que la capacitación te lleve a un trabajo de consultoría: ocurre, 
 	pero es muy infrecuente como para apostar por en ello.
+
+
 
 
 ## Financiamiento para una comunidad
@@ -412,3 +435,9 @@ Crea un sitio web de aspecto profesional.
 - Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, 
 sean de tiempo, energía, u otra cosa. 
 Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
+
+
+Para citar en este capítulo: 
+
+* https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005963
+* https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006915#pcbi.1006915.ref009
