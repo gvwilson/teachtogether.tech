@@ -5,173 +5,68 @@ template: page
 
 ## Introducción
 
-La primera opción para trabajar como docente es pertener a alguna institución formal de 
-educación, como las escuelas y las universidades.
-Pero estas instituciones no son los únicos lugares en donde la 
-gente va a aprender programación (u otro tipo de tecnología);
-en los últimos años, un número creciente de personas ha acudido a 
-talleres *free-range* y programas de entrenamiento intensivo.
-Estos últimos suelen tener entre uno y seis meses de duración,
-son llevados a cabo por grupos de voluntarios/as o por empresas con un fin de lucro
-y apuntan a un mercado de personas que se quieren cambiar de carrera o se 
-están re-entrenando para ingrear al mercado laborar del mundo de la tecnología.
+La primera opción para trabajar como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades.
+Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología); en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
+Estos últimos suelen tener entre uno y seis meses de duración, son llevados a cabo por grupos de personas voluntarias o por empresas con un fin de lucro y apuntan a un mercado de personas que quieren cambiar de carrera o se están re-entrenando para ingrear al mercado laborar del mundo de la tecnología.
 
-Ya sea como docente independiente o como parte de una comunidad de práctica vas 
-a tener que empezar de alguna manera y vas necesitar conseguir financimiento para 
-que puedas enseñar de forma sustentable.
+Ya sea como docente independiente o como parte de una comunidad de práctica vas a tener que empezar de alguna manera y vas necesitar conseguir financimiento para que puedas enseñar de forma sustentable.
 
-En este capitulo repasamos diferentes modelos para hacer el bien enseñando y lograr 
-que te paguen por eso.   
-No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque 
-cambian entre países y regiones.  El libro [Mike Gunderloy] tiene consejos al 
-respecto enfocados en Estados Unidos.  Te recomendamos que busques asesoramiento 
-profesional en tu pais.
+En este capitulo repasamos diferentes modelos para hacer el bien enseñando y lograr que te paguen por eso. 
+
+No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque son específicos a cada país/región. El libro de <cite>Gunderloy2009</cite> tiene consejos al respecto enfocados en Estados Unidos. Te recomendamos que busques asesoramiento profesional en tu país.
 
 ## Por donde empezar
 
-Si vas a trabajar como docente autónomo, aqui hay un par de opciones sobre como empezar a 
-ofrecer tus servicios y dar clases.
+Si vas a trabajar como docente autónomo, aqui hay un par de opciones sobre como empezar a ofrecer tus servicios y dar clases.
 
 Empieza como parte del grupo de apoyo.
-:   Sé ayudante en el curso o evento que otras personas hayan organizado. Te servirá para aprender 
-    como funciona este negocio y para hacer contactos.  Si se trata de una capacitación paga, 
-    la persona responsable debería cubrir los costos de tu participación (Ej: viaje, alojamiento) 
-    y pagarte una tarifa por tu tiempo.
-    Si la capacitación no es comercial, puedes preguntar si te dejan enseñar una parte de la clase
-    y luego te dan su opinión de tu desempeño y te aconsejen como mejorar.
+:   Sé ayudante en el curso o evento que otras personas hayan organizado. Te servirá para aprender como funciona este negocio y para hacer contactos.  Si se trata de una capacitación paga, la persona responsable debería cubrir los costos de tu participación (Ej: viaje, alojamiento) y pagarte una tarifa por tu tiempo. Si la capacitación no es comercial, puedes preguntar si te dejan enseñar una parte de la clase y luego te dan su opinión de tu desempeño y te aconsejen como mejorar.
 
 Empieza con personas conocidas.
-:   ¿Tienes alguna persona conocida, colega o alguna amistad que trabaje en algún lugar 
-	que se beneficiaría del tipo de formación que ofreces?
-    Si es así, pregunta si te puede presentar a su jefe o a alguien de recursos humanos
-    (que suele encargarse de organizar las capacitaciones).
+:   ¿Tienes alguna persona conocida, colega o alguna amistad que trabaje en algún lugar	que se beneficiaría del tipo de formación que ofreces?
+    Si es así, pregunta si te puede presentar a su jefe o a alguien de recursos humanos (que suelen encargarse de organizar las capacitaciones).
 
 Contacta a las asociaciones, consejos y colegios de profesionales y a los gremios.
-:	Estas organizaciones nuclean personas que se dedican a ejercer una disciplina 
-	en general, tienen un área de capacitación que ofrece cursos y 
-	actualizaciones a las personas miembro. Puedes ponerte en contacto con las 
-	personas responsables de esta actividad y ofrecer tus servicios. Además, 
-	son un buen lugar para generar contactos y experiencia.  Si sos parte de 
-	alguna de estas organzaciones, empieza por allí.
+:	Estas organizaciones nuclean personas que se dedican a ejercer una disciplina. En general, tienen un área de capacitación que ofrece cursos y actualizaciones a las personas miembro. Puedes ponerte en contacto con las personas responsables de esta actividad y ofrecer tus servicios. Además,	son un buen lugar para generar contactos y experiencia.  Si sos parte de	alguna de estas organzaciones, empieza por allí.
 
 Empieza por las conferencias.
-:   Las conferencias, hackatones y eventos similares son una gran oportunidad 
-	para hacer contactos y conocer clientes potenciales. 
-	Muchas conferencias tienen una sección o día destinado a tutoriales; 
-	busca que eventos y conferencias se van a realizar entre los próximos 6 y 12 meses
-    y revisa si hay un llamado a propuestas de tutoriales o
-    contacta a las personas responsables de la organización de la conferencia o
-    directamente con la persona responsable de organizar los tutoriales
-    para ver qué buscan o si quieren lo que tú ya tienes.
-	Si hay un llamado a presentación de tutoriales, este suele solicitar algunos detalles
-	sobre tu prpouesta.  Sin importar el formato que tenga, te sugerimos que tu propuesta
-	presente al menos los siguientes puntos:
+:   Las conferencias, hackatones y eventos similares son una gran oportunidad para hacer contactos y conocer clientes potenciales. 
+	Muchas conferencias tienen una sección o día destinado a tutoriales; busca que eventos y conferencias se van a realizar entre los próximos 6 a 12 meses y revisa si hay un llamado a propuestas de tutoriales o contacta a las personas responsables de la organización de la conferencia (o directamente con la persona responsable de organizar los tutoriales) para ver qué buscan o si quieren lo que tú ya tienes.
+	Si hay un llamado a presentación de tutoriales, este suele solicitar algunos detalles sobre tu propuesta. También vas a necesitar una propuesta si te invitan a participar. Te sugerimos que tu propuesta presente al menos los siguientes puntos:
 	
-	- Audiencia: podes presentar esta parte usando personas tipo (referencia).
-	- Objetivos de aprendizaje: lista que van a aprender tus estudiantes (referencia).
-	- Propuestas pedagógica: detalla como será la dinámica del curso, que tipo de elementos
-	para realizar una enseñanza activa vas a utilizar (ej: evaluaciones formativas, 
-	trabajo en grupo, etc.)
-	- Esquema y duración: una genda tentativa del curso donde se vea explicitamente los cortes y
-	las ejercicitaciones.
-	- Pre-requisitos de los estudiantes en cuanto a hardware, software y conocimientos
-	previos.
+	- _Audiencia_: podes presentar esta parte usando personas tipo (referencia).
+	- _Objetivos de aprendizaje_: lista que van a aprender tus estudiantes (referencia).
+	- _Propuestas pedagógica_: detalla como será la dinámica del curso, que tipo de herramientas de enseñanza activa vas a utilizar (ej: evaluaciones formativas, trabajo en grupo, codificación participatoria en vivo, etc.)
+	- _Esquema y duración_: una genda tentativa del curso donde se vea explicitamente los cortes y las ejercicitaciones.
+	- _Pre-requisitos_: de los estudiantes en cuanto a hardware, software y conocimientos previos.
 	
-	En el anexo xx podes ver algunas plantillas para generar estos documentos.
+Estos puntos muestran que tienes conocimiento sobre como enseñar el tema, además del tema en si. En el anexo xx podes ver algunas plantillas para generar estos documentos.
 
 Enseña en comunidades de práctica, organizaciones sin fines de lucro e instituciones públicas.
 :	y su puedes, hazlo sin cobrar dinero. 
-		Greg ha impartido media docena de clases gratuitas para
-        bibliotecas públicas en los últimos años porque cree que las
-        las bibliotecas públicas son una de las mejores invenciones 
-        de la civilización y quiere ayudarlas tanto como pueda.  
-        También ha impartido clases para empresas locales a cambio de donaciones a 
-        organizaciones benéficas que quiere apoyar.   
-        Yanina ha ofrecido sus cursos de forma gratuita a agrupaciones como R-Ladies y como curso 
-        extracurricular en universidades públicas.  De esta manera puede devolver un poco de
-        todo lo que ha recibido de la educación pública de su país y de las comunidades de práctica 
-        de las cuales es parte. 
-        Además le permite generar nuevos contactos, probar material nuevo, 
-        ver cómo enseña con una persona con la que no enseñó antes y 
-        a formar personas para que enseñen utilizando las técnicas y herramientas que 
-        aprendimos en este libro. 
+		Greg ha impartido media docena de clases gratuitas para bibliotecas públicas en los últimos años porque cree que las bibliotecas públicas son una de las mejores invenciones de la civilización y quiere ayudarlas tanto como pueda. También ha impartido clases para empresas locales a cambio de donaciones a organizaciones benéficas que quiere apoyar.   
+        Yanina ha ofrecido sus cursos de forma gratuita a agrupaciones como [R-Ladies](https://rladies.org/) y como cursos extracurriculares en universidades públicas en Argentina.  De esta manera puede devolver un poco de todo lo que ha recibido de la educación pública de su país y de las comunidades de práctica de las cuales es parte. 
+        Además, esta práctica, les permite generar nuevos contactos, probar material nuevo, ver cómo enseñan con una persona con la que no han enseñado antes y formar personas para que enseñen utilizando las técnicas y herramientas que aprendimos en este libro. 
         
 Ve donde no están los demás.
-:   Muchas personas que se dedican a brindar servicios de capacitació0n enseñan programación 
-	o ciencia de datos a negocios más conocidos o que están de moda, como farmacéuticas e instituciones financieras.  
-	Hoy todas las industrias necesitan ayuda con el manejo y explotación de sus datos, aunque no sean tan glamorosas como
-	las que están en boca de todos.  Cualquiera sea el negocio al que vas a ofrecer tus servicios:
+:   Muchas personas que se dedican a brindar servicios de capacitación sobre programación o ciencia de datos, enseñan para los negocios más conocidos o que están de moda, como las industrias farmacéutica y financiera.  
+	Hoy todas las industrias necesitan ayuda con el manejo y explotación de sus datos, aunque no todas sean tan glamorosas.  Cualquiera sea el mercado al que vas a ofrecer tus servicios:
 	1.  Utiliza ejemplos que sean directamente relevantes para su campo.
-    2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* 
-        para poder hacerte una idea de como son las personas tipo de esa comunidad y que 
-        conocimientos previos ya tienen.
+    2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* para poder hacerte una idea de como son las [personas tipo]() de esa comunidad y que conocimientos previos ya tienen.
 
 
 Programas de entrenamiento intensivos (bootcamps)
-:	Si te estás aproximando a un programa de entrenamiento intensivo que ya existe,
-	tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza,
-	en lugar de lo que sabes sobre tecnología, ya que gran parte de las personas 
-	que trabajan en estos emprendimientos tiene experiencia en programación
-	pero poca o ninguna formación en educación.
-	Puedes demostrar lo que sabes usando el material presentado en los primeros 
-	capítulos de este libro (que ya a funcionado con estos espacios en el pasado).
-	Además <cite>Lang2016</cite> describe prácticas de enseñanza basadas en evidencia 
-	que pueden implementarse con un esfuerzo mínimo y a bajo costo. Puede que estas prácticas 
-	no tengan el mayor impacto, pero lograr algunas victorias tempranas ayuda 
-	a generar apoyo para esfuerzos más grandes.
-
-	Debes tener en cuenta que algunos de estos programas son de muy alta calidad,
-	pero otros existen esencialmente para sacarle dinero a la gente <cite>McMi2017</cite>.
-
-	<cite>Thay2017</cite> entrevistó a 26 graduados de estos entrenamientos intensivos
-	que les dan una segunda oportunidad a aquellos que han perdido oportunidades previas de educación en computación
-	(aunque expresarlo de este modo implica realizar grandes suposiciones
-	en lo que respecta a las personas de grupos subrepresentados).
-	Las personas que participan de los entrenamientos intensivos enfrentan grandes costos y riesgos personales:
-	deben gastar una cantidad significativa de tiempo, dinero y esfuerzo antes,
-	durante y después de los entrenamientos intensivos, y cambiar de carrera puede tomar un año o más.
-	Varias de las personas entrevistadas sienten que sus certificados fueron subestimados por sus empleadores:
-	como dijeron algunas de ellas, obtener un trabajo significa aprobar una entrevista,
-	pero dado que quienes te entrevistan muchas veces no comparten sus motivos de rechazo,
-	es difícil saber qué arreglar o qué más aprender.
-
-	Muchas personas han tenido que recurrir a pasantías (pagas o de otro tipo)
-	y pasan mucho tiempo construyendo sus portfolios y haciendo networking.
-	Las tres barreras informales que más fácilmente identificaron las personas entrevistadas fueron la jerga,
-	el síndrome del impostor/a y una sensación de no encajar.
-
-	<cite>Burk2018</cite> profundizó en este tema al comparar las habilidades y credenciales
-	que la industria tecnológica busca con aquellas habilidades provistas por carreras 
-	de cuatro años y programas de entrenamiento intensivo.
-	A partir de entrevistas con 15 responsables de contratación de empresas de varios tamaños y algunos grupos focales,
-	encontraron que las personas que reclutan enfatizaban uniformemente en habilidades blandas
-	(especialmente trabajo en equipo, comunicación y la habilidad para continuar aprendiendo).
-	Muchas compañías requerían un título de cuatro años (aunque no necesariamente en ciencias de la computación),
-	pero muchas también elogiaron a quienes han egresado de estos programas de entrenamiento intensivo 
-	por tener más madurez y poseer conocimientos más actualizados.
+:	Si te estás aproximando a un programa de entrenamiento intensivo que ya existe,	tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza, en lugar de lo que sabes sobre tecnología, ya que gran parte de las personas que trabajan en estos emprendimientos tiene experiencia en programación	pero poca o ninguna formación en educación.
+	Puedes demostrar lo que sabes usando el material presentado en los primeros capítulos de este libro (que ya a funcionado con estos espacios en el pasado).
+	Además <cite>Lang2016</cite> describe prácticas de enseñanza basadas en evidencia que pueden implementarse con un esfuerzo mínimo y a bajo costo. Aunque estas prácticas no son las de mayor impacto, te pueden ayudar a lograr éxitos iniciales que te ayuden a lograr apoyo para prácticas que requieren mayor esfuerzo.
+    
+_Una nota de precaución_: Debes tener en cuenta que algunos de estos programas son de muy alta calidad, pero otros existen esencialmente para sacarle dinero a la gente <cite>McMi2017</cite>.
+	<cite>Thay2017</cite> entrevistó a 26 graduados de entrenamientos intensivos que les dan una segunda oportunidad a personas que ya intentaron aprender computación. Estas personas enfrentan grandes costos y riesgos personales: deben gastar una cantidad significativa de tiempo, dinero y esfuerzo antes,	durante y después de los entrenamientos, y cambiar de carrera puede tomar un año o más.
+	Varias de las personas entrevistadas sienten que sus certificados fueron subestimados por sus empleadores, algunas expresaron que obtener un trabajo significa aprobar una entrevista, pero dado que quienes te entrevistan, en general, no comparten los motivos del rechazo, es difícil saber qué mejorar o qué más aprender. 
+	Muchas personas han tenido que recurrir a pasantías (pagas o de otro tipo) y pasan mucho tiempo construyendo sus portfolios y haciendo networking. Las tres barreras informales que más fácilmente identificaron las personas entrevistadas fueron _la jerga, el síndrome del impostor/a y una sensación de no encajar_.
+	<cite>Burk2018</cite> profundizó en este tema al comparar las habilidades y credenciales que la industria tecnológica busca con aquellas habilidades provistas por carreras de cuatro años y programas de entrenamiento intensivo. A partir de entrevistas con 15 responsables de contratación de empresas de varios tamaños y algunos grupos focales, encontraron que las personas que reclutan enfatizaban uniformemente en habilidades blandas (especialmente trabajo en equipo, comunicación y la habilidad para continuar aprendiendo). Muchas compañías requerían un título de cuatro años (aunque no necesariamente en ciencias de la computación), pero muchas también elogiaron a quienes han egresado de estos programas de entrenamiento intensivo por tener más madurez y poseer conocimientos más actualizados.
 	
-	Por lo que ten cuidado a que tipo de proyecto y emprendimiento te estas sumando.
-
-Traduce materiales de enseñanza exitosos a tu lenguaje
-:	Hay muchas personas que comparten sus materiales educativos en linea, 
-	algunos de estos materiales han sido utilizados y refinados. Si la licencia
-	de uso permite obras derivadas podrías traducirlo a tu idioma y utilizarlo en 
-	tus cursos. 
-	Es una buena idea contactar a la persona autora de los materiales
-	y hacerle saber tus intenciones de traducción y uso.  Si ya están trabajando
-	en eso tal vez puedas sumarte al equipo. 
-
-Habla con tu empleador.
-:   Muchas personas empiezan a formarse profesionalmente y sólo se dedican a ello
-    a tiempo completo una vez que están seguros de que pueden mantenerse a sí mismos.  Nunca he oído
-    de un empleador que diga "no" a esto, pero:
-    1.  Díselo por adelantado: al final se van a enterar, y si has
-        Si has intentado ocultárselo, se preguntarán qué más no les has dicho.
-    2.  Mantén tu formación separada de tu trabajo diario.  Cuando yo era
-        multitarea, sólo desarrollaba los materiales de formación en el ordenador de casa
-        y sólo respondía a los correos relacionados con la formación cuando estaba en casa.
-    3. Ofrézcase a realizar alguna formación interna de forma gratuita (donde "gratuita" significa "durante
-        horas de trabajo, como parte de su empleo regular remunerado").	
+_En resumen, presta atención y ten cuidado a que tipo de proyecto y emprendimiento te estas sumando._
 
 
 ## Como determinar cuanto cobrar / Negociando el pago
