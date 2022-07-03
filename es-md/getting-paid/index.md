@@ -121,7 +121,8 @@ Tus clientes deben poder encontrarte y conocer lo que ofreces para poder contrat
 
 Manten tus redes sociales actualizadas
 : asegúrate de que tu perfil de LinkedIn está actualizado, los potenciales clientes
-van a consultarlo antes de contratarte. Con respecto de las otras redes sociales, es preferible tener menos redes sociales activas que muchas redes que luego no se mantienen. Algunas comunidades o negocios usan una red social más que otra, tener una presencia en ellas es una forma que te encuentren y te conozcan. Considera estas cuentas parte de tu marca personal, porque asi lo considerarán tus futuros clientes.  
+van a consultarlo antes de contratarte. Con respecto de las otras redes sociales, es preferible tener menos redes sociales activas que muchas redes que luego no se mantienen. Algunas comunidades o negocios usan una red social más que otra, tener una presencia en ellas es una forma que te encuentren y te conozcan. Considera estas cuentas parte de tu marca personal, porque asi lo considerarán tus futuros clientes.
+Si te es posible utiliza el mismo nombre de usuario en todas las redes que uses.  Esto hace que sea más sencillo para las personas encontrarte online.
 
 Crea un sitio web de aspecto profesional.
 :   Tu página web debería tener
@@ -136,115 +137,42 @@ Crea un sitio web de aspecto profesional.
 
 ### Materiales
 
-Como se detalla en [1] generar material esducativo requieren un esfuerzo significativo tanto 
-para su desarrollo inicial como para mantenerlo actualizado.
+En el punto anterior mencionamos que es una buena idea tener una muestra de tus materiales de enseñanza en tu sitio web.  Como se detalla en <cite>Deve2018</cite> generar material educativo requieren un esfuerzo significativo tanto para su desarrollo inicial como para mantenerlo actualizado.
 
-A pesar que existe la paradoja de la reusabilidad [2] - [3] que postula que un material 
-didáctico será más reutilizables cuando sea lo más genérico posible pero será más efectivo 
-cuando esté personalizado para una audiencia particular, en un contexto particular; 
-compatir nuestro material de una manera que otras personas puedan encontrarla, utilizarla, 
-mejorarla y citarla es una actividad que vale la pena el esfuerzo.
+A pesar que existe la paradoja de la reusabilidad (<cite>Frantiska2016</cite>) que postula que un material didáctico será más reutilizables cuando sea lo más genérico posible pero será más efectivo cuando esté personalizado para una audiencia particular, en un contexto particular (<cite>Wiley2004</cite>); compatir nuestro material de una manera que otras personas puedan encontrarla, utilizarla, mejorarla y citarla es una actividad que vale la pena el esfuerzo. Además, si los materiales son buenos, hay una alta probabilidad que terminen en internet de todas maneras, poder compartirlo bajo tus propios términos es una mejor opción.
 
-Con la llegada de la virtualidad obligada debido al COVID-19, muchas/os docentes se han visto 
-en la necesidad de compatir su material en un formato digital, además de tener que adaptar 
-alguna parte del mismo.
+Sumemos a esto que tanto <cite>Deve2018</cite> como <cite>Wilson2019</cite>, mencionan que tratar las lecciones como un recurso comunitario que debe actualizarse, adaptarse y mejorarse gradualmente puede incrementar la calidad del material educativo y liberar un tiempo valioso de los docentes en el diseño de su propio material. Por lo que compartiendo el material, no solo estaríamos ayudando a nuestros colegas, si no también a nuestros estudiantes que pueden acceder a nuestro s cursos sin costo y en el momento que lo necesiten. 
 
-Tanto en [1] como en [4], se menciona que tratar las lecciones como un recurso 
-comunitario que debe actualizarse, adaptarse y mejorarse gradualmente puede 
-incrementar la calidad del material educativo y liberar un tiempo valioso de 
-los docentes en el diseño de su propio material. 
-
-No solo estaríamos ayudando a nuestros colegas, si no que podemos sumar beneficios 
-para los estudiantes que pueden acceder a nuestro material sin costo y en el momento que 
-lo necesiten. 
-
-Finalmente tendríamos un producto citable, es decir, podríamos pedir 
-y obtener crédito por el material que hemos desarrollado, y también 
-podríamos saber quién está usando este material y dónde.
-
+Finalmente, si seguimos una serie de pasos, tendríamos un producto citable, es decir, podríamos pedir y obtener crédito por el material que hemos desarrollado, y también podríamos saber quién está usando este material y dónde, lo que muchas veces nos ayudará a mejorarlo.
 
 Tres simples pasos para compartir lecciones
 
-* Paso 1: seleccionar una licencia abierta que sea clara con respecto a como usar el material. 
+* __Paso 1: seleccionar una licencia abierta que sea clara con respecto a como usar el material.__ 
 
-Los materiales que cuentan con una licencia permiten ser utilizados correctamente. 
-Si la licencia no figura explicitamente, por defecto el contenido es cerrado.
-
-Sugerimos seleccionar una licencia abierta tanto para el material (texto, imágenes, videos) como para el software.
-Material
-
-Las licencias [Creative Commons](http://www.creativecommons.org.ar/licencias.html) proveen diversos tipos dependiendo de lo que deseamos que pueda hacer quien use nuestros materiales. 
-Este [selector de licencias](https://creativecommons.org/choose/?lang=es_AR) puede ayudarnos a elegir la licencia que mejor se adapta a nuestras necesidades.
-Software
-
-Para el software, existen múltiples opciones. Les presentamos tres opciones:
-
-    La licencia MIT, que permite que los usuarios le den cualquier uso que quieran al código.
-
-    Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer cualquier uso que quieran exigiendo que compartan su propio código bajo esta licencia.
-
-    La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el uso no viole los tratados básicos de derechos humanos.
-
+    Los materiales que cuentan con una licencia permiten ser utilizados correctamente. 
+Si la licencia no figura explicitamente, por defecto el contenido es cerrado. Sugerimos seleccionar una licencia abierta tanto para el material (texto, imágenes, videos) como para el software. 
+     - _Material_:  las licencias [Creative Commons](http://www.creativecommons.org.ar/licencias.html) proveen diversos tipos dependiendo de lo que deseamos que pueda hacer quien use nuestros materiales. Este [selector de licencias](https://creativecommons.org/choose/?lang=es_AR) puede ayudarnos a elegir la licencia que mejor se adapta a nuestras necesidades.
+     - _Software_: Para el software, existen múltiples opciones. Les presentamos tres opciones: 1) La licencia MIT, que permite que los usuarios le den cualquier uso que quieran al código. 2) Usar la [Licencia Pública General de GNU (GPL)](https://www.gnu.org/licenses/licenses.es.html#GPL), que también permite a los usuarios hacer cualquier uso que quieran exigiendo que compartan su propio código bajo esta licencia. 3) La [licencia hipocrática](https://firstdonoharm.dev/version/2/1/license.html), que permite usar el código libremente siempre que el uso no viole los tratados básicos de derechos humanos.
 Tengamos en cuenta que si utilizamos código de otros autores pueden existir restricciones con respecto a que licencia podemos asignar a nuestro propio código.
 
-* Paso 2: almacenar el material en un repositorio que nos permita publicarlo. 
-Un lugar que nos permite realizar esta tarea es GitHub que se usa para 
+* __Paso 2: almacenar el material en un repositorio que nos permita publicarlo.__
+
+    Un lugar que nos permite realizar esta tarea es GitHub que se usa para 
 desarrollar una variedad de materiales porque nos permite tener diferentes 
 tipos de contenido como diapositivas, documentos, código fuente, imágenes y 
 también nos permite desarrollarlo continuamente a través de un proceso 
 iterativo y con comentarios de otros, ya que GitHub implementa un sistema 
-de control de versiones. 
-Si no has usado GitHub, podes utilizar este tutorial inicial sobre Git.
+de control de versiones. Si no has usado GitHub, podes utilizar [este tutorial inicial sobre Git](/courses/git_rstudio_course/).
 
-* Paso 3: agregar un indentificador de objeto digital (DOI) para que sea citable. 
-Vamos a describir este paso con mucho detalle siguiendo estas intrucciones de GitHub.
+* __Paso 3: agregar un indentificador de objeto digital (DOI) para que sea citable.__ 
 
+    Podemos hacer esto linkeando nuestro material en GitHub con la plataforma Zenodo. Lee [este post](/blog/2020_compartirmaterialdoi_es/) para una explicación paso a paso para lograr este paso.
+
+Un par de puntos más sobre los materiales
 
 Nunca cedas los derechos de tu material.
-:   Recomendamos encarecidamente publicar el material de formación bajo una licencia [Creative Commons]()
-    porque, si es bueno, va a terminar publicado en la web de todos modos.
-    Tanto como si prefieres publicarlo o guardarlo para ti, no dejes 
-    que un cliente te diga que tu material le pertenece o que tiene el derecho exclusivo a usarlo, 
-    a menos que que te haya pagado (muy bien) por ese privilegio.
+: Tanto como si prefieres publicar tus materiales o guardarlos para ti, no dejes 
+    que un cliente te diga que tu material le pertenece o que tiene el derecho exclusivo a usarlo, a menos que que te haya pagado (muy bien) por ese privilegio.
 
-Materiales armados en tiempo de algun trabajo
-:  Si quiere utilizar externamente el material que ha desarrollado en su trabajo, por ejemplo, si
-        ha creado un curso para una universidad y ahora quiere utilizar esas lecciones en
-        talleres de conferencias o en otros lugares, asegúrate de confirmar por escrito o por
-        correo electrónico que su empleador está de acuerdo con ello *antes* de hacerlo.
-
-## Marketing
-
->> Ver aquí que otras cosas del capitulo de outreach podemos traer aqui
-
-Crea un sitio web de aspecto profesional.
-:   Y asegúrate de que tu perfil de LinkedIn está actualizado, porque los clientes
-    clientes potenciales van a comprobarlo antes de firmar nada.  Tu página web
-    no suele incluir sus tarifas: por la razón que sea, la gente parece no
-    publicarlas.  En su lugar, debería tener
-    - información de contacto (*no* el correo electrónico de tu trabajo si empiezas a tiempo parcial);
-    - una breve biografía;
-    - muestras de tu material de formación;
-    - un par de vídeos cortos de ti en acción;
-    - un calendario de los próximos compromisos (o de las conferencias a las que vas a
-        o de conferencias a las que vayas a asistir o de otros lugares en los que vayas a estar, porque aunque no estés
-        enseñando allí la gente puede aprovechar la oportunidad para decir "hola");
-    - algunas publicaciones recientes en el blog relacionadas con lo que enseñas o que describan compromisos recientes
-        recientes) (con énfasis en "recientes": si el post más reciente tiene dos años
-        dos años, no te estás ayudando a ti mismo);
-    - elogios de clientes anteriores (o de profesores para los que has sido asistente, o de cualquier otra persona);
-        y
-    - el código de conducta de tus talleres.
-
-
-
-
-- Alguna sección o subsección acerca de como explorar tus propias capacidades y límites como instructore, 
-sean de tiempo, energía, u otra cosa. 
-Cómo navegar siendo accesible a estudiantes, pero sin que te sientas vacíe/frustrade/usade, etc. 
-
-
-Para citar en este capítulo: 
-
-* https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005963
-* https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006915#pcbi.1006915.ref009
+Materiales armados durante tu trabajo de empleado
+:  Si quiere utilizar externamente el material que has desarrollado en su trabajo (por ejemplo, si has creado un curso para una universidad y ahora quieres utilizar esas lecciones en cursos de conferencias), asegúrate de confirmar por escrito o por correo electrónico que tu empleador está de acuerdo *antes* de hacerlo.
