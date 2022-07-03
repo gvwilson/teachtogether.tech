@@ -115,7 +115,26 @@ Ultimos ajustes
   Puedes tener un valor de la hora diferente para diferente tipos de organizaciones.   También puedes ofrecer tus servicios de forma gratuita o acordar un precio diferente si donan tu pago a una organización	que desees ayudar.  Finalmente, no trabajes barato con la esperanza de que la capacitación te lleve a un trabajo de consultoría: ocurre, pero es muy infrecuente como para apostar por ello.
   
 
-## Materiales
+## Dándote a conocer 
+
+Tus clientes deben poder encontrarte y conocer lo que ofreces para poder contratarte. En esta sección veremos algunas opciones para tener una presencia online que te ayude a realizar tu trabajo de enseñanza.
+
+Manten tus redes sociales actualizadas
+: asegúrate de que tu perfil de LinkedIn está actualizado, los potenciales clientes
+van a consultarlo antes de contratarte. Con respecto de las otras redes sociales, es preferible tener menos redes sociales activas que muchas redes que luego no se mantienen. Algunas comunidades o negocios usan una red social más que otra, tener una presencia en ellas es una forma que te encuentren y te conozcan. Considera estas cuentas parte de tu marca personal, porque asi lo considerarán tus futuros clientes.  
+
+Crea un sitio web de aspecto profesional.
+:   Tu página web debería tener
+    - información de contacto (*no* uses el correo electrónico de tu trabajo si empiezas a dedicarte a esto a medio tiempo);
+    - una breve biografía;
+    - muestras de tus materiales de formación (vamos a ver más detalle en la próxima sección);
+    - un par de vídeos cortos donde estés enseñando o dando charlas;
+    - un blog con algunas publicaciones recientes relacionadas con lo que enseñas o que describan compromisos recientes (con énfasis en "recientes": si el último post tiene dos años, puede ser contraproducente);
+    - comentarios positivos de clientes anteriores (o de profesores para los que has sido asistente, o personas con las cuales has trabajado antes) y
+    - el código de conducta de tus talleres.
+    - opcionalmente, y si te sientes cómoda/o, puedes compartir un calendario de los próximos compromisos, como por ejemplo las conferencias a las que vas a asistir, porque aunque no estés enseñando hay personas que pueden aprovechar la oportunidad para contactarte.
+
+### Materiales
 
 Como se detalla en [1] generar material esducativo requieren un esfuerzo significativo tanto 
 para su desarrollo inicial como para mantenerlo actualizado.
