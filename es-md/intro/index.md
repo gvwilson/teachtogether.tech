@@ -2,54 +2,30 @@
 template: page.html
 ---
 
-<div class="reviewers" markdown="1">
+Enseñar y aprender ocurren en muchos ámbitos, además de las aulas de las instituciones educativas formales.
+En todo el mundo han surgido iniciativas, espacios y grupos, a veces llamados comunidades de práctica,
+donde las personas enseñan y aprenden diferentes tipos de tecnologías, como programación, robótica y ciencia de datos
+en un ambiente con características diferentes a estas aulas tradicionales.
 
-Traductora: [Natalia Morandeira][morandeira-natalia].<br/>
-Revisoras: [Yanina Bellini Saibene][bellini-saibene-yanina] y [Zulemma Bazurto][bazurto-zulemma].
-
-</div>
-
-En todo el mundo han surgido comunidades de práctica
-para enseñar programación, diseño web, robótica y otras habilidades
-a <span g="free-range-learner" i="estudiante free-range">estudiantes free-range</span>.<sup>Nota de la editora:
-el autor inventó el término "free-range" por analogía con la crianza de pollos y vacas de campo:
-estudiantes que son libres de deambular, estirar las piernas, etc.
-que aprenden fuera de un aula institucional con un plan de estudios y tareas obligatorias.
-El autor también se refiere a las/los estudiantes
-que se sientan en escritorios y aulas como "battery-farmed"
-(nuevamente por analogía con la crianza a animales de granja).</sup>
-Estos grupos existen para que la gente no tenga que aprender estas cosas por su cuenta,
-pero, irónicamente,
-sus fundadoras/es y docentes están muchas veces enseñándose a sí mismas/os cómo enseñar.
+Estos grupos existen para que las personas no tengan que aprender estas tecnologías por su cuenta,
+pero, irónicamente, quienes enseñan en estos espacios, muchas veces no han recibido entrenamiento 
+sobre como enseñar y son autodidactas. Esto también ocurre con docentes de instituciones educativas formales (JUSTICE2017, ver ). 
 
 Hay una forma más conveniente.
 Así como conocer un par de cuestiones básicas sobre gérmenes y nutrición te puede ayudar a permanecer saludable,
-conocer un par de cosas sobre psicología cognitiva,
+conocer una serie de cosas sobre psicología cognitiva,
 diseño instruccional,
-inclusión
+inclusión, accesibilidad
 y organización comunitaria
 te puede ayudar a aumentar tu efectividad como docente.
 Este libro presenta ideas clave que puedes usar inmediatamente,
 explica por qué creemos que son ciertas
 y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
 
-> ### Re-uso
->
-> Algunas secciones de este libro fueron originalmente creadas para
-> [el programa de entrenamiento de instructores/as de Software Carpentry][carpentries-instructor].
-> Cualquier parte del libro puede ser libremente distribuida y re-utilizada
-> bajo la licencia Creative Commons Atribución-NoComercial 4.0
-> (<a section="license"/>).
-> Puedes usar la versión online disponible en <http://teachtogether.tech/es/>
-> en cualquier clase
-> (gratuita o paga),
-> y puedes citar pequeños extractos bajo el criterio de [uso justo][uso-justo],
-> pero no puedes re-publicar largos fragmentos en trabajos comerciales sin permiso previo.
->
-> Las contribuciones, correcciones y sugerencias son bienvenidas,
-> y cada vez que una nueva versión del libro sea publicada se les agradecerá a quienes contribuyan.
-> Por favor consulta el <a section="joining"/> para detalles sobre como contribuir
-> y el <a section="conduct"/> para conocer nuestro código de conducta.
+Muchos de los conceptos y técnicas presentados en este libro son útiles para enseñar cualquier tema 
+y para enseñar en el aula presencial o virtual. Sin embargo, como este libro se enfoca en
+enseñar tecnología presentaremos evidencia y ejemplos orientados a la enseñanza de este tipo
+de contenido. 
 
 ## Quién eres {#intro-audience}
 
@@ -114,42 +90,25 @@ René
 : leerá el libro por su cuenta en su oficina o mientras viaja en el transporte público,
   deseando entretanto que las universidades hagan más para apoyar la enseñanza de alta calidad.
 
-## Qué otras cosas leer {#intro-instead}
 
-Si tienes prisa o quieres tener una idea de lo que cubrirá este libro,
-<cite>Brow2018</cite> presenta diez sugerencias basadas en evidencias para enseñar computación<sup>En inglés</sup>.
-También puedes disfrutar<sup>Todos en inglés</sup>:
+> ### Re-uso
+>
+> Algunas secciones de este libro fueron originalmente creadas para
+> [el programa de entrenamiento de instructores/as de Software Carpentry][carpentries-instructor].
+> Cualquier parte del libro puede ser libremente distribuida y re-utilizada
+> bajo la licencia Creative Commons Atribución-NoComercial 4.0
+> (<a section="license"/>).
+> Puedes usar la versión online disponible en <http://teachtogether.tech/es/>
+> en cualquier clase
+> (gratuita o paga),
+> y puedes citar pequeños extractos bajo el criterio de [uso justo][uso-justo],
+> pero no puedes re-publicar largos fragmentos en trabajos comerciales sin permiso previo.
+>
+> Las contribuciones, correcciones y sugerencias son bienvenidas,
+> y cada vez que una nueva versión del libro sea publicada se les agradecerá a quienes contribuyan.
+> Por favor consulta la sección de <a section="joining"/> para conocer los detalles sobre como contribuir
+> y el <a section="conduct"/> para conocer nuestro código de conducta.
 
-- [El entrenamiento para instructoras/es de The Carpentries (Las/los carpinteras/os)][carpentries-instructor],
-  en el cual está basado este libro.
-
-- <cite>Lang2016</cite> y <cite>Hust2012</cite>, que son textos cortos y accesibles, que conectan las cosas que puedes aplicar
-  inmediatamente con la investigación que hay detrás de ellas y las fundamenta.
-
-- <cite>Berg2012,Lemo2014,Majo2015,Broo2016,Rice2018,Wein2018b</cite>
-  están repletos de sugerencias prácticas sobre cosas que puedes hacer en tu clase,
-  pero pueden cobrar más sentido una vez que tengas un marco conceptual para entender por qué sus ideas funcionan.
-
-- <cite>DeBr2015</cite>,
-  quien plantea qué cosas son ciertas sobre la educación al explicar qué cosas no lo son y <cite>Dida2016</cite>,
-  que fundamenta la teoría del aprendizaje en psicología cognitiva.
-
-- <cite>Pape1993</cite>,
-  que continúa siendo una visión inspiradora sobre cómo las computadoras pueden cambiar la educación.
-  [La excelente descripción de Amy Ko][ko-mindstorms]
-  es una síntesis de las ideas de Papert, mejor que la que podría hacer yo,
-  y <cite>Craw2010</cite> es una compañía provocadora y estimulante a ambos textos.
-
-- <cite>Gree2014,McMi2017,Watt2014</cite> explican por qué tantos intentos de reformas educativas
-  han fallado a lo largo de los últimos cuarenta años, cómo colegas que trabajan solo por dinero han explotado
-  y exacerbado la desigualdad en nuestra sociedad, y cómo la tecnología repetidamente ha fracasado en revolucionar la educación.
-
-- <cite>Brow2007</cite> y <cite>Mann2015</cite>,
-  porque no puedes enseñar bien sin cambiar el sistema en el que enseñamos
-  y no puedes lograr este cambio trabajando de forma solitaria.
-
-Quienes deseen material más académico pueden encontrar gratificante leer a <cite>Guzd2015a,Hazz2014,Sent2018,Finc2019,Hpl2018</cite>,
-mientras que [el blog de Mark Guzdial][guzdial-blog] ha sido consistentemente informativo, sugerente y motivador.
 
 ## Agradecimientos {#intro-acknowledgments}
 
@@ -259,9 +218,9 @@ Cada capítulo finaliza con una variedad de ejercicios que incluyen un formato s
 Muchos pueden ser usados en otros formatos ---en particular,
 si estás avanzando en este libro por tu cuenta,
 puedes hacer muchos de los ejercicios que son destinados a grupos--- y siempre
-puedes dedicar más tiempo a un ejercicio que el que sugiero.
+puedes dedicar más tiempo a un ejercicio que el sugerido.
 
-Si estás usando este material en un taller de formación docente,
+Si estás usando este material para formar docentes,
 puedes darles los siguientes ejercicios a quienes participen, con uno o dos días de anticipación,
 para que tengan una idea de quiénes son y cuál es la mejor manera en que les puedes ayudar.
 Por favor lee las advertencias en la <a section="classroom-prior"/> antes de hacer estos ejercicios.
