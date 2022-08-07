@@ -30,9 +30,9 @@ de contenido.
 ## Quién eres {#intro-audience}
 
 La <a section="process-personas"/> explica cómo averiguar quiénes son tus estudiantes.
-Los cuatro tipos de personas a las que está destinado este libro son docentes usuarias/os finales:
+Los cuatro tipos de personas a las que está destinado este libro son enseñantes finales:
 la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y
-posiblemente trabajan fuera de clases institucionales.
+posiblemente trabajan fuera de clases de instituciones educativas formales.
 
 Emilia
 : está entrenada como bibliotecaria
@@ -48,14 +48,14 @@ David
   Se ha ofrecido como voluntario para dirigir un club de programación mensual después del horario de clases.
   A pesar de que expone presentaciones frecuentemente a sus colegas,
   no tiene experiencia de enseñanza en el aula.
-  Quiere aprender a enseñar cómo construir lecciones efectivas en un tiempo razonable,
+  Quiere aprender a construir lecciones efectivas en un tiempo razonable,
   y le gustaría aprender más acerca de los pros y contras de las clases en línea en las que cada asistente cursa a su propio ritmo.
 
 Samira
 : es una estudiante de robótica, que está considerando ser docente luego de graduarse.
-  Quiere ayudar a sus pares en los talleres de robótica de fin de semana,
+  Quiere ayudar a sus pares en talleres de robótica que se dictan los fines de semana,
   pero nunca ha enseñado en una clase antes,
-  y en gran medida siente el <span g="impostor-syndrome">síndrome de la impostora</span>{síndrome del impostor/a}.
+  y en gran medida siente <span g="impostor-syndrome">síndrome de la impostora</span>{síndrome del impostor/a}.
   Quiere aprender más acerca de educación en general para decidir si la enseñanza es para ella
   y también está buscando sugerencias específicas que la ayuden a dar lecciones
   de forma más efectiva.
@@ -64,16 +64,15 @@ René
 : es docente de ciencias de la computación en una universidad.
   Ha estado enseñando cursos de grado sobre sistemas operativos por seis años
   y cada vez se convence más de que tiene que haber una mejor manera de enseñar.
-  El único entrenamiento disponible a través del centro de enseñanza y aprendizaje de su universidad
-  es sobre publicar tareas y enviar evaluaciones en el sistema en línea de gestión del aprendizaje,
-  por lo que quiere descubrir qué otro entrenamiento podría pedir.
+  El único entrenamiento disponible a través de su universidad
+  está relacionado con la herramienta del sistema de gestión del aprendizaje en línea,
+  por lo que quiere descubrir qué otro tipo de entrenamiento podría pedir.
 
 Estas personas tienen *una variedad de conocimientos técnicos previos*
 y *alguna experiencia previa con la enseñanza*,
 pero *carecen de entrenamiento formal en enseñanza, diseño de lecciones u organización comunitaria*.
 La mayoría trabaja con *estudiantes free-range*
 y están *enfocadas en adolescentes y personas adultas*
-más que en niñas/os;
 todas estas personas *tienen tiempo y recursos limitados*.
 Esperamos que nuestro cuarteto use este material de la siguiente manera:
 
@@ -206,11 +205,12 @@ Simon Willison,
 Karen Word,
 John Wrenn,
 y Andromeda Yelton.
-También estoy agradecido a Lukas Blakk por el logotipo,
+También estamos agradecidos a Lukas Blakk por el logotipo,
 a Shashi Kumar por la ayuda con LaTeX,
 a Markku Rontu por hacer que los diagramas se vean mejor,
 y a toda aquella persona que ha usado este material a lo largo de los años.
-Cualquier error que permanezca es mío.
+Cualquier error que permanezca es nuestro.
+
 
 ## Ejercicios {#intro-exercises}
 
