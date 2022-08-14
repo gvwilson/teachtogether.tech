@@ -12,17 +12,14 @@ La enseñanza y el aprendizaje están estrechamente relacionados, el protagonist
 persona que aprende y la enseñanza es el modo más efectivo de promover el aprendizaje (Geary2007), allí es donde
 las personas que enseñan entran en acción, para facilitar ese aprendizaje utilizando técnicas y herramientas
 adecuadas.  Como veremos en detalle en el capítulo (PCK) para enseñar debemos tener conocimientos del tema que 
-queremos enseñar y conocimientos sobre como enseñar ese tema en particular. 
-Saber sobre un tema y saber como enseñar ese tema son dos tipos de conocimientos diferentes.
+queremos enseñar y conocimientos sobre como enseñar ese tema en particular. Saber sobre un tema y saber como enseñar 
+ese tema son dos tipos de conocimientos diferentes.
 
-En todo el mundo han surgido iniciativas, espacios y grupos, a veces llamados comunidades de práctica,
-donde las personas enseñan y aprenden diferentes tipos de tecnologías, como programación, robótica y ciencia de datos
-en un ambiente con características diferentes a estas aulas tradicionales.
-
-Estos grupos existen para que las personas no tengan que aprender estas tecnologías por su cuenta,
-pero, irónicamente, quienes enseñan en estos espacios, muchas veces no han recibido entrenamiento 
-sobre como enseñar y son autodidactas en este tema. Esto también ocurre con docentes de instituciones educativas formales (JUSTICE2017).
-
+Muchas de las personas que enseñan diferentes tipos de tecnologías, como programación, robótica y ciencia de datos 
+no han recibido entrenamiento sobre como enseñar. Esto ocurre con docentes de instituciones educativas formales (JUSTICE2017) 
+y con docentes en iniciativas, espacios y grupos, a veces llamados comunidades de práctica,
+donde las personas enseñan y aprenden en un ambiente con características diferentes a estas aulas tradicionales.  Muchas veces
+estas personas aprender a enseñar por su cuenta.
 
 Hay una forma más conveniente.
 Así como conocer un par de cuestiones básicas sobre gérmenes y nutrición te puede ayudar a permanecer saludable,
