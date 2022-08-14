@@ -40,9 +40,9 @@ de contenido.
 ## Quién eres {#intro-audience}
 
 La <a section="process-personas"/> explica cómo averiguar quiénes son tus estudiantes.
-Los cuatro tipos de personas a las que está destinado este libro son enseñantes finales:
+Los cuatro tipos de personas a las que está destinado este libro son _enseñantes finales_:
 la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y
-posiblemente trabajan fuera de clases de instituciones educativas formales.
+posiblemente no enseñan en clases de instituciones educativas formales.
 
 Emilia
 : está entrenada como bibliotecaria
@@ -57,17 +57,18 @@ David
   asisten a una escuela que no ofrece clases de programación.
   Se ha ofrecido como voluntario para dirigir un club de programación mensual después del horario de clases.
   A pesar de que expone presentaciones frecuentemente a sus colegas,
-  no tiene experiencia de enseñanza en el aula.
+  no tiene experiencia enseñando en el aula.
   Quiere aprender a construir lecciones efectivas en un tiempo razonable,
-  y le gustaría aprender más acerca de los pros y contras de las clases en línea en las que cada asistente cursa a su propio ritmo.
+  y le gustaría aprender más acerca de los pros y contras de las clases en línea 
+  en las que cada asistente cursa a su propio ritmo.
 
 Samira
 : es una estudiante de robótica, que está considerando ser docente luego de graduarse.
-  Quiere ayudar a sus pares en talleres de robótica que se dictan los fines de semana,
-  pero nunca ha enseñado en una clase antes,
-  y en gran medida siente <span g="impostor-syndrome">síndrome de la impostora</span>{síndrome del impostor/a}.
-  Quiere aprender más acerca de educación en general para decidir si la enseñanza es para ella
-  y también está buscando sugerencias específicas que la ayuden a dar lecciones
+  Quiere ayudar en unos talleres de robótica que se dictan los fines de semana,
+  pero nunca ha enseñado antes,
+  por lo que siente <span g="impostor-syndrome">síndrome de la impostora</span>{síndrome del impostor/a}.
+  Quiere aprender más acerca de educación en general para decidir si la docencia es para ella
+  y también está buscando sugerencias específicas que la ayuden a dar clase
   de forma más efectiva.
 
 René
@@ -250,7 +251,7 @@ Escribe respuestas breves a las siguientes preguntas y compártelas con tus pare
 
 Comparte respuestas breves a las siguientes preguntas con tus pares.
 Guarda tus respuestas para que puedas regresar a ellas como referencia
-a la par que avanzas en el estudio de este libro.
+a medida que avanzas en el estudio de este libro.
 
 1. ¿Qué es lo que más quieres enseñar?
 
@@ -260,7 +261,7 @@ a la par que avanzas en el estudio de este libro.
 
 1. ¿Cómo sabrás si estás enseñando bien?
 
-1. ¿Qué es lo que más ansías aprender acerca de enseñanza y aprendizaje?
+1. ¿Qué es lo que más quieres aprender acerca de enseñanza y aprendizaje?
 
 1. ¿Qué cosa específica crees que es cierta acerca de enseñanza y aprendizaje?
 
@@ -272,8 +273,10 @@ Sin embargo,
 como Benjamin Doxtdator
 [ha señalado][jobs-that-dont-exist],
 muchas de estas afirmaciones están construidas sobre cimientos débiles.
-Incluso si las afirmaciones fueran reales, la educación no debería preparar a la gente para los trabajos del futuro:
-les debería dar el poder de decidir qué tipos de trabajos hay y asegurarles que vale la pena hacer esos trabajos.
+Incluso si las afirmaciones fueran reales, la educación no debería preparar 
+a la gente para los trabajos del futuro:
+les debería dar el poder de decidir qué tipos de trabajos hay y 
+asegurarles que vale la pena hacer esos trabajos.
 Además, como [señala Mark Guzdial][guzdial-why-teach-programming],
 hay realmente muchas razones para aprender a programar:
 
