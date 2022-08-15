@@ -16,10 +16,9 @@ queremos enseñar y conocimientos sobre como enseñar ese tema en particular. Sa
 ese tema son dos tipos de conocimientos diferentes.
 
 Muchas de las personas que enseñan diferentes tipos de tecnologías, como programación, robótica y ciencia de datos 
-no han recibido entrenamiento sobre como enseñar. Esto ocurre con docentes de instituciones educativas formales (JUSTICE2017) 
-y con docentes en iniciativas, espacios y grupos, a veces llamados comunidades de práctica,
-donde las personas enseñan y aprenden en un ambiente con características diferentes a estas aulas tradicionales.  Muchas veces
-estas personas aprender a enseñar por su cuenta.
+no han recibido entrenamiento sobre como enseñar. Esto ocurre tanto con docentes de instituciones educativas formales (Justice2017, Kane2002) 
+como con docentes en grupos y comunidades de práctica, donde las personas enseñan y aprenden en un ambiente 
+con características diferentes a estas aulas tradicionales.  Muchas veces estas personas aprender a enseñar por su cuenta.
 
 Hay una forma más conveniente.
 Así como conocer un par de cuestiones básicas sobre gérmenes y nutrición te puede ayudar a permanecer saludable,
@@ -225,21 +224,24 @@ Cualquier error que permanezca es nuestro.
 
 ## Ejercicios {#intro-exercises}
 
-Cada capítulo finaliza con una variedad de ejercicios que incluyen un formato sugerido y cuánto tiempo toma usualmente hacerlos en persona.
+Cada capítulo finaliza con una variedad de ejercicios que incluyen un formato 
+sugerido y cuánto tiempo toma usualmente hacerlos en persona.
 Muchos pueden ser usados en otros formatos ---en particular,
 si estás avanzando en este libro por tu cuenta,
 puedes hacer muchos de los ejercicios que son destinados a grupos--- y siempre
-puedes dedicar más tiempo a un ejercicio que el sugerido.
+puedes dedicar más tiempo que el sugerido para trabajar en un ejercicio.
 
-Si estás usando este material para formar docentes,
-puedes darles los siguientes ejercicios a quienes participen, con uno o dos días de anticipación,
+Si estás usando este material para formar docentes, puedes darles con 
+antelación los siguientes ejercicios a quienes participen, 
 para que tengan una idea de quiénes son y cuál es la mejor manera en que les puedes ayudar.
-Por favor lee las advertencias en la <a section="classroom-prior"/> antes de hacer estos ejercicios.
+Por favor lee las advertencias en la <a section="classroom-prior"/> antes 
+de pedirles hacer estos ejercicios.
 
 ### Altos y bajos (clase completa/5') {.exercise}
 
 Escribe respuestas breves a las siguientes preguntas y compártelas con tus pares.
-(Si estás tomando notas colaborativas en línea como se describe en la <a section="classroom-notetaking"/>, puedes escribir tus respuestas allí.)
+(Si están tomando notas colaborativas en línea como se describe 
+en la <a section="classroom-notetaking"/>, puedes escribir tus respuestas allí.)
 
 1. ¿Cuál es la mejor clase o taller que alguna vez hayas tomado?
   ¿Qué la hacía tan buena?
@@ -267,16 +269,16 @@ a medida que avanzas en el estudio de este libro.
 
 ### ¿Por qué aprender a programar? (individual/20') {.exercise}
 
-Las/los políticas/os, líderes de negocios y educadoras/es usualmente dicen que
-la gente debe aprender a programar porque los trabajos del futuro lo requerirán.
-Sin embargo,
-como Benjamin Doxtdator
-[ha señalado][jobs-that-dont-exist],
+Las personas que hacen política, se dedican a la educación y son líderes de negocios 
+suelen decir que la gente debe aprender a programar porque los trabajos 
+del futuro lo requerirán.
+
+Sin embargo, como Benjamin Doxtdator [ha señalado][jobs-that-dont-exist],
 muchas de estas afirmaciones están construidas sobre cimientos débiles.
 Incluso si las afirmaciones fueran reales, la educación no debería preparar 
-a la gente para los trabajos del futuro:
-les debería dar el poder de decidir qué tipos de trabajos hay y 
-asegurarles que vale la pena hacer esos trabajos.
+a la gente para los trabajos del futuro: les debería enseñar que tienen 
+algo que decir sobre qué tipos de trabajos existirán en el futuro,
+cuales valen la pena y cómo poder opinar sobre esas elecciones.
 Además, como [señala Mark Guzdial][guzdial-why-teach-programming],
 hay realmente muchas razones para aprender a programar:
 
