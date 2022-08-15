@@ -31,6 +31,20 @@ Este libro presenta ideas clave que puedes usar inmediatamente,
 explica por qué creemos que son ciertas
 y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
 
+<desarrollar la idea de un texto introductorio, con el objetivo de hacer accesibles
+y prácticas los conceptos de la ciencia del aprendizaje y la enseñanza
+y las últimas investigaciones al respecto>
+
+La ciencia termina de tener sentido cuando sus desarrollos y descubrimientos terminan siendo usados y mejoran las videas de las personas.
+Hay un interés de la comunidad educativa de usar evidencia científica para hacer sus clases mas efectivas.
+En muchas ocasiones acceder a ese conocimiento científico es dificil, desde el acceso restringido al lenguaje muy especializado, solo adecuado para expertos.
+Hay ejemplos que generando materiales que expliquen estos desarrollos e investigaciones de forma adecuada para un público más general, esta información se usa.
+Los peligros de no poder "traducir" esta evidencia a algo usable y entendible son:
+No usarlos.
+Mitos educativos: Malosentendidos y malasinterpretaciones de hallazgos científicos que llevan a aplicaciones prácticas en el aula que no funcionan. A veces se basan en el sesgo de confirmaciónb, a veces en campañas de marketin.
+
+
+
 Muchos de los conceptos y técnicas presentados en este libro son útiles para enseñar cualquier tema 
 y para enseñar en el aula presencial o virtual. Sin embargo, como este libro se enfoca en
 enseñar tecnología presentaremos evidencia y ejemplos orientados a la enseñanza de este tipo
@@ -98,6 +112,12 @@ Samira
 René
 : leerá el libro por su cuenta en su oficina o mientras viaja en el transporte público,
   deseando entretanto que las universidades hagan más para apoyar la enseñanza de alta calidad.
+
+
+
+
+
+
 
 
 > ### Re-uso
