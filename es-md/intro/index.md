@@ -4,7 +4,7 @@ template: page.html
 
 Enseñar y aprender ocurren en muchos ámbitos, además de las aulas de las instituciones educativas formales. 
 Probablemente ya estás enseñando, puedes enseñar no sólo como docente en alguna institución formal o en una comunidad 
-de práctica, como R-Ladies, también respondiendo preguntas, mentoreando una persona que recien inicia, 
+de práctica, también respondiendo preguntas, mentoreando una persona que recien inicia, 
 creando contenido como libros, artículos en la web y videos, o dando charlas. Y probablemente también has usado
 estos recursos para aprender. Incluso podemos aprender sin necesidad que haya alguien enseñandonos.
 
@@ -23,24 +23,22 @@ o basan su enseñanza en experiencias personales (Kane2002).
 
 Hay una forma más conveniente. 
 
-Existe mucho conocimiento sobre como aprendemos y sobre cual es la mejor
-manera de enseñar. La ciencia de la educación investiga diversas
-teorías sobre la enseñanza y el aprendizaje buscando evidencias que
-las respalden (o las refuten). Con este conocimiento, la comunidad educativa
-en general, puede tomar mejores decisiones fundamentadas en evidencia
+Existe mucho conocimiento sobre como aprendemos y sobre cual es la mejor manera de enseñar. La ciencia de la educación 
+investiga diversas teorías sobre la enseñanza y el aprendizaje buscando evidencias que las respalden (o las refuten). 
+Con este conocimiento, la comunidad educativa en general, puede tomar mejores decisiones fundamentadas en evidencia
 científica.
 
-El problema es que en muchas ocasiones acceder a ese conocimiento científico 
-es dificil por diversas razones, desde el acceso restringido al material 
-pasando por un lenguaje muy especializado, solo adecuado para expertos; hasta
-el hecho de no conocer lo suficiente para saber qué y dónde buscar.  Y una 
+El problema es que en muchas ocasiones acceder a ese conocimiento científico es dificil por diversas razones, 
+desde el acceso restringido al material pasando por un lenguaje muy especializado, solo adecuado para expertos; 
+hasta el hecho de no conocer lo suficiente para saber qué y dónde buscar.  Y una 
 vez que lo encontramos, suele ser complejo poder generar acciones concretas que podamos
 aplicar en el aula utilizando ese conocimiento.
 
 La ciencia termina de tener sentido cuando sus desarrollos y descubrimientos terminan siendo usados y mejoran las videas de las personas.
 Hay un interés de la comunidad educativa de usar evidencia científica para hacer sus clases mas efectivas.
 
-Hay ejemplos que generando materiales que expliquen estos desarrollos e investigaciones de forma adecuada para un público más general, esta información se usa.
+Hay ejemplos que generando materiales que expliquen estos desarrollos e investigaciones de forma adecuada 
+para un público más general, esta información se usa.
 Los peligros de no poder "traducir" esta evidencia a algo usable y entendible son:
 No usarlos.
 Mitos educativos: Malosentendidos y malasinterpretaciones de hallazgos científicos que llevan a aplicaciones prácticas en el aula que no funcionan. A veces se basan en el sesgo de confirmaciónb, a veces en campañas de marketin.
