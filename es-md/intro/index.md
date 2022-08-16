@@ -18,9 +18,38 @@ ese tema son dos tipos de conocimientos diferentes.
 Muchas de las personas que enseñan diferentes tipos de tecnologías, como programación, robótica y ciencia de datos 
 no han recibido entrenamiento sobre como enseñar. Esto ocurre tanto con docentes de instituciones educativas formales (Justice2017, Kane2002) 
 como con docentes en grupos y comunidades de práctica, donde las personas enseñan y aprenden en un ambiente 
-con características diferentes a estas aulas tradicionales.  Muchas veces estas personas aprender a enseñar por su cuenta.
+con características diferentes a estas aulas tradicionales.  Muchas veces estas personas aprender a enseñar por su cuenta
+o basan su enseñanza en experiencias personales (Kane2002).
 
-Hay una forma más conveniente.
+Hay una forma más conveniente. 
+
+Existe mucho conocimiento sobre como aprendemos y sobre cual es la mejor
+manera de enseñar. La ciencia de la educación investiga diversas
+teorías sobre la enseñanza y el aprendizaje buscando evidencias que
+las respalden (o las refuten). Con este conocimiento, la comunidad educativa
+en general, puede tomar mejores decisiones fundamentadas en evidencia
+científica.
+
+El problema es que en muchas ocasiones acceder a ese conocimiento científico 
+es dificil por diversas razones, desde el acceso restringido al material 
+pasando por un lenguaje muy especializado, solo adecuado para expertos; hasta
+el hecho de no conocer lo suficiente para saber qué y dónde buscar.  Y una 
+vez que lo encontramos, suele ser complejo poder generar acciones concretas que podamos
+aplicar en el aula utilizando ese conocimiento.
+
+La ciencia termina de tener sentido cuando sus desarrollos y descubrimientos terminan siendo usados y mejoran las videas de las personas.
+Hay un interés de la comunidad educativa de usar evidencia científica para hacer sus clases mas efectivas.
+
+Hay ejemplos que generando materiales que expliquen estos desarrollos e investigaciones de forma adecuada para un público más general, esta información se usa.
+Los peligros de no poder "traducir" esta evidencia a algo usable y entendible son:
+No usarlos.
+Mitos educativos: Malosentendidos y malasinterpretaciones de hallazgos científicos que llevan a aplicaciones prácticas en el aula que no funcionan. A veces se basan en el sesgo de confirmaciónb, a veces en campañas de marketin.
+
+<desarrollar la idea de un texto introductorio, con el objetivo de hacer accesibles
+y prácticas los conceptos de la ciencia del aprendizaje y la enseñanza
+y las últimas investigaciones al respecto>
+
+ 
 Así como conocer un par de cuestiones básicas sobre gérmenes y nutrición te puede ayudar a permanecer saludable,
 conocer una serie de conceptos básicos sobre psicología cognitiva,
 diseño instruccional,
@@ -30,20 +59,6 @@ te puede ayudar a aumentar tu efectividad como docente.
 Este libro presenta ideas clave que puedes usar inmediatamente,
 explica por qué creemos que son ciertas
 y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
-
-<desarrollar la idea de un texto introductorio, con el objetivo de hacer accesibles
-y prácticas los conceptos de la ciencia del aprendizaje y la enseñanza
-y las últimas investigaciones al respecto>
-
-La ciencia termina de tener sentido cuando sus desarrollos y descubrimientos terminan siendo usados y mejoran las videas de las personas.
-Hay un interés de la comunidad educativa de usar evidencia científica para hacer sus clases mas efectivas.
-En muchas ocasiones acceder a ese conocimiento científico es dificil, desde el acceso restringido al lenguaje muy especializado, solo adecuado para expertos.
-Hay ejemplos que generando materiales que expliquen estos desarrollos e investigaciones de forma adecuada para un público más general, esta información se usa.
-Los peligros de no poder "traducir" esta evidencia a algo usable y entendible son:
-No usarlos.
-Mitos educativos: Malosentendidos y malasinterpretaciones de hallazgos científicos que llevan a aplicaciones prácticas en el aula que no funcionan. A veces se basan en el sesgo de confirmaciónb, a veces en campañas de marketin.
-
-
 
 Muchos de los conceptos y técnicas presentados en este libro son útiles para enseñar cualquier tema 
 y para enseñar en el aula presencial o virtual. Sin embargo, como este libro se enfoca en
