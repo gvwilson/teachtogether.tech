@@ -2,18 +2,20 @@
 template: page.html
 ---
 
-Enseñar y aprender ocurren en muchos ámbitos, además de las aulas de las instituciones educativas formales. 
-Probablemente ya estás enseñando, puedes enseñar no sólo como docente en alguna institución formal o en una comunidad 
-de práctica, también respondiendo preguntas, mentoreando una persona que recien inicia, 
-creando contenido como libros, artículos en la web y videos, o dando charlas. Y probablemente también has usado
-estos recursos para aprender. Incluso podemos aprender sin necesidad que haya alguien enseñandonos.
+Enseñar y aprender ocurren en muchos ámbitos, no solo en las aulas de las instituciones educativas formales, como 
+la escuela o las universidades. Probablemente ya estás enseñando, puedes enseñar no sólo como docente en 
+alguna de estas instituciones o en una comunidad de práctica, también respondiendo preguntas, 
+mentoreando una persona que recien inicia, creando contenido como libros, artículos en la web y videos, 
+o dando charlas. Y probablemente también has usado estos recursos para aprender. 
+Incluso podemos aprender sin necesidad que haya alguien enseñandonos.
 
 La enseñanza y el aprendizaje están estrechamente relacionados, el protagonista del aprendizaje es la
 persona que aprende y la enseñanza es el modo más efectivo de promover el aprendizaje (Geary2007), allí es donde
 las personas que enseñan entran en acción, para facilitar ese aprendizaje utilizando técnicas y herramientas
-adecuadas.  Como veremos en detalle en el capítulo (PCK) para enseñar debemos tener conocimientos del tema que 
+adecuadas.  Como veremos en detalle en el capítulo <agregar referencia capítulo PCK> para enseñar debemos tener conocimientos del tema que 
 queremos enseñar y conocimientos sobre como enseñar ese tema en particular. Saber sobre un tema y saber como enseñar 
-ese tema son dos tipos de conocimientos diferentes.
+ese tema son dos tipos de conocimientos diferentes y como veremos en el capítulo <referencia al capítulo Pericia y Memoria>,
+ser una persona experta en un tema, no asegura que lo enseñaremos bien.
 
 Muchas de las personas que enseñan diferentes tipos de tecnologías, como programación, robótica y ciencia de datos 
 no han recibido entrenamiento sobre como enseñar. Esto ocurre tanto con docentes de instituciones educativas formales (Justice2017, Kane2002) 
@@ -25,35 +27,38 @@ Hay una forma más conveniente.
 
 Existe mucho conocimiento sobre como aprendemos y sobre cual es la mejor manera de enseñar. La ciencia de la educación 
 investiga diversas teorías sobre la enseñanza y el aprendizaje buscando evidencias que las respalden (o las refuten). 
-Con este conocimiento, la comunidad educativa en general, puede tomar mejores decisiones fundamentadas en evidencia
-científica.
-
-El problema es que en muchas ocasiones acceder a ese conocimiento científico es dificil por diversas razones, 
+Con este conocimiento, la comunidad educativa en general, puede tomar mejores decisiones, fundamentadas en evidencia
+científica. El problema es que en muchas ocasiones acceder a ese conocimiento científico es dificil, por diversas razones, 
 desde el acceso restringido al material pasando por un lenguaje muy especializado, solo adecuado para expertos; 
 hasta el hecho de no conocer lo suficiente para saber qué y dónde buscar.  Y una 
 vez que lo encontramos, suele ser complejo poder generar acciones concretas que podamos
 aplicar en el aula utilizando ese conocimiento.
 
-La ciencia termina de tener sentido cuando sus desarrollos y descubrimientos terminan siendo usados y mejoran las videas de las personas.
-Hay un interés de la comunidad educativa de usar evidencia científica para hacer sus clases mas efectivas.
+Creemos que la ciencia tiene sentido cuando sus desarrollos y descubrimientos son utilizados y ayudan a mejorar la
+vida de las personas y por eso el objetivo de este libro es contribuir a divulgar los resultados más importantes 
+y recientes de la investigación sobre enseñanza y aprendizaje en tecnología. Intentamos presentar estos conocimientos
+de forma amena y pragmática, en lo que pensamos (y nuestra experiencia nos dice) es una forma adecuada para un 
+público más general. Existen ejemplos (como The Carpentries y MetaDocencia) que si se generan materiales asequibles
+con ejemplos y sugerencias deaplicaciones concretas para implementar en el aula de estas investigaciones,
+las personas que enseñan las usarán. 
 
-Hay ejemplos que generando materiales que expliquen estos desarrollos e investigaciones de forma adecuada 
-para un público más general, esta información se usa.
-Los peligros de no poder "traducir" esta evidencia a algo usable y entendible son:
-No usarlos.
-Mitos educativos: Malosentendidos y malasinterpretaciones de hallazgos científicos que llevan a aplicaciones prácticas en el aula que no funcionan. A veces se basan en el sesgo de confirmaciónb, a veces en campañas de marketin.
+Las consecuencias de dejar ese conocimiento fuera de los espacios de aprendizaje, son una
+enseñanza y aprendizaje más complejos y la diseminación de mitos educativos; como veremos 
+en el capítulo <chequear acá donde hablamos de mitos> estos malosentendidos 
+y malasinterpretaciones de hallazgos científicos llevan a aplicaciones prácticas en el aula 
+que no funcionan y que puede dejar en el camino a muchas personas.
 
-<desarrollar la idea de un texto introductorio, con el objetivo de hacer accesibles
-y prácticas los conceptos de la ciencia del aprendizaje y la enseñanza
-y las últimas investigaciones al respecto>
-
- 
-Así como conocer un par de cuestiones básicas sobre gérmenes y nutrición te puede ayudar a permanecer saludable,
-conocer una serie de conceptos básicos sobre psicología cognitiva,
+Por lo que creemos que así como conocer un par de cuestiones básicas sobre 
+gérmenes y nutrición se puede presentar de forma sencilla y usable y
+te pueden ayudar a permanecer saludable,
+conocer una serie de conceptos básicos, 
+también presentados de forma accesible,
+sobre psicología cognitiva,
 diseño instruccional,
 inclusión, accesibilidad
 y organización comunitaria
 te puede ayudar a aumentar tu efectividad como docente.
+
 Este libro presenta ideas clave que puedes usar inmediatamente,
 explica por qué creemos que son ciertas
 y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
