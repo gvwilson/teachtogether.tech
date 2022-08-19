@@ -63,6 +63,10 @@ Este libro presenta ideas clave que puedes usar inmediatamente,
 explica por qué creemos que son ciertas
 y te señala otros recursos que te ayudarán a profundizar tus conocimientos.
 
+Esperamos que esto te de elementos para basar tus decisiones en 
+evidencia científica, teniendo en cuenta tu contexto y tus 
+estudiantes.
+
 Muchos de los conceptos y técnicas presentados en este libro son útiles para enseñar cualquier tema 
 y para enseñar en el aula presencial o virtual. Sin embargo, como este libro se enfoca en
 enseñar tecnología presentaremos evidencia y ejemplos orientados a la enseñanza de este tipo
