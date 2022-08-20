@@ -12,7 +12,7 @@ Incluso podemos aprender sin necesidad que haya alguien enseñandonos.
 La enseñanza y el aprendizaje están estrechamente relacionados, el protagonista del aprendizaje es la
 persona que aprende y la enseñanza es el modo más efectivo de promover el aprendizaje [% Geary2007 %], allí es donde
 las personas que enseñan entran en acción, para facilitar ese aprendizaje utilizando técnicas y herramientas
-adecuadas.  Como veremos en detalle en el capítulo <agregar referencia capítulo PCK> para enseñar debemos tener conocimientos del tema que 
+adecuadas.  Como veremos en detalle en el capítulo <FIXME agregar referencia capítulo PCK> para enseñar debemos tener conocimientos del tema que 
 queremos enseñar y conocimientos sobre como enseñar ese tema en particular. Saber sobre un tema y saber como enseñar 
 ese tema son dos tipos de conocimientos diferentes y como veremos en el capítulo <referencia al capítulo Pericia y Memoria>,
 ser una persona experta en un tema, no asegura que lo enseñaremos bien.
@@ -20,8 +20,9 @@ ser una persona experta en un tema, no asegura que lo enseñaremos bien.
 Muchas de las personas que enseñan diferentes tipos de tecnologías, como programación, robótica y ciencia de datos 
 no han recibido entrenamiento sobre como enseñar. Esto ocurre tanto con docentes de instituciones educativas formales [% Justice2017 Kane2002 %] 
 como con docentes en grupos y comunidades de práctica, donde las personas enseñan y aprenden en un ambiente 
-con características diferentes a estas aulas tradicionales.  Muchas veces estas personas aprender a enseñar por su cuenta
-o basan su enseñanza en experiencias personales {% Kane2002 RuizMartín2021 %].
+con características diferentes a las aulas tradicionales.  Muchas veces estas personas aprender a enseñar por su cuenta
+o basan su enseñanza en experiencias personales [% Kane2002 RuizMartín2021 %], que no siempre están alineadas
+con la evidencia científica.
 
 Hay una forma más conveniente. 
 
@@ -37,18 +38,12 @@ aplicar en el aula utilizando ese conocimiento.
 Creemos que la ciencia tiene sentido cuando sus desarrollos y descubrimientos son utilizados y ayudan a mejorar la
 vida de las personas y por eso el objetivo de este libro es contribuir a divulgar los resultados más importantes 
 y recientes de la investigación sobre enseñanza y aprendizaje en tecnología. Intentamos presentar estos conocimientos
-de forma amena y pragmática, con un lenguaje adecuado para un público más general. 
-El éxito sostenido de iniciativas como <The Carpentries, agregar link> y <MetaDocencia, agregar link> que 
-enseñan como enseñar con materiales accesibles, son una muestra del intenrés en la comunidad
-educaiva de conocer y utilizar prácticas de enseñanza eficaces.
+de forma amena y pragmática, con un lenguaje adecuado para un público general. 
+El éxito sostenido de iniciativas como <The Carpentries, FIXME agregar link> y <MetaDocencia, FIXME agregar link> que 
+enseñan como enseñar con materiales accesibles, son una muestra del interés en la comunidad
+educativa de conocer y utilizar prácticas de enseñanza eficaces.
 
-No basar nuestras deciciones de enseñanza y aprendizaje métodos educativos concretos, 
-basados en evidencia y centrados en nuestros estudiantes puede llevar a la diseminación de 
-mitos educativos; como veremos en el capítulo <chequear acá donde hablamos de mitos> estos malosentendidos 
-y malasinterpretaciones de hallazgos científicos llevan al aula aplicaciones de prácticas 
-que no funcionan y que pueden dejar en el camino a muchas personas.
-
-Por lo que creemos que conocer una serie de conceptos básicos, 
+Creemos que conocer una serie de conceptos básicos, 
 sobre psicología cognitiva,
 diseño instruccional,
 inclusión, accesibilidad
@@ -71,7 +66,7 @@ de contenido.
 ## Quién eres {#intro-audience}
 
 La <a section="process-personas"/> explica cómo averiguar quiénes son tus estudiantes.
-Los cuatro tipos de personas a las que está destinado este libro son _enseñantes finales_:
+Los cuatro tipos de personas a las que está destinado este libro son _enseñante final FIXME(llamada al glosario acá)_:
 la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y
 posiblemente no enseñan en clases de instituciones educativas formales.
 
@@ -112,8 +107,8 @@ René
 
 Estas personas tienen *una variedad de conocimientos técnicos previos*
 y *alguna experiencia previa con la enseñanza*,
-pero *carecen de entrenamiento formal en enseñanza, diseño de lecciones u organización comunitaria*.
-La mayoría trabaja con *estudiantes free-range*
+pero *carecen de entrenamiento formal sobre enseñar y aprender, diseño de lecciones accesibles u organización comunitaria*.
+La mayoría trabaja con *estudiantes free-range <FIXME: agregar nota al pie o al glosario>*
 y están *enfocadas en adolescentes y personas adultas*
 todas estas personas *tienen tiempo y recursos limitados*.
 Esperamos que nuestro cuarteto use este material de la siguiente manera:
@@ -130,13 +125,6 @@ Samira
 René
 : leerá el libro por su cuenta en su oficina o mientras viaja en el transporte público,
   deseando entretanto que las universidades hagan más para apoyar la enseñanza de alta calidad.
-
-
-
-
-
-
-
 
 > ### Re-uso
 >
@@ -348,3 +336,9 @@ y para la gente a la que planeas enseñar (el eje Y).
   (es decir, en las esquinas por fuera de la diagonal)?
 
 1. ¿Cómo debería afectar esto lo que tú enseñas?
+
+## Repaso
+
+<FIXME agregar el mapa conceptual de la intro
+FIXME traducirlo al español
+https://docs.google.com/presentation/d/1ou6qa-etjL80R1pk4kgkx-0_TaUyDp8H7j6vyHgQMNU/edit#slide=id.g146326f82a6_0_14>
