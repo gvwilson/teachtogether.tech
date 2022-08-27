@@ -31,22 +31,45 @@ si tu negocio de enseñanza es internacional.
 
 ## Por donde empezar
 
-Si vas a trabajar como docente autónomo, aqui hay un par de opciones sobre como empezar a ofrecer tus servicios y dar clases.
+Aqui hay un par de opciones sobre como empezar a ofrecer tus servicios y 
+dar clases como docente autónomo.
 
 Empieza como parte del grupo de apoyo.
-:   Sé ayudante en el curso o evento que otras personas hayan organizado. Te servirá para aprender como funciona este negocio y para hacer contactos.  Si se trata de una capacitación paga, la persona responsable debería cubrir los costos de tu participación (Ej: viaje, alojamiento) y pagarte una tarifa por tu tiempo. Si la capacitación no es comercial, puedes preguntar si te dejan enseñar una parte de la clase y luego te dan su opinión de tu desempeño y te aconsejen como mejorar.
+:   Sé ayudante en el curso o evento que otras personas hayan organizado. 
+Te servirá para aprender como funciona este negocio y para hacer contactos.  
+Si se trata de una capacitación paga, la persona responsable debería cubrir 
+los costos de tu participación (Ej: viaje, alojamiento) y pagarte una tarifa 
+por tu tiempo. Si la capacitación no es comercial, puedes preguntar si te 
+dejan enseñar una parte de la clase y luego te den su opinión de tu 
+desempeño y te aconsejen como mejorar.
 
 Empieza con personas conocidas.
-:   ¿Tienes alguna persona conocida, colega o alguna amistad que trabaje en algún lugar	que se beneficiaría del tipo de formación que ofreces?
-    Si es así, pregunta si te puede presentar a su jefe o a alguien de recursos humanos (que suelen encargarse de organizar las capacitaciones).
+:   ¿Conoces a alquien que trabaje en algún lugar que se beneficiaría 
+del tipo de formación que ofreces?
+Si es así, pregunta si te puede presentar con la persona a cargo o con 
+alguien de recursos humanos (que suelen encargarse de organizar las capacitaciones),
+para que puedas ofrecer tus servicios.
 
 Contacta a las asociaciones, consejos y colegios de profesionales y a los gremios.
-:	Estas organizaciones nuclean personas que se dedican a ejercer una disciplina. En general, tienen un área de capacitación que ofrece cursos y actualizaciones a las personas miembro. Puedes ponerte en contacto con las personas responsables de esta actividad y ofrecer tus servicios. Además,	son un buen lugar para generar contactos y experiencia.  Si sos parte de	alguna de estas organzaciones, empieza por allí.
+:	Estas organizaciones nuclean personas que se dedican a ejercer una disciplina. 
+En general, tienen un área de capacitación que ofrece cursos y actualizaciones 
+sus miembros. Puedes ponerte en contacto con las personas responsables 
+de esta actividad y ofrecer tus servicios. Además, son un buen lugar para 
+generar contactos y experiencia.  Si sos parte de alguna de estas organzaciones, 
+empieza por allí.
 
 Empieza por las conferencias.
-:   Las conferencias, hackatones y eventos similares son una gran oportunidad para hacer contactos y conocer clientes potenciales. 
-	Muchas conferencias tienen una sección o día destinado a tutoriales; busca que eventos y conferencias se van a realizar entre los próximos 6 a 12 meses y revisa si hay un llamado a propuestas de tutoriales o contacta a las personas responsables de la organización de la conferencia (o directamente con la persona responsable de organizar los tutoriales) para ver qué buscan o si quieren lo que tú ya tienes.
-	Si hay un llamado a presentación de tutoriales, este suele solicitar algunos detalles sobre tu propuesta. También vas a necesitar una propuesta si te invitan a participar. Te sugerimos que tu propuesta presente al menos los siguientes puntos:
+:   Las conferencias, hackatones y eventos similares son una gran oportunidad 
+para hacer contactos y conocer clientes potenciales. 
+	Muchas conferencias tienen una sección o día destinado a tutoriales; 
+	busca que eventos y conferencias se van a realizar entre los próximos 
+	6 a 12 meses y revisa si hay un llamado a propuestas de tutoriales o 
+	contacta a las personas responsables de la organización de la conferencia 
+	(o directamente con la persona responsable de organizar los tutoriales) 
+	para ver qué buscan o si quieren lo que tú ya tienes.
+	Si hay un llamado a presentación de tutoriales, este suele solicitar algunos 
+	detalles sobre tu propuesta. También vas a necesitar una propuesta si te invitan a participar. 
+	Te sugerimos que tu propuesta presente al menos los siguientes puntos:
 	
 	- _Audiencia_: podes presentar esta parte usando personas tipo (referencia).
 	- _Objetivos de aprendizaje_: lista que van a aprender tus estudiantes (referencia).
