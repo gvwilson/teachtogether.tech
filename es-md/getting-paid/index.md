@@ -230,21 +230,47 @@ la mayoría de los datos se concentra en el norte global es una buena fuente de 
 
 
 Determinar una tarifa base
-:	enseñar un curso no es solo ir en la fecha acordada, pararse delente de la clase y empezar a enseñar.  La preparación del material corresponde a un porcentaje importante del tiempo invertido en el curso.  En general los clientes no van a aceptar pagarte ese tiempo, por lo que incorporarlo en el costo del curso es una forma de cobrar por esa tarea.  Una hora de curso corresponde entre una y tres horas de preparación.  Esta relación puede cambiar si el curso es totalmente nuevo o ya tienes algo de material preparado.  Por ejemplo, podrías iniciar con una tarifa base de dos horas de costo por cada hora frente a estudiantes.
+:	enseñar un curso no es solo ir en la fecha acordada, pararse delente de la clase 
+y empezar a enseñar.  La preparación del material corresponde a un porcentaje importante 
+del tiempo invertido en el curso.  En general los clientes no van a aceptar 
+pagarte ese tiempo, por lo que incorporarlo en el costo del curso es una forma 
+de cobrar por esa tarea.  Una hora de curso corresponde entre una y tres horas de preparación. 
+Esta relación puede cambiar si el curso es totalmente nuevo o ya tienes algo de material preparado.
+Por ejemplo, podrías iniciar con una tarifa base de dos horas adicional de costo por cada 
+hora frente a estudiantes.
 
 Más pedidos, más costo
-:	A esa tarifa de base se le pueden agregar más horas de acuerdo a los pedidos del cliente.  Agregar entre una a tres horas para la personalización del material (ejemplos, ejercicios, desafíos o ejercitación extra) utilizando datos relacionados con su actividad.
-	También añadir entre dos a cuatro horas si solicitan grabar la clase para uso futuro o para publicarla.  No aceptes "una cosa extra" sin confirmar primero que vas a vas a cobrar por el trabajo.  Si lo que estás enseñando es especializado o avanzado y requiere una preparación extra o contar con conocimientos avanzados y actualizados puedes agregar entre dos a cuatro horas.
+:	A esa tarifa de base se le pueden agregar más horas de acuerdo a los 
+pedidos del cliente.  Agregar entre una a tres horas en el costo para la 
+personalización del material (ejemplos, ejercicios, desafíos o 
+ejercitación extra) utilizando datos relacionados con su actividad.
+También añadir entre dos a cuatro horas de costo extra si solicitan grabar la clase 
+para uso futuro o para publicarla.  No aceptes agregás "una cosa más" sin confirmar 
+primero que vas a vas a cobrar por el trabajo.  Si lo que estás enseñando 
+es especializado o avanzado y requiere una preparación extra (por ejemplo,
+incorporar las APIs de la empresa en el material del curso sobre como usar R
+para análisis de datos) o contar con conocimientos avanzados y 
+actualizados puedes agregar entre dos a cuatro horas al costo total.
 	
 Enseñando en equipo
-: 	Si por el numero de estudiantes que va a tener tu curso	necesitas ayuda, entonces se agregan las horas de clase de los ayudantes.  Si el curso es presencial también se agregan	los costos de viaje y alojamiento, tanto tuyo como de tus co-docentes y ayudantes.
+: 	Ya hemos mencionado que es mejor si enseñamos con otras personas. Ya sea
+porque siempre enseñas en equipo, por que por el numero de estudiantes que va 
+a tener tu curso necesitas ayuda, debes agregar al costo las horas de clase 
+de quienes enseñaran contigo.  Si el curso es presencial también se agregan	
+los costos de viaje y alojamiento, tanto tuyo como de tus co-docentes y ayudantes.
 	
 
 Ultimos ajustes
-:	puede ser que no quieras tener la misma tarifa para una	universidad pública que para una empresa; para una organización	sin fines de lucro que para un banco o compañía de seguros.
-  Puedes tener un valor de la hora diferente para diferente tipos de organizaciones.   También puedes ofrecer tus servicios de forma gratuita o acordar un precio diferente si donan tu pago a una organización	que desees ayudar.  Finalmente, no trabajes barato con la esperanza de que la capacitación te lleve a un trabajo de consultoría: ocurre, pero es muy infrecuente como para apostar por ello.
+:	puede ser que no quieras tener la misma tarifa para una	universidad 
+pública que para una empresa; para una organización	sin fines de lucro 
+que para un banco o compañía de seguros.
+  Puedes tener un valor de la hora diferente para diferente tipos de organizaciones. 
+  También puedes ofrecer tus servicios de forma gratuita o acordar un precio 
+  diferente si donan tu pago a una organización	que desees ayudar. 
+  Finalmente, no trabajes barato con la esperanza de que la capacitación 
+  te lleve a un trabajo de consultoría: ocurre, pero es muy infrecuente 
+  como para apostar por ello.
   
-
 ## Dándote a conocer 
 
 Tus clientes deben poder encontrarte y conocer lo que ofreces para poder contratarte. En esta sección veremos algunas opciones para tener una presencia online que te ayude a realizar tu trabajo de enseñanza.
