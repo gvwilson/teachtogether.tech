@@ -383,8 +383,71 @@ pares y una publicación del artículo en caso que sea aceptado.
 Un par de puntos más sobre los materiales
 
 Nunca cedas los derechos de tu material.
-: Tanto como si prefieres publicar tus materiales o guardarlos para ti, no dejes 
-    que un cliente te diga que tu material le pertenece o que tiene el derecho exclusivo a usarlo, a menos que que te haya pagado (muy bien) por ese privilegio.
+: Tanto como si prefieres publicar tus materiales o guardarlos para ti, 
+no dejes que un cliente te diga que tu material le pertenece o que tiene 
+el derecho exclusivo a usarlo, a menos que que te haya pagado 
+(muy bien) por ese privilegio.
 
 Materiales armados durante tu trabajo de empleado
-:  Si quiere utilizar externamente el material que has desarrollado en su trabajo (por ejemplo, si has creado un curso para una universidad y ahora quieres utilizar esas lecciones en cursos de conferencias), asegúrate de confirmar por escrito o por correo electrónico que tu empleador está de acuerdo *antes* de hacerlo.
+:  Si quiere utilizar externamente el material que has desarrollado 
+en tu trabajo como empleado (por ejemplo, si has creado un curso para 
+una universidad y ahora quieres utilizar esas lecciones en una conferencia), 
+asegúrate de confirmar por escrito o por correo electrónico que tu 
+empleador está de acuerdo *antes* de hacerlo.
+
+## Ejercicios {#getting-paid-exercises}
+
+### Sobre hombros de gigantes (individual/15') {.exercise}
+
+En la web del [_Journal of Open Source Education_](https://jose.theoj.org/)
+busca publicaciones relacionadas con los temas que enseñas.
+Analiza el formato y contenido de los artículos.
+
+1. ¿Podrías presentar tus cursos de esta manera?
+
+2. ¿Alguna de las publicaciones podría serte útil para tus propios cursos?
+
+3. ¿Es claro la licencia de los trabajos? ¿Y como citarlos?
+
+### Licencias (individual/15') {.exercise}
+
+Utiliza el [selector de licencias](https://creativecommons.org/choose/?lang=es_AR) 
+de Creative Commons para decidir que tipo de licencia usarías con tus materiales.
+
+1. ¿Cuál elegiste? ¿Porqué?
+
+2. ¿Usarías la misma para todos tus cursos?
+
+### Cuanto cobrar (clase completa/15') {.exercise}
+
+1. Utilicen el sitio web [500 Women Scientists' Fix The Gap initiative](https://fixthegap.shinyapps.io/live/) 
+para analizar cuanto se cobra por diferentes actividades de enseñanza. 
+
+2. ¿Es útil esta información? ¿Te parece que son necesarios estos sitios?
+
+3. Comparen esos precios con los que ustedes cobran.
+
+4. (opcional) Agreguen sus datos y experiencias a la base de datos
+para ayudar a más personas a determinar un costo ético y justo
+para su actividad.
+
+### Determinando la licencia de un material (en grupos/15') {.exercise}
+
+Recorre las lecciones de [The Carpentries](https://carpentries.org/) y
+contesta:
+
+1. ¿Dónde se especifica la licencia? ¿Cuál es?
+
+2. ¿Qué podrías hacer con este material?
+
+
+### Contribuyendo (en grupos/15') {.exercise}
+
+[En el repositorio de este libro](https://github.com/gvwilson/teachtogether.tech/issues) 
+hay una lista de _issues_ a resolver. 
+
+1. Si ves alguno que te interesa, agrega tus comentarios o
+la solución al problema si es que la tienes.
+
+2. Crea un nuevo _issue_ si tienen una sugerencia, 
+arreglo, mejora, que no está en los _issues_ existentes.
