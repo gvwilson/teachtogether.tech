@@ -1,19 +1,33 @@
 ---
-title: "Hacer el bien y lograr que te paguen"
+title: "Como vivir de enseñar"
 template: page
 ---
 
 ## Introducción
 
-La primera opción para trabajar como docente es pertener a alguna institución formal de educación, como las escuelas y las universidades.
-Pero estas instituciones no son los únicos lugares en donde la gente va a aprender programación (u otro tipo de tecnología); en los últimos años, un número creciente de personas ha acudido a talleres *free-range* y programas de entrenamiento intensivo.
-Estos últimos suelen tener entre uno y seis meses de duración, son llevados a cabo por grupos de personas voluntarias o por empresas con un fin de lucro y apuntan a un mercado de personas que quieren cambiar de carrera o se están re-entrenando para ingrear al mercado laborar del mundo de la tecnología.
+La primera opción para trabajar como docente es pertener a alguna institución 
+formal de educación, como las escuelas y las universidades.
+Pero estas instituciones no son los únicos lugares en donde la gente va a 
+aprender programación (u otro tipo de tecnología); en los últimos años, 
+un número creciente de personas ha acudido a talleres *free-range* y programas 
+de entrenamiento intensivo.
+Estos últimos suelen tener entre uno y seis meses de duración, son llevados 
+a cabo por grupos de personas voluntarias o por empresas con un fin de lucro 
+y apuntan a un mercado de personas que quieren cambiar de carrera o se están 
+re-entrenando para ingresar al mercado laborar de la tecnología.
 
-Ya sea como docente independiente o como parte de una comunidad de práctica vas a tener que empezar de alguna manera y vas necesitar conseguir financimiento para que puedas enseñar de forma sustentable.
+Ya sea como docente independiente o como representante de una comunidad de práctica 
+de enseñanza, vas a tener que empezar de alguna manera, hacerte conocer y lograr
+financiamiento para que puedas enseñar de forma sustentable. 
 
-En este capitulo repasamos diferentes modelos para hacer el bien enseñando y lograr que te paguen por eso. 
+En este capitulo repasamos diferentes modelos para hacer el bien enseñando
+y lograr que te paguen por eso, lo suficiente para hacerlo tu profesión. 
 
-No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque son específicos a cada país/región. El libro de <cite>Gunderloy2009</cite> tiene consejos al respecto enfocados en Estados Unidos. Te recomendamos que busques asesoramiento profesional en tu país.
+No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque 
+son específicos a cada lugar y por eso te recomendamos que busques asesoramiento 
+profesional en tu localidad. El libro de <cite>Gunderloy2009</cite> tiene consejos 
+sobre estos temas enfocados en Estados Unidos, puede ser una referencia útil 
+si tu negocio de enseñanza es internacional.
 
 ## Por donde empezar
 
