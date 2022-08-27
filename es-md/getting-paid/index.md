@@ -18,10 +18,10 @@ re-entrenando para ingresar al mercado laborar de la tecnología.
 
 Ya sea como docente independiente o como representante de una comunidad de práctica 
 de enseñanza, vas a tener que empezar de alguna manera, hacerte conocer y lograr
-financiamiento para que puedas enseñar de forma sustentable. 
+que te paguen por tus actividades para que puedas enseñar de forma sustentable. 
 
 En este capitulo repasamos diferentes modelos para hacer el bien enseñando
-y lograr que te paguen por eso, lo suficiente para hacerlo tu profesión. 
+y lograr que te paguen por eso lo suficiente para hacerlo tu profesión. 
 
 No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque 
 son específicos a cada lugar y por eso te recomendamos que busques asesoramiento 
@@ -192,22 +192,41 @@ como parte de su empleo regular remunerado").
 
 ## Como determinar cuanto cobrar / Negociando el pago
 
-Ya sea como docente independiente o como parte de una comunidad de práctica vas  necesitar conseguir financimiento y cobrar por tus actividades para que puedas enseñar de forma sustentable.
+Muchas veces el pago está fijado con antelación, por ejemplo, en una institución 
+formal hay convenios colectivos de trabajo que determinan el sueldo de un docente.
 
-Muchas veces el pago está fijado con antelación, por ejemplo, en una institución formal hay convenios colectivos de trabajo que determinan el sueldo de un docente.
+También puede ser que en conferencias y algunas comunidades de práctica 
+el pago sea determinado por quienes organizan el evento.  En otras ocasiones 
+las contrataciones gubernamentales o en empresas cuentan con un presupuesto 
+prefijado destinado a capacitaciones, por ejmplo un monto máximo al año o 
+un valor fijo de la hora de enseñanza.  En estos casos, como el precio no
+se puede negociar, tienes que analizar si el arreglo es conveniente o no
+para ti, teniendo en cuenta algunos de los puntos de la sección anterior.
 
-También puede ser que en conferencias y algunas comunidades de práctica el pago a los tutores sea determinado por quienes organizan el evento.  En otras ocasiones las contrataciones gubernamentales o en empresas cuentan con un presupuesto prefijado destinado a capacitaciones (por ejmplo un monto máximo al año o un valor de la hora de enseñanza).
+Otras veces te van a pedir un presupuesto por tu trabajo docente. 
+Determinar este precio depende de diversos factores, como por ejemplo 
+_la región del mundo_ donde vas a vender tu curso, el _tipo de empresa 
+u organización_ que te lo pide, la _duración_ del curso, la _modalidad_ 
+(presencial, online o híbrida) o el _nivel de personalización_ requerido, 
+por mencionar algunos.
 
-Otras veces te van a pedir un presupuesto por tu trabajo docente.  Determinar este precio depende de diversos factores, como por ejemplo _la región del mundo_ donde vas a vender tu curso, el _tipo de empresa u organización_ que te lo pide, la _duración_ del curso, la _modalidad_ (presencial u online), el _nivel de personalización_ requerido, entre otros factores.
-
-En esta sección te presentamos una serie de pasos para determinar el precio de tu tarea docente a partir de la experiencia personal de los autores y de colegas docentes.
-
-No vamos a cubrir ningún aspecto legal, impositivo o de contaduría porque son específicos a cada país/región. Te recomendamos que busques asesoramiento profesional en tu país. El libro de <cite>Gunderloy2009</cite> tiene consejos al respecto enfocados en Estados Unidos. 
+En esta sección te presentamos una serie de pasos para determinar el precio 
+de tu tarea docente.
 
 
 Calcular el precio (por hora)
-:	un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionales y los gremios suelen 	brindar listados de precios por hora para las tareas de sus profesionales, muchas veces están publicados en sus sitios web. Otra fuente puede ser el valor por hora de un docente de nivel superior (universitario/terciario), a la cual se debe multiplicar por 2.5 o 3 para obtener un precio que contemple los costos de un trabajador autónomo.
-También podes consultar con colegas cuál es el precio que ellos cobran y analizar el precio promedio en cursos similares.  En 2021 se lanzó [500 Women Scientists' Fix The Gap initiative](https://fixthegap.shinyapps.io/live/) para generar una base de datos pública con una lista de honorarios por dar charlas en CTIM (Ciencia, Tecnología, Ingeniería y Matemáticas), aunque la mayoría de los datos se concentra en el norte global es una buena fuente de consulta.
+:	un primer paso es asignar un precio a la hora de trabajo.  Los colegios profesionales 
+y los gremios suelen brindar listados de precios por hora para las tareas de sus profesionales, 
+muchas veces están publicados en sus sitios web. Otra fuente puede ser el valor 
+por hora de un docente de nivel superior (universitario/terciario), al cual 
+se debe multiplicar por 2.5 o 3 para obtener un precio que contemple 
+los costos que tiene trabajar de forma autónoma <cite>Gunderloy2009</cite>.
+También podes consultar con colegas qué precio por hora cobran y analizar 
+el precio promedio en las publicaciones y ofertas de cursos similares a
+los tuyos. En 2021 se lanzó [500 Women Scientists' Fix The Gap initiative](https://fixthegap.shinyapps.io/live/) 
+para generar una base de datos pública con una lista de honorarios por dar 
+charlas en CTIM (Ciencia, Tecnología, Ingeniería y Matemáticas), aunque 
+la mayoría de los datos se concentra en el norte global es una buena fuente de consulta.
 
 
 Determinar una tarifa base
