@@ -157,13 +157,37 @@ _En resumen, presta atención a que tipo de proyecto y emprendimiento te estas s
 
 
 Reusa y traduce materiales de enseñanza exitosos a tu lenguaje
-:	El lenguaje puede ser una barrera importante a la hora de acceder a contenido actualizado. Hay muchas personas que comparten sus materiales educativos en linea, algunos de estos materiales han sido reutilizados y refinados, logrando lecciones de calidad que funcionan muy bien (por ejemplo las lecciones de [The Carpentries](https://carpentries.org/) y [MetaDocencia](https://www.metadocencia.org/)). Si la [licencia de uso](https://es.wikipedia.org/wiki/Licencia) lo permite, podrías aprovecharlos para tus propias clases y materiales, adaptándolos si es necesario. Parte de esas adaptaciones puede ser la traducción a tu idioma, si la licencia permite obras derivadas. Siempre es una buena idea contactar a la persona autora de los materiales y hacerle saber tus intenciones de uso, adaptación y traducción.  Si ya están trabajando en eso tal vez puedas sumarte al equipo.
-Este reuso puede ahorrarte trabajo en el desarrollo y diseño de lecciones, puede darte buenas ideas para lecciones propias y puedes aportar a tu comunidad al hacer disponible un material a más personas con una traducción. Si has traducido materiales conocidos y útiles, serás una de las personas autoras de la traducción, lo que es una buena forma de hacerte conocer y generar contactos y futuros clientes.
+:	El lenguaje puede ser una barrera importante a la hora de acceder a 
+contenido actualizado. Hay muchas personas que comparten sus materiales 
+educativos en linea, algunos de estos materiales han sido reutilizados y 
+refinados, logrando lecciones de calidad que funcionan muy bien (por ejemplo 
+las lecciones de [The Carpentries](https://carpentries.org/) y 
+[MetaDocencia](https://www.metadocencia.org/)). Si la [licencia de uso](https://es.wikipedia.org/wiki/Licencia) 
+lo permite, podrías aprovecharlos para tus propias clases y materiales, 
+adaptándolos si es necesario. Parte de esas adaptaciones puede ser la traducción 
+a tu idioma, si cuentan con una licencia que permite obras derivadas. 
+Siempre es una buena idea contactar a la persona autora de los materiales 
+y hacerle saber tus intenciones de uso, adaptación y traducción.  
+Si ya están trabajando en eso tal vez puedas sumarte al equipo.
+Este reuso puede ahorrarte trabajo en el desarrollo y diseño de lecciones, 
+puede darte buenas ideas para lecciones propias y puedes aportar a tu comunidad 
+haciendo el material más accesible por medio de la traducción. 
+Además, si has traducido materiales conocidos y útiles, serás una de las personas 
+autoras de la traducción, lo que es una buena forma de hacerte conocer 
+y generar contactos.
 
 Habla con tu empleador.
-:   Si, como muchas otras personas, vas a dedicarte a enseñar mientras tienes otro trabajo (hasta que puedas dedicarte a tiempo completo a enseñar), es buena idea que tu empleador lo sepa. Es muy probable es que se entere de todas maneras y siempre es mejor que se entere primero por ti.  
-    Es recomendable mantener tu trabajo de formación separada de tus otros trabajos. Tango Greg como Yanina, realizaban tareas relacionadas con su servicio de enseñanza (como desarrollar los materiales de sus cursos o responder a correos electrónicos) fuera del horario laboral y usando sus usuarios y equipos personales.
-    Además, ofrécele a tu actual empleador realizar alguna formación interna de forma gratuita (donde _gratuita_ significa "durante horas de trabajo, como parte de su empleo regular remunerado").	
+:   Si, como muchas otras personas, vas a dedicarte a enseñar mientras tienes otro 
+trabajo (hasta que puedas dedicarte a tiempo completo a enseñar), es buena idea 
+que tu empleador lo sepa. Es muy probable es que se entere de todas maneras 
+y siempre es mejor que se entere primero por ti. 
+Es recomendable mantener tu negocio de docente de tus otros trabajos. 
+Tango Greg como Yanina, realizaban tareas relacionadas con su servicio de enseñanza 
+(como desarrollar los materiales de sus cursos o responder a correos electrónicos) 
+fuera del horario laboral y usando sus usuarios y equipos personales.
+Además, ofrécele a tu actual empleador realizar alguna formación interna 
+de forma gratuita (donde _gratuita_ significa "durante horas de trabajo, 
+como parte de su empleo regular remunerado").	
 
 
 ## Como determinar cuanto cobrar / Negociando el pago
