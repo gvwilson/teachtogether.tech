@@ -59,51 +59,101 @@ generar contactos y experiencia.  Si sos parte de alguna de estas organzaciones,
 empieza por allí.
 
 Empieza por las conferencias.
-:   Las conferencias, hackatones y eventos similares son una gran oportunidad 
+:   Las conferencias, _hackatones_ y eventos similares son una gran oportunidad 
 para hacer contactos y conocer clientes potenciales. 
 	Muchas conferencias tienen una sección o día destinado a tutoriales; 
 	busca que eventos y conferencias se van a realizar entre los próximos 
-	6 a 12 meses y revisa si hay un llamado a propuestas de tutoriales o 
-	contacta a las personas responsables de la organización de la conferencia 
-	(o directamente con la persona responsable de organizar los tutoriales) 
+	6 a 12 meses y revisa si hay un llamado a propuestas de tutoriales. 
+	Contacta a las personas responsables de la organización de la conferencia 
+	(o directamente con la persona responsable de organizar las capacitaciones) 
 	para ver qué buscan o si quieren lo que tú ya tienes.
 	Si hay un llamado a presentación de tutoriales, este suele solicitar algunos 
-	detalles sobre tu propuesta. También vas a necesitar una propuesta si te invitan a participar. 
+	detalles sobre tu propuesta, que también vas a necesitar si te invitan a participar. 
 	Te sugerimos que tu propuesta presente al menos los siguientes puntos:
 	
 	- _Audiencia_: podes presentar esta parte usando personas tipo (referencia).
 	- _Objetivos de aprendizaje_: lista que van a aprender tus estudiantes (referencia).
-	- _Propuestas pedagógica_: detalla como será la dinámica del curso, que tipo de herramientas de enseñanza activa vas a utilizar (ej: evaluaciones formativas, trabajo en grupo, codificación participatoria en vivo, etc.)
-	- _Esquema y duración_: una genda tentativa del curso donde se vea explicitamente los cortes y las ejercicitaciones.
-	- _Pre-requisitos_: de los estudiantes en cuanto a hardware, software y conocimientos previos.
+	- _Propuestas pedagógica_: detalla como será la dinámica del curso, que tipo 
+	de herramientas de enseñanza activa vas a utilizar (ej: evaluaciones formativas, 
+	trabajo en grupo, codificación participatoria en vivo, etc.)
+	- _Esquema y duración_: una agenda tentativa del curso donde se vea 
+	explicitamente los cortes y las ejercicitaciones.
+	- _Pre-requisitos_: para quienes tomen el curso en cuanto a hardware, software y conocimientos previos.
 	
-Estos puntos muestran que tienes conocimiento sobre como enseñar el tema, además del tema en si. En el anexo xx podes ver algunas plantillas para generar estos documentos.
+Estos puntos muestran que tienes conocimiento sobre como enseñar el tema, 
+además del tema en si. En el FIXME: <anexo xx> podes ver algunas plantillas 
+para generar estos documentos.
 
 Enseña en comunidades de práctica, organizaciones sin fines de lucro e instituciones públicas.
 :	y su puedes, hazlo sin cobrar dinero. 
-		Greg ha impartido media docena de clases gratuitas para bibliotecas públicas en los últimos años porque cree que las bibliotecas públicas son una de las mejores invenciones de la civilización y quiere ayudarlas tanto como pueda. También ha impartido clases para empresas locales a cambio de donaciones a organizaciones benéficas que quiere apoyar.   
-        Yanina ha ofrecido sus cursos de forma gratuita a agrupaciones como [R-Ladies](https://rladies.org/) y como cursos extracurriculares en universidades públicas en Argentina.  De esta manera puede devolver un poco de todo lo que ha recibido de la educación pública de su país y de las comunidades de práctica de las cuales es parte. 
-        Además, esta práctica, les permite generar nuevos contactos, probar material nuevo, ver cómo enseñan con una persona con la que no han enseñado antes y formar personas para que enseñen utilizando las técnicas y herramientas que aprendimos en este libro. 
+		Greg ha impartido media docena de clases gratuitas para bibliotecas 
+		públicas en los últimos años porque cree que las bibliotecas públicas 
+		son una de las mejores invenciones de la civilización y quiere ayudarlas 
+		tanto como pueda. También ha impartido clases para empresas locales a 
+		cambio de donaciones a organizaciones benéficas que quiere apoyar.   
+        Yanina ha ofrecido sus cursos de forma gratuita a agrupaciones como [R-Ladies](https://rladies.org/) 
+        y como cursos extracurriculares en universidades públicas en Argentina. 
+        De esta manera puede devolver un poco de todo lo que ha recibido de la educación 
+        pública de su país y de las comunidades de práctica de las cuales es parte. 
+        Además, esta práctica, les permite generar nuevos contactos, probar material nuevo, 
+        ver cómo enseñan con una persona con la que no han enseñado antes y 
+        formar personas para que enseñen utilizando las técnicas y herramientas 
+        que aprendimos en este libro. 
         
 Ve donde no están los demás.
-:   Muchas personas que se dedican a brindar servicios de capacitación sobre programación o ciencia de datos, enseñan para los negocios más conocidos o que están de moda, como las industrias farmacéutica y financiera.  
-	Hoy todas las industrias necesitan ayuda con el manejo y explotación de sus datos, aunque no todas sean tan glamorosas.  Cualquiera sea el mercado al que vas a ofrecer tus servicios:
-	1.  Utiliza ejemplos que sean directamente relevantes para su campo.
-    2.  Conoce a tu audiciencia hablando con otras personas *además de tus contactos iniciales* para poder hacerte una idea de como son las [personas tipo]() de esa comunidad y que conocimientos previos ya tienen.
+:    hoy todas las industrias necesitan ayuda con el manejo y explotación 
+de sus datos; no es necesario ofrecer tus servicios a los negocios más conocidos o de moda. 
+Cualquiera sea el mercado donde ofrezcas tus servicios, usa ejemplos que sean 
+directamente relevantes para su campo y conoce a tu audiciencia hablando con más personas 
+*además de tus contactos iniciales* para poder hacerte una idea de como son 
+las [personas tipo]() de esa comunidad y que conocimientos previos ya tienen.
 
 
 Programas de entrenamiento intensivos (bootcamps)
-:	Si te estás aproximando a un programa de entrenamiento intensivo que ya existe,	tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza, en lugar de lo que sabes sobre tecnología, ya que gran parte de las personas que trabajan en estos emprendimientos tiene experiencia en programación	pero poca o ninguna formación en educación.
-	Puedes demostrar lo que sabes usando el material presentado en los primeros capítulos de este libro (que ya a funcionado con estos espacios en el pasado).
-	Además <cite>Lang2016</cite> describe prácticas de enseñanza basadas en evidencia que pueden implementarse con un esfuerzo mínimo y a bajo costo. Aunque estas prácticas no son las de mayor impacto, te pueden ayudar a lograr éxitos iniciales que te ayuden a lograr apoyo para prácticas que requieren mayor esfuerzo.
+:	Si te estás aproximando a un programa de entrenamiento intensivo que 
+ya existe,	tu mejor estrategia podría ser enfatizar lo que sabes sobre enseñanza, 
+en lugar de lo que sabes sobre tecnología, ya que gran parte de las personas 
+que trabajan en estos emprendimientos tiene experiencia en programación	
+pero poca o ninguna formación en educación.
+Puedes demostrar lo que sabes usando el material presentado en los primeros 
+capítulos de este libro (que ya a funcionado con estos espacios en el pasado).
+Además <cite>Lang2016</cite> describe prácticas de enseñanza basadas 
+en evidencia que pueden implementarse con un esfuerzo mínimo y a bajo costo. 
+Aunque estas prácticas no son las de mayor impacto, pueden ser útiles para 
+lograr éxitos iniciales que te ayuden a lograr apoyo para prácticas 
+que requieren mayor esfuerzo.
     
-_Una nota de precaución_: Debes tener en cuenta que algunos de estos programas son de muy alta calidad, pero otros existen esencialmente para sacarle dinero a la gente <cite>McMi2017</cite>.
-	<cite>Thay2017</cite> entrevistó a 26 graduados de entrenamientos intensivos que les dan una segunda oportunidad a personas que ya intentaron aprender computación. Estas personas enfrentan grandes costos y riesgos personales: deben gastar una cantidad significativa de tiempo, dinero y esfuerzo antes,	durante y después de los entrenamientos, y cambiar de carrera puede tomar un año o más.
-	Varias de las personas entrevistadas sienten que sus certificados fueron subestimados por sus empleadores, algunas expresaron que obtener un trabajo significa aprobar una entrevista, pero dado que quienes te entrevistan, en general, no comparten los motivos del rechazo, es difícil saber qué mejorar o qué más aprender. 
-	Muchas personas han tenido que recurrir a pasantías (pagas o de otro tipo) y pasan mucho tiempo construyendo sus portfolios y haciendo networking. Las tres barreras informales que más fácilmente identificaron las personas entrevistadas fueron _la jerga, el síndrome del impostor/a y una sensación de no encajar_.
-	<cite>Burk2018</cite> profundizó en este tema al comparar las habilidades y credenciales que la industria tecnológica busca con aquellas habilidades provistas por carreras de cuatro años y programas de entrenamiento intensivo. A partir de entrevistas con 15 responsables de contratación de empresas de varios tamaños y algunos grupos focales, encontraron que las personas que reclutan enfatizaban uniformemente en habilidades blandas (especialmente trabajo en equipo, comunicación y la habilidad para continuar aprendiendo). Muchas compañías requerían un título de cuatro años (aunque no necesariamente en ciencias de la computación), pero muchas también elogiaron a quienes han egresado de estos programas de entrenamiento intensivo por tener más madurez y poseer conocimientos más actualizados.
+_Una nota de precaución_: Debes tener en cuenta que algunos de estos programas 
+son de muy alta calidad, pero otros existen esencialmente para sacarle dinero 
+a la gente <cite>McMi2017</cite>.
+<cite>Thay2017</cite> entrevistó a 26 personas graduadas de entrenamientos 
+intensivos que tienen como objetivo dar una segunda oportunidad a 
+quienes ya intentaron aprender computación. Estas personas enfrentan grandes 
+costos y riesgos personales porque deben invertir una cantidad significativa de 
+tiempo, dinero y esfuerzo durante todo el proceso de entrenamiento y el
+cambio de carrera, posterior a graduarse, puede tomar un año o más.
+Varias de las personas entrevistadas sienten que sus certificados 
+fueron subestimados por sus empleadores, algunas expresaron que obtener 
+un trabajo significa aprobar una entrevista, pero dado que quienes te entrevistan, 
+en general, no comparten los motivos del rechazo, es difícil saber qué mejorar 
+o qué más aprender. 
+Muchas personas han tenido que recurrir a pasantías (pagas o de otro tipo) 
+y pasan mucho tiempo construyendo sus porfolios y desarrollando su red de contactos. 
+Las tres barreras informales que más fácilmente identificaron las personas 
+entrevistadas fueron _la jerga, el síndrome del impostor/a y una sensación de no encajar_.
+<cite>Burk2018</cite> profundizó en este tema al comparar las habilidades 
+y credenciales que la industria tecnológica busca con aquellas habilidades 
+provistas por carreras universitarias de cuatro años y programas de entrenamiento intensivo. 
+A partir de entrevistas con 15 responsables de contratación de empresas 
+de varios tamaños y algunos grupos focales, encontraron que las personas 
+que reclutan enfatizaban uniformemente en habilidades blandas 
+(especialmente trabajo en equipo, comunicación y la habilidad para continuar aprendiendo). 
+Muchas compañías requerían un título de cuatro años (aunque no necesariamente 
+en ciencias de la computación), pero muchas también elogiaron a quienes 
+han egresado de estos programas de entrenamiento intensivo por 
+tener más madurez y poseer conocimientos más actualizados.
 	
-_En resumen, presta atención y ten cuidado a que tipo de proyecto y emprendimiento te estas sumando._
+_En resumen, presta atención a que tipo de proyecto y emprendimiento te estas sumando._
 
 
 Reusa y traduce materiales de enseñanza exitosos a tu lenguaje
